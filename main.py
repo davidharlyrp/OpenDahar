@@ -254,7 +254,9 @@ optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 # 5. Training Loop & Inference
 # ==========================================
 if __name__ == "__main__":
+    total_params = sum(p.numel() for p in model.parameters())
     print(f"=====================================")
+    print(f"Total Parameter Model: {total_params / 1e6:.2f} Juta ({total_params})")
     print(f"Menjalankan training dengan Device: {device}...")
     print(f"=====================================")
     for iter in range(max_iters):
@@ -286,4 +288,7 @@ if __name__ == "__main__":
     model_path = "model_geoteknik.pth"
     torch.save(model.state_dict(), model_path)
     print(f"Bobot model disimpan di '{model_path}'")
+    
+    total_params_after = sum(p.numel() for p in model.parameters())
+    print(f"\n[Info] Total Parameter Model setelah training: {total_params_after / 1e6:.2f} Juta ({total_params_after})")
     print("\nProses Training & Saving Selesai! Anda siap menggunakan chat.py.")
