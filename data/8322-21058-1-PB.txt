@@ -1,0 +1,595 @@
+AGREGAT                                                                                                                                                             
+ISSN : 2541 - 0318 [Online] 
+Vol. 6, No. 1, Mei 2021                                                                                                                                                      ISSN : 2541 - 2884 [Print] 
+Himatul/Jurnal Review ...../499-504 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+499 
+ 
+ 
+Jurnal Review: Metode Konstruksi Dan Perilaku Stone Column Sebagai 
+Perkuatan Tanah Dasar Timbunan 
+ 
+* Himatul Farichah1 
+1Teknik Sipil, Fakultas Teknik, Universitas Pembangunan Nasional “Veteran” Jawa Timur, Surabaya 
+*)himatul_farichah.ts@upnjatim.ac.id 
+ 
+ 
+Abstract 
+Rapid increase in constructions recently have undisputedly increased the importance of ground improvement methods. Stone 
+column is one of the most well know ground improvement method. This method is able to increase bearing capacity and reduce 
+foundation settlement on soft cohesive soils, reduce the liquefaction potential for non-cohesive soils, and provide reinforcement 
+for slopes and embankments. This study discusses the stone column construction methods, mechanism and behavior of stone 
+columns as reinforcement under embankment through recent studies. 
+ 
+Keywords: Stone column, Ground improvement method, Embankment 
+ 
+ 
+Abstrak 
+Pesatnya perkembangan konstruksi belakangan ini telah meingkatkan pentingnya metode perbaikan tanah. Kolom batu (stone 
+column) adalah salah satu metode perbaikan tanah yang sudah umum digunakan. Metode ini mampu menaikkan daya dukung 
+dan mengurangi penurunan pondasi pada tanah kohesif yang lunak, mampu mengurangi potensi likuifaksi pada tanah non 
+kohesif, dan mampu memberikan perkuatan untuk lereng dan timbunan. Studi ini membahas mengenai metode konstruksi stone 
+column, mekanisme dan perilaku stone column sebagai perkuatan tanah dasar timbunan melalui hasil studi yang terbaru. 
+ 
+Kata Kunci: Stone column, Metode Perbaikan Tanah, Timbunan 
+ 
+ 
+PENDAHULUAN 
+ 
+Pesatnya perkembangan dunia konstruksi be-
+berapa tahun belakangan membuat peningkatan pentingnya 
+metode perbaikan tanah. Diantara banyaknya metode per-
+baikan tanah (seperti vertical drain, pemadatan dinamik, 
+surcharge dan vacuum preloading, dan lain-lain), kolom 
+batu (stone column) adalah salah satu metode perbaikan 
+tanah yang sudah umum digunakan. Konsep perbaikan 
+tanah dengan stone column, nampaknya, pertama kali diap-
+likasikan di Perancis pada tahun 1830 untuk perbaikan 
+tanah disana (Dheerendra Babu et al., 2013). Metode ini 
+mampu 
+menaikkan 
+daya 
+dukung 
+dan 
+mengurangi 
+penurunan pondasi pada tanah kohesif yang lunak, mampu 
+mengurangi potensi likuifaksi pada tanah non kohesif, dan 
+mampu memberikan perkuatan untuk lereng dan timbunan 
+(Etezad et al., 2015).   
+Stone column adalah metode perbaikan dengan 
+melakukan penggantian pada sebagian tanah dasar kon-
+struksi dengan kolom batu yang dipadatkan. Dengan 
+demikian, akan tercipta material komposit antara kolom 
+batu tersebut dengan tanah sekitar yang memiliki kompresi-
+bilitas yang lebih rendah (Greenwood, 1970,  Poorooshasb 
+& Meyerhof, 1997). Material komposit tersebut akan mem-
+iliki shear strength yang lebih baik dibanding dengan tanah 
+lunak semula (Basack et al., 2015). Sistem perbaikan tanah 
+dengan stone column yang diaplikasikan pada tanah lunak 
+yang kompresibel, sederhananya seperti pondasi tiang (pile) 
+tanpa pile cap, tidak perlu ditanam hingga tanah keras, dan 
+tentu saja stone column lebih kompresibel (J. Mitchell, 
+1981).  Sedangkan stone column yang diaplikasikan pada 
+tanah pasir lepas mampu mengurangi potensi likuifaksi. Hal 
+ini karena dengan adanya stone column mampu mendisipasi 
+tekanan air pori yang timbul ketika ada beban dinamis dari 
+gempa (J. K. Mitchell & Huber, 1985). Salah satu aplikasi 
+dari stone column di Indonesia yaitu pada proyek pem-
+bangunan runway bandara Soekarno-Hatta (Maulidina et 
+al., 2019). 
+Stone column adalah salah satu metode yang 
+umum digunakan juga untuk perbaikan tanah lunak di 
+bawah timbunan. Stone column sendiri memiliki beberapa 
+tipe, diantaranya yaitu yang terbungkus, melayang (float-
+ing) dan yang paling umum adalah tipe end-bearing (Ng & 
+Tan, 2014). Meskipun demikian pemilihan stone column 
+tipe melayang didasari oleh beberapa hal (Jung et al., 1998). 
+Diantaranya yaitu (1) pertimbangan biaya konstruksi, (2) 
+keterbatasan alat konstruksi, (3) mengantisipasi aliran air 
+dari lapisan bawah ke stone column, (4) mengantisipasi ali-
+ran air kotor dari permukaan tanah ke sumber air tanah di 
+dasar. Selain itu, stone column umumnya dikombinasikan 
+dengan lapisan kaku di dasar timbunan jika digunakan un-
+tuk perbaikan tanah lunak di bawah timbunan. Lapisan ter-
+sebut bisa berupa lapisan granular yang kaku, geotextile 
+atau geogrid. Studi mengenai pemodelan stone column se-
+bagai perkuatan lempung lunak baik dalam skala laborato-
+rium maupun pemodelan numerik juga sudah banyak dil-
+akukan.  
+Oleh karena itu, pada studi ini dilakukan review 
+mengenai metode konstruksi dari stone column dan perilaku 
+stone column sebagai metode perbaikan tanah dasar timbu-
+nan baik dari sisi permodelan numerik maupun eksperimen,  
+ 
+METODE 
+ 
+Langkah-langkah atau rancangan penelitian pada 
+studi ini sebagai berikut sesuai dengan diagram alir pada 
+Gambar 1. 
+1. Start. 
+2. Studi literatur mengenai stone column, perkembangan 
+research tentang stone column dalam 10 tahun terakhir. 
+AGREGAT                                                                                                                                                             
+ISSN : 2541 - 0318 [Online] 
+Vol. 6, No. 1, Mei 2021                                                                                                                                                      ISSN : 2541 - 2884 [Print] 
+500 
+ 
+Himatul/Jurnal Review ...../499-504 
+3. Identifikasi masalah terkait pesatnya perkembangan 
+studi stone column dalam 10 tahun terakhir.  
+4. Pembahasan lebih mengerucut mengenai metode kon-
+struksi stone column berdasarkan hasil literature re-
+view. 
+5. Tahap selanjutnya adalah mengenai perilaku stone col-
+umn sebagai metode perbaikan tanah dasar timbunan. 
+Pada tahap ini akan dipaparkan hasil literature review 
+baik dari hasil ekperimen maupun numerik yang sudah 
+dilakukan dalam 10 tahun terakhir. 
+6. Dari poin 3 hingga poin 5 maka dapat dirumuskan kes-
+impulan dan saran. 
+7. Finish 
+ 
+ 
+Gambar 1. Diagram alir metode penelitian 
+ 
+HASIL DAN PEMBAHASAN 
+ 
+Metode Konstruksi Stone column 
+ 
+Metode konstruksi stone column adalah dengan 
+menentukan titik stone column yang kemudian akan diisi 
+oleh batuan atau campuran batuan dengan pasir dengan 
+porsi tertentu yang dipadatkan sehingga mencapai kolom 
+dengan kekuatan yang direncanakan. Beberapa metode kon-
+struksi sudah banyak diterapkan tergantung dari kesediaan 
+alat pada lokasi projek tersebut. 
+Metode vibro-replacement dan vibro-displace-
+ment adalah metode konstruksi stone column yang sudah 
+umum digunakan. Keduanya memiliki teknik menggunakan 
+vibratory probe (kepala penggetar disebut vibroflot) yang 
+dimasukkan ke dalam tanah untuk membentuk lubang ko-
+lom dan memadatkan material granular yang nanti dimasuk-
+kan ke dalam kolom. Vibrating probe akan menggetarkan 
+sehingga tanah akan terdesak atau bergerak secara lateral. 
+Perbedaan utama antara vibro-replacement dan vibro-dis-
+placement ini adalah pada media yang digunakan untuk 
+membantu vibroflot (Kirsch & Bell, 2012).  Vibro-replace-
+ment menggunakan penyeprot air (water jetting) atau 
+dikenal dengan metode basah (wet method). Metode ini su-
+dah banyak diterapkan untuk instalasi stone column pada 
+tanah kohesif (Balaam & Booker, 1981). Sedangkan vibro-
+replacement dikenal dengan metode kering (dry method) 
+karena menggunakan penyemprot udara (air jetting). Per-
+bandingan antara dry method dan wet method akan dibahas 
+lebih detail sebagai berikut. 
+ 
+a. Wet method 
+Pada metode ini, probe diposisikan pada titik 
+rencana. Kemudian dilakukan penetrasi dengan kecepatan 
+0.3-0.5 m/min (Han, 2015) ke dalam tanah hingga kedala-
+man rencana dengan menggunakan water jetting seperti 
+pada Gambar 2. Jika kedalaman lubang sudah sesuai 
+rencana maka batuan dengan ukuran 12-75 mm dimasukkan 
+dari atas ke dalam lubang. Material granular / batuan terse-
+but dipadatkan setiap 0.6 – 1.2 m (Han, 2015). Metode ini 
+diterapkan pada tanah kohesif yang umumnya memiliki 
+kekuatan 15 – 50 kPa dengan kondisi muka air tanah yang 
+tinggi (Greenwood & Kirsch, 1983).  
+Salah satu kelebihan dari metode basah ini adalah 
+berkurangnya polusi udarah yang dihasilkan. Tetapi karena 
+media penyemprotan menggunakan air, sehingga membu-
+tuhkan air yang cukup banyak. Selama proses pelaksanaan 
+juga akan menghasilkan lumpur yang perlu di atur dengan 
+baik untuk menjaga kebersihan dan keselamatan di area 
+kerja. 
+ 
+ 
+Gambar 2. Metode vibro-replacement dengan metode basah 
+(Dheerendra Babu et al., 2013) 
+ 
+b. Dry method  
+Pada metode ini, media penyemprot yang 
+digunakan untuk membentuk lubang kolom bukanlah air 
+tetapi udara. Material granular atau batuan dimasukkan ke 
+dasar lubang melalui pipa pada probe seperti pada Gambar 
+3. Pada metode ini, lubang harus mampu berdiri tegak 
+dengan stabil, sehingga metode ini cocok untuk tanah ko-
+hesif yang memiliki undrained shear strength antara 30-60 
+kPa (Greenwood & Kirsch, 1983).  
+Kelebihan dari metode ini adalah lebih sedikit-
+nya lumpur yang dihasilkan dibandingkan dengan metode 
+basah. Selain itu juga area kerja akan lebih bersih karena 
+batuan dimasukkan dari dasar kolom. 
+AGREGAT                                                                                                                                                             
+ISSN : 2541 - 0318 [Online] 
+Vol. 6, No. 1, Mei 2021                                                                                                                                                      ISSN : 2541 - 2884 [Print] 
+Himatul/Jurnal Review ...../499-504 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+501 
+ 
+ 
+Gambar 3. Metode vibro-displacement dengan metode 
+kering (Han, 2015) 
+ 
+Stone column sebagai perbaikan tanah dasar timbunan 
+ 
+Beberapa parameter yang menjadi pertimbangan 
+dalam perencanaan stone column diantaranya adalah tipe 
+tanah, ketebalan tanah yang diperbaiki, kedalaman muka air 
+tanah, material granular yang digunakan (gradasi dan sudut 
+geser), pola kolom (segitiga atau persegi), spasi kolom, di-
+ameter kolom, area yang diperbaiki dan tipe metode kon-
+struksi (Han, 2015). 
+Stone column sering kali digunakan sebagai per-
+baikan tanah dasar timbunan. Studi telah dilakukan oleh 
+Arsyad et al., 2019 mengenai pemodelan numerik terhadap 
+timbunan di atas tanah lunak dengan perbaikan stone col-
+umn dan kombinasi matras bambu pada dasar timbunan. fi-
+nite element method (FEM) dengan program bantu Plaxis 
+digunakan dalam pemodelan tersebut. Stone column 
+dimodelkan sebagai material tanah yang memiliki permea-
+bilitas tinggi (mohr coulomb-drained) dan matras bambu 
+dimodelkan sebagai plate. Hasil studi tersebut menunjuk-
+kan, stone column mampu mempercepat penurunan (settle-
+ment) hingga 96%. Sedangkan penggunaan matras bambu 
+dapat meningkatkan daya dukung (bearing capacity) hingga 
+2 (dua) kali lipat dibandingkan timbunan tanpa matras 
+bambu. Selain itu, kombinasi antara stone column dan mat-
+ras bambu pada dasar timbunan ternyata mampu mengu-
+rangi penurunan hingga 54.6% penurunan yang terjadi jika 
+timbunan tidak diperkuat sama sekali. Kombinasi keduanya 
+mampu membuat stone column sebagai vertical drain se-
+dangkan matras bambu sebagai pendistribusi beban,  
+ 
+ 
+Gambar 4. finite element method (FEM) model untuk 
+timbunan dengan stone column dan matras bamboo (Arsyad 
+et al., 2019) 
+ 
+Studi lain dari Ghorbani et al., 2021 dilakukan 
+dengan pemodelan numerik dua dimensi (2D) untuk menge-
+tahui bagaimana pengaruh stone column pada timbunan 
+yang berada di atas tanah lunak dengan lapisan geogrid pada 
+dasar timbunan dengan model seperti pada Gambar 5. Pa-
+rameter studi telah dilakukan dengan hasil parameter studi 
+menunjukkan bahwa semakin lebar spasi antar kolom maka 
+penurunan di bawah timbunan akan meningkat. Pening-
+katan sudut geser tanah akan memberikan efek yang signif-
+ikan pada penurunan di bawah timbunan. Peningkatan sudut 
+geser material granular akan memberikan efek yang dignif-
+ikan pada penurunan total deformasi pada tanah dasar. 
+Kedalaman stone column akan memberikan pengaruh yang 
+tinggi pada deformasi total dan tekanan pori berlebih (ex-
+cess pore pressure). Kedalaman kolom antara 0.25Hs – 
+0.75Hs mampu mengurangi penurunan deformasi vertikal 
+dan horizontal sebanyak dua dan lima kalinya, berurutan. 
+Sehingga stabilitas timbunan meningkat pada kedalaman 
+kolom tersebut.  
+ 
+ 
+ 
+ 
+Gambar 5. model numerik timbunan dengan perkuatan stone column dan geogrid pada dasar timbunan (Ghorbani et al., 
+2021) 
+ 
+ 
+AGREGAT                                                                                                                                                             
+ISSN : 2541 - 0318 [Online] 
+Vol. 6, No. 1, Mei 2021                                                                                                                                                      ISSN : 2541 - 2884 [Print] 
+502 
+ 
+Himatul/Jurnal Review ...../499-504 
+Pemodelan stone column di bawah timbunan 
+ 
+Beberapa studi telah dilakukan untuk mempela-
+jari perilaku stone column sebagai perbaikan tanah lunak 
+berdasarkan asumsi yang berbeda-beda, metode analisis dan 
+penerapannya, terkait pemodelan stone column secara nu-
+merik dan mekanik. Stone column bisa dianalisis dengan 
+pendekatan unit cell, plane strain maupun axi-symmetric. 
+Studi dari (Das & Deb, 2017) telah dilakukan dengan me-
+modelkan stone column sebagai perkuatan di bawah timbu-
+nan dengan kondisi axi-symmetric. Setiap elemen dimodel-
+kan secara mekanik seperti pada Gambar 6. Besar settlement 
+maksimum yang terjadi pada model axi-symmetric untuk 
+derajat konsolidasi 100% lebih kecil dibandingkan dengan 
+model plane-strain di kondisi yang sama. Untuk rasio diam-
+eter (diameter influenced zone/diameter stone column) yang 
+rendah, model axi-symmetric memberikan hampir sama 
+atau lebih rendah derajat konsolidasi dibandingkan dengan 
+derajat konsolidasi dengan pendekatan unit cell. Jika diam-
+eter rasio meningkat maka model axi-symmetric mem-
+berikan derajat konsolidasi yang lebih tinggi dibandingkan 
+dengan pendekatan unit cell.  
+ 
+ 
+ 
+Gambar 6. model stone column di bawah timbunan (Das & 
+Deb, 2017) 
+ 
+Pemodelan Stone column melayang di bawah timbunan 
+dengan 3D model 
+ 
+Stone column adalah metode perbaikan tanah 
+yang ditanam sedalam kedalaman tanah lunak sehingga 
+ujung stone column berada pada lapisan tanah yang cukup 
+baik (stone column end bearing). Stone column bisa juga di-
+aplikasikan melayang, artinya ujung stone column tidak 
+ditanam sedalam kedalaman tanah lunak. Beberapa studi 
+menyebutkan bahwa stone column melayang ini mampu 
+mengurangi settlement (Gäb et al., 2007; Schweiger et al., 
+2008). Berdasarkan analisis elemen hingga, rasio kedala-
+man stone column dan kedalaman tanah lunak yang bisa se-
+efektif stone column end bearing dalam menopang beban 
+timbunan adalah 0.5 (Mohamedzein & Al-Shibani, 2011). 
+Tetapi hal ini tentu saja tergantung dari fondasi timbunan, 
+kekakuan dan ketebalan tanah lunak. Studi terhadap stone 
+column yang melayang dibawah timbunan dengan model 
+3D dan beberapa konstitutif model tanah telah dilakukan 
+oleh (Ng & Tan, 2014). Pada studi tersebut timbunan berada 
+diatas Singapura marine clay dengan model hardening soil 
+(HS), soft soil (SS), modified Cam-clay (MMC), dan Mohr-
+Coulomb (MC). Potongan stone column dan timbunan pada 
+studi tersebut dapat dilihat pada Gambar 7. MC model 
+menunjukkan hasil vertical displacement pada dasar kolom 
+yang 1.5 kali lebih besar dibandingkan dengan model 
+lainnya. Model yang lebih lanjutan / advance lebih dis-
+arankan untuk mendapatkan hasil yang kecocokan yang 
+lebih baik dengan pengukuran lapangan. 
+ 
+ 
+Gambar 7. Model Stone column (Ng & Tan, 2014) 
+ 
+Perilaku timbunan tanah kohesif-friksional yang 
+diperkuat dengan stone column (eksperimen dan 
+pemodelan numerik 3D) 
+ 
+Beberapa 
+studi 
+telah 
+banyak 
+membahas 
+mengenai perilaku tanah timbunan di atas tanah lunak yang 
+diperkuat dengan stone column. Efek mengenai kandungan 
+butiran halus pada timbunan terhadap perilaku timbunan 
+yang diperkuat dengan stone column, belum pernah dibahas 
+pada studi sebelumnya. Sehingga studi dilakukan oleh 
+(Kumar Das & Deb, 2019) terhadap pengaruh kandungan 
+butiran halus pada timbunan yang diperkuat dengan stone 
+column melalui uji laboratorium dan pemodelan numerik 
+3D. Model stone column dan timbunan pada uji laborato-
+rium sesuai Gambar 8. Vertical displacement pada tanah da-
+sar meningkat seiring dengan peningkatan jumlah butiran 
+halus dan perubahan tersebut tidak lagi signifikan ketika 
+kandungan butiran halus melebihi 20%. Differential settle-
+ment pada permukaan mengalami peningkatan seiring 
+dengan 
+bertambahnya 
+kandungan 
+butiran 
+halus. 
+Keberadaan butiran halus akan menyebabkan peningkatan 
+tekanan pori sehingga dapat meningkatkan waktu konsoli-
+dasi. Oleh karena itu, sangat disarankan untuk membuat 
+seminimal mungkin kandungan butiran halus pada timbu-
+nan. 
+ 
+ 
+Gambar 8 Model stone column dan timbunan untuk uji 
+laporatorium (Kumar Das & Deb, 2019) 
+ 
+KESIMPULAN 
+ 
+Dari hasil studi literatur mengenai perkem-
+bangan stone column dalam 10 tahun terakhir maka dapat 
+disimpulkan bahwa metode konstruksi stone column secara 
+umum ada 2 (dua) metode. Yaitu metode basah (wet 
+method) dan metode kering (dry method). Kedua metode 
+AGREGAT                                                                                                                                                             
+ISSN : 2541 - 0318 [Online] 
+Vol. 6, No. 1, Mei 2021                                                                                                                                                      ISSN : 2541 - 2884 [Print] 
+Himatul/Jurnal Review ...../499-504 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+503 
+ 
+konstruksi tersebut memiliki kelebihan dan kekurangan 
+masing-masing. Stone column adalah metode perbaikan 
+tanah dasar timbunan yang bisa dikombinasikan dengan 
+lapisan kaku di dasar timbunan. Lapisan kaku tersebut bisa 
+berupa lapisan geogrid, lapisan granular, dan lapisan matras 
+bambu. Stone column telah dimodelkan menggunakan pen-
+dekatan model unit cell dan axi-symmetric. Selain itu, tanah 
+lunak di bawah timbunan yang diperkuat dengan stone col-
+umn juga telah dimodelkan dengan beberapa beberapa pen-
+dekatan konstituf model seperti model hardening soil (HS), 
+soft soil (SS), modified Cam-clay (MMC), dan Mohr-Cou-
+lomb (MC). Kandungan butiran halus (fine content) pada 
+timbunan juga akan memberikan respon yang berbeda ter-
+hadap stone column di bawahnya. 
+ 
+DAFTAR PUSTAKA 
+ 
+Arsyad, A., Samang, L., Bakri Muhiddin, A., Harianto, T., 
+& Djamaluddin, A. R. (2019). Numerical Modelling 
+of Reinforced Stone columns and Bamboo Mattress 
+for Supporting Causeway Embankment on Soft Soil 
+Bed. In Sustainable Civil Infrastructures. Springer 
+International Publishing. https://doi.org/10.1007/978-
+3-319-95744-9_7 
+Balaam, N. P., & Booker, J. R. (1981). Analysis of rigid 
+rafts supported by granular piles. International 
+Journal for Numerical and Analytical Methods in 
+Geomechanics, 
+5(4), 
+379–403. 
+https://doi.org/https://doi.org/10.1002/nag.16100504
+05 
+Basack, S., Indraratna, B., & Rujikiatkamjorn, C. (2015). 
+Theoretical 
+and 
+Numerical 
+Perspectives 
+on 
+Performance 
+of 
+Stone-Column-Improved 
+Soft 
+Ground with Reference to Transport Infrastructure. In 
+Ground Improvement Case Histories. Elsevier Ltd. 
+https://doi.org/10.1016/B978-0-08-100192-9.00026-
+0 
+Das, A. K., & Deb, K. (2017). Modeling of Stone column-
+Supported 
+Embankment 
+Under 
+Axi-Symmetric 
+Condition. 
+Geotechnical 
+and 
+Geological 
+Engineering, 
+35(2), 
+707–730. 
+https://doi.org/10.1007/s10706-016-0136-1 
+Dheerendra Babu, M. R., Nayak, S., & Shivashankar, R. 
+(2013). A Critical Review of Construction, Analysis 
+and Behaviour of Stone columns. Geotechnical and 
+Geological 
+Engineering, 
+31(1), 
+1–22. 
+https://doi.org/10.1007/s10706-012-9555-9 
+Etezad, M., Hanna, A. M., & Ayadat, T. (2015). Bearing 
+Capacity of a Group of Stone columns in Soft Soil. 
+International Journal of Geomechanics, 15(2), 
+04014043. 
+https://doi.org/10.1061/(asce)gm.1943-
+5622.0000393 
+Gäb, M., Schweiger, H., Thurner, R., & Adam, D. (2007). 
+Field Trial to investigate the performance of a floating 
+stone column foundation. 14th Uropean Conference 
+on Soil Echanics and Geotechnical Ngineering, 
+1311–1316. 
+Ghorbani, A., Hosseinpour, I., & Shormage, M. (2021). 
+Deformation and Stability Analysis of Embankment 
+over Stone column-Strengthened Soft Ground. KSCE 
+Journal of Civil Engineering, 25(2), 404–416. 
+https://doi.org/10.1007/s12205-020-0349-y 
+Greenwood, 
+D. 
+A. 
+(1970). 
+2. 
+MECHANICAL 
+IMPROVEMENT OF SOILS BELOW GROUND 
+SURFACE. In GROUND ENGINEERING (pp. 11–
+22). 
+Thomas 
+Telford 
+Publishing. 
+https://doi.org/doi:10.1680/ge.44647.0003 
+Greenwood, D. A., & Kirsch, K. (1983). Specialist ground 
+treatment by vibratory and dynamic methods. 
+International Conference on Piling and Ground 
+Treatment, 
+17–45. 
+https://doi.org/10.1680pagt.01855.0002 
+Han, J. (2015). Principles and Practice of Ground 
+Improvement. 
+Wiley. 
+https://books.google.co.id/books?id=2zoxBwAAQB
+AJ 
+Jung, J. B., Moriwaki, T., Sumioka, N., & Kusakabe, O. 
+(1998). Numerical analyses and model tests of 
+composite ground improved by partly penetrated sand 
+compaction 
+Piles. 
+Proceedings 
+of 
+the 
+2nd 
+International Conference on Ground Improvement 
+Techniques, 213–220. 
+Kirsch, K., & Bell, A. (2012). Ground improvement. CRC 
+Press. 
+Kumar Das, A., & Deb, K. (2019). Response of stone 
+column-improved ground under c-ϕ soil embankment. 
+Soils 
+and 
+Foundations, 
+59(3), 
+617–632. 
+https://doi.org/https://doi.org/10.1016/j.sandf.2019.0
+1.003 
+Maulidina, K., Andienti, T., Pradiptiya, A., Maulidina, K., 
+Andienti, T., Pradiptiya, A., & Stone, P. (2019). 
+PERHITUNGAN ULANG DAYA DUKUNG STONE 
+COLUMN PADA PROYEK RUNWAY 3 SECTION 2 
+BANDARA SOEKARNO-HATTA dalam Tugas Akhir 
+ini adalah berdasarkan data Standard Penetration 
+Test ( SPT ) pada Proyek Runway 3 Manfaat 
+Penulisan Manfaat penulisan Tugas Akhir ini adala. 
+Mitchell, J. (1981). Soil improvement—state of the art 
+report. Proceedings of the 10th International 
+Conference on Soil Mechanics and Foundation 
+Engineering, 51–59. 
+Mitchell, J. K., & Huber, T. R. (1985). Performance of a 
+stone column foundation. Journal of Geotechnical 
+Engineering, 111(2), 205–223. 
+Mohamedzein, Y., & Al-Shibani, I. (2011). Performance of 
+An Embankment Supported on Soft Soil Reinforced 
+by Stone columns. Ground Improvement, 164, 213–
+224. 
+Ng, K. S., & Tan, S. A. (2014). Nonlinear Behaviour of an 
+Embankment on Floating Stone columns Nonlinear 
+Behaviour of an Embankment on Floating Stone 
+columns. Geomechanics and Geoengineering : An 
+International Journal, February 2015, 37–41. 
+https://doi.org/10.1080/17486025.2014.902118 
+Poorooshasb, H. B., & Meyerhof, G. G. (1997). Analysis of 
+behavior of stone columns and lime columns. 
+Computers 
+and 
+Geotechnics, 
+20(1), 
+47–70. 
+https://doi.org/https://doi.org/10.1016/S0266-
+352X(96)00013-4 
+Schweiger, H., Karstunen, M., Gäb, M., & Kamrat-
+Pietraszewska, D. (2008). Numerical analysis of a 
+floating stone column foundation using different 
+constitutive models. In Geotechnics of Soft Soils: 
+Focus on Ground Improvement (pp. 137–142). 
+AGREGAT                                                                                                                                                             
+ISSN : 2541 - 0318 [Online] 
+Vol. 6, No. 1, Mei 2021                                                                                                                                                      ISSN : 2541 - 2884 [Print] 
+504 
+ 
+Himatul/Jurnal Review ...../499-504 
+Oxford: 
+Taylor 
+and 
+Francis. 
+https://doi.org/10.1201/9780203883334.ch15 
+ 

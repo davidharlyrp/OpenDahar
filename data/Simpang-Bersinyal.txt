@@ -1,0 +1,511 @@
+12/8/2018
+1
+SIMPANG BERSINYAL
+MKJI 1997
+PENDAHULUAN
+Tujuan penggunaan simpang bersinyal yaitu :
+Menciptakan pergerakan dan hak berjalan secara bergantian dan teratur
+Hirarki jalan bisa dilaksanakan; rute utama diusahakan untuk mengalami keterlambatan (delay)
+minimal
+Pengaturan prioritas (misalnya untuk angkutan umum) dilaksanakan
+Untuk menghindari kemacetan simpang akibat adanya konflik arus lalu-lintas, sehingga terjamin
+bahwa suatu kapasitas tertentu dapat dipertahankan, bahkan selama kondisi lalu-lintas jam
+puncak;
+Untuk memberi kesempatan kepada kendaraan dan/atau pejalan kaki dari simpang (kecil)
+untuk memotong jalan utama;
+Untuk mengurangi jumlah kecelakaan lalu-lintas akibat tabrakan antara kendaraan – kendaraan
+dari arah yang bertentangan
+12/8/2018
+2
+Untuk mencapai tujuan tersebut, APILL harus dirancang dan dioperasikan dengan benar supaya
+tidak menimbulkan :
+1. Terjadinya keterlambatan (delay) yang tidak perlu
+2. Pelanggaran pengemudi di simpang ber APILL akibat dari delay yang tidak perlu tersebut
+3. Meningkatnya kecelakaan di simpang, khususnya rear and collision
+4. Kapasitas simpang menjadi berkurang akibat dari meningkatnya rasio antara waktu siklus
+dengan waktu hijau dikarenakan bertambahnya fase lampu lalu lintas
+5. Antrian menjadi panjang sehingga memboroskan bahan bakar dan meningkatkan polusi dan
+kebisingan
+Keuntungan simpang ber APILL :
+1. Luas lahan yang diperlukan minimal karena tidak memerlukan luas pandang yang besar dan
+tata letaknya tidak memerluan lahan yang luas (bandingkan dengan bundaran atau simpang
+dengan beda elevasi)
+2. Biaya relatif murah
+3. Fleksibel, bisa diubah – ubah tergantung jumlah arus
+Ketika suatu simpang sudah diputuskan menggunakan suatu APILL, maka beberapa pertimbangan yang
+harus diperhatikan adalah :
+1. Lajur membelok sebaiknya dibuat terpisah dari lajur terus, supaya tidak saling menghambat
+2. Bila lebar jalan di lengan – lengan simpang lebih dari 10 m, maka harus menggunakan median jalan untuk
+mengatur manuver arus dan memudahkan pejalan kaki menyeberang
+3. Marka penyeberangan pejalan kaki sebaiknya ditempatkan 3 – 4 meter dari garis lurus perkerasan
+4. Pemberhentian bus sebaiknya diletakkan setelah simpang, yaitu tempat keluar dan bukan di tempat
+pendekat
+12/8/2018
+3
+LANGKAH PERHITUNGAN
+1. Data Masukan
+4. Kapasitas
+a. Kondisi geometrik
+a.  Kapasitas
+b. Kondisi pengaturan lalu-lintas
+b. Keperluan untuk perubahan
+c. Kondisi lingkungan
+d. Kondisi arus lalu-lintas
+5. Perilaku Lalu-lintas
+2. Penggunaan Signal
+a.  Persiapan
+a. Fase sinyal
+b.  Panjang antrian
+b. Waktu antar hijau dan waktu hilang
+c.  Kendaraan terhenti
+3. Penentuan Waktu Sinyal
+d. Tundaan
+a. Tipe pendekat
+b. Lebar pendekat efektif
+c. Arus jenuh dasar
+d. Rasio arus/ arus-jenuh
+e. Waktu siklus dan waktu hijau
+A-1 : Geometrik, Pengaturan lalu lintas dan Kondisi lingkungan
+Perhitungan geometrik dikerjakan secara terpisah untuk setiap pendekat.
+1 lengan simpang dapat terdiri lebih dari 1 pendekat, yaitu dipisahkan menjadi dua atau lebih sub-
+pendekat. Hal ini terjadi jika gerakan belok-kanan dan/atau belok-kiri mendapat sinyal hijau pada fase
+yang berlainnan denganlalu lintas yang lurus, atau jika dipisahkan secara fisik dengan pulau – pulau
+lalu-lintas dalam pendekat
+Untuk masing – masing pendekat atau sub-pendekat lebar 
+efektif (We) ditetapkan dengan mempertimbangan denah 
+dari bagian masuk dan ke luar suatu simpang dan 
+distribusi dari gerakan – gerakan membelok
+12/8/2018
+4
+Tipe lingkungan jalan dibedakan menjadi 3 yaitu :
+1.COM = Komersial (lahan niaga contoh: toko, restoran, kantor dengan jalan masuk langsung bagi
+pejalan kaki dan kendaraan)
+2.RES
+= Permukiman (lahan tempat tinggal dengan jalan masuk langsung bagi pejalan kaki dan kendaraan)
+3.RA
+= Akses terbatas (jalan masuk langsung tidak ada atau terbatas contoh: karena adanya penghalang,
+jalan samping)
+Tingkat hambatan samping, dibagi menjadi 2 yaitu :
+1. Tinggi
+= Besar arus berangkat pada tempat masuk dan ke luar berkurang oleh karena aktivitas
+disamping jalan pada pendekat seperti angkutan umum berhenti, pejalan kaki berjalan
+sepanjang atau melintas pendekat, keluar-masuk halaman disamping jalan
+2.
+Rendah = besar arus berangkat pada tempat masuk dan keluar tidak berkurang oleh hambatan samping
+dari jenis-jenis yang disebut di atas
+A-2 : Kondisi Arus Lalu-lintas
+Perhitungan arus lalu lintas dalam smp/jam bagi masing – masing jenis kendaraan untuk kondisi
+terlindung dan/atau terlawan (yang disesuaikan tergantung pada fase sinyal dan gerakan belok kanan
+yang diijinkan) dengan menggunakan tabel berikut :
+Hitung arus lalu-lintas total (QMV) dalam kend/jam dan smp/jam pada masing – masing pendekat untuk
+kondisi – kondisi arus berangkat terlindung dan/atau terlawan (yang sesuai pada fase sinyal dan gerakan
+belok kanan yang diijinkan
+12/8/2018
+5
+Hitung untuk masing – masing pendekat rasio kendaraan belok kiri PLT, belok kanan PRT dengan
+menggunakan rumus sebagai berikut :
+Hitung rasio kendaraan tak bermotor dengan membagi arus kendaraan tak bermotor QUM kend/jam
+dengan arus kendaraan bermotor QMV kend/jam. Gunakan persamaan sebagai berikut :
+B-1 : Fase Sinyal
+Ada 2 konflik di simpang :
+1) Konflik utama : konflik yang terjadi akibat gerakan lalu lintas yang datang dari jalan – jalan yang saling 
+berpotongan
+2) Konflik kedua : konflik yang terjadi akibat gerakan membelok dari arus lalu lintas lurus melawan dan gerakan 
+lalu lintas membelok dengan pejalan kaki yang menyeberang
+Contoh :
+12/8/2018
+6
+Analisis konflik berpengaruh pada jumlah fase di suatu simpang bersinyal 
+Jika hanya konflik utama yang dipisahkan, maka adalah mungkin untuk mengatur sinyal lampu lalu lintas hanya dalam 
+2 fase
+Fase A
+Fase B
+Merah Semua
+Antar Hijau
+Untuk meningkatkan keselamatan berlalu lintas, maka digunakan lebih dari dua fase
+12/8/2018
+7
+Contoh :
+12/8/2018
+8
+B-2 : Waktu Antar Hijau dan Waktu Hilang 
+• Tentukan waktu merah semua yang diperlukan untuk pengosongan pada setiap akhir fase dan hasil waktu 
+antara hijau (IG) per fase
+• Tentukan waktu hilang (LTI) sebagai jumlah dari waktu antar hijau per siklus
+• Waktu hilang (LTI) didefenisikan sebagai jumlah semua periode antar hijau dalam siklus yang lengkap (det). 
+Waktu hilang juga dapat diperoleh dari beda antara waktu siklus dengan jumlah waktu hijau dalam semua 
+fase yang berurutan
+• Untuk analisa operasional dan perencanaan, diperlukan membuat suatu perincian waktu antar hijau untuk 
+waktu pengosongan dan waktu hilang
+• Untuk analisa perancangan, waktu hijau berikut (kuning + merah semua) dapat dianggap sebagai nilai 
+normal seperti pada tabel berikut :
+C-1 : Tipe Pendekat 
+
+Pendekat didefenisikan sebagai daerah dari suatu lengan
+persimpangan jalan untuk kendaraan mengantri sebelum
+keluar melewati garis henti (Bila gerakan lalu-lintas ke kiri
+atau ke kanan dipisahkan dengan pulau lalu-lintas, sebuah
+lengan persimpangan jalan dapat mempunyai dua pendekat)
+
+Lebar pendekat (WA) didefenisikan sebagai lebar dari bagian
+pendekat yang diperkeras, yang digunakan oleh lalu-lintas
+buangan setelah melewati persimpangan jalan (m)
+
+Lebar masuk (WMASUK) didefenisikan sebagai lebar dari
+bagian pendekat yang diperkeras, diukur pada garis henti
+(m)
+
+Lebar
+keluar
+(WKELUAR)
+merupakan
+lebar
+dari
+bagian
+pendekat yang diperkeras, yang digunakan oleh lalu-lintas
+buangan setelah melewati persimpangan jalan (m)
+
+Lebar efektif (We) adalah lebar dari bagian pendekat yang
+diperkeras, yang digunakan dalam perhitungan kapasitas
+(yaitu dengan pertimbangan terhadap WA, WMASUK, dan
+WKELUAR dan gerakan lalu-lintas membelok (m)
+12/8/2018
+9
+C-2 : Lebar Pendekat Efektif
+Lebar efektif (We) adalah lebar dari bagian pendekat yang diperkeras, yang digunakan dalam
+perhitungan kapasitas (yaitu dengan pertimbangan terhadap WA, WMASUK, dan WKELUAR dan
+gerakan lalu-lintas membelok (m)
+Untuk pendekat tanpa belok kiri langsung (LTOR)
+Periksa lebar keluar (hanya untuk pendekat tipe P). 
+Jika WKELUAR < We x (1-PRT-PLTOR), We = WKELUAR
+Dan analisa penentuan waktu sinyal ini hanya dilakukan untuk bagian lalu-lintas lurus (Q = QST)
+
+Untuk pendekat dengan belok kiri langsung (LTOR)
+Lebar efektif (We) di hitung untuk pendekat dengan pulau lalu lintas dan tanpa pulau lalu lintas, penentuan lebar masuk 
+(WMASUK) ditunjukkan pada Gambar 1. Untuk menghitung lebar pendekat, dapat digunakan kedua keadaan berikut.
+1)
+Jika WLTOR ≥ 2m : We dihitung dengan Min [(WA-WLTOR), (WMASUK)]
+(Hanya untuk pendekat tipe P) Jika WKELUAR < We x (1-PRT), maka We = WKELUAR, 
+dan penentuan waktu sinyal untuk pendekat dilakukan hanya untuk bagian lalu lintas 
+lurus saja (Q = QST)
+2)
+Jika WLTOR < 2m: We dhitung dengan Min [(WA), (WMASUK + WLTOR), (WA x (1+PLTOR) – WLTOR)
+(Hanya untuk pendekat tipe P) Jika WKELUAR < We x (1-PRT-PLTOR), 
+maka We = WKELUAR, dan penentuan waktu sinyal untuk pendekat dilakukan hanya 
+untuk bagian lalu lintas lurus saja (Q = QST)
+12/8/2018
+10
+C-3 : Arus Jenuh Dasar
+Untuk pendekat tipe P (arus terlindung), gunakan Rumus 2 berikut :
+S0 = 600 X We
+Dimana :
+S0
+= arus jenuh dasar untuk pendekat tipe P (smp/jam hijau)
+We = lebar jalan (m)
+Untuk pendekat tipe 0 (arus berangkat terlawan), terdiri atas dua kondisi yaitu :
+1) Pendekat tipe 0 tanpa lajur belok kanan terpisah, gunakan grafik berikut :
+12/8/2018
+11
+2) Pendekat tipe 0 dengan lajur belok kanan terpisah, gunakan grafik berikut :
+C-4 : Faktor Penyesuaian Arus Jenuh Dasar
+Digunakan untuk kedua tipe pendekat yaitu Pendekat P dan Pendekat 0
+1) Faktor penyesuaian ukuran kota, gunakan tabel berikut :
+2) Faktor penyesuaian hambatan samping, gunakan tabel berikut :
+12/8/2018
+12
+3) Faktor penyesuaian kelandaian, gunakan grafik berikut :
+4) Faktor penyesuaian parkir, gunakan rumus dan grafikberikut :
+FP=[LP/3 –(WA-2) x (LP/3-g)/WA]/g
+Dimana :
+LP
+= Jarak antara garis henti dan kendaraan yang diparkir pertama (m) atau panjang dari lajur pendek)
+WA = Lebar pendekat (m)
+G
+= Waktu hijau pada pendekat (nilai normal 26 detik)
+12/8/2018
+13
+Faktor penyesuaian arus jenuh dasar, hanya untuk pendekat tipe P
+1) Faktor penyesuaian belok kanan (FRT), gunakan persamaan berikut :
+FRT = 1,0 + PRT x 0,26
+2) Faktor penyesuaian belok kiri (FLT), gunakan persamaan berikut :
+FLT = 1,0 - PLT x 0,16
+Menentukan nilai arus jenuh yang disesuaikan, gunakan persamaan berikut :
+S = S0 x FCS x FSF x FG x FP x FRT x FLT
+(smp/ jam hijau)
+dimana :
+S0
+= arus jenuh dasar
+FCS
+= Faktor penyesuaian ukuran kota
+FSF
+= Faktor penyesuaian hambatan samping
+FG
+= Faktor penyesuaian gradien jalan
+FP
+= Faktor penyesuaian parkir
+FRT
+= Faktor penyesuaian belok kanan
+FLT
+= Faktor penyesuaian belok kiri
+C-5 : Rasio Arus / Rasio Arus Jenuh
+Rasio Arus Jenuh (FR) 
+Rasio arus jenuh didefenisikan sebagai besarnya keberangkatan antrian di dalam suatu pendekat selama
+kondisi yang ditentukan (smp/jam hijau). Untuk menghitung rasio arus jenuh pada masing – masing
+pendekat, gunakan persamaan berikut :
+FR = Q / S
+Rasio Arus Simpang  (IFR) 
+Rasio arus simpang merupakan jumlah dari rasio kritis (= tertinggi) untuk semua fase sinyal yang 
+berurutan dalam semua siklus. Sebagai jumlah dari nilai – nilai FR, gunakan persamaan berikut :
+IFR = E (FRcrit)
+Rasio Fase (PR) masing – masing fase 
+Rasio fase didefenisikan sebagai rasio untuk kritis dibagi dengan rasio arus simpang. Sebagai rasio antara 
+FRcrit dan IFR, gunakan persamaan berikut :
+PR = FRcrit / IFR
+12/8/2018
+14
+C-6 : Waktu Siklus dan Waktu Hijau
+Waktu siklus sebelum penyesuaian, gunakan persamaan berikut :
+cua = (1,5 x LTI + 5) / (1 – IFR)
+dimana :
+cua
+= waktu siklus sebelum penyesuaian sinyal (det)
+LTI
+= waktu hilang total per siklus (det)
+IFR
+= rasio arus simpang ∑(FRcrit)
+Waktu Hijau
+gi = (cua – LTI) x PRi
+dimana :
+gi
+= tampilan waktu hijau pada fase i (det)
+cua
+= waktu siklus sebelum penyesuaian (det)
+LTI
+= waktu hilang total per siklus
+PRi
+= rasio fase Frcrit / ∑Frcrit
+Waktu hijau yang lebih pendek dari 10 detik harus dihindari, karena dapat mengakibatkan pelanggaran lampu
+merah yang berlebihan dan kesulitan bagi pejalan kaki untuk menyeberang jalan
+Waktu siklus yang disesuaikan
+waktu siklus yang disesuaikan (c) berdasar pada waktu hijau yang diperoleh dan telah dibulatkan dan waktu 
+hilang (LTI). Gunakan persamaan berikut :
+C = ∑g + LTI
+D-1 : Kapasitas
+Perhitungan kapasitas masing – masing pendekat, gunakan persamaan berikut :
+C = S x g/c
+Perhitungan derajat kejenuhan masing – masing pendekat, gunakan persamaan berikut :
+DS = Q / C
+E-1 : Jumlah Kendaraan Antri
+Jumlah kendaraan antri (smp) terdiri dari jumlah kendaraan yang tersisa dari fase hijau sebelumnya (NQ1) 
+dan jumlah kendaraan yang datang selama fase merah (NQ2)
+NQ1 dihitung dengan menggunakan persamaan berikut :
+Jika DS > 0,5
+Jika DS ≤ 0,5 maka, NQ1 = 0
+Dimana :
+DS
+= Derajat jenuh
+GR
+= Rasio hijau
+C
+= kapasitas (smp/jam) = arus jenuh x rasio hijau (S x GR)
+12/8/2018
+15
+Jumlah kendaraan yang datang selama fase merah (NQ2) dihitung dengan persamaan sebagai berikut :
+Dimana :
+NQ2
+= jumlah smp yang datang selama fase merah
+DS
+= derajat kejenuhan
+GR
+= rasio hijau
+c
+= waktu siklus (det)
+Qmasuk = arus lalu lintas pada tempat masuk diluar LTOR ( smp/jam)
+E-1 : Panjang Antrian
+Panjang antrian (QL) (m) dihitung dengan persamaan berikut :
+Dimana POL adalah pembebanan lebih yang
+mungkin
+terjadi.
+Untuk
+perancangan
+dan
+perencanaan gunakan POL < 5% sedangkan
+untuk operasi gunakan POL 5% - 10%
+12/8/2018
+16
+E-2 : Angka Henti dan Jumlah Kendaraan Terhenti
+Angka henti (NS) masing – masing pendekat didefenisikan sebagai jumlah rata-rata berhenti per smp
+(termasuk berhenti berulang dalam antrian), yang dihitung dengan persamaan berikut :
+Jumlah kendaraan terhenti (NSV) masing – masing pendekat dihitung dengan persamaan berikut :
+Angka henti seluruh simpang dapat dihitung dengan membagi jumlah kendaraan terhenti pada seluruh
+pendekat arus simpang total Q (kend/jam)
+E-3 : Tundaan
+Tundaan lalu-lintas rata-rata setiap pendekat (DT) akibat pengaruh timbal balik dengan gerakan-
+gerakan lainnya pada simpang. Untuk menghitung tundaan pada setiap pendekat, gunakan persamaan 
+sebagai berikut :
+dimana :
+DT
+= tundaan lalu-lintas rata-rata (det/smp)
+c
+= waktu siklus yang disesuaikan (det)
+A
+= 
+Lihat Grafik berikut 
+GR
+= rasio hijau (g/c)
+DS
+= derajat kejenuhan 
+NQ1
+= jumlah smp yang tersisa dari fase hijau sebelumnya
+C
+= kapasitas (smp/jam)
+12/8/2018
+17
+Untuk menghitung konstanta A, gunakan grafik berikut :
+Tundaan geometri rata-rata masing – masing pendekat (DG) akibat pertambahan dan percepatan ketika
+menunggu giliran pada suatu simpang dan/atau ketika diberhentikan oleh lampu merah, gunakan
+persamaan berikut :
+dimana :
+DG1
+= tundaan geometri rata-rata untuk pendekat j (det/smp)
+PSV
+= rasio kendaraan terhenti pada pendekat = Min (NS, 1)
+PT
+= rasio kendaraan berbelok pada pendekat
+Tundaan rata-rata untuk seluruh simpang (D1) dihitung dengan membagi jumlah nilai tundaan dengan
+arus total (QTOT) dalam smp/jam
+12/8/2018
+18
+CONTOH PERHITUNGAN - 1
+Sinyal lalu-lintas yang telah ada di Jl. Iskandarsyah – Jl. Wijaya (Jakarta) bekerja dalam pengaturan empat fase
+dengan hijau awal pada pendekat Barat
+Simpang
+: Jl. Iskandarsyah – Jl. Wijaya
+Perhitungan
+: a) Waktu sinyal, derajat kejenuhan, panjang antrian dan tundaan dengan pengaturan empat
+fase (dengan hijau awal pada pendekat Barat)
+b) Hitung waktu sinyal, derajat kejenuhan, panjang antrian dan tundaan dengan pengaturan
+tiga fase
+Data masukan
+: Kondisi – kondisi geometrik, pengaturan lalu-lintas dan lingkungan pada Formulir SIG II
+Data arus lalu-lintas pada Formulir SIG-II
+Waktu kuning dan waktu merah pada Formulir SIG III
+Penyelesaian
+
+Fase sinyal 
+SIG - I
+12/8/2018
+19
+
+Kondisi lapangan
+SIG - II
+
+Arus lalu-lintas kendaraan bermotor (MV)
+12/8/2018
+20
+SIG - III
+
+Waktu antar hijau
+
+Waktu hilang
+SIG – IV ( 4 FASE )
+
+Penentuan waktu sinyal
+
+Kapasitas 
+12/8/2018
+21
+SIG - V
+
+Panjang antrian
+
+Jumlah kendaraan terhenti
+
+Tundaan
+SIG IV – ( 3 FASE )
+12/8/2018
+22
+SIG V
+CONTOH PERHITUNGAN - 2
+Sinyal lalu-lintas yang telah ada di Jl. Martadinata – Jl. A. Yani (Bandung) bekerja dalam pengaturan dua fase.
+Simpang
+: Jl. Iskandarsyah – Jl. A. Yani, Bandung
+Perhitungan
+: a) Waktu sinyal, derajat kejenuhan, panjang antrian dan tundaan dengan pengaturan dua
+fase
+b) Hitung waktu sinyal, derajat kejenuhan, panjang antrian dan tundaan dengan pengaturan
+dua fase (tidak termasuk fase RT)
+Data masukan
+: Kondisi – kondisi geometrik, pengaturan lalu-lintas dan lingkungan pada Formulir SIG II
+Data arus lalu-lintas pada Formulir SIG-II
+Waktu kuning dan waktu merah pada Formulir SIG III
+12/8/2018
+23
+Penyelesaian
+2 fase
+SIG - I
+
+Geomentri
+
+Pengaturan lalu-lintas
+
+lingkungan
+12/8/2018
+24
+SIG - II
+
+Arus lalu-lintas
+SIG - III
+
+Waktu antar hijau
+
+Waktu hilang
+12/8/2018
+25
+SIG - IV
+
+Penentuan waktu sinyal
+
+kapasitas
+SIG - V
+
+Panjang antrian
+
+Jumlah kendaraan terhenti
+
+tundaan
+12/8/2018
+26
+Penyelesaian
+4 fase
+SIG - I
+
+Geomentri
+
+Pengaturan lalu-lintas
+
+lingkungan
+SIG - II
+
+Arus lalu lintas
+12/8/2018
+27
+SIG - III
+
+Waktu antar hijau
+
+Waktu hilang
+12/8/2018
+28
+SIG - IV
+
+Penentuan waktu sinyal
+
+Kapasitas
+SIG - V
+
+Panjang antrian
+
+Jumlah kendaraan terhenti
+
+tundaan

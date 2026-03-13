@@ -1,0 +1,2586 @@
+ 
+ 
+ 
+ 
+Standar Nasional Indonesia       
+ 
+SNI 2827:2008 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cara uji penetrasi lapangan dengan alat sondir 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+  
+ 
+ 
+ 
+ICS  93.020 
+Badan Standardisasi Nasional 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+i 
+Daftar isi 
+ 
+ 
+ 
+Daftar isi   ........................................................................................................................ 
+i 
+Prakata ............................................................................................................................ 
+iii 
+Pendahuluan ................................................................................................................... 
+iv 
+1 
+Ruang lingkup ........................................................................................................... 
+1 
+2 
+Istilah dan definisi ….................................................................................................. 
+1 
+3 
+Ketentuan dan persyaratan   .................................................................................... 
+2 
+3.1 Peralatan penetrometer konus ........................................................................... 
+2 
+3.1.1 Konus....................................................................................................... 
+2 
+3.1.2 Selimut bidang geser ............................................................................... 
+2 
+3.1.3 Bahan baja............................................................................................... 
+3 
+3.1.4 Pipa dorong.............................................................................................. 
+3 
+3.1.5 Batang dalam........................................................................................... 
+3 
+3.1.6 Mesin pembeban hidraulik ....................................................................... 
+3 
+3.2 Pengujian ........................................................................................................... 
+5 
+3.2.1 Batasan peralatan dan pengujian ..............................................................       5 
+3.2.2 Kalibrasi ...................................................................................................         5 
+3.2.3 Petugas ...................................................................................................          5 
+3.2.4 Penanggung jawab pengujian .................................................................         6 
+4 
+Cara pengujian ......................................................................................................... 
+6 
+4.1 Persiapan pengujian .......................................................................................... 
+6 
+4.2 Prosedur pengujian............................................................................................. 
+6 
+4.2.1 Pengujian penetrasi konus ganda............................................................ 
+6 
+4.2.2 Pembacaan hasil pengujian..................................................................... 
+6 
+4.2.3 Pengulangan langkah-langkah pengujian................................................ 
+7 
+4.2.4 Penyelesaian pengujian........................................................................... 
+7 
+5 
+Perhitungan .............................................................................................................. 
+7 
+5.1 Rumus-rumus perhitungan ................................................................................ 
+7 
+5.1.1 Perlawanan konus (qc) ............................................................................. 
+7 
+5.1.2 Perlawanan geser (fs)............................................................................... 
+8 
+5.1.3 Angka banding geser (Rf)......................................................................... 
+8 
+5.1.4 Geseran total (Tf) ..................................................................................... 
+8 
+5.2 Prosedur perhitungan ......................................................................................... 
+10 
+5.2.1 Cara perhitungan ..................................................................................... 
+10 
+5.2.2 Cara penggambaran hasil uji penetrasi konus......................................... 
+10 
+6 
+Laporan uji ................................................................................................................ 
+10 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+ii 
+Lampiran A  Bagan alir cara uji penetrasi lapangan dengan alat sondir (normatif)  ......  
+11 
+Lampiran B  Contoh formulir uji penetrasi konus statik (sondir) (informatif) ...................  
+12 
+Lampiran C  Tabel daftar deviasi teknis dan penjelasannya (informatif)   .....................  
+16 
+Bibliografi  ......................................................................................................................  
+17 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+iii 
+Prakata 
+ 
+ 
+ 
+Standar berjudul Cara uji penetrasi lapangan dengan alat sondir merupakan revisi dari SNI 
+03-2827-1992, Metode Pengujian Lapangan dengan alat sondir, dengan perubahan pada 
+judul, penambahan Istilah dan definisi, penambahan dan revisi beberapa materi mengenai 
+Persyaratan dan Ketentuan serta cara pengujian, penjelasan rumus, pembuatan bagan alir, 
+perbaikan gambar dan pembuatan contoh formulir. 
+ 
+Standar ini disusun oleh Panitia Teknis Bahan Konstruksi Bangunan dan Rekayasa Sipil 
+pada Sub Panitia Teknk Bidang Sumber Daya Air. 
+ 
+Tata cara penulisan disusun mengikuti PSN 08:2007 dan dibahas pada forum rapat 
+konsensus pada tanggal 16 November 2006 di Bandung dengan melibatkan para nara 
+sumber, pakar dan lembaga terkait.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+iv 
+Pendahuluan 
+ 
+ 
+ 
+Dalam desain struktur tanah fondasi sering dilakukan analisis stabilitas dan perhitungan 
+desain fondasi suatu bangunan dengan menggunakan parameter tanah baik tegangan total 
+maupun tegangan efektif. Parameter perlawanan penetrasi dapat diperoleh dengan berbagai 
+cara. Dalam melakukan uji penetrasi lapangan ini digunakan metode pengujian lapangan 
+dengan alat sondir (SNI 03-2827-1992) yang berlaku baik untuk alat penetrasi konus tunggal 
+maupun ganda yang ditekan secara mekanik (hidraulik). Peralatan uji penetrasi ini antara 
+lain terdiri atas peralatan penetrasi konus, bidang geser, bahan baja, pipa dorong, batang 
+dalam, mesin pembeban hidraulik, dan perlengkapan lainnya. Mengingat diperlukannya 
+parameter perlawanan penetrasi lapisan tanah di lapangan untuk keperluan interpretasi 
+perlapisan tanah dan bagian dari desain fondasi suatu bangunan, perlu disusun revisi 
+standar berjudul “Cara uji penetrasi lapangan dengan alat sondir”.  
+ 
+Cara uji ini dimaksudkan sebagai pegangan dan acuan dalam uji laboratorium geser 
+dengan cara uji langsung terkonsolidasi dengan drainase pada benda uji tanah. 
+Tujuannya adalah untuk memperoleh parameter-parameter perlawanan penetrasi lapisan 
+tanah di lapangan, dengan alat sondir (penetrasi quasi statik). Parameter tersebut berupa 
+perlawanan konus (qc), perlawanan geser (fs), angka banding geser (Rf), dan geseran 
+total tanah (Tf), yang dapat dipergunakan untuk interpretasi perlapisan tanah dan bagian 
+dari desain fondasi.  
+ 
+Standar ini diharapkan bermanfaat bagi para laboran atau tenaga teknisi yang berhubungan 
+dengan penyelidikan geoteknik, para pendesain bangunan dan pihak-pihak terkait lainnya.  
+ 
+ 
+ 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+1 dari 17 
+Cara uji penetrasi lapangan dengan alat sondir 
+ 
+ 
+ 
+1 
+Ruang lingkup 
+ 
+Standar ini menetapkan cara uji penetrasi lapangan dengan alat sondir, untuk memperoleh 
+parameter-parameter perlawanan penetrasi lapisan tanah di lapangan, dengan alat sondir 
+(penetrasi quasi statik). Parameter tersebut berupa perlawanan konus (qc), perlawanan 
+geser (fs), angka banding geser (Rf), dan geseran total tanah (Tf), yang dapat digunakan 
+untuk interpretasi perlapisan tanah yang merupakan bagian dari desain fondasi. 
+Standar ini menguraikan tentang prinsip-prinsip cara uji penetrasi lapangan dengan alat 
+sondir meliputi: sistem peralatan uji penetrasi di lapangan dan perlengkapan lainnya; 
+persyaratan peralatan dan pengujian; cara uji; perhitungan parameter perlawanan penetrasi 
+lapisan tanah; laporan uji; dan contoh uji. Cara uji ini berlaku baik untuk alat penetrasi konus 
+tunggal maupun ganda yang ditekan secara mekanik (hidraulik). 
+ 
+ 
+2 
+Istilah dan definisi  
+Istilah dan definisi yang berkaitan dengan standar ini adalah sebagai berikut. 
+2.1 
+ 
+angka banding geser (Rf)  
+perbandingan antara perlawanan geser dan perlawanan konus (fs/qc), dinyatakan dalam 
+persen. 
+ 
+2.2 
+ 
+gigi dorong  
+gigi yang mendorong penekan hidraulik melalui suatu roda gigi yang merupakan bagian dari 
+alat ukur penetrasi. 
+ 
+2.3 
+ 
+kekuatan geser tanah  
+tahanan atau tegangan geser maksimum yang dapat ditahan oleh tanah pada kondisi 
+pembebanan tertentu. 
+ 
+2.4 
+ 
+konus  
+ujung alat penetrasi yang berbentuk kerucut untuk menahan perlawanan tanah. 
+ 
+2.5 
+ 
+penetrometer konus ganda  
+alat penetrasi konus dengan sondir untuk mengukur komponen perlawanan ujung dan 
+perlawanan geser lokal terhadap gerakan penetrasi.  
+ 
+2.6 
+ 
+penetrometer konus tunggal  
+alat penetrasi konus dengan sondir untuk mengukur komponen perlawanan ujung terhadap 
+gerakan penetrasi. 
+ 
+2.7 
+ 
+penyondiran  
+serangkaian pengujian penetrasi yang dilakukan di suatu lokasi dengan menggunakan alat 
+penetrasi konus. 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+ 
+2 dari 17
+ 
+2.8 
+ 
+perlawanan geser (fs)  
+nilai perlawanan terhadap gerakan penetrasi akibat geseran yang besarnya sama dengan 
+gaya vertikal, yang bekerja pada bidang geser dibagi dengan luas permukaan selimut geser; 
+perlawanan ini terdiri atas jumlah geseran dan gaya adhesi. 
+ 
+2.9 
+ 
+perlawanan konus atau perlawanan daya dukung (qc)  
+nilai perlawanan terhadap gerakan penetrasi konus yang besarnya sama dengan gaya 
+vertikal yang bekerja pada konus dibagi dengan luas ujung konus.  
+ 
+2.10  
+selimut (bidang) geser  
+bagian ujung alat ukur penetrasi ganda, tempat terjadinya perlawanan geser lokal.  
+ 
+2.11  
+tegangan geser tanah  
+perlawanan tanah terhadap deformasi bila diberi tegangan geser. 
+ 
+ 
+3 
+Ketentuan dan persyaratan  
+3.1 
+Peralatan penetrometer konus  
+3.1.1 Konus  
+Konus yang digunakan harus memenuhi syarat-syarat sebagai berikut (lihat Gambar 1): 
+ 
+ 
+ 
+a)  keadaan tertekan 
+b)  keadaan terbentang 
+ 
+Gambar 1    Rincian konus ganda 
+ 
+1) ujung konus bersusut 600 ± 50 ; 
+2) ukuran diameter konus adalah 35,7 mm ± 0,4 mm atau luas proyeksi konus = 10 cm2; 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+3 dari 17 
+3) bagian runcing ujung konus berjari-jari kurang dari 3 mm. Konus ganda harus 
+terbuat dari baja dengan tipe dan kekerasan yang cocok untuk menahan abrasi dari 
+tanah; 
+ 
+3.1.2 Selimut (bidang) geser 
+Selimut (bidang) geser yang digunakan harus memenuhi syarat-syarat sebagai berikut: 
+a) Ukuran diameter luar selimut geser adalah 35,7 mm ditambah dengan 0 mm s.d 0,5 mm; 
+b) Proyeksi ujung alat ukur penetrasi tidak boleh melebihi diameter selimut geser; 
+c) 
+Luas permukaan selimut geser adalah 150 cm2 ± 3 cm2; 
+d) Sambungan-sambungan harus didesain aman terhadap masuknya tanah. 
+a) Selimut geser pipa harus mempunyai kekasaran sebesar 0,5 μ m AA ± 50 %.  
+ 
+3.1.3 Pipa dorong 
+Batang-batang yang digunakan harus memenuhi syarat-syarat sebagai berikut: 
+a) Pipa terbuat dari bahan baja dengan panjang 1,00 m; 
+b) Pipa harus menerus sampai konus ganda agar penampang pipa tidak tertekuk jika 
+disondir/didorong; 
+c) 
+Ukuran diameter luar pipa tidak boleh lebih besar daripada diameter dasar konus ganda 
+untuk jarak minimum 0,3 m di atas puncak selimut geser; 
+d) Setiap pipa sondir harus mempunyai diameter dalam yang tetap; 
+e) Pipa-pipa tersambung satu dengan yang lainnya dengan penyekrupan, sehingga 
+terbentuk rangkaian pipa kaku yang lurus; 
+f) 
+Pipa bagian dalam harus dilumasi untuk mencegah korosi. 
+ 
+3.1.4  Batang dalam 
+Batang-batang dalam yang digunakan harus memenuhi syarat-syarat sebagai berikut: 
+a) Batang dalam terbuat dari bahan baja dan terletak di dalam pipa dorong; 
+b) Batang-batang dalam harus mempunyai diameter luar yang konstan; 
+c) 
+Panjang batang-batang dalam sama dengan panjang pipa-pipa dorong dengan 
+perbedaan kira-kira 0,1 mm; 
+d) Batang dalam mempunyai penampang melintang yang dapat menyalurkan perlawanan 
+konus tanpa mengalami tekuk atau kerusakan lain; 
+e) Jarak ruangan antara batang dalam dan pipa dorong harus berkisar antara 0,5 mm dan 
+1,0 mm; 
+f) 
+Pipa dorong dan batang dalam harus dilumasi dengan minyak pelumas untuk mencegah 
+korosi; 
+g) Pipa dorong dan batang dalam harus bersih dari butiran-butiran untuk mencegah 
+gesekan antara batang dalam dan pipa dorong. 
+ 
+3.1.5  Mesin pembeban hidraulik 
+Mesin pembeban yang digunakan harus memenuhi syarat-syarat sebagai berikut (lihat 
+Gambar 2 dan Gambar 3): 
+a) Rangka mesin pembeban harus dijepit oleh 2 buah batang penjepit yang diletakkan 
+pada masing-masing jangkar helikoidal agar tidak bergerak pada waktu pengujian; 
+b) Rangka mesin pembeban berfungsi sebagai dudukan sistem penekan hidraulik yang 
+dapat digerakkan naik/turun; 
+c) 
+Sistem penekan hidraulik terdiri atas engkol pemutar, rantai, roda gigi, gerigi dorong dan 
+penekan hidraulik yang berfungsi untuk mendorong/menarik batang dalam dan pipa 
+dorong; 
+d) Pada penekan hidraulik terpasang 2 buah manometer yang digunakan untuk membaca 
+tekanan hidraulik yang terjadi pada waktu penekanan batang dalam, pipa dorong dan 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+ 
+4 dari 17
+konus (tunggal atau ganda). Untuk pembacaan tekanan rendah disarankan 
+menggunakan manometer berkapasitas 0 Mpa s.d 2 MPa dengan ketelitian 0,05 Mpa. 
+Untuk pembacaan tekanan menengah digunakan manometer berkapasitas 0 MPa s.d 5 
+MPa dengan ketelitian 0,05 MPa, dan untuk pembacaan tekanan tinggi digunakan 
+manometer berkapasitas 0 MPa s.d 25 MPa dengan ketelitian 0,1 MPa. 
+ 
+ 
+ 
+Gambar 2    Rangkaian alat penetrasi konus (sondir Belanda) 
+ 
+ 
+3.2 
+Pengujian  
+3.2.1 Batasan peralatan dan perlengkapan 
+Persyaratan yang diperlukan adalah sebagai berikut: 
+a) Ketelitian peralatan ukur dengan koreksi sekitar 5 %; 
+b) Deviasi standar pada alat penetrasi secara mekanik: 
+1) untuk perlawanan konus (qc) adalah 10 %; 
+2) untuk perlawanan geser (fs) adalah 20 %; 
+c) 
+Alat ukur harus dapat mengukur perlawanan penetrasi di permukaan dengan dilengkapi 
+alat yang sesuai, seperti mesin pembeban hidraulik; 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+5 dari 17 
+ 
+Gambar 3 Rincian penekan hidraulik 
+ 
+d) Alat perlengkapan mesin pembeban harus mempunyai kekakuan yang memadai, dan 
+diletakkan di atas dudukan yang kokoh serta tidak berubah arah pada waktu pengujian; 
+e) Pada alat sondir ringan (< 200 kg) biasanya tidak dapat tembus untuk 2 m s.d 3 m 
+sehingga datanya tidak bermanfaat; 
+f) 
+Pada alat sondir berat (> 200 kg) digunakan sistem angker; namun di daerah tanah 
+lunak tidak dapat digunakan kecuali dengan pemberian beban menggunakan karung-
+karung pasir.  
+ 
+3.2.2 Kalibrasi 
+Semua alat ukur harus dikalibrasi minimum 1 kali dalam 3 tahun dan pada saat diperlukan, 
+sesuai dengan persyaratan kalibrasi yang berlaku. 
+ 
+3.2.3 Petugas  
+Petugas pengujian ini adalah laboran atau teknisi yang memenuhi persyaratan kompetensi 
+yang berlaku dalam pengujian penetrasi lapangan dengan alat sondir, dan diawasi oleh ahli 
+geoteknik. 
+ 
+ 
+4 
+Cara pengujian   
+4.1 
+Persiapan pengujian  
+Lakukan persiapan pengujian sondir di lapangan dengan tahapan sebagai berikut: 
+a) Siapkan lubang untuk penusukan konus pertama kalinya, biasanya digali dengan linggis 
+sedalam sekitar 5 cm; 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+ 
+6 dari 17
+b) Masukkan 4 buah angker ke dalam tanah pada kedudukan yang tepat sesuai dengan 
+letak rangka pembeban; 
+c) 
+Setel rangka pembeban, sehingga kedudukan rangka berdiri vertikal; 
+d) Pasang manometer 0 MPa s.d 2 MPa dan manometer 0 MPa s.d 5 MPa untuk 
+penyondiran tanah lembek, atau pasang manometer 0 MPa s.d 5 MPa dan manometer 0 
+MPa s.d 25 MPa untuk penyondiran tanah keras; 
+e) Periksa sistem hidraulik dengan menekan piston hidraulik menggunakan kunci piston, 
+dan jika kurang tambahkan oli serta cegah terjadinya gelembung udara dalam sistem; 
+f) 
+Tempatkan rangka pembeban, sehingga penekan hidraulik berada tepat di atasnya; 
+g) Pasang balok-balok penjepit pada jangkar dan kencangkan dengan memutar baut 
+pengecang, sehingga rangka pembeban berdiri kokoh dan terikat kuat pada permukaan 
+tanah. Apabila tetap bergerak pada waktu pengujian, tambahkan beban mati di atas 
+balok-balok penjepit; 
+h) Sambung konus ganda dengan batang dalam dan pipa dorong serta kepala pipa 
+dorong; dalam kedudukan ini batang dalam selalu menonjol keluar sekitar 8 cm di atas 
+kepala pipa dorong. Jika ternyata kurang panjang, bisa ditambah dengan potongan besi 
+berdiameter sama dengan batang dalam. 
+ 
+4.2 
+Prosedur pengujian  
+4.2.1 Pengujian penetrasi konus  
+Lakukan pengujian penetrasi konus ganda dengan langkah-langkah sebagai berikut: 
+a) Tegakkan batang dalam dan pipa dorong di bawah penekan hidraulik pada kedudukan 
+yang tepat; 
+b) Dorong/tarik kunci pengatur pada kedudukan siap tekan, sehingga penekan hidraulik 
+hanya akan menekan pipa dorong; 
+c) 
+Putar engkol searah jarum jam, sehingga gigi penekan dan penekan hidraulik bergerak 
+turun dan menekan pipa luar sampai mencapai kedalaman 20 cm sesuai interval 
+pengujian; 
+d) Pada tiap interval 20 cm lakukan penekanan batang dalam dengan menarik kunci 
+pengatur, sehingga penekan hidraulik hanya menekan batang dalam saja (kedudukan 1, 
+lihat Gambar 5); 
+e) Putar engkol searah jarum jam dan jaga agar kecepatan penetrasi konus berkisar antara 
+10 mm/s sampai 20 mm/s ± 5. Selama penekanan batang pipa dorong tidak boleh ikut 
+turun, karena akan mengacaukan pembacaan data. 
+ 
+4.2.2 Pembacaan hasil pengujian 
+Lakukan pembacaan hasil pengujian penetrasi konus sebagai berikut: 
+1) Baca nilai perlawanan konus pada penekan batang dalam sedalam kira-kira 4 cm 
+pertama (kedudukan 2, lihat Gambar 4) dan catat pada formulir (Lampiran C) pada 
+kolom Cw ; 
+2) Baca jumlah nilai perlawanan geser dan nilai perlawanan konus pada penekan batang 
+sedalam kira-kira 4 cm yang ke-dua (kedudukan 3, lihat Gambar 4) dan catat pada 
+formulir (Lampiran C) pada kolom Tw.   
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+7 dari 17 
+ 
+ 
+Gambar 4 Kedudukan pergerakan konus pada waktu pengujian sondir  
+ 
+4.2.3 Pengulangan langkah-langkah pengujian 
+Ulangi langkah-langkah pengujian tersebut di atas hingga nilai perlawanan konus mencapai 
+batas maksimumnya (sesuai kapasitas alat) atau hingga kedalaman maksimum 20 m s.d 40 
+m tercapai atau sesuai dengan kebutuhan. Hal ini berlaku baik untuk sondir ringan ataupun 
+sondir berat. 
+ 
+4.2.4 Penyelesaian pengujian 
+a) Cabut pipa dorong, batang dalam dan konus ganda dengan mendorong/menarik kunci 
+pengatur pada posisi cabut dan putar engkol berlawanan arah jarum jam. 
+b) Catat setiap penyimpangan pada waktu pengujian. 
+ 
+ 
+5 
+Perhitungan 
+ 
+5.1 
+Rumus-rumus perhitungan   
+Prinsip dasar dari uji penetrasi statik di lapangan adalah dengan anggapan berlaku hukum 
+Aksi Reaksi (persamaan 10), seperti yang digunakan untuk perhitungan nilai perlawanan 
+konus dan nilai perlawanan geser di bawah ini. 
+ 
+5.1.1 Perlawanan konus (qc) 
+Nilai perlawanan konus (qc) dengan ujung konus saja yang terdorong, dihitung dengan 
+menggunakan persamaan : 
+                   Pkonus   =  P piston    ................................................................................. 
+(1) 
+                   qc x Ac  =  Cw x Api  
+                   qc   =  Cw  x  Api  /  Ac  ........................................................................... 
+(2) 
+                   Api  = π (Dpi )2 / 4   ................................................................................ 
+(3) 
+                   Ac    =  π (Dc)2 / 4  ................................................................................. 
+(4) 
+ 
+5.1.2 Perlawanan geser (fs) 
+Nilai perlawanan geser lokal diperoleh bila ujung konus dan bidang geser terdorong 
+bersamaan, dan dihitung dengan menggunakan persamaan : 
+                  Pkonus + Pgeser  =  Ppiston ............................................................................ 
+(5) 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+ 
+8 dari 17
+                   (qc x Ac) + (fs x As)  =  Tw  x  Api   
+                   (Cw  x Api) + (fs x As)  =  Tw  x  Api   
+                   fs    =  Kw  x  Api  /  As    .......................................................................... 
+(6) 
+                   As    =  π Ds Ls        ................................................................................ 
+(7) 
+                   Kw     =  (Tw  -  Cw )  .............................................................................. 
+(8) 
+ 
+5.1.3 Angka banding geser (Rf) 
+Angka banding geser diperoleh dari hasil perbandingan antara nilai perlawanan geser lokal 
+(fs) dengan perlawanan konus (qs), dan dihitung dengan menggunakan persamaan: 
+                    
+                   Rf   =  (fs /  qs ) x 100 ............................................................................ 
+(9) 
+ 
+5.1.4 Geseran total (Tf) 
+Nilai geseran total (Tf) diperoleh dengan menjumlahkan nilai perlawanan geser lokal (fs) yang 
+dikalikan dengan interval pembacaan, dan dihitung dengan menggunakan persamaan : 
+ 
+                   Tf    =  (fs  x interval pembacaan) .......................................................... 
+(10) 
+ 
+dengan : 
+Cw          : pembacaan manometer untuk nilai perlawanan konus (kPa); 
+Tw          : pembacaan manometer untuk nilai perlawanan konus dan geser (kPa); 
+Kw          : selisih  dengan (kPa); 
+Pkonus     : gaya pada ujung konus (kN); 
+Ppiston    : gaya pada piston (kN); 
+qc          : perlawanan konus (kPa); 
+fs           : perlawanan geser lokal (kPa); 
+Rf          : angka banding geser (%); 
+Tf           : geseran total (kPa); 
+Api          : luas penampang piston (cm2); 
+Dpi          : diameter piston (cm); 
+Ac          : luas penampang konus (cm2); 
+Dc =  Ds  : diameter konus sama dengan diameter selimut geser (cm); 
+As         : luas selimut geser (cm2); 
+Ds         : diameter selimut geser (cm); 
+Ls           : panjang selimut geser (cm) 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+9 dari 17 
+ 
+ 
+Gambar 5   Sistem gaya waktu pengujian sondir 
+ 
+ 
+ 
+ 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+ 
+10 dari 17
+5.2 
+Prosedur perhitungan   
+Lakukan perhitungan perlawanan konus (qc), perlawanan geser (fs), angka banding geser 
+(Rf), dan geseran total (Tf) tanah dan penggambaran hasil pengujian dengan tahapan 
+berikut. 
+ 
+5.2.1 Cara perhitungan 
+a) Hitung perlawanan konus (qc) bila ujung konus saja yang terdorong dengan 
+menggunakan persamaan (1) s.d (4). 
+b) Hitung perlawanan geser (fs) lokal bila ujung konus dan bidang geser terdorong 
+bersamaan dengan menggunakan persamaan (5) s.d (8). 
+c) 
+Hitung angka banding geser (Rf) dengan menggunakan persamaan (9). 
+d) Hitung geseran total (Tf) tanah dengan menggunakan persamaan (10). 
+ 
+5.2.2 Cara penggambaran hasil uji penetrasi konus 
+a) Gambarkan grafik hubungan antara variasi perlawanan konus (qc) dengan kedalaman 
+(meter). 
+b) Untuk uji sondir dengan konus ganda gambarkan hubungan antara perlawanan geser 
+(fs) dengan kedalaman dan geseran total (Tf) dengan kedalaman. 
+c) 
+Apabila diperlukan rincian tanah yang diperkirakan dari data perlawanan konus dan 
+perlawanan geser, gambarkan grafik hubungan antara angka banding geser dengan . 
+kedalaman. 
+d) Tempatkan grafik-grafik dari sub butir a), b) dan c) di atas pada satu lembar gambar 
+dengan skala kedalaman yang sama. 
+ 
+ 
+6 
+Laporan uji  
+Hasil uji sondir dilaporkan dalam bentuk formulir seperti diperlihatkan dalam Lampiran C, 
+yang memuat hal-hal sebagai berikut: 
+a) Nama pekerjaan dan lokasi pekerjaan, dan tanggal pengujian; 
+b) Nama penguji, nama pengawas, dan nama penanggung jawab hasil uji dengan disertai 
+tanda tangan (paraf) yang jelas; 
+c) 
+Jumlah pengujian, koordinat lokasi atau sketsa situasi letak, elevasi tanah dan muka air 
+tanah (bila memungkinkan); 
+d) Tipe ujung alat penetrasi yang digunakan, tipe mesin bercabang, informasi kalibrasi 
+ujung alat dan cabang atau kedua-duanya; 
+e) Catat setiap penyimpangan pada waktu pengujian. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+11 dari 17 
+Lampiran A 
+(normatif) 
+Bagan alir cara uji penetrasi lapangan dengan alat sondir 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+` 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+` 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MULAI UJI SONDIR 
+1. Persiapan sebelum pengujian 
+a) Siapkan lubang sedalam 65 cm untuk penusukan 
+pertama. 
+b) Masukkan 4 buah angker ke dalam tanah sesuai 
+letak rangka pembeban. 
+c) Setel rangka pembeban, sehingga pembeban 
+berdiri vertikal   
+d) Pasang manometer untuk tanah lunak 0 s.d 2 
+MPa dan 0 s.d 5 MPa atau untuk tanah keras 0 
+s.d 5MPa dan 0 s.d 20 MPa 
+e) Periksa sistem hidraulik dengan menekan piston 
+hidraulik menggunakan kunci piston, dan bila 
+kurang tambahkan oli serta cegah terjadinya 
+gelembung udara dalam sistem. 
+f) Tempatkan rangka pembeban, sehingga 
+penekan hidraulik berada tepat di atasnya. 
+g) Pasang balok-balok penjepit pada jangkar dan 
+kencangkan dengan memutar baut pengencang 
+h) Sambungkan konus ganda dengan batang dalam 
+dan    batang dorong serta kepala pipa dorong.
+2. Prosedur pengujian (penekanan pipa dorong) 
+a) Dirikan batang dalam dan pipa dorong di bawah 
+penekan hidraulik pada kedudukan yang tepat.  
+b) Dorong / tarik kunci pengatur pada kedudukan siap 
+tekan, sehingga penekan hidraulik hanya akan 
+menekan pipa  dorong. 
+c) Putar engkol searah jarum jam (kecepatan 10 s.d 20 
+mm/s), sehingga gigi penekan dan penekan hidraulik 
+bergerak turun dan menekan pipa luar sampai 
+mencapai kedalaman 20 cm  sesuai interval pengujian.
+d) Pada tiap interval 20 cm lakukan penekanan batang 
+dalam dengan menarik kunci pengatur, sehingga 
+penekan hidraulik menekan batang dalam saja 
+(kedudukan 1, Gambar 4). 
+3. Prosedur pengujian (penekanan batang dalam) 
+a) Baca perlawanan konus pada penekan batang  dalam 
+sedalam kira-kira 4 cm pertama (kedudukan 2, Gambar 
+4) dan catat pada formulir (Lampiran B) pada kolom Cw .  
+b) Baca jumlah perlawanan geser dan perlawanan konus 
+pada      penekan batang sedalam ± 4 cm yang ke-dua 
+(kedudukan 3, Gambar 4) dan catat pada formulir 
+(Lampiran B) pada  kolom Tw.   
+Apakah  
+qc < kapasitas 
+alat?
+5. Perhitungan dan pembuatan grafik 
+a) Perhitungan formulir 1  
+b) Pembuatan grafik hasil uji sondir 
+SELESAI 
+4. Lanjutkan pengujian pada 
+kedalaman 20cm berikutnya 
+ 
+    Ya 
+Tidak 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+ 
+12 dari 17
+Lampiran B 
+(informatif) 
+ 
+Contoh formulir hasil uji penetrasi konus statik (sondir) 
+ 
+Tabel B.1    Contoh formulir hasil uji penetrasi konus statik 
+Lokasi 
+: 
+ 
+Penanggung jawab 
+: 
+ 
+No. sondir  
+: 
+ 
+Tanggal  
+: 
+ 
+Elevasi 
+: 
+ 
+ 
+: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Kedalaman 
+Cw 
+kPa/100 
+Tw 
+kPa/100 
+Kw 
+kPa/100 
+qc 
+kPa/100 
+fs 
+kPa/100 
+fsx20cm 
+kPa/100 
+Tf 
+kPa-
+cm/100 
+Rf 
+(%) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Penguji 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       Penyelia 
+ 
+ 
+        (                     ) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(                               ) 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+13 dari 17 
+Tabel B.2    Contoh hasil uji penetrasi konus static 
+ 
+Lokasi 
+: 
+SALAMDARMA 
+Penanggung jawab 
+: 
+Ir. Theo F. Najoan 
+No. sondir  
+: 
+DCPT.1 
+Tanggal  
+: 
+15-11-2005 
+Elevasi 
+: 
++ 0,00 m 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Kedalaman 
+Cw 
+kPa/100 
+Tw 
+kPa/100 
+Kw 
+kPa/100 
+qc 
+kPa/100 
+fs 
+kPa/100 
+fsx20cm 
+kPa/100 
+Tf 
+kPa-
+cm/100 
+Rf 
+(%) 
+0,20 
+8 
+9 
+1 
+16 
+0,133 
+2,66 
+2,66 
+0,83 
+0,40 
+25 
+30 
+5 
+50 
+0,667 
+13,34 
+16,00 
+1,33 
+0,60 
+30 
+35 
+5 
+60 
+0,667 
+13,34 
+29,34 
+1,11 
+0,80 
+28 
+33 
+5 
+56 
+0,667 
+13,34 
+42,68 
+1,19 
+1,00 
+21 
+42 
+21 
+42 
+2,801 
+56,03 
+98,71 
+6,67 
+1,20 
+19 
+22 
+3 
+38 
+0,400 
+8,00 
+106,71 
+1,05 
+1,40 
+16 
+18 
+2 
+32 
+0,267 
+5,34 
+112,05 
+0,83 
+1,60 
+11 
+16 
+5 
+22 
+0,667 
+13,34 
+125,39 
+3,03 
+1,80 
+12 
+17 
+5 
+24 
+0,667 
+13,34 
+138,73 
+2,78 
+2,00 
+12 
+17 
+5 
+24 
+0,667 
+13,34 
+152,07 
+2,78 
+2,20 
+18 
+27 
+9 
+36 
+1,201 
+24,02 
+176,09 
+3,34 
+2,40 
+16 
+24 
+8 
+32 
+1,067 
+21,34 
+197,43 
+3,33 
+2,60 
+10 
+16 
+6 
+20 
+0,800 
+16,00 
+213,43 
+4,00 
+2,80 
+10 
+14 
+4 
+20 
+0,534 
+10,68 
+224,11 
+2,67 
+3,00 
+9 
+17 
+8 
+18 
+1,067 
+21,34 
+245,45 
+5,93 
+3,20 
+11 
+20 
+9 
+22 
+1,201 
+24,02 
+269,47 
+5,46 
+3,40 
+14 
+18 
+4 
+28 
+0,534 
+10,68 
+280,15 
+1,91 
+3,60 
+18 
+21 
+3 
+36 
+0,400 
+8,00 
+288,15 
+1,11 
+3,80 
+29 
+35 
+6 
+58 
+0,800 
+16,00 
+304,15 
+1,38 
+4,00 
+19 
+25 
+6 
+38 
+0,800 
+16,00 
+320,15 
+2,11 
+4,20 
+15 
+20 
+5 
+30 
+0,667 
+13,34 
+333,49 
+2,22 
+4,40 
+24 
+32 
+8 
+48 
+1,067 
+21,34 
+354,83 
+2,22 
+4,60 
+19 
+28 
+9 
+38 
+1,201 
+24,02 
+378,85 
+3,16 
+4,80 
+25 
+41 
+16 
+50 
+2,134 
+42,68 
+421,53 
+4,27 
+5,00 
+19 
+26 
+7 
+38 
+0,934 
+18,68 
+440,21 
+2,46 
+5,20 
+9 
+17 
+8 
+18 
+1,067 
+21,34 
+461,55 
+5,93 
+5,40 
+9 
+17 
+8 
+18 
+1,067 
+21,34 
+482,89 
+5,93 
+5,60 
+8 
+15 
+7 
+16 
+0,934 
+18,68 
+501,57 
+5,84 
+5,80 
+11 
+19 
+8 
+22 
+1,067 
+21,34 
+522,91 
+4,85 
+6,00 
+8 
+16 
+8 
+16 
+1,067 
+21,34 
+544,25 
+6,67 
+6,20 
+4 
+7,5 
+3,5 
+8 
+0,467 
+9,34 
+553,59 
+5,84 
+6,40 
+9 
+18 
+9 
+18 
+1,201 
+24,02 
+577,61 
+6,67 
+6,60 
+6 
+12 
+6 
+12 
+0,800 
+16,00 
+593,61 
+6,67 
+6,80 
+8 
+15 
+7 
+16 
+0,934 
+18,68 
+612,29 
+5,84 
+7,00 
+4 
+7 
+3 
+8 
+0,400 
+8,00 
+620,29 
+5,00 
+7,20 
+6 
+9 
+3 
+12 
+0,400 
+8,00 
+628,29 
+3,33 
+7,40 
+3 
+5 
+2 
+6 
+0,267 
+5,34 
+633,63 
+4,45 
+7,60 
+4 
+7,5 
+3,5 
+8 
+0,467 
+9,34 
+642,97 
+5,84 
+7,80 
+3 
+6 
+3 
+6 
+0,400 
+8,00 
+650,97 
+6,67 
+8,00 
+8 
+12 
+4 
+16 
+0,534 
+10,68 
+661,65 
+3,38 
+8,20 
+3 
+6 
+3 
+6 
+0,400 
+8,00 
+669,65 
+6,67 
+8,40 
+5 
+10 
+5 
+10 
+0,667 
+13,34 
+682,99 
+6,67 
+8,60 
+10,5 
+13,5 
+3 
+21 
+0,400 
+8,00 
+690,99 
+1,90 
+8,80 
+9 
+12 
+3 
+18 
+0,400 
+8,00 
+698,99 
+2,22 
+9,00 
+2,5 
+5 
+2,5 
+5 
+0,334 
+6,68 
+705,67 
+6,68 
+9,20 
+1,5 
+3 
+1,5 
+3 
+0,200 
+4,00 
+709,67 
+6,67 
+9,40 
+3 
+6 
+3 
+6 
+0,400 
+8,00 
+717,67 
+6,67 
+9,60 
+24 
+30 
+6 
+48 
+0,800 
+16,00 
+733,67 
+1,67 
+9,80 
+33 
+38 
+5 
+66 
+0,667 
+13,34 
+747,01 
+1,01 
+10,00 
+32 
+41 
+9 
+64 
+1,201 
+24,02 
+771,03 
+1,88 
+10,20 
+35 
+39 
+4 
+70 
+0,534 
+10,68 
+781,71 
+0,76 
+10,40 
+26 
+35 
+9 
+52 
+1,201 
+24,02 
+805,73 
+2,31 
+ 
+Penguji 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Penyelia 
+ 
+ 
+(Warsah) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(Ir. Carlina Soetjiono, M.Eng) 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+ 
+14 dari 17
+Lanjutan Tabel B.2 
+Kedalaman 
+Cw 
+kPa/100 
+Tw 
+kPa/100 
+Kw 
+kPa/100 
+qc 
+kPa/100 
+fs 
+kPa/100 
+fsx20cm 
+kPa/100 
+Tf 
+kPa-
+cm/100 
+Rf 
+(%) 
+10,60 
+38 
+41,5 
+3,5 
+76 
+0,467 
+9,34 
+815,07 
+0,61 
+10,80 
+41 
+44 
+3 
+82 
+0,400 
+8,00 
+823,07 
+0,49 
+11,00 
+37 
+43 
+6 
+74 
+0,800 
+16,00 
+839,07 
+1,08 
+11,20 
+35 
+41 
+6 
+70 
+0,800 
+16,00 
+855,07 
+1,14 
+11,40 
+38 
+42 
+4 
+76 
+0,534 
+10,68 
+865,75 
+0,70 
+11,60 
+20 
+28 
+8 
+40 
+1,067 
+21,34 
+887,09 
+2,67 
+11,80 
+19 
+26 
+7 
+38 
+0,934 
+18,68 
+905,77 
+2,46 
+12,00 
+10 
+20 
+10 
+20 
+1,334 
+26,68 
+932,45 
+6,67 
+12,20 
+11 
+21 
+10 
+22 
+1,334 
+26,68 
+959,13 
+6,06 
+12,40 
+9 
+17 
+8 
+18 
+1,067 
+21,34 
+980,47 
+5,93 
+12,60 
+11 
+21 
+10 
+22 
+1,334 
+26,68 
+1.007,15 
+6,06 
+12,80 
+11 
+21 
+10 
+22 
+1,334 
+26,68 
+1.033,83 
+6,06 
+13,00 
+14 
+22 
+8 
+28 
+1,067 
+21,34 
+1.055,17 
+3,81 
+13,20 
+16 
+28 
+12 
+32 
+1,601 
+32,02 
+1.087,19 
+5,00 
+13,40 
+16 
+25 
+9 
+32 
+1,201 
+24,02 
+1.111,21 
+3,75 
+13,60 
+17 
+29 
+12 
+34 
+1,601 
+32,02 
+1.143,23 
+4,71 
+13,80 
+19 
+28 
+9 
+38 
+1,201 
+24,02 
+1.167,25 
+3,16 
+14,00 
+18 
+28 
+10 
+36 
+1,334 
+26,68 
+1.193,93 
+3,71 
+14,20 
+17 
+28 
+11 
+34 
+1,467 
+29,35 
+1.223,28 
+4,31 
+14,40 
+21 
+30 
+9 
+42 
+1,201 
+24,02 
+1.247,73 
+2,86 
+14,60 
+18 
+31 
+13 
+36 
+1,734 
+34,68 
+1.281,98 
+4,82 
+14,80 
+20 
+32 
+12 
+40 
+1,601 
+32,02 
+1.314,00 
+4,00 
+15,00 
+22 
+38 
+16 
+44 
+2,134 
+42,68 
+1.356,68 
+4,85 
+15,20 
+20 
+37 
+17 
+40 
+2,268 
+45,36 
+1.402,04 
+5,67 
+15,40 
+31 
+41 
+10 
+62 
+1,334 
+26,68 
+1.428,72 
+2,15 
+15,60 
+22 
+41 
+19 
+44 
+2,535 
+50,70 
+1.479,42 
+5,76 
+15,80 
+22 
+41 
+19 
+44 
+2,535 
+50,70 
+1.530,12 
+5,76 
+16,00 
+32 
+50 
+18 
+64 
+2,401 
+48,02 
+1.578,14 
+3,75 
+16,20 
+30 
+50 
+20 
+60 
+2,668 
+53,36 
+1.631,50 
+4,45 
+16,40 
+30 
+48 
+18 
+60 
+2,401 
+48.02 
+1.679,52 
+4,00 
+16,60 
+32 
+48 
+16 
+64 
+2,134 
+42,68 
+1.722,20 
+3,33 
+16,80 
+32 
+48 
+16 
+64 
+2,134 
+42,68 
+1.764,88 
+3,33 
+17,00 
+31 
+50 
+19 
+62 
+2,535 
+50,70 
+1.815,58 
+4,09 
+17,20 
+30 
+48 
+18 
+60 
+2,401 
+48,02 
+1.863,60 
+4,00 
+17,40 
+28 
+42 
+14 
+56 
+1,868 
+37,36 
+1.900,96 
+3,34 
+17,60 
+30 
+38 
+8 
+60 
+1,067 
+21,34 
+1.922,20 
+1,78 
+17,80 
+30 
+40 
+10 
+60 
+1,334 
+26,68 
+1.948,98 
+2,22 
+18,00 
+15 
+21 
+6 
+30 
+0,800 
+16,00 
+1.964,98 
+2,67 
+18,20 
+18 
+25 
+7 
+36 
+0,934 
+18,68 
+1.983,66 
+2,59 
+18,40 
+32 
+50 
+18 
+64 
+2,401 
+48,02 
+2.031,68 
+3,75 
+18,60 
+32 
+48 
+16 
+64 
+2,134 
+42,68 
+2.074,36 
+3,33 
+18,80 
+40 
+58 
+18 
+80 
+2,401 
+48,02 
+2.122,38 
+3,00 
+19,00 
+31 
+48 
+17 
+62 
+2,268 
+45,36 
+2.167,74 
+3,66 
+19,20 
+13 
+25 
+12 
+26 
+1,601 
+32,02 
+2.199,76 
+6,16 
+19,40 
+20 
+25 
+5 
+40 
+0,667 
+13,34 
+2.213,10 
+1,67 
+19,60 
+15 
+25 
+10 
+30 
+1,334 
+26,68 
+2.239,78 
+3,34 
+19,80 
+15 
+30 
+15 
+30 
+2,001 
+40,02 
+2.279,80 
+6,67 
+20,00 
+15 
+30 
+15 
+30 
+2,001 
+40,02 
+2.319,82 
+6,67 
+20,20 
+15 
+30 
+15 
+30 
+2,001 
+40,02 
+2.359,84 
+6,67 
+20,40 
+18 
+35 
+17 
+36 
+2,268 
+45,36 
+2.405,20 
+6,30 
+20,60 
+15 
+30 
+15 
+30 
+2,001 
+40,02 
+2.445,22 
+6,67 
+20,80 
+13 
+25 
+12 
+26 
+1,601 
+32,02 
+2.477,24 
+6,16 
+21,00 
+15 
+30 
+15 
+30 
+2,001 
+40,02 
+2.517,26 
+6,67 
+21,20 
+20 
+25 
+5 
+40 
+0,667 
+13,34 
+2.530,60 
+1,67 
+21,40 
+18 
+35 
+17 
+36 
+2,268 
+45,36 
+2.575,96 
+6,30 
+21,60 
+20 
+25 
+5 
+40 
+0,667 
+13,34 
+2.589,30 
+1,67 
+21,80 
+18 
+28 
+10 
+36 
+1,334 
+26,68 
+2.615,98 
+3,71 
+22,00 
+20 
+38 
+18 
+40 
+2,401 
+48,02 
+2.664,00 
+6,00 
+22,20 
+15 
+30 
+15 
+30 
+2,001 
+40,02 
+2.704,02 
+6,67 
+22,40 
+10 
+20 
+10 
+20 
+1,334 
+26,68 
+2.730,70 
+6,67 
+Ds   = 3,56 cm    ;   Dp1’ =  3,56 cm 
+Dc   = 3,56 cm    ;   L      = 13,30 cm 
+                                                                                             
+ 
+Bandung, 15 November 2005 
+ 
+               Diperiksa oleh :                                                       
+ 
+        Penanggung jawab, 
+ 
+(Ir. Carlina Soetjiono, Dipl. H.E.)                                         
+ 
+(Ir. Theo F. Najoan, M. Eng.) 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+15 dari 17 
+ 
+ 
+ 
+Gambar B.1    Contoh grafik hasil uji sondir 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+ 
+16 dari 17
+Lampiran C 
+(informatif) 
+Tabel daftar deviasi teknis dan penjelasannya 
+ 
+ 
+ 
+No. 
+Materi 
+Sebelum 
+Revisi 
+1. 
+Judul  
+Metode pengujian 
+penetrasi dengan alat 
+SPT 
+Cara uji penetrasi lapangan 
+dengan alat SPT 
+2. 
+Format 
+Format SNI 
+Tetap  
+3. 
+Acuan normatif 
+Ada  
+ASTM yang terkait  dipindah 
+ke Bibliografi. 
+4. 
+Istilah dan definisi 
+Sudah ada 
+Perbaikan sedikit pada 
+beberapa penjelasan, 
+disusun menurut abjad.  
+5. 
+- Penjelasan rumus dan 
+gambar   
+- Penjelasan cara kerja 
+peralatan, bagan alir cara uji, 
+dan contoh uji.  
+Sudah ada 
+Lengkapi penjelasan rumus 
+dan gambar, serta cara kerja 
+peralatan secara skematis. 
+6. 
+Rumus  
+Sudah ada 
+Lengkapi rumus dengan 
+gambar dan satuan serta 
+perhitungannya. 
+7. 
+Gambar 
+Gambar masih kurang 
+jelas 
+Perbaiki, lengkapi dan 
+perjelas gambar-gambar cara 
+kerja alat, bagan alir cara 
+kerja dan cantumkan 
+sumbernya.  
+8. 
+Contoh Formulir 
+Belum lengkap 
+Penambahan contoh uji/ 
+perhitungan (Lampiran C). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 
+SNI 2827:2008 
+ 
+17 dari 17 
+Bibliografi 
+ 
+ 
+SNI 03-2827-1992, “Metode pengujian lapangan dengan alat sondir”. 
+ 
+ASTM D 1586-84 (1984), “Standard penetration test and split barrel sampling of soils”. 
+ 
+De Beer, E.E., Goelen, E., Heynen, W.J. and Joustra, K., 1988, “Cone penetration test (CPT) 
+: International reference test procedure”, in Penetration Testing 1988 Volume 1, Edited by J. 
+De Ruiter, A.A. Balkema, Rotterdam/ Brookfield , 1988.        
+ 
+FHWA NHI-01-031, “Manual on subsurface investigations”. 
+ 
+FHWA-TA-78-209 (1977), “Guidelines for Cone Penetration Test, Performance and Design“, 
+U.S. Department of Transportation, Federal Highway Administration, Offices of Research 
+and Development, Implementation Div. Washington, D.C., 20590, Juli 1977. 
+ 
+Schultze, E. & Muhs, H. (1967), “Bodenuntersuchungan fur Ingenieurbauten“, Springer – 
+Verlag , Berlin/ Heidelberg/ New York, page 147 – 169. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“ Copy standar ini dibuat oleh BSN untuk Badan Penelitian dan Pengembangan Departemen Pekerjaan Umum                                                                                                                            
+dalam rangka Penyebarluasan, Pengenalan dan Pengaplikasian Standar, Pedoman, Manual (SPM) Bidang Konstruksi Bangunan dan Rekayasa Sipil ”                                                                                            
+ 

@@ -1,0 +1,564 @@
+1 
+ 
+STUDI PARAMETER PERENCANAAN STONE COLUMN UNTUK PERBAIKAN  
+BEARING CAPACITY DAN SETTLEMENT PADA TANAH LEMPUNG 
+ 
+Study Parameters Design Stone Column For Improving 
+ Bearing Capacity and Settlement on Clay Soil 
+ 
+Immanuel Hepma Sihol Mardame Sihombing - 15008083 
+Program Studi Teknik Sipil, Fakultas Teknik Sipil dan Lingkungan ITB, Bandung 
+email: hepmaimmanuel@yahoo.co.id 
+ 
+ 
+ABSTRAK : Stone column merupakan salah satu metode perbaikan tanah baik pada tanah lempung maupun 
+tanah berpasir. Pada tanah lempung, penggunaan stone column dapat meningkatkan dan memperbaiki masalah 
+daya dukung tanah dan penurunan yang terjadi. Dalam tugas akhir ini, ditinjau kemampuan daya dukung  dan 
+penrunan yang terjadi pada tanah lempung yang akan menerima beban tanah timbunan. Studi parameter ini 
+ingin melihat bagaimana hubungan dari masing-masing parameter yang diperhitungkan dalam perhitungan 
+perencanaan stone column dengan metode FHWA terhadap peningkatan kapasitas daya dukung serta penurnan 
+yang terjadi. Sehingga dapat melakukan estimasi cepat dalam perencanaan stone column pada tanah lempung. 
+ 
+Kata Kunci: Stone Column, Tanah Timbunan, Lempung, Daya Dukung, Penurunan 
+ 
+ 
+PENDAHULUAN 
+Salah satu metode yang dapat digunakan dalam 
+perbaikan tanah adalah Stone Column atau Kolom 
+Batu. Metode perbaikan tanah ini pertama kali 
+dikembangkan di Eropa pada tahun 1930an di 
+Prancis dan mulai berkembang pesat pada akhir 
+tahun 1950an. Metode ini biasanya digunakan unuk 
+perbaikan tanah kohesif lunak untuk menaikkan daya 
+dukung tanah dan untuk mengurangi settlements atau 
+penurunan tanah yang akan terjadi. Teknik perbaikan 
+tanah dengan menggunakan stone column ini sangat 
+baik untuk digunakan pada struktur yang memiliki 
+area yang luas seperti tanki penyimpanan minyak, 
+timbunan, dan struktur lain yang mungkin memiki 
+penurunan yang besar.  
+Dalam konstruksi, timbunan tanah merupakan 
+salah satu metode penyesuaian elevasi permukaan 
+tanah, namun mengakibatkan terjadinya penurunan 
+(konsolidasi) pada tanah lempung. Oleh karena itu 
+pada tanah lempung proses konsolidasi ini menjadi 
+salah satu hal yang sangat diperhatikan karena 
+membutuhkan waktu yang cukup lama. Hal ini 
+terjadi dikarenakan daya dukung tanah terhadap 
+beban timbunan sangat rendah, sehingga beban 
+timbunan yang diberikan pada tanah dilakukan 
+secara bertahap dan sebagian. 
+Dengan perbaikan menggunakan teknik stone 
+column ini, diharapkan tanah lempung dapat 
+menghasilkan kapasitas daya dukung besar sehingga 
+beban timbunan yang bekerja menjadi lebih besar, 
+sehingga konsolidasi yang terjadi menjadi lebih cepat 
+karena stone column sendiri juga dapat menjadi 
+drainase tambahan untuk mengeluarkan air pori. 
+Selain itu dengan stone column diharpkan pula 
+penurunan yang terjadi akibat beban timbunan 
+tersebut menjadi lebih kecil/berkurang. 
+Tugas akhir ini akan membahas hubungan 
+parameter-parameter pada tanah lempung, stone 
+column, beban tanah timbunan terhadap perbaikan 
+daya dukung yang dapat diberikan tanah serta 
+penurunan yang akan terjadi. Dengan perhitungan 
+perencanaan stone column menggunakan metode 
+FHWA (Federal Highway Administration Office of 
+Engineering and Highway Operations Research and 
+Development Washington, D.C.) 
+TEORI PERENCANAAN STONE COLUMN 
+ 
+Tipe dan Pola Pemasangan Stone Column 
+Ada 2 tipe pemasangan stone column, yaitu 
+fixed type dan floating type. Untuk studi 
+parameter ini, tipe pemasangan yang digunakan 
+adalah fixe type, dimana pemasangan stone 
+2 
+ 
+column diasumsikan sampai mencapai tanah 
+yang cukup keras. Selain itu, untuk pola 
+pemasangan stone column yang digunakan 
+adalah pola segitiga sama sisi. 
+ 
+ 
+ 
+Dengan pola pemasangan segitiga sama sisi ini, 
+maka diameter ekuivalen (De) yang dipengaruhi 
+oleh 1 stone column adalah sebesar 1,05 kali 
+spasi pemasangan stone column tersebut.  
+ 
+Area Replacement Rasio (Rasio Pergantian 
+Luas (as)) 
+Volume tanah stone column yang akan 
+menggantikan tanah asli, memiliki pengaruh 
+yang penting terhadap hasil dari perkuatan 
+tanah, dan mempengaruhi besarnya volume 
+tanah yang akan tergantikan. Untuk menghitung 
+jumlah pergantian tanah yang dibutuhkan Stone 
+Column, ditetapkan rasio pergantian luas ( s), 
+dengan rumusan sebagai berikut 
+     
+  
+       
+ 
+ 
+dengan  
+As 
+= luas stone column 
+ 
+A 
+= luas total unit cell 
+Dimana untuk pola pemasangan segitiga sama 
+sisi, nilai  
+         ( 
+ )
+ 
+ 
+atau dengan rumus berikut : 
+    
+   ( )          
+   (  )  
+dimana  
+D   = Diameter Stone Column 
+ 
+De = Diameter Ekuivalen 
+ 
+Konsep Penumpukan Tegangan (n) 
+Dalam perencanaanya, di lapangan diasumsikan 
+penurunan yang terjadi pada stone column dan 
+tanah yang diperkuatnya dianggap sama besar 
+dan terjadi secara bersamaan, oleh karena itu 
+akan 
+terjadi 
+penumpukan 
+dan 
+distribusi 
+tegangan yang diterima stone column dan tanah 
+yang diperkuat seperti yang diilustrasikan pada 
+gambar 2, hal tersebut dikarenakan kekuatan 
+dan kekakuan (stiffness) dari stone column lebih 
+besar dibandingkan dengan kekuatan dan 
+kekakuan (stiffness) tanah yang diperkuatnya, 
+sehingga tegangan yang diterima oleh tanah 
+yang diperkuat akan lebih kecil dari tegangan 
+yang 
+diterima 
+oleh 
+tanah 
+keseluruhan. 
+Berdasarkan metode FHWA, dan pengalaman di 
+lapangan, 
+Besarnya 
+faktor 
+penumpukan 
+tegangan berkisar antara 2-5, sehingga pada 
+tugas akhir ini diasumsikan n = 3. 
+ 
+Dengan adanya faktor penumpukan tegangan 
+ini, maka rasio tegangan yang diterima oleh 
+tanah lempung terhadap tegangan rata-rata 
+menjadi lebih kecil pada daerah pengaruhnya, 
+nilai rasio ini ditentukan berdasarkan persamaan 
+berikut,  
+            (     ) 
+   
+ 
+[  (   )   ]       
+   
+  
+[  (   )   ]       
+Dimana,      = rasio tegangan pada stone 
+column terhadap tegangan rata-
+rata pada daerah pengaruh 
+ 
+    = rasio tegangan pada tanah yang 
+diperbaiki terhadap tegangan rata-
+rata pada daerah pengaruh 
+   = Tegangan yang terjadi pada 
+Stone Column 
+   = Tegangan yang terjadi pada 
+Tanah 
+ 
+Ilustrasi Unit Cell Stone Column 
+Unit Cell pada Stone Column merupakan satu 
+silinder dengan diameter ekivalen yang meliputi 
+satu Stone Column dengan daerah pengaruhnya. 
+Dalam perencanaannya, konsep Extended Unit 
+Cell wajib berlaku, yaitu saat sebuah grup stone 
+column dengan panjang tak terbatas memikul 
+beban merata, setiap interior kolom dapat 
+3 
+ 
+dianggap 
+sebagi 
+unit 
+cell 
+seperti 
+yang 
+diilustrasikan 
+pada 
+Gambar 
+3. 
+Karena 
+kesimetrisan geometri dan beban yang bekerja 
+deformasi lateral tidak terjadi pada batas unit 
+cell. Karena kesimetrisan tersebut pula tegangan 
+geser di luar batas unit cell harus bernilai nol. 
+Secara fisik unit cell dimodelkan seperti yang 
+diilustrasikan pada Gambar di bawah ini. 
+ 
+Dimana,  
+σ0  adalah beban timbunan atau struktur yang 
+diterima oleh tanah. σc  adalah tegangan yang 
+akan diterima oleh stone column akibat beban 
+struktur atau timbunan. σs  adalah tegangan yang 
+akan diterima tanah lempung di sekitar stone 
+column. D adalah diameter dari stone column, 
+sedangkan De adalah Diameter ekuivalen 
+(pengaruh) dari satu stone column terhadap 
+daera di sekitarnya. L adalah kedalaman dan 
+panjang dari stone column. 3-6 D adalah posisi 
+daerah yang akan memungkinkan terjadinya 
+keruntuhan deep bulging. Posisi ini berada pada 
+kedalaman 3- 6 kali diameter stone column di 
+bawah permukaan tanah. Dan σr  adalah 
+tegangan radial stress yang akan diberikan oleh 
+tanah di sekitar stone column sebagai tahanan 
+horisontal 
+terhadap 
+stone 
+column 
+akibat 
+kontribusi dari tegangan vertikal yang diterima 
+tanah di sekitar stone column 
+PEMILIHAN PARAMETER 
+Studi parameter yang dilakukan pada tanah 
+dengan 1 lapis dan 2 lapis dengan menggunakan 4 
+kombinasi parameter yang menjadi tolak ukur studi.  
+ 
+ 
+Parameter stone column yang dikombinasikan 
+antara lain,  
+ Diameter : 60, 80, 100, 120 cm 
+ Spasi : 100, 200, 300, 400 cm 
+ Panjang/Kedalaman : 3, 6, 9, 12 cm 
+ Sudut Geser Dalam Material : 30,35,40,45 
+ 
+Parameter tanah lempung yang dikombinasikan 
+dalam tugas akhir ini antara lain : 
+ Kuat Geser Tanah (Cu) : Cu1 = 25, 50, 100, 
+150 kN/m2 dan Cu2 = 12,5;25;50;75 kN/m2 
+ Unit Weight Tanah = 16, 17, 18, 29 kN/m3 
+Sedangkan 
+untuk 
+beban 
+tanah 
+timbunan, 
+kombinasi yang digunakan berupa tinggi timbunan 
+(3,5,6,8 meter), berat jenis tanah timbunan (16 
+kN/m3), serta lebar tanah timbunan adalah 4 kali 
+tebal tanah. 
+Berikut input dari studi parameter yang 
+digunakan dalam tugas akhir ini. 
+ 
+ 
+ 
+ 
+4 
+ 
+ 
+METODE PERHITUNGAN 
+Perhitungan kapasitas daya dukung stone 
+column menggunakan 2 metode, yaitu (1) metode 
+FHWA, dimana          
+̅̅̅̅, dengan c = undrained 
+shear strength tanah lempung, Nc = Faktor kapasitas 
+daya dukung stone column (18 ≤ Nc ≤ 22). (2) 
+Metode Hughes et. AL 1975, dimana    
+    (   
+  
+ ) (      ), dengan Cu = Undrained 
+shear strength of the clay, dan    = Effective radial 
+stress as measured by pressuremeter (1-2 Cu), serta 
+   = Effective stress friction angle dari material stone 
+column.  
+Pada stone column, pengecekkan tahanan 
+terhadap deep bulging harus diperhatikan sehingga 
+pengecekkan batas kapasitas maksimum yang tidak 
+menimbulkan keruntuhan bulging dapat dilihat dari 
+persamaan berikut : 
+    
+⁄
+        
+       
+ 
+Dimana,    = Lateral Confinig Stress 
+   = Ultimate Vertical Stress 
+   = Sudut Geser dalam Material  
+Bila kondisi perlapisan tanah dengan lapisan 
+tanah lunak tidak berada dibawah kedalaman 3 kali 
+diameter 
+stone 
+column, 
+maka 
+pengecekkan 
+keruntuhan 
+deep 
+bulging 
+tidak 
+akan 
+dipertimbangkan. 
+Dalam perhitungan untuk menentukan kapasitas 
+daya dukung tanah yang telah diperbaiki dengan 
+stone column, konsep penumpukan tegangan harus 
+terjadi. Asumsi ini harus terjadi sehingga tegangan 
+rata-rata akan terjadi pada unit cell secara merata. 
+Persamaan 
+yang 
+digunakan 
+untuk 
+penentuan 
+tegangan rata-rata yang diterima unit cell adalah : 
+          (    ) 
+Atau 
+    [  (   )  ]
+⁄
+     
+Dan  
+     [  (   )  ]
+⁄
+     
+dengan, σ  = Tegangan rata-rata yang dapat dipikul 
+oleh unit cell 
+ 
+σs = Tegangan maksimum dipikul tanah 
+ 
+σc = Tegangan maksimum stone column 
+ 
+as  = Area replacement ratio 
+µ = adalah Stress Concentration Ratio yang 
+diterima Unit Cell 
+Skema perhitungan kapasitas daya dukung tanah 
+yang diperbaiki stone column :  
+ 
+ 
+Selain itu, untuk perhitungan settlement yang 
+terjadi pada tanah, digunakan metode analisis 1D 
+Terzaghi 
+   (
+  
+    )    (
+  
+̅̅̅̅   
+  )  , 
+dengan 
+perubahan tegangan vertikal yang diterima tanah 
+lempung menjadi lebih kecil yang ditentukan 
+berdasarkan persamaan        . Dengan σ adalah 
+rata-rata beban eksternal yang bekerja. 
+Berikut 
+ini 
+skema 
+langkah 
+perhitungan 
+settlement tanah yang telah diperbaiki stone column : 
+5 
+ 
+ 
+ANALISIS HASIL STUDI PARAMETER 
+Dari hasil analisis dengan stone column 
+kapasitas daya dukung tanah akan semakin besar, 
+dengan bertambahnya nilai area replacement rasio 
+sehingga beban timbunan yang bekerja pada tanah 
+lempung dapat menjadi lebih besar. Atau dengan 
+adanya perbaikan dengan stone column, maka daya 
+dukung yang dapat diberikan tanah akan semakin 
+besar. Hal ini dapat dilihat dari grafik dibawah ini : 
+ 
+ 
+ 
+Selain itu, untuk penurunan (settlement) yang 
+terjadi 
+pada 
+tanah 
+juga 
+akan 
+mengalami 
+pengurangan, seperti yang dapat dilihat dari grafik 
+dibawah ini, untuk tanah 6 meter :  
+ 
+ 
+ 
+Berdasarkan grafik-grafik yang ada pada tugas 
+akhir ini, dapat dilakukan estimasi cepat secara 
+konvensional dalam perencanaan perbaikan tanah 
+dengan stone column, yang akan diberi beban 
+timbunan setinggi 3,5,6,8 meter. Sehingga dapat 
+didesain konfigurasi stone column yang dibutuhkan 
+untuk mendapat nilai area replacement rasio yang 
+kita inginkan. Nilai area replacement rasio sendiri 
+merupakan kombinasi dari nilai diameter dan spasi 
+dari stone column. Berikut grafik nilai area 
+replacement rasio : 
+ 
+ 
+KESIMPULAN 
+ 
+Area Replacement Ratio 
+Area Replacement ratio menentukan besarnya 
+kenaikan atau perbaikan (Improvement) yang 
+terjadi pada tanah lempung. Semakin besar area 
+replacement ratio maka peningkatan yang 
+6 
+ 
+terjadi semakin besar. Namun peningkatan yang 
+akan dialami tanah lempung akan mencapai 
+nilai maksimum saat nilai area replacement ratio 
+mendekati nilai maksimum = 1. 
+ 
+Spasi dan Diameter Pemasangan Stone Column 
+Parameter spasi dan diameter menentukan 
+besarnya 
+Area 
+Replacement 
+Rasio 
+yang 
+diberikan oleh 1 stone column. Semakin besar 
+Spasi maka area replacement ratio akan menjadi 
+semakin 
+kecil, 
+sedangkan 
+semakin 
+besar 
+diameter stone column, maka area replacement 
+ratio akan semakin besar, Selain itu, diameter 
+stone 
+column 
+juga 
+menentukan 
+kondisi 
+kemungkinan terjadinya deep bulging pada satu 
+unit cell stone column.  
+ 
+Sudut Geser Material Stone Column 
+Untuk sudut geser material stone column dapat 
+dilihat dari grafik pada bab 5, bahwa nilai sudut 
+geser material (ϕ = 30, 35) tidak terlalu efektif 
+meningkatkan daya dukung tanah yang cukup 
+besar. Nilai sudut geser yang efektif adalah 
+berkisar antara 40-50 derajat. Selain itu nilai 
+peningkatan phi juga tidak menurunkan nilai 
+settlement yang terjadi pada tanah yang 
+diperbaiki, sehingga nilai sudut geser stone 
+column hanya berpengaruh dalam peningkatan 
+daya dukung tanah. 
+ 
+Kondisi dan Parameter Tanah Lempung 
+Kondisi 
+perlapisan 
+pada 
+tanah 
+lempung 
+memungkinkan terjadinya deep bulging yang 
+akan terjadi. 
+Perbaikan tanah dengan stone column sangat baik 
+dalam meningkatkan daya dukung tanah lunak, 
+namun untuk mengurangi masalah settlement stone 
+column masih belum secara efektif mengurangi 
+settlement yang terjadi, karena menurut perhitungan 
+dengan metode FHWA, improvement factor yang 
+terjadi hanya sekitar 1-1,6 saja. Pada tanah lempung, 
+stone column dapat meningkatkan beban timbunan 
+yang dapat bekerja pada tanah lempung. Sehingga 
+proses settlement yang akan terjadi akan semakin 
+cepat apalagi stone column dapat juga berperan 
+sebagai drainase air seperti PVD. Selain itu, stone 
+column juga dapat memperkecil settlement yang 
+akan terjadi pada tanah lempung walaupun tidak 
+terlalu 
+efektif. 
+Dan 
+pelaksanaan 
+konstruksi, 
+permasalahan lain yang harus dipertimbangkan pada 
+stone column adalah aspek ekonomis, karena 
+walaupun dapat meningkatkan daya dukung tanah, 
+penggunaan stone column lebih efektif dari pondasi 
+dalam pada beberapa ketebalan tanah. 
+DAFTAR PUSTAKA 
+Bowles, J. E.(1996) Foundation Analysis and 
+Design. The Mc-Graw-Hill Companies, Inc. 
+ 
+Bouassida, M. (2008) Comparison Between Stone 
+Columns 
+and 
+Vertical 
+Geodrains 
+With 
+Preloading 
+Embankment 
+Techniques. 
+6th 
+International Conference on Case Histories in 
+Geotechnical Engineering, Arlington,VA. 
+ 
+Das, B. M. (2002). Principles of Geotechnical 
+Engineering. Pacifif Grove: Brooks. Cole. 
+ 
+U. 
+S. 
+Department 
+of 
+Transportation-Federal 
+Highway 
+Administration. 
+Design 
+and 
+Construction of Stone Column Vol. I. 
+ 
+U. 
+S. 
+Department 
+of 
+Transportation-Federal 
+Highway 
+Administration. 
+Design 
+and 
+Construction of Stone Column Vol. II. 
+ 
+Priebe, H. J. (1995). The Design of Vibro 
+Replacement. GeTec Ingenieurgesellschaft. 
+ 
+Raju, V. R. (2009). Ground Improvement-Principles 
+and Application in Asia. Ground Improvement 
+Technologies and Case Histories (43-65). 
+Geotechnical Society of Singapore (GeoSS). 
+ 
+Pangestu, S. H. (2010) Desain Dan Pemodelan Stone 
+Column Sebagai Perkuatan Tanah Lunak Di 
+Bawah Timbunan. Tugas Akhir Teknik Sipil 
+ITB. 
+ 
+Kempfert, 
+H.G. 
+(2003) 
+Ground 
+Improvement 
+Methods With Special Emphasis on Column-
+Type Techniques. Germany : Institute of 
+Geotechnique, University of Kassel 
+ 
+Shenthan, T. (2005). Soil Desinfication Using Vibro-
+Stone 
+Columns 
+Supplemented 
+With 
+Wick  
+Drains. Department of Civil, Structural and 
+Environmental 
+Engineering, 
+University 
+at 
+Buffalo. 

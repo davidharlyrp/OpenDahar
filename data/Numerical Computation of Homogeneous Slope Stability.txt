@@ -1,0 +1,1232 @@
+Research Article
+Numerical Computation of Homogeneous Slope Stability
+Shuangshuang Xiao, Kemin Li, Xiaohua Ding, and Tong Liu
+School of Mines, State Key Laboratory of Coal Resources and Safe Mining, China University of Mining and Technology,
+Xuzhou, Jiangsu 221116, China
+Correspondence should be addressed to Kemin Li; likemin515@hotmail.com
+Received 7 November 2014; Accepted 23 January 2015
+Academic Editor: Cheng-Jian Lin
+Copyright © 2015 Shuangshuang Xiao et al. This is an open access article distributed under the Creative Commons Attribution
+License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly
+cited.
+To simplify the computational process of homogeneous slope stability, improve computational accuracy, and find multiple potential
+slip surfaces of a complex geometric slope, this study utilized the limit equilibrium method to derive expression equations of overall
+and partial factors of safety. This study transformed the solution of the minimum factor of safety (FOS) to solving of a constrained
+nonlinear programming problem and applied an exhaustive method (EM) and particle swarm optimization algorithm (PSO) to
+this problem. In simple slope examples, the computational results using an EM and PSO were close to those obtained using other
+methods. Compared to the EM, the PSO had a small computation error and a significantly shorter computation time. As a result,
+the PSO could precisely calculate the slope FOS with high efficiency. The example of the multistage slope analysis indicated that this
+slope had two potential slip surfaces. The factors of safety were 1.1182 and 1.1560, respectively. The differences between these and
+the minimum FOS (1.0759) were small, but the positions of the slip surfaces were completely different than the critical slip surface
+(CSS).
+1. Introduction
+Slide is one of the most common types of natural hazards on
+slopes, which might lead to considerable casualties and eco-
+nomic loss [1, 2]. To guarantee the stability of a homogenous
+slope, the circular arc method is traditionally used for stability
+analysis. The two main objectives of slope stability analysis
+are calculating FOS for a given slip surface and determining
+the CSS for a given slope [3]. The Swedish circle method,
+the so-called Fellenius slice method, is a widely used classic
+algorithm for calculating the FOS of an arc sliding slope
+[4]. To avoid repeated slices for summation, Zhang et al.
+derived the integral expression equations for the FOS using
+the Swedish circle method and proposed different solutions
+for minimum factors of safety and for critical slip surfaces [5–
+8]. However, all of these efforts were suitable for an integral
+over a slope with a plane surface [9]. For a slope with a
+complex surface, due to variations of the slope geometry, the
+integral results might be different, in which case, the integral
+expression equations derived by Zhang et al. could become
+problematic.
+Furthermore, complex slope geometry could result in
+multiple slip surfaces, which have a relatively small difference
+between their FOS and the minimum FOS. However, the
+positions of the slip surfaces are completely different from
+that of the CSS. If only the CSS was identified and supported,
+the slope could slide along other surfaces [10, 11]. Therefore,
+all potential slip surfaces should be identified and supported
+or partially supported according to the actual situation to
+ensure the stability of the slope. Moreover, when the slope
+geometry is complex, there may be an intercept between the
+precalculated slip surface and the slope, that is, a broken
+arc [12, 13], which could further complicate the stability
+computation.
+The solution methods for an integral expression equation
+of the slope FOS include analytical methods [9], exhaustive
+method [14], numerical optimization method [15], random
+search method [16], and artificial intelligent search method
+[17]. The analytical method uses a partial derivative of the
+expression equation through finding the extreme values of
+the function. This method requires multiple cross iterations
+for analyzing a pure clay slope [18], and is even less effective in
+Hindawi Publishing Corporation
+Computational Intelligence and Neuroscience
+Volume 2015, Article ID 802835, 10 pages
+http://dx.doi.org/10.1155/2015/802835
+2
+Computational Intelligence and Neuroscience
+analyzing slopes with complex surface, while other methods
+usually require a search of the variables to perform a pre-
+calculation. In this regard, there are currently three typical
+selection methods for variable searching: (1) the horizontal
+coordinate 𝑥𝑐, vertical coordinate 𝑦𝑐of the center of critical
+circular arc, and the radius 𝑅[19, 20]; (2) the horizontal
+coordinates of the intercepts of the slip surface with a slope
+top and bottom surfaces, that is, 𝑥𝑢and 𝑥𝑏, and the vertical
+coordinate of the center of critical circular arc, 𝑦𝑐[21]; (3)
+the horizontal coordinates of the intercepts of the slip surface
+with the slope top and bottom surfaces and the arc height ℎ𝑎
+[22] or the horizontal coordinate of the intercept between the
+𝑥-axis and the tangent that is at the intercept between the slip
+surface and the slope top, 𝑥𝑡.
+In the first method, the range of 𝑥𝑐, 𝑦𝑐, and 𝑅is deter-
+mined empirically. Unreasonable ranges can lead to a missed
+optimum solution. In the second method, determination of
+the range of the three parameters 𝑥𝑢, 𝑥𝑏, and 𝑦𝑐is also needed.
+But the location of the intercept between the slip surface
+and slope top and bottom is easily controlled and the range
+of 𝑥𝑢and 𝑥𝑏is relatively easy to determine. In the third
+method, the range of 𝑥𝑢and 𝑥𝑏needs to be estimated and
+the range of ℎ𝑎or 𝑥𝑡is known. Although the range of ℎ𝑎or
+𝑥𝑡does not need to be estimated, the variation of ℎ𝑎or 𝑥𝑡
+corresponds to the variation of 𝑅. For instance, the varying
+range of ℎ𝑎is from ℎ𝑎max to zero, which corresponds to the
+range if 𝑅would be from 𝑅min to an infinitely large value,
+which is essentially equivalent to selecting 𝑅as the searching
+variable and letting its range be [𝑅min, +∞]. Therefore, this
+approach does not improve the performance of the first
+method but increases the search range considerably, which
+adds unnecessary searching. Although there is no essential
+difference among these three methods, the second method
+selects relatively direct searching variables and the range is
+fairly easy to control.
+This paper utilized the concept of these described integral
+methods and derived the integral expression equation of the
+FOS for a homogenous slope with complex slope geometry.
+This study used the second method to select searching
+variables and applied an EM and PSO to solve for the
+minimum FOS. Using the method presented in this paper,
+the minimum FOS of a homogenous slope can be effectively
+calculated. The CSS, as well as other potential slip surfaces,
+can be identified, which provides a scientific basis for slope
+support.
+2. Derivation of the Integral Expression
+Equation for Slope FOS
+2.1. Integral Expression Equation for the Overall Slope FOS.
+For a slope with complex geometry, the line of the slope
+surface can be assumed to consist of several component lines
+[23]. For the slope shown in Figure 1, the slope surface is
+composed of 𝑛−1 lines 𝐴1𝐴2, 𝐴2𝐴3, . . . , 𝐴𝑛−1𝐴𝑛. The slope
+is assumed to be a homogenous slope and the surfaces of the
+slope’s top and bottom are planes. Moreover, it is also assumed
+that there is no effect of slope loading or groundwater
+influence. The height of slope is 𝐻, the unit weight of the slope
+C
+y
+x
+H
+dx
+x
+dW
+dN
+dT
+dR
+h
+R
+· · ·
+𝛼
+An
+An−1
+An+1
+A0
+A1
+A2
+Figure 1: Coordinate system for the slopes stability analysis and
+forces acting on differential slices.
+soil is 𝛾, the internal friction angle is 𝜑, and the cohesion is 𝑐.
+The coordinate system is established with the origin selected
+at the toe of slope 𝐴1, shown in Figure 1. Let the radius of
+the critical arc be 𝑅and the center of the arc 𝐶(𝑥𝑐, 𝑦𝑐). The
+intercepts between the slip surface and the surfaces of slope’s
+top and bottom are 𝐴𝑛+1 and 𝐴0, respectively. The coordinate
+of 𝐴𝑖is (𝑥𝑖, 𝑦𝑖) (𝑖= 0, 1, 2, . . . , 𝑛+ 1); thus 𝑦0 = 0, 𝑥1 = 0,
+𝑦1 = 0, 𝑦𝑛= 𝐻, and 𝑦𝑛+1 = 𝐻.
+Assuming the equation for line 𝐴𝑖𝐴𝑖+1,
+𝑦𝑥𝑖= 𝑘𝑖𝑥+ 𝑏𝑖,
+𝑥𝑖≤𝑥≤𝑥𝑖+1,
+(1)
+where
+𝑘𝑖= 𝑦𝑖+1 −𝑦𝑖
+𝑥𝑖+1 −𝑥𝑖
+,
+𝑏𝑖= 𝑦𝑖𝑥𝑖+1 −𝑦𝑖+1𝑥𝑖
+𝑥𝑖+1 −𝑥𝑖
+(𝑥𝑖
+̸= 𝑥𝑖+1) ,
+𝑖= 0, 1, 2, . . . , 𝑛.
+(2)
+The equation for arc 𝐴0𝐴𝑛+1 was
+𝑦𝑎= 𝑦𝑐−√𝑅2 −(𝑥−𝑥𝑐)
+2,
+𝑥0 ≤𝑥≤𝑥𝑛+1.
+(3)
+For the infinitely small slide bar, the width was assumed
+to be 𝑑𝑥and the height was ℎ; thus
+ℎ= 𝑦𝑥𝑖−𝑦𝑎,
+𝑥𝑖≤𝑥≤𝑥𝑖+1.
+(4)
+The weight of slide bar 𝑑𝑊= 𝛾ℎ𝑑𝑥. Antislide force and
+downslide force were
+𝑑𝑅= 𝑐sec 𝛼𝑑𝑥+ 𝛾ℎtan 𝜑cos 𝛼𝑑𝑥
+𝑑𝑇= 𝛾ℎsin 𝛼𝑑𝑥,
+(5)
+where sin 𝛼= (𝑥−𝑥𝑐)/𝑅.
+The FOS 𝐹of the slope is the ratio of the torque at the
+center of arc 𝐶between all antislide forces and downslide
+forces; thus the overall FOS of the slope was
+𝐹𝑧= 𝑀𝑟𝑧
+𝑀𝑠𝑧
+= 𝑐𝐼𝑟𝑧+ 𝛾tan 𝜑𝐼𝑐𝑧
+𝛾𝐼𝑠𝑧
+.
+(6)
+Computational Intelligence and Neuroscience
+3
+According to (1)–(5), the integration yielded
+𝐼𝑟𝑧= ∫
+𝑥𝑛+1
+𝑥0
+𝑅sec 𝛼𝑑𝑥= 𝑅2 (𝛿𝑛+1 −𝛿0)
+𝐼𝑐𝑧=
+𝑛
+∑
+𝑖=0
+∫
+𝑥𝑖+1
+𝑥𝑖
+𝑅(𝑦𝑥𝑖−𝑦𝑎) cos 𝛼𝑑𝑥
+= 𝑃𝑛+1 −𝑃0 +
+𝑛
+∑
+𝑖=0
+[1
+3𝑘𝑖(𝑆𝑖
+3 −𝑆𝑖+1
+3)
++1
+2 (𝑘𝑖𝑥𝑐+ 𝑏𝑖−𝑦𝑐) (𝑇𝑖+1 −𝑇𝑖)]
+𝐼𝑠𝑧=
+𝑛
+∑
+𝑖=0
+∫
+𝑥𝑖+1
+𝑥𝑖
+𝑅(𝑦𝑥𝑖−𝑦𝑎) sin 𝛼𝑑𝑥
+= 1
+3𝑆0
+3 −1
+3𝑆𝑛+1
+3 +
+𝑛
+∑
+𝑖=0
+𝑊𝑖,
+(7)
+where
+𝛿𝑖= arcsin (𝑥𝑖−𝑥𝑐
+𝑅
+) ,
+𝑆𝑖= √𝑅2 −(𝑥𝑖−𝑥𝑐)
+2,
+𝑇𝑖= (𝑥𝑖−𝑥𝑐) 𝑆𝑖+ 𝑅2𝛿𝑖,
+𝑃𝑖= 𝑅2𝑥𝑖−1
+3 (𝑥𝑖−𝑥𝑐)3 ,
+𝑊𝑖= 1
+3𝑘𝑖(𝑥𝑖+1
+3 −𝑥𝑖
+3) + 1
+2 (𝑏𝑖−𝑘𝑖𝑥𝑐−𝑦𝑐) (𝑥𝑖+1
+2 −𝑥𝑖
+2)
++ 𝑥𝑐(𝑦𝑐−𝑏𝑖) (𝑥𝑖+1 −𝑥𝑖)
+(𝑖= 0, 1, 2, . . . , 𝑛) .
+(8)
+When 𝑥𝑖= 𝑥𝑖+1, the line equation was 𝑥= 𝑥𝑖, 𝑦𝑖≤𝑦≤
+𝑦𝑖+1; the corresponding integral in the range of this line would
+be zero.
+2.2. Integral Expression Equation for the Partial Slope FOS.
+Figure 2 shows that the slip surface intercepts with the
+slope surface. Assuming that top and bottom intercepts have
+coordinates of (𝑥𝑚𝑟, 𝑦𝑚𝑟) and (𝑥𝑙𝑟, 𝑦𝑙𝑟), thus 𝑥𝑙
+≤𝑥𝑙𝑟
+≤
+𝑥𝑙+1 (0 ≤𝑙≤𝑛−2), 𝑥𝑚≤𝑥𝑚𝑟≤𝑥𝑚+1 (𝑙+ 2 ≤𝑚≤𝑛;
+in addition, 𝑚< 𝑛when 𝑙= 0).
+According to (1)–(5), the partial FOS can be obtained
+through integration:
+𝐹𝑗=
+𝑀𝑟𝑗
+𝑀𝑠𝑗
+=
+𝑐𝐼𝑟𝑗+ 𝛾tan 𝜑𝐼𝑐𝑗
+𝛾𝐼𝑠𝑗
+,
+(9)
+y
+0
+D
+R
+H
+x
+An
+Amr
+Am
+xlr
+xmr
+· · ·
+· · ·
+Al
+A1
+C(xc, yc)
+Figure 2: Sketch of slopes partial stability analysis.
+where
+𝐼𝑟𝑗= ∫
+𝑥𝑚+1
+𝑥𝑙
+𝑅sec 𝛼𝑑𝑥= 𝑅2 (𝛿𝑚+1 −𝛿𝑙)
+𝐼𝑐𝑗=
+𝑚
+∑
+𝑖=𝑙
+∫
+𝑥𝑖+1
+𝑥𝑖
+𝑅(𝑦𝑥𝑖−𝑦𝑎) cos 𝛼𝑑𝑥
+= 𝑃𝑚+1 −𝑃𝑙+
+𝑚
+∑
+𝑖=𝑙
+[1
+3𝑘𝑖(𝑆𝑖
+3 −𝑆𝑖+1
+3)
++1
+2 (𝑘𝑖𝑥𝑐+ 𝑏𝑖−𝑦𝑐) (𝑇𝑖+1 −𝑇𝑖)]
+𝐼𝑠𝑗=
+𝑚
+∑
+𝑖=𝑙
+∫
+𝑥𝑖+1
+𝑥𝑖
+𝑅(𝑦𝑥𝑖−𝑦𝑎) sin 𝛼𝑑𝑥
+= 1
+3𝑆𝑙
+3 −1
+3𝑆𝑚+1
+3 +
+𝑚
+∑
+𝑖=𝑙
+𝑊𝑖,
+(10)
+where 𝑥𝑚+1 = 𝑥𝑚𝑟in 𝛿𝑚+1, 𝑆𝑚+1, 𝑇𝑚+1, 𝑃𝑚+1, and 𝑊𝑚and
+𝑥𝑙= 𝑥𝑙𝑟in 𝛿𝑙, 𝑆𝑙, 𝑇𝑙, 𝑃𝑙, and 𝑊𝑙.
+3. Calculation of Slope FOS
+3.1. Calculation of Overall Slope FOS. Equations (7) were
+substituted into (6). Equations (10) were substituted into
+(16). For the known slope, its FOS 𝐹is the function of the
+horizontal and vertical coordinates of the center of the critical
+arc, 𝑥𝑐and 𝑦𝑐, as well as the radius 𝑅. However, it is difficult
+to obtain the minimum value of this function using the
+analytical method. The selection of the searching variable for
+the precalculation is needed to solve the problem.
+From the geometrical relationship in Figure 1, it is known
+that
+𝑥𝑐= 𝐻2 + 𝑥𝑛+1
+2 −𝑥0
+2
+2 (𝑥𝑛+1 −𝑥0)
+−
+𝐻𝑦𝑐
+𝑥𝑛+1 −𝑥0
+,
+(11)
+𝑅= √(𝑥𝑛+1 −𝑥𝑐)2 + (𝑦𝑐−𝐻)2.
+(12)
+For a known slope, when 𝑥0, 𝑥𝑛+1, and 𝑦𝑐are determined,
+𝑥𝑐and 𝑅can be determined using (11) and (12), respectively;
+4
+Computational Intelligence and Neuroscience
+that is, the CSS can be obtained. Therefore, 𝑥0, 𝑥𝑛+1, and
+𝑦𝑐can be selected as the searching variables, in which
+𝑥𝑛+1
+≥
+𝑥𝑛, 𝑥0
+≤
+0. To reduce the searching range, a
+restrained range of value of 𝑥0, 𝑥𝑛+1, 𝑦𝑐should be empirically
+evaluated to ensure that 𝑦𝑐≤𝑦𝑐max, 𝑥0 ≥𝑥0 min, 𝑥𝑛+1 ≥
+𝑥(𝑛+1) max. In addition, to avoid occurrence of a broken arc,
+√(𝑥𝑖−𝑥𝑐)2 + (𝑦𝑖−𝑦𝑐)2 ≤𝑅(𝑖= 1, 2, . . . , 𝑛) should be sat-
+isfied. Under this circumstance, solving for the minimum
+FOS requires solving the following constrained nonlinear
+programming problem:
+𝐹𝑧𝑚= min 𝐹𝑧(𝑥0, 𝑥𝑛+1, 𝑦𝑐)
+s.t.
+𝑥0 min ≤𝑥0 ≤0
+𝑥𝑛≤𝑥𝑛+1 ≤𝑥(𝑛+1) max
+𝑦𝑐≤𝑦𝑐max
+√(𝑥𝑖−𝑥𝑐)2 + (𝑦𝑖−𝑦𝑐)2 ≤𝑅
+(𝑖= 1, 2, . . . , 𝑛) .
+(13)
+When the determined critical circular arc center is on the
+boundary of the search region, such as 𝑦𝑐= 𝑦𝑐max, 𝑥0 =
+𝑥0 min, or 𝑥𝑛+1 = 𝑥(𝑛+1) max, the searching region should be
+expanded accordingly. Otherwise, this could result in missing
+the optimum solution due to the small range of the value.
+Taking 𝑦𝑐max as an example, when the vertical coordinate
+of the critical arc center 𝑦𝑐= 𝑦𝑐max, (14) can be used for
+adjustment. Consider
+𝑦𝑐max = (1 + 𝜆) 𝑦𝑐max,
+(14)
+where 𝜆is a coefficient.
+This study applied an EM and PSO to solve (13). The result
+yielded from the EM was compared in order to validate the
+result of the PSO.
+3.1.1. Exhaustive Method. The EM is a method that allows
+the range of 𝑥0, 𝑥𝑛+1, and 𝑦𝑐to vary according to a specified
+step interval. The FOS 𝐹𝑧should be solved at every step
+for each value, in which the minimum value would be the
+minimum FOS 𝐹𝑧𝑚. The detailed solving procedure is shown
+in Figure 3. This procedure can be easily carried out using a
+set of programmed computer codes.
+3.1.2. Particle Swarm Optimization Algorithm. The PSO is
+a swarm intelligent heuristic algorithm that was proposed
+by Dr. Eberhart and Dr. Kennedy [24]. It utilizes individual
+coordination and information sharing in the swarm to seek
+the optimum solution through iteration. The concept of
+PSO is simple. There are few adjusting parameters and the
+convergence speed is fast, so it has been widely used in
+discrete and continuous optimization problems [25, 26].
+During the searching process of the CSS on the slope
+using the PSO, each precalculated slip surface can be treated
+as a particle. The number of searching variables is the
+dimension of the searching space. The FOS function 𝐹𝑧is
+Start
+Initialize the necessary 
+Search point in the 
+search area
+Yes
+No
+Change the position 
+of search point
+Search point on the 
+boundary of search area
+Export
+End
+Expand 
+search area
+Yes
+Yes
+No
+No
+parameters: Fzm, x0,
+xn+1, yc, etc.
+Assign x0min, x(n+1)max, ycmax, etc.
+Fzm = Fz
+Fzm > Fz
+Calculate Fz
+Figure 3: Flow chart of calculating the minimum FOS.
+the fitness function. Assuming that the searching space is 𝐷-
+dimension, the particle swarm consists of 𝑁particles. The
+location of the 𝑖th particle at the 𝑡th time step is O𝑡
+𝑖
+=
+(𝑂𝑡
+𝑖1, 𝑂𝑡
+𝑖2, . . . , 𝑂𝑡
+𝑖𝐷); the velocity is V𝑡
+𝑖
+= (𝑉𝑡
+𝑖1, 𝑉𝑡
+𝑖2, . . . , 𝑉𝑡
+𝑖𝐷).
+Thus the procedure of searching for the CSS of the slope using
+PSO can be expressed as follows.
+(1) Parameter initialization, including the swarm size 𝑁,
+particle location O𝑡
+𝑖and velocity V𝑡
+𝑖, the maximum velocity of
+the particle Vmax, and maximum iteration step 𝑡max.
+(2) Examination of the particle location to check if the
+geometric condition is satisfied, that is, to ensure a broken
+arc does not occur in the determined slip surface: if the
+conditions were satisfied, the calculation would enter step (3);
+otherwise, the particle location should be adjusted to satisfy
+the geometric condition and then enter step (3).
+(3) Calculating the fitness function value of each particles,
+that is, calculating the FOS of each slip surface 𝐹𝑡
+𝑧𝑖
+=
+𝐹𝑧(𝑂𝑡
+𝑖1, 𝑂𝑡
+𝑖2, . . . , 𝑂𝑡
+𝑖𝐷).
+(4) Comparing the fitness function value of each particle
+𝐹𝑡
+𝑧𝑖with the corresponding fitness function value at the best
+position where the particle passed 𝐹𝑧𝑝𝑖: if 𝐹𝑡
+𝑧𝑖≤𝐹𝑧𝑝𝑖, the
+particle passed best position of O𝑝𝑖= O𝑡
+𝑖and the optimal
+Computational Intelligence and Neuroscience
+5
+fitness function value of the particle 𝐹𝑧𝑝𝑖= 𝐹𝑡
+𝑧𝑖; otherwise,
+O𝑝𝑖and 𝐹𝑧𝑝𝑖maintained the same values.
+(5) Comparing the fitness function value of each particle
+𝐹𝑡
+𝑧𝑖with the fitness function value at the overall best position:
+if 𝐹𝑡
+𝑧𝑖≤𝐹𝑧𝑔, all particles passed the best position at O𝑔= O𝑡
+𝑖
+and the overall fitness function value was 𝐹𝑧𝑔= 𝐹𝑡
+𝑧𝑖; other-
+wise, O𝑔and 𝐹𝑧𝑔maintained the same values.
+(6) According to (15) and (16), the velocity and location
+of each particle were updated:
+V𝑡+1
+𝑖
+= 𝑤V𝑡
+𝑖+ 𝑐1𝑟1 (O𝑝𝑖−O𝑡
+𝑖) + 𝑐2𝑟2 (O𝑔−O𝑡
+𝑖) ,
+𝑉𝑡+1
+𝑖𝑗
+=
+{
+{
+{
+{
+{
+{
+{
+𝑉𝑡+1
+𝑖𝑗
+if 󵄨󵄨󵄨󵄨󵄨𝑉𝑡+1
+𝑖𝑗
+󵄨󵄨󵄨󵄨󵄨≤𝑉𝑗max
+𝑉𝑡+1
+𝑖𝑗
+󵄨󵄨󵄨󵄨󵄨𝑉𝑡+1
+𝑖𝑗
+󵄨󵄨󵄨󵄨󵄨
+𝑉𝑗max
+if 󵄨󵄨󵄨󵄨󵄨𝑉𝑡+1
+𝑖𝑗
+󵄨󵄨󵄨󵄨󵄨> 𝑉𝑗max,
+(15)
+O𝑡+1
+𝑖
+= O𝑡
+𝑖+ V𝑡+1
+𝑖
+,
+(16)
+where 𝑖= 1, 2, . . . , 𝑁, 𝑗= 1, 2, . . . , 𝐷; 𝑐1 and 𝑐2 are the
+acceleration coefficients, with a typical value of 𝑐1 = 𝑐2 = 2.
+𝑟1 and 𝑟2 are random number in the range of [0, 1]. 𝑤is the
+inertial factor, which is determined using (17) [27].
+In (16), when the particle runs out of the searching range,
+that is, 𝑂𝑡+1
+𝑖𝑗
+> 𝑂𝑗max or 𝑂𝑡+1
+𝑖𝑗
+< 𝑂𝑗min, the “reflecting walls”
+approach would be used [28]. Let 𝑉𝑡
+𝑖𝑗= −𝑉𝑡
+𝑖𝑗and 𝑂𝑡+1
+𝑖𝑗
+= 𝑂𝑡
+𝑖𝑗−
+𝑉𝑡
+𝑖𝑗. Consider
+𝑤= 𝑤max −𝑡× 𝑤max −𝑤min
+𝑡max
+,
+(17)
+where 𝑤max is initial iteration inertial factor and 𝑤min is the
+inertial factor at the final iteration. Let 𝑤max = 0.9, 𝑤min = 0.4
+[29]; 𝑡max is the maximum iteration step and 𝑡is the current
+interaction step.
+(7) If 𝑡< 𝑡1, let 𝑡= 𝑡+ 1. Then the procedure steps back
+to (2); otherwise, it enters the next step.
+(8) If the overall optimal fitness function value satisfies
+(18) [30, 31] or the iteration 𝑡> 𝑡max, the searching process
+would be ended. At this point, 𝐹𝑧𝑔is the minimum FOS and
+the corresponding slip surface is the CSS. Otherwise, let 𝑡=
+𝑡+ 1, 𝑡1 = 𝑡1 + 𝑡𝑐, 𝐹𝑧𝑔𝑜= 𝐹𝑧𝑔, and the procedure enter step (2)
+and the next iteration. Consider
+󵄨󵄨󵄨󵄨󵄨𝐹𝑧𝑔𝑜−𝐹𝑧𝑔
+󵄨󵄨󵄨󵄨󵄨≤𝜀,
+(18)
+where 𝐹𝑧𝑔𝑜and 𝐹𝑧𝑔are the overall optimal fitness function
+values at the iteration steps 𝑡1 and 𝑡1 + 𝑡𝑐, respectively. 𝜀is the
+expected minimum degree of error. In (18), after 𝑡𝑐iteration
+steps, the variation of the overall optimal fitness function
+value becomes small.
+The detailed procedure is shown in Figure 4.
+Given a swarm size 𝑁, maximum iteration step 𝑡max can
+be determined through sensitivity analysis [32].
+Start
+Initialize the necessary 
+parameters: 
+Positions of the 
+particles satisfy geometric 
+conditions
+Yes
+Yes
+No
+No
+Calculate fitness value
+Change the 
+positions
+Export
+End
+Yes
+No
+M, tc, tmax, etc.
+Assign t = 0, t1 = tc,
+Update Ot
+i, Vt
+i
+t < t1
+t = t + 1
+t > tmax or
+|Fzgo −Fzg| ⩽𝜀
+Fzgo = Fzg
+t = t + 1,
+Identify Opi,
+Fzgo = 1000 and 𝜀= 0.001
+Og, Fzpi and Fzg
+t1 = t1 + tc, and
+Figure 4: Flow chart of the particle swarm optimization.
+3.2. Calculation of the Partial Slope FOS. It can be seen from
+the geometric relationship in Figure 2 that
+𝑥𝑐= 𝑦𝑚𝑟
+2 −𝑦𝑙𝑟
+2 + 𝑥𝑚𝑟
+2 −𝑥𝑙𝑟
+2
+2 (𝑥𝑚𝑟−𝑥𝑙𝑟)
+−𝑦𝑚𝑟−𝑦𝑙𝑟
+𝑥𝑚𝑟−𝑥𝑙𝑟
+𝑦𝑐,
+(19)
+𝑅= √(𝑥𝑚𝑟−𝑥𝑐)2 + (𝑦𝑐−𝑥𝑚𝑟)2.
+(20)
+For a known slope, when 𝑥𝑙𝑟and 𝑥𝑚𝑟are known, 𝑦𝑙𝑟and
+𝑦𝑚𝑟can also be determined. If 𝑦𝑐were also known, 𝑥𝑐and 𝑅
+could be determined through (19) and (20), respectively. 𝑥𝑙𝑟,
+𝑥𝑚𝑟, and 𝑦𝑐can be selected as the searching variables. Since
+the range of 𝑥𝑚𝑟and 𝑥𝑙𝑟is known, that is, 𝑥𝑚≤𝑥𝑚𝑟≤𝑥𝑚+1
+and 𝑥𝑙≤𝑥𝑙𝑟≤𝑥𝑙+1, therefore, selecting the value range
+for 𝑦𝑐to let 𝑦𝑐≤𝑦𝑐max is the only requirement. Under this
+circumstance, solving for the minimum FOS requires solving
+the following constrained nonlinear programming problem:
+𝐹𝑗𝑚= min 𝐹𝑗(𝑥𝑚𝑟, 𝑥𝑙𝑟, 𝑦𝑐)
+s.t.
+𝑥𝑙≤𝑥𝑙𝑟≤𝑥𝑙+1
+6
+Computational Intelligence and Neuroscience
+Table 1: Comparison of safety factor calculated by different methods.
+Number
+Slope angle (∘)
+𝐻(m)
+𝐶(kPa)
+𝜑(∘)
+𝛾(kN/m3)
+Method
+FOS
+𝑥𝑐(m)
+𝑦𝑐(m)
+1
+39.0
+210.0
+300.0
+25.0
+23.0
+VMM
+1.23
+12.7
+307.4
+PSO
+1.24
+12.5
+307.2
+EM
+1.23
+12.9
+307.1
+2
+26.6
+13.5
+57.5
+7.0
+17.3
+AM1
+2.08
+—
+—
+PSO
+2.04
+13.3
+21.2
+EM
+2.04
+13.4
+21.2
+3
+18.4
+20.0
+10.0
+20.0
+18.0
+AM2
+1.49
+16.4
+57.5
+PSO
+1.49
+16.3
+54.7
+EM
+1.49
+16.4
+57.5
+4
+26.6
+12.0
+29.0
+20.0
+19.2
+OM
+1.93
+—
+—
+PSO
+1.89
+8.1
+20.1
+EM
+1.89
+8.1
+20.0
+5
+26.6
+25
+10
+26.6
+20
+GA
+1.33
+0
+68.8
+PSO
+1.31
+4.3
+58.4
+EM
+1.31
+4.5
+58.0
+𝑥𝑚≤𝑥𝑚𝑟≤𝑥𝑚+1
+𝑦𝑐≤𝑦𝑐max
+√(𝑥𝑖−𝑥𝑐)2 + (𝑦𝑖−𝑦𝑐)2 ≤𝑅,
+(21)
+where 0 ≤𝑙≤𝑛−2, 𝑙+ 2 ≤𝑚≤𝑛, 𝑚−𝑙< 𝑛, and 𝑖=
+𝑙+ 1, 𝑙+ 2, . . . , 𝑚.
+The solving method for (21) is the same with that of (13),
+which is not repeated here. For the slope with 𝑛points on
+the slope surface shown in Figure 2, there are totally 𝑛(𝑛−
+1)/2 −1 possible partial slip surfaces; that is, there are totally
+𝑛(𝑛−1)/2 −1 possible values for 𝑚and 𝑙. Equation (21) can
+be used to calculate the minimum FOS for each situation.
+4. Case Study
+4.1. Simple Slope Calculation. To validate the calculation
+method for the slope FOS in this study, a set of computational
+programs was developed. The EM and PSO were used to cal-
+culate the FOS for 5 simple slopes found in the literature. The
+results were compared with those from the literature and were
+listed in Table 1. It should be noted that the FOS of the slope
+was calculated using the variable metric method (VMM) [14],
+analytical method 1 (AM1) [7], analytical method 2 (AM2)
+[6], ordinary method (OM) [33], and genetic algorithms
+(GA) [34] reported in the literature.
+In Table 1, it can be seen that the computational results
+from the EM and the PSO are very close to that of other
+methods, indicating that the computational methods are
+valid for calculating the FOS of a slope. Taking the first slope
+as an example, VMM calculated the FOS as 1.23, while the
+EM and the PSO in this study were estimated as 1.23 and
+1.24, respectively. The result of employing the EM was that
+it was more accurate. Compared to the EM, the error from
+0
+10
+20
+30
+40
+50
+60
+Iteration
+Minimum factor of safety
+2.035
+2.040
+2.045
+2.050
+2.055
+2.060
+2.065
+2.070
+2.075
+Figure 5: Minimum FOS versus iterations.
+the PSO was also small, indicating that the PSO is feasible for
+calculating the FOS of a slope.
+In these calculations, the step for each searching variable
+in the EM was 0.1 m; the swarm size of PSO of 𝑁was 20. The
+maximum iteration 𝑡max was 100. Under the same conditions
+such as the searching range, the total iteration in the EM was
+much larger than in the PSO. With regard to a large slope, the
+iteration in EM could reach several tens of millions requiring
+significant computation time as shown in Table 2.
+Therefore, compared with the EM, the PSO had a smaller
+computation error and it also reduced the computation time.
+It is a more efficient and accurate method for calculating the
+FOS of a slope.
+The swarm size and iteration steps can significantly
+affect the computational results in the PSO. To determine
+the optimum swarm size and iteration steps, this study
+calculated several swarm sizes, iteration steps and estimated
+their influence on the convergence speed, computation load,
+and the results.
+Using the second slope as an example, letting 𝑁= 20, the
+minimum FOS and location of the particles were investigated
+Computational Intelligence and Neuroscience
+7
+10
+20
+30
+40
+50
+yc (m)
+10
+20
+30
+40
+50
+yc (m)
+10
+20
+30
+40
+50
+yc (m)
+t = 1
+t = 10
+10
+20
+30
+40
+50
+yc (m)
+10
+20
+30
+40
+50
+−10
+0
+10
+20
+30
+xc (m)
+−10
+0
+10
+20
+30
+−10
+0
+10
+20
+30
+−10
+0
+10
+20
+30
+−10
+0
+10
+20
+30
+−10
+0
+10
+20
+30
+xc (m)
+yc (m)
+10
+20
+30
+40
+50
+yc (m)
+t = 30
+t = 70
+t = 100
+t = 50
+Particles
+Global best particle
+Particles
+Global best particle
+xc (m)
+xc (m)
+xc (m)
+xc (m)
+Figure 6: Positions of the particles of different iterations.
+8
+Computational Intelligence and Neuroscience
+Table 2: Comparison between EM and PSO.
+Number
+Method
+Iteration
+Computation time (s)
+1
+EM
+10897394
+871.068
+PSO
+100
+0.423
+2
+EM
+73441
+5.292
+PSO
+100
+0.423
+3
+EM
+4328958
+346.002
+PSO
+100
+0.417
+4
+EM
+892133
+70.783
+PSO
+100
+0.411
+5
+EM
+4651688
+376.618
+PSO
+100
+0.425
+0
+25
+50
+75
+100
+125
+150
+175
+200
+Iteration
+Average fitness
+2.00
+2.05
+2.10
+2.15
+2.20
+2.25
+2.30
+2.35
+2.40
+2.45
+2.50
+N = 5
+N = 10
+N = 15
+N = 20
+N = 50
+Figure 7: Convergence characteristics of PSO.
+as the variation in the iteration steps. The results of this
+analysis can be seen in Figures 5 and 6. In Figure 5, it appears
+that the FOS of the slope decreased with the increase of
+the iteration and reached the minimum value at the 20th
+iteration. In Figure 6, under the initial condition, that is, 𝑡= 1,
+particles dispersed around the global best particle. With the
+increase of iterations, the particles gradually approached the
+global best particle. Although the particles were concentrated
+in the final computation stage, these particles were not
+clustered in the location of the global best particle, which was
+primarily due to the particles being caught in the vicinity of
+the point with the local extreme value in the PSO.
+Thereafter, letting 𝑡max = 200, this study analyzed the
+convergence feature of the PSO with a swarm size 𝑁of 5,
+10, 15, 20, and 50. The results are presented in Figure 7. In
+the figure, it can be seen that the convergence results were
+good for the swarm size of 15, 20, and 50. Moreover, for
+different swarm sizes, the convergence was attained before
+100 iterations, indicating that the PSO converged quickly.
+Therefore, when using the PSO to calculate the slope FOS,
+selecting 𝑡max
+=
+100 and 𝑁
+=
+20 should satisfy the
+requirements.
+1
+3
+2
+20
+15
+10
+5
+0
+−5
+−10
+−5
+0
+5
+10
+15
+20
+25
+30
+35
+y (m)
+x (m)
+A1
+A5
+Figure 8: Cross section of slope and computation results.
+20
+15
+10
+5
+0
+−5
+−10
+−15 −10
+−5
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Method: ordinary
+Fs = 1.145
+Figure 9: Results of Swedish circle method.
+4.2. Multistage Slope Calculation. Figure 8 shows a multistage
+slope, with the unit weight 𝛾= 20 kN/m3, cohesion 𝑐=
+10 kPa, and internal friction angle 𝜑= 20∘. Utilizing the PSO,
+the minimum FOS was calculated to be 1.076 and the CSS is
+surface 1 in Figure 8. In addition, two different slip surfaces at
+completely different locations were calculated with the factors
+of safety close to the minimum FOS as represented by surfaces
+3 in Figure 8. Their factors of safety were 1.118 and 1.156. If
+reinforcement was performed only to slip surface 1, the slope
+might slide along surfaces 2 and 3.
+The overall FOS using the Swedish circle method in the
+software was calculated to be 1.145 as shown in Figure 9.
+Computational Intelligence and Neuroscience
+9
+If we used AM2 to calculate the overall FOS of the slope,
+the slope surface can be assumed to be the line of 𝐴1𝐴2.
+Here, the calculated FOS was 1.009 and the slip surface was
+the blue dashed line shown in Figure 9. In Figure 9, the red
+solid line represents the calculated slip surface employing
+the PSO presented in this study. It can be seen in Figure 9
+that the calculated slide-in and slide-out points of the slip
+surface calculated using the method presented in this paper
+provided a close result to that obtained using the software.
+The calculated FOS 1.118 was also close to the calculated
+value obtained from the software, that is, 1.145, which further
+validated the accuracy of the method presented in this study.
+5. Conclusions and Further Research
+(1) This paper selected the horizontal coordinate of an
+intercept between the slip surface and the slope top,
+bottom surface, and the vertical coordinate of the
+center of the critical arc, as the searching variables.
+Using the engineering practice to restrain the value
+range of the searching variables, this study trans-
+formed the problem of solving for the minimum
+FOS of the slope into solving a constrained nonlinear
+programming problem. The EM and the PSO were
+easily programmed to solve this problem.
+(2) The case study of a simple slope indicated that the
+EM and the PSO provided results that were close to
+those obtained using the other established methods.
+In addition, the EM provided the better accuracy of
+the two. Compared to the EM, the PSO also had
+small computation errors and significantly reduced
+the computation load. The PSO can efficiently and
+accurately calculate the slope FOS.
+(3) In a case study of a multistage slope, the method
+presented in this paper estimated the minimum FOS
+to be 1.076. Two potential slip surfaces were also
+calculated, with the factors of safety being 1.118 and
+1.156, respectively. These proved to be close to the
+minimum FOS, but the locations of these two surfaces
+were very different from that of the CSS. Therefore,
+reinforcement should be carried out for all three
+surfaces.
+(4) Through multiple calculations it was found that the
+PSO tended to converge quickly. Use of the PSO to
+calculate slope FOS, with 𝑡max = 100, 𝑁= 20, usually
+satisfies the computational requirement. However,
+with the PSO, the particles could be easily caught at
+the points with local extreme values, demonstrating
+that this technique requires further improvement.
+Conflict of Interests
+The authors declare that there is no conflict of interests
+regarding the publication of this paper.
+Acknowledgments
+Particular thanks are due to Chongxin Zhang and Yabo Zhou
+for their assistance with derivation of equations.
+References
+[1] A. J. Choobbasti, F. Farrokhzad, and A. Barari, “Prediction
+of slope stability using artificial neural network (case study:
+Noabad, Mazandaran, Iran),” Arabian Journal of Geosciences,
+vol. 2, no. 4, pp. 311–319, 2009.
+[2] N. Vatanpour, M. Ghafoori, and H. H. Talouki, “Probabilistic
+and sensitivity analyses of effective geotechnical parameters on
+rock slope stability: a case study of an urban area in northeast
+Iran,” Natural Hazards, vol. 71, no. 3, pp. 1659–1678, 2014.
+[3] R. Kalatehjari, N. Ali, M. Kholghifard, and M. Hajihassani,
+“The effects of method of generating circular slip surfaces
+on determining the critical slip surface by particle swarm
+optimization,” Arabian Journal of Geosciences, vol. 7, no. 4, pp.
+1529–1539, 2014.
+[4] D.-P. Deng and L. Li, “Research on calculation methods of slope
+stability under two types of sliding surface,” Rock and Soil
+Mechanics, vol. 34, no. 2, pp. 372–410, 2013.
+[5] T. B. Zhang, Earth Slope Stability Analysis and Geotechnology
+Slope Design, Chengdu University of Science and Technology
+Press, Chengdu, China, 1987.
+[6] G. Y. Yang, “Analytical calculation of Fellenius method for soil
+slope stability,” Mechanics in Engineering, vol. 17, no. 2, pp. 59–
+61, 1995.
+[7] J. G. Cao and M. Z. Musharraf, “Short communications:
+analytical method for analysis of slope stability,” International
+Journal for Numerical and Analytical Methods in Geomechanics,
+vol. 23, no. 5, pp. 439–449, 1999.
+[8] B. S. Jiang, M. F. Cai, and A. Z. Lu, “Analytical calculation of
+slope stability,” Chinese Journal of Rock Mechanics and Engineer-
+ing, vol. 23, no. 16, pp. 2726–2729, 2004.
+[9] B. S. Jiang, M. F. Cai, and H. Du, “Analytical calculation on
+stability of slope with planar failure surface,” Chinese Journal of
+Rock Mechanics and Engineering, vol. 23, no. 1, pp. 91–94, 2004.
+[10] Y. M. Cheng, T. Lansivaara, and W. B. Wei, “Two-dimensional
+slope stability analysis by limit equilibrium and strength reduc-
+tion methods,” Computers and Geotechnics, vol. 34, no. 3, pp.
+137–150, 2007.
+[11] P. Cao, K. Zhang, Y. X. Wang, and H. H. Hu, “Mixed search
+algorithm of critical slip surface of complex slope,” Chinese
+Journal of Rock Mechanics and Engineering, vol. 29, no. 4, pp.
+814–821, 2010.
+[12] Z. Z. Ma, H. W. Qi, and X. Y. Hou, “A new roundly search
+method for slope stability checking,” Rock and Soil Mechanics,
+vol. 21, no. 3, pp. 256–259, 2000.
+[13] W. H. Lv, H. H. Zhu, and X. J. Li, “GA-based generalized
+slope stability analysis method,” Chinese Journal of Geotechnical
+Engineering, vol. 27, no. 5, pp. 595–599, 2005.
+[14] Z. B. Liu and Z. H. Wang, “Method of determinating the
+location of center of critical circular failure surface,” Journal of
+China Coal Society, vol. 22, no. 6, pp. 612–616, 1997.
+[15] X.-R. Zhu, Y.-J. Zhu, and X.-L. Yao, “Finding globally critical
+surface by optimization method based on soil slope face grids,”
+Rock and Soil Mechanics, vol. 27, no. 2, pp. 252–256, 2006.
+[16] Z. Y. Chen, “Random trials used in determining global mini-
+mum factors of safety of slopes,” Canadian Geotechnical Journal,
+vol. 29, no. 2, pp. 225–233, 1992.
+10
+Computational Intelligence and Neuroscience
+[17] W. Wan, P. Cao, T. Feng, and H.-P. Yuan, “Analysis of slope
+stability for underground vacant areas based on improved
+genetic algorithm,” Rock and Soil Mechanics, vol. 27, no. 11, pp.
+2015–2019, 2006.
+[18] M.-Q. You, “Analysis of homogeneous soil slope slipping in
+circular arc,” Rock and Soil Mechanics, vol. 29, no. 8, pp. 2025–
+2032, 2008.
+[19] Y. M. Cheng, “Global optimization analysis of slope stability by
+simulated annealing with dynamic bounds and Dirac function,”
+Engineering Optimization, vol. 39, no. 1, pp. 17–32, 2007.
+[20] L. Li, S.-C. Chi, and G. Lin, “Improved complex method based
+on particle swarm optimization algorithm and its application to
+slope stability analysis,” Rock and Soil Mechanics, vol. 26, no. 9,
+pp. 1393–1398, 2005.
+[21] W. Wan, P. Cao, T. Feng, and H.-P. Yuan, “Searching for the
+most dangerous failure surface of complex slope based on accel-
+erating hybrid genetic algorithm,” Chinese Journal of Geotechni-
+cal Engineering, vol. 28, no. 4, pp. 475–479, 2006.
+[22] G. D. Zou, “A global optimization method of the slice method
+for slope stability analysis,” Chinese Journal of Geotechnical
+Engineering, vol. 24, no. 3, pp. 309–312, 2002.
+[23] Z. H. Dai and P. S. Shen, “Numerical solution of simplified
+Bishop method for stability analysis of soil slopes,” Rock and Soil
+Mechanics, vol. 23, no. 6, pp. 760–764, 2002.
+[24] J. Kennedy and R. Eberhart, “Particle swarm optimization,”
+in Proceedings of the IEEE International Conference on Neural
+Networks, pp. 1942–1948, Perth, Australia, December 1995.
+[25] H. T. Ye, W. G. Luo, and Z. Q. Li, “Convergence analysis of par-
+ticle swarm optimizer and its improved algorithm based on
+velocity differential evolution,” Computational Intelligence and
+Neuroscience, vol. 2013, Article ID 384125, 7 pages, 2013.
+[26] F.-F. Wang and C.-T. Su, “Enhanced fuzzy-connective-based
+hierarchical aggregation network using particle swarm opti-
+mization,” Engineering Optimization, vol. 46, no. 11, pp. 1501–
+1519, 2014.
+[27] Y. Shi and R. C. Eberhart, “Parameter selection in particle
+swarm optimization,” in Proceedings of the 7th Annual Confer-
+ence on Evolutionary Programming, pp. 591–600, Springer, New
+York, NY, USA, December 1998.
+[28] J. Robinson and Y. Rahmat-Samii, “Particle swarm optimization
+in electromagnetics,” IEEE Transactions on Antennas and Prop-
+agation, vol. 52, no. 2, pp. 397–407, 2004.
+[29] Y. Shi and R. C. Eberhart, “Modified particle swarm optimizer,”
+in Proceedings of the IEEE International Conference on Evolu-
+tionary Computation (ICEC ’98), pp. 69–73, Anchorage, Alaska,
+USA, May 1998.
+[30] Y. M. Cheng, L. Li, S.-C. Chi, and W. B. Wei, “Particle swarm
+optimization algorithm for the location of the critical non-
+circular failure surface in two-dimensional slope stability analy-
+sis,” Computers and Geotechnics, vol. 34, no. 2, pp. 92–103, 2007.
+[31] Y. M. Cheng, L. Li, and S. C. Chi, “Performance studies on six
+heuristic global optimization methods in the location of critical
+slip surface,” Computers and Geotechnics, vol. 34, no. 6, pp. 462–
+484, 2007.
+[32] M. Clerc and J. Kennedy, “The particle swarm-explosion, sta-
+bility, and convergence in a multidimensional complex space,”
+IEEE Transactions on Evolutionary Computation, vol. 6, no. 1,
+pp. 58–73, 2002.
+[33] D. G. Fredlund and J. Krahn, “Comparison of slope stability
+methods of analysis,” Canadian Geotechnical Journal, vol. 14, no.
+3, pp. 429–439, 1977.
+[34] W.-J. Niu, “Determination of slope safety factor with analyt-
+ical solution and searching critical slip surface with genetic-
+traversal random method,” The Scientific World Journal, vol.
+2014, Article ID 950531, 13 pages, 2014.

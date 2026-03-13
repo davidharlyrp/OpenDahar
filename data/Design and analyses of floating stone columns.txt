@@ -1,0 +1,1213 @@
+Design and analyses of ﬂoating stone columns
+K.S. Ngn,1, S.A. Tan1
+Universiti Teknologi MARA, Faculty of Civil Engineering, 40450 Shah Alam, Selangor, Malaysia
+Received 8 March 2013; received in revised form 29 October 2013; accepted 30 January 2014
+Available online 13 May 2014
+Abstract
+Two-dimensional (2D) ﬁnite element analyses were performed on ﬂoating stone columns using the unit cell concept to investigate the
+settlement and the consolidation characteristics of an improved foundation system. Undrained analyses, followed by consolidation analyses, were
+conducted throughout the study. The computed values for settlement and excess pore pressure distribution over time are compared for different
+area replacement ratios. Based on these coupled consolidation analyses, a simple approximate method is developed to predict the degree of
+consolidation for ﬂoating stone columns. In addition, a simple method to calculate the settlement improvement factor for ﬂoating columns is
+proposed. The proposed method may provide more realistic answers than other design methods in view of the yielding characteristics and the
+inﬂuence of key parameters that are considered in the analyses. The key parameters relevant to the design of ﬂoating stone columns include the
+area replacement ratio, the friction angle of the column material, the loading intensity, and the post-installation earth pressure. Closer agreements
+are obtained with the proposed method than with the established Priebe's method or α–β method.
+& 2014 The Japanese Geotechnical Society. Production and hosting by Elsevier B.V. All rights reserved.
+Keywords: Floating stone column; Unit cell; Numerical analysis; Consolidation; Settlement improvement factor
+1. Introduction
+Ground improvement with stone columns is effective for
+reducing the settlement and for increasing the time rate of the
+consolidation of soft soil. End-bearing columns are mostly
+used in design, but occasionally ﬂoating columns are adopted
+mostly due to construction costs and machine depth limitations
+(Fig. 1). Current design methods to predict the reduction in
+settlement and the primary consolidation of stone column
+reinforced grounds employ the end-bearing type of columns,
+e.g., Balaam and Booker (1985), Barksdale and Bachus
+(1983), Priebe (1995), Han and Ye (2001), Deb (2008),
+Castro and Sagaseta (2009) and Maheshwari and Khatri
+(2012). Among all the methods, the semi-empirical method
+proposed by Priebe (1995) is probably the most popular design
+method for estimating the settlement of stone column rein-
+forced grounds. Priebe's method is based on the unit cell
+concept and the columns are considered to be in a plastic state,
+while the surrounding soil behaves elastically. The solution
+is given as a settlement improvement factor, n, deﬁned as
+the ratio of the ﬁnal settlement with and without columns.
+The basic improvement factor, n0, is derived from the
+assumption that the columns possess an inﬁnite modulus of
+elasticity. A correction to this assumption is made by
+considering the compressibility of the columns with a more
+realistic value, and this yields a reduced improvement factor,
+The Japanese Geotechnical Society
+www.sciencedirect.com
+journal homepage: www.elsevier.com/locate/sandf
+Soils and Foundations
+http://dx.doi.org/10.1016/j.sandf.2014.04.013
+0038-0806/& 2014 The Japanese Geotechnical Society. Production and hosting by Elsevier B.V. All rights reserved.
+nCorresponding author.
+E-mail addresses: kokshien@yahoo.com,
+ngkokshien@ppinang.uitm.edu.my (K.S. Ng).
+1Tel.: þ60 127537936; mobile: þ60 124539395; fax: þ60 65162248.
+Peer review under responsibility of The Japanese Geotechnical Society.
+Soils and Foundations 2014;54(3):478–487
+n1. The ﬁnal improvement factor, n2, takes into account the
+variations in stress with depth which are ignored during the
+initial formulation of n0.
+The design for ﬂoating stone columns currently used in
+practice is a conventional approach, in which settlements
+brought about by improved and unimproved layers are
+calculated separately, referred to as a two-layer system
+approach. By using the concept of the equivalent modulus of
+the composite mass, Rao and Ranjan (1985) proposed a simple
+method to predict the settlement of soft clay reinforced with
+ﬂoating stone columns under footing or raft foundations. The
+Japan Institute of Construction Engineering (JICE) (1999)
+proposed a method to calculate the settlement of soft soil
+treated by ﬂoating cement columns. When area replacement
+ratio αo0.3(α¼Ac/A; Ac¼area of column and A¼total
+inﬂuence area), the main contribution to the overall settlement
+will be the unimproved layer plus 1/3 of the improved layer.
+When αZ0.3, JICE considers only the settlement contribution
+from the unimproved layer. Both methods are similar to
+equivalent raft methods used in pile group settlement calcula-
+tions. A more recent study by Chai et al. (2009) proposed a
+method called the α–β method to determine the thickness of
+the part of the improved layer to be regarded as unimproved
+layer Hc. The method was developed based on the unit cell
+concept simulated by the ﬁnite element method. From the
+results of numerical studies, the following functions were
+introduced:
+Hc ¼ HLf ðαÞgðβÞ
+f ðαÞ ¼
+0:5330:013α
+ð10%rαr40%Þ
+0
+ðα440%Þ
+(
+gðβÞ ¼
+1:620:016β
+ð20%rβr70%Þ
+0:5
+ð70rβr90%Þ
+(
+ð1Þ
+where HL¼treatment depth, α¼area replacement ratio, and
+β¼ratio of column length over soft soil thickness. This
+method is only suitable for load intensities of 50–160 kPa
+for cement columns.
+To the authors' knowledge, no method is currently available
+in the literature that can predict the degree of consolidation of
+ﬂoating stone columns. However, an analytical solution for the
+consolidation of double soil layers has been proposed by Zhu
+and Yin (1999). Their solution takes into account the inﬂuence
+of the permeability, the compressibility, and the thickness of
+each layer. Due to the complexity of the solution, however, its
+application is not widely accepted by practicing engineers.
+This paper aims to investigate the performance of ﬂoating
+stone columns under uniform wide spread loading, with 2D unit
+cell axis-symmetry idealization. The unit cell model comprises a
+single stone column and its equivalent circular inﬂuence zone. It
+is used to represent a column located on the interior of an
+inﬁnitely large group of stone columns (Balaam and Booker,
+1985). The idealization is made to simulate the case of a rigid
+raft or large uniform loaded area as in the case of an
+embankment. Since load and geometry are symmetrical in the
+unit cell, the boundary conditions of the outer wall are zero
+shear stress, zero radial displacement, and no water ﬂow (Castro
+and Sagaseta, 2009). However, it does not strictly conform to
+Nomenclature
+c0
+effective stress cohesion
+cv10
+average vertical coefﬁcient of consolidation
+d
+drainage path
+k
+coefﬁcient of permeability
+m
+modular ratio
+n
+settlement improvement factor
+ns
+stress concentration ratio
+q
+loading intensity
+rc
+radius of column
+re
+radius of inﬂuence area
+s
+settlement
+u
+pore water pressure
+t
+time
+ν
+Poisson's ratio
+D
+diameter of stone column
+De
+equivalent inﬂuence of diameter
+Dc
+constraint modulus of column
+Ds
+constraint modulus of soil
+Dcomp
+constraint modulus of composite soil
+Ec
+Young's modulus of column
+Es
+Young's modulus of soil
+HC
+thickness of the part of the treated zone to be
+regarded as an untreated zone
+K
+earth pressure coefﬁcient
+HL
+length of stone column
+H1
+thickness of improved layer
+H2
+thickness of unimproved layer
+N
+diameter ratio
+Tv
+time factor in vertical ﬂow
+Tv0
+modiﬁed time factor in vertical ﬂow
+U
+average degree of consolidation
+α
+area replacement ratio
+β
+depth ratio
+ϕc0
+stone column's effective friction angle
+ϕs0
+soil's effective friction angle
+γ
+unit weight
+ψ
+dilation angle
+Δu
+excess pore water pressure
+Granular mat 
+Soft clay 
+Stiff soil 
+Embankment 
+Stone columns 
+Fig. 1. Floating stone columns supporting an embankment.
+K.S. Ng, S.A. Tan / Soils and Foundations 54 (2014) 478–487
+479
+the periodic boundary conditions, because there are overlapping
+areas or corners between the unit cells. The non-linearity of the
+treated soil and the columns are modeled as elastic-perfectly
+plastic material. Based on the numerical results, methods to
+predict the consolidation settlement and the rate of consolidation
+are proposed.
+2. Numerical model
+Coupled numerical analyses were performed using the ﬁnite
+element program PLAXIS ver 9.0 (Plaxis, 2009). The analyses
+utilized the Tan et al. (2008) unit cell model as the reference
+case. In this model, the unit cell was modeled as axisymmetric
+with an instantaneous uniform surcharge and a q of 100 kPa
+applied through a rigid plate. The column was fully penetrating
+and resting on a rigid stratum, i.e., HL¼10 m and β¼1.0. For
+the analyses of later ﬂoating columns, the length of the column
+was varied from β¼0.1 to β¼0.9. The numerical model,
+shown in Fig. 2, adopts a column radius rc of 0.425 m and an
+inﬂuence radius re of 1.275 m. Therefore, the area replacement
+ratio is calculated as α¼0.11.
+Roller boundaries were used for the sides, while the bottom
+boundary was ﬁxed both horizontally and vertically. The
+phreatic level was set at the top surface; it also served as the
+only pervious drainage boundary for the system. The loading
+was applied instantly in an undrained condition in one step and
+then followed by a consolidation stage. The generated excess
+pore pressure dissipated, therefore, towards the column and the
+top boundary. In the computation, the surface settlement and
+the excess pore water pressure at the right corner of the bottom
+of the model were recorded with time and used for compar-
+ison. The reason is simply because at the right corner of the
+bottom, the excess pore pressure is the highest. Thus, it is the
+most representative value for the whole system.
+The Mohr–Coulomb yielding criterion with non-dilatancy
+(ψ¼0) was adopted for the column and the surrounding soil.
+The material properties for the unit cell model are shown in
+Table 1. The strength parameters for the soft soil and the column
+material (friction angle ϕ0 and cohesion c0) are the typically
+adopted design values. The modular ratio, m¼Ec/Es, is taken as
+10, which falls within the lower end of the normal range of 10–
+40, where Ec is the Young's modulus of the column material and
+Es is the Young's modulus of the surrounding soil. The column's
+permeability, k, was given a value 10,000 times that of the
+permeability of the surrounding soft soil. To avoid the generation
+of excess pore pressure due to the difference in the two materials'
+mean effective stress, the same value was used for the saturated
+unit weight, γsat, of both materials during the initial stress
+generation. Initial stress was generated with the Ko procedure
+using the proposed value for lateral earth pressure K¼0.7 for
+both the column and the soil, reﬂecting the wish-in-place
+approach adopted in the model. More details on the numerical
+model can be found in Tan et al. (2008).
+3. Numerical analysis
+The numerical modeling of the ﬂoating column was con-
+ducted by varying the length of the column from β¼0.1 to
+β¼0.9. The value of β¼0 indicates a non-improved ground.
+The depth of the soft soil was always set at 10.0 m. The ﬁrst
+part of the analysis focused on the time rate of consolidation
+for the stone column improved ground, while the second part
+focused on the reduction in settlement achieved with the
+existence of stone columns.
+3.1. Time rate of consolidation with stone columns
+The distributions of excess pore water pressure Δu, over
+time t, were obtained for different β values, as shown in Fig. 3.
+The results clearly show the increase in excess pore pressure
+dissipation period as β increases. They also demonstrate the
+capability of stone columns to accelerate the consolidation
+process even though the columns are not fully penetrated.
+The initial value of the excess pore water pressure was
+Rigid plate 
+Load, q
+HL
+Roller boundary 
+Fixed boundary 
+rc
+re
+Fig. 2. Numerical model.
+Table 1
+Materials properties for the numerical model.
+Name
+Soft soil
+Stone column
+Type
+Undrained
+Drained
+γsat [kN/m3]
+15
+15
+kx [m/day]
+0.0003
+3
+ky [m/day]
+0.0001
+1
+v
+0.3
+0.3
+E0 [kN/m2]
+3000
+30,000
+c0 [kN/m2]
+0.1
+1
+ϕ0 [deg]
+22
+40
+Κ
+0.7
+0.7
+K.S. Ng, S.A. Tan / Soils and Foundations 54 (2014) 478–487
+480
+expected to be 100 kPa, but only a value of 96.5 kPa was
+obtained. This difference is mainly due to the undrained
+Poisson's ratio of 0.495 (oideal 0.5) adopted in the numerical
+analyses, hence resulting in a small decrease in excess pore
+water pressure.
+Fig. 4 illustrates the variation in excess pore pressure for
+different β at the time of 1-day. It is clearly observed from the
+excess pore water shading that the water migrates radially from
+the soft soil to the stone column. The end-bearing column
+(β¼1.0) demonstrates the fastest dissipation of excess pore
+water pressure with Δumax¼77 kN/m2 (taken at the bottom
+right corner of the unit cell), a reduction of nearly 20 kPa
+within the ﬁrst day of consolidation even for a rather low area
+replacement ratio in this case. For the case of the ﬂoating
+column, it is noticeable that most of the unimproved layers
+have levels of excess pore water pressure similar to those of
+the initial values, implying a lagging in the consolidation
+process. This phenomenon implicates the issue of slower long-
+term settlement through the use of ﬂoating stone columns.
+Fig. 5 shows that, as time progresses, more plastic points
+develop from the top to the bottom of the column. This also
+indicates the propagation of shear zones to a deeper depth.
+Besides the plastic straining near the interface of the column
+and the soil, the soil beneath the ﬂoating column toe is also
+undergoing yielding (Fig. 6(a)). A shear slip band develops at
+the edge of the column with an angle of 45þϕ0s/2 (ϕ0s is the
+friction angle of the soil), similar to the failure plane of a
+circular footing. This punching failure mode is more dominant
+than the shear zone in the column body, as shown in Fig. 6(b)
+for the ﬂoating column. Even though not presented, there is
+some radial bulging along the column length, but the max-
+imum lateral displacement, ux, is less than 1 mm for all cases
+of either the end-bearing column or the ﬂoating column.
+The settlement for the different β values plotted against time
+is shown in Fig. 7. The non-improved ground settles about
+248 mm, while the ground improved with the stone column
+managed to reduce the settlement to 185 mm for the end-
+bearing column, (i.e., β¼1.0), but the improvement decreases
+as β decreases. In terms of the settlement improvement ratio,
+the value increases for very small amounts of n¼1.01 for
+β¼0.1 to a signiﬁcant amount of n¼1.34 for β¼1.0. These
+results also indicate that the longer the column length is, the
+faster the settlement will be achieved, which agrees with the
+results of the excess pore pressure dissipation distribution.
+On the other hand, a separate drained analysis was conducted
+for the end-bearing column. The ﬁnal surface settlement was
+184 mm, a mere 1 mm in difference from the results obtained
+by undrained plus consolidation analyses. Identical results are
+expected since the unit cell model is an oedometric model, for
+which the soil is only allowed to deform vertically, just like in
+the 1D consolidation tests. However, undrained loading shows
+immediate settlement of about 9–12 mm for all β values
+followed by the consolidation settlement.
+Consolidation
+analyses
+were
+conducted
+for
+different
+area replacement ratios for α¼0.15, 0.2, 0.25, 0.35, and
+0.45. The results of the settlement plot over time for
+0
+20
+40
+60
+80
+100
+0.001
+0.01
+0.1
+1
+10
+100
+1000
+10000
+100000
+Excess pore water pressure, u
+Time (day)
+No column
+Fig. 3. Distribution of excess pore water pressure for β¼0 to -1.0.
+β = 1.0     β = 0.7     
+β =0.4
+Δu kN/m2
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Fig. 4. Shadings of excess pore water pressure for different β values at t¼1 day.
+K.S. Ng, S.A. Tan / Soils and Foundations 54 (2014) 478–487
+481
+Fig. 5. Plastic points and shear plane at: (a) t¼5 days and (b) end of consolidation.
+K.S. Ng, S.A. Tan / Soils and Foundations 54 (2014) 478–487
+482
+α¼0.35 are presented in Fig. 8. For the end-bearing column,
+the increase in area replacement ratio reduces the settlement,
+and therefore, results in a faster consolidation rate. However,
+this effect is not clearly noticed with the ﬂoating column,
+especially when the column is short. The increase in α does
+reduce the overall settlement by improving the composite
+stiffness for the ﬂoating column, but due to the governing
+behavior of the slow consolidation for the unimproved layer,
+the consolidation rate for the total system is almost similar to
+the case of the low area replacement ratio. The time required
+for the 90% average degree of consolidation, U90, is plotted in
+Fig. 9 for a varying area replacement ratio; we can see that the
+results actually fall on almost the same line. For the ﬂoating
+column, in all cases except β¼0.9 with α¼0.11 and α¼0.15,
+the treated zone has already achieved practically a 100%
+average degree of consolidation when the double-layer system
+achieves a 90% average degree of consolidation. The average
+degree of consolidation is U¼(st–si)/(sf–si), where st is the
+surface settlement at time t, si is the immediate settlement, and
+sf is the ﬁnal consolidation settlement when the consolidation
+is completed.
+Fig. 6. Yieding of ﬂoating stone column: (a) plastic points and (b) punching
+shear at toe.
+0
+50
+100
+150
+200
+250
+300
+0.001
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Settlement (mm)
+Time (day)
+α = 0.11
+β = 1.0
+β = 0.9
+β = 0.8
+β = 0.7
+β = 0.6
+β = 0.5
+β = 0.4
+β = 0.3
+β = 0.2
+β = 0.1
+No column
+Fig. 7. Settlement vs time for different β ratios.
+0
+50
+100
+150
+200
+250
+300
+0.001
+0.01
+0.1
+1
+10
+100
+1000
+10000
+Settlement (mm)
+Time (day)
+β = 1.0
+β = 0.9
+β = 0.8
+β = 0.7
+β = 0.6
+β = 0.5
+β = 0.4
+β = 0.3
+β = 0.2
+β = 0.1
+No column
+α = 0.35
+Fig. 8. Settlement vs time for α¼0.35.
+K.S. Ng, S.A. Tan / Soils and Foundations 54 (2014) 478–487
+483
+From the above results, a simple approximate method to
+predict the degree of consolidation is proposed for ﬂoating
+stone columns based on double layer consolidation analyses.
+First, the improved layer is treated as having an average
+vertical coefﬁcient of consolidation, cv10.The improved zone
+behaves like a uniform soil mass with a constraint modulus,
+Dcomp, determined as follows:
+Dcomp ¼ αDcþð1αÞDs
+ð2Þ
+where Dc is the constraint modulus of the column and Ds is the
+constraint modulus of the soil. cv10 and time factor Tv0 are then
+calculated by
+cv1
+0 ¼ kv1
+0Dcomp
+γw
+ð3Þ
+Tv
+0 ¼
+cv1
+0cv2
+0
+ðH1
+ﬃﬃﬃﬃﬃﬃ
+cv2
+p
+þH2
+ﬃﬃﬃﬃﬃﬃﬃ
+cv1
+0
+p
+Þ2
+ð4Þ
+where kv10 is the coefﬁcient of equivalent vertical permeability
+for the improved layer and cv2 is the coefﬁcient of consolida-
+tion for the unimproved layer, calculated by the simple elastic
+theory as in the form in Eq. (3). H1 and H2 are the thicknesses
+of the improved layer and the unimproved layer, respectively.
+kv10 can be predicted by a method proposed by CUR 191
+(1997) for the prefabricated vertical drain design, namely
+kv
+0 ¼ kvþ 32
+π2
+d2
+μDe2 kh
+μ ¼
+N2
+N2 1 lnðNÞ 3
+4 þ 1
+N2
+1
+1
+4N2
+
+
+
+
+; k
+0
+h ¼ kh; N ¼ De
+D
+ð5Þ
+where kv, kh are true permeability for vertical and horizontal
+directions, respectively, kv0, kh0 are equivalent permeability for
+vertical and horizontal directions, respectively, d is drainage
+path, same as the thickness of improved layer H1, De is
+diameter of inﬂuence area and D is diameter of stone column.
+Next, the relationship between time factor Tv0 and the
+average degree of consolidation U needs to be established.
+Fig. 10 shows a plot of time factor Tv0 against the average
+degree of consolidation U for α¼0.35. It is clearly seen that
+the consolidation plots for the ﬂoating stone column exhibit
+two different line gradients, especially for a higher β and a
+faster rate of consolidation followed by a slower rate. Due to
+the complexity of this mechanism, the method described here
+is only able to predict for UZ60% for α¼0.11–0.45.
+βr0:5
+U ¼ 1–ð0:5βþ0:775Þeð1:8Tv0Þ
+0:6rβ r0:9
+U ¼ 1–0:45eð7:8β 3ÞTv0
+or
+Un ¼ 1–0:65eð7:8β 3ÞTv0
+ðβ ¼ 0:9; α ¼ 0:11–0:15Þ
+β ¼ 1:0
+U ¼ 1–0:1e–0:85Tv0
+ð6Þ
+The degree of consolidation for a two-layer system cannot
+be easily obtained from the average excess pore water pressure
+since both layers (improved and unimproved layers) have
+different levels of excess pore water pressure in addition to the
+drained behavior of the stone column material. The proposed
+method allows the degree of consolidation to be calculated
+using the proportioned settlement, which is a more effective
+and efﬁcient way. The results using the above expressions are
+compared with the numerical results for α¼0.11 and α¼0.35
+in Figs. 11 and 12, respectively. The predictions agree well
+with the numerical results, especially when the β is low. The
+Han and Ye (2001) elastic closed-form solution seems to
+overpredict the consolidation rate. The faster consolidation rate
+of Han and Ye's method is due to their assumption of lateral
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+1E-06
+1E-05
+0.0001
+0.001
+0.01
+0.1
+1
+10
+Average degree of consolidation, U%
+Tv'
+α= 0.35
+β=1.0
+β=0.9
+β=0.8
+β=0.7
+β=0.6
+β=0.5
+β=0.4
+β=0.3
+β=0.2
+β=0.1
+Fig. 10. Time factor vs degree of consolidation plots.
+Fig. 11. Prediction for UZ60% for α¼0.11.
+Fig. 9. Time required for 90% degree of consolidation for different area
+replacement ratios.
+K.S. Ng, S.A. Tan / Soils and Foundations 54 (2014) 478–487
+484
+conﬁnement and ignores the plastic straining of the column
+material which would slow down the consolidation process
+(Castro and Sagaseta, 2009).
+From the above results, it is now understood that the long-term
+settlement of ﬂoating stone columns is governed by the thickness
+of the unimproved layer and the average degree of consolidation
+of the whole system. A good design for ﬂoating stone columns,
+therefore, lies in the correct determination of the remaining
+settlements after a certain required average degree of consolida-
+tion has been achieved. The simple approximate method pro-
+posed
+here
+can
+provide
+practicing
+engineers
+with
+quick
+approximate answers to complex ﬂoating stone column consoli-
+dation problems. The simple method for calculating the degree of
+consolidation does not take into account the inﬂuence of the
+friction angle or the load. However, we know that if the friction
+angle of the column material is increased, more load will be taken
+by the column, and this will reduce the load carried by the soil.
+Moreover, a higher friction angle deters the yielding effect from
+happening too early; and therefore, the system is expected to
+achieve a higher degree of consolidation. On the other hand, with
+an increase in the load, the improved ground yields further, and
+this reduces the dissipation rate of the excess pore pressure.
+The inﬂuence of yielding was discussed by Castro and Sagaseta
+(2009).
+3.2. Settlement performance of ﬂoating stone columns
+The second part of this study is meant to examine the
+settlement performance of ﬂoating stone columns for the inﬁnite
+grid column type. A parametric study was conducted to examine
+the inﬂuence of key parameters on the settlement improvement
+factors for ﬂoating stone columns. The key parameters include the
+area replacement ratio (α), the effective friction angle of the
+column material (ϕc0), the loading intensity (q), the modulus ratio
+(m), and the post-installation earth pressure (K). One parameter
+was altered from the reference case each time to investigate the
+inﬂuence and the sensitivity of each parameter on the settlement
+performance. The results of the parametric study have been
+published in Ng and Tan (2011). The most inﬂuential parameter
+was found to be the area replacement ratio, followed by the
+friction angle of the column material, the loading intensity (q),
+and the post-installation earth pressure (K). The effect of the
+modulus ratio on the settlement performance was found to be
+small and negligible for the range of load used in this study
+(Z30 kPa). This is due to the fact that the constraint modulus
+of stone columns is governed by the passive resistance of the
+Table 2
+Correction factors.
+Cα, Cϕ, Cq, CK
+β
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+α
+0.11
+0
+0.0513
+0.0842
+0.1148
+0.1435
+0.1667
+0.1921
+0.2094
+0.2292
+0.2480
+0.15
+0
+0.0621
+0.1075
+0.1531
+0.1863
+0.2207
+0.2489
+0.2719
+0.2966
+0.3197
+0.2
+0
+0.0955
+0.1548
+0.2111
+0.2565
+0.2935
+0.3302
+0.3604
+0.3826
+0.4108
+0.25
+0
+0.1268
+0.2010
+0.2591
+0.3132
+0.3633
+0.3978
+0.4340
+0.4615
+0.4906
+0.35
+0
+0.1820
+0.2906
+0.3694
+0.4325
+0.4841
+0.5246
+0.5592
+0.5891
+0.6153
+0.45
+0
+0.2517
+0.3761
+0.4688
+0.5342
+0.5854
+0.6243
+0.6699
+0.6852
+0.7082
+ϕc0 (deg)
+40
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+45
+0.0819
+0.0598
+0.0466
+0.0398
+0.0335
+0.0230
+0.0178
+0.0130
+0.0042
+0
+50
+0.2013
+0.1272
+0.1038
+0.0885
+0.0693
+0.0472
+0.0362
+0.0218
+0.0042
+0
+55
+0.3001
+0.2112
+0.1676
+0.1297
+0.1020
+0.0725
+0.0505
+0.0218
+0.0042
+0
+q (kPa)
+50
+0.0669
+0.0399
+0.0328
+0.0263
+0.0203
+0.0101
+0.0141
+0.0005
+0.0003
+0.0001
+100
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+150
+0.0237
+0.0224
+0.0168
+0.0084
+0.0065
+0.0063
+0.0004
+0.0002
+0
+0
+200
+0.0376
+0.0284
+0.0226
+0.0171
+0.0097
+0.0071
+0.0003
+0.0002
+0
+0
+250
+0.0437
+0.0338
+0.0279
+0.0168
+0.0116
+0.0094
+0.0013
+0.0002
+0
+0
+400
+0.0533
+0.0399
+0.0326
+0.0223
+0.0114
+0.0098
+0.0017
+0.0015
+0.0003
+0
+K
+0.7
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0.0452
+0.0372
+0.0306
+0.0245
+0.0189
+0.0183
+0.0133
+0.0086
+0.0084
+0.0041
+1.5
+0.1212
+0.0833
+0.0576
+0.0503
+0.0452
+0.0278
+0.0269
+0.0174
+0.0127
+0.0082
+Fig. 12. Prediction for UZ60% for α¼0.35.
+K.S. Ng, S.A. Tan / Soils and Foundations 54 (2014) 478–487
+485
+surrounding soil which has a limit. Poorooshasb and Meyerhof
+(1997) and Kamrat-Pietraszewska and Karstunen (2010) also
+came to the same conclusion.
+Based on the parametric study, a new design equation is
+proposed for stone column reinforced grounds. The settlement
+improvement factor, n, can be predicted as
+n ¼ no½1ðCα þCϕþCq þCKÞ
+ð7Þ
+n0 ¼ 9:432
+α þ1:49αþ1:06
+ð8Þ
+where no is the basic improvement factor, Ca, Cϕ, Cq, and CK
+are the correction factors for the area replacement ratio, the
+friction angle, the loading intensity, and the post-installation
+earth pressure, respectively. The basic improvement factor, no
+(same term as that used in Priebe's method, but different in
+formulation), is derived from the line equation for β¼1.0 on
+the inﬂuence of the varying area replacement ratio; it is valid
+for α¼0.1–0.45. The correction factors are given in Table 2.
+These factors are obtained from the difference in values for the
+parametric cases and the reference case. The modular ratio is
+not included in this method, as its inﬂuence on the settlement
+improvement factor is very minor. To show the validity of this
+new method, the method is compared with a FEM analysis for
+15 cases, as presented in Table 3. The parameters are randomly
+provided to cater to a wide range of possible values. The
+differences in the results for the proposed method and the FEM
+are small, with a maximum of 5.7%. The proposed method
+does not intend to provide an exact solution for all possible
+conditions, especially when the area replacement ratio for the
+reference case adopted in this study (i.e., α¼0.11) is appar-
+ently at the low end compared to the commonly adopted value
+in practice, which is about 0.2–0.25.
+For the end-bearing columns (β¼1.0), further comparisons
+were made with the results of various case histories from
+different sites with widespread loading (Fig. 13). Priebe's
+prediction adopts basic improvement factor no and applies
+ϕc0 ¼401 for the stone column material. No loading information
+is required for Priebe's basic improvement factor n0, but 100 kPa
+was applied with the proposed method. The assumption/
+condition to obtain basic settlement improvement n0 in Priebe's
+method is different from the proposed method. In Priebe's
+method, the column is non-compressible, but it can bulge (no
+volume change). In this ﬁnite element study, the column can
+deform and settle vertically and uniformly (use of a rigid plate).
+The term “basic improvement factor”, used in the proposed
+method, is different in the sense of the assumption or condition
+during the formulation, but is the same in the sense that they are
+derived from the simplest form. For the proposed method, two
+curves, i.e., ϕc0¼401 and ϕc0 ¼501, are shown. Curve ϕc0¼501
+appears to give a better representation of the ﬁeld measure-
+ments. On the other hand, curve ϕc0¼401 results in a lower
+value compared to Priebe's method. Part of the reason for this
+discrepancy is the absence of loading information in Priebe's
+method where the development of plastic strain for soil around
+the column is ignored. Comments have been made by Barksdale
+and Bachus (1983) that Priebe's method appears to overestimate
+the beneﬁcial effects of stone columns in reducing settlement.
+The proposed method may yield slightly conservative results for
+the settlement improvement factor for two reasons. The ﬁrst
+reason is that the friction angle adopted in the basic case was
+only 401 and did not take the dilation angle into account. The
+Table 3
+Validation cases and results.
+Case β
+α
+ϕc' q (kN/m2) K
+n (calculated) n (FEM) % Difference
+C1
+1.0 0.25 45
+150
+1
+2.23
+2.36
+5.7
+C2
+1.0 0.35 50
+175
+1.3 3.46
+3.51
+1.6
+C3
+1.0 0.15 40
+75
+1
+1.61
+1.65
+2.2
+C4
+0.8 0.35 45
+150
+1
+2.11
+2.12
+0.5
+C5
+0.5 0.20 50
+200
+1.5 1.35
+1.34
+0.7
+C6
+0.7 0.25 40
+250
+0.7 1.47
+1.45
+1.3
+C7
+0.6 0.15 45
+50
+1
+1.33
+1.37
+3.4
+C8
+0.4 0.25 50
+100
+1
+1.32
+1.29
+2.2
+C9
+0.8 0.20 45
+150
+0.7 1.52
+1.54
+1.1
+C10
+0.7 0.35 40
+200
+1.5 1.82
+1.76
+3.5
+C11
+0.9 0.15 45
+100
+1
+1.55
+1.58
+1.7
+C12
+0.5 0.25 50
+50
+0.7 1.40
+1.40
+0.2
+C13
+0.8 0.45 40
+150
+1
+2.32
+2.29
+1.4
+C14
+0.7 0.2
+55
+250
+1.5 1.65
+1.63
+1.5
+C15
+0.8 0.25 40
+400
+1
+1.61
+1.56
+3.4
+Fig. 13. Comparison of end-bearing results.
+(adapted from McCabe et al., 2009).
+1
+1.4
+1.8
+2.2
+2.6
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1
+n
+β
+α−β
+Proposed method
+α = 0.35
+α = 0.20
+Fig. 14. Comparison of proposed method with the α–β method.
+K.S. Ng, S.A. Tan / Soils and Foundations 54 (2014) 478–487
+486
+reason for not including the dilation angle is that the settlement
+performance due to the high friction angle and the dilation angle
+cannot be separated in real practical problems. The second
+reason is that low initial earth pressure was used (K0¼0.7),
+which gives low lateral restraint, and thus, lowers the capacity
+of the stone column.
+Subsequently, the proposed method was compared with the
+α–β method proposed by Chai et al. (2009) developed
+particularly for cement columns. In this exercise, the stiffness
+of the column and the soil were taken as 30,000 kPa and
+3000 kPa, respectively. The loading was set as 100 kPa and the
+thickness of the soft soil was taken as 10 m. Extra information
+required by the proposed method, which was not included in
+the α–β method, are the friction angle (ϕ0c¼401) and the post-
+installation effect (K¼1). The α–β method requires the
+estimation of the thickness of the part of the improved layer
+to be treated as an unimproved layer, as given in Eq. (1).
+Additionally, the composite stiffness for the improved layer
+was calculated with Eq. (2). Fig. 14 shows a comparison of the
+results for α¼0.2 and α¼0.35 for different β values. The
+results showed a good agreement for α¼0.35, but relatively
+lower results for the proposed method when α¼0.20. Gen-
+erally, the proposed method calculates a lower settlement
+improvement factor than the α–β method. The difference in
+the results probably lies in the assumption of the linear elastic
+behavior for the columns used in the development of the α–β
+method, which gives a stiffer response to the overall improved
+ground.
+4. Conclusion
+A 2D ﬁnite element analysis has been performed on ﬂoating
+columns using unit cell idealization to investigate the settle-
+ment and the consolidation characteristics of ﬂoating stone
+columns. Reducing the β value was found to result in more
+settlement and longer consolidation time. However, ﬂoating
+stone columns have been proven to work as well as end-
+bearing columns if the β value is properly designed to achieve
+the desired degree of consolidation with an acceptable long-
+term settlement.
+Based on the numerical results for the consolidation
+behavior, a simple approximate method was developed to
+predict the degree of consolidation for ﬂoating columns. This
+method is only applicable for UZ60% and is limited to single
+drainage systems for which the bottom drainage is closed
+while the foundation is subjected to instant loading. Despite its
+limitations, the method can be used easily and without the need
+for complicated mathematical tools.
+The new simpliﬁed design method for stone columns
+accounts for the length ratio, the area replacement ratio, the
+friction angle of the column material, the loading intensity as
+well as the post-installation earth pressure which has been
+proposed based on a series of parametric studies. The results
+obtained from the simpliﬁed method are comparable to those
+of other available design methods and ﬁelds results. This
+demonstrates the merits of the proposed method despite its
+simplicity. However, users should exercise their own discre-
+tion if the soil or the column properties to be used are outside
+the range of those used in this study.
+References
+Balaam, N.P., Booker, J.R., 1985. Effect of stone column yield on settlement
+of rigid foundations in stabilized clay. Int. J. Numer. Anal. Methods
+Geomech. 9 (4), 331–351.
+Barksdale, R.D., Bachus, R.C., 1983. Design and Construction of Stone
+Columns. Federal Highway Administration Ofﬁce of Engineering and
+Highway Operations, National Technical Information Service, Springﬁeld,
+Virginia 22161.
+Castro, J., Sagaseta, C., 2009. Consolidation around stone columns. Inﬂuence
+of column deformation. Int. J. Numer. Anal. Methods Geomech. 33 (7),
+851–877.
+Chai, J., Miura, N., Kirekawa, T., Hino, T., 2009. Settlement prediction for soft
+ground improved by columns. Proc. ICE – Ground Improv. 163 (2),
+109–119.
+CUR 191, 1997. Achtergronden bij numerieke modellering van geotechnicsche
+constructies, deel 2. Stiching CUR, Gouda.
+Deb, K., 2008. Modeling of granular bed-stone column-improved soft soil. Int.
+J. Numer. Anal. Methods Geomech. 32 (10), 1267–1288.
+Han, J., Ye, S.L., 2001. Simpliﬁed method for consolidation rate of stone
+column reinforced foundations. J. Geotech. Geoenviron. Eng. 127, 597.
+Japan Institute of Construction Engineering (JICE), 1999. Flexible Foundation,
+Foundation Structure Part, Design Code for Flexible Box Culvert – II
+(Chapter 4). San-kai-dou Press, Tokyo, pp 233–248 (in Japanese).
+Kamrat-Pietraszewska, D., Karstunen, M., 2010. Modelling embankments on
+ﬂoating stone columns. Numer. Methods Geotech. Eng. (NUMGE), 851–856.
+Maheshwari, P., Khatri, S., 2012. Nonlinear analysis of inﬁnite beams on
+granular bed-stone column-reinforced earth beds under moving loads. Soils
+Found. 52 (1), 114–125.
+McCabe, B.A., Nimmons, G.J., Egan, D., 2009. A review of ﬁeld performance
+of stone columns in soft soils. Proc. Inst. Civ. Eng. – Geotech. Eng. 162
+(6), 323–334.
+Ng, K.S., Tan, S.A., 2011. The modeling of ﬂoating stone column using unit
+cell concept. In: Proceedings of the International Conference on Geology,
+Geotechnology, and Mineral Resources of INDOCHINA, Khon Kaen,
+Thailand. December 2011, pp. 152–160.
+Plaxis, B.V., 2009. User's Manual of PLAXIS.
+Poorooshasb, H.B., Meyerhof, G.G., 1997. Analysis of behavior of stone
+columns and lime columns. Comput. Geotech. 20 (1), 47–70.
+Priebe, H.J., 1995. The design of vibro replacement. Ground Eng. 28, 31–37.
+Rao, B.G., Ranjan, G., 1985. Settlement analysis of skirted granular piles. J.
+Geotech. Eng. 111, 1264.
+Tan, S.A., Tjahyono, S., Oo, K.K., 2008. Simpliﬁed plane-strain modeling of
+stone-column reinforced ground. J. Geotech. Geoenviron. Eng. 134, 185.
+Zhu, G., Yin, J.H., 1999. Consolidation of double soil layers under depth-
+dependent ramp load. Geotechnique 49 (3), 415–421.
+K.S. Ng, S.A. Tan / Soils and Foundations 54 (2014) 478–487
+487

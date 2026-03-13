@@ -1,0 +1,930 @@
+7. A model for prediction of piezometric levels in landslides
+R. FELL, BE(Civil), MEngSc, Professor of Civil Engineering, T. G. CHAPMAN, BSc, PhD, Emeritus
+Professor and P. K. MAGUIRE, BSc, GradDip, AACS, University of New South Wales, Australia
+A hydrologic process model has been developed to predict piezometric levels in landslides. The model uses daily rainfall
+and pan evaporation records, and takes account of runoff, infiltration, variations in soil moisture content in the unsaturated
+zone, evapotranspiration, and the response of the piezometric level to the resultant recharge to the groundwater. The model
+parameters are physically identifiable variables relating to the infiltration, evapotranspiration and recharge processes.
+Calibration against 3-1/2 years of records showed that piezometric levels can be modelled with reasonable accuracy granted
+the heterogeneous nature of landslide debris, and the limitations of using daily rainfall records. The model can be used to
+assess the probability of future landsliding by statistical analysis of piezometric levels predicted from historic rainfall and
+evaporation records. This can be useful in decision making relating to the economics of stabilization works.
+INTRODUCTION
+1. The probability that a landslide will become active is
+commonly dependent on the piezometric levels in the
+landslide, which in turn depend mainly on rainfall. Many
+attempts to model the fluctuation of piezometric levels with
+rainfall are based on an empirical approach, with little
+attempt to model the physical processes involved in
+infiltration, runoff and groundwater response (refs. 1-8).
+2. Other models eg. (refs. 9 and 10) are based on the
+overall water balance with ref. 10 making some attempt to
+model the physical processes on a monthly time scale.
+3. Yet another group of models use the one dimensional
+flow equation in the unsaturated zone eg. (refs. 11-14).
+These require pluviograph data, rather than the daily rainfall
+data which are more commonly available, and require a
+knowledge of soil parameters such as hydraulic
+conductivity which are difficult to determine with any
+degree of accuracy, particularly in such heterogeneous
+materials as landslides.
+4. The model described in this paper was developed to
+make use of daily rainfall data, pan evaporation, and
+piezometric data available for a landslide at Speers Point in
+Newcastle, Australia. The aim was to develop a model
+with a simple structure but which used parameters which
+related to the physical processes involved. Piezometric
+records were available for 3-1/2 years, culminating in
+reactivation of landsliding for the first time in 35 years.
+THE MODEL
+5. Figure 1 outlines the basic concept of the model.
+There are two water balance subsystems
+(a) the (usually) unsaturated soil zone, roughly equivalent
+to the depth of plant roots
+(b) the groundwater storage.
+The vadose zone between is not modelled, and it is
+assumed that transfers from the unsaturated zone to the
+groundwater storage occur instantaneously.
+6. The water balance equations are taken as
+Rij
+u
+Water t a b l e
+0
+Fig. 1. Structure of model
+Unsaturated Zone
+SWj + 1
+For 
+SWj < 
+SCAP, 
+ROj
+For 
+SWj 
+> 
+SCAP, 
+ROj
+and 
+SWj 
+= 
+SCAP
+Ej 
+= 
+A3(SWj/SCAP)
+subject to
+Ej 
+< 
+A2 PE
+SWj -SCAP
+[1]
+) 
+[2]
+[3]
+Slope stability engineering. Thomas Telford, London, 1991.
+37
+Downloaded by [ York University] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
+MECHANICS
+For 
+SWj 
+< 
+SDRY, 
+Rej 
+= 
+0
+For 
+SWj 
+< 
+SDRY, 
+Rej 
+= 
+A^SWj - SDRY) 
+[4]
+where 
+SW 
+= 
+stored water in unsaturated zone (mm)
+SCAP 
+= 
+storage capacity in unsaturated zone (mm)
+SDRY 
+= 
+field capacity (mm)
+P 
+= 
+rainfall (mm/day)
+E 
+= 
+evapotranspiration (mm/day)
+Rj 
+= 
+surface runoff from upslope (mm/day)
+Ro 
+= 
+surface runoff downslope (mm/day)
+Re 
+= 
+recharge to groundwater storage (mm/day)
+PE 
+= 
+pan evaporation (mm/day)
+A^ 
+= 
+recharge coefficient
+A2 
+= 
+crop coefficient
+A3 
+= 
+maximum evapotranspiration rate (mm/day)
+j 
+= 
+stands for day
+Groundwater Storage
+= 
+h
+- Qij
+A4hjS
+[5]
+[6]
+where 
+h
+Qj
+height of the piezometric level above the datum
+level of the recession curve
+groundwater inflow from upslope (mm/day)
+QQ 
+= 
+groundwater outflow from downslope (mm/day)
+Re 
+= 
+recharge (from equations [4] (mm/day)
+S 
+= 
+storage coefficient for the groundwater storage
+A4 
+= 
+parameter depending on the shape of the recession
+curve
+Note that Qi, Qo, R^e have the units of mm/day over the
+area represented by the piezometer.
+7. If as was the case for the Speers Point landslide, the
+recession curve during dry periods plots as a straight line on
+semilog paper, it has the form
+= 
+h 0K t-to
+[7]
+where 
+ht, ho are piezometric heights above a reference
+level at times t, t0;
+K is a coefficient depending on the time interval
+selected and is the slope of the semilog plot
+It can be shown that
+A4 = VT = -In K«l - K
+where 
+T is the turnover time defined as the ratio of
+storage to output rate in the groundwater
+subsystem
+8. The equations can be applied to a single location in the
+landslide and calibrated against a ppiezometer at that
+location. Alternatively the piezometric levels in a series of
+piezometers down the slope can be modelled. In this case
+Ko for the uphill location becomes R{ for the next location
+after adjustment for the relative areas represented by the
+piezometers. This can allow modelling of a catchment area
+upslope of the landslide.
+9. 
+The model is sensitive to variations in the
+parameters, and it is necessary to calibrate against actual
+rainfall, pan evaporation and piezometer readings.
+However it is useful to appreciate the likely order of
+magnitude of the parameters and the following is given for
+guidance:
+(a) 
+Field Capacity in Root Zone (SCAP)
+Values may range from 0.05D for coarse sandy soils to
+0.4D for clay soils, where D is the rooting depth of the
+main vegetation species.
+(b) 
+Storage Capacity Moisture Content (SDRY)
+Values may range from 0.02D for coarse sandy soils to
+0.2D for clay soils.
+(c) 
+Recharge Coefficient (A^
+This parameter has a very wide range. For daily models,
+values have been reported from less than 0.01 for clay soils
+to over 0.9 for freely draining sandy soils.
+(d) 
+Evapotranspiration Coefficients A2 and A3
+A2, the crop coefficient, is the ratio of transpiration of
+unstressed vegetation to pan evaporation. It depends on the
+type of vegetation, stage of growth and season. Values are
+generally in the range 0.6 to 0.8, with the lower values in
+the winter months. However lower and higher values have
+been reported for eucalypt forest (eg. Sharma, 1984)).
+A3 is the maximum rate at which a particular vegetation-soil
+complex can transpire. 
+It depends on climate, soil
+characteristics, and type and stages of growth of vegetation.
+Values for native vegetation in Australia have been in the
+range 5-25mm/day. Refs. 15-17 have values of A2 and A3
+for a range of vegetation.
+THE SPEERS POINT LANDSLIDES
+10. Figure 2 shows a section through the Chelston St
+landslide at Speers Point. The landslide is about 200m x
+200m in plan and up to 10m deep. There is another
+landslide lkm to the south — the Thompson Rd landslide
+which has similar characteristics. It is 400m x 200m in
+plan and up to 20m deep.
+11. The landslides occur within the Newcastle Coal
+Measures, and are underlain by claystone from the Awaba
+Tuff and coal from the Fassiefern Seam. The bedding is
+horizontal to 2° dip out of the slope. Sliding has occurred
+on planes parallel to the bedding, but at several levels as
+shown in Figure 2. The landslide colluvium is mainly
+sandy clay and clayey sand derived from conglomerate but
+also contains boulders of conglomerate in the upslope part
+of the slide mass.
+12. Well developed slide plane(s) have been located in
+soils largely derived from the claystone at the base of
+sliding. Direct shear testing indicates a strength of c'=0,
+<])'=120 is applicable, and this is backed up by back-analysis
+of sliding which occurred in 1988. Vegetation in the area is
+mostly paspalum grass used for horse grazing.
+13. There has been a history of landsliding at the
+Chelston St and Thompson Rd landslides. 
+Recorded
+activity includes
+June 1930 
+— 
+Chelston and Thompson (poor record)
+June 24-26, 1950 
+— 
+Chelston and Thompson
+July 25-27, 1950 
+— 
+Chelston
+38
+Downloaded by [ York University] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
+PAPER 7: FELL ETAL.
+- SCARP EXPOSED
+COAL 
+CLAYSTONE 
+B A 5 E 
+Q F 
+L A N D S L | D I N G
+PC12 ^-MINIMUM WATER TABLE NOV.1984
+PC6 
+PC6 
+PC7
+LANDSLIDE FLOW
+DEBRIS
+Fig. 2. Section through the Chelston St landslide, showing location of piezometers
+January 19-26, 1951 
+—
+July 29 to Aug 13 1952 —
+July 12, 1956 
+—
+April 12-3Oth, 1988 
+—
+Chelston and Thompson. Large flow
+from Chelston.
+Thompson
+Thompson
+Chelston
+APPLICATION OF THE MODEL TO THE SPEERS
+POINT LANDSLIDES
+14. During 1984 and 1985 Casagrande type piezometers
+were installed to measure groundwater pressures in the
+Chelston St and Thompson Rd landslides. The piezometer
+tips were installed at around the base of the landslide
+colluvium and were sealed by backfilling the borehole with
+bentonite. 
+Seventeen piezometers were installed at
+Chelston St. The piezometers were monitored over the
+period November 1984 to April 1988. Readings were
+generally taken weekly, with daily readings when
+piezometric levels were high, and some gaps with
+underspaced readings.
+15. Daily rainfall data for this period were available for
+a rainfall station 3km away. Class A evaporation data were
+available from 30km away. As the intention was to model
+over the period of rainfall record (1900-1988), and
+evaporation records were only available after 1974, mean
+daily pan evaporation for each month was used.
+16. The model was applied to the recorded data at
+Chelston St. The steps involved were:
+(a) 
+select piezometers representative of the landslide.
+This was done by consideration of response times and
+levels, and location within the landslide. Piezometers
+used were SB 107, PC12, PC6 and PCI 1.
+(b) 
+After further consideration of response times (which
+were generally less than 3 days, but up to 11 days)
+and taking account of the variations of response of
+adjacent piezometers, results from pairs of adjacent
+(10 to 20m apart) piezometers were also modelled.
+Hence results from PC12 and 13; PC6 and 8; and
+PC7 and 11 were averaged.
+(c) 
+Recession curves for the main district rainfall events in
+November 1984, April 1985 and July 1986 were
+plotted and the A4 coefficient estimated. This showed
+that the results plotted quite well to satisfy the log-
+linear relationship assumed in equation [7], but that
+A4 was not the same for each rainfall event, and the
+plot was often bi-linear, with a different (usually
+smaller) A4 value applying for the lower part of the
+recession curve. Figure 3 shows some of the plots.
+This bi-linear behaviour was built into the model
+where appropriate.
+(d) 
+Using this information, and an estimated range of
+values for the other coefficients, the model was
+calibrated by using a modification of the simplex
+minimisation algorithm developed by ref. 18 to
+determine the optimum values of the parameters listed
+in Table 1. This was done by minimising the root
+mean square of the differences between observed and
+predicted piezometric heads.
+The crop coefficient A2 and evapotranspiration
+PC 6 I 6 NOVEMBER
+* RAIN
+TIME - 
+DAYS
+Fig. 3. Types of recession curves for piezometers
+coefficient A3 were assumed to be the same for all
+piezometers. Other parameters were allowed to be
+different for each piezometer. This was considered
+reasonable given the somewhat heterogeneous nature
+of the landslide colluvium. All coefficients including
+A4 were allowed to vary between what were regarded
+as physically admissible limits.
+Figure 4 shows the results of the optimisation process for
+the single piezometers.
+17. Initial attempts at optimisation were carried out with
+parameters being allowed to vary all at once. This resulted
+in large computer run times and selection of local minima.
+Subsequent analysis fixed parameters for all but one
+piezometer in sequence. This gave better results. Improved
+results were also obtained by beginning calibration in the
+9th month of 1985, that is after the large rain event and
+recession earlier in that year.
+18. The Root Mean Square (RMS) error was calculated
+by dividing the sum of the squares of the differences
+between predicted and recorded piezometric heads by the
+number of observations less the number of fitted
+parameters, and taking the square root of the result. RMS
+values for each piezometer or pairs of piezometers are
+shown in Table 1.
+DISCUSSION OF THE RESULTS
+19. It can be seen that the model produces a moderately
+successful simulation over the period of record. There are
+however significant errors with some rainfall events not
+producing the recorded piezometric response in some
+piezometers. It was found that similar RMS errors could be
+achieved with quite different parameters, and these
+sometimes gave better simulation of individual events not
+well modelled by the optimised simulation. For example,
+the large differences in SCAP and SDRY are a result of
+optimisation giving two areas of minimum RMS ie. with a
+large and small difference in SCAP and SDRY,
+compensated by differences in the other parameters.
+20. It can be seen that the individual piezometers give a
+better result than modelling the paired piezometers. This
+can be related to the averaging of piezometer responses,
+which in practice showed different response times for
+39
+Downloaded by [ York University] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
+MECHANICS
+1985
+SB 107
+PC12
+- PC6
+100
+60
+j L L
+20 
+60 
+100 
+140 
+180 
+220 
+260 
+300 
+340 
+380 
+420 
+460
+time in days
+Fig. 4a. 
+Results of modelling of piezometric levels in
+individual piezometers for 1985 - the year with best fit
+piezometers quite close to each other, and for different
+rainfall events. These recorded differences probably relate
+to the heterogeneous nature of the landslide colluvium. It is
+considered that they are not due to lag in the piezometer
+instrument as instrumentation in an adjacent landslide area
+with Casagrande type and pneumatic piezometers shows the
+Casagrande type respond sufficiently quickly.
+21. The model fit could be improved by assuming that
+all levels above ground surface level are at ground surface,
+ie. that artesian conditions cannot occur. However slightly
+artesian pressures were observed in some piezometers eg.
+SB 107. Attempts to model the interaction between upper
+and lower store have as yet proved difficult.
+22. 
+The discrepancies between the observed and
+predicted piezometric levels can be ascribed to deficiencies
+in the data and the model
+• 
+the use of daily rainfall data precludes accurate
+simulation of the physical processes of infiltration and
+runoff
+• 
+the use of rainfall data from a gauge 3km from the
+landslide may also explain some of the discrepancies.
+There can be considerable variations of rainfall over
+such a distance
+• the use of averaged evaporation data from a site 30km
+distant will also lead to errors although these are likely
+to be less significant than the deficiencies in rainfall
+data
+• 
+the piezometer readings were usually taken weekly,
+with daily readings at times of high rainfall. However
+measurements taken during the April 1988 event
+indicate that during high rainfall, piezometric levels
+can vary by as much as 0.5m between morning and
+afternoon (although generally differences were less
+than 0.2m). Hence it is possible that maximum levels
+79
+J
+¥ 
+77
+I 
+75
+1987
+- SB107
+- PC12
+- PC6
+- PC7
+20 
+60 
+100 
+140 
+180 
+220 
+260 
+300 
+340 
+380 
+420 
+460
+time in days
+Fig. 4b.. 
+Results of modelling of piezometric levels in
+individual piezometers for 1987 - the year with worst fit
+were not recorded
+• 
+the model uses simplified assumptions to simulate
+groundwater recharge from the upper store as a
+proportion of the excess soil water storage over a
+prescribed value, and assumes immediate transfer to
+the groundwater store. The latter does not appear to
+be a major problem as the rate of rise is predicted
+reasonably well. The former is linked with the use of
+daily rainfall data with its inherent limitations
+23. In spite of the discrepancies the model performs
+reasonably well given that the simulation is in a landslide
+which is known from exploration holes and trenches dug for
+remedial works to be non homogeneous.
+24. The question of how long a period of record is
+needed to calibrate the model cannot be answered with any
+confidence, because the landsliding in April 1988 destroyed
+most of the piezometers. Earlier modelling using the first 9
+months of records (refs. 19 and 20) gave the optimum
+parameters for piezometers PC 12 and PC6 shown in Table
+2.
+25. It can be seen that these are different from those in
+Table 1. When they were applied to the records after the
+first 9 months the resulting RMS errors were significantly
+larger. It is apparent from this that the 9 months was
+inadequate for calibration.
+USE OF THE MODEL TO PREDICT PIEZOMETRIC
+LEVELS AND PROBABILITY OF LANDSLIDING
+26. Piezometric levels for the Chelston St landslide were
+modelled over the period of rainfall record (1900-1988)
+using the parameters for the piezometers listed in Table 1.
+Table 3 shows the maximum piezometric levels which were
+reached (in order of maximum levels) and the year in which
+they were recorded.
+40
+Downloaded by [ York University] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
+PAPER 7: FELL ETAL.
+Table 1. Parameters for optimised simulation
+(a) 
+Paired
+Piezometer
+SB107
+PC12 and 13
+PC6 and 8
+PC7and 11
+I Piezometers
+SCAP
+mm
+280
+245
+290
+205
+(b) 
+Individual Piezometers
+Piezometer
+SB107
+PC12
+PC6
+PC7
+SCAP
+mm
+280
+317
+255
+241
+SDRY
+mm
+18
+95
+20
+20
+SDRY
+mm
+18
+218
+157
+24
+Ai
+0.30
+0.57
+0.76
+0.42
+A l
+0.30
+0.69
+0.50
+0.34
+A2 
+A3
+mm/day
+0.40 
+7.1
+0.40 
+7.1
+0.40 
+7.1
+0.40 
+7.1
+A 2 
+A 3
+mm/day
+0.40 
+7.1
+0.40 
+7.1
+0.40 
+7.1
+0.40 
+7.1
+Table 2. Optimised parameters based on 9 months of record
+Piezometer
+PC12
+PC6
+SCAP
+mm
+137
+65
+SDRY
+mm
+31
+30
+Al
+0.54
+0.71
+A 2 
+A3
+mm/day
+0.50 
+5.8
+0.50 
+5.8
+Table 3. Years of predicted maximum piezometric levels
+SB107
+Year
+1931
+1927
+1952
+1950
+1946
+1951
+1930
+1963
+1955
+1908
+(1988)
+Level
+87.9
+86.8
+86.5
+86.5
+86.4
+86.3
+86.3
+86.0
+85.7
+85.7
+(85.5)
+PC12
+Year
+1931
+1950
+1963
+1955
+1946
+1953
+1912
+1951
+1988
+1930
+Piezometer
+Level
+84.2
+83.7
+82.4
+81.9
+81.6
+81.6
+81.5
+81.5
+81.2
+81.1
+PC6
+Year 
+Level
+1950 
+77.3
+1931 
+76.4
+1963 
+76.4
+1955 
+76.0
+1912 
+75.8
+1988 
+75.6
+1953 
+75.6
+1952 
+75.5
+1974 
+75.4
+1951 
+75.4
+A4
+0.020
+0.013
+0.013
+0.015
+A4
+0.020
+0.012
+0.020
+0.011
+0.020
+0.010
+0.027
+A4
+0.031
+0.03C
+S
+0.09
+0.04
+0.09
+0.067
+S
+0.09
+0.047
+0.064
+0.089
+S
+L 
+0.053
+) 
+0.053
+PC7
+Year
+1931
+1952
+1946
+1950
+1951
+1927
+1953
+1929
+1963
+1930
+(1988)
+RMS
+Error
+m
+0.27
+0.68
+0.31
+0.49
+RMS
+Error
+m
+0.27
+0.25
+0.28
+0.35
+RMS
+Error
+m
+0.49
+0.55
+Level
+76.1
+75.5
+75.1
+74.8
+74.5
+74.0
+74.0
+73.8
+73.7
+73.7
+(73.0)
+27. It can be seen that there is some correlation between
+these maximum levels and recorded landsliding at Chelston
+St and Thompson Rd landslides, giving some confidence
+that the model is relevant to landsliding at this location. The
+1988 landsliding coincided with piezometric levels reaching
+near ground surface levels over the whole of the landslide.
+Somewhat better ranking can be achieved by using a larger
+RMS error but modelling the peak levels of the 1985 event
+more closely.
+28. By ranking the maximum predicted piezometric
+levels in any piezometer (or pair of piezometers), the
+probability of a certain piezometric level being exceeded can
+be determined. If for example, stability analysis shows that
+the factor of safety will be 1.0 when piezometric levels
+reach ground surface (as was the case for the Chelston St
+landslide) the probability of landsliding can be determined
+by the probability that piezometric levels reach ground
+surface.
+29. Where it is apparent that piezometric levels need to
+reach ground surface over the whole of the landslide then
+the probability of each piezometer reaching ground surface
+must be considered. When this was done for the Chelston
+St landslide the probability of landsliding was ~l in 10 to
+25 years, depending on the model being used.
+CONCLUSIONS
+30. When the model was first being developed it was a
+prerequisite that the parameters used could be related to
+physical properties of the landslide material and climate. In
+the outcome it has been shown that the model is very
+sensitive to the assumptions made, and needs calibration
+with a lengthy period of piezometric readings, effectively
+making it a semi empirical approach. While this is clearly a
+shortcoming it is considered likely to be common to all
+modelling techniques, since the alternatives require
+knowledge of soil parameters such as hydraulic
+41
+Downloaded by [ York University] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
+MECHANICS
+conductivity, porosity, capillary pressure heads etc which
+are themselves difficult to measure and invariably have a
+wide scatter of values in landslide colluvium.
+31.The reality is also that in many landslides, only
+limited data will be available, including daily rainfall, and in
+those cases a semi empirical approach such as this model is
+all that is practicable.
+32. The model will not have universal applicability,
+being inadequate in steep slopes with shallow soil cover
+with rapid response times. Being daily rainfall based, it will
+only be applicable when relatively lengthy antecedent rainfall
+leads to the initial condition — eg. the 20 to 60 days which
+are critical at Speers Point. It will also only apply where
+infiltration is essentially vertical without significant recharge
+from under the landslide.
+ACKNOWLEDGEMENTS
+The site investigations and installation of piezometers in the
+Chelston St and Thompson Rd landslides were carried out
+by Coffey and Partners Pty Ltd, Geotechnical Engineers,
+consulting to Lake Macquarie City Council. Monitoring of
+the piezometers has been carried out by the Council. The
+authors wish to thank these organisations for permission to
+use the information in this study. The authors also wish to
+acknowledge the contribution of Mr. Simon Tsui in the
+early stages of this work.
+REFERENCES
+1. 
+UNO, T., ARAI, H. and SHIBEYAMA, M. Models
+for predicting ground water level. 11th Int. Conf. Soil
+Mech. and Found. Eng., 1977, vol 3, 495-598.
+2. 
+OKIMURA, T. Mountain slope failures based on the
+groundwater level simulation in borehole. Memoirs of the
+Faculty of Engineering, Kobe University, No 28, 1982.
+3. 
+RENNOLLS, K., CARNELL, R. and TEE, V. A
+descriptive model of the relationship between rainfall and
+soil water table. Journal of Hydrology, 1980, 47, 103-114.
+4. 
+VISWANATHAN, M.N. Recharge characteristics of
+an unconfined aquifer from the rainfall-water table
+relationship. Journal of Hydrology, 1984, 70, 233-250.
+5. 
+VISWANATHAN, M.N.. 
+Estimation of natural
+recharge in an unconfined aquifer. 21st IAHR Congress,
+Melbourne, 1985, 72-75.
+6. 
+HOUSTON, 
+J.F.T. 
+Groundwater 
+systems
+simulation by time-series technique. Groundwater, 1983,
+Vol 21, No 3, 301-310.
+7. 
+BIDDISCOMBE, E.F., ROGERS, A.L., ALLISON,
+H. and LITCHFIELD, R. Mountain slope failures based on
+the groundwater level simulation in borehole. Memoirs of
+the Faculty of Engineering, Kobe University, No 28, 1982.
+8. 
+SHIMZU, M. Prediction of slope failures due to
+heavy rain using the tank model. Proc. Fifth ISSMFE Int.
+Symp. on Landslides, Lausanne, 1988, 771-
+9. 
+SANGREY, D., HARROP-WILLIAMS, K.O. and
+KLAIBER, J.A. 
+Predicting ground-water response to
+precipitation. J.Tech.Eng., 1984, ASCE, Vol 110, No 7,
+957-975.
+10. 
+ALLEY, 
+W.A. 
+On 
+the 
+treatment 
+of
+evapotranspiration, soil moisture accounting and aquifer
+recharge in monthly water balance models. 
+Water
+Resources Research, 1984, Vol 20, No 8, 1137-1149.
+11. 
+WU, T.H. and SWANSTON, D.N. 
+Risk of
+landslides in shallow soils and its relation to clearcutting in
+south-eastern Alaska. Forest Sc, 1980, Vol 26, No 3,
+495-510.
+12. 
+AKAN, A.O. and YEN, B.C.. 
+Groundwater
+recharge from overland flow. 
+21st IAHR Congress,
+Melbourne, 1985, 55-59.
+13. 
+ANDERSON, M.G. Groundwater recharge from
+overland flow. 21st IAHR Congress, Melbourne, 1985,
+55-59.
+14. 
+ANDERSON, M.G., KEMP, MJ. and LLOYD,
+D.M. Applications of soil water finite difference models to
+slope stability problems. Proc. Fifth ISSMFE Int. Symp.
+on Landslides, Lausanne, 1988, 525-530.
+15. 
+SHARMA, M.L. 
+Evapotranspiration from plant
+communities. Elsevier, 1984.
+16. 
+DOORENBOS, J. and PRUITT, W.O.. Guidelines
+for predicting crop water requirements. Irrigation and
+Drainage Paper 24, 1977, FAO.
+17. 
+JENSEN, M.E. 
+Consumptive use of water and
+investigation water requirements. Irrigation and Drainage
+Division, ASCE, 1975.
+18.. NELDER, J.A. and MEAD, R. A simplex method
+for function minimization. Comput J7, 1965, 308-313.
+19. 
+TSUI, S.W.H. Prediction of piezometric levels in
+landslides. 
+MEngSc Project Report, School of Civil
+Engineering, University of New South Wales, 1987.
+20. 
+CHAPMAN, T.G., TSUI, S. and FELL, R. A daily
+model for water table variations on a hillslope, in
+Groundwater Recharge (M.L. Sharma), 1989, 109-118,
+Balkema, Rotterdam.
+42
+Downloaded by [ York University] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.

@@ -1,0 +1,1001 @@
+Journal of the Civil Engineering Forum 
+Vol. 2 No. 3 (September 2016) 
+ 
+141 
+Stability Analysis and Failure Mechanisms of Open Pit Rock Slope  
+ 
+Yahdi Azzuhry 
+Azzuhry Consulting Agency, Yogyakarta, INDONESIA 
+yahdi_azzuhry@yahoo.co.id 
+ABSTRACT 
+Rock mass in nature tend to be unideal, for it is heterogeneous, anisotropic and has discontinuity. The discontinuities makes 
+anisotropic strength and stress in the rock mass, and also controls the changing of the elastic properties of rock mass. This 
+condition results to disruptions in the rock mass strength balance, and finally drives the slopes to collapse. This study aims to 
+determine the slope failure mechanisms in the area of case study, as well as its variations based on the Rock Mass Rating 
+(RMR), Geological Strength Index (GSI), Slope Mass Rating (SMR), kinematic analysis, numerical analysis and monitoring 
+approach slope movement in a coal mine slope applications. The site investigations were implemented to obtain information 
+about slope collapse. Prior to the collapse, the slope inclination was 38° with of 94 meters height, strike slope of N 245 E and 
+direction of slope surface of 335°. After the collapse, the slope was became 25º; and after the collapse materials were cleared, 
+it was 35º. The discontinuity mapping obtained 5 sets of discontinuities, and the data were developed to obtain the value of 
+RMR. The result of piezometer measurements was that at occurrence of collapse, slope elevation was 44.40m. Displacement 
+value from monitoring SSMR showed that when the slope was collapsing in two stages, the first stage value was 70.61cm (a 
+more critical condition, the value was rounded down to 70cm to the implementation in modelling) and the second stage value 
+was at 124.25cm. The value of RMR89 in this study was greater than the value of GSI and SMR. As for the average value, it 
+was obtained 34.67 for RMR89 value and 29.67 for GSI value, these rocks then can be classified into Poor Rock class number 
+IV. The result of kinematic analysis found that sliding planar failure at dips 36°, and wedge failure at dips 36°, 35° and 34°. 
+Acquisition SMR value obtained at 25, 27, 28 and 29. The SMR values classified the rock mass quality into class number IV, 
+the description of the rock mass was relatively poor, the slope stability was low or unstable and the collapse manifold was 
+planar or wedge failure. The result from the analysis of the model with its criteria obtained was that un-collapse conditions at 
+angle 29°. It is recommended to use 29° angle to repair the slopes, and also recommended for overall high wall slope angle. 
+Type of collapse that occurred on the slope failure mechanisms in all of the analysis that has been done, it is known that the 
+mechanisms involved are complex types (combine of wedge failure, planar failure, and step-path failure) or classified into 
+large scale rock slope failure surface.  
+Keywords: slope stability, kinematic analysis, RMR, GSI, SMR 
+ 
+1 INTRODUCTION 
+Geological process that occurs during and after the 
+formation of rock influences rock mass properties, 
+including engineering properties. Natural rock masses 
+tend to be unideal in some regards (Goodman, 1989), 
+such 
+as 
+its 
+heterogeneity, 
+anisotropicity, 
+and 
+discontinuity. The existence of a discontinuity in the 
+rock leads to uneven distribution of strength and stress 
+in all directions of rock mass, elastic properties of the 
+rock mass consequently be changed and eventually 
+lead to disruption of the balance of the rock mass 
+strength and landslides. Discontinuity orientation is a 
+major geological factor affecting the stability of the 
+rock (Wyllie & Mah, 2004). 
+This study will provide an overview of the state of 
+discontinuities and other geological factors that affect 
+rock mass quality or rock failure mechanisms. Data 
+collection, kinematic analysis, numerical analysis and 
+monitoring approach slope movement was used to 
+know the slope failure mechanisms in the area of case 
+studies and geological variations. Knowledge of the 
+quality of the rock mass was in the form of material 
+rock mass quality evaluation, which also used in slope 
+mine applications, especially in the case study that 
+occurred in the study area. 
+2 STABILITY AND SLOPE FAILURE 
+MECHANISMS 
+2.1 Coal Sedimentary Rocks  
+Tucker (2003) divided the sedimentary rocks into four 
+general categories, which are siliciclastic sedimentary 
+rocks, sedimentary biogenic, biochemical and organic 
+(composed 
+of 
+limestone, 
+dolomites, 
+cherts, 
+phosphates, coal and oil shale), chemical sedimentary 
+and volcaniclastic sedimentary rocks (clastic volcano). 
+Graha (1987) divides the sedimentary rocks into five 
+groups, which is based on how the rock formation was 
+formed, as follows: sedimentary detritus (klastika), 
+sedimentary rocks evaporate, coal sedimentary rocks 
+(formed from organic elements, namely from plants), 
+silica sedimentary rocks and carbonate sedimentary 
+rocks. In brief, the factor that influences the position 
+Vol. 2 No. 3 (September 2016) 
+Journal of the Civil Engineering Forum 
+142 
+of geotechnical is the location of a place that was a 
+sedimentation basin whose existence 
+itself is 
+influenced by plate tectonics force. The tectonic 
+process can be followed by the folding or faulting of 
+rock layering  (Sukandarrumidi, 2009). 
+2.2 Slope Failure Mechanisms 
+Slope failure mechanisms depend on site-specific 
+geological and geotechnical conditions; various types 
+of failure mechanisms can occur in rock slopes. The 
+following is a discussion of the possibility of rock 
+slope failure which has been found and also the most 
+relevant failure type of large-scale slope failure. 
+Karzulovic (2005) in Franz (2009) suggested to 
+classify rock slope failure mechanisms into three main 
+categories, which are failure mechanisms with full 
+control structures, without control structures, and 
+partially 
+or 
+combined 
+structural 
+controls. 
+Traditionally, the most prominent type of failure is the 
+failure circular without dominant structural control, 
+and structurally controlled collapse which is planar, 
+wedge and toppling (Azzuhry, 2015). 
+Failure mechanism type step-path failure is less 
+known in the literature, either with or without 
+structural control type of failure. However, this type 
+of failure is one most often to occur. From two-
+dimensional point of view, step-path failure is fully 
+controlled by the structure of the rock, where as two 
+sets of discontinuities in the slope and the two sets of 
+strike parallel or nearly parallel to the strike slope 
+encounters, as illustrated in Figure 1a. In the condition 
+of single set of flat dip, the failure will happen if 
+triggered by movement in intact rock bridges, as 
+shown in Figure 1b. Therefore, consideration of the 
+rock bridges are negligible, and the potential for 
+collapse can impact the results of the stability 
+analysis. Hoek et al. (2000) mentioned that a large-
+scale rock slope failure indicates that the two 
+categories alone are not sufficient for the large-scale 
+slope analysis, which is probably more realistic that 
+the various types of failure interacting, for example 
+the failure of a major discontinuity and intact rock 
+failure, as shown in Figure 2.  
+The important role of intact rock bridges in large-scale 
+slope stability, mentioned by Dight (2006) in Franz 
+(2009), is that the numbers of slope instability have 
+failure of the structure. Brown (2004) in Franz (2009) 
+showed that the failure mechanisms are difficult to 
+predict and step-path failure often happened, which 
+identified after it occurs. Progress of large-scale slope 
+instability in the mine has also been crocheted with 
+seismicity and influenced by the hydrogeological 
+impact. Sullivan (2007) indicated that it would be 
+very easy for the overall stability of the mine to 
+change from acceptable to unacceptable levels, 
+depended on the consideration of the interaction of 
+water and slope deformation in pit slope design. 
+ 
+Figure 1. Geometry step-path in rock slopes (Call and 
+Nicholas, 1978 in Franz, 2009): a) Step-continuous path,     
+b) step-path discontinuities with intact rock bridges. 
+ 
+Figure 2. Large scale surface rock slope failure (failure 
+large-scale surface slope) involves a number of different 
+failure mechanisms (Hoek, et al., 2000) 
+2.3 Rock Mass Classification 
+According to Bieniawski (1989), the geo-mechanics 
+classification Rock Mass Rating (RMR) use six basic 
+parameters for classification and evaluation of test 
+results. These six parameters help to further estimate 
+the stability analysis results, up to the special 
+problems of geomechanics rock. Six parameters that 
+are used to determine the RMR value, includes the 
+Uniaxial Compressive Stress (UCS), Rock Quality 
+Designation (RQD), Spacing of discontinuities, 
+Condition of Discontinuities, Groundwater Conditions 
+and Orientation of Discontinuities (Bieniawski, 1989). 
+Geological Strength Index (GSI) was introduced in 
+1994 by Evert Hoek, then developed to help overcome 
+the inability of Bieniawski’s rock mass geo-mechanics 
+classification (1974) in determining the poor quality 
+rock mass (Hoek and Marinos (2007)). Hoek, et al. 
+(1998) illustrated the relationship between system 
+formulation or quantitative Geological Strength Index 
+(GSI) and the RMR system of Bieniawski in 
+determining the quality of the rock mass. RMR 
+classification Bieniawski (1989) can be used to 
+estimate the value of GSI, GSI formula = RMR89 - 5 
+in full that the value of RMR89> 23. Details of the 
+rock mass quality of RMR89 contained in table 1. 
+Journal of the Civil Engineering Forum 
+Vol. 2 No. 3 (September 2016) 
+ 
+143 
+Table 1. The quality of the rock mass classification RMR (Bieniawski, 1989) 
+Parameter 
+Rating 
+Value of RMR 
+81 – 100 
+61 - 80 
+41 - 60 
+21 - 40 
+< 20 
+Number Class of RMR  
+I 
+II 
+III 
+IV 
+V 
+Value of GSI 
+76 – 95 
+56 - 75 
+36 - 55 
+21 - 35 
+< 20 
+Description Rock Mass Quality 
+Very good rock 
+Good rock 
+Fair rock 
+Poor rock  
+Very poor rock 
+Tabel 2 Description of class based on SMR (Romana, et al., 2003) 
+Class 
+I 
+II 
+III 
+IV 
+V 
+SMR 
+81-100 
+61-80 
+41-60 
+21-40 
+0-20 
+Description of 
+the rock mass 
+Very Good 
+Good 
+Fair 
+Bad 
+Very Bad 
+Stability 
+Completely 
+unstable 
+Stable 
+Partially stable 
+Unstable 
+Completely unstable 
+Type of failure 
+None 
+Block failure 
+Planar along some joints or 
+many wedge failure 
+Planar or big 
+wedge failure 
+Big planar or soil-
+like or circular 
+ 
+ 
+ 
+ 
+ 
+ 
+Slope Mass Rating (SMR) served as geomechanics 
+classification for rock slope. Romana (1993) proposed 
+a modification to the concept of the use of RMR 
+Bieniawski, particularly for slope stability. SMR 
+obtained from RMR by adding the adjustment factor 
+on discontinuity orientation, slope, and other 
+adjustment factors, depending on the method of 
+excavation. Description of the class based on SMR 
+𝑆𝑀𝑅 =  𝑅𝑀𝑅 𝑏𝑎𝑠𝑖𝑐+ (𝐹1 ×  𝐹2 ×  𝐹3) +  𝐹4 
+(1) 
+The exposure was evaluated according to the formula 
+wherein RMR basic Bieniawski (1989) with added 
+value for the five parameters: (i) the strength of intact 
+rock, (ii) RQD, (iii) the distance discontinuities, (iv) 
+the condition of discontinuities, and (v) the flow of 
+water through discontinuities or pore pressure ratio. 
+F1, F2, and F3 were an adjustment factor that is 
+associated with joint orientation, with respect to the 
+slope orientation or slope, and F4 was the correction 
+factor for excavation methods. 
+2.4 Slope Stability Analysis 
+Slope stability analysis is an action to determine the 
+condition of a slope, aim to estimate the shape and to 
+determine the level of vulnerability to the collapse of 
+the avalanche slope and slope design that meets the 
+security criteria. Slope stability calculations were 
+done based on the finite element method approach 
+with a combination of kinematic analysis and 
+monitoring data with a slope of rock slope stability 
+radar monitoring (SSMR). Two-dimensional model for 
+slope stability analysis was used with the form and the 
+geological condition in the field, it was based on 
+laboratory test data, RMR, GSI, kinematic and SMR. 
+Modeling process assisted by the program Plaxis 8 
+2014 of the Department of Civil and Environmental 
+Engineering, Gadjah Mada University and Phase2 
+program to copy the license number 6557A 
+(Rocscience Phase2, Hoek, 2012) 
+2.4.1 Criteria of Slope Safety Factor 
+The safety factor is defined as the factor in which 
+shear strength parameters can be reduced in order to 
+bring the slopes or dam foundation into a state of 
+equilibrium (Morgenstern, 1991, in Hoek, 1991). The 
+safety factor used in conventional geotechnical 
+practice is based on logical experience (Duncan, 
+2000). Hoek (1991) proposed a design safety factor 
+for various types of rock engineering problems 
+ranging from large safety factor value of 1 for extreme 
+loading, seismic analysis and design of gravity on the 
+dam, a large safety factor value of 1.5 for permanent 
+rock slopes (decomposes in table 3) and the value of 
+the safety factor of 2 to block the fall-out in the 
+tunnel. 
+Table 3 Criteria safety factor Hoek (Hoek, 1991) 
+safety factor (F) 
+Event 
+F < 1 
+1 ≤ F < 1.5 
+F ≥ 1.5 
+There was a failure 
+Design conditions infeasible field 
+Feasible design conditions applied field 
+3 RESEARCH METHOD 
+3.1 Research Location 
+The location of this research was the slope of the open 
+pit coal area, which administratively included in 
+Muaralawa Subdistrict and Damai Subdistrict of West 
+Kutai District of East Kalimantan Province (Figure 3). 
+ 
+ 
+Vol. 2 No. 3 (September 2016) 
+Journal of the Civil Engineering Forum 
+144 
+ 
+Figure 3. Study site. 
+3.2 Research Method 
+In this research, several data including rock samples 
+and 
+geological 
+discontinuity 
+orientation 
+were 
+collected. The slope movement was monitored using 
+the Slope Stability Radar or Slope Stability Radar 
+Monitoring (SSMR). Prior to the analysis, the 
+monitored data was selected whether has good quality 
+and in accordance to the field condition. Rock 
+mechanics laboratory test, developed formula, as well 
+as modeling were conducted to obtain the slope 
+stability. 
+4 RESULT AND DISCUSSION 
+4.1 Result of Site Investigation 
+Geomorphologically, the slope at a time prior to the 
+collapse has 38° slopes, with a height of  94m, the 
+slope strike was N 245 E and the slope surface 
+direction was 335°. After the collapse material 
+cleansed, it changed to 35º slope. The mapping of 
+discontinuities suggested that there was 5 sets of 
+discontinuities of sandstone and siltstone lithology. 
+These data then were analyzed to obtain the value of 
+RMR. From the Piezometer, the ground water level 
+was on 44.40 m elevation when the slope collapse. 
+Displacement value of SSMR monitoring show that 
+displacements occured in two phases during the 
+Study Site 
+Journal of the Civil Engineering Forum 
+Vol. 2 No. 3 (September 2016) 
+ 
+145 
+collapse: the first phase 70.61cm (more critical 
+condition value is rounded up to 70cm for in 
+implementation of modeling) and the second stage 
+124.25 cm. 
+4.2 Rock Mass Quality Classification and the 
+Relationship Between RMR and GSI 
+Based on the site investigation data result, the location 
+of the rock mass classification 1 sandstone lithology 
+RMR89 value was of 36 and GSI value of 31. 
+Location 1 lithology siltstone RMR89 value of 38 and 
+GSI value of 33. Location 2 sandstone lithology 
+RMR89 value of 30 and GSI value of 25. Statistically, 
+the RMR89 value was greater than the value of GSI, 
+where as for the average value of all locations it was 
+calculated that the RMR89 value of 34.67 and GSI 
+value was of 29.67. From the RMR and GSI result, the 
+rocks, and then can be classified into the rock mass 
+poor quality of Class IV. 
+4.3 Results of Kinematic Analysis  
+Kinematic analysis was based on data that obtained 
+from site investigation, which is a set major data from 
+each set that were obtained from discontinuities 
+mapping. Due to a view that data obtained from 
+discontinuity mapping of slope pre-collapse was a 
+similar station, then analysis will be conducted with 
+the option of all the data combined into one. Set major 
+which was used as input in the kinematic analysis 
+consisted of two set major of stereographic projection 
+of combined results of all data from each station (for 
+first phase analysis) and 5 set major from mapping 
+discontinuity result (for second phase analysis). Each 
+phase will be analyzed according to the rules 
+Kinematic Analysis of Goodman (1989), as for the 
+data limit of slope of the cut strike N245E was used, 
+with slope angle of 38°, and the average internal shear 
+angle of 23°. 
+Stereographic projection of the combined data 
+mapping produces two set major of joint, first joint set 
+(J1) which resulted a set major strike of joint N 226 E 
+and set major dip of joint 36°; second joint set (J2) 
+resulted in a set major strike of joint N 303 E and set 
+major dip of joint 48°, as shown in Figure 3. The 
+results of the kinematic analysis first phase were two 
+types of collapse, namely sliding planar and wedge 
+failure failure, the stereographic projection exposure 
+can be seen in Figure 5. The stereographic projection 
+for the kinematic analysis of the second phase was 
+using the 5 sets of joint major discontinuity of the 
+mapping. The results of the second phase kinematic 
+analysis found manifold collapse wedge failure, 
+collapse was found in 6 line intersection IIJ created, 
+detailed kinematic analysis stereographic projection 
+can be seen in Figure 6. 
+a) 
+  
+b)  
+ 
+c)    
+ 
+Figure 4. Plot point of discontinuity of all the data station. 
+a) plot normal vector, b) plot contour, c) jointly set major 
+ 
+Figure 5. stereographic projection in the kinematic analysis 
+of the first stage. (J: joint set, 𝜙 : friction angle,  D̂  : dip 
+vector, Îij : line intersection) 
+Strike / Dip 
+Slope : N245E/38° 
+J1 : N226E/36° 
+J2 : N303E/48 
+Failure : 
+Dip Dip direction 
+D̂ 1 : 36°316° 
+Î1,2 : 34°160° 
+Vol. 2 No. 3 (September 2016) 
+Journal of the Civil Engineering Forum 
+146 
+ 
+ 
+Figure 6. stereographic projection in the second stage 
+kinematic analysis (J: joint set, 𝜙 : friction angle, Îij : line 
+intersection) 
+4.4 Results Analysis of Slope Mass Rating 
+Data input in this analysis used an average value of 
+RMR89  of 34.67, and the discontinuity orientation 
+data was taken from the results of the kinematic 
+analysis that was belonged to the category of collapse. 
+In this calculation, the value of F3 was taken from 
+Bieniawski rating for joint orientation adjustment in 
+RMR89 parameters, where as the value was a 
+reflection of the relationship between slope and joints 
+dips, with value of -25. The field excavation method 
+was using normal blasting techniques and was helped 
+with mechanical device. The excavation activity did 
+not alter the stability of the slope, so the adjustment 
+factor F4 value was 0.   
+SMR analysis results, shown in Table 5, explained 
+statistically that RMR value was greater than the value 
+of SMR and generated range of SMR values, the 
+smallest was of 25, and largest value of 29. By SMR 
+analysis (Romana et al., 2003), the value range 
+included into the rock mass quality class IV, 
+description of the rock mass was relatively poor, the 
+stability of the slope was unstable, and collapse type 
+was planar or wedge failure. Hoek and Bray (1981) 
+mentioned the economic consequences of the slope 
+instability as a factor of consideration. Selection of 
+slope angles used will use the results of finite element 
+analysis of the most efficient because the smallest 
+value of SMR in this study was less economical to be 
+applied as mine slope. 
+4.5 Results of Finite Element Modelling 
+Process modelling in this study using several 
+limitations, which were the numerical model used was 
+in form of two-dimensional, analysed in plane strain, 
+the magnitude of the angle used was taken from the 
+initial slope angle before the collapse, the results of 
+the kinematic analysis and SMR analysis (overall 
+angle used in the model is 38°, 36°, 35°, 34°, 29°, 28°, 
+27° and 25°), the depth of water table used was the 
+depth of water at a time when the slopes of collapse in 
+elevation 44.40m, and in making decisions regarding 
+to condition of collapse, the models are validated by 
+the data monitoring results SSMR displacement at 
+time when the slope collapse in the first stage with 
+value of 70 cm. One of the slope modeling results at 
+38° angle was the total displacement value of slope 
+surface of 0.700 m in the slope top section, with the 
+value of this, the model was declared in state of 
+collapse, these conditions can be seen in Figure 7. 
+ 
+Figure 7. Result of total displacement from slope modeling 
+with overall angle of 38°. 
+Table 5. Results of continuous slope mass rating (Continuous SMR) 
+Stages 
+Kinematic 
+Analysis 
+type 
+Vectors 
+Slope Orientation 
+Joint Orientation (Kinematic) 
+RMR 
+F1 
+F2 
+F3 
+F4 
+SMR 
+Dip 
+Dip Direction 
+Dip 
+Dip Direction 
+I 
+D1 
+38° 
+335° 
+36° 
+316° 
+34.67 
+0.45 
+0.53 
+-25 
+0 
+29 
+I1,2 
+38° 
+335° 
+34° 
+160° 
+34.67 
+0.83 
+0.45 
+-25 
+0 
+25 
+II 
+I1,2 
+38° 
+335° 
+35° 
+173° 
+34.67 
+0.48 
+0.49 
+-25 
+0 
+29 
+I1,4 
+38° 
+335° 
+34° 
+171° 
+34.67 
+0.52 
+0.45 
+-25 
+0 
+29 
+I2,3 
+38° 
+335° 
+36° 
+172° 
+34.67 
+0.50 
+0.53 
+-25 
+0 
+28 
+I2,5 
+38° 
+335° 
+36° 
+170° 
+34.67 
+0.55 
+0.53 
+-25 
+0 
+27 
+I3,4 
+38° 
+335° 
+34° 
+170° 
+34.67 
+0.55 
+0.45 
+-25 
+0 
+28 
+I4,5 
+38° 
+335° 
+35° 
+168° 
+34.67 
+0.60 
+0.49 
+-25 
+0 
+27 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Strike / Dip 
+Slope : N245E/38° 
+J1 : N310E/46° 
+J2 : N228E/41° 
+J3 : N310E/47° 
+J4 : N232E/38° 
+J5 : N297E/43° 
+𝜙 : 23° 
+Failure : 
+Dip Dip direction 
+Î1,2 : 35°173° 
+Î1,4 : 34°171° 
+Î2,3 : 36°172° 
+Î2,5 : 36°170° 
+Î3,4 : 34°170° 
+Î4,5 : 35°1 
+Journal of the Civil Engineering Forum 
+Vol. 2 No. 3 (September 2016) 
+ 
+147 
+Table 6. Safety Factor of results the analysis of the model along with the criteria 
+Slope angle 
+on the model 
+Safety Factor 
+model results 
+Description of the acquisition of Safety Factor 
+Criteria of Evert Hoek (1991) 
+Criteria of limitation in the analysis of the model 
+38 
+1.45 
+Infeasible implemented 
+failure 
+36 
+1.53 
+Feasible implemented 
+failure 
+35 
+1.57 
+Feasible implemented 
+failure 
+34 
+1.58 
+Feasible implemented 
+failure 
+29 
+1.58 
+Feasible implemented 
+not failure 
+28 
+1.59 
+Feasible implemented 
+not failure 
+27 
+1.62 
+Feasible implemented 
+not failure 
+25 
+1.67 
+Feasible implemented 
+not failure 
+ 
+ 
+ 
+ 
+The positions of the three highest value of total 
+displacement on the model were given further analysis 
+by issuing a chart comparison of the displacement 
+with the safety factor value. From the first analysis of 
+the first position point total displacement of over 
+0.700m worth (point A), it was obtained that the value 
+of safety factor was 1.57. Analysis of total 
+displacement point second position of the top was 
+0.700m (point B) obtained value of safety factor 1.38 
+and the third point of the statistical analysis on value 
+of 0.665m (point C) obtained value of safety factor 
+1.41, details can be seen in Figure 8. The three safety 
+factor values were on average value of 1.45. 
+ 
+Figure 8. Safety factor graphic to displacement of model 
+result on 38° angle 
+Based on the results of the kinematic analysis and 
+SMR can be accepted due to the influence of the 
+structure occurs. The economic view of the slope-
+making process was considering the large volume of 
+excavated material, in which the more sloping the 
+angle, the more the volume of material to be 
+demolished, and the use of funds will be higher as 
+well. To strengthen the decision making, the initial 
+slope angles and all part of the analysis results were 
+reviewed with the help of finite element program, and 
+also to increase confidence in the decision-making, 
+the results obtained were examined from all aspects of 
+safety factor criteria, as listed in Table 6. 
+The results of the model of the acquisition of Safety 
+Factor showed the initial slope was experiencing a 
+critical condition, or not feasible in the field when 
+viewed from the side of the criteria Hoek (1991). The 
+result of safety factor in Table 6 showed that there 
+should be justification engineering, particularly 
+regarding models slope angle of 38°, with the results 
+of the model Safety Factor of value 1.45, that the 
+actual state of the field has experienced a break. This 
+was because the implementation of the model analysis 
+calculations was using input data properties intact 
+rock. The model followed by a reverse analysis of the 
+parameters Cohesion, Friction Angle and Young's 
+Modulus, thus gaining Safety Factor value close to the 
+value 1 and value approaches the Extreme Total 
+Displacement Displacement field monitoring results 
+for 124.25cm. The results of the reverse analysis on 
+the model of the slope angle of 38° was that Safety 
+Factor value of 1.04, and Extreme Total Displacement 
+value of 124 cm. 
+The decision making for the implementation of the 
+plan of slope angle on the overall high wall in the 
+mine area for further progress was advised to use 
+angle 29°. This decision was drawn from the results of 
+the model analysis in which its criteria obtained the 
+condition of not collapsing at an angle of 29°. 
+4.6 Slope Failure Mechanism Analysis 
+The previously conducted analysis stages of analysis 
+can be used as a guide to determine the slope failure 
+mechanisms. Determination stage of slope failure 
+mechanisms 
+was 
+also 
+influenced 
+by 
+specific 
+geological and geotechnical conditions. Geologically 
+specific could be seen from the rock structure 
+(discontinuity 
+in 
+rocks), 
+and 
+geotechnically 
+represented 
+by 
+the 
+performed 
+analysis 
+stage. 
+Kinematic analysis and SMR can be categorized in the 
+analysis of failure mechanisms in the control 
+structure. Analysis of the finite element models was 
+included in the combination of several collapse 
+mechanism. 
+Collapse with type of planar or big wedge failure was 
+found from the SMR analysis results. The use of the 
+cut of the strike of the slopes at an angle of 38°, 
+through kinematic analysis, found a combination of 
+0.700m; 
+sf 1.5685
+0.700m; sf 1.3777
+0.700m; sf 1.4096
+1
+1.2
+1.4
+1.6
+1.8
+2
+0
+1
+2
+3
+Safety Factor
+Displacement (m)
+Titik A
+Titik B
+Titik C
+A
+B 
+C 
+Vol. 2 No. 3 (September 2016) 
+Journal of the Civil Engineering Forum 
+148 
+several types of collapse, namely a combination of 
+planar sliding failure, and wedge failure. These 
+conditions can be viewed in three dimensions (3D) in 
+Figure 9, which was obtained from the topographic 
+mapping the location of collapse. The visible image 
+exposure condition of structure influence, in which 
+forming a combination of two wedge failure, then 
+formed a planar failure.  
+ 
+ 
+Figure 9. Three-dimensional mapping of the collapse. 
+Failure mechanisms found from the pattern contour of 
+the total displacement value with 70cm restrictions in 
+finite element analysis formed a line of collapse 
+pattern controlled with rock structures (step-path 
+failure), as shown in Figure 10. From the conclusions 
+about the type of collapse that occurred on the slope 
+failure mechanisms in all the analysis that have been 
+done, it can be seen that the mechanisms involved are 
+complex types (combined wedge failure, planar 
+failure, and step-path failure), or classified into large 
+scale rock slope failure surface. 
+ 
+Figure 10. The mechanism of the collapse of the total 
+pattern of discontinuities 
+5 CONCLUSIONS 
+Based on the results of research and analysis of the 
+data in this study, there are some conclusions as 
+follows: 
+a) Classification of rock masses for location 1 
+sandstone lithology RMR89 values obtained at 36 
+and GSI value of 31. Location 1 lithology siltstone 
+RMR89 values obtained at 38 and GSI value of 33. 
+Location 2 sandstone lithology RMR89 values 
+obtained at 30 and the value of GSI by 25. In 
+statistics obtained RMR89 value was greater than 
+the value of GSI which was the average of all 
+locations, obtained the RMR89 value of 34.67 and 
+GSI value of 29.67. Of the acquisition value of 
+RMR and GSI were obtained, these rocks can be 
+classified into the Rock Mass Quality Poor by 
+Number Class IV. 
+b) The kinematic analysis was done in two stages. 
+The first stage has two types of collapse, which is 
+the discovery of a planar sliding failure at an angle 
+of 36°, and a wedge at an angle of 34°. The second 
+stage has a wedge-type collapse failure of the 6 
+line intersection with the smallest angle of 34° and 
+the largest angle of 36°. 
+c) Statistically that RMR value was greater than the 
+value obtained SMR and SMR values of 25, 27, 28 
+and 29. The range of greatest worth that value into 
+the rock mass quality grade IV, the description of 
+the rock mass was classified as poor, unstable 
+slope stability condition and planar manifold 
+collapse or big wedge failure. 
+d) Safety factor of results the initial slope of the 
+model was looking to experience a critical 
+condition or not feasible in the field when viewed 
+from the side of the criteria Hoek (1991). The 
+results obtained from the analysis of the model, 
+obtained condition did not collapse at an angle of 
+29°. Through all of the criteria in the analysis of 
+the decision was taken to recommend the angle of 
+29° as the collapsed slope repair and design of the 
+overall slope angle on the high wall mining sites. 
+e) The type of collapse that occurred on the slope 
+failure mechanisms in all analysis that have been 
+done, it can be seen that the mechanisms involved 
+are complex types (combined wedge failure, planar 
+failure, and step-path failure) or classified into 
+large scale rock slope failure surface. 
+f) Efforts to get more comprehensive results in 
+stability analysis and failure mechanisms of 
+sedimentary rock slopes could use a combination 
+of Kinematic Analysis and Numerical Analysis. 
+Effect of Structure 
+Control of Stap-path failute 
+Journal of the Civil Engineering Forum 
+Vol. 2 No. 3 (September 2016) 
+ 
+149 
+REFERENCES 
+Azzuhry, 
+Y., 
+2015. 
+Analisis 
+Stabilitas 
+Dan 
+Mekanisme Keruntuhan Lereng Batuan Sedimen 
+Tambang Terbuka Batubara [Stability Analysis and 
+Mechanism of Slope Failure of Bed Rock in Open Pit 
+Coal 
+Mining], 
+Yogyakarta: 
+Master 
+Thesis, 
+Department of Civil and Environmental Engineering, 
+Universitas Gadjah Mada. 
+Bieniawski, Z. T., 1989. Engineering Rock Mass 
+Classifications. A Complete Manual for Engineers 
+and Geologists in Mining, Civil and Petroleum 
+Engineering. Toronto: john Wiley & Sons. 
+Duncan, J., 2000. Factors of safety and reliability in 
+geotechnical 
+engineering. 
+J. 
+Geotechnical 
+and 
+Geoenvironmental Engineering, April.pp. 307-316. 
+Franz, J., 2009. An investigation of Combined Failure 
+Mechanisms In Large Scale Open Pit Slopes, Sydney: 
+University of New South Wales, Australia. 
+Goodman, R. E., 1989. Introduction to Rock 
+Mechanic. 2nd ed. Toronto: John Wiley & Sons. 
+Graha, D. S., 1987. Batuan dan Mineral. Bandung: 
+Nova. 
+Hammah, R. et al., 2007. Analysis of blocky rock 
+slopes with finite element shear strength reduction 
+analysis. In Proceedings of the 1st Canada-U.S. Rock 
+Mechanics Symposium, Vancouver, Canada, pp. 329-
+334. 
+Hammah, R., Yacoub, T. & Curran, J., 2009. 
+Numerical Modelling of Slope Uncertainty Due to 
+Rock Mass Jointing. International Conference on 
+Rock Joints and Jointed Rock Masses, 4-10 January. 
+Hoek, E., 1991. When is a design in rock engineering 
+acceptable?. Proceedings of the 7th International 
+Congress on Rock Mechanics, Aachen, Volume 3, pp. 
+1485-1497. 
+Hoek, E. & Bray, J., 1981. Rock Slope Engineering. 
+3th ed. London: The Institution of Mining and 
+Metallurgy. 
+Hoek, E. & Marinos, P., 2007. A Brief History Of The 
+Development Of The Hoek-Brown Failure Criterion. 
+Soils and Rocks, November. 
+Hoek, E., Marinos, P. & Benissi, M., 1998. 
+Applicability of the Geological Strength Index (GSI) 
+CLassification for Very Weak and Sheared Rock 
+Masses. The case of The Athens Schist Formation. 
+Bull. Eng. Geol. Env., Volume 2, pp. 151-160. 
+Hoek, E., Read, J., Karzulovic, A. & Chen, Z. Y., 
+2000. Rock slopes in Civil and Mining Engineering. 
+International Conference on Geotechnical and 
+Geological 
+Engineering, 
+GeoEng2000, 
+19-24 
+November.pp. 1-17. 
+Plaxis, 2007. Plaxix 2D - Versi 8. Netherlands: Plaxis 
+bv.. 
+Rocscience, 2011. Phase2, 2D Elasto Plastic Finite 
+Element Program for Slope and Excavation Stability 
+Analyses, 
+Slope 
+Stability 
+Verification 
+Manual. 
+Toronto,: Rocscience Inc.. 
+Romana, M., Serón, J. B. & Montalar, E., 2003. SMR 
+Geomechanics 
+Classification: 
+Application, 
+Axperience and Validation. ISRM 2003–Technology 
+roadmap for rock mechanics, South African Institute 
+of Mining and Metallurgy, 12 September.Volume 2. 
+Romana, M., Serón, J. B. & Montalar, E., 2003. SMR 
+Geomechanics classification: Application, experience 
+and validation. ISRM 2003–Technology roadmap for 
+rock mechanics, South African Institute of Mining and 
+Metallurgy. 
+Sukandarrumidi, 
+2009. 
+Barubara 
+dan 
+Pemanfaatannya, Pengantar Teknologi Batubara 
+Menuju Lingkungan Bersih. Yogyakarta: Gadjah 
+Mada University Press. 
+Sullivan, T., 2007. Hydromechanical coupling and pit 
+slope movements.. InY. Potvin (ed.), Slope Stability 
+2007 – Proceedings of the 2007 International 
+Symposium on Rock Slope Stability in Open Pit 
+Mining 
+and 
+Civil 
+Engineering, 
+Perth, 
+12-14 
+September.pp. 3-43. 
+Tucker, M. E., 2003. Sedimentary Rocks in the Field, 
+The Geological Field Guide Series. 3th ed. West 
+Sussex: John Wiley & Sons. 
+Wyllie , D. C. & Mah, C. W., 2004. Rock Slope 
+Engineering, Civil and mining. 4th ed. New York: 
+Spon Press. 
+ 
+ 
+ 
+ 
+Vol. 2 No. 3 (September 2016) 
+Journal of the Civil Engineering Forum 
+150 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

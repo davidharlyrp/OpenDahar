@@ -1,0 +1,1232 @@
+Eﬀect of clogging of stone column on drainage capacity during
+soil liquefaction
+Suravi Pal, Kousik Deb ⇑
+Department of Civil Engineering, Indian Institute of Technology Kharagpur, Kharagpur 721302, India
+Received 16 December 2017; received in revised form 18 September 2018; accepted 23 October 2018
+Available online 4 January 2019
+Abstract
+Stone columns act as vertical drains, and due to their high permeability, allow for the quick dissipation of earthquake induced excess
+pore water pressure. When water ﬂows through a loose sandy soil, it washes away ﬁne soil particles. The ﬁne sand particles get detached
+when the hydrodynamic force applied on the soil particles breaks the inter particle bonds between soil grains. These detached soil par-
+ticles are then migrated by the seepage water. Based on the concentration of the soil particles in the seepage water, these may be captured
+at the pore constriction of gravels during the ﬂow of water through the stone column. Thus, the clogging of stone column initiates which
+reduces of the permeability of column. The rate of dissipation of pore water pressure during earthquake is aﬀected due to the clogging of
+column. In this paper, a mathematical model is proposed to determine the rate of dissipation of pore water pressure of stone column-
+reinforced ground by considering the clogging eﬀect of column. The result obtained from the proposed model is veriﬁed with the avail-
+able in-situ experimental data. A parametric study is also performed to investigate the eﬀect of diﬀerent parameters of the proposed
+model on the clogging of stone column. It is observed that when the permeability ratio, compressibility ratio and area ratio decrease,
+the possibility of clogging increases. The peak value of the excess pore water pressure ratio can increase up to around 50% due to
+clogging.
+ 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society.
+Keywords: Liquefaction; Drainage capacity; Clogging; Stone column; Capture rate; Release rate
+1. Introduction
+Soil liquefaction is a major seismic hazard that results in
+serious damage to infrastructure. A common method to
+minimize the risk of liquefaction is to install stone columns
+in the ground. Stone columns provide a drainage path
+because of their high permeability. Hence, the excess pore
+water pressure generated in the soil deposits during an
+earthquake cannot reach objectionable values. As water
+ﬂows through sandy soil, the ﬁne soil particles are detached
+by hydrodynamic force and are carried away with seepage
+water. The migration of these ﬁne sand particles from soil
+to the pore of gravels causes the clogging in the stone col-
+umns. The clogging of stone column results in a reduction
+in the permeability of the columns. Thus, the eﬃciency of
+stone columns as a drainage path is reduced, and the rate
+of dissipation of pore water pressure is thus aﬀected.
+Several approaches are proposed to determine the drai-
+nage capacity of stone columns during liquefaction. Seed
+and Booker (1977) assumed an inﬁnite permeability of
+stone columns and constant permeability and compressibil-
+ity of the surrounding soil for determining the drainage
+capacity of the columns. On the basis of in-situ experimen-
+tal results, Onoue et al. (1987) reported that well resistance
+(limited permeability of column) has a signiﬁcant inﬂuence
+on the drainage capacity of columns. Onoue (1988)
+https://doi.org/10.1016/j.sandf.2018.10.005
+0038-0806/ 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society.
+Peer review under responsibility of The Japanese Geotechnical Society.
+⇑Corresponding author.
+E-mail address: kousik@civil.iitkgp.ac.in (K. Deb).
+www.elsevier.com/locate/sandf
+Available online at www.sciencedirect.com
+ScienceDirect
+Soils and Foundations 59 (2019) 196–207
+H O S T E D  B Y
+ 
+This is an open access article under CC BY-NC-ND license. (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+ 
+This is an open access article under CC BY-NC-ND license. (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+developed a mathematical model to determine the perfor-
+mance of stone columns used as a technique for minimizing
+the risk of liquefaction by including the well resistance of
+columns. Priebe (1989) stated that stone columns can min-
+imize the liquefaction potential by seismic shear stress
+redistribution. Baez and Martin (1992) suggested that the
+risk of liquefaction potential can be mitigated by regulating
+the earthquake induced pore pressure within the soil and
+by reducing the seismic shear stress experienced by soil dur-
+ing an earthquake. A simple method is also proposed to
+explain the drainage, stiﬀening and densiﬁcation eﬀect of
+stone columns against liquefaction hazard. Elias et al.
+(2001) stated that the susceptibility of soil liquefaction
+can be minimized by introducing drainage and stiﬀness
+eﬀect of stone columns. Han and Ye (2001, 2002) indicated
+that the rate of dissipation of pore water pressure is inﬂu-
+enced by the stiﬀness of the columns.
+Baez and Martin (1993) suggested that the spacing
+between stone columns can be increased by including the
+reinforcement, densiﬁcation and drainage mechanism of
+columns. Boulanger et al. (1998) recommended that the
+installation of stone columns by either the vibroreplace-
+ment or vibrocompaction methods stiﬀens the surrounding
+soil. From ﬁeld observations, Sujatha (1998) proposed the
+trends of variation of the stiﬀness of the reinforced soil with
+distance from the stone columns. Murali Krishna and
+Madhav (2008) and Ben Salem et al. (2016) analytically
+determined the rate of generation and dissipation of the
+pore pressure of the treated soil by adopting the densiﬁca-
+tion eﬀect due to construction of stone columns. Pal and
+Deb (2018) proposed a simpliﬁed solution to determine
+the drainage capacity of stone columns during soil liquefac-
+tion considering stiﬀness of the stone columns and it is
+observed that the maximum pore water ratio decreases by
+20–60% due to the stiﬀness eﬀect of the stone column.
+Most of the available techniques have examined, either
+analytically or experimentally, the performance of stone
+columns along with smear and well resistance, stress con-
+centration eﬀect. However, clogging in stone columns is
+not considered when determining the rate of dissipation
+of pore water pressure. Acharya and Dasgupta (2005) per-
+formed a ﬁnite element program to analyse the rate of con-
+solidation
+of
+stone
+column
+reinforced
+ground
+by
+considering the clogging eﬀect of column. Indraratna
+et al. (2013), Deb and Shiyamalaa (2016) and Tai et al.
+(2017) also considered the clogging eﬀect in the analysis
+of the consolidation of reinforced soil. Indraratna et al.
+(2013) assumed that the permeability of the clogged zone
+of column is initially reduced and it remains constant for
+the
+full
+consolidation
+period.
+However,
+Deb
+and
+Shiyamalaa (2016) considered that the clogged zone perme-
+ability is a function of time. Tai et al. (2017) suggested that
+the radius of clogged zone increases linearly or exponen-
+tially with time. The mathematical models considering
+the clogging eﬀect were developed for stone column-
+improved soft clay to determine the rate of consolidation
+of the improved ground. However, experimental studies
+have also conﬁrmed that the clogging of stone columns
+can occur during soil liquefaction. Based on an in-situ
+experiment, Onoue et al. (1987) revealed that if the sand
+is liqueﬁed during cyclic loading, the permeability of the
+geosynthetic-encased stone columns decreases by 60%,
+but in the case of stone columns without geosynthetic-
+encasing, the permeability of the stone column is further
+decreased by 60% due to clogging. Adalier and Elgamal
+(2004) stated that when the pore water pressure ratio is
+high, the clogging of stone columns is a serious problem.
+Rollins et al. (2004) reported that during cyclic loading,
+the rate of dissipation of pore pressure is slower after the
+45th second, due to clogging of the stone columns. How-
+ever, mathematical models have not been developed con-
+sidering the possibility of clogging of stone columns
+during soil liquefaction. Thus, the main objective of this
+paper is to develop a mathematical model for evaluating
+the pore water pressure generation and dissipation of the
+stone column-reinforced ground during soil liquefaction
+by considering the clogging eﬀect of columns. The inﬂuence
+of the change in permeability of stone column with time
+due to clogging is studied on drainage capacity during soil
+liquefaction. The stiﬀness eﬀect of columns is also incorpo-
+rated in the present study.
+2. Mathematical formulation
+The drainage capacity of stone columns is investigated
+with unit cell axi-symmetric model. The model is used to
+represent a stone column placed inside a large group of col-
+umns. In the ﬁeld, a group of stone columns is installed
+either in a triangular pattern or a square pattern. The inﬂu-
+ence zone of each stone column can be approximated by an
+equivalent circle (Balaam and Booker, 1981). The unit cell
+model consists of a stone column and its equivalent circular
+inﬂuence zone (as shown in Fig. 1). The assumptions made
+in the present model are summarized as follows:
+1. The vertical ﬂow within soil is ignored as the vertical
+permeability of soil is much less than the horizontal per-
+meability. Moreover, the spacing between stone col-
+umns is shorter than the vertical distance that the
+water has to travel before reaching the ground surface.
+2. Equal strain approach is considered i.e., the stone col-
+umn and the surrounding soil deform only in the vertical
+direction due to the dissipation of pore water pressure,
+and the strain is equal at every depth. The lateral defor-
+mation of the soil and stone column is not considered in
+the present study.
+3. Most of the available formulations assumed that pore
+water pressure will not develop in the stone column dur-
+ing seismic loading. Murali Krishna and Madhav (2008)
+considered the development of negative pore water pres-
+sure during seismic loading due to the dilatancy eﬀect of
+gravel under undrained condition. Evans and Zhou
+(1995) stated that the positive pore water pressure may
+be developed in the gravel during dynamic loading.
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+197
+Thus, it is assumed that the positive pore water pressure
+will develop in the stone column during seismic loading
+(similar to loose soil) as incorporation of development
+of positive pore water pressure within the stone column
+may make the design safer.
+4. The amount of water ﬂowing through the soil zone into
+the stone column is equal to that expelled from the col-
+umn. A similar assumption is considered by Han and Ye
+(2002), Deb and Shiyamalaa (2016) for stone column-
+improved ground.
+5. Every earthquake leads to clogging of stone columns,
+and this process may continue until the clogging reaches
+an optimum value. However, in practical cases, it may
+be that the pressure gradient across the blocked pathway
+of the column is so high that some clogged portions of
+the column are broken (Gruesbeck and Collin, 1982).
+This phenomenon is referred to as ‘plug burst’. Due to
+plug burst, the permeability of the clogged column
+increases, but again new ﬁne deposits reduce permeabil-
+ity (Gruesbeck and Collin, 1982). However, the plug
+burst eﬀect is not considered in the proposed model.
+Using Darcy’s law, the expression for the pore pressure
+generation and dissipation of stone column-improved
+ground can be expressed as (Seed and Booker, 1977):
+ks
+rcw
+@u
+@r þ ks
+cw
+@2u
+@r2 ¼ @e
+@t
+ð1Þ
+where u = excess pore water at a radial distance r from the
+center of the column; cw = unit weight of water; e = volu-
+metric strain of the soil; ks = coeﬃcient of permeability
+of soil in the radial direction; t = time.
+Using the eﬀective stress principle (r0s = rs  u), the rate
+of change of volumetric strain with time can be expressed
+as:
+@e
+@t ¼ mvs
+@u
+@t  @rs
+@t
+
+
+ð2Þ
+where mvs = volumetric compressibility of soil.
+Seed and Booker (1977) considered that the rate of
+change of total stress (@rs/@t) is equal to the rate of pore
+pressure generation i.e.,
+@rs
+@t ¼ @ug
+@t ¼ @ug
+@N
+@N
+@t
+ð3Þ
+where ug = excess pore water pressure generated by a num-
+ber of seismic stress cycles N. The expression of ug can be
+written as (De alba et al., 1976):
+ug ¼ 2r0
+0
+p arcsin
+N
+N l
+
+ 1
+2a
+"
+#
+ð4Þ
+where r00 = initial vertical eﬀective stress; Nl = number of
+seismic stress cycles required for initial liquefaction of soil;
+a = a constant whose value depends on the test condition
+and types of soil. An average value of a is 0.7 (Seed
+et al., 1975b).
+The irregular cyclic loading generated by earthquake
+can be written in terms of an equivalent cyclic number
+Neq of uniform stress cycles occurring over the duration
+of earthquake td as (Seed et al., 1975a):
+@N
+@t ¼ N eq
+td
+for 0 6 t 6 td
+ð5Þ
+@N
+@t ¼ 0 for t > td
+ð6Þ
+Introducing
+the
+non-dimensional
+terms,
+U = u/r00,
+Ug = ug/r00, R = r/b, and T = t/td, the equation for the gen-
+eration and dissipation of excess pore water pressure within
+stone column-improved ground towards the stone column
+can be written as:
+T ad
+c2
+b2
+1
+R
+@U
+@R þ @2U
+@R2
+
+
+¼ @U
+@T  @U g
+@N N eq
+ð7Þ
+where
+Fig. 1. Unit cell model.
+198
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+@U g
+@N ¼
+r0
+0
+apN l
+1
+sin2a1 p
+2 U
+
+
+cos p
+2 U
+
+
+ð8Þ
+and
+T ad ¼ ks
+cw
+td
+mv;s
+1
+c2 ; T d ¼ ks
+cw
+td
+mv;s
+1
+b2 ¼ T ad
+c2
+b2
+ð9Þ
+where c = radius of stone column, b = radius of the inﬂu-
+ence zone of stone column and c/b = area ratio.
+At the initial moment (T = 0), the excess pore water
+pressure is equal to the average pore pressure developed
+over the initial time period of dt. At the boundary of unit
+cell model (R = b), the rate of change of pore water pres-
+sure due to symmetry is zero. The boundary condition
+can be written as @U/@R = 0. At the boundary of stone col-
+umn (R = c), the excess pore water pressure is equal to the
+maximum pore pressure generated within stone column at
+any time t i.e., U = Uc,max.
+To derive the pore water pressure within stone column
+(Uc,max), it is assumed that the quantity of water entering
+into the stone column is equal to that expelled from the col-
+umn, i.e., at the boundary of column (r = c)
+2pcdz ks
+cw
+@u
+@r jr¼c ¼ pc2dz kc;avg
+cw
+@2uc
+@z2
+ð10Þ
+where uc = pore pressure within stone column; z = vertical
+distance below the ground surface. The permeability of
+stone column is not uniform due to the clogging. Thus,
+the permeability of the stone column is a function of time
+and space and kc,avg = average permeability of the stone
+column with respect to space.
+The quantity of water ﬂowing through the soil zone into
+the stone column is equal to the volume change within the
+soil mass. i.e.,
+2prdz ks
+cw
+@u
+@r ¼ p b2  r2
+
+
+dz @e
+@t
+ð11Þ
+At the interface between stone column and soil (r = c),
+the Eq. (11) can be written as:
+2pcdz ks
+cw
+@u
+@r ¼ p b2  c2
+
+
+dz @e
+@t
+ð12Þ
+From Eqs. (10) and (12) the following equation can be
+obtained as:
+@2uc
+@z2
+kc;avg
+b2
+c2  1
+
+
+cw
+¼ @e
+@t
+ð13Þ
+Based on equal strain assumption, the following equa-
+tion is obtained as:
+@e
+@t ¼ mvs
+@r0
+s
+@t ¼ mvc
+@r0
+c
+@t
+ð14Þ
+Based on assumption (3), the Eq. (14) can be written as:
+@e
+@t ¼ mvs
+@u
+@t  @ug
+@t
+
+
+¼ mvc
+@uc
+@t  @ug
+@t
+
+
+ð15Þ
+wheremvc = volumetric compressibility of stone column.
+Substituting Eq. (15) in Eq. (13), one can write
+kc;avg
+cw
+b2
+c2  1
+
+ @2uc
+@z2 ¼ mvc
+@uc
+@t  @ug
+@t
+
+
+ð16Þ
+The ﬁnal form of Eq. (16) can be written as:
+kc;avg
+cw
+b2
+c2  1
+
+ @2uc
+@z2 ¼ mvc
+@uc
+@t  @ug
+@N
+N eq
+td
+
+
+ð17Þ
+Introducing
+nondimensional
+terms,
+Uc = uc/r00,
+r00 = c0z, Z = z/h, Ug = ug/r00, and T = t/td, Eq. (17)
+becomes
+kc;avg
+cwmvc
+b2
+c2  1
+
+ td
+h2
+@2U c
+@Z2 þ 2
+Z
+@U c
+@Z
+
+
+¼
+@U c
+@T  @U g
+@N N eq
+
+
+ð18Þ
+T ad
+1
+b2
+c2  1
+
+
+1
+L
+  @2U c
+@Z2 þ 2
+Z
+@U
+@Z
+
+
+¼
+@U c
+@T  @U g
+@N N eq
+
+
+ð19Þ
+L ¼ ðks mvc h2Þ=ðkc;avg mvs c2Þ
+ð20Þ
+where mvs/mvc = compressibility or stiﬀness ratio
+The volumetric compressibility of an elastic body can be
+expressed as:
+mv ¼ ð1 þ mÞð1  2mÞ
+Eð1  mÞ
+ð21Þ
+where E = elastic modulus and m = Poisson ratio. Thus, the
+compressibility ratio can be expressed as:
+mvs
+mvc
+¼ Ec
+Es
+ð1 þ msÞð1  2msÞð1  mcÞ
+1 þ mc
+ð
+Þð1  2mcÞð1  msÞ ¼ f Ec
+Es
+ð22Þ
+where Ec and Es = elastic moduli of the stone column and
+the surrounding soil, respectively. The typical elastic mod-
+ulus ratio of the stone column to surrounding soil ranges
+from 4 to 20 (Bowles, 1997). mc and ms = Poisson ratios of
+the stone column and the surrounding soil, respectively,
+and f = a is the Poisson ratio factor. At the ground surface
+(Z = 0), the pore pressure is zero (i.e., Uc = 0) as the
+ground surface is always free draining. At the bottom sur-
+face of the stone column (Z = 1), the symmetry the rate of
+variation of pore pressure is zero, i.e., @Uc/oZ = 0. The
+maximum excess pore water pressure ratio (Umax) is deter-
+mined by solving Eq. (7) with ﬁnite diﬀerence approach.
+2.1. Clogging of stone column
+Porous media such as soil, stone column contain void
+space or pore space. The pore space can be geometrically
+characterized by two parameters: pore bodies or pore
+chambers and pore constrictions (Khilar and Fogler,
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+199
+1998). Pore bodies and pore constrictions are the widest
+segment and narrowest segment of pores, respectively (as
+shown in Fig. 2). Fines are attached to the surface of pore
+bodies through which seepage water ﬂows (here ﬁnes are
+the loose ﬁne soil particles which present in the pore space).
+Studies show that hydrodynamic or colloidal force is gen-
+erally responsible for the detachment of ﬁnes from pore
+chamber. The release mechanism of ﬁne soil particle
+depends on the size of the ﬁnes and the ﬂow velocity. For
+large size ﬁne particles (larger than 10 mm), such as ﬁne
+sand or silt or for high ﬂow velocity (greater than 0.01–
+0.1 m/s), hydrodynamic force is dominant (Frey et al.,
+1999; Khilar and Fogler, 1998). Arulanandan et al.
+(1975) carried out rotating cylinder test to ascertain the
+release mechanism of ﬁne particles under hydrodynamic
+force and concluded that the release of ﬁne particles initi-
+ates when the shear stress induced by the hydrodynamic
+force exceeds the critical shear stress of soil. The release
+rate in porous media depends on the amount of loose ﬁne
+particles present in the pore chamber and release coeﬃ-
+cient. In the present study, it is assumed that the stone col-
+umn is clean, that is, no ﬁne soil particles are present in the
+pore chamber of column. Hence, in the case of stone col-
+umn, the release coeﬃcient is zero.
+Numerous studies have conﬁrmed that the eﬃciency of
+the stone column as a drainage path may be aﬀected when
+the ﬁne particles are captured at the pore constriction of
+gravel (Acharya and Dasgupta, 2005; Indraratna et al.,
+2013; Deb and Shiyamalaa, 2016; Onoue et al., 1987;
+Rollins et al., 2004). The ﬁne particles are entrapped at
+the pore constriction especially due to surface deposition
+and multiparticle bridging. Khilar and Fogler (1998) stated
+that the surface deposition type of entrapment reduces the
+cross-sectional area of the pore constriction, while the mul-
+tiparticle bridging results in blockage of the pore constric-
+tion (as shown in Fig. 3). The capture rate of porous media
+is proportional to the concentration of ﬁne particles pre-
+sent in the seepage water and the capture coeﬃcient
+(Khilar et al., 1985; Khilar and Fogler, 1998). However,
+as the inlet concentration of ﬁne particles is zero at the
+boundary of inﬂuence zone, the capture of ﬁne particles
+throughout the soil zone is negligible for the brief duration.
+Thus, the capture rate of soil is assumed to be zero
+(Gruesbeck and Collin, 1982). Moreover, the emphasis in
+this study is to ﬁnd out the maximum possibility of clog-
+ging in stone column. Thus, it is adequate to consider only
+erosion within the soil.
+Khilar and Fogler (1998) proposed an approach to
+determine the migration and capture mechanism of ﬁne
+particles in porous media. Following this approach, the soil
+zone and stone column are divided into equal n and m
+number of segments, respectively (as shown in Fig. 4).
+Fig. 2. Geometric structure of pore space (Khilar and Fogler, 1983).
+Fig. 3. Capture mechanism of ﬁne particles at the pore constriction.
+Fig. 4. The section of discretized stone column and soil zone.
+200
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+The mass balance equation for the ﬁne particles in the ith
+segment of porous media (soil and stone column) can be
+expressed as (Khilar and Fogler, 1998):
+v qCi1  qCi
+ð
+Þ þ RrA  RcV ¼ V @Ci
+@t þ tV @Ci
+@r
+ð23Þ
+where v = fraction of particles leaving the ith pore segment
+with the ﬂow = 1 (Khilar and Fogler, 1983); q = the ﬂow
+rate (cm3/s); Ci1 = concentration of ﬁne particles in the
+eﬄuent of i  1th pore segment (g/cm3); Ci = concentra-
+tion of ﬁne particles in the eﬄuent of ith segment (g/cm3);
+V = pore volume (cm3); A = surface area of the pore seg-
+ment (cm2), t = ﬂow velocity (cm/s); Rr = rate of release
+(gm/cm2-s); Rc = rate of capture (g/cm3-s); In Eq. (23),
+q = V/t, A = V/l, l = length of each pore segment. The sim-
+pliﬁed form of Eq. (23) is
+ðv=tÞ Ci1  Ci
+ð
+Þ þ ðRr=lÞ  Rc ¼ @Ci
+@t þ t @Ci
+@r
+ð24Þ
+In the case of stone column, the release rate is zero. In
+the soil, the release rate of ﬁne particles due to hydrody-
+namic force can be written as:
+Rr ¼ jðsw  scÞ
+ð25Þ
+where sw = wall shear stress (dyne/cm2); sc = critical stress
+(dyne/cm2); j = release coeﬃcient (g/dyne-s).
+The shear stress is given as (Hillel, 1980):
+s ¼ 1:414  ðqwgH 0Þ 
+Ks
+g
+
+1
+2
+ð26Þ
+where Ks = intrinsic permeability of soil (cm2); g = poros-
+ity of soil; qw = density of water (g/cm3), g = acceleration
+due to gravity (cm/s2).
+For s ¼ sw; H 0 ¼ H
+ð27Þ
+For s ¼ sc; H 0 ¼ H c
+ð28Þ
+where H is the hydraulic gradient and Hc is the critical
+hydraulic gradient. The release coeﬃcient j (g/dyne-min)
+can be expressed by the following empirical equation as
+(Arulanandan et al., 1975):
+j¼3017:09sc þ4:02s2
+c 0:43s3
+c þ0:0175s4
+c
+ð29Þ
+The capture rate of soil is zero. The rate of capture in
+stone column can be written as:
+Rc ¼ bCi
+ð30Þ
+where b = capture coeﬃcient (s1).
+Ci is determined by solving Eq. (24) with ﬁnite diﬀerence
+method. The concentration of ﬁne sand particles entrapped
+at the pore constriction (r2) of gravel is given as:
+dr2
+dt ¼ bCi
+ð31Þ
+where r2 = concentration of ﬁne particles entrapped at the
+pore constriction.
+Thus, the change in permeability of the stone column
+(kc) can be written as (Gruesbeck and Collin, 1982):
+kc ¼ kc0  expðBr4
+2Þ
+ð32Þ
+where kc0 = initial permeability of the stone column;
+B = material constant. In the present study, the value of
+B is taken as 1.
+The average permeability of the stone column at a par-
+ticular time can be written as:
+kc;avg ¼ m
+X 1
+kci
+
+1
+ð33Þ
+where m = number of segments.
+2.2. Calculation procedure and parameter estimation
+The concentration of ﬁne particles release from the soil
+is determined by solving Eq. (24) (where, Rc = 0). The
+boundary conditions are considered as: At T = 0, Csoil = 0
+and At R = b, Csoil = 0. The mass balance equation for the
+ﬁne particles in the ith segment of gravel (stone column) is
+solved by Eq. (24) (where Rr = 0) with the boundary con-
+ditions
+as:
+At
+T = 0,
+Ccolumn = 0
+and
+At
+R = c,
+Ccolumn = Csoil. The concentration of ﬁne sand particles
+entrapped at the pore constriction (r2) of gravel is deter-
+mined by Eq. (31). The change in permeability of the stone
+column (kc) can be determined by Eq. (32). The average
+permeability of the stone column (kc,avg) at a particular
+time is determined by Eq. (33). The computed average per-
+meability of stone column (kc,avg) is used to derive the max-
+imum pore pressure within stone column. The maximum
+pore water pressure within stone column (Uc,max) can be
+determined by Eq. (19). The maximum pore water pressure
+generated
+within
+the
+stone
+column-improved
+ground
+(Umax) due to an earthquake is determined using Eq. (7).
+The maximum pore water pressure within the stone column
+(Uc,max) is used to solve Eq. (7).
+The major parameters related to the clogging of stone
+columns are hydraulic gradient (H), critical hydraulic gra-
+dient (Hc), capture coeﬃcient (b) and release coeﬃcient (j).
+The hydraulic gradient varies from 0.1 to 1 during the ﬂow
+of water through soil (Onoue et al., 1987). Thus, in the real
+scale problems, the range of H can be taken in between 0.1
+and 1 during wall shear stress calculation for diﬀerent
+hydraulic gradients and the value of H may reach up to 1
+during liquefaction.
+The critical hydraulic gradient Hc depends on the types
+of soil. Chugaev (1962) and Weijers and Sellmeijer (1993)
+stated that the critical hydraulic gradient of ﬁne sandy soil
+varies from 0.1 to 0.14 (see Okeke and Wang, 2016). Thus,
+any value of the critical hydraulic gradient within the pre-
+scribed range can be chosen to calculate the critical shear
+stress as signiﬁcant variation of the pore water pressure
+ratio is not observed due to the change in Hc value within
+the prescribed range (see Section 4). Ahlinhan and Achmus
+(2010) described the experimental method to determine the
+critical hydraulic gradient of soil. A sample with cross sec-
+tion of 10 cm  30 cm and length of 60 cm can be seeped
+horizontally. The placement of sample can be carried out
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+201
+by pluviation in deaired water. The sieve fabrics can be
+placed at both ends of the soil sample. Fabrics can be so
+chosen that the transport of the ﬁne soil particles is possi-
+ble. The hydraulic gradients can be increased slowly and
+gradually. The critical hydraulic gradient can be deter-
+mined by noting the water discharge and mass of eroded
+soil. At a particular hydraulic gradient a signiﬁcant change
+in the permeability and an increase in the transported soil
+mass can be observed, which can be recorded as critical
+hydraulic gradient. Thus, the critical hydraulic gradient
+can also be determined from the described experimental
+method for the given soil. However, in the present study,
+the value of critical hydraulic gradient is chosen as per
+the range recommended by Chugaev (1962) and Weijers
+and Sellmeijer (1993).
+The capture coeﬃcient (b) of a particular porous med-
+ium can be determined by the procedure described by
+Gruesbeck and Collin (1982). An experiment can be carried
+out on an unconsolidated stone column. The suspension of
+ﬁne particles mixed with carrier ﬂuid can be passed through
+the initially cleaned stone column. The ﬂow rate can be
+changed in steps. The aliquots of eﬄuents can be collected
+and measured with turbidimeter and coulter counter. The
+average capture coeﬃcient of stone column for diﬀerent
+ﬂow rates can be computed by using the equation proposed
+by Gruesbeck and Collin in 1982 by knowing ﬁne concen-
+tration in eﬄuent and inlet ﬂuid, cross sectional area of
+stone core, and total length of stone pack as:
+b ¼ q=Ac
+gcLc
+ln CE
+CI
+ð34Þ
+where q = ﬂow rate, Ac = cross sectional area of stone
+core, gc = porosity of stone, Lc = length of stone pack,
+CE = ﬁne concentration in eﬄuent, and CI = ﬁne concen-
+tration in inlet ﬂuid.
+Empirical equation (Eq. (29)) proposed by Arulanandan
+et al. (1975) can be used to determine the release coeﬃcient
+(j) after putting the critical shear stress or critical hydraulic
+gradient value.
+3. Comparison between the present analytical results and
+experimental results
+The ﬁnal permeability of stone column obtained from
+the present model is compared with the experimental
+results obtained by Onoue et al. (1987)). For quantiﬁcation
+of clogging, Onoue et al (1987) conducted in-situ test on
+stone column without encasement. In the test, a steel pipe
+of diameter (2b) 120 cm, length 12 m was driven in the
+reclaimed sand deposits with a diesel pile hammer. The
+central part inside the pipe was excavated with a donut
+auger and the hole was ﬁlled with gravel. Cleaned, round
+shaped gravels of size 2.5–13 mm were used as the stone
+column material. The ground disturbance due to stone col-
+umn construction was considered to be minor. The diame-
+ter of stone column (2c) was 50 cm. Hence, the diameter of
+column to inﬂuence zone ratio (c/b) was 0.417. The initial
+permeability
+of
+column
+and
+soil
+was
+6 cm/s
+and
+0.0146 cm/s, respectively. The wet unit weight of the sandy
+deposits, measured using the slide calliper method, was
+found to be 18.8 kN/m3. To simulate the earthquake con-
+dition, the ground was vibrated by ﬁxing a vibrohammer
+to pipe. Vibration was applied at a power supply frequency
+of 45 Hz by setting the eccentric moment of the vibroham-
+mer to 1.47 kNm. The boundaries around the inﬂuence
+zone and at the bottom of ground inside the cylindrical
+pipe were impervious due to the presence of steel pipe
+and silt layer, respectively. Pore pressure transducers were
+installed in the stone column and sandy ground. The per-
+meability of stone column after experiment was measured.
+The same experiment was repeated four times. The average
+value of the four experiments is calculated for comparison
+purpose.
+Fig. 5 shows that the ﬁnal permeability of stone column
+after experiment was reduced due to clogging. Chugaev
+(1962) and Weijers and Sellmeijer (1993) stated that the
+critical hydraulic gradient of ﬁne sandy soil varies from
+0.1 to 0.14 (see Okeke and Wang, 2016). In the parametric
+study (Section 4), it is observed that the pore pressure ratio
+due to clogging slightly changes as the critical hydraulic
+gradient of soil changes from 0.1 to 0.14. The permeability
+of the stone column also doesn’t change signiﬁcantly due
+the change in critical hydraulic gradient within the range
+after clogging. Thus, during the comparison, the critical
+hydraulic gradient of ﬁne sand is taken as 0.13 (within
+the range).
+Khilar and Fogler (1998) and Acharya and Dasgupta
+(2005) stated that the capture coeﬃcient is a function of
+ﬂow velocity and increases with an increase in the ﬂow
+velocity. Khilar and Fogler (1983) recommended that the
+capture coeﬃcient varies from 0.0001 to 0.01 s1 for lower
+ﬂuid velocities when the ﬁne particles are migrated due to
+colloidal action. However, in the present case, the ﬁne par-
+ticles are migrated due to hydrodynamic action. During
+cyclic loading, the excess pore water pressure generates
+Fig. 5. Comparison between analytical results and experimental results.
+202
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+within the soil. The pore water pressure quickly dissipates
+through stone column after the end of cyclic loading. Thus,
+due to the higher velocity of ﬂuid within soil and stone col-
+umn, a higher value of capture coeﬃcient has to be consid-
+ered (as compared to the range proposed Khilar and
+Fogler, 1983 for lower ﬂuid ﬂow velocity). In the present
+study, a range from 0.04 s1 to 0.08 s1 is considered as
+the suitable range for the capture coeﬃcient. From the
+parametric
+study
+(Section
+4),
+it
+was
+observed
+that
+0.04 s1 is the lowest value of capture coeﬃcient at which
+clogging of stone column starts aﬀecting the rate of dissipa-
+tion of pore pressure and 0.08 s1 is considered as the
+upper limit since the permeability of stone column becomes
+less than the permeability of the surrounding soil due to
+clogging once this is exceeded. In the present study, the per-
+meability of the stone column is always considered to be
+greater or equal to the permeability of the surrounding soil
+even after clogging. Thus, during the comparison, the cap-
+ture coeﬃcient values was considered to be 0.04 s1: that is,
+the point at which clogging of stone column starts aﬀecting
+the rate of dissipation of pore pressure. However, selecting
+a higher value within the suitable range may reduce the per-
+meability of the stone column further and for capture coef-
+ﬁcient value of 0.08 s1, the permeability of the stone
+column may reach the permeability of the surrounding soil.
+As the measured permeability of the stone column after the
+experiment is still much higher than the permeability of the
+surrounding soil, a lower capture coeﬃcient value of
+0.04 s1 (within the prescribed range) is considered during
+the comparison. From Fig. 5, it is found that the predicted
+permeability of stone column after earthquake is consistent
+with experimental results. Thus, the present model is feasi-
+ble for determining the clogging of stone columns.
+4. Parametric study
+The derived mathematical model indicates that the clog-
+ging of stone columns is inﬂuenced by such parameters as
+the permeability ratio, area ratio, compressibility ratio,
+hydraulic gradient, critical hydraulic gradient, and capture
+coeﬃcient. The parameter release coeﬃcient is not consid-
+ered during the parametric study as it is a function of the
+critical hydraulic gradient (see Eq. (29)). During the para-
+metric study, the range of parameters of the model were
+selected in such a way that the reduced permeability of
+stone columns due to clogging was never less than the per-
+meability of the surrounding soil.
+Fig. 6 depicts the eﬀect of permeability ratio (kc0/ks) on
+the variation of maximum excess pore pressure ratio (Umax)
+with the clogging eﬀect of the column taken into account,
+and also with it not taken into account. It can be observed
+that the diﬀerence between the clogged and unclogged
+curves increases as the permeability ratio decreases. This
+is because the initial permeability of stone columns (kc0)
+depends on the size of the interconnected pore spaces.
+For lower permeability, the amount and area of the inter-
+connected pore spaces in the stone columns are less. Hence,
+the tendency to block the eﬀective pore spaces is higher
+with the permeability ratio is low than it is when the perme-
+ability ratio is high. When the clogging eﬀect is not consid-
+ered, for permeability ratios of 100, 200 and 500, the pore
+water pressure is fully dissipated at T = 2 and the rate of
+dissipation of pore pressure is slower for lower permeabil-
+ity ratio. However, pore water pressure is not fully dissi-
+pated at T = 2 due to the clogging and the residual
+excess pore pressures is more for lower permeability ratio.
+Fig. 7 represents the eﬀect of area ratio (c/b) on the vari-
+ation of maximum excess pore pressure ratio (Umax) with
+and without considering the clogging eﬀect of column.
+The decrease in the area ratio increases the drainage path
+of the seepage water. As the drainage path of water
+increases, the concentration of eroded ﬁne sand particles
+in the seepage water also increases. The capture rate of col-
+umn is proportional to the concentration of ﬁne sand par-
+ticles in water. Thus, for lower area ratio, more quantities
+of ﬁne sand particles are captured at the pore constrictions
+of gravel. It can be observed that the rate of dissipation of
+Fig. 6. Eﬀect of permeability ratio on on Umax with and without
+considering the clogging eﬀect of stone column.
+Fig. 7. Eﬀect of area ratio on on Umax with and without considering the
+clogging eﬀect of stone column.
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+203
+pore pressure is slower with lower area ratio. For lower
+area ratio (c/b = 0.3, 0.2), the clogging of the column starts
+during the cyclic loading, and with area ratio 0.3, the diﬀer-
+ence between the peak value of the maximum excess pore
+pressure ratio obtained from the clogged and unclogged
+curve is 3%. At T = 2, with an area ratio of 0.3, the pore
+water pressure is not fully dissipated due to clogging, and
+with an area ratio of 0.2, the maximum excess pore water
+pressure obtained from the clogged curve is 3 times Higher
+than with an unclogged curve. However, at an area ratio
+0.6, the full dissipation of pore pressure was found in both
+the clogged and unclogged cases.
+Fig. 8 reveals the eﬀect of the volumetric compressibility
+ratio (mvs/mvc) on the variation of maximum excess pore
+pressure ratio (Umax) when the clogging eﬀect of the col-
+umn is taken into account and also when it is not taken
+into account. The compressibility of the stone column
+(mvc) varies from 1/3–1/15 times that of the compressibility
+of sandy soil (mvs). It is observed that when the other
+parameters are constant, the maximum excess pore pres-
+sure ratio increases as the compressibility ratio decreases.
+Consideration of the clogging eﬀect of the stone column
+further increases the pore pressure within the soil. Thus,
+for lower volumetric compressibility ratios, as the excess
+pore pressure ratio is high, the clogging eﬀect is more likely
+than when the volumetric compressibility ratio is higher. It
+can be observed that the unclogged and clogged curve coin-
+cide at a compressibility ratio of 15. However, for com-
+pressibility a ratio of 3, the diﬀerence between the peak
+value of the maximum excess pore pressure ratio obtained
+from the clogged and unclogged curve is 2.1%. At T = 2,
+with a compressibility ratio of 3, the full dissipation of pore
+pressure is not observed due to clogging, whereas for a
+higher compressibility ratio (mvs/mvc = 6, mvs/mvc = 15),
+the full dissipation of the pore pressure is found in both
+the clogged unclogged cases.
+Fig. 9 presents the eﬀect of hydraulic gradient of soil (H)
+on the variation of maximum excess pore pressure ratio
+(Umax) with time. In the present study, the range of hydrau-
+lic gradients was 0.3–0.9 (Onoue et al., 1987). It can be
+observed that the unclogged and clogged curve coincide
+at a hydraulic gradient of 0.3, whereas for the hydraulic
+gradients 0.6 and 0.9, the diﬀerence between the peak val-
+ues of the maximum excess pore pressure ratios obtained
+from the clogged and unclogged curve is 2.1% and 20%,
+respectively. This diﬀerence can be attributed the increase
+in the ﬂow velocity due to the increase in the hydraulic gra-
+dient of the soil. With an increase in velocity, the hydrody-
+namic force applied to the ﬁne particles increases and a
+large amount of erosion of ﬁne sand particles takes place.
+It can also be observed that at T = 2, with hydraulic gradi-
+ents of 0.6 and 0.9, the full dissipation of pore pressure
+does not occur due to clogging, whereas for a hydraulic
+gradient of 0.3, the pore water pressure is fully dissipated.
+Fig. 10 examines the eﬀect of critical the hydraulic gradient
+(Hc) of the soil on the variation of maximum excess pore
+pressure ratio (Umax) with time. It is observed that the pore
+pressure ratio due to clogging slightly changes as the criti-
+cal hydraulic gradient of soil changes from 0.1 to 0.14 (the
+range recommended by Chugaev, 1962; Weijers and
+Sellmeijer, 1993). For a critical hydraulic gradient of 0.1,
+Fig. 8. Eﬀect of compressibility ratio on on Umax with and without
+considering the clogging eﬀect of stone column.
+Fig. 9. Eﬀect of hydraulic gradient on the variations of Umax with time.
+Fig. 10. Eﬀect of critical hydraulic gradient on the variations of Umax with
+time.
+204
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+the diﬀerence between the peak value of the maximum
+excess pore pressure ratio obtained from the clogged and
+unclogged curve is 2.8%. It can further be found that when
+the clogging eﬀect is considered, the pore pressure is not
+fully dissipated at T = 2 due to clogging.
+Fig. 11 depicts the eﬀect of capture coeﬃcient (b) on the
+variation of maximum excess pore pressure ratio (Umax)
+with time. The range of capture coeﬃcient in the paramet-
+ric study is taken as 0.04 s1 to 0.08 s1. It is observed that
+at capture coeﬃcient 0.04 s1, the clogging of the stone col-
+umn begins after seismic loading, i.e. when T > 1. How-
+ever, for a capture coeﬃcients of 0.06 s1 and 0.08 s1,
+the diﬀerence between the peak value of the maximum
+excess pore pressure ratios obtained from the clogged and
+unclogged curve is 2.1% and 6.7%, respectively. It can be
+observed that the lower value of capture coeﬃcient reduces
+the capture rate in the column, and the initiation of clog-
+ging is delayed. Thus, the permeability of the stone column
+is reduced and the rate becomes slower.
+It has been observed that the clogging of the stone col-
+umn begins during the end of the earthquake loading or
+when the excess pore water pressure starts to dissipate.
+Under the selected condition (c/b = 0.3, b = 0.08 s1,
+H = 0.9,
+Hc = 0.13,
+kc0/ks = 200,
+mvs/mvc = 3,
+Neq/Nl = 2), the peak value of the excess pore water pres-
+sure ratio can even increase up to around 50% due to clog-
+ging (as shown in Fig. 12). It is to be noted that under the
+selected conditions, more excess pore water pressure may
+develop for c/b = 0.2 and full liquefaction may occur (as
+shown in Fig. 7). Thus, the diﬀerence of peak pore water
+pressure between the clogged and unclogged case cannot
+be determined for c/b = 0.2 under the critical condition.
+5. Clogging of stone column due to multiple earthquakes
+Fig. 13 represents the eﬀect of clogging of the stone col-
+umn on the excess pore pressure ratio due to the occurrence
+of multiple earthquakes. It can be seen that for the ﬁrst
+earthquake, the diﬀerence in the peak value of maximum
+excess pore water pressure obtained from the clogged and
+unclogged curve is 5.6%. In this case, the clogging of the
+stone column begins when the excess pore water pressure
+starts to dissipate, and at T = 2, due to the clogging of
+the stone column, the pore water pressure is not fully dissi-
+pated. During the second earthquake, the variation of
+excess pore pressure ratio between unclogged and clogged
+curve is found at the beginning of earthquake due to the
+clogging of the stone column during ﬁrst earthquake. In
+the case of the second earthquake, the diﬀerence between
+the peak values of the excess pore water pressure ratio
+obtained from the clogged and unclogged curve is 66%.
+6. Conclusion
+In this paper, a mathematical model is proposed based
+on the unit cell approach to incorporate the eﬀect of the
+clogging of stone columns on the performance of these col-
+Fig. 11. Eﬀect of coeﬃcient of capture on the variations of Umax with
+time.
+Fig. 12. Eﬀect of clogging of stone column under critical condition.
+Fig. 13. Eﬀect of clogging of stone column due to multiple earthquakes.
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+205
+umns during liquefaction under seismic conditions. The
+proposed model reveals that the clogging of stone columns
+signiﬁcantly reduces the drainage capacity of these col-
+umns. The validation indicates that the result of the pro-
+posed model is in good agreement with the in-situ
+experimental results. Parametric studies have been per-
+formed to investigate the inﬂuence of model factors such
+as permeability ratio, area ratio, compressibility ratio,
+hydraulic gradient, critical hydraulic gradient and capture
+coeﬃcient on the drainage capacity of columns. It is
+observed that the clogging eﬀect is more likely for lower
+volumetric compressibility ratios than for higher ratios.
+The reduction of the permeability ratio, area ratio and crit-
+ical hydraulic gradient of ﬁne sand particles increase the
+likelihood that a stone column will become clogged. A
+higher value of capture coeﬃcient increases the rate of cap-
+ture of the stone column. From the parametric study, it can
+be concluded that hydraulic gradient is the most inﬂuential
+parameter in the clogging of the column, whereas the stiﬀ-
+ness of the column is the least inﬂuential parameter. The
+diﬀerence between the peak values of the maximum excess
+pore
+pressure
+ratio
+obtained
+from
+the
+clogged
+and
+unclogged curve increases by 20% corresponding to an
+increase when the hydraulic gradient is between 0.3 and
+0.9. During the ﬁrst earthquake, the clogging of the stone
+column starts towards the end of earthquake loading or
+when the excess pore water pressure starts to dissipate.
+However, during a second earthquake the variation of
+the excess pore water pressure can start at the beginning
+of the earthquake due to the clogging which occurred dur-
+ing the ﬁrst earthquake. More time is required to dissipate
+the excess pore water pressure after a seismic event due to
+clogging. The peak value of the excess pore water pressure
+ratio can increase up to around 50% due to clogging during
+the ﬁrst earthquake and a greater diﬀerence between the
+peak values of the excess pore water pressure ratio
+obtained for clogged and unclogged case is observed due
+to successive earthquakes until the clogging reaches an
+optimum value. It has been observed that under the
+selected conditions, the diﬀerence between the peak values
+of the excess pore pressure ratio between the ﬁrst and sec-
+ond earthquake is around 65%.
+References
+Acharya, B., Dasgupta, S.P., 2005. Consolidation of stone columned soil.
+Electron. J. Geotech. Eng. 10 (E).
+Adalier, K., Elgamal, A., 2004. Mitigation of liquefaction and associated
+ground deformations by stone columns. Eng. Geol. 72 (3–4), 275–291.
+Ahlinhan, M.F., Achmus, M., 2010. Experimental investigation of critical
+hydraulic gradients for unstable soils. International Conference on
+Scour and Erosion, San Francisco, pp. 599–608.
+Arulanandan, K., Loganathan, P., Krone, R.B., 1975. Pore and eroding
+ﬂuid inﬂuences on surface erosion of soil. J. Geotech. Geoenviron.
+Eng., ASCE 100 (GT1), 51–56.
+Baez, J.I., Martin, G.R., 1992. Quantitative evaluation of stone column
+techniques for earthquake liquefaction mitigation. Proceedings of the
+10th World Conference on Earthquake Engineering, Madrid, Spain,
+pp. 1477–1483.
+Baez, J.I., Martin, G.R., 1993. Advances in the design of vibro systems for
+the improvement of liquefaction resistance. Proceedings of the 7th
+Annual Symp. of Ground Improvement, Vancouver Geotechnical
+Society, Vancouver, BC.
+Balaam, N.P., Booker, J.R., 1981. Analysis of rigid rafts supported by
+granular piles. Int. J. Numer. Anal. Meth. Geomech. 5 (4), 379–403.
+Ben Salem, Z., Frikha, W., Bouassida, M., 2016. Eﬀect of granular
+column installation on excess pore pressure variation during soil
+liquefaction. Int. J. Geomech., ASCE 16 (2). https://doi.org/10.1061/
+(ASCE)GM.1943-5622.0000516, 04015046.
+Boulanger, R.W., Idriss, I.M., Stewart, D.P., Hashash, Y., Schmidt, B.,
+1998. Drainage capacity of stone columns or gravel drains for
+mitigating liquefaction. In: Dakoulas, P., Yegian, M., Holtz, R.D.
+(Eds.), Geotechnical Earthquake Engineering and Soil Dynamics III.
+Geotechnical Special Publication. ASCE, Reston, VA, pp. 678–690.
+Bowles, J.E., 1997. Foundation Analysis and Design, ﬁfth ed. McGraw-
+Hill, Singapore.
+Chugaev, R.R., 1962. Gru¨ndungsumriss von Wasserbauwerken. Moskau
+Leningrad (in Russian).
+De alba, P., Seed, H., Chan, C.K., 1976. Sand liquefaction in large scale
+simple shear tests. J. Geotech. Eng. Div., ASCE 102 (9), 909–927.
+Deb, K., Shiyamalaa, S., 2016. Eﬀect of clogging on rate of consolidation
+of stone column-improved ground by considering particle migration.
+Int. J. Geomech., ASCE 16 (1). https://doi.org/10.1061/(ASCE)
+GM.1943-5622.0000492, 04015017.
+Elias, V., Welsh, J., Warren, J., Lukas, R., 2001. Ground Improvement
+Technical Summaries. Vol – II, Publication No – FHWA-SA-98-086R.
+Federal Highway Administration, Washington D.C..
+Evans, M.D., Zhou, S., 1995. Liquefaction behavior of sand – gravel
+composites. J. Geotech. Eng. Div., ASCE 121 (3), 287–298.
+Frey, J.M., Schmitz, P., Dufreche, J., Gohr Pinhero, I., 1999. Particle
+deposition in porous media: analysis of hydrodynamic and weak
+inertial eﬀects. Transp. Porous Media 37, 25–54.
+Gruesbeck, C., Collins, R.E., 1982. Entrainment and deposition of ﬁne
+particles in porous media. Soc. Petrol. Eng. 22 (6), 847–856.
+Han, J., Ye, S.L., 2001. Simpliﬁed method for consolidation rate of stone
+column reinforced foundations. J. Geotech. Geoenviron. Eng., ASCE
+127
+(7),
+597–603.
+https://doi.org/10.1061/(ASCE)1090-0241(2001)
+127:7(597).
+Han, J., Ye, S.L., 2002. A theoretical solution for consolidation rates of
+stone column-reinforced foundations accounting for smear and well
+resistance eﬀects. Int. J. Geomech., ASCE 2 (2), 135–151.
+Hillel, D., 1980. Fundamentals of Soil Physics. Academic Press, Inc., San
+Diego, CA.
+Indraratna, B., Basack, S., Rujikiyatkamjorn, C., 2013. A numerical
+solution of stone column improved soft soil considering arching,
+clogging and smear eﬀects. J. Geotech. Geoenviron. Eng., ASCE 139
+(3), 377–394.
+Khilar, K.C., Fogler, H.S., 1983. Water sensitivity of sand stones. Soc.
+Petrol. Eng. 23 (1), 55–64.
+Khilar, K.C., Fogler, H.S., Gray, D.H., 1985. Model for piping-plugging
+in earthen structures. J. Geotech. Geoenviron. Eng., ASCE 111 (7),
+833–846.
+Khilar, K.C., Fogler, H.S., 1998. Migration of Fines in Porous Media.
+Kluwer Academic Publishers, The Netherlands.
+Murali Krishna, A., Madhav, M.R., 2008. Densiﬁcation and dilation
+eﬀects of granular piles in liquefaction mitigation. Indian Geotech. J.
+38 (3), 295–316.
+Okeke, A.C., Wang, F., 2016. Critical hydraulic gradients for seepage
+induced failure of landslide dams. Geoenviron. Disast. 3 (9), 1–22.
+Onoue, A., Mori, N., Takano, J.U.N., 1987. In-situ experiment and
+analysis on well resistance of gravel drains. Soils Found. 27 (2), 42–60.
+Onoue, A., 1988. Diagrams considering well resistance for designing
+spacing ratio of gravel drains. Soils Found. 28 (3), 160–168.
+Pal, S., Deb, K., 2018. Eﬀect of stiﬀness of stone column on drainage
+capacity during soil liquefaction. Int. J. Geomech., ASCE 18 (3).
+https://doi.org/10.1061/(ASCE)GM.1943-5622.0001108, 04018003.
+206
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+Priebe, H.J., 1989. The prevention of liquefaction by vibro-replacement.
+Proceeding of the Earthquake Resistance Construction and Design
+Berlin, Germany.
+Rollins, K., Anderson, J.K.S., Goughnour, R.R., Mccain, A.K., 2004.
+Liquefaction hazard mitigation using vertical composite drains.
+Proceedings of the 13th World Conference on Earthquake Engineer-
+ing, Vancouver, Canada, pp. 1–6.
+Seed, H.B., Booker, J.R., 1977. Stabilization of potentially liqueﬁable
+sand deposits. J. Geotech. Eng. Div., ASCE 103 (7), 757–768.
+Seed, H.B., Idriss, I.M., Makidisi, F., Banerjee, N., 1975a. Representation
+of Irregular Stress Time Histories by Equivalent Uniform Stress Series
+in Liquefaction Analyses. EERC 75–29. Univ. of California, Berkeley,
+CA.
+Seed, H.B., Martin, P.P., Lysmer, J., 1975b. The Generation and
+Dissipation of Pore Water Pressures during Soil Liquefaction. EERC
+75–26. Univ. of California, Berkeley, CA.
+Sujatha, K.P., 1998. Analysis of reinforcement and densiﬁcation eﬀects in
+improved ground M.Tech. Thesis. Indian Institute of Technology,
+Kanpur, India.
+Tai, P., Indraratna, B., Rujikiatkamjorn, C., 2017. Experimental simula-
+tion and mathematical modelling of clogging in stone column. Can.
+Geotech. J. https://doi.org/10.1139/cgj-2017-0271.
+Weijers, J.B.A., Sellmeijer, J.B., 1993. A new model to deal with the piping
+mechanism. In: Brauns, J.,
+Heibaum, M., Schuler, U. (Eds.),
+Proceedings of the First International Conference on Filters in
+Geotechnical and Hydraulic Engineering. Balkema, Rotterdam, pp.
+345–355.
+S. Pal, K. Deb / Soils and Foundations 59 (2019) 196–207
+207

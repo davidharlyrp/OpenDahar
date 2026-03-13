@@ -1,0 +1,509 @@
+* Corresponding author: xie_qiao@csu.edu.cn 
+Research progress of analysis method of slope stability 
+combined with hot spots 
+XIE Qiao1,*, ZHANG Jia-sheng1, and Wang Xuan1  
+1 School of Civil Engineering，Central South University，Changsha，Hunan 410075，China 
+Abstract. The analysis methods and theories of slope stability are constantly improving and developing, 
+and more methods in line with the development characteristics of the times have been put forward by 
+scholars at home and abroad. Combined with the latest research hot spots in the direction of analysis 
+methods of slope stability in the world, the analysis methods of slope stability are systematically classified 
+and summarized; The principles, characteristics, scope of application of various methods are summarized; 
+The development trend of slope stability analysis is comprehensively analyzed from various aspects. It 
+provides the follow-up scholars with the research of new methods. It can provide reference for the selection 
+of evaluation methods of practical slope engineering stability. 
+1 Introduction 
+According to the common  habits of classification, these 
+traditional methods can be roughly divided into 
+qualitative analysis methods, quantitative analysis 
+methods and uncertainty analysis methods[1]. With the 
+rapid development of science and technology, the theory 
+and method of slope stability analysis have been 
+constantly developed and improved. Based on the latest 
+research hot spot of the analysis methods of slope 
+stability of international researchers [2], we adds 
+machine learning methods on the basis of traditional 
+classification. 
+2 Methods of slope stability analysis  
+2.1. Qualitative analysis methods  
+The qualitative analysis method is mainly based on the 
+relevant geological data obtained from field geological 
+survey to analyze the influencing factors of slope 
+stability, the possible failure forms and the mechanical 
+mechanism of instability deformation and failure. The 
+advantage of qualitative analysis method is that it 
+comprehensively considers all kinds of factors affecting 
+the slope stability, and can quickly get the preliminary 
+judgment of slope stability; the disadvantage is that it 
+mainly 
+depends 
+on 
+experience, 
+and 
+can 
+only 
+qualitatively analyze the development trend of slope 
+stability to be studied. At present, the main classification 
+of qualitative analysis methods commonly used in the 
+stability analysis and evaluation of practical slope 
+engineering in the world is shown in Figure 1. 
+ 
+ 
+ 
+ 
+ 
+Fig. 1. Qualitative analysis methods. 
+2.2 Quantitative analysis methods 
+The quantitative analysis method is mainly based on the 
+theories and methods of rock mechanics, soil mechanics 
+and theoretical mechanics, combined with advanced 
+computer 
+technology, 
+to 
+obtain 
+the 
+mechanical 
+deformation mechanism of landslide mass, to solve the 
+safety factor of slope stability evaluation, so as to make a 
+more quantitative evaluation of slope stability. Strictly 
+speaking, at present, the slope stability analysis has not 
+fully entered the determination. The quantitative stage 
+can only be regarded as a semi quantitative stage. The 
+main classification of quantitative analysis methods 
+commonly used in the stability analysis and evaluation 
+of practical slope engineering at home and abroad is 
+shown in Fig. 2. Each method has its own outstanding 
+characteristics and shortcomings. 
+ 
+ 
+Qualitative   
+analysis 
+methods 
+  
+ 
+Engineering 
+analogy 
+method 
+Method of 
+natural 
+history 
+analysis  
+ 
+Graphic 
+method 
+Computational 
+analysis 
+method 
+198, 02008 (2020)
+ISCEG 2020
+E3S Web of Conferences 
+https://doi.org/10.1051/e3sconf/202019802008
+  
+ 
+© The Authors, published by EDP Sciences. This is an open access article distributed under the terms of the Creative Commons Attribution License 4.0
+ (http://creativecommons.org/licenses/by/4.0/). 
+ 
+ 
+ 
+Fig. 2. Quantitative analysis methods. 
+ 
+The limit equilibrium method is mainly to determine 
+the potential most dangerous sliding surface of the slope 
+by calculating the safety factor and critical failure load 
+of the slope according to the static equilibrium condition 
+of the landslide mass on the known slip surface. It is 
+necessary to know the distribution and shape of slip 
+surface. When the shape of slip surface is not simple 
+plane, the slice method is usually used to solve this kind 
+of statically indeterminate problem. According to the 
+different assumptions and equations, it can be divided 
+into non strict slice method and strict slice method. The 
+parts of various slice methods put forward by scholars 
+from various countries are shown in Fig. 2. Based on the 
+two-dimensional analysis method, many scholars have 
+begun to study the three-dimensional limit equilibrium 
+method [3-5]. The results of the block limit equilibrium 
+method mainly reflect the real stress-strain relationship 
+of rock and soil. The stability parameters obtained are 
+the average values of each sliding block on the sliding 
+surface, which are assumed, and also reflect the 
+deformation and failure mechanism of slope in the 
+critical state of deformation and failure. It is impossible 
+to analyze the complete process of the occurrence and 
+development of slope deformation and failure, and it is 
+difficult to accurately consider progressive failure The 
+influence of bad on slope stability. However, this method 
+is simple, intuitive, easy to understand and mature in 
+theory. It is suitable for the study of dynamic change of 
+water pressure and discontinuous rock mass and soil 
+mass. It is a traditional method used to analyze slope 
+stability in engineering circles at home and abroad. 
+2.3 Uncertainty analysis methods  
+The uncertainty analysis method is mainly due to the 
+complex geological conditions of the slope structure, and 
+has greater uncertainty and unknown characteristics, so 
+some uncertainty methods are introduced to analyze and 
+evaluate the stability of the slope. At present, this 
+method has achieved certain results in the aspect of slope 
+stability evaluation. However, the method itself is more 
+dependent on the quantity of relevant geological data 
+that can be obtained by the slope structure to be 
+evaluated. Therefore, the accuracy of the results may not 
+be strong and the mathematical derivation process of 
+some methods is more complex when there is no data. 
+The main classification of uncertainty analysis methods 
+is shown in Figure 3. 
+ 
+ 
+ 
+Fig. 3. Uncertainty analysis methods. 
+2.4 Machine learning methods  
+The relationship between the stability of the slope 
+structure and various factors affecting the stability of the 
+slope is a very complex nonlinear relationship, and there 
+are many factors affecting the slope stability. Therefore, 
+it is difficult to find a relationship that can reflect the 
+nonlinear mapping relationship [6]. However, with the 
+rapid development of machine learning technology in 
+various 
+industries 
+in 
+recent 
+years, 
+geotechnical 
+engineering researchers seem to find that it is a good 
+idea to introduce machine learning algorithm into slope 
+stability analysis. Machine learning algorithm can be 
+used to quickly study the complex nonlinear between the 
+slope stability (stability evaluation index) and various 
+influencing factors Relationship. At present, the method 
+is still in continuous development and improvement, and 
+various algorithms are constantly introduced and 
+improved by scholars at home and abroad to improve the 
+accuracy and reliability of the calculation results, so the 
+method has a large space for development. The 
+classification method of this paper is shown in Figure 4. 
+ 
+ 
+ 
+Fig. 4. Machine learning methods. 
+ 
+ 
+ 
+Uncertai
+nty  
+analysis 
+methods 
+  
+Method of 
+Grey theory 
+analysis  
+Fuzzy 
+mathematics 
+Reliability 
+analysis 
+method 
+Information 
+model 
+method 
+Probability 
+analysis 
+method 
+Synthesis 
+method 
+ 
+Quantitati
+ve 
+analysis  
+methods 
+  
+Limit 
+analysis 
+method 
+Sliding field 
+method 
+Limit 
+equilibrium 
+method 
+Numerical 
+analysis 
+method 
+Strength 
+reduction 
+method 
+Method of 
+model 
+simulation 
+  
+Machine 
+learning 
+methods 
+  
+ 
+Integrated 
+learning 
+method 
+Support 
+vector 
+machine 
+Artificial 
+neural 
+network 
+Clustering 
+method 
+ 
+Decision tree 
+Other 
+methods 
+198, 02008 (2020)
+ISCEG 2020
+E3S Web of Conferences 
+https://doi.org/10.1051/e3sconf/202019802008
+2
+ 
+Artificial neural network mainly refers to biological 
+neural 
+system, 
+and 
+simulates 
+some 
+functional 
+characteristics of human brain by means of abstraction, 
+simplification and simulation. This method has high fault 
+tolerance, 
+self-learning, 
+self-organization, 
+high 
+nonlinearity, dynamic processing, associative memory 
+and other functions. This method is introduced into slope 
+stability analysis to overcome the shortcomings of 
+traditional BP network, which are easy to fall into local 
+optimum and slow convergence. Domestic and foreign 
+scholars introduce various algorithms to make up for the 
+shortcomings of BP network and improve the method [7-
+9]. Or the neural network algorithm is combined with 
+other methods to obtain higher accuracy of the model 
+[10-14]. The continuous development and progress of 
+artificial neural network has opened up a new way and 
+provided new ideas for the analysis of complex slope 
+stability problems. 
+3 Prospect of slope stability analysis 
+and evaluation 
+In practical engineering, the instability of slope may lead 
+to the loss of social economy and even life safety. 
+Therefore, in the actual project construction, it is 
+important to analyze and evaluate the slope stability. The 
+problem of slope stability analysis and evaluation is 
+always a classic and full of discussion. With the 
+continuous 
+progress 
+of 
+research 
+methods 
+and 
+technologies in the world, slope stability analysis has 
+initially entered the stage of system engineering analysis 
+and research. New theories and methods have been 
+gradually applied to slope stability analysis and research, 
+which broadens the development prospect of quantitative 
+evaluation of slope stability in horizontal and vertical 
+directions. 
+1) The cross introduction of various disciplines 
+makes the theory and method of slope stability analysis 
+develop in the direction of multi-dimensional innovation. 
+The theories of mathematics, physics, computer and 
+other disciplines are continuously introduced into slope 
+stability analysis, which improves the accuracy of slope 
+stability analysis results and the dimension of sustainable 
+development of analysis methods. 
+2) Under the guidance of the existing slope stability 
+analysis theory, the model test of the structure is 
+strengthened to provide ideas for the new theory. 
+Because of the complexity of the geological conditions 
+of slope structure, it can provide more effective support 
+for the results of slope stability analysis and evaluation 
+to determine the similarity index of test model which is 
+more suitable for the actual engineering situation and 
+carry out the model test more in line with the actual 
+engineering situation. 
+3) 
+Continue 
+to 
+enrich 
+and 
+improve 
+the 
+comprehensive evaluation method of slope. Due to the 
+uncertainty of slope engineering, the combination of 
+various methods can provide more possibilities for 
+improving the solution range or efficiency of slope 
+stability analysis and evaluation, and can also combine 
+innovative analysis methods with high fidelity and high 
+precision to meet the engineering needs. 
+4) With the continuous development of social 
+research 
+means 
+and 
+innovative 
+technology, 
+the 
+establishment of a more efficient and accurate intelligent 
+analysis and evaluation system has become one of the 
+directions of researchers. Combined with various kinds 
+of practical engineering case database, according to the 
+actual project site monitoring, analysis, feedback results 
+and other information, the dynamic adjustment and more 
+comprehensive system of intelligent analysis and 
+evaluation of slope stability is established Price system. 
+4 Conclusion 
+Combined with the current international research hot 
+spots, 
+a 
+more 
+comprehensive 
+and 
+systematic 
+arrangement of various slope stability evaluation 
+methods at home and abroad, analysis of the 
+development trend of slope stability evaluation, in order 
+to provide inspiration and ideas for the later new 
+methods or theories. 
+1) The analysis methods of slope stability are 
+comprehensively and systematically sorted out in this 
+paper, which are mainly divided into qualitative analysis 
+method, quantitative analysis method, uncertainty 
+analysis method and machine learning method. 
+2) The qualitative analysis method is mainly 
+empirical analysis method, which comprehensively 
+analyzes various factors affecting the slope stability, and 
+makes qualitative description and evaluation on the 
+stability development of the studied slope. The 
+commonly used methods include natural cause (History) 
+analysis method, engineering analogy method, graphic 
+method and computational analysis method. 
+3) Among the quantitative analysis methods, limit 
+equilibrium method and numerical analysis method are 
+widely used in the world. The basic principle of the limit 
+equilibrium method is that the landslide mass with 
+known slip surface satisfies the static equilibrium 
+condition, so as to obtain the average value of the slope 
+safety factor of each block on the slip surface, but it is 
+unable to analyze the complete development process of 
+the slope deformation and failure; the numerical analysis 
+method is mainly developed and perfected with the rapid 
+development of computer technology, which can 
+simulate 
+the 
+actual 
+deformation 
+of 
+slope 
+The 
+development process is often used to assist other 
+methods to deal with slope stability analysis problems 
+with more complex geological conditions. 
+4) In recent years, with the continuous in-depth study 
+of slope stability theory, it is found that there are 
+uncertainties and unknowns in slope stability analysis. 
+Therefore, scholars at home and abroad combine these 
+uncertain factors to study slope stability and develop 
+uncertainty 
+analysis 
+methods 
+for 
+slope 
+stability 
+evaluation. 
+5) The machine learning method can establish a 
+prediction model based on the existing data to describe 
+the complex nonlinear mapping relationship between the 
+influencing factors of slope stability, and make up for the 
+198, 02008 (2020)
+ISCEG 2020
+E3S Web of Conferences 
+https://doi.org/10.1051/e3sconf/202019802008
+3
+ 
+defect that qualitative analysis method, quantitative 
+analysis method and uncertainty analysis method can not 
+effectively and accurately evaluate the slope stability in a 
+short time. In the case of lack of geological data and 
+short construction period, the slope stability evaluation 
+can be completed quickly. 
+6) The development trend of slope stability analysis 
+method is proposed from the aspects of slope stability 
+development theory and method, model test, composite 
+method comprehensive evaluation and dynamic slope 
+stability intelligent evaluation system. 
+References 
+1. Li, C.H., Liu T.P., et al. (2020)Research progress 
+and Prospect of slope stability analysis methods. J. 
+Northeast water conservancy and hydropower, 38 
+(02): 63-65. 
+2. Fan, Qi. (2019)Study on rapid evaluation method of 
+highway rock slope stability based on whole process 
+of machine learning. D. Chengdu University of 
+technology. 
+3. Ma, G.L., Shao, Y.G. (2016)Stability study of three-
+dimensional limit equilibrium slope based on 
+Spencer method, J. Hydrogeology and engineering 
+geology,  (3): 118-123. 
+4. Peng, F.G., Chen,Y.Z., et al. (2017)Influence 
+analysis of replacement tunnel on slope stability of 
+Baihetan, J. Water conservancy planning and design, 
+(08): 112-115. 
+5. Hungr, 
+O. 
+(2015)An 
+extension 
+of 
+Bishop's 
+simplified method of slope stability analysis to three 
+dimensions, J. Geotechnique, 37(1):155-156. 
+6. Sun, C. (2017)Design of slope stability early 
+warning system, D. Hunan University. 
+7. Gordan, B., Armaghani, D.J., Hajihassani, M., et al. 
+(2016)Prediction of seismic slope stability through 
+combination of particle swarm optimization and 
+neural network, J. Engineering with Computers, 
+32(1):85-97. 
+8. Hu, J., Dong, J.H., Wang, K.K., et al. (2016)Study 
+on cpso-bp model of slope stability, J. Geotechnical 
+mechanics,  (S1): 577-590. 
+9. Lu, C.J., Hu, H.T. (2016)Application of improved 
+BP network in rock slope stability evaluation, J. 
+Journal of rock mechanics and engineering, 18 (3): 
+303-307. 
+10. Chen, C.F., Yang, Y. (2016)T-S fuzzy inference 
+system for slope stability evaluation driven by hga-
+ann, J. Journal of rock mechanics and engineering, 
+24 (19): 3459-3464. 
+11. Guo, 
+R.Q., 
+Muhtar, 
+Z.R., 
+Liu, 
+X.X. 
+(2016)Evaluation method of rock slope stability 
+based on adaptive neuron fuzzy inference system, J. 
+Journal of rock mechanics and engineering, 25 (z1): 
+002785-2789. 
+12. Fu, Y.X, Liu, S.K, Liu, D.P. (2016)Prediction of 
+slope rock mass stability based on RBF neural 
+network, J. Journal of Wuhan University of 
+Technology 
+(Transportation 
+Science 
+and 
+Engineering Edition), 27 (2): 170-173. 
+13. Xue, X.H., Zhang, A.H., Liu, H.J. (2016)Slope 
+stability evaluation based on genetic algorithm and 
+fuzzy neural network, J. Geotechnical mechanics, 28 
+(12): 2643-2648. 
+14. Xue, X.H., Zhang, A.H., Liu, H.J. (2016)Slope 
+stability evaluation based on SOFM neural network, 
+J. Geotechnical mechanics, 29 (8): 2236-2240. 
+198, 02008 (2020)
+ISCEG 2020
+E3S Web of Conferences 
+https://doi.org/10.1051/e3sconf/202019802008
+4

@@ -1,0 +1,1613 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/351548614
+3D DEM-FDM Coupled Analysis of the Behavior of an Isolated Geogrid-Encased
+Stone Column under Axial Loading
+Article  in  Journal of Geotechnical and Geoenvironmental Engineering · March 2021
+DOI: 10.1061/(ASCE)GT.1943-5606.0002516
+CITATIONS
+11
+READS
+348
+1 author:
+Xin Tan
+Hunan University
+50 PUBLICATIONS   907 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by Xin Tan on 26 May 2021.
+The user has requested enhancement of the downloaded file.
+P R O O F O N L Y
+1
+2
+3D DEM-FDM Coupled Analysis of the Behavior of an
+3
+Isolated Geogrid-Encased Stone Column under
+4
+Axial Loading
+5
+Xin Tan1; Zhengbo Hu2; Changfu Chen3; and Minghua Zhao4
+1
+6
+Abstract: A
+3
+geogrid-encased stone column under an axial loading test has been numerically modeled with the discrete element method
+7
+(DEM) for a stone column wrapped by a finite difference method (FDM) shell-type encasement. The column was modeled using nonspherical
+8
+rigid particles considering the actual shape and size distribution of gravel, which better represents the discrete nature of stone columns. The
+9
+rationality of the proposed numerical model was successfully verified by experimental results from a previous model test. The complete
+10
+deformation and failure process of the geogrid-encased stone column has been well captured. The numerical results have been discussed at
+11
+both the macroscopic and microscopic levels. The stress state of the geogrid-encased stone column never approaches the limiting equilibrium
+12
+state before the geogrid rupture. The bearing capacity of the geogrid-encased stone column mainly depends on transverse ribs of the geogrid.
+13
+The force chain network and coordination number evolvements inside the stone column were determined during the complete loading process
+14
+and related to macroscopic failure behaviors. The parametric analysis indicates that linear relationships can be established between the
+15
+macroscopic performance of the geogrid-encased stone column and the properties of the geogrid and gravel. The macroscopic and micro-
+16
+scopic numerical results in this study can provide researchers improved understanding of the geogrid–gravel system. DOI: 10.1061/(ASCE)
+17
+GT.1943-5606.0002516. © 2021 American Society of Civil Engineers.
+18
+Author keywords: Encased stone column; Geogrid; Discrete element method; Numerical simulation; Uniaxial compression test.
+19 4 Introduction
+20
+Stone
+5
+columns or granular piles, which are formed by compacted
+21
+gravels, are extensively used as ground reinforcements for various
+22
+foundations. A ground improvement technique using stone col-
+23
+umns has been successfully applied in recent decades, and is con-
+24
+sidered an economical and environmentally friendly method to
+25
+support structures and embankments (
+6
+Preibe 2005). However,
+26
+the stone column is cohesionless and cannot bear an external load
+27
+without a radial constraint provided by other materials (Hughes
+28
+et al. 1975). The application of stone columns may be limited when
+29
+there is a lack of sufficient radial constraint from the surrounding
+30
+soil. By encasing the stone column with cylindrical geogrids,
+31
+geogrid-encased stone columns have been successfully applied
+32
+in extremely soft soil in recent years (Yoo 2010; Almeida et al.
+33
+2015, 2018; Cengiz and Guler 2018; Zhou and Kong 2019).
+34
+The geogrid encasement greatly improves the stiffness and bearing
+35
+capacity of the stone columns and prevents the loss of gravels into
+36
+the soft soil. However, the reinforcement mechanism is not effec-
+37
+tively applied because it involves complex interactions between
+38
+granular materials and tensile resistant materials. Various studies
+39
+have been conducted to investigate the mechanical behaviors of
+40
+encased stone columns through experiments (Rajagopal et al. 1999;
+41
+7
+Wu and Hong 2009; Chen et al. 2018; Xue et al. 2019), model tests
+42
+(Ghazavi and Afshar 2013; Hong et al. 2016; Miranda et al. 2017),
+43
+and numerical simulations (Murugesan and Rajagopal 2006; Yoo
+44
+2010; Mohapatra et al. 2017; Tan and Zhao 2018).
+45
+Most of the previous numerical studies were performed using
+46
+continuum-based models such as the finite element method (FEM)
+47
+and finite difference method (FDM). Recently, some researchers
+48
+introduced the discrete element method (DEM) to model stone col-
+49
+umns. These DEM models (Cundall and Strack 1979) have advan-
+50
+tages in simulating crushed rocks, gravels, or aggregates that are
+51
+beyond the capability of continuum models because of the discrete
+52
+nature of these discontinuous materials (Tan et al. 2015, 2016). A
+53
+series of DEM models has been used to simulate the stone column
+54
+by 2D disks and blocks to study the bearing mechanism of the
+55
+isolated stone column in soft soil (Indraratna et al. 2015; Tan et al.
+56
+2018, 2019, 2020b). Gu et al. (2017a, b) conducted 3D DEM sim-
+57
+ulations of a geogrid-encased stone column using graded particles
+58
+for gravels and parallel-bonded particles for the geogrid. The
+59
+simulation results from these studies were comparable to the exper-
+60
+imental data obtained from reported model tests. However, these
+61
+numerical studies lack accurate representative gravel shapes and
+62
+size distributions. The effects of the particle shape on the response
+63
+of geogrid–soil systems have been analyzed with respect to
+64
+geogrid-reinforced ballast (Stahl and Konietzky 2011; Stahl et al.
+65
+2014; Indraratna et al. 2014;
+8
+Ngo et al. 2014; Wang et al. 2016;
+9
+Gao
+66
+and Meguid 2018). These numerical studies show that the particle
+67
+shapes and size distribution strongly affect the deformation and
+68
+strength characteristics of granular materials. They have also been
+1College of Civil Engineering, Hunan Univ., Changsha, China; Key
+Laboratory of Building Safety and Energy Efficiency, Ministry of Educa-
+tion, Hunan Univ., Changsha, China (corresponding author). ORCID:
+https://orcid.org/0000-0001-9699-1782. Email: xintan@hnu.edu.cn
+2
+2College of Civil Engineering, Hunan Univ., Changsha, China.
+3College of Civil Engineering, Hunan Univ., Changsha, China; Key
+Laboratory of Building Safety and Energy Efficiency, Ministry of Educa-
+tion, Hunan Univ., Changsha, China.
+4College of Civil Engineering, Hunan Univ., Changsha, China; Key
+Laboratory of Building Safety and Energy Efficiency, Ministry of Educa-
+tion, Hunan Univ., Changsha, China.
+Note. This manuscript was submitted on March 10, 2020; approved on
+January 13, 2021No Epub Date. Discussion period open until 0, 0; se-
+parate discussions must be submitted for individual papers. This paper is
+part of the Journal of Geotechnical and Geoenvironmental Engineering,
+© ASCE, ISSN 1090-0241.
+© ASCE
+1
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+69
+essential for adequately capturing the interactions between the
+70
+gravels in the stone column and the surrounding materials.
+71
+Therefore, the shape and size distribution of gravels that form
+72
+the stone column have been introduced to better represent the
+73
+discrete nature of the gravels in a DEM model. The geogrid encase-
+74
+ment was simulated using shell-type geogrid elements in the FDM
+75
+model. The geogrid-encased stone column under axial loading
+76
+was simulated using a DEM-FDM coupled numerical scheme,
+77
+which was verified by experimental data. The complete deforma-
+78
+tion and failure process of the geogrid-encased stone column were
+79
+well captured by the proposed numerical model. The mechanical
+80
+behaviors affected by the column and geogrid properties were in-
+81
+vestigated through a parametric study.
+82
+Numerical Modeling of Geogrid-Encased Stone
+83
+Column
+84
+The numerical analysis conducted in the proposed study was
+85
+performed using the Particle Flow Code (PFC 6.0) and
+10
+Fast Lagran-
+86
+gian Analysis in the Continua software program (FLAC3D 6.0).
+87
+Modeling the Geogrid
+88
+The geogrid encasement, which has constrained interactions with
+89
+the stone column, can be simulated using shell-type geogrid ele-
+90
+ments in FLAC3D. The geogrid element behaves as an isotropic,
+91
+linear elastic material, the mechanical behaviors of which are
+92
+illustrated in
+11
+Fig. 1. The stresses that act on the geogrid structure,
+93
+consisting of the confining stress σm and total shear stress τ, are
+94
+balanced by the membrane stress N that develops within the
+95
+geogrid element itself. The confining stress σm is the normal stress
+96
+applied on the surface of the element, which can be induced by the
+97
+extrusion from the adjacent particles or grids. A tangential frictional
+98
+interaction occurs between the geogrid and the FLAC3D grid. The
+99
+elastic modulus, Poisson’s ratio, and thickness are used to represent
+100
+the elastic behavior of the geogrid element (Itasca 2017a). The
+101
+tensile limit or tensile strain limit has been added as an additional
+102
+parameter for geogrid elements through the FISH program in
+103
+FLAC3D. The element is deleted to simulate the rupture of the
+104
+geogrid when its maximum tensile stress (or strain) is higher than
+105
+the limit value.
+106
+The high-density polyethylene biaxial geogrid in the model test
+107
+conducted by Gu et al. (2017a) was simulated with a mesh of aper-
+108
+ture size 40 × 40 mm and a rib width of 5 mm. The stiffness and
+109
+tensile strength of the geogrid were obtained from a multirib tensile
+110
+test (
+12
+ASTM 2015). Thus, the parameters of the geogrid element can
+111
+be determined by simulating the direct tensile test on the geogrid
+112
+model, as shown in Fig. 2. The simulated stress–strain curve of the
+113
+geogrid model is compared with the experimental data in Fig. 2(a),
+114
+and the model parameters, shown in Table 1. The tensile strength
+115
+per unit width of the geogrid structure is 35 kN=m, and the tensile
+116
+limit of each geogrid rib is 1.5 kN (or 125 MPa in membrane
+117
+stress). Fig. 2(b) shows the tensile force distribution and final rup-
+118
+ture of the geogrid model in the direct tensile test.
+119
+Modeling Gravels
+120
+The shape and size distribution of the gravels are the key character-
+121
+istics used for simulating the discrete nature of granular materials in
+122
+the proposed numerical model. It is reasonable to assume that the
+123
+gravels are unbreakable, considering the stress state for stone col-
+124
+umns. A single gravel can be represented as a rigid body without a
+125
+failure limit. Therefore, the rigid block module in PFC 6.0 (Itasca
+126
+2017b) can be adopted to simulate the gravels, which introduces the
+127
+capability of modeling nonspherical rigid particles. The computa-
+128
+tional efficiency of the rigid block module is maximized because
+129
+the contact detection and resolution using the Gilbert–Johnson–
+130
+Keerthi algorithm (Gilbert et al. 1988) were adopted, which assumes
+131
+only one contact between two convex objects. The simulation pro-
+132
+cedure to model a gravel specimen under the large triaxial compres-
+133
+sion test is shown in Fig. 3.
+F1:1
+Fig. 1. Mechanical model for the geogrid element. (Reprinted from
+F1:2
+Computers and Geotechnics, Vol. 126, X. Tan, Z. Hu, M. Cao, and
+F1:3
+C. Chen, “3D discrete element simulation of a geotextile-encased stone
+F1:4
+column under uniaxial compression testing,” 103769, © 2020, with
+F1:5
+permission from Elsevier.)
+F2:1
+Fig. 2. Numerical results of the geogrid model under direct tensile test: (a) stress–strain curves; and (b) tensile force distribution.
+© ASCE
+2
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+134
+First, several particle shapes were selected according to the most
+135
+common shapes extracted from actual gravels, simplified into 3D
+136
+convex polyhedra, and meshed in
+13
+CAD software. Then, the poly-
+137
+hedron models were input into the PFC as the shape templates. The
+138
+gravel specimen can be built by packing sufficient gravel particles
+139
+with the randomly selected shapes from the predetermined tem-
+140
+plates until the desired relative density is achieved. A large gravel
+141
+specimen with 300-mm diameter and 600-mm height was modeled
+142
+according to experimental data. The grain size distribution and rel-
+143
+ative density of the gravel specimen were measured after the
+144
+numerical model was generated to obtain true experimental data.
+145
+The grain size distribution in the numerical model was compared
+146
+with the experimental data from Gu et al. (2017a), as shown in
+147
+Fig. 4. The grain size distribution curve of the numerical model
+148
+was generally consistent with the experimental data, except in
+149
+the very small grain size range.
+150
+The contact behaviors between gravels are represented by the
+151
+linear contact bond model, which provides a linear spring that
+152
+acts in parallel with two gravels (Cundall and Strack 1979). The
+153
+linear spring of the contacts reveals the linear elastic (no-tension)
+154
+frictional behavior of gravels. Only three microscopic parameters
+155
+are needed for the contact model: contact Young’s modulus Ec,
+156
+normal-to-shear stiffness ratio kn=ks, and friction coefficient μ.
+157
+The method to determine the contact parameters was described
+158
+by Stahl and Konietzky (2011) and Tan et al. (2018). The contact
+159
+parameters can be roughly calculated following the determination
+160
+method provided by
+14
+Konietzky (2011). A large-scale triaxial test
+161
+simulation was conducted to more precisely determine the proper
+162
+contact parameters, given that the contact parameters also depend
+163
+on the gravel shapes, size distribution, and relative density. The
+164
+gravel specimens with a relative density of 0.72 were prepared
+165
+according to the method suggested by Salot et al. (2009) and Minh
+166
+and Cheng (2013). During the specimen preparation stage, the
+167
+densest specimen was prepared using a friction coefficient of
+168
+zero, since there was no frictional resistance to prevent the gravels
+169
+from moving. The looser specimens were prepared using higher
+170
+frictional coefficients. Several gravel specimens with different
+171
+frictional coefficients in the range of 0–5
+15
+were prepared by this
+172
+method. The void ratios of the specimens were measured after
+173
+the specimens reached static equilibrium under gravity with lateral
+174
+confinement; therefore, an empirical relationship between the void
+175
+ratio and the friction coefficient can be established for the proposed
+176
+gravel model. The minimum void ratio of 0.33 was observed in
+177
+the densest gravel model with zero friction coefficient, and the
+178
+maximum void ratio of ∼0.88 was observed in dense gravel models
+179
+with a friction coefficient higher than 3.0; these ratios are basically
+180
+consistent with statistical results of existing experiments (Wang and
+181
+Song 2019). The gravel specimen with the desired relative density
+182
+can be prepared by selecting a proper friction coefficient during the
+183
+specimen preparation stage.
+184
+The stress–strain curves of the simulated triaxial compression
+185
+test under confining pressures of 50, 100, and 200 kPa are illus-
+186
+trated in Fig. 5, which shows that the confining stress-dependent
+187
+stiffness, frictional strength, and dilatancy were well simulated.
+188
+The macroscopic Mohr–Coulomb parameters of the gravel speci-
+189
+men with a relative density of 0.72 are φ ¼ 41.8° and c ¼ 23 kPa.
+190
+The apparent cohesion of gravel specimens can be explained by
+191
+interlocking effects in gravel particles, which was also observed
+192
+in previous experimental studies (Gebrenegus et al. 2015; Chen
+193
+et al. 2018). The input microscopic parameters and observed mac-
+194
+roscopic properties are listed in Table 2. The mechanical response
+195
+of gravels can be properly captured by combining the gravel par-
+196
+ticle shape, size distribution, and corresponding contact parameters.
+197
+The observed macroproperties of the proposed gravel model are in
+198
+the typical range of parameters used for modeling stone columns
+199
+(Almeida et al. 2018). Gu et al. (2017a) adopted a high friction
+200
+coefficient of 0.8 and contact bond strength in their gravel model
+201
+to introduce the interlocking effect. These redundant parameters
+202
+were against common sense in granular physics, which is not nec-
+203
+essary if the gravel shape is being considered.
+F3:1
+Fig. 3. Simulation of a gravel specimen under the large triaxial com-
+F3:2
+pression test. (Reprinted from Computers and Geotechnics, Vol. 126,
+F3:3
+X. Tan, Z. Hu, M. Cao, and C. Chen, “3D discrete element simulation
+F3:4
+of a geotextile-encased stone column under uniaxial compression
+F3:5
+testing,” 103769, © 2020, with permission from Elsevier.)
+F4:1
+Fig. 4. Grain size distribution of the gravel specimen.
+Table 1. Geogrid model parameters
+T1:1
+Elastic
+modulus Eg
+(GPa)
+Poisson’s
+ratio νg
+Tensile strength Tg
+(geogrid)
+(kN · m−1)
+Tensile strength Tr
+(per rib)
+(kN)
+Ultimate tensile
+strain εt
+(%)
+Thickness t
+(mm)
+Rib width b
+(mm)
+T1:2
+1.5
+0.33
+35
+1.50
+7
+2
+6
+© ASCE
+3
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+204
+Modeling a Geogrid-Encased Stone Column
+205
+The axial loading test on an isolated geogrid-encased stone column
+206
+was conducted in the laboratory at Hunan University in China,
+207
+as shown in Fig. 6(a). The geogrid and gravel properties are as
+208
+described in previous sections. More details about the column
+209
+construction and loading procedure can be found in Gu et al.
+210
+(2017a). A geogrid-encased stone column with the identical dimen-
+211
+sions was modeled by the aforementioned gravel and geogrid
+212
+models, as shown in Fig. 6(b). PFC 6.0 shows the coupling scheme
+213
+by which force and displacement are transferred between geogrid
+214
+element nodes and particles through the PFC walls (Itasca 2017b).
+215
+The frictional resistance between geogrid ribs and gravels is con-
+216
+trolled by the friction coefficient between the wall and the gravel
+217
+particles. Some studies (Stahl et al. 2014; Gao and Meguid 2018)
+218
+indicated that the friction coefficient is in the range of 0.3–0.4. The
+219
+friction coefficient was set to 0.35 in the proposed model. Two rigid
+220
+walls were created on the top and bottom ends of the stone column
+221
+to represent the loading plate. The plate on the bottom was fixed
+222
+during displacement, and the axial stress was added under con-
+223
+trolled displacement by applying a downward velocity to the top
+224
+loading plate on the stone column. The loading velocity was mini-
+225
+mized to maintain a quasi-static equilibrium condition during the
+226
+loading process, which was 0.5 mm=min in the model test and
+227
+0.0004 mm=timestep in the numerical simulation.
+228
+Deformation and Failure Processes of Geogrid-
+229
+Encased Stone Column
+230
+Complete Load-Settlement Curve
+231
+Fig. 7 shows the complete load-settlement curves of the geogrid-
+232
+encased stone column under the axial loading base on the proposed
+233
+numerical model and the experimental results. The settlement
+234
+is represented by the vertical displacement of the top loading
+235
+plate. The load is represented by the axial stress that acts on top
+236
+of the stone column, which is defined as the ratio between the
+237
+total vertical contact force that acts on the top wall and the section
+238
+area of the stone column. The load-deformation relationship of the
+239
+stone column was completely changed by the geogrid encasement.
+240
+As shown in Fig. 5(a), the stress–strain behavior of pure gravel
+F5:1
+Fig. 5. Simulated stress–strain curves of triaxial compression tests on gravel specimens: (a) deviatoric stress versus axial strain; and (b) volumetric
+F5:2
+strain versus axial strain.
+Table 2. Input microscopic parameters and observed macroscopic
+properties
+T2:1
+Type
+Parameter
+Symbol
+Value
+T2:2
+Input
+microparameters
+Contact Young’s modulus
+Ec (Pa)
+5 × 107
+T2:3
+Normal-to-shear stiffness
+ratio
+kn=ks
+2.0
+T2:4
+Friction coefficient
+μ
+0.5
+T2:5
+Gravel size
+D (mm)
+10–60
+T2:6
+Relative density
+—
+0.72
+T2:7
+Density
+ρ (kg=m3)
+2,400
+T2:8
+Observed macro
+properties
+Confining pressure
+σ3 (kPa)
+0–200
+T2:9
+Secant modulus
+E50 (MPa)
+25–70
+T2:10
+Poisson’s ratio
+ν
+0.33–0.38
+T2:11
+Apparent friction angle
+φ (degrees)
+41.8
+T2:12
+Apparent cohesion
+c (kPa)
+23
+F6:1
+Fig. 6. Geogrid-encased stone column under uniaxial compression
+F6:2
+test: (a) experimental model; and (b) numerical model.
+© ASCE
+4
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+241
+specimens shows a nonlinear elastic-plastic character. However, the
+242
+load-settlement curve of the geogrid-encased stone column shows a
+243
+different evolution in Fig. 7. The simulated load-settlement curve of
+244
+the encased stone column is almost linear before the peak load due
+245
+to the elastic constraint provided by the geogrid encasement.
+246
+The peak load (489 kPa) is obtained when the settlement is equal
+247
+to 54 mm, which is slightly larger than the experimental result
+248
+(469 kPa). Stress-softening behavior can be observed after the peak
+249
+strength is observed. The load-settlement curve obtained from the
+250
+numerical simulation shows good consistency with the experimen-
+251
+tal data.
+252
+Macroscopic Deformation and Failure Processes
+253
+To further investigate the deformation and failure characteristics
+254
+of the geogrid-encased stone column during the complete loading
+255
+process, several loading stages were selected and marked in the
+256
+load-settlement curve in Fig. 7. The progressive failure process
+257
+of the proposed numerical model is plotted in Fig. 8, where stage
+258
+o is the initial state before loading, stages a–c are in the prefailure
+259
+range, d is the peak strength stage, and e is in the postfailure range.
+260
+The grayscale of the gravels represents the settlement magnitude
+261
+of each particle. The contour in the geogrid elements represents
+262
+the membrane stress (positive is tension).
+263
+The settlement of the gravels increases when the load increases,
+264
+and the magnitude of the settlement gradually decreases from top
+265
+to bottom because of the fixed bottom plate. Some gravels squeezed
+266
+out of the mesh apertures in the biaxial geogrid because of the
+267
+dilatancy of the stone column under compression. These moving
+268
+gravels induce a sudden change in the internal structure of the
+269
+stone column, which may be the reason for some fluctuation in
+270
+the prefailure range in the load-settlement curve. A small number
+271
+of squeezed-out gravels does not lead to column failure because a
+272
+strong radial constraint is provided by the geogrid encasement.
+273
+However, the membrane stress gradually increases when the load
+F7:1
+Fig. 7. Load-settlement curves of the geogrid-encased stone column
+F7:2
+under axial loading.
+F8:1
+Fig. 8. Progressive failure process of the geogrid-encased stone column.
+© ASCE
+5
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+274
+increases, which reveals a huge difference between the transverse
+275
+rib and the longitudinal rib of the geogrid. The transverse ribs
+276
+mainly bear a large tension, while some longitudinal ribs show the
+277
+state of compression. The magnitude of tensile stress in the trans-
+278
+verse ribs is much higher than the compression stress in the lon-
+279
+gitudinal ribs. The maximum tensile stress in the transverse rib
+280
+appears in the middle region of the stone column at loading stage
+281
+d in Fig. 8, where the rib is punctured due to the gravel stabs in
+282
+stage e. As shown in the enlarged view of Fig. 8, the rib rupture
+283
+causes the tensile stress to increase in the neighboring transverse
+284
+ribs, and more gravels move out from the avulsed mesh in the
+285
+postfailure region.
+286
+To investigate the stress state variations of the entire stone col-
+287
+umn, several monitoring spheres with the same diameter as the stone
+288
+column were set along the column length, as shown in Fig. 9(a).
+289
+The average stresses of the gravels inside a monitoring sphere were
+290
+calculated by converting the discrete contact forces into macro-
+291
+scopic continuum stresses. Figs. 10(a and b) show the distribution
+292
+of the vertical and radial stress in the stone column along its length at
+293
+different loading stages. Both vertical and radial stresses increase
+294
+when the settlement increases, and reach maximum values at the
+295
+peak load stage d. The ratio between vertical stress and radial stress
+296
+varies from 1.0 to 1.4 during the complete loading process, which is
+297
+much lower than the coefficient of the passive earth pressure for
+298
+cohesionless materials (4.9). The low stress ratio, as shown in
+299
+Fig. 11, indicates that the stress state of the stone column never ap-
+300
+proaches the limiting equilibrium state, even in the failure stage. The
+301
+geogrid encasement can provide sufficient radial constraint to main-
+302
+tain column stability during the complete loading process. In other
+303
+words, the encased stone column will not fail unless the encasement
+304
+is broken.
+305
+The average radial strain of the transverse ribs at different
+306
+heights of the column is shown in Fig. 10(c), which can also be
+307
+considered a representation of the radial strain of the stone column
+308
+body. The top and bottom regions have smaller radial strains than
+309
+the middle region of the stone column, which can be mainly ex-
+310
+plained by the frictional constraint from the loading plates. It also
+F9:1
+Fig. 9. Monitoring setup in the numerical model: (a) measurement
+F9:2
+spheres for gravel particles; and (b) tensile gauge for geogrid.
+F10:1
+Fig. 10. Stress and strain distribution along the column length at different loading stages: (a) vertical stress; (b) radial stress; and (c) radial strain.
+F11:1
+Fig. 11. Stress ratio at different loading stages.
+© ASCE
+6
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+311
+explains that the maximum tensile stress in the transverse rib more
+312
+likely appears in the middle region of the stone column.
+313
+The radial and vertical stresses in the numerical model by Gu
+314
+et al. (2017a) are smaller than those in the proposed model at sim-
+315
+ilar settlements [Figs. 10(a and b)]. This may be attributed to the
+316
+existing contact bond strength in their model, especially the shear
+317
+bond strength. The contact bonds prevent the movement of gravel
+318
+particles, which may weaken the interaction between gravel and the
+319
+geogrid encasement [Fig. 10(c)].
+320
+The tensile force of the geogrid encasement was monitored by
+321
+tensile gauges, as shown in Fig. 9(b). The gauges were placed on
+322
+three different parts of the biaxial geogrid according to the geogrid
+323
+geometry: the longitudinal rib, transverse rib, and intersection.
+324
+Fig. 12 shows the tensile force distribution along the column length
+325
+at different loading stages. The distribution curves of tensile force
+326
+in the geogrid elements are not as smooth as the curves of the aver-
+327
+age stresses in the stone column. The serrated curves show the load
+328
+concentration effect in the geogrid elements caused by stabs from
+329
+the irregularly shaped gravels. The longitudinal rib bears the lowest
+330
+tensile force because the stone column is compressed in the vertical
+331
+direction. The tensile force in the intersection is larger than that in
+332
+the longitudinal rib and much lower than the tensile limit of the
+333
+geogrid. The largest tensile force appears in the transverse rib
+334
+due to the radial expansion of the stone column. The maximum
+335
+tensile force in the transverse rib can be observed as the sharp rise
+336
+in the distribution curves at loading stage d in Fig. 12(c), which is
+F12:1
+Fig. 12. Tensile force distribution in geogrid along the column length at different loading stages: (a) longitudinal rib; (b) intersection; and
+F12:2
+(c) transverse rib.
+F13:1
+Fig. 13. Gravel displacement vector distribution at different loading stages.
+© ASCE
+7
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+337
+close to the tensile limit of the geogrid. The sharp rise rapidly
+338
+changes to show subsidence in postfailure stage e because of the
+339
+sudden rupture of geogrid ribs. Thus, the bearing capacity of the
+340
+geogrid-encased stone column mainly depends on the transverse rib
+341
+of the geogrid.
+342
+Microscopic Particle and Contact Behaviors
+343
+The DEM numerical model provides the ability to visually trace the
+344
+gravel and internal structure changes of the stone column from a
+345
+microscopic view. Fig. 13 illustrates the gravel displacement vector
+346
+distribution during the complete loading process. Only the results
+347
+showing a middle cut-plane of the stone column was plotted to
+348
+avoid confusion caused by too many chaotic arrows. The drastic
+349
+displacements of the gravels are generated in the upper half of
+350
+the column. The compaction degree of the stone column increases
+351
+during the loading process, as indicated by some voids being filled
+352
+with moving gravels under loading.
+353
+Fig. 14(a) illustrates the force chain evolvement inside the stone
+354
+column during the complete loading process. The force chain is
+355
+the assembly of contact forces, which is graphically illustrated
+356
+by cylindrical beams.
+16
+The diameter and color of the cylinders are
+357
+scaled by the contact force magnitude. The force chains of the stone
+358
+column before loading appear directionless and disorganized, and
+359
+their contact forces are mostly below 0.3 kN. With an increase in
+360
+settlement, the contact forces increase and reach the maximum
+361
+value of 3.23 kN at peak load stage d. At postfailure stage e,
+362
+the maximum contact force decreases to 3.1 kN. The force chain
+363
+network does not immediately collapse after the peak load due to
+364
+the constraint from the unbroken geogrid. The number of strong
+365
+force chains (a contact force larger than 1.5 kN) is gradually in-
+366
+creased with settlement, and the strong force chains tend to directly
+367
+grow. As shown in the enlarged windows, a single strong force
+368
+chain usually contains 3–4 gravels. Strong force chains connect
+369
+with others and form the force chain network. The axial load is
+370
+transmitted from top to bottom through the force chain network.
+371
+The anisotropy feature of the average contact forces during the
+372
+loading process are best illustrated by rose diagrams, which are
+373
+shown in Fig. 14(b), and were obtained by statistically determining
+374
+the normal contact direction and distribution of the average contact
+375
+forces at angular intervals of 10°.
+F14:1
+Fig. 14. Force chain evolvement during the complete loading process: (a) force chains; and (b) orientation of contact normal forces.
+© ASCE
+8
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+376
+Although there are considerably fewer strong force chains than
+377
+weak chains, the strong force chains bear most of the external load.
+378
+Large movement of the gravels may destroy the stable structure of
+379
+the force chain network and cause stress softening of the stone col-
+380
+umn. The contact forces show an interesting trend in their predomi-
+381
+nant directions according to their magnitudes. Fig. 15(a) shows the
+382
+directions and quantity of the contact forces within specific ranges.
+383
+The strong contact force is minimal in quantity and shows a pre-
+384
+dominant vertical direction. The number of weak contact forces is
+385
+one order of magnitude higher than that of the strong forces and
+386
+tends to increase. The anisotropy feature of the quantities of con-
+387
+tacts under different levels of contact force is illustrated by rose
+388
+diagrams in Fig. 15(b). The predominant direction of the weak con-
+389
+tact forces indicates that they most likely induce radial stress in the
+390
+stone column.
+391
+Another critical indicator related to the internal structure of the
+392
+granular materials is the average coordination number, which is de-
+393
+fined as the average number of contacts on one gravel in a certain
+394
+region. The average coordination number commonly represents the
+395
+packing stability and density of granular materials. The stone col-
+396
+umn in a dense state has a high average coordination number. The
+397
+average coordination number evolvements for different column
+398
+parts during the complete loading process are shown in Fig. 16.
+399
+The initial average number varies from 6.3 to 6.6 depending on
+400
+the column part. After being loaded, the average number increases
+401
+and has a maximum value of 6.9 when the settlement reaches
+402
+11 mm. Then, the average number gradually decreases until column
+403
+failure, reaching its minimum value of 6.0. According to the
+404
+evolvement in the average coordination number as shown in Fig. 16,
+405
+the mechanical behavior of the stone column can be divided into
+406
+two distinctive stages: compaction and dilation. Continuous dila-
+407
+tion causes tension in the geogrid encasement, which produces
+408
+the radial constraint that acts on the stone column and maintains
+409
+the stability of the stone column. The number in the middle column
+410
+significantly decreases, which is consistent with the macroscopic
+411
+bulging deformation as shown in Fig. 10(c).
+412
+The coordination number evolvement in this study shows a no-
+413
+tably different trend compared with the DEM simulation conducted
+414
+by Gu et al. (2017a), whose result showed that the coordination
+F15:1
+Fig. 15. Contact force distribution of different magnitude at the loading stage d: (a) force chains; and (b) orientation of contact quantities.
+F16:1
+Fig. 16. Average coordination number evolvement during the com-
+F16:2
+plete loading process.
+© ASCE
+9
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+415
+number stays almost constant until settlement reaches 40 mm. It
+416
+was possible that the contact bonds prevented particle movement
+417
+during the loading process, and influenced the coordination number
+418
+evolvement.
+419
+Parametric Study
+420
+To further investigate the mechanical behaviors of the geogrid-
+421
+encased stone column, several important material properties of the
+422
+geogrid and gravels were selected to conduct the parametric study.
+423
+A series of numerical simulations to model the axial loading tests
+424
+was performed. The geometry model was identical to
+17
+the previ-
+425
+ously described model test in section 2. All model parameters were
+426
+fixed as listed in Tables 1 and 2, except for the parameters being
+427
+studied.
+428
+Effect of Geogrid Properties
+429
+Direct tensile tests on geogrid models with different stiffness and
+430
+tensile strength were performed, and the results are shown in
+431
+Fig. 17. Geogrid modes with extremely low and high mechanical
+432
+performances were adopted to investigate the mechanical responses
+433
+of geogrid-encased stone columns with a wide range of geogrid
+434
+properties. Fig. 18(a) shows the complete load-settlement curves of
+435
+the stone column encased by the corresponding geogrid elements.
+436
+The load-settlement curves show similar shapes but different com-
+437
+pression moduli (the elastic modulus under uniaxial compressional
+F18:1
+Fig. 18. Numerical results of stone columns encased by different geogrids: (a) load-settlement curves; (b) failure patterns (refer to the scale in Fig. 8);
+F18:2
+(c) column compression modulus; and (d) column-bearing capacity.
+F17:1
+Fig. 17. Direct tensile test results of different geogrid models.
+© ASCE
+10
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+438
+loading) and peak loads. Three different models at the selected
+439
+loading state (close to the peak load) are shown in Fig. 18(b), which
+440
+provides the gravel settlement and membrane stress of the geogrid
+441
+elements. A stronger radial constraint can be provided by the
+442
+stronger geogrid due to the higher membrane stress at its failure
+443
+stage. Therefore, the bearing capacity of the encased stone column
+444
+increases when the geogrid strength increases, and a linear relation-
+445
+ship is shown in Fig. 18(c). The stiffness of granular materials in-
+446
+creases with increasing confining stress, which leads to obvious
+447
+compressive hardening. The stone column encased by a stiffer geo-
+448
+grid has a higher modulus, and the linear relationship is maintained,
+449
+as shown in Fig. 18(d).
+450
+Effect of Gravel Relative Density
+451
+Fig. 19(a) shows the complete load-settlement curves of the en-
+452
+cased stone column with different relative densities. The load-
+453
+settlement curves show similar shapes but different compression
+454
+moduli and peak loads. Fig. 19(b) shows the gravel settlement
+455
+and membrane stress of the geogrid elements. The compression
+456
+modulus and bearing capacity of the encased stone column increase
+457
+when the gravel relative density increases and a linear relationship
+458
+can be observed in Figs. 19(c and d). The difference in relative den-
+459
+sity reflects the change in internal microscopic structure in the stone
+460
+columns, which causes a profound difference in mechanical perfor-
+461
+mance. Therefore, the average coordination number evolvements of
+462
+the loose and dense stone columns during the complete loading
+463
+process are shown in Fig. 20, which better explains the mechanism
+464
+of different macroscopic behaviors caused by changes in the micro-
+465
+scopic structure. Fig. 20 shows that the average coordination num-
+466
+ber of the stone column with different relative densities varies in
+467
+both magnitude and evolvement law. The average coordination
+468
+number of the loose stone column is initially 4.1 and increases with
+469
+settlement until the settlement reaches 30 mm with the maximum
+470
+value, 4.8; then, it slightly decreases to the minimum value, 4.6.
+471
+The average number of the dense stone column is initially 6.7,
+472
+which slightly increases with settlement and reaches the maximum
+473
+value, 6.8; after only a 6-mm settlement, the number continues de-
+474
+creasing until the final settlement, with the minimum value of 6.1.
+475
+The difference in average coordination number indicates that the
+476
+loose stone column is primarily compressed during the loading pro-
+477
+cess, while the dense stone column follows a trend of continuous
+F19:1
+Fig. 19. Numerical results of encased stone columns with different gravel relative density: (a) load-settlement curves; (b) failure patterns (refer to the
+F19:2
+scale in Fig. 8); (c) column compression modulus; and (d) column-bearing capacity.
+© ASCE
+11
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+478
+expansion. Nevertheless, the compaction degree of the gravels in
+479
+the dense stone column is always higher than that in the loose stone
+480
+column during the complete loading process. A greater stone col-
+481
+umn expansion corresponds to a larger radial constraint from the
+482
+geogrid.
+483
+Conclusions
+484
+A geogrid-encased stone column has been numerically modeled
+485
+with a DEM stone column encased by FDM geogrid elements.
+486
+The shape and size distribution of the gravels that form the stone
+487
+column have been introduced to best represent the discrete nature
+488
+of the gravels in the DEM model. The geogrid-encased stone col-
+489
+umn under axial loading was simulated using the DEM-FDM
+490
+coupled numerical scheme, and the results were verified by exper-
+491
+imental data. Based on the numerical analysis, the main conclu-
+492
+sions are as follows:
+493
+1. The simulation results of the proposed numerical models and
+494
+experiments are consistent with each other. The complete
+495
+stress–strain behaviors of the geogrid-encased stone column
+496
+under axial loading were successfully predicted, including the
+497
+linear elastic relationship in the prefailure region and the strain
+498
+softening behavior in the postfailure region. The complete de-
+499
+formation and failure processes of the geogrid-encased stone
+500
+column have been well captured.
+501
+2. The proposed numerical scheme effectively captured the
+502
+mechanical interactions in the geogrid–gravels system. The ten-
+503
+sile force in the geogrid ribs is induced by the column expansion
+504
+and stabs from irregularly shaped gravels. The stress state of the
+505
+stone column never approaches the limiting equilibrium state,
+506
+even at the failure stage. The bearing capacity of the geogrid-
+507
+encased stone column mainly depends on the transverse rib of
+508
+the geogrid.
+509
+3. The DEM model provides the ability to visually investigate the
+510
+internal structural changes in the stone column from a micro-
+511
+scopic view. The force chain network and coordination numbers
+512
+inside the stone column were determined during the complete
+513
+loading process and were related to the macroscopic failure
+514
+mechanism.
+515
+4. The mechanical behaviors affected by the column and geogrid
+516
+properties were investigated through a parametric study. The
+517
+numerical results indicate that the properties of the geogrid
+518
+and gravels control the stiffness and bearing capacity of the en-
+519
+cased stone column. The linear relationship can be established
+520
+between the macroscopic performance of the geogrid-encased
+521
+stone column and properties of the geogrid and gravels.
+522
+Data Availability Statement
+523
+Some or all data, models, or code generated or used during the
+524
+study are available from the corresponding author by request.
+525
+Acknowledgments
+526
+This research was supported by the Special Funding Support for the
+527
+Construction of Innovative Provinces in Hunan Province of China
+528
+(ID 2019GK1011) and the Natural Science Foundation of Hunan
+529
+Province of China (ID 2019JJ50056).
+530
+References
+531
+Almeida, M. S., I. Hosseinpour, M. Riccio, and D. Alexiew. 2015. “Behav-
+532
+ior of geotextile-encased granular columns supporting test embankment
+533
+on soft deposit.” J. Geotech. Geoenviron. Eng. 141 (3): 04014116.
+534
+https://doi.org/10.1061/(ASCE)GT.1943-5606.0001256.
+535
+Almeida, S. S., M. Riccio, I. Hosseinpour, and D. Alexiew. 2018. Geosyn-
+536
+thetic encased columns for soft soil improvement. Boca Raton, FL: CRC
+537
+Press.
+538
+Cengiz, C., and E. Guler. 2018. “Seismic behavior of geosynthetic encased
+539
+columns and ordinary stone columns.” Geotext. Geomembr. 46 (1):
+540
+40–51. https://doi.org/10.1016/j.geotexmem.2017.10.001.
+541
+Chen, J. F., X. T. Wang, J. F. Xue, Y. Zeng, and S. Z. Feng. 2018. “Uniaxial
+542
+compression behavior of geotextile encased stone columns.” Geotext.
+543
+Geomembr. 46 (3): 277–283. https://doi.org/10.1016/j.geotexmem
+544
+.2018.01.003.
+545
+Cundall, P. A., and O. D. Strack. 1979. “A discrete numerical model for
+546
+granular assemblies.” Géotechnique 29 (1): 47–65. https://doi.org/10
+547
+.1680/geot.1979.29.1.47.
+548
+Gao, G., and M. A. Meguid. 2018. “Effect of particle shape on the response
+549
+of geogrid-reinforced systems: Insights from 3D discrete element analy-
+550
+sis.” Geotext. Geomembr. 46 (6): 685–698. https://doi.org/10.1016/j
+551
+.geotexmem.2018.07.001.
+552
+Gebrenegus, T., J. Nicks, and B. Adams. 2015. “Large diameter triaxial
+553
+testing of AASHTO open graded aggregates and the effect of relative
+554
+density on strength.” In Proc., Int. Foundations Congress and Equip-
+555
+ment Expo, edited by M. Iskander, M. T. Suleiman, J. B. Anderson, and
+556
+D. F. Laefer, 1870–1879. San Antonio.
+18
+557
+Ghazavi, M., and J. N. Afshar. 2013. “Bearing capacity of geosynthetic
+558
+encased stone columns.” Geotext. Geomembr. 38 (Jun): 26–36. https://
+559
+doi.org/10.1016/j.geotexmem.2013.04.003.
+560
+Gilbert, E. G., D. W. Johnson, and S. S. Keerthi. 1988. “A fast procedure for
+561
+computing the distance between complex objects in three-dimensional
+562
+space.” Int. Conf. Rob. Autom. 4 (2): 193–203.
+19
+563
+Gu, M., J. Han, and M. Zhao. 2017a. “Three-dimensional DEM analysis of
+564
+single geogrid-encased stone columns under unconfined compression:
+F20:1
+Fig. 20. Average coordination number evolvement during the complete loading process: (a) loose gravels; and (b) dense gravels.
+© ASCE
+12
+J. Geotech. Geoenviron. Eng.
+P R O O F O N L Y
+565
+A parametric study.” Acta Geotech. 12 (3): 559–572. https://doi.org/10
+566
+.1007/s11440-017-0547-z.
+567
+Gu, M., J. Han, and M. Zhao. 2017b. “Three-dimensional discrete-element
+568
+method analysis of stresses and deformations of a single geogrid-
+569
+encased stone column.” Int. J. Geomech. 17 (9): 4017070. https://doi
+570
+.org/10.1061/(ASCE)GM.1943-5622.0000952.
+571
+Hong, Y.-S., C.-S. Wu, and Y.-S. Yu. 2016. “Model tests on geotextile-
+572
+encased granular columns under 1-g and undrained conditions.” Geo-
+573
+text. Geomembr. 44 (1): 13–27. https://doi.org/10.1016/j.geotexmem
+574
+.2015.06.006.
+575
+Hughes, J. M. O., N. J. Withers, and D. A. Greenwood. 1975. “A field trial
+576
+of the reinforcing effect of a stone column in soil.” Géotechnique 25 (1):
+577
+31–44. https://doi.org/10.1680/geot.1975.25.1.31.
+578
+Indraratna, B., N. T. Ngo, C. Rujikiatkamjorn, and S. W. Sloan. 2015.
+579
+“Coupled discrete element–finite difference method for analysing
+580
+the load-deformation behaviour of a single stone column in soft soil.”
+581
+Comput.
+Geotech.
+63
+(Jan):
+267–278.
+https://doi.org/10.1016/j
+582
+.compgeo.2014.10.002.
+583
+Indraratna, B., N. T. Ngo, C. Rujikiatkamjorn, and J. S. Vinod. 2014.
+584
+“Behavior of fresh and fouled railway ballast subjected to direct shear
+585
+testing: Discrete element simulation.” Int. J. Geomech. 14 (1): 34–44.
+586
+https://doi.org/10.1061/(ASCE)GM.1943-5622.0000264.
+587
+Itasca Consulting Group. 2017a. FLAC3D 6.0 documentation. Minneapolis.
+588
+MN: Itasca Consulting Group.
+589
+Itasca Consulting Group. 2017b. PFC 6.0 documentation. Minneapolis,
+590
+MN: Itasca Consulting Group.
+591
+Minh, N. H., and Y. P. Cheng. 2013. “A DEM investigation of the effect of
+592
+particle-size distribution on one-dimensional compression.” Géotechni-
+593
+que 63 (1): 44–53.
+20
+594
+Miranda, M., A. D. Costa, J. Castro, and C. Sagaseta. 2017. “Influence of
+595
+geotextile encasement on the behaviour of stone columns: Laboratory
+596
+study.” Geotext. Geomembr. 45 (1): 14–22. https://doi.org/10.1016/j
+597
+.geotexmem.2016.08.004.
+598
+Mohapatra, S. R., K. Rajagopal, and J. Sharma. 2017. “3-dimensional
+599
+numerical modeling of geosynthetic-encased granular columns.” Geo-
+600
+text. Geomembr. 45 (3): 131–141. https://doi.org/10.1016/j.geotexmem
+601
+.2017.01.004.
+602
+Murugesan, S., and K. Rajagopal. 2006. “Geosynthetic-encased stone col-
+603
+umns: Numerical evaluation.” Geotext. Geomembr. 24 (6): 349–358.
+604
+https://doi.org/10.1016/j.geotexmem.2006.05.001.
+605
+Ngo, N. T., B. Indraratna, and C. Rujikiatkamjorn. 2014. “DEM simulation
+606
+of the behaviour of geogrid stabilised ballast fouled with coal.” Comput.
+607
+Geotech. 55 (Jan): 224–231. https://doi.org/10.1016/j.compgeo.2013
+608
+.09.008.
+609
+Rajagopal, K., N. R. Krishnaswamy, and G. M. Latha. 1999. “Behaviour of
+610
+sand confined with single and multiple geocells.” Geotext. Geomembr.
+611
+17 (3): 171–184. https://doi.org/10.1016/S0266-1144(98)00034-X.
+612
+Salot, C., P. Gotteland, and P. Villard. 2009. “Influence of relative density
+613
+on granular materials behavior: DEM simulations of triaxial tests.”
+614
+Granular Matter 11 (4): 221–236. https://doi.org/10.1007/s10035
+615
+-009-0138-2.
+616
+Stahl, M., and H. Konietzky. 2011. “Discrete element simulation of ballast
+617
+and gravel under special consideration of grain-shape, grain-size and
+618
+relative density.” Granul. Matter 13 (4): 417–428. https://doi.org/10
+619
+.1007/s10035-010-0239-y.
+620
+Stahl, M., H. Konietzky, L. te Kamp, and H. Jas. 2014. “Discrete element
+621
+simulation of geogrid-stabilised soil.” Acta Geotech. 9 (6): 1073–1084.
+622
+https://doi.org/10.1007/s11440-013-0265-0.
+623
+Tan, X., Z. Hu, M. Cao, and C. Chen. 2020a. “3D discrete element sim-
+624
+ulation of a geotextile-encased stone column under uniaxial compres-
+625
+sion testing.” Comput. Geotech. 126 (Oct): 103769. https://doi.org/10
+626
+.1016/j.compgeo.2020.103769.
+21
+627
+Tan, X., H. Konietzky, and W. Chen. 2016. “Numerical simulation of
+628
+heterogeneous rock using discrete element model based on digital im-
+629
+age processing.” Rock Mech. Rock Eng. 49 (12): 4957–4964. https://doi
+630
+.org/10.1007/s00603-016-1030-0.
+631
+Tan, X., H. Konietzky, T. Frühwirt, and D. Q. Dan. 2015. “Brazilian tests on
+632
+transversely isotropic rocks: Laboratory testing and numerical simula-
+633
+tions.” Rock Mech. Rock Eng. 48 (4): 1341–1351. https://doi.org/10
+634
+.1007/s00603-014-0629-2.
+635
+Tan, X., and M. Zhao. 2018. “Deformation and failure behavior of the iso-
+636
+lated single stone column with and without geosynthetic encasement.”
+637
+In Proc., 2nd Int. Symp. on Asia Urban GeoEngineering, 547–559.
+22
+638
+Tan, X., M. Zhao, and W. Chen. 2018. “Numerical simulation of a single
+639
+stone column in soft clay using the discrete-element method.” Int. J.
+640
+Geomech. 18 (12): 04018176. https://doi.org/10.1061/(ASCE)GM
+641
+.1943-5622.0001308.
+642
+Tan, X., M. Zhao, Z. Hu, and L. Feng. 2020b. “Failure process of a single
+643
+stone column in soft soil beneath rigid loading: A numerical study.” Int.
+644
+J. Geomech. 20 (8): 04020130. https://doi.org/10.1061/(ASCE)GM
+645
+.1943-5622.0001776.
+646
+Tan, X., M. Zhao, Z. Zhu, and Y. Jin. 2019. “Elastic properties calibration
+647
+approach for discrete element method model based on Voronoi tessel-
+648
+lation method.” Geotech. Geol. Eng. 37 (3): 2227–2236. https://doi.org
+649
+/10.1007/s10706-018-0682-9.
+650
+Wang, Y., and E. Song. 2019. “Discrete element analysis of the particle
+651
+shape effect on packing density and strength of rockfills.” Rock Soil
+652
+Mechanics 40 (6): 2416–2426.
+23
+653
+Wang, Z., F. Jacobs, and M. Ziegler. 2016. “Experimental and DEM
+654
+investigation of geogrid–soil interaction under pullout loads.” Geotext.
+655
+Geomembr. 44 (3): 230–246. https://doi.org/10.1016/j.geotexmem
+656
+.2015.11.001.
+657
+Xue, J., Z. Liu, and J. Chen. 2019. “Triaxial compressive behaviour of geo-
+658
+textile encased stone columns.” Comput. Geotech. 108 (Apr): 53–60.
+659
+https://doi.org/10.1016/j.compgeo.2018.12.010.
+660
+Yoo, C. 2010. “Performance of geosynthetic-encased stone columns in
+661
+embankment construction: Numerical investigation.” J. Geotech. Geo-
+662
+environ. Eng. 136 (8): 1148–1160. https://doi.org/10.1061/(ASCE)GT
+663
+.1943-5606.0000316.
+664
+Zhou, Y., and G. Kong. 2019. “Deformation analysis of geosynthetic-
+665
+encased stone column—Supported embankment considering radial
+666
+bulging.” Int. J. Geomech. 19 (6): 0401905. https://doi.org/10.1061
+667
+/(ASCE)GM.1943-5622.0001426.
+© ASCE
+13
+J. Geotech. Geoenviron. Eng.
+View publication stats

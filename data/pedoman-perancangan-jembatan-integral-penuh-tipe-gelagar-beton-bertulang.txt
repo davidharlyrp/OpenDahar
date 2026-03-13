@@ -1,0 +1,1518 @@
+ 
+SURAT EDARAN MENTERI PEKERJAAN UMUM 
+DAN PERUMAHAN RAKYAT 
+NOMOR: 02/SE/M/2016 
+TANGGAL 15 MARET 2016 
+ 
+TENTANG 
+ 
+PEDOMAN PERANCANGAN JEMBATAN INTEGRAL 
+PENUH TIPE GELAGAR BETON BERTULANG 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KEMENTERIAN PEKERJAAN UMUM 
+DAN PERUMAHAN RAKYAT 
+ 
+ 
+ 
+ 
+MENTERI PEKERJAAN UMUM DAN PERUMAHAN RAKYAT 
+REPUBLIK INDONESIA 
+ 
+ 
+Kepada Yth.:  
+1. Para Pejabat Eselon I di lingkungan Kementerian Pekerjaan Umum 
+dan Perumahan Rakyat; 
+2. Para 
+Pejabat 
+Eselon 
+II 
+di 
+Direktorat 
+Jenderal 
+Bina 
+Marga 
+Kementerian Pekerjaan Umum dan Perumahan Rakyat. 
+ 
+ 
+SURAT EDARAN 
+NOMOR :  02 /SE/M/ 201620 
+13 
+TENTANG 
+ 
+PEDOMAN PERANCANGAN JEMBATAN INTEGRAL PENUH  
+TIPE GELAGAR BETON BERTULANG 
+ 
+ 
+A. Umum 
+ 
+Jembatan integral penuh (full integral) didefinisikan sebagai jembatan tanpa 
+siar muai dan tanpa sistem perletakan. Karakteristik jembatan ini 
+ditunjukkan dengan sambungan yang monolit antar dek/lantai dengan 
+struktur bangunan bawah (kepala jembatan). Penggunaan jembatan integral 
+penuh tipe gelagar beton bertulang digunakan untuk bentang pendek dan 
+tunggal dengan panjang efisien (10-20) meter.   
+ 
+B. Dasar Pembentukan 
+ 
+1. Peraturan Pemerintah Nomor 34 Tahun 2006 tentang Jalan (Lembaran 
+Negara Republik Indonesia Tahun 2006 Nomor 86, Tambahan Lembaran 
+Negara Republik Indonesia Nomor 4655); 
+2. Peraturan Pemerintah Nomor 38 Tahun 2007 tentang Pembagian 
+Urusan Pemerintahan antara Pemerintah, Pemerintahan Provinsi, 
+Pemerintahan Daerah Kabupaten/Kota (Lembaran Negara Republik 
+Indonesia Tahun 2007 Nomor 82, Tambahan Lembaran Negara Republik 
+Indonesia Nomor 4737); 
+3. Peraturan Presiden Republik Indonesia Nomor 15 Tahun 2015 tentang 
+Kementerian Pekerjaan Umum dan Perumahan Rakyat (Lembaran 
+Negara Republik Indonesia Tahun 2015 Nomor 16); 
+4. Keputusan Presiden Republik Indonesia Nomor 121/P Tahun 2014 
+tentang Pembentukan Kementerian dan Pengangkatan Menteri Kabinet 
+Kerja Periode Tahun 2014-2019; 
+ 
+ 
+ 
+ 
+5. Peraturan Menteri Pekerjaan Umum Nomor 07/PRT/M/2012 tentang 
+Penyelenggaraan Penelitian dan Pengembangan di Bidang Jalan; 
+6. Peraturan Menteri Pekerjaan Umum dan Perumahan Rakyat Nomor 
+15/PRT/M/2015 tentang Organisasi dan Tata Kerja Kementerian 
+Pekerjaan Umum dan Perumahan Rakyat. 
+ 
+C. Maksud dan Tujuan 
+ 
+Surat Edaran ini dimaksudkan sebagai acuan bagi Pejabat Eselon I dan 
+Eselon II di Kementerian Pekerjaan Umum dan Perumahan Rakyat, 
+perencana, pelaksana dan pengawas dalam kegiatan perancangan jembatan 
+integral penuh tipe gelagar beton bertulang yang bertujuan untuk 
+mengurangi 
+biaya 
+pemeliharaan, 
+desain 
+jembatan 
+lebih 
+sederhana, 
+pelaksanaan konstruksi lebih cepat, tidak adanya joint (celah) yang dapat 
+menyebabkan masuknya aliran air/debu ke dalam jembatan, biaya siklus 
+layan lebih kecil dibandingkan jembatan konvensional, dapat memperkecil 
+dimensi penampang gelagar. 
+ 
+D. Ruang Lingkup 
+ 
+Pedoman ini menetapkan ketentuan dan prosedur perancangan jembatan 
+integral penuh gelagar beton bertulang. Penampang gelagar menggunakan 
+gelagar beton yang dicor secara monolit dengan kepala jembatan. Jembatan 
+ini tidak menggunakan sistem perletakan dan siar muai. Panjang bentang 
+efisien antara 10 m sampai dengan 20 m.  
+ 
+E. Penutup 
+ 
+Ketentuan lebih rinci mengenai Pedoman Perancangan Jembatan Integral 
+Penuh Tipe Gelagar Beton Bertulang ini tercantum dalam Lampiran yang 
+merupakan bagian yang tidak terpisahkan dari Surat Edaran Menteri ini. 
+ 
+Demikian atas perhatian Saudara disampaikan terima kasih. 
+ 
+ 
+ 
+......................... 
+ Tembusan disampaikan kepada Yth.: 
+Sekretaris Jenderal, Kementerian Pekerjaan Umum dan Perumahan Rakyat. 
+LAMPIRAN  
+SURAT EDARAN MENTERI PEKERJAAN UMUM 
+DAN PERUMAHAN RAKYAT 
+NOMOR 
+: 02/SE/M/2016    
+TENTANG 
+PEDOMAN PERANCANGAN JEMBATAN INTEGRAL 
+PENUH TIPE GELAGAR BETON BERTULANG 
+ 
+ 
+PEDOMAN         
+Bahan Konstruksi Bangunan dan Rekayasa Sipil 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Perancangan jembatan integral penuh  
+tipe gelagar beton bertulang  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KEMENTERIAN PEKERJAAN UMUM 
+DAN PERUMAHAN RAKYAT 
+ 
+ 
+i 
+ 
+Daftar isi  
+ 
+ 
+Daftar isi ................................................................................................................................. i 
+Prakata ................................................................................................................................... ii 
+Pendahuluan ......................................................................................................................... iii 
+1 
+Ruang lingkup ............................................................................................................... 1 
+2 
+Acuan normatif ............................................................................................................. 1 
+3 
+Istilah dan definisi ......................................................................................................... 1 
+4 
+Ketentuan teknis perancangan ..................................................................................... 2 
+4.1 
+Tipe kepala jembatan integral penuh .......................................................................... 2 
+4.2 
+Model analisis jembatan integral penuh ...................................................................... 4 
+5 
+Prosedur perancangan struktur jembatan integral penuh .............................................. 6 
+Lampiran A (informatif) Contoh perancangan jembatan integral penuh gelagar                                            
+beton bertulang bentang tunggal dan kepala jembatan tipe dinding penuh ............................ 9 
+Lampiran B (informatif) Contoh perancangan fondasi .......................................................... 14 
+Lampiran C (informatif) Contoh gambar perancangan jembatan integral penuh................... 16 
+Bibliografi ............................................................................................................................. 22 
+ 
+Gambar 1 - Kepala jembatan tipe fondasi tiang ..................................................................... 2 
+Gambar 2 - Kepala jembatan integral penuh tipe fondasi telapak .......................................... 3 
+Gambar 3 - Kepala jembatan integral dengan dinding penuh................................................. 3 
+Gambar 4 - Model struktur dan gaya yang bekerja pada jembatan integral penuh ................. 4 
+Gambar 5 - Pemodelan kepala jembatan dengan menggunakan elemen cangkang                     
+(shell element) ....................................................................................................................... 5 
+Gambar 6 - Diagram perancangan jembatan ......................................................................... 7 
+Gambar 7 - Bentuk kekakuan pegas/spring pada kepala jembatan........................................ 8 
+ 
+Gambar A.1 - Analisis grup fondasi sumuran dalam arah melintang dan memanjang 
+jembatan .............................................................................................................................. 12 
+Gambar A.2 - Defleksi grup fondasi ..................................................................................... 13 
+ 
+Tabel 1 - Jenis kombinasi beban ........................................................................................... 6 
+ 
+ii 
+ 
+Prakata 
+ 
+ 
+Pedoman perancangan jembatan integral penuh tipe gelagar beton bertulang disusun 
+berdasarkan hasil penelitian yang dilakukan oleh Pusat Penelitian dan Pengembangan Jalan 
+dan Jembatan. Pedoman ini dimaksudkan sebagai acuan bagi para perencana dalam 
+merancang sistem jembatan integral penuh yang disesuaikan dengan kondisi di Indonesia.  
+Pedoman ini dipersiapkan oleh Komite Teknis 91-01 Bahan Konstruksi Bangunan dan 
+Rekayasa Sipil pada Subkomite Teknis 91-01-S2 Rekayasa Jalan dan Jembatan melalui 
+Gugus Kerja Jembatan dan Bangunan Pelengkap Jalan, Pusat Penelitian dan 
+Pengembangan Jalan dan Jembatan. 
+Tata cara penulisan disusun mengikuti Pedoman Standardisasi Nasional (PSN) 08:2007 dan 
+dibahas dalam forum rapat konsensus yang diselenggarakan pada tanggal 25 Juni 2015 di 
+Bandung oleh Subkomite Teknis, yang melibatkan para narasumber, pakar dan lembaga 
+terkait. 
+ 
+ 
+iii 
+ 
+Pendahuluan 
+ 
+ 
+Jembatan integral penuh (full integral) didefinisikan sebagai jembatan tanpa siar muai dan 
+tanpa sistem perletakan. Karakteristik jembatan ini ditunjukkan dengan sambungan yang 
+monolit antar dek/lantai dengan struktur bangunan bawah (kepala jembatan).  Penggunaan 
+jembatan integral penuh tipe gelagar beton bertulang digunakan untuk bentang pendek dan 
+tunggal dengan panjang efisien (10 – 20) meter.  Di samping dapat mengurangi biaya 
+pemeliharaan, pembangunan jembatan integral penuh juga memiliki keuntungan lain, di 
+antaranya: 
+ 
+Desain jembatan lebih sederhana;  
+ 
+Pelaksanaan konstruksi lebih cepat ; 
+ 
+Tidak ada joint (celah) yang dapat menyebabkan masuknya aliran air/debu ke dalam 
+jembatan; 
+ 
+Biaya siklus layan lebih kecil dibandingkan jembatan konvensional; 
+ Dapat memperkecil dimensi penampang gelagar. 
+Di Indonesia, pembangunan jembatan integral penuh masih kurang mendapat perhatian. Hal 
+ini disebabkan oleh beberapa faktor di antaranya belum semua para perencana jembatan di 
+Indonesia mengenal sistem integral penuh, masih kurangnya penelitian mengenai perilaku 
+struktur integral penuh, dan kurangnya sosialisasi kepada para stakeholder.   
+Pedoman ini dimaksudkan untuk memperkenalkan kepada para perencana tentang 
+perancangan jembatan integral penuh dengan menggunakan gelagar beton bertulang.   
+ 
+Pelaksanaan uji coba skala penuh prototipe jembatan integral tipe gelagar beton bertulang 
+untuk bentang tunggal dengan panjang 20 meter dilakukan pada tahun 2012 di Kabupaten 
+Sumedang, Propinsi Jawa Barat.  Jembatan ini dibuat dengan sistem integral penuh di mana 
+gelagar jembatan dicor secara monolit dengan kepala jembatan.  Berdasarkan hasil 
+monitoring yang sudah dilaksanakan, pergerakan regangan kepala jembatan masih lebih 
+kecil dari tegangan tarik sebesar 3 MPa sebagai batas terjadinya retak dalam beton.  
+Penerapan sistem jembatan integral penuh dapat diaplikasikan untuk berbagai kondisi tanah.  
+Pondasi yang dibuat harus dirancang sedemikian rupa sehingga dapat memikul pergerakan 
+arah memanjang jembatan.   
+  
+ 
+ 
+ 
+ 
+ 
+1 dari 22 
+ 
+ 
+Perancangan jembatan integral penuh 
+tipe gelagar beton bertulang  
+ 
+ 
+1 
+Ruang lingkup 
+ 
+Pedoman ini menetapkan ketentuan dan prosedur perancangan jembatan integral penuh 
+gelagar beton bertulang.  Penampang gelagar menggunakan gelagar beton yang dicor 
+secara monolit dengan kepala jembatan.  Jembatan ini tidak menggunakan sistem 
+perletakan dan siar muai  Panjang bentang efisien antara 10 m sampai dengan 20 m.  
+Perhitungan beban mengacu kepada RSNI3 1725 : 201X.  Syarat-syarat tentang Spesifikasi 
+Teknis dijelaskan dalam contoh perancangan. 
+ 
+ 
+2 
+Acuan normatif 
+ 
+Dokumen referensi di bawah ini harus digunakan dan tidak dapat ditinggalkan untuk 
+melaksanakan pedoman ini. 
+RSNI3 1725 : 201X, Pembebanan untuk jembatan.  
+Pedoman No. 13/SE/M/2015, Perancangan jembatan semiintegral tipe balok beton pracetak 
+prategang 
+ 
+ 
+3 
+Istilah dan definisi  
+ 
+Untuk tujuan penggunaan pedoman ini, istilah dan definisi berikut digunakan. 
+ 
+3.1 
+ 
+beban mati tambahan (superimposed) 
+berat seluruh komponen jembatan yang menimbulkan suatu beban pada jembatan dan 
+merupakan elemen non struktural.  Beban ini besarnya dapat berubah selama umur 
+jembatan (antara lain lapisan aspal, pemasangan tiang listrik dan instalasi mekanik elektrik).  
+ 
+3.2 
+ 
+jembatan integral penuh 
+jembatan yang dibuat sebagai satu kesatuan antara bangunan atas dengan bangunan 
+bawah tanpa siar muai dan tanpa perletakan. 
+ 
+3.3 
+ 
+jembatan semiintegral 
+jembatan tanpa siar muai tetapi masih memiliki sistem perletakan. 
+ 
+3.4 
+ 
+kepala jembatan  
+bangunan bawah yang terletak pada kedua ujung jembatan, berfungsi sebagai pemikul 
+seluruh beban pada ujung luar bentang pinggir dan gaya-gaya lainnya, kemudian 
+didistribusikan pada fondasi. 
+ 
+3.5 
+ 
+kepala jembatan integral penuh 
+bagian bangunan bawah jembatan yang dibuat sebagai satu kesatuan dengan ujung gelagar 
+jembatan dan pelat injak.  
+ 
+ 
+ 
+2 dari 22 
+ 
+ 
+3.6 
+ 
+oprit jembatan  
+jalan masuk bagi kendaraan yang akan melewati jembatan agar terasa nyaman dan terletak 
+di kedua ujung jembatan (Supriyadi, 2007). 
+ 
+3.7 
+ 
+pelat injak  
+suatu konstruksi beton pada jalan pendekat di ujung oprit jembatan yang berfungsi untuk 
+meratakan beban akibat kendaraan sehingga mengurangi tekanan tanah terhadap dinding 
+kepala jembatan (Supriyadi, 2007). 
+ 
+ 
+4 Ketentuan teknis perancangan 
+ 
+Jembatan integral penuh tidak menggunakan siar muai dan perletakan.  Berdasarkan 
+analisis statika, jembatan ini dimodelkan sebagai portal, dalam hal gelagar jembatan 
+berperilaku sebagai balok dan kepala jembatan berperilaku sebagai kolom.  Pada sistem 
+portal, momen lapangan yang terjadi akibat beban (beban mati dan beban hidup) di-
+distribusikan pada ujung gelagar yang menyatu dengan kepala jembatan sehingga dapat 
+mengurangi dimensi penampang gelagar.  Dengan menyatunya sistem bangunan atas 
+dengan bangunan bawah, maka pergerakan memuai dan menyusut yang terjadi pada 
+jembatan harus diakomodasi oleh sistem fondasi.  Fondasi pada jembatan integral penuh 
+harus dibuat fleksibel. 
+ 
+4.1 
+Tipe kepala jembatan integral penuh 
+ 
+Ada beberapa tipe kepala jembatan integral penuh, yaitu: 
+ 
+a. Fondasi tiang.  Untuk tipe ini, beban vertikal dipikul oleh fondasi.  Kekurangan dari tipe 
+ini adalah tidak mampu memikul gaya rotasi akibat beban timbunan sehingga perlu 
+ditambahkan pelat injak di belakang kepala jembatan. Tipe ini dapat dilihat pada Gambar 
+1. 
+ 
+ 
+ 
+Gambar 1 - Kepala jembatan tipe fondasi tiang 
+ 
+b. Fondasi telapak.  Tipe kepala jembatan ini digunakan jika tanah dasar batuan dangkal 
+sehingga terjadi penurunan tanah yang kecil. Tipe ini dapat dilihat pada Gambar 2. 
+ 
+ 
+ 
+ 
+3 dari 22 
+ 
+ 
+ 
+ 
+Gambar 2 - Kepala jembatan integral penuh tipe fondasi telapak 
+ 
+c. Kepala jembatan dengan dinding penuh.  Tipe ini sangat cocok jika digunakan untuk 
+bentang pendek. Untuk tipe kepala jembatan ini dapat dilihat pada Gambar 3. 
+ 
+ 
+ 
+ 
+ 
+Gambar 3 - Kepala jembatan integral dengan dinding penuh  
+ 
+Beberapa ketentuan teknis seperti: pergerakan longitudinal, faktor beban, pengaruh 
+temperatur, pengaruh rangkak susut beton, dan tekanan tanah mengacu pada Pedoman 
+perancangan jembatan semiintegral tipe balok beton pracetak prategang (Pedoman Nomor 
+13/SE/M/2015).  Perhitungan beban mengacu pada RSNI3 1725 : 201X, Pembebanan untuk 
+jembatan. 
+ 
+ 
+ 
+ 
+ 
+4 dari 22 
+ 
+4.2 
+Model analisis jembatan integral penuh   
+ 
+Jembatan integral penuh tidak menggunakan siar muai dan perletakan.  Berdasarkan 
+analisis statika, jembatan ini dimodelkan sebagai portal, dimana gelagar jembatan 
+berperilaku sebagai balok dan kepala jembatan berperilaku sebagai kolom.  Dalam pedoman 
+ini, metode perancangan jembatan integral penuh difokuskan pada gelagar beton bertulang 
+bentang tunggal dengan panjang efisien (10 – 20) meter.  Hal-hal yang harus diperhatikan 
+pada saat desain adalah: 
+a. Perbedaan temperatur yang terjadi pada sisi atas dan sisi bawah dari lantai kendaraan 
+yang dapat menimbulkan momen sekunder; 
+b. Pelat injak tidak dimasukkan dalam pemodelan struktur portal; 
+c. Perlu diperhatikan desain penulangan antara ujung gelagar dengan kepala jembatan. 
+d. Sifat dan kekakuan tanah sangat mempengaruhi jenis fondasi yang akan dgunakan pada 
+jembatan integral penuh; 
+e. Beban-beban yang dihitung terdiri dari berat sendiri, beban mati tambahan 
+(superimposed), susut rangkak, tekanan tanah, beban hidup, gaya rem, gaya gempa, 
+perubahan temperatur, dan beberapa kombinasi beban yang semuanya mengacu pada 
+RSNI3 1725 : 201X, Pembebanan untuk jembatan.  Untuk gaya rem dan gempa 
+boleh/tidak dimasukkan dalam pemodelan ini karena dianggap kurang begitu 
+berpengaruh terhadap struktur portal monolit yang kaku. 
+Kontrol penampang gelagar jembatan dengan sistem balok “T” untuk bentang (10-20) meter 
+meliputi kontrol kekuatan kapasitas penampang gelagar. Dalam perancangan, harus 
+dibandingkan antara kapasitas balok “T” dengan beban ultimit yang terjadi dimana .Mn ≤  
+Mu.  Lendutan jangka panjang harus memperhitungkan pengaruh rangkak dan susut beton.  
+Lendutan akibat beban hidup termasuk beban kejut tidak boleh melampaui L/800.  Gambar 4 
+merupakan model struktur jembatan integral penuh.  
+ 
+ 
+ 
+ 
+Gambar 4 - Model struktur dan gaya yang bekerja pada jembatan integral penuh 
+ 
+Perhitungan gaya-gaya dalam akibat beban yang bekerja pada struktur jembatan dapat 
+menggunakan program analisis struktur.  Gambar 4 adalah model struktur jembatan integral 
+untuk bentang tunggal dengan kekakuan tanah pada kepala jembatan dimodelkan sebagai 
+pegas (spring).  Perletakan dimodelkan sebagai sendi dan pelat lantai dimodelkan dengan 
+menggunakan elemen cangkang (shell element).  Pemodelan beban akibat tekanan tanah 
+pada kepala jembatan ditunjukkan dalam Gambar 5. 
+ 
+ 
+ 
+ 
+ 
+5 dari 22 
+ 
+ 
+ 
+Gambar 5 - Pemodelan kepala jembatan dengan menggunakan elemen cangkang 
+(shell element) 
+ 
+Berdasarkan Gambar 5, kepala jembatan dirancang menggunakan elemen cangkang 
+dengan lebar dan tebal yang sudah ditetapkan oleh perencana.   Untuk meletakkan beban 
+akibat tekanan tanah maka kepala jembatan dibagi menjadi beberapa rentang bagian 
+sehingga pada setiap bagian diletakkan beban yang berbeda. Pemodelan kekakuan fondasi 
+menggunakan rumus sebagai berikut : 
+ 
+Modulus geser  
+ 
+: 
+)
+1(
+2
+
+
+
+E
+G
+  
+ 
+ 
+(1) 
+ 
+Kekakuan vertikal  
+: 
+)
+1(
+5.2
+5.0
+
+
+
+GA
+K z
+ 
+ 
+ 
+(2) 
+ 
+Kekakuan horisontal  
+: 
+5.0
+)
+1(
+5.2
+A
+G
+K x
+
+
+
+ 
+ 
+(3) 
+ 
+Kekakuan putar/rocking : 
+)
+1(
+5.2
+
+
+
+GZ
+K m
+ 
+ 
+ 
+ 
+(4) 
+Keterangan :  
+G adalah modulus geser tanah (MPa) 
+E adalah modulus Young’s tanah (MPa) 
+ adalah poisson’s rasio tanah  
+A adalah luas fondasi (mm2)  
+Z adalah statis momen dari fondasi (mm3)   
+ 
+Bentuk pemodelan untuk beban yang bekerja pada struktur jembatan integral penuh adalah 
+sebagai berikut:  
+a. Beban mati (DL) diperhitungkan dari berat sendiri struktur yang diambil dari hasil analisis 
+program;  
+b. Beban BTR (Beban Terbagi Rata)  dipasang pada seluruh pelat lantai (model elemen 
+cangkang); 
+c. Beban BGT (Beban Garis Terpusat) dipasang di sepanjang diafragma tengah bentang; 
+z
+y
+-22.6 -18.3
+-14.0
+-9.7
+-5.4
+-1.1
+3.2
+7.5
+11.8
+16.1
+20.4
+24.7
+29.0
+33.3 E+3
+Plane @X=0
+ 
+ 
+ 
+6 dari 22 
+ 
+d. Beban rangkak dan susut dipasang pada gelagar sebagai beban regangan (strain); 
+e. Gaya rem dianggap bekerja 1.8 m di atas lantai kendaran sehingga dipasang sebagai 
+momen pada ujung-ujung balok pada kedua sisi jembatan sesuai dengan arah lalu lintas; 
+f. 
+Beban tanah diasumsikan sebagai beban yang terdistribusi pada elemen vertikal;  
+g. Gaya gempa dipasang pada pusat masa; 
+h. Beban akibat perubahan temperatur dipasang merata pada pelat lantai jembatan. 
+Beberapa kombinasi beban yang dapat digunakan untuk perancangan ditunjukkan dalam 
+Tabel 1. 
+ 
+Tabel 1 - Jenis kombinasi beban  
+ 
+No 
+Jenis Kombinasi 
+Keterangan 
+1 
+Kombinasi 1 
+1.3 DL + 1.8 BTR  + 1.8 BGT  + 1.25 Tanah + 1.8 Rem + 
+Rangkak + Susut + 1.2 Temperatur 
+2 
+Kombinasi 2 
+1.3 DL + 1.8 BTR + 1.8 BGT  + 1.25 Tanah + 1.8 Rem + 
+Rangkak + Susut  
+3 
+Kombinasi 3 
+1.3 DL + BTR + BGT  + 1.25 Tanah + 0.3 Gempa Y + 
+Gempa X  + Rangkak + Susut + Temperatur 
+4 
+Kombinasi 4 
+1.3 DL + BTR + BGT  + 1.25 Tanah + Gempa Y + 0.3 
+Gempa X  + Rangkak + Susut + Temperatur 
+5 
+Kombinasi 5 
+1.3 DL + 1.8 BTR  + 1.8 BGT  
+6 
+Kombinasi 6 
+1.3 DL + 1.8 BTR + 1.8 BGT  + 1.2 Temperatur 
+7 
+Kombinasi 7 
+1.3 DL + 1.8 BTR  + 1.8 BGT  + 0.8 Tanah + Rangkak + 
+Susut 
+8 
+Kombinasi 8 
+1.3 DL + 1.8 BTR  + 1.8 BGT  + 1.25 Tanah + Rangkak + 
+Susut 
+9 
+Kombinasi 9 
+1.3 DL + 1.8 BTR + 1.8 BGT  + 0.8 Tanah + Rangkak + 
+Susut + 0.8 Temperatur 
+10 
+Kombinasi 10 
+1.3 DL + 1.8 BTR + 1.8 BGT  + 1.25 Tanah + Rangkak + 
+Susut + 1.2 Temperatur 
+Keterangan: 
+BTR adalah Beban Terbagi Rata 
+BGT adalah Beban Garis Terpusat 
+ 
+Berdasarkan Tabel 1, faktor beban > 1 adalah kondisi normal, faktor beban < 1 adalah 
+kondisi terkurangi, dan faktor beban = 1 adalah kondisi layan. Dari beberapa kombinasi yang 
+digunakan, maka diambil nilai kombinasi yang menghasilkan gaya maksimum.  
+ 
+ 
+5 Prosedur perancangan struktur jembatan integral penuh  
+ 
+Untuk prosedur perancangan jembatan integral penuh dtunjukkan dalam Gambar 6 berikut. 
+ 
+ 
+ 
+ 
+7 dari 22 
+ 
+TIDAK  
+TIDAK  
+TIDAK  
+PERSYARATAN 
+TEGANGAN 
+PERSYARATAN 
+LENDUTAN 
+PEMERIKSAAN STRUKTUR 
+BANGUNAN ATAS DAN 
+BANGUNAN BAWAH 
+SELESAI 
+MULAI 
+MEMBUAT MODEL STRUKTUR BANGUNAN ATAS 
+JEMBATAN INTEGRAL 
+MENENTUKAN DIMENSI AWAL 
+MENGHITUNG BEBAN 
+MENENTUKAN GAYA-
+GAYA DALAM
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 6 - Diagram perancangan jembatan  
+ 
+Berikut adalah prosedur perancangan jembatan integral penuh gelagar beton bertulang:  
+a. Membuat pemodelan jembatan dengan menggunakan statika tak tentu. Jembatan 
+integral penuh dimodelkan sebagai portal.  Bentuk kekakuan tanah yang bekerja pada 
+kepala jembatan dimodelkan sebagai pegas (spring) seperti ditunjukkan dalam Gambar 
+7.    
+ 
+ 
+Ya 
+Ya 
+Ya 
+ 
+ 
+ 
+8 dari 22 
+ 
+ 
+ 
+Gambar 7 - Bentuk kekakuan pegas/spring pada kepala jembatan  
+ 
+Pemodelan perletakan pegas (spring) sangat dipengaruhi oleh kondisi tanah.   
+ 
+b. Menentukan besarnya beban yang bekerja pada jembatan.  Perhitungan beban 
+mengacu pada RSNI3 1725 : 201X.  Perencanaan beban dapat menggunakan program 
+perhitungan struktur.  Dari hasil analisis program dapat diketahui besarnya gaya-gaya 
+dalam yang bekerja dalam struktur tersebut. 
+c. Menentukan dimensi struktur bangunan atas dan bangunan bawah. 
+d. Merancang sistem sambungan tulangan antara elemen bangunan atas dengan elemen 
+bangunan bawah yang dapat mengakomodir pergerakan arah memanjang jembatan. 
+e. Merancang sistem penulangan pelat penghubung. 
+f. 
+Merancang sistem fondasi yang dibuat sebagai satu kesatuan dengan bangunan bawah 
+(ujung kepala jembatan).  Fondasi harus dirancang lebih fleksibel untuk mengantisipasi 
+pergerakan muai susut jembatan. 
+Fondasi jembatan integral penuh harus dapat mengakomodir pergerakan memuai dan 
+menyusut dalam arah memanjang jembatan.  Untuk itu, fondasi harus dibuat lebih fleksibel 
+(dapat mengakomodir besarnya momen dan lendutan akibat tekanan tanah).   
+Untuk fondasi dengan tiang pancang, jumlah tiang pancang (pile) yang terpasang tidak boleh 
+melebihi satu baris.  Hal ini dimaksudkan agar pergerakan jembatan terjadi dalam arah yang 
+sama.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9 dari 22 
+ 
+Lampiran A                                                                            
+(informatif) 
+ 
+Contoh perancangan jembatan integral penuh gelagar                                       
+beton bertulang bentang tunggal dan kepala jembatan tipe dinding penuh  
+ 
+ 
+Berikut data teknis jembatan integral penuh yang digunakan sebagai input data program 
+analisis struktur: 
+Bentang 
+ 
+ 
+= 20 m 
+Jarak antar balok 
+ 
+= 1.65  m 
+Lebar jembatan 
+ 
+= 7.7 m 
+Tebal pelat 
+ 
+ 
+= 0.2 m 
+Tinggi kepala jembatan 
+= 7.15 m 
+Tebal kepala jembatan 
+= 3.5 m 
+beton 
+ 
+ 
+= 24 kN/m3 
+f'c 
+ 
+ 
+ 
+= 20.75 MPa  
+fy 
+ 
+ 
+ 
+= 300  MPa  
+fs 
+ 
+ 
+ 
+= 240 MPa 
+ 
+ 
+ 
+ 
+= 1.00E-05 /°C 
+E beton 
+ 
+ 
+= 2.5 x 104 MPa  
+E baja  
+ 
+ 
+= 2 x 105 MPa 
+Tebal aspal 
+ 
+ 
+= 0.1 m 
+ aspal  
+ 
+ 
+= 22 kN/m3 
+tanah  
+ 
+ 
+= 18 kN/m3 
+ 
+Fondasi dibuat dengan kedalaman (5 – 10) meter, pada setiap satu meter dipasang pegas 
+horisontal dan pada ujung fondasi dipasang sendi dengan asumsi fondasi berdiri di atas 
+batuan dasar. Lantai dimodelkan sebagai elemen cangkang dengan ketebalan 0.2 m, kepala 
+jembatan pengaku horizontal setiap 1 meter. Beban temperatur diletakkan pada lantai 
+jembatan sebesar t dari temperatur maksimum dan temperatur minimum.  Berdasarkan 
+RSNI3 1725 : 201X, Pembebanan untuk jembatan, perbedaan temperatur jembatan di 
+Indonesia berkisar 25C. Dari analisis program diperoleh gaya-gaya maksimum sebagai 
+berikut : 
+ Reaksi vertikal (Rv)     
+= 609.92 kN 
+ Reaksi horizontal (Rh)  
+= 254.16 kN 
+ M tumpuan (M)  
+ 
+=1890.85 kNm 
+ M lapangan   
+ 
+= 1904.71 kNm 
+Pengaruh temperatur pada jembatan menimbulkan momen negatif, dimana momen negatif 
+ini mengurangi momen positif yang diakibatkan berat sendiri struktur dan beban hidup (BTR 
+(Beban Terbagi Rata) dan BGT (Beban Garis Terpusat)). Pengaruh perbedaan temperatur 
+untuk jembatan integral dengan panjang bentang 20 m ini hanya mengakibatkan terjadinya 
+defleksi sebesar 0.841 mm.  Ternyata untuk kondisi di Indonesia, perbedaan temperatur 
+tidak menyebabkan terjadinya defleksi yang besar pada jembatan integral untuk bentang 20 
+m.   
+ 
+Analisis perancangan jembatan integral penuh  
+Gelagar yang dianalisis untuk jembatan integral berupa gelagar beton bertulang “T” dengan 
+bentang 20 meter.   
+ 
+Desain penulangan kepala jembatan 
+Data perencanaan :  
+ 
+f'c  
+  =   20.75 MPa 
+fy 
+  = 300 MPa 
+ 
+ 
+ 
+10 dari 22 
+ 
+fs 
+  = 240 MPa 
+Selimut  =   50 mm 
+Lebar   =   0.5 m 
+Ec 
+  = 25000 MPa 
+Es 
+  = 200000 MPa 
+Øtulangan  = 25 mm 
+Øsengkang = 13 mm, 16 mm, dan 19 mm 
+ 
+Untuk perencanaan digunakan D25 – 100 (As = 11775 mm2;  = 1.963%) 
+ 
+Desain tulangan geser : 
+Ø sengkang  =  12 mm 
+Jumlah penampang geser = 4 
+Ag = Tebal kepala jembatan x Jarak antar balok 
+     = 3.5 x 1.65 
+     = 5.77 m2 
+As = Jumlah penampang geser x (0.25 x 3.14 x Ø sengkang2) 
+     = 4 x (0.25 x 3.14 x 122) 
+     = 452.16 mm2 
+Ach= (Tebal kepala jembatan - 2Selimut) x Jarak antar balok 
+     = 0.42 x 1.2 
+     = 0.504 m2 (Luas dari sisi luar ke sisi luar tulangan sengkang) 
+d   = Tebal kepala jembatan - Selimut - Ø sengkang - 1/2 Ø tulangan 
+     = 500 – 40 – 12 – 12.5 
+     = 435.5 mm 
+hc  = Tebal kepala jembatan - Selimut - Ø sengkang 
+     = 500 – 40 – 12 
+     = 448.0 mm (Tebal dari sumbu ke sumbu tulangan sengkang). 
+Ujung-ujung kolom kepala jembatan sepanjang lo harus dikekang dengan spasi sejarak s 
+oleh tulangan transversal Ash 
+lo ≥ h = 500 mm (tebal penampang komponen HBK) ≥1/6 ln =1/6 x 3300(1/6 bentang bersih)  
+         = 550 mm ≥ 500 mm 
+pakai lo     = 550 mm 
+s  ≤ 1/4 h  = 1/4 x 500 = 125 mm  ≤ 6 x Ø tul = 6 x 25  = 150 mm  ≤ 150 mm 
+ 
+Di luar lo, spasi s harus memenuhi:   
+≤ d / 2 = 435.5 / 2 = 217.75 mm ≤ 600 mm. 
+Pakai s = 100 mm 
+Ash diambil yang terbesar dari : 
+Ash 
+= 0.3 (s x hc x f'c / fs) x (Ag / Ach -1) 
+ 
+= 0.3 (100 x 448 x 25 / 240) x (0.60 / 0.50 - 1) 
+ 
+= 266.67 mm2 
+Ash 
+= 0.09 (s x hc x f'c / fs) 
+ 
+= 0.09 (100 x 448 x 25 / 240)  
+ 
+= 420.00 mm2 
+Pakai : 
+Ash  
+= 420.00 mm2 
+As 
+= 452.16 mm2 
+As 
+>  Ash  OK 
+Vs 
+= As x fs x d / s 
+ 
+= 452.16 x 240 x 435.5 x 100 
+ 
+= 472.60 kN 
+Struktur memikul geser, lentur dan aksial: 
+Vc 
+= (√f'c + 120 w Vu d /Mm) bw d / 7 
+dengan: 
+Mm 
+= Mu–(Nu (4h - d)) / 8 
+ 
+ 
+ 
+11 dari 22 
+ 
+ 
+= 644.99–(513.84 (4 x 0.5 – 0.4355)) / 8 
+ 
+= 544.50 kN-m 
+w 
+= As / (bw x d) 
+ 
+= 11775 / (1200 x 435.5) 
+ 
+= 2.253% 
+Vc 
+= (√25 + 120 x 2.25% x 314.97 x 0.436 / 544.5) x 1200 x 435.5 / 7 
+ 
+= 424.14 kN 
+Vc tidak boleh lebih besar dari : 
+Vc 
+= 0.3 √f'c bw d √(1 + 0.3 Nu / Ag) * Nu / Ag dalam MPa 
+ 
+= 0.3 √25 x  1200 x 435.5 x √(1 +  0.3 x 513838 x 0.60) 
+ 
+= 397337 kN 
+Pakai  
+Vc  
+     = 410.78 kN 
+(Vc + Vs) = 0.75 x (424.14 + 472.60)  = 672.55 kN 
+Vu 
+     = 314.97 kN 
+Vu < (Vc + Vs)  OK (artinya bahwa kapasitas tulangan geser lebih besar dibandingkan 
+dengan gaya geser yang bekerja pada balok).  Jika Vu ≥ (Vc + Vs), maka dimensi tulangan 
+diperbesar. 
+ 
+Desain tumpuan balok 
+Desain tulangan lentur  
+H balok = 1.40 m 
+Tulangan direncanakan dibagi satu baris: 
+d   
+= Tinggi balok – Selimut – Øsengkang – 0.5 Ølentur 
+       
+= (1400 – 40 – 12 – 12.5) mm = 1336 mm 
+ 
+Rn     
+= M / (0.8 b d2) = 663.36 / (0.8 x 0.50 x 1.3362) = 929.83 kN/m2 
+min  
+= 1.4 / fy = 1.4 / 300 = 0.47%  
+M    
+= fy / (0.85 f’c)  = 300 / (0.85 x 25) = 14.12 
+1    
+= 0.85 - 8 (f'c - 30) / 1000  = 0.89 
+b    
+=
+)
+600
+(
+600
+'
+85
+,0
+1
+fy
+fy
+fc
+
+
+
+
+ =
+)
+300
+600
+(
+600
+300
+25
+89
+.0
+85
+,0
+
+
+
+
+ = 12.6% 
+max 
+= 0.75 b  = 0.75 x 12.6% = 9.46% 
+     
+=
+
+
+
+
+
+
+
+
+
+
+fy
+Rn
+m
+m
+2
+1
+1
+1
+=
+
+
+
+
+
+
+
+
+
+
+300000
+8.
+929
+1.
+14
+2
+1
+1
+1.
+14
+1
+= 0.32% 
+As  =  x b x d  = 0.47% x 500 x 1336  = 3116 mm2 
+ 
+Gunakan tulangan lentur 7 Ø 25 
+As = 3434 mm2. 
+ 
+Analisis perhitungan tulangan gelagar di tengah bentang baik jembatan integral maupun 
+jembatan konvensional adalah sama.  Yang membedakan adalah analisis detil perhitungan 
+gelagar di daerah tumpuan, yang menghubungkan antara gelagar dengan kepala jembatan.  
+ 
+Desain hubungan gelagar dan kepala jembatan 
+Dalam desain ini akan ditentukan panjang penyaluran yang menghubungkan gelagar dengan 
+kepala jembatan. 
+Aj    = Tebal kepala jembatan x bw(lebar penampang) = 500 x 500 = 250000 mm2 
+Vc  = 0.75 x 1.0 Aj √f'c  = 0.75 x 1.0 x 250000 x √25 = 937.5 kN 
+T1   = As1 x 1.25 fy 
+(7 Ø 25) = 3434 x 1.25 x 300  = 1287.89 kN 
+Vh  = 539.33 kN;  Vj   = T1 – Vh = 1287.89 – 539.33 = 747.96 kN, Vc > Vj  OK 
+Panjang penyaluran tulangan tarik dengan kait standar 90° diambil: 
+ 
+ 
+ 
+12 dari 22 
+ 
+dh 
+≥ 8 x Ø tulangan lentur ≥ 8 x 25  ≥ 200 mm 
+dh 
+≥ 150 mm 
+dh 
+≥ fy x Ø tulangan lentur / (5.4 √f'c)  ≥ 300 x 25 / (5.4 √25)  ≥ 
+278 
+mm, 
+Pakai 
+panjang 
+penyaluran 280 mm. 
+ 
+Desain fondasi 
+Analisis kapasitas aksial fondasi 
+Gaya-gaya dalam yang dipikul struktur jembatan digunakan sebagai salah satu input untuk 
+melakukan analisis kapasitas aksial fondasi. Dari hasil analisis struktur diperoleh gaya 
+vertikal sebesar 5350 kN. Fondasi sumuran yang digunakan memiliki kedalaman 5.5 m 
+dengan diameter sebesar 2.2 m. Dari data-data gaya hasil analisis struktur dan data hasil 
+penyelidikan tanah maka dapat dilakukan analisis kapasitas aksial fondasi sumuran.  Setelah 
+dilakukan analisis, maka dihasilkan kapasitas aksial yang mampu dipikul oleh sebuah 
+fondasi sumuran sebesar 3060.92 kN. Sedangkan gaya vertikal yang hasil analisis struktur 
+adalah 5350 kN.  
+ 
+Dari hasil analisis diketahui bahwa sebuah fondasi sumuran belum mampu memikul gaya 
+vertikal yang terjadi pada jembatan. Maka diperlukan dua buah fondasi sumuran untuk 
+memikul gaya vertikal yang terjadi. Analisis grup fondasi tersebut dapat dilihat pada Gambar 
+A.1. 
+ 
+ 
+ 
+ 
+Gambar A.1 - Analisis grup fondasi sumuran dalam arah melintang dan memanjang 
+jembatan 
+ 
+Untuk menentukan kapasitas grup fondasi perlu diketahui terlebih dahulu nilai efisiensi grup 
+fondasi. Efisiensi grup fondasi dapat ditentukan dengan persamaan Converse-Labarre 
+(Bolin, 1941) sebagai berikut. 
+ 
+n
+m
+n
+m
+m
+n
+.
+.
+90
+).
+1
+(
+).
+1
+(.
+1
+
+
+
+
+
+
+
+ 
+ 
+Setelah dikoreksi dengan nilai efisiensi, diperoleh kapasitas aksial grup fondasi sebesar 
+5509,65 kN. Oleh karena itu dapat disimpulkan bahwa grup fondasi tersebut telah mampu 
+untuk memikul beban vertikal yang bekerja pada jembatan. 
+ 
+ 
+ 
+ 
+ 
+13 dari 22 
+ 
+ 
+ 
+Gambar A.2 - Defleksi grup fondasi 
+ 
+Selain kapasitas aksial juga diperlukan analisis terhadap kapasitas lateral grup fondasi 
+terhadap beban luar yang terjadi. Setelah dilakukan analisis diperoleh defleksi yang terjadi 
+pada fondasi sumuran lebih kecil daripada defleksi yang diizinkan (0,025 m) (Gambar A.2). 
+Oleh karena itu grup fondasi tersebut dapat memikul gaya lateral dan momen yang terjadi 
+pada jembatan.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+14 dari 22 
+ 
+Lampiran B                                                                            
+(informatif) 
+ 
+Contoh perancangan fondasi  
+ 
+ 
+Diperoleh beban yang bekerja pada kepala jembatan adalah: 
+Pu 
+ 
+ 
+ 
+= 1.77 x 106 N 
+Mu 
+ 
+ 
+ 
+= 1.12 x 106 N.m 
+Ditentukan: 
+Lebar kepala jembatan  
+= 7.7 m 
+Jumlah fondasi sumuran  
+= 2 buah 
+Diameter fondasi sumuran  
+= 2 m 
+Tinggi fondasi sumuran 
+= 4.5 m 
+Satu fondasi akan menerima beban sebesar P = 2.5 x 105 N dan M = 1.6 x 108 N.mm 
+ 
+Gaya gesek fondasi Qs = fs x As, dengan keterangan: 
+fs    = intensitas tahanan geser (  100 kN/m2) 
+As  = luas selimut fondasi sumuran ( x diameter x tinggi) = 28.29 m2, sehingga diperoleh 
+harga Qs = 2.83 x 106 N. 
+ 
+Besarnya gaya P setelah dikurangi Qs adalah P = -2.57 x 106 N. 
+Luas dasar fondasi A = 3.14 x 106 mm2. 
+Momen tahanan dasar fondasi W = (1/32) x  x (diameter)3 = 7.86 x 108 mm3. 
+Besarnya tegangan yang terjadi (): 
+ 
+W
+M
+A
+V 
+
+12
+
+, sehingga diperoleh: 12 = ± 0.205 MPa < 0.22 MPa 
+ 
+Kontrol stabilitas: 
+ 
+Stabilitas guling 
+Titik guling berada pada titik terluar bawah footplate. 
+ 
+Sebelum gelagar terpasang: 
+Momen guling (M tekanan tanah aktif)= 20 tm 
+Momen penahan guling (Mr)  
+  = 120.88 tm, yang terdiri dari:  
+ 
+Kepala jembatan 
+ 
+  = 87.90 tm 
+ 
+Tanah urug 
+ 
+ 
+  = 32.98 tm 
+Faktor keamanan guling (f) = 120.88 tm/20 tm = 6.03 > 1.1 (nilai faktor keamanan) 
+ 
+Setelah gelagar terpasang: 
+Momen guling (M tekanan tanah aktif)= 20 tm 
+Momen penahan guling (Mr)  
+  = 274.55 tm, yang terdiri dari:  
+ 
+Kepala jembatan 
+ 
+  = 87.90 tm 
+ 
+Tanah urug 
+ 
+ 
+  = 32.98 tm 
+Beban mati + beban hidup 
+  = 153.7 tm  
+Faktor keamanan guling (f) = 274.55 tm/20 tm = 13.71 > 1.1 (nilai faktor keamanan) 
+ 
+ 
+Stabilitas geser 
+Koefisien geser dasar kepala jembatan dengan fondasi sumuran = 0.577 
+ 
+ 
+ 
+ 
+ 
+15 dari 22 
+ 
+ 
+Sebelum gelagar terpasang: 
+Gaya geser = resultan tekanan tanah aktif =  10.15 t 
+Gaya geser penahan    
+ 
+   
+=  40.91 t:  
+Angka keamanan geser (f) = 40.91 t/10.15 t = 4.03 > 1.1 (nilai faktor keamanan) 
+ 
+Setelah gelagar terpasang: 
+Gaya geser = resultan tekanan tanah aktif =  10.15 t 
+Gaya geser penahan    
+ 
+   
+=  51.32 t:  
+Angka keamanan geser (f) = 51.32 t/10.15 t = 5.06 > 1.1 (nilai faktor keamanan) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+16 dari 22 
+ 
+Lampiran C  
+(informatif) 
+Contoh gambar perancangan jembatan integral penuh 
+ 
+ 
+ 
+ 
+ 
+17 dari 22 
+ 
+ 
+ 
+ 
+ 
+ 
+18 dari 22 
+ 
+ 
+ 
+ 
+ 
+19 dari 22 
+ 
+ 
+ 
+ 
+ 
+20 dari 22 
+ 
+ 
+ 
+ 
+ 
+21 dari 22 
+ 
+ 
+ 
+ 
+22 dari 22 
+ 
+Bibliografi 
+ 
+ 
+BA 42/96 Amendment No. 1 Volume 1 Highway Structures Approval Procedures and 
+General Design Section 3 General Design Part 12, “The Design of Integral Bridges”.   
+BMS Sistem Manajemen Jembatan, Panduan Pemeliharaan dan Rehabilitasi Jembatan, 
+Maret 1993 (B71-volume 12, No dok. BMS 1.3-M.I). 
+Bolin, H.W., 1941. The Pile Efficiency Formula of the Uniform Building Code.  Building 
+Standards Monthly, 10(1), 4-5 
+____,Laporan Perencanaan Teknik Tipikal Konstruksi Lantai Menerus pada Sistem 
+Jembatan Balok di Atas Dua Tumpuan dan Integral Bridge (Paket B-7) Tahun 
+Anggaran 2007, Direktorat Jenderal Bina Marga, Departemen Pekerjaan Umum. 
+RSNI T-12-2004, Perencanaan struktur beton untuk jembatan 
+Supriyadi, B dan Muntohar, A..S, 2007. “Jembatan”, Yogyakarta : Beta Offset 
+ 
+ 
+ 
+ 
+Daftar nama dan lembaga 
+ 
+ 
+1. Pemrakarsa 
+Pusat Penelitian dan Pengembangan Jalan dan Jembatan, Badan Penelitian dan 
+Pengembangan Kementerian Pekerjaan Umum dan Perumahan Rakyat 
+ 
+2. Penyusun 
+Nama 
+Lembaga 
+N. Retno Setiati, ST, MT 
+Pusat Litbang Jalan dan Jembatan 
+Novi Ari Nugroho, ST 
+Pusat Litbang Jalan dan Jembatan 
+ 
+3. Subkomite Teknis 91-01-S2 Rekayasa Jalan dan Jembatan 
+No 
+Nama 
+Instansi 
+Kedudukan 
+Wakil dari 
+1.  Ir. Herry Vaza, M.Eng.Sc 
+Pusat Litbang Jalan dan 
+Jembatan 
+Ketua Subkomite 
+Teknis 
+Pemerintah 
+2.  Prof. Dr.Ir. M. Sjahdanulirwan, 
+M.Sc 
+Pusat Litbang Jalan dan 
+Jembatan 
+Wakil 
+Ketua 
+Subkomite Teknis  
+Pakar 
+3.  Ir. Nandang Syamsudin, MT 
+Pusat Litbang Jalan dan 
+Jembatan 
+Sekretaris 
+Subkomite Teknis  
+Pemerintah 
+4.  Prof. Dr. Ir. Raden Anwar 
+Yamin, MT, M.E 
+Pusat Litbang Jalan dan 
+Jembatan 
+Anggota 
+Subkomite Teknis  
+Pemerintah 
+5.  Prof. Ir. Wimpy Santosa, Ph.D 
+Universitas 
+Parahyangan 
+(UNPAR) 
+Anggota 
+Subkomite Teknis  
+Pakar 
+6.  Abinhot Sihotang, ST., MT 
+Institut Teknologi Nasional 
+(ITENAS) 
+Anggota 
+Subkomite Teknis  
+Pakar 
+7.  Dr.Ir. Samun Haris, MT 
+Himpunan Pengembangan 
+Jalan Indonesia (HPJI) 
+Anggota 
+Subkomite Teknis  
+Konsumen 
+8.  Dr. Ir. Imam Aschuri, MT 
+Himpunan 
+Ahli 
+Teknik 
+Tanah Indonesia (HATTI) 
+Anggota 
+Subkomite Teknis  
+Konsumen 
+9.  Ir. Saktyanu P.S.D,  M.Eng.Sc 
+Astatindo 
+Anggota 
+Subkomite Teknis  
+Konsumen 
+10.  Ir. Gompul Dairi, BRE, M.Sc 
+PT. 
+Pacific 
+Prestress 
+Indonesia  (PT. PPI) 
+Anggota 
+Subkomite Teknis  
+Produsen 
+11.  Dr. Ir. Hindra Mulya, MM 
+PT. MBT 
+Anggota 
+Subkomite Teknis  
+Produsen 
+ 
+ 
+ 
+ 

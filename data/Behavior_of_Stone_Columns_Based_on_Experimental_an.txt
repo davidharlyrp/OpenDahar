@@ -1,0 +1,978 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/228642159
+Behavior of Stone Columns Based on Experimental and FEM Analysis
+Article  in  Journal of Geotechnical and Geoenvironmental Engineering · April 2007
+DOI: 10.1061/(ASCE)1090-0241(2007)133:4(405)
+CITATIONS
+501
+READS
+7,231
+2 authors:
+Ambily A.P.
+SAVEETHA ENGINEERING COLLEGE
+4 PUBLICATIONS   563 CITATIONS   
+SEE PROFILE
+S. R. Gandhi
+Indian Institute of Technology Madras
+50 PUBLICATIONS   1,262 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by S. R. Gandhi on 11 February 2015.
+The user has requested enhancement of the downloaded file.
+
+Behavior of Stone Columns Based on Experimental
+and FEM Analysis
+A. P. Ambily, Ph.D.1 and Shailesh R. Gandhi2
+Abstract: A detailed experimental study on behavior of single column and group of seven columns is carried out by varying parameters
+like spacing between the columns, shear strength of soft clay, and loading condition. Laboratory tests are carried out on a column of
+100 mm diameter surrounded by soft clay of different consistency. The tests are carried out either with an entire equivalent area loaded
+to estimate the stiffness of improved ground or only a column loaded to estimate the limiting axial capacity. During the group experi-
+ments, the actual stress on column and clay were measured by ﬁxing pressure cells in the loading plate. Finite-element analyses have also
+been performed using 15-noded triangular elements with the software package PLAXIS. A drained analysis was carried out using
+Mohr-Coulomb’s criterion for soft clay, stones, and sand. The numerical results from the FEM are compared with the experimental results
+which showed good agreement between the results. Columns arranged with spacings more than 3 times the diameter of the column does
+not give any signiﬁcant improvement. Based on the results, design charts are developed and a design procedure is suggested.
+DOI: 10.1061/ASCE1090-02412007133:4405
+CE Database subject headings: Stones; Columns; Finite element method; Shear strength; Clays.
+Introduction
+Vast areas, particularly along the coast, are covered with thick
+soft marine clay deposits having very low shear strength and high
+compressibility. In view of the increasing developments on
+coastal areas in the recent past, a number of ports, industries, and
+other infrastructure facilities are being built. This necessitated the
+use of land with such weak strata, wherein the designers are chal-
+lenged by the presence of thick soft clay deposits. Although the
+use of pile foundation can meet all the design requirements, nega-
+tive drag force and large length of the pile often result in prohibi-
+tive costs. On the other hand, ground improvement techniques are
+normally preferred for economical considerations. Out of several
+techniques available, stone columns also known as granular col-
+umn or granular pile have been widely used. This ground im-
+provement technique has been successfully applied to increase the
+bearing capacity and to reduce the settlement for foundation of
+structures like liquid storage tanks, earthen embankments, raft
+foundations, etc., where a relatively large settlement is permis-
+sible. Stone columns have also been used to improve slope sta-
+bility of embankments on soft ground. In spite of the wide use of
+stone columns and developments in construction methods/
+equipments, present design methods are empirical and only lim-
+ited information is available on the design of stone columns in
+codes/textbooks.
+The stone column technique was adopted in European coun-
+tries in the early 1960s and thereafter it has been used success-
+fully. Stone columns in compressive loads fail in different modes,
+such as bulging Hughes and Withers 1974; Hughes et al. 1976,
+general shear failure Madhav and Vitkar 1978, and sliding
+Aboshi et al. 1979. A long stone column having a length greater
+than its critical length i.e., about 4 times the diameter of the
+column fails by bulging irrespective of whether it is end bearing
+or ﬂoating IS 2003. McKelvey et al. 2004 carried out experi-
+mental studies on a group of ﬁve stone columns and reported that
+the central column deformed or bulged uniformly, whereas the
+edge columns bulged away from the neighboring columns.
+Many of the researchers have developed theoretical solutions
+for estimating bearing capacity and settlement of reinforced foun-
+dations by stone columns Greenwood 1970; Hughes et al. 1976;
+Madhav and Vitkar 1978; Aboshi et al. 1979. A homogenization
+assumption improved soil is assumed as a homogeneous material
+with equivalent properties to estimate the ultimate bearing capac-
+ity and settlement is presented by Jellali et al. 2005. Priebe
+1995 proposed a method to estimate the settlement of founda-
+tion resting on the inﬁnite grid of stone columns based on unit
+cell concept. In this concept, the soil around a stone column for
+area represented by a single column, depending on column spac-
+ing, is considered for the analysis. As all the columns are simul-
+taneously loaded, it is assumed that lateral deformations in soil at
+the boundary of unit cell is zero. The settlement improvement
+factor is derived as a function of area ratio and angle of internal
+friction of column material. Except near the edges of the loaded
+area, the behavior of all column soil units is the same and thus
+only one column soil unit needs to be analyzed Balaam et al.
+1978. The unit cell concept has also been used by Abhijit and
+Das 2000, Goughnour 1983, and Sathish et al. 1997. Alamgir
+et al. 1996 proposed an elastic approach to predict the load
+sharing and resulting settlement of ground improved by stone
+columns assuming free strain condition. Shahu et al. 2000
+1Formerly, Research Scholar, Dept. of Civil Engineering, Indian
+Institute of Technology Madras, Chennai, India. E-mail: ambilychn@
+rediffmail.com
+2Professor, Dept. of Civil Engineering, Indian Institute of Technology
+Madras, Chennai, India. E-mail: srgandhi@iitm.ac.in
+Note. Discussion open until September 1, 2007. Separate discussions
+must be submitted for individual papers. To extend the closing date by
+one month, a written request must be ﬁled with the ASCE Managing
+Editor. The manuscript for this paper was submitted for review and pos-
+sible publication on November 22, 2006; approved on September 11,
+2006. This paper is part of the Journal of Geotechnical and Geoenvi-
+ronmental Engineering, Vol. 133, No. 4, April 1, 2007. ©ASCE, ISSN
+1090-0241/2007/4-405–415/$25.00.
+JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007 / 405
+brought out the effects of a granular mat over the improved
+ground on its overall response within the framework of equal
+strain theory and unit cell concept.
+Balaam et al. 1978 proposed a ﬁnite-element approach for
+soft clay treated with granular piles and reported the effect of
+stiffness of granular pile on load deformation behavior. Mitchell
+and Huber 1985 compared the ﬁeld performance of stone col-
+umns by an axisymmetric ﬁnite-element model with groups of
+columns surrounding the central column replaced by a ring of
+stone material having equivalent thickness.
+Field observations showed that stone columns could also ac-
+celerate the rate of consolidation of soft clays Han and Ye 1992.
+Han and Ye 2001 developed a simpliﬁed and closed form solu-
+tion for estimating the rate of consolidation of the stone column
+reinforced foundations accounting for the stone column soil
+modular ratio. It is also reported in the paper that during the
+process of consolidation the stress on stone column increases with
+time, whereas the stress on soil decreases. At the end of consoli-
+dation, a steady stress concentration ratio is approached.
+The stone column improves the ground mainly due to the
+higher stiffness of the columns compared to the soil. Hence the
+most critical factor which controls the design of the stone column
+improved ground is the stiffness of the column and load sharing
+between column and soil. Hence in the present work an attempt is
+made to develop design procedure considering the load sharing
+between column and soil. The behavior of interior stone columns
+among a group of large numbers of columns is analyzed by vary-
+ing parameters such as spacing between the columns, shear
+strength of the clay, angle of internal friction of stones, etc. The
+analyses have been carried out assuming a unit cell concept for
+columns arranged in a triangular pattern where the deformations
+in clay are restrained within the unit cell represented by the
+equivalent area of each column. The behavior of stone column
+along the periphery of the group can have lateral deformations
+even beyond the unit cell and have a different behavior which is
+not covered in the present study. Similarly, sand columns, sand
+drains, gravel drains, and rammed aggregate piers are not covered
+under the present study.
+A detailed experimental investigation is carried out on a single
+column and groups of seven columns to study the improvement
+achieved. Also, the stress intensity on the column and the soil is
+measured using pressure cells attached to the loading plate and
+the results are compared with that obtained based on the ﬁnite-
+element package PLAXIS Plaxis BV, The Netherlands. The
+analysis and parametric study have been carried out assuming a
+drained condition of the soft clay surrounding the column. The
+paper describes details of experimental works carried out, numeri-
+cal analysis using ﬁnite-element package, comparison of results,
+design charts developed, and procedure proposed for design of
+stone columns.
+Experimental Program
+All experiments were carried out on a 100 mm diameter stone
+column surrounded by soft clay in cylindrical tanks of 500 mm
+high and a diameter varying from 210 to 835 mm to represent the
+required unit cell area of soft clay around each column assuming
+triangular pattern of installation of columns. For single column
+tests the diameter of the tank was varied from 210 to 420 mm and
+for group tests on 7 columns, 835 mm diameter was used. Tests
+had been carried out with shear strength of 30, 14, and 7 kPa as
+summarized in Table 1. Tests with column area alone loaded were
+used to ﬁnd the limiting axial stress and tests with entire area
+loaded were used to study the stiffness of improved ground.
+Test Setup
+A typical test arrangement for a single column test is shown in
+Fig. 1. The stone column was extended to the full depth of the
+clay placed in the tank for a height of 450 mm so that l/d ratio
+length of the column/diameter of the column is a minimum of
+4.5, which is required to develop the full limiting axial stress on
+the column Mitra and Chattopadhyay 1999. Vertical stress was
+applied either over the entire tank area or only over the stone
+column. The load was applied through a proving ring at a constant
+displacement rate of 0.0625 mm/min. A proving ring is a steel
+ring of approximately 200 diameter, the deformation of which is
+measured using a mechanical displacement gauge to arrive at the
+axial load applied through the ring. A sand layer of 30 mm thick
+was placed at the top to serve as a blanket for the case where the
+entire area is loaded.
+Table 1. Test Program and Results
+Type of test
+s/d
+Entire area loaded
+Column alone loaded
+cu
+kPa
+vane
+shear
+Stiffness
+kPa
+cu
+kPa
+vane
+shear
+Limiting
+stress
+kPa
+Test
+FEM
+Test
+FEM
+Single column
+2
+32
+15,500
+14,500
+31
+741
+680
+2
+14
+8,900
+8,230
+15
+350
+318
+2
+8
+6,400
+5,700
+7
+174
+159
+3
+30
+9,900
+9,000
+30
+647
+620
+3
+15
+5,700
+5,100
+13
+305
+290
+3
+7
+4,000
+3,500
+7
+152
+145
+4
+29
+7,500
+7,200
+29
+609
+603
+4
+13
+4,300
+4,050
+13
+283
+281
+4
+7
+3,000
+2,800
+7
+141
+140
+Group test
+3
+30
+8,700
+9,050
+—
+—
+—
+3
+14
+5,100
+4,900
+—
+—
+—
+3
+8
+3,900
+3,450
+—
+—
+—
+406 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007
+Tests were also carried out on a group of sevens columns
+arranged in a triangular pattern where the clay area corresponding
+to an equivalent area of seven unit cells is represented by the tank
+area as shown in Fig. 2 to compare the behavior with a single
+column and to check the stress distribution between stone column
+and clay. The load was applied through a 16 mm thick mild steel
+plate with stiffeners to ensure negligible structural deformation.
+The locations of pressure cells ﬁxed along the bottom surface of
+the loading plate are shown in Fig. 2.
+Properties of Materials
+Three basic materials used for this study are clay, stones, and sand
+having the following properties:
+Clay
+The clay used is of CH classiﬁcation, excavated from the IIT
+Madras campus. Surface clay was excavated after removal of
+vegetation, air-dried, and pulverized. The clay was sieved through
+4.75 mm sieve to remove the coarser fraction. Particle size distri-
+bution is shown in Fig. 3. The other properties are speciﬁc
+gravity=2.6, liquid limit=52% plastic limit=21%, maximum dry
+density=16.63 kN/m3, and optimum moisture content=19.26%.
+Other properties of clay at different moisture contents are given in
+Table 2. Modulus of elasticity of the clay reported is the inverse
+of coefﬁcient of volume compressibility obtained from a consoli-
+dation test corresponding to a pressure range of 100–200 kPa. As
+the analysis is intended for the behavior of interior columns
+among a large group of columns, the conﬁnement for surrounding
+columns justify the constrained modulus value obtained from a
+consolidation test. Poisson’s ratio was determined by conducting
+a drained triaxial test at the respective moisture content.
+Stones
+Crushed stones aggregates of sizes between 10 and 2 mm have
+been used to form stone column with particle size distribution as
+shown in Fig. 3. The max and min of the aggregate is 17.3 and
+15 kN/m3, respectively. Other properties of the aggregate for the
+stone column are given in Table 2. The angle of internal friction
+has been determined using a 300 mm300 mm100 mm direct
+shear
+box.
+The
+stones
+were
+compacted
+to
+a
+density
+of
+16.62 kN/m3 which could be achieved while constructing the
+stone columns for the experiments and sheared at a constant rate
+of 1.25 mm/min under normal pressures of 75, 100, and 125 kPa.
+The dilation angle is arrived at as per method suggested by At-
+kinson 1993. Modulus of elasticity of the stones reported is the
+constrained modulus obtained by loading the stones in a cylindri-
+cal mold of 150 mm diameter and 180 mm height at an initial
+density of 16.62 kN/m3. The Poisson’s ratio used is as per typical
+values suggested by Bowles 1988.
+Sand
+The sand used is clean river sand of a size less than 4.75 mm. The
+angle of internal friction and the dilation angle reported in Table 2
+are based on direct shear test. Poisson’s ratio reported is as per
+Bowles 1988.
+Fig. 1. Single column test arrangement: a column area loading; b
+entire area loading
+Fig. 2. Group test arrangement: a plan view; b section of test tank; and c details of pressure cell
+Fig. 3. Grain size distribution for clay and stones
+JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007 / 407
+Preparation of Soft Clay Bed
+Tests have been conducted in a clay bed prepared at three differ-
+ent shear strengths of 30, 14, and 7 kPa. To determine the mois-
+ture content corresponding to the required shear strength values,
+unconﬁned compression tests were carried out on a cylindrical
+specimen of 38 mm diameter and 76 mm height. Based on the
+results Fig. 4, three different water contents of 25, 30, and 35%
+were selected for the required shear strength of 30, 14, and 7 kPa,
+respectively. For preparation of each test bed, the pulverized clay
+was air dried and checked for initial moisture content. The addi-
+tional water quantity required to achieve the desired moisture
+content was added and thoroughly mixed to form a uniform paste.
+A thin coat of grease was applied along the inner surface of tank
+wall to reduce friction between clay and tank wall. Clay was ﬁlled
+in the tank in layers with measured quantity by weight. The sur-
+face of each layer was provided with uniform compaction with a
+tamper to achieve a 50 mm height and uniform density as per
+requirement. Care was taken to ensure that no signiﬁcant air voids
+were left out in the test bed. After the tank was ﬁlled to 450 mm
+height, vane shear test was carried out at the center of the tank at
+a depth of 50 mm below surface with a blade of 50 mm diameter
+and 100 mm height to verify the shear strength of the clay bed.
+The shear strengths obtained are reported in Table 1.
+Construction of Stone Column
+All stone columns were constructed by a replacement method. A
+thin open-ended seamless steel pipe of 100 mm outer diameter
+and wall thickness 2 mm was pushed into the clay at the center of
+the tank up to the bottom. Slight grease was applied on both inner
+and outer surface of the pipe for easy penetration and withdrawal
+without any signiﬁcant disturbance to the surrounding soil. The
+clay within the pipe was scooped out using a helical auger of
+90 mm diameter. A maximum height of 50 mm was removed at a
+time to ensure no suction effect. Stones were charged into the
+hole in layers with a measured quantity of 0.65 kg to achieve a
+compacted height of 50 mm. The pipe was then raised in stages
+ensuring a minimum of 5 mm penetration below the top level of
+the placed gravel. To achieve a uniform density, compaction was
+given with a 2 kg circular steel tamper with 10 blows of 100 mm
+drop to each layer. This light compaction effort was adopted to
+ensure that there is no signiﬁcant lateral bulging of the column
+creating disturbance to the surrounding soft clay. The correspond-
+ing density was found to be 16.62 kN/m3. The procedure was
+repeated until the column is completed to the full height.
+Test Procedure
+After preparing the stone column, the load deformation behavior
+of the column/treated soil was studied by applying vertical load in
+a loading frame. To load the stone column area alone, a loading
+plate of 100 mm in diameter was placed over the stone column.
+The load was applied through a proving ring with a constant
+displacement rate of 0.0625 mm/min. Load was observed for
+equal intervals of settlements up to failure. In the case of the
+entire area loading, a 30 mm thick sand layer was placed over the
+entire surface. A steel plate of 12 mm in thickness and a diameter
+of 10 mm less than the inside diameter of the test tank was placed
+over the sand blanket. The loading was applied in a similar way
+up to an axial stress of 100–150 kPa until the settlement ex-
+ceeded 10 mm. After completion of each test, the shape of the
+stone column was established by carefully removing the stones
+and ﬁlling the hole with a paste of plaster of paris. This material
+is in powder form and when mixed with water, it reforms into a
+thick paste which cannot penetrate in clay due to high viscosity
+and eventually gets hardened into a solid within a day. After the
+paste gets hardened, the surrounding clay was removed and a
+typical shape obtained is shown in Fig. 5. The bulging mode of
+failure is clearly seen in the case of tests where the column alone
+Table 2. Properties of Materials Used
+Material
+w
+%
+cv
+mm2/min
+E
+kPa
+
+cu
+kPa
+
+deg
+
+deg
+dry
+kN/m3
+bulk
+kN/m3
+Clay
+25
+0.63
+5,500
+0.42
+30
+—
+—
+15.56
+19.45
+30
+0.99
+3,100
+0.45
+14
+—
+—
+14.60
+18.98
+35
+1.34
+2,150
+0.47
+7
+—
+—
+13.60
+18.38
+Stones
+—
+—
+55,000
+0.30
+—
+100
+430
+16.62
+—
+Sand
+—
+—
+20,000
+0.30
+—
+40
+300
+15.50
+—
+Fig. 4. Variation of shear strength with moisture content
+Fig. 5. Shape of stone column after loading
+408 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007
+is loaded with maximum bulging at a depth of 0.5 times the
+diameter of the column from the top. No bulging is noticed when
+the entire tank area is loaded.
+Finite-Element Analysis
+The analysis was carried out using an available package—
+PLAXIS, to compare the load-settlement behavior with the model
+test and for the parametric study. The package was validated by
+analyzing the load settlement behavior of a single stone column
+by Narasimha Rao et al. 1992. The test tank used in their ex-
+periment is 650 mm diameter and height of clay bed is 350 mm.
+A stone column of diameter 25 mm and height 225 mm was made
+at the center of the clay bed and loaded with a plate of diameter
+equal to two times the diameter of the stone column. Properties of
+clay and stones are shown in Table 3. An axisymmetric analysis
+was carried out using Mohr-Coulomb’s criterion for clay and
+stones. The ﬁnite-element discretization using 15-noded triangu-
+lar elements with boundary conditions is shown in Fig. 6. Fig. 7
+compares the results obtained from the model test and based on
+PLAXIS analysis, which matches well.
+Analysis of Stone Column
+Axisymmetric analyses were carried out using Mohr-Coulomb’s
+criterion considering elastoplastic behavior for soft clay, stones,
+and sand. A drained behavior is assumed for all the materials. The
+analyses consider that sufﬁcient time has lapsed after the applica-
+tion of the load and the stress concentration as well as the settle-
+ment have stabilized. The initial vertical stress due to gravity load
+has been considered in the analysis. However, the stress due to
+column installation depends on the method of construction and
+the same has not been considered in the analyses. The input pa-
+rameters E, , cu, , , dry are given in Table 2. The basic
+axisymmetric ﬁnite-element mesh and boundary conditions used
+to represent the stone column, surrounding clay and sand pad is
+shown in Fig. 8. Fifteen-noded triangular elements were used for
+meshing. Along the periphery of the tank interface between the
+soft clay and the cylindrical surface of the unit cell, radial defor-
+mation is restricted but settlement is allowed. Along the bottom of
+the tank both radial deformation and settlement are restricted. At
+the interface between the stone column and soft clay, no interface
+elements have been used as the deformation of the column is
+mainly by radial bulging and no signiﬁcant shear is possible. Also
+the interface between a stone column and clay is a mixed zone
+where the shear strength properties can vary depending on the
+method of installation. As this is not precisely known, an interface
+element is not used. Mitchell and Huber 1985, Saha et al.
+2000, etc., also carried out a similar ﬁnite-element analysis of a
+stone column without an interface element.
+Fig. 9a shows a typical deformed mesh at the time of failure
+in the case of column alone loaded for s/d=3 and cu=30 kPa.
+Failure is by bulging of the column at a depth of 0.5 times diam-
+eter of the column. For all the cases where an entire tank area was
+loaded, an equal settlement analysis was carried out assuming
+rigid behavior of the loading plate such that the settlement at the
+top of the sand pad is equal over the loading area. The analysis
+was carried out for an axial stress corresponding to the model test
+for the same shear strength and spacing. Fig. 9b shows a typical
+deformed mesh when the entire area is loaded for s/d=3 and
+cu=30 kPa. No bulging of the column is seen as in the case of
+Table 3. Properties of Materials Used for Validation of PLAXIS
+Parameter
+Properties
+Clay
+Stones
+Modulus of elasticity kPa
+4,000
+45,000
+Poisson’s ratio 
+0.45
+0.3
+Shear strength, cu kPa
+20
+0
+Angle of internal friction 
+0
+380
+Fig. 6. Finite-element discretization of model test by Narasimha Rao
+et al. 1992
+Fig. 7. Validation of PLAXIS
+Fig. 8. Finite-element discretization for single column
+JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007 / 409
+model test. Analysis for a group of seven columns was also car-
+ried out as shown in Fig. 10 using an axisymmetric model with
+surrounding six columns replaced by a ring of stones having
+equivalent thickness and material properties of stone as adopted
+by Mitchell and Huber 1985. The group analyses were carried
+out by varying s/d from 1.5 to 4 and cu from 7 to 30 kPa.
+Comparison of Laboratory Tests and FEM Analysis
+Single Column
+Column Area Alone Loaded
+Fig. 11 shows a typical relationship between axial stress and
+settlement for different shear strength values of a single column
+with s/d=2. Similar behavior has been observed for other s/d
+values also. Fig. 12 shows a typical axial stress versus settlement
+behavior for different s/d for cu=30 kPa. Similar behavior is ob-
+served for cu=14 and 7 kPa. As the s/d increases, limiting axial
+stress of the column decreases up to s/d=3 and beyond in which
+the reduction in axial stress is negligible. Both experimental and
+ﬁnite-element results reveal comparable behavior regarding the
+ultimate load as well as load-deformation relationship. The limit-
+ing axial stress obtained from experiment and ﬁnite-element
+analyses are listed in Table 1. The ratio of limiting axial stress to
+corresponding shear strength is shown in Fig. 13 which is found
+to be constant for a given s/d as well as the given angle of
+internal friction of stones and it is independent of the shear
+strength of the surrounding clay.
+The analysis is extended to study the effect of the angle of
+internal friction of stones by varying the value of  as 35, 40, 43,
+and 45° for different s/d’s of 1.5–4. Based on the results, limiting
+axial stress/shear strength su/cu versus s/d ratio for different
+angles of internal friction of stones is presented in Fig. 14. This
+relationship is valid for any shear strength value of surrounding
+soil. The results of experimental ﬁndings are also shown in
+Fig. 14 for comparison.
+In most of the actual ﬁeld conditions, about 10–30% of the
+applied load is shared by the clay surrounding the column as a
+surcharge, which improves the capacity of the column. To study
+the effect of a surcharge on limiting axial stress, ﬁnite-element
+analysis is extended for surcharge intensity q varying from 0,
+20, 40, and 60 kPa over the surrounding clay as the column is
+gradually loaded to failure. Fig. 15 shows a typical ﬁnite-element
+deformed mesh at the time of failure for the s/d=3 and
+cu=30 kPa. Typical axial stress versus settlement behavior for s/d
+of 2 and cu=14 kPa under different surcharge is shown in Fig. 16.
+Typical variation of limiting axial stress with surcharge for the
+case of s/d=2, angle of internal friction of stones is 43°, and
+various shear strength of clay is shown in Fig. 17a. A similar
+variation is observed for other s/d ratios of 3 and 4 and other 
+values. Fig. 17b shows the variation of limiting axial stress with
+a surcharge and an angle of internal friction of stones for
+s/d=2 and cu=30 kPa. The following relationship is obtained be-
+Fig. 9. Typical deformed mesh for s/d=3: a column alone loaded;
+b entire area loaded
+Fig. 10. Finite-element discretization for group test
+Fig. 11. Effect of shear strength on behavior of stone column
+Fig. 12. Effect of s/d on behavior of stone column
+410 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007
+tween limiting axial stress with a surcharge on surrounding clay
+suq and limiting axial stress without surcharge su:
+suq = su + 0.00882 −0.5067 + 10.86q
+1
+The previous relationship is obtained based on FEM consider-
+ing  varying from 35 to 45°. The experimental results without
+surcharge and for =43° compare well with the su from FEM.
+However, further experimental work is required to verify the pre-
+vious relationship with stones having different  values. In a ﬁeld
+situation, the size of the stone is large and it is unlikely that the 
+value is less than 43° used in the experimental works.
+Entire Area Loaded
+This analysis aims at evaluating the improvement of the stiffness
+of the treated ground. The loading of both the stone column and
+the surrounding equivalent area with conﬁnement of the tank wall
+represents an actual ﬁeld condition for the interior columns of a
+large group of stone columns. Fig. 18 shows typical axial stress
+versus settlement behavior for improved and unimproved grounds
+based on model tests as well as ﬁnite-element analysis for differ-
+ent shear strengths and for s/d of 2. When the entire area is
+loaded, because of the conﬁning effect from the boundary of the
+unit cell, failure does not take place even for a settlement as high
+as 10 mm. Fig. 19 shows typical axial stress versus settlement
+behavior from model test and ﬁnite-element analysis for different
+s/d and for a shear strength of 30 kPa. As the axial stress versus
+settlement relation is almost linear, stiffness Young’s Modulus
+of the improved ground can be obtained from average slope of the
+plot and is listed in Table 1. The stiffness improvement factor 
+is derived as stiffness of treated ground divided by stiffness of
+untreated ground. The stiffness of untreated ground is based on
+experimental results on a test tank ﬁlled with only the clay of
+corresponding shear strength and entire loaded area. The stiffness
+see Fig. 18 of untreated soil is found to be 5,600, 3,250, and
+2,260 kPa for the shear strength of 30, 14, and 7 kPa, respec-
+tively. As can be seen from Fig. 20, the stiffness improvement
+factor is found to be independent of the shear strength of the
+surrounding clay and its value for various s/d’s and angle of
+internal friction  of stone is shown in Fig. 21 along with the
+experimental result. It is clear from Fig. 21 that for s/d ratio
+beyond 3, there is no signiﬁcant improvement in the stiffness.
+Group of Columns
+Fig. 22 shows a comparison of axial stress versus settlement be-
+havior of a group of seven columns and of a single column when
+entire area is loaded based on both ﬁnite-element analysis as well
+as experimental results for s/d=3. As can be seen, behavior of a
+single column and a group of columns is almost comparable.
+Hence the single column behavior with a unit cell concept can
+simulate the ﬁeld behavior for an interior column when a large
+number of columns is simultaneously loaded. When an entire unit
+cell area is loaded, the average stress on column and soil is ob-
+tained from the ﬁnite-element analysis for a group test and a
+single column test. Based on this, a parameter called stress con-
+centration ratio n is determined as average stress on stone col-
+umn divided by average stress on clay. The stress concentration
+ratio versus s/d is shown for different shear strengths of clay in
+Fig. 23. FEM is also carried out for comparison with a higher
+consistency of clay having Es/Ec=5 cu=60 kPa. The corre-
+sponding curves are also included in Fig. 23. As the shear strength
+of the clay decreases, there is more stress concentration on the
+Fig. 13. Effect of cu on limiting axial stress/cu
+Fig. 14. Effect of s/d and  on axial capacity of stone column
+Fig. 15. Deformed mesh at failure for column gradually loaded
+under constant surcharge stress on clay s/d=3
+Fig. 16. Effect of surcharge on stress settlement behavior
+JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007 / 411
+stone column. As can be seen, the FEM results of stress concen-
+tration for both a single column and a group of seven columns are
+comparable and hence the unit cell concept is valid even for other
+s/d ratios varying from 1.5 to 4. However further experimental
+study is required to verify the unit cell concept for a closer
+spacing.
+Comparison with Existing Theories
+From the present work, the relationship between the friction angle
+for the granular material, shear strength of surrounding clay, and
+the limiting axial stress of single stone column without consider-
+ing the effect of surcharge is compared in Fig. 24 with existing
+theories by Greenwood 1970, Hughes and Withers 1974, and
+Hughes et al. 1976. The existing theories predict the capacity of
+a single stone column in inﬁnite soil mass, which does not con-
+sider the effect of spacing and surcharge. The present study in-
+corporates the effect of spacing between columns based on unit
+cell concept. When the surcharge load on the surrounding clay is
+also considered, there is a considerable increase in load carrying
+capacity. Fig. 25 compares the stiffness improvement factor ob-
+tained from the present work with the existing theories for differ-
+ent area ratio area of unit cell/area of stone column and angle of
+internal friction of stones. The present work predicts a slightly
+higher stiffness improvement factor for an area ratio more than 4
+and a lower value for an area ratio less than 4 compared to Priebe
+1995.
+Design Example
+Figs. 14, 21, and 23, can be used for the design of stone columns.
+The design can be carried out for a factor of safety of 1.5 against
+the limiting axial capacity of stone column. Such a low factor of
+safety is preferable to ensure a higher settlement and lateral bulg-
+ing of the column so that more of the applied load is transferred to
+the surrounding clay. Thus the available strength of the clay is
+utilized to make the design economical Datye 1982. The method
+proposed for the design, using the results of the present analysis,
+is explained for the design of a foundation for a 30 m diameter
+steel storage tank with loading intensity of 120 kPa and supported
+Fig. 17. Effect of surcharge and angle of friction on limiting axial
+stress: a variation with q and cu; b variation with q and 
+Fig. 18. Stress settlement behavior under entire area loading
+Fig. 19. Effect of s/d on stress settlement behavior entire area
+loaded
+Fig. 20. Effect of cu on stiffness improvement factor
+412 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007
+on a 12 m thick soft clay layer. The average properties of soft
+clay are: Shear strength=20 kPa and modulus of elasticity
+=4,000 kPa. The stones used for columns has modulus of
+elasticity=55,000 kPa and angle of internal friction=43°.
+1.
+Depending
+on
+availability
+of
+construction
+equipments,
+choose stone column diameter between 500 and 1,000 mm,
+let us adopt 800 mm diameter.
+2.
+Choose triangular pattern with a center to center spacing in
+the range of 1.5–3 times the diameter. Let us adopt a spacing
+of 1.6 m. This spacing can be changed if the stresses on
+stone/clay are high/low or if the settlement exceeds the per-
+missible value.
+3.
+For the stiffness ratio Es/Ec of 13.75 and s/d ratio of 2, get
+the stress concentration ratio s/c from Fig. 23 as 4.8.
+4.
+From the above-presented stress concentration ratio, ﬁnd the
+average stress on clay and stone column based on the follow-
+ing relationship:
+sAs + cAc = p0A
+2
+where
+s=4.8c;
+As=0.503 m2;
+A=s2 sin 600=2.217 m2;
+and
+Ac=A-As=1.714 m2.
+Solving
+s=309.4 kPa
+and
+c=64.45 kPa.
+5.
+For s/d=2, cu=20 kPa, and an angle of internal friction of
+43° limiting axial stress without a surcharge on the surround-
+ing clay, su/cu is obtained from Fig. 14 as 23.5. Hence
+su=23.520=470 kPa. The surcharge on the surrounding
+clay, q=average stress shared by the clay=c=64.45 kPa.
+Using Eq. 1, limiting the axial stress on a column with a
+surcharge of 64.45 kPa over the clay can be obtained as
+follows:
+suq = su + 0.00882 −0.5067 + 10.86q
+= 470 + 0.0088  432 −0.5067  43 + 10.86  64.45
+= 814 kPa
+6.
+Find the factor of safety available=suq/s=2.631.5 and
+hence safe.
+7.
+Ultimate bearing capacity of soil qult=5.14 cu=102.8 kPa.
+A factor of safety available against a bearing capacity of
+soil=qult/c=1.59 1.5 is adequate. If the factor of safety
+available for limiting stress on a column or on clay is less
+than 1.5 in Step 4 or 5, the design has to be revised by either
+increasing the diameter of the column or by reducing the
+spacing between the columns.
+8.
+Find the settlement of untreated deposit as
+Fig. 21. Effect of s/d and  on stiffness improvement factor
+Fig. 22. Comparison of group column test and single column test
+Fig. 23. Effect of s/d and cu on stress concentration ratio
+Fig. 24. Comparison of limiting axial stress with existing theories
+JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007 / 413
+settlement = mv	zH,
+mv = 1/Ec = 1/4,000
+= 0.00025 m2/kN
+z=Ig p0=0.92120=110.4 kPa Ig at the center of treated
+depth can be obtained as per Boussinesq’s pressure distribu-
+tion as 0.92. Consolidation settlement=0.00025110.4
+12=331.2 mm.
+9.
+Find the stiffness improvement factor from Fig. 21 for
+s/d=2
+and
+=43°
+as
+2.6.
+Settlement
+of
+tank
+after
+treatment=331.2/2.6=127.4 mm.
+Compare
+the
+treated
+settlement with permissible value and revise the design, if
+required.
+Conclusions
+The present work describes experimental and ﬁnite-element
+analyses carried out to study the effect of shear strength of soil,
+angle of internal friction of stones, and spacing between the stone
+columns on the behavior of stone columns. Experiments are car-
+ried out by loading the column area alone as well as the entire
+unit cell area to study the limiting axial stress on the stone column
+and stiffness of improved ground, respectively. Based on the re-
+sults, design charts are proposed and a design procedure is sug-
+gested which ensures a required factor of safety and checks the
+settlement. The following conclusions are drawn based on this
+study:
+1.
+When column area alone is loaded, failure is by bulging with
+maximum bulging at a depth of about 0.5 times the diameter
+of stone column.
+2.
+As spacing increases, axial capacity of the column decreases
+and settlement increases up to an s/d of 3, beyond which the
+change is negligible.
+3.
+The ratio of limiting axial stress on column to corresponding
+shear strength of surrounding clay is found to be constant for
+any given s/d and angle of internal friction of stones and it is
+independent of the shear strength of the surrounding clay.
+4.
+The load settlement behavior of a unit cell with an entire area
+loaded is almost linear and it is possible to ﬁnd the stiffness
+of improved ground.
+5.
+Single column tests with an entire unit cell area loaded com-
+pare well with the group test results. Hence the single col-
+umn behavior with unit cell concept can simulate the ﬁeld
+behavior for an interior column when large number of col-
+umns is simultaneously loaded.
+6.
+Stiffness improvement factor is found to be independent of
+shear strength of surrounding clay and depends mainly on
+column spacing and on the angle of internal friction of the
+stones.
+Notation
+The following symbols are used in this paper:
+A  area of a unit cell;
+Ac  area of clay in the unit cell;
+As  area of stone column;
+cu  undrained shear strength of clay;
+cv  coefﬁcient of consolidation;
+d  diameter of stone column;
+E  Young’s modulus of elasticity;
+Ec  Young’s modulus of elasticity of clay;
+Es  Young’s modulus of elasticity of compacted stones;
+H  thickness of clay layer;
+Ig  inﬂuence factor as per Boussinesq’s theory;
+L  length of stone column;
+mv  coefﬁcient of volume compressibility of clay;
+n  stress concentration ratio, s/c;
+p0  intensity of loading;
+qult  ultimate bearing capacity of clay;
+s  center to center spacing between stone columns;
+w  water content;
+  stiffness improvement factor;
+dry  dry unit weight;
+max  maximum unit weight;
+min  minimum unit weight;
+wet  bulk unit weight;
+	z  increase in vertical pressure at depth z due to the
+applied pressure p0 at the surface;
+  Poisson’s ratio;
+s  average stress over stone column;
+c  average stress over clay;
+su  limiting axial stress of stone column with no
+surcharge over the surrounding clay;
+suq  limiting axial stress of stone column with surcharge
+q over the surrounding clay;
+  angle of internal friction; and
+  dilation angle.
+References
+Abhijit, S., and Das, S. C. 2000. “Interaction analysis of stone column
+groups in foundations.” Proc., Indian Geotech. Conf., Bombay,
+India, 279–284.
+Aboshi, H., Ichimoto, E., Harada, K., and Emoki, M. 1979. “The
+composer—A method to improve the characteristics of soft clays by
+inclusion of large diameter sand columns.” Proc., Int. Conf. on Soil
+Reinforcement., E.N.P.C., 1, Paris 211–216.
+Alamgir, M., Miura, N., Poorooshasb, H. B., and Madhav, M. R. 1996.
+“Deformation analysis of soft ground reinforced by columnar inclu-
+sions.” Comput. Geotech., 184, 267–290.
+Atkinson, J. H. 1993. The mechanics of soils—An introduction to criti-
+cal state soil mechanics, 3rd Ed., McGraw-Hill, London.
+Balaam, N. P., Poulos, H. G., and Brown, P. T. 1978. “Settlement analy-
+sis of soft clays reinforced with granular piles.” Proc., 5th Asian Conf.
+on Soil Engineering, Bangkok, Thailand, 81–92.
+Fig. 25. Comparison of stiffness improvement factor with existing
+theories
+414 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007
+Bowles, J. E. 1988. Foundation analysis and design, 5th Ed., McGraw-
+Hill International Editions, Singapore.
+Datye, K. R. 1982. “Settlement and bearing capacity of foundation sys-
+tem with stone columns.” Proc., Symp. on Recent Developments in
+Ground Improvement Techniques, Bangkok, Thailand, 85–101.
+Goughnour, R. R. 1983. “Settlement of vertically loaded stone columns
+in soft ground.” Proc., 8th European Conf. on Soil Mechanics, and
+Foundations Engineering, Helsinki, Finland, 1, 235–240.
+Greenwood, D. A. 1970. “Mechanical improvement of soils below
+ground surfaces.” Proc., Ground Engineering Conf., Institution of
+Civil Engineers, London, 11–22.
+Han, J., and Ye, S. L. 1992. “Settlement analysis of buildings on the soft
+clays stabilized by stone columns.” Proc., Int. Conf. on Soil Improve-
+ment and Pile Found., 118, 446–451.
+Han, J., and Ye, S. L. 2001. “Simpliﬁed method for consolidation rate of
+stone column reinforced foundation.” J. Geotech. Geoenviron. Eng.,
+1277, 597–603.
+Hughes, J. M. O., and Withers, N. J. 1974. “Reinforcing of soft cohe-
+sive soils with stone columns.” Ground Eng., 73, 42–49.
+Hughes, J. M. O., Withers, N. J., and Greenwood, D. A. 1976. “A ﬁeld
+trial of reinforcing effect of stone column in soil.” Proc., Ground
+Treatment by Deep Compaction, Institution of Civil Engineers,
+London, 32–44.
+Indian Standards IS. 2003. “Indian standard code of practice for de-
+sign and construction for ground improvement-guidelines. Part 1:
+Stone columns.” IS 15284 (Part 1), New Delhi, India.
+Jellali, B., Bouassida, M., and De Buhan, P. 2005. “A homogenization
+method for estimating the bearing capacity of soils reinforced by
+stone columns.” Int. J. Numer. Analyt. Meth. Geomech., 2910,
+989–1004.
+Madhav, M. R., and Vitkar, P. P. 1978. “Strip footing on weak clay
+stabilized with a granular trench or pile.” Can. Geotech. J., 154,
+605–609.
+McKelvey, D., Sivakumar, V., Bell, A., and Graham, J. 2004. “Model-
+ing vibrated stone columns on soft clay.” Geotech. Eng., 157GE3,
+137–149.
+Mitchell, J. K., and Huber, T. R. 1985 “Performance of a stone column
+foundation.” J. Geotech. Engrg., 1112, 205–223.
+Mitra, S., and Chattopadhyay, B. C. 1999 “Stone columns and design
+limitations.” Proc., Indian Geotech. Conf., Calcutta, India, 201–205.
+Narasimha Rao, S., Madhiyan, M., and Prasad, Y. V. S. N. 1992. “In-
+ﬂuence of bearing area on the behavior of stone columns.” Proc.,
+Indian Geotech. Conf., Calcutta, India, 235–237.
+Priebe, H. J. 1995. “The design of vibro replacement.” Ground Eng.,
+2812, 31–37.
+Saha, S., Santhanu, S., and Roy, A. 2000. “Analysis of stone column in
+soft ground.” Proc., Indian Geotech. Conf., Bombay, India, 297–300.
+Sathish, S., Yadav, O. P., and Deepak, M. 1997. “Soft ground improve-
+ment using stone columns—A ﬁeld trial.” Proc., Indian Geotech.
+Conf., Vadodara, India, 311–314.
+Shahu, J. T., Madhav, M. R., and Hayashi, S. 2000. “Analysis of soft
+ground—Granular pile-granular mat system.” Comput. Geotech.,
+271, 45–62.
+JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / APRIL 2007 / 415
+View publication stats

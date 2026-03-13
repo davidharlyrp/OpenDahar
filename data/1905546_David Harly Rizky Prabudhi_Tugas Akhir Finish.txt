@@ -1,0 +1,7173 @@
+1 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID 
+INCLUSION DENGAN MATERIAL MODEL TANAH MOHR-
+COULOMB DAN HARDENING SOIL PADA PROYEK JALAN 
+TOL 
+TUGAS AKHIR 
+Diajukan Untuk Memenuhi Syarat Memperoleh Gelar Sarjana Teknik Program 
+Studi Teknik Sipil 
+ 
+ 
+Oleh: 
+David Harly Rizky Prabudhi 
+1905546 
+ 
+ 
+ 
+PROGRAM STUDI TEKNIK SIPIL 
+FAKULTAS PENDIDIKAN TEKNOLOGI DAN KEJURUAN 
+UNIVERSITAS PENDIDIKAN INDONESIA 
+2024
+i 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION 
+DENGAN MATERIAL MODEL TANAH MOHR-COULOMB DAN 
+HARDENING SOIL PADA PROYEK JALAN TOL 
+Oleh: 
+David Harly Rizky Prabudhi 
+ 
+ 
+Sebuah tugas akhir yang diajukan untuk memenuhi salah satu syarat memperoleh 
+gelar Sarjana Teknik pada Fakultas Pendidikan Teknologi dan Kejuruan 
+ 
+ 
+© David Harly Rizky Prabudhi 
+Universitas Pendidikan Indonesia 
+Agustus 2024 
+ 
+ 
+Hak cipta dilindungi undang-undang 
+Tugas akhir ini tidak boleh diperbanyak seluruhnya atau sebagian dengan dicetak 
+ulang, difotokopi, atau cara lainnya tanpa ijin penulis. 
+ 
+ 
+ 
+i 
+ 
+ 
+ 
+LEMBAR PENGESAHAN  
+TUGAS AKHIR 
+ 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION 
+DENGAN MATERIAL MODEL TANAH MOHR-COULOMB DAN 
+HARDENING SOIL PADA PROYEK JALAN TOL 
+ 
+Disetujui dan disahkan oleh pembimbing: 
+Pembimbing I 
+ 
+ 
+Dr. Ir. Herwan Dermawan, S.T., M.T., ASEAN.Eng 
+NIP. 19800128 200812 1 001 
+ 
+ 
+Mengetahui, 
+Ketua Program Studi Teknik Sipil 
+ 
+ 
+ 
+Dr. T. Ir. Juang Akbardin, ST., MT., IPM 
+NIP. 19770307 200812 1 001 
+ 
+ 
+ 
+ii 
+ 
+ 
+ 
+LEMBAR PERNYATAAN 
+ 
+Dengan ini saya menyatakan bahwa tugas akhir dengan judul “Perbaikan Tanah 
+Menggunakan Metode Rigid Inclusion dengan Material Model Tanah Mohr-
+Coulomb dan Hardening Soil Pada Proyek Jalan Tol” ini beserta seluruh isinya 
+adalah benar-benar karya saya sendiri. Saya tidak melakukan penjiplakan atau 
+pengutipan dengan cara cara yang tidak sesuai dengan etika ilmu yang berlaku 
+dalam Masyarakat keilmuan. Atas pernyataan ini, saya siap menanggung 
+risiko/sanksi apabila di kemudian hari ditemukan adanya pelanggaran etika 
+keilmuan atau ada klaim dari pihak lain terhadap keaslian karya saya ini. 
+ 
+Bandung, 
+ Agustus 2024 
+Pembuat Pernyataan 
+ 
+ 
+David Harly Rizky Prabudhi 
+NIM. 1905546 
+ 
+ 
+iii 
+ 
+ 
+ 
+KATA PENGANTAR 
+ 
+ 
+Segala puji dan syukur penulis panjatkan kehadirat Yang Maha Esa Allah 
+SWT yang selalu memberikan rahmat serta hidayah-Nya, sehingga akhirnya 
+penulis dapat menyelesaikan Tugas Akhir yang berjudul “Perbaikan Tanah 
+Menggunakan Metode Rigid Inclusion dengan Material Model Tanah Mohr-
+Coulomb dan Hardening Soil Pada Proyek Jalan Tol” ini. Laporan ini diajukan 
+penulis sebagai salah satu syarat untuk memperoleh gelar Sarjana Teknik pada 
+Program Studi Teknik Sipil, Departemen Pendidikan Teknik Sipil, Fakultas 
+Pendidikan Teknologi dan Kejuruan, Universitas Pendidikan Indonesia. 
+ 
+Dalam penyusunan tugas akhir ini terdapat banyak pihak yang telah 
+membantu penulis dalam penyelesaian tugas akhir ini baik secara langsung maupun 
+secara tidak langsung, oleh karena itu penulis mengucapkan terima kasih banyak 
+kepada: 
+1) Bapak Dr. Ir. Herwan Dermawan, S.T., M.T. ASEAN. Eng. selaku dosen 
+pembimbing utama tugas akhir yang telah membimbing serta memberikan saran 
+dan masukan kepada penulis. 
+2) Bapak K. M. Abuhuroyroch, S.T., M.T., selaku pembimbing yang berasal dari 
+BUT Menard Geosystem yang juga telah membimbing serta memberikan saran 
+dan masukan kepada penulis. 
+3) Bapak Dr. Ir. Juang Akbardin, S.T., M.T., IPM., ASEAN.Eng, selaku Ketua 
+Program Studi Teknik Sipil, Universitas Pendidikan Indonesia. 
+4) Orang Tua dan Kakak Kandung penulis, yang telah memberikan dukungan 
+berupa materil maupun non-materil. 
+5) Noviya Rhamadita, yang telah memberikan dukungan dalam bentuk semangat 
+secara langsung maupun tidak langsung. 
+6) Seluruh pihak yang telah membantu dalam penyelesaian Tugas Akhir ini.  
+ 
+Penulis menyadari bahwa tugas akhir ini bukanlah karya yang sempurna 
+karena masih memiliki banyak kekurangan, baik dalam hal isi maupun sistematika 
+dan teknik penulisannya. Oleh karena itu, penulis sangat mengharapkan kritik dan 
+iv 
+ 
+ 
+ 
+saran yang membangun demi kesempunaan tugas ini. Akhir kata, semoga tugas 
+akhir ini dapat memberikan manfaat bagi penulis dan umumnya bagi para pembaca. 
+ 
+Bandung, 
+Agustus 2024 
+ 
+ 
+ 
+David Harly Rizky Prabudhi 
+ 
+ 
+ 
+v 
+ 
+ 
+ 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION 
+DENGAN MATERIAL MODEL TANAH MOHR-COULOMB DAN 
+HARDENING SOIL PADA PROYEK JALAN TOL 
+David Harly Rizky Prabudhi1, Herwan Dermawan2 
+Program Studi Teknik Sipil, Fakultas Pendidikan Teknologi dan Kejuruan, 
+Universitas Pendidikan Indonesia 
+e-mail: davidharlyrp@upi.edu1, herwand@yahoo.com2 
+ 
+ABSTRAK 
+Penelitian ini membahas penerapan metode Rigid Inclusion Full Displacement 
+Column pada perbaikan tanah dalam proyek konstruksi Jalan Tol. Tujuan utama 
+dari penelitian ini adalah untuk mengevaluasi efektivitas metode Full Displacement 
+Column dalam meningkatkan daya dukung tanah dan mengurangi penurunan tanah, 
+serta membandingkan hasil pemodelan menggunakan model material Mohr-
+Coulomb dan Hardening Soil. Pemodelan numeris dilakukan dengan perangkat 
+lunak Plaxis 2D, yang mensimulasikan kondisi plane strain dan axisymmetric. Hasil 
+penelitian menunjukkan bahwa model material Hardening Soil lebih akurat dalam 
+memprediksi penurunan tanah dibandingkan model Mohr-Coulomb. Implementasi 
+Full Displacement Column secara signifikan meningkatkan daya dukung dan 
+stabilitas tanah, serta memberikan respons yang baik terhadap beban dinamis 
+seperti gempa. Pemodelan axisymmetric juga memberikan hasil yang lebih realistis 
+dibandingkan plane strain dalam kasus ini. Penelitian ini menggarisbawahi 
+pentingnya pemilihan model material dan parameter tanah yang tepat untuk analisis 
+geoteknik yang lebih akurat. Rekomendasi termasuk penggunaan model Hardening 
+Soil untuk kondisi tanah serupa dan pentingnya melakukan analisis balik jika 
+terdapat perbedaan dengan kondisi lapangan yang sebenarnya. 
+Kata kunci: Perbaikan Tanah, Full Displacement Column, Mohr-Coulomb, 
+Hardening Soil, Penurunan
+vi 
+ 
+ 
+ 
+SOIL IMPROVEMENT USING RIGID INCLUSION METHOD WITH 
+MOHR-COULOMB SOIL MATERIAL MODEL AND HARDENING SOIL 
+IN HIGHWAY PROJECT 
+David Harly Rizky Prabudhi1, Herwan Dermawan2 
+Civil Engineering Study Program, Faculty of Technology and Vocational 
+Education, Indonesia University of Education 
+e-mail: davidharlyrp@upi.edu1, herwand@yahoo.com2 
+ 
+ABSTRACT 
+This study discusses the application of the Rigid Inclusion Full Displacement 
+Column method for soil improvement in a highway construction project. The main 
+objective of this research is to evaluate the effectiveness of the Full Displacement 
+Column method in enhancing soil bearing capacity and reducing settlement, as well 
+as to compare modeling results using the Mohr-Coulomb and Hardening Soil 
+material models. Numerical modeling was performed using Plaxis 2D software, 
+simulating both plane strain and axisymmetric conditions. The results indicate that 
+the Hardening Soil material model is more accurate in predicting soil settlement 
+compared to the Mohr-Coulomb model. The implementation of Full Displacement 
+Columns significantly enhances soil bearing capacity and stability and provides a 
+good response to dynamic loads such as earthquakes. The axisymmetric modeling 
+also yields more realistic results than plane strain in this case. This research 
+highlights the importance of selecting appropriate material models and accurate 
+soil parameters for more precise geotechnical analysis. Recommendations include 
+the use of the Hardening Soil model for similar soil conditions and the necessity of 
+performing back analysis if there are discrepancies with actual field conditions. 
+Keywords: Soil Improvement, Full Displacement Column, Mohr-Coulomb, 
+Hardening Soil, Settlement 
+ 
+vii 
+ 
+ 
+ 
+DAFTAR ISI 
+ 
+LEMBAR PENGESAHAN ..................................................................................... i 
+LEMBAR PERNYATAAN .................................................................................... ii 
+KATA PENGANTAR ........................................................................................... iii 
+ABSTRAK .............................................................................................................. v 
+DAFTAR ISI ......................................................................................................... vii 
+DAFTAR TABEL .................................................................................................. xi 
+DAFTAR GAMBAR ........................................................................................... xiii 
+DAFTAR LAMPIRAN ......................................................................................... xv 
+ BAB I ..................................................................................................................... 1 
+1.1 Latar Belakang Penelitian ............................................................................. 1 
+1.2 Identifikasi Masalah ...................................................................................... 3 
+1.3 Rumusan Masalah Penelitian ........................................................................ 4 
+1.4 Tujuan Penelitian .......................................................................................... 5 
+1.5 Manfaat Penelitian ........................................................................................ 5 
+1.6 Struktur Organisasi Penelitian....................................................................... 5 
+ BAB II .................................................................................................................... 7 
+2.1 Perbaikan Tanah ............................................................................................ 7 
+2.1.1 Pengertian perbaikan tanah .................................................................... 7 
+2.1.2 Jenis-jenis perbaikan tanah .................................................................... 7 
+2.2 Metode Perbaikan Tanah Menggunakan Rigid Inclusion ........................... 13 
+2.2.1 Pengertian rigid inclusion .................................................................... 13 
+2.2.2 Prinsip kerja rigid inclusion menggunakan FDC ................................. 15 
+2.2.3 Tahapan instalasi FDC ......................................................................... 16 
+2.3 Metode Perhitungan Daya Dukung Tiang .................................................. 17 
+viii 
+ 
+ 
+ 
+2.3.1 Metode Mayerhof (1956) ..................................................................... 19 
+2.3.2 Metode Décourt-Quaresma (1982) ...................................................... 23 
+2.3.3 Metode Schmertmann (1967) ............................................................... 25 
+2.4 Perencanaan Desain Full Displacement Columns ...................................... 26 
+2.4.1 Diameter dan jarak FDC ...................................................................... 26 
+2.4.2 Area Replacement Ratio ....................................................................... 27 
+2.4.3 Kedalaman FDC ................................................................................... 28 
+2.4.4 Perkuatan FDC ..................................................................................... 28 
+2.4.5 Ketebalan LTP ..................................................................................... 30 
+2.4.6 Penggunaan Geosintetik ....................................................................... 30 
+2.5 Penurunan Tiang ......................................................................................... 31 
+2.5.1 Penurunan Seketika .............................................................................. 31 
+2.5.2 Penurunan Konsolidasi Tiang .............................................................. 31 
+2.5.3 Metode Ekuivalen Pier pada Piled Raft ............................................... 31 
+2.6 Kelas Situs ................................................................................................... 33 
+2.6.1 Kecepatan rata-rata gelombang geser (υₛ) ............................................ 35 
+2.6.2 Tahanan penetrasi standar lapangan rata-rata (Nspt) dan tahanan penetrasi 
+standar rata-rata untuk lapisan tanah non-kohesif (Nspt ch) ............................ 35 
+2.6.3 Kuat geser niralir (Su) ........................................................................... 35 
+2.7 Desain Seismik ............................................................................................ 35 
+2.8 Pemodelan Numeris Plane-Strain dan Axisymmetric ................................. 37 
+2.9 Software Plaxis 2D ...................................................................................... 38 
+2.9.1 Mohr-Coulomb Model .......................................................................... 39 
+2.9.2 Hardening Soil Model .......................................................................... 40 
+ BAB III ................................................................................................................ 41 
+3.1 Desain Penelitian ......................................................................................... 41 
+ix 
+ 
+ 
+ 
+3.2 Tempat Penelitian........................................................................................ 41 
+3.3 Pengumpulan Data ...................................................................................... 42 
+3.4 Prosedur Penelitian...................................................................................... 48 
+3.5 Analisis Data ............................................................................................... 55 
+ BAB IV ................................................................................................................ 56 
+4.1 Penentuan Kelas Situs ................................................................................. 56 
+4.2 Penentuan Desain Seismik .......................................................................... 58 
+4.3 Perhitungan Daya Dukung Tiang ................................................................ 59 
+4.3.1 Metode Mayerhof (1956) ..................................................................... 60 
+4.3.2 Metode Decourt-Quaresma (1982) ...................................................... 63 
+4.3.3 Metode Schmertmann (1967) ............................................................... 64 
+4.4 Parameter Desain Plaxis .............................................................................. 67 
+4.4.1 Parameter Desain FDC ......................................................................... 67 
+4.4.2 Parameter Desain Geogrid ................................................................... 68 
+4.4.3 Parameter Desain Tanah ...................................................................... 69 
+4.4.4 Parameter Desain Improved Soil ......................................................... 72 
+4.5 Analisis Penurunan dan Stabilitas Tanpa Perkuatan Dengan Pemodelan 
+Numeris ............................................................................................................. 74 
+4.6 Analisis Penurunan dan Stabilitas Menggunakan Pemodelann Numeris 
+Dengan Plane-Strain ......................................................................................... 76 
+4.7 Perbandingan Penurunan dan Stabilitas Tanpa Perkuatan dan Setelah 
+Menggunakan Perkuatan FDC .......................................................................... 79 
+4.8 Analisis Penurunan Menggunakan Pemodelann Numeris dengan 
+Axisymmetric ..................................................................................................... 81 
+4.8.1 Mohr-Coulomb ..................................................................................... 83 
+4.8.2 Hardening Soil ..................................................................................... 84 
+4.9 Analisis Perbandingan Penurunan Plane-Strain dan Axisymmetric ........... 86 
+x 
+ 
+ 
+ 
+4.10 Analisis Perkuatan Full Displacement Column ........................................ 88 
+4.11 Analisis Plate Loading Test Menggunakan Plaxis 2D .............................. 90 
+4.12 Analisis Perbandingan Penurunan dan Daya Dukung .............................. 92 
+4.13 Analisis Perbandingan Penurunan PLT Secara Back Analysis................. 96 
+ BAB V ................................................................................................................ 100 
+5.1 Simpulan ................................................................................................... 100 
+5.2 Implikasi dan Rekomendasi ...................................................................... 101 
+ DAFTAR PUSTAKA ........................................................................................ 103 
+ LAMPIRAN ....................................................................................................... 106 
+xi 
+ 
+ 
+ 
+DAFTAR TABEL 
+ 
+Tabel 2.1. Nilai K dan δ pada tanah pasir (Tomlinson, 1986) ............................... 22 
+Tabel 2.2. Koefisien dasar tiang, α (Cintra, J.C.A., Aoki, N, 1999) ...................... 24 
+Tabel 2.3. Nilai karakteristik tanah (Cintra, J.C.A., Aoki, N, 1999) ..................... 24 
+Tabel 2.4. Koefisien sekeliling tiang, β (Cintra, J.C.A., Aoki, N, 1999) .............. 25 
+Tabel 2.5. Nilai gesekan untuk desain pondasi (Schmertmann, 1967) ................. 26 
+Tabel 2.6. Parameter dan metode pengujian dalam penentuan parameter kelas situs
+ ............................................................................................................................... 33 
+Tabel 2.7. Klasifikasi Situs ................................................................................... 34 
+Tabel 2.8. Koefisien Situs, FPGA ........................................................................... 36 
+Tabel 3.1. Data Bor Log BH-23 ............................................................................ 44 
+Tabel 3.2. Data Bor Log BH-24 ............................................................................ 45 
+Tabel 3.3. Parameter Design ................................................................................. 47 
+Tabel 4.1. Perhitungan Kelas Situs BH-23 ........................................................... 56 
+Tabel 4.2. Perhitungan Kelas Situs BH-24 ........................................................... 57 
+Tabel 4.3. Koefisien Situs, FPGA ........................................................................... 58 
+Tabel 4.4. Data Tanah pada perhitungan daya dukung ......................................... 60 
+Tabel 4.5. Rekap Perhitungan Daya Dukung Selimut Tiang (Mayerhof) ............. 62 
+Tabel 4.6. Rekap Perhitungan Daya Dukung Selimut Tiang (Decourt-Quaresma)
+ ............................................................................................................................... 64 
+Tabel 4.7. Rekap Perhitungan Daya Dukung Selimut Tiang (Schmertmann) ...... 65 
+Tabel 4.8. Rekapitulasi daya dukung izin tiang .................................................... 66 
+Tabel 4.9. Parameter Desain FDC ........................................................................ 68 
+Tabel 4.10. Parameter Desain Geogrid ................................................................. 69 
+Tabel 4.11. Parameter Desain Tanah (Mohr-Coulomb) ........................................ 69 
+Tabel 4.12. Parameter Desain Tanah (Hardening Soil) ........................................ 70 
+Tabel 4.13. Parameter Desain Improved Soil (Mohr-Coulomb) ........................... 73 
+Tabel 4.14. Parameter Desain Improved Soil (Hardening Soil) ........................... 74 
+Tabel 4.15. Penurunan Tanpa Perkutan ................................................................ 75 
+Tabel 4.16. Staged Construction Pada Pemodelan Plane-strain .......................... 77 
+Tabel 4.17. Rekapitulasi Pemodelan Plane-Strain ............................................... 77 
+xii 
+ 
+ 
+ 
+Tabel 4.18. Perbandingan Stabilitas dan Penurunan Tanpa Perkuatan dan Dengan 
+FDC (MC) ............................................................................................................. 79 
+Tabel 4.19. Perbandingan Stabilitas dan Penurunan Tanpa Perkuatan dan Dengan 
+FDC (HS) .............................................................................................................. 80 
+Tabel 4.20. Staged Construction Pada Pemodelan Axisymmetric......................... 81 
+Tabel 4.21. Rekapitulasi Pemodelan Axisymmetric .............................................. 85 
+Tabel 4.22. Perbandingan Penurunan Plane-Strain dan Axisymmetric ................ 86 
+Tabel 4.23. Tabel Rekapitulasi Pembebanan Terhadap Penurunan ...................... 91 
+Tabel 4.24. Tabel Perbandingan Penurunan Berdasarkan Pembebanan ............... 93 
+Tabel 4.25. Perbandingan Daya Dukung Serta Penurunan ................................... 94 
+Tabel 4.26. Persentase Perbedaan Daya Dukung dan Penurunan ......................... 94 
+Tabel 4.27. Parameter Kekakuan Desain Awal .................................................... 97 
+Tabel 4.28. Parameter Kekakuan Desain Baru ..................................................... 97 
+Tabel 4.29. Perbandingan Penurunan Parameter Awal dan Parameter Baru ........ 98 
+xiii 
+ 
+ 
+ 
+DAFTAR GAMBAR 
+ 
+Gambar 2.1. Pemadatan tanah menggunakan Vibro-Roller .................................... 8 
+Gambar 2.2. Percepatan konsolidasi menggunakan PVD ....................................... 9 
+Gambar 2.3. Dewatering ......................................................................................... 9 
+Gambar 2.4. Penggalian dan penggantian tanah ................................................... 10 
+Gambar 2.5. Teknik inclusions ............................................................................. 11 
+Gambar 2.6. Teknik vibrofloation ......................................................................... 11 
+Gambar 2.7. Teknik compaction grouting ............................................................ 12 
+Gambar 2.8. Teknik dynamic compaction ............................................................ 12 
+Gambar 2.9. Teknik vibro replacement menggunakan stone column ................... 13 
+Gambar 2.10. Perbaikan menggunakan rigid inclusion ........................................ 14 
+Gambar 2.11. Cara kerja Load Transfer Platform ................................................ 15 
+Gambar 2.12. Mata bor Auger .............................................................................. 15 
+Gambar 2.13. Tahapan instalasi FDC ................................................................... 17 
+Gambar 2.14. Korelasi nilai SPT tehadapt tahanan ujung ultimit ........................ 21 
+Gambar 2.15. Grafik α terhadap Cu ...................................................................... 23 
+Gambar 2.16. Layout FDC .................................................................................... 27 
+Gambar 2.17. Area Replacement Ratio................................................................. 28 
+Gambar 2.18. Tranverse dan longitudinal layout penggunaan geosintetik .......... 30 
+Gambar 2.19. Metode Ekuivalen Tiang ................................................................ 32 
+Gambar 2.20. Contoh peta percepatan tanah puncak Indonesia ........................... 37 
+Gambar 2.21. Axisymmetric (a) dan Plane-Strain (b) ........................................... 37 
+Gambar 3.1. Lokasi Penelitian .............................................................................. 42 
+Gambar 3.2. Layout Lokasi Penelitian .................................................................. 42 
+Gambar 3.3. Potongan Melintang Rencana........................................................... 43 
+Gambar 3.4. Plot Grafik BH-23 dan BH-24 ......................................................... 46 
+Gambar 3.5. Stratifikasi Tanah ............................................................................. 46 
+Gambar 3.6. Diagram Alir Penelitian ................................................................... 55 
+Gambar 4.1. Lokasi penelitian pada peta gempa Indonesia .................................. 58 
+Gambar 4.2. Ploting nilai Cu pada lapisan 1 ......................................................... 61 
+Gambar 4.3. Lokasi Top dan Bottom Timbunan .................................................. 74 
+xiv 
+ 
+ 
+ 
+Gambar 4.4. Faktor Keamanan Tanpa Perkuatan ................................................. 75 
+Gambar 4.5. Penurunan Maksimum Tanpa Perkuatan ......................................... 75 
+Gambar 4.6. Bidang gelincir tanpa menggunakan FDC ....................................... 76 
+Gambar 4.7. Geometri Plaxis dengan pemodelan plane-strain ............................ 76 
+Gambar 4.8. Faktor Keamanan Dengan Menggunakan FDC ............................... 78 
+Gambar 4.9. Penurunan Menggunakan Perkuatan FDC ....................................... 78 
+Gambar 4.10. Perbandingan Faktor Keamanan Tanpa Perkuatan dan Dengan FDC
+ ............................................................................................................................... 80 
+Gambar 4.11. Perbandingan Penurunan Tanpa Perkuatan dan Dengan FDC ....... 81 
+Gambar 4.12. Geometri Plaxis dengan pemodelan axisymmetric......................... 82 
+Gambar 4.13. Penurunan Konstruksi Axisymmetric (Mohr-Coulomb) ................. 83 
+Gambar 4.14. Penurunan Operasional Axisymmetric (Mohr-Coulomb) ............... 83 
+Gambar 4.15. Tegangan maksimum pada FDC (Mohr-Coulomb) ....................... 84 
+Gambar 4.16. Penurunan Konstruksi Axisymmetric (Hardening Soil) ................. 84 
+Gambar 4.17. Penurunan Operasional Axisymmetric (Hardening Soil) ............... 85 
+Gambar 4.18. Tegangan maksimum pada FDC (Hardening Soil) ........................ 85 
+Gambar 4.19. Penurunan Axisymmetric ............................................................... 86 
+Gambar 4.20. Penurunan Maksimum (Mohr-Coulomb) ....................................... 87 
+Gambar 4.21. Penurunan Maksimum (Hardening Soil)........................................ 87 
+Gambar 4.22. Perbandingan Penurunan Antara Setiap Model ............................. 88 
+Gambar 4.23. Output Gaya Aksial Maksimum ..................................................... 88 
+Gambar 4.24. Output Bending Momen Maksimum ............................................. 89 
+Gambar 4.25. Skema Pembebanan Pada Plaxis 2D .............................................. 91 
+Gambar 4.26. Grafik Load vs Settlement (Mohr-Coulomb) .................................. 92 
+Gambar 4.27 Grafik Load vs Settlement (Hardening Soil) ................................... 92 
+Gambar 4.28 Grafik Perbandingan Load vs Settlement ........................................ 93 
+Gambar 4.29. Perbandingan Penurunan Parameter Awal dan Baru (MC) ........... 98 
+Gambar 4.30. Perbandingan Penurunan Parameter Awal dan Baru (HS)............. 98 
+xv 
+ 
+ 
+ 
+DAFTAR LAMPIRAN 
+ 
+Lampiran 1 Bidang Gelincir Tanpa Perkuatan (Hardening Soil) ....................... 106 
+Lampiran 2 Penurunan Tanpa Perkuatan (Mohr-Coulomb)................................ 107 
+Lampiran 3 Penurunan Tanpa Perkuatan (Hardening Soil) ................................ 108 
+Lampiran 4 Penurunan Short-Term Plane-Strain (Mohr-Coulomb) ................... 109 
+Lampiran 5 Penurunan Long-Term Plane-Strain (Mohr-Coulomb) ................... 110 
+Lampiran 6 Penurunan Earthquake Plane-Strain (Mohr-Coulomb) .................. 111 
+Lampiran 7 Penurunan Short-Term Plane-Strain (Hardening Soil) ................... 112 
+Lampiran 8 Penurunan Long-Term Plane-Strain (Hardening Soil) ................... 113 
+Lampiran 9 Penurunan Earthquake Plane-Strain (Hardening Soil) ................... 114 
+Lampiran 10 Gaya Axial Maksimum .................................................................. 115 
+Lampiran 11 Momen Maksimum........................................................................ 116 
+1 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+BAB I 
+PENDAHULUAN 
+ 
+1.1 Latar Belakang Penelitian 
+ 
+Perbaikan tanah merupakan suatu usaha atau metode dalam memperbaiki 
+kualitas dari suatu kondisi tanah menjadi lebih baik dari kondisi sebelumnya dengan 
+meningkatkan nilai properti tanah seperti nilai kuat geser, kekakuan dan lain-lain 
+dari tanah tersebut dengan memberikan material sisipan ke dalam lapisan tanah 
+tersebut. Dengan dilakukannya suatu perbaikan tanah diharapkan tanah tersebut 
+dapat menopang atau menahan beban-beban yang bekerja di atasnya, seperti 
+bangunan gedung, jalan, jembatan, bendungan, timbunan dan lain-lain. 
+ 
+Seiring berkembangnya waktu dan teknologi untuk dapat meningkatkan 
+kualitas tanah dengan perbaikan tanah, para ilmuan dan insiyur menciptakan 
+berbagai jenis metode perbaikan tanah yang dimana setiap metode memiliki 
+keunggulan dan kekurangannya masing-masing dilihat dari kegunaan dan kondisi 
+tanah dimana metode perbaikan tersebut dilakukan. Dari sekian banyak metode 
+perbaikan yang ada, salah satunya ialah metode Rigid Inclusion. 
+ 
+Rigid Inclusion ini merupakan teknik yang dikembangkan dengan 
+menyuntikan material yang lebih baik kedalam lapisan tanah yang akan dipadatkan 
+tanpa mengeluarkan material yang buruk dari dalam tanah (Panguriseng, 2018). 
+Dari berbagai macam material yang disuntikan, mortar atau beton adalah salah satu 
+material yang cukup baik dalam menerima gaya tekan karena mortar atau beton 
+memiliki nilai kuat tekan yang cukup tinggi. Teknik ini biasa dikenal sebagai Full 
+Displacement Columns (FDC), Controlled Modulus Columns (CMC) atau Kolom 
+Grout Modular (KGM) yang berbentuk tiang-tiang yang berada di dalam tanah. 
+ 
+Dalam mendesain suatu Rigid Inlcusion ini diperlukan berbagai macam 
+perhitungan untuk diperoleh desain yang efektif dan efisien dalam menahan beban 
+di atasnya. Perhitungan daya dukung menjadi perhitungan yang cukup vital, hal ini 
+berpengaruh terhadap hasil desain yang ada, seperti jumlah tiang yang digunakan, 
+2 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+dimensi tiang (diameter, jarak, kedalaman) sehingga berpengaruh terhadap biaya 
+yang keluar dengan menggunakan metode ini, dan penurunan yang terjadi saat 
+beban-beban operasional telah bekerja dengan harapan konstruksi yang dibangun 
+hanya mengalami penurunan yang kecil dan dapat dikategorikan aman. 
+Selain penurunan, perhitungan daya dukung juga memiliki peran penting 
+dalam penentuan konfigurasi suatu perkuatan. Berbagai macam metode 
+perhitungan daya dukung tiang semakin berkembang dan bermacam-macam 
+sebagai upaya pendekatan hasil analisis dengan hasil lapangan. Terdapat beberapa 
+metode pendekatan perhitungan daya dukung, diantaranya ialah metode Mayerhof, 
+Decourt-Quaresma, dan Schmertmann. 
+ 
+Dalam pelaksanaan perhitungannya, seorang engineer perlu untuk memilih 
+metode, pemodelan numeris serta memperhatikan segala hal untuk mendapatkan 
+output yang dapat mendekati kondisi dilapangan. Dengan perkembangan teknologi, 
+engineer dibantu dengan kemudahan software yang semakin banyak dan kompleks. 
+Dibalik kemudahann yang ditawarkan seorang engineer dihadapkan pada 
+pemilihan suatu metode atau model numeris yang perlu dipilih pada suatu software 
+tersebut.  
+ 
+Pada software analisis geoteknik terdapat salah satu software yang sudah 
+umum digunakan para engineer, yaitu software PLAXIS 2D yang dikeluarkann 
+oleh Bentley. Pada software tersebut engineer diberikan dua pilihan pemodelan 
+numeris yang dapat dipilih. Dimana pada software tersebut diberikan pilihan 
+pemodelan secara numeris secara Plane-strain dan axisymmetric. Engineer 
+diperlukan menentukan pemodelan mana yang akan dipilih pada awal pemodelan, 
+dikarenakan setiap pemodelan numeris tersebut memiliki data input, geometri, dan 
+output yang berbeda-beda. 
+ 
+Selain pemodelan numeris yang perlu ditentukan, engineer juga perlu 
+menentukan material model tanah mana yang cocok untuk digunakan. Karena sifat 
+tanah yang sangat beragam, banyak peneliti melakukan pendekatan-pendekatan 
+untuk dapat memberikan bagaimana perilaku tanah yang sesuai pada kenyataan. 
+Software PLAXIS 2D V22 memberikan cukup banyak material model tanah yang 
+dapat dipilih oleh seorang engineer, beberapa diantaranya yang umum digunakan 
+3 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ialah Mohr-Coulomb dan Hardening Soil. Setiap material model yang ada 
+membutuhkan parameter tanah yang berbeda-beda, sehingga menghasilkan output 
+yang beragam pula. 
+Metode perbaikan tanah dengan menggunakan Rigid Inclusion ini pun dapat 
+dimaksimalkan 
+kinerjanya 
+menggunakan 
+material 
+lain, 
+seperti 
+dengan 
+menggunakan lembaran wiremesh maupun geosintetik berupa geogrid dan/atau 
+geoteksil. Dengan adanya tipe pemodelan numeris yang disediakan serta material 
+model tanah yang cukup beragam untuk bisa memberikan pendekatan perilaku 
+tanah, maka penulis mencoba melihat perbandingan dalam pemilihan metode daya 
+dukung dari Mayerhof, Decourt-Quaresma, dan Schmertmann serta penurunan 
+Rigid Inclusion dengan model numeris plane-strain dan axisymmetric dengan 
+material model tanah berupa Mohr-Coulomb dan Hardening Soil yang dimana 
+material model tersebut cukup umum digunakan, maka penulis membuat penelitian 
+dengan judul “Perbaikan Tanah Menggunakan Metode Rigid Inclusion dengan 
+Material Model Tanah Mohr-Coulomb Dan Hardening Soil Pada Proyek Jalan 
+Tol” 
+ 
+1.2 Identifikasi Masalah 
+Berdasarkan latar belakang yang ada, penulis mengidentifikasi beberapa 
+masalah yang ada, Masalah tersebut diantaranya adalah: 
+1. Perbedaan metode perhitungan daya dukung dengan metode Mayerhof, 
+Decourt-Quaresma, dan Schmertmann. 
+2. Pengaruh perbaikan tanah pada suatu permasalahan geoteknik yang terjadi. 
+3. Penurunan yang dihasilkan pada pemodelan numeris plane-strain dan 
+axisymmetric serta dengan menggunakan material model tanah Mohr-
+Coulomb dan Hardening Soil. 
+4. Perbandingan penurunan antara hasil analisis menggunakan software 
+dengan penurunan pada lapangan. 
+ 
+4 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+1.3 Rumusan Masalah Penelitian 
+ 
+Berdasarkan latar belakang yang ada, penulis mengidentifikasi beberapa 
+masalah yang ada, Masalah tersebut diantaranya adalah: 
+1. Apa perbedaan metode perhitungan daya dukung dengan metode Mayerhof, 
+Decourt-Quaresma, dan Schmertmann. 
+2. Bagaimana pengaruh suatu perbaikan tanah pada suatu permasalahan 
+geoteknik yang terjadi? 
+3. Bagaimana penurunan yang dihasilkan pada pemodelan numeris plane-
+strain dan axisymmetric serta dengan menggunakan material model tanah 
+Mohr-Coulomb dan Hardening Soil? 
+4. Bagaimana perbandingan penurunan antara hasil analisis menggunakan 
+software dengan penurunan pada lapangan? 
+Dimana berdasarkan rumusan masalah yang ada, penulis memberikan sebuah 
+batasan masalah diantaranya adalah: 
+1. Acuan peraturan yang digunakan adalah SNI 8460:2017 tentang 
+Persyaratan Perancangan Geoteknik dan SNI 1726:2019 tentang Tata Cara 
+Perencanaan Ketahanan Gempa Untuk Struktur Bangunan Gedung dan 
+Nongedung. 
+2. Metode perbaikan yang digunakan ialah menggunakan Rigid Inclusion 
+berupa Full Displacement Column. 
+3. Metode perhitungan daya dukung yang digunakan adalah dengan 
+menggunakan Metode Mayerhof 1956, Metode Décourt-Quaresma 1982 
+dan Metode Schmertmann 1967 berdasarkan pendekatan data penyelidikan 
+tanah berupa uji SPT. 
+4. Pemodelan dilakukan dengan menggunakan Finite Element Method (FEM) 
+yang dibantu oleh software Plaxis 2D 
+5. Pemodelan Rigid Inclusion pada software Plaxis 2D dimodelkan secara 
+plane strain dan axisymmetric. 
+6. Pemodelan dilakukan pada STA 354+870 pada Jalan Tol Pemalang-Batang. 
+7. Pemodelan gempa yang diberikan menggunakan pseudostatic 
+ 
+5 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+1.4 Tujuan Penelitian 
+Tujuna penulis membuat penelitian ini diantaranya adalah: 
+1. Mengetahui perbedaan metode perhitungan daya dukung yang ada. 
+2. Mengetahui bagaimana suatu perbaikan tanah dapat berpengaruh pada suatu 
+permasalahan geoteknik yang terjadi. 
+3. Untuk mengetahui perbandingan suatu material model tanah serta 
+pemodelan numeris dengan hasil yang dikeluarkan. 
+4. Membandingkan penurunan hasil analisis software dan penurunan pada 
+lapangan yang terjadi, lalu memberikan suatu rekomendasi jika terjadi 
+sebuah perbedaan. 
+ 
+1.5 Manfaat Penelitian 
+Dengan dibuatnya penelitian ini, ada beberapa manfaat yang ingin diberikan 
+oleh penulis, diantaranya adalah: 
+1. Pembaca dapat mengenal lebih jauh tentang metode perbaikan tanah 
+menggunakan Rigid Inclusion. 
+2. Pembaca dapat mengetahui bagaimana pendekatan setiap metode 
+perhitungan daya dukung yang ada. 
+3. Dapat menjadi sumber acuan dalam menjawab mengenai material model 
+tanah mana yang cocok untuk dibawa ke dalam analisis sehingga 
+mendapatkan hasil penurunan yang mendekati kondisi lapangan. 
+4. Pembaca dapat mengetahui bagaimana perbedaan penggunaan serta output 
+dari pemodelan plane-strain dan axisymmetric. 
+ 
+1.6 Struktur Organisasi Penelitian 
+Sistematika yang digunakan pada penelitian ini diantaranya adalah 
+ 
+ 
+ 
+6 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+BAB I PENDAHULUAN 
+ 
+Berisikan tentang latar belakang, rumusan masalah, pembatasan masalah, 
+tujuan penelitian, manfaat penelitian, dansistematika penelitian. 
+ 
+BAB II KAJIAN PUSTAKA 
+ 
+Berisikan tentang pembahasan mengenai uraian teori ataupun penjelasan 
+lebih lanjut mengenai masalah yang akan dibawa/diteliti. 
+ 
+BAB III METODE PENELITIAN 
+ 
+Berisikan tentang metode penelitian yang digunakan, lokasi, waktu, diagram 
+alir dari penelitian yang dibuat.  
+ 
+BAB IV TEMUAN DAN PEMBAHASAN 
+ 
+Berisikan tentang bagaimana proses, pembahasan dan hasil dari penelitian 
+secara lebih lanjut. 
+ 
+BAB V SIMPULAN, IMPLIKASI, DAN REKOMENDASI 
+ 
+Berisikan tentang kesimpulan dari penelitian tersebut dan saran yang dapat 
+diberikan penulis kepada pembaca. 
+ 
+DAFTAR PUSTAKA 
+7 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+BAB II 
+KAJIAN PUSTAKA 
+ 
+2.1 Perbaikan Tanah 
+2.1.1 Pengertian perbaikan tanah 
+ 
+Perbaikan Tanah (Soil Improvement) merupakan salah satu usaha untuk 
+membuat 
+tanah 
+menjadi 
+stabil 
+dengan 
+tujuan 
+memperbaiki 
+dan/atau 
+mempertahankan kemampuan dari tanah tersebut sesuai dengan syarat teknis yang 
+dibutuhakan saat perencanaan, perbaikan tanah ini dapat menggunakan beberapa 
+cara diantaranya secara kimiawi, re-gradation, dewatering atau fisik (Panguriseng, 
+2018). Perbaikan tanah ini kental sekali dengan yang dinamakan oleh stabilisasi 
+tanah, dimana stabilisasi tanah ini adalah Tindakan untuk memperbaiki sifat 
+rekayasa tanah (Soil Properties) (Jon A. Epps et al. 1971). Pada sumber lain 
+dikatakan bahwa stabilisasi tanah dalam pengertian luas mencakup berbagai metode 
+yang digunakan untuk memodifikasi sifat tanah untuk memperbaiki kinerja 
+tekniknya. Dalam hal ini menurut Punmia bahwa tujuan utama dari stabilisasi tanah 
+adalah untuk meningkatkan kekuatan atau stabilitas tanah dan mengurangi biaya 
+konstruksi dengan memanfaatkan sebaik-baiknya bahan yang tersedia secara lokal 
+(Punmia. 1980). 
+ 
+Dari berbagai sumber yang ada, dapat ditarik garis besar bahwasanya tujuan 
+dari perbaikan tanah ini antara lain adalah memperbaiki nilai sifat tanah yang 
+semula kurang baik menjadi lebih baik sehingga dapat untuk menerima beban yang 
+bekerja di atasnya. Property tanah yang dimaksud di sini adalah nilai kuat geser 
+tanah tersebut. Dimana yang dimaksud dengan kuat geser disini ialah kemampuan 
+suatu tanah dalam memikul suatu beban.  
+ 
+2.1.2 Jenis-jenis perbaikan tanah 
+ 
+Perbaikan tanah ini dapat diklasifikasikan menjadi beberapa kategori 
+berdasarkan sumber dan metode yang digunakannya, diantara lain ialah: 
+8 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+1. Metode Perbaikan Tanah dengan metode kimiawi 
+ 
+Pada metode ini, digunakan bahan-bahan kimia dalam metode 
+pelaksanaannya untuk meningkatkan sifat-sifat tanah. Bahan kimia tersebut 
+dapat berupa sebuat zat bahan pencampur dalam bentuk bubuk (semen, 
+kapur, abu) maupun larutan. 
+2. Metode Perbaikan Tanah dengan metode fisik 
+ 
+Metode ini merupakan metode yang bertujuan untuk meningkatkan 
+kinerja tanah dalam berbagai aspek, seperti daya dukung, penurunan 
+(settlement), permeabilitas, dan lain sebagainya. Metode yang digunakan 
+pada perbaikan tanah ini dapat berupa: 
+a. Metode Pemadatan (Compacted Method) 
+  
+Gambar 2.1. Pemadatan tanah menggunakan Vibro-Roller 
+Sumber: Diakses pada laman https://rahayudiesel.com/sewa-rental-vibro-roller-
+sv525-tf-surabaya/ 
+ 
+ 
+ 
+ 
+9 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+b. Metode Konsolidasi (Consolidation Method) 
+ 
+Gambar 2.2. Percepatan konsolidasi menggunakan PVD 
+Sumber: Diakses pada laman https://pandu-equator.com/prefabricated-vertical-
+drain-perbaikan-tanah-lempung/ 
+c. Metode Pengeringan (Dewatering Method) 
+ 
+Gambar 2.3. Dewatering 
+Sumber: Diakses pada laman 
+https://instrumentpengukuran.wordpress.com/2018/02/15/piezometer-pada-
+proses-dewatering/ 
+10 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+d. Metode Penggantian (Replacement Method) 
+ 
+Gambar 2.4. Penggalian dan penggantian tanah 
+Sumber: Diakses pada laman https://www.geoinstitute.org/node/609 
+e. Metode Perekatan Partikel Tanah (Gluing Method) 
+ 
+3. Metode Perbaikan Tanah dengan metode mekanis 
+ 
+Metode ini merupakan metode pengembangan lebih lanjut dari kedua 
+metode yang ada sebelumnya. Metode ini juga merupakan stabilisasi tanah 
+dengan menambahkan material tambahan (mortar atau beton, batu, kerikil, 
+campuran tanah-semen, dan macam lainnya) ke dalam lapisan tanah yang 
+ingin diperbaiki sehingga tanah tersebut memiliki peningkatan karakteristik 
+sesuai dengan yang ingin dicapai. Dikarenakan adanya penambahan 
+material kedalam lapisan yang ingin diperbaiki, sehingga metode ini dapat 
+juga disebut sebagai “perkuatan tanah (soil reinforcement) 
+ 
+Jenis jenis metode ini dapat dikelompokan menjadi: 
+ 
+ 
+11 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+a. Teknik penyuntikan (Inclusions) 
+ 
+Gambar 2.5. Teknik inclusions 
+Sumber: Diakses pada laman 
+https://www.balfourbeatty.com/media/28608/pencol-rigid-inclusions.pdf 
+b. Teknik Vibrofloation 
+ 
+Gambar 2.6. Teknik vibrofloation 
+Sumber: Diakses pada laman https://www.liebherr.com/en/int/products/mobile-
+and-crawler-cranes/crawler-cranes/lr-crawler-cranes/applications/deep-
+foundation.html 
+12 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+c. Teknik Compaction Grouting 
+ 
+Gambar 2.7. Teknik compaction grouting 
+Sumber: Diakses pada laman https://www.researchgate.net/figure/Image-
+Showing-Compaction-Grouting-SOURCE-Keller-ASEAN_fig3_342448451 
+d. Teknik Dynamic Compaction 
+ 
+Gambar 2.8. Teknik dynamic compaction 
+Sumber: Diakses pada laman https://www.keller-
+na.com/expertise/techniques/dynamic-compaction 
+13 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+e. Teknik Vibro Replacement 
+ 
+Gambar 2.9. Teknik vibro replacement menggunakan stone column 
+Sumber: Diakses pada laman http://www.rekakarya.com/projects/project-zeta/ 
+ 
+2.2 Metode Perbaikan Tanah Menggunakan Rigid Inclusion 
+2.2.1 Pengertian rigid inclusion 
+ 
+Metode perbaikan tanah menggunakan Rigid Inclusion ini merupakan metode 
+perbaikan tanah dimana pada metode ini terdapat suatu elemen ramping yang 
+berbentuk silinder (kolom) yang biasanya membentuk secara vertikal. Elemen-
+elemen ini ditata menurut suatu pola berbentuk jaring yang terartur. Dalam 
+penentuan pola ini disesuaikan kembali dengan beban yang bekerja di atasnya dan 
+kondisi dari tanah tersebut (ASIRI National Project, 2017). Kata “Rigid” ini sendiri 
+bermaksud bahwa komponen material penyusun dari kolom-kolom tersebut 
+memiliki nilai kohesi dan nilai kekakuan yang lebih besar dibandingkan dengan 
+tanah disekitarnya. Kata “Inclusion” itu sendiri berarti pemasukan atau penyuntikan 
+yang menggambarkan teknik pembuatan atau pemasangan dari kolom-kolom 
+tersebut yang disuntikan kedalam tanah yang perlu dilakukan perkuatan/perbaikan. 
+14 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 2.10. Perbaikan menggunakan rigid inclusion 
+Sumber: (ASIRI National Project, 2017) 
+ 
+Jenis perkuatan ini membutuhkan adanya sebuah “Load Transfer Platform” 
+(LTP) antara kolom dan struktur yang didukungnya. LTP ini sendiri bertindak 
+sebagai suatu lapisan yang memiliki kekakuan yang lebih besar dari tanah 
+dibawahnya sehingga deformasi yang terjadi tidak terlalu besar dan beban yang 
+bekerja diatas LTP dapat terdistribusikan ke kolom-kolom yang ada. 
+ 
+Ada beberapa hal yang perlu diperhatikan dalam pendesainan LTP ini, mulai 
+dari jenis dan ketebalan yang digunakan. Ketebalan LTP sendiri ini disyaratkan 
+memiliki ketebalan 40-80 cm (ASIRI National Project, 2017), dari berbagai macam 
+sumber dikatakan pula LTP memiliki ketebalan sekitar 30-100 cm. dan memiliki 
+komposisi sebagai berikut: 
+a. Lapisan granular yang terpadatkan dengan baik. 
+b. Lapisan tanah yang diberi pengikat hidrolik. 
+c. Atau lapisan yang diperkuat oleh lembaran geosintetik horizontal. 
+ 
+15 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 2.11. Cara kerja Load Transfer Platform 
+Sumber: (Van Eekelen & Bezuijen, 2008) 
+ 
+2.2.2 Prinsip kerja rigid inclusion menggunakan FDC 
+ 
+Dalam instalasinya, rigid inclusion ini membutuhan bor jenis Auger khusus 
+yang memiliki lubang di ujung bawahnya yang berguna mengeluarkan material 
+yang direncanakan saat bor tersebut diangkat. Pada Full Displacement Columns, 
+mortar atau beton mutu rendah menjadi pilihan dalam penggunaan materialnya. 
+Dimana pada ASIRI clause 3.1.1.2. di pembahasan “ULS design compressive 
+strength” membatasi tegangan yang bekerja pada FDC tidak lebih besar dari 7 MPa. 
+ 
+Gambar 2.12. Mata bor Auger 
+Sumber: Diakses pada laman 
+http://augergearimage.blogspot.com/2013/08/auger-cast-displacement-piles.html 
+16 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Bor ini terdiri dari beberapa bagian dengan kegunaannya masing-masing, dari 
+Gambar 2.12 dengan urutan dari bawah dapat dijelaskan sebagai berikut: 
+a. Flat or bullet teeth, bagian ini berfungsi sebagai pelepas/penghancur dari tanah 
+yang ada. 
+b. Flight, bagian ini berfungsi untuk membawa tanah hasil pelasan sebelumnya 
+kebagian bor selanjutnya. 
+c. Stabilize area, bagian ini berbentuk silinder yang berfungsi untuk 
+mendistribusikan sekaligus memadatkan tanah-tanah lepas yang terbawa oleh 
+flight ke bagian ini.  
+d. Counter-rotating flight, bagian ini memiliki sirip bor yang terbalik, dimana 
+kegunaan bagian ini adalah untuk mengembalikan tanah-tanah yang belum 
+sempat terpadatkan oleh Stabilize area untuk kembali terpadatkan, sehingga 
+meminimalisir tanah yang keluar dari proses pengeboran tanah tersebut. 
+e. Joint, bagian ini berupakan bagian penguhubung antara mata bor dengan batang 
+bor yang digunakan. 
+ 
+2.2.3 Tahapan instalasi FDC 
+ 
+Urutan pekerjaan yang dilakukan dalam metode ini adalah  
+Tahap 1, Setting dan posisikan bor sesuai dengan titik yang direncanakan, pastikan 
+mesin bor sudah tersambung dengan selang pemasok material dan selang-selang 
+hidrolik lainnya,  
+Tahap 2, Operator memulai pengeboran hingga kedalaman yang direncanakan 
+dengan tetap memperhatikan monitoring bor yang digunakan. Seiring pengeboran 
+berlangsung, tanah yang terurai akan mulai terdesak dan terpadatkan ke samping 
+lubang. 
+Tahap 3, Saat pengeboran sudah sampai pada kedalaman yang diharapkan, bor 
+auger mulai diangkat dengan bersamaan pengisian material yang sudah 
+direncanakan. Pemutaran bor dilakukan dengan arah yang sama, guna untuk 
+kembali memadatkan tanah-tanah yang belum sempat terpadatkan. 
+17 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 2.13. Tahapan instalasi FDC 
+Sumber: Diakses pada laman 
+https://www.bauer.de/export/shared/documents/pdf/bst/print/905_026_2_BAUER-
+Soil-Improvement.pdf 
+ 
+ 
+Dari berbagai macam hal yang telah dipaparkan diatas, FDC ini memiliki 
+beberapa keunggulan, dimana dalam prosesnya sangat meminimalisir tanah yang 
+terbuang karena tanah yang terurai akan terpadatkan disekeliling lubang. Secara 
+tidak langsung bukan hanya memberikan perkuatan berupa sebuah kolom dengan 
+kekakuan yang lebih besar dari tanah sekelilingnya, namun metode ini pun 
+meningkatkan kekakuan tanah sekeliling lubang dengan cara memadatkannya. 
+ 
+2.3 Metode Perhitungan Daya Dukung Tiang 
+ 
+ 
+Kapasitas daya dukung tiang merupakan kemampuan atau kapasitas suatu 
+tiang dalam mendukung beban pondasi dari struktur yang terletak di atasnya 
+(Hardiyatmo, 2011). Pada perancangan suatu pondasi perlu memperhatikan dan 
+mempertimbangkan adanya keruntuhan geser yang terjadi pada tanah yang 
+berlebihan. Sehingga perlunya ada pemenuhan kriteria desain, diantaranya adalah: 
+18 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+a. Faktor keamanan terhadap keruntuhan geser akibat terlampauinya kapasitas 
+daya dukung harus dipenuhi. Tomlinson menganjurkan nilai faktor keamanan 
+sebagai berikut: 
+𝑄𝑎𝑙𝑙=
+𝑄𝑢𝑙𝑡
+2.5   atau  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.1) 
+𝑄𝑎𝑙𝑙=
+𝑄𝑃
+3 +
+𝑄𝑓𝑠
+1.5    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+(2.2) 
+Pengambilan faktor keamanan untuk kapasitas daya dukung selimut tiang 
+diambil lebih rendah dibandingkan dengan faktor keamanan dari kapasitas daya 
+dukung ujung tiang. Hal ini dikarenakan gerakan yang dibutuhkan untuk 
+memobilisasi gesekang selimut jauh lebih kecil jika dibandingkan dengan 
+memobilisasi tahanan ujung. Di Indonesia faktor keamanan yang digunakan 
+untuk kapasitas daya dukung tiang pada selimut digunakan sebesar 2, dan untuk 
+kapasitas daya dukung tiang pada bagian ujung digunakan sebesar 3 (Rahardjo, 
+2000) 
+b. Penurunan yang terjadi harus masih termasuk kedalam penurunan yang 
+ditoleransikan baik penurunan disatu titik maupun penurunan yang tak seragam 
+(differential settlement) sebagai mana yang tertera pada SNI 8460:2017 tentang 
+Persyaratan Perancangan Geoteknik sehingga tidak mengakibatkan kerusakan 
+pada strukturnya. 
+ 
+Analisis daya dukung tiang dilakukan dengan melakukan pendekatan-
+pendekatan berdasarkan data yang ada, dimana pada umumnya pendekatan ini 
+dapat berdasarkan hasil penyelidikan tanah berupad hasil uji sondir dan SPT. Pada 
+umumnya persamaan kapasitas yang ada berdasarkan persamaan yang diturunkan 
+oleh Mohr-Coulomb. Kuat geser tersebut dapat didefinisikan sebagai τ (tau), Mohr-
+Coulomb mencoba mendefinisikan forluma τ seperti rumus yang ada di bawah ini. 
+ 
+𝜏= 𝑐+ (𝜎−𝑈). 𝑡𝑎𝑛𝜑   
+ 
+ 
+ 
+ 
+ 
+   
+(2.3) 
+ 
+ 
+ 
+19 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+dimana: 
+ 
+τ 
+= kuat geser tanah 
+ 
+c  
+= kohesi tanah 
+ 
+σ 
+= tegangan tanah total 
+ 
+U 
+= tekanan air pori 
+ 
+φ 
+= sudut geser dalam tanah 
+ 
+Dari persamaan tersebut selanjutnya diturunkan kembali oleh para ahli 
+geoteknik untuk mendapatkan kapasitas daya dukung tiang. Dimana kapasitas daya 
+dukung tiang diperoleh berdasatkan persamaan berikut 
+ 
+𝑄𝑈𝑙𝑡= 𝑄𝑝+ 𝑄𝑓𝑠  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.4) 
+dimana: 
+ 
+Qult = kapasitas daya dukung tiang ultimate 
+ 
+Qp 
+= kapasitas daya dukung ujung tiang 
+ 
+Qfs 
+= kapasitas daya dukung selimut tiang 
+Yang selanjutnya dicari nilai kapistas daya dukung izin dengan membaginya 
+dengan nilai faktor keamanan. 
+ 
+𝑄𝑎𝑙𝑙=
+𝑄𝑢𝑙𝑡
+𝐹𝐾  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.5) 
+dimana: 
+ 
+Qall = kapasitas daya dukung tiang izin 
+ 
+FK 
+= faktor keamanan kapasitas daya dukung tiang (diambil sebesar 3) 
+ 
+2.3.1 Metode Mayerhof (1956) 
+ 
+Mayerhof memberikan rumus dalam mementukan kapasitas daya dukung 
+tiang dengan pendekatan hasil uji SPT sebagai berikut 
+20 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+a. Daya dukung ujung tiang  
+ 
+𝑄𝑝= 𝑞𝑝 . 𝐴𝑝 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.6) 
+dimana: 
+ 
+qp 
+= tahanan ujung persatuan luas 
+ 
+Ap 
+= luas penampang tiang (m2) 
+ 
+Pada tanah kohesif nilai qp dapat diperoleh dari 9 kalinya nilai Cu, dengan 
+melihat trendline pada umumnya dimana Cu diperoleh dari 4.5 dari nilai NSPT 
+maka: 
+ 
+𝐶𝑢= 4.5 . 𝑁𝑠𝑝𝑡 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.7) 
+Sehingga rumus 2.6 dapat diturunkan sebagai berikut 
+ 
+𝑄𝑝= 𝑞𝑝 . 𝐴𝑝 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+𝑄𝑝= (9. 𝐶𝑢) . 𝐴𝑝  
+ 
+𝑄𝑝= (9 . 4.5 . 𝑁𝑏 ) . 𝐴𝑝  
+ 
+𝑄𝑝= 40 . 𝑁𝑏  . 𝐴𝑝  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.8) 
+dimana: 
+ 
+Nb 
+= nilai SPT di kedalaman ujung tiang 
+ 
+ 
+Pada tanah non kohesif, Reese & Wright mengusulkan korelasi nilai SPT 
+terhadap nilai qp dimana dapat dilihat pada grafik di Gambar 2.14. 
+21 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 2.14. Korelasi nilai SPT tehadapt tahanan ujung ultimit 
+Sumber: Reese & Wright, 1977 
+ 
+b. Daya dukung selimut tiang 
+ 
+Nilai daya dukung selimut tiang dapat diperoleh dari rumus berikut 
+ 
+𝑄𝑓𝑠= ∑𝑓 . 𝐴𝑠 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.9) 
+dimana: 
+ 
+Ap 
+= luas selimut tiang 
+ 
+f 
+= gesekan selimut 
+pada tanah pasir, nilai f dapat diperoleh dari rumus 
+22 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+𝑓= 𝐾 . 𝜎′ . tan 𝛿  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.10) 
+dimana: 
+ 
+K 
+= Konstanta,  
+K = Ko (batas bawah) 
+ 
+ 
+ 
+ 
+ 
+K = 1.8  Ko (batas atas) 
+ 
+σ' 
+= tegangan vertikal tanah, dianggap konstan setelah kedalaman 15D 
+ 
+Ko 
+= koefisien tekanan tanah at rest, = 1 – tan φ 
+ 
+φ 
+= sudut geser dalam 
+nilai K dan nilai  dapat diperoleh dari Tabel 2.1 yang diusulkan oleh Tomlinson (1986) 
+ 
+Tabel 2.1. Nilai K dan δ pada tanah pasir (Tomlinson, 1986) 
+Bahan 
+Tiang 
+ 
+Nilai K 
+Kepadatan 
+relatif rendah 
+Kepadatan 
+relatif tinggi 
+Baja 
+20° 
+0.5 
+1.0 
+Beton 
+3/4 φ 
+1.5 
+2.0 
+Kayu 
+2/3 φ 
+1.5 
+4.0 
+ 
+ 
+Sedangkan pada tanah lempung nilai f diperoleh dari rumus sebagai berikut: 
+ 
+𝑓= 𝛼 . 𝐶𝑢  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.11) 
+dimana: 
+ 
+α 
+= faktor adhesi, didapat dari grafik pada Gambar 2.15 
+ 
+23 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 2.15. Grafik α terhadap Cu 
+ Sumber: Tomlinson, 1986 
+ 
+2.3.2 Metode Décourt-Quaresma (1982) 
+ 
+Pada metode ini nilai kapasitas daya dukung ujung tiang diperoleh dengan 
+rumus: 
+𝑄𝑝= 𝛼 . 𝐾𝑑𝑝 . 𝑁 . 𝐴𝑝 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.12) 
+dimana: 
+ 
+α 
+= koefisien dasar tiang, didapat dari Tabel 2.2 
+ 
+Kdp = Nilai karakteristik tanah, didapat dari Tabel 2.3 
+ 
+N 
+= Nilai Rata-rata N-SPT 4D di atas hingga 4D di bawah dasar tiang 
+ 
+24 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 2.2. Koefisien dasar tiang, α (Cintra, J.C.A., Aoki, N, 1999) 
+Piles 
+α for 
+sand 
+α for 
+clay 
+α for 
+silt 
+Prefabricated driven piles or steel piles 
+1 
+1 
+1 
+Franki piles 
+1 
+1 
+1 
+Driven wooden piles 
+1 
+1 
+1 
+Vibrating or vibropressed 
+1 
+1 
+1 
+Cast in place screw piles 
+1 
+1 
+1 
+Prefabricated screw piles 
+1 
+1 
+1 
+Cast in place screw piles with additional grouting 
+1 
+1 
+1 
+Prefabricated screw piles with additional grouting 
+1 
+1 
+1 
+Steel tubular piles 
+1 
+1 
+1 
+Continuous flight auger piles (CFA) 
+0.3 
+0.3 
+0.3 
+Bored piles or piles sheeted by bentonite suspense 
+0.5 
+0.85 
+0.6 
+Bore piles with steel casing 
+0.5 
+0.85 
+0.6 
+ 
+Tabel 2.3. Nilai karakteristik tanah (Cintra, J.C.A., Aoki, N, 1999) 
+No 
+Soil Type 
+Kdp (KPa) 
+No 
+Soil Type 
+Kdp (KPa) 
+1 
+Sand 
+400 
+9 
+Clay silty – sandy 
+120 
+2 
+Sand clayey 
+400 
+10 
+Clay silty 
+120 
+3 
+Sand clayey - silty 
+400 
+11 
+Silt 
+200 
+4 
+Sand silty - clayey 
+400 
+12 Silt sandy – clayey 
+250 
+5 
+Sand silty 
+400 
+13 
+Silt sandy 
+250 
+6 
+Clay 
+120 
+14 Silt clayey – sandy 
+200 
+7 
+Clay – sandy 
+120 
+15 
+Silty clayey 
+200 
+8 
+Clay sandy - silty 
+120 
+ 
+ 
+ 
+ 
+ 
+Daya dukung selimut tiang dapat diperoleh menggunakan rumus: 
+ 
+𝑄𝑓𝑠= ∑𝛽𝑖 . 10 . (
+𝑁𝑖
+3 + 1) . 𝐴𝑠,𝑖 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.13) 
+25 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+dimana: 
+ 
+βi 
+= koefisien sekeliling tiang, didapat dari  
+ 
+Ni 
+= Nilai SPT sepanjang tiang 
+ 
+As,i 
+= Luas selimut tiang 
+ 
+Tabel 2.4. Koefisien sekeliling tiang, β (Cintra, J.C.A., Aoki, N, 1999) 
+Piles 
+β for 
+sand 
+β for 
+clay 
+β for 
+silt 
+Prefabricated driven piles or steel piles 
+1 
+1 
+1 
+Franki piles 
+1 
+1 
+1 
+Driven wooden piles 
+1 
+1 
+1 
+Vibrating or vibropressed 
+1 
+1 
+1 
+Cast in place screw piles 
+1 
+1 
+1 
+Prefabricated screw piles 
+1 
+1 
+1 
+Cast in place screw piles with additional grouting 
+1 
+1 
+1 
+Prefabricated screw piles with additional grouting 
+1 
+1 
+1 
+Steel tubular piles 
+1 
+1 
+1 
+Continuous flight auger piles (CFA) 
+1 
+1 
+1 
+Bored piles or piles sheeted by bentonite suspense 
+0.5 
+0.8 
+0.65 
+Bore piles with steel casing 
+0.5 
+0.8 
+0.65 
+ 
+2.3.3 Metode Schmertmann (1967) 
+ 
+Metode Schmertmann menggunakan korelasi nilai tahanan ujung sondir qc 
+terhadap nilai SPT hasil dari penyelidikan tanah dalam menentukan nilai kapasitas 
+daya dukung ujung tiang maupun kapasitas daya dukung selimutnya. Nilai 
+kapasitas daya dukung ujung maupun kapasitas daya dukung selimut tiang tersebut 
+dapat dilihat dari Tabel 2.5 
+26 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 2.5. Nilai gesekan untuk desain pondasi (Schmertmann, 1967) 
+Jenis Tanah 
+Deskripsi 
+Gesekan selimut 
+(kg/cm2) 
+Tahanan ujung 
+(kg/cm2) 
+Pasir bersih (*) 
+GW, GP, GM, 
+SW, SP, SM 
+0.019 N 
+3.2 N 
+Lempung lanau 
+bercampur pasir, pasir 
+kenalauan, lanau 
+GC, SC, ML, 
+CL 
+0.04 N (**) 
+1.6 N 
+Lempung plastis 
+CH, OH 
+0.05 N (**) 
+0.7 N 
+Batu gamping rapuh, 
+pasir berkarang 
+ 
+0.01 N 
+3.6 N 
+ 
+ 
+(*) 
+= untuk N>60, diambil N=60 
+ 
+(**) 
+= dianjurkan untuk memberikan reduksi untuk lempung teguh dan 
+lempung pasiran. 
+ 
+Tabel tersebut berlaku untuk di atas maupun di bawah muka air. 
+ 
+2.4 Perencanaan Desain Full Displacement Columns 
+ 
+Dalam perhitungan desain Full Displacement Columnsi ini diperlukan 
+beberapa tahap perhitungan. 
+2.4.1 Diameter dan jarak FDC 
+ 
+FDC menggunakan tiang-tiang yang cukup ramping dalam penggunaannya. 
+Dimana batas minimum diameter yang digunakan ialah sebesar 250 mm hingga 800 
+mm berdasarkan alat bor yang tersedia. 
+ 
+Dalam penentuan jarak antar FDC digunakan minimum 2D, dimana D 
+merupakan diameter dari FDC, namun pada umumnya sering digunakan 3D hingga 
+4D untuk mengefektifkan kerja dari FDC tersebut dalam memikul beban. 
+27 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Selanjutnya diperlukan penentuan layout instalasi FDC yang akan 
+berpengaruh terhadap nilai De atau diameter pengaruh dari akibat terdapatnya FDC 
+tersebut. Nilai De dapat diperoleh dari rumus berikut: 
+ 
+Gambar 2.16. Layout FDC 
+Sumber: (Han, 2015) 
+𝐷𝑒= 1.13 . 𝑆 , 𝑆𝑞𝑢𝑎𝑟𝑒 𝑠𝑝𝑎𝑐𝑖𝑛𝑔  
+ 
+ 
+ 
+ 
+ 
+ 
+(2.14) 
+𝐷𝑒= 1.05 . 𝑆 , 𝑇𝑖𝑎𝑛𝑔𝑢𝑙𝑎𝑟 𝑠𝑝𝑎𝑐𝑖𝑛𝑔   
+ 
+ 
+ 
+ 
+ 
+(2.15) 
+dimana: 
+ 
+De 
+= daerah pengaruh (m) 
+ 
+S 
+= jarak antar FDC (m) 
+ 
+2.4.2 Area Replacement Ratio 
+Area Replacement Ratio merupakan sebuah perbandingan antara luas kolom 
+dengan luas pengaruh adanya kolom kepada tanah sekitarnya. Area Replacement 
+Ratio dapat dihitung dengan persamaan berikut: 
+𝑎𝑠=
+𝐴𝑐
+𝐴𝑒 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+(2.16 ) 
+ 
+28 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Dimana: 
+as 
+= Area Replacement Ratio 
+ 
+Ac 
+= Luas satu Kolom dengan diameter D (m2) 
+ 
+Ae 
+= Luas daerah pengaruh dengan diameter De (m2) 
+ 
+Gambar 2.17. Area Replacement Ratio 
+Sumber: (Han, 2015) 
+2.4.3 Kedalaman FDC 
+ 
+Kedalaman FDC dapat ditentukan berdasarkan keberadaan tanah keras di 
+lokasi konstruksi atau pada umumnya sedalam tanah lunak yang akan diperbaiki, 
+pada umumnya panjang dari FDC ini akan ditentukan saat nilai SPT sudah 
+mencapai lebih dari 14. 
+ 
+2.4.4 Perkuatan FDC 
+FDC sendiri pada dasarnya merupakan suatu kolom struktur, Dimana pada 
+suatu struktur tidak hanya beban aksial saja yang terjadi, akibat beban yang bekerja 
+pada kolom tersebut pada akhirnya akan menimbulkan gaya dalam berupa momen. 
+Sebagaimana diketahui bahwasanya FDC berasal dari material beton, yang artinya 
+beton tidak cukup kuat untuk memikul momen-momen yang besar, maka 
+diperlukan suatu perkuatan di dalam FDC itu sendiri untuk dapat memikul momen-
+momen yang besar. Perkuatan yang dapat diberikan pada FDC sendiri dapat berupa 
+baja tulangan yang disusun memanjang hingga kedalaman tiang tersebut. Untuk 
+dapat memikul momen-momen besar tersebut. 
+Berdasarkan BS-EN 1992-1-1.2004.12 perhitungan pertahanan ini dapat 
+dilakukan dengan Langkah-langkah sebagai berikut: 
+29 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+1. Menghitung beban axial serta momen desain dapat menggunakan persamaan 
+berikut 
+𝑁𝑒𝑑= 𝑁𝑃𝑙𝑎𝑥𝑖𝑠 . 𝑆𝑝𝑎𝑠𝑖 . 𝐹𝐾 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.17) 
+𝑀𝑒𝑑= 𝑀𝑃𝑙𝑎𝑥𝑖𝑠 . 𝑆𝑝𝑎𝑠𝑖 . 𝐹𝐾 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.18) 
+ 
+dimana: 
+ 
+ 
+Ned, Med 
+ 
+= beban axial dan momen yang bekerja pada FDC 
+  
+ 
+Nplaxis, Mplaxis 
+= beban axial dan momen dari Plaxis 
+ 
+ 
+Spasi  
+ 
+= Spasi dari FDC 
+ 
+ 
+FK 
+ 
+ 
+= Faktor Keamanan, 1.2-1.4 
+2. Menghitung tahanan FDC 
+a. Mengitung eksentrisitas (e) dengan persamaan berikut 
+𝑒=
+𝑀𝑒𝑑
+𝑁𝑒𝑑 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.19) 
+b. Menghitung tahanan area (Aref) dengan persamaan berikut 
+𝐴𝑟𝑒𝑓= 𝑅2. (2𝜃−𝑠𝑖𝑛2𝜃)   
+ 
+ 
+ 
+ 
+ 
+ 
+(2.20) 
+𝜃= arccos (
+𝑒
+𝑅)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.21) 
+c. Menghitung tahanan FDC (Nrd) dengan persamaan berikut 
+𝑁𝑟𝑑= 𝐴𝑟𝑒𝑓 . 𝑓𝑐𝑑  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.22) 
+ 
+ 
+dimana: 
+ 
+ 
+ 
+fcd  
+= Kuat Tekan Beton 
+ 
+3. Cek kebutuhan perkutan 
+• 𝑁𝑟𝑑> 𝑁𝑒𝑑 , tidak diperlukan perkuatan 
+• 𝑁𝑟𝑑< 𝑁𝑒𝑑 , tidak diperlukan perkuatan 
+30 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+2.4.5 Ketebalan LTP 
+ 
+Ketebalan yang umumnya dipakai adalah setebal: 
+ 1.4 <
+𝐻𝑀
+𝐷< 2  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.23) 
+dimana: 
+ 
+HM 
+= Ketebalan LTP (m) 
+ 
+D 
+= diameter FDC (m) 
+ 
+2.4.6 Penggunaan Geosintetik 
+ 
+Geosintetik digunakan dengan maksud mengurangi gaya tarik yang terjadi 
+pada LTP, sehingga jarak dan diameter FDC dapat diperkecil. Dalam 
+penggunaannya, untuk menghindari rusaknya geosintetik akibat konstruksi yang 
+berlangsung di atasnya, maka setidaknya diperlukan LTP dengan minimal 20 mm. 
+Geosintetik pun pelu di install dengan memperhatikan arah dari perkuatan dari 
+geosintetik tersebut, yang dimana dapat diilustrasikan pada  
+ 
+Gambar 2.18. Tranverse dan longitudinal layout penggunaan geosintetik 
+Sumber: (ASIRI National Project, 2017) 
+ 
+31 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+2.5 Penurunan Tiang 
+Penurunan tiang pada secara garis besar dikategorikan menjadi 2 kategori 
+yaitu penurunan seketika serta penurunan konsolidasi. 
+2.5.1 Penurunan Seketika 
+ 
+Sebagaimana namanya, penurunan ini terjadi secara seketika dan tidak 
+membutuhkan waktu yang cukup lama. Penurunan seketika juga dapat disebut 
+sebagai penurunan elastis. Penurunan ini dapat terjadi diakibatkan karena faktor 
+elastisitas dari tiang tersebut ataupun tanah yang berada dibawahnya. 
+2.5.2 Penurunan Konsolidasi Tiang 
+Penurunan tiang yang disebabkan akibat terjadinya konsolidasi pun perlu 
+diperhitungkan walaupun membutuhkan waktu yang cukup lama untuk mencapai 
+penurunan tersebut. Dikarenakan konsolidasi ini hanya dapat berlangsung pada 
+tanah yang memiliki ukuran butir tanah yang sangat kecil, dimana pada umumnya 
+hanya terjadi pada tanah clay, maka perhitungan penurunan konsolidasi ini hanya 
+dapat dilakukan pada tanah clay. 
+Penurunan ini dapat terjadi diakibatkan oleh terdisipasinya air tanah dalam 
+jangka waktu yang cukup lama. Diakibatkannya terdisipasi air tanah tersebut 
+rongga dari setiap lapisan tanah yang tadinya terisi oleh air, pada akhirnya terisi 
+sendiri oleh partikel-partikel tanah yang berada di atasnya karena tertekan oleh 
+beban yang bekerja diatasnya. 
+2.5.3 Metode Ekuivalen Pier pada Piled Raft 
+Metode ini dihadirkan untuk dapat memudahkan atau menyederhanakan 
+perhitungan penurunan pada perkuatan tanah yang menggunakan end-bearing 
+concrete column. Metode ini dihitung dengan pendekatan Piled Raft atau Pile 
+Groups. Secara mudahnya metode ini menggabungkan kondisi tanah serta kolom 
+beton menjadi satu kesatuan. 
+32 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 2.19. Metode Ekuivalen Tiang 
+Sumber: (Han, 2015) 
+Untuk melihat kecocokan metode ini Horikoshi dan Randolph (1999) pada 
+bukunya Jie Han (2015) mengajukan persamaan sebagai berikut: 
+𝑅𝑓= (
+𝑁𝑐𝑙.𝑆
+𝐿𝑐)
+0.5
+                                                                                                             (2.24) 
+Dimana: 
+ 
+Ncl 
+= Jumlah Kolom 
+ 
+S 
+= Jarak Antara Tiang (m) 
+ 
+Lc 
+= Panjang Tiang (m) 
+ 
+Jika didapatkan nilai Rf kurang dari 2, maka metode ini cocok digunakan. 
+Untuk dapat menghitung Modulus Ekuivalen dapat digunakan persamaan berikut: 
+𝐸𝑒𝑞= 𝐸𝑠(1 −𝑎𝑠) + 𝐸𝑐. 𝑎𝑠 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.25) 
+Dimana: 
+ 
+Eeq 
+= Modulus Ekuivalen (kN/m2) 
+Es 
+= Modulus Tanah (kN/m2) 
+Ec 
+= Modulus Kolom (kN/m2) 
+ 
+as 
+= Area Replacement Ratio 
+33 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Pada kolom beton digunakan modulus kolom yang didapatkan dari 
+persamaan berikut: 
+𝐸𝑐= 4700. √𝑓28  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.26) 
+Dimana: 
+ 
+Ec 
+= Modulus Kolom (MPa) 
+f28 
+= Mutu Beton pada umur 28 hari (MPa) 
+ 
+2.6 Kelas Situs 
+Klasifikasi situs merupakan bagian dari desain seismik berupa faktor-faktor 
+amplifikasi pada bangunan yang ditentukan oleh lapisan tanah. Faktor ini berfungsi 
+dalam penentuan besar percepatan gempa puncak suatu lokasi yang terjadi pada 
+batuan dasar sampai dengan permukaan tanah.  
+Terdapat beberapa parameter yang digunakan sebagai penentu kelas situs 
+tanah. yaitu: 
+ 
+Tabel 2.6. Parameter dan metode pengujian dalam penentuan parameter kelas situs 
+ 
+Sumber; SNI 8460-2017 Persyaratan Perancangan Geoteknik. 
+ 
+Perhitungan klasifikasi situs ini harus dilakukan minimal 2 titik pengajian 
+yang berbeda dengan kedalaman minimum masing-masing titik yaitu 30 meter. 
+Selain itu, penentuan klasifikasi situs juga diambil berdasarkan minimal 2 dari 3 
+parameter klasifikasi situs yang ada. Persyaratan ini sesuai ketentuan dalam SNI 
+8460-2017 tentang Persyaratan Perancangan Geoteknik. 
+34 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Penentuan kelas situs tanah berdasarkan nilai parameter kelas situsnya dapat 
+dilihat pada tabel berikut ini: 
+Tabel 2.7. Klasifikasi Situs 
+ 
+Sumber; SNI 1726-2019 dan SNI 1860-2017 
+ 
+Penentuan kelas situs geoteknik berdasarlan SNI 1726: 2019 berdasarkan 
+kriteria beberapa parameter, yaitu nilai rata rata kecepatan gelombang geser (υₛ), 
+nilai rata rata tahanan penetrasi standar lapangan rata-rata (Nₛₚₜ), nilai rata rata 
+tahanan penetrasi standar untuk lapisan tanah non kohesif (Nₛₚₜ ch) dan nilai rata 
+rata kuat geser niralir lapisan (Su). 
+ 
+35 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+2.6.1 Kecepatan rata-rata gelombang geser (υₛ) 
+𝑣𝑠̅ =
+∑
+𝑑𝑖
+𝑛
+𝑖=1
+∑
+𝑑𝑖
+𝑣𝑠𝑖
+𝑛
+𝑖=1
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.27) 
+dimana: 
+ 
+di 
+= tebal setiap lapisan antara kedalaman 0 hingga 30 meter 
+ 
+Vsi 
+= kecepatan gelombang geser lapisan I 
+2.6.2 Tahanan penetrasi standar lapangan rata-rata (Nspt) dan tahanan 
+penetrasi standar rata-rata untuk lapisan tanah non-kohesif (Nspt ch) 
+𝑁̅ =
+∑
+𝑑𝑖
+𝑛
+𝑖=1
+∑
+𝑑𝑖
+𝑁𝑖
+𝑛
+𝑖=1
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.28) 
+dan 
+𝑁𝑐ℎ
+̅̅̅̅ =
+𝑑𝑠
+∑
+𝑑𝑖
+𝑁𝑖
+𝑛
+𝑖=1
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.29) 
+dimana: 
+ 
+Ni 
+= tahanan penetrasi standar lapangan 
+ 
+2.6.3 Kuat geser niralir (Su) 
+𝑆𝑢̅ =
+𝑑𝑐
+∑
+𝑑𝑖
+𝑆𝑢𝑖
+𝑛
+𝑖=1
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.30) 
+dimana: 
+ 
+Sui 
+= kuat geser niralir, dengan nilai tidak lebih dari 250 kPa 
+ 
+2.7 Desain Seismik 
+Peak Gound Acceleration (PGA) atau percepatan tanah puncak merupakan 
+percepatan maksimum dati tanah pada suatu lokasi yang terpengaruh oleh gempa 
+bumi. Dimana percepatan ini diukur dalam satuan percepatan gravitasi (g) dan pada 
+umumnya digunakan sebagai parameter penting dalam analisis struktur tahan 
+gempa dan pemodelan gempa bumi (Paz, Ktenidou, O.-J, & Cotton, 2021). 
+36 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Percepatan tanah puncak harus ditentukan dengan beberapa ketentuan 
+sebagai berikut: 
+1) Kajian spesifik-situs dengan mempertimbangkan pengaruh amplifikasi 
+yang secara spesifik 
+2) Percepatan tanah puncak (PGAM) yang didapat dari persamaan berikut: 
+ 
+𝑃𝐺𝐴𝑀= 𝐹𝑃𝐺𝐴 . 𝑃𝐺𝐴  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(2.31) 
+ 
+ 
+dimana: 
+PGAM 
+= percepatan tanah puncak yang disesuaikan dengan pengaruk 
+klasifikasi situs 
+FPGA 
+= koefisien situs, yang diperoleh dari  Tabel 2.8 
+PGA 
+= percepatan tanah puncak yang terpetakan pada peta percepatan 
+puncak gempa 
+ 
+ 
+Nilai percepatan tersebut selanjutnya perlu diberikan suatu faktor arah 
+horizontal di suatu permukaan. 
+Tabel 2.8. Koefisien Situs, FPGA 
+ 
+Sumber; SNI 1726-2019 dan SNI 1860-2017 
+37 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 2.20. Contoh peta percepatan tanah puncak Indonesia 
+Sumber: Indonesia Earthquake Map 
+ 
+2.8 Pemodelan Numeris Plane-Strain dan Axisymmetric 
+Pemodelan secara numeris dapat menggunakan pendekatan berupa model 
+secara plane-strain dan axisymmetric. Model ini dapat menggambarkan kondisi 
+secara 3D dari proyeksi 2D. Pada model plane-strain diasumsikan dengan 
+menganalisis sepanjang yang tidak terbatas kearah luar potongan. Sementara pada 
+axisymmetric pemodelan dilakukan dengan memutar potongan sebesar 360o pada 
+sumbu tegak sehingga dapat menggambarkan kondisi smear zone. 
+ 
+Gambar 2.21. Axisymmetric (a) dan Plane-Strain (b) 
+Sumber: (Indraratna, Sathananthan, Rujikiatkamjorn, & Balasubramaniam, 
+2005) 
+38 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+2.9 Software Plaxis 2D 
+Plaxis merupakan salah satu software yang dikembangkan untuk membantu para 
+engineering dalam menganalisis beberapa kasus yang terlalu rumit untuk 
+diselesaikan secara manual. Software Plaxis ini diperuntukan khususnya untuk para 
+Geotechnical Engineering dalam menganalisis beberapa kasus mengenai 
+geoteknik, seperti menganalisis penurunan yang terjadi, gaya-gaya yang bekerja 
+hingga mengetahui safety factor pada suatu kasus geoteknik. 
+Software Plaxis ini menggunakan Finite Element Method (FEM) dalam 
+menganalisis perhitungan yang ada. Sehingga software ini memungkinkan para 
+penggunanya dalam mengeksplor lebih jauh dan mencoba berbagai jenis 
+pemodelan yang ada dengan parameter-parameter kekakuan dari material yang 
+akan dimodelkan. 
+Plaxis ini mulai diusung pada sekitar tahun 1970-an, dimana penelitian awal 
+tentang software ini dilakukan pertama kali di Technical University of Delft dan 
+secara langsung juga berada di bawah pengawasan Prof. Pieter A. Vermeer. Hal 
+yang melatarbelakangi dilakukannya penelitian mengenai software ini ialah 
+berawal dari pertanyaan Departemen Pekerjaan Umum Belanda yang 
+membutuhkan suatu solusi untuk mengetahui prediksi gerakan sebuah bendungan 
+yang cukup terkenal di Belanda yaitu ”Bendungan Oosterchelde-“. 
+Seiring berjalannya waktu, Plaxis yang merupakan singkatan dari ”Plastisitas 
+Axi-Simetri” mengalami banyak perkembangan. Hingga pada akhirnya software 
+yang sebelumnya hanya dapat melakukan analisis dalam bentuk 2D dapat pula 
+menganalisis dalam bentuk 3D dengan menggunakan software Plaxis 3D.  
+Software ini dapat memodelkan secara numeris geometri dengan model plane-
+strain dan axisymmetric. Selain dua macam pemodelan yang ditawarkan, Software 
+ini pun dapat memodelan perilaku suatu material dengan cara pendekatan dari 
+beberapa macam model material. Berrikut adalah beberapa material model yang 
+disediakan oleh software Plaxis 2D: 
+1. Linear elastic model 
+2. Mohr-Coulomb model (MC) 
+39 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+3. Hardening Soil model (HSS) 
+4. Hardening Soil model with small-strain stiffness (HSsmall) 
+5. Modified Cam-Clay model (MCC) 
+6. Hoek-Brown model (HB) 
+7. Jointed Rock model (JR) 
+8. NGI-ADP model (NGI-ADP) 
+9. Soft Soil model (SS) 
+10. Soft Soil Creep model (SSC) 
+11. UDCAM-S 
+12. Sekiguchi-Ohta model (Inviscid) 
+13. Sekiguchi-Ohta model (Viscid) 
+14. Concrete model 
+15. UBC3D-PLM 
+16. User-defined Soil Models (UDSM) 
+Dari setiap material model yang digunakan, masing-masing memiliki 
+kelebihan dan kekurangan tersendiri dalam pendekatannya untuk mengetahui 
+bagaimana perilaku material yang dimodelkan. Dan material model tersebut 
+memiliki kegunaannya masing-masing, ada material model yang dapat digunakan 
+untuk memodelkan tanah, batuan, beton, dan lain-lain. Pemilihan material 
+modelpun didasarkan dengan parameter material yang tersedia sebelum 
+memodelkan. Pada contoh ini ditampilkan beberapa parameter yang dibutuhkan 
+dari material model tersebut. 
+2.9.1 Mohr-Coulomb Model 
+Material model ini cukup dikenal oleh banyak orang karena model ini 
+merupakan cikal-bakal perkembangan pendekatan perilaku suatu material lainnya. 
+Pada software ini ada beberapa parameter utama yang dibutuhkan diantaranya 
+adalah berat jenis (γ), Young’s Modulus (Eref), Poisson’s Ratio (ν), Kuat Geser 
+undrained (Su), Kuat Geser Efektiff (c’ref), sudut geser dalam (φ), sudut dilatasi (ψ), 
+Permeabilitas (k). 
+40 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+2.9.2 Hardening Soil Model 
+  
+Material model ini merupakan pengembangan lebih lanjut dengan 
+menambahkan beberapa parameter kekakuan, yaitu Kekakuan secant pada drained 
+triaxial test standar (E50ref), Kekakuan tangent untuk pembebanan primer 
+oedometer (Eoedref) dengan nilai ≈E50ref, Kekauan unloading/reloading (Eurref) 
+dimana pada manual Plaxis2D disebutkan bahwa Eurref=3 s/d 4 E50ref, serta nilai 
+power untuk tingkat tegangan (m) dimana pada umumnya pada tanah kohesif 
+bernilai 0.9 hingga 1, bernilai 1 untuk tanah kohesif lunak dan bernilai 0.5 pada 
+tanah non-kohesif. (Surarak, et al., 2012) 
+ 
+ 
+ 
+41 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+BAB III 
+METODE PENELITIAN 
+ 
+3.1 Desain Penelitian 
+Metode penelitian yang digunakan pada tugas akhir ini adalah metode 
+penelitan berupa deskriptif kuantitatif. Jenis penelitian deskriptif ialah sebuah 
+penelitian dimana pada penelitian ini dilakukan untuk memberikan gambaran yang 
+lebih detail mengenai sebuah fenomena atau gejala secara jelas. Output dari 
+penelitian ini pada umumnya dapat berupa sebuah tipologi ataupun dapat berupa 
+suatu pola-pola mengenai suatu fenomena yang sedang dibahas pada penelitian ini. 
+Sedangkan metode pendekatan penelitian kuantitatif ialah sebuah metode penelitian 
+yang yang pada dasarnya berlandaskan pada sebuah filsafat positifisme, dimana hal 
+ini digunakan untuk meneliti pada populasi atau sampel tertentu. 
+Dalam penelitian ini penulis akan meneliti secara mendalam bagaimana efek 
+analisis daya dukung tiang pada perkuatan tanah berupa rigid inclusion di jalan tol  
+serta pemilihan material model yang akan digunakan untuk pendekatan perilaku 
+tanah. Setelah itu, penulis akan menganalisis setiap material model tanah dengan 
+pemodelan numeris plane-strain dan axisymmetric sehingga dapat digunakan pada 
+analisis daya dukung serta penurunan yang akan terjadi. Pemilihan material model 
+tanah, metode perhitungan daya dukung serta jenis pemodelan numeris yang 
+digunakan akan dicari berdasarkan hasil penurunan yang memiliki deviasi atau 
+selisih terkecil dengan hasil instrumentasi lapangan. 
+ 
+3.2 Tempat Penelitian 
+Dalam penelitian tugas akhir ini penulis menggunakan data sekunder yang 
+didapatkan dari Under Pass Bojong, Jalan Tol Pemalang-Batang STA 354+870. 
+42 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 3.1. Lokasi Penelitian 
+Sumber: Google Earth Pro 
+ 
+3.3 Pengumpulan Data 
+Data-data yang digunakan pada penelitian ini berupa data sekunder yang 
+dimana beberapa data tersebut diperoleh dari BUT. Menard Geosystem. Data-data 
+yang dimaksudkan diantaranya adalah: 
+1. Layout rencana pada lokasi penelitian 
+ 
+Gambar 3.2. Layout Lokasi Penelitian 
+Sumber: Dokumen BUT. Menard Geosystem 
+43 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+2. Potongan melintang lokasi penelitian 
+ 
+ 
+Gambar 3.3. Potongan Melintang Rencana 
+Sumber: Dokumen BUT. Menard Geosystem 
+ 
+3. Hasil penyelidikan tanah 
+Data hasil penyelidikan tanah ini meliputi: 
+• Data bor log 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+44 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 3.1. Data Bor Log BH-23 
+BH-23 
+Elev. (m) 
+NSPT 
+(blows/30cm) 
+7.2 
+- 
+5.7 
+5 
+5.7 
+- 
+4.2 
+4 
+4.2 
+- 
+2.7 
+7 
+2.7 
+- 
+1.2 
+2 
+1.2 
+- 
+-0.3 
+14 
+-0.3 
+- 
+-1.8 
+8 
+-1.8 
+- 
+-3.3 
+9 
+-3.3 
+- 
+-4.8 
+11 
+-4.8 
+- 
+-6.3 
+4 
+-6.3 
+- 
+-7.8 
+7 
+-7.8 
+- 
+-9.3 
+10 
+-9.3 
+- -10.8 
+10 
+-10.8 - -12.3 
+11 
+-12.3 - -13.8 
+14 
+-13.8 - -15.3 
+14 
+-15.3 - -16.8 
+21 
+-16.8 - -18.3 
+25 
+-18.3 - -19.8 
+20 
+-19.8 - -21.3 
+25 
+-21.3 - -22.8 
+22 
+-22.8 - -24.3 
+16 
+-24.3 - -25.8 
+14 
+-25.8 - -27.3 
+16 
+-27.3 - -28.8 
+50 
+-28.8 - -30.3 
+12 
+-30.3 - -31.8 
+14 
+ 
+Sumber: Dokumen BUT. Menard Geosystem 
+ 
+ 
+ 
+45 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 3.2. Data Bor Log BH-24 
+BH-24 
+Elev. (m) 
+NSPT 
+(blows/30cm) 
+7.2 
+- 
+5.7 
+4 
+5.7 
+- 
+4.2 
+5 
+4.2 
+- 
+2.7 
+4 
+2.7 
+- 
+1.2 
+10 
+1.2 
+- 
+-0.3 
+12 
+-0.3 
+- 
+-1.8 
+9 
+-1.8 
+- 
+-3.3 
+11 
+-3.3 
+- 
+-4.8 
+12 
+-4.8 
+- 
+-6.3 
+14 
+-6.3 
+- 
+-7.8 
+15 
+-7.8 
+- 
+-9.3 
+7 
+-9.3 
+- -10.8 
+10 
+-10.8 - -12.3 
+16 
+-12.3 - -13.8 
+21 
+-13.8 - -15.3 
+22 
+-15.3 - -16.8 
+28 
+-16.8 - -18.3 
+18 
+-18.3 - -19.8 
+23 
+-19.8 - -21.3 
+11 
+-21.3 - -22.8 
+21 
+-22.8 - -24.3 
+20 
+-24.3 - -25.8 
+16 
+-25.8 - -27.3 
+23 
+-27.3 - -28.8 
+18 
+-28.8 - -30.3 
+12 
+-30.3 - -31.8 
+11 
+ 
+Sumber: Dokumen BUT. Menard Geosystem 
+ 
+46 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+ 
+Gambar 3.4. Plot Grafik BH-23 dan BH-24 
+Sumber: Dokumen BUT. Menard Geosystem 
+• Data pembagian stratifikasi tanah pada lokasi penelitian 
+ 
+Gambar 3.5. Stratifikasi Tanah 
+47 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+• Data parameter tanah yang digunakan pada lokasi penelitian 
+Tabel 3.3. Parameter Design 
+Parameter Tanah 
+No. 
+Soil Type 
+NSPT  
+(Blows/30 
+cm) 
+γn 
+(kN/m3) 
+Cu 
+(kN/m2) 
+c' 
+(kN/m2) 
+φ'  
+(˚) 
+1 
+LTP (Sirtu) 
+  
+19 
+- 
+1 
+35 
+2 
+Silt 
+4 
+16 
+20 
+5 
+20 
+3 
+Silt 
+9 
+17 
+45 
+5 
+20 
+4 
+Silt 
+7 
+17 
+35 
+5 
+20 
+5 
+Silt 
+11 
+17 
+55 
+7 
+21 
+6 
+Silt 
+15 
+17 
+75 
+7 
+21 
+7 
+Silt 
+20 
+17 
+100 
+7 
+21 
+8 
+Silt 
+14 
+17 
+70 
+7 
+21 
+9 
+Sand 
+14 
+17 
+- 
+2 
+30 
+10 
+Silt 
+14 
+17 
+70 
+7 
+21 
+11 
+Backfill 
+  
+  
+  
+  
+  
+No. 
+Soil Type 
+E50 
+(kN/m2) 
+Eoed 
+(kN/m2) 
+Eur 
+(kN/m2) 
+k  
+(m/day) 
+1 
+LTP 
+(Sirtu) 
+35,000 
+- 
+- 
+8.64E-01 
+2 
+Silt 
+3,000 
+2,400 
+9,000 
+8.64E-04 
+3 
+Silt 
+6,750 
+5,400 
+20,250 
+8.64E-04 
+4 
+Silt 
+5,250 
+4,200 
+15,750 
+8.64E-04 
+5 
+Silt 
+8,250 
+6,600 
+24,750 
+8.64E-04 
+6 
+Silt 
+11,250 
+9,000 
+33,750 
+8.64E-04 
+7 
+Silt 
+15,000 
+12,000 
+45,000 
+8.64E-03 
+8 
+Silt 
+10,500 
+8,400 
+31,500 
+8.64E-03 
+9 
+Sand 
+12,600 
+10,080 
+37,800 
+8.64E-02 
+10 
+Silt 
+10,500 
+8,400 
+31,500 
+8.64E-03 
+11 
+Backfill 
+  
+  
+  
+  
+ 
+Sumber: Dokumen BUT. Menard Geosystem 
+ 
+4. Konfigurasi Full Displacement Column 
+Diameter 
+: 42 cm 
+Panjang : 8.5 m s/d 20 m 
+48 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Geosintetik 
+: Geogrid 200/50 F (4 Layer) 
+LTP 
+ 
+: Gravel Sand (Sirtu) tebal 1 m 
+5. Data pembacaan monitoring instrumentasi lapangan berupa Plate Loading Test. 
+6. Peta Gempa Indonesia 
+ 
+Kemudian instrumen penelitian yang penulis gunakan pada penelitian ini ialah: 
+1. Software Plaxis 2D V22 
+2. Tutorial Plaxis 2D V22 
+3. Reference Plaxis 2D V22 
+4. Material Models Plaxis 2D V22 
+5. Scientific Plaxis 2D V22  
+ 
+3.4 Prosedur Penelitian 
+1. Studi Literatur 
+Pada penelitian ini, penulis mengambil literratur yang berasal dari artikel, 
+jurnal, buku, Tugas Akhir, SNI, serta manual yang dikeluarkan oleh developer 
+software. Literatur yang digunakan ialah berupa teori-teori mengenai rigid 
+inclusion, pondasi dalam, metode daya dukung tiang, penurunan tanah, tipe 
+pemodelan numeris plane-strain dan axisymmetric, serta material model tanah 
+berupa Mohr-Coulomb dan Hardening Soil. Studi literatur ini dilakukan dengan 
+tujuan sebagai acuan serta pedoman penulis untuk melakukan penelitian  
+2. Pengumpulan Data Sekunder 
+Data yang diperoleh merupakan data pada proyek jalan tol. Data yang 
+didapatkan ialah berupa peta kontur lokasi penelitian, layout rencana lokasi 
+penelitian, potongan melintang lokasi penelitian, hasil penyelidikan tanah (data 
+bor log, stratifikasi tanah, parameter tanah), Konfigurasi Rigid Inclusions, data 
+pembacaan penurunan yang terjadi di lapangan berupa hasil plate loading test, 
+serta peta gempa Indonesia. 
+ 
+Data layout, potongan, serta stratifikasi tanah yang diperoleh akan digunakan 
+untuk selanjutnya membuat geometri yang akan dimodelkan. Untuk data bor log 
+serta peta gempa Indonesia akan digunakan untuk menentukan percepatan tanah 
+puncak yang telah teramplifikasi. Data bor log juga selanjutnya akan digunakan 
+49 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+untuk melakukan analisis daya dukung bersamaan dengan data parameter tanah 
+yang ada dan juga konfigurasi rigid inclusions. Selanjutnya untuk data 
+pembacaan penurunan tanah pada lokasi penelitian akan digunakan sebagai 
+pembanding dengan hasil analisis yang akan dilakukan. 
+3. Penentuan Percepatan Tanah Puncak yang Telah Teramplifikasi 
+Percepatan tanah puncak yang telah teramplifikasi ini selanjutnya akan 
+digunakan sebagai suatu nilai untuk perhitungan pseudo-static pada analisis 
+penurunan yang terjadi nanti. Dalam penentuannya, dibutuhkan beberapa hal 
+diantaranya adalah lokasi proyek yang berguna untuk menentukan percepatan 
+batuan dasar yang terdapat pada peta gempa Indonesia, kelas situs yang dapat 
+ditentukan dari data bor log yang ada.  
+4. Analisis Daya Dukung 
+Analisis daya dukung dilakukan untuk mengetahui konfigurasi rigid 
+inclusion yang digunakan dapat terbilang mampu memikul beban yang bekerja 
+di atasnya atau tidak. Dalam analisis ini diperlukan data bor log serta parameter 
+tanah yang akan digunakan. Pada analisis daya dukung ini digunakan tiga 
+metode perhitungan, yaitu Mayerhof, Decourt-Quaresma, dan Schmertmann. 
+Tiga metode tersebut dipilih dikarenakan ketiga metode tersebut dapat dilakukan 
+apabila hanya data SPT yang didapatkan dari bor log yang tersedia. Selanjutnya 
+metode yang digunakan diakhirnya akan dibandingkan dengan daya dukung 
+yang diperoleh dari data instrumentasi lapangan   
+5. Analisis Penurunan Tanah 
+Software Plaxis 2D v22 dipilih sebagai instrumen. yang dapat membantu 
+penulis untuk menganalisis penurunan tanah yang terjadi. Terdapat beberapa 
+tahapan yang perlu dilakukan untuk menggunakan software Plaxis 2D v22 ini. 
+Tahapannya dapat diruntutkan sebagai berikut: 
+a. Input 
+• General setting 
+Di tahap ini diperlukan untuk menentukan model analisis apa yang akan 
+digunakan. Dikarenakan pada penelitian ini akan menggunakan dua model 
+numeris analisis, maka analisis dilakukan sebanyak dua kali. Analisis 
+pertama dilakukan dengan menggunakan model plane-strain, lalu pada 
+50 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+analisis kedua digunakan model axisymmetric pada analisisnya. Dimana 
+hal yang membedakannya terletak pada bentuk geometri yang dibuat. 
+Pengaturan jumlah titik nodal, satuan serta ukuran model pun perlu 
+dilakukan pada tahap ini. 
+• Membuat geometri 
+Pada tahap ini dibutuhkan sebuah geometri yang diperoleh dari data layout 
+rencana, gambar potongan lokasi penelitian, serta data stratifikasi tanah 
+yang ada.  
+• Input parameter tanah, material dan beban 
+Selanjutnya, diperlukan peng-input-an parameter tanah yang akan 
+digunakan. Pada penelitian ini tanah dimodelkan dengan material model 
+Mohr-Coulomb dan Hardening Soil. Untuk jenis tanah pasir digunakan 
+kondisi drainase yaitu drained dan pada tanah kohesif seperti clay dan silt 
+dimodelkan dua kali pada masa operasional., yaitu dimodelkan dengan 
+Undrained (A) dan Drained, sedangkan untuk kondisi saat masa 
+konstruksi digunakan model Undrained (A) sebagai tipe drainasenya. 
+Untuk memodelkan Rigid Inclusion pada model plane strain digunakan 
+metode ekuivalen dalam bentuk cluster sebagai pemodelannya, sedangkan 
+pada model axisymmetric digunakan cluster sebagai pemodelannya 
+dengan material model linear elastic. 
+b. Meshing 
+Pada tahap ini, selanjutnya dilakukan meshing untuk membagi geometri 
+yang sudah dibuat menjadi beberapa elemen sehingga memunculkan nodal-
+nodal yang ada. Pada penelitian ini meshing yang digunakan ialah medium. 
+c. Initial Condition 
+Untuk initial condition diperlukan kondisi muka air tanah yang ada pada 
+lokasi tersebut dengan menggunakan water level untuk memberikan kondisi 
+muka air tanah yang ada. Dimana kedalaman muka air tanah ini diperoleh 
+dari data bor log yang ada. 
+d. Stage Construction 
+Di tahap stage construction diperlukan pembagian beberapa kondisi yang 
+perlu dimodelkan. Tahap ini diperlukan untuk memodelkan bagaimana 
+51 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+kondisi tanah terhadap perubahan-perubahan kondisi tanah akibat adanya 
+suatu beban atau instalasi suatu perkuatan terhadap waktu yang ada. Kondisi 
+konstruksi yang akan digunakan dimodelkan dan dibagi menjadi beberapa 
+tahap, diantaranya adalah: 
+• Initial Phase 
+• Instalasi rigid inclusion berupa CMC (7 hari) 
+• Instalasi LTP dan Geogrid (7 hari) 
+• Pengurugan tanah timbunan (30 hari) 
+• Masa operasional (10 Tahun) 
+• Gempa 
+e. Output 
+Output dari hasil pemodelan analisis menggunakan Plaxis 2D ini dapat 
+dilihat pada bagiann output. Output yang dicari pada penelitian ini ialah 
+berupa gaya-gaya yang terjadi terutama gaya aksial serta momen yang terjadi 
+di setiap CMC yang digunakan. Selain berupa gaya-gaya yang terjadi, 
+diperlukan juga hasil penurunan dari setiap kondisi yang selanjutnya 
+dilakukan perbandingan bagaimana penurunan yang terjadi terhadap kondisi-
+kondisi yang dimodelkan. Factor of Safety pun diperlukan untuk mengetahui 
+berapa faktor keamanan dari setiap kondisi yang ada sehingga kondisi 
+tersebut dapat dikatakan aman. 
+6. Analisis penurunan dengan plate loading test secara numeris  
+Software Plaxis 2D v22 dipilih sebagai instrumen. yang dapat membantu 
+penulis untuk menganalisis penurunan terhadap yang terjadi akibat 
+bertambahnya beban yang ada.. Terdapat beberapa tahapan yang perlu dilakukan 
+untuk menggunakan software Plaxis 2D v22 ini. Tahapannya dapat diruntutkan 
+sebagai berikut: 
+f. Input 
+• General setting 
+Pada tahap ini pemodelan numeris dilakukan dengan memilik model 
+axisymmetric. Pengaturan jumlah titik nodal, satuan serta ukuran model 
+pun perlu dilakukan pada tahap ini. 
+ 
+52 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+• Membuat geometri 
+Pada tahap ini dibutuhkan sebuah geometri yang diperoleh dari konfigurasi 
+rigid inclusions, serta data stratifikasi tanah yang ada.  
+• Input parameter tanah, material dan beban 
+Selanjutnya, diperlukan peng-input-an parameter tanah yang akan 
+digunakan. Pada penelitian ini tanah dimodelkan dengan material model 
+Mohr-Coulomb dan Hardening Soil. Untuk jenis tanah pasir digunakan 
+kondisi drainase yaitu drained dan pada tanah kohesif seperti clay dan silt 
+dimodelkan dengan kondisi Undrained (A). Untuk memodelkan Rigid 
+Inclusion digunakan cluster sebagai pemodelannya dengan material model 
+linear elastic. 
+g. Meshing 
+Pada tahap ini, selanjutnya dilakukan meshing untuk membagi geometri 
+yang sudah dibuat menjadi beberapa elemen sehingga memunculkan nodal-
+nodal yang ada. Pada penelitian ini meshing yang digunakan ialah medium. 
+h. Initial Condition 
+Untuk initial condition diperlukan kondisi muka air tanah yang ada pada 
+lokasi tersebut dengan menggunakan water level untuk memberikan kondisi 
+muka air tanah yang ada. Dimana kedalaman muka air tanah ini diperoleh 
+dari data bor log yang ada. 
+i. Stage Construction 
+Di tahap stage construction diperlukan pembagian beberapa kondisi yang 
+perlu dimodelkan berdasarkan pembebanan yang dilakukan pada saat 
+pengujian plate loading test. Kondisi konstruksi yang akan digunakan 
+dimodelkan dan dibagi menjadi beberapa tahap, diantaranya adalah: 
+• Initial Phase 
+• Load 0% 
+• Load 25% 
+• Load 50% 
+• Load 75% 
+• Load 100% 
+• Load 110% 
+53 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+• Load 100% 
+• Load 75% 
+• Load 50% 
+• Load 25% 
+• Load 0% 
+j. Output 
+Output dari hasil pemodelan analisis menggunakan Plaxis 2D ini dapat 
+dilihat pada bagiann output. Output yang dicari pada penelitian ini ialah 
+berupa deformasi vertical atau penurunan. 
+7. Perbandingan Hasil Analisis dengan Data Penurunan di Lapangan 
+Setelah diperoleh hasil output dari analisis daya dukung menggunakan Plaxis 
+2D ini dilakukan perbandingan untuk mengetahui bagaimana pengaruh dari 
+metode perhitungan daya dukung serta material model yang digunakan terhadap 
+penurunan yang terjadi. Dari setiap kondisi tersebut selanjutnya dilakukan pula 
+perbandingan terhadap hasil penurunan yang terjadi di lapangan dengan 
+instrumentasi lapangan berupa plate loading test. Tujuan penelitian ini 
+merupakan mencari penurunan yang mendekati dengan hasil lapangan. 
+Perbandingan ini dilakukan dengan mencari selisih terkecil antara penurunan 
+hasil di lapangan dengan hasil penurunan hasil analisis menggunakan software 
+Plaxis 2D. 
+MULAI
+Studi 
+Literatur
+Data Sekunder:
+1.  layout lokasi
+2. Potongan melintang
+3. Hasil penyelidikan tanah
+4. Peta Gempa Indonesia
+5. Konfigurasi Full Displacement Column
+Data Instrumentasi 
+Lapangan:
+1. Plate Loading Test
+A
+B
+ 
+ 
+54 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Menentukan percepatan 
+tanah puncak yang telah 
+teramplifikasi
+Analisis penurunan 
+menggunakan software PLAXIS 
+2D v22 dengan pemodelan 
+numeris:
+Plane-strain
+Menentukan material model tanah 
+yang akan digunakan:
+1. Mohr-Coloumb
+2. Hardening Soil
+Analisis penurunan 
+menggunakan software PLAXIS 
+2D v22 dengan pemodelan 
+numeris:
+Axisymmetric
+Penurunan pada 
+kondisi:
+• Konstruksi
+• Operasional
+Penurunan pada kondisi:
+• Konstruksi
+• Operasional
+Safety Factor pada kondisi:
+• Short-Term
+• Long-Term
+• Gempa
+Penyesuaian parameter desain pada 
+meterial model:
+1. Mohr-Coloumb
+2. Hardening Soil
+Penurunan Izin 
+< 100mm
+Penurunan Izin 
+< 100mm
+Safety Factor
+• Short-Term > 1.3
+• Long-Term > 1.5
+• Gempa > 1.1
+YA
+YA
+TIDAK
+TIDAK
+Analisis Penurunan Tanpa 
+Perkuatan dengan PLAXIS 2D 
+V22
+Pengecekan kebutuhan 
+perkuatan FDC
+Nrd  < Ned
+YA
+Menghitung 
+Kebutuhan 
+Perkuatan FDC
+TIDAK
+Perhitungan daya dukung tiang dengan menggunakan
+1. Mayerhof
+2. Decourt-Quaresma
+3. Schmertmann
+B
+A
+C
+D
+ 
+55 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Analisis penurunan dengan plate loading test 
+secara numeris menggunakan software 
+PLAXIS 2D v22 dengan material model:
+1. Mohr-Coloumb
+2. Hardening Soil
+Perbandingan penurunan antara material model 
+Mohr-Coloumb  dan Hardening Soil dengan 
+metode perhitungan daya dukung Mayerhof, 
+Decourt-Quaresma, dan Schmertmann dengan 
+hasil Plate Loading Test
+Kesimpulan dan Saran
+SELESAI
+Grafik 
+Load vs 
+Settlement
+Plate 
+Loading 
+Test
+Grafik 
+Load vs 
+Settlement
+Perbandingan penurunan dan Safety Factor antara 
+material model Mohr-Coloumb  dan Hardening 
+Soil serta pemodelan plane-strain, axisymmetric
+C
+D
+ 
+Gambar 3.6. Diagram Alir Penelitian 
+ 
+3.5 Analisis Data 
+Dalam penelitian ini dilakukan beberapa kali analisis setelah didapatkannya 
+data-data sekunder tersebut. Analisis data yang dilakukan diantaranya adalah 
+analisis percepatan tanah puncak akibat gempat yang telah teramplifikasikan pada 
+lokasi proyek tersebut. Analisis tersebut dapat dilakukan dengan melihat tata cara 
+yang tercantumkan pada SNI 1726 2019 Tata Cara Perencanaan Ketahanan Gempa 
+Untuk Struktur Bangunan Gedung dan Nongedung. Selanjutnya analisis yang 
+digunakan ialah analisis daya dukung tanah dengan menggunakan tiga metode yaitu 
+Mayerhof, Decourt-Quaresma, dan Schmertmann dari data bor log yang ada. 
+Analisis terakhir yang digunakan ialah analisis penurunan tanah, dimana analisis 
+ini dibantu dengan menggunakan software Plaxis 2D v22. Pemodelan pada software 
+ini dilakukan dengan menggunakan dua model, yaitu plane strain dan 
+axisymmetric. Dan tanah dimodelkan dengan material model Mohr-Coulomb dan 
+Hardening Soil. 
+56 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+BAB IV 
+TEMUAN DAN PEMBAHASAN 
+ 
+4.1 Penentuan Kelas Situs 
+Penentuan kelas situs dilakukan terhadap ke-2 data bor log yang ada. Dengan 
+mempertimbangkan perolehan data maka perhitungan hanya dilakukan berdasarkan 
+nilai NSPT rata-rata, sehingga diperoleh perhitungan data sebagai berikut: 
+ 
+Tabel 4.1. Perhitungan Kelas Situs BH-23 
+Elev. (m) 
+Thickness, 
+di (m) 
+Ni 
+(blows/30cm) 
+di / Ni 
+ 
+Kelas 
+Situs 
+7.2 
+- 
+5.7 
+1.5 
+5 
+0.300 
+7.871 
+SE 
+5.7 
+- 
+4.2 
+1.5 
+4 
+0.375 
+4.2 
+- 
+2.7 
+1.5 
+7 
+0.214 
+2.7 
+- 
+1.2 
+1.5 
+2 
+0.750 
+1.2 
+- 
+-0.3 
+1.5 
+14 
+0.107 
+-0.3 
+- 
+-1.8 
+1.5 
+8 
+0.188 
+-1.8 
+- 
+-3.3 
+1.5 
+9 
+0.167 
+-3.3 
+- 
+-4.8 
+1.5 
+11 
+0.136 
+-4.8 
+- 
+-6.3 
+1.5 
+4 
+0.375 
+-6.3 
+- 
+-7.8 
+1.5 
+7 
+0.214 
+-7.8 
+- 
+-9.3 
+1.5 
+10 
+0.150 
+-9.3 
+- 
+-10.8 
+1.5 
+10 
+0.150 
+-10.8 
+- 
+-12.3 
+1.5 
+11 
+0.136 
+-12.3 
+- 
+-13.8 
+1.5 
+14 
+0.107 
+-13.8 
+- 
+-15.3 
+1.5 
+14 
+0.107 
+-15.3 
+- 
+-16.8 
+1.5 
+21 
+0.071 
+-16.8 
+- 
+-18.3 
+1.5 
+25 
+0.060 
+-18.3 
+- 
+-19.8 
+1.5 
+20 
+0.075 
+𝑵̅
+57 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Elev. (m) 
+Thickness, 
+di (m) 
+Ni 
+(blows/30cm) 
+di / Ni 
+ 
+Kelas 
+Situs 
+-19.8 
+- 
+-21.3 
+1.5 
+25 
+0.060 
+-21.3 
+- 
+-22.8 
+1.5 
+22 
+0.068 
+Total 
+30 
+  
+3.8115 
+ 
+Tabel 4.2. Perhitungan Kelas Situs BH-24 
+Elev. (m) 
+Thickness, 
+di (m) 
+Ni 
+(blows/30cm) 
+di / Ni 
+ 
+Kelas 
+Situs 
+7.2 
+- 
+5.7 
+1.5 
+4 
+0.375 
+10.109 
+SE 
+5.7 
+- 
+4.2 
+1.5 
+5 
+0.300 
+4.2 
+- 
+2.7 
+1.5 
+4 
+0.375 
+2.7 
+- 
+1.2 
+1.5 
+10 
+0.150 
+1.2 
+- 
+-0.3 
+1.5 
+12 
+0.125 
+-0.3 
+- 
+-1.8 
+1.5 
+9 
+0.167 
+-1.8 
+- 
+-3.3 
+1.5 
+11 
+0.136 
+-3.3 
+- 
+-4.8 
+1.5 
+12 
+0.125 
+-4.8 
+- 
+-6.3 
+1.5 
+14 
+0.107 
+-6.3 
+- 
+-7.8 
+1.5 
+15 
+0.100 
+-7.8 
+- 
+-9.3 
+1.5 
+7 
+0.214 
+-9.3 
+- 
+-10.8 
+1.5 
+10 
+0.150 
+-10.8 
+- 
+-12.3 
+1.5 
+16 
+0.094 
+-12.3 
+- 
+-13.8 
+1.5 
+21 
+0.071 
+-13.8 
+- 
+-15.3 
+1.5 
+22 
+0.068 
+-15.3 
+- 
+-16.8 
+1.5 
+28 
+0.054 
+-16.8 
+- 
+-18.3 
+1.5 
+18 
+0.083 
+-18.3 
+- 
+-19.8 
+1.5 
+23 
+0.065 
+-19.8 
+- 
+-21.3 
+1.5 
+11 
+0.136 
+-21.3 
+- 
+-22.8 
+1.5 
+21 
+0.071 
+Total 
+30 
+  
+2.9677 
+ 
+𝑵̅
+𝑵̅ 
+58 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Berdasarkan Tabel 2.7 disimpulkan bahwa BH-23 maupun BH-24 
+terklasifikasikan sebagai kelas situs SE 
+ 
+4.2 Penentuan Desain Seismik 
+Dengan melihat lokasi penelitian yang berada di Tol Pemalang-Batang KM 
+39.2 yang terletak di Jawa Tengah dan berdasarkan peta gempa Indonesia tahun 
+2017, Dimana untuk jalan tol disyaratkan menggunakan peta gempa dengan periode 
+ulang 500 tahun. Diperoleh rentang nilai PGA sebesar 0g hingga 0.05g. Untuk 
+memaksimalkan desain yang aman, maka diambil nilai PGA tertinggi yaitu sebesar 
+0.05g 
+ 
+Gambar 4.1. Lokasi penelitian pada peta gempa Indonesia 
+ 
+Dengan melihat tabel koefisien situs dibawah ini 
+Tabel 4.3. Koefisien Situs, FPGA 
+ 
+ 
+ 
+Sumber; SNI 1726-2019 dan SNI 1860-2017 
+59 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Untuk memperoleh nilai FPGA diperlukan nilai PGA yang sebelumnya sudah 
+didapatkan dari peta gempa Indonesia serta kelas situs. Dimana dengan nilai PGA 
+0.05g serta kelas situs SE maka diperoleh nilai FPGA sebesar 2.4. 
+ 
+Selanjutnya dilakukan perhitungan nilai percepatan puncak gempa yang telah 
+teramplifikasi (PGAM) dengan perhitungan sebagai berikut: 
+ 
+𝑃𝐺𝐴𝑀= 𝐹𝑃𝐺𝐴 . 𝑃𝐺𝐴 . 0.5  
+𝑃𝐺𝐴𝑀= 2.4 . 0.05𝑔 . 0.5 
+𝑃𝐺𝐴𝑀= 0.06𝑔   
+  
+ 
+ 
+ 
+4.3 Perhitungan Daya Dukung Tiang 
+Dengan dimensi Full Displacement Column sebagai berikut 
+Diameter, D 
+ 
+ 
+= 0.42 m 
+Kedalaman, Lc 
+ 
+ 
+= 20 m 
+Luas Penampang Tiang, Ac =
+1
+4 . 𝜋. 𝐷2 
+ 
+ 
+ 
+ 
+ 
+=
+1
+4 . 𝜋. (0.42 𝑚)2 
+ 
+ 
+ 
+ 
+ 
+= 0.1385 m2 
+Keliling Tiang, Pc 
+ 
+= 𝜋. 𝐷 
+ 
+ 
+ 
+ 
+ 
+= 𝜋. 0.42 𝑚 
+ 
+ 
+ 
+ 
+ 
+= 1.319 m 
+Safety Factor, FK 
+ 
+= 3 
+Dilakukan perhitungann berdasarkan beberapa metode perhitungan daya dukung 
+yang telah ditentukan dengan data tanah yang telah disederhakan dari BH-23 dan 
+BH-24 hingga kedalaman 20 m sesuai dengan kedalaman tiang yang didesain, 
+diperoleh data tanah sebagai berikut: 
+60 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.4. Data Tanah pada perhitungan daya dukung 
+Layer 
+Soil 
+Behaviour 
+Elv. 
+(m) 
+H 
+(m) 
+NSPT 
+(30cm/blow) 
+Cu 
+(kN/m2) 
+1 
+Silt 
+7.2 - 
+1 
+6.2 
+4 
+20 
+ 
+2 
+Silt 
+1 
+- 
+-5 
+6 
+9 
+45 
+ 
+3 
+Silt 
+-5 
+- 
+-10 
+5 
+7 
+35 
+ 
+4 
+Silt 
+-10 - 
+-12 
+2 
+11 
+55 
+ 
+5 
+Silt 
+-12 - 
+-12.8 
+0.8 
+15 
+75 
+ 
+ 
+4.3.1 Metode Mayerhof (1956) 
+Untuk menghitung daya dukung ujung tiang, digunakan persamaan 2.8, 
+dikarenakan ujung tiang berada pada tanah kohesif, sehingga didapatkan Qp sebagai 
+berikut: 
+𝑄𝑝= 40 . 𝑁𝑏  . 𝐴𝑐 
+ 
+𝑄𝑝= 40 . 15  . 0.1385 𝑚2 
+ 
+𝑄𝑝= 83.127 𝑘𝑁  
+Lalu untuk menghitung daya dukung selimut tiang berdasarkan persamaan 
+2.9 dan persamaan 2.11 dikarenakan keseluruhan tiang berada didalam tanah 
+kohesif maka dibutuhkan nilai α berdasarkan grafik pada Gambar 2.1. Perhitungan 
+dilakukan di setiap lapisan tanah, berikut adalah perhitungan daya dukung selimut 
+tiang pada lapisan pertama, 
+𝐴𝑠= 𝐻 . 𝑃𝑐 
+𝐴𝑠= 6.2 𝑚 . 1.319 𝑚 
+𝐴𝑠= 8.181 𝑚2 
+ 
+61 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 4.2. Ploting nilai Cu pada lapisan 1 
+Berdasarkan ploting nilai Cu sebesar 20 kPa diperoleh nilai α sekitar 1.03. 
+sehingga diperolah nilai f dan Qfs sebagai berikut 
+𝑓= 𝛼 . 𝐶𝑢 
+𝑓= 1.03 . 20 𝑘𝑃𝑎 
+𝑓= 20.6 𝑘𝑃𝑎 
+ 
+𝑄𝑓𝑠= 𝑓 . 𝐴𝑠 
+𝑄𝑓𝑠= 20.6 𝑘𝑃𝑎 . 8.181 𝑚2 
+𝑄𝑓𝑠= 196.61 𝑘𝑁 
+ 
+Dan berikut adalah rekap perhitungan dari setiap lapisan hingga didapatkan 
+nilai total daya dukung selimut. 
+ 
+62 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.5. Rekap Perhitungan Daya Dukung Selimut Tiang (Mayerhof) 
+Layer 
+Soil 
+Behaviour 
+Elv. 
+(m) 
+H 
+(m) 
+NSPT 
+(30cm/blow) 
+Cu 
+(kN/m2) 
+α 
+1 
+Silt 
+7.2 
+- 
+1 
+6.2 
+4 
+20 
+1.03 
+ 
+2 
+Silt 
+1 
+- 
+-5 
+6 
+9 
+45 
+0.79 
+ 
+3 
+Silt 
+-5 
+- 
+-10 
+5 
+7 
+35 
+0.875 
+ 
+4 
+Silt 
+-10 
+- 
+-12 
+2 
+11 
+55 
+0.7 
+ 
+5 
+Silt 
+-12 
+- 
+-12.8 0.8 
+15 
+75 
+0.57 
+ 
+Layer 
+Soil 
+Behaviour 
+Elv. 
+(m) 
+H 
+(m) 
+f 
+(kN/m2) 
+As 
+(m2) 
+Qfs 
+(kN) 
+1 
+Silt 
+7.2 
+- 
+1 
+6.2 
+20.6 
+8.180707 
+196.6097 
+ 
+2 
+Silt 
+1 
+- 
+-5 
+6 
+35.55 
+7.916813 
+250.1713 
+ 
+3 
+Silt 
+-5 
+- 
+-10 
+5 
+30.625 
+6.597345 
+192.4226 
+ 
+4 
+Silt 
+-10 
+- 
+-12 
+2 
+38.5 
+2.638938 
+86.2053 
+ 
+5 
+Silt 
+-12 
+- 
+-12.8 
+0.8 
+42.75 
+1.055575 
+36.10067 
+ 
+ΣQfs 
+761.509 
+ 
+ 
+Dengan telah didapatkannya nilai daya dukung ujung serta selimut tiang, 
+selanjutnya dilakukan perhitungan nilai daya dukung ultimit serta daya dukung izin 
+dengan perhitungan sebagai berikut: 
+𝑄𝑈𝑙𝑡= 𝑄𝑝+ 𝑄𝑓𝑠 
+𝑄𝑈𝑙𝑡= 83.127 𝑘𝑁+ 761.509 𝑘𝑁 
+𝑄𝑈𝑙𝑡= 844.636 𝑘𝑁 
+𝑄𝑎𝑙𝑙= 𝑄𝑢𝑙𝑡
+𝐹𝐾 
+𝑄𝑎𝑙𝑙= 844.636 𝑘𝑁
+3
+ 
+𝑄𝑎𝑙𝑙= 281.545 𝑘𝑁 
+ 
+63 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+4.3.2 Metode Decourt-Quaresma (1982) 
+Pada metode ini perhitungan tetap mengacu terhadap data tanah yang ada 
+sebelumnya. Dengan melihat ujung tiang yang berada pada tanah lanau (silt) maka 
+berdasarkan Tabel 2.2 dan Tabel 2.3 diperoleh nilai koefisien dasar tiang (α) sebesar 
+0.3 serta nilai karakteristik tanah (Kdp) sebesar 200 kPa. Berdasarkan persamaan 
+2.12 diperlukan nilai N yang merupakan nilai NSPT rata-rata 4D diatas serta 
+dibawah dasar tiang, berdasarkan data borlog yang ada maka nilai N diperoleh 
+sebesar 13.667. 
+Berikut adalah perhitungan daya dukung ujung tiang: 
+𝑄𝑝= 𝛼 . 𝐾𝑑𝑝 . 𝑁 . 𝐴𝑐 
+𝑄𝑝= 0.3 . 200 𝑘𝑃𝑎 . 13.667 .0.1385 𝑚2 
+𝑄𝑝= 113. 606 𝑘𝑁 
+Pada perhitungan daya dukung selimut tiang, dibutuhkan nilai koefisien 
+keliling tiang (β), berdasarkan Tabel 2.4 pada lapisan 1 diperoleh nilai β sebesar 1. 
+Selanjutnya dilakukan perhitungan daya dukung selimut tiang pada lapisan 1. 
+𝑄𝑓𝑠= 𝛽𝑖 . 10 . (𝑁𝑖
+3 + 1) . 𝐴𝑠,𝑖 
+𝑄𝑓𝑠= 1 . 10 . (4
+3 + 1) .  8.181 𝑚2 
+𝑄𝑓𝑠= 190.883 𝑘𝑁 
+Dan berikut adalah rekap perhitungan dari setiap lapisan hingga didapatkan 
+nilai total daya dukung selimut. 
+ 
+ 
+ 
+64 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.6. Rekap Perhitungan Daya Dukung Selimut Tiang (Decourt-Quaresma) 
+Layer 
+Soil 
+Behaviour 
+Elv. 
+(m) 
+H 
+(m) 
+NSPT 
+(30cm/blow) 
+β1 
+As 
+(m2) 
+Qfs 
+(kN) 
+1 
+Silt 
+7.2 - 
+1 
+6.2 
+4 
+1 
+8.181 190.8832  
+2 
+Silt 
+1 
+- 
+-5 
+6 
+9 
+1 
+7.917 316.6725  
+3 
+Silt 
+-5 
+- 
+-10 
+5 
+7 
+1 
+6.597 219.9115  
+4 
+Silt 
+-10 - 
+-12 
+2 
+11 
+1 
+2.639 123.1504  
+5 
+Silt 
+-12 - 
+-12.8 
+0.8 
+15 
+1 
+1.056 63.33451  
+ΣQfs 
+913.952 
+ 
+ 
+Dengan telah didapatkannya nilai daya dukung ujung serta selimut tiang, 
+selanjutnya dilakukan perhitungan nilai daya dukung ultimit serta daya dukung izin 
+dengan perhitungan sebagai berikut: 
+𝑄𝑈𝑙𝑡= 𝑄𝑝+ 𝑄𝑓𝑠 
+𝑄𝑈𝑙𝑡= 113.60627 𝑘𝑁+ 913.95213 𝑘𝑁 
+𝑄𝑈𝑙𝑡= 1027.5584 𝑘𝑁 
+ 
+𝑄𝑎𝑙𝑙= 𝑄𝑢𝑙𝑡
+𝐹𝐾 
+𝑄𝑎𝑙𝑙= 1027.5584 𝑘𝑁
+3
+ 
+𝑄𝑎𝑙𝑙= 342.51947 𝑘𝑁 
+ 
+4.3.3 Metode Schmertmann (1967) 
+Pada metode ini perhitungan cukup berbeda dan lebih sederhana 
+dibandingkan dengan beberapa metode sebelumnya. Berdasarkan Tabel 2.5 serta 
+jenis tanah yang ada, maka perolehan nilai q serta f dengan persamaan 
+  
+65 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+𝑞= 1.6 𝑁 
+𝑞= 1.6 . 15 = 24 𝑘𝑔/𝑐𝑚2 
+𝑄𝑝= 𝑞. 𝐴𝑐 
+𝑄𝑝= 24 𝑘𝑔/𝑐𝑚2. 1385.44 𝑐𝑚2 
+𝑄𝑝= 33250.617 𝑘𝑔 
+Lalu pada lapisan pertama diperoleh daya dukung selimut tiang sebesar 
+𝑓= 0.04 𝑁 
+𝑓= 0.04 . 4 
+𝑓= 0.16 𝑘𝑔/𝑐𝑚2 
+ 
+𝑄𝑓𝑠= 𝑓. 𝐴𝑠 
+𝑄𝑓𝑠= 0.16 𝑘𝑔/𝑐𝑚2. 81807.07 𝑐𝑚2 
+𝑄𝑓𝑠= 13089.13 𝑘𝑔 
+Dan berikut adalah rekap perhitungan dari setiap lapisan hingga didapatkan 
+nilai total daya dukung selimut. 
+Tabel 4.7. Rekap Perhitungan Daya Dukung Selimut Tiang (Schmertmann) 
+Layer 
+Soil 
+Behav. 
+Elv. 
+(m) 
+H 
+(m) 
+NSPT 
+(30cm 
+/blow) 
+f 
+(kg 
+/cm2) 
+As 
+(cm2) 
+Qfs 
+(kg) 
+1 
+Silt 
+7.2 
+- 
+1 
+6.2 
+4 
+0.16 
+81807.07 13089.13  
+2 
+Silt 
+1 
+- 
+-5 
+6 
+9 
+0.36 
+79168.13 28500.53  
+3 
+Silt 
+-5 
+- 
+-10 
+5 
+7 
+0.28 
+65973.45 18472.56  
+4 
+Silt 
+-10 
+- 
+-12 
+2 
+11 
+0.44 
+26389.38 11611.33  
+5 
+Silt 
+-12 
+- 
+-12.8 
+0.8 
+15 
+0.6 
+10555.75 6333.451  
+ΣQfs 
+78007 
+ 
+ 
+66 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Dengan telah didapatkannya nilai daya dukung ujung serta selimut tiang, 
+selanjutnya dilakukan perhitungan nilai daya dukung ultimit serta daya dukung izin 
+dengan perhitungan sebagai berikut: 
+ 
+𝑄𝑈𝑙𝑡= 𝑄𝑝+ 𝑄𝑓𝑠 
+𝑄𝑈𝑙𝑡= 33250.617  𝑘𝑔+ 78007.002  𝑘𝑔 
+𝑄𝑈𝑙𝑡= 111257.62 𝑘𝑔 
+ 
+𝑄𝑎𝑙𝑙= 𝑄𝑢𝑙𝑡
+𝐹𝐾 
+𝑄𝑎𝑙𝑙= 111257.62 𝑘𝑔
+3
+ 
+𝑄𝑎𝑙𝑙= 37085.873 𝑘𝑔= 363.694 𝑘𝑁 
+ 
+Setelah dilakukannya perhitungan dari setiap metode, berikut adalah rekap 
+perhitungan daya dukung berdasarkan beberapa metode. 
+ 
+Tabel 4.8. Rekapitulasi daya dukung izin tiang 
+Metode 
+Decourt - 
+Quaresma 
+Mayerhof 
+Schmertmann 
+Daya Dukung Izin, Qa 
+(kN) 
+342.519 
+281.545 
+363.694 
+ 
+ 
+67 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+4.4 Parameter Desain Plaxis 
+4.4.1 Parameter Desain FDC 
+Dengan data tanah beserta beberapa parameter yang tersedia serta dengan 
+konfigurasi Full Displacement Column sebagai berikut 
+Diameter, D 
+ 
+ 
+= 0.42 m 
+Kedalaman, Lc 
+ 
+ 
+= 20 m 
+Luas Penampang Tiang, Ac =
+1
+4 . 𝜋. 𝐷2 
+ 
+ 
+ 
+ 
+ 
+=
+1
+4 . 𝜋. (0.42 𝑚)2 
+ 
+ 
+ 
+ 
+ 
+= 0.1385 m2 
+Spacing, S  
+ 
+ 
+= 2.2 m 
+Layout Pemasangan 
+ 
+= square grid 
+ 
+Diameter Pengaruh, De  
+= 1.05 . S 
+ 
+ 
+ 
+ 
+ 
+= 1.05 . 2.2 m = 2.486 m 
+Luas Pengaruh, Ae 
+ 
+=
+1
+4 . 𝜋. 𝐷𝑒
+2 
+ 
+ 
+ 
+ 
+ 
+=
+1
+4 . 𝜋. (0.2486 𝑚)2 
+ 
+ 
+ 
+ 
+ 
+= 4.85391 m2 
+Area Replacement, as  
+=
+𝐴𝑐
+𝐴𝑠 
+= 0.1385 𝑚2
+4.85391 𝑚2 = 0.0285 
+Jumlah Kolom per section, n = 28 buah 
+Mutu Beton, f28  
+ 
+= 20 MPa 
+Modulus Beton, Eref 
+ 
+= 4700 √𝑓28 
+ 
+ 
+ 
+ 
+ 
+= 4700 √20 𝑀𝑃𝑎 
+68 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+ 
+ 
+ 
+ 
+= 21019.04 𝑀𝑃𝑎 
+Berat Jenis Beton, γ 
+ 
+= 24 kN/m3 
+Berikut adalah tabel rekap parameter desain FDC 
+Tabel 4.9. Parameter Desain FDC 
+Material 
+Material 
+Model 
+Drainage 
+Type 
+γn 
+(kN/m3) 
+ν' 
+E 
+(kN/m2) 
+FDC 
+Linear 
+Elastic 
+Non-
+Porous 
+24.00 
+0.25 
+21019039 
+ 
+4.4.2 Parameter Desain Geogrid 
+Geogrid dimodelkan menggunakan Geogrid dalam kondisi elastoplastic. 
+Dimana Geogrid ini diletakan sebanyak 4 layer dan dengan pengaturan 1 layer 
+setiap 30 cm hingga 40 cm pada lapisan Load Transfer Platform. Geogrid yang 
+digunakan adalah 200/50 yang memiliki kuat Tarik sebesar 105 kN/m. Dengan 
+factor reduksi yang ada adalah sebagai berikut: 
+Creep rupture at 120 years design life (RFCR) = 1.45 
+Maka didapatkan kuat Tarik izin sebesar: 
+Tall = Tult
+RFCR
+ 
+Tall = 200 kN/m
+1.45
+= 137.9 kN/m 
+Dengan maksimum strain sebesar 5%, maka didapatkan EA 
+EA = Tall
+ε  
+EA = 137.9 kN/m
+5 %
+= 2758.62 kN/m 
+69 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.10. Parameter Desain Geogrid 
+Material 
+Type 
+Tult 
+(kN/m) 
+εmax 
+(%) 
+RFCR 
+Tall 
+(kN/m) 
+EA  
+(kN/m) 
+Geogrid 
+200/50 
+Geogrid 
+200 
+5 
+1.45 
+137.93 
+2758.62 
+ 
+4.4.3 Parameter Desain Tanah 
+Setelah dilakukan beberapa kali trial & error dalam melakukan analisis pada 
+Software PLAXIS 2D. diperoleh lah parameter desain tanah yang sesuai dari setiap 
+material model yang digunakan. 
+Tabel 4.11. Parameter Desain Tanah (Mohr-Coulomb) 
+Parameter Desain (Mohr-Coloumb) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No. 
+Soil 
+Type 
+Cons. 
+Drainage 
+Type 
+γn 
+(kN 
+/m3) 
+γsat 
+(kN 
+/m3) 
+e0 
+ν' 
+c' 
+(kN 
+/m2) 
+1 
+LTP 
+(Sirtu) 
+ 
+Undrained (A) 
+19 
+20.9 
+0.4 
+0.3 
+1 
+2 
+Silt 
+Soft 
+Drained 
+16 
+17.6 
+0.9 
+0.4 
+5 
+Undrained (A) 
+16 
+17.6 
+0.9 
+0.4 
+5 
+3 
+Silt 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+5 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+5 
+4 
+Silt 
+Medium 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+5 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+5 
+5 
+Silt 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+7 
+6 
+Silt 
+Very 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.2 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.2 
+7 
+7 
+Silt 
+Very 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.2 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.2 
+7 
+8 
+Silt 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+7 
+9 
+Sand 
+Medium 
+Dense 
+Drained 
+17 
+18.7 
+0.4 
+0.3 
+2 
+10 
+Silt 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+7 
+11 
+Backfill 
+ 
+Undrained (A) 
+18 
+19.8 
+0.6 
+0.3 
+5 
+70 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Parameter Desain (Mohr-Coloumb) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No. 
+Soil 
+Type 
+Cons. 
+Drainage 
+Type 
+φ'  
+(˚) 
+ψ 
+(˚) 
+E' 
+(kN/m2) 
+k  
+(m/day) 
+1 
+LTP 
+(Sirtu) 
+ 
+Undrained (A) 
+35 
+5 
+35,000 
+8.64E-01 
+2 
+Silt 
+Soft 
+Drained 
+20 
+- 
+3,000 
+8.64E-04 
+Undrained (A) 
+20 
+- 
+3000 
+8.64E-04 
+3 
+Silt 
+Stiff 
+Drained 
+20 
+- 
+6,750 
+8.64E-04 
+Undrained (A) 
+20 
+- 
+6750 
+8.64E-04 
+4 
+Silt 
+Medium 
+Drained 
+20 
+- 
+5,250 
+8.64E-04 
+Undrained (A) 
+20 
+- 
+5250 
+8.64E-04 
+5 
+Silt 
+Stiff 
+Drained 
+21 
+- 
+8,250 
+8.64E-04 
+Undrained (A) 
+21 
+- 
+8250 
+8.64E-04 
+6 
+Silt 
+Very 
+Stiff 
+Drained 
+21 
+- 
+11,250 
+8.64E-04 
+Undrained (A) 
+21 
+- 
+11250 
+8.64E-04 
+7 
+Silt 
+Very 
+Stiff 
+Drained 
+21 
+- 
+15,000 
+8.64E-03 
+Undrained (A) 
+21 
+- 
+15000 
+8.64E-03 
+8 
+Silt 
+Stiff 
+Drained 
+21 
+- 
+10,500 
+8.64E-03 
+Undrained (A) 
+21 
+- 
+10500 
+8.64E-03 
+9 
+Sand 
+Medium 
+Dense 
+Drained 
+30 
+- 
+12,600 
+8.64E-02 
+10 
+Silt 
+Stiff 
+Drained 
+21 
+- 
+10,500 
+8.64E-03 
+Undrained (A) 
+21 
+- 
+10500 
+8.64E-03 
+11 
+Backfill 
+ 
+Undrained (A) 
+28 
+- 
+18000 
+8.64E-01 
+ 
+Tabel 4.12. Parameter Desain Tanah (Hardening Soil) 
+Parameter Desain (Hardening Soil) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No. 
+Soil 
+Type 
+Cons. 
+Drainage 
+Type 
+γn 
+(kN 
+/m3) 
+γsat 
+(kN 
+/m3) 
+e0 
+ν' 
+c' 
+(kN/m2) 
+1 
+LTP 
+(Sirtu) 
+ 
+Undrained (A) 
+19 
+20.9 
+0.4 
+0.3 
+1 
+2 
+Silt 
+Soft 
+Drained 
+16 
+17.6 
+0.9 
+0.4 
+5 
+Undrained (A) 
+16 
+17.6 
+0.9 
+0.4 
+5 
+3 
+Silt 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+5 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+5 
+4 
+Silt 
+Mediu
+m 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+5 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+5 
+5 
+Silt 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+7 
+71 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Parameter Desain (Hardening Soil) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No. 
+Soil 
+Type 
+Cons. 
+Drainage 
+Type 
+γn 
+(kN 
+/m3) 
+γsat 
+(kN 
+/m3) 
+e0 
+ν' 
+c' 
+(kN/m2) 
+6 
+Silt 
+Very 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.2 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.2 
+7 
+7 
+Silt 
+Very 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.2 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.2 
+7 
+8 
+Silt 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+7 
+9 
+Sand 
+Mediu
+m 
+Dense 
+Drained 
+17 
+18.7 
+0.4 
+0.3 
+2 
+10 
+Silt 
+Stiff 
+Drained 
+17 
+18.7 
+0.6 
+0.3 
+7 
+Undrained (A) 
+17 
+18.7 
+0.6 
+0.3 
+7 
+11 
+Backfill 
+ 
+Undrained (A) 
+18 
+19.8 
+0.6 
+0.3 
+5 
+Parameter Desain (Hardening Soil) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No. 
+Soil 
+Type 
+Cons. 
+Drainage Type 
+φ'  
+(˚) 
+ψ 
+(˚) 
+E50 
+(kN/m2) 
+1 
+LTP 
+(Sirtu) 
+ 
+Undrained (A) 
+35 
+5 
+35,000 
+2 
+Silt 
+Soft 
+Drained 
+20 
+- 
+3,000 
+Undrained (A) 
+20 
+- 
+3000 
+3 
+Silt 
+Stiff 
+Drained 
+20 
+- 
+6,750 
+Undrained (A) 
+20 
+- 
+6750 
+4 
+Silt 
+Medium 
+Drained 
+20 
+- 
+5,250 
+Undrained (A) 
+20 
+- 
+5250 
+5 
+Silt 
+Stiff 
+Drained 
+21 
+- 
+8,250 
+Undrained (A) 
+21 
+- 
+8250 
+6 
+Silt 
+Very Stiff 
+Drained 
+21 
+- 
+11,250 
+Undrained (A) 
+21 
+- 
+11250 
+7 
+Silt 
+Very Stiff 
+Drained 
+21 
+- 
+15,000 
+Undrained (A) 
+21 
+- 
+15000 
+8 
+Silt 
+Stiff 
+Drained 
+21 
+- 
+10,500 
+Undrained (A) 
+21 
+- 
+10500 
+9 
+Sand 
+Medium Dense 
+Drained 
+30 
+- 
+12,600 
+10 
+Silt 
+Stiff 
+Drained 
+21 
+- 
+10,500 
+Undrained (A) 
+21 
+- 
+10500 
+11 
+Backfill 
+ 
+Undrained (A) 
+18 
+19.8 
+0.6 
+72 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Parameter Desain (Hardening Soil) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No. 
+Soil 
+Type 
+Cons. 
+Drainage 
+Type 
+Eeod 
+(kN 
+/m2) 
+Eur 
+(kN 
+/m2) 
+k  
+(m/day) 
+1 
+LTP 
+(Sirtu) 
+ 
+Undrained (A) 
+ 
+ 
+8.64E-01 
+2 
+Silt 
+Soft 
+Drained 
+2,400 
+9,000 
+8.64E-04 
+Undrained (A) 
+2,400 
+9,000 
+8.64E-04 
+3 
+Silt 
+Stiff 
+Drained 
+5,400 
+20,250 
+8.64E-04 
+Undrained (A) 
+5,400 
+20,250 
+8.64E-04 
+4 
+Silt 
+Medium 
+Drained 
+4,200 
+15,750 
+8.64E-04 
+Undrained (A) 
+4,200 
+15,750 
+8.64E-04 
+5 
+Silt 
+Stiff 
+Drained 
+6,600 
+24,750 
+8.64E-04 
+Undrained (A) 
+6,600 
+24,750 
+8.64E-04 
+6 
+Silt 
+Very 
+Stiff 
+Drained 
+9,000 
+33,750 
+8.64E-04 
+Undrained (A) 
+9,000 
+33,750 
+8.64E-04 
+7 
+Silt 
+Very 
+Stiff 
+Drained 
+12,000 45,000 
+8.64E-03 
+Undrained (A) 
+12,000 45,000 
+8.64E-03 
+8 
+Silt 
+Stiff 
+Drained 
+8,400 
+31,500 
+8.64E-03 
+Undrained (A) 
+8,400 
+31,500 
+8.64E-03 
+9 
+Sand 
+Medium 
+Dense 
+Drained 
+10,080 37,800 
+8.64E-02 
+10 
+Silt 
+Stiff 
+Drained 
+8,400 
+31,500 
+8.64E-03 
+Undrained (A) 
+8,400 
+31,500 
+8.64E-03 
+11 
+Backfill 
+ 
+Undrained (A) 
+ 
+ 
+8.64E-01 
+ 
+Dengan adanya efek tipe drainase tanah, maka pada saat analisisnya tanah 
+kohesif menggunakan kondisi drainase Undrained (A) saat Short-Term dan 
+Drained saat Long-Term. Untuk tanah non-kohesif pada saat kondisi Short-Term 
+ataupun Long-Term menggunakan kondisi drainase drained. 
+ 
+4.4.4 Parameter Desain Improved Soil 
+Dalam penentuan parameter desain improved soil ini, digunakan metode 
+ekuivalen tiang yang sebelumnya sudah dibahas. Sebelumnya perlu dipastikan 
+73 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+terlebih dahulu, apakah metode ini cocok diterapkan pada kasus ini atau tidak 
+dengan menggunakan persamaan 2.24 . 
+𝑅𝑓= (
+𝑁𝑐𝑙.𝑆
+𝐿𝑐)
+0.5
+             
+𝑅𝑓= (
+28 .  2.2 𝑚
+20 𝑚)
+0.5
+= 1.755          
+ 
+Dikarenakan nilai Rf memiliki nilai kurang dari 2 sebagai mana yang telah 
+ditentukan, maka metode ekuivalen ini cocok digunakan pada kasus ini. Metode ini 
+menggabungkan modulus kolom dengan modulus pada tanah sekitar seperti pada 
+persamaan 2.25. berikut adalah contoh perhitungan pada lapisan pertama 
+𝐸𝑒𝑞= 𝐸𝑠(1 −𝑎𝑠) + 𝐸𝑐. 𝑎𝑠                
+𝐸𝑒𝑞= 3000 𝑘𝑃𝑎(1 −0.0285) + 21019039 𝑘𝑃𝑎 .0.0285 
+𝐸𝑒𝑞= 602856 𝑘𝑃𝑎 
+Dikarenakan FDC berada sedalam 20 meter atau menembus 5 lapisan data 
+tanah, maka perhitungan ekuivalen dilanjutkan hingga lapisan ke 5, baik pada 
+material model mohr-coulomb maupun hardening soil. Berikut adalah rekap 
+perhitungannya 
+ 
+Tabel 4.13. Parameter Desain Improved Soil (Mohr-Coulomb) 
+ 
+No.
+Soil Type
+Consistency
+Drainage 
+Type
+γn 
+(kN/m3)
+γsat 
+(kN/m3)
+c' 
+(kN/m2)
+φ' 
+(˚)
+ψ
+(˚)
+E' 
+(kN/m2)
+k 
+(m/day)
+Drained
+16.00
+17.60
+5
+20.31
+-
+602856
+8.64E-04
+Undrained (A)
+16.00
+17.60
+5
+20.31
+-
+602856
+8.64E-04
+Drained
+17.00
+18.70
+5
+20.31
+-
+606499
+8.64E-04
+Undrained (A)
+17.00
+18.70
+5
+20.31
+-
+606499
+8.64E-04
+Drained
+17.00
+18.70
+5
+20.31
+-
+605042
+8.64E-04
+Undrained (A)
+17.00
+18.70
+5
+20.31
+-
+605042
+8.64E-04
+Drained
+17.00
+18.70
+7
+21.28
+-
+607956
+8.64E-04
+Undrained (A)
+17.00
+18.70
+7
+21.28
+-
+607956
+8.64E-04
+Drained
+17.00
+18.70
+7
+21.28
+-
+610871
+8.64E-04
+Undrained (A)
+17.00
+18.70
+7
+21.28
+-
+610871
+8.64E-04
+1
+Silt
+Soft
+2
+Silt
+Stiff
+5
+Silt
+Very Stiff
+3
+Silt
+Medium
+4
+Silt
+Stiff
+74 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.14. Parameter Desain Improved Soil (Hardening Soil) 
+ 
+ 
+4.5 Analisis Penurunan dan Stabilitas Tanpa Perkuatan Dengan 
+Pemodelan Numeris 
+Kondisi desain tanpa perkuatan perlu dilakukan untuk mengetahui apakah 
+kondisi tanpa digunakannya perkuatan sudah dapat memenuhi syarat minimum, 
+yaitu penurunan tidak melebihi 10cm dalam masa operasional. Maka dilakukan 
+analisis pemodelan numeris tanpa perkuatan untuk mengetahui bagaimana kondisi 
+penurunan yang terjadi dengan dibantu dengan software Plaxis 2D. dan berikut 
+adalah rekapitulasi penurunan yang terjadi  
+ 
+Gambar 4.3. Lokasi Top dan Bottom Timbunan 
+ 
+ 
+No.
+Soil Type
+Consistency
+Drainage 
+Type
+γn 
+(kN/m3)
+γsat 
+(kN/m3)
+power 
+(m)
+c' 
+(kN/m2)
+φ' 
+(˚)
+ψ
+(˚)
+E50 
+(kN/m2)
+Eeod 
+(kN/m2)
+Eur 
+(kN/m2)
+k 
+(m/day)
+Drained
+16.00
+17.60
+1.00
+5
+20
+-
+602856
+602273
+1808569
+8.64E-04
+Undrained (A)
+16.00
+17.60
+1.00
+5
+20
+-
+602856
+602273
+1808569
+8.64E-04
+Drained
+17.00
+18.70
+1.00
+5
+20
+-
+606499
+605188
+1819498
+8.64E-04
+Undrained (A)
+17.00
+18.70
+1.00
+5
+20
+-
+606499
+605188
+1819498
+8.64E-04
+Drained
+17.00
+18.70
+1.00
+5
+20
+-
+605042
+604022
+1815126
+8.64E-04
+Undrained (A)
+17.00
+18.70
+1.00
+5
+20
+-
+605042
+604022
+1815126
+8.64E-04
+Drained
+17.00
+18.70
+1.00
+7
+21
+-
+607956
+606354
+1823869
+8.64E-04
+Undrained (A)
+17.00
+18.70
+1.00
+7
+21
+-
+607956
+606354
+1823869
+8.64E-04
+Drained
+17.00
+18.70
+1.00
+7
+21
+-
+610871
+608685
+1832612
+8.64E-04
+Undrained (A)
+17.00
+18.70
+1.00
+7
+21
+-
+610871
+608685
+1832612
+8.64E-04
+5
+Silt
+Very Stiff
+3
+Silt
+Medium
+4
+Silt
+Stiff
+1
+Silt
+Soft
+2
+Silt
+Stiff
+Top Timbunanan 
+Bot. Timbunanan 
+75 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.15. Penurunan Tanpa Perkutan 
+Material Model 
+Mohr-Coloumb 
+Hardening Soil 
+Model 
+Tanpa 
+Perkuatan 
+Tanpa 
+Perkuatan 
+FoS 
+Short Term 
+1.018 
+1.232 
+Long Term 
+1.369 
+1.266 
+Earthquake 
+1.005 
+0.989 
+Deformation 
+Top 
+(m) 
+Short Term 
+0.5940 
+0.6770 
+Long Term 
+0.8580 
+0.7630 
+Earthquake 
+1.1920 
+1.2240 
+Deformation 
+Bottom 
+(m) 
+Short Term 
+0.4660 
+0.6430 
+Long Term 
+0.7310 
+0.7230 
+Earthquake 
+1.0510 
+0.9110 
+ 
+ 
+Gambar 4.4. Faktor Keamanan Tanpa Perkuatan 
+ 
+Gambar 4.5. Penurunan Maksimum Tanpa Perkuatan 
+Dari seluruh material model yang digunakan didapatkan penurunan yang 
+melebihi syarat minimum yaitu 10 cm atau 0.1 m, maka desain tersebut dinyatakan 
+diperlukan adanya perkuatan. 
+Lalu diperoleh bidang gelincir kritis sebagai berikut, 
+1.018
+1.369
+1.005
+1.232
+1.266
+0.989
+S H ORT  T E RM
+LONG T E RM
+E A RT H QUA K E
+FOS TANPA PERKUATAN
+Mohr-Coloumb
+Hardening Soil
+0.8580
+0.7310
+0.7630
+0.7230
+T OP  T IMBUNA N
+BOT T OM T IMBU NA N
+PENURUNAN MAKSIMUM TANPA PERKUATAN 
+Mohr-Coulomb
+Hardening Soil
+76 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 4.6. Bidang gelincir tanpa menggunakan FDC 
+Dengan melihat bidang gelincir tersebut dimana pada area ujung lereng timbunan, 
+bidang gelincir kritis berada di kedalaman sekitar 3-5 meter. Dengan keadaan 
+tersebut, untuk mengefisiensikan perkuatan pada ujung timbunan maka kedalaman 
+FDC direduksi secara bertahan hingga kedalaman 7.5 meter untuk menahan bidang 
+gelincir yang ada. 
+ 
+4.6 Analisis Penurunan dan Stabilitas Menggunakan Pemodelann 
+Numeris Dengan Plane-Strain 
+Pada pemodelan ini, dikarenakan geometri yang digunakan adalah simetri, 
+sehingga pemodelan dilakukan hanya setengah dari potongan yang ada. Serta 
+pemodelan FDC di sini dianalisis menggunakan metode ekuivalen sehingga 
+dimodelkan dalam bentuk cluster baik pada material model Mohr-Coulomb 
+maupun Hardening Soil 
+ 
+Gambar 4.7. Geometri Plaxis dengan pemodelan plane-strain 
+77 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Pada pemodelan ini digunakan staged construction sebagai berikut: 
+Tabel 4.16. Staged Construction Pada Pemodelan Plane-strain 
+No. 
+Nama 
+Phase 
+Calculation 
+Type 
+Loading Type 
+Time 
+Interval 
+Kondisi 
+1 
+Initial Phase K0 Procedure 
+Staged construction 
+- 
+ST 
+2 
+NP 
+Plastic 
+Staged construction 
+- 
+ST 
+3 
+FDC 
+Installation 
+Consolidation 
+Staged construction 
+7 day 
+ST 
+4 
+LTP 
+Installation 
+Consolidation 
+Staged construction 
+7 day 
+ST 
+5 
+Back Fill 
+Consolidation 
+Staged construction 
+30 day 
+ST 
+6 
+SF Short-
+Term 
+Safety 
+Incremental 
+Multiplier 
+- 
+ST 
+7 
+Operational 
+Load 
+Consolidation 
+Staged construction 
+3650 day 
+LT 
+8 
+SF Long-
+Term 
+Safety 
+Incremental 
+Multiplier 
+- 
+LT 
+9 
+Earth 
+Quake 
+Plastic 
+Staged construction 
+- 
+LT 
+10 
+SF Earth 
+Quake 
+Safety 
+Incremental 
+Multiplier 
+- 
+LT 
+ 
+Setelah dilakukan analisis, diperolehlah hasil rekapitulasi sebagai berikut: 
+ 
+Tabel 4.17. Rekapitulasi Pemodelan Plane-Strain 
+Material Model 
+Mohr-Coloumb 
+Hardening Soil 
+Model 
+Plane-Strain 
+(Equivalent) 
+Plane-Strain 
+(Equivalent) 
+FoS 
+Short Term 
+2.181 
+2.420 
+Long Term 
+2.376 
+3.168 
+Earthquake 
+1.669 
+1.999 
+78 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Material Model 
+Mohr-Coloumb 
+Hardening Soil 
+Model 
+Plane-Strain 
+(Equivalent) 
+Plane-Strain 
+(Equivalent) 
+Deformation 
+Top 
+(m) 
+Short Term 
+0.0780 
+0.0675 
+Long Term 
+0.0920 
+0.0761 
+Earthquake 
+0.1460 
+0.1039 
+Deformation 
+Bottom 
+(m) 
+Short Term 
+0.0500 
+0.0340 
+Long Term 
+0.0590 
+0.0380 
+Earthquake 
+0.0900 
+0.0470 
+ 
+ 
+Gambar 4.8. Faktor Keamanan Dengan Menggunakan FDC 
+ 
+Gambar 4.9. Penurunan Menggunakan Perkuatan FDC 
+2.181
+2.376
+1.669
+2.420
+3.168
+1.999
+S H ORT  T E RM
+LONG T E RM
+E A RT H QUA K E
+FOS DENGAN FDC
+Dengan FDC (MC)
+Dengan FDC (HS)
+0.0920
+0.0590
+0.0761
+0.0380
+T OP  T IMBUNA N
+BOT T OM T IMBUNA N
+PENURUNAN TOP BOTTOM (PLANE STRAIN) 
+Mohr-Coulomb
+Hardening Soil
+79 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Dari hasil tersebut diketahui bahwasanya kedua material model tersebut telah 
+memberikan hasil yang memenuhi izin, mulai dari FoS untuk masa konstruksi 
+(short-term) yang minimal sebesar 1.3, masa operasional (long-term) lebih dari 1.5, 
+serta kondisi gempa yang minimal berada di angka 1.1. Untuk penurunan kedua 
+material model tersebut pun dapat memberikan hasil yang memenuhi syarat, baik 
+top timbunan dan bottom timbunan mengalami penurunan tidak lebih besar dari 
+100mm.  
+Selain itu material model tanah dari Hardening Soil dapat memberikan hasil 
+factor keamanan yang lebih tinggi dibandingkan dengan material model mohr-
+coulomb. Hal ini pun berlaku untuk penurunan, Dimana mohr-coulomb 
+memberikan nilai penurunan yang lebih dalam dibandingkan dengan hardening 
+soil. 
+ 
+4.7 Perbandingan Penurunan dan Stabilitas Tanpa Perkuatan dan 
+Setelah Menggunakan Perkuatan FDC 
+Dari hasil analisis sebelumnya, yaitu tanpa perkuatan dan setelah adanya 
+perkuatan diperoleh hasil sebagai berikut.  
+ 
+Tabel 4.18. Perbandingan Stabilitas dan Penurunan Tanpa 
+Perkuatan dan Dengan FDC (MC) 
+Material Model 
+Mohr-Coloumb 
+Model 
+Tanpa 
+Perkuatan 
+Plane-Strain 
+(Equivalent) 
+FoS 
+Short Term 
+1.018 
+2.181 
+Long Term 
+1.369 
+2.376 
+Earthquake 
+1.005 
+1.669 
+Deformation 
+Top 
+(m) 
+Short Term 
+0.5940 
+0.0780 
+Long Term 
+0.8580 
+0.0920 
+Earthquake 
+1.1920 
+0.1460 
+Deformation 
+Bottom 
+(m) 
+Short Term 
+0.4660 
+0.0500 
+Long Term 
+0.7310 
+0.0590 
+Earthquake 
+1.0510 
+0.0900 
+ 
+80 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.19. Perbandingan Stabilitas dan Penurunan Tanpa 
+Perkuatan dan Dengan FDC (HS) 
+Material Model 
+Hardening Soil 
+Model 
+Tanpa 
+Perkuatan 
+Plane-Strain 
+(Equivalent) 
+FoS 
+Short Term 
+1.232 
+2.420 
+Long Term 
+1.266 
+3.168 
+Earthquake 
+0.989 
+1.999 
+Deformation 
+Top 
+(m) 
+Short Term 
+0.6770 
+0.0675 
+Long Term 
+0.7630 
+0.0761 
+Earthquake 
+1.2240 
+0.1039 
+Deformation 
+Bottom 
+(m) 
+Short Term 
+0.6430 
+0.0340 
+Long Term 
+0.7230 
+0.0380 
+Earthquake 
+0.9110 
+0.0470 
+ 
+ 
+ 
+Gambar 4.10. Perbandingan Faktor Keamanan Tanpa Perkuatan dan Dengan FDC 
+1.018
+1.369
+1.005
+1.232
+1.266
+0.989
+2.181
+2.376
+1.669
+2.420
+3.168
+1.999
+S H ORT  T E RM
+LONG T E RM
+E A RT H QUA K E
+FACTOR OF SAFETY
+Tanpa Perkuatan (MC)
+Tanpa Perkuatan (HS)
+Dengan FDC (MC)
+Dengan FDC (HS)
+81 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 4.11. Perbandingan Penurunan Tanpa Perkuatan dan Dengan FDC 
+ 
+Dari hasil rekapitulasi yang ada, diketahui bahwasanya perkuatan FDC cukup 
+sanggup meningkatkan stabilitas timbunan 2 kali hingga hampir menyentuh 3 kali 
+lipatnyaa. Serta dapat menangani permasalahan penurunan yang cukup baik 
+sehingga dapat memenuhi syarat.  
+ 
+4.8 Analisis Penurunan Menggunakan Pemodelann Numeris dengan 
+Axisymmetric 
+Pada pemodelan ini, axisymmetric biasa disebut juga dengan pemodelan unit 
+cell, karena pemodelan hanya dilakukan pada 1 kolom saja dengan lebar geometri 
+setengah dari spasi antar kolom. FDC dimodelkan sebagai cluster dengan 
+menggunakan material model linear elastic.  
+pemodelan ini digunakan staged construction sebagai berikut: 
+Tabel 4.20. Staged Construction Pada Pemodelan Axisymmetric 
+No. 
+Nama 
+Phase 
+Calculation 
+Type 
+Loading Type 
+Time 
+Interval 
+Kondisi 
+1 
+Initial Phase K0 Procedure 
+Staged construction 
+- 
+ST 
+2 
+NP 
+Plastic 
+Staged construction 
+- 
+ST 
+0.8580
+0.0920
+0.7630
+0.0761
+T A NP A  P E RK UA T A N
+DE NGA N F DC
+PERBANDINGAN PENURUNAN MAKSIMUM 
+Mohr-Coulomb
+Hardening Soil
+82 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+No. 
+Nama 
+Phase 
+Calculation 
+Type 
+Loading Type 
+Time 
+Interval 
+Kondisi 
+3 
+FDC 
+Installation 
+Consolidation 
+Staged construction 
+7 day 
+ST 
+4 
+LTP 
+Installation 
+Consolidation 
+Staged construction 
+7 day 
+ST 
+5 
+Back Fill 
+Consolidation 
+Staged construction 
+30 day 
+ST 
+6 
+Operational 
+Load 
+Consolidation 
+Staged construction 
+3650 day 
+LT 
+ 
+ 
+Gambar 4.12. Geometri Plaxis dengan pemodelan axisymmetric 
+Pada Setelah dilakukan analisi, diperoleh lah hasil sebagai berikut: 
+83 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+4.8.1 Mohr-Coulomb 
+ 
+ 
+Gambar 4.13. Penurunan Konstruksi Axisymmetric (Mohr-Coulomb) 
+ 
+ 
+Gambar 4.14. Penurunan Operasional Axisymmetric (Mohr-Coulomb) 
+ 
+84 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 4.15. Tegangan maksimum pada FDC (Mohr-Coulomb) 
+ 
+4.8.2 Hardening Soil 
+ 
+Gambar 4.16. Penurunan Konstruksi Axisymmetric (Hardening Soil) 
+85 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 4.17. Penurunan Operasional Axisymmetric (Hardening Soil) 
+ 
+Gambar 4.18. Tegangan maksimum pada FDC (Hardening Soil) 
+Berikut adalah rekapitulasi analisis menggunakan pemodelan Axisymmetric 
+Tabel 4.21. Rekapitulasi Pemodelan Axisymmetric 
+Material Model 
+Mohr-
+Coloumb 
+Hardening 
+Soil 
+Model 
+Axisymmetric Axisymmetric 
+Deformation Top 
+(m) 
+Short Term 
+0.0516 
+0.3656 
+Long Term 
+0.0920 
+0.0802 
+Deformation 
+Bottom 
+(m) 
+Short Term 
+0.0254 
+0.0175 
+Long Term 
+0.0584 
+0.0400 
+Stress (kN/m2) 
+2789 
+2291 
+Bearing Capacity (kN) 
+386.40 
+317.40 
+ 
+86 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 4.19. Penurunan Axisymmetric 
+ 
+4.9 Analisis Perbandingan Penurunan Plane-Strain dan Axisymmetric 
+Dari analisis plane strain maupun axisymmetric yang telah dilakukan. 
+Diperoleh hasil rekapitulasi sebagai berikut. 
+Tabel 4.22. Perbandingan Penurunan Plane-Strain dan Axisymmetric 
+Material Model 
+Mohr-Coloumb 
+Model 
+Plane-Strain 
+(Equivalent) 
+Axisymmetric 
+Deformation 
+Top 
+(m) 
+Short Term 
+0.0780 
+0.0516 
+Long Term 
+0.0920 
+0.0920 
+Deformation 
+Bottom 
+(m) 
+Short Term 
+0.0500 
+0.0254 
+Long Term 
+0.0590 
+0.0584 
+Material Model 
+Hardening Soil 
+Model 
+Plane-Strain 
+(Equivalent) 
+Axisymmetric 
+Deformation 
+Top 
+(m) 
+Short Term 
+0.0675 
+0.3656 
+Long Term 
+0.0761 
+0.0802 
+Deformation 
+Bottom 
+(m) 
+Short Term 
+0.0340 
+0.0175 
+Long Term 
+0.0380 
+0.0400 
+ 
+0.0920
+0.0584
+0.0802
+0.0400
+T OP  T IMBUNA N
+BOT T OM T IMBUNA N
+PENURUNAN TOP BOTTOM (AXISYMMETRIC) 
+Mohr-Coulomb
+Hardening Soil
+87 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Untuk 
+mempermudah 
+melihat 
+perbandingannya, 
+hasil 
+rekapitulasi 
+perbandingan tersebut dapat disajikan dalam bentuk diagram batang sebagai 
+berikut. 
+ 
+Gambar 4.20. Penurunan Maksimum (Mohr-Coulomb) 
+ 
+Gambar 4.21. Penurunan Maksimum (Hardening Soil) 
+0.0920
+0.0590
+0.0920
+0.0584
+T OP  T IMBUNA N
+BOT T OM T IMBUNA N
+PENURUNAN MAKSIMUM MOHR COULOMB 
+Plane Strain
+Axisymmetric
+0.0761
+0.0380
+0.0802
+0.0400
+T OP  T IMBUNA N
+BOT T OM T IMBUNA N
+PENURUNAN MAKSIMUM HARDENING SOIL 
+Plane Strain
+Axisymmetric
+88 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 4.22. Perbandingan Penurunan Antara Setiap Model 
+ 
+Dari kedua material model baik dari hardening soil dan mohr-coulomb saat 
+dimodelkan baik dalam bentuk model plane strain ataupun axisymmetric dapat 
+memberikan hasil penurunan yang hampir mendekati. 
+ 
+4.10 Analisis Perkuatan Full Displacement Column 
+Analisis perkuatan FDC selanjutnya dilakukan untuk menentukan apakah 
+FDC yang direncanakan membutuhkan perkuatan tambahan atau tidak. Untuk 
+mendapatkan gaya dalam pada FDC digunakan software Plaxis 2D dengan 
+memodelkan FDC sebagai embedded beam row. Diperoleh hasil gaya dalam berupa 
+gaya aksial dan momen maksimum yang bekerja pada FDC menggunakan software 
+Plaxis 2D, yaitu: 
+ 
+Gambar 4.23. Output Gaya Aksial Maksimum 
+0.0920
+0.0590
+0.0920
+0.0584
+0.0761
+0.0380
+0.0802
+0.0400
+T OP  T IMBUNA N
+BOT T OM T IMBUNA N
+PENURUNAN MAKSIMUM 
+Plane Strain (MC)
+Axisymmetric (MC)
+Plane Strain (HS)
+Axisymmetric (HS)
+89 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 4.24. Output Bending Momen Maksimum 
+Nplaxis 
+= 293.3 kN 
+Mplaxis 
+= 21.02 kN.m 
+Maka diperoleh 
+𝑁𝑒𝑑= 𝑁𝑃𝑙𝑎𝑥𝑖𝑠 . 𝑆𝑝𝑎𝑠𝑖 . 𝐹𝐾 
+𝑁𝑒𝑑= 293.3 𝑘𝑁 . 2.2 𝑚 . 1.2 
+𝑁𝑒𝑑= 774.312 𝑘𝑁 
+ 
+𝑀𝑒𝑑= 𝑀𝑃𝑙𝑎𝑥𝑖𝑠 . 𝑆𝑝𝑎𝑠𝑖 . 𝐹𝐾 
+𝑀𝑒𝑑= 21.02 𝑘𝑁. 𝑚 . 2.2 𝑚 . 1.2 
+𝑀𝑒𝑑= 55.4928 𝑘𝑁. 𝑚 
+ 
+𝑒= 𝑀𝑒𝑑
+𝑁𝑒𝑑
+ 
+𝑒= 55.4928 𝑘𝑁. 𝑚
+774.312 𝑘𝑁
+= 0.07167 𝑚 
+ 
+𝜃= arccos (𝑒
+𝑅) 
+90 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+𝜃= arccos (0.07167 𝑚
+0.21 𝑚
+) = 70.0448° 
+𝐴𝑟𝑒𝑓= 𝑅2. (2𝜃−𝑠𝑖𝑛2𝜃)  
+ 
+𝐴𝑟𝑒𝑓= 0.21 𝑚 2. (2 . 70.0448° −𝑠𝑖𝑛 2 .  70.0448°) 
+ 
+ 
+ 
+ 
+𝐴𝑟𝑒𝑓= 0.0441 𝑚2. (140.09° −𝑠𝑖𝑛 140.09°) = 0.07953 𝑚2 
+ 
+𝑁𝑟𝑑= 𝐴𝑟𝑒𝑓 . 𝑓𝑐𝑑  
+𝑁𝑟𝑑= 0.07953 𝑚2.  20 𝑀𝑃𝑎= 1590.629 𝑘𝑁  
+Maka diperoleh kondisi: 
+𝑁𝑟𝑑> 𝑁𝑒𝑑  
+1590.629  𝑘𝑁> 787.776 𝑘𝑁 
+Sehingga perkuatan pada FDC tidak diperlukan. 
+ 
+4.11 Analisis Plate Loading Test Menggunakan Plaxis 2D 
+Analisis pengujian Plate Loading Test dicoba dimodelkan menggunakan 
+software Plaxis 2D. Pemodelan Plate Loading Test ini dilakukan dengan 
+menggunakan skema pembebanan yang diterapkan pada pengujian dilapangan serta 
+pemodelan ini dilakukan dengan pemodelan axisymmetric. 
+Analisis pengujian Plate Loading Test ini dilakukan dengan dua material 
+model yang berbeda yaitu menggunakan Mohr-Coulomb serta Hardening Soil 
+dengan tujuan dapat membandingkan material model mana yang menghasilkan 
+penurunan lebih dekat dengan lapangan. 
+Pembebanan yang dimodelkan pada software Plaxis 2D ini diambil 
+berdasarkan daya dukung dari beberapa metode yang didapatkan dari perhitungan 
+sebelumnya. Skema pembeban yang dilakukan yaitu menggunakan beban dimulai 
+91 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+dari beban sebesar 0%, 25%, 50%, 75%, 100%, 110%, 100%, 75%, 50%, 25% dan 
+kembali ke 0%.  
+ 
+Gambar 4.25. Skema Pembebanan Pada Plaxis 2D 
+ 
+Setelah dilakukan analisi didapatkan grafik berupa Load vs Settlement yang 
+selanjutnya dibandingkan dengan grafik Load vs Settlement pada lapangan. 
+ 
+Tabel 4.23. Tabel Rekapitulasi Pembebanan Terhadap Penurunan 
+Load (%) 
+Load 
+(kN) 
+Mohr-Coulomb 
+Hardening Soil 
+Settlement (mm) 
+Settlement (mm) 
+0.00 
+0.000 
+0 
+0 
+0.25 
+85.630 
+4.667 
+3.5 
+0.50 
+171.260 
+11.69 
+6.689 
+0.75 
+256.890 
+28.06 
+15.54 
+1.00 
+342.519 
+46.88 
+26.47 
+1.10 
+376.771 
+69.61 
+39.25 
+1.00 
+342.519 
+63.47 
+39.29 
+0.75 
+256.890 
+47.8 
+36.07 
+0.50 
+171.260 
+32.08 
+32.63 
+0.25 
+85.630 
+16.36 
+29.18 
+0.00 
+0.000 
+9.051 
+26.35 
+92 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Gambar 4.26. Grafik Load vs Settlement (Mohr-Coulomb) 
+ 
+Gambar 4.27 Grafik Load vs Settlement (Hardening Soil) 
+ 
+4.12 Analisis Perbandingan Penurunan dan Daya Dukung 
+ 
+Dari hasil analisis penurunan yang dilakukan pada analisis sebelumnya, 
+diperoleh rekapitulasi sebagai berikut. 
+ 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+Settlement (mm)
+Load (%)
+Mohr-Coulomb
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+Settlement (mm)
+Load (%)
+Hardening Soil
+93 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.24. Tabel Perbandingan Penurunan Berdasarkan Pembebanan 
+Load (%) 
+Load 
+(kN) 
+Field 
+Settlement 
+(mm) 
+Mohr-Coulomb 
+Hardening Soil 
+Settlement 
+(mm) 
+Settlement 
+(mm) 
+0.00 
+0.00 
+0 
+0 
+0 
+0.25 
+85.63 
+2 
+4.667 
+3.5 
+0.50 
+171.26 
+3 
+11.69 
+6.689 
+0.75 
+256.89 
+5 
+28.06 
+15.54 
+1.00 
+342.52 
+16 
+46.88 
+26.47 
+1.10 
+376.77 
+27 
+69.61 
+39.25 
+1.00 
+342.52 
+29 
+63.47 
+39.29 
+0.75 
+256.89 
+29 
+47.8 
+36.07 
+0.50 
+171.26 
+29.5 
+32.08 
+32.63 
+0.25 
+85.63 
+28 
+16.36 
+29.18 
+0.00 
+0.00 
+25 
+9.051 
+26.35 
+ 
+ 
+ 
+Gambar 4.28 Grafik Perbandingan Load vs Settlement 
+ 
+Dari hasil uji pembebanan serta analisis yang dibantu dengan menggunakan 
+software Plaxis diperoleh hasil perbandingan daya dukung ultimit serta penurunan 
+sebagai berikut: 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+Settlement (mm)
+Load (%)
+Field PLT
+Hardening Soil
+Mohr-Coulomb
+94 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Tabel 4.25. Perbandingan Daya Dukung Serta Penurunan 
+Material Model 
+Lapangan 
+HS 
+MC 
+Daya Dukung Ultimit 
+(kN) 
+284.36 
+213.97 
+309.70 
+Penurunan 100% Load 
+(mm) 
+26.47 
+46.88 
+16 
+Penurunan 110% Load 
+(mm) 
+39.25 
+69.61 
+27 
+Penurunan Unloading 
+(mm) 
+26.35 
+9.051 
+25 
+ 
+ 
+Tabel 4.26. Persentase Perbedaan Daya Dukung dan Penurunan 
+ 
+ 
+Material Model 
+Lapangan 
+HS 
+MC 
+Daya Dukung Ultimit  
+91.82% 
+69.09% 
+309.70 
+Penurunan 100% Load 
+165.44% 293.00% 
+16 
+Penurunan 110% Load 
+145.37% 257.81% 
+27 
+Penurunan Unloading 
+105.40% 
+36.20% 
+25 
+ 
+Terlihat dari perbandingan grafik serta persentase nilai penurunan disaat 
+pemberian beban 100% serta 110%, nilai penurunan pada Model Hardening Soil 
+memiliki penurunan yang lebih kecil dan memiliki perbedaan yang tidak terlalu 
+signifikan jauh terhadap penurunan lapangan dibandingkan dengan penurunan pada 
+Model Mohr-Coulomb yang memiliki penurunan yang jauh lebih besar hingga 
+sekitar 293% dari hasil lapangannya. 
+Untuk setelah pembebanan atau kondisi unloading Nilai penurunan dari 
+Model Hardening Soil memiliki nilai yang jauh lebih dalam dibandingkan dengan 
+Model Mohr -Coulomb. Tetapi di sisi lain nilai dari penurunan pada Model 
+Hardening Soil memiliki nilai yang lebih mendekati lapangan dengan nilai 
+95 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+perbedaan yang hanya sebesar 105,40% dibandingkan dengan nilai perbedaan pada 
+Model Mohr-Coulomb yang memberikan nilai sebesar 36.20%. 
+Perbedaan hasil penurunan unloading pada Model Hardening Soil dengan 
+Mohr Coulomb ini disebabkan oleh adanya perbedaan parameter yang dibutuhkan. 
+Dimana pada Model Hardening Soil membutuhkan nilai Eur, yang dimana 
+parameter tersebut memiliki peran yang signifikan dalam menggambarkan 
+kekakuan suatu tanah pada kondisi unloading. Dengan nilai Eur sebesar 3-8 kali 
+lebih besar dari nilai E50 dapat cukup memberikan hasil yang cukup mendekati 
+kondisi lapangan yang ada (Fu, He, Zhang, & Yang, 2020). 
+Pada perbandingan daya dukung ultimit lapangan sebesar 309.70 kN, dimana 
+nilai daya dukung yang memiliki nilai daya dukung yang mendekati lapangan 
+terdapat pada Model Hardening Soil yang memiliki nilai sebesar 284.36 kN atau 
+sekitar 91.82%, sedangkan pada Model Mohr Coulomb hanya memberikan nilai 
+sekitar 69.09% atau sebesar 213.97%. 
+Dari keseluruhan perbandingan yang ada, Model Hardening Soil adalah 
+model tanah yang cukup konservatif dan dapat cukup memberikan gambaran 
+dengan lapangan dibandingkan dengan Model Mohr-Coulomb, yang memiliki nilai 
+penurunan yang lebih besar serta daya dukung tanah yang lebih rendah 
+dibandingkan dengan Model Hardening Soil. Hal-hal tersebut juga didukung oleh 
+beberapa penelitian yang pernah dilakukan, dimana persentase antara nilai 
+penurunan lapangan dengan Model Hardening Soil sebesar 104.05% sedangkan 
+pada Model Mohr-Coulomb memberikan nilai yang cukup besar, yaitu sebesar 
+121.89% (Sundari, Roesyanto, Hasibuan, & Surbakti, 2024). Dalam penelitian yang 
+lain didapatkan hasil dimana hasil penurunan Model Mohr-Coulomb memiliki 
+selisih mulai 4.28% hingga 45% lebih besar dibandingkan dengan Model 
+Hardening Soil. 
+ 
+Pada Gambar 4.28 untuk grafik berwarna abu-abu yang Dimana grafik 
+tersebut merepresentasikan hasil penurunan akibat pembebanan pada material 
+model Hardening Soil, terlihat pada proses loading memberikan grafik yang tidak 
+linear, hal ini dikarenakan terdapatnya sebuah parameter kekakuan berupa E50 yang 
+dimana parameter tersebut dapat memberikan kondisi yang mendekati lapangan 
+96 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+yaitu saat pembebanan utama (Primary Loading) terjadi perilaku tegangan dan 
+regangan yang tidak linear. Serta terdapat daerah yang cukup menggambarkan area 
+plastis dari suatu tanah yang di definikan dengan parameter Eeod. Dimana parameter 
+ini memberikan gambaran dan kontrol terhadap area plastis dari suatu tanah dengan 
+mengontrol magnitudo “topi” (Cap Yeild). Kedua parameter ini cukup berpengaruh 
+besar dalam memberikan hasil grafik tegangan-regangan yang cukup mendekati 
+hasil dari lapangan maupun hasil uji triaxial. (Surarak, et al., 2012) 
+ 
+Sedangkan pada grafik warna merah yang merepresentasikan model Mohr-
+Coulomb terlihat memiliki grafik loading akibat pembebanan utama yang lebih 
+linear dibandingkan model hardening soil. Hal ini dikarenakan pada material model 
+mohr-coulomb mengasumsikan grafik tegangan-regangan pada kondisi elastis yang 
+linear dan kondisi perfectly plastic, dimana gradien kemiringan grafik tegangan-
+regangan pada kondisi elastis ini didefinisikan dengan hanya parameter berupa kuat 
+modulus efektif maupun totalnya. Hal ini bertolak belakang dengan kondisi atau 
+asumsi pada material model Hardening soil yang mengasumsikan grafik pada 
+kondisis elastis ataupun plastis yang tidak linear. (Sandhya Rani. R., 2014) 
+ 
+4.13 Analisis Perbandingan Penurunan PLT Secara Back Analysis 
+Setelah dilakukan pemodelan di awal. didapatkan hasil penurunan yang masih 
+cukup jauh antara analisis desain awal dengan hasil penurunan di lapangan dengan 
+instrument Plate Loading Test. Maka dilakukan back analysis dengan mengubah 
+parameter kekakuan dari tanah untuk dapat memberikan penurunan yang sesuai dan 
+mendekati lapangan yang akhirnya dapat memberikan parameter yang cukup sesuai 
+dengan keadaan asli tanah tersebut. 
+Perubahan parameter ini mengacu pada perubahan nilai parameter kuat 
+modulus tanah (E) dengan memberikan nilai yang lebih besar dari nilai parameter 
+desain awal. Setelah dilakukan beberapa kali trial & error diperoleh nilai kekakuan 
+yang baru mulai dari nilai E50, Eeod, dan Eur. 
+ 
+97 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.27. Parameter Kekakuan Desain Awal 
+Parameter Desain Awal 
+No. 
+Soil 
+Type 
+Consistency 
+E50 
+(kN/m2) 
+Eeod 
+(kN/m2) 
+Eur 
+(kN/m2) 
+1 
+Silt 
+Soft 
+3,000 
+2,400 
+9,000 
+2 
+Silt 
+Stiff 
+6,750 
+5,400 
+20,250 
+3 
+Silt 
+Medium 
+5,250 
+4,200 
+15,750 
+4 
+Silt 
+Stiff 
+8,250 
+6,600 
+24,750 
+5 
+Silt 
+Very Stiff 
+11,250 
+9,000 
+33,750 
+6 
+Silt 
+Very Stiff 
+15,000 
+12,000 
+45,000 
+7 
+Silt 
+Stiff 
+10,500 
+8,400 
+31,500 
+8 
+Sand 
+Medium 
+Dense 
+12,600 
+10,080 
+37,800 
+9 
+Silt 
+Stiff 
+10,500 
+8,400 
+31,500 
+  
+Tabel 4.28. Parameter Kekakuan Desain Baru 
+Parameter Desain Baru 
+No. 
+Soil 
+Type 
+Consistency 
+E50 
+(kN/m2) 
+Eeod 
+(kN/m2) 
+Eur 
+(kN/m2) 
+1 
+Silt 
+Soft 
+6,000 
+4,800 
+48,000 
+2 
+Silt 
+Stiff 
+10,000 
+8,000 
+80,000 
+3 
+Silt 
+Medium 
+8,000 
+6,400 
+64,000 
+4 
+Silt 
+Stiff 
+12,000 
+9,600 
+96,000 
+5 
+Silt 
+Very Stiff 
+18,000 
+14,400 
+144,000 
+6 
+Silt 
+Very Stiff 
+22,000 
+17,600 
+176,000 
+7 
+Silt 
+Stiff 
+18,000 
+14,400 
+144,000 
+8 
+Sand 
+Medium 
+Dense 
+20,000 
+16,000 
+160,000 
+9 
+Silt 
+Stiff 
+18,000 
+14,400 
+144,000 
+ 
+Nilai parameter kuat modulus tanah terutama untuk nilai E50 menggunakan 
+rentang yang awalnya sebesar 𝐸50 = 750 −900 . 𝑁, sekarang digunakan nilai 
+sebesar 𝐸50 = 1100 −1500 . 𝑁. Lalu perubahan lainnya dilakukan pada nilai Eur. 
+Dimana terdapat sumber yang menyebutkan rentang dari nilai tersebut sebesar 3-8 
+kalinya nilai E50 (Fu, He, Zhang, & Yang, 2020), maka digunakan dengan nilai 
+rentang tertinggi yaitu 8 kali dari nilai Eur, sehingga diperoleh hasil grafik sebagai 
+berikut. 
+98 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tabel 4.29. Perbandingan Penurunan Parameter Awal dan Parameter Baru 
+Material Model 
+Lapangan 
+Desain Awal 
+Desain Baru 
+HS 
+MC 
+HS 
+MC 
+Penurunan 100% Load 
+(mm) 
+26.5 
+46.9 
+17.0 
+30.0 
+16 
+Penurunan 110% Load 
+(mm) 
+39.3 
+69.6 
+26.0 
+45.0 
+27 
+Penurunan Unloading 
+(mm) 
+26.4 
+9.1 
+22.0 
+4.0 
+25 
+ 
+ 
+Gambar 4.29. Perbandingan Penurunan Parameter Awal dan Baru (MC) 
+ 
+Gambar 4.30. Perbandingan Penurunan Parameter Awal dan Baru (HS) 
+0
+10
+20
+30
+40
+50
+60
+70
+80
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+Settlement (mm)
+Load (%)
+Field PLT
+Mohr-Coulomb
+Mohr-Coulomb
+(Adjusted)
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+Settlement (mm)
+Load (%)
+Field PLT
+Hardening Soil
+Hardening Soil
+(Adjusted)
+99 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Dari hasil perubahan parameter kekakuan tersebut terlihat bahwasanya 
+penurunan yang terjadi menjadi lebih dangkal dibandingkan penurunan saat 
+menggunakan parameter awal. Pada material model hardening soil dapat lebih 
+dahulu memberikan penurunan yang cukup sesuai tanpa perlu merubah nilai 
+parameter kekakuan yang cukup jauh, sehingga dapat dikatakan pula pada kasus ini 
+material model hardening soil merupakan material model yang cukup konservatif.
+100 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+BAB V 
+SIMPULAN, IMPLIKASI, DAN REKOMENDASI 
+ 
+5.1 Simpulan 
+Dari hasil analisis diperoleh beberapa point kesimpulan yang didapatkan dari 
+tugas akhir ini, diantaranya. 
+1. Dalam studi kasus ini dalam menentukan nilai daya dukung terdapat beberapa 
+hasil, dimulai dari metode dengan daya dukung izin terkecil yaitu metode 
+Mayerhof, Decourt-Quaresma, dan Schmertmann. 
+2. Pada analisis kondisi tanpa perbaikan didapatkan hasil stabilitas berupa nilai 
+faktor keamanan, Dimana setelah dilakukan perbaikan dengan FDC untuk 
+masing masing kondisi mengalami peningkatan. Pada material model 
+Hardening Soil mendapatkan nilai secara keseluruhan yang lebih tinggi 
+dibandingkan material model Mohr-Coulomb.  
+Untuk penurunan terjadi perubahan penurunan lebih dangkal setelah 
+dilakukan perbaikan, dan material model Hardening Soil memberikan 
+penurunan yang lebih kecil dibandingkan Mohr-Coulomb. 
+Sehingga dapat disimpulkan bahwa dengan adanya perbaikan tanah, nilai 
+stabilitas akan meningkat dan memenuhi syarat minimumnya, serta penurunan 
+menjadi lebih dangkal dan tidak melebihi syarat maksimum yang diizinkan. 
+3. Pada analisis pemodelan numeris secara plane-strain dan axisymmetric dengan 
+menggunakan material model yang ada diperoleh hasil penurunan pada masa 
+operasional di bagian atas timbunan, Dimana material model Hardening Soil 
+memiliki penurunan yang lebih kecil dibandingkan Mohr-Coulomb. 
+Dari hasil tersebut dapat disimpulkan bahwa pemodelan secara plane-
+strain dan axisymmetric memiliki hasil penurunan yang cukup dekat dengan 
+selisih penurunan yang cukup kecil, hal ini berlaku pada material model tanah 
+mohr-coulomb dan hardening soil. 
+101 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+4. Pada pemodelan Plate Loading Test dengan bantuan Plaxis 2D diperoleh hasil 
+perbedaan daya dukung ultimit dengan lapangan memberikan hasil bahwa 
+material model hardening soil memberikan penurunan dan daya dukung yang 
+lebih mendekati dibandingkan material model Mohr-Coloumb. Dari hasil 
+tersebut diketahui bahwasanya material model Hardening Soil merupakan 
+material model yang cukup konservatif atau cocok dan mendekati uji lapangan. 
+Karena masih adanya perbedaan penurunan hasil analisis dan lapangan, 
+maka diperlukan back analysis untuk tujuan memberikan hasil yang sedekat 
+mungkin dengan kondisi lapangan dengan cara menentukan ulang parameter 
+yang ada, salah satunya adalah parameter kekakuan. 
+Pada penelitian ini parameter E50 ditentukan ulang dengan nilai sebesar 
+1100 – 1500 kali Nilai NSPT dan nilai Eur sebesar 8 kali nilai Eur. 
+ 
+5.2 Implikasi dan Rekomendasi 
+Dari kesimpulan diatas, penulis dapat memberikan beberapa implikasi dan 
+rekomendasi diantaranya. 
+1. Disaat data parameter tanah memadai, material model Hardening Soil dapat 
+digunakan dalam pemodelan desain untuk mendapatkan nilai penurunan yang 
+lebih kecil daya dukung yang lebih besar, serta FoS yang lebih besar 
+dibandingkan material model Mohr-Coulomb. 
+2. Pemodelan 
+numeris 
+secara 
+axisymmetric 
+dapat 
+digunakan 
+dalam 
+memperkirakan penurnan yang terjadi dengan nilai pennurunan lebih kecil 
+dibandingkan plane-strain. 
+3. Material model Hardening Soil dapat digunakan untuk mendapatkan nilai daya 
+dukung yang lebih baik dibandingkan Mohr-Coulomb. 
+4. Material model Hardening Soil dapat dipilih untuk dijadikan pilihan 
+penggunaan material model memiliki penurunan akibat pembebanan 
+unloading/reloading yang lebih besar dibandingkan Mohr-Coulomb serta 
+mendekati dengan kondisi lapangan. 
+5. Pemilihan material model tanah serta penentuan parameter tanah dan 
+ketersediaan data sangat mempengaruhi dalam melakukan analisis untuk 
+102 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+memberikan hasil analisis yang baik dan memiliki selisih yang tidak terlalu 
+besar dengan keadaan dilapangan. 
+6. Jika terjadi perbedaan yang signifikan antara hasil pengujian lapangan dengan 
+hasil analisis, diperlukan untuk back analysis untuk dapat menentukan 
+parameter yang cocok dan sesuai dengan lapangan, dimana parameter-
+parameter tersebut dikontrol output analisisnya terhadap lapangan. Yang 
+selanjutnya parameter tersebut dapat digunakan untuk mendesain suatu 
+perbaikan lainnya pada daerah tersebut. 
+ 
+103 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+DAFTAR PUSTAKA 
+ 
+ASIRI National Project. (2017). Recommendations for the design, construction and 
+control of rigid iclusion ground improvement. PONTS CHAUSSEES. 
+Bouazza, A., Aissa, A. B., Abd El Halim, A. O., & Bouafia, A. (2021). 
+Experimental characterization of the impact of parcticle breakage on the 
+cyclic behaviour of sand in drained triaxial test. Soil Dynamics and 
+Earthquake Engineering, 143. 
+Cintra, J. C., & Aoki, N. (1999). Carga admissível em fundações profundas. 
+EESC/USP. 
+Das, B. M. (2008). Advanced Soil Mechanics. New York: Taylor & Francis. 
+Das, B. M. (2011). Principal of Foundation Engineering. Australia: Cangage 
+Learning. 
+Decourt, L., & Quaresma, A. R. (1982). Como calcular (rapidamente) a capacidade 
+de carga limite de uma estaca. São Paulo: A construção. 
+Fu, Y., He, S., Zhang, S., & Yang, Y. (2020). Parameter Analysis on Hardening 
+Soil Model of Soft Soil forFoundation Pits Based on Shear Rates in 
+Shenzhen Bay, China. Advances in Materials Science and Engineering, 
+2020(1). 
+Han, J. (2015). Principles And Practice of Ground Improvement. New Jersey: John 
+Wiley & Sons, Inc. 
+Hardiyatmo, H. C. (2011). Analisis dan Perancangan Fondasi. Yogyakarta: Gadjah 
+Mada University Press. 
+Indraratna, B., Sathananthan, I., Rujikiatkamjorn, C., & Balasubramaniam, A. 
+(2005). Analytical and Numerical Modeling of Soft Soil. International 
+Journal of Geomechanics, 5(2), 114. 
+Panguriseng, D. (2018). Dasar-dasar Teknik Perbaikan Tanah. Yogyakarta: 
+Pustaka AQ. 
+104 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Paz, M., Ktenidou, O.-J, & Cotton, F. (2021). Recent Advances and Challenges in 
+Ground Motion Predictionn Model for Europe. Journal of Earthquake 
+Engineering, 825-847. 
+Rahardjo, P. P. (2000). Manual Pondasi Tiang. Bandung: Program Pascasarjana 
+Magister Teknik Sipil UNPAR. 
+Rosso, V., Verzeni, G., Rota, M., & Simonini, P. (2021). Seismic Response of Soft 
+Undrained Clays: Experimental Investigation and Numerical Simulation. 
+Journal of Geotechnical and Geoenvironmental Engineering. 
+Ryan Rahmat Setiaji, P. U. (2018). A New Breakthrough – Application of Control 
+Modulus Column for Settlement and Stability Control under Soft Soil and 
+High Embankment Load at Pemalang-Batang Toll Road. 20th SEAGC -3rd 
+AGSSEA Conference in conjunction with 22nd Annual Indonesian National 
+Conference on Geotechnical Engineering, (pp. 582-591). Jakarta. 
+Sandhya Rani. R., N. P. (2014). Applicablity of Mohr Coulomb & Drucker-Prager 
+Model For Assessment Of Undrained Shear Behaviour Of Clayey Soils. 
+International Journal of Civil Engineering and Technology (IJCIET), 104-
+123. 
+Sundari, R. F., Roesyanto, Hasibuan, G. C., & Surbakti, R. (2024). ANALISIS 
+DAYA DUKUNG AKSIAL BORED PILE Ø 80 CM DENGAN 
+MENGGUNAKAN UJI BEBAN STATIK DAN MENGGUNAKAN 
+METODE ELEMEN HINGGA PADA PROYEK MENARA BRI – 
+MEDAN. Jurnal Ilmiah Indonesia. 
+Surarak, C., Likitlersuang, S., Wanatowski, D., Balasubramaniam, A., Oh, E., & 
+Guan, H. (2012). Stiffness and strength parameters for hardening soil model 
+of soft and stiff Bangkok clays. Soils and Foundations, 682-697. 
+Suwarno, & Luthfi Amri Wicaksono. (2021). Sistem Pondasi Tiang Bor Yang 
+Ramah Lingkungan. Inovasi Teknologi dan Material Terbarukan Menuju 
+Infrastruktur Yang Aman Terhadap Bencana dan Ramah Lingkungan (p. 
+417). Surakarta: CEEDRiMS. 
+105 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Tomlinson, M. J. (1994). Pile design and construction (4 ed.). London: E. and F.N. 
+Spon. 
+Van Eekelen, S. J., & Bezuijen, A. (2008). DESIGN OF PILED 
+EMBANKMENTS, CONSIDERING THE BASIC STARTING POINTS 
+OF THE . EuroGeo4. 
+Vesic, A. S. (1977). Design of Pile Foundations. Washington, D.C.: National 
+Cooperative Highway Research Program 42. 
+Yani, D. S. (2021). Menghitung Daya Dukung Tiang Pancang Pada Gedung 
+Perkantoran Menggunakan Data Spt Dan Sondir Dengan Metode Décourt-
+Quaresma 1982, Mayerhof 1956, Schmertmann 1975 Dan LCPC 1982. 
+Yogyakarta: Universitas Islam Indonesia. 
+106 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+LAMPIRAN 
+Lampiran 1 Bidang Gelincir Tanpa Perkuatan (Hardening Soil)
+107 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Lampiran 2 Penurunan Tanpa Perkuatan (Mohr-Coulomb) 
+108 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Lampiran 3 Penurunan Tanpa Perkuatan (Hardening Soil)
+109 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Lampiran 4 Penurunan Short-Term Plane-Strain (Mohr-Coulomb)
+110 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Lampiran 5 Penurunan Long-Term Plane-Strain (Mohr-Coulomb)
+111 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Lampiran 6 Penurunan Earthquake Plane-Strain (Mohr-Coulomb)
+112 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Lampiran 7 Penurunan Short-Term Plane-Strain (Hardening Soil)
+113 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Lampiran 8 Penurunan Long-Term Plane-Strain (Hardening Soil)
+114 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+Lampiran 9 Penurunan Earthquake Plane-Strain (Hardening Soil)
+115 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+ 
+ 
+Lampiran 10 Gaya Axial Maksimum
+116 
+ 
+ 
+ 
+David Harly Rizky Prabudhi, 2024 
+PERBAIKAN TANAH MENGGUNAKAN METODE RIGID INCLUSION DENGAN MATERIAL MODEL 
+TANAH MOHR-COULOMB DAN HARDENING SOIL PADA PROYEK JALAN TOL  
+Universitas Pendidikan Indonesia | repository.upi.edu | perpustakaan.upi.edu 
+Lampiran 11 Momen Maksimum 
+ 

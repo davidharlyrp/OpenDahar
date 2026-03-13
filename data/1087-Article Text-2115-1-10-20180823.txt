@@ -1,0 +1,975 @@
+ 
+ 
+ 
+Penentuan Parameter Kuat Geser Clay Shale berdasarkan 
+Variabel Kejenuhan terhadap Kelongsoran 
+ 
+Andri Krisnandi Somantri1, M. Shouman2, Azmi M. Fathurrohman3 
+ 
+1Jurusan Teknik Sipil, Politeknik Negeri Bandung, Bandung 40012 
+E-mail: andri_krisnandi@polban.ac.id 
+ 2Jurusan Teknik Sipil, Politeknik Negeri Bandung, Bandung 40012 
+E-mail: sho_labo@yahoo.co.id 
+3Mahasiswa Program Pascasarjana Terapan Rekayasa Infrastruktur, Politeknik Negeri Bandung, Bandung 40012 
+E-mail: fathurrohman.azmi@gmail.com  
+ 
+ABSTRAK 
+ 
+Clay shale merupakan jenis tanah ekspansif yang akan mengalami pengembangan atau peningkatan volume 
+apabila berkontaksi dengan air. Kelongsoran clay shale dapat terjadi sebelum kondisi jenuh total tercapai. Dalam 
+rangka proses perancangan instrumen, perlu adanya penelitian awal untuk meninjau pengaruh tingkat kejenuhan 
+clay shale terhadap parameter kelongsoran, sehingga tingkat kejenuhan clay shale sesaat sebelum runtuh dapat 
+diketahui. Penelitian dilaksanakan dengan pengujian sifat fisis lalu dilanjutkan dengan pengujian sifat mekanis 
+juga secara kimia. Pengujian-pengujian sifat fisis yakni, pengujian berat isi, kadar air dan batas atterberg. Untuk 
+pengujian sifat mekanis, digunakan triaksial dan swelling. Sementara, pengujian secara kimia dilaksanakan 
+pengujian X-Ray Diffraction (XRD) dan Kapasitas Tukar Kation (KTK). Variabel yang diuji memiliki variasi 
+nilai derajat kejenuhan yang didapat dari pengaturan nilai koefisien β sebesar 0,2; 0,4; 0,6; 0,8 dan 1,0 saat 
+pengujian triaksial. Selanjutnya, beberapa nilai sudut geser dalam dan kohesi yang diperoleh dari pengujian 
+triaksial dimodelkan dalam software PLAXIS menggunakan geometri lereng eksisting sebelum terjadi 
+kelongsoran beserta pembebanannya. Dari pemodelan, dicari kondisi lereng dengan nilai faktor keamanan paling 
+mendekati 1 untuk digunakan pada instrumen pendeteksi kelongsoran. Penelitian ini juga menghasilkan grafik 
+korelasi tingkat kejenuhan terhadap parameter kuat geser yang dapat digunakan untuk perancangan perkuatan 
+lereng yang bidang gelincirnya di lapisan clay shale. 
+ 
+Kata Kunci 
+Clay Shale, Kejenuhan, Koefisien β, Triaksial 
+ 
+1. PENDAHULUAN 
+Clay shale merupakan salah satu jenis tanah 
+ekspansif yang akan mengalami pengembangan atau 
+peningkatan volume apabila berkontaksi dengan air. 
+Kelongsoran pada tanah jenis clay shale tersebut 
+dapat terjadi sebelum kondisi jenuh total tercapai. 
+Dalam 
+rangka 
+proses 
+perancangan 
+instrumen 
+tersebut, perlu adanya penelitian awal untuk 
+meninjau pengaruh tingkat kejenuhan clay shale 
+terhadap parameter kelongsoran, sehingga tingkat 
+kejenuhan pada clay shale sesaat sebelum runtuh 
+dapat diketahui.  
+ 
+Penelitian clay shale dilaksanakan dengan pengujian 
+sifat fisis lalu dilanjutkan dengan pengujian sifat 
+mekanis juga secara kimia. Pengujian-pengujian sifat 
+fisis yakni, pengujian berat isi, kadar air dan batas 
+atterberg. Untuk pengujian sifat mekanis, digunakan 
+triaksial dan swelling. Sementara, untuk pengujian 
+secara 
+kimia 
+dilaksanakan 
+pengujian 
+X-Ray 
+Diff
+i
+(XRD) d
+K
+it
+T k
+K ti
+(KTK). Variabel yang diuji memiliki variasi nilai 
+derajat kejenuhan yang didapat dari pengaturan nilai 
+koefisien β sebesar 0,2 ; 0,4 ; 0,6 ; 0,8 dan 1,0 saat 
+pengujian triaksial. Selanjutnya, beberapa nilai sudut 
+geser dalam dan kohesi yang diperoleh dari 
+pengujian triaksial dimodelkan dalam software 
+PLAXIS menggunakan geometri lereng eksisting 
+sebelum terjadi kelongsoran beserta pembebanannya. 
+Dari pemodelan dicari kondisi lereng dengan nilai 
+faktor 
+keamanan 
+paling 
+mendekati 
+1 
+untuk 
+digunakan pada instrumen pendeteksi kelongsoran. 
+Penelitian ini juga menghasilkan grafik korelasi 
+tingkat kejenuhan terhadap parameter kuat geser 
+yang dapat digunakan untuk perancangan perkuatan 
+lereng yang bidang gelincirnya di lapisan clay shale. 
+ 
+2. TINJAUAN PUSTAKA 
+2.1 Kelongsoran 
+Kelongsoran ialah perpindahan material pembentuk 
+lereng yang bergerak ke arah bawah dan keluar 
+l
+[1] G
+k
+t
+h
+d
+l
+t j di
+kib t
+ 
+ 
+ 
+faktor pendorong dalam hal ini tegangan geser yang 
+terjadi lebih besar bila dibandingkan faktor penahan, 
+yakni kuat geser[2]. Rasio antara faktor penahan 
+dengan pendorong disebut dengan faktor keamanan 
+(FK). Nilai FK yang disarankan ialah lebih dari 1,3 
+menurut Pusat Vulkanologi dan Mitigasi Bencana 
+Geologi. 
+ 
+2.2 Clay Shale 
+Clay shale memiliki kandungan  monmorillonite 
+yang menjadikannya termasuk jenis tanah ekspansif 
+yang 
+akan 
+mengalami 
+pengembangan 
+atau 
+peningkatan volume apabila berkontaksi dengan 
+air[3]. Monmorillonite adalah mineral dengan luas 
+permukaan besar dan sangat mudah menyerap air 
+dalam jumlah besar bila dibandingkan dengan 
+mineral lainnya. 
+ 
+2.3 Pengujian Triaksial 
+Pengujian triaksial adalah pengujian yang paling 
+sering digunakan untuk menentukan parameter kuat 
+geser yang termasuk didalamnya sudut geser dalam 
+dan kohesi[4]. Tipe cara pengujian yang akan 
+digunakan adalah Consolidated–Undrained (CU), 
+yakni pada saat pemberian tegangan isotrop atau 
+tegangan ke segala arah, kondisi katup pada mesin 
+triaksial dibiarkan terbuka sehingga terjadi proses 
+konsolidasi, lalu pada saat pemberian tegangan geser, 
+kondisi katup ditutup sehingga tidak terjadi dranase 
+atau pengaliran[5]. 
+ 
+2.4 Swelling Test 
+Tanah 
+jenis 
+ekspansif 
+dengan 
+kemampuan 
+mengembang yang cukup besar menghasilkan 
+tekanan untuk melawan beban yang bekerja 
+diatasnya ketika air tersedia untuk bertambahnya 
+volume[6]. Besarnya tekanan swelling dipengaruhi 
+oleh batas cair, berat isi kering serta kadar air awal[7]. 
+ 
+2.5 Pengujian X-Ray Diffraction (XRD) 
+Komponen dasar pengujian XRD, yakni sumber 
+sinar-X, benda uji, dan detektor sinar[8]. Pengujian 
+XRD dapat digunakan untuk menentukan komposisi 
+mineral yang terdapat pada tanah jenis ekspansif, 
+dengan cara membandingkan intensitas garis difraksi 
+dari berbagai mineral terhadap garis bahan standar[7]. 
+ 
+2.6 Software PLAXIS 
+PLAXIS merupakan salah satu software yang 
+digunakan dalam pemodelan bidang geoteknik 
+Pemilihan PLAXIS dalam penelitian ini dikarenakan 
+PLAXIS memiliki kelebihan, dimana software lain 
+seperti GEOSTUDIO hanya dapat mengeluarkan 
+nilai faktor keamanan, sedangkan dalam PLAXIS 
+deformasi dapat diketahui sehingga dapat membantu
+material yang digunakaan dalam pemodelan lereng 
+adalah mohr coloumb yang merupakan model 
+sederhana yang handal dan telah diketahui lama 
+dalam praktek rekayasa teknik sipil. Model ini dapat 
+digunakan untuk menghitung faktor keamanan 
+dengan pendekatan ‘reduksi phi-c’ atau reduksi sudut 
+geser dalam dan kohesi[10]. 
+ 
+3. METODOLOGI PENELITIAN 
+3.1 Diagram Penelitian 
+Tahapan penelitian ditunjukkan pada Gambar 1 
+beserta uraian penjelasan yang dipaparkan pada sub 
+bab selanjutnya. 
+ 
+3.2 Pengambilan Material Benda Uji 
+Pengambilan benda uji berupa clay shale diambil dari 
+lokasi lereng yang mengalami longsor dengan cara 
+pemboran metode DS (Distrurbed Soil). 
+ 
+ 
+Gambar 1.  Diagram Alir Penelitian 
+ 
+3.3 Pengambilan Material Benda Uji 
+Benda uji untuk pengujian triaksial CU dibuat 
+masing-masing 3 (tiga) benda uji untuk 5 variasi nilai 
+koefisien β 0,2 ; 0,4 ; 0,6 ; 0,8 dan 1,0 dengan 1 (satu) 
+cadangan benda uji untuk masing-masing variasi 
+nilai derajat kejenuhan, sehingga total benda uji 
+triaksial adalah 20 buah. Uraian cara memperoleh 
+derajat kejenuhan tertentu diuraikan pada sub bab 2.3 
+Pengujian Triaksial. Untuk pengujian lainnya 
+terdapat pada tabel kebutuhan benda uji yang 
+ 
+ 
+ 
+Tabel 1. Kebutuhan Benda Uji dalam Penelitian 
+ 
+ 
+3.4 Pengujian Sifat Fisis 
+Pengujian sifat fisis dilaksanakan untuk mengetahui 
+beberapa parameter pada clay shale yang dibutuhkan 
+dalam pelaksanaan pengujian swelling. Pengujian 
+yang dilaksanakan, yakni berat isi, kadar air, dan 
+batas atterberg. 
+ 
+3.5 Pengujian Secara Kimia 
+Pengujian sifat fisik XRD dilaksanakan untuk 
+mengetahui komposisi kandungan mineral benda uji 
+dengan analisis gelombang pantulan sinar X pada 
+bidang atom. Data hasil pemeriksaan dihasilkan dari 
+perekaman berupa grafik berpuncak pada skala sudut 
+2θ yang diubah menjadi jarak dengan hukum Bragg. 
+ 
+Pengujian Kapasitas Tukar Kation (KTK) dilakukan 
+untuk mengetahui kemampuan koloid tanah dalam 
+mempertukarkan kation. Di dalam tanah, komponen 
+yang mempunyai muatan adalah lempung dan bahan 
+organik tanah. Semakin halus butiran dan semakin 
+tinggi kadar mineral lempung dan bahan organik, 
+maka nilai KTK yang diberikan akan semakin 
+tinggi[11]. 
+ 
+3.6 Pengujian Sifat Mekanis 
+Pada pengujian sifat mekanis digunakan pengujian 
+swelling dan triaksial. Pengujian swelling pada clay 
+shale dilaksanakan menggunakan geonor. Hasil akhir 
+dari pengujian berupa nilai tingkat potensi swelling 
+berdasarkan tekanan swelling. Apakah tingkat 
+potensi swelling dari clay shale termasuk kedalam 
+low, medium, high, dan very high. 
+ 
+Pelaksanaan pengujian triaksial digunakan tipe 
+Consolidated Undrained (CU) dan pengaturan 
+variasi nilai derajat kejenuhan dilakukan saat tahapan 
+awal, yakni tahapan saturated dengan menyetel cell 
+pressure dan back pressure. Hasil pengujian dari 
+triaksial berupa tegangan-tegangan efektif digunakan 
+untuk 
+penggambaran 
+lingkaran 
+mohr 
+untuk 
+mengetahui parameter tanah lainnya, yakni kohesi 
+dan sudut geser dalam. 
+3.7 Pemodelan Menggunakan PLAXIS 
+Pemodelan 
+lereng 
+pada 
+PLAXIS 
+digunakan 
+parameter tanah berupa sudut geser dalam dan kohesi 
+sebagai data clay shale yang akan dimodelkan. 
+Kemudian, untuk geometri lereng digunakan data 
+geometri lereng eksisting yang diperoleh dari pihak 
+instansi terkait. 
+ 
+Pada semua pemodelan lereng yang dilaksanakan 
+berdasarkan variasi tingkat derajat kejenuhan akan 
+didapat faktor keamanan yang berbeda. Batas tingkat 
+kejenuhan pada lereng sesaat sebelum longsor/runtuh 
+adalah model lereng yang menunjukkan nilai faktor 
+keamanan paling mendekati 1. Adapun data-data lain 
+yang telah diperoleh selama penelitian akan disusun 
+menjadi beberapa grafik hubungan antara derajat 
+kejenuhan dan parameter kelongsoran. 
+ 
+3.8 Quality Control 
+Standar pada pelaksanaan pengujian sifat fisis dan 
+mekanis selama penelitian ditunjukkan pada Tabel 2. 
+ 
+4. HASIL DAN PEMBAHASAN 
+4.1 Hasil Pengujian Berat Jenis 
+Pengujian berat jenis dilaksanakan dengan 3 (tiga) 
+buah sampel dari kedalaman 18,5 – 19,0 m. Adapun 
+hasil yang didapat dari pelaksanaan pengujian berat 
+jenis ditunjukkan pada Tabel 3. 
+Tabel 2. Standar Pelaksanaan Pengujian Penelitian 
+ 
+ 
+Tabel 3. Hasil Pengujian Berat Jenis 
+ 
+ 
+4.2 Hasil Pengujian Batas Atterberg 
+Pengujian batas-batas attererg yang dilaksanakan 
+ialah pengujian batas plastis dan batas cair 
+menggunakan sampel dari kedalaman 18,5 – 19,0 m. 
+Berdasarkan
+hasil
+dari
+pengujian
+batas-batas
+ 
+ 
+ 
+bahwa nilai batas plastis (PL) sebesar 20,41 %, dan 
+batas cair (LL) sebesar 65,37 %. Dari kedua nilai 
+batas cair dan plastis dapat dihitung nilai indeks 
+plastisitas atau plasticity index (PI). 
+ 
+Tabel 4. Hasil Pengujian Batas Atterberg 
+ 
+ 
+PI ialah sebuah parameter yang menunjukkan 
+keplastisan suatu tanah, dimana semakin tinggi nilai 
+PI, maka dapat diketahui bahwa tanah semakin 
+plastis. Nilai PI merupakan selisih antara nilai batas 
+cair (LL) dan batas plastis (PL). Adapun nilai PI yang 
+didapat berdasarkan perhitungan, yakni sebesar 
+44,95 % 
+ 
+4.3 Hasil Pengujian Gradasi 
+Menentukan gradasi atau distribusi ukuran butir 
+tanah dilaksanakan sesuai dengan jenis ukuran butir 
+tanah. Adapun cara menganalisa ukuran butir tanah 
+dapat dilakukan dengan 3 cara, yaitu analisa saringan 
+untuk tanah berbutir kasar, analisa hydrometer untuk 
+tanah berbutir halus, dan analisa gabungan. Adapun 
+hasil dari pengujian gradasi ditunjukkan pada Tabel 
+5. 
+ 
+Hasil analisa gabungan yang ditunjukkan pada Tabel 
+5 dan Gambar 2 menunjukkan fraksi lanau 
+mendominasi dari susunan clay shale tersebut. Hasil 
+pengujian berupa persentase dari fraksi lempung 
+akan digunakan untuk analisis kecenderungan 
+keaktifan tanah tersebut. 
+Tabel 5. Hasil Pengujian Gradasi Analisis Saringan 
+dan Hidrometer 
+ 
+ 
+ 
+ 
+Gambar 2.  Grafik Hasil Analisis Gabungan 
+4.4 Hasil Pengujian XRD 
+Dari pengujian XRD yang telah dilaksanakan 
+diketahui bahwa mineral yang terkandung dalam 
+tanah 
+yakni 
+quartz, 
+halloysite, 
+muscovite, 
+gismondine, calcite, dan montmorillonite. 
+ 
+4.5 Hasil Pengujian KTK 
+Tanah yang digunakan dalam pengujian KTK 
+merupakan tanah dari kedalaman 11,50 – 12,00 m 
+yang merupakan tanah jenis clay shale menurut tim 
+dari Jasamarga berdasarkan serabut-serabut putih 
+yang 
+tergandungnya. 
+Hasil 
+pengujian 
+yang 
+dilaksanakan 
+di 
+laboratorium 
+tekMIRA 
+menunjukkan tanah yang ditinjau memiliki nilai 
+KTK sebesar 22,52 (meq/100 gram). Berdasarkan 
+Tabel 6 tanah diprediksi mengandung Haloisit dan 
+Illit. 
+ 
+ 
+ 
+ 
+Tabel 6. Nilai KTK Mineral Lempung[12] 
+ 
+ 
+4.6 Hasil Pengujian Swelling 
+Nilai swelling potential yang diperoleh dari 
+pengujian sebesar 25,32% dengan swelling pressure 
+sebesar 0,192 kg/cm². Nilai swelling potential 
+tersebut sesuai dengan nilai perkiraan berdasarkan 
+korelasi yang telah diperoleh, yakni 5 – 25 %, dalam 
+kategori high swelling potential. 
+ 
+4.7 Hasil Pengujian Triaksial 
+Pengujian 
+triaksial 
+dilaksanakan 
+setelah 
+nilai 
+koefisien β sesuai dengan yang direncanakan. Variasi 
+nilai koefisien β yang digunakan, yakni 0,2 ; 0,4 ; 0,6 
+; 0,8 dan 1,0. Hasil pengujian triaksial berupa  kohesi 
+(c) dan sudut geser dalam (ϕ) yang digunakan dalam 
+pemodelan menggunakan PLAXIS ditunjukkan 
+Tabel 7. 
+ 
+Tabel 7. Tabel Nilai Kohesi dan Sudut Geser Hasil 
+Pengujian Triaksial 
+ 
+ 
+4.8 Hasil Pemodelan dengan PLAXIS 
+Lapisan tanah yang ditinjau dan divariasikan 
+kejenuhannya merupakan lapisan tanah clay shale 
+saja, sementara parameter lapisan tanah lain dan 
+pembebanannya tidak berubah sesuai data yang 
+didapat dari Jasamarga. Variasi parameter pada 
+lapisan clay shale yang digunakan untuk pemodelan 
+lereng Jembatan Cisomang ditunjukkan Tabel 8. 
+ 
+Pemodelan lereng menghasilkan (FK) beserta bidang 
+kelongsorannya. 
+Pemodelan 
+yang 
+dilakukan 
+merupakan bagian lereng tepian arah Jakarta yang 
+diketahui memiliki potensi longsor yang tinggi bila 
+dibandingkan dengan tepian arah Bandung. Hasil 
+pemodelan PLAXIS berupa nilai Faktor Keamanan 
+(FK) disajikan dalam Tabel 4.13. Sementara salah 
+satu hasil pemodelan ditunjukkan Gambar 3 dan 4. 
+Rangkuman hasil pemodelan PLAXIS berupa nilai 
+FK disajikan dalam Tabel 10. 
+ 
+Tabel 8. Variasi Parameter untuk Pemodelan pada 
+Lapisan Clay Shale 
+ 
+ 
+Tabel 9. Faktor Keamanan (FK) pada Pemodelan 
+Cisomang Semua variasi  
+ 
+ 
+ 
+Gambar 3.  Nilai FK Lereng Jembatan Cisomang 
+Tepian Arah Jakarta dengan Parameter 
+tanah dari Variasi Pemberian Nilai 
+Koefisien β sebesar 0,8 
+ 
+Tabel 10. Faktor Keamanan (FK) pada Pemodelan 
+Lereng Cisomang Semua Variasi 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 4. 
+Bidang Longsor Lereng Jembatan 
+Cisomang Tepian Arah Jakarta Variasi 
+Pemberian Nilai Koefisien β sebesar 
+0,8 
+ 
+4.9 Karakteristik Sampel Uji Menurut Hasil 
+Pengujian Sifat Fisis dan Kimia 
+Hasil dari serangkaian pengujian yang telah 
+dilaksanakan, diketahui bahwa sampel yang diuji 
+merupakan jenis tanah clay shale dengan didominasi 
+lanau yang memiliki sifat lempung yakni swelling, 
+plastisitas, dan kohesif yang tinggi. Nilai aktivitas 
+(A) tanah menunjukkan sampel uji termasuk kedalam 
+tanah 
+aktif 
+yang 
+memiliki 
+kandungan 
+montmorillonite sebagai salah satu komponen utama 
+pada clay shale. 
+ 
+Kandungan mineral lempung dalam tanah telah 
+diketahui lebih rinci berdasarkan pengujian X-Ray 
+Diffraction (XRD) dan pengujian Kapasitas Tukar 
+Kation 
+(KTK) 
+yang 
+telah 
+dilaksanakan 
+di 
+laboratorium Puslitbang tekMIRA. Hasil yang 
+didapat dari XRD menunjukkan bahwa tanah 
+mengandung beberapa mineral lempung, termasuk 
+montmorillonite yang merupakan penyusun clay 
+shale. Namun dari nilai KTK menunjukkan bahwa 
+montmorillonite tidak mendominasi 100 gram 
+sampel tanah yang digunakan dalam pengujian KTK. 
+ 
+Pengujian KTK tersebut menunjukkan hasil yang 
+berbeda bila dibandingkan pengujian sifat tanah 
+lainnya yang menunjukkan bahwa kandungan 
+montmorillonite mendominasi tanah yang ditinjau. 
+Hal 
+tersebut 
+terjadi 
+dikarenakan 
+perbedaan 
+kedalaman sampel tanah yang digunakan pada 
+pengujian. Diketahui bahwa pada pengujian KTK 
+dan XRD digunakan sampel tanah dari kedalaman 
+11,50 – 12,00 meter, dimana tanah clay shale dapat 
+ditemukan 
+mulai 
+dari 
+kedalaman 
+10 
+meter 
+b d
+k
+ik
+l h J
+ 
+Pada kedalaman awal, diperkirakan kandungan 
+montmorillonite sudah ada dengan ditandainya 
+serabut putih, namun belum cukup mendominasi 
+mineral lainnya, seperti mineral haloisite dan illite. 
+Dari hasil pengujian sifat fisis berupa swelling 
+potential dengan sampel dari kedalaman 16,00 – 
+16,50 menunjukkan nilai swelling potential yang 
+masuk dalam kategori high, begitu pun dalam 
+pengujian sifat fisis lainnya yang telah dilaksanakan. 
+Dimana semakin dalamnya pengambilan sampel, 
+maka sifat clay shale yang didominasi mineral 
+lempung montmorillonite semakin terlihat. 
+ 
+4.10 Karakteristik 
+Sampel 
+Uji 
+Menurut 
+Pengamatan di Lapangan 
+Penentuan 
+lokasi 
+dan 
+kedalaman 
+pemboran 
+berdasarkan peta statigrafi yang dimiliki PT. 
+Jasamarga berdasarkan hasil investigasi tanah 
+sebelumnya. Sampel uji diambil dengan metode 
+pemboran terganggu dikarenakan kerasnya lapisan 
+tanah yang dibor. Wujud tanah yang dijadikan 
+sampel memiliki warna abu-abu gelap, berserat putih, 
+dan keras. 
+ 
+Adanya serat putih yang ditemukan dari mulai 
+kedalaman 10 m merupakan indikasi dari jenis clay 
+shale yang ditinjau oleh pihak PT. Jasamarga. Wujud 
+clay shale yang menjadi sampel uji ditunjukkan pada 
+Gambar 5. 
+ 
+ 
+Gambar 5.  Sampel Uji Clay Shale dari Lereng 
+Jembatan Cisomang 
+ 
+4.11 Korelasi 
+Derajat 
+Kejenuhan 
+dengan 
+Parameter Kuat Geser 
+Pengujian sampel triaksial UU memiliki nilai derajat 
+kejenuhan 0,98, sedangkan variasi pengaturan 
+koefisien 
+β 
+pada 
+saat 
+pengujian 
+triaksial 
+menghasilkan derajat kejenuhan yang berbeda 
+dengan waktu penjenuhan yang berbeda pula. 
+Dimana dari pengujian triaksial dengan kondisi 
+tersebut juga menghasilkan nilai parameter tanah 
+yang berbeda-beda. Kemudian variasi parameter 
+tanah tersebut dimodelkan, sehingga menghasilkan 
+FK
+D
+j
+k j
+h
+di
+l h
+ 
+ 
+ 
+berdasarkan pengaturan koefisien β ditunjukkan 
+Tabel 11. 
+ 
+Tabel 11. Nilai Derajat Kejenuhan Berdasarkan 
+Variasi Koefisien β 
+ 
+ 
+Korelasi derajat kejenuhan dengan parameter kuat 
+geser berupa kohesi dan sudut geser dalam dapat 
+diketahui dari pengujian triaksial yang dilengkapi 
+dengan pengujian sufat fisis dan kimia. Dari 
+pengujian-pengujian indek propertis tanah dan 
+pemodelan 
+menggunakan 
+PLAXIS 
+juga 
+menghasilkan korelasi derajat kejenuhan dengan 
+parameter tanah lainnya yang ditunjukkan dalam 
+Tabel 12. 
+ 
+Tabel 12. Korelasi Derajat Kejenuhan dengan 
+Parameter Tanah Lainnya 
+ 
+ 
+a. Korelasi Derajat Kejenuhan dengan Berat Isi 
+Kering 
+Berat isi adalah perbandingan antara berat tanah total 
+(butiran tanah dan air dalam pori) dengan volume 
+total tanah (udara, air, dan butiran tanah). Sedangkan 
+berat isi kering ialah berat isi dalam kondisi tanah 
+kering setelah dikeringkan dengan cara dimasukan ke 
+oven selama 24 jam. Korelasi derajat kejenuhan 
+dengan berat isi kering ditunjukkan pada Gambar 6 
+berikut: 
+ 
+ 
+Gambar 6.  Korelasi Derajat Kejenuhan dengan 
+Berat Isi Kering 
+ 
+Gambar 6 menunjukkan semakin tinggi nilai derajat 
+kejenuhan tanah mengakibatkan semakin tingginya 
+nilai berat isi tanah kering. Fenomena tersebut 
+diakibatkan pengaruh dari waktu penjenuhan dan 
+pengeringan. Sebelumnya telah diketahui bahwa 
+lempung memiliki struktur yang rumit dan partikel 
+kecil (mikroskopis) yang memungkinkan banyaknya 
+terbentuk 
+pori 
+Partikel 
+lempung 
+yang 
+kecil  
+memberikan luas permukaan yang lebar, ditambah 
+dengan sifat mineral lempung yang menarik molekul 
+air, sehingga banyak air yang akan terserap. 
+ 
+Waktu penjenuhan yang lama mengakibatkan derajat 
+kejenuhan yang semakin tinggi, yang menandakan 
+semakin tingginya volume air yang mengisi pori 
+tanah. Saat proses pengeringan, ada kemungkinan 
+beberapa partikel air masih tertahan dalam pori. 
+Sementara pengeringan dilakukan seragam, yakni 
+dengan waktu 24 jam. Sehingga semakin tinggi 
+volume air dalam pori, maka akan semakin banyak 
+pula kemungkinan partikel air yang tertahan dalam 
+pori. 
+ 
+b. Korelasi 
+Derajat 
+Kejenuhan 
+dengan 
+Parameter Kuat Geser  
+Kohesi dan sudut geser dalam merupakan parameter 
+kuat geser pada tanah, dimana semakin tinggi nilai 
+kedunya, maka akan semakin tinggi pula nilai kuat 
+geser yang dihasilkan. Perubahan kedua parameter 
+tersebut dapat dipengaruhi oleh air. Adapun korelasi 
+derajat kejenuhan dan parameter kuat geser 
+berdasarkan pengujian triaksial ditunjukkan pada 
+Gambar 7– 10. 
+ 
+ 
+ 
+ 
+ 
+Gambar 7.  Korelasi Derajat Kejenuhan dengan 
+Kohesi (Tegangan Total) 
+ 
+ 
+Gambar 8.  Korelasi Derajat Kejenuhan dengan 
+Sudut Geser Dalam (Tegangan Total) 
+ 
+ 
+Gambar 9.  Korelasi Derajat Kejenuhan dengan 
+Kohesi (Tegangan Efektif) 
+ 
+ 
+Gambar 10.  Korelasi Derajat Kejenuhan dengan 
+Sudut Geser Dalam (Tegangan Efektif) 
+ 
+Tabel 13. Nilai Kohesi dan Sudut Geser berdasarkan 
+Nilai Derajat Kejenuhan 
+ 
+ 
+Berdasarkan Gambar 7 – 10 dan Tabel 13 terlihat 
+bahwa variasi nilai derajat kejenuhan memberikan 
+perubahan nilai yang beragam. Pada umumnya 
+peningkatan 
+nilai 
+derajat 
+kejenuhan 
+akan 
+menurunkan nilai kohesi dan sudut geser dalam. Hal 
+tersebut terlihat pada beberapa nilai kohesi pada 
+variasi nilai derajat kejenuhan 0,95 ; 1,17 dan 1,19, 
+saat tegangan efektif maupun total menunjukkan 
+penurunan. Sementara pada sudut geser dalam, 
+perubahan nilai tidak begitu signifikan, penurunan 
+terjadi pada derajat kejenuhan 0,95 ; 1,16 dan 1,21. 
+ 
+Mayoritas nilai kohesi dan sudut geser dalam 
+mengalami penurunan, meskipun ada beberapa yang 
+mengalami peningkatan. Peningkatan yang terjadi 
+karena beberapa hal, salah satunya pembacaan yang 
+kurang teliti saat pengujian triaksial berlangsung, 
+atau 
+kurang 
+homogennya 
+sampel 
+uji 
+yang 
+menyebabkan perbedaan kandungan komposisi 
+mineral lempung mengingat sampel uji diambil dari 
+variasi kedalaman 11,00 – 22,00 meter. Dimana 
+semakin banyak komposisi montmorillonite maka 
+akan semakin besar penurunan kohesi dan sudut 
+geser yang disebabkan oleh air. 
+ 
+c. 
+Korelasi Derajat Kejenuhan dengan Faktor 
+Keamanan 
+Pada pemodelan lereng jembatan Cisomang dengan
+ 
+ 
+ 
+berdasarkan 5 variasi pengaturan nilai koefisien β. 
+Dari pengujian triaksial didapat 2 (dua) kohesi dan 
+sudut geser dalam, sehingga jumlah pemodelan 
+menjadi 10 pemodelan. Untuk lebih jelasnya, 
+disajikan grafik korelasi derajat kejenuhan dengan 
+faktor keamanan pada Tabel 14 dan Gambar 11 - 12. 
+ 
+Tabel 14. Korelasi Derajat Kejenuhan dengan 
+Faktor Keamanan 
+ 
+ 
+ 
+Gambar 11.  Korelasi Derajat Kejenuhan dengan 
+Faktor Keamanan (Tegangan Total) 
+ 
+Berdasarkan Tabel 14 terlihat bahwa semakin tinggi 
+nilai derajat kejenuhan, maka semakin rendah nilai  
+dari faktor keamanan. Hal tersebut ditunjukkan oleh 
+nilai FK dari variasi derajat kejenuhan 1,16 ; 1,17 dan 
+1,19 
+pada 
+tegangan 
+total. 
+Penurunan 
+juga 
+ditunjukkan oleh nilai FK dari variasi derajat 
+kejenuhan 0,95 ; 1,16 dan 1,17 pada tegangan efektif. 
+Penurunan nilai FK terjadi karena nilai parameter 
+kuat geser (kohesi dan sudut geser dalam) yang 
+menurun selama peningkatan derajat kejenuhan. 
+ 
+ 
+Gambar 12.  Korelasi Derajat Kejenuhan dengan 
+Faktor Keamanan (Tegangan Efektif) 
+ 
+d. 
+Korelasi Derajat Kejenuhan dengan Waktu 
+Penjenuhan 
+Pada pengujian triaksial dilakukan 3 kali pengujian 
+dengan nilai σ3 50 ; 100 dan 150 kPa. Dimana 
+sebelum tahapan geser, ketiga sampel tersebut 
+dijenuhkan terlebih dahulu. Waktu penjenuhan yang 
+disajikan merupakan rata-rata dari waktu penjenuhan 
+yang dipakai untuk menjenuhkan setiap variasi 
+derajat kejenuhan. Grafik dan tabel korelasi derajat 
+kejenuhan dengan waktu penjenuhan disajikan pada 
+Gambar 13 dan Tabel 15. 
+ 
+Tabel 15. Korelasi Derajat Kejenuhan dengan 
+Waktu Penjenuhan 
+ 
+ 
+ 
+Gambar 13.  Korelasi Derajat Kejenuhan dengan 
+Waktu Penjenuhan 
+ 
+Berdasarkan Gambar 13 dan Tabel 15 terlihat bahwa
+ 
+ 
+ 
+yang dibutuhkan untuk menjenuhkan akan semakin 
+meningkat/lama. 
+ 
+e. 
+Korelasi Waktu Penjenuhan dengan Faktor 
+Keamanan 
+Gambar 
+13 
+sebelumnya 
+diketahui 
+bahwa 
+penambahan nilai derajat kejenuhan sejalan dengan 
+penambahan waktu penjenuhan yang dibutuhkan. 
+Dari hal tersebut diketahui bahwa korelasi waktu 
+penjenuhan vs faktor keamanan memiliki pola yang 
+sama. 
+Dimana 
+penaikan 
+waktu 
+penjenuhan 
+mengakibatkan penurunan nilai FK seperti pada 
+Gambar 14 dan 15. 
+ 
+ 
+Gambar 14.  Korelasi Waktu Penjenuhan dengan 
+Faktor Keamanan (Tegangan Total) 
+ 
+ 
+Gambar 15.  Korelasi Waktu Penjenuhan dengan 
+Faktor Keamanan (Tegangan Efektif) 
+ 
+5. KESIMPULAN DAN SARAN 
+5.1 Kesimpulan 
+Berdasarkan hasil dari serangkaian pengujian fisis, 
+ditinjau memiliki nilai swelling potential tinggi 
+sebesar 25,32% dan termasuk ke dalam lempung 
+kaku (clay stiff) dengan memiliki kandungan mineral 
+lempung halloysite dan montmorillonite, dimana 
+pada kedalaman awal sekitar 11, 50 meter halloysite 
+mendominasi berdasarkan nilai Kapasitas Tukar 
+Kation sebesar 22,52 meq/100grn, namun pada 
+beberapa 
+kedalaman 
+sekitar 
+16,00 
+meter 
+montmorillonite 
+Ca 
+mendominasi 
+berdasarkan 
+perhitungan nilai aktivitas tanah (A) sebesar 3,77. 
+ 
+Pemberian variasi nilai koefisien β 0,2 ; 0,4 ; 0,6 ; 0,8 
+dan 1,0  memberikan nilai derajat kejenuhan yang 
+berbeda-beda. Semakin tinggi nilai koefisien β, maka 
+nilai derajat kejenuhan juga akan semakin tinggi 0,95 
+; 1,17 ; 1,19 ; 1,16 dan 1,21. Selain itu, derajat 
+kejenuhan semakin tinggi, waktu yang dibutuhkan 
+untuk penjenuhan pun semakin tinggi.  
+ 
+Peningkatan nilai derajat kejenuhan meningkatkan 
+berat isi kering dengan nilai terbesar 15,88 kN/m³ 
+saat derajat kejenuhan sebesar 1,21, menurunkan 
+nilai kohesi dengan terkecil sebesar 3,5 kN/m² saat 
+derajat kejenuhan sebesar 1,19, menurunkan nilai 
+sudut geser dalam dengan nilai terkecil 17,1° saat 
+derajat kejenuhan sebesar 1,21. 
+ 
+Berdasarkan variasi parameter lapisan clay shale 
+yang diperoleh dari pengujian triaksial, dilakukan 10 
+pemodelan 
+lereng 
+jembatan 
+Cisomang 
+dan 
+pembebanannya yang masing-masing menghasilkan 
+FK. 
+Peningkatan 
+nilai 
+derajat 
+kejenuhan 
+mengakibatkan penurunan nilai FK dengan nilai 
+terkecil sebesar 0,901 saat derajat kejenuhan sebesar 
+1,19. Sedangkan FK yang paling mendekati 1,0 ialah 
+0,997 saat nilai derajat kejenuhan sebesar 0,95. 
+ 
+5.2 Saran 
+Hal berikut ini dianjurkan  untuk mempermudah 
+penelitian tentang topik ini ke depannya, antara lain, 
+untuk mengurangi kesalahan atau kecerobohan saat 
+pengujian triaksial, gunakan mesin triaksial yang 
+baik kondisinya, dimana angka dan garis masih 
+terlihat jelas pada saat pembacaan. Tidak menutup 
+kemungkinan, 
+tanah 
+yang 
+ditinjau 
+memiliki 
+komposisi mineral lempung yang berbeda untuk 
+setiap 
+kedalaman 
+tertentu, 
+sehingga 
+baiknya 
+dilakukan 
+pengujian 
+yang 
+mewakili 
+setiap 
+kedalaman, meskipun hal tersebut memang akan 
+sangat lebih mahal. 
+ 
+UCAPAN TERIMA KASIH 
+Penulis mengucapkan terima kasih kepada pihak-
+pihak yang telah membantu dan berkontribusi dalam 
+penelitian ini
+Khususnya penulis mengucapkan
+ 
+ 
+ 
+Bandung yang telah memberikan dana bantuan 
+penelitian, serta dukungan dari KBK Geoteknik dan 
+Jurusan Teknik Sipil Politeknik Negeri Bandung. 
+ 
+DAFTAR PUSTAKA 
+[1] 
+J. Novotnẏ, “Varnes Lanslide Classification”, 
+Czech Republic Development Cooperation, 
+1978. 
+[2] 
+G. M. Soedrajat,  “Bencana Gerakan Tanah di 
+Indonesia”, Pusat Vulkanologi Dan Mitigasi 
+Bencana Geologi, 2008. 
+[3] 
+O. S. O. Siregar, “Studi Pengaruh Derajat 
+Kejenuhan (koefisien B) Terhadap Kekuatan 
+Geser Pada Tanah Ekspansif Berdasarkan Test 
+Consolidated 
+Undrained”, 
+Universitas 
+Indonesia, 2014. 
+[4] 
+M. Wambes, S. Monintja, dan F. J. Manoppo, 
+“Pengaruh Derajat Kejenuhan Terhadap Kuat 
+Geser Tanah”, 2013. 
+[5] 
+S. A. Nugroho, A. I. Putra, dan R. Ermina, 
+“Korelasi Parameter Kuat Geser Tanah Hasil 
+Pengujian 
+Triaksial, 
+dan 
+Unconfined 
+Compression Strength (UCS)”, Universitas 
+Riau, 2010. 
+[6] 
+W. A. Tama. A, E. Priadi, dan Aprianto, 
+“Analisa 
+Deformasi 
+Tanah 
+Lempung 
+Bentonite”, 2006. 
+[7] 
+R. Yuliet, A. Hakam, dan G. Febrian, “Uji 
+Potensi Mengembang Pada Tanah Lempung 
+Dengan 
+Metoda 
+Free 
+Swelling 
+Test”,  
+Universitas Andalas, 2011. 
+[8] 
+Jamaluddin. K, “X-RD (X-Ray Diffraction)”, 
+Universitas Haluoleo, 2010. 
+[9] 
+G. Herman, dan T. Liong, “Analisa Stabilitas 
+Lereng dengan Limit Equilibrium dan Finite 
+Element”, Tugas Akhir - Sarjana, Binus 
+University, 2011. 
+[10] M. Arif, dan A. Widodo, “Analisa Balik 
+Kelongsoran”, Tugas Akhir Program Sarjana, 
+Institut Teknologi Surabaya, 2006. 
+[11] K. Sasongko, “Muatan Tanah”, Universitas 
+Gajah Mada, 2013. 
+[12] K. Widiatmono, dan H. Siswanto, “Stabilisasi 
+Tanah Lempung dengan Kapur Pertanian 
+(CaCO3) di Daerah Rawa Pening Kabupaten 
+Semarang”, Universitas Dipenogoro, 2007. 
+ 

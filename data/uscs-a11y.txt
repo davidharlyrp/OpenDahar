@@ -1,0 +1,169 @@
+CALIFORNIA DEPARTMENT OF TRANSPORTATION 
+(CAL TRANS) 
+UNIFIED SOIL CLASSIFICATION SYSTEM 
+UNIFIED SOIL CLASSIFICATION AND SYMBOL CHART 
+COARSE-GRAINED SOILS 
+(more than 50% of material is larger than No. 200 sieve size.) 
+GRAVELS 
+More than 50% 
+of coarse 
+fraction larger 
+than No. 4 
+sieve size 
+SANDS 
+50% or more 
+of coarse 
+fraction smaller 
+than No. 4 
+sieve size 
+Clean Gravels (Less than 5% fines) 
+GW 
+GP 
+Well-graded gravels, gravel-sand 
+mixtures, little or no fines 
+Poorly-graded gravels, gravel-sand 
+mixtures, little or no fines 
+Gravels with fines (More than 12% fines) 
+GM 
+GC 
+Silty gravels, gravel-sand-silt mixtures 
+Clayey gravels, gravel-sand-clay 
+mixtures 
+Clean Sands (Less than 5% fines) 
+SW 
+SP 
+Well-graded sands, gravelly sands, 
+little or no fines 
+Poorly graded sands, gravelly sands, 
+little or no fines 
+Sands with fines More than 12% fines 
+SM 
+Silty sands, sand-silt mixtures 
+SC 
+Clayey sands, sand-clay mixtures 
+FINE-GRAINED SOILS 
+(50% or more of material is smaller than No. 200 sieve size.) 
+SILTS 
+AND 
+CLAYS 
+Liquid limit 
+less than 
+50% 
+SILTS 
+AND 
+CLAYS 
+Liquid limit 
+50% 
+or greater 
+HIGHLY 
+ORGANIC 
+SOILS 
+ML 
+CL 
+OL 
+MH 
+CH 
+OH 
+PT 
+Inorganic silts and very fine sands, rock 
+flour, silty of clayey fine sands or clayey 
+silts with slight plasticity 
+Inorganic clays of low to medium 
+plasticity, gravelly clays, sandy clays, 
+silty clays, lean clays 
+Organic silts and organic silty clays of 
+low plasticity 
+Inorganic silts, micaceous or 
+diatomaceous fine sandy or silty soils, 
+elastic silts 
+Inorganic clays of high plasticity, fat 
+clays 
+Organic clays of medium to high 
+plasticity, organic silts 
+Peat and other highly organic soils 
+LABORATORY CLASSIFICATION CRITERIA 
+cu 
+D50 
+D30 
+GW 
+= -- greater than 4; Cc = 
+between 1 and 3 
+D10 
+010 x D50 
+GP 
+Not meeting all gradation requirements for GW 
+GM 
+Atterberg limits below "A" 
+Above "A" line with P.I. between 
+line or P.I. less than 4 
+4 and 7 are borderline cases 
+GC 
+Atterberg limits above "A" 
+requiring use of dual symbols 
+line with P. I. greater than 7 
+cu 
+D50 
+D30 
+= -- greater than 4; Cc = 
+between 1 and 3 
+SW 
+D10 
+01oxD60 
+SP 
+Not meeting all gradation requirements for GW 
+SM 
+Atterberg limits below "A" 
+Limits plotting in shaded zone 
+line or P.I. less than 4 
+with P.I. between 4 and 7 are 
+Atterberg limits above "A" 
+borderline cases requiring use 
+SC 
+line with P. I. greater than 7 
+of dual symbols. 
+Determine percentages of sand and gravel from grain-size curve. Depending 
+on percentage of fines (fraction smaller than No. 200 sieve size), 
+coarse-grained soils are classified as follows: 
+Less than 5 percent .................................... GW, GP, SW, SP 
+More than 12 percent ... ............................... GM, GC, SM, SC 
+5 to 12 percent ................... Borderline cases requiring dual symbols 
+PLASTICITY CHART 
+60 
+,,/ 
+~ 
+~ 50 
+~ 
+CH / / 
+>< 
+40 
+V" ALINE: 
+w 
+C 
+Vp1 = on(LL-20) 
+~ 30 
+>-
+CL ,,/ MHloH 
+I-u 20 
+/ 
+j:: 
+/ 
+(/) 
+<( 
+10 
+...J 
+CL+ML 
+./ ML&OL 
+II.. 
+00 
+I 
+10 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+LIQUID LIMIT (LL) (%) 

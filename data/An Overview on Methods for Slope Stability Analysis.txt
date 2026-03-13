@@ -1,0 +1,1074 @@
+An Overview on Methods for Slope Stability 
+Analysis 
+ 
+ 
+     Mr. Digvijay P. Salunkhe
+ 
+Assist.
+ 
+Prof. Guruprasd Chvan
+ 
+                       
+T E. Civil, Department of Civil Engineering
+ 
+                       
+Department of Civil Engineering
+ 
+KIT'S College of Engineering, 
+ 
+KIT'S College of Engineering,
+ 
+Kolhapur, India.
+ 
+Kolhapur, India.
+ 
+  
+Ms.
+ 
+Rupa N. Bartakke,
+ 
+ 
+Ms. Pooja R Kothavale
+ 
+B.E. Civil, Department of Civil Engineering
+ 
+B.E. Civil, Department of Civil Engineering
+ 
+KIT'S College of Engineering, 
+ 
+KIT'S College of Engineering,
+ 
+Kolhapur, India.
+ 
+Kolhapur, India.
+ 
+  
+ 
+ 
+Abstract: The analysis of slope stability has received widely 
+attention now days because of its practical importance. To 
+provide steepest slops which are stable and safe various 
+investigations are ongoing. Stability is determined by the 
+balance of shear stress and shear strength. If the forces available 
+to resist movement are greater than the forces driving 
+movement, the slope is considered stable. A
+ 
+factor of safety is 
+calculated by dividing the forces resisting movement by the 
+forces driving movement. A previously stable slope may be 
+initially affected by preparatory factors, making the slope 
+conditionally unstable. The field of slope stability encompasses 
+static and dynamic stability of slopes of earth and rock-fill dams, 
+slopes of embankments, excavated slopes, and natural slopes in 
+soil and soft rock.  
+ 
+Various methods are available for slope stability analysis. 
+This paper aims an overview on various methods of slope 
+stability on the basis of assumptions, Factor of safety 
+calculation, soil conditions, soil types, applicability of output of 
+the method with its limitations. This paper also aims to focus 
+some new mathematical tools which can be applicable for 
+stability analysis of slope.
+ 
+  
+I.
+ 
+ 
+INTRODUCTION
+ 
+A slope is defined as a surface of which one end or side is 
+at higher level than another; a rising or falling surface. An 
+earth slope is an un supported, inclined surface of a soil mass. 
+The failure of a mass of soil located beneath a slope is called 
+as slide. It involves a downward and outward movement of the 
+entire mass of soil that participates in the failure. The failure 
+of slopes takes place mainly due to,
+ 
+The action of gravitational forces, and  
+ 
+Seepage forces within the soil.
+ 
+             They may also fail due to excavation or 
+undercutting of its foot, or due to gradual disintegration of the 
+structure of the soil. Slides may occur in almost every 
+conceivable manner, slowly or suddenly, and with or without 
+any apparent provocation.
+ 
+             Slope stability analysis is performed to assess the 
+safe design of a human-
+ 
+made or natural slopes and the 
+equilibrium conditions. Slope is the resistance of inclined 
+surface to failure by sliding or collapsing. The failure of a 
+slope may lead to loss of life and property. It is therefore, 
+essential to check the stability of proposed slopes. With the 
+development of modern method of testing of soils and stability 
+analysis, a safe and economical design of slope
+ 
+is possible. 
+The geotechnical engineer should have a thorough knowledge 
+of the various methods for checking the stability of slopes and 
+their limitations. 
+ 
+A. The main types of slope are the:
+ 
+1.
+ 
+Infinite slope: if a slope represents boundary 
+surface of a semi infinite soil mass and the soil 
+properties for all identical depths below the 
+surface are constant is called as infinite slope.
+ 
+2.
+ 
+Finite slope: if the slope is of limited extent it is 
+called as finite slope.
+ 
+B. 
+ 
+Application:
+ 
+1.
+ 
+It is used to road cuts, open-pit mining, 
+excavations, and landfills.
+ 
+2.
+ 
+It is used to earthen dam.
+ 
+3.
+ 
+It is also used to railway formation, 
+highway embankment, canal bank, levees 
+etc.
+ 
+4.
+ 
+It is used to deep-seated failure of 
+foundations and retaining walls.
+ 
+C.
+ 
+Methods of construction:
+ 
+                         The conventional method is used for 
+the slope construction in that first earth soil laid on 
+the surface. After that roller is applied on surface of 
+the earth soil,
+ 
+for the compaction of soil. Before, all 
+this procedure some test are required such as OMC 
+(optimum moisture content), dry density using 
+proctor test or modified proctor test methods.
+ 
+International Journal of Engineering Research & Technology (IJERT)
+ISSN: 2278-0181
+http://www.ijert.org
+IJERTV6IS030496
+(This work is licensed under a Creative Commons Attribution 4.0 International License.)
+Published by :
+www.ijert.org
+Vol. 6 Issue 03, March-2017
+528
+D. Methods for analysis: 
+1. Limit equilibrium: 
+a. Analytical technique- Methods of slices  
+ 
+Swedish slip circle method of analysis 
+ 
+Ordinary method of slices  
+ 
+Modified bishop’s method of analysis   
+ 
+Lorimar’s method of analysis 
+ 
+Spencer’s method of analysis  
+ 
+Sarma method of analysis 
+ 
+Taylors stability number 
+2. Finite element method: 
+ 
+The probabilistic FE method: 
+ 
+Perturbation Method  
+ 
+Monte 
+Carlo 
+simulation 
+and 
+Direct 
+Coupling Approach. 
+3. Numerical method of modeling: 
+ 
+Continuum modeling 
+ 
+Discontinuum modeling 
+ 
+Hybrid/coupled modeling 
+ 
+II. 
+LITERATURE REVIEW 
+1. Carol Matthews and Zeena Farook, Arup; And Peter 
+Helm (2014): Was published “Slope stability analysis– 
+limits equilibrium or the finite element method”. 
+They concluded that, as computers and their application 
+evolve in geotechnical analysis; it seems that we should 
+be looking to more advanced ways to analyses slope 
+stability. This study has shown that there are significant 
+opportunities in using the more comprehensive finite 
+element analysis. However, the traditional Limit 
+Equilibrium method remains able to produce accurate 
+and reliable results. The both have their advantage sand 
+disadvantages with the choice of which method to use 
+depending on some of the considerations described 
+below the method the user selects should be based on the 
+complexity of the problem to be modeled. For example 
+problems with complex geometries or that requires 
+analysis of seepage, consolidation and other coupled 
+hydrological and mechanical behavior (pore water 
+pressure induced with more complex mechanical soil 
+responses (e.g. post failure strain softening and 
+progressive failure) may be better tackled using FE 
+analysis. 
+2. Khaled Farah, Mounir Ltifi And Hedi Hassis 
+(2015): were published “A Study of Probabilistic FEMs 
+for a Slope Reliability Analysis Using the Stress Fields”. 
+In this paper, they were concluded the perturbation 
+method and the spectral stochastic finite element method 
+(SSFEM) using random field theory are presented. These 
+methods are applied to analyze the stability of a 
+homogeneous slope assuming an elastic soil behavior. To 
+overcome the absence of the analytical solution of the 
+mean and standard deviation of the factor of safety, the 
+Monte Carlo simulation combined with the deterministic 
+finite element code is applied. In fact, the perturbation 
+method provides satisfactory results and it is easy to 
+apply even with high random field expansion order. 
+3. Bozana Bacicn (2014): “Slope stability analysis” in 
+that paper they conclude a methodology of slope stability 
+analysis and provide an insight into the basic of 
+landslides and their general terms. Natural process of 
+constant affected by change in relationship for shearing 
+stress and resistance. 
+4. A. Burman, S. P. Acharya etc. all (2015):  
+“Comparative study of slope stability analysis using 
+traditional limit equilibrium method and finite element 
+method” In that they concluded that present work, limit 
+equilibrium technique (ordinary slice method, Bishop’s 
+method, Spencer’s method, Morgenstern-Price method) 
+and finite element method have been used to the study 
+different slope stability problems. Also, it is observed 
+that ordinary slice method provides most conservative 
+estimation of factor of safety values amongst all the limit 
+equilibrium techniques considered in this paper. 
+Therefore, any design of slopes carried out with ordinary 
+slice method is likely to be always on the safer side. 
+Other limit equilibrium methods like Ordinary Bishop's 
+Method, Spencer's Method and Morgenstern and Price's 
+method attempt to establish a more realistic estimation of 
+interstice forces which may develop in reality. But they 
+lead to somewhat higher estimation of factor of safety. 
+The FOS values obtained using finite element method 
+compare very well with that obtained from limit 
+equilibrium methods. In finite element method, the FOS 
+for critical slip surface is automatically obtained. In case 
+of limit equilibrium methods, several slip surfaces should 
+be analyzed to find the critical slip surface. These types 
+of trial and error calculations are not required with FEM 
+to find out the critical slip surface because the failure 
+occurs through the zone of weakest material properties 
+and automatically the critical slip surface is determined. 
+Furthermore, finite element method satisfies the 
+equations of equilibrium and compatibility equations 
+from theory of elasticity. Therefore, it serves as a more 
+mathematically robust platform. Also, displacements, 
+stress and strains at various nodes in the slope domain 
+are also obtainable from finite element method. These 
+are few of the additional benefits of using finite element 
+method. 
+5. Reginald Hammah  et, all (1999): “ A comparison of 
+finite element slope stability analysis with conventional 
+limit equilibrium investigation” - As stated by Griffiths 
+and Lane, , opinions that the FE SSR may be complex 
+overlook the fact that ‘slip circle’ analyses may produce 
+misleading results. As such we encourage geotechnical 
+engineers to adopt the SSR as an additional robust and 
+powerful tool for designing and analyzing slopes. It can 
+help uncover important behavior that may otherwise go 
+unnoticed.   
+III. 
+OBJECTIVES  
+ 
+To study principles of limit equilibrium methods and 
+finite element methods in slope stability analysis.  
+ 
+To study the suitability of each method for particular 
+soil type and slope condition with factor of safety. 
+ 
+To suggest mathematical tools for slope stability 
+analysis. 
+International Journal of Engineering Research & Technology (IJERT)
+ISSN: 2278-0181
+http://www.ijert.org
+IJERTV6IS030496
+(This work is licensed under a Creative Commons Attribution 4.0 International License.)
+Published by :
+www.ijert.org
+Vol. 6 Issue 03, March-2017
+529
+IV. 
+METHODS OF ANALYSIS 
+                    In slope stability analysis the limit equilibrium 
+and finite equilibrium methods these are two basic types. The 
+major difference in between these two methods is following: 
+TABLE I.  
+COMPARION OF LIMIT EQUILIBRAM METHOD AND 
+FINITE ELEMENT METHOD 
+ 
+S
+r. 
+no 
+Limit equilibrium method 
+Finite element method 
+1 
+In limit equilibrium method 
+currently most stability analysis 
+it 
+involves 
+due 
+to 
+most 
+simplicity and accuracy. 
+In finite analysis method based 
+on computer performance has 
+improved application of FE in 
+geotechnical analysis. 
+2 
+In limit equilibrium method 
+it must search for critical 
+surface by using geometry. 
+In finite element method the 
+critical surface is automatically 
+find out by various software’s. 
+3 
+The advantages of limit 
+equilibrium method: The limit 
+equilibrium method of slices is 
+based 
+on 
+purely 
+on 
+the 
+principles of statics; that is, the 
+summation of moments, vertical 
+forces, and horizontal forces. 
+The method says nothing about 
+stress, strain and displacements, 
+and as a result it does not satisfy 
+displacement compatibility. 
+The 
+advantages 
+of 
+finite 
+element method: In FE method is 
+to for model slopes with a degree 
+of very high realism (complex 
+geometry, sequence of loading, 
+presence 
+of 
+material 
+for 
+reinforcement, action of water, 
+and 
+laws 
+of 
+complex 
+soil 
+behavior) 
+and 
+also 
+better 
+visualizes the deformation of soil 
+in place.  
+4 
+It’s required only simple 
+Mohr-coulomb soil model. 
+It must have complete stress-
+strain model for soil. 
+5 
+It 
+cannot 
+compute 
+displacement. 
+It can compute displacement. 
+6 
+Limit equilibrium method 
+cannot 
+model 
+progressive 
+failure. 
+Finite element method can 
+model progressive failure. 
+[1][2][8] 
+ 
+1. Limit equilibrium method: 
+ 
+Fig. 1. Limit equilibrium method 
+           In Limit equilibrium methods investigate the 
+equilibrium of a soil mass tending to slide down under the 
+influence of gravity. Transitional or rotational movement is 
+considered on an assumed or known potential slip surface 
+below the soil or rock mass. In rock slope engineering, 
+methods may be highly significant to simple block failure 
+along distinct discontinuities. All these methods are based on 
+the 
+comparison 
+of forces, moments, 
+or stresses resisting 
+movement 
+of 
+the 
+mass 
+with 
+those 
+that 
+can 
+cause unstable motion (disturbing forces). The output of the 
+analysis is a factor of safety, defined as the ratio of the shear 
+strength (or, alternatively, an equivalent measure of shear 
+resistance or capacity) to the shear stress (or other equivalent 
+measure) required for equilibrium. If the value of factor of 
+safety is less than 1.0, the slope is unstable. 
+A. GENERAL ASSUMPTION OF LIMIT EQUILIBRIUM: 
+       The soil mass must be safe against slope failure on any 
+conceivable surface across the slope. In this method using the 
+theory of elasticity or plasticity are also being increasingly 
+used, the  most common method based on limit equilibrium 
+in which it is assumed soil is at verge of failure. The limit 
+equilibrium is statically indeterminate analysis. As the stress 
+strain relationship along assume surface are not known, so 
+necessary that system becomes statically determinant and it 
+can be analyzed easily using the equation of equilibrium. 
+Following assumption are generally made, 
+a) The stress system is assumed to be two-dimensional. 
+The stresses in the third direction (perpendicular to 
+the section of the soil mass) are taken as zero. 
+b) It is assumed that the column equation for shear 
+strength is applicable and the strength parameters ϲ 
+and φ are known. 
+c) It is further assumed that the seepage conditions and 
+water level are known, and the corresponding pore 
+water pressure can be estimated. 
+d) The condition of plastic failure as assumed to be 
+satisfied along the critical surface in other word 
+shearing strains at all points of the critical surface 
+are large enough to mobilize all the available shear 
+strength.  
+e) Depending upon the method of analysis some 
+additional assumption are made regarding the 
+magnitude and distribution of forces along various 
+planes. [1] 
+B. ANALATICAL METHODES OF LIMIT EQUILIBRIUM: 
+Method of slices: 
+                           
+   
+Fig. 2. Method of slices 
+International Journal of Engineering Research & Technology (IJERT)
+ISSN: 2278-0181
+http://www.ijert.org
+IJERTV6IS030496
+(This work is licensed under a Creative Commons Attribution 4.0 International License.)
+Published by :
+www.ijert.org
+Vol. 6 Issue 03, March-2017
+530
+ 
+The slices are the most popular limit equilibrium 
+technique. In this approach, the soil mass is discredited into 
+vertical slices. Several versions of the method are in use. 
+These variations can produce different results (factor of 
+safety) because of different assumptions and inter-slice 
+boundary conditions. 
+            The location of the interface is typically unknown 
+but can be found using numerical optimization methods. For 
+example, functional slope design considers the critical slip 
+surface to be the location where that has the lowest value of 
+factor of safety from a range of possible surfaces. A wide 
+variety of slope stability software uses the limit equilibrium 
+concept with automatic critical slip surface determination. 
+           Typical slope stability software can analyze the 
+stability of generally layered soil slopes, embankments, earth 
+cuts, and anchored sheeting structures. Earthquake effects, 
+external loading, groundwater conditions, stabilization forces 
+(i.e., anchors, geo-reinforcements etc.) can also be included. 
+[1] 
+a. Swedish slip circle method: 
+             In Swedish slip circle method assume frictional 
+angle of soil or rock is equal to zero. Due to this assumption 
+the frictional angle is considered to be zero. So the effective 
+stress term goes to zero. Thus equating shear strength to the 
+cohesion parameter of the give soil. In this method assume a 
+circular failure interface and analyze stress and strength 
+parameters using circular geometry and statics. The moment 
+caused by internal driving forces of a slope is compared to 
+the moment caused by forces resisting slope failure. If 
+resisting forces are greater than driving force the slope is 
+assume stable. 
+ 
+ 
+Fig. 3. Swedish slip circle method 
+Factor of safety for the slice is equal to the ratio of the 
+resisting moment (𝑀𝑅) and the overturning moment (𝑀𝑂), 
+Thus  
+ 
+𝐹𝑆= 𝑟[𝑐 𝛥𝐿+ 𝑁tan φ]
+𝑇𝑟
+= 𝑐 𝛥𝐿+ 𝑁tan φ
+𝑇
+ 
+Factor of safety of the entire wedge is given by, 
+ 
+𝐹𝑆= Ʃ𝑐 𝛥𝐿+ Ʃ𝑁tan φ
+Ʃ𝑇
+ 
+If 𝑐 and φ are constant, 
+ 
+𝐹𝑆= 𝑐 𝐿𝑎+ tan φ Ʃ𝑁
+Ʃ𝑇
+ 
+ 
+Where, 𝐿𝑎= length of the entire slip surface = Ʃ 𝛥 𝐿  [1] 
+ 
+ 
+Assumption:  
+ 1] Infinitely long slope.  
+ 2] Slip surface parallel to surface. 
+3] Friction angle of soil or rock equal to zero. 
+ 
+Limitation and application:  
+           Un-drained analyses in saturated clays, φ = 0. 
+Relatively thick zones of weaker materials, here circular 
+surface is appropriate. 
+b.  Ordinary method of slices- 
+ 
+Ordinary method of slices is found in 1927 by 
+Fellenius. In the method of slices or the Fellenius method, the 
+sliding mass above the failure surface is divided into a 
+number of slices. The forces acting on each slice are obtained 
+by considering the mechanical (force and moment) 
+equilibrium for the slices. Each slice is considered on its own 
+and interactions between slices are neglected because the 
+resultant forces are parallel to the base of each slice. However, 
+Newton's third law is not satisfied by this method because, in 
+general, the resultants on the left and right of a slice do not 
+have the same magnitude and are not collinear 
+ 
+These allows for a simple static equilibrium 
+calculation, considering only soil weight, along with shear 
+and normal stresses along the failure plane. Both the friction 
+angle and cohesion can be considered for each slice. In the 
+general case of the method of slices, the forces acting on a 
+slice are shown in the figure. 
+ 
+Fig. 4. Ordinary method of slices 
+ 
+In this method of slice factor of safety is very low, 
+very inaccurate for flat slopes with high pore pressure, only 
+for circular slip surface, assume that normal forces on the 
+base of each slice is Wcosα.  In this method of slice is one 
+equation for the moment of equilibrium in entire mass. In this 
+method of slice only one unknown is found, that is factor of 
+safety. [3] 
+ 
+International Journal of Engineering Research & Technology (IJERT)
+ISSN: 2278-0181
+http://www.ijert.org
+IJERTV6IS030496
+(This work is licensed under a Creative Commons Attribution 4.0 International License.)
+Published by :
+www.ijert.org
+Vol. 6 Issue 03, March-2017
+531
+Side forces neglected (statically determinant). 
+Effective Stress Analysis, (ESA) 
+ 
+𝐹𝑆= Ʃ{𝑐′𝑙+ [(𝑊𝑏) cos 𝛼−𝑢𝑙] tan ∅′}
+⁄
+Ʃ[(𝑊𝑏) sin 𝛼]
+⁄
+ 
+ 
+Total stress analysis, (TSA) 
+ 
+𝐹𝑆=
+Ʃ(𝑆𝑢𝑙)
+Ʃ[(𝑊𝑏) sin 𝛼]
+⁄
+     
+[3] 
+ 
+Assumption: 
+1] Infinitely long slope.  
+2] Slip surface parallel to surface. 
+3] Inter slice forces are neglected. 
+ 
+Limitation and application:  
+           It is very inaccurate for flat slopes with high pore 
+pressure. Non homogeneous slopes and c – φ soils where 
+circular surface is appropriate. It’s Convenient for hand 
+calculations. Inaccurate for effective stress analyses with high 
+pore pressures. 
+ 
+c. 
+ Modified Bishop’s method of analysis- 
+ 
+Modified Bishop’s method is found in 1955, it is 
+invented by Bishop. This method is slightly different from the 
+ordinary method of slices. In this normal interaction forces 
+between adjacent slices are assumed to be collinear and the 
+resultant inter slice shear force is zero. The method has been 
+shown to produce factor of safety values within a few percent 
+of the "correct" values. Factor of safety appears both on the 
+left and right hand sides of the equation. 
+This method satisfies vertical force equilibrium for each 
+slice and overall moment equilibrium about the center of the 
+circular trial surface. Since horizontal forces are not 
+considered at each slice, the simplified Bishop method also 
+assumes zero inter slice shear forces. [3] 
+ 
+ 
+Fig. 5. Modified Bishop’s method of analysis 
+ Neglecting side forces (OMS) produces FS too low 
+(conservative) 
+Assume side shear forces are zero but account for side 
+normal forces. 
+Effective Stress Analysis (ESA)  
+𝐹𝑆=
+Ʃ{𝑚𝑐′ + [(𝑊𝑏) −𝑢𝑚] tan ∅′
+⁄
+𝜓
+}
+Ʃ[(𝑊𝑏) sin 𝛼]
+⁄
+ 
+ 
+𝜓= cos 𝛼+ sin 𝛼tan ∅′
+𝐹𝑆
+ 
+Total stress analysis, 
+𝐹𝑆=
+Ʃ( 𝑚𝑠𝑢
+cos 𝛼)
+Ʃ[(𝑊𝑏) sin 𝛼]
+⁄
+ 
+[3] 
+ 
+Assumption: 
+ 1] Circular surface. 
+ 2] Side forces are horizontal. 
+ 3] Collinear and resultant inter slice for shear force equal 
+to zero. 
+ 
+Limitation and applications: 
+           One important limitation for the Bishop method to 
+be correctly applied is that all failure surfaces must be 
+circular. 
+ 
+d.  Lorimar’s method- 
+ 
+Lorimar’s Method is a technique for evaluating 
+slope stability in cohesive soils. It differs from Bishop's 
+Method in that it uses a clothoid slip surface in place of a 
+circle. This mode of failure was determined experimentally to 
+account for effects of particle cementation. 
+The method was developed in the 1930s by Gerhardt 
+Lorimar (Dec 20, 1894-Oct 19, 1961), a student of 
+geotechnical pioneer Karl von Terzaghi. 
+ 
+e. 
+ Spencer’s Method -  
+           Spencer (1967) developed his analysis based on the 
+method of slices of Fellenius (1927) and Bishop (1955). For 
+slope stability analysis with general, arbitrarily shaped failure 
+surfaces, the Spencer's method has been found to provide a 
+reasonably accurate result. This method satisfies both 
+moment and force equilibrium of the sliding mass. However, 
+a number of iterations are required to obtain an accurate value 
+of factor of safety satisfying the complete equilibrium. In 
+addition, problems of non convergence often occur when a 
+search is required to determine the shape of the failure 
+surfaces. Such search was found to be necessary to obtain the 
+lowest factor of safety. A good approach for this type of 
+analysis is to perform the search using a less elaborate 
+method and utilize a more accurate but time consuming 
+method once the critical failure surface is obtained. To 
+implement this approach a subroutine is included in the 
+computer program PCSTABL5M which enables it to search 
+for the most critical surface using the Simplified Janbu 
+method and, subsequently, analyze it with the Spencer's 
+method. In addition, the Ordinary Method of Slices is added 
+for back cut analysis since the Spencer's method was found to 
+yield unreasonable results for this type of analysis. The 
+computer program has been used extensively for a hillside 
+grading project which involved the mitigation of complex 
+landslides and faulting system. The analysis is in terms of 
+International Journal of Engineering Research & Technology (IJERT)
+ISSN: 2278-0181
+http://www.ijert.org
+IJERTV6IS030496
+(This work is licensed under a Creative Commons Attribution 4.0 International License.)
+Published by :
+www.ijert.org
+Vol. 6 Issue 03, March-2017
+532
+effective stress and satisfies two equations of equilibrium, the 
+first with respect to forces and the second with respect to 
+moments. The inter slice 
+Forces are assumed to be parallel. The factor of safety 
+expressed as, 
+ 
+𝐹𝑆= 𝑆ℎ𝑒𝑎𝑟 𝑠𝑡𝑟𝑒𝑛𝑔𝑡ℎ 𝑎𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒
+𝑆ℎ𝑒𝑎𝑟 𝑠𝑡𝑟𝑒𝑛𝑔𝑡ℎ 𝑚𝑜𝑏𝑖𝑙𝑖𝑧𝑒𝑑 
+ 
+The mobilized angle of shear resistance and other factors 
+are expressed as, 
+ 
+tan ∅′𝑚=
+tan ∅′
+𝐹𝑠     [2] 
+ 
+Assumption: 
+1] Inter slice forces parallel. 
+ 
+Limitation and application: 
+It is Applicable to virtually all slopes. This is simplest full 
+equilibrium procedure for computing the factor of safety. 
+ 
+f. 
+ Sarma method - The method of Sarma is a simple, 
+but accurate method for the analysis of slope 
+stability, which allows to determine the horizontal 
+seismic acceleration required so that the mass of soil, 
+delimited by the sliding surface and by the 
+topographic profile, reaches the limit equilibrium 
+state (critical acceleration Kc) and, at the same time, 
+allows to obtain the usual safety factor obtained as 
+for the other most common geotechnical methods. 
+ 
+Assumption:  
+1]The normal stress acts in the midpoint of the base of the 
+slice.  
+ 
+Limitation and application:  
+The Sarma method is generally suited to more complex 
+problems using non-vertical slice boundaries. Slice boundary 
+properties can be set independently of surrounding material 
+properties, thus allowing modelling of discontinuities and 
+faults. It can even be used to simulate foundation problems. 
+It is a method based on the principle of limit equilibrium of 
+the slices, therefore, is considered the equilibrium of a 
+potential sliding soil mass divided into n vertical slices of a 
+thickness sufficiently small to be considered eligible the 
+assumption that the normal stress Ni acts in the midpoint of 
+the base of the slice.  
+ 
+g.   Taylor’s stability number- 
+             If the slope angle β, height of embankment𝐻 , the 
+effective unit weight of material y, angle of Internal friction φ 
+', and unit cohesion c' are known, the factor of safety may be 
+determined. In order to make unnecessary the more or less 
+tedious stability determinations, Taylor (1937) conceived the 
+idea of analysing the stability of a large number of slopes 
+through a wide range of slope angles φ’ and angles of internal 
+friction, and then representing the results by an abstract 
+number which he called the "stability number". This number 
+is designated as Ns. The expression used is 
+ 𝑁𝑠=
+𝑐′
+𝐹𝑐 𝛾𝐻 
+From this the factor of safety with respect to cohesion may 
+be expressed as 
+𝐹𝑠=
+𝑐′
+𝑁𝑐 𝛾𝐻 
+ 
+         Taylor published his results in the form of curves 
+which give the relationship between Ns and The slope angles 
+β for various values of φ' as shown in Fig 6-A. These curves 
+are for circles passing through the toe, although for values of 
+β less than 53°, it has been found that the most dangerous 
+circle passes below the toe. However, these curves may be 
+used without serious error for slopes down to β = 14°. The 
+stability numbers are obtained for factors of safety with 
+respect to cohesion by keeping the factor of safety with 
+respect to friction (𝐹∅ ) equal to unity. In slopes encountered 
+in practical problems, the depth to which the rupture circle 
+may extend is usually limited by ledge or other underlying 
+strong material as shown in Fig 7-B. The stability number Ns 
+for the case when φ'= 0 is greatly dependent on the position 
+of the ledge. The depth at which the ledge or strong material 
+occurs may be expressed in terms of a depth factor 𝑛𝑑 which 
+is defined as, 
+𝑛𝑑 = D
+H 
+Where, D = depth of ledge below the top of the 
+embankment, H = height of slope above the toe. For various 
+values of 𝑛𝑑 and for the φ'= 0 case the chart in Fig 7-B. 
+gives the stability number 𝑁𝑠for various values of slope 
+angle β. In this case the rupture circle may pass through the 
+toe or below the toe. The distance x of the rupture circle from 
+the toe at the toe level may be expressed by a distance factor 
+𝑛𝑥which is defined as, 
+𝑛𝑥= x 
+H  
+The chart shows in fig 7-B the relationship between 
+𝑛𝑑 and𝑛𝑥. If there is a ledge or other stronger material at 
+the elevation of the toe, the depth factor 𝑛𝑑 for this case is 
+unity. 
+ 
+Factor of Safety with Respect to Strength 
+The development of the stability number is based on the 
+assumption that the factor of safety with respect to friction𝐹∅, 
+is unity. The curves give directly the factor of safety𝐹𝑐 with 
+respect to cohesion only. If a true factor of safety 𝐹𝑠with 
+respect to strength is required, this factor should apply 
+equally to both cohesion and friction. The mobilized shear 
+strength may therefore be expressed as, 
+𝑠𝑚= 𝑠
+ 𝐹𝑠
+= 𝑐′
+𝐹𝑠
++ 𝜎tan(ϕ′)
+𝐹𝑠
+ 
+In the above expression, we may write 
+𝑠
+ 𝐹𝑠= 𝑐′𝑚          tan ϕ′𝑚=
+tan ϕ′
+𝐹𝑠           Or,    ϕ′𝑚=
+ϕ′
+𝐹𝑠(𝑎𝑝𝑝𝑟𝑜𝑥. ) 
+𝑐′𝑚 And ϕ′𝑚may be described as average values of 
+mobilized 
+cohesion 
+and 
+friction 
+respectively. 
+[2] 
+International Journal of Engineering Research & Technology (IJERT)
+ISSN: 2278-0181
+http://www.ijert.org
+IJERTV6IS030496
+(This work is licensed under a Creative Commons Attribution 4.0 International License.)
+Published by :
+www.ijert.org
+Vol. 6 Issue 03, March-2017
+533
+ 
+Fig. 6. Taylor’s stability number for circles passing through the toe and 
+below or above the toe 
+ 
+Fig. 7. Taylor’s stability number for φ' = 0 
+                                       
+2. Finite element method -   
+As computer performance has improved, the application of 
+FE in geotechnical analysis has become increasingly common. 
+These methods have several advantages: to model slopes with 
+a degree of very high realism (complex geometry, sequences 
+of loading, presence of material for reinforcement, action of 
+water, laws for complex soil behaviour) and to better 
+visualize the deformations of  soils in place. However, it is 
+critical to understand the analysis output due to the larger 
+number of variables offered to the engineer. The study used 
+Oasys Safe, a program for soil analysis by finite elements. 
+When developing the strength reduction methodology to be 
+applied in Safe, a comparison was made between three 
+differing techniques.   
+For all techniques, an initialization run for a given slope 
+model was carried out and the strains and displacements 
+obtained in that run set to zero for the subsequent FOS 
+assessment. In the first method, an incremental strength 
+reduction was applied to the elastic Mohr-Coulomb material 
+whereby for each follow-on increment the same reduction in 
+global strength was applied.   
+The  second  method  involved  specifying  separate,  
+independent  model  runs  with  revised material parameters 
+corresponding to specific percentage reductions in material 
+strength. The third method used a new feature in Safe, in 
+which the program automatically applies the same strength 
+reduction in successive analysis increments, but once failure 
+is observed, reverts to the last converged increment and 
+refines the strength reduction to obtain an estimate of FOS to 
+an acceptable accuracy.  
+Methods of finite element: 
+A. Perturbation Method: 
+            The perturbation method uses the Taylor series 
+expansion of random functions about the mean values. In the 
+context of the FEM and for quasi-static linear problems, the 
+equilibrium is expressed as follow: 
+ 
+K.U  =  F 
+ 
+In this equation, K is the global stiffness matrix; K is the 
+load vector and U is the nodal displacement vector. 
+The Young’s modulus and the soil strength parameters are 
+considered homogeneous random fields’. [9] 
+ 
+B. Monte Carlo simulation and Direct Coupling 
+Approach: 
+      The Monte Carlo simulation is used to generate a 
+sample that corresponds to N independent standard normal 
+variables according to the Karhunen-loève expansion of the 
+random fields. For each realization, the factor of safety is 
+calculated using a deterministic finite element code. The 
+element stiffness matrix is computed for each realization of 
+the random field H using the following relation: 
+𝐾𝑒(𝜃0) = ∫𝐻(𝑥, 𝜃0)
+Ω𝑒
+𝐵𝑇(𝑥)𝐷𝑂𝐵(𝑥)𝑑Ω𝑒 
+ 
+In this equation, 𝐷𝑂is a constant matrix, 𝐵 is the matrix 
+that relates the components of strain to the nodal 
+displacements element and H (.)is the random field that 
+represents the soil Young’s modulus. The assembling of the 
+elements contributions above Eq. leads to the global stiffness 
+matrix K. The Monte Carlo simulation is applied to evaluate 
+the factors of safety, and then their statistical treatment is 
+subsequently performed. In addition, direct coupling 
+approach based on the combination of the deterministic finite 
+code and FORM algorithm is used to assess the reliability 
+International Journal of Engineering Research & Technology (IJERT)
+ISSN: 2278-0181
+http://www.ijert.org
+IJERTV6IS030496
+(This work is licensed under a Creative Commons Attribution 4.0 International License.)
+Published by :
+www.ijert.org
+Vol. 6 Issue 03, March-2017
+534
+index. Thus, the probability of failure can be estimated. In 
+this study, the values evaluated by the Monte Carlo 
+simulation and direct coupling approach are considered as 
+reference values. [9] 
+ 
+3. Numerical method of analysis: 
+           Numerical 
+modelling 
+techniques 
+provide 
+an 
+approximate solution to problems which otherwise cannot be 
+solved by conventional methods, e.g. complex geometry, 
+material anisotropy, non linear behaviour, in situ stresses. 
+Numerical analysis allows for material deformation and 
+failure, modelling of pore pressure, creep deformation, 
+dynamic loading, assessing effects of parameter variations etc. 
+however numerical modelling is restricted by some 
+limitations. For example, input parameters are not usually 
+measured and availability of these data is generally poor. 
+Analysis must be executed by well trained user effects 
+Meshing errors, hardware memory and time restrictions.[5] 
+A.  Continuum modelling- 
+           Modelling of the continuum is suitable for the 
+analysis of soil slopes Massive intact rock or healthy jointed 
+rock masses. This approach includes finite element method is 
+discrete  the whole mass to finite number of elements with 
+the help of generated mesh (as shown in fig.). Finite element 
+method (FEM) uses the approximation to connectivity 
+elements continuity of displacement and stresses between 
+elements. Most of numerical codes allow modelling of 
+discrete fracture e.g. bedding planes, faults. Several 
+constitutive models are available, for e.g. elasticity, elasto-
+plasticity, strain-softening, elasto-viscoplasticity etc. 
+ 
+B. Discontinuum modeling: 
+          Discontinuum approach is useful for rock slopes 
+controlled by discontinuity behaviour. Rock mass is consider 
+as an aggregation of distinct, interacting blocks subjected to 
+external load an assumed of undergo motion with time. This 
+methodology is collectively called as the discrete element 
+method (DEM). Discontinuum modelling allows for sliding 
+between the block and particles. The DEM is based on 
+solution of dynamic equations of equilibrium for each block. 
+Repeatedly until the boundary conditions and laws of contact 
+and motion are satisfied. Discontinuum modelling belongs to 
+the most commonly applied numerical approach to rock slope 
+analysis. 
+ 
+C. Hybrid/coupled modeling: 
+      Hybrid codes involve the coupling of various 
+methodologies to maximize their key advantages, e.g. limit 
+equilibrium analysis 
+combined 
+with finite 
+element groundwater flow and stress analysis adopted in 
+the SVOFFICE 
+or GEO-STUDIO 
+suites 
+of 
+software; 
+coupled particle 
+flow and finite-difference analyses 
+used 
+in PF3D 
+and FLAC3D.Hybrid 
+techniques 
+allows 
+investigation of piping slope failures and the influence of 
+high groundwater pressures on the failure of weak rock slope. 
+Coupled finite-/distinct-element codes, 
+e.g. ELFEN provide 
+for the modelling of both intact rock behaviour and the 
+development and behaviour of fractures.[5] 
+ 
+VI. CONCLUSION 
+ 
+This paper aims study of various limit equilibrium methods 
+and finite element methods in slope stability analysis based 
+on significant works by numerous authors have been done 
+with regards to stability of slopes. Various parameters and 
+factor of safety equations used by them have been reviewed 
+and discussed briefly. Some mathematical tools are also 
+suggested which can be used for analysis of slope in 
+particular condition. 
+ 
+VII. 
+REFERENCES 
+ 
+[1] Dr. K. R. Arora “Soil mechanics and foundation emginering”, 
+(1987)Standerd publishers distrebuters,(2015) ISBN: 81-8014-112-8 
+[2] Dr. V. N. S. Murthy, “” 
+[3] Dr. B. C. Punmia, Er. Ashok Kumar Jain, Dr. Arun Kumar Jain 
+“Soil mechanics and foundations”Laxmi Publications (P) LTD, 
+1994,2005. 
+[4] Lysandors Pantelitides & D. V. Griffits, “Stability assessement of 
+slopes using different factoring strategies.” University of  Newcast, 
+Newcast. (2013) 
+[5] R. Kourkoulis1, F. Gelagoti,  I. Anastasopoulos,  and G. Gazetas, 
+M.ASCE “Hybrid method for analysis and design of slope 
+stabilizing piles”, (2012), 10.1061/(ASCE)GT.1943-5606 .0000546.  
+[6] D. V. GRIFFITHS and P. A. LANE “Slope stability analysis by fnite 
+elements”.  (1999). Geotechnique 49, No. 3, 387-403 
+[7] Reginald Hammah, Thamer Yacoub, Brent Corkum, John Curran, 
+Lassonde Institute, “Comparision of finite elementslope stablity 
+analysis with conventional limit-equilibrium invistigation”.(2003) 
+University of Toronto, Toronto, Canada 
+[8] Carol Matthews and Zeena Farook, Arup and Peter Helm, “Slope 
+stability analysis – limit equilibrium  or the finite  element method?” 
+(2014), ground engineering  Newcastle University. 
+[9] Khaled Farah,  Mounir Ltifi and Hedi Hassis. “A study of 
+probabilistic FEMs for a slope reliability analysis using the stress 
+fields” (2015), The Open Civil Engineering Journal, 9, 196-206. 
+ 
+International Journal of Engineering Research & Technology (IJERT)
+ISSN: 2278-0181
+http://www.ijert.org
+IJERTV6IS030496
+(This work is licensed under a Creative Commons Attribution 4.0 International License.)
+Published by :
+www.ijert.org
+Vol. 6 Issue 03, March-2017
+535

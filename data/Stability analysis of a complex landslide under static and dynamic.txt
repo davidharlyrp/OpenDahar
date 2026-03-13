@@ -1,0 +1,402 @@
+3. Stability analysis of a complex landslide under static and dynamic
+conditions
+A. CANCELLI, Professor of Engineering Geology and G. CROSTA and P. ROMANI, University of
+Milan, Italy
+The Camporaghena landslide, situated in the Northern Apennines, is a typical example of complex landslide in a
+high seismicity area. The hillslope stability is controlled by climatic, geological, morphological, structural and
+geotechnical factors; results of static, pseudostatic and dynamic stability analyses are presented and discussed.
+INTRODUCTION
+1. This research is part of a multidisciplinary project
+which has the aim to evaluate the stability of rock
+slopes in areas of high seismic hazard (CNR-GNDT,
+U.R. 1.3.2, University of Milan).
+2. The Camporaghena landslide, sited in the North-
+ern Apennines (Tuscany), was selected for such a
+purpose. This is the remobilization of a pre-existing
+old slide (length = 1400 m, breadth = 1000 m,
+volume about 30 Mm3, surface area = 0.5 km ), in
+deeply fractured shales and clayey rocks of the
+Scaglia Rossa formation, in the form of a complex
+slide and as more surficial failures which cause evi-
+dent damage to the village houses.
+3. The most recent strong reactivation of the main
+body of the landslide was caused by the 1920
+earthquake (I = 9). High seismicity (average inten-
+sity = 8) and an annual mean rainfall of 2500 mm/yr
+in the area make it difficult to assess the stability of
+the slope. This paper presents the results from an
+analytical 
+solution 
+for 
+static, 
+pseudostatic 
+and
+dynamic analysis of the rock slope, on the basis of
+available macro-seismic, hydrologic, structural and
+ground-survey data.
+GEOLOGIC AND CLIMATIC OUTLINES
+4. The Camporaghena landslide is sited on the right-
+hand side of Taverone torrent, on the apenninic
+divide between Tuscany and Emily (D'AMATO, 1988),
+in a highly seismic area.
+5. The lithology consists of the non- metamorphic
+Tuscan succession (Triassic to Oligocene). 
+Three
+geologic formations outcrop in the area: the "Calcari
+Cavemosi" formation (limestone and gypsum), the
+"Scaglia Rossa" formation (shale and marls) and final-
+ly the "Macigno" formation (sandstones). 
+It seems
+that gypsum strata and diapirism played a leading
+role for the regional uplift and detachment of huge
+blocks.
+6. The entire slope may be divided in three areas of
+different mobility. Presently, the western portion is the
+more active and three main elements can be distin-
+guished: a major deep-seated old slide (Fig. 1c),
+some associated translational slides and earthflow
+and small shallower slides in the toe area. Information
+on the times, rates and phases of the mass move-
+ments is incomplete.
+7. The seismic history of the area is resumed in a list
+of the recorded earthquakes, generally with surficial
+focus, available since 1680. On this base and some
+other historical data, the map of tectonic flux (Fig. 1a)
+of the Northern Apenninic area has been generated.
+8. Landsliding at Camporaghena, however, is not
+confined to periods of seismic activity, as it is possible
+to observe by field and inclinometer measurements.
+In fact, this area is subject to periods of heavy rainfall
+(max. rainfall intensity = 133 mm/h), as a conse-
+quence of periodic Tyrrhenian cyclonic perturbances,
+that can trigger rapid movements of the main slides.
+A max rainfall map is produced using 30 yrs records
+of 16 rain gauge stations (Fig. 1b).
+9. As a consequence of the above, a complete
+hydrological and climatological study was carried out.
+GEOTECHNICAL / GEOMECHANICAL PROPERTIES
+10. The study of geotechnical properties was carried
+out on samples of shales from different depths in
+boreholes (Fig. 1d), coincident with hypothetical slip
+surfaces. The main soil characteristics, summarized
+in Table I, are the result of classification and index
+tests and of some sets of drained direct shear box
+tests, for a range of normal effective stress up to 300
+kPa, on natural and reconstituted samples.
+11. The geomechanical characteristics were ex-
+amined through 30 structural surveying stations
+(ISRM standards), distributed both inside and outside
+the landslide, trying to find a relationship between
+structures and landslide movements. A statistical
+analysis was carried out on the data and only the
+more representative surveys are shown in Fig. 1c.
+Finally some laboratory tests were carried out to find
+bulk density, specific gravity, uniaxial compressive
+strength (Point Load Strength Test) and the angle of
+internal friction for rock joints (0 = 35-38°, JRC = 8-
+10, according to Barton's, 1971 empirical equation).
+SEISMIC STUDY
+12. Particular care was taken in the analysis of
+seismic data. In order 
+to characterize the design
+Table 1. Geotechnical properties of soils
+Sample type
+Rem. Sample
+(finer n. 40)
+Undist. sample
+Rem. Sample
+(finer n. 40)
+Undist. sample
+Classif.
+ASTM
+GW
+SW
+Bulk density
+t/m3
+2.15
+"- 2
+•
+1 22.8
+27
+22.8
+28
+c1
+KPa
+0
+4
+0
+2
+LL
+%
+34.6
+32.1
+PL
+%
+21.8
+22.1
+w
+%
+13.2
+14
+Slope stability engineering. Thomas Telford, London, 1991.
+19
+Downloaded by [ University of Tennessee] on [11/09/16]. Copyright © ICE Publishing, all rights reserved.
+MECHANICS
+29-90
+18-90
+5-70
+2-80
+B : bedding
+S : slope
+• 
+Structural survey
+jf: Boreholes
+^4 
+Crown
+f~—Cross section
+\ * 
+Attitudes
+# 
+Inclinometers
+0 
+200 m
+11-73
+20-67
+29-60
+Shale
+Tayerone
+torrent
+Extensometers
+w 
+Piezometers
+Calcare cavernoso
+Limestone
+100 m
+Fig 1 a) Tectonic flux map (10 erg/sq.km/yr) - b) Max. annual precipitation map (mm) - c) Structural map of the
+landslide area - d) Longitudinal section 
+K
+strong-motion record, a macro-seismic study was
+performed using different statistical methods.
+13. The first step was to compute the Grandory's
+damping law for epicentral intensity, on the basis of
+the well known 1920 earthquake isoseismal lines.
+Then Gumbel, Gutemberg and Cornell methods were
+applied, on a list of events with intensity greater than
+6 MCS, to evaluate the recurrence interval. The
+former was applied to obviate the problem of
+repeated and precursor events and the second one
+as a checking test. The last one was employed to
+take into account the related events. So the explana-
+tion for the differences, reported in Table II, expecially
+between Gumbel and Cornell outcome, is the removal
+from the earthquakes list of repeated events with high
+intensity. 
+The results of Cornell technique are,
+however, in good accordance with a previous
+analysis (EVA et al, 1986) and so a design recurrence
+interval of 200 yrs was chosen. The macroseismic in-
+tensity for such an event is 7.5+8 MCS scale, equal to
+20
+a 4.85-5.1 magnitude, and the corresponding maxi-
+mum acceleration (Chiaruttini & Siro eq.) is 0.10-0.14
+g. On the basis of these data 5 actual records, each
+one composed of a couple of strong-motion records
+for the principal direction (N-S, E-W), with different
+durations, have been selected (Fig. 2a is an ex-
+ample), together with one of higher intensity, for New-
+mark analysis.
+Table 2. Recurrence interval (yrs)
+INTENSITY
+6
+6.5
+7
+7.5
+8
+8.5
+9
+9.5
+10
+10.5
+RECURRENCE INTERVAL (yrs)
+Gumbel
+55.2
+77.0
+-
+134.5
+268.1
+571.1
+Gutemberg
+12.8
+34.0
+92.0
+300.0
+671.0
+-
+Cornell
+26.5
+50.6
+94.8
+174.4
+314.0
+550.0
+940.0
+1559.0
+2510.9
+3933.0
+Downloaded by [ University of Tennessee] on [11/09/16]. Copyright © ICE Publishing, all rights reserved.
+PAPER 3: C ANCELLIET AL.
+STABILITY ANALYSES
+14. Different types of stability analyses were con-
+ducted 
+on 
+the 
+basis 
+of 
+seismic, 
+hydrologic,
+topographic and inclinometer 
+data. Static (Janbu,
+Morgenstern & Price), pseudostatic 
+and dynamic
+(NEWMARK, 1965; IGARASHI, 1985; BANDIS, 1988)
+techniques were used.
+15. The main outcome of the static methods (Table
+III) was a series of sensitivity tests on the angle of in-
+ternal friction. Pseudostatic analyses were carried out
+to obtain the critical acceleration (Table III). The criti-
+cal acceleration represents the ground motion neces-
+sary to begin the process of slope failure and then it
+is the threshold value to exceed for the beginning of
+the motion. The Newmark analysis, which models the
+landslide as a rigid friction block resting on a slope,
+was used to calculate the expected displacements
+(Fig. 2b and Table IV for the worst conditions) of the
+block in the case of the design strong-motion record.
+In accordance with IGARASHI (1985) a sensitivity test
+was employed on a range of critical acceleration
+values also using strong- motion records of reversed
+sign. The results are plotted in Fig. 3 which shows the
+range.
+DISCUSSION
+16. Looking at Table III (F1 condition is with the
+ground water level represented in Fig. 1d and F2 is a
+completely saturated condition) it is seen 
+that the
+safety factor is already low, for surficial and deep slip
+surfaces, in static conditions, both for Janbu (J) and
+Morgenstern (M) methods. In fact we have recorded,
+by means of inclinometers (SB, SC in Fig. 1d) a total
+displacement of about 10 cm during the last five
+months.
+17. For this reason the critical acceleration values
+are low but it is possible, however, to carry out a
+dynamic analysis. The results of the tests, using the
+worst strong-motion records are summarized in Table
+IV. In particular the 917 N-S strong-motion record
+Table 3. Results of stability analyses
+-0-15
+CD
+8
+SLIP SURFACE « >
+G.W. condition ««>
+Phi (°)
+Fs
+Kc
+b(°)
+J
+M
+J
+M
+SurfictaJ
+F1
+30
+0.88
+0.96
+-
+35
+1.06
+1.17
+0.02
+0.04
+16.1
+Deep
+F1
+30
+0.92
+0.98
+-
+-
+35
+1.12
+1.19
+0.03
+0.04
+17.5
+F2
+30
+1.03
+1.09
+0.009
+0.001
+16.8
+35
+1.25
+1.33
+0.07
+0.09
+17
+Table 4. Results of Newmark analyses
+DISPLACEMENT (cm) (
+STRONG-MOTION RECORD = >
+G.W. condition
+F1
+F2
+Critical accel.
+(Kc = 0.08)
+(Kc = 0.035)
+phi = 35 j
+917
+0.36
+5.63
+891
+0.74
+2.87
+-8
+i—
+Fig. 2. Seismic event 917 N-S: a) strong-motion
+record - b) computed displacement (Kc = 0.035)
+0 
+.2 
+.4 
+.6 
+.8 
+1
+Kcritical/Kpeak
+Fig. 3. Displacement range
+(Fig. 2a) is employed because of its long duration and
+sinusoidal path that may be important for resonance
+effects.
+18. The results of the analyses demonstrate that
+more important structural damage will occur during a
+seismic event and that a drainage network needs to
+be developed.
+REFERENCES
+1. BANDIS C. Dynamic stability of rock slopes: an
+analytical approach-engineering implications. Proc.
+MIR 88, Torino, vol. 18, 1988.
+2. BARTON N.R. A relationship between joint rough-
+ness and joint shear strength. Proc. Int. Symp. on
+Rock Fracture, Nancy, France, 1971, Paper 1-8.
+3. D'AMATO G. La frana di Camporaghena (MS).
+Quad. Geol. Appl., Univ. Pisa, 2, 1988, 13-24.
+4. EVA C. , CATTANEO M. , GIGLIA G. , MERLANTI
+F. Valutazione della pericolosita'. Prog. Terr, in Gar-
+fagnana e Lunigiana, CNR-GNDT-Reg. Toscana, Dip.
+Ambiente, 1986.
+5. IGARASHI S. & HAKUNO M. The response of
+mass- on rough-plane-model due to earthquake.
+Proc. JSCE, no. 380, 1985.
+6. NEWMARK N.M. Effects of earthquakes on dams
+and embankments. Geotechnique, 15, 2, 1965.
+21
+Downloaded by [ University of Tennessee] on [11/09/16]. Copyright © ICE Publishing, all rights reserved.

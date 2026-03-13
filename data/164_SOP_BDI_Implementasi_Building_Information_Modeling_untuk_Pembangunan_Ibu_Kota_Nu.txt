@@ -1,0 +1,5798 @@
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+SOP Implementasi Building Information 
+Modeling untuk Pembangunan Ibu Kota 
+Nusantara 
+Tahun 2024 
+________________________________________________________ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KEMENTERIAN PEKERJAAN UMUM DAN PERUMAHAN RAKYAT 2024 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (1) Dari (83) 
+ 
+ 
+ 
+ 
+Daftar Isi 
+A. 
+DESKRIPSI 
+2 
+B. 
+TUJUAN 
+2 
+C. 
+RUANG LINGKUP 
+2 
+D. 
+DIAGRAM 
+5 
+E. 
+PENJELASAN 
+11 
+I. 
+BIM pada Pra Konstruksi 
+15 
+i. 
+Penyusunan EIR 
+15 
+ii. 
+Pemeriksaan Dokumen BIM Calon Penyedia Jasa 
+17 
+II. 
+BIM pada Konstruksi 
+18 
+i. 
+Penerapan BIM Konstruksi 
+18 
+i.i. 
+Data BM & Koordinat IKN 
+19 
+i.ii. 
+Dimensi BIM 
+21 
+i.iii. 
+LOD & LOI 
+21 
+i.iv. 
+Federation Strategy 
+24 
+i.v. 
+Output Implementasi BIM, Format & Timeline 
+25 
+ii. 
+Pelaksana BIM Proyek 
+28 
+ii.i. 
+Matrix Tanggung Jawab 
+28 
+ii.ii. 
+TIDP (Task Information Delivery Plan) 
+30 
+ii.iii. 
+MIDP (Master Information Delivery Plan) 
+36 
+ii.iv. 
+Meeting dan Koordinasi 
+37 
+iii. 
+Common Data Environment (Struktur Folder, Konten Folder, dan Tanggung 
+jawab) 
+38 
+iii.i. 
+Peran dan Tanggung Jawab 
+40 
+iii.ii. 
+Folder Management Data CDE 
+42 
+iii.iii. 
+Format Penamaan File 
+54 
+iii.iv. 
+Attribute Folder & Status Code CDE 
+56 
+iii.v. 
+Workflow Review, RFI, Transmittal, dan Approval CDE 
+58 
+iii.vi. 
+Keamanan Informasi pada CDE 
+63 
+iv. 
+QA dan QC Model 
+63 
+iv.i. 
+Integrasi Data 
+63 
+iv.ii. 
+Clash Detection Proyek 
+65 
+v. 
+Key Performance Indicator (KPI) 
+70 
+III. 
+BIM Pasca Konstruksi 
+76 
+i. 
+Project Closing 
+77 
+ii. 
+Asset Information Model 
+77 
+iii. 
+QA QC Model AIM 
+78 
+iv. 
+BIM Library 
+78 
+v. 
+Checklist Kelengkapan Handover 
+81 
+vi. 
+Deaktivasi CDE 
+81 
+HALAMAN PENGESAHAN 
+82 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (2) Dari (83) 
+ 
+ 
+ 
+ 
+A. DESKRIPSI 
+Building Information Modelling (BIM) adalah proses yang melibatkan berbagai macam 
+alat, teknologi dan metode secara digital yang digunakan untuk management data dan 
+informasi dan dibuat secara kolaborasi semua pihak untuk seluruh siklus proses konstruksi 
+serta asset management. BIM digunakan dalam berbagai 3D digital model dengan 
+menambahkan data dan informasi lainnya terkait model tersebut untuk berbagai kebutuhan 
+koordinasi serta kolaborasi dalam suatu proses. Data dan model digital memungkinkan 
+pemberi tugas / pengguna jasa (owner) serta pelaksana tugas tersebut melakukan 
+berbagai macam analisis untuk menghasilkan proses yang efisien, efektif, serta optimal. 
+Hal ini bertujuan untuk menghasilkan performa team yang maksimal, menghasilkan produk 
+yang efisien, transparan dan produktif. 
+B.TUJUAN 
+Tujuan disusunnya dokumen adalah untuk menyampaikan kerangka acuan kerja dan 
+prosedur implementasi BIM pada Pekerjaan Pembangunan Ibu Kota Negara (IKN). 
+C.RUANG LINGKUP 
+Implementasi BIM berlaku di seluruh Unit Organisasi yang terlibat langsung dengan 
+pembangunan infrastruktur Ibu Kota Negara Baru. Penerapan BIM harus didasari prinsip-
+prinsip sebagai berikut: 
+1. Informatif 
+Informasi yang dibangun harus terstruktur, sistematis dan dapat disajikan secara 
+cepat, akurat, dan menjawab kebutuhan informasi 
+2. Kolaboratif 
+Penerapan teknologi BIM mewujudkan peningkatan proses kerja sama antara 
+pengguna jasa dan penyedia jasa sehingga pekerjaan dapat dilakukan secara lebih 
+efektif dan efisien. 
+3. Koordinasi 
+Implementasi BIM harus dapat meningkatkan pola komunikasi antara pengguna 
+jasa dan penyedia jasa dalam pertukaran informasi pada CDE. 
+ 
+4. Integrasi Data 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (3) Dari (83) 
+ 
+ 
+ 
+ 
+Implementasi BIM harus dapat menghasilkan data yang akurat, mutakhir, terpadu, 
+dan dapat dipertanggungjawabkan, serta mudah digunakan untuk proses lainnya. 
+5. Menyeluruh 
+Penerapan BIM secara luas dan lengkap untuk seluruh tahapan pekerjaan 
+konstruksi, mulai dari tahap perencanaan (survei, investigasi, desain/SID), tahap 
+pengadaan lahan (land acquisition/LA), tahap pelaksanaan (construction), tahap 
+operasi dan pemeliharaan bangunan (operation and maintenance) (SIDLACOM), 
+termasuk proses pengadaan (procurement) di dalamnya, serta dapat digunakan 
+pada tahap pembongkaran dan pembangunan kembali, dengan tingkat kedetailan 
+(level of development/LOD) dan kedalaman informasi (level of information/LOI) 
+pada setiap tahapan disesuaikan dengan jenis proyek pekerjaan. 
+6. Interoperabilitas 
+Teknologi yang digunakan dalam kolaborasi menggunakan aplikasi dan format file 
+keluaran yang umum yang dapat diproses dengan aplikasi lain tanpa batasan 
+software atau aplikasi tertentu, namun harus tetap mendukung pembentukan 
+informasi yang dibutuhkan oleh Unit Organisasi PUPR. 
+7. Transparan dan Otentik 
+Informasi yang tersimpan di dalam platform kolaborasi (CDE) harus dapat 
+diverifikasi dan divalidasi serta dapat diperiksa (audit). 
+8. Keberlanjutan 
+Informasi yang dihasilkan dari setiap tahap saling terhubung dan digunakan secara 
+berkelanjutan sejak tahap perencanaan (survey, investigasi, desain/SID), tahap 
+pelaksanaan (construction), tahap operasi dan pemeliharaan bangunan (operation 
+and maintenance) (SIDLACOM), beserta proses pengadaan (procurement) di 
+dalamnya. 
+9. Kemudahan Pemakaian (User Friendly) 
+Pedoman, standar, dan sistem yang digunakan dalam implementasi BIM, CDE dan 
+teknologi pendukung lainnya harus mudah digunakan dan mudah dipahami. 
+ 
+10. Andal (Reliable) 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (4) Dari (83) 
+ 
+ 
+ 
+ 
+Penerapan BIM dilakukan dengan ketentuan yang seragam dalam setiap proyek 
+pekerjaan agar hasil penerapan BIM dapat dijamin tercapainya standar minimum 
+kualitas yang seragam. 
+Cakupan implementasi BIM pada tahap perencanaan dan pelaksanaan konstruksi 
+dipersiapkan untuk ke tahap operasional yang terdiri dari: 
+1. Implementasi BIM dengan tingkat kedetailan (LOD) & tingkat kedalaman informasi 
+(LOI) sesuai fase konstruksi 
+2. Penggunaan Dimensi BIM sebagai alat monitoring dan evaluasi pelaksanaan 
+3. Visualisasi dan Rendering untuk kebutuhan komersial 
+4. Informasi yang akan di delivery selama pelaksanaan proyek 
+5. Federation Strategy (Skema pembagian model) BIM 
+6. Responsibility Matrix (Skema Tanggung Jawab) 
+7. Digital Plan of Works (Rencana Implementasi BIM) 
+8. Milestone Implementasi BIM 
+9. Task Information Delivery Plan 
+10. Target Kualitas BIM model 
+11. Protokol Keamanan dan Keabsahan Informasi dan BIM Model 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (5) Dari (83) 
+ 
+ 
+ 
+ 
+D.DIAGRAM 
+ 
+PUSAT DATA DAN TEKNOLOGI INFORMASI 
+SEKRETARIS JENDERAL 
+KEMENTERIAN PEKERJAAN UMUM DAN PERUMAHAN RAKYAT 
+Jalan Pattimura No. 20, Kebayoran Baru 
+JAKARTA SELATAN 
+Nomor SOP 
+: 
+ 
+Tanggal Pembuatan 
+: 
+ 
+Tanggal Revisi 
+: 
+Tanggal Efektif 
+ :  
+Disahkan Oleh 
+ : 
+Kepala Pusat Data dan Teknologi Informasi 
+ 
+Nama SOP 
+ : SOP Implementasi Building Information Modeling untuk Pembangunan Ibu Kota Nusantara 
+DASAR HUKUM 
+KUALIFIKASI PELAKSANA 
+1. 
+Peraturan Menteri PUPR Nomor 13/PRT/M/2020 tentang Organisasi dan Tata Kerja 
+Kementerian Pekerjaan Umum dan Perumahan Rakyat 
+2. 
+Peraturan Menteri PUPR Nomor 27 Tahun 2020 Tentang Penerapan Sistem 
+Pemerintahan Berbasis Elektronik. 
+1. Pendidikan Minimal S1 
+2. Mengetahui dan memahami BIM sebagai proses 
+KETERKAITAN 
+PERALATAN/ PERLENGKAPAN : 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (6) Dari (83) 
+ 
+ 
+ 
+ 
+1. 
+SOP Pengukuran Titik Kontrol 
+2. 
+SOP Perapatan Titik Kontrol (BM) dengan Teknik GNSS 
+3. 
+SOP Perapatan Titik Kontrol (BM) dengan Teknik Terestris 
+ 
+1. Laptop 
+2. Jaringan Internet 
+3. BIM Coordination Tools 
+4. BIM Authoring Tools 
+5. Common Data Environment 
+ 
+ 
+ 
+ 
+ 
+ 
+PERINGATAN 
+PENCATATAN DAN PENDATAAN 
+SOP Implementasi Building Information Modelling untuk Pembangunan Ibu Kota Negara  ini 
+tidak dilaksanakan akan berakibat : 
+1. 
+Implementasi BIM untuk pembangunan terhambat 
+2. 
+Monitoring pelaksanaan konstruksi tidak sesuai dengan keadaan yang 
+sesungguhnya 
+3. 
+Progress pelaksanaan konstruksi tidak disampaikan secara digital 
+4. 
+Data digital hasil pekerjaan tidak lengkap. 
+Disimpan sebagai pedoman dalam melakukan pemenuhan layanan data dan informasi. 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (7) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (8) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (9) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (10) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (11) Dari (83) 
+ 
+ 
+ 
+ 
+E. PENJELASAN 
+Appointed Party 
+Adalah Badan Usaha Barang/Jasa atau sub kontraktor/ sub konsultan pada 
+pekerjaan konstruksi yang ditunjuk oleh Appointing Party untuk mengerjakan 
+suatu pekerjaan dan menyediakan informasi penyedia informasi terkait 
+pekerjaan, barang atau jasa. 
+Appointing Party 
+Adalah owner/pemilik proyek/ pengguna jasa atau pemberi kerja yang 
+bertindak sebagai 
+penerima informasi terkait pekerjaan, barang atau jasa, pemilik proyek pada 
+pekerjaan konstruksi yang dalam hal ini adalah Kementerian Pekerjaan 
+Umum dan Perumahan Rakyat (PUPR) 
+AIM 
+Merupakan model BIM as built dengan informasi yang dipersyaratkan oleh 
+Appointing Party dan diserahkan pada fase project closing serta digunakan 
+untuk operasional & pemeliharaan aset. 
+AIR 
+Dokumen persyaratan kebutuhan informasi AIM untuk pelaksanaan 
+operasional & pemeliharaan sebuah asset. 
+Aset 
+ 
+Sumber daya dengan nilai ekonomi yang dimiliki atau dikendalikan oleh 
+individu, perusahaan, atau negara dengan harapan akan memberikan 
+manfaat di masa depan. 
+Aset Digital 
+adalah informasi digital yang mempunyai nilai baik secara potensi maupun 
+secara aktual bagi sebuah organisasi yang dapat dikelola oleh sistem 
+pemrosesan data untuk menunjang kebutuhan informasi secara cepat 
+Assessment Risiko 
+BIM 
+merupakan penilaian risiko beserta rencana mitigasinya dari penerapan BIM 
+dan Konstruksi Digital lainnya selama pelaksanaan proyek yang dibuat dan 
+diserahkan sebagai dokumen kelengkapan tender. 
+BEP 
+BIM Execution Plan merupakan dokumen yang berisi rencana implementasi 
+BIM selama pelaksanaan proyek yang terdiri dari Pra BEP & Post BEP. 
+BED 
+Basic Engineering Design adalah dokumen yang mengacu kepada informasi 
+dasar yang diperlukan untuk melakukan proses perencanaan engineering 
+dan acuan untuk detail engineering design pada proyek. 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (12) Dari (83) 
+ 
+ 
+ 
+ 
+BIM 
+Metode pelaksanaan konstruksi digital dengan menggunakan model digital 
+sebagai representasi dari aset yang dibangun untuk memfasilitasi proses 
+desain, konstruksi dan operasional & pemeliharaan aset, juga digunakan 
+sebagai informasi yang dapat diandalkan dalam pengambilan keputusan. 
+BIM Authoring Tools 
+Merupakan software atau aplikasi yang berfungsi menghasilkan 
+pemodelan BIM 3D yang memiliki informasi didalamnya. 
+Capacity & Capability 
+Statement 
+Dokumen publikasi perusahaan terhadap kemampuan, kapasitas, penerapan 
+teknologi dan portofolio BIM perusahaan. 
+CDE 
+Common Data Environment adalah sumber informasi yang digunakan untuk 
+mengumpulkan, 
+mengelola, 
+dan 
+membagikan 
+dokumentasi 
+yang 
+mengandung informasi-informasi model grafis dan data non grafis yang 
+dibutuhkan pada penerapan BIM pada pelaksanaan proyek. 
+DD 
+Detail design adalah tahap di mana desain telah memberikan pemaparan 
+informasi terperinci tentang perencanaan, spesifikasi, dan estimasi dari 
+pembuatan tertentu. 
+DED 
+Detail Engineering Design adalah informasi dari hasil studi yang menciptakan 
+definisi dari berbagai aspek pengembangan proyek sehingga menjembatani 
+antara perencanaan dan eksekusi yang akan terjadi di lapangan.  
+EIR 
+Dokumen persyaratan BIM, kebutuhan information dan bagaimana BIM 
+diimplementasikan selama pelaksanaan proyek yang dipersyaratkan oleh 
+Appointing Party, terdiri namun tidak terbatas pada: 
+a. Kebutuhan CDE 
+b. Kebutuhan Informasi terhadap PIM & AIM 
+c. Kebutuhan Infrastruktur dan Tools BIM 
+d. Kebutuhan Personil & Task Team BIM 
+e. Metode dan tata cara pelaksanaan BIM 
+Federation Strategy 
+Merupakan metode pembagian/pemecahan PIM / BIM model tunggal menjadi 
+model-model yang lebih terkoordinasi yang menggambarkan keseluruhan 
+proyek dan/atau aset atau sebagian darinya berdasarkan sebuah disiplin ilmu 
+dan digunakan untuk pelaksanaan kolaborasi dari setiap task team BIM. 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (13) Dari (83) 
+ 
+ 
+ 
+ 
+IFC 
+Industry Foundation Classes adalah skema data umum yang memungkinkan 
+untuk menyimpan dan bertukar data yang relevan tentang built environment.  
+Informasi 
+Merupakan data yang telah diolah menjadi sebuah bentuk yang berarti bagi 
+penerimanya dan bermanfaat dalam pengambilan keputusan 
+Informasi digital 
+Adalah satu atau sekumpulan data elektronik, termasuk tulisan, suara, 
+gambar, peta, rancangan, foto, electronic data interchange (EDI), surat 
+elektronik (electronic mail), telegram, teleks, data grafis baik dalam format 2 
+Dimensi maupun dalam 3 Dimensi, telecopy atau sejenisnya, huruf, tanda, 
+angka, kode akses, simbol, atau perforasi yang telah diolah yang memiliki arti 
+atau dapat dipahami oleh orang yang mampu memahaminya. 
+Life cycle 
+Pembagian fase pada proses pelaksanaan proyek menjadi tahapan yang 
+lebih rinci dan spesifik agar proses pelaksanaan menjadi lebih akurat dan 
+jelas, dimulai dari fase konsep, development, konstruksi conception, 
+development, operation, maintenance support and disposal. 
+LOIN 
+Level Of Information Needed merupakan referensi praktisi dalam industri 
+konstruksi untuk menentukan dan mengartikulasikan tingkat kejelasan 
+konten, geometri dan informasi yang ditentukan Appointing Party untuk 
+memenuhi kebutuhan LOI dan LOD pada model BIM 
+LOD 
+Level of Development (LOD) adalah referensi yang memungkinkan para 
+praktisi di Industri AEC untuk menentukan dan mengartikulasikan tingkat 
+kejelasan dan keandalan Building Information Modelling (BIM) pada berbagai 
+tahap dalam proses desain dan konstruksi. 
+LOI 
+ 
+Level of Information (LOI) adalah daftar informasi beserta konten yang 
+dibutuhkan dan dipersyaratkan oleh Appointing Party pada sebuah 
+komponen/object dalam PIM dan AIM. 
+Manajemen 
+Konstruksi 
+Badan Usaha Jasa yang bergerak dalam bidang pengawasan pekerjaan 
+proyek konstruksi. 
+Owner 
+Appointing Party, atau Pengguna Jasa dalam konteks ini adalah Kementerian 
+Pekerjaan Umum dan Perumahan Rakyat (PUPR) 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (14) Dari (83) 
+ 
+ 
+ 
+ 
+OIR 
+Organizational Information Requirements (OIR) merupakan Dokumen yang 
+menentukan informasi apa yang diperlukan untuk dicapai tujuan strategis 
+organisasi dalam kaitannya dengan operasi bisnis, manajemen aset, 
+portofolio perencanaan dll. 
+PIM 
+Merupakan model BIM pada fase konstruksi yang digunakan untuk 
+pelaksanaan pekerjaan konstruksi yang digunakan sebagai referensi 
+untuk menghasilkan gambar kerja.  
+PIR 
+Merupakan dokumen strategis tentang bagaimana model dari sebuah aset 
+akan direpresentasikan selama pelaksanaan proyek.  
+PPK 
+Pejabat Pembuat Komitmen (PPK), merupakan pihak yang bertanggung 
+jawab atas penyusunan spesifikasi teknis, pelaksanaan pengadaan 
+barang/jasa, pengendalian kontrak dan pelaksanaan proyek. 
+Pre-BEP 
+Dokumen yang menunjukkan pendekatan, kemampuan dan kapasitas yang 
+diusulkan Lead Appointed Party dan/atau Appointed Party dalam pemenuhan 
+EIR 
+Post-BEP 
+Merupakan penyempurnaan dokumen Pre-BEP yang disetujui stakeholder 
+proyek sebagai komitmen terhadap penerapan BIM selama berlangsungnya 
+proyek. 
+UDD 
+Urban Design Development merupakan acuan induk dari rencana 
+pembangunan & pengembangan Kawasan Ibu Kota Negara 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (15) Dari (83) 
+ 
+ 
+ 
+ 
+I. BIM pada Pra Konstruksi 
+Penerapan BIM pada Pra Konstruksi dimulai dari persiapan lelang, penetapan penyedia 
+jasa, sampai ke Pre Construction Meeting (PCM) Konstruksi. Kebutuhan informasi dan 
+persyaratan BIM dipersiapkan dari fase perencanaan konstruksi. 
+i. Penyusunan EIR 
+Pelaksanaan Implementasi BIM dipersiapkan mulai dari proses inisiasi pengadaan 
+Proyek. Berdasarkan ISO 19650, setiap PPK (Pejabat Pembuat Komitmen) yang terlibat 
+dalam pelaksanaan harus menyusun dan menerbitkan Exchange Information Requirements 
+(EIR) sebagai dokumen kelengkapan lelang untuk selanjutnya menjadi acuan implementasi 
+BIM pada proyek konstruksi. 
+EIR mengadopsi dan mewadahi kebutuhan informasi atas pengoperasian aset pada 
+fase operasional dan pengelolaan yang mengacu dokumen Asset Information Requirement 
+(AIR) Kementerian PUPR. EIR merupakan dokumen unik, dokumen ini khusus dan hanya 
+berlaku pada satu proyek yang minimal terdiri dari; 
+1. PENDAHULUAN 
+1.1. Informasi Proyek 
+1.2. Tujuan Dokumen 
+1.3. BIM & Konstruksi Digital 
+1.4. Fungsi dan Tujuan Penggunaan BIM 
+1.5. Tanggapan atas Dokumen EIR 
+1.6. BIM Standar & Prosedur 
+1.7. Common Repository Requirement 
+2. TECHNICAL REQUIREMENTS 
+2.1. Digital Plan of Works 
+2.2. BIM Tools 
+2.3. Format Pertukaran Informasi 
+2.4. Sistem Koordinat & Unit 
+2.5. Hardware Requirements 
+2.6. Federation Strategy 
+2.7. Clash Detection 
+2.8. Responsibility Matrix 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (16) Dari (83) 
+ 
+ 
+ 
+ 
+2.9. Project Milestones 
+2.10. Task Information Delivery Plan (TIDP) 
+2.11. Level of Information Need (LOIN)  
+3. MANAGEMENT REQUIREMENTS  
+3.1. Penamaan File 
+3.2. Manajemen Risiko 
+3.3. Common Data Environment 
+3.3.1. Aksesibilitas CDE 
+3.3.2. Hak dan Tanggung Jawab Pengguna CDE 
+3.4. Security Requirements 
+3.4.1. Keaslian dan Legalitas BIM & Engineering Tools  
+3.4.2. Project Sensitivity Assessment  
+3.4.3. IT Security Plan  
+3.4.4. Information Sharing Agreement  
+3.5. BIM Task Team Requirement  
+3.6. BIM Quality Control  
+3.7. Hand Over Requirement  
+4. COMMERCIAL REQUIREMENTS 
+4.1. BIM Sebagai Materi Publikasi Komersial 
+4.2. Hak Kekayaan Intelektual BIM 
+Jika terdapat kebutuhan khusus diluar konteks minimal yang disebutkan diatas, maka 
+PPK dapat melakukan penyesuaian dokumen EIR sesuai kebutuhan. 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (17) Dari (83) 
+ 
+ 
+ 
+ 
+ii. Pemeriksaan Dokumen BIM Calon Penyedia Jasa 
+Adapun respon dari dokumen EIR disiapkan oleh calon penyedia jasa yang harus 
+disiapkan dan dikirimkan kepada Tim Pengadaan PUPR terdiri dari dokumen berikut : 
+● Pra BIM Execution Plan 
+Dokumen BIM Execution Plan sebagai rencana awal dari penerapan BIM 
+berdasarkan kebutuhan/ persyaratan yang disampaikan pada EIR/TOR/KAK oleh 
+pengguna jasa. Dokumen Pre BEP dibuat, disetujui dan di submit oleh tim tender 
+penyedia jasa tanpa perlu approval dari calon pengguna jasa 
+● Mobilization Plan 
+Dokumen mobilisasi proyek sebelum pelaksanaan konstruksi dimulai yang 
+menyampaikan jadwal deployment tim, hardware dan software, testing dan migrasi 
+data CDE serta workshop dan Kick off Meeting BIM 
+● Delivery Risk Assessment 
+Dokumen Delivery Risk Assessment merupakan dokumen analisis risiko serta 
+mitigasinya dari penerapan BIM dan teknologi lainnnya yang dipersyaratkan oleh 
+pengguna jasa 
+● Capacity & Capability Statement 
+Dokumen yang berisi pernyataan kemampuan dan jasa yang akan diberikan oleh 
+kontraktor utama dalam penerapan BIM di proyek, termasuk di dalamnya personil, 
+software, hardware dan portfolio project yang pernah dikerjakan 
+ PPK bertanggung jawab dalam pemeriksaan kelengkapan dan isi dari dokumen-
+dokumen BIM yang disubmit oleh penyedia jasa terpilih. PPK dapat membentuk tim khusus 
+untuk membantu proses tersebut. 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (18) Dari (83) 
+ 
+ 
+ 
+ 
+II. BIM pada Konstruksi 
+Implementasi BIM merupakan satu kesatuan dari penerapan konstruksi digital yang 
+didukung dengan teknologi lainnya untuk menghasilkan digital asset melalui proses yang 
+integrated, updated, reliable dan traceable yang diterapkan dalam pelaksanaan proyek sebagai 
+digitalisasi dari aset yang akan dibangun sesuai standar UDD (Urban Design Development). 
+Penerapan BIM pada fase konstruksi dimulai dari pelaksanaan BIM Kick Off Meeting hingga 
+handover/project closing. 
+i. 
+Penerapan BIM Konstruksi 
+BIM Model sebagai output dibagi menjadi 2 tahapan, Project Information Model (PIM) 
+pada fase konstruksi dan Asset Information Model (AIM) pada fase hand over dan 
+operasional. BIM & CDE diimplementasikan sebagai platform komunikasi dan koordinasi 
+selama pelaksanaan proyek. Cakupan implementasi BIM pada tahap perencanaan dan 
+pelaksanaan konstruksi dipersiapkan untuk ke tahap operasional yang terdiri dari: 
+● Implementasi BIM dengan tingkat kedetailan (LOD) & tingkat kedalaman informasi 
+(LOI) sesuai fase konstruksi 
+● Penggunaan Dimensi BIM sebagai alat monitoring dan evaluasi pelaksanaan 
+● Visualisasi dan Rendering untuk kebutuhan komersial 
+● Informasi yang akan disampaikan selama pelaksanaan proyek 
+● Federation Strategy (skema pembagian model) BIM 
+● Responsibility Matrix 
+● Digital Plan of Works 
+● Milestone Implementasi BIM 
+● Task Information Delivery Plan 
+● Target Kualitas model BIM 
+● Protokol Keamanan dan Keabsahan Informasi dan BIM Model 
+BIM Kick off Meeting diinisiasi dan dilaksanakan oleh penyedia jasa sebagai tonggak 
+dimulainya implementasi BIM pada proyek. Pada BIM Kick Off Meeting dilakukan 
+pembahasan yang mencakup: 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (19) Dari (83) 
+ 
+ 
+ 
+ 
+● Penyusunan Post BEP 
+● Pendetailan Mobilization Plan ke tahap rencana kerja persiapan 
+● Penyusunan IT Security Plan (Proyek IKN merupakan Proyek Strategis Nasional 
+dengan tingkat kerahasiaan tinggi) 
+● Penyusunan Information Sharing Agreement/Non Disclosure Agreement (NDA) antar 
+Stakeholder 
+Pelaksanaan BIM ditinjau secara berkala, sesuai dengan kesepakatan pada Post BIM 
+Execution Plan. Monitoring progress Modeling BIM dan Pelaksanaan Konstruksi dilakukan 
+secara berkala dan terpusat melalui CDE. 
+Manajemen Konstruksi proyek berkoordinasi dengan Manajemen Konstruksi Induk 
+dalam memastikan design yang disetujui dari masing-masing proyek memenuhi standar, 
+kode, dan ketentuan dari desain koordinasi IKN secara keseluruhan. 
+i.i. Data BM & Koordinat IKN 
+Data datum dan BM yang akan digunakan bersama di proyek sehingga akan menjadi 
+data bersama. Model BIM yang dikumpulkan mengacu pada sistem koordinat UTM 
+WGS 84 Zona 50 S. Titik Kontrol IKN yang digunakan sebagai acuan sesuai dengan 
+Nota 
+Dinas 
+Titik 
+Kontrol 
+Pusdatin 
+PUPR, 
+pada 
+tautan 
+berikut 
+https://bit.ly/Titik_Kontrol_IKN2024.  
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (20) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+Gambar 1 – Sebaran titik kontrol IKN 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (21) Dari (83) 
+ 
+ 
+ 
+ 
+i.ii. Dimensi BIM 
+Dimensi BIM yang diterapkan pada pelaksanaan proyek IKN ditetapkan sesuai pada 
+tabel berikut. 
+Tabel 1  – Dimensi Model BIM 
+Dimensi 
+Uraian 
+3D: visualisasi desain dan seluruh 
+komponennya 
+▪ Detail model dari infrastruktur dan bangunan gedung: 
+pekerjaan tanah, pekerjaan struktur, pekerjaan sanitasi, 
+pekerjaan 
+mekanikal 
+elektrikal 
+dan 
+pemipaan, 
+pekerjaan arsitektur dan beautifikasi. 
+4D: visualisasi tahapan dan 
+timeline pelaksanaan proyek 
+▪ 
+Kurva S dan timeline schedule, perbandingan antara 
+perencanaan dan pelaksanaan 
+▪ 
+Visualisasi/ animasi tahapan pembangunan 
+5D: bill of quantity (BOQ) dan 
+rincian detail RAB 
+▪ 
+BOQ secara keseluruhan dari model BIM 
+6D Analisis Energi dan 
+Suistanability  
+▪ 
+Analisis konservasi energi dan informasi keberlanjutan 
+pada permodelan BIM 
+7D Pengoperasian dan 
+pemeliharaan fasilitas bangunan 
+▪ 
+Mengoptimalkan 
+manajemen 
+aset 
+(AIM) 
+untuk 
+pengoperasian dan pemeliharaan fasilitas bangunan 
+i.iii. LOD & LOI 
+Dalam sebuah proyek yang terdiri dari lebih dari satu BIM modeller, maka perlu adanya 
+kejelasan antara masing-masing pihak dan model yang diproduksi hingga Level of 
+Development (LOD) dari model tersebut. LOD merupakan tingkat kerumitan dari suatu 
+model 3D, semakin tinggi LOD dari suatu model maka dapat dipastikan model tersebut 
+juga semakin kompleks. 
+ 
+Berikut merupakan 6 Level of Development (LOD) sebagaimana tercantum dalam BIM 
+LOD Forum 2018. 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (22) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+Gambar 2 – Penjelasan LOD & LOI 
+Tabel 2 - Level of Development (LOD) Stage 
+LOD 
+Design Stage 
+100 
+Design Konseptual 
+200 
+Basic Desain 
+300 
+Detailed Engineering 
+350 
+Konstruksi 
+400 
+Fabrikasi  
+500 
+As Built 
+Level of Development (LOD) dan Level of Information (LOI) berkembang seiringan 
+dengan perkembangan progress dari pelaksanaan konstruksi. Atribut atau tingkat 
+kedalaman informasi pada LOI dapat menyesuaikan dengan lingkup pekerjaan dari 
+masing-masing paket. 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (23) Dari (83) 
+ 
+ 
+ 
+ 
+Tabel 3. Hubungan Antara LOD & LOI / Core Information pada Model 
+Stage 
+Tahap 
+Konstruksi LOD 
+Produk 
+Deskripsi 
+LOI 
+1 
+Konseptual 
+Design 
+100 Konseptual 
+Model 
+Informasi 
+grafis 
+yang 
+memiliki 
+batasan 
+direpresentasikan 
+sebagai 
+batasan area/kawasan untuk 
+perencanaan & Feasibility 
+Study 
+ 
+2 
+Basic Design 200 3D Model 
+Elemen Model secara grafis 
+direpresentasikan 
+dalam 
+Model sebagai objek  dalam 
+hal kuantitas, bentuk, dan 
+lokasi sebagai Basic Design 
+Informasi Objek 
+Informasi 
+Volume/ 
+Area/ 
+Kuantitas 
+4 
+Engineering 
+Design 
+300 3D Model 
+Elemen Model secara grafis 
+direpresentasikan 
+dalam 
+Model sebagai sistem, objek 
+atau 
+perakitan 
+spesifik 
+dalam hal kuantitas, ukuran, 
+bentuk, lokasi, dan orientasi. 
+Informasi non-grafis 
+juga 
+dapat dilampirkan ke Elemen 
+Model.  
+Koordinat 
+Geo 
+Spasial 
+Proyek 
+Geometri Objek 
+Sistem Objek 
+Lokasi & Orientasi Objek 
+Jenis Material 
+5 
+Konstruksi 
+350 PIM 
+Elemen Model secara grafis 
+direpresentasikan 
+dalam 
+Model sebagai sistem, objek, 
+atau 
+perakitan 
+tertentu 
+dalam hal kuantitas, ukuran, 
+bentuk, 
+orientasi, 
+dan 
+antarmuka dengan sistem 
+bangunan 
+lain. 
+Informasi 
+nongrafis 
+juga 
+dapat 
+dilampirkan 
+ke 
+Elemen 
+Model. 
+Core Info LOD 300 beserta 
+tambahan 
+informasi 
+berikut: 
+Assembly Code 
+Brand/Merk Objek 
+Interkonektivitas antar Objek 
+Nama Vendor/Supplier Objek 
+Tanggal Material On Site  
+Material Approval 
+Tanggal 
+Instalasi/ 
+Pengecoran Objek 
+% TKDN 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (24) Dari (83) 
+ 
+ 
+ 
+ 
+Stage 
+Tahap 
+Konstruksi LOD 
+Produk 
+Deskripsi 
+LOI 
+Laporan Partial Test / QC 
+6 
+Handover 
+untuk 
+Operasional & 
+Maintenance 
+500 AIM 
+Elemen Model secara grafis 
+diwakili 
+dalam 
+Model 
+sebagai sistem, objek atau 
+perakitan tertentu dalam hal 
+ukuran, 
+bentuk, 
+lokasi, 
+kuantitas, 
+dan 
+orientasi 
+dengan 
+detail, 
+informasi 
+fabrikasi, 
+perakitan, 
+dan 
+pemasangan. Informasi non-
+grafis juga dapat dilampirkan 
+ke Elemen Model. 
+Document Test Com  
+NUP Barang 
+Asset Description  
+Kode Satker 
+Kode Barang  
+Barcode  
+Floor  
+Location 
+Manufacturer  
+Model / Seri 
+Serial Number  
+Installed By  
+Installation Date  
+Warranty Expiration  
+Cost  
+Approval Material  
+Country of Origin  
+Komponen TKD (Y/N) 
+Product Website 
+Spare Item (Y/N) 
+i.iv. Federation Strategy 
+Federation Strategy merupakan strategi pembagian pemodelan BIM secara kolaboratif 
+untuk memastikan ukuran file sesuai EIR dan memiliki informasi geospasial yang 
+memudahkan pembagian tanggung jawab dan koordinasi pemodelan aset. Federation 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (25) Dari (83) 
+ 
+ 
+ 
+ 
+Strategy diajukan oleh penyedia jasa terpilih, dibahas dan disepakati oleh para 
+stakeholders pada saat BIM Kick Off Meeting sesuai dengan lingkup pekerjaan pada 
+masing-masing paket. 
+  
+Gambar 3 – Contoh Skema Federated Strategy 
+Ukuran maksimal single file model ditetapkan tidak lebih dari 500 (lima ratus) MB 
+(megabytes). Pemodelan federated model di BIM Coordination Tool, dapat difungsikan 
+untuk melihat visualisasi model 3D yang sudah dibuat dari BIM Authoring Tools. 
+i.v. Output Implementasi BIM, Format & Timeline 
+Data dokumen maupun pemodelan dikelompokkan ke dalam 3 komponen utama besar 
+yaitu, folder model (berisi file native model dan file gambar), folder laporan (berisi folder 
+clash detection report, BOQ dan schedule) dan folder presentasi (berisi 3D Render dan 
+video animasi). Berikut akan dijabarkan terkait dengan sub folder detail dengan input, 
+output, native file dan exchange file). 
+Tabel 4 – Contoh Deliverable BIM 
+Jenis 
+Software & Format File 
+Keterangan 
+Max Size 
+Digital Survey 
+Titik Control & GCP: 
+.shp, 
+Surface: 
+.dwg, .tiff 
+Menyediakan data surface, 
+titik control, dan orthophoto 
+beserta laporan pengambilan 
+dan pengolahan data. 
+1 GB 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (26) Dari (83) 
+ 
+ 
+ 
+ 
+Jenis 
+Software & Format File 
+Keterangan 
+Max Size 
+Orthophoto: 
+.tiff,. ecw 
+BIM Model 
+(3D Model) 
+Sesuai yang dispesifikasikan di 
+sub-bab sebelumnya yaitu : 
+BIM Authoring Tools 
+(.DWG, .RVT, .3DS, .PLN, .PLA,. 
+DGN, .IFC) 
+Dengan ketentuan : 
+● Susunan folder dan file harus 
+sesuai dengan susunan folder 
+dan pembagian file serta 
+● federated model sehingga 
+pembacaan link file dan 
+federated model sesuai 
+● Model yang menggunakan 
+worksharing harus dibuat 
+menjadi lokal dan dihapus 
+workset-nya 
+Seluruh model diupload secara 
+berkala setiap 2 minggu sekali 
+Menyediakan data model BIM 
+untuk proses perencanaan 
+desain bangunan terintegrasi 
+500 MB 
+Schedule 
+Simulation 
+(4D) 
+BIM Coordination Tools 
+3D model yang diintegerasikan 
+dengan schedule proyek dari 
+scheduling tool. 
+Native file: 
+.nwd, nwf, .mpp, .xer 
+Visualisasi: 
+.avi, .mp4 
+Menyediakan simulasi 
+pelaksanaan konstruksi untuk 
+evaluasi tahapan konstruksi 
+dan monitoring rencana vs 
+realisasi pelaksanaan 
+bangunan. 
+500 MB 
+Cost 
+Estimation 
+(5D) 
+BIM Authoring Tools 
+3D model yang berisi informasi 
+luasan, volume, kuantitas dan 
+biaya secara keseluruhan. 
+.csv 
+Menyediakan data estimasi 
+quantity dan biaya dari model 
+BIM yang dapat dituangkan 
+menjadi spreadsheet. 
+10 MB 
+Energy 
+Analysis 
+(6D) 
+Native File : .rvt (Revit 
+Project),.inp (EnergyPlus 
+Input),.gbxml (Green Building 
+XML), .insight (Insight 
+Project), .csv (Comma-Separated 
+Menyediakan data terkait 
+dengan hasil analisis 
+konservasi energi dan 
+informasi keberlanjutan yang 
+diintegrasikan dengan   
+permodelan BIM 
+Menyesuaikan 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (27) Dari (83) 
+ 
+ 
+ 
+ 
+Jenis 
+Software & Format File 
+Keterangan 
+Max Size 
+Values), .pdf (Portable Document 
+Format) 
+7D Facility 
+Management 
+Model 
+.DWG, .RVT, .3DS, .PLN, .PLA,. 
+DGN, .IFC) 
+Menyiapkan permodelan 
+dengan informasi atribute 
+yang relevan dengan fase 
+operasional dan maintenance 
+Menyesuaikan 
+Federated 
+model dan 
+review 
+BIM Coordination Tools; 
+Native file: 
+.IWM, .IMX, .SQLITE, .NWD, .NW
+F, .NWC, .BCF,.TCZIP) 
+Dengan Ketentuan: 
+Dibuat dalam susunan folder 
+yang sama dengan format native 
+model 
+Melakukan verifikasi seluruh 
+pekerjaan tanah, pekerjaan 
+struktur, pekerjaan drainase, 
+pekerjaan mekanikal 
+elektrikal dan pemipaan, 
+pekerjaan arsitektur dan 
+lansekap,dll. 
+▪ Integrasi desain dan clash 
+detection 
+▪ Quantity dan volume 
+pekerjaan 
+Membuat visualisasi kepada 
+owner: 
+▪ Tahapan pembangunan/ 
+timeline konstruksi 
+Seluruh model diupload 
+secara berkala setiap 2 
+minggu sekali 
+Menyesuaikan 
+Solid 3D 
+Model 
+3D model dari Authoring Tools 
+diolah/diexport kedalam 
+format .obj (terdiri dari 
+tekstur, .mtl, .pos, .obj) 
+ 
+Menyesuaikan 
+Laporan 
+▪ Microsoft Word (.DOCX) 
+dan .PDF: progress, QA/QC, 
+HSE, Transmittal, RFI 
+▪ Microsoft Excel (.XLSX) hasil 
+BOQ yang berisi: 
+i. nama komponen, type mark 
+ii. spesifikasi (spec alat, 
+vendor, model, url) 
+iii. level, lokasi (room/ space, 
+grid) 
+iv. quantity (jumlah/ meter lari/ 
+area/ volume) 
+Pelaporan disampaikan 
+melalui Transmittal pada 
+CDE. Di submit setiap 1 
+(satu) minggu 
+100 MB 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (28) Dari (83) 
+ 
+ 
+ 
+ 
+Penyedia Jasa wajib mempresentasikan progress desain dan konstruksi kepada owner 
+melalui model BIM yang dipaparkan melalui beberapa metode dibawah ini: 
+● Image 3D render 
+● Video 
+● Power Point 
+● Visualisasi dengan BIM Coordination Tools 
+● Simulasi-simulasi 
+ 
+ii. Pelaksana BIM Proyek 
+ii.i. Matrix Tanggung Jawab 
+Pada tahap awal atau permulaan dari sebuah proyek, perlu dilakukan penentuan peran 
+dan tanggung jawab dari tim pelaksana proyek. Tabel berikut berisikan nama, detail 
+kontak, serta peran dari personel yang terlibat pada pelaksanaan proyek. Wewenang 
+masing-masing personel berbeda tergantung pada peran yang dijalankan sebagaimana 
+dijelaskan pada tabel berikut. 
+ 
+Tabel 5 - Peran dan Wewenang Personil Proyek 
+Peran 
+Tugas & Tanggung Jawab 
+Satgas IKN 
+Bekerjasama dengan MK Induk mengelola proyek-proyek IKN 
+MK Induk 
+Koordinasi desain & konstruksi antar proyek IKN secara menyeluruh 
+Jenis 
+Software & Format File 
+Keterangan 
+Max Size 
+v. harga satuan, harga total 
+lifetime (project parameter 
+tambahan : tanggal instalasi, 
+durasi lifetime) 
+Presentasi 
+▪ Microsoft Power point (.PPTX) 
+▪ Image (foto, photogrammetry) 
+dan 3D render 
+Video (.MP4) (progress 
+bulanan) 
+Di submit secara berkala 
+setiap 1 (satu) minggu untuk 
+di review. Dipresentasikan 
+secara periodik saat rapat 
+proyek 
+100 MB PPT 
+ 
+500 MB 
+Video 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (29) Dari (83) 
+ 
+ 
+ 
+ 
+Peran 
+Tugas & Tanggung Jawab 
+Unor/Balai/ Satker 
+Supervisi pelaksanaan proyek sesuai kewenangannya 
+PPK 
+Penanggung jawab terhadap paket pekerjaan di lapangan  
+MK 
+Proyek 
+/ 
+Konsultan 
+Supervisi 
+Pengawasan konstruksi masing-masing proyek sesuai paket 
+pekerjaan. 
+Project Manager 
+Bertanggung Jawab atas pelaksanaan konstruksi proyek sesuai 
+paket pekerjaan. 
+BIM Manager 
+Mengelola dan mengontrol implementasi Task Information Delivery 
+Plan (TIDP) dan memastikan pemenuhan persyaratan BIM yang ada 
+dalam EIR. 
+BIM Coordinator 
+Mengelola informasi pada Common Data Environment (CDE), 
+kolaborasi antar stakeholder dan pertukaran informasi, serta 
+mengkoordinasikan antar model atau model komposit yang terdiri 
+dari berbagai macam disiplin 
+BIM Modeler 
+Memproduksi model BIM sesuai dengan lingkup pekerjaan dan 
+acuan yang digunakan pada proyek. 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling untuk 
+Pembangunan Ibu Kota Nusantara 
+Halaman (30) Dari (83) 
+ 
+ 
+ 
+ 
+ii.ii. TIDP (Task Information Delivery Plan) 
+Merupakan gambaran timeline informasi BIM (berupa BIM Model, Drawing (2D), Report, Specification, Quantity, dan lainnya) yang 
+disubmit ke stakeholder terkait. Timeline/Milestone TIDP ini disusun dengan memperhatikan dan terikat dengan pelaksanaan proyek. 
+TIDP disusun dan diajukan oleh penyedia jasa. Selanjutnya TIDP dari setiap lingkup pekerjaan disusun menjadi satu kesatuan 
+rencana pelaksanaan yang disebut Master Information Delivery Plan (MIDP). 
+ 
+Gambar 4 – Contoh Skema TIDP 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling untuk 
+Pembangunan Ibu Kota Nusantara 
+Halaman (31) Dari (83) 
+ 
+ 
+ 
+ 
+Tabel 6 – Format Tabel TIDP Model BIM  
+No 
+ID 
+Disiplin 
+Nama File 
+Versi 
+Format 
+Kode 
+WBS 
+Tahap 
+Milestone 
+PIM 
+AIM 
+Shared 
+Reviewed 
+by MKP 
+Approved 
+by PPK 
+Know by 
+MKI 
+Site 
+Execution 
+QA & QC BIM 
+Check 
+Bukti QA & QC BIM 
+QA & QC BIM 
+Check 
+Bukti QA & QC BIM 
+1 
+Structur 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.1 
+Structur GF, 
+Box Culvert, 
+etc. 
+XXX20_XXX_LIN_
+SIS_Zone1_ABC_
+NAM_RVT22 
+V0/V1/Vn 
+rvt., 
+setara 
+1234 
+Rencana dd/mm/yy dd/mm/yy dd/mm/yy dd/mm/yy 
+dd/mm/yy 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+Realisasi dd/mm/yy dd/mm/yy dd/mm/yy dd/mm/yy 
+dd/mm/yy 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+2 
+Architecture 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.1 
+Architecture 
+GF, etc 
+XXX20_XXX_LIN_
+SIS_Zone1_ABC_
+NAM_RVT22 
+V0/V1/Vn 
+rvt., 
+setara 
+1234 
+Rencana dd/mm/yy dd/mm/yy dd/mm/yy dd/mm/yy 
+dd/mm/yy 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+Realisasi dd/mm/yy dd/mm/yy dd/mm/yy dd/mm/yy 
+dd/mm/yy 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+3 
+MEP 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.1 
+Plumbing GF, 
+etc. 
+XXX20_XXX_LIN_
+SIS_Zone1_ABC_
+NAM_RVT22 
+V0/V1/Vn 
+rvt., 
+setara 
+1234 
+Rencana dd/mm/yy dd/mm/yy dd/mm/yy dd/mm/yy 
+dd/mm/yy 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+Realisasi dd/mm/yy dd/mm/yy dd/mm/yy dd/mm/yy 
+dd/mm/yy 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+Status - 
+dd/mm/yyyy 
+(Keterangan tempat 
+penyimpanan QA & QC BIM) 
+n 
+dst. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling untuk 
+Pembangunan Ibu Kota Nusantara 
+Halaman (32) Dari (83) 
+ 
+ 
+ 
+ 
+Tabel 7 – Format Tabel Drawing 2D 
+No ID 
+Disiplin 
+Nama File 
+Jenis File/Tipe 
+Versi 
+Format 
+Koode WBS 
+Tahap 
+Milestone 
+Shared 
+Reviewed by MKP 
+Approved by PPK 
+Know by MKI 
+Site Execution 
+1 
+Structur 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.1 
+Structur GF, 
+Box Culvert, 
+etc. 
+XXX20_XXX_LIN_SIS_Zone1
+_ABC_NAM_RVT22 
+DED 
+V0/V1/Vn 
+PDF 
+1234 
+Rencana 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+.dwg 
+1234 
+Realisasi 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+ 
+Shop Drawing 
+V0/V1/Vn 
+PDF 
+1234 
+Rencana 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+.dwg 
+1234 
+Realisasi 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+2 
+Architecture 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.1 
+Architecture 
+GF, etc 
+XXX20_XXX_LIN_SIS_Zone1
+_ABC_NAM_RVT22 
+DED 
+V0/V1/Vn 
+PDF 
+1234 
+Rencana 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+.dwg 
+1234 
+Realisasi 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+ 
+Shop Drawing 
+V0/V1/Vn 
+PDF 
+1234 
+Rencana 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+.dwg 
+1234 
+Realisasi 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+n 
+dst. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling untuk 
+Pembangunan Ibu Kota Nusantara 
+Halaman (33) Dari (83) 
+ 
+ 
+ 
+ 
+TIDP disusun untuk setiap lingkup pekerjaan sesuai pembagian pada Federation Strategy dan diupdate sebagai dasar monitoring progress 
+pelaksanaan BIM setiap 2 (dua) minggu oleh penyedia jasa. TIDP disimpan pada CDE untuk dimonitor progress nya oleh Manajemen 
+Konstruksi. Kolaborasi penggunaan software beserta input dan output yang dihasilkan agar implementasi BIM menjadi efektif dan 
+berkesinambungan. Adapun matriks hubungannya adalah sebagai berikut. 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling untuk 
+Pembangunan Ibu Kota Nusantara 
+Halaman (34) Dari (83) 
+ 
+ 
+ 
+ 
+Tabel 8 – Contoh Matriks Kolaborasi BIM 
+No 
+BIM Scope 
+Tenaga BIM Pelaksanaan 
+Input 
+Software/Hardware Proses 
+Output 
+Keterangan 
+1 
+Topografi Acquisition 
+BIM Engineer 
+Ground Control Point, AOI 
+Disesuikan dengan 
+hardware/software/wahana 
+yang di miliki 
+RAW Data LIDAR 
+LOD 300 
+2 
+Topografi Processing 
+BIM Engineer 
+RAW Data LIDAR 
+Disesuikan dengan 
+hardware/software/wahana 
+yang di miliki  
+Kontur, Orthophoto, 
+Orthomosaic, Point Cloud 
+LOD 400 
+3 
+Progres Monitoring Survei 
+BIM Engineer 
+Ground Control Point, AOI 
+Disesuikan dengan 
+hardware/software/wahana 
+yang dimiliki  
+Orthomosaic, Orthophoto, 
+Point Cloud 
+LOD 400 
+4 
+Pemodelan 3D Civil 
+BIM Engineer 
+Elevasi rencana, Data Survei 
+Topografi, Plan Profile, Tipikal 
+Potongan Melintang 
+C3D/ setara 
+Volume, Cross Section, 
+Koordinat & Elevasi 
+LOD 350 
+5 
+Pemodelan 3D Struktur 
+BIM Engineer 
+Plan Profil,Tipikal Potongan 
+Melintang,Pembesian 
+Revit/Tekla Structure/Glodon/ 
+setara  
+Volume, 3D Shop Drawing, 
+Bar Bending Schedule 
+LOD 350 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling untuk 
+Pembangunan Ibu Kota Nusantara 
+Halaman (35) Dari (83) 
+ 
+ 
+ 
+ 
+No 
+BIM Scope 
+Tenaga BIM Pelaksanaan 
+Input 
+Software/Hardware Proses 
+Output 
+Keterangan 
+6 
+Pemodelan 3D Arsitektur dan 
+Beautifikasi 
+BIM Engineer 
+Tampak,Potongan, Detail 
+Revit/ setara 
+Volume, 3D Shop Drawing,  
+LOD 350 
+7 
+Pemodelan MEP 
+BIM Engineer 
+Plan Profil,Tipikal Potongan 
+Melintang,  
+Revit/ setara 
+Volume, 3D Shop 
+Drawing,Detail Plambing dan 
+HVAC 
+LOD 350 
+8 
+Pemodelan 4D Monitoring 
+Pekerjaan 
+BIM Engineer 
+3D Model, monitoring schedule 
+Navisworks/ setara 
+Video, Report 
+LOD 350 
+9 
+Pemodelan Clash Detection 
+BIM Engineer 
+3D Model 
+Infrawork/ setara 
+Visualisasi,Report 
+LOD 350 
+10 
+Pemodelan Visualisasi 
+Progress 
+BIM Engineer 
+3D Model 
+Infraworks, Lumion/ setara 
+Video 
+LOD 350 
+11 
+Pemodelan 5D Volume 
+Estimate 
+BIM Engineer 
+3D Model 
+Navisworks/ setara 
+Volume 
+LOD 350 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling untuk 
+Pembangunan Ibu Kota Nusantara 
+Halaman (36) Dari (83) 
+ 
+ 
+ 
+ 
+ii.iii. MIDP (Master Information Delivery Plan) 
+Master Information Delivery Plan (MIDP) merupakan konsolidasi dari TIDP yang diajukan dan digunakan pada proyek. MIDP merupakan 
+timeline konsolidasi yang menunjukan bahwa Federated Model harus disetujui sebelum pelaksanaan konstruksi fisik di lapangan. 
+Tabel 9 – Format Tabel MIDP (Master Information Delivery Plan) 
+Lantai/ Area 
+Federated File 
+Level of Information need 
+Tahap 
+Milestone 
+Versi 
+Detail 
+Format 
+Shared 
+Reviewed by 
+MKP 
+Approved by 
+PPK 
+Know by MKI 
+Site Execution 
+GF 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+V0/V1/Vn 
+LOD 350 
+.rvt 
+Rencana 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+Realisasi 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+L1 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+V0/V1/Vn 
+LOD 350 
+.rvt 
+Rencana 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+Realisasi 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+Ln 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+V0/V1/Vn 
+LOD 350 
+.rvt 
+Rencana 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+Realisasi 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+dd/mm/yy 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (37) Dari (83) 
+ 
+ 
+ 
+ 
+ii.iv. Meeting dan Koordinasi 
+Selain mengatur proses pertukaran informasi pada CDE, proses review dari 
+model ataupun informasi yang telah diproduksi harus dikoordinasikan dalam 
+bentuk rapat koordinasi. Ketentuan rapat koordinasi berisi jenis rapat, frekuensi 
+pelaksanaan, serta peserta yang wajib menghadiri rapat tersebut sebagaimana 
+dijelaskan dalam tabel berikut. 
+ 
+Tabel 10 - Ketentuan Pelaksanaan Rapat dan Workshop 
+Jenis Rapat 
+Tahapan 
+Proyek 
+Frekuensi 
+Peserta 
+Lokasi 
+Kick off – BIM 
+Initial Meeting 
+Konstruksi 
+1x 
+Seluruh stakeholder 
+Site office 
+Sosialisasi BIM 
+Execution Plan 
+Konstruksi 
+1x 
+Seluruh stakeholder 
+Site office 
+Koordinasi 
+dengan design 
+keseluruhan 
+Konstruksi 
+2 Pekanan 
+Seluruh stakeholder 
+Online / Site 
+Office 
+Koordinasi 
+Desain 
+Konstruksi 
+1 Pekanan 
+BIM Engineer, Project Interface Manager, 
+Lead Designer dan Stakeholder 
+Site office / 
+Online 
+3D Modeling 
+Coordination 
+Konstruksi 
+2 Pekanan 
+BIM Engineer, Project Interface Manager, 
+Site Operational Manager, Lead Designer 
+Site office 
+Perencanaan 
+4D simulasi 
+pekerjaan 
+Konstruksi 
+2 Pekanan 
+BIM Engineer, Project Interface Manager, 
+Site Operational Manager, Project 
+Delivery Manager, Information Manager, 
+Scheduler 
+Site office 
+5D Cost 
+Estimation 
+Konstruksi 
+2 Pekanan 
+BIM Engineer, Project Interface Manager, 
+Quantity Surveyor 
+Site office 
+6D Energy 
+Analysis 
+Konstruksi 
+2 Pekanan 
+BIM Engineer, Project Interface Manager, 
+Tenaga Ahli BGH, Tenaga Ahli Smart 
+Building  
+Site office 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (38) Dari (83) 
+ 
+ 
+ 
+ 
+7D Facility 
+Management 
+Konstruksi 
+2 Pekanan 
+ 
+BIM Engineer, Project Interface 
+Manager,Stakeholder 
+Site office 
+ 
+iii. Common Data Environment (Struktur Folder, Konten Folder, dan 
+Tanggung jawab) 
+Persyaratan dan ketentuan dalam platform yang akan digunakan untuk 
+penyimpanan data dan proses kolaborasi implementasi BIM pada proyek yang 
+mengatur tentang: 
+● Common Data Environment yang digunakan disediakan oleh Appointing party 
+sebagai platform repository dan kolaborasi implementasi BIM 
+● Seluruh dokumen harus tersimpan pada CDE yang telah disediakan. 
+● Semua dokumentasi BIM, Data Non-Grafis, Model Grafis harus disimpan 
+dalam CDE sepanjang siklus proyek. 
+● CDE digunakan sebagai platform pengajuan review dan approval dokumen 
+engineering & BIM. 
+● Pengumpulan data pengembangan konstruksi simulasi sebagai BIM 4D/5D 
+yang dimasukan kedalam platform CDE 
+● Penyampaian issue dan temuan masalah design yang disampaikan secara 
+kolaboratif didalam platform CDE 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (39) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+Gambar 5 – Skema Koordinasi CDE 
+Common Data Environment (CDE) diaktifkan dan mulai digunakan sesuai 
+dengan jadwal yang tertuang pada Mobilization Plan yang telah diajukan. Common 
+Data Environment (CDE) harus dapat diakses oleh seluruh stakeholder proyek 
+sesuai authority yang dimiliki yaitu antara lain: 
+● Pemilik Pekerjaan/Unit Organisasi /PPK PUPR (Appointing party) 
+● Manajemen Konstruksi Induk  
+● Manajemen Konstruksi Proyek 
+● Kontraktor Utama/General Kontraktor (Lead Appointed Party) 
+● Subkontraktor/Supplier/Vendor/Konsultan (Appointed Party)  
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (40) Dari (83) 
+ 
+ 
+ 
+ 
+iii.i. Peran dan Tanggung Jawab 
+Dalam pengelolaan CDE terdapat super admin & admin proyek untuk mengatur, 
+monitoring & mengelola CDE 
+I. Super Admin memiliki peran dan tanggung jawab : 
+a. Super Admin adalah personil yang bertanggung jawab atas pengadaan, 
+pengelolaan dan penggunaan CDE tingkat organisasi 
+b. Mempersiapkan platform beserta pelatihan dan panduan penggunaan 
+CDE dan memberikan akses kepada admin Proyek. 
+c. Melakukan aktivasi CDE, penonaktifan CDE dan penghapusan seluruh 
+informasi sesuai dengan regulasi yang berlaku 
+II. Admin Proyek memiliki peran dan tanggung jawab: 
+a. Admin Proyek adalah personil yang bertanggung jawab atas penerapan 
+dan penggunaan CDE tingkat Proyek yang diwakili oleh BIM Manager / 
+Manager Engineering dari pihak Manajemen Konstruksi Proyek 
+dan/atau pihak yang ditetapkan oleh dan dari Appointing party. 
+b. Bertanggung jawab dalam menyusun folder dan sub folder, 
+mengundang, mengganti dan menghapus user, memberikan akses 
+folder kepada user sesuai fungsi dan kewenangan user, membuat, 
+merubah dan menghapus workflow, mengelola, 
+mereview 
+monitoring log, mensinkronisasikan informasi CDE tingkat proyek 
+ke CDE IKN. 
+c. Bertanggung jawab terhadap migrasi data dari tim tender ke tim Proyek 
+pada fase pre konstruksi dan tim Proyek kepada Appointing party pada 
+fase handover/project closing. 
+d. Mendetailkan informasi Proyek pada CDE. 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (41) Dari (83) 
+ 
+ 
+ 
+ 
+III. User/Pengguna memiliki peran dan tanggung jawab 
+a. Menggunakan dan menjalankan fungsi kolaborasi dan manajemen 
+informasi Proyek. 
+b. Membuat dan memperbarui informasi pada folder Work In Progress 
+(WIP) dalam pelaksanaan proyek 
+c. Membagikan dan Menggunakan informasi pada folder Shared dan 
+Published dalam pelaksanaan proyek 
+d. Menyimpan seluruh informasi dan dokumen proyek pada CDE 
+e. Menjaga kerahasiaan informasi dengan menggunakan informasi yang 
+diterima terbatas pada kepentingan proyek. 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (42) Dari (83) 
+ 
+ 
+ 
+ 
+iii.ii. Folder Management Data CDE 
+Seluruh dokumen terkait BIM dalam proyek akan dimasukan ke dalam folder di dalam CDE. Berikut merupakan folder management 
+yang akan dibuat di dalam CDE. Pada folder utama yang terdiri dari 4 Folder yaitu Work In Progress (WIP), Shared, Published dan 
+Archived. Berikut minimal struktur folder Management CDE dalam proyek pembangunan Ibu Kota Negara :  
+ 
+Gambar 6 – Skema CDE Proyek IKN 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (43) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+Gambar 7 – Penjelasan Folder Utama dalam CDE Proyek 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (44) Dari (83) 
+ 
+ 
+ 
+ 
+Tabel 11 Sistematika Folderisasi pada CDE 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+WIP/SHAR
+ED/PUBLI
+ST/ARCHI
+VE 
+1. Data Survei 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Titik Kontrol 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Berita Acara 
+ 
+Wajib 
+BA pengukuran titik 
+kontrol 
+pdf 
+ 
+ 
+ 
+2. Drawing Titik Kontrol 
+ 
+Wajib 
+Drawing lokasi titik kontrol 
+dwg 
+ 
+ 
+2. MC 0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Berita Acara 
+ 
+Wajib 
+Berita acara hasil MC 0 
+pdf 
+ 
+ 
+ 
+2. Drawing MC 0 
+ 
+Wajib 
+Drawing hasil MC 0 
+dwg 
+ 
+ 
+ 
+3. Dokumentasi 
+ 
+Wajib 
+Dokumentasi 
+pelaksanaan MC 0 
+jpg; png; dll 
+ 
+ 
+3. Soil Investigation 
+ 
+ 
+Wajib 
+Laporan Pengujian 
+pdf 
+ 
+ 
+4. Data Skema 
+Drainase 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Desain 2D 
+ 
+Wajib 
+desain skema drainase 
+dalam 2D 
+dwg 
+ 
+ 
+ 
+2. Desain 3D 
+ 
+Wajib 
+desain skema drainase 
+dalam 3D 
+rvt; dwg; dll 
+ 
+ 
+ 
+3. Analisis Perencanaan 
+ 
+Wajib 
+Laporan Analisa 
+Perencanaan Drainase 
+pdf 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (45) Dari (83) 
+ 
+ 
+ 
+ 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+ 
+ 
+5. Kajiian Geoteknik 
+ 
+ 
+Opsional 
+Laporan Hasil kajian 
+Geoteknik 
+pdf 
+ 
+2. DED 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0. List Drawing 
+ 
+ 
+Wajib 
+Tabel list drawing gambar 
+DED 
+excel, pdf 
+ 
+ 
+1. File DWG 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Jalan 
+ 
+Wajib 
+gambar DED 
+dwg 
+ 
+ 
+ 
+2. Jembatan 
+ 
+Wajib 
+gambar DED 
+dwg 
+ 
+ 
+ 
+3. Struktur 
+ 
+Wajib 
+gambar DED 
+dwg 
+ 
+ 
+ 
+4. MEP 
+ 
+Wajib 
+gambar DED 
+dwg 
+ 
+ 
+ 
+5. Etc 
+ 
+Wajib 
+gambar DED 
+dwg 
+ 
+ 
+2. File PDF 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Jalan 
+ 
+Wajib 
+gambar DED 
+pdf 
+ 
+ 
+ 
+2. Jembatan 
+ 
+Wajib 
+gambar DED 
+pdf 
+ 
+ 
+ 
+3. Struktur 
+ 
+Wajib 
+gambar DED 
+pdf 
+ 
+ 
+ 
+4. MEP 
+ 
+Wajib 
+gambar DED 
+pdf 
+ 
+ 
+ 
+5. Etc 
+ 
+Wajib 
+gambar DED 
+pdf 
+ 
+ 
+3. BIM Model (LOD 
+300) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Single Model 
+ 
+Opsional 
+Model BIM LOD 300 
+Sesuai dengan TIDP 
+Menyesuaikan 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (46) Dari (83) 
+ 
+ 
+ 
+ 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+ 
+ 
+ 
+2. Federated Model 
+ 
+Opsional 
+Model BIM LOD 300 
+Sesuai dengan MIDP 
+iwm 
+ 
+ 
+4. Material 
+Spesification 
+ 
+ 
+Wajib 
+Laporan Spesifikasi 
+material 
+pdf 
+ 
+ 
+5. Quality Plan 
+ 
+ 
+Wajib 
+Laporan Quality Plan 
+pdf 
+ 
+ 
+6. Dokumen Spektek 
+ 
+ 
+Wajib 
+Dokumen Spesifikasi 
+Teknis 
+pdf 
+ 
+ 
+7. Surface Design 
+ 
+ 
+Wajib 
+Model Surface Desain 
+cad 
+ 
+ 
+8. Dokumen 
+Perhitungan desain 
+ 
+ 
+Wajib 
+Laporan Perencanaan 
+pdf 
+ 
+3. For 
+Construction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0. List Drawing 
+ 
+ 
+Wajib 
+Tabel list drawing gambar 
+DED 
+excel, pdf 
+ 
+ 
+1. File DWG 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Jalan 
+ 
+Wajib 
+gambar shopdrawing 
+dwg 
+ 
+ 
+ 
+2. Jembatan 
+ 
+Wajib 
+gambar shopdrawing 
+dwg 
+ 
+ 
+ 
+3. Struktur 
+ 
+Wajib 
+gambar shopdrawing 
+dwg 
+ 
+ 
+ 
+4. MEP 
+ 
+Wajib 
+gambar shopdrawing 
+dwg 
+ 
+ 
+ 
+5. Etc 
+ 
+Wajib 
+gambar shopdrawing 
+dwg 
+ 
+ 
+2. File PDF 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Jalan 
+ 
+Wajib 
+gambar shopdrawing 
+pdf 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (47) Dari (83) 
+ 
+ 
+ 
+ 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+ 
+ 
+ 
+2. Jembatan 
+ 
+Wajib 
+gambar shopdrawing 
+pdf 
+ 
+ 
+ 
+3. Struktur 
+ 
+Wajib 
+gambar shopdrawing 
+pdf 
+ 
+ 
+ 
+4. MEP 
+ 
+Wajib 
+gambar shopdrawing 
+pdf 
+ 
+ 
+ 
+5. Etc 
+ 
+Wajib 
+gambar shopdrawing 
+pdf 
+ 
+ 
+3. BIM Model 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Single Model 
+ 
+Wajib 
+Model BIM LOD 350 
+Sesuai dengan TIDP 
+Menyesuaikan 
+ 
+ 
+ 
+2. Federated Model 
+ 
+Wajib 
+Model BIM LOD 350 
+Sesuai dengan MIDP 
+iwm 
+ 
+4. As Built 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0. List Drawing 
+ 
+ 
+Wajib 
+Tabel list drawing gambar 
+DED 
+excel, pdf 
+ 
+ 
+1. File DWG 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Jalan 
+ 
+Wajib 
+gambar As Built 
+dwg 
+ 
+ 
+ 
+2. Jembatan 
+ 
+Wajib 
+gambar As Built 
+dwg 
+ 
+ 
+ 
+3. Struktur 
+ 
+Wajib 
+gambar As Built 
+dwg 
+ 
+ 
+ 
+4. MEP 
+ 
+Wajib 
+gambar As Built 
+dwg 
+ 
+ 
+ 
+5. Etc 
+ 
+Wajib 
+gambar As Built 
+dwg 
+ 
+ 
+2. File PDF 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Jalan 
+ 
+Wajib 
+gambar As Built 
+pdf 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (48) Dari (83) 
+ 
+ 
+ 
+ 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+ 
+ 
+ 
+2. Jembatan 
+ 
+Wajib 
+gambar As Built 
+pdf 
+ 
+ 
+ 
+3. Struktur 
+ 
+Wajib 
+gambar As Built 
+pdf 
+ 
+ 
+ 
+4. MEP 
+ 
+Wajib 
+gambar As Built 
+pdf 
+ 
+ 
+ 
+5. Etc 
+ 
+Wajib 
+gambar As Built 
+pdf 
+ 
+ 
+3. BIM Model 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Single Model 
+ 
+Wajib 
+Model BIM LOD 500 
+Sesuai dengan TIDP 
+menyesuaikan 
+ 
+ 
+ 
+2. Federated Model 
+ 
+Wajib 
+Model BIM LOD 500 
+Sesuai dengan MIDP 
+iwm 
+ 
+5. BIM 4D 
+Schedulling 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. File Schedulling 
+ 
+ 
+Wajib 
+Schedulle kurva S 
+xls 
+ 
+ 
+2. WBS 
+ 
+ 
+Wajib 
+Schedulle mpp 
+mpp 
+ 
+ 
+3. Visualisasi 
+Schedule 
+ 
+ 
+Wajib 
+BIM Model 4D 
+nwd 
+ 
+ 
+4. Laporan 
+perbandingan 
+ 
+ 
+Wajib 
+Laporan perbandingan 
+progress BIM 4D 
+ppt 
+ 
+6. BIM 5D QTO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Design 
+ 
+ 
+Wajib 
+Laporan Hasil QTO 
+desain 
+pdf; xls 
+ 
+ 
+2. Progress 
+ 
+ 
+Wajib 
+Laporan Hasil QTO 
+Progress 
+pdf; xls 
+ 
+7. QA & QC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (49) Dari (83) 
+ 
+ 
+ 
+ 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+ 
+ 
+1. Checklist 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Checklist Lapangan 
+ 
+Wajib 
+Laporan checklist 
+pekerjaan lapangan 
+pdf 
+ 
+ 
+ 
+2. Checklist BIM 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. LOD 300 
+(Khusus 
+DB) 
+Opsional 
+Laporan QC model BIM 
+pdf 
+ 
+ 
+ 
+ 
+2. LOD 350 
+Wajib 
+Laporan QC model BIM 
+pdf 
+ 
+ 
+ 
+ 
+3. L0D 500 
+Wajib 
+Laporan QC model BIM 
+pdf 
+ 
+ 
+2. Material Approval 
+ 
+ 
+Wajib 
+Dokumen Persetujuan 
+Material 
+pdf 
+ 
+ 
+3. Metode Kerja 
+ 
+ 
+Wajib 
+Dokumen Pesetujuan 
+Metode Kerja 
+pdf 
+ 
+ 
+4. RFI 
+ 
+ 
+Opsional 
+Dakumen Persetujuan 
+Perubahan Desain 
+pdf 
+ 
+ 
+5. Data Pengujian 
+ 
+ 
+Wajib 
+Laporan hasil pengujian 
+pdf 
+ 
+ 
+6. Site Instruction 
+ 
+ 
+Wajib 
+Dokumen laporan 
+perubahan pekerjaan 
+pdf 
+ 
+ 
+7. Memo Lapangan 
+ 
+ 
+Wajib 
+Dokumen memo lapangan 
+pdf 
+ 
+ 
+8. Dokumentasi QC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Dokumentasi Pengujian 
+ 
+Wajib 
+Dokumentasi Pengujian 
+jpg; png 
+ 
+ 
+ 
+2. Dokumentasi Pemeriksaan 
+Pekerjaan 
+ 
+Wajib 
+Dokumentasi 
+Pemeriksaan Pekerjaan 
+jpg; png 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (50) Dari (83) 
+ 
+ 
+ 
+ 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+ 
+8. Project 
+Progress 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Pproject Surface 
+ 
+ 
+Wajib 
+Data updating model 
+surface 
+dwg 
+ 
+ 
+2. Orthofoto 
+ 
+ 
+Wajib 
+Data updating orthofoto 
+progress 
+tiff; dwg 
+ 
+ 
+3. 3D Model Progress 
+ 
+ 
+Wajib 
+Data updating model BIM 
+progress 
+menyesuaikan 
+ 
+ 
+4. Foto 
+ 
+ 
+Wajib 
+Dokumentasi foto 
+progress lapangan 
+jpg; png 
+ 
+ 
+5. Video 
+ 
+ 
+Wajib 
+Dokumentasi video 
+progress lapangan 
+mp4 
+ 
+ 
+6. Laporan Clash 
+Detection 
+ 
+ 
+Opsional 
+Laporan clash antar paket 
+pekerjaan 
+ppt 
+ 
+9. Dokumen 
+Administrasi 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0. Checlist 
+Kelengkapan CDE 
+ 
+ 
+Wajib 
+Dokumen monitoring 
+kelengkapan CDE 
+xls 
+ 
+ 
+1. BIM 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. BEP 
+ 
+Wajib 
+Dokumen BIM Execution 
+Plan 
+pdf 
+ 
+ 
+ 
+2. MIDP 
+ 
+Wajib 
+Dokumen MIDP 
+xls 
+ 
+ 
+ 
+3. TIDP 
+ 
+Wajib 
+Dokumen TIDP 
+xls 
+ 
+ 
+2. Surat Menyurat 
+ 
+ 
+Opsional 
+Dokumen Surat Menyurat 
+pdf 
+ 
+ 
+3. Risalah Rapat 
+ 
+ 
+Opsional 
+Dokumen Risalah Rapat 
+pdf 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (51) Dari (83) 
+ 
+ 
+ 
+ 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+ 
+ 
+4. Laporan Harian 
+ 
+ 
+Wajib 
+Dokumen Laporan Harian 
+pdf; ppt 
+ 
+ 
+5. Laporan Mingguan 
+ 
+ 
+Wajib 
+Dokumen Laporan 
+Mingguan 
+pdf; ppt 
+ 
+ 
+6. Dokumen Kontrak 
+ 
+ 
+Wajib 
+Dokumen Kontrak 
+pekerjaan 
+pdf 
+ 
+ 
+7. Materi PCM 
+ 
+ 
+Wajib 
+Dokumen paparan PCM 
+pdf; ppt 
+ 
+ 
+8. Materi Monev BIM 
+ 
+ 
+Wajib 
+Dokumen paparan monev 
+BIM 
+pdf; ppt 
+ 
+ 
+9. Materi Monev 
+Pelaksanaan 
+ 
+ 
+Wajib 
+Dokumen paparan monev 
+Pelaksanaan 
+pdf; ppt 
+ 
+ 
+10. Materi Monev 
+Perencanaan 
+ 
+ 
+Opsional 
+Dokumen paparan monev 
+Perencanaan 
+pdf; ppt 
+ 
+ 
+11. SOP dan Rekap 
+Clash Detection 
+ 
+ 
+Wajib 
+SOP dan Report Clash 
+Detection internal 
+pdf; ppt 
+ 
+10. HSE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Kelengkapan 
+Dokumen 
+ 
+ 
+Wajib 
+Dokumen kelengkapan 
+penerapan SMKK 
+pdf; ppt 
+ 
+ 
+2. Dashboard SMKK 
+ 
+ 
+Wajib 
+Dokumen laporan 
+penerapan SMKK 
+pdf; ppt 
+ 
+ 
+3. Dokumentasi SMKK 
+ 
+ 
+Wajib 
+Dokumentasi penerapan 
+kegiatan SMKK 
+jpg; png 
+ 
+11. Dashboard 
+IKN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BIM Desain 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IWM_NWD 
+ 
+Wajib 
+Dokumen BIM Model 
+Desain 
+nwd 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (52) Dari (83) 
+ 
+ 
+ 
+ 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+ 
+ 
+ 
+SLPK 
+ 
+Wajib 
+Dokumen BIM Model 
+Desain 
+slpk 
+ 
+ 
+BIM Progres 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IWM_NWD 
+ 
+Wajib 
+Dokumen BIM Model 
+Progress 
+nwd 
+ 
+ 
+ 
+SLPK 
+ 
+Wajib 
+Dokumen BIM Model 
+Progress 
+slpk 
+ 
+12. Issue 
+Register 
+ 
+ 
+ 
+Wajib 
+Dokumen Issue register 
+xls 
+ 
+13. Risk Register 
+ 
+ 
+ 
+Wajib 
+Dokumen Risk register 
+xls 
+ 
+14. Supply Chain 
+Register 
+ 
+ 
+ 
+Wajib 
+Dokumen Supply Chain 
+Register 
+xls 
+ 
+15. Video Desain 
+ 
+ 
+ 
+Wajib 
+Video rendering Model 
+Desain 
+mp4 
+ 
+16. Basic Desain 
+ 
+ 
+ 
+Opsional 
+Model BIM berdasarkan 
+basic Desain 
+menyesuaikan 
+ 
+17. Dokumen 
+KPPK 
+ 
+ 
+ 
+Opsional 
+Ketentuan Pejabat 
+Pembuat Komitmen 
+pdf 
+ 
+18. Resume BGH 
+& BGC 
+ 
+ 
+ 
+Opsional 
+Laporan hasil BGH & 
+BGC 
+pdf; ppt 
+ 
+19. BIM Library 
+ 
+ 
+ 
+Wajib 
+Model BIM Library 
+Rvt, Rfa, Csv 
+ 
+100. PHO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Dokumen 
+Administrasi PHO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. BA Penyelesaian Defect List 
+ 
+Wajib 
+Laporan hasil 
+penyelesaian defect list 
+pdf 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (53) Dari (83) 
+ 
+ 
+ 
+ 
+Tier 1 
+Tier 2 
+Tier 3 
+Tier 4 
+Tier 5 
+Status 
+Mutu Baku 
+Format Data 
+ 
+ 
+ 
+2. General Material 
+ 
+Opsional 
+Dokumen garansi material 
+pdf 
+ 
+ 
+ 
+3. Hasil Uji Material 
+ 
+Wajib 
+Dokumen hasil uji material 
+pdf 
+ 
+ 
+ 
+4. Testing dan Commisioning 
+ 
+Opsional 
+Dokumen hasil Testing 
+dan Commisioning 
+pdf 
+ 
+ 
+ 
+5. Sertifikasi Layak Fungsi 
+ 
+Opsional 
+Dokumen Sertifikasi 
+Layak Fungsi 
+pdf 
+ 
+ 
+ 
+6. Meet Spesifikasi (Original of 
+Country) Material Import 
+ 
+Wajib 
+Dokumen hasil uji material 
+pdf 
+ 
+ 
+ 
+7. Manual Book - Maintenance 
+ 
+Opsional 
+Dokumen manual book 
+pdf 
+ 
+ 
+ 
+8. Sertifikat Original Software 
+ 
+Wajib 
+Dokumen original 
+software 
+pdf 
+ 
+ 
+2. BIM Model LOD 500 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. BIM Federated LOD 500 
+ 
+Wajib 
+BIM Model LOD 500 (As 
+Built) 
+iwm 
+ 
+ 
+ 
+2. Laporan BAST BIM Model LOD 
+500 
+ 
+Wajib 
+Dokumen laporan BAST 
+Model BIM 
+pdf 
+ 
+Catatan : Folderisasi tidak bersifat baku melainkan menyesuaikan kebutuhan dan ketentuan terbaru mengikuti keberlanjutan proyek 
+konstruksi. 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (54) Dari (83) 
+ 
+ 
+ 
+ 
+iii.iii. Format Penamaan File 
+Kodefikasi penamaan file untuk dokumentasi teknis didasarkan pada sistem 
+penomoran yang memungkinkan pencarian dengan berbagai parameter seperti: 
+bidang disiplin dan major project. Informasi dan perubahan versi tidak 
+ditambahkan pada penamaan file. 
+ 
+Tabel 12 – Sistem Penamaan File  
+Jenis Dokumen 
+Format Penamaan 
+Engineering Drawing 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+BIM Model 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+Laporan 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+Surface 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+Orthophoto 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+Spesifikasi Material 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+Laporan Progress 
+Project_Keterangan_Nama Perusahaan_File 
+Type_Tanggal 
+Gambar/Foto 
+Project_Keterangan_Nama Perusahaan_File 
+Type_Tanggal 
+Video 
+Project_Keterangan_Nama Perusahaan_File 
+Type_Tanggal 
+ 
+Format penamaan foto dan dokumentasi menyesuaikan dengan MK pada 
+masing-masing proyek. 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (55) Dari (83) 
+ 
+ 
+ 
+ 
+Kodefikasi dokumen dan drawing untuk proyek seperti pada tabel 13. Format 
+penamaan file dapat sebagai berikut;  
+ 
+Contoh : BEND22_SDA_STR_PON_Area2_011-111_IHS_RVT22 
+ 
+Tabel 13 – Format Penamaan File 
+XXX20_XXX_LIN_SIS_Zone1_ABC_NAM_RVT22 
+XXXX 
+Inisial Proyek (4 Digit Inisial awal nama proyek) 
+22 
+Tahun Proyek (2 Digit Tahun dimulai proyek) 
+XXX 
+Inisial Unit Organisasi 
+LIN 
+Lingkup (3 Digit Inisial awal dari Lingkup Pekerjaan) 
+STR - Struktur 
+ARS - Arsitektur 
+LAN - Landscape 
+ALI – Alignment 
+FED – Federated Model 
+Catatan : Menyesuaikan dengan scope proyek 
+SIS 
+Sistem/Pekerjaan (Max 4 Digit) 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (56) Dari (83) 
+ 
+ 
+ 
+ 
+Contoh: FF untuk pekerjaan Fire Fighting, PILE untuk 
+pekerjaan Pile cap, FSD untuk pekerjaan Fasad 
+Zone1 
+Zona, Lantai atau Area 
+Contoh : Zone1, LT2-12, LTB3, Segmen1, KM100-
+400 
+ABC 
+Referensi dari nomor yang mengacu pada gambar kerja 
+2D (Basic Design / DED) 
+NAM 
+Nama Modeler (3 Digit Inisial BIM Modeler) 
+RVT21 
+BIM Authoring Tools yang dipakai beserta versinya 
+Contoh : RVT20, C3D20, BEN2OR0, TEK20 
+ 
+iii.iv. Attribute Folder & Status Code CDE 
+Attribute folder dalam CDE diatur untuk memudahkan sorting dan pencarian 
+informasi yang ada. Attribute Folder diatur oleh MK Proyek pada masing-masing 
+proyek. 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (57) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+Gambar 8 – Contoh Attribute Folder pada CDE 
+ 
+Minimal Attribute terdiri dari: 
+1. Nama File 
+2. Version File 
+3. Status 
+4. Status Code / Metadata 
+5. Last Updated 
+6. Updated by 
+7. Issue 
+8. Markup 
+9. Size 
+10. Deskripsi 
+Status Kode metadata dalam CDE ditetapkan sebagai berikut: 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (58) Dari (83) 
+ 
+ 
+ 
+ 
+Tabel 14 - Proses Koordinasi dan Clash Detection 
+ 
+iii.v. Workflow Review, RFI, Transmittal, dan Approval CDE 
+Sebelum suatu dokumen/informasi dinyatakan valid dan layak untuk digunakan, 
+dokumen tersebut harus melewati beberapa tahap pengecekan tergantung jenis 
+dokumennya. Hal ini dilakukan untuk memastikan dokumen dan informasi yang 
+terkandung didalamnya adalah benar dan dapat digunakan.  
+CDE merupakan platform kolaborasi utama pada proyek ini untuk kolaborasi 
+dokumen proyek seperti : 
+I. Request for Information - RFI 
+II. Request for Approval 
+III.Transmittal – TRN 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (59) Dari (83) 
+ 
+ 
+ 
+ 
+Manajemen Konstruksi Proyek dapat dan wajib menentukan sendiri workflow pada CDE 
+masing-masing Unor yang dapat digunakan untuk bekerjasama antar stakeholder dalam 
+pelaksanaan konstruksi. CDE digunakan sebagai satu-satunya sumber informasi proyek yang 
+berfungsi sebagai repositori data proyek. 
+Penyedia Jasa dan Manajemen Konstruksi harus memiliki tenaga ahli yang 
+memahami BIM & CDE proses untuk secara internal mereview: 
+● Kolaborasi/ integrasi desain, clash detection antar disiplin dan 
+kesesuaian dengan gambar perencanaan. Dibantu oleh masing-masing 
+tenaga ahli perencana. 
+● Kesesuaian quantity dengan BOQ/ RAB. Dibantu oleh tenaga ahli QS. 
+● Proses pekerjaan BIM, scheduling, 
+serta kesesuaian 
+dengan 
+pelaksanaan lapangan. Dipastikan oleh project manager proyek. 
+● Hasil review disampaikan dalam bentuk laporan tertulis yang dilengkapi 
+dengan gambar/ diagram. Hasil review disampaikan secara berkala di 
+tiap tahapan perencanaan. Secara eksternal, seluruh model BIM dan 
+hasil laporan akan di review oleh owner. 
+● Hasil Review dari Manajemen Konstruksi Proyek akan direview oleh 
+Manajemen Konstruksi Induk. 
+Durasi proses review dan persetujuan diatur untuk memastikan implementasi 
+dan fungsi CDE berjalan secara optimal. Durasi maksimal dari masing-masing 
+proses mengacu ke tabel berikut: 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (60) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+Tabel 15 – Service Level Agreement  CDE 
+Peran 
+Proses 
+Durasi 
+Satgas IKN 
+Menerima hasil koordinasi desain & 
+konstruksi antar proyek IKN secara 
+menyeluruh 
+1 hari 
+MK Induk 
+Mereview, 
+mengevaluasi 
+dan 
+menerima 
+informasi 
+desain 
+& 
+konstruksi antar proyek IKN secara 
+menyeluruh 
+3 hari 
+Unor/Balai/Satker 
+Menerima hasil koordinasi desain & 
+konstruksi 
+pelaksanaan 
+proyek 
+sesuai kewenangannya 
+1 hari 
+PPK 
+Menerima 
+& 
+menyetujui 
+hasil 
+koordinasi 
+desain 
+& 
+konstruksi 
+pelaksanaan 
+proyek 
+sesuai 
+kewenangannya 
+1 hari 
+MK Proyek 
+Mereview, 
+mengevaluasi 
+dan 
+menyetujui desain 
+& konstruksi 
+masing-masing proyek sesuai paket 
+pekerjaan. 
+2 hari 
+Project Manager 
+Menyetujui desain 
+& konstruksi 
+proyek sesuai 
+paket 
+pekerjaan 
+secara internal. 
+1 hari 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Nusantara 
+Halaman (61) Dari (83) 
+ 
+ 
+ 
+ 
+Peran 
+Proses 
+Durasi 
+BIM Manager 
+Mereview, & mengevaluasi desain & 
+model BIM proyek sesuai paket 
+pekerjaan secara internal. 
+2 hari 
+BIM Coordinator 
+Mengajukan model BIM proyek 
+sesuai 
+paket 
+pekerjaan 
+secara 
+internal. 
+1 hari 
+BIM Modeler 
+Mengajukan 
+model BIM sesuai 
+dengan lingkup pekerjaan dan acuan 
+yang digunakan pada proyek. 
+1 hari 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building Information Modeling 
+untuk Pembangunan Ibu Kota Nusantara 
+Halaman (62) Dari (83) 
+ 
+ 
+ 
+ 
+Tabel 16 – Workflow Review & Approval 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (63) Dari (83) 
+ 
+ 
+ 
+ 
+iii.vi. Keamanan Informasi pada CDE  
+Tujuan dari kebutuhan security requirement adalah dalam rangka untuk 
+mengembangkan, mengimplementasikan, memelihara, dan meningkatkan 
+secara terus menerus keamanan CDE di proyek. Adapun secara lebih lanjut 
+tujuan dari kebutuhan security requirement adalah sebagai berikut: 
+● Confidentiality (Kerahasiaan) -Memastikan informasi hanya dapat 
+diakses oleh pihak yang berkepentingan. 
+● Integrity (Integritas) - Menjamin keakuratan, kelengkapan dan 
+pengolahan informasi. 
+● Availability (Ketersediaan) - Menjamin informasi tersedia saat 
+dibutuhkan oleh pengguna yang berwenang. 
+Seluruh pihak menjamin bahwa data dan/atau informasi yang diberikan dan 
+disampaikan baik secara lisan, tertulis, grafik atau yang disampaikan melalui 
+media elektronik atau informasi dalam bentuk lainnya selama berlangsungnya 
+pembicaraan 
+dan/atau 
+selama 
+pelaksanaan 
+kerjasama akan 
+dijaga 
+kerahasiaannya dari pihak ketiga maupun pihak terafiliasi dan akan 
+dipergunakan hanya untuk kepentingan proyek dan anggota tim Proyek tidak 
+diizinkan dengan sengaja membagikan model BIM dan/atau informasi proyek 
+apapun kepada pihak lain selain yang tertuang pada BEP dan dalam format 
+diluar yang disepakati 
+iv. QA dan QC Model 
+iv.i. Integrasi Data 
+BIM model tunggal (single file) dibuat setelah solid model dari data kontur 
+dihasilkan dan digunakan sebagai referensi pembuatan model. Seluruh BIM 
+model tunggal (single file) dari satu proyek digabungkan menjadi satu Federated 
+Model yang terintegrasi untuk dilakukan proses analisa dan evaluasi lebih lanjut. 
+Dalam menindaklanjuti kesesuaiannya terhadap standar kebutuhan masing-
+masing BIM Model pada tiap fase pekerjaan yaitu fase konstruksi atau PIM dan 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (64) Dari (83) 
+ 
+ 
+ 
+ 
+fase Hand Over atau AIM, dibuatlah checklist kesesuainya terhadap LOD dan 
+LOI per single model sesuai TIDP yang telah disetujui pada masing-masing fase 
+tersebut. 
+a. Checklist QA&QC BIM Fase PIM (LOD 350) 
+ 
+Gambar 9 - Format Checklist QA & QC Model BIM LOD 350 
+ 
+b. Checklist QA&QC BIM Fase AIM (LOD 500) 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (65) Dari (83) 
+ 
+ 
+ 
+ 
+ 
+Gambar 10 - Format Checklist QA & QC Model BIM LOD 500 
+ 
+iv.ii. Clash Detection Proyek 
+Penyedia Jasa & MK Proyek bertanggung jawab untuk melakukan dan 
+mengelola proses RFI dan clash detection yang memadai dan menyeluruh, 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (66) Dari (83) 
+ 
+ 
+ 
+ 
+sehingga seluruh error yang ditemukan antara 2 komponen atau lebih akan 
+terdeteksi dan diselesaikan sebelum proses konstruksi. Hal ini akan menjadi 
+tujuan utama implementasi BIM proyek untuk mengurangi jumlah rework selama 
+proses konstruksi. 
+Penyedia Jasa & MK Proyek mengumpulkan seluruh komposit model setiap 
+disiplin untuk memeriksa model secara visual maupun spasial, kualitas 
+bangunan dan sistem koordinasi MEP. Laporan clash detection diserahkan 
+secara regular dan dibahas pada saat rapat koordinasi desain yang 
+dilaksanakan setiap minggu atau sesuai jadwal yang telah ditentukan. 
+ 
+Gambar 11 – Diagram Proses Koordinasi dan Clash Detection Proyek 
+ 
+ 
+Tabel 17 - Proses Koordinasi dan Clash Detection 
+Term 
+Definition 
+Civ 
+3D model Sipil/ Infrastruktur 
+Str 
+3D model Struktur 
+Ars 
+3D model Arsitektur 
+MEP 
+3D model sistem Mechanical, Electrical & Plumbing 
+Lsc 
+3D Model Lansekap 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (67) Dari (83) 
+ 
+ 
+ 
+ 
+Term 
+Definition 
+Coordinated. 
+Model 
+Model komposit/Federated Model 
+Clash Check 
+Pengecekan clash menggunakan BIM Coordination Tools / Clash 
+Analysis Tools 
+Resolve 
+Proses diskusi antar stakeholder yang terlibat dalam menentukan 
+solusi dan mengambil keputusan terhadap clash yang terdeteksi 
+Report 
+Pembuatan laporan dan dokumentasi dari clash yang terdeteksi, 
+beserta solusi yang diambil 
+ 
+Clash detection merupakan suatu teknik atau cara untuk mengidentifikasi 
+dimana dan bagaimana 2 (dua) elemen bangunan saling mengganggu antara 
+satu dengan yang lainnya, baik itu dalam hal constructability maupun 
+maintenance. 
+Namun, dalam pelaksanaannya ada beberapa hal yang perlu diperhatikan 
+karena karakteristik dari tiap-tiap elemen bangunan yang berbeda sehingga 
+hubungan antar elemen pun tidak sama, oleh karena itu ketentuannya diatur 
+dalam tabel tipe clash dan clash detection matrix sebagai berikut. 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (68) Dari (83) 
+ 
+ 
+ 
+ 
+Tabel 18 - Clash Resolution Process 
+Point 
+Considerations 
+Type of Clash 
+Actual clash, Allowable clash, Not a clash 
+Resolution 
+Visual impact, Engineering impact, Cost impact 
+Visual impact 
+Fit with architecture 
+Engineering impact 
+Best solution, installation, maintenance 
+Cost impact 
+Design, Procure, Install, Run, Maintain 
+ 
+Proses clash detection dilakukan setelah model BIM diterima oleh MK Paket, 
+MK paket bertanggung jawab mereview dan mengecek clash detection yang 
+disebabkan oleh 2 komponen yang bersinggungan dan memberikan 
+rekomendasi terkait perbaikannya, setelah desain BIM Model disetujui PPK, MK 
+Induk akan mengecek dan memberikan rekomendasi terkait clash detection 
+yang disebabkan oleh 2 paket pekerjaan. 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (69) Dari (83) 
+ 
+ 
+ 
+ 
+Tabel 19 – SOP Clash Detection IKN 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (70) Dari (83) 
+ 
+ 
+ 
+ 
+v. Key Performance Indicator (KPI)  
+Key Performance Indicator adalah istilah yang digunakan untuk menyebut 
+Indikator kinerja utama yang perlu diterapkan oleh berbagai organisasi agar dapat 
+memenuhi nilai minimum sesuai indikator yang telah disesuaikan. Berikut adalah alur 
+dalam proses penilaian KPI BIM pada pembangunan IKN :  
+ 
+Gambar 12 – Alur Penilaian KPI BIM IKN 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (71) Dari (83) 
+ 
+ 
+ 
+ 
+Dalam 
+memberikan 
+penilaian 
+Key 
+Performance 
+Indicator 
+pada 
+pengimplementasian BIM pada pembangunan Ibu Kota Negara maka di buat 
+beberapa parameter penilaian, antara lain :  
+ 
+Tabel 20 - Parameter Indikator KPI BIM IKN 
+No 
+Parameter 
+Output 
+Max 
+Score 
+(%) 
+Sifat 
+Nilai 
+Keterangan 
+1 
+Kelengkapan 
+Dokumen dan 
+Penunjang 
+Penerapan BIM 
+Data dan 
+Dokumen 
+12 
+Tetap 
+Mematuhi dan mengeksekusi implementasi 
+BIM sesuai dengan BEP (BIM Execution 
+Plan) yang telah disetujui sampai dengan 
+Hand Over (HO). Termasuk pemenuhan 
+seluruh kelengkapan dokumen untuk 
+mendukung proses implementasi BIM. 
+2 
+Pelaksanaan 
+Monitoring dan 
+Evaluasi Penerapan 
+BIM 
+Laporan 
+Bulanan 
+6 
+Fluktuatif 
+Mengikuti dan menindaklanjuti kendala yang 
+teridentifikasi selama proses penerapan BIM 
+melalui kegiatan Monitoring dan Evaluasi 
+rutin. 
+3 
+Implementasi BIM 3D, 
+4D dan 5D 
+Laporan 
+Bulanan 
+46 
+Fluktuatif 
+Tersedianya gambar kerja berbasis BIM 
+Model yang mencakup didalamnya informasi 
+jadwal pekerjaan dan kuantifikasi. Termasuk 
+analisa konflik yang ditemukan dalam proses 
+konstruksi. 
+4 
+Pelaksanaan Review 
+dan Persetujuan 
+Desain melalui CDE 
+Laporan 
+Bulanan 
+12 
+Fluktuatif 
+Tersedianya alur pelaksanaan kegiatan yang 
+disepakati oleh seluruh perwakilan dari 
+proyek pada Common Data Environment 
+(CDE). Termasuk manajemen dan 
+pengelolaan isu yang ditemukan dalam 
+proses konstruksi. 
+5 
+Kolaborasi antar 
+Pihak melalui CDE 
+Dokumentasi 
+CDE 
+9 
+Fluktuatif 
+Berjalannya seluruh alur pelaksanaan 
+kegiatan dari proyek pada   (CDE) seperti 
+proses penyampaian progres, wadah 
+persetujuan desain/dokumen, dan wadah 
+komunikasi untuk penyelesaian 
+permasalahan proyek. 
+6 
+Kesesuaian 
+Implementasi BIM 
+Laporan QC 
+Model BIM 
+15 
+Fluktuatif 
+Berjalanya seluruh alur pemodelan berbasis 
+BIM mulai dari tahap penyusunan task, 
+pelaksanaan pemodelan, pengajuan 
+pengecekan model per masing-masing fase 
+sampai dengan model tersebut disetujui dan 
+digunakan sebagai acuan pekerjaan di 
+lapangan. 
+TOTAL 
+100 
+ 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (72) Dari (83) 
+ 
+ 
+ 
+ 
+Dari Masing-masing parameter inti tersebut diatas dalam penerapannya untuk 
+menilai pengimplementasian BIM pada IKN dilakukan pengisian 
+dengan 
+menggunakan detail parameter sebagai berikut :  
+ 
+Tabel 21 - Detail Parameter Indikator KPI BIM IKN 
+No 
+Parameter 
+Nilai 
+Range 
+0% 
+50% 
+100% 
+1 
+Kelengkapan Dokumen 
+dan Penunjang 
+Penerapan BIM 
+12 
+ 
+1a 
+Kelengkapan BEP 
+3 
+BEP tidak 
+tersedia 
+BEP tersedia tetapi 
+belum disetujui oleh 
+pihak-pihak terkait 
+BEP tersedia dan 
+disetujui seluruh 
+pihak terkait 
+1b 
+Kelengkapan Format 
+Folder 
+3 
+Tidak ada format 
+Format tersedia 
+tetapi hanya 
+diterapkan sebagian 
+Format tersedia dan 
+diterapkan secara 
+menyeluruh 
+1c 
+Kelengkapan Member 
+dari CDE 
+3 
+Tidak 
+mengajukan 
+form pembukaan 
+CDE 
+Mengajukan form 
+pembukaan CDE 
+tetapi tidak 
+melibatkan seluruh 
+pihak terkait 
+Sudah mengajukan 
+form pembukaan 
+CDE untuk seluruh 
+pihak dan sudah 
+teregistrasi di CDE 
+1d 
+Kelengkapan dan 
+ketepatan waktu 
+pengumpulan data atau 
+dokumen yang diupload 
+3 
+Tidak ada sama 
+sekali 
+mengupload 
+data atau 
+dokumen pada 
+CDE 
+Hanya melengkapi 
+sebagian dokumen 
+atau tidak tepat 
+waktu dalam 
+pengumpulan pada 
+CDE 
+Tepat waktu dan 
+sudah melengkapi 
+semua data atau 
+dokumen pada CDE 
+ 
+2 
+Pelaksanaan Monitoring 
+dan Evaluasi Penerapan 
+BIM 
+6 
+ 
+2a 
+Kelengkapan Lembar 
+Monitoring dan Evaluasi 
+(Monev) 
+3 
+Lembar 
+Monitoring dan 
+Evaluasi tidak 
+tersedia 
+Lembar Monitoring dan Evaluasi tersedia 
+dan diperbaharui secara berkala 
+2b 
+Pelaksanaan Rapat 
+Koordinasi BIM 
+3 
+Tidak mengikuti 
+Rapat 
+Koordinasi BIM 
+Mengikuti Rapat 
+Koordinasi BIM tetapi 
+kurang tanggap 
+dalam 
+Mengikuti Rapat 
+Koordinasi BIM dan 
+secara tanggap 
+dalam 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (73) Dari (83) 
+ 
+ 
+ 
+ 
+No 
+Parameter 
+Nilai 
+Range 
+0% 
+50% 
+100% 
+menindaklanjuti 
+permasalahan 
+menindaklanjuti 
+permasalahan 
+ 
+3 
+Pelaksanaan 
+Penyusunan dan 
+Analisa terhadap DED 
+berbasis BIM Model 
+46 
+ 
+3a 
+Kesesuaian Implementasi 
+BIM berdasarkan BEP 
+yang telah disetujui 
+6 
+Tidak sesuai 
+penerapan 
+implementasi 
+BIM terhadap 
+BEP yang telah 
+disetujui 
+Sudah sesuai 
+penerapan 
+implementasi BIM 
+terhadap BEP yang 
+telah disetujui pada 
+beberapa lingkup 
+pekerjaan 
+Sudah sesuai 
+penerapan 
+implementasi BIM 
+terhadap BEP yang 
+telah disetujui 
+3b 
+3D BIM Model pada fase 
+Konstruksi 
+12 
+Tidak adanya 
+model pada tiap 
+fase konstruksi 
+yang berbasis 
+3D BIM Model 
+Tersedianya 
+sebagian model pada 
+tiap fase konstruksi 
+yang berbasis 3D 
+BIM Model 
+Tersedianya model 
+pada tiap fase 
+konstruksi yang 
+berbasis 3D BIM 
+Model 
+3c 
+Pengecekan dan list clash 
+detection antar disiplin 
+6 
+Tidak adanya 
+pengecekan dan 
+list clash 
+detection  
+Tersedianya 
+sebagian 
+pengecekan dan list 
+clash detection  
+Tersedianya 
+pengecekan dan list 
+clash detection 
+antar disiplin 
+3d 
+Simulasi Analisa 
+Schedule rencana dan 
+realisasi paket pekerjaan 
+berbasis 4D BIM Model 
+12 
+Tidak adanya 
+analisa Schedule 
+berbasis 4D BIM 
+Model 
+Tersedianya 
+sebagian analisa 
+Schedule berbasis 
+4D BIM Model 
+Tersedianya analisa 
+Schedule berbasis 
+4D BIM Model 
+3e 
+Kuantifikasi dan Analisis 
+Pembiayaan berbasis 5D 
+BIM Model pertahapan 
+progress (MC0-MC100) 
+10 
+Tidak adanya 
+kuantifikasi dan 
+analisa 
+pembiayaan 
+berbasis 5D 
+Tersedianya 
+kuantifikasi dan 
+analisa pembiayaan 
+pada project desain 
+berbasis 5D 
+Tersedianya 
+kuantifikasi dan 
+analisa pembiayaan 
+berbasis 5D sesuai 
+rencana pemodelan 
+BIM 
+ 
+4 
+Pelaksanaan Review 
+dan Persetujuan Desain 
+CDE 
+12 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (74) Dari (83) 
+ 
+ 
+ 
+ 
+No 
+Parameter 
+Nilai 
+Range 
+0% 
+50% 
+100% 
+4a 
+Ketersediaan Workflow 
+Persetujuan Dokumen 
+BIM dan Dokumen 
+Proyek 
+6 
+Tidak adanya 
+workflow  
+Tersedia workflow 
+hanya di beberapa 
+disiplin dokumen BIM 
+Tersedianya 
+workflow bagi 
+seluruh disiplin  
+4b 
+Manajemen Isu pada 
+CDE 
+6 
+Tidak adanya 
+ketentuan dalam 
+pelaksanaan 
+pelaporan isu 
+pada CDE 
+Terdapat ketentuan 
+dalam pelaksanaan 
+pelaporan isu pada 
+CDE tetapi hanya 
+dilaksanakan 
+sebagian 
+Terdapat ketentuan 
+dalam pelaksanaan 
+pelaporan isu pada 
+CDE dan 
+dilaksanakan 
+sepenuhnya 
+ 
+5 
+Kolaborasi antar Pihak 
+melalui CDE 
+9 
+ 
+5a 
+CDE sebagai Wadah 
+Penyampaian Progres 
+dan Laporan Mingguan 
+Penerapan BIM 
+3 
+Tidak 
+terlaksananya 
+pelaporan 
+progres 
+penerapan BIM 
+pada CDE 
+Terlaksananya 
+pelaporan progres 
+penerapan BIM 
+melalui CDE tetapi 
+melewati due-date 
+Terlaksananya 
+pelaporan progres 
+penerapan BIM 
+melalui CDE tepat 
+waktu 
+5b 
+CDE sebagai Wadah 
+Persetujuan Desain Kerja 
+dan Dokumen Proyek 
+3 
+Tidak 
+terlaksananya 
+persetujuan 
+desain kerja 
+melalui CDE 
+Terlaksananya 
+persetujuan desain 
+kerja melalui CDE 
+tetapi melewati due-
+date 
+Terlaksananya 
+persetujuan desain 
+kerja melalui CDE 
+tepat waktu 
+5c 
+CDE sebagai Wadah 
+Komunikasi dan 
+Penyelesaian Isu Proyek 
+3 
+Tidak 
+terlaksananya 
+manajemen isu 
+di CDE 
+Terlaksananya 
+manajemen isu di 
+CDE tetapi melewati 
+due-date (non-
+responsive) 
+Terlaksananya 
+manajemen isu di 
+CDE tepat waktu 
+ 
+6 
+Kesesuaian 
+Implementasi BIM 
+15 
+ 
+ 
+ 
+6a 
+Ketersediaan TIDP 
+3 
+Tidak adanya 
+dokumen TIDP 
+dengan format 
+yang sudah 
+ditentukan 
+Dokumen tersedia 
+tetapi tidak lengkap 
+dan tidak diupdate 
+secara bertahap 
+sesuai ketentuan 
+Dokumen tersedia 
+lengkap dan 
+diupdate secara 
+bertahap sesuai 
+ketentuan 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (75) Dari (83) 
+ 
+ 
+ 
+ 
+No 
+Parameter 
+Nilai 
+Range 
+0% 
+50% 
+100% 
+6b 
+Ketersediaan MIDP 
+3 
+Tidak adanya 
+dokumen MIDP 
+dengan format 
+yang sudah 
+ditentukan 
+Dokumen tersedia 
+tetapi tidak lengkap 
+dan tidak diupdate 
+secara bertahap 
+sesuai ketentuan 
+Dokumen tersedia 
+lengkap dan 
+diupdate secara 
+bertahap sesuai 
+ketentuan 
+6c 
+Ketersediaan Checklist 
+QA&QC BIM 
+9 
+Tidak ada sama 
+sekali pengajuan 
+checklist 
+QA&QC BIM 
+terhadap 
+masing-masing 
+model BIM 
+Tersedia pengajuan 
+checklist QA&QC 
+BIM terhadap 
+beberapa model BIM 
+dan atau checklist 
+yang diajukan sudah 
+melewati rencana 
+site execution 
+Checklist sudah 
+tervalidasi semua 
+pihak sebelum 
+rencana site 
+execution 
+ 
+Monitoring penilaian KPI BIM IKN ini dilaksanakan secara periodik selama 2 kali 
+periode pengisian dalam satu bulan dimana setiap akhir periode bulanan ini akan dilakukan 
+pelaporan terkait hasil penilaian KPI BIM dalam periode satu bulan tersebut. Pada agenda 
+rapat monitoring dan evaluasi penerapan BIM IKN diberikan kesempatan kepada masing - 
+masing paket pekerjaan untuk memberikan evaluasi terhadap hasil validasi penilaian KPI 
+yang diberikan MKI sebelum akhirnya penilaian dilaporkan. 
+ 
+ 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (76) Dari (83) 
+ 
+ 
+ 
+ 
+III. BIM Pasca Konstruksi 
+Penerapan BIM pada fase pasca konstruksi mencakup pelaksanaan persiapan 
+project closing termasuk didalamnya proses checklist deliverable hingga terbit dan 
+disetujuinya Berita Acara Serah Terima (BAST) pekerjaan.  
+Adapun mekanisme atau tahapan dalam pemenuhan dokumen serah terima 
+(BAST) data digital pada lingkup implementasi Building Information Modelling (BIM) 
+adalah sebagai Berikut :  
+ 
+ 
+Gambar 13 – Alur Mekanisme PHO data Digital 
+Detail Keterangan : 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (77) Dari (83) 
+ 
+ 
+ 
+ 
+1. Penyedia jasa bersurat kepada Pejabat Pembuat Komitmen (PPK) terkait 
+permohonan serah terima data digital BIM; 
+2. PPK bersurat kepada Direktorat Bina Teknik (Bintek) atau walidata BIM masing – 
+masing Unit Organisasi, ditembuskan kepada Pusdatin untuk permohonan 
+pengecekan kualitas data digital BIM; 
+3. Direktorat Bina Teknik atau Walidata BIM Unor bersama Pusdatin melakukan 
+pengecekan kualitas data digital BIM penyedia jasa; 
+4. Jika datanya valid, maka akan dilakukan penandatanganan Berita Acara Serah 
+Terima Data (BAST) BIM; 
+5. Data tersebut diserahkan kepada Direktorat Bina Teknik/Walidata BIM masing – 
+masing Unor yang selanjutnya akan diintegrasikan ke dalam Dashboard BIM 
+PUPR oleh Pusdatin. 
+Adapun ketentuan dalam pemenuhan serah terima yang harus terpenuhi adalah 
+sebagai berikut : 
+ 
+i. Project Closing 
+Project closing merupakan akhir dari kegiatan proyek konstruksi. Proses 
+tahapan penutupan proyek ini adalah memberikan hasil konstruksi dan laporan 
+tentang hasil pelaksanaan yang diperoleh dari suatu rangkaian aktivitas proyek 
+sesuai ketentuan yang tertuang pada kontrak. Pada tahap ini MK Proyek harus 
+memastikan bahwa semua deliverable proyek telah dipenuhi oleh penyedia jasa. 
+ 
+ii. Asset Information Model 
+Di akhir tahapan proyek, kontraktor dan sub kontraktor harus menyerahkan 
+Asset Information Model (AIM) dengan LOD 500 pada seluruh perangkat atau 
+komponen yang memerlukan maintenance sesuai dengan spek yang terpasang. 
+Ketentuan khusus telah diatur pada bagian BIM execution plan masing-masing. 
+Secara keseluruhan, as built model terdiri dari: 
+● 
+AIM pekerjaan Infrastruktur 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (78) Dari (83) 
+ 
+ 
+ 
+ 
+● 
+AIM Pekerjaan Bangunan Gedung 
+● 
+AIM Arsitektur & Beautifikasi 
+● 
+AIM Pekerjaan MEP 
+Tingkat kedetailan dan kelengkapan informasi pada AIM mengacu pada table 
+LOD & LOI table pada Bab LOD & LOI. Setiap model dapat dibagi menjadi beberapa 
+file lagi tergantung desain dan pemisahan oleh perencana / kontraktor. Untuk 
+keperluan detail dan tahapan konstruksi, penyedia jasa membuat model terpisah 
+dari federated model utama. Seluruh model harus diintegrasikan ke dalam 
+federated model yang terdiri dari: 
+● Pekerjaan Infrastruktur 
+● Pekerjaan Bangunan Gedung 
+● Pekerjaan Arsitektur 
+● Pekerjaan Lansekap / Kawasan 
+● Pekerjaan MEP 
+● Integrasi schedule 
+● Integrasi Pemodelan 
+iii. QA QC Model AIM 
+Penyedia Jasa & MK Proyek bertanggung jawab untuk melakukan 
+pemeriksaan kualitas informasi pada Asset Information Model (AIM) terhadap LOD 
+dan LOI untuk memastikan AIM dapat digunakan sebagai data utama dari 
+pelaksanaan operasional dan pengelolaan aset di kemudian hari. 
+ 
+iv. BIM Library 
+BIM Library merupakan repositori digital berisikan objek atau model BIM yang 
+mencakup representasi geometris dan menyajikan bill of material yang akurat 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (79) Dari (83) 
+ 
+ 
+ 
+ 
+sehingga dapat meminimalisir kesalahan dalam pengadaan barang serta 
+menghasilkan desain yang efektif dan efisien.  
+Standar Pengecekan Kualitas BIM Library PUPR : 
+1. Standar Minimal LOD (Level of Detail) 
+Standar minimal penggunaan LOD untuk BIM Library adalah LOD 300 
+(detail model tanpa penulangan) 
+2. Standar Minimal LOI (Level of Information) 
+Standar minimal input LOI untuk BIM Library adalah sebagai berikut : 
+a) Nama Objek 
+b) Deskripsi 
+c) Spesifikasi Objek 
+d) Type atau Merk 
+e) Author atau Company 
+f) File Type 
+g) Unit Pengukuran 
+h) Nilai TKDN (%) 
+i) Authoring Version 
+j) No Registrasi SIMPK 
+k) Assembly Code (Opsional) 
+l) Link E-Katalog 
+3. Ketentuan Jenis file 
+Jenis file yang ditentukan pada BIM Library adalah menggunakan 
+Extension File IFC 4.3, RVT dan RFA. 
+ 
+ 
+Standar pemenuhan pemodelan BIM Library untuk masing – masing bidang 
+Unit Organisasi : 
+1. Sumber Daya Air 
+a) Irigasi dan Rawa 
+b) Bendungan dan Danau 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (80) Dari (83) 
+ 
+ 
+ 
+ 
+c) Sungai dan Pantai 
+d) Air Tanah dan Air Baku 
+ 
+2. Bina Marga 
+a) Highway 
+b) Struktur 
+c) Drainase 
+d) Bangunan Pelengkap 
+e) Fasilitas Tol 
+f) Lanskap 
+g) Tempat Istirahat dan Pelayanan 
+ 
+3. Cipta Karya dan Perumahan 
+a) Struktur 
+b) Gedung 
+c) MEP 
+d) Plumbing 
+e) Pipe 
+ 
+ 
+ 
+ 
+ 
+ 
+Alur pelaporan BIM Library pada CDE Integrasi BIM Library : 
+1. Penyedia jasa upload data BIM Library di Folder WIP 
+2. Walidata Unit Organisasi melakukan review terhadap data tersebut 
+3. Jika data sudah selesai di review dan sesuai dengan ketentuan, data 
+tersebut akan dimasukan ke folder publish sesuai dengan Jenisnya 
+4. Walidata Unor melakukan Bridge ke CDE BIM Library PUPR (Pusdatin) 
+ 
+ 
+PUSDATIN 
+ 
+PROSEDUR 
+OPERASIONAL 
+No. 
+164/SOP/BDI 
+Terbitan/Revisi 
+22/04/2024 
+Tanggal Revisi 
+ 
+Implementasi Building 
+Information Modeling 
+untuk Pembangunan Ibu 
+Kota Negara 
+Halaman (81) Dari (83) 
+ 
+ 
+ 
+ 
+5. Pusdatin akan melakukan penarikan data dari CDE untuk dimasukan 
+ke dalam server integrasi 
+6. Data tersebut tampil di Dashboard BIM PUPR atau BIM Library 
+v. Checklist Kelengkapan Handover 
+Penyedia Jasa & MK Proyek bertanggung jawab untuk menyusun checklist 
+kelengkapan serah terima data digital pada CDE dan melakukan pemeriksaan 
+kuantitas dan kualitas informasi terhadap dokumen yang dipersyaratkan kontrak 
+untuk pelaksanaan BAST (Berita Acara Serah Terima) Pekerjaan. 
+Dalam hal ini juga diberikan wadah pada CDE sebagai tempat penyimpanan 
+dokumen administrasi PHO dan model BIM fase AIM dimana diantaranya tertera 
+pada list berikut :  
+1. Berita Acara Penyelesaian Defect List 
+2. Garansi Material 
+3. Hasil Uji Material 
+4. Testing dan Commisioning 
+5. Sertifikasi Layak Fungsi 
+6. Meet Spesifikasi (Original Of Country) Material Import 
+7. Manual Book - Maintenance 
+8. Federated Model BIM LOD 500 
+9. Laporan BAST BIM Model LOD 500 
+10. Dokumen Lesson Learned 
+ 
+vi. Deaktivasi CDE  
+Common Data Environment (CDE) akan dinonaktifkan dalam kurun waktu 6 
+(enam) sampai 12 (dua belas) bulan pasca Provisional Hand Over (PHO). Pada saat 
+PHO pasca CDE non-aktif, segala komunikasi dilakukan melalui korespondensi 
+resmi perusahaan. 
+ 
+ 
+

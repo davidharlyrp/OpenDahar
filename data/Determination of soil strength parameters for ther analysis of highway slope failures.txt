@@ -1,0 +1,687 @@
+2. Determination of soil strength parameters for the analysis of highway
+slope failures
+G. I. CRABB, BSc, MICE, Transport and Road Research Laboratory, and J. H. ATKINSON, PhD, FICE,
+FGS, Professor of Soil Mechanics, City University, UK
+Laboratory tests have been carried out on many of the plastic clays from S.E. England which have
+given rise to highway earthwork slope failures. These included routine and special low-stress
+triaxial tests on tubed and reconstituted samples; in the special tests the samples were brought to
+failure along stress paths similar to those expected in the field. The tests gave values for the
+peak and critical strengths of the soils. The results indicated that the stability of the shallow
+slips was controlled by the critical or fully softened friction angle.
+INTRODUCTION
+1. Shallow failures of embankment and
+cutting slopes have been common on motorways
+and trunk roads constructed in the plastic
+clays in S.E. England over the past 25 years.
+The extent of these failures has been surveyed
+by the Transport and Road Research Laboratory
+(ref. 1) and three slopes at risk of failure
+have been closely monitored over a period of
+several years, during which time two have
+failed (ref. 2).
+2. A characteristic feature of these
+failures was that they were all occurring on
+slip planes parallel to the slope and at depths
+of lm to 2m where the stresses in situ were of
+the order of 15 kPa to 30 kPa. These stresses
+are very much smaller than those used in
+conventional laboratory tests and are in the
+range where the peak failure envelope is curved
+(ref. 3). Further, since the slips involved
+relatively large movements over several years
+there is the possibility that the soils had
+softened such that their strengths had reduced
+to the fully softened, or critical, state (ref.
+4).
+3. Measurement of the peak and critical
+strength parameters for soils at the
+appropriate stress levels requires special
+Table 1. Summary of slope geometries.
+Location
+Cambridge - A45
+M26-Dunton
+Green
+M26-Wrotham
+(Nepicar)
+Ml Junction 13
+M4 Reading
+Mil Junction 8
+M4 Junction 16
+M23 Surrey
+Soil
+Gault Clay
+Gault Clay
+Gault Clay
+Oxford Clay
+London Clay
+Reading Beds
+Clay
+Kimmeridge
+Clay
+Weald Clay
+Geometry
+Slope
+(°)
+27
+14
+17
+25
+29
+19
+24
+24
+Height
+(m)
+7.8
+8.3
+6.7
+7.3
+6.5
+7.5
+8.1
+6.7
+Stable/
+Failed
+(S/F)
+F
+S
+F
+F
+F
+F
+F
+F
+Depth of
+Slip, Z
+(m)
+1.5
+NA
+1.3
+1.5
+0.5
+2.0
+1.0
+1.5
+Pore water pressure
+at 1.5m depth
+(m head of water)
+-0.5 - 0.0
+=* 0.8 max in spring
+0.0 - 1.0 (see Fig
+2)
+Not measured
+H
+N
+ft
+n
+Slope stability engineering. Thomas Telfoixi, London, 1991.
+13
+Downloaded by [ RICE UNIVERSITY] on [13/09/16]. Copyright © ICE Publishing, all rights reserved.
+MECHANICS
+Porewater pressure (metres head of water)
+Fig 1. Geometry of a Typical Failed Slope.
+stress path laboratory tests and these have
+been carried out for the plastic clays involved
+in the roadwork failures. These data, combined
+with the field observations, provide an
+opportunity to examine the soil parameters
+relevant to shallow slips and the appropriate
+tests to measure these parameters.
+FIELD OBSERVATIONS
+4. Table 1 contains details of a number of
+slopes observed by TRRL. All these slopes had
+the same basic geometry illustrated in Fig 1.
+They had approximately the same heights (6.5m
+to 8.3m) but different slope angles (14° to
+29°). The examples are embankment slopes and,
+with one exception, where the slope angle was
+relatively shallow, all were failing on
+essentially plane slip surfaces approximately
+parallel to the slope. They include most of
+the common plastic clays from S.E. England.
+5. Pore pressures were measured in three
+slopes in Gault Clay: details of the
+instrumentation and observations were given by
+Crabb, West and O'Reilly (ref 2). Figs 2 and 3
+show typical pore pressures observed at the
+Wrotham site. These indicate that, at depths
+of 1 to 2m pore pressures were close to zero in
+all the cases; Fig 2 shows that there were
+major variations in measured pore pressures
+only at a shallow depth of 0.5m and Fig 3 shows
+negative pore pressures remaining within the
+centre of the embankment. 
+For the present it
+will be assumed that similar variations of pore
+pressure apply to the other slopes taking
+Dates when piezometers were de-aired
+1985
+1986
+Fig.2 Porewater pressure for piezometers at four different
+depths at site near Wrotham
+Fig.3 Cross—section of embakment showing porewater
+pressure distribution at site near Wrotham in
+January 1986
+account of possible differences in the rates of
+consolidation or swelling appropriate for the
+different soils.
+6. 
+It is noted that the depths of the
+observed slip planes coincide approximately
+with the depths to which seasonal pore pressure
+variations penetrate and it is likely that the
+positions of the slip planes were governed by
+the distributions of pore pressure.
+SOIL PARAMETERS APPROPRIATE TO ANALYSIS OF
+SHALLOW SLIPS
+7. The ultimate stability of a slope occurs
+in the long term when pore pressures have
+reached their steady state values. These will
+be such that the water contents are in
+equilibrium and inflow of rain and groundwater
+is balanced by outflow by drainage and through
+vegetation. In the present cases field
+observations indicate that equilibrium pore
+pressures may be close to zero at depths of lm
+to 2m below the slope surface. Since some
+drainage and pore pressure changes have
+occurred since construction, and, since pore
+pressures are known (or assumed) it is
+appropriate to carry out stability analyses in
+terms of effective, not total, stresses.
+8. Fig 4 (a) illustrates a typical stress-
+strain curve for soil. There is a peak at P at
+relatively small strain and there is a critical
+strength C after larger strains. The critical
+strength shown in Fig 4(a) is often called the
+ultimate strength (ref. 5) or the fully
+softened strength (ref. 4 ) . After very large
+movements on slip surface there may be a lower
+residual strength (ref. 6); this is quite
+different from the critical strength which
+occurs typically after strains in the range 10%
+to 30% and is characterised by continued
+straining at constant volume and constant
+effective stress. The residual strength is
+associated with highly polished slip surfaces
+in which clay particles have become aligned in
+directions parallel with the direction of
+sliding and is relevant only after
+displacements of the order of several metres.
+9. Fig 4(b) illustrates the principal
+failure envelopes for soil. The critical, or
+fully softened, strengths fall on a straight
+line through the origin given by
+14
+Downloaded by [ RICE UNIVERSITY] on [13/09/16]. Copyright © ICE Publishing, all rights reserved.
+PAPER 2: CRABB A N D ATKINSON
+Fig 4. Typical Behaviour of Soil During Drained
+Shear Tests.
+tan
+(1)
+where <p%
+c is the critical (or constant volume,
+or fully softened) friction angle. The
+conventional interpretation of the peak failure
+states is the linear Mohr-Coulomb envelope
+given by
+c' + a'n tan
+(2)
+where cf 
+is a cohesion intercept and <f>% 
+is a
+peak friction angle. It should be noted that
+from the geometry of Fig 4(b) , #'p * </>'c and c'p
+is simply the intercept of the peak failure
+envelope on the shear stress axis: it does not
+necessarily imply that the strength is c'p at
+zero effective stress.
+10. Laboratory tests to examine the strength
+of soils at very small effective stresses (ref.
+3) have shown that the peak failure envelope
+becomes curved, as illustrated in Fig 4(b), and
+may be represented by an equation
+T. » A a'n
+b 
+(3)
+where A and b are soil parameters. Equation 3
+is similar to that proposed for rockfill by De
+Mello (ref. 7 ) .
+11. The total shear and normal stresses on
+the slip plane shown in Fig 1 are given by
+T = yz sin i cos i 
+(4)
+i 
+(5)
+and, if pore pressures are zero these are also
+the effective stresses. If the depth to the
+slip plane is lm to 2m (Table 2) the normal
+stresses are approximately 15 kPa to 30 kPa
+(taking y = 18 kN/m3 and i = 25°). These small
+stresses place the peak failure state clearly
+within the range of the curved failure envelope
+obtained from laboratory tests (ref. 3) and
+consequently the linear peak Mohr-Coulomb
+failure envelope given by eqn 2 is not
+appropriate for analysis of the stability of
+shallow slips.
+12. 
+If the soil in the incipient slip plane
+strains sufficiently to reduce the strength
+from the peak towards the critical, or if the
+soil swells and softens, the strength envelope
+appropriate to stability analysis may be that
+given by eqn 1. The question of whether it is
+the curved peak failure envelope (eqn 2) or the
+critical failure envelope (eqn 1) which governs
+the stability will be investigated by analysis
+of the field records. There is evidence from
+inclinometers in two of the slopes that
+considerable shear strain does take place prior
+to visible signs of failure. The horizontal
+movement at 1.5m depth in the 1:4 slope at
+Dunton Green, which has not failed, has been
+about 50mm over 5 years.
+MEASUREMENT OF SOIL PARAMETERS IN LABORATORY
+TESTS
+13. The most convenient test to measure soil
+strength is the triaxial test described in
+detail by Bishop and Henkel (ref. 8). Direct
+and simple shear tests are also used but the
+results can be difficult to interpret (ref. 9)
+Triaxial tests may be drained or undrained and
+they are usually carried out with constant cell
+pressure. During a conventional drained
+triaxial test the shear and the normal
+effective stresses both increase and so the
+stress paths correspond to OP or NC in Fig 5.
+Also shown in Fig 5 are special stress paths AS
+which may be achieved by increasing the pore
+pressure while the total stresses are held
+constant.
+14. Three failure envelopes are illustrated
+in Fig 5; these are the critical failure
+envelope CC, the linear Mohr-Coulomb peak
+envelope PP and the curved peak envelope SS
+appropriate at small effective stresses.
+15. Conventional triaxial compression tests
+on tubed or reconstituted overconsolidated
+samples (paths OP) are usually carried out at
+normal stresses in the range 50 kPa to 300 kPa.
+These tests conveniently define an
+approximately linear part of the peak envelope.
+They cannot, however, examine the curved peak
+envelope at small effective stress. Tests on
+overconsolidated samples are unsuitable for
+measuring the critical strength of soils as
+slip planes usually develop in the samples
+beyond the peak so that accurate measurements
+of stress, pore pressure and strain become
+difficult (ref. 10).
+16. Conventional drained or undrained
+triaxial compression tests on normally
+consolidated samples (paths NC) are required to
+determine the critical failure envelope with
+precision. 
+For triaxial samples these may
+require reconsolidation to relatively high
+effective stresses or, alternatively, tests may
+be carried out on reconstituted samples at
+modest stress levels.
+Fig 5. Stress Paths Required to Investigate Peak
+and Ultimate Failure of Soil.
+15
+Downloaded by [ RICE UNIVERSITY] on [13/09/16]. Copyright © ICE Publishing, all rights reserved.
+100
+120
+140
+160
+180
+200
+220
+240
+Effective normal stress (kPa)
+Fig 6. Peak and Ultimate Failure Envelopes for Reconstituted London Clay Obtained from Stress
+Path Laboratory Tests.
+17. 
+In order to obtain the curved peak
+failure envelope it is necessary to carry out
+special tests following paths AS. Tests of
+this kind require total stresses to be held
+constant while pore pressures are increased and
+they can be carried out conveniently in a
+hydraulic triaxial cell (ref. 11) with
+automatic control (ref. 12). The stress paths
+AS correspond to the paths in the ground for a
+slope in which pore pressures increase with
+time.
+18. Details of special stress path tests
+used to determine the curved failure envelope
+for London Clay from the Denham site were given
+by Atkinson and Farrar (ref. 3 ) . Further
+laboratory tests have been carried out on
+intact and reconstituted samples of a similar
+soil to determine the peak and critical failure
+envelopes. The intact soil was obtained by
+high quality thin-wall tube sampling. 
+The
+reconstituted material was obtained by oven
+drying, pulverising, mixing with water to a
+slurry and reconsolidation. 
+This was found
+necessary as the testing of soil which had
+merely been remoulded did not yield a clearly
+defined critical state (i.e. continued strain
+at constant volume) due to the formation of
+well defined shear planes at low strain levels.
+Because of this effect the tests on remoulded
+soils progressed through a peak strength to
+angles of #' lower than those for the
+reconstituted soils. The peak and critical
+state results are shown in Fig. 6. The solid
+Mohr's circles are for the peak states measured
+in the special stress path tests and the broken
+circles are for critical states measured in
+Table 2. Summary of soil parameters.
+Atterberg Limits
+Location 
+Soil 
+LL 
+PL
+Strength Parameters
+Cambridge A45
+M26 Dunton Green
+M26 Wrotham
+Ml Junction 13
+M4 Reading
+Mil Junction 8
+M4 Junction 16
+M23 Surrey
+Gault Clay
+Gault Clay
+Gault Clay
+Oxford Clay
+London Clay
+Reading Beds
+Clay
+Kimmeridge Clay
+Weald Clay
+64
+63
+65
+60
+53
+66
+54
+49
+22
+21
+22
+32
+26
+34
+27
+26
+1.93
+2.25
+1.88
+2.76
+3.71
+2.84
+1.85
+2.23
+0.76
+0.69
+0.73
+0.63
+0.58
+0.58
+0.71
+0.69
+23°
+(23°)
+(23°)
+25°
+25°
+19°
+22°
+24°
+16
+Downloaded by [ RICE UNIVERSITY] on [13/09/16]. Copyright © ICE Publishing, all rights reserved.
+PAPER 2: CRABB A N D ATKINSON
+Table 3. Summary of calculated in-situ pore pressures at failure at the peak and critical states.
+Location
+Cambridge A45
+M26 Dunton Green
+M26 Wrotham
+Ml Junction 13
+M4 Reading
+Mil Junction 8
+M4 Junction 16
+M23 Surrey
+Soil
+Gault Clay
+Gault Clay
+Gault Clay
+Oxford Clay
+London Clay
+Reading Beds
+Kimmeridge Clay
+Weald Clay
+l
+27°
+14°
+17°
+25°
+29°
+19°
+24°
+24°
+* c
+23°
+23°
+23°
+25°
+25°
+19°
+22°
+24°
+z
+m.
+1.5
+1.5?
+1.3
+1.5
+0.5
+2.0
+1.0
+1.5
+kPa
+-6
+11
+6
+0
+2
+0
+2
+0
+kPa
+17
+26
+20
+18
+8
+27
+12
+18
+Um
+kPa
+-5 to 0
+8 Max
+0 to 10
+-
+-
+-
+-
+-
+conventional drained triaxial compression tests
+on reconstituted samples. The double line is a
+critical failure envelope given by eqn 1 drawn
+as a best fit past the two circles: the
+gradient of the envelope, and hence the value
+of <p\ is 25°.
+19. The solid line is a curved peak failure
+envelope drawn approximately tangential to the
+solid Mohr's circles. It was obtained from a
+special computer program (ref. 13) which fits
+an equation of the form of eqn 3 to the Mohr's
+circles. For the curve shown in Fig. 6 the
+parameters of the curve given by eqn 3 are A =
+3.71 and b = 0.58.
+20. Mohr's circles similar to those shown in
+Fig 6 were obtained for all the different soils
+listed in Table 1 and values for the peak and
+critical state strength parameters obtained
+from these data are given in Table 2. 
+(For the
+Gault Clay the value of 0'c was only measured
+for soil from the Cambridge A45 site and the
+values for the two other sites, shown in
+brackets, have been assumed to be the same).
+21. The parameter b indicates the degree of
+curvature of the peak strength envelope for
+small effective stresses. For a linear
+envelope b = 1 and for a parabola b = 0.5; the
+values of b in Table 2 are generally in the
+range b = 0.6 to 0.75 indicating that the peak
+failure envelope had a relatively high degree
+of curvature.
+ANALYSIS OF FAILED SLOPES
+22. A relatively simple analysis for the
+stability of a failed slope for the mechanism
+illustrated in Fig 1 is given by eqns 4 and 5
+from which
+tan i
+(6)
+Given the depth of the slip plane z, together
+with the unit weight y and the slope angle i,
+the state of total stress on a slip plane plots
+at the point S in Fig 7. Hence, noting that z'
+= z and a' = a - u the pore pressure uc
+corresponds to the effective stress point C on
+the critical failure envelope and the pore
+pressure up corresponds to the effective stress
+point P on the curved peak failure envelope.
+23. Values for uc and u were obtained for
+all the cases using the values for z and i
+given in Table; 1 and using the values for the
+peak and critical failure envelopes given in
+Table 2. The results of these calculations are
+summarised in Table 3 which also contains
+values for um, the pore pressure measured in
+situ close to the depth of the slip surface.
+(For the Dunton Green slope which had not
+failed the calculations were based on an
+assumed depth z of 1.5m.)
+24. 
+Inspection of the data given in Table 3
+demonstrates that for all the slopes (with the
+exception of Dunton Green) the limiting
+equilibrium conditions correspond to states on
+the critical failure line with pore pressure uc
+generally very close to zero. The
+corresponding values for u corresponding to
+limiting states on a curved peak failure
+envelope are generally more varied and are
+considerable higher. 
+Field observations of
+slopes in Gault Clay show that pore pressure
+measured in situ at depths corresponding to the
+observed slip planes was generally close to
+zero. These results suggests that the critical
+failure envelope, rather than the peak failure
+envelope, controls slope stability with shallow
+planar slip surfaces.
+CONCLUSIONS
+25. 
+Failures of cut and fill slopes in
+motorway earthworks slopes in plastic clays in
+S.E. England occurred typically by slipping
+along planes parallel to the slope surface and
+at depths of 1 to 2 m where the porewater
+pressures were typically close to zero.
+Fig 7. Calculation of Porewater Pressure on the
+Failure Surface in a Slope.
+17
+Downloaded by [ RICE UNIVERSITY] on [13/09/16]. Copyright © ICE Publishing, all rights reserved.
+MECHANICS
+26. Conventional drained or undrained
+triaxial or shear tests carried out at normal
+stresses in the range 50kPa to 300kPa are
+generally unable to measure the soil strength
+parameters appropriate to these failures.
+27. Simple analyses of slope failures
+indicated that their stability could be
+assessed in terms of their critical (or fully
+softened) strength. There was no evidence that
+the stability of the slopes was governed by the
+peak strength, even allowing for the curvature
+of the peak failure envelope at low effective
+stress.
+ACKNOWLEDGEMENT
+The work described in this paper forms part of
+the programme of the Transport and Road
+Research Laboratory and the paper is published
+by the permission of the Director.
+Crown Copyright. The views expressed in this
+paper are not necessarily those of the
+Department of Transport. Extracts from the text
+may be reproduced, except for commercial
+purposes, provided the source is acknowledged.
+REFERENCES
+1. PERRY, J. A survey of slope condition on
+motorway slopes in England and Wales. Research
+Report RR 199. Transport and Road Research
+Laboratory, Crowthorne, 1989.
+2. CRABB, G.I., WEST, G. and O'REILLY, M.P.
+Groundwater conditions in three highway
+embankment slopes. Proc. 9th European Conf.
+SMFE, Dublin, 1987, Vol.1 pp.401-406.
+3. ATKINSON, J.H. and FARRAR, D.M. Stress
+path tests to measure soil strength parameters
+for shallow landslips. Proc. 11th. Int. Conf.
+SMFE, San Francisco, 1985.
+4. SKEMPTON, A.W. First time slides in
+overconsolidated clay. Geotechnique, 1970,
+Vol.20, pp.320-324.
+5. ATKINSON, J.H. and BRANSBY, P.L. The
+Mechanics of Soils. McGraw Hill, London 1978.
+6. SKEMPTON, A.W. Long term stability of clay
+slopes. Geotechnique, 1964, Vol.14, pp.77-101.
+7. DE MELLO. V.F.B. Reflections on design
+decisions of practical significance to
+embankment dams. Geotechnique, 1977, Vol.27,
+pp.281-354.
+8. BISHOP, A.W. and HENKEL, D.J. Measurement
+of soil parameters in the triaxial test.
+Edward Arnold, 1975.
+9. ATKINSON, J.H., LAU, W.H.W. and POWELL,
+J.J.M. Measurement of soil strength in simple
+shear tests. Can. Geot. Jnl, 1990 (in press).
+10. ATKINSON, J.H. and RICHARDSON, D. The
+effect of local drainage in shear zones on the
+undrained strength of overconsolidated clay.
+Geotechnique, 1987, Vol.37, pp.393-403.
+11. BISHOP, A.W. and WESLEY, L.D. A hydraulic
+triaxial apparatus for controlled stress path
+testing. Geotechnique, 1975, Vol.25, pp. 657-
+670.
+12. ATKINSON J.H., EVANS, J.S. and SCOTT, C.R.
+Developments in stress path testing equipment
+for measurement of soil parameters. Ground
+Engineering, 1985, Vol.18, pp.15-22.
+13. PERRY, J. The extent and an analysis of
+shallow failures of highway earthwork slopes.
+Forthcoming Ph.D. Thesis, University of Durham.
+18
+Downloaded by [ RICE UNIVERSITY] on [13/09/16]. Copyright © ICE Publishing, all rights reserved.

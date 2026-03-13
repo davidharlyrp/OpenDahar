@@ -1,0 +1,1916 @@
+Modeling the Stone Column Behavior in Soft Ground with
+Special Emphasis on Lateral Deformation
+Sudip Basack, Ph.D., M.ASCE1; Buddhima Indraratna, Ph.D., F.ASCE2;
+Cholachat Rujikiatkamjorn, Ph.D., A.M.ASCE3; and Firman Siahaan4
+Abstract: Among various ground-improvement techniques, soft-soil reinforcement by stone columns is one of the most common and
+convenient methods with numerous benefits including increased bearing capacity and consolidation, reduced postconstruction settlement
+and lateral movement, and improved slope stability and liquefaction control, among others. Because of the limited confinement offered by the
+surrounding soft soil especially at shallow depths, lateral deformation of stone columns is not uncommon. Although several analytical and
+numerical solutions are available to predict the load-settlement performance and consolidation characteristics of stone-column-improved soft
+ground, most existing models do not accurately capture the lateral deformation of stone columns. In view of this, the authors have developed
+in-house a novel numerical model based on the Fast Lagrangian Finite-Difference technique with associated subroutines to analyze the
+behavior of a stone column including its lateral deformation. In particular, the displacement compatibility and the barreling effect are con-
+sidered in the model. Soft-soil consolidation under imposed loading is considered by adopting the modified Cam-clay theory. The proposed
+solutions are validated using available field observations and existing numerical solutions. The model was successfully applied to a selected
+case study at the Pacific Highway near the town of Ballina, New South Wales, Australia. It is demonstrated that both the deformation pattern
+and bulging depth of stone columns are dependent on several factors including the particle interlock, imposed load-intensity, soil-column
+stress concentration ratio, soil shear strength, and column geometry. DOI: 10.1061/(ASCE)GT.1943-5606.0001652. © 2017 American
+Society of Civil Engineers.
+Author keywords: Finite-difference method; Interfaces; Lateral displacement; Soft soils; Stone columns.
+Introduction
+Reducing the long-term settlement of infrastructure and enabling
+cost-effective foundations with sufficient load-bearing capacities
+are essential criteria for developing infrastructure in most countries
+(Black et al. 2007) because soft-soil foundations can cause exces-
+sive settlement that induces undrained soil failure without effective
+ground
+improvement
+(Indraratna
+2009).
+Although
+different
+ground-improvement techniques have been used over several dec-
+ades, reinforcing soft ground by installing stone columns is now an
+established technique worldwide (Sivakumar et al. 2011; Wang
+2009) because this method increases the bearing capacity, reduces
+postconstruction settlement and lateral movement of soil, improves
+the stability of slopes, and controls liquefaction (Guetif et al. 2007;
+Fatahi et al. 2012a; Bouassida and Carter 2014).
+For a typical fill embankment, high column-to-soil stiffness ra-
+tio initiates an arching effect of the surcharge load over the stone
+columns, resulting in an uneven distribution of vertical stress on the
+surface even under free strain (Indraratna et al. 2013). The dissi-
+pation of excess pore-water pressure initiates the consolidation
+of soft soil. However, during consolidation, excessive hydraulic
+gradient at the soil–column interface causes migration of clay par-
+ticles to the column pores, initiating clogging (Adalier and Elgamal
+2004; Indraratna et al. 2013). Under imposed loading, reactions
+such as arching, clogging, and lateral deformation occur simulta-
+neously in soft ground reinforced by stone columns (Basack et al.
+2015b), as shown in Fig. 1. The lateral deformations of stone col-
+umns are essentially time-dependent.
+Although numerous analytical and numerical studies have been
+proposed in the past to study the load-transfer and consolidation
+characteristics of stone-column-reinforced soft ground (Alamgir et al.
+1996; Han and Ye 2001, 2002; Wang 2009; Lu et al. 2010; Indraratna
+et al. 2013), these models have been based on the assumption of
+purely vertical deformation of the columns and the surrounding soil,
+while ignoring any lateral deformation (i.e., under K0-conditions).
+The load-bearing capacity of stone-column-reinforced soft
+ground depends upon the lateral confinement of columns offered
+by the surrounding soil (Black et al. 2007; Hughes et al. 1975;
+McKenna et al. 1975). In the case of soft clay at shallow depths
+where such lateral confinement is significantly low, the reinforced
+ground may not be able to support the imposed loading because of
+excessive bulging of the columns (Moseley and Kirsch 2004). As
+the lateral confinement increases with depth, significant lateral
+1Research Academic (Australian Research Council), Centre for Geome-
+chanics and Railway Engineering, School of Civil, Mining and Environ-
+mental Engineering, Faculty of Engineering and Information Sciences,
+Univ. of Wollongong, NSW 2522, Australia. E-mail: sudip@uow.edu.au;
+basackdrs@hotmail.com.
+2Distinguished Professor of Civil Engineering and Research Director,
+Centre for Geomechanics and Railway Engineering; Program Leader,
+ARC Centre of Excellence in Geotechnical Science and Engineering,
+Faculty of Engineering and Information Sciences, Univ. of Wollongong,
+Wollongong City, NSW 2522, Australia (corresponding author). E-mail:
+indra@uow.edu.au
+3Associate Professor, Centre for Geomechanics and Railway Engineer-
+ing, Univ. of Wollongong, Wollongong City, NSW 2522, Australia. E-mail:
+cholacha@uow.edu.au
+4Ph.D. Candidate, Centre for Geomechanics and Railway Engineering,
+Univ. of Wollongong, Wollongong City, NSW 2522, Australia. E-mail:
+frs904@uowmail.edu.au
+Note. This manuscript was submitted on October 9, 2015; approved on
+September 21, 2016; published online on February 21, 2017. Discussion
+period open until July 21, 2017; separate discussions must be submitted for
+individual papers. This paper is part of the Journal of Geotechnical and
+Geoenvironmental Engineering, © ASCE, ISSN 1090-0241.
+© ASCE
+04017016-1
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+deformation (bulging) of the column usually occurs only at rela-
+tively shallow depths (McKelvy et al. 2004). In past case studies,
+it has been shown that the failure of a column group largely occurs
+due to excessive bulging of individual stone columns (Hughes and
+Withers 1974; Hanna et al. 2013; Han 2015). Therefore, the main
+aim of this study was to model the reinforced-soft-ground behavior
+with special emphasis on the lateral deformation of columns to
+examine the corresponding load-deformation response.
+An analytical correlation was proposed by Brauns (1978) to
+evaluate the extent of bulging (i.e., column portion that has under-
+gone significant lateral deformation) and thereby to estimate the
+true bearing capacity. The total column compression was evaluated
+from the deformations of the bulged and unaffected column por-
+tions (Deng et al. 2003; Sun and Gong 2008). An elastic solution
+that considered the effect of stress concentration ratio, internal fric-
+tion of column particles, and soft-soil strength was developed by
+Zhang et al. (2013). However, the previous models did not analyze
+the true lateral deformation pattern of stone columns initiated under
+induced stresses and time-dependant consolidation.
+The unit cell analogy appears to successfully capture the long-
+term performance of soft soil improved by stone columns close to
+the embankment centerline (Lorenzo and Bergado 2004; Murugesan
+and Rajagopal 2010), although this approach may not predict the true
+behavior accurately at locations away from the centerline due to
+several reasons including large strain conditions, column distortion,
+plastic deformation, heaving at toe, etc. (Indraratna et al. 2013).
+In this study, a finite-difference-based numerical solution on the
+long-term performance of stone-column-improved soft clay previ-
+ously developed by Indraratna et al. (2013) and Basack et al.
+(2015b) has been substantially extended to accurately capture
+the lateral deformation. An in-house numerical model has been
+developed based on the Fast Lagrangian Finite-Difference ap-
+proach with corresponding subroutines. It performs significantly
+faster than some available commercial software without compro-
+mising the output accuracy. The initial lateral deformation of
+column is induced under imposed embankment loading, which pro-
+gresses with consolidation. Correlations for the induced stresses
+and strains in the column were derived taking into account of
+the barreling effect originated from the possible end restraints of
+the column. The consolidation pattern of the surrounding soft clay
+has been captured by the radial consolidation theory (Barron 1947)
+incorporating the modified Cam-clay model (Roscoe and Burland
+1968). The condition of displacement compatibility was applied at
+the column–soil interface. The parametric studies carried out and
+conclusions derived therefrom are discussed in this paper.
+Previous solutions (Indraratna et al. 2013; Basack et al. 2015a)
+were predominantly focused on the load-transfer mechanisms and
+the role of consolidation characteristics of the reinforced soil, rather
+than on the lateral deformation of stone columns, which forms the
+primray objective here. Zhang et al. (2013) considered the bulging
+of columns, but their model is based on the elastic deformations of
+the column related to the vertical and radial stress components in-
+duced by the imposed surface load, without considering the effect
+of time-dependent soil consolidation. In the present study, the
+authors have also considered the influence of radial consolidation
+on the deformation characteristics of the soil and column. Also, the
+vertical column deformation is evaluated by applying a displace-
+ment compatibility at the interface, while the lateral column
+deformation is analyzed by considering both the stress-induced
+component and the barreling effect. Apart from time-dependant
+vertical and lateral deformation patterns of the column, the influ-
+ences of particle interlock, clay cohesion, earth pressure coefficient,
+Fig. 1. Typical stone column under embankment surcharge loading demonstrating simultaneous arching, clogging, and lateral deformation (adapted
+from Basack et al. 2015b)
+© ASCE
+04017016-2
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+column geometry, and stress concentration ratio have been consid-
+ered. Moreover, the corresponding load-carrying capacity of the
+reinforced soft clay has also been captured.
+Analytical and Numerical Modeling
+The analysis has been carried out for an isolated stone column
+adopting a unit cell analogy based on the free strain hypothesis,
+which closely resembles an embankment loading condition
+(Indraratna et al. 2013; Deb and Shiyamalaa 2015). The computa-
+tions have been performed by finite-difference discretization using
+forward, backward, and central difference techniques. The salient
+features of the model are described in the following sections.
+Problem Identification
+Fig. 2(a) portrays the problem, where the layer of soft clay of thick-
+ness H overlays an impervious rigid boundary and supports an
+embankment loading with an average intensity, ¯w. Thus, for an em-
+bankment height He and unit weight γe carrying a surcharge load
+with intensity wsur, the average intensity ¯w is given as
+w ¼ wsur þ γeHe
+ð1Þ
+Within the unit cell, the radii of the column and the unit cell are
+rc and re, respectively. Following a previous analysis (Indraratna
+et al. 2013), the cross section of the entire unit cell has been dis-
+cretized into four distinct zones as shown in Fig. 2(a): an unclogged
+column zone, a clogged column zone, a smear zone, and an outer
+undisturbed soil zone. The constant unit weight and Poisson’s ratio
+of the soft clay are γs and νs, while those of the column were γc and
+νc, respectively.
+In most cases, the shear strength of soil has been observed to
+increase with depth (Skempton 1948; Moavenian et al. 2016). This
+variation is often assumed to be linear and such a simplification has
+been found to yield satisfactory results in some bearing-capacity
+analyses too (e.g., Raymond 1967; Davis and Booker 1973). In
+the present study, the soft soil has been assumed to possess an
+initial undrained cohesion of cu0, which is assumed to increase lin-
+early with depth at a constant rate of ζ.
+Recent experimental studies using computed tomography (CT)
+scanning have revealed that the thickness of the clogged column
+zone varies with depth (Basack et al. 2015c). However, to simplify
+the already-complex mathematical expressions, the properties of
+the clogged column zone and its thickness have been assumed to
+be constant with depth. This simplification is justified as the
+numerical results can still provide a reasonable agreement with
+the field observations (Indraratna et al. 2013; Basack et al. 2015b).
+For finite-difference computation, both the column and soil
+within the unit cell have been divided vertically into a number
+of equal divisions, nz, as shown in Fig. 2(b). The soil mass (includ-
+ing the clogged column zone) is divided radially into a number of
+equal divisions, nr, and the total computational time (tt) is equally
+discretized into nt divisions. The separators are hereby referred to
+as nodes and the soil elements are ring-shaped. The specific time tt
+is the desired computational time to be chosen arbitrarily. Each ra-
+dial, vertical, and time division (δr, δz, and δt, respectively) are
+given by
+δr ¼ re −αrc
+nr −1
+ð2aÞ
+δz ¼
+H
+nz −1
+ð2bÞ
+δt ¼
+tt
+nt −1
+ð2cÞ
+where α = ratio of the radii of the unclogged zone to the overall
+column.
+Assumptions
+The analysis was carried out based on the following assumptions:
+•
+The stone column is homogeneous and isotropic, although un-
+der sustained loading, its stiffness would probably alter progres-
+sively with induced stress components;
+•
+Axisymmetric deformation in the column and soil occurs both
+in the vertical and radial directions; at the unit cell boundary,
+even though the displacement is vertical, it is still axisymmetric;
+•
+Displacement compatibility exists at the column–soil interface;
+•
+The thickness of the clogged column zone remains constant dur-
+ing consolidation;
+•
+The flow of pore water in the soft clay is purely horizontal and
+towards the column; and
+•
+The soil is fully saturated and Darcy’s law is valid.
+Load-Transfer Mechanism
+As consolidation progresses, the surcharge fill arches over the re-
+inforced ground surface because of the relatively high column to
+soil stiffness ratio. When a steady state is reached, this arching ef-
+fect imposes an uneven load on the surface, as shown in Fig. 2(a).
+The magnitudes and distribution pattern of imposed vertical
+stresses on the column and the soft soil surface are largely depen-
+dent on the column–soil stress concentration ratio and the arching
+effect (Indraratna et al. 2013).
+Stress Concentration Ratio
+Referring to Figs. 3(a and b), considering the normal stress com-
+ponents induced in the column, the vertical strain at Point A de-
+duced from the classical theory of solid mechanics (Timoshenko
+and Goodier 1970; Asaro and Lubarda 2011) is given by
+εv
+A ¼ wcol −ϑcKswðrcÞ −ϑcwcoltan2ð45° −ϕc=2Þ
+Ec
+ð3aÞ
+Similarly, considering the stress components relevant to the
+soil element at A [Fig. 3(c)], the same vertical strain can also be
+written as
+εv
+A ¼ wðrcÞ −2νsKswðrcÞ
+Es
+ð3bÞ
+where wcol = vertical stress on column; wðrcÞ = vertical stress on
+soft clay at the interface; Ks = lateral to vertical ratio of soil
+stresses; ϕc = column friction angle; and Ec and Es = elastic moduli
+of the column and soft soil, respectively. Friction is mobilized at the
+clay–column interface due to nonuniform ground settlement under
+embankment loading (Indraratna et al. 2013). The vertical strain of
+soil indeed depends on the Poisson’s ratio (elastic) as well as the
+friction angle (elastoplastic).
+Eqs. (3a) and (3b) have been derived from elastic correlations
+between the vertical strains and the normal stress components in-
+duced in the column and the soil, respectively, at Point A. Under
+induced embankment loading, the strain εv
+A is compressive both in
+column and soil. From classical solid mechanics (Asaro and
+Lubarda 2011; Timoshenko and Goodier 1970), the term εv
+A is the
+resultant of the individual strain components induced by the vertical
+stress [wcol in the column element and wðrcÞ in the soil element]
+and that of the horizontal stresses Ks:wðrcÞ. Since the horizontal
+© ASCE
+04017016-3
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+(b)
+(d)
+(c)
+(a)
+(e)
+Fig. 2. (a) Sections of unit cell; (b) finite-difference discretization (adapted from Basack et al. 2015b); (c) stress components on column element;
+(d and e) three-dimensional and two-dimensional finite-difference grids, respectively
+© ASCE
+04017016-4
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+stresses induce an orthogonal tensile strain in the vertical direction,
+the terms νcKswðrcÞ and 2νsKswðrcÞ are negative in both
+equations.
+Eliminating the term εV
+A from the preceding equations and ap-
+plying the correlation wcol ¼ nswðrcÞ, where ns is the column–soil
+stress concentration ratio, the following expression is obtained:
+ns ¼
+ϑcKs þ Ec
+Es ð1 −2ϑsKsÞ
+1 −ϑctan2ð45° −ϕc=2Þ
+ð4Þ
+Immediately after the embankment load is applied on the rein-
+forced ground surface, both the column and the surrounding soil
+undergo undrained elastic settlements (Deb 2010). As the deforma-
+tions progress, the secant moduli of both the column and soil con-
+tinue to decrease, which inevitably demands the vertical stress
+distribution on the reinforced ground surface to vary with time.
+However, experimental investigations (e.g., Siahaan et al. 2014)
+have shown that the stress concentration ratio ns varies during
+the initial loading, but stabilizes asymptotically in a short time.
+Similar observations have also been found in the analysis by
+Han and Ye (2001), where the stress concentration ratios were
+found to increase in the initial stage of loading, but soon stabilized
+to a steady-state value. To simplify the already-complex equations,
+it is assumed that the secant moduli of the column and soil continue
+to decrease with the same ratio. Analysis based on this simplified
+assumption that the parameter ns to remain constant with time, has
+been proven to yield results that agree with the field observations
+(e.g., Indraratna et al. 2013; Basack et al. 2015b). Thus, with the
+properly estimated value of the secant moduli of the column and
+soft clay relevant to the applied load range, the column–soil stress
+concentration ratio can be evaluated from the Eq. (4), which is sim-
+ilar to the available empirical correlations (e.g., FHWA 1983;
+Siahaan et al. 2011).
+Arching Effect
+Attributed to the arching effect, the vertical load intensity wðreÞ on
+the soft-soil surface at the unit cell boundary is given by (Indraratna
+et al. 2013; Basack et al. 2015b)
+wðreÞ ¼ γerc
+ðN −1ÞðKp −1Þ
+Kp −2
+þ
+
+ws þ γeHe −γere
+Kp −1
+Kp −2
+
+ð1 −1=NÞðKp−1Þ
+ð5Þ
+where N ¼ re=rc; and Kp = passive earth pressure coefficient of
+the embankment material.
+The distribution of the vertical stress wðrÞ on the soft-soil sur-
+face at a radial distance of r from unit cell centerline is parabolic
+with the slope diminishing at the unit cell boundary due to sym-
+metry (Indraratna et al. 2013). The appropriate expression for
+wðrÞ is therefore given by
+wðrÞ ¼ wðreÞ½1 −FðN −r=rcÞ2
+ð6aÞ
+where the stress function F is given as
+F ¼
+N2 þ ns −1 −N2
+¯w
+wðrcÞ
+
+N2−1
+2
+þ ns
+
+ðN −1Þ2
+ð6bÞ
+Soft-Soil Consolidation
+Using the radial consolidation theory (Barron 1947), the differen-
+tial equation relevant to dissipation of excess pore-water pressure is
+given by
+∂urt
+∂t ¼
+kh
+mvγw
+1
+r
+∂urt
+∂r þ ∂2urt
+∂r2
+
+ð7Þ
+where urt = excess pore-water pressure at the ith radial node; t =
+time; kh = horizontal permeability of soft soil; γw = unit weight of
+water; and mv = coefficient of volume compressibility of soil.
+The characteristics of the smear zone depend on the technique
+used to install the columns in the field (Kirsch and Bell 2012). Han
+and Ye (2002) stated that for a typical stone column, the ratio rs=rc
+varies from 1.1 to 1.2, and kh=ks is usually in the order of 10, where
+rs is the radius of the smear zone and ks is the horizontal permeabil-
+ity of soil in the smear zone. In a past study by Wang (2009), the
+value of rs=rc was assumed to be in the range of 1–2 and kh=ks
+was 10.
+Expressing Eq. (7) in a finite-difference form by applying for-
+ward, backward, and central difference techniques and by adopting
+appropriate boundary conditions, the unknown values of u for all
+nodal points can be evaluated (Indraratna et al. 2013). The ratio of
+horizontal permeability of the clogged column zone to the smear
+zone was denoted as αk. The void-ratio-dependent soil compress-
+ibility was incorporated into the model by adopting the modified
+Cam-clay theory (Roscoe and Burland 1968; Basack et al. 2015a, c),
+and is expressed by
+mv ¼ −
+3λp 0
+0
+ð1 þ 2KsÞp 0½1 þ e0 −λ lnðp 0=p 0
+0Þ
+ð8Þ
+(b)
+(c)
+(a)
+Fig. 3. Loaded column and soil: (a) deformed column and ground
+surface; (b) stress components in column element at A; (c) stress com-
+ponent in soil element at A
+© ASCE
+04017016-5
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+where p 0 = average value of the mean effective stress in soil at a
+radial distance r and at time t; e0 = void ratio of soil corresponding
+to the unit effective pressure p 0
+0; λ = slope of the e −ln p 0 curve; and
+Ks = ratio of horizontal to vertical stress components in the soil.
+While Eq. (7) is the governing equation for radial consolidation,
+Eq. (8) considers the effect of stress variation via a nonlinear
+correlation between the void ratio and effective stress using the
+modified Cam-clay theory. Both the equations are then coupled
+to solve the stress variation through time and space. Thus, the stress
+distribution/variation with time is indeed an outcome of the time-
+dependent consolidation analysis.
+To simplify the already-complex mathematical equations, the
+parameter Ks was assumed to remain constant during consolida-
+tion, which is a limitation of the model. It is very difficult to
+estimate the accurate value of the lateral to vertical ratio of soil
+stresses at the interface (Ks), whose value is expected to vary with
+depth and the magnitude of lateral deformation. Duncan and
+Mokwa (2001) modeled the lateral earth pressure as hyperbolic
+function of lateral displacement, having a maximum value attaining
+the passive earth pressure. In the vicinity of bulged column zone at
+the interface, the lateral stress is expected to reach this maximum
+value. However, since it is difficult to estimate an appropriate value
+of the earth pressure coefficient Ks for other depths, a simplified
+assumption of in situ earth pressure condition (i.e., earth pressure at
+rest) throughout the column–soil interface has been made in past
+studies and considered as a reasonable option in developing math-
+ematical formulations (Raithal and Kempfert 2000; Zhang et al.
+2013). In this paper, the value of Ks has been estimated from
+the available literature (Hayashi et al. 2012; Tong et al. 2013).
+Considering the volumetric strain in the soil as being propor-
+tionate to the net volume of expelled water, the displacement at
+any point (r, z, t) in the soil is given as (Indraratna et al. 2013)
+ρrzt ¼ −
+Z t
+0
+Z H
+z
+mv
+∂urt
+∂t dzdt
+ð9Þ
+During consolidation, the undrained strength and stiffness of the
+soil increase progressively (Umezaki et al. 1993). Following this
+analysis of the correspondence between the effective stress, void
+ratio, and undrained shear strength of soft clay, the undrained
+cohesion at any point (r, z, t) in the space-time coordinate system
+may be written as (Indraratna et al. 2013)
+cuðr; z; tÞ ¼
+cu0 þ ζcz
+1 −
+e0−eðr;z;tÞ
+mvð1þe0Þp 0ðr;z;tÞ
+ð10Þ
+Lateral Deformation of Column
+The axisymmetric lateral deformation of stone column was as-
+sumed under the combined effect of deformation that originated
+from the induced axial and radial stress components and the bar-
+reling effect produced by the restraints at both ends of the column.
+Commencing from the analysis of stresses, algebraic expressions
+have been derived to evaluate the displacement components at
+the column–soil interface.
+Analysis of Stresses
+The normal-stress and shear-stress components induced in a typical
+column element at a depth of z below the surface are shown in
+Fig. 2(c). The vertical equilibrium of the element yielded the fol-
+lowing differential equation:
+∂σzv
+∂z ¼ 2
+rc
+τz þ γc
+ð11Þ
+where σzv and τ z = axial-stress and shear-stress components,
+respectively.
+Integration of the preceding equation yielded the following:
+σzv ¼ wc þ 2
+rc
+Z z
+0
+τ zdz þ γcz
+ð12Þ
+The total axial stress induced in the column is limited to a
+maximum value given by (Hughes et al. 1975; Murugesan and
+Rajagopal 2010)
+σzvmax ¼ ðσr0 þ 4cuÞtan2
+
+45° þ ϕc
+2
+
+ð13Þ
+where σr0 and cu = initial effective radial stress on the column and
+undrained cohesion of soil at a depth of twice the column diameter,
+respectively; and Φc = friction angle of the column particles.
+The radial-stress component σzr was obtained as
+σzr ¼ ½wðrcÞ þ γszKs
+ð14Þ
+According to the displacement compatibility between the soil
+and column at the interface (i.e., a no-slip condition), the axial
+stress-strain relationship of the column is given as
+∂ρrczt
+∂z
+¼ −1
+Ec
+ðσzv −2μcσzrÞ
+ð15Þ
+Differentiating Eq. (15) with respect to z and combining with
+Eq. (11) leads to the following expression:
+τz ¼
+
+−Ec
+∂2ρrczt
+∂z2
+þ Ksμcγs −γc
+ rc
+2
+ð16Þ
+where Ec = Young’s modulus of the column. Starting with an initial
+value of Ec, the stress components were determined using Eqs. (12),
+(14), and (16), which may then be combined with Eq. (15) for
+obtaining a new value of Ec. The procedure was thus repeated until
+the desired convergence was achieved.
+The vertical stress induced in the soft soil at a radial distance of r
+and depth z is given as
+σszv ¼ wðrÞ þ γsz
+ð17Þ
+Stress-Induced Deformation
+From the conventional theory of elasticity (Timoshenko and
+Goodier 1970), the lateral deformation produced at the column–soil
+interface under axial-stress and radial-stress components is given as
+ρez ¼ νcrc
+Ec
+½σzv þ ð1 −1=νcÞσzr
+ð18Þ
+It should be mentioned here that the analysis for determining Ec
+as described earlier is the secant modulus at the appropriate stress-
+strain levels induced in the column at the specific nodal point under
+consideration.
+Eqs. (15)–(18) are based on the theory of elasticity. However,
+since the deformations are essentially time-dependant, the Young’s
+modulus Ec of the stone column varies with the strain levels and
+therefore, the stone column response can be considered as nonlin-
+ear elastic.
+© ASCE
+04017016-6
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+Although the proposed model is based on the assumption of
+column–soil displacement compatibility at the interface (as dis-
+cussed in the “Assumptions” subsection), the differential settlement
+of the soft soil induces a frictional stress (denoted as τz at any depth
+z) at the interface due to shear distortion. In the analysis, the vertical
+strain induced in the column originated from stress-induced defor-
+mation and barreling effect. The first component is a function of the
+normal as well as shear stress components, as evidenced from
+Eqs. (12) and (18). The barreling component, on the other hand,
+occurs due to significant frictional resistance at the top and bottom
+surface of the column.
+In this analysis, the friction-induced deformation can be ne-
+glected because it is much smaller than the vertical strain caused
+by radial consolidation as captured in Eq. (9).
+Barreling Effect
+Due to significant frictional resistance at the top and bottom sur-
+faces of the column, the induced shear stress is likely to produce an
+additional component of horizontal deformation to the lateral sur-
+face of the column, which is similar to barreling of a solid cylinder
+under uniaxial compression (Schey et al. 1982; Carter and Lee
+1985). The upper-bound analysis reveals that the barreling surface
+profile is essentially parabolic (Altinbalik and Çan 2011). Since the
+barreling is produced due to the shear stress alone, no volume
+change in the column is likely to occur (Kulkarni and Kalpakjian
+1969). Applying these boundary conditions, the following correla-
+tions can then be obtained:
+ρb
+z ¼ aðz2 −HzÞ þ ρe
+Hð1 −ηbÞ z
+H þ ρe
+0ð1 −ηtÞ
+
+1 −z
+H
+
+ð19aÞ
+Z H
+0
+ρb
+z
+
+rc þ ρb
+z
+2
+
+dz ¼ 0
+ð19bÞ
+where ρb
+z = lateral deformation of column surface at a depth of z
+produced due to barreling effect alone; ρe
+0 and ρe
+H = stress-induced
+deformations at ground surface and base of the column, respec-
+tively; and ηt and ηb = nondimensional restraint factors defined
+herein as the ratio of the net lateral deformation to the stress-
+induced deformation component at the top and base of the column,
+respectively. The values of the restraint factors vary in the range of
+0 ≤ηt; ηb ≤1. For complete fixity, the value should be essentially
+zero and increase up to unity for a no-restraint condition. More
+discussion on these restraint coefficients have been given in the
+“Parametric Studies” section.
+It is difficult to carry out a rigorous analysis to evaluate the true
+lateral-deformation component initiated by barreling. To simplify,
+an approximate analysis to estimate this barreling component has
+been chosen here, as described previously. The arbitrary constant a
+in Eq. (19a) has been derived by performing the integration in
+Eq. (19b), which is then substituted into Eq. (19a) for obtaining
+the barreling components of nodal lateral deformations.
+Net Lateral Deformation
+The net lateral deformation of the column surface has been ex-
+pressed as the algebraic sum of the stress induced and the barreling
+components. Thus, the net lateral deformation ρtz at a depth of z is
+given by
+ρt
+z ¼ ρe
+z þ ρb
+z
+ð20Þ
+Development of Computer Program
+The entire computation was carried out using the finite-difference
+method and by adopting the forward, backward, and central differ-
+ence techniques. For this purpose, a user-friendly program Lateral
+Deformation of Column (LDCOL) was written in FORTRAN 90,
+the flowchart of which is shown in Fig. 4. The computations were
+based on an iterative technique until the desired convergence was
+achieved (chosen as 1% in the current analysis). More information
+on the numerical technique adopted is available in the Appendix.
+Fig. 4. Flowchart of the computer program LDCOL
+© ASCE
+04017016-7
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+Validation
+The model was validated by comparing the numerical results ob-
+tained from the model with the results of the field test and the
+existing numerical solutions. To validate the proposed solution,
+the comparison with reliable field data from available literature
+is most appropriate. There are several well-documented field based
+studies on the reinforced soft-soil behavior (e.g., Oh et al. 2007;
+McCabe et al. 2009; Mohamedzein and Al-Shibani 2011). How-
+ever, most of these studies are based on vertical load-settlement
+responses.In the field study by Hughes et al. (1975), plate load test-
+ing of an isolated stone column was conducted, and at the end of
+test, the soil surrounding the column was excavated to examine the
+deformed shape. Appropriate data relevant to the soil parameters,
+column geometry, loading pattern, and lateral column deformation
+are available for comparison. Another study (Indraratna et al. 2015)
+was based on a coupled discrete-element–finite-difference model,
+which was applied for predicting the load settlement as well as lat-
+eral deformation of a stone column pertaining to a laboratory model
+study (Sivakumar et al. 2011). Since the input data for the soft clay,
+column, and loading are available, this case study has been conven-
+iently used to validate the proposed solution. There are a few other
+case studies where appropriate data relevant to lateral deformation
+of stone columns is available (e.g., McKelvey et al. 2004; Tandel
+et al. 2012), but not all such studies could be accommodated in the
+paper due to required brevity.
+Hughes et al. (1975) carried out field-based investigations with
+plate load testing on an isolated stone column constructed by vibro-
+replacement in soft clay in London, United Kingdom. Site inves-
+tigations revealed the existence of a top crust about 1–2 m thick
+overlying soft clay to about 7 m depth followed by a layer of sand
+or silt. The stone column had an effective diameter of 660 mm and a
+length of 10 m. Axial loading was applied onto the column surface
+only (i.e., not on the soil) by means of plate load test until failure.
+After the test, the column was exhumed to investigate its deformed
+shape. A comparison of computed net lateral deformation against
+depth using the present model with field results is presented in
+Fig. 5. The lateral deformations have been normalized to the initial
+column radius while the depth below ground surface has been nor-
+malized to the initial embedded depth. The computed results ob-
+tained from the elastic model by Zhang et al. (2013) were also
+plotted. The input parameters used for computation are as follows:
+rc ¼ 0.33 m,
+H ¼ 9 m,
+wcol ¼ 614 kPa,
+Φc ¼ 38°; σzvmax ¼
+210 kPa, ηt ¼ 1.0, and ηb ¼ 0. For the computations, the secant
+modulus of the stone column estimated from the field plate load
+test results was 35 MPa. Since instantaneous loading was applied
+only onto the column surface and not on the surrounding soil sur-
+face, no soil consolidation is likely to occur while the column
+deformations are not time-dependent. The unit weights for soil
+and column were taken as follows: γs ¼ 18.5 kN=m3 and γc ¼
+19 kN=m3, respectively (Gasparre 2005; Isaac and Girish 2009).
+The Poisson’s ratio of column has been estimated from the angle
+of friction of column particles based on available empirical corre-
+lations (Zomorodian and Eslami 2005; Kulhway 1984). The values
+of the input parameters taken are given in Table 1.
+The lateral earth pressure coefficient Ks not only influences the
+lateral column deformation, but also affects the volumetric com-
+pressibility of clay as well as the column-soil stress concentration
+ratio. It is true that any increase in the value of Ks enhances the
+stress induced lateral deformation of column [Eqs. (2), (14), and
+(18)], and simultaneously decreases the volumetric compressibility
+as well as the deformation in the soft soil [Eqs. (8) and (9)]. Also,
+an increase in Ks reduces the value of ns [Eq. (3a)], thereby de-
+creasing the vertical stress, hence the stress-induced deformation
+components on the column. Thus, the increase in Ks initiates
+two opposite influences on the lateral column deformation, espe-
+cially for embankment loading relevant to transport infrastructure.
+At any specific depth or location where the lateral displacements
+are substantial (e.g., where bulging occurs), the value of Ks is ex-
+pected to be in the passive range (greater than unity), but elsewhere
+along the column depth, the apparent Ks will be significantly less
+than unity approaching the at-rest value towards the bottom part of
+the column. The actual depth of the bulging zone is quite small
+compared to the overall column length.
+As observed from Fig. 5, the values of measured column lateral
+deformations at different depths are in close proximity with the
+computed results obtained from the present model for νc ¼ 0.3
+with an average deviation of about 15%. The computed lateral de-
+formation of column has been observed to decrease with depth in a
+curvilinear manner with slightly increasing slope, unlike the quasi-
+linear trend predicted by the elastic model (Zhang et al. 2013). The
+authors have used Ks ¼ 2.5 within the bulging zone, based on the
+Rankine theory for a drained friction angle of 25°. For the remain-
+ing column length, the lateral deformation is small enough, thus
+value of Ks is close to its in situ value [Fig. 5(a)]. The values of
+earth pressure coefficients are similar to those reported by Clayton
+et al. (2013); recently conducted constant normal stiffness (CNS)
+shear tests at University of Wollongong, Australia, have also indi-
+cated similar range of values of the earth pressure coefficients. As
+observed from Fig. 5(b), the variation of lateral coefficient along
+(a)
+(b)
+Fig. 5. Validation: (a) depthwise variation of Ks; (b) comparison of
+numerical results with field test data by Hughes et al. (1975) and ana-
+lysis of Zhang et al. (2013)
+© ASCE
+04017016-8
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+the column provides a substantial improvement of the results (up to
+20% increase) in the bulged zone (0 < z=H < 0.05) over that by
+using an average value of Ks ¼ 0.85. In relation to the increased
+computational effort, improvement in the results compared to the
+simplified use of an averaged value of 0.85 over the remaining col-
+umn length (i.e., 0.05 < z=H < 1) is insignificant (<4%). Several
+past studies have also used and justified a mean Ks values in
+par with the preceding explanations (e.g., Raithal and Kempfert
+2000; Zhang et al. 2013). This pattern of variation may be reason-
+ably justified by the assumption that the top of the column was not
+laterally restrained against translation (ηt ¼ 1.0) under the imposed
+loading condition. Compared to the elastic analysis by Zhang et al.
+(2013), the computations in the present model were based on the
+assumed soil–column displacement compatibility, which has also
+influenced the numerical results significantly. In this study, along
+the much-thicker lower clay deposit, the variation of Ks from 0.5 to
+1.0 seems adequately represented by an average value of 0.85,
+hence the overall resulting error in using an average value over
+the length of the column is not significant. However, for other
+ground conditions, assuming a constant value of Ks may generate
+notable discrepancies, and therefore, this is a limitation in this
+particular analysis, and the variation of Ks with depth is a more-
+rigorous approach.
+Indraratna et al. (2015) carried out a coupled discrete-element–
+finite-difference (DEM-FDM) model using PFC2D and FLAC soft-
+ware to study the load-deformation characteristics of an isolated
+stone column in soft clay. This DEM-FDM model was validated
+by Sivakumar et al. (2011) based on load-transfer mechanism to
+the foundation soil through the stone column by large-scale triaxial
+data (specimen size of 300-mm diameter and 400-mm height). The
+loading was initiated in two stages: 50 kPa of effective pressure was
+applied in the first stage followed by a ramp loading at a rate of
+1 kPa=h. The lateral deformation of the column at the end of the
+ramp loading stage, as predicted by Indraratna et al. (2015), has
+been compared with those obtained by the present model (Fig. 6),
+assuming partially restrained end conditions (ηt ¼ ηb ¼ 0.5).
+Computations have been carried out with the assumed values of
+Poisson’s ratio νc as 0.2 and 0.3 for the column (Zomorodian
+and Eslami 2005; Kulhawy 1984). Since no specific model test
+was conducted by Sivakumar et al. (2011) to capture any specific
+lateral-deformation characteristics of the column, a comparison
+was made with the applied vertical stress versus settlement as
+shown in Fig. 6(a). The stress concentration ratio ns is taken as
+3.0 (Han and Ye 2001) while the lateral earth pressure coefficient
+Ks is chosen as 0.9 (Fatahi et al. 2012b). The values of the input
+parameters taken are given in Table 1. As observed, the computed
+settlement increases in a hyperbolic manner with the applied ver-
+tical stress, with an average deviation from the test results below
+10%. Fig. 6(b) reveals that the pattern of variation of column lateral
+deformation with depth predicted by the present model is in close
+proximity to that computed by the DEM-FDM model, with an aver-
+age deviation below 20%. The depth plotted here and throughout
+this paper thereafter was normalized by the initial soft clay thick-
+ness H. The maximum lateral deformation of column (specifically
+termed as bulging) was observed to occur within the top 10% of the
+column length. The observed deformation pattern agrees with the
+argument that bulging occurs in the upper part of the column close
+to the ground surface (Black et al. 2007). As observed from Figs. 6
+(c and d), the normalized bulging depth zb=H (zb = depth of
+maximum lateral deformation) and the corresponding normalized
+Table 1. Input Parameters for Validation
+Material
+Parameter
+Value
+Hughes et al. (1975)
+Indraratna et al. (2015);
+Sivakumar et al. (2011)
+Soft clay
+Coefficient of horizontal permeability (kh)
+—a
+5.2 × 10−8 m=sb
+Initial coefficient of volume compressibility (mv)
+—a
+3 × 10−6 N2=mc
+Initial void ratio (e0)
+—a
+1.12d
+Slope of the e −ln p 0 curve (λ)
+—a
+0.16e
+Normalized horizontal permeability of smear zone (ks=kh)
+—a
+0.1f
+Normalized radius of smear zone (rs=rc)
+—a
+1.15g
+Depth of soft clay (H)
+9 mh
+0.4 mi
+Earth pressure coefficient (Ks)
+Variable
+0.9j
+Unit weight (γs)
+18.5 kN=m3c
+18.5 kN=m3b
+Stone column
+Radius of stone column (rc)
+0.33 mb
+0.04, 0.05, 0.6 mj
+Radius of unit cell (re)
+—a
+0.3 mj
+Unit weight (γc)
+19 kN=m3d
+19 kN=m3d
+Frictional angle (ϕc)
+38°b
+37°j
+Poisson’s ratio (νc)
+0.2, 0.3e
+0.2, 0.3e
+Limiting axial stress (σzvmax)
+210 kPab
+Evaluated from cu0 (= 22 kPaj) and ϕc
+Restraint coefficients (ηt, ηb)
+ηt ¼ 1; ηb ¼ 0f
+ηt ¼ ηb ¼ 0.5f
+Stress concentration ratio (ns)
+—a
+3.0h
+Radius factor of clogging (α)
+—a
+1.0
+Permeability factor for clogging (αk)
+—a
+1.0
+aData not required (no consolidation).
+bData from Hughes et al. (1975).
+cData from Gasparre (2005).
+dData from Isaac and Girish (2009).
+eData from column friction angle (Zomorodian and Eslami 2005; Kulhawy 1984).
+fData from given end conditions.
+gData from Basack et al. (2015c).
+hData from Han and Ye (2002).
+iData from Indraratna et al. (2015) and Sivakumar et al. (2011).
+jData from Hayashi et al. (2012), Fatahi et al. (2012b), Tong et al. (2013), and Basack et al. (2015b).
+© ASCE
+04017016-9
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+maximum column deformation ρhmax=rc predicted by the present
+model are close enough to that computed by the DEM-FDM model
+with average deviations of about 19 and 7%, respectively. In this
+paper, the maximum lateral deformation of column ρtz has been
+denoted by ρhmax for simplicity.
+Parametric Studies
+A section of the Pacific Highway linking Sydney and Brisbane
+was constructed as a bypass to reduce the traffic congestion in
+Ballina. This bypass route crosses a floodplain that consists of
+highly compressible and saturated marine clay deposits. The soft
+soil was stabilized by a group of stone columns installed and
+tested at the site. Siahaan et al. (2011) conducted extensive field-
+based investigations to study the deformation characteristics of
+the reinforced clay under embankment surcharge loading. A
+comparison of the computed load-settlement response with the
+observed field data is presented in Fig. 7. The computational input
+parameters were taken from Siahaan et al. (2011) and Indraratna
+(2009) and are presented in Table 2. Compared to the irregular
+ramp loading seen in the field, a stepwise increase in the applied
+load intensity was assumed for computational purposes [Fig. 7(a)].
+As shown in Fig. 7(b), the nonlinear solution proposed in this paper
+matches the field data well with an average deviation below 8%,
+compared to the linear model previously introduced by Indraratna
+et al. (2013).
+Parametric analysis was carried out using 531 elements with
+600 nodes in the axisymmetric unit cell, and 18,000 nodes in the
+space-time frame (nr ¼ 10, nz ¼ 60, and nt ¼ 30). This ensured
+a reasonable compromise between the computational time and
+accuracy.
+The effects of variation of the friction angle of column particles,
+imposed load intensity, soft-clay strength, and column geometry on
+the lateral-deformation characteristics of stone columns have been
+studied in details. The induced stresses in column and soil and the
+influence of column geometry on the capacity of reinforced soft
+ground have also been investigated.
+(a)
+(b)
+Fig. 7. Comparison of computed load-settlement characteristics with
+field data of Siahaan et al. (2011)
+(a)
+(b)
+(c)
+(d)
+Fig. 6. Comparison of numerical results with laboratory test data and
+DEM-FDM: (a) applied vertical stress versus settlement; (b) lateral-
+deformation profiles; (c) maximum lateral deformations; (d) bulging
+depths
+© ASCE
+04017016-10
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+Time-Dependent Column Deformation
+In the case of embankment loading, significant frictional resistance
+is likely to be developed between the top surface of the column and
+the base of the embankment, preventing any lateral displacement of
+column. It is therefore reasonable to consider the restraint coeffi-
+cient ηt ¼ 0. The base restraint has been chosen as ηb ¼ 0.5,
+i.e., the column is partially restrained against the impervious and
+rigid base of the unit cell. The accuracy of the solution depends on
+the appropriate choice of the restraint coefficients based on proper
+engineering judgement.
+The time-dependent deformation pattern of the column is
+illustrated in Fig. 8(a). As observed, the normalized lateral defor-
+mation (ρtz=rc) sharply increases following a linear pattern from
+zero at ground surface to 0.15–0.17 at a depth of about
+0.275H, where bulging of the column is evident. With further in-
+crease of depth, the lateral deformation decreases following a
+curvilinear pattern. The deformation near the column base
+(0.8 ≤z=H ≤1.0) is negligible (ρtz=rc ≤0.015). This can be jus-
+tified by the fact that significant radial stress imposed on the lateral
+column surface near its base by the surrounding soft soil against
+the limited axial stress (σZmax) induced in the column, as per
+Eq. (13). While the magnitudes of lateral deformation have been
+found to increase with time, the bulging depth remains constant
+(zb=H ¼ 0.275).
+The time-dependent lateral deformation of the column was
+investigated in more detail through Fig. 8(b). The variation of nor-
+malized lateral deformation with the modified time factor, T 0r ¼
+kht=ðmvγwH2Þ (Basack et al. 2015b) has been considered. This
+modified time factor is different from the conventional one (Barron
+1947). Since the column radius is varied to study the influence of
+column geometry on reinforced soft-ground performance, this
+modified time factor is used, where the constant term H is included.
+As observed, the lateral deformation increases sharply in the range
+of 0 ≤T 0r ≤0.008 and gradually stabilized afterwards. The time
+pattern of variation of vertical deformation of the column at differ-
+ent depths is shown in Fig. 8(c). With the assumed displacement
+compatibility, the vertical deformation of the column is same as the
+soft-clay settlement at the interface. With the chosen clogging
+effect, the soil settlement increased asymptotically with time, sta-
+bilizing after T 0r ≥0.01.
+Fig. 8(d) portrays the influence of the restraint factors on the
+column lateral deformation. As the end restraints increases from
+a complete fixity (ηt ¼ ηb ¼ 0) to a complete free condition
+(ηt ¼ ηb ¼ 1), the maximum lateral deformation increases in the
+range of 14% ≤ρtz=rc ≤16.2%. The solution to Eqs. (7) and (9)
+associated with clogging and displacement compatibility essen-
+tially implies that the interface vertical settlement is time-dependent
+(Indraratna et al. 2013; Basack et al. 2015a). The induced stresses
+and lateral deformations in the column are therefore time-
+dependent as well.
+The magnitude of column lateral deformations is found to be
+influenced significantly by the variation of the restraint coefficients
+ηt and ηb. Having defined them as the ratios of magnitudes of actual
+to stress-induced deformations of the column, their values essen-
+tially depend upon the frictional resistance induced at the top
+and the bottom surfaces of the column. For the interface between
+angular stone particles and compacted embankment material, it is
+expected that the net lateral deformation at the top of the column
+is insignificant. Thus, the coefficient ηt may be taken as 0. Con-
+versely, for the smooth interface at the top (for example, a plate
+load test on reinforced ground), negligible lateral restraint is likely
+to occur; hence, ηt may be taken as 1. For intermediate conditions,
+the value is site-specific and may be estimated by interface char-
+acterization test (Fioravante 1999).
+At the base of the stone columns, whenever the soft soil overlies
+a stiffer stratum and the column is extended to this stiff layer ini-
+tiating significant lateral restrainst to the base (e.g., Hughes et al.
+1975), it is reasonable to choose ηb ¼ 0. On the contrary, even
+though the column is not embedded into the stiffer soil layer, the
+imposed vertical stress is expected to induce partial base restraint to
+lateral deformation; therefore, ηb would fall between 0 and 1.
+In the field tests conducted by Hughes et al. (1975), the site con-
+sisted of a soft-clay layer up to 9 m in thickness below the ground
+surface, overlying a relatively stiff silty sand layer. The isolated
+stone column had an overall depth of embedment of 10 m and it
+was subjected to the plate load test. Thus, for computation, the val-
+ues of the restraint coefficients have been chosen as ηt ¼ 1 and
+ηb ¼ 0, justified by the earlier explanations. Similarly, for compu-
+tations relevant to the laboratory model testing of Sivakumar
+et al. (2011), the partially restrained end conditions are assumed
+Table 2. Input Parameters for Parametric Studies
+Material
+Parameter
+Value
+Soft clay
+Coefficient of horizontal permeability (kh)
+1.0 × 10−9 m=s
+Initial coefficient of volume compressibility (mv)
+3.0 × 10−6 m2=N
+Initial void ratio (e0)
+2.9
+Slope of the e −ln p 0 curve (λ)
+0.57
+Normalized horizontal permeability of smear zone (ks=kh)
+0.1a
+Normalized radius of smear zone (rs=rc)
+1.15a
+Depth of soft clay (H)
+10 m
+Unit weight (γs)
+18 kN=m3
+Embankment surcharge loading
+Passive earth pressure coefficient (Kp)
+3b
+Unit weight
+2.0 kN=m3
+Stone column
+Radius of stone column/SCP (rc)
+0.5 m
+Radius of unit cell (re)
+1.16 m
+Unit weight (γc)
+17 kN=m3
+Stress concentration ratio (ns)
+8.9c
+Radius factor of clogging (α)
+0.9d
+Permeability factor for clogging (αk)
+0.9d
+aAssumed value [data from Han and Ye (2002) and Indraratna et al. (2013)].
+bData from Indraratna et al. (2013).
+cData from Siahaan et al. (2011) and FHWA (1983).
+dData from Basack et al. (2015c).
+© ASCE
+04017016-11
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+as ηt ¼ ηb ¼ 0.5 in the absence of any further information. Lastly,
+in the parametric study, the highly angular stone particles and stiff,
+compacted embankment material are likely to induce significant
+interface frictional resistance at the top of the column. Since the
+column base is not embedded into the stiffer soil layer underlying
+the soft-clay deposit, a partial base-restraint condition may justify
+the assumption of ηt ¼ 0 and ηb ¼ 0.5.
+The column deformation at the base depends on the nature of the
+soil layer at the bottom of the columns. Embedment of the stone
+column base to a stiffer stratum under high confining pressure is
+expected to reduce significantly the lateral deformation at this
+location.
+Stresses Induced in the Column and Soil
+With the assumption that the column-to-soil stress concentration
+ratio ns remains constant throughout the process of soil consolida-
+tion, the vertical stresses imposed on the column and the soil do not
+alter with time in the mathematical model.
+The vertical and lateral stress components, normalized by the
+average load intensity, induced in the column at various time fac-
+tors, have been depicted in Fig. 9(a). As observed, the normalized
+vertical stress is 3.7 at the ground surface and increases nonlinearly
+until a maximum value is attained at a depth of z ¼ 0.275H. This
+maximum value of vertical stress is found to increase with time, its
+normalized values being 16.1, 18.9, and 19.9 at modified time fac-
+tor (T 0r) of 0.001, 0.002, and 0.003, respectively. The lateral com-
+ponent of column stress, on the other hand, was found to increase
+linearly from a normalized value of 0.32 at the ground surface to
+0.396 at the column base. These observations are consistence with
+Eqs. (11), (13), and (14) relevant to the stress components induced
+in the column together with the Eq. (10) relevant to the relationship
+between the undrained soil strength and consolidation.
+The vertical-stress components induced in the soft soil have
+been portrayed in Fig. 9(b). The normalized stress was found to
+increase linearly with depth from a minimum value of 0.4 at ground
+surface to 1.38 at the base. The magnitude of vertical stress at any
+given depth is found to increase with the radial distance from the
+column centre. These observations are in agreement with the
+Eq. (17) which implies a linear increment of vertical stress induced
+in soft soil, together with Eq. (6a) which initiates a parabolic in-
+crease in the imposed vertical stress on the soft soil surface.
+To carry out a sensitivity analysis, the coefficients ηt and ηb have
+been varied from 0 to 1 and the corresponding increase in the col-
+umn bulging magnitude, expressed as percent of the value relevant
+to ηt ¼ ηb ¼ 0, are studied. As observed from Fig. 9(c), the in-
+crease in the magnitude of column bulging is found to be less than
+12%, as the values of restraint coefficients increase from 0 to 1.
+Influence of Column and Soft-Soil Properties and
+Loading
+The effects of the column and soft-soil parameters and imposed
+embankment loading on the lateral deformation pattern were stud-
+ied in detail, as described next.
+Particle Interlock
+The effects of interlocking and the friction angle of the aggregates
+on the magnitude of the bulging and the corresponding column
+depth were investigated (Fig. 10). As observed from Fig. 10(a),
+the magnitude of bulging nonlinearly decreases with the column
+friction angle with ascending slope. As the friction angle increases
+as 40° ≤Φc ≤50°, the ratio of ρhmax=rc at a time factor of T 0r ¼
+0.001 decreases in the range of 0.02–0.63, 0.048–0.118, and
+0.08–0.174 for a corresponding Poisson’s ratio of 0.1, 0.2, and 0.3,
+Fig. 8. (a) Column lateral deformation pattern with depth; (b) maxi-
+mum lateral deformation of column with time; (c) vertical deformation
+of column with time; (d) depth wise variation of lateral column defor-
+mation for different values of fixity coefficients
+© ASCE
+04017016-12
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+respectively. Fig. 10(b) shows that the normalized bulging
+depth zb=H has been found to increase between 0.071 and
+0.278 as the friction angle increases curvilinearly in the range of
+40° ≤Φc ≤50°. The gradient of the curves is initially ascending,
+but a reverse curvature has been found for higher values of the
+friction angle, with the value of Φc being relevant to the point
+of inflection (i.e., gradually reducing from 47 to 41° as the
+Poisson’s ratio increases in the range of 0.1 ≤νc ≤0.3). A higher
+friction angle is likely to reduce bulging, which would eventually
+decrease the magnitude while increasing the depth of the column
+bulging.
+Undrained Cohesion and Earth Pressure Coefficient
+It is obvious from Eq. (10) that the undrained cohesion progres-
+sively increases with soil consolidation (Umezaki et al. 1993;
+Indraratna et al. 2013). With the elastic analysis, Eqs. (12) and (13)
+imply that the stresses and deformations produced in the column
+are significantly influenced by the initial soil cohesion cu0 as well
+as the earth pressure coefficient Ks. With the increasing values of
+initial cohesion cu0, as observed from Figs. 11(a and b), the ratio
+ρhmax=rc decreases almost linearly, while the normalized bulging
+depth zb=H increases curvilinearly with an ascending gradient.
+With an increase in the earth pressure coefficient Ks, the associated
+increment in normalized bulging (ρhmax=rc) was observed
+[Fig. 12(a)] until a peak value was attained and decreased there-
+after. Conversely, the opposite observation was found in relation to
+the normalized bulging depth zb=H, as observed from Fig. 12(b).
+Alteration in Ks affects the soft-soil compressibility as well as the
+settlement characteristics of the surrounding soft clay, which sub-
+sequently influences the stresses and elastic deformations produced
+in the column. This factor also attributed to the complex nature of
+variation found in Figs. 12(a and b).
+Increase in undrained cohesion of soft clay initiates greater con-
+finement of the stone column, which in turn increases the magni-
+tude of axial stress induced in the column [Eq. (13)]. As a result, the
+critical depth (i.e., depth above which the axial stress induced in the
+column becomes constant) increases. On the contrary, the radial
+stress induced in the column by the adjacent soil increases linearly
+with depth, as observed in Fig. 9(a). Since the stress-induced col-
+umn deformation depends on these two mutually orthogonal stress
+components [Eq. (18)], the bulging depth increases with undrained
+cohesion of soft clay, as observed from Fig. 11.
+Fig. 9. Induced stresses in (a) column; (b) soft soil; (c) sensitivity analysis of restraint coefficients
+© ASCE
+04017016-13
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+Column Geometry
+To study the influence of the change in column geometry on its
+lateral deformation, the column spacing and radius were varied in
+the ranges of 2 ≤N ≤4 and 30 ≤H=rc ≤50, respectively, for
+which the magnitude of normalized bulging (ρhmax=rc) was
+observed to increase from 0.17 to 0.58 (T 0r ¼ 0.003). With an in-
+crease in N, the maximum lateral deformation initially increased
+with an ascending slope up to N ¼ 2.75, followed thereafter by a
+gradual stabilization [Fig. 13(a)]. On the other hand, increase in
+H=rc induced a nonlinear increase of bulging with a descending
+slope as shown in Fig. 13(b). Conversely, the opposite trend is ob-
+served for the variation of bulging depth [Figs. 13(c and d)].
+These observations can be justified because any alteration in the
+geometry of the column not only affects the stresses on the soil and
+the column, but also influences the consolidation of the soft clay,
+which subsequently affects the column stiffness and deformation.
+The lateral deformation of a stone column is thus a complex prob-
+lem with opposing factors such as stress transfer, consolidation, and
+lateral confinement.
+The alteration in column geometry (specifically the nondimen-
+sional parameter N and H=rc) influences the bulging magnitude
+and depth significantly. From the observed data in Fig. 13 plus
+further computational analysis carried out by the authors reveal
+that the magnitude of maximum bulging may increase with N
+and H=rc before it gradually stabilizes. Such a trend was observed
+to occur for a normalized column geometry for N ¼ 4.5 and
+H=rc ¼ 53. In view of this, it can be concluded that for the current
+parametric study, the alteration in the magnitude of maximum
+bulging is insignificant for column dimensions for rc < 0.19 m
+and spacing > 1.71 m.
+The current solution based on the unit cell concept is more ap-
+propriate for embankment loading relevant to transport corridors,
+escpecially for centrally located columns (Lorenzo and Bergado
+2003; Murugesan and Rajagopal 2006). However the authors’ cur-
+rent model may not successfully capture the true load-deformation
+response for columns located further away from the embankment
+centerline and in the case of large projects involving several hun-
+dreds of columns attributed to soil heaving at the toe, angular dis-
+tortion of column, etc. (Indraratna et al. 2013).
+Fig. 10. Influence of interparticle friction angle of stone column on
+(a) maximum lateral deformation (bulging); (b) bulging depth
+(a)
+(b)
+Fig. 11. Influence of soft clay cohesion on (a) maximum column lat-
+eral deformation; (b) bulging depth
+Fig. 12. Influence of earth pressure coefficient on (a) maximum
+column lateral deformation; (b) bulging depth
+© ASCE
+04017016-14
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+Stress Concentration Ratio
+Since the magnitudes of column–soil stress concentration ratio af-
+fect the stone column deformations significantly (Zhang et al.
+2013), the influences are further studied here. With an increase in
+stress concentration ratio in the range of 5 ≤ns ≤9, the column
+bulging (ρhmax=rc) decreases curvilinearly. The slopes of the curves
+are observed to be descending up to ns ¼ 6.5 followed by gradual
+ascending slopes thereafter [Fig. 14(a)]. Increase in ns initiates an
+increase in the stress on the column wcol, while decreasing the
+stresses on the surrounding soil wðrcÞ (Indraratna et al. 2013).
+Although the increase in wcol is likely to induce greater deformation
+of the stone column, a significant reduction in soil settlement at the
+interface under reduced value of wðrcÞ has possibly amplified the
+column stiffness Ec [Eq. (15)].
+The stress concentration ratio ns is found to influence the depth
+of bulging significantly, as observed from Fig. 14(b); thus, zb=H
+increases in a curvilinear manner with an ascending slope with ns.
+When the stress concentration ratio increases, the vertical stress
+imposed on the column increases, while the vertical stress on the
+adjacent soft-clay surface decreases. The reduction in vertical stress
+on the soil surface reduces the soil settlement [Eq. (9)]. With the
+assumed column–soil displacement compatibility at the interface,
+such reduced settlement is likely to amplify the value of the
+Young’s modulus of column Ec as per Eq. (15), thereby reducing
+the magnitude of column bulging. Also, an increase in the vertical
+stress accompanied by a reduction in the radial stress has been
+attributed to the increased depth of bulging.
+Load-Carrying Capacity
+With the known value of the limiting axial stress on column given
+by Eq. (13) and based on the arching theory [Eqs. (5) and (6)]
+together with the available correlations relevant to step loading
+proposed by Indraratna et al. (2013) on the load-transfer mecha-
+nism on stone-column-reinforced soft ground, the load-carrying
+capacity of the reinforced soft-ground surface is given by
+¯wmax ¼
+σzmax=ns
+c1 þ c2ðN −1Þ2
+ð21Þ
+where ¯wmax = maximum load intensity that can be applied on the
+reinforced ground surface corresponding to the axial stress intensity
+σzmax induced on the column at its top; with the known value of the
+passive earth pressure coefficient Kp of the embankment material,
+the coefficients c1 and c2 are given by
+c1 ¼ N −1
+H=rc
+Kp −1
+Kp −2 þ
+
+1 −
+N
+H=rc
+Kp −1
+Kp −2
+
+1 −1
+N
+Kp−1
+ð22aÞ
+c2 ¼
+N2 −c1ðN2 þ ns −1Þ
+ðN þ 1ÞðN −1Þ3=6 þ nsðN −1Þ2
+ð22bÞ
+The variation of ¯wmax with time is shown in Fig. 15(a). Since the
+undrained cohesion cu increases exponentially with time during
+consolidation (Indraratna et al. 2013), the load-carrying capacity
+of the reinforced soft clay is observed to increase with time with
+a stabilizing tendency, the rate of increase being significantly high
+in the range of 0 ≤T 0r ≤0.02. The variation of ¯wmax with the col-
+umn geometry (N and H=rc) is also studied here through Figs. 15(b
+and c). As observed, the load-carrying capacity decreases curvilin-
+early with increasing N with stabilizing tendency, with the rate of
+decrease being considerably high in the range of 2 ≤N ≤4. With
+an increasing value of H=rc, on the other hand, the load-carrying
+capacity decreases marginally. This can be justified by the fact that
+the coefficients c1 and c2 are highly sensitive to N, while compa-
+ratively less sensitive to H=rc.
+Fig. 13. Variation of (a) ρhmax with N; (b) ρhmax with H=rc; (c) zb=H
+with N; (d) zb=H with H=rc
+(a)
+(b)
+Fig. 14. Influence of ns on (a) maximum column lateral deformation;
+(b) bulging depth
+© ASCE
+04017016-15
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+The preceding parametric studies imply that under low confin-
+ing pressure, the stone column bulges more, thereby negatively
+influencing the load-carrying capacity.
+Although the current numerical model is capable of capturing
+the lateral-deformation characteristics of stone-column-reinforced
+soft ground under static loading during the consolidation stage,
+it has a few inherent limitations:
+•
+The model deviates from accuracy when there is double drai-
+nage (i.e., vertical and radial), especially in the case of partially
+penetrated columns; and
+•
+The pattern of lateral deformation of stone columns in soft soil
+depends upon the barreling effect. However, the information
+available on the appropriate choice of values of the fixity factors
+ηt and ηb is limited.
+Conclusions
+A numerical solution to predict the behavior of stone-column-
+reinforced soft ground, with special emphasis on lateral deforma-
+tion, was developed under unit cell conditions. Comparisons of the
+numerical results with the available field and laboratory test data as
+well the existing solutions were used to validate the proposed
+model. The study indicates that a bulging zone producing a maxi-
+mum lateral deformation occurs in the vicinity of the ground sur-
+face, the magnitude of which is essentially time-dependent. For a
+particular depth, the column lateral deformation was found to in-
+crease sharply in the time range of 0 ≤T 0r ≤0.008 and gradually
+stabilized thereafter. A negligibly small lateral deformation was
+produced near the column base (0.8 ≤z=H ≤1) due to the high
+radial stress induced in the column by the surrounding soil. With
+the chosen clogging effect, the vertical deformation of column
+increases asymptotically with time and stabilizes after T 0r ≥0.01.
+The column deformation pattern was found to be influenced by
+the variation of the restraint coefficients.
+The time-dependent vertical stress developed in the column was
+observed to increase with depth until a maximum value was at-
+tained. The lateral stress on the column, on the other hand, was
+found to increase linearly with depth. The vertical stress in the soft
+soil increases linearly with depth as a function of the radial distance
+from the column.
+Several factors that affected the magnitude of column bulging
+and its depth during consolidation were studied. An increase in the
+friction angle of the column resulted in a curvilinear decrease in the
+magnitude of bulging, while the bulging depth increased. The re-
+lationship between friction angle and magnitude of bulging also
+varied in ascending slope as Poisson’s ratio of the column in-
+creased. The relationship between the friction angle and bulging
+depth followed a typical shape of reverse curvature with the point
+of inflexion that decreased as the Poisson’s ratio of the column
+increased.
+The bulging depth increased and its magnitude decreased as the
+initial undrained cohesion of the surrounding clay (cu0) increased.
+The curve gradient that describes the relationship between the bulg-
+ing magnitude and initial cohesion increased as the earth pressure
+coefficient (Ks) increased, while the gradient that describes the re-
+lationship between the bulging depth and initial cohesion increased
+in a slight curvilinear shape as the coefficient Ks increased. The
+influence of Ks was rather complex; as the value of Ks increased,
+the magnitude of bulging increased in a curvilinear shape with a
+descending slope up to a peak value before it decreased linearly.
+An opposite trend was identified for the bulging depth.
+Column bulging was also influenced by its geometry, which is
+described as the ratio of the radius of the unit cell to that of the stone
+column (N) and ratio of the embedded depth to the radius of the
+stone column (H=rc), assuming a fully penetrating stone column.
+(a)
+(b)
+(c)
+Fig. 15. Variation of normalized maximum load intensity with (a) time; (b) N; (c) H=rc
+© ASCE
+04017016-16
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+An increase in the column spacing N initially results in an increase
+in the bulging magnitude before the magnitude gradually stabilizes
+when the radius of the unit cell is about 2.75 times the radius of the
+column. The bulging magnitude generally increases as the column
+becomes thinner, whereas the opposite is generally applicable with
+respect to the bulging depth.
+The stress-concentration ratio (ns) not only influences the con-
+solidation characteristics of soft clay, but also affects the induced
+deformations to a significant extent. The bulging magnitude de-
+creases with an increase in ns in a curvilinear fashion. An increase
+in the stress-concentration ratio caused an increase in the bulging
+depth with an ascending curve gradient.
+The load-carrying capacity of stone-column-stabilized soft
+ground increased over time with an asymptotically stabilizing
+trend, but this capacity decreases in a curvilinear fashion as the
+column spacing increases. This capacity also decreased marginally
+as the column became thinner.
+Appendix. Adopted Numerical Scheme
+The numerical methodology adopted in the model involves for-
+ward, backward, and central difference techniques coupled with
+the explicit procedure where the grid size is adjusted in each of
+the computational steps performed. Referring to the grid shown in
+Fig. 2(d), the partial derivatives in Eq. (7) have been expressed as
+follows:
+∂urt
+∂t
+
+i;k
+¼ ui;kþ1 −ui;k−1
+2δt
+ð23aÞ
+∂urt
+∂r
+
+i;k
+¼ uiþ1;k −ui−1;k
+2δr
+ð23bÞ
+∂2urt
+∂r2
+
+i;k
+¼ uiþ1;k −2ui;kþui−1;k
+δ2r
+ð23cÞ
+Incorporating the appropriate values of the nodal indices i and k
+in the preceding equations and applying the boundary conditions
+[details explained in Indraratna et al. (2013)], the following matrix
+equation has been formulated:
+2
+66666664
+f11
+f12
+f12
+· · ·
+f1;nr
+f21
+f22
+f23
+· · ·
+f2;nr
+f31
+f32
+f32
+· · ·
+f3;nr
+· · ·
+· · ·
+· · ·
+· · ·
+· · ·
+fnt;1
+fnt;2
+fnt;3
+· · ·
+fnt;nr
+3
+77777775
+·
+8
+>
+>
+>
+>
+>
+>
+>
+<
+>
+>
+>
+>
+>
+>
+>
+:
+U1
+U2
+U3
+· · ·
+Unr
+9
+>
+>
+>
+>
+>
+>
+>
+=
+>
+>
+>
+>
+>
+>
+>
+;
+¼
+8
+>
+>
+>
+>
+>
+>
+>
+<
+>
+>
+>
+>
+>
+>
+>
+:
+b1
+b2
+b3
+· · ·
+bnr
+9
+>
+>
+>
+>
+>
+>
+>
+=
+>
+>
+>
+>
+>
+>
+>
+;
+ð24Þ
+where Ui ¼ fu1i; u2i; u3i; : : : ; unr;igT; fði; jÞ = typical element of
+the finite-difference coefficient matrix; and bi = typical element of
+the augment vector.
+The expression for the partial derivative ∂2ρrczt=∂z2 in the
+Eq. (16) in terms of the nodal indices j and k is given by
+∂2ρrczt
+∂z2
+
+j;k
+¼
+ρrc;jþ1;k −2ρrc;j;kþρrc;j−1;k
+δ2z
+ð25Þ
+At the end of each time step, the grid sizes δr and δz are likely to
+be deceased due to progressive ground settlement coupled with
+lateral deformation, respectively. These reduced grid sizes have
+been used in the next time step and the procedure is continued
+accordingly until the end of the desired computational time. The
+reduced grid sizes have been estimated by
+δrðz; tÞ ¼ ðre −rcÞ −ρt
+z
+nr −1
+ð26aÞ
+δzðr; tÞ ¼ H −ρr;1;t
+nz −1
+ð26bÞ
+where the reduced grid sizes are represented by δr (z, t) and δz (r, t),
+respectively.
+Acknowledgments
+The authors gratefully acknowledge the financial supports received
+from the Australian Research Council (ARC) and industry partners,
+namely Coffey Geotechnics and Keller Ground Engineering, in the
+form of an industry linkage project. The editorial assistance of
+Mr. Bill Clayton is also acknowledged.
+Notation
+The following symbols are used in this paper:
+a = lateral deformation coefficient;
+bi = typical element of the augment vector;
+cu0 = initial soil cohesion at ground surface;
+cuðr; z; tÞ = nodal soil cohesion;
+Ec = Young’s modulus of column;
+e = void ratio;
+e0 = initial void ratio;
+F = stress function;
+fði; jÞ = typical element of the finite difference coefficient
+matrix;
+H = thickness of the soft clay deposit;
+Ks = earth pressure coefficient of clay;
+Kp = passive earth pressure coefficient of embankment;
+kh = horizontal soil permeability;
+ks = horizontal permeability of smear zone;
+mv = soil volume compressibility;
+N = re=rc;
+nr; nz; nt = number of divisions;
+ns = steady-state concentration ratio;
+r = radial coordinate of unit cell;
+rc = radius of stone column;
+r 0c = radius of stone column excluding the clogged zone;
+re = radius of influence of one stone column;
+rs = radius of smear zone;
+T 0r = modified time factor;
+t = time coordinate;
+tt = total time of consolidation;
+Ui = column vector of pore-water pressure;
+urt = excess pore-water pressure;
+¯w = surcharge load intensity on ground surface;
+wcol = average vertical stress on top of column;
+wðrÞ = vertical stress on ground surface at radial distance of r;
+z = depth coordinate;
+zb = bulging depth;
+α = radius factor for clogging;
+αk = permeability factor for clogging;
+γ 0 = effective unit weight of soil;
+© ASCE
+04017016-17
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+γc = unit weight of column material;
+γs = unit weight of soil;
+γw = unit weight of water;
+δr = length of an element on radial axis;
+δt = length of an element on time axis;
+δz = length of an element on depth axis;
+εV
+A = vertical strain component at Point A.
+ηt; ηb = restraint factors;
+λ = slope of e −ln p 0 curve;
+νc = column Poisson’s ratio;
+νs = soil Poisson’s ratio;
+ρbz = barreling component of column deformation;
+ρep
+z = stress-induced component of column deformation;
+ρhmax = maximum
+net
+lateral
+deformation
+(bulging)
+of
+column;
+ρrzt = vertical displacement of a soil nodal point;
+ρt
+z = net lateral deformation of column;
+ρv = vertical displacement of a column nodal point;
+σzr = radial-stress component on column;
+σzvmax = maximum axial stress in column;
+σzv = nodal axial stress in column;
+σszv = vertical stress component in soft soil;
+τ z = interface shear stress; and
+ς = rate of increase of soil cohesion with depth;
+References
+Adalier, K., and Elgamal, A. (2004). “Mitigation of liquefaction and asso-
+ciated ground deformations by stone columns.” Eng. Geol., 72(3–4),
+275–291.
+Alamgir, M., Miura, N., Pooorooshasb, H. B., and Madhav, M. R. (1996).
+“Deformational analysis of soft ground reinforced by columnar
+inclusions.” Comput. Geotech., 18(4), 267–290.
+Altinbalik, T., and Çan, Y. (2011). “An upper bound analysis and determi-
+nation of the barrelling profile in upsetting.” J. Eng. Math. Sci.,
+18(6), 416–424.
+Asaro, R., and Lubardo, V. (2011). Mechanics of solids and materials,
+Cambridge University Press, Cambridge, U.K.
+Barron, B. A. (1947). “Consolidation of fine-grained soils by drain wells.”
+Trans. Am. Soc. Civ. Eng., 113(2346), 718–742.
+Basack, S., Indraratna, B., and Rujikiatkamjorn, C. (2015a). “Modeling the
+performance of stone column-reinforced soft ground under static and
+cyclic loads.” J. Geotech. Geoenviron. Eng., 10.1061/(ASCE)GT
+.1943-5606.0001378, 04015067.
+Basack, S., Indraratna, B., Rujikiatkamjorn, C., and Siahaan, F. (2015b).
+Theoretical and numerical perspectives on performance of stone col-
+umn improved soft ground with reference to transport infrastructure,
+Elsevier, Oxford, U.K., 747–79.
+Basack, S., Siahaan, F., Indraratna, B., and Rujikiatkamjorn, C. (2015c).
+“Influence of clogging on the performance of stone column improved
+soft ground.” Proc., 15th Pan-American Conf. on Soil Mechanics
+and Geotechnical Engineering, IOS Press, Amsterdam, Netherlands,
+1615–1622.
+Black, J., Sivakumar, V., Madhav, M., and Hamill, G. (2007). “Reinforced
+stone columns in weak deposits: Laboratory model study.” J. Geotech.
+Geoenviron.
+Eng.,
+10.1061/(ASCE)1090-0241(2007)133:9(1154),
+1154–1161.
+Bouassida, M., and Carter, J. (2014). “Optimization of design of column-
+reinforced foundations.” Int. J. Geomech., 10.1061/(ASCE)GM.1943
+-5622.0000384, 04014031.
+Brauns, J. (1978). “Die anfangstraglast von schottersäulen im bindigen
+untergrund.” Bautechnik, 55(8), 263–271 (in German).
+Carter, W. T., and Lee, D. (1985). “A finite element analysis of cylinder
+and ring compression and its experimental verification.” Comp. Struct.,
+21(1–2), 1–19.
+Clayton, C. R. I., Woods, R. I., Bond, A. J., and Milititsky, J. (2013). Earth
+pressure and earth retaining structures, 3rd Ed., CRC Press, Boca
+Raton, FL.
+Davis, E. H., and Booker, J. R. (1973). “The effect of increasing strength
+with depth on the bearing capacity of clays.” Géotechnique, 23(4),
+551–563.
+Deb, K., and Shiyamalaa, S. (2015). “Effect of clogging on rate of consoli-
+dation of stone column-improved ground by considering particle
+migration.” Int. J. Geomech., 10.1061/(ASCE)GM.1943-56220000492,
+04015017.
+Deng, X. F., Liu, X. H., and Zhang, L. (2003). “A method to calculate the
+settlement of stone-column composite ground.” Chin. J. Xiangtan Min.
+Inst., 18(4), 55–57.
+Duncan, J., and Mokwa, P. (2001). “Passive earth pressures: Theories and
+tests.” J. Geotech. Geoenviron. Eng., 10.1061/(ASCE)1090-0241
+(2001)127:3(248), 248–257.
+Fatahi, B., Basack, S., Premananda, S., and Khabbaz, H. (2012a). “Settle-
+ment prediction and back analysis of Young’s modulus and dilation
+angle of stone columns.” Aust. J. Civil Eng., 10(1), 67–80.
+Fatahi, B., Le, T. M., and Khabbaz, H. (2012b). “Effects of initial stress
+state on performance of embankments on soft soils.” Aust. Geomach.,
+47(3), 75–86.
+FHWA (Federal Highway Administration). (1983). “Design and construc-
+tion of stone columns.” Rep. No. FHWA/RD-83/026/1, U.S. Dept. of
+Transportation, Washington, DC.
+Fioravante, V., Ghionna, V. N., Pedroni, S., and Porcino, G. (1999). “A
+constant normal stiffness direct shear box for soil-solid interface tests.”
+Rivista Italiana Di Geotecnica, 3(99), 7–22.
+FLAC version 8 [Computer software]. Itasca Consulting Group, Inc.,
+Minneapolis.
+Gasparre, A. (2005). “Advanced laboratory characterisation of London
+clay.” Ph.D. thesis, Dept. of Civil and Environmental Engineering,
+Imperial College London, London.
+Guetif, T., Bouassida, M., and Debats, J. M. (2007). “Improved soft clay
+characteristics due to stone column installation.” Comput. Geotech.,
+34(2), 104–111.
+Han, J. (2015). “Recent research and development of ground column
+technologies.” Ground Improv., 168(4), 246–264.
+Han, J., and Ye, S. L. (2001). “Simplified method for consolidation rate of
+stone column reinforced foundations.” J. Geotech. Geoenviron. Eng.,
+10.1061/(ASCE)1090-0241(2001)127:7(597), 597–603.
+Han, J., and Ye, S. L. (2002). “A theoretical solution for consolidation rates
+for stone column reinforced foundations accounting for smear and well
+resistance effects.” Int. J. Geomech., 10.1061/(ASCE)1532-3641(2002)
+2:2(135), 135–151.
+Hanna, A. M., Etezad, M., and Ayadat, T. (2013). “Mode of failure of a
+group of stone columns in soft soil.” Intl. J. Geomech., 10.1061
+/(ASCE)GM.1943-5622.0000175, 87–96.
+Hayashi, H., Yamazoe, N., Mitachi, T., Tanaka, H., and Nishimoto, S.
+(2012). “Coefficient of earth pressure at rest for normally and overcon-
+solidated peat ground in Hokkaido area.” Soils Found., 52(2), 299–311.
+Hughes, J. M. O., and Withers, N. J. (1974). “Reinforcing of soft cohesive
+soils with stone columns.” Ground Eng., 7(3), 42–49.
+Hughes, J. M. O., Withers, N. J., and Greenwood, D. A. (1975). “A field
+trial of the reinforcing effect of a stone column in soil.” Géotechnique,
+25(1), 31–44.
+Indraratna, B. (2009). “Recent advances in the application of vertical drains
+and vacuum preloading in soft clay stabilization.” Aust. Geomech. J.,
+45(2), 1–44.
+Indraratna, B., Basack, S., and Rujikiatkamjorn, C. (2013). “Numerical
+solution to stone column reinforced soft ground considering arching,
+clogging and smear effects.” J. Geotech. Geoenviron. Eng., 10.1061
+/(ASCE)GT.1943-5606.0000789, 377–394.
+Indraratna, B., Ngo, N. T., Rujikiatkamjorn, C., and Sloan, S. W. (2015).
+“Coupled discrete element-finite difference method for analysing the
+load-deformation behaviour of a single stone column in soft soil.”
+Comp. Geotech., 63, 267–278.
+Isaac, D. S., and Girish, M. S. (2009). “Suitability of different materials for
+stone column construction.” El. J. Geotech. Eng., 14(D), 2–12.
+© ASCE
+04017016-18
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
+Kirsch, K., and Bell, A. (2012). Ground improvement, 3rd Ed., CRC Press,
+Boca Raton, FL.
+Kulhawy, F. H. (1984). “Limiting tip or side resistance: Fact or fallacy.”
+Proc., Symp. on Analysis and Design of Pile Foundations, ASCE,
+Reston, VA, 80–98.
+Kulkarni, K. M., and Kalpakjian, S. (1969). “A study of barrelling as an
+example of free deformation in plastic working.” J. Eng. Ind., 91(3),
+743–754.
+Lorenzo, G. A., and Bergado, D. T. (2003). “New consolidation equation
+for soil-cement pile improved ground.” Can. Geotech. J., 40(2),
+265–275.
+Lorenzo, G. A., and Bergado, D. T. (2004). “Fundamental parameters of
+cement-admixed clay—New approach.” J. Geotech. Geoenv. Eng.,
+10.1061/(ASCE)1090-0241(2004)130:10(1042), 1042–1050.
+Lu, M. M., Xie, K. H., and Guo, B. (2010). “Consolidation theory for a
+composite foundation considering radial and vertical flows within
+the column and the variation of soil permeability within the disturbed
+soil zone.” Can. Geotech. J., 47(2), 207–217.
+McCabe, B. A., Nimmons, G. J., and Egan, D. (2009). “A review of field
+performance of stone columns in soft soils.” Geotech. Eng., 162(6),
+323–334.
+McKelvey, D., Sivakumar, V., Bell, A., and Graham, J. (2004). “Modeling
+vibrated stone columns on soft clay.” Geotech. Eng., 157(3), 137–149.
+McKenna, J. M., Eyre, W. A., and Wolstenholme, D. R. (1975). “Perfor-
+mance of an embankment supported by stone columns in soft ground.”
+Géotechnique, 25(1), 51–59.
+Moavenian, M. H., Nazem, M., Carter, J. P., and Randolph, M. F. (2016).
+“Numerical analysis of penetrometers free-falling into soil with shear
+strength increasing linearly with depth.” Comput. Geotech., 72(2016),
+57–66.
+Mohamedzein, Y. E. A., and Al-Shibani, I. H. (2011). “Performance of an
+embankment supported on soft soil reinforced by stone columns.”
+Ground Improv., 164(4), 213–224.
+Moseley, M. P., and Kirsch, K. (2004). Ground improvement, 2nd Ed., E &
+FN Spon, London, 57–118.
+Murugesan, S., and Rajagopal, K. (2006). “Geosynthetic-encased stone
+columns: Numerical evaluation.” Geotex. Geomembr., 24(6), 349–358.
+Murugesan, S., and Rajagopal, K. (2010). “Studies on the behavior of
+single and group of geosynthetic encased stone columns.” J. Geotech.
+Geoenviron. Eng., 10.1061/(ASCE)GT.1943-5606.0000187, 129–139.
+Oh, E. Y. N., et al. (2007). “Behaviour of a highway embankment on stone
+column improved estuarine clay.” Proc., 16th Southeast Asian Geotech-
+nical Conf., Southeast Asian Geotechnical Society, Asian Institute of
+Technology, Bangkok, Thailand, 567–572.
+PFC2D version 5 [Computer software]. Itasca Consulting Group, Inc.,
+Minneapolis.
+Raithel, M., and Kempfert, H. G. (2000). “Calculation models for dam
+foundations
+with
+geotextile
+coated
+sand
+columns.”
+Proc.,
+Int.
+Conf. Geological, Geotechnical, Australian Geomechanics Society,
+Australia.
+Raymond, G. P. (1967). “The bearing capacity of large footings and
+embankments on clay.” Géotechnique, 17(1), 1–10.
+Roscoe, K. H., and Burland, J. B. (1968). “On the generalised stress-strain
+behaviour of ‘wet’ clay.” Engineering plasticity, J. Heyman and
+F. A. Leckie, eds., Cambridge University Press, Cambridge, U.K.,
+535–609.
+Schey, J. A., Venner, T. R., and Takomana, S. L. (1982). “Shape changes in
+the upsetting of slender cylinders.” J. Eng. Ind., 104(1), 79–83.
+Siahaan, F., Indraratna, B., Rujikiatkamjorn, C., and Basack, S. (2014).
+“Vertical stresses in stone column and soft clay during one-dimensional
+consolidation test.” Proc., Soft Soils, Parahyangan Catholic Univ.,
+Indonesia.
+Siahaan, F., Kelly, R., and Wong, P. (2011). “Performance of an embank-
+ment constructed on stone columns.” Int. Conf. on Advanced Geotech-
+nical Engineering, Curtin Univ. of Technology, Perth, Australia,
+943–949.
+Sivakumar, V., Jeludine, D. K. N. M., Bell, A., Glynn, D. T., and
+Mackinnon, P. (2011). “The pressure distribution along stone column
+in soft clay under consolidation and foundation loading.” Géotechnique,
+61(7), 613–620.
+Skempton, A. W. (1948). “A study of the geotechnical properties of some
+post-glacial clays.” Géotechnique, 1(1), 7–22.
+Sun, L. N., and Gong, X. N. (2008). “Research on settlement calculation
+method of composite foundation of discrete material piles.” Chin. J.
+Rock Soil Mech., 29(3), 846–848.
+Tandel, Y. K., Solanki, C. H., and Desai, A. K. (2012). “Deformation
+behaviour of ground improved by reinforced stone columns.” Austr.
+Geomech., 47(2), 51–60.
+Timoshenko, S. P., and Goodier, J. P. (1970). Theory of elasticity,
+McGraw-Hill, New York.
+Tong, L., Liu, L., Cai, G., and Du, G. (2013). “Assessing the coefficient of
+the earth pressure at rest from shear wave velocity and electrical resis-
+tivity measurements.” Eng. Geol., 163(2013), 122–131.
+Umezaki, T., Ochiai, H., and Hayashi, S. (1993). “Undrained shear strength
+of clay during consolidation.” Proc., 11th Southeast Asian Geotechnical
+Conf., Southeast Asian Geotechnical Society, Bangkok, Thailand,
+269–274.
+Wang, G. (2009). “Consolidation of soft soil foundations reinforced by
+stone columns under time dependant loading.” J. Geotech. Geoenviron.
+Eng., 10.1061/(ASCE)GT.1943-5606.0000178, 1922–1931.
+Zhang, L., Zhao, M., Shi, C., and Zhao, H. (2013). “Settlement calculation
+of composite foundation reinforced with stone columns.” Int. J. Geo-
+mech., 10.1061/(ASCE)GM.1943-5622.0000212, 248–256.
+Zomorodian, A., and Eslami, A. (2005). “Determining the geotechnical
+parameters of stabilized soils by stone column based on SPT results.”
+J. Geotech. Eng., 10(A), in press.
+© ASCE
+04017016-19
+J. Geotech. Geoenviron. Eng.
+ J. Geotech. Geoenviron. Eng., -1--1 
+Downloaded from ascelibrary.org by University of Newcastle on 02/20/17. Copyright ASCE. For personal use only; all rights reserved.
