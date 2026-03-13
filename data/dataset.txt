@@ -1,0 +1,30 @@
+Teknik sipil adalah cabang ilmu teknik yang mempelajari tentang bagaimana merancang, membangun, dan merenovasi infrastruktur yang tidak hanya mempertimbangkan aspek struktur, tetapi juga lingkungan.
+Geoteknik adalah cabang dari teknik sipil yang fokus pada rekayasa tanah dan batuan.
+Pondasi merupakan elemen struktur bawah bangunan yang menyalurkan beban dari struktur atas ke lapisan tanah pendukung.
+Tanah lempung memiliki plastisitas tinggi dan kohesi yang kuat saat basah, namun rentan mengalami penyusutan saat kering.
+Daya dukung tanah sangat krusial dalam menentukan jenis dan dimensi pondasi yang paling aman dan efisien.
+Batuan intrusif terbentuk dari magma yang mendingin perlahan di bawah permukaan bumi, menghasilkan tekstur kristalin padat.
+Algoritma komputer adalah serangkaian instruksi logis dan sistematis yang dirancang untuk menyelesaikan suatu masalah komputasi tertentu.
+Struktur data seperti tree dan graph sering diimplementasikan dalam pengembangan perangkat lunak jaringan dan simulasi kompleks.
+Pemrograman dinamis mengoptimalkan masalah dengan memecahnya menjadi sub-masalah yang tumpang tindih secara rekursif.
+Deep learning menggunakan jaringan saraf tiruan berlapis-lapis untuk mengenali pola data yang sangat besar.
+Filosofi rekayasa menekankan efisiensi, keamanan, dan keberlanjutan dalam menciptakan solusi bagi peradaban manusia.
+Setiap desain struktur harus memperhitungkan faktor keamanan untuk mengantisipasi ketidakpastian beban dan variasi material.
+Pengujian kuat tekan beton memberikan gambaran kapasitas material terhadap tegangan yang bekerja di lapangan.
+Tanah longsor terjadi akibat hilangnya keseimbangan gaya geser pada lereng yang sering dipicu oleh infiltrasi air hujan.
+Penyelidikan tanah (soil investigation) wajib dilakukan sebelum perancangan galian dan pondasi gedung bertingkat.
+Algoritma pencarian seperti A* (A-star) diandalkan untuk pathfinding dengan kalkulasi heuristik yang optimal.
+Kecepatan eksekusi program sangat bergantung pada kompleksitas waktu dari algoritma yang diterapkan secara big-O notation.
+Dalam rekayasa sistem, desain yang baik mengurangi redundansi tanpa mengorbankan ketahanan atau reliability.
+Kestabilan lereng tambang dianalisis menggunakan prinsip kesetimbangan batas dan pemodelan numerik berdasar elemen hingga.
+Tembok penahan tanah (retaining wall) dirancang menahan gaya lateral bumi aktif agar tanah tidak runtuh.
+Eksplorasi geoteknik membutuhkan bor inti untuk memperoleh profil stratigrafi dan sifat mekanis batuan yang presisi.
+Kecerdasan buatan kini banyak digunakan dalam optimasi topologi struktur dan analisis kerusakan retakan beton.
+Sebuah model machine learning harus disesuaikan secara iteratif mencegah overfitting dengan teknik regularisasi yang baik.
+Kompleksitas algoritma pengurutan (sorting) seperti merge sort mencapai O(n log n) di segala kondisi skenario uji.
+Filosofi di balik teknik sipil modern bukan sekadar membangun yang megah, namun menyelaraskan dengan alam sekitarnya.
+Etika rekayasa menetapkan keselamatan publik sebagai prioritas absolut di atas pertimbangan biaya atau waktu proyek.
+Perkuatan tanah dengan geosintetik meningkatkan gaya tarik dan stabilitas konstruksi timbunan di area lunak.
+Konsolidasi adalah proses keluarnya air pori dalam tanah secara lambat yang menyebabkan penurunan bangunan secara bertahap.
+Rekayasa gempa menuntut fleksibilitas bangunan yang mampu mendisipasi energi dinamik melalui deformasi inelastik.
+Bahasa pemrograman Python dengan library PyTorch mempermudah implementasi komputasi tensor dan backpropagation jaringan saraf.

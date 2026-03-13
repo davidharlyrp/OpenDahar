@@ -1,0 +1,10389 @@
+MyDoc/Pusbin-KPK/Draft1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PELATIHAN ROAD DESIGN ENGINEER 
+(AHLI TEKNIK DESAIN JALAN) 
+ 
+ 
+DEPARTEMEN PEKERJAAN UMUM 
+BADAN PEMBINAAN KONSTRUKSI DAN SUMBER DAYA MANUSIA 
+PUSAT PEMBINAAN KOMPETENSI DAN PELATIHAN 
+KONSTRUKSI (PUSBIN-KPK) 
+ 
+MODUL 
+RDE - 11:  PERENCANAAN PERKERASAN 
+JALAN 
+2005 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+i
+KATA PENGANTAR 
+ 
+ 
+ 
+Modul Perencanaan Perkerasan Jalan  yang ditulis di sini merupakan uraian, 
+penjelasan atau prinsip-prinsip umum tentang perencanaan teknis jalan pada 
+proyek jalan yang pada umumnya  dilakukan pada ruas-ruas jalan Nasional, 
+Propinsi, maupun Kabupaten / Kota.   
+Ada 3 (tiga) jenis standar desain jalan yang diketengahkan dalam modul ini yaitu 
+perencanaan teknis untuk flexible pavement, rigid pavement dan composite 
+pavement. Di dalam modul diuraikan filosofi yang mendasari perencanaan teknis 
+untuk ketiga jenis perkerasan di atas, tercakup di dalamnya parameter-parameter 
+utama yang digunakan sebagai dasar dalam perencanaan teknis dimaksud. 
+Dengan memahami filosofi dasar perencanaan teknis tersebut, diharapkan Road 
+Design Engineer dapat menyiapkan  perencanaan teknis jalan secara tepat, dalam 
+pengertian tidak boros akan tetapi juga tidak under design.     
+Demikian mudah-mudahan buku ini dapat dimanfaatkan oleh peserta pelatihan. 
+Dan kami menyadari bahwa modul ini masih jauh dari sempurna baik ditinjau dari 
+segi materi sistematika penulisan maupun tata bahasanya. Untuk itu kami 
+mengharapkan kritik dan saran dari para peserta dan pembaca semua, dalam 
+rangka perbaikan dan penyempurnaan modul ini. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ii
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+iii
+LEMBAR TUJUAN 
+ 
+JUDUL PELATIHAN 
+: Pelatihan Ahli Teknik Desain Jalan (Road 
+Design Engineer)  
+ 
+MODEL PELATIHAN 
+: Lokakarya terstruktur 
+                                               
+TUJUAN UMUM PELATIHAN :  
+Setelah modul ini dipelajari, peserta mampu membuat desain jalan mencakup 
+perencanaan geometrik dan perkerasan jalan termasuk mengkoordinasikan 
+perencanaan drainase , bangunan pelengkap dan perlengkapan jalan. 
+ 
+TUJUAN KHUSUS PELATIHAN : 
+Pada akhir pelatihan ini peserta diharapkan mampu: 
+1. Melaksanakan Etika Profesi, Etos Kerja, UUJK dan UU Jalan. 
+2. Melaksanakan Manajemen K3, RKL dan RPL. 
+3. Mengenal dan Membaca Peta. 
+4. Melaksanakan Survei Penentuan Trase Jalan. 
+5. Melaksanakan Dasar-dasar Pengukuran Topografi 
+6. Melaksanakan Dasar-dasar Survei dan Pengujian Geoteknik. 
+7. Melaksanakan Dasar-dasar Perencanaan Drainase. 
+8. Melaksanakan Rekayasa Lalu-lintas. 
+9. Melaksanakan 
+Dasar-dasar 
+Perencanaan 
+Bangunan 
+Pelengkap 
+dan 
+Perlengkapan Jalan. 
+10. Melaksanakan Perencanaan Geometrik. 
+11. Melaksanakan Perencanaan Perkerasan Jalan. 
+12. Melakukan pemilihan jenis Bahan Perkerasan Jalan. 
+ 
+ 
+ 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+iv
+ 
+NOMOR  
+: 
+RDE-11 
+ 
+JUDUL MODUL  
+: 
+PERENCANAAN PERKERASAN JALAN 
+ 
+TUJUAN INSTRUKSIONAL UMUM (TIU) 
+Setelah modul ini dipelajari, peserta mampu melakukan perencanaan perkerasan 
+jalan 
+ 
+TUJUAN INSTRUKSIONAL KHUSUS (TIK) 
+Pada akhir pelatihan peserta mampu : 
+1. Melakukan perencanaan perkerasan lentur dengan metode AASHTO 
+2. Melakukan perencanaan perkerasan kaku dengan metode AASHTO 
+3. Melakukan perencanaan perkerasan kaku dengan metode PCA 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+v
+DAFTAR ISI 
+ 
+Halaman 
+ 
+KATA PENGANTAR  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+i 
+LEMBAR TUJUAN   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ii 
+DAFTAR ISI                                    
+ 
+ 
+ 
+ 
+ 
+iv 
+DESKRIPSI SINGKAT PENGEMBANGAN MODUL PELATIHAN  
+AHLI TEKNIK DESAIN JALAN  (Road Design Engineer)  
+ 
+vi 
+DAFTAR MODUL   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+vii 
+PANDUAN PEMBELAJARAN  
+ 
+ 
+ 
+ 
+ 
+ 
+viii 
+ 
+ 
+BAB I   PERENCANAAN PERKERASAN LENTUR 
+            DENGAN METODE AASHTO 
+1.1   Umum 
+1.2   Traffic 
+1.3 Reliability 
+1.4 Serviceability 
+1.5 Resilient Modulus 
+1.5.1 Resilient Modulus Tanah Dasar 
+1.5.2 Resilient Modulus Agregat Base     
+           Kelas A & B 
+1.5.3 Resilient Modulus Ac Base (Atb) 
+1.6 Drainage Coefficient 
+1.6.1 
+Variabel Faktor Drainase 
+1.6.2 
+Penetapan Variable Mutu Drainase 
+1.6.3 
+Penetapan Variable Prosen     
+                 Perkerasan Terkena Air 
+1.7  Layer Coefficient 
+1.7.1 
+Layer Coefficient Ac Wearing Course &  
+                Binder Course 
+1.7.2 
+Layer Coefficient Asphalt Treated Base 
+1.7.3 
+Layer Coefficient Agregat Base Kelas A 
+1.7.4 
+Layer Coefficient Agregat Base Kelas B 
+1.7.5 
+Layer Coefficient Cement Treated Base 
+1.8 Structural Number 
+1.9 Tebal Minimum Lapis Perkerasan 
+1.10 Persamaan Dasar Perkerasan Lentu 
+1.11 Stage Construction 
+1.12 Parameter Desain Dan Data 
+ 
+I – 1 
+I – 1 
+I – 1 
+I – 4 
+I – 6 
+I – 7 
+I – 7 
+ 
+I – 7 
+I – 8 
+I – 8 
+I – 8 
+I – 8 
+ 
+I – 8 
+I – 11 
+ 
+I – 11 
+I – 11 
+I – 12 
+I – 12 
+I – 12 
+I – 12 
+I – 14 
+I – 15 
+I – 15 
+I – 17 
+ 
+BAB  II   PERENCANAAN PERKERASAN KAKU DENGAN METODE   
+               AASHTO 
+2.1. Umum 
+2.2. Traffic 
+2.3. Reliability 
+2.4. Serviceability 
+II – 1 
+II – 1 
+II – 1 
+II – 3 
+II – 4 
+II – 7 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+vi
+2.5. Modulus Reaksi Tanah Dasar 
+2.6. Modulus Elastisitas Beton 
+2.7. Flexural Strength 
+2.8. Load Transfer 
+2.9. Drainage Coefficient 
+2.9.1. Variabel Faktor Drainase 
+2.9.2. Penetapan Variable Mutu Drainase 
+2.9.3. Penetapan Variable Prosen Perkerasan Terkena Air 
+2.10. Persamaan Penentuan Tebal Pelat (D) 
+2.11. Paremeter Desain Dan Data Perencanaan Rigid Pavement 
+2.12. Desain Gabungan Rigid & Flexible Pavement 
+2.13. Additional Overlay 
+2.14. Reinforcement Design 
+2.14.1. Steel Working Stress 
+2.14.2. Friction Factor 
+2.14.3. Longitudinal & Transverse Steel Reinforcing 
+2.14.4. Tie Bar 
+2.14.5. Dowel 
+2.14.6. Parameter Desain Dan Data Reinforcement 
+Design 
+2.15. Tinjauan Khusus Perencanaan Penulangan Dan 
+Sambungan 
+2.15.1. Tata Cara Perencanaan Penulangan 
+2.15.2. Sambungan 
+ 
+II – 8 
+II – 11 
+II – 12 
+II – 12 
+II – 12 
+II – 12 
+II – 13 
+II – 14 
+II – 16 
+II – 17 
+II – 17 
+II – 18 
+II – 22 
+II – 22 
+II – 22 
+II – 22 
+II – 23 
+II – 24 
+ 
+II – 25 
+ 
+II – 25 
+II – 25 
+II – 29 
+ 
+BAB  III  PERENCANAAN PERKERASAN KAKU DENGAN METODE 
+PCA 
+3.1. Umum 
+3.2. Traffic 
+3.3. Modulus Reaksi Tanah Dasar 
+3.4. Tegangan Yang Terjad 
+3.5. Kuat Lentur Tarik Beton 
+3.6. Perbandingan Tegangan 
+3.7. Jumlah Repetisi Beban Yang Diijinkan & Persentase Fatique 
+3.8. Prosedur Perancangan 
+ 
+III – 1 
+ 
+III – 1 
+III – 1 
+III – 4 
+III – 6 
+III – 7 
+III – 7 
+III – 7 
+III – 9 
+ 
+ 
+RANGKUMAN 
+LAMPIRAN 
+LAMPIRAN 1 
+Contoh Perhitungan Tebal Perkerasan Lentur Metode 
+AASHTO 1993 
+LAMPIRAN 2 
+Contoh Perhitungan Tebal Perkerasan Kaku Metode PCA 
+LAMPIRAN 3 
+Contoh Perhitungan Tebal Perkerasan Kaku Metode 
+AASHTO 1993 
+LAMPIRAN 4 
+Vehicle Damage Factor 
+DAFTAR PUSTAKA 
+HAND OUT 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+vii
+ 
+DESKRIPSI SINGKAT PENGEMBANGAN MODUL 
+PELATIHAN AHLI TEKNIK DESAIN JALAN 
+(Road Design Engineer) 
+ 
+ 
+1. 
+Kompetensi kerja yang disyaratkan untuk jabatan kerja Ahli Teknik Desain 
+Jalan (Road Design Engineer) dibakukan dalam Standar Kompetensi 
+Kerja Nasional Indonesia (SKKNI) yang didalamnya telah ditetapkan unit-unit 
+kerja sehingga dalam Pelatihan Ahli Teknik Desain Jalan (Road Design 
+Engineer) unit-unit tersebut menjadi Tujuan Khusus Pelatihan. 
+2. 
+Standar Latihan Kerja (SLK) disusun berdasarkan analisis dari masing-
+masing Unit Kompetensi, Elemen Kompetensi dan Kriteria Unjuk Kerja yang 
+menghasilkan kebutuhan pengetahuan, keterampilan dan sikap perilaku dari 
+setiap Elemen Kompetensi yang dituangkan dalam bentuk suatu susunan 
+kurikulum dan silabus pelatihan yang diperlukan untuk memenuhi tuntutan 
+kompetensi tersebut. 
+3. 
+Untuk mendukung tercapainya tujuan khusus pelatihan tersebut, maka 
+berdasarkan Kurikulum dan Silabus yang ditetapkan dalam SLK, disusun 
+seperangkat modul pelatihan (seperti tercantum dalam Daftar Modul) yang 
+harus menjadi bahan pengajaran dalam pelatihan Ahli Teknik Desain 
+Jalan (Road Design Engineer). 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+viii
+DAFTAR MODUL 
+ 
+ 
+Jabatan Kerja : 
+Road Design Engineer (RDE) 
+ 
+Nomor 
+Modul 
+Kode 
+Judul Modul 
+1 
+RDE – 01 
+Etika Profesi, Etos Kerja, UUJK, dan UU Jalan 
+2 
+RDE – 02 
+Manjemen K3, RKL dan RPL 
+3 
+RDE – 03 
+Pengenalan dan Pembacaan Peta 
+4 
+RDE – 04 
+Survai Penentuan Trase jalan 
+5 
+RDE – 05 
+Dasar-dasar Pengukuran Topografi 
+6 
+RDE – 06 
+Dasar-dasar Survai dan Pengujian Geoteknik 
+7 
+RDE – 07 
+Dasar-dasar Perencanaan Drainase Jalan 
+8 
+RDE – 08 
+Rekayasa Lalu Lintas 
+9 
+RDE – 09 
+Dasar-dasar Perencanaan Bangunan Pelengkap 
+10 
+RDE – 10 
+Perencanaan Geometrik 
+11 
+RDE – 11 Perencanaan Perkerasan Jalan 
+12 
+RDE – 12 
+Bahan Perkerasan jalan 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ix
+PANDUAN INSTRUKTUR 
+ 
+A.   BATASAN 
+ 
+NAMA PELATIHAN 
+: AHLI TEKNIK DESAIN JALAN 
+ 
+ (Road Design Engineer ) 
+ 
+KODE MODUL 
+: RDE - 11 
+ 
+JUDUL MODUL 
+: PERENCANAAN PERKERASAN JALAN 
+ 
+DESKRIPSI 
+: Modul ini membicarakan mengenai  perencanaan 
+perkerasan jalan, meliputi uraian, penjelasan 
+ataupun 
+prinsip-prinsip 
+umum 
+tentang 
+perencanaan 
+teknis 
+jalan, 
+mengetengahkan 
+standar desain jalan, perencanaan teknis untuk 
+flexible pavement, rigid pavement dan composite 
+pavement.  Tercakup didalamnya mulai dari 
+survey dan pengumpulan data lapangan, peren-
+canaan perkerasan lentur dan kaku  dengan 
+beberapa metode, metode analisa komponen, 
+AASTHO, dan juga  cara PCA.. 
+ 
+TEMPAT KEGIATAN 
+: Ruangan Kelas lengkap dengan fasilitasnya. 
+ 
+WAKTU PEMBELAJARAN : 16 (enam belas)  Jam Pelajaran (JP) (1 JP = 45 
+Menit) 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+x
+B.   KEGIATAN PEMBELAJARAN 
+ 
+ 
+Kegiatan Instruktur 
+Kegiatan Peserta 
+Pendukung 
+ 
+1.   Ceramah :  Pembukaan 
+ 
+ 
+Menjelaskan tujuan instruksional (TIU 
+dan TIK) 
+ 
+Merangsang motivasi peserta de-ngan 
+pertanyaan ataupun penga-lamannya 
+dalam melakukan pe-kerjaan jalan 
+ 
+Waktu :  10 menit 
+ 
+ 
+ 
+ 
+ Mengikuti penjelasan TIU dan 
+TIK dengan tekun dan aktif 
+ Mengajukan 
+pertanyaan 
+a-
+pabila ada yang kurang jelas 
+ 
+ 
+ 
+OHP. 
+ 
+2. Ceramah :  Bab I,  Perencanaan 
+perkerasan lentur dengan 
+metode AASHTO 
+ 
+        Memberikan penjelasan, uraian atau-pun 
+bahasan  mengenai perencanaan lentur 
+dengan metode  aashto, ter-kait dengan 
+prosedur, parameter : 
+ Traffic 
+ Reliability 
+ Serviceability 
+ Resilient moduls 
+ Drainage, layer coefficient 
+ Structural number 
+ Tebal minimum lapis perkerasan 
+ Stage construction 
+ Parameter desain dan data 
+ 
+Waktu :  230 menit 
+ 
+ 
+ 
+ 
+ 
+ 
+ Mengikuti penjelasan instruk-tur  
+dengan tekun dan aktif 
+ Mencatat hal-hal yang perlu 
+ Mengajukan 
+pertanyaan 
+a-
+pabila ada yang kurang jelas 
+ Melakukan 
+diskusi 
+dengan 
+instruktur 
+mengenai 
+hal-hal 
+yang belum dipahami 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OHP. 
+ 
+6.   Ceramah :   Bab II,  Perencanaan 
+perkerasan kaku dengan 
+metode PCA 
+ 
+Memberikan penjelasan, bahasan a-
+taupun uraian  mengenai berbagai hal 
+terkait dengan perencanaan perkerasan 
+metode PCA : 
+ 
+Traffic,  
+ 
+Modul reaksi tanah dasar 
+ 
+Tegangan yang terjadi 
+ 
+Kuat lentur tarik beton, perban-
+dingan tegangan 
+ 
+Jumlah repetisi beban yang dii-
+zinkan  dan presentase fatique 
+ 
+Prosedur perancangan  
+ 
+Waktu :  240 menit 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Mengikuti penjelasan instruk-tur  
+dengan tekun dan aktif 
+ 
+ Mencatat hal-hal yang perlu 
+ 
+ Mengajukan 
+pertanyaan 
+a-
+pabila ada yang kurang jelas 
+ Melakukan 
+diskusi 
+dengan 
+instruktur 
+mengenai 
+hal-hal 
+yang belum dipahami 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OHP. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+Kata Pengantar 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+xi
+Kegiatan Instruktur 
+Kegiatan Peserta 
+Pendukung 
+ 
+7.   Ceramah :   Bab III,  Perencanaan 
+perkerasan kaku dengan 
+metode  AASHTO 
+ 
+Memberikan penjelasan, bahasan a-
+taupun uraian  mengenai berbagai hal 
+terkait dengan perencanaan per-kerasan 
+metode  AASHTO : 
+ 
+Parameter perencanaan 
+ 
+Traffic 
+ 
+Reliability,  serviceability 
+ 
+Modules reaksi tanah dasar, mo-dul 
+elastisitas beton 
+ 
+Flexural strength, load tranfer 
+ 
+Drainage coeficient 
+ 
+Penentuan tebal pelat 
+ 
+Parameter desain dan data pe-
+rencanaan rigid pavement 
+ 
+Desain gabungan rigid & flexible 
+pavement 
+ 
+Additional 
+overlay 
+reinforcement 
+design 
+ 
+Tinjauan 
+khusus 
+perencanaan 
+penulangan dan sambungan 
+ 
+Waktu :  240 menit 
+ 
+ 
+ 
+ 
+ 
+ 
+ Mengikuti penjelasan instruk-tur  
+dengan tekun dan aktif 
+ 
+ Mencatat hal-hal yang perlu 
+ 
+ Mengajukan 
+pertanyaan 
+a-
+pabila ada yang kurang jelas 
+ Melakukan 
+diskusi 
+dengan 
+instruktur 
+mengenai 
+hal-hal 
+yang belum dipahami 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OHP. 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Bab I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+I-1
+BAB I 
+PERENCANAAN PERKERASAN LENTUR 
+DENGAN METODE AASHTO 
+ 
+ 
+1.1 UMUM 
+ 
+Perencanaan yang digunakan mengacu pada AASHTO Guide for Design of Pavement 
+Structures 1993. Prosedur, parameter-parameter perencanaan dijelaskan sebagai 
+berikut dibawah ini. Dan bagan alir prosedur perencanaan diperlihatkan seperti pada 
+Gambar 1. 
+ 
+1.2 TRAFFIC 
+ 
+Data dan parameter lalu-lintas yang digunakan untuk perencanaan tebal perkerasan 
+meliputi : 
+ 
+Jenis kendaraan. 
+ 
+Volume lalu-lintas harian rata-rata. 
+ 
+Pertumbuhan lalu-lintas tahunan. 
+ 
+Damage factor. 
+ 
+Umur rencana 
+ 
+Faktor distribusi arah. 
+ 
+Faktor distribusi lajur. 
+ 
+Equivalent Single Axle Load, ESAL selama umur rencana (traffic design). 
+Faktor distribusi arah : DD = 0,3 – 0,7 dan umumnya diambil 0,5 (AASHTO 1993 halaman 
+II-9). 
+Faktor distribusi lajur (DL), mengacu pada Tabel 1.1 
+ 
+Tabel 1.1.  Faktor distribusi lajur (DL). 
+Jumlah lajur setiap 
+arah 
+DL (%) 
+1 
+100 
+2 
+80 – 100 
+3 
+60 – 80 
+4 
+50 – 75 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Bab I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+I-2
+ 
+Rumus umum desain traffic (ESAL = Equivalent Single Axle Load) : 
+ 
+
+
+
+
+
+
+Nn
+1
+N
+L
+A
+j
+j
+18
+365
+D
+D
+DF
+LHR
+W
+ 
+ 
+dimana : 
+ 
+W18 
+= Traffic design pada lajur lalu-lintas, Equivalent Single Axle Load. 
+LHRj 
+= Jumlah lalu-lintas harian rata-rata 2 arah untuk jenis kendaraan  j. 
+DFj 
+= Damage factor untuk jenis kendaraan  j. 
+DA 
+= Faktor distribusi arah. 
+DL 
+= Faktor distribusi lajur. 
+N1 
+= Lalu-lintas pada tahun pertama jalan dibuka. 
+Nn 
+= Lalu-lintas pada akhir umur rencana. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Bab I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+I-3
+  Umur rencana
+  Faktor distribusi arah
+  Faktor distribusi lajur
+Traffic
+  LHR pada tahun dibuka
+  Traffic design akhir umur rencana
+  Damage factor
+  Design ESAL
+Reliability
+  Standard normal deviation
+  Standard deviation
+ Tidak
+Serviceability
+  Terminal serviceability
+Serviceability
+Coba
+Check
+Ya
+Tebal
+  Initial serviceability
+loss
+Structure Number
+Equation
+perkerasan
+Drainage
+coefficient
+CBR
+Resilient modulus
+Layer
+coefficient
+BAGAN ALIR PROSEDUR PERENCANAAN FLEXIBLE PAVEMENT DENGAN METODE AASHTO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 1.1
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-4
+1.3 RELIABILITY 
+ 
+Reliability : Probabilitas bahwa perkerasan yang direncanakan akan tetap memuaskan 
+selama masa layannya. 
+Penetapan angka Reliability dari 50 % sampai 99,99 % menurut AASHTO merupakan 
+tingkat kehandalan desain untuk mengatasi, mengakomodasi kemungkinan melesetnya 
+besaran-besaran desain yang dipakai. Semakin tinggi reliability yang dipakai semakin 
+tinggi tingkat mengatasi kemungkinan terjadinya selisih (deviasi) desain dan kenyataan. 
+Besaran-besaran desain yang terkait dengan ini antara lain : 
+ 
+Peramalan kinerja perkerasan. 
+ 
+Peramalan lalu-lintas. 
+ 
+Perkiraan tekanan gandar. 
+ 
+Pelaksanaan konstruksi. 
+ 
+Kinerja perkerasan diramalkan pada angka desain Terminal Serviceability pt = 2,5 
+(untuk jalan raya utama), pt = 2,0 (untuk jalan lalu-lintas rendah), dan Initial 
+Serviceability po = 4,2 (angka ini bergerak dari 0 – 5). 
+Peramalan lalu-lintas dilakukan dengan studi tersendiri, bukan hanya didasarkan rumus 
+empirik. Tingkat kehandalan jauh lebih baik dibandingkan bila dilakukan secara empiris, 
+linear, data sekunder. 
+Perkiraan tekanan gandar yang diperoleh secara primer dari WIM survey, tingkat 
+kehandalannya jauh lebih baik dibanding menggunakan data sekunder. 
+Dalam pelaksanaan konstruksi, spesifikasi sudah membatasi tingkat / syarat agar 
+perkerasan sesuai (atau lebih) dari apa yang diminta desain. Bahkan desain merupakan 
+syarat minimum dalam spesifikasi. 
+Mengkaji keempat faktor diatas, penetapan besaran dalam desain sebetulnya sudah 
+menekan sekecil mungkin penyimpangan yang akan terjadi. Tetapi tidak ada satu 
+jaminan-pun berapa besar dari keempat faktor tersebut menyimpang. 
+Reliability (R) mengacu pada Tabel 1.2. (diambil dari AASHTO 1993 halaman II-9), 
+standard normal deviate (ZR) mengacu pada Tabel 4.3.2. (diambil dari AASHTO 1993 
+halaman I-62). 
+Standard deviation (So) untuk flexible pavement : 
+ 
+So = 0,40 – 0,50 (diambil dari AASHTO 1993 halaman I-62). 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-5
+Tabel 1.2. : Reliability (R) disarankan. 
+ 
+Klasifikasi 
+Reliability : R (%) 
+jalan 
+Urban 
+Rural 
+ 
+ 
+ 
+Jalan tol 
+85 – 99,9 
+80 – 99,9 
+Arteri 
+80 – 99 
+75 – 95 
+Kolektor 
+80 – 95 
+75 – 95 
+Lokal 
+50 – 80 
+50 – 80 
+ 
+ 
+ 
+ 
+Tabel 1.3. : Standard normal deviation (ZR). 
+ 
+R (%) 
+ZR 
+50 
+- 0,000 
+60 
+- 0,253 
+70 
+- 0,524 
+75 
+- 0,674 
+80 
+- 0,841 
+85 
+- 1,037 
+90 
+- 1,282 
+91 
+- 1,340 
+92 
+- 1,405 
+93 
+- 1,476 
+94 
+- 1,555 
+95 
+- 1,645 
+96 
+- 1,751 
+97 
+- 1,881 
+98 
+- 2,054 
+99 
+- 2,327 
+99,9 
+- 3,090 
+99,99 
+- 3,750 
+ 
+Catatan : Untuk menggunakan besaran-besaran dalam standar AASHTO ini 
+sebenarnya dibutuhkan suatu rekaman data, evaluasi desain / kenyataan 
+beserta biaya konstruksi dan pemeliharaan dalam kurun waktu yang cukup. 
+Dengan demikian besaran parameter yang dipakai tidak selalu menggunakan 
+“angka tengah” sebagai kompromi besaran yang diterapkan. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-6
+Penetapan konsep Reliability dan Standar Deviasi : 
+ 
+Berdasarkan uraian konsep penetapan reliability diatas, parameter reliability dapat 
+ditentukan sebagai berikut : 
+ 
+ 
+Berdasar parameter klasifikasi fungsi jalan 
+ 
+Berdasar status lokasi jalan urban / rural 
+ 
+Penetapan tingkat Reliability (R) 
+ 
+Penetapan standard normal deviation (ZR) 
+ 
+Penetapan standar deviasi (So) 
+ 
+Kehandalan data lalu-lintas dan beban kendaraan 
+ 
+1.4 SERVICEABILITY 
+ 
+Terminal serviceability index (pt) mengacu pada Tabel 1.4. Initial serviceability untuk 
+flexible pavement : po = 4,2 (diambil dari AASHTO 1993 halaman II-10). 
+ 
+Tabel 1.4. : Terminal serviceability index (pt). 
+ 
+ 
+ 
+Percent of people 
+pt 
+stating 
+unacceptable 
+ 
+ 
+ 
+ 
+12 
+3,0 
+55 
+2,5 
+85 
+2,0 
+ 
+ 
+ 
+ 
+Penetapan parameter serviceability : 
+Initial serviceability 
+: po = 4,5 
+Terminal serviceability index Jalur utama (major highways)  : pt = 2,5 
+Terminal serviceability index Jalan lalu-lintas rendah 
+: pt = 2,0 
+ 
+Total loss of serviceability 
+: PSI = po - pt 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-7
+1.5 RESILIENT MODULUS 
+ 
+1.5.1 
+RESILIENT MODULUS TANAH DASAR 
+ 
+Resilient Modulus Tanah Dasar (MR) : 
+MR = CR x CBR     (psi) 
+CR = Nilai dengan range 750 – 3.000 
+MR = 1.500 x CBR 
+MR = 1.500 x 6 = 9.000 psi 
+ 
+1.5.2 
+RESILIENT MODULUS AGREGAT BASE KELAS A & B 
+ 
+MR = A + B x R 
+MR 
+= Resilient modulus (psi) 
+A 
+= 772 – 1.155 
+B 
+= 369 – 555 
+R 
+= R-value 
+964
+2
+1155
+772
+A
+
+
+
+ ; ambil : A = 1.000 
+462
+2
+555
+369
+B
+
+
+
+ ; ambil : B = 450 
+ 
+Penentuan resilient modulus Agregat Base Klas A : 
+ 
+CBR 
+= 80 
+R 
+= 85 (diambil dari AASHTO 1993 halaman II-21) 
+MR = 1.000 + 450 x 85 = 39.250 psi ; ambil = 40.000 psi 
+ 
+ 
+Penentuan resilient modulus Agregat Base Klas B : 
+ 
+CBR 
+= 40 
+R 
+= 70 (diambil dari AASHTO 1993 halaman II-21) 
+MR = 1.000 + 450 x 70 = 32.500 psi ; ambil = 30.000 psi 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-8
+1.5.3 
+RESILIENT MODULUS AC BASE (ATB) 
+ 
+Marshall stability = 900 kg = 1.982 lb 
+MR = 420.000 psi (diambil dari AASHTO 1993 halaman II-24) 
+ 
+ 
+Elastic (Resilient) Modulus Asphalt Concrete Surface Course 
+ 
+MR = 450.000 psi (diambil dari AASHTO 1993 halaman II-17). 
+ 
+1.6 DRAINAGE COEFFICIENT 
+ 
+1.6.1 
+VARIABEL FAKTOR DRAINASE 
+ 
+AASHTO memberikan 2 variabel untuk menentukan nilai drainase : 
+ 
+ 
+Variabel pertama : mutu drainase, dengan variasi excellent, good, fair, poor, 
+very poor. Mutu ini ditentukan oleh berapa lama air dapat dibebaskan dari 
+pondasi perkerasan. 
+ 
+Variabel kedua : persentasi struktur perkerasan dalam satu tahun terkena air 
+sampai tingkat mendekati jenuh air (saturated), dengan variasi < 1 %, 1 – 5 
+%, 5 – 25 %, > 25 % 
+ 
+1.6.2 
+PENETAPAN VARIABLE MUTU DRAINASE 
+ 
+Penetapan variable pertama mengacu pada Tabel 1.5. (diambil dari AASHTO 1993 
+halaman DD-2) dan Tabel 1.6. (diambil dari AASHTO 1993 halaman II-22), dan dengan 
+pendekatan sebagai berikut : 
+Contoh pendekatan : Untuk flexible pavement, Base Course yang akan dipakai 
+merupakan material yang mempunyai Plasticity Index (PI) rendah yaitu < 6 %, angka 
+permeabilitas k = 100 ft/hari, slope 0,02, lebar lintasan drainase L  24 ft, tebal lapisan 
+drainase H  1 ft, maka diperoleh waktu mematus 0,2 hari. Angka ini masuk dalam 
+kategori Good - Excellent. 
+ 
+1.6.3 
+PENETAPAN VARIABLE PROSEN PERKERASAN TERKENA AIR 
+ 
+Penetapan variable kedua yaitu persentasi struktur perkerasan dalam satu tahun terkena 
+air sampai tingkat saturated, relatif sulit, belum ada data rekaman pembanding dari jalan / 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-9
+jalan tol lain, namun dengan pendekatan-pendekatan, pengamatan dan perkiraan berikut 
+ini, nilai dari faktor variabel kedua tersebut dapat didekati. 
+ 
+Tabel 1.5. : Waktu untuk me-drain lapis pondasi untuk 50 % saturation (hari) 
+Permeabilit
+y 
+Porosit
+y 
+Slope 
+H = 1 
+H = 2 
+k (ft/hari) 
+n 
+S 
+L = 12 
+L = 24 
+L = 12 
+L = 24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0,1 
+0,015 
+0,01 
+10 
+36 
+6 
+20 
+ 
+ 
+0,02 
+9 
+29 
+5 
+18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+0,027 
+0,01 
+2 
+6 
+5 
+18 
+ 
+ 
+0,02 
+2 
+5 
+1 
+3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10 
+0,048 
+0,01 
+0,3 
+1 
+0,2 
+0,6 
+ 
+ 
+0,02 
+0,3 
+1 
+0,2 
+0,6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+100 
+0,08 
+0,01 
+0,05 
+0,2 
+0,03 
+0,1 
+ 
+ 
+0,02 
+0,05 
+0,2 
+0,03 
+0,1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tabel 1.6. : Quality of drainage 
+Quality of drainage 
+Water removed within 
+ 
+ 
+Excellent 
+2 jam 
+Good 
+1 hari 
+Fair 
+1 minggu 
+Poor 
+1 bulan 
+Very poor 
+Air tidak terbebaskan 
+ 
+ 
+ 
+a. 
+Air hujan atau air dari atas permukaan jalan yang akan masuk kedalam 
+pondasi jalan, relatif kecil berdasar hidrologi yaitu berkisar 70 – 95 % air 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-10
+yang jatuh di atas jalan beton akan masuk ke sistem drainase (sumber : 
+BINKOT Bina Marga & Hidrologi Imam Subarkah). 
+b. 
+Air dari samping jalan yang kemungkinan akan masuk ke pondasi jalan, 
+akan relatif kecil terjadi, jika adanya road side ditch, bahu yang dibentuk 
+dengan crossfall lebih dari 4 % (atau diperkeras) dan cross drain. 
+c. 
+Pendekatan dengan lama dan frekuensi hujan, yang rata-rata terjadi hujan 
+selama 3 jam per hari (atau kurang) dan jarang sekali terjadi hujan terus 
+menerus selama 1 minggu. 
+ 
+Dan prosen struktur perkerasan dalam 1 tahun terkena air dapat dilakukan pendekatan 
+dengan asumsi sebagai berikut : 
+ 
+100
+W
+365
+T
+24
+T
+P
+L
+hari
+jam
+heff
+
+
+
+
+ 
+ 
+dimana : 
+ 
+Pheff 
+= Prosen hari effective hujan dalam setahun yang akan berpengaruh 
+terkenanya perkerasan (dalam %). 
+Tjam 
+= Rata-rata hujan per hari (jam). 
+Thari 
+= Rata-rata jumlah hari hujan per tahun (hari) 
+WL 
+= Faktor air hujan yang akan masuk ke pondasi jalan (%) 
+ 
+Contoh pendekatan & asumsi : 
+ 
+Tjam 
+= 3 jam per hari 
+Thari 
+= 40 % x 365 hari = 146 hari hujan dalam setahun 
+WL 
+= ambil 17,5 % (lihat butir 4.6.3.a.) 
+ 
+
+
+
+
+
+100
+175
+,0
+365
+146
+24
+3
+Pheff
+ 0,88 %   <   1 % 
+ 
+Sehingga dengan dasar justifikasi teknis dan pendekatan tersebut diatas, maka dapat 
+digunakan angka persentasi struktur perkerasan dalam satu tahun terkena air sampai 
+tingkat saturated sebesar < 1 %. 
+Untuk kondisi khusus, yaitu sistem drainase jalan sangat buruk, badan jalan sering 
+tergenang, penentuan drainage coefficient perlu dikaji secara khusus. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-11
+Drainage coefficient (mi) ditunjukkan seperti pada Tabel 1.7. (diambil dari AASHTO 1993 
+halaman II-25). 
+ 
+Tabel 1.7. : Drainage coefficient (mi). 
+ 
+ 
+Percent of time pavement structure is exposed 
+ 
+to moisture levels approaching saturation 
+Quality of 
+drainage 
+< 1 % 
+1 – 5 % 
+5 – 25 % 
+> 25 % 
+ 
+ 
+ 
+ 
+ 
+Excellent 
+1.40 – 1.35 
+1.35 – 1.30 
+1.30 – 1.20 
+1.20 
+Good 
+1.35 – 1.25 
+1.25 – 1.15 
+1.15 – 1.00 
+1.00 
+Fair 
+1.25 – 1.15 
+1.15 – 1.05 
+1.00 – 0.80 
+0.80 
+Poor 
+1.15 – 1.05 
+1.05 – 0.80 
+0.80 – 0.60 
+0.60 
+Very poor 
+1.05 – 0.95 
+0.95 – 0.75 
+0.75 – 0.40 
+0.40 
+ 
+ 
+ 
+ 
+ 
+ 
+Contoh penetapan parameter drainage coefficient (mi) : 
+ 
+Berdasar waktu untuk mematus : 0,2 hari 
+ 
+Berdasar kualitas drainase : Good – Excellent, ambil Good 
+ 
+Kondisi Time pavement structure is exposed to moisture levels 
+approaching saturation dalam setahun : < 1 % 
+ 
+Maka desain parameter drainage coefficient diambil : mi = 1,30 
+ 
+1.7 LAYER COEFFICIENT 
+ 
+1.7.1 
+LAYER COEFFICIENT AC WEARING COURSE & BINDER COURSE 
+ 
+Marshall stability = 1.100 kg = 2.423 lb 
+ 
+Elastic / resilient modulus : EAC  450.000 psi (diambil dari AASHTO 93 
+hal. II-17) 
+ 
+Structural layer coefficient : ai = 0,42 (diambil dari AASHTO 1993 
+halaman II-18). 
+ 
+1.7.2 
+LAYER COEFFICIENT ASPHALT TREATED BASE 
+ 
+Marshall stability = 900 kg = 1.982 lb 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-12
+ 
+Structural layer coefficient : ai = 0,33 (diambil dari AASHTO 1993 
+halaman II-24). 
+ 
+1.7.3 
+LAYER COEFFICIENT AGREGAT BASE KELAS A 
+ 
+CBR = 80 
+ 
+Structural layer coefficient : ai = 0,14 (diambil dari AASHTO 1993 
+halaman II-21). 
+ 
+1.7.4 
+LAYER COEFFICIENT AGREGAT BASE KELAS B 
+ 
+CBR = 40 
+ 
+Structural layer coefficient : ai = 0,12 (diambil dari AASHTO 1993 
+halaman II-21). 
+ 
+1.7.5 
+LAYER COEFFICIENT CEMENT TREATED BASE 
+ 
+Kuat tekan pada umur 7 hari = 78 kg/cm2 = 1.100 psi (specified). 
+ 
+Structural layer coefficient : ai = 0,26 (diambil dari AASHTO 1993 
+halaman II-23). 
+ 
+1.8 STRUCTURAL NUMBER 
+ 
+
+
+
+i
+i
+D
+a
+SN
+ = a1.D1 + a2.D2.m2 + a3.D3.m3 
+ 
+dimana : 
+ 
+SN 
+= Structural Number 
+ai 
+= Layer coefficient 
+Di 
+= Tebal masing-masing lapis perkerasan (inchi). 
+m2, m3 
+= Drainage coefficient lapisan base dan subbase. 
+ 
+a. 
+Structure Number 1 
+ 
+ 
+Resilient modulus base (bahan : sesuai yang direncanakan). 
+ 
+Serviceability loss : PSItr 
+ 
+1
+1
+1
+a
+SN
+D 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-13
+ 
+b. 
+Structure Number 2 
+ 
+ 
+Resilient modulus Subbase (bahan : sesuai yang direncanakan). 
+ 
+2
+2
+*
+1
+2
+2
+m
+.
+a
+SN
+SN
+D
+
+
+ 
+ 
+*
+SN  = Structure Number lapisan perkerasan yang terpasang. 
+ 
+c. 
+Structure Number 3 
+ 
+*
+2
+*
+1
+3
+SN
+SN
+SN
+SN
+
+
+
+ 
+ 
+3
+3
+3
+3
+m
+.
+a
+SN
+D
+
+ 
+ 
+Prosedur penentuan tebal lapisan perkerasan lihat Gambar 4.8. dibawah ini. 
+ 
+ 
+ 
+ 
+ 
+SN1 
+D1 
+ 
+ 
+ 
+SN2 
+D2 
+ 
+ 
+SN3 
+D3 
+ 
+Subgrade 
+ 
+1
+1
+*
+1
+a
+SN
+D 
+ 
+ 
+Surface course 
+Base course 
+Subbase course 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-14
+1
+*
+1
+1
+*
+1
+SN
+D
+.
+a
+SN
+
+
+ 
+ 
+2
+2
+*
+1
+2
+*
+2
+m
+.
+a
+SN
+SN
+D
+
+
+ 
+ 
+2
+*
+2
+*
+1
+SN
+SN
+SN
+
+
+ 
+ 
+
+
+3
+3
+*
+2
+*
+1
+3
+*
+3
+m
+.
+a
+SN
+SN
+SN
+D
+
+
+
+ 
+ 
+Gambar 1.2. 
+ 
+1.9 TEBAL MINIMUM LAPIS PERKERASAN 
+ 
+Tebal minimum masing-masing lapis perkerasan mengacu pada Tabel 1.9. 
+(diambil dari AASHTO 1993 halaman II-35). 
+ 
+Tabel 1.9. : Tebal minimum. 
+ 
+Traffic, ESAL 
+Asphalt Concrete 
+Aggregate Base 
+ 
+ 
+ 
+< 50.000 
+1,0 inch 
+4,0 inch 
+50.001 – 150.000 
+2,0 inch 
+4,0 inch 
+150.001 – 500.000 
+2,5 inch 
+4,0 inch 
+500.001 – 2.000.000 
+3,0 inch 
+6,0 inch 
+2.000.001 – 7.000.000 
+3,5 inch 
+6,0 inch 
+> 7.000.000 
+4,0 inch 
+6,0 inch 
+ 
+ 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-15
+1.10 . PERSAMAAN DASAR PERKERASAN LENTUR 
+ 
+07
+,8
+M
+log
+32
+,2
+)1
+SN
+(
+1094
+4,0
+5,1
+2,4
+PSI
+log
+2,0
+)1
+SN
+(
+log
+ 
+36
+,9
+S 
+Z
+W
+log
+R
+10
+19
+,5
+10
+10
+o
+R
+18
+10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+dimana :  
+ 
+W18 
+= Jumlah beban ekivalen (ESAL). 
+ZR 
+= Standar deviasi normal. 
+So 
+= Standar 
+gabungan 
+kesalahan 
+dari 
+lalu-lintas 
+dan 
+perkiraan 
+performance. 
+PSI = Perbedaan antara desain awal kemampu-layanan untuk po dan 
+desain terminal serviceability index. 
+MR 
+= Resilient modulus tanah dasar (psi). 
+SN 
+= Structural Number. 
+ 
+1.11 . STAGE CONSTRUCTION 
+ 
+1. 
+Pentahapan 
+Pentahapan stage construction berdasar pendekatan / asumsi sebagai 
+berikut : 
+ 
+Lapis pondasi agregat base kelas B dan kelas A di-desain mengacu 
+pada umur rencana. Dengan pertimbangan bahwa additional overlay 
+akan menjadikan peninggian terhadap hotmix, tidak diperuntukkan 
+pertebalan lapisan pondasi jalan. 
+ 
+Additional overlay sebagai stage construction di-desain hanya untuk 
+pemenuhan structure number untuk umur sisa. 
+ 
+2. 
+Realibility 
+Jalan dengan lalu-lintas berat pada daerah rural. Untuk perencanaan 
+keseluruhan, Realibility diambil R = 90 %. 
+Untuk strategi stage construction, maka desain realibility untuk setiap 
+tahap adalah 
+90
+,0
+ = 95 %. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-16
+3. 
+Remaining life (RL) dan pavement condition factor (CF) 
+
+
+
+
+
+
+
+
+
+
+
+5,1
+p
+N
+N
+1
+100
+RL
+ 
+RL 
+= Remaining life (%) 
+Np 
+= Total traffic saat overlay, ESAL 
+N1,5 = Total traffic pada kondisi perkerasan berakhir (failure), ESAL 
+ 
+Condition factor (CF), menggunakan Gambar 1.3. (diambil dari Figure 5.2. 
+AASHTO 1993 halaman III-90). Atau formula : 
+165
+,0
+L
+R
+CF 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 1.3. : Hubungan Condition Factor dan Remaining Life. 
+ 
+4. 
+Desain additional overlay 
+ 
+SNeff = CF x SNo 
+ 
+SNol = SNf – SNeff 
+ 
+ol
+eff
+f
+ol
+ol
+ol
+a
+SN
+SN
+a
+SN
+D
+
+
+
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan                                  Buku I  Perencanaan Perkerasan Lentur  
+ 
+Dengan Metode AASHTO  
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+ 
+I-17
+di mana : 
+SNeff 
+= Structural Number efektip perkerasan yang ada saat overlay. 
+CF 
+= Condition factor. 
+SNo 
+= Structural Number perkerasan awal (original structural number). 
+SNol 
+= Structural Number yang diperlukan untuk overlay. 
+SNf 
+= Structural Number yang diperlukan untuk traffic masa layan. 
+aol 
+= Structural coefficient AC overlay. 
+Dol 
+= Tebal overlay yang diperlukan (inches). 
+ 
+1.12. PARAMETER DESAIN DAN DATA 
+ 
+Untuk memudahkan perhitungan, parameter desain dan data untuk perencanaan flexible 
+pavement tersebut diatas disajikan seperti pada Tabel 1.10. 
+ 
+Tabel 1.10. : Parameter dan data yang digunakan dalam perencanaan. 
+No. 
+Parameter 
+AASHTO 
+Desain 
+1. 
+Lalu-lintas, ESAL : UR =  
+- 
+ 
+2. 
+- Terminal serviceability (pt) 
+2,0 – 3,0 
+ 
+3. 
+- Initial serviceability (po) 
+4,2 
+ 
+4. 
+- Serviceability loss (PSI) 
+po – pt 
+ 
+5. 
+- Reliability (R) 
+ 
+ 
+6. 
+- Standard normal deviation (ZR) 
+ 
+ 
+7. 
+- Standard deviation (So) 
+0,40 – 0,50 
+ 
+8. 
+- Resilient modulus tanah dasar (MR) 
+Berdasar CBR =  
+ 
+9. 
+- Resilient modulus agregat kelas B (MR) 
+Berdasar CBR =  
+ 
+10. 
+- Resilient modulus agregat kelas A (MR) 
+Berdasar CBR =  
+ 
+11. 
+- Resilient modulus ATB (MR) 
+Berdasar MS =  
+ 
+12. 
+- Elastic (resilient) modulus AC (EAC) 
+450.000 psi 
+ 
+13. 
+- Layer coeff. AC surface course (a1) 
+Berdasar EAC = 450.000 psi 
+ 
+14. 
+- Layer coeff. ATB (a21) 
+Berdasar MS =  
+ 
+15. 
+- Layer coeff. CTB (a22) 
+Berdasar : f’c7 =  
+ 
+16. 
+- Layer coeff. Agregat base kelas A (a22) 
+Berdasar CBR =  
+ 
+17. 
+- Layer coeff. Agregat base kelas B (a3) 
+Berdasar CBR =  
+ 
+18. 
+- Tebal minimum Asphalt Concrete 
+4 inch 
+ 
+19. 
+- Tebal minimum Aggregate Base 
+6 inch 
+ 
+20. 
+Drainage coefficient (mi) 
+ 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-1
+BAB  II 
+PERENCANAAN PERKERASAN KAKU 
+DENGAN METODE AASHTO 
+ 
+2.1. 
+UMUM 
+ 
+Perencanaan mengacu pada AASHTO Guide for Design of Pavement 
+Structures 1993. Langkah-langkah praktis, prosedur dan parameter-parameter 
+perencanaan diberikan sebagai berikut dibawah ini. 
+Parameter perencanaan terdiri dari 13 parameter : 
+ 
+ Umur rencana 
+ Equivalent Single Axle Load 
+ Terminal serviceability index 
+ Initial serviceability 
+ Serviceability loss 
+ Reliability 
+ Standar normal deviasi 
+ Standar deviasi 
+ Modulus reaksi tanah dasar 
+ Modulus elastisitas beton 
+ Flexural strength 
+ Drainage coefficient 
+ Load transfer coefficient 
+ 
+Bagan alir prosedur perencanaan diperlihatkan seperti pada Gambar 2.1. 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-2
+  Umur rencana
+  Faktor distribusi arah
+  Faktor distribusi lajur
+Traffic
+  LHR pada tahun dibuka
+  Traffic design akhir umur rencana
+  Damage factor
+  Design ESAL
+Reliability
+  Standard normal deviation
+  Standard deviation
+ Tidak
+Serviceability
+  Terminal serviceability
+Serviceability loss
+Coba
+Check
+Ya
+Tebal pelat
+  Initial serviceability
+Tebal pelat
+Equation
+rencana
+Load transfer coefficient
+Drainage coefficient
+Modulus reaksi tanah dasar
+Modulus elastisitas beton
+Flexural strength
+ 
+BAGAN ALIR PROSEDUR PERENCANAAN RIGID PAVEMENT ( AASHTO 1993 ) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 2.1. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-3
+2.2. 
+TRAFFIC 
+Data dan parameter lalu-lintas yang digunakan untuk perencanaan tebal 
+perkerasan meliputi : 
+ Jenis kendaraan. 
+ Volume lalu-lintas harian rata-rata. 
+ Pertumbuhan lalu-lintas tahunan. 
+ Damage factor. 
+ Umur rencana 
+ Faktor distribusi arah. 
+ Faktor distribusi lajur. 
+ Equivalent Single Axle Load, ESAL selama umur rencana (traffic 
+design). 
+ 
+Faktor distribusi arah : DD = 0,3 – 0,7 dan umumnya diambil 0,5 (AASHTO 
+1993 hal. II-9). 
+ 
+Faktor distribusi lajur (DL), mengacu pada Tabel 2.1. 
+ 
+Tabel 2.1. : Faktor distribusi lajur (DL). 
+Jumlah lajur setiap 
+arah 
+DL (%) 
+ 
+ 
+1 
+100 
+2 
+80 – 100 
+3 
+60 – 80 
+4 
+50 – 75 
+ 
+ 
+ 
+Sumber : AASHTO 1993 halaman II-9. 
+ 
+Rumus umum desain traffic (ESAL = Equivalent Single Axle Load) : 
+ 
+
+
+
+
+
+
+Nn
+1
+N
+L
+A
+j
+j
+18
+365
+D
+D
+DF
+LHR
+W
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-4
+di mana : 
+ 
+W18 
+= Traffic design pada lajur lalu-lintas, Equivalent Single Axle 
+Load. 
+LHRj = Jumlah lalu-lintas harian rata-rata 2 arah untuk jenis kendaraan  
+j. 
+DFj 
+= Damage factor untuk jenis kendaraan  j. 
+DA 
+= Faktor distribusi arah. 
+DL 
+= Faktor distribusi lajur. 
+N1 
+= Lalu-lintas pada tahun pertama jalan dibuka. 
+Nn 
+= Lalu-lintas pada akhir umur rencana. 
+ 
+2.3. 
+RELIABILITY 
+ 
+Reliability : Probabilitas bahwa perkerasan yang direncanakan akan tetap 
+memuaskan selama masa layannya. 
+ 
+Penetapan angka Reliability dari 50 % sampai 99,99 % menurut AASHTO 
+merupakan tingkat kehandalan desain untuk mengatasi, mengakomodasi 
+kemungkinan melesetnya besaran-besaran desain yang dipakai. Semakin tinggi 
+reliability yang dipakai semakin tinggi tingkat mengatasi kemungkinan terjadinya 
+selisih (deviasi) desain dan kenyataan. Besaran-besaran desain yang terkait 
+dengan ini antara lain : 
+ 
+ Peramalan kinerja perkerasan. 
+ Peramalan lalu-lintas. 
+ Perkiraan tekanan gandar. 
+ Pelaksanaan konstruksi. 
+ 
+1. Kinerja perkerasan diramalkan pada angka desain Terminal Serviceability pt 
+= 2,5 (untuk jalan raya utama), pt = 2,0 (untuk jalan lalu-lintas rendah), dan 
+Initial Serviceability po = 4,5 (angka ini bergerak dari 0 – 5). 
+2. Peramalan lalu-lintas dilakukan dengan studi tersendiri, bukan hanya 
+didasarkan rumus empirik. Tingkat kehandalan jauh lebih baik dibandingkan 
+bila dilakukan secara empiris, linear, atau data sekunder. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-5
+3. Perkiraan tekanan gandar yang diperoleh secara primer dari WIM survey, 
+tingkat kehandalannya jauh lebih baik dibanding menggunakan data sekunder. 
+4. Dalam pelaksanaan konstruksi, spesifikasi sudah membatasi tingkat / syarat 
+agar perkerasan sesuai (atau lebih) dari apa yang diminta desain. Bahkan 
+desain merupakan syarat minimum dalam spesifikasi. 
+ 
+Mengkaji keempat faktor diatas, penetapan besaran dalam desain sebetulnya 
+sudah menekan sekecil mungkin penyimpangan yang akan terjadi. Tetapi tidak 
+ada satu jaminan-pun berapa besar dari keempat faktor tersebut menyimpang. 
+ 
+Reliability (R) mengacu pada Tabel 2.2. (diambil dari AASHTO 1993 halaman II-9), 
+standard normal deviate (ZR) mengacu pada Tabel 2.3. (diambil dari AASHTO 1993 
+halaman I-62). 
+ 
+Tabel 2.2. : Reliability (R) disarankan. 
+Klasifikasi 
+Reliability : R (%) 
+jalan 
+Urban 
+Rural 
+ 
+ 
+ 
+Jalan tol 
+85 – 99,9 
+80 – 99,9 
+Arteri 
+80 – 99 
+75 – 95 
+Kolektor 
+80 – 95 
+75 – 95 
+Lokal 
+50 – 80 
+50 – 80 
+ 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-6
+Tabel 2.3. : Standard normal deviation (ZR). 
+ 
+R (%) 
+ZR 
+ 
+ 
+50 
+- 0,000 
+60 
+- 0,253 
+70 
+- 0,524 
+75 
+- 0,674 
+80 
+- 0,841 
+85 
+- 1,037 
+90 
+- 1,282 
+91 
+- 1,340 
+92 
+- 1,405 
+93 
+- 1,476 
+94 
+- 1,555 
+95 
+- 1,645 
+96 
+- 1,751 
+97 
+- 1,881 
+98 
+- 2,054 
+99 
+- 2,327 
+99,9 
+- 3,090 
+99,99 
+- 3,750 
+ 
+ 
+ 
+Standard deviation untuk rigid pavement : So = 0,30 – 0,40 (diambil dari 
+AASHTO 1993 halaman I-62). 
+ 
+Catatan : Untuk menggunakan besaran-besaran dalam standar AASHTO 
+ini sebenarnya dibutuhkan suatu rekaman data, evaluasi desain / 
+kenyataan beserta biaya konstruksi dan pemeliharaan dalam kurun waktu 
+yang cukup. Dengan demikian besaran parameter yang dipakai tidak 
+selalu menggunakan “angka tengah” sebagai kompromi besaran yang 
+diterapkan. 
+ 
+Penetapan konsep Reliability dan Standar Deviasi : 
+ 
+Berdasarkan uraian konsep penetapan reliability diatas, parameter reliability dapat 
+ditentukan sebagai berikut : 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-7
+ 
+ Berdasar parameter klasifikasi fungsi jalan 
+ Berdasar status lokasi jalan urban / rural 
+ Penetapan tingkat Reliability (R) 
+ Penetapan standard normal deviation (ZR) 
+ Penetapan standar deviasi (So) 
+ Kehandalan data lalu-lintas dan beban kendaraan 
+ 
+2.4. 
+SERVICEABILITY 
+ 
+Terminal serviceability index (pt) mengacu pada Tabel 2.4. (diambil dari AASHTO 1993 
+halaman II-10). 
+Initial serviceability untuk rigid pavement : po = 4,5 (diambil dari AASHTO 1993 hal. II-
+10). 
+Total loss of serviceability : 
+t
+o
+p
+p
+PSI
+
+
+
+ 
+ 
+Tabel 2.4. : Terminal serviceability index (pt). 
+Percent of people 
+pt 
+stating unacceptable 
+ 
+ 
+12 
+3,0 
+55 
+2,5 
+85 
+2,0 
+ 
+ 
+ 
+Penetapan parameter serviceability : 
+ 
+Initial serviceability 
+: 
+po = 4,5 
+ 
+Terminal serviceability index Jalur utama (major highways) 
+: 
+pt = 2,5 
+ 
+Terminal serviceability index Jalan lalu-lintas rendah 
+: 
+pt = 2,0 
+ 
+Total loss of serviceability 
+:
+ 
+t
+o
+p
+p
+PSI
+
+
+
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-8
+2.5. 
+MODULUS REAKSI TANAH DASAR 
+ 
+Modulus of subgrade reaction (k) menggunakan gabungan formula dan grafik 
+penentuan modulus reaksi tanah dasar berdasar ketentuan CBR tanah dasar. 
+ 
+MR = 1.500 x CBR 
+ 
+4,
+19
+M
+k
+R
+
+ 
+ 
+MR = Resilient modulus. 
+ 
+Koreksi Effective Modulus of Subgrade Reaction, menggunakan Grafik pada 
+Figure 3.6. (diambil dari AASHTO 1993 halaman II-42) : lihat Gambar 2.2. 
+Faktor Loss of Support (LS) mengacu pada Tabel 2.5. (AASHTO 1993 halaman II-27). 
+ 
+Tabel 2.5. : Loss of Support Factors (LS). 
+ 
+No. 
+Tipe material 
+LS 
+ 
+ 
+ 
+1. 
+Cement Treated Granular Base ( E = 1.000.000 –  2.000.000 psi ) 
+0 – 1 
+2. 
+Cement Aggregate Mixtures ( E = 500.000 – 1.000.000 psi ) 
+0 – 1 
+3. 
+Asphalt Treated Base ( E = 350.000 – 1.000.000 psi ) 
+0 – 1 
+4. 
+Bituminous Stabilized Mixtures ( E = 40.000 – 300.000 psi ) 
+0 – 1 
+5. 
+Lime Stabilized ( E = 20.000 – 70.000 psi ) 
+1 – 3 
+6. 
+Unbound Granular Materials ( E = 15.000 – 45.000 psi ) 
+1 – 3 
+7. 
+Fine grained / Natural subgrade materials ( E = 3.000 – 40.000 psi ) 
+2 – 3 
+ 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-9
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pendekatan nilai modulus reaksi tanah dasar dari referensi / 
+literartur : 
+Pendekatan nilai Modulus Reaksi Tanah Dasar (k) dapat menggunakan 
+hubungan nilai CBR dengan  k  seperti yang ditunjukkan pada Gambar 
+2.3. Diambil dari literartur Highway Engineering (Teknik Jalan Raya), 
+Clarkson H Oglesby, R Gary Hicks, Stanford University & Oregon State 
+University, 1996. 
+ 
+Effective Modulus of  Subgrade Reaction, k (pci) 
+ 
+Correction of Effective modulus of Subgrade Reaction for Potensial Loss Subbase Support (6) 
+ 
+Gambar 2.2. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-10
+Modulus reaksi tanah dasar :  k (psi/in) 
+ 
+ 
+100 
+150 
+200 
+250 
+300 
+400 
+ 500  600
+ 
+700    800 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+15 
+20 
+25 
+30 
+40 
+50 60 
+70
+ 
+80   100 
+ 
+ 
+ 
+Gambar 2.3. : Hubungan antara (k) dan (CBR), sumber : Portland Cement Assocoation. 
+ 
+ 
+Contoh penetapan parameter modulus reaksi tanah dasar (k) : 
+ 
+Untuk : CBR = 6 
+ 
+464
+4,
+19
+6
+500
+.1
+4,
+19
+CBR
+500
+.1
+4,
+19
+M
+k
+R
+
+
+
+
+
+
+ pci 
+ 
+ Lapis subbase : 
+Cement aggregate mixture 
+ Loss of Support : 
+LS = 1 
+ 
+Koreksi Effective Modulus of Subgrade Reaction, menggunakan Grafik 
+pada Figure 3.6. (diambil dari AASHTO 1993 halaman II-42).didapat : 
+ 
+k = 160 pci 
+ 
+California Bearing Ratio (CBR) 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-11
+2.6. 
+MODULUS ELASTISITAS BETON 
+ 
+'
+c
+c
+f 
+000
+.
+57
+E
+
+ 
+ 
+di mana : 
+ 
+Ec 
+= Modulus elastisitas beton (psi). 
+fc’ 
+= Kuat tekan beton, silinder (psi). 
+ 
+Kuat tekan beton fc’ ditetapkan sesuai pada Spesifikasi pekerjaan. 
+ 
+Contoh penetapan parameter modulus elastisitas beton : 
+ 
+1. 
+Contoh berdasar Spesifikasi Umum Volume II, Jalan Tol Cikampek – 
+Padalarang halaman SU10 – 4 (tahun 2001) : 
+ 
+fc’ = 375 kg/cm2 
+1 kg/cm2 = 14,22 psi 
+fc’ = 375 kg/cm2 = 5.333 psi 
+
+
+
+333
+.5 
+000
+.
+57
+f 
+000
+.
+57
+E
+'
+c
+c
+ 4.162.366 psi 
+dibulatkan Ec = 4.200.000 psi. 
+atau : Ec = 292.712 kg/cm2 ; dibulatkan Ec = 300.000 kg/cm2 
+ 
+2. 
+Contoh berdasar Spesifikasi Teknis Buku III, Bab 6.4. artikel 
+6.4.3.(3), Dinas Pekerjaan Umum DKI Jakarta (tahun 2003) : 
+ 
+Beton : K 350 (kubus 15 cm) 
+Silinder 15 x 30 cm : fc’ = 300 kg/cm2 = 4.266 psi 
+
+
+
+266
+.4 
+000
+.
+57
+f 
+000
+.
+57
+E
+'
+c
+c
+ 3.700.000 psi (dibulatkan). 
+atau : Ec = 261.810 kg/cm2 ; dibulatkan Ec = 260.000 kg/cm2 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-12
+2.7. 
+FLEXURAL STRENGTH 
+Berdasar Spesifikasi Umum Volume II, Jalan Tol Cikampek – Padalarang 
+halaman SU10 – 4 (tahun 2001) : 
+ 
+Flexural strength (modulus of rupture) : Sc’ = 45 kg/cm2 = 640 psi. 
+ 
+2.8. 
+LOAD TRANSFER 
+Load transfer coefficient (J) mengacu pada Tabel 2.6. (diambil dari AASHTO 1993 
+halaman II-26), dan AASHTO halaman III-132. 
+ 
+Tabel 2.6. : Load transfer coefficient. 
+Shoulder 
+Asphalt 
+Tied PCC 
+Load transfer devices 
+Yes 
+No 
+Yes 
+No 
+Pavement type 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. 
+Plain 
+jointed 
+& 
+jointed 
+reinforced 
+3.2 
+3.8 – 4.4 
+2.5 – 3.1 
+3.6 – 4.2 
+2. CRCP 
+2.9 – 3.2 
+N/A 
+2.3 – 2.9 
+N/A 
+ 
+ 
+ 
+ 
+ 
+ 
+Contoh penetapan parameter load transfer : 
+ 
+ Joint dengan dowel 
+: J = 2,5 – 3,1 (diambil dari AASHTO 1993 halaman II-26). 
+ Untuk overlay design 
+: J = 2,2 – 2,6 (diambil dari AASHTO 1993 halaman III-132). 
+ 
+2.9. 
+DRAINAGE COEFFICIENT 
+2.9.1. 
+VARIABEL FAKTOR DRAINASE 
+AASHTO memberikan 2 variabel untuk menentukan nilai koefisien drainase. 
+ Variabel pertama : mutu drainase, dengan variasi excellent, good, fair, poor, 
+very poor. Mutu ini ditentukan oleh berapa lama air dapat dibebaskan dari 
+pondasi perkerasan. 
+ Variabel kedua : persentasi struktur perkerasan dalam satu tahun terkena air 
+sampai tingkat mendekati jenuh air (saturated), dengan variasi < 1 %, 1 – 5 %, 
+5 – 25 %, > 25 % 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-13
+2.9.2. 
+PENETAPAN VARIABLE MUTU DRAINASE 
+ 
+Penetapan variable pertama mengacu pada Tabel 2.7. (diambil dari AASHTO 1993 
+halaman II-22), dan dengan pendekatan sebagai berikut : 
+a. Air hujan atau air dari atas permukaan jalan yang akan masuk kedalam 
+pondasi jalan, relatif kecil berdasar hidrologi yaitu berkisar 70 – 95 % air yang 
+jatuh di atas jalan aspal / beton akan masuk ke sistem drainase (sumber : 
+BINKOT Bina Marga & Hidrologi Imam Subarkah). 
+b. Air dari samping jalan yang kemungkinan akan masuk ke pondasi jalan, inipun 
+relatif kecil terjadi, karena adanya road side ditch, cross drain, juga muka air 
+tertinggi terletak di bawah subgrade. 
+c. Pendekatan dengan lama dan frekuensi hujan, yang rata-rata terjadi hujan 
+selama 3 jam per hari dan jarang sekali terjadi hujan terus menerus selama 1 
+minggu. 
+Maka waktu pemutusan 3 jam (bahkan kurang bila memperhatikan butir b.) dapat 
+diambil sebagai pendekatan dalam penentuan kualitas drainase, sehingga 
+pemilihan mutu drainase adalah antara Good – Excelent. 
+Untuk kondisi khusus dapat dilakukan kajian tersendiri. 
+ 
+Tabel 2.7. : Quality of drainage. 
+ 
+Quality of drainage 
+Water removed within 
+ 
+ 
+Excellent 
+2 jam 
+Good 
+1 hari 
+Fair 
+1 minggu 
+Poor 
+1 bulan 
+Very poor 
+Air tidak terbebaskan 
+ 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-14
+2.9.3. 
+PENETAPAN VARIABLE PROSEN PERKERASAN TERKENA AIR 
+ 
+Penetapan variable kedua yaitu persentasi struktur perkerasan dalam satu tahun 
+terkena air sampai tingkat saturated, relatif sulit, belum ada data rekaman 
+pembanding dari jalan lain, namun dengan pendekatan-pendekatan, pengamatan 
+dan perkiraan berikut ini, nilai dari faktor variabel kedua tersebut dapat didekati. 
+ 
+ Pada jalan tol : Perancangan subgrade adalah mengganti material eksisting 
+dengan borrow material pada daerah galian dan timbunan, maka kemungkinan 
+kemasukan air sangat kecil, kemungkinan hanya perembesan dari rounding, 
+sisi luar bahu luar yang berupa solid sodding dan hanya pada saat hujan saja. 
+Inipun tidak membolehkan air sampai terkurung di struktur dalam perkerasan. 
+Lapis pondasi bawah diteruskan sampai ke lereng. 
+ Berdasar seperti pada butir nomer 9.2.a –9.2.b –9.2.c. di atas. 
+ 
+Dan prosen struktur perkerasan dalam 1 tahun terkena air dapat dilakukan 
+pendekatan dengan asumsi sebagai berikut : 
+ 
+100
+W
+365
+T
+24
+T
+P
+L
+hari
+jam
+heff
+
+
+
+
+ 
+ 
+dimana : 
+ 
+Pheff 
+= Prosen hari effective hujan dalam setahun yang akan 
+berpengaruh terkenanya perkerasan (dalam %). 
+Tjam 
+= Rata-rata hujan per hari (jam). 
+Thari 
+= Rata-rata jumlah hari hujan per tahun (hari) 
+WL 
+= Faktor air hujan yang akan masuk ke pondasi jalan (%) 
+ 
+Selanjutnya drainage coefficient diambil dari AASHTO 1993 halaman II–26. Drainage 
+coefficient (Cd) mengacu pada Tabel 2.8. 
+ 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-15
+Tabel 2.8. : Drainage coefficient (Cd). 
+ 
+ 
+Percent of time pavement structure is exposed 
+ 
+to moisture levels approaching saturation 
+Quality of drainage 
+< 1 % 
+1 – 5 % 
+5 – 25 % 
+> 25 % 
+ 
+ 
+ 
+ 
+ 
+Excellent 
+1.25 – 1.20 
+1.20 – 1.15 
+1.15 – 1.10 
+1.10 
+Good 
+1.20 – 1.15 
+1.15 – 1.10 
+1.10 – 1.00 
+1.00 
+Fair 
+1.15 – 1.10 
+1.10 – 1.00 
+1.00 – 0.90 
+0.90 
+Poor 
+1.10 – 1.00 
+1.00 – 0.90 
+0.90 – 0.80 
+0.80 
+Very poor 
+1.00 – 0.90 
+0.90 – 0.80 
+0.80 – 0.70 
+0.70 
+ 
+ 
+ 
+ 
+ 
+ 
+Contoh pendekatan & asumsi penetapan variable prosen perkerasan terkena 
+air : 
+ 
+Tjam = 3 jam per hari 
+Thari = 40 % x 365 hari = 146 hari hujan dalam setahun 
+WL = ambil 17,5 % (lihat butir 7.9.2.a.) 
+
+
+
+
+
+100
+175
+,0
+365
+146
+24
+3
+Pheff
+ 0,88 %   <   1 % 
+Sehingga dengan dasar justifikasi teknis dan pendekatan tersebut diatas, maka 
+dapat digunakan angka persentasi struktur perkerasan dalam satu tahun terkena 
+air sampai tingkat saturated sebesar < 1 %. 
+ 
+Contoh penetapan parameter drainage coefficient 
+ 
+ Berdasar kualitas drainase : Good - Excellent 
+ Kondisi Time pavement structure is exposed to moisture levels approaching 
+saturation dalam setahun : < 1 % 
+ 
+Drainage coefficient : Cd = 1,20 
+ 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-16
+ 
+2.10. PERSAMAAN PENENTUAN TEBAL PELAT (D) 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25
+,0
+c
+75
+,0
+75
+,0
+d
+'
+c
+10
+t
+46
+,8
+7
+10
+10
+o
+R
+18
+10
+k
+:
+E
+42
+,
+18
+D
+J
+63
+,
+215
+132
+,1
+D
+C
+ 
+S
+log
+  
+p 
+32
+,0
+22
+,4
+)1
+D
+(
+10
+624
+,1
+1
+5,1
+5,4
+PSI
+log
+06
+,0
+)1
+D
+(
+log
+ 
+35
+,7
+S 
+Z
+W
+log
+ 
+ 
+di mana : 
+ 
+W18 
+= Traffic design, Equivalent Single Axle Load (ESAL). 
+ZR 
+= Standar normal deviasi. 
+So 
+= Standar deviasi. 
+D 
+= Tebal pelat beton (inches). 
+PSI = Serviceability loss = po – pt 
+po 
+= Initial serviceability. 
+pt 
+= Terminal serviceability index. 
+Sc’ 
+= Modulus of rupture sesuai spesifikasi pekerjaan (psi). 
+Cd 
+= Drainage coefficient. 
+J 
+= Load transfer coefficient. 
+Ec 
+= Modulus elastisitas (psi). 
+k 
+= Modulus reaksi tanah dasar (pci). 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-17
+2.11. PAREMETER DESAIN DAN DATA PERENCANAAN RIGID 
+PAVEMENT 
+ 
+Parameter desain dan data untuk perencanaan dan kemudahan bagi perencana 
+dalam menentukan tebal pelat beton rigid pavement, dapat disajikan seperti pada 
+Tabel 2.9. 
+ 
+Tabel 2.9. : Parameter dan data yang digunakan dalam perencanaan. 
+ 
+No. 
+Parameter 
+AASHTO 
+Desain 
+ 
+ 
+ 
+ 
+1. 
+Umur Rencana 
+- 
+20 tahun 
+2. 
+Lalu-lintas, ESAL 
+- 
+ 
+3. 
+Terminal serviceability (pt) 
+2,0 – 3,0 
+2,5 
+4. 
+Initial serviceability (po) 
+4,5 
+4,5 
+5. 
+Serviceability loss (PSI) 
+po – pt 
+2 
+6. 
+Reliability (R) 
+ 
+ 
+7. 
+Standard normal deviation (ZR) 
+ 
+ 
+8. 
+Standard deviation (So) 
+0,30 – 0,40 
+ 
+9. 
+Modulus reaksi tanah dasar (k) 
+Berdasar CBR = 
+ 
+10. 
+Modulus elastisitas beton (Ec) 
+Berdasar : f’c = 
+ 
+11. 
+Flexural strength (S’c) 
+Berdasar : S’c = 
+ 
+12. 
+Drainage coefficient (Cd) 
+ 
+ 
+13. 
+Load transfer coefficient (J) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.12. DESAIN GABUNGAN RIGID & FLEXIBLE PAVEMENT 
+ 
+Perencanaan gabungan rigid & flexible pavement (composite) yang digunakan 
+adalah pendekatan desain overlay hotmix diatas rigid pavement yang mengacu 
+pada AASHTO guide for design of pavement structures 1993. 
+ 
+Prosedur, parameter-parameter perencanaan mengikuti metode perencanaan 
+Rigid Pavement diatas dengan gabungan formula overlay diatas rigid pavement 
+tersebut, sebagai berikut ini. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-18
+Dol = A ( Df – Deff ) 
+ 
+A = 2,2233 + 0,0099 ( Df – Deff )2 – 0,1534 ( Df – Deff ) 
+ 
+di mana : 
+ 
+Dol = Tebal flexible pavement (inches). 
+Df 
+= Tebal total perkerasan rencana (inches). 
+Deff = Tebal lapis pelat beton effective (inches). 
+A 
+= Faktor konversi lapis perkerasan beton ke hotmix. 
+ 
+2.13. ADDITIONAL OVERLAY 
+ 
+Jika gabungan rigid & flexible pavement tersebut di-desain dengan konstruksi 
+awal pelat beton dan kemudian di-overlay, maka perencanaan menjadi sebagai 
+berikut : 
+ 
+1. 
+Konstruksi awal 
+ 
+Konstruksi awal digunakan rigid pavement tebal D cm, di-analisis 
+equivalent standard axle load dan nilai umur rencana terhadap 
+struktur perkerasan kaku D cm tersebut. 
+ 
+2. 
+Remaining life (RL) dan pavement condition factor (CF) 
+ 
+
+
+
+
+
+
+
+
+
+
+
+5,1
+p
+L
+N
+N
+1
+100
+R
+ 
+ 
+RL 
+= Remaining life (%) 
+Np 
+= Total traffic saat overlay, ESAL 
+N1,5 = Total traffic pada kondisi perkerasan berakhir (failure), 
+ESAL 
+ 
+Condition factor (CF), menggunakan Gambar 2.4. (diambil dari Figure 
+5.2. AASHTO 1993 halaman III-90). Atau formula : 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-19
+ 
+165
+,0
+L
+R
+CF 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar  2.4. : Hubungan Condition Factor dan Remaining Life. 
+ 
+3. 
+Desain additional overlay 
+ 
+Lihat sub-bab 7.12. diatas. 
+ 
+4. 
+Tinjauan kemampu-layanan 
+ 
+a. 
+Kondisi pada akhir tahun ke Np 
+ 
+Pada akhir tahun ke-Np diperkirakan kondisi kemampu-layanan 
+perkerasan sebagai berikut : 
+ 
+ Tebal pelat rencana 
+ Tebal pelat effective 
+ Umur rencana 
+ ESAL design 
+ Terminal serviceability index = 2,5 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-20
+b. 
+Kondisi pada akhir tahun ke N1,5 
+ 
+Pada akhir tahun ke-N1,5 diperkirakan kondisi kemampu-
+layanan perkerasan sebagai berikut : 
+ 
+ Tebal pelat rencana 
+ Umur rencana 
+ ESAL design 
+ Serviceability index (failure) = 1,5 
+ 
+c. 
+Kondisi pada akhir tahun umur rencana 
+ 
+Pada akhir tahun umur rencana diperkirakan kondisi kemampu-
+layanan perkerasan sebagai berikut : 
+ 
+ Tebal overlay 
+ Tebal pelat 
+ Umur rencana = 20 tahun 
+ ESAL design 
+ Terminal serviceability index = 2,5 
+ 
+d. 
+Overlay 
+ 
+Diperkirakan diperlukan overlay agar kondisi perkerasan tetap 
+diatas nilai batas terminal serviceability index 2,5 sebelum 
+menurun kemampu-layanannya menjadi 1,5 dan selanjutnya 
+dapat mencapai umur rencana 20 tahun. 
+ 
+Kondisi 
+kemampu-layanan 
+perkerasan 
+sebelum 
+dan sesudah 
+di-overlay 
+digambarkan seperti pada Gambar 2.5. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-21
+Serviceability
+Rigid p avement
+Overlay
+( Initial construction )
+Po = 4,5
+4.0
+3.5
+3.0
+Pt = 2,5
+2.0
+1.5
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+Tahun
+   Tebal pelat
+   Umur Rencana
+Failure
+   ESA L design
+   Pt
+  2,5
+   Tebal pelat
+   Umur Rencana
+   ESA L design
+   Pt
+  1,5
+   Tebal A C
+   Tebal pelat
+   Umur Rencana
+  20 tahun
+   ESA L design
+   Pt
+  2,5
+ 
+KEMAMPU-LAYANAN RIGID PAVEMENT DAN ADDITIONAL OVERLAY 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar  2.5. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-22
+2.14. REINFORCEMENT DESIGN 
+2.14.1. STEEL WORKING STRESS 
+Allowable working stress  fs  untuk grade 40 = 30.000 psi. 
+ 
+2.14.2. FRICTION FACTOR 
+Friction factor dapat mengacu pada Tabel  2.9. 
+ 
+Tabel 2.9. : Recommended friction factor. 
+Type material dibawah slab 
+Friction factor (F) 
+ 
+ 
+Surface treatment 
+2,2 
+Lime stabilization 
+1,8 
+Asphalt stabilization 
+1,8 
+Cement stabilization 
+1,8 
+River gravel 
+1,5 
+Crushed stone 
+1,5 
+Sandstone 
+1,2 
+Natural subgrade 
+0,9 
+ 
+ 
+ 
+Sumber : AASHTO 1993 halaman II-28. 
+ 
+2.14.3. LONGITUDINAL & TRANSVERSE STEEL REINFORCING 
+Prosen longitudinal & transverse steel diperlukan : 
+ 
+100
+f
+2
+LF
+P
+s
+s
+
+
+ 
+ 
+di mana : 
+ 
+Ps = Longitudinal & transverse steel diperlukan (%). 
+L = Panjang slab (feet). 
+fs = Steel working stress (psi). 
+F = Friction factor. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-23
+2.14.4. TIE BAR 
+ 
+Tie Bar dirancang untuk memegang plat sehingga teguh, dan dirancang untuk 
+menahan gaya-gaya tarik maksimum. Tie bar tidak dirancang untuk memindah 
+beban. 
+Jarak tie bar dapat mengacu pada Tabel 2.10. 
+ 
+Tabel  2.10. : Tie bar. 
+ 
+ 
+ 
+ 
+ 
+Jenis 
+dan 
+Tegang
+an 
+Tebal 
+Diameter batang ½ in 
+Diameter batang 5/8 in 
+mutu 
+baja 
+kerja 
+perkeras
+an 
+ 
+Jarak maximum (in) 
+ 
+Jarak maximum (in) 
+ 
+(psi) 
+(in) 
+Panja
+ng 
+Leba
+r 
+Leba
+r 
+Leba
+r 
+Panja
+ng 
+Leba
+r 
+Leba
+r 
+Leba
+r 
+ 
+ 
+ 
+(in) 
+lajur 
+lajur 
+lajur 
+(in) 
+lajur 
+lajur 
+lajur 
+ 
+ 
+ 
+ 
+10 ft 
+11 ft 
+12 ft 
+ 
+10 ft 
+11 ft 
+12 ft 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Grade 
+40 
+30.000 
+6 
+25 
+48 
+48 
+48 
+30 
+48 
+48 
+48 
+ 
+ 
+7 
+25 
+48 
+48 
+48 
+30 
+48 
+48 
+48 
+ 
+ 
+8 
+25 
+48 
+44 
+40 
+30 
+48 
+48 
+48 
+ 
+ 
+9 
+25 
+48 
+40 
+38 
+30 
+48 
+48 
+48 
+ 
+ 
+10 
+25 
+48 
+38 
+32 
+30 
+48 
+48 
+48 
+ 
+ 
+11 
+25 
+35 
+32 
+29 
+30 
+48 
+48 
+48 
+ 
+ 
+12 
+25 
+32 
+29 
+26 
+30 
+48 
+48 
+48 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sumber : Literartur UI. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-24
+2.14.5. DOWEL 
+ 
+Alat pemindah beban yang biasa dipakai adalah dowel baja bulat polos. Syarat 
+perancangan minimum dapat mengacu pada Tabel 2.11. 
+ 
+Tabel  2.11. : Rekomendasi dowel. 
+ 
+ 
+ 
+ 
+Tebal 
+Dowel 
+Panjang 
+Jarak 
+perkerasan 
+diameter 
+dowel 
+dowel 
+(in) 
+(in) 
+(in) 
+(in) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+3/4 
+18 
+12 
+7 
+1 
+18 
+12 
+8 
+1 
+18 
+12 
+9 
+1 1/4 
+18 
+12 
+10 
+1 1/4 
+18 
+12 
+11 
+1 1/4 
+18 
+12 
+12 
+1 1/4 
+18 
+12 
+ 
+ 
+ 
+ 
+ 
+Sumber : Literartur UI. 
+ 
+Penentuan diameter dowel dapat menggunakan pendekatan formula : 
+ 
+8
+D
+d 
+ 
+ 
+dimana : 
+ 
+d = Diamater dowel (inches). 
+D = Tebal pelat beton (inches) 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-25
+2.14.6. PARAMETER DESAIN DAN DATA REINFORCEMENT DESIGN 
+ 
+Parameter desain dan data untuk reinforcement design tersebut diatas disajikan 
+seperti pada Tabel 2.12. 
+ 
+Tabel  2.12. : Parameter dan data yang digunakan dalam 
+perencanaan. 
+ 
+No. 
+Parameter 
+AASHTO 
+Desain 
+ 
+ 
+ 
+ 
+1. 
+Steel working stress ( fs ) : grade 
+40 
+ 
+ 
+2. 
+Friction factor ( F ) 
+ 
+ 
+3. 
+Tebal pelat 
+ 
+ 
+4. 
+Panjang pelat arah longitudinal 
+ 
+ 
+5. 
+Traffic lane & shoulder wide 
+ 
+ 
+6. 
+Jarak dari tepi bebas 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2.15. TINJAUAN KHUSUS PERENCANAAN PENULANGAN DAN 
+SAMBUNGAN 
+ 
+Untuk perencanaan penulangan dan sambungan pada perkerasan jalan kaku, 
+berikut ini diambilkan referensi dari beberapa standard dan literatur, yaitu dari 
+sumber : 
+ Principles of pavement design by Yoder & Witczak 1975 
+ SNI 1991. 
+ SKBI 2.3.28.1988. 
+ 
+2.15.1. TATA CARA PERENCANAAN PENULANGAN 
+Tujuan dasar distribusi penulangan baja adalah bukan untuk mencegah terjadinya 
+retak pada pelat beton tetapi untuk membatasi lebar retakan yang timbul pada 
+daerah dimana beban terkonsentrasi agar tidak terjadi pembelahan pelat beton 
+pada daerah retak tersebut, sehingga kekuatan pelat tetap dapat dipertahankan. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-26
+Banyaknya tulangan baja yang didistribusikan sesuai dengan kebutuhan untuk 
+keperluan ini yang ditentukan oleh jarak sambungan susut, dalam hal ini 
+dimungkinkan penggunaan pelat yang lebih panjang agar dapat mengurangi 
+jumlah sambungan melintang sehingga dapat meningkatkan kenyamanan. 
+ 
+1. Kebutuhan penulangan pada perkerasan bersambung tanpa tulangan 
+ 
+Pada perkerasan bersambung tanpa tulangan, penulangan tetap dibutuhkan 
+untuk mengantisipasi atau meminimalkan retak pada tempat-tempat dimana 
+dimungkinkan terjadi konsentrasi tegangan yang tidak dapat dihindari. 
+ 
+ 
+Tipikal penggunaan penulangan khusus ini antara lain : 
+ Tambahan pelat tipis. 
+ Sambungan yang tidak tepat. 
+ Pelat kulah atau struktur lain. 
+ 
+2. Penulangan pada perkerasan bersambung dengan tulangan 
+ 
+Luas tulangan pada perkerasan ini dihitung dari persamaan sebagai berikut : 
+ 
+ 
+s
+s
+f
+h 
+L
+ F
+  
+76
+,
+11
+A 
+ 
+ 
+ 
+di mana : 
+ 
+As  = luas tulangan yang diperlukan (mm2/m lebar) 
+ 
+F = koefisien gesekan antara pelat beton dengan lapisan di bawahnya  
+                (Tabel 2.13.) 
+ 
+L = jarak antara sambungan (m) 
+ 
+h = tebal pelat (mm) 
+ 
+fs = tegangan tarik baja ijin (MPa) 
+ 
+ 
+As minimum menurut SNI 1991 untuk segala keadaan = 0,14 % dari luas 
+penampang beton. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-27
+Tabel 2.13. : 
+Koefisien gesekan antara pelat beton semen 
+dengan lapisan pondasi dibawahnya. 
+Type material dibawah slab 
+Friction factor (F) 
+ 
+ 
+Burtu, 
+Lapen 
+dan 
+konstruksi 
+sejenis 
+2,2 
+Aspal beton, Lataston 
+1,8 
+Stabilisasi kapur 
+1,8 
+Stabilisasi aspal 
+1,8 
+Stabilisasi semen 
+1,8 
+Koral sungai 
+1,5 
+Batu pecah 
+1,5 
+Sirtu 
+1,2 
+Tanah 
+0,9 
+ 
+ 
+ 
+Sumber : SKBI 2.3.28.1988 
+ 
+3. 
+Penulangan pada perkerasan menerus dengan tulangan 
+ 
+a. 
+Penulangan memanjang 
+ 
+t
+y
+t
+s
+f n
+f
+) F 2,0
+3,1 ( 
+f 
+100
+P
+
+
+
+ 
+ 
+Ps = persentase tulangan memanjang yang dibutuhkan 
+terhadap penampang beton (%). 
+ft = kuat tarik lentur beton yang digunakan = 0,4 – 0,5 fr 
+fy = tegangan leleh rencana baja (SNI 1991. fy < 400 MPa – 
+BJTD40) 
+n = angka ekivalen antara baja dan beton = 
+c
+s
+E
+E  (Tabel 
+7.15.1.3.) 
+F = koefisien gesekan antara pelat beton dengan lapisan di 
+bawahnya (Tabel 2.13.) 
+Es = modulus 
+elastisitas 
+baja 
+(berdasarkan 
+SNI 
+1991 
+digunakan 200.000 MPa) 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-28
+Ec = modulus elastisitas beton (SNI 1991 digunakan 4700 
+'
+cf 
+ MPa) 
+ 
+Tabel 2.14. : 
+Hubungan antara kuat tekan beton dan 
+angka ekivalen baja & beton (n) serta fr. 
+ 
+ 
+ 
+ 
+ 
+fc’ 
+fc’ 
+n 
+fr 
+(kg/cm2) 
+(MPa) 
+ 
+(MPa) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+115 
+11,3 
+13 
+2,1 
+120 – 135 
+11,8 – 13,2 
+12 
+2,2 
+140 – 165 
+13,7 – 16,2 
+11 
+2,4 
+170 – 200 
+16,7 – 19,6 
+10 
+2,6 
+205 – 250 
+20,1 – 24,5 
+9 
+2,9 
+260 – 320 
+25,5 – 31,4 
+8 
+3,3 
+330 – 425 
+32,4 – 41,7 
+7 
+3,7 
+450 
+44,1 
+6 
+4,1 
+ 
+ 
+ 
+ 
+ 
+Sumber : SNI 1991 
+ 
+Persentase minimum tulangan memanjang pada perkerasan 
+beton menerus adalah 0,6 % dari luas penampang beton. 
+ 
+Jarak antara retakan pada perkerasan beton menerus dengan 
+tulangan dapat dihitung dengan persamaan : 
+ 
+
+ 
+f
+E
+ S  
+f u 
+p
+  
+n
+f
+L
+t
+c
+b
+2
+2
+t
+cr
+
+
+ 
+ 
+Lcr 
+= jarak teoritis antara retakan (m), jarak optimum antara 
+1 – 2 m. 
+p 
+= luas tulangan memanjang per satuan luas. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-29
+fb 
+= tegangan lekat antara tulangan dengan beton yang 
+dikenal sebagai lekat lentur (MPa). Besaran lekat 
+lentur yang dipakai dalam praktek menurut ACI 1963 
+untuk tulangan dengan diameter  35,7 mm (# 11) : 
+tegangan lekat dasar = 
+'
+cf 
+d
+5,9
+    800 psi 
+atau dalam SI unit : 
+tegangan lekat dasar = 
+'
+cf
+d
+79
+,0
+    5,5 MPa 
+d = diameter tulangan (cm). 
+S 
+= koefisien susut beton, umumnya dipakai antara 0,0005 
+– 0,0006 untuk pelat perkerasan jalan. 
+ft 
+= kuat tarik lentur beton yang digunakan = 0,4 – 0,5 fr 
+(MPa). 
+n 
+= angka ekivalen antara baja dan beton = 
+c
+s
+E
+E  (Tabel 
+7.15.1.3.) 
+u 
+= keliling penampang tulangan per satuan luas tulangan 
+= d
+4   (dalam m-1) 
+Ec 
+= modulus elastisitas beton = 4700 
+'
+cf 
+  (MPa) 
+ 
+b. 
+Penulangan melintang 
+Luas tulangan melintang yang diperlukan pada perkerasan 
+beton menerus, dihitung dengan persamaan yang sama seperti 
+pada perhitungan penulangan perkerasan beton bersambung 
+dengan tulangan. 
+ 
+2.15.2. SAMBUNGAN 
+Perencanaan sambungan pada perkerasan kaku, merupakan bagian yang harus 
+dilakukan, baik jenis perkerasan beton bersambung tanpa atau dengan tulangan, 
+maupun pada jenis perkerasan beton menerus dengan tulangan. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-30
+1. Jenis sambungan 
+ 
+Sambungan dibuat atau ditempatkan pada perkerasan beton dimaksudkan 
+untuk menyiapkan tempat muai dan susut beton akibat terjadinya tegangan 
+yang disebabkan : perubahan lingkungan (suhu dan kelembaban), gesekan 
+dan keperluan konstruksi (pelaksanaan). 
+Sambungan pada perkerasan beton umumnya terdiri dari 3 jenis, yang 
+fungsinya sebagai berikut : 
+ 
+a. 
+Sambungan susut 
+Atau sambungan pada bidang yang diperlemah (dummy) dibuat untuk 
+mengalihkan tegangan tarik akibat : suhu, kelembaban, gesekan sehingga 
+akan mencegah retak. Jika sambungan susut tidak dipasang, maka akan 
+terjadi retak acak pada permukaan beton. 
+b. 
+Sambungan muai 
+Fungsi utamanya untuk menyiapkan ruang muai pada perkerasan, 
+sehingga mencegah terjadinya tegangan tekan yang akan menyebabkan 
+perkerasan tertekuk. 
+c. 
+Sambungan konstruksi (pelaksanaan) 
+Diperlukan untuk kebutuhan konstruksi (berhenti dan mulai pengecoran). 
+Jarak antara sambungan memanjang disesuaikan dengan lebar alat atau 
+mesin penghampar (paving machine) dan oleh tebal perkerasan. 
+ 
+Selain 3 jenis sambungan tersebut, jika pelat perkerasan cukup lebar (> 7 m, 
+kapasitas alat) maka diperlukan sambungan ke arah memanjang yang 
+berfungsi sebagai penahan gaya lenting (warping) yang berupa sambungan 
+engsel, dengan diperkuat ikatan batang pengikat (tie bar). 
+ 
+2. Geometrik sambungan 
+ 
+Geometrik sambungan adalah tata letak secara umum dan jarak antara 
+sambungan. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-31
+a. 
+Jarak sambungan 
+Pada umumnya jarak sambungan konstruksi memanjang dan melintang 
+tergantung 
+keadaan 
+bahan 
+dan 
+lingkungan 
+setempat, 
+dimana 
+sambungan muai dan susut sangat tergantung pada kemampuan 
+konstruksi dan tata letaknya. 
+Untuk sambungan muai, jarak untuk mencegah retak sedang akan 
+mengecil jika koefisien panas, perubahan suhu atau gaya gesek tanah 
+dasar bertambah 
+bila tegangan 
+tarik beton bertambah. Jarak 
+berhubungan dengan tebal pelat dan kemampuan daya ikat sambungan. 
+Untuk menentukan jarak sambungan yang akan mencegah retak, yang 
+terbaik dilakukan dengan mengacu petunjuk dari catatan kemampuan 
+pelayanan setempat. Pengalaman setempat penting diketahui karena 
+perubahan jenis agregat kasar akan memberi dampak yang nyata pada 
+koefisien panas beton dengan konsekuensi jarak sambungan yang 
+dapat diterima. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar  2.6. : Tata letak sambungan pada perkerasan kaku. 
+ 
+Sebagai petunjuk awal, jarak sambungan untuk beton biasa  2 h (dua 
+kali tebal pelat beton dalam satuan berbeda, misalkan tebal pelat h = 8 
+inci, maka jarak sambungan = 16 feet, jadi kalau dengan SI unit jarak 
+sambungan = 24 – 25 kali tebal pelat, misalkan tebal pelat 200 mm, 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-32
+maka jarak sambungan = 4.800 mm) dan secara umum perbandingan 
+antara lebar pelat dibagi panjang pelat  1,25 
+Penggunaan sambungan muai biasanya diminimalkan pada proyek 
+dengan pertimbangan masalah biaya, kompleksitas dan penampilannya. 
+Sambungan digunakan pada struktur dimana jenis perkerasan berubah 
+(misalnya 
+: 
+dari 
+jenis 
+menerus 
+ke 
+jenis 
+bersambung) 
+pada 
+persimpangan. 
+Jarak antara sambungan konstruksi, biasanya diatur pada penempatan 
+di lapangan dan kemampuan peralatan. Sambungan konstruksi 
+memanjang harus ditempatkan pada tepi lajur untuk memaksimalkan 
+kerataan perkerasan dan meminimalkan persoalan pengalihan beban. 
+Sambungan konstruksi melintang terjadi pada akhir pekerjaan atau pada 
+saat penghentian pengecoran. 
+ 
+b. 
+Tata letak sambungan 
+Sambungan menyerong atau acak (random), akan meminimalkan 
+dampak kekasaran sambungan, sehingga dapat memperbaiki mutu 
+pengendalian. 
+Sambungan melintang serong akan meningkatkan penampilan dan 
+menambah usia perkerasan kaku, yaitu biasa atau bertulang, dengan 
+atau tanpa ruji. Sambungan harus serong sedemikian agar beban roda 
+dari masing-masing sumbu dapat melalui sambungan pada saat yang 
+tidak bersamaan. 
+Sudut tumpul pada sisi luar perkerasan harus dibagian depan 
+sambungan pada arah lalu-lintas, karena sudut akan menerima dampak 
+beban roda terbesar secara tiba-tiba. 
+Keuntungan dari sambungan serong sebagai berikut : 
+ 
+Mengurangi lendutan dan tegangan pada sambungan, sehingga 
+menambah daya dukung beban pelat dan memperpanjang usia 
+pelat. 
+ 
+Mengurangi dampak reaksi kendaraan pada saat melintasi 
+sambungan dan memberikan kenyamanan yang lebih. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-33
+Untuk lebih meningkatkan penampilan perkerasan biasa adalah dengan 
+menggunakan sambungan serong pada jarak acak atau tidak teratur. 
+Pola jarak acak mencegah irama atau resonansi pada kendaraan yang 
+bergerak dalam kecepatan normal. Dari hasil penelitian menunjukkan 
+bahwa pada pola jarak pelat 2,50 m harus dihindarkan. 
+ 
+c. 
+Dimensi sambungan 
+Lebar sambungan, ditentukan oleh alur yang akan diuraikan pada 
+bagian bawah. Kedalaman takikan sambungan susut harus cukup 
+memadai untuk memastikan akan terjadi retak pada tempat yang 
+dikehendaki dan tidak pada sembarang tempat. Biasanya kedalaman 
+takikan sambungan susut melintang ¼ tebal pelat dan sambungan 
+memanjang 1/3 ketebalan. 
+Sambungan tersebut dibuat dengan pemotongan, penyelipan atau 
+pembentukan. Waktu pemotongan sangat kritis untuk mencegah retak 
+acak sehingga sambungan harus dipotong dengan hati-hati untuk 
+memastikan semuanya bekerja bersamaan. Jarak waktu untuk 
+pengecoran dengan pemotongan akan berubah dengan perubahan suhu 
+pelat, keadaan pengeringan dan proporsi campuran. 
+ 
+3. Dimensi bahan penutup sambungan 
+ 
+a. 
+Sambungan susut 
+Pergerakan sambungan dan kemampuan bahan penutup alur harus 
+dioptimalkan. Pada umumnya mutu bahan penutup sambungan harus 
+ditingkatkan jika pergerakan sambungan diperkirakan akan bertambah. 
+Bertambahnya 
+pergerakan 
+sambungan 
+dapat 
+diakibatkan 
+oleh 
+perpanjangan pelat, perubahan suhu yang besar dan atau koefisien 
+panas beton yang tinggi. 
+Pergerakan sambungan pada perkerasan dipengaruhi faktor-faktor seperti 
+perubahan sifat volume panjang beton dan gesekan antara pelat dan 
+pondasi bawah (tanah dasar). 
+Dalam hal untuk menjaga bentuk penutup-lapangan yang efektif, lubang 
+alur (takikan) yang akan diisi bahan penutup harus mempunyai faktor 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-34
+bentuk (lebar dan dalam) yang benar. Dalam batasan praktis, kedalaman 
+sambungan minimum lubang harus mendekati segiempat dan berada 
+dibawah permukaan minimum 3 mm (1/8 inci). Dengan demikian berarti 
+takikan biasanya dibentuk dengan menambah lebar dan mengurangi 
+kedalaman bagian atas sambungan untuk mengikat bahan penutup. 
+Untuk sambungan yang sempit dengan jarak sambungan yang dekat, 
+lubang dapat dibentuk dengan menyisipkan tali atau bahan lain sampai 
+kedalaman yang telah ditentukan. Metoda ini mengurangi kebutuhan 
+bahan penutup. Pada umumnya dalam berbanding lebar berkisar 1 – 1,5 
+dengan kedalaman minimum 9,5 mm (3/8 inci) untuk sambungan 
+memanjang dan 12,5 mm (1/2 inci) untuk sambungan melintang. 
+Lebar sambungan didefinisikan sebagai nilai maximum yang terjadi pada 
+suhu minimum. Jadi nilai maximum meliputi pergerakan horisontal yang 
+diantisipasi ditambah dengan lebar sisa disebabkan sifat bahan penutup. 
+Pergerakan horisontal dapat dihitung dengan memperkirakan bukaan 
+sambungan yang disebabkan siklus temperatur ditambah dengan 
+penyusutan beton. Besarnya bukaan dan sebaliknya tergantung pada : 
+ 
+perubahan temperatur dan kelembaban 
+ 
+jarak antara sambungan kerja (pelaksanaan) atau retak 
+ 
+gesekan antara lapis pondasi dan pelat 
+ 
+kondisi dari rencana pemberian beban sambungan, dan sebagainya. 
+Untuk keperluan perencanaan bukaan sambungan melintang rata-rata 
+pada selang waktu dapat dihitung dengan pendekatan. Lebar sambungan 
+harus memperhitungkan pergerakan ditambah dengan tegangan sisa 
+yang diijinkan pada penutup sambungan. 
+ Menurut AASHTO : disyaratkan lebar bukaan  0,04 inci untuk 
+sambungan tanpa ruji (dowel). 
+ Menurut Yoder & Witczak : lebar bukaan  0,04 inci untuk sambungan 
+tanpa dowel, lebar bukaan  0,25 inci untuk sambungan dengan 
+dowel. 
+ Menurut SKBI 1988 : lebar bukaan retakan minimum (mm) = 0,45 x 
+Panjang Pelat (m), umumnya lebar retakan yang diijinkan berkisar 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-35
+antara 1 – 3 mm, tetapi untuk kemudahan pengisian bahan penutup, 
+lebar bukaan pada bagian atas diperlebar maximum 6 – 10 mm 
+dengan kedalaman tidak lebih dari 20 mm dan semua sambungan 
+susut melintang harus dipasang ruji. 
+ 
+b. 
+Sambungan muai 
+Pergerakan pada sambungan muai didasarkan pada pengalaman agen 
+pembuat. Dimensi alur takikan akan optimal didasarkan pada pergerakan 
+dan kemampuan bahan pengisi. Pada umumnya, dimensi akan lebih 
+besar dari pada untuk sambungan susut. 
+ 
+c. 
+Sambungan pelaksanaan 
+Menurut AASHTO, tipikal sambungan susut melintang juga dapat 
+digunakan untuk sambungan pelaksanaan dan sambungan memanjang 
+lainnya. 
+ 
+4. Dowel (ruji) 
+Dowel berupa batang baja tulangan polos (maupun profil), yang digunakan 
+sebagai sarana penyambung / pengikat pada beberapa jenis sambungan 
+pelat beton perkerasan jalan. 
+ 
+Tabel  2.14. : Ukuran dan jarak batang dowel (ruji) yang disarankan. 
+Tebal pelat 
+perkerasan 
+Diameter 
+dowel 
+Panjang 
+dowel 
+Jarak 
+dowel 
+inci 
+mm 
+inci 
+mm 
+inci 
+mm 
+inci 
+mm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+150 
+¾ 
+19 
+18 
+450 
+12 
+300 
+7 
+175 
+1 
+25 
+18 
+450 
+12 
+300 
+8 
+200 
+1 
+25 
+18 
+450 
+12 
+300 
+9 
+225 
+1¼ 
+32 
+18 
+450 
+12 
+300 
+10 
+250 
+1¼ 
+32 
+18 
+450 
+12 
+300 
+11 
+275 
+1¼ 
+32 
+18 
+450 
+12 
+300 
+12 
+300 
+1½ 
+38 
+18 
+450 
+12 
+300 
+13 
+325 
+1½ 
+38 
+18 
+450 
+12 
+300 
+14 
+350 
+1½ 
+38 
+18 
+450 
+12 
+300 
+ 
+Sumber : Principles of pavement design by Yoder & Witczak, 1975 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-36
+ 
+Dowel berfungsi sebagai penyalur beban pada sambungan, yang 
+dipasang dengan separuh panjang terikat dan separuh panjang 
+dilumasi atau dicat untuk memberikan kebebasan bergeser. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar  2.7.a. : Sambungan susut melintang dengan 
+dowel. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar  2.7.b. : Sambungan muai dengan dowel. 
+ 
+5. Batang pengikat (Tie bar) 
+Tie bar adalah potongan baja yang diprofilkan yang dipasang pada 
+sambungan lidah-alur dengan maksud untuk mengikat pelat agar tidak 
+bergerak horisontal. Batang pengikat dipasang pada sambungan memanjang, 
+lihat Gambar  2.8. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-37
+Contoh menentukan dimensi batang pengikat : 
+ 
+Jarak sambungan dari tepi terdekat, lihat sketsa Gambar 7.15.2.5.a. 
+ 
+ 
+ 
+ 
+ 
+X3 
+X1 
+ 
+ 
+ 
+X2 
+ 
+ 
+ 
+ 
+1 
+2 
+ 
+ 
+1, 2, 3 = Sambungan pelaksanaan memanjang 
+ 
+ 
+Bahu 
+Lajur 1 
+Lajur 2 
+ 
+ 
+ 
+0 m 
+3,6 m 
+3,6 m 
+ 
+Gambar 2.8.a. : Jarak sambungan dari tepi 
+terdekat 
+ 
+Tabel perhitungan : 
+ 
+Nomor 
+Jarak (X) 
+Jarak maximum Tie bar 
+(cm) 
+Sambungan 
+meter 
+ 12 mm 
+ 16 mm 
+ 
+ 
+ 
+ 
+2 
+3,60 
+93 
+max 120 
+ 
+ 
+ 
+ 
+ 
+Sketsa sambungan pelaksanaan memanjang seperti pada Gambar 
+2.8.b. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+   Bab II  Perencanaan Perkerasan Kaku  
+  Dengan Metode AASHTO 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+II-38
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar  2.8.b. : Sambungan 
+pelaksanaan 
+memanjang 
+dengan lidah 
+alur dan Tie 
+bar. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-1
+BAB  III 
+PERENCANAAN PERKERASAN KAKU 
+DENGAN METODE PCA 
+ 
+ 
+3.1. 
+UMUM 
+Perencanaan yang digunakan mengacu pada Portland Cement Association 
+(PCA). Langkah-langkah praktis, prosedur, parameter-parameter perencanaan 
+diberikan sebagai berikut dibawah ini. Bagan alir prosedur perencanaan 
+diperlihatkan seperti pada Gambar 3.1. 
+ 
+3.2. 
+TRAFFIC 
+Parameter lalu-lintas untuk perencanaan : 
+ Umur rencana (20 tahun). 
+ Volume lalu-lintas rencana. 
+ Faktor distribusi arah = 0,50 (untuk lalu-lintas 2 arah). 
+ Faktor distribusi lajur (DL) : mengacu pada Tabel 1. 
+ Jenis kendaraan : hanya kendaraan niaga yang dianalisis. 
+ 
+1. Volume Lalu-lintas Rencana (VLLR) 
+Volume lalu-lintas rencana (VLLR) diperhitungkan dari data lalu-lintas yang 
+ada dan mencakup selama masa layan atau umur rencana. 
+ 
+VLLR = LHR x 365 x ( 1 + i )n 
+ 
+VLLR 
+= Volume Lalu-lintas Rencana (kendaraan) 
+LHR 
+= Lintas Harian Rata-rata (kendaraan per hari) 
+i 
+= Faktor pertumbuhan lalu-lintas (%) 
+n 
+= Umur rencana atau masa layan (tahun) 
+ 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-2
+  Umur rencana
+  Faktor distribusi arah
+  Faktor distribusi lajur
+  Konfigurasi sumbu dan roda
+Traffic
+  Jumlah Kendaraan Niaga Harian
+  JKN selama umur rencana
+  Jumlah Sumbu Kendaraan Niaga Harian
+  JSKN selama umur rencana
+  Persentase konfigurasi sumbu
+  Jumlah repetisi selama umur rencana
+Tebal pelat
+  Beban sumbu
+rencana
+ Ya
+Modulus reaksi tanah dasar
+Tegangan
+yang terjadi
+Perbandingan
+Jumlah repetisi
+% Fatique
+Coba tebal pelat
+tegangan
+beban ijin
+< 100
+Flexural
+strength
+ Tidak
+BAGAN ALIR PROSEDUR PERENCANAAN RIGID PAVEMENT CARA PCA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar  3.1. 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-3
+2. Konfigurasi sumbu dan roda 
+Konfigurasi sumbu kendaraan : 
+ Sumbu Tunggal Roda Tunggal (STRT). 
+ Sumbu Tunggal Roda Ganda (STRG1). 
+ Sumbu Tandem Roda Ganda (STRG2). 
+ 
+Konfigurasi sumbu dan gandar (tonase) : ambil dari sumber Petunjuk 
+Perencanaan Perkerasan Kaku, Departemen Pekerjaan Umum, Badan 
+Penelitian dan Pengembangan PU, Pusat Penelitian dan Pengembangan 
+Jalan. Dan Standard Operation Procedure Perencanaan Perkerasan Dinas 
+Pekerjaan Umum DKI Jakarta. 
+ 
+3. Jumlah Kendaraan Niaga 
+Jumlah Kendaraan Niaga (JKN) selama umur rencana : 
+ 
+JKN = JKNH x 365 x R 
+ 
+di mana : 
+ 
+JKNH 
+= Jumlah Kendaraan Niaga Harian pada saat jalan dibuka. 
+R 
+= Faktor pertumbuhan lalu-lintas. 
+ 
+4. Jumlah Sumbu Kendaraan Niaga Harian 
+Jumlah Sumbu Kendaraan Niaga Harian (JSKNH) : 
+ 
+n
+n
+S
+LHR
+JSKNH
+
+
+
+ 
+ 
+dimana : 
+ 
+LHRn = Lalu-lintas harian rata-rata kendaraan jenis n. 
+Sn 
+= Jumlah sumbu kendaraan jenis n. 
+ 
+5. Jumlah Sumbu Kendaraan Niaga 
+Jumlah Sumbu Kendaraan Niaga (JSKN) selama umur rencana : 
+ 
+JSKN = JSKNH x 365 x R 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-4
+6. Persentase konfigurasi sumbu 
+Persentase konfigurasi sumbu kendaraan (PKSn) : 
+ 
+JSKNH
+LHR
+PKS
+n
+n 
+ 
+ 
+7. Jumlah repetisi selama umur rencana 
+Jumlah repetisi setiap jenis kendaraan (JRn) pada jalur rencana selama umur 
+rencana : 
+JRn = JSKN x PKSn x DL 
+ 
+8. Faktor keamanan 
+ Untuk jalan tol 
+= 1,2 
+ Untuk jalan arteri 
+= 1,1 
+ Untuk jalan kolektor 
+= 1,0 
+ 
+3.3. 
+MODULUS REAKSI TANAH DASAR 
+Modulus of subgrade reaction (k) menggunakan gabungan formula dan grafik 
+penentuan modulus reaksi tanah dasar berdasar ketentuan CBR tanah dasar. 
+ 
+MR = 1.500 x CBR 
+ 
+4,
+19
+M
+k
+R
+
+ 
+ 
+MR = Resilient modulus. 
+ 
+Koreksi Effective Modulus of Subgrade Reaction, menggunakan Grafik pada 
+Figure 3.6. (diambil dari AASHTO 1993 halaman II-42) : lihat Gambar 3.2. 
+ 
+Faktor Loss of Support (LS) mengacu pada Tabel 3.1. (diambil dari AASHTO 1993 hal 
+II-27). 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-5
+Tabel 3.1  Loss of Support Factors (LS). 
+ 
+No. 
+Tipe material 
+LS 
+1. 
+Cement Treated Granular Base ( E = 1.000.000 –  2.000.000 psi ) 
+0 – 1 
+2. 
+Cement Aggregate Mixtures ( E = 500.000 – 1.000.000 psi ) 
+0 – 1 
+3. 
+Asphalt Treated Base ( E = 350.000 – 1.000.000 psi ) 
+0 – 1 
+4. 
+Bituminous Stabilized Mixtures ( E = 40.000 – 300.000 psi ) 
+0 – 1 
+5. 
+Lime Stabilized ( E = 20.000 – 70.000 psi ) 
+1 – 3 
+6. 
+Unbound Granular Materials ( E = 15.000 – 45.000 psi ) 
+1 – 3 
+7. 
+Fine grained / Natural subgrade materials ( E = 3.000 – 40.000 psi ) 
+2 – 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 3.2. 
+Pendekatan nilai modulus reaksi tanah dasar dari referensi / 
+literartur : 
+ 
+Pendekatan nilai Modulus Reaksi Tanah Dasar (k) dapat menggunakan 
+hubungan nilai CBR dengan  k  seperti yang ditunjukkan pada Gambar 
+3.3. Diambil dari literartur Highway Engineering (Teknik Jalan Raya), 
+Clarkson H Oglesby, R Gary Hicks, Stanford University & Oregon State 
+University, 1996. 
+Effective Modulus of Subgrade Reaction, k (pci) 
+Correctioan of Effective modulus of Subgrade Reaction for Potensial Loss Subbase Support 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-6
+Modulus reaksi tanah dasar :  k (psi/in) 
+ 
+ 
+100 
+150 
+200 
+250 
+300 
+400 
+ 500  600
+ 
+700    800 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+10 
+15 
+20 
+25 
+30 
+40 
+50 60 
+70 80 
+100 
+ 
+ 
+ 
+Gambar 3.3.  Hubungan antara (k) dan (CBR), sumber : Portland Cement Assocoation. 
+ 
+Penentuan nilai modulus reaksi tanah dasar dari referensi : 
+Petunjuk Perencanaan Perkerasan Kaku, Bina Marga. 
+ 
+Hubungan CBR (%) dengan Modulus reaksi tanah dasar (kg/cm3) diperlihatkan 
+seperti pada Gambar 3.4. 
+Pada dasarnya lapis pondasi bawah bukan bagian dari struktur perkerasan jalan 
+kaku, tetapi jika lapis pondasi yang digunakan merupakan bound subbase atau 
+perancangan memperhitungkan lapis pondasi maka perlu dicari nilai  k  
+gabungan. Grafik untuk menentukan nilai  k  gabungan diperlihatkan pada 
+Gambar 3.5. 
+ 
+3.4. 
+TEGANGAN YANG TERJADI 
+ 
+Tegangan yang terjadi (Te) pada pelat beton mengacu pada Nomogram yang 
+tersedia (lihat Gambar 3.6), dengan parameter sebagai berikut : 
+ Beban sumbu. 
+ Modulus reaksi tanah dasar (k). 
+ Taksiran tebal pelat. 
+ 
+California Bearing Ratio (CBR) 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-7
+3.5. 
+KUAT LENTUR TARIK BETON 
+Keruntuhan perkerasan akibat repetisi beban. Parameter kekuatan beton 
+dinyatakan dalam kekuatan lentur (flexural strength). Kekuatan ini didapat dari 
+pengujian Three point test (ASTM C-78) untuk beton berumur 28 hari. 
+Secara teoritis kuat lentur beton dapat dihitung dari kuat tekan beton  bk*, yaitu : 
+ 
+Mr = 11
+*
+bk
+
+ + 9 
+ 
+di mana : 
+ 
+Mr 
+= Modulus retak atau kuat lentur (kg/cm2) 
+bk* 
+= Kuat tekan beton pada umur 28 hari (kg/cm2) 
+ 
+Nilai minimum Mr sebaiknya digunakan min. 40 kg/cm2. Untuk kondisi tertentu 
+dapat digunakan sampai 30 kg/cm2. Dan biasanya kuat lentur tarik beton : Mr = 45 
+kg/cm2. 
+ 
+3.6. 
+PERBANDINGAN TEGANGAN 
+Perbandingan tegangan (Pteg) : 
+ 
+Mr
+T
+P
+e
+teg 
+ 
+ 
+3.7. 
+JUMLAH 
+REPETISI 
+BEBAN 
+YANG 
+DIIJINKAN 
+& 
+PERSENTASE FATIQUE 
+ 
+Jumlah pengulangan beban yang diijinkan (JPBi) untuk perbandingan tegangan 
+Pteg  0,51 : mengacu pada Tabel 3.3. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-8
+Tabel 3.3 Perbandingan tegangan dan jumlah pengulangan 
+beban yang diijinkan. 
+ 
+ 
+ 
+ 
+ 
+Perbandingan 
+Jumlah 
+pengulangan 
+Perbandingan 
+Jumlah 
+pengulangan 
+tegangan 
+beban yang 
+diijinkan 
+tegangan 
+beban yang 
+diijinkan 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+0,51 
+400.000 
+0,69 
+2.500 
+0,52 
+300.000 
+0,70 
+2.000 
+0,53 
+240.000 
+0,71 
+1.500 
+0,54 
+180.000 
+0,72 
+1.100 
+0,55 
+130.000 
+0,73 
+850 
+0,56 
+100.000 
+0,74 
+650 
+0,57 
+75.000 
+0,75 
+490 
+0,58 
+57.000 
+0,76 
+360 
+0,59 
+42.000 
+0,77 
+270 
+0,60 
+32.000 
+0,78 
+210 
+0,61 
+24.000 
+0,79 
+160 
+0,62 
+18.000 
+0,80 
+120 
+0,63 
+14.000 
+0,81 
+90 
+0,64 
+11.000 
+0,82 
+70 
+0,65 
+8.000 
+0,83 
+50 
+0,66 
+6.000 
+0,84 
+40 
+0,67 
+4.500 
+0,85 
+30 
+0,68 
+3.500 
+ 
+ 
+Perbandingan tegangan Pteg < 0,51 : jumlah pengulangan beban yang 
+diijinkan adalah tak terhingga (). 
+ 
+Persentase fatique (Pf) : 
+ 
+i
+n
+f
+JPB
+JR
+P 
+ 
+ 
+Jumlah kumulatip persentase fatique harus  100 %. 
+ 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-9
+3.8. 
+PROSEDUR PERANCANGAN 
+ 
+Tahapan perancangan sebagai berikut : 
+ 
+Langkah 1 : 
+Tentukan nilai k, jika memperhitungkan lapis pondasi bawah maka digunakan k 
+gabungan. 
+ 
+Langkah 2 : 
+Merubah data lalu-lintas dalam kendaraan menjadi data lalu-lintas dalam sumbu : 
+Jenis kendaraan 
+Komposisi sumbu per 
+kendaraan 
+LHR 
+365 LHR
+)i
+1
+ln(
+1
+)i
+1(
+n
+
+
+
+ 
+ 
+ 
+ 
+Kend. 
+penumpang 
+ 
+ 
+ 
+ 
+ 
+Bus ringan 
+ 
+ 
+ 
+ 
+ 
+ Bus berat 
+ 
+ 
+ 
+ 
+ 
+Truk ringan 
+ 
+ 
+ 
+ 
+ 
+Truk berat 
+ 
+ 
+ 
+ 
+ 
+Trailer 
+ 
+ 
+ 
+ 
+ 
+Jumlah 
+ 
+ 
+ 
+A 
+B 
+A : Total volume lalu-lintas sebelum jalan dibuka (data awal). 
+B : Total volume lalu-lintas selama umur rencana atau masa layan. 
+ 
+No. 
+Jenis sumbu 
+Berat (ton) 
+Jumlah 
+(akhir umur rencana) 
+ 
+ 
+ 
+ 
+1 
+STRT 
+1 ton 
+ 
+2 
+STRT 
+2 ton 
+ 
+3 
+…….. 
+ 
+ 
+4 
+STRG 
+6 ton 
+ 
+5 
+STRG 
+8 ton 
+ 
+6 
+…….. 
+ 
+ 
+7 
+SGRG 
+14 ton 
+ 
+8 
+…….. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Langkah 3 : 
+Asumsikan tebal pelat beton, tebal minimal 17 cm. 
+ 
+ 
+Disesuaikan 
+dengan data 
+yang ada 
+Modul RDE 11 : Perencanaan Perkerasan Jalan    
+Bab III  Perencanaan Perkerasan Kaku  
+ Dengan Metode PCA 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+III-10
+Langkah 4 : 
+Jumlah untuk setiap berat sumbu dikalikan dengan Faktor Keamanan, yang 
+tergantung pada fungsi jalan. 
+ 
+Langkah 5 : 
+Tentukan tegangan yang terjadi untuk tiap jenis sumbu dengan menggunakan 
+nomogram. Nilai tegangan tergantung pada beban sumbu, nilai k (atau k 
+gabungan), dan tebal pelat beton. 
+ 
+Langkah 6 : 
+Tentukan perbandingan antara tegangan yang terjadi dengan Mr untuk 
+mendapatkan jumlah repetisi ijin. 
+ 
+Langkah 7 : 
+Bandingkan repetisi ijin dengan jumlah sumbu untuk tiap berat sumbu (dalam %). 
+Total jumlah persentase seluruhnya harus lebih kecil atau sama dengan 100 %. 
+ 
+No. 
+Jenis 
+sumbu 
+Berat 
+(ton) 
+Jumlah 
+total 
+Beban 
+sb 
+rencana 
+Tegangan 
+yang terjadi 
+/Mr 
+Repetisi 
+ijin 
+% 
+fatigue 
+(a) 
+(b) 
+(c) 
+(d) 
+(e) 
+(f) 
+(g) 
+(h) 
+(i) 
+1 
+STRT 
+1  
+ 
+(d) * FK 
+Dari 
+nomogram 
+(f) / Mr 
+Tabel 3. 
+(d) / (h) (%) 
+2 
+STRT 
+2 
+ 
+ 
+tergantung 
+ 
+ 
+ 
+3 
+…….. 
+ 
+ 
+ 
+jenis 
+sumbu, 
+ 
+ 
+ 
+4 
+STRG 
+6 
+ 
+ 
+berat, nilai 
+k, 
+ 
+ 
+ 
+5 
+STRG 
+8 
+ 
+ 
+tebal pelat 
+ 
+ 
+ 
+6 
+…….. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7 
+SGRG 
+14 
+ 
+ 
+ 
+ 
+ 
+ 
+8 
+…….. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Jumlah 
+X 
+ 
+ 
+ 
+Jika X lebih besar dari 100 % maka tebal pelat diperbesar, yang berarti 
+mengulang proses perhitungan dari langkah 3 dan atau dengan 
+meningkatkan mutu beton, dalam hal ini meningkatkan nilai Mr, berarti 
+mengulang proses perhitungan dari langkah 6.  
+Harus lebih kecil atau 
+Sama dengan 100 % 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+ Rangkuman 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+R - 1
+RANGKUMAN 
+ 
+ 
+Jenis perkerasan jalan terdiri atas perkerasan lentur dan perkerasan kaku. 
+Perencanaan perkerasan lentur dapat dilakukan dengan metode AASHTO dan 
+perencanaan perkerasan kaku dapat dilakukan dengan metode AASHTO atau metode 
+PCA. 
+Data dan parameter lalu-lintas yang digunakan untuk perencanaan tebal perkerasan 
+lentur meliputi : 
+ 
+Jenis kendaraan. 
+ 
+Volume lalu-lintas harian rata-rata. 
+ 
+Pertumbuhan lalu-lintas tahunan. 
+ 
+Damage factor. 
+ 
+Umur rencana 
+ 
+Faktor distribusi arah. 
+ 
+Faktor distribusi lajur. 
+ 
+Equivalent Single Axle Load, ESAL selama umur rencana (traffic design). 
+ 
+Parameter reliability dapat ditentukan sebagai berikut : 
+ 
+Berdasar parameter klasifikasi fungsi jalan 
+ 
+Berdasar status lokasi jalan urban / rural 
+ 
+Penetapan tingkat Reliability (R) 
+ 
+Penetapan standard normal deviation (ZR) 
+ 
+Penetapan standar deviasi (So) 
+ 
+Kehandalan data lalu-lintas dan beban kendaraan 
+ 
+Perencanaan mengacu pada AASHTO Guide for Design of Pavement 
+Structures 1993. Langkah-langkah praktis, prosedur dan parameter-parameter 
+perencanaan diberikan sebagai berikut dibawah ini. 
+Parameter perencanaan perkerasan kaku terdiri dari 13 parameter : 
+ Umur rencana 
+ Equivalent Single Axle Load 
+ Terminal serviceability index 
+ Initial serviceability 
+ Serviceability loss 
+Modul RDE 11 : Perencanaan Perkerasan Jalan 
+ Rangkuman 
+ 
+ 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+R - 2
+ Reliability 
+ Standar normal deviasi 
+ Standar deviasi 
+ Modulus reaksi tanah dasar 
+ Modulus elastisitas beton 
+ Flexural strength 
+ Drainage coefficient 
+ Load transfer coefficient 
+Data dan parameter lalu-lintas yang digunakan untuk perencanaan tebal perkerasan kaku 
+meliputi : 
+ Jenis kendaraan. 
+ Volume lalu-lintas harian rata-rata. 
+ Pertumbuhan lalu-lintas tahunan. 
+ Damage factor. 
+ Umur rencana 
+ Faktor distribusi arah. 
+ Faktor distribusi lajur. 
+ Equivalent Single Axle Load, ESAL selama umur rencana (traffic 
+design). 
+ 
+Perencanaan yang digunakan mengacu pada Portland Cement Association 
+(PCA). Langkah-langkah praktis, prosedur, parameter-parameter perencanaan 
+diberikan sebagai berikut dibawah ini. 
+Parameter lalu-lintas untuk perencanaan kaku  : 
+ Umur rencana (20 tahun). 
+ Volume lalu-lintas rencana. 
+ Faktor distribusi arah = 0,50 (untuk lalu-lintas 2 arah). 
+ Faktor distribusi lajur (DL) : mengacu pada Tabel 1. 
+ Jenis kendaraan : hanya kendaraan niaga yang dianalisis. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Modul RDE 11 Perencanaan Geometrik 
+Daftar Pustaka 
+ 
+Pelatihan Road Design Engineer (RDE) 
+ 
+ 
+DP-1
+DAFTAR PUSTAKA 
+1 
+AASHTO, American Association of State Highway and Transportation 
+Officials Guide for Design of Pavement Structures 1993, Washington DC, 1993 
+2 
+Sri Harto, Analisa Hidrologi, , Gramedia Pustaka Utama, Jakarta, 1993. 
+3 
+Hinarko, S., Ir., Drainase Perkotaan. 
+4 
+Chow, Ven Te, Hidrolika Saluran Terbuka,  Erlangga, Jakarta, 1992. 
+5 
+--------------------------, Keputusan Menteri Perhubungan No. KM 74 tahun 1990 
+tentang Angkutan Peti Kemas di Jalan. 
+6 
+PT. Jasa Marga (Persero), Kriteria Desain,  2004. 
+7 
+Direktorat Jenderal Bina Marga, Manual Kapasitas Jalan Indonesia, Tahun 
+1997. 
+8 
+Suryawan, Ari, Perkerasan Jalan Beton Semen Portland (Rigid Pavement), 
+Beta Offset, Yogyakarta, 2005. 
+9 
+-------------------------------------, Petunjuk Perencanaan Tebal Perkerasan Lentur 
+Jalan Raya dengan Metode Analisa Komponen SNI No : 173 – 1989-F, SKB – 
+23.26.1987. 
+10 
+-------------------------------------, Tata Cara Perencanaan Drainase Permukaan 
+Jalan (SNI 03-3414-1994). 
+ 
+ 
+ 
+Mpdul RD 11 Perencanaan Perkerasan Jalan 
+ Lampiran   
+ 
+Pelatihan Road Design Engineer (RDE) 
+L - 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LAMPIRAN - 1 
+ 
+Contoh perhitungan tebal perkerasan lentur 
+Metode AASHTO 1993 
+Mpdul RD 11 Perencanaan Perkerasan Jalan 
+ Lampiran   
+ 
+Pelatihan Road Design Engineer (RDE) 
+L - 2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Umur rencana (tahun)
+10
+Traffic design (ESAL)
+22,784,157
+CBR (%)
+6.00
+Resilient Modulus (MR), psi
+9,000
+Terminal serviceability (pt)
+2.5
+Initial serviceability (po)
+4.2
+Serviceability loss (PSI)
+1.7
+Reliability (R)
+90.00
+Standard normal deviation (Zr)
+-1.282
+Standard deviation (So)
+0.45
+Drainage coefficient (m)
+1.15
+STRUCTURE NUMBER (SN)
+5.25
+CHECK EQUATION :
+7.36
+7.36
+Layer
+Lapis perkerasan
+Layer coeff.
+thickness
+SN
+(inch.)
+ AC Wearing Course  
+0.42
+1.97
+0.83
+ AC Binder Course  
+0.42
+1.97
+0.83
+ AC Base  
+0.30
+3.15
+0.94
+ Aggregate base class A  
+0.13
+18.11
+2.71
+5.31
+OK
+5 cm
+5 cm
+8 cm
+50 cm
+PAVEMENT THICKNESS DESIGN - FLEXIBLE PAVEMENT ( AASHTO-1993 )
+PAKET II : SAMBOJA - PALARAN
+VDF : RATA-RATA
+ AC Wearing Course  
+ AC Binder Course  
+ AC Base  
+ Aggregate base class A  
+Mpdul RD 11 Perencanaan Perkerasan Jalan 
+ Lampiran   
+ 
+Pelatihan Road Design Engineer (RDE) 
+L - 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LAMPIRAN - 2 
+ 
+Contoh perhitungan tebal perkerasan kaku 
+Metode PCA 
+Mpdul RD 11 Perencanaan Perkerasan Jalan 
+ Lampiran   
+ 
+Pelatihan Road Design Engineer (RDE) 
+L - 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PERKERASAN KAKU METODE PCA (PORTLAND CEMENT ASSOCIATION)
+DATA LALU-LINTAS TAHUN
+2003
+Kendaraan
+Gandar (ton)
+Kendaraan
+Sumbu
+ Sedan + pickup
+1 + 1
+3350
+0
+0
+ Truck / bis kecil
+2 + 4
+31
+2
+61
+ Truck / bis sedang
+2,8 + 5,5
+418
+2
+836
+ Truck / bis besar
+3 + 6
+682
+2
+1,364
+ Truck 3-4 as
+6,2 + 18,8
+201
+2
+402
+ Truck gandeng
+5,6+8,8+8,5+8,5
+56
+4
+222
+ Semi trailer
+7,4+17,3+17,3
+99
+5
+495
+Jumlah 2 lajur 1 arah
+1,486
+3,380
+JKNH
+JSKNH
+JALAN DIBUKA TAHUN
+2003
+Umur Rencana
+20
+ tahun
+Faktor distribusi
+0.80
+2003
+2023
+Kendaraan
+Kendaraan
+Sumbu
+Kendaraan
+Sumbu
+ Sedan + pickup
+3,350
+0 57,909,331
+0
+ Truck / bis kecil
+31
+61
+1,105,706
+1,753,890
+ Truck / bis sedang
+418
+836 15,224,128
+24,036,917
+ Truck / bis besar
+682
+1,364 12,948,056
+39,218,128
+ Truck 3-4 as
+201
+402
+7,597,032
+11,558,422
+ Truck gandeng
+56
+222
+2,102,151
+6,383,009
+ Semi trailer
+99
+495
+3,748,835
+14,232,385
+Jumlah
+1,486
+3,380 42,725,908
+97,182,752
+JUMLAH REPETISI
+Faktor distribusi :
+0.80
+Konfigurasi
+Beban
+Jumlah
+Konsfigurasi
+Jumlah
+sumbu
+sumbu (ton)
+kendaraan
+sumbu (%)
+repetisi
+Sumbu Tunggal Roda Tunggal (STRT)
+2.0
+31
+0.90
+876,945
+Sumbu Tunggal Roda Tunggal (STRT)
+2.8
+418
+12.37 12,018,459
+Sumbu Tunggal Roda Tunggal (STRT)
+3.0
+682
+20.18 19,609,064
+Sumbu Tunggal Roda Ganda (STRG1)
+4.0
+31
+0.90
+876,945
+Sumbu Tunggal Roda Ganda (STRG1)
+5.5
+418
+12.37 12,018,459
+Sumbu Tunggal Roda Tunggal (STRT)
+5.6
+56
+1.64
+1,595,752
+Sumbu Tunggal Roda Ganda (STRG1)
+6.0
+682
+20.18 19,609,064
+Sumbu Tunggal Roda Tunggal (STRT)
+6.2
+201
+5.95
+5,779,211
+Sumbu Tunggal Roda Tunggal (STRT)
+7.4
+99
+2.93
+2,846,477
+Sumbu Tunggal Roda Ganda (STRG1)
+8.5
+111
+3.28
+3,191,505
+Sumbu Tunggal Roda Ganda (STRG1)
+8.8
+56
+1.64
+1,595,752
+Sumbu Tandem Roda Ganda (STRG2)
+17.3
+198
+5.86
+5,692,954
+Sumbu Tandem Roda Ganda (STRG2)
+18.8
+201
+5.95
+5,779,211
+TEBAL PELAT
+26
+ cm
+Beton : MR
+45
+ kg/cm2
+Tanah dasar : k
+4.0
+ kg/cm3
+Konfigurasi
+Beban
+FK =
+Repetisi
+Tegangan yg
+Perband.
+Repitisi
+%
+sumbu
+sumbu (ton)
+1.20
+beban
+terjadi
+tegangan
+beban
+fatique
+(kg/cm2)
+ijin
+STRT
+2.0
+2.40
+876,945
+-
+-
+-
+0.00
+STRT
+2.8
+3.36
+12,018,459
+-
+-
+-
+0.00
+STRT
+3.0
+3.60
+19,609,064
+-
+-
+-
+0.00
+STRG1
+4.0
+4.80
+876,945
+-
+-
+-
+0.00
+STRG1
+5.5
+6.60
+12,018,459
+-
+-
+-
+0.00
+STRT
+5.6
+6.72
+1,595,752
+14.00
+0.31
+-
+0.00
+STRG1
+6.0
+7.20
+19,609,064
+14.00
+0.31
+-
+0.00
+STRT
+6.2
+7.44
+5,779,211
+14.00
+0.31
+-
+0.00
+STRT
+7.4
+8.88
+2,846,477
+14.00
+0.31
+-
+0.00
+STRG1
+8.5
+10.20
+3,191,505
+14.00
+0.31
+-
+0.00
+STRG1
+8.8
+10.56
+1,595,752
+14.30
+0.32
+-
+0.00
+STRG2
+17.3
+20.76
+5,692,954
+16.00
+0.36
+-
+0.00
+STRG2
+18.8
+22.56
+5,779,211
+17.10
+0.38
+-
+0.00
+Total
+0.00
+(OK)
+26 cm
+Mpdul RD 11 Perencanaan Perkerasan Jalan 
+ Lampiran   
+ 
+Pelatihan Road Design Engineer (RDE) 
+L - 5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LAMPIRAN - 3 
+ 
+Contoh perhitungan tebal perkerasan kaku 
+Metode AASHTO 1993 
+Mpdul RD 11 Perencanaan Perkerasan Jalan 
+ Lampiran   
+ 
+Pelatihan Road Design Engineer (RDE) 
+L - 6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN RIGID PAVEMENT - AASHTO 1993
+Umur rencana
+:
+20
+ tahun
+Design ESAL
+:
+51,195,760
+CBR
+:
+6.0
+Modulus reaksi tanah dasar (k)
+:
+4.4
+ kg/cm3 =
+160
+ pci
+Modulus elastisitas beton (Ec)
+:
+280,000
+ kg/cm2 =
+4,000,000
+ psi
+Flexural strength (S'c)
+:
+45
+ kg/cm2 =
+640
+ psi
+Load transfer coefficient (J)
+:
+2.55
+Drainage coefficient (Cd)
+:
+1.15
+Terminal serviceability (pt)
+:
+2.5
+Initial serviceability (po)
+:
+4.5
+Serviceability loss (PSI)
+:
+2.0
+Reliability(R)
+:
+90.00
+ %
+Standard normal deviation (Zr)
+:
+-1.282
+Standard deviation (So)
+:
+0.35
+Tebal plat rigid pavement (D)
+:
+10.70
+ in. =
+27.00
+ cm
+Check equation
+:
+7.71
+=
+7.71
+Lean concrete  
+8  cm
+PAKET I : BALIKPAPAN - SAMBOJA
+VDF BALIKPAPAN - SAMARINDA 2004
+Pelat beton  
+27  cm
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+ Modulus reaksi tanah dasar (K), pci
+309
+309
+309
+309
+309
+309
+309
+309
+309
+309
+309
+309
+309
+309
+ Eff. modulus of subgrade reaction (k), pci
+110
+110
+110
+110
+110
+110
+110
+110
+110
+110
+110
+110
+110
+110
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+ Drainage coefficient (Cd)
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+ Standard normal deviation (Zr)
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+ Standard deviation (So)
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+ Tebal plat rigid pavement (D), in.
+10.02
+10.47
+10.85
+11.15
+11.42
+11.62
+11.82
+12.02
+12.20
+12.36
+12.50
+12.65
+12.80
+12.90
+ Tebal plat beton (D), cm
+25
+27
+28
+28
+29
+30
+30
+31
+31
+31
+32
+32
+33
+33
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Parameter desain : Kondisi 1
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Paramater desain : Kondisi 2
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+ Modulus reaksi tanah dasar (K), pci
+387
+387
+387
+387
+387
+387
+387
+387
+387
+387
+387
+387
+387
+387
+ Eff. modulus of subgrade reaction (k), pci
+130
+130
+130
+130
+130
+130
+130
+130
+130
+130
+130
+130
+130
+130
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+ Drainage coefficient (Cd)
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+ Standard normal deviation (Zr)
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+ Standard deviation (So)
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+ Tebal plat rigid pavement (D), in.
+9.95
+10.40
+10.77
+11.07
+11.35
+11.55
+11.75
+11.97
+12.12
+12.30
+12.42
+12.60
+12.75
+12.82
+ Tebal plat beton (D), cm
+25
+26
+27
+28
+29
+29
+30
+30
+31
+31
+32
+32
+32
+33
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 9 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Parameter desain : Kondisi 3
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ Modulus reaksi tanah dasar (K), pci
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+ Eff. modulus of subgrade reaction (k), pci
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+ Drainage coefficient (Cd)
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+ Standard normal deviation (Zr)
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+ Standard deviation (So)
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+ Tebal plat rigid pavement (D), in.
+9.87
+10.30
+10.65
+10.97
+11.25
+11.45
+11.67
+11.85
+12.05
+12.20
+12.35
+12.50
+12.65
+12.72
+ Tebal plat beton (D), cm
+25
+26
+27
+28
+29
+29
+30
+30
+31
+31
+31
+32
+32
+32
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 10 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Paramater desain : Kondisi 4
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ Modulus reaksi tanah dasar (K), pci
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+ Eff. modulus of subgrade reaction (k), pci
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+ Drainage coefficient (Cd)
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+85.00
+85.00
+85.00
+85.00
+85.00
+85.00
+85.00
+85.00
+85.00
+85.00
+85.00
+85.00
+85.00
+85.00
+ Standard normal deviation (Zr)
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+-1.037
+ Standard deviation (So)
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+ Tebal plat rigid pavement (D), in.
+9.55
+9.97
+10.35
+10.65
+10.90
+11.10
+11.30
+11.50
+11.67
+11.85
+11.95
+12.15
+12.25
+12.35
+ Tebal plat beton (D), cm
+24
+25
+26
+27
+28
+28
+29
+29
+30
+30
+30
+31
+31
+31
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 11 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Paramater desain : Kondisi 5
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ Modulus reaksi tanah dasar (K), pci
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+ Eff. modulus of subgrade reaction (k), pci
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+ Drainage coefficient (Cd)
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+95.00
+95.00
+95.00
+95.00
+95.00
+95.00
+95.00
+95.00
+95.00
+95.00
+95.00
+95.00
+95.00
+95.00
+ Standard normal deviation (Zr)
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+-1.645
+ Standard deviation (So)
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+ Tebal plat rigid pavement (D), in.
+10.30
+10.77
+11.15
+11.50
+11.75
+11.97
+12.20
+12.40
+12.60
+12.75
+12.90
+13.05
+13.20
+13.30
+ Tebal plat beton (D), cm
+26
+27
+28
+29
+30
+30
+31
+31
+32
+32
+33
+33
+34
+34
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Parameter desain : Kondisi 6
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ Modulus reaksi tanah dasar (K), pci
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+ Eff. modulus of subgrade reaction (k), pci
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+ Drainage coefficient (Cd)
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+ Standard normal deviation (Zr)
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+ Standard deviation (So)
+0.30
+0.30
+0.30
+0.30
+0.30
+0.30
+0.30
+0.30
+0.30
+0.30
+0.30
+0.30
+0.30
+0.30
+ Tebal plat rigid pavement (D), in.
+9.62
+10.05
+10.42
+10.72
+11.00
+11.20
+11.40
+11.60
+11.75
+11.95
+12.05
+12.22
+12.35
+12.45
+ Tebal plat beton (D), cm
+24
+26
+26
+27
+28
+28
+29
+29
+30
+30
+31
+31
+31
+32
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 13 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Parameter desain : Kondisi 7
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ Modulus reaksi tanah dasar (K), pci
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+ Eff. modulus of subgrade reaction (k), pci
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+ Drainage coefficient (Cd)
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+ Standard normal deviation (Zr)
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+ Standard deviation (So)
+0.40
+0.40
+0.40
+0.40
+0.40
+0.40
+0.40
+0.40
+0.40
+0.40
+0.40
+0.40
+0.40
+0.40
+ Tebal plat rigid pavement (D), in.
+10.10
+10.55
+10.90
+11.22
+11.50
+11.70
+11.92
+12.15
+12.30
+12.50
+12.60
+12.80
+12.92
+13.00
+ Tebal plat beton (D), cm
+26
+27
+28
+28
+29
+30
+30
+31
+31
+32
+32
+33
+33
+33
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 14 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Parameter desain : Kondisi 8
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ Modulus reaksi tanah dasar (K), pci
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+ Eff. modulus of subgrade reaction (k), pci
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+ Drainage coefficient (Cd)
+1.10
+1.10
+1.10
+1.10
+1.10
+1.10
+1.10
+1.10
+1.10
+1.10
+1.10
+1.10
+1.10
+1.10
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+ Standard normal deviation (Zr)
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+ Standard deviation (So)
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+ Tebal plat rigid pavement (D), in.
+10.10
+10.55
+10.92
+11.22
+11.50
+11.72
+11.92
+12.15
+12.30
+12.50
+12.60
+12.80
+12.92
+13.00
+ Tebal plat beton (D), cm
+26
+27
+28
+28
+29
+30
+30
+31
+31
+32
+32
+33
+33
+33
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 15 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Parameter desain : Kondisi 9
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ Modulus reaksi tanah dasar (K), pci
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+ Eff. modulus of subgrade reaction (k), pci
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+2.55
+ Drainage coefficient (Cd)
+1.20
+1.20
+1.20
+1.20
+1.20
+1.20
+1.20
+1.20
+1.20
+1.20
+1.20
+1.20
+1.20
+1.20
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+ Standard normal deviation (Zr)
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+ Standard deviation (So)
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+ Tebal plat rigid pavement (D), in.
+9.62
+10.05
+10.42
+10.75
+11.00
+11.20
+11.40
+11.60
+11.75
+11.95
+12.05
+12.25
+12.35
+12.45
+ Tebal plat beton (D), cm
+24
+26
+26
+27
+28
+28
+29
+29
+30
+30
+31
+31
+31
+32
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Parameter desain : Kondisi 10
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ Modulus reaksi tanah dasar (K), pci
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+ Eff. modulus of subgrade reaction (k), pci
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.50
+2.50
+2.50
+2.50
+2.50
+2.50
+2.50
+2.50
+2.50
+2.50
+2.50
+2.50
+2.50
+2.50
+ Drainage coefficient (Cd)
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+ Standard normal deviation (Zr)
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+ Standard deviation (So)
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+ Tebal plat rigid pavement (D), in.
+9.75
+10.20
+10.55
+10.85
+11.15
+11.35
+11.55
+11.75
+11.90
+12.07
+12.20
+12.37
+12.50
+12.60
+ Tebal plat beton (D), cm
+25
+26
+27
+28
+28
+29
+29
+30
+30
+31
+31
+31
+32
+32
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+Modul RDE 11 Perencanaan Perkerasan Jalan                                                                                                                                                                      Lampiran                           
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                    L - 17 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERENCANAAN TEBAL PELAT RIGID PAVEMENT - AASHTO 1993
+Parameter desain : Kondisi 11
+Design ESAL ( x 1000000 )
+30
+40
+50
+60
+70
+80
+90
+100
+110
+120
+130
+140
+150
+160
+ CBR, %
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+6
+ Modulus reaksi tanah dasar (K), pci
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+464
+ Eff. modulus of subgrade reaction (k), pci
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+160
+ Kuat tekan beton (fc'), kg/cm2
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+350
+ Modulus elastisitas beton (Ec), psi
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+4,020,000
+ Flexural strength (Sc'), kg/cm2
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+45
+ Flexural strength (Sc'), psi
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+640
+ Load transfer coefficient (J)
+2.60
+2.60
+2.60
+2.60
+2.60
+2.60
+2.60
+2.60
+2.60
+2.60
+2.60
+2.60
+2.60
+2.60
+ Drainage coefficient (Cd)
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+1.15
+ Terminal serviceability (pt)
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+2.5
+ Initial serviceability (po)
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+4.5
+ Serviceability loss (PSI)
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+2.0
+ Reliability (R), %
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+90.00
+ Standard normal deviation (Zr)
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+-1.282
+ Standard deviation (So)
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+0.35
+ Tebal plat rigid pavement (D), in.
+9.95
+10.40
+10.77
+11.10
+11.35
+11.57
+11.77
+12.00
+12.15
+12.32
+12.45
+12.65
+12.75
+12.85
+ Tebal plat beton (D), cm
+25
+26
+27
+28
+29
+29
+30
+30
+31
+31
+32
+32
+32
+33
+ Check equation
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+7.48
+7.60
+7.70
+7.78
+7.85
+7.90
+7.95
+8.00
+8.04
+8.08
+8.11
+8.15
+8.18
+8.20
+                                                                                             Lampiran                                                                                                      
+ 
+Pelatihan Road Design Engineer (RDE) 
+L - 18 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LAMPIRAN - 4 
+ 
+Vehicle Damage Factor 
+ 
+                                                                                        Lampiran                                                                                                      
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                   L - 19 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERHITUNGAN ANGKA EKIVALEN BEBAN SUMBU KENDARAAN (VEHICLE DAMAGE FACTOR)
+BINA MARGA NO. 01/MN/BM/83 : MST-10
+Berat
+Konfigurasi beban sumbu roda (ton)
+Vehicle
+No.
+Type kendaraan & konfigurasi sumbu
+total
+Depan
+Belakang
+Damage
+(ton)
+ST,RT
+ke-1
+ke-2
+ke-3
+ke-4
+ke-5
+Factor
+1
+ Sedan, jeep, st. wagon
+2
+1.1
+2.00
+1.00
+1.00
+0.0005
+ST,RT
+2
+ Pick-up, combi
+3
+1.2
+8.30
+2.82
+5.48
+0.2174
+ST,RG
+3
+ Truck 2 as (L),
+4
+1.2L
+8.30
+2.82
+5.48
+0.2174
+ micro truck, mobil hantaran
+ST,RG
+4
+ Bus kecil
+5a
+1.2
+8.30
+2.82
+5.48
+0.2174
+ST,RG
+5
+ Bus besar
+5b
+1.2
+9.00
+3.06
+5.94
+0.3006
+ST,RG
+6
+ Truck 2 as (H)
+6
+1.2H
+15.15
+5.15
+10.00
+2.4159
+ST,RG
+7
+ Truck 3 as
+7a
+1.2.2
+25.00
+6.25
+9.38
+9.38
+2.7416
+SG,RG SG,RG
+8
+ Trailer 4 as, truck gandengan
+7b
+1.2+2.2
+31.40
+5.65
+8.79
+8.48
+8.48
+3.9083
+ST,RG ST,RG ST,RG
+9
+ Truck S. Trailer
+7c
+1.2.2+2.2
+40.13
+5.88
+10.00
+10.00
+7.00
+7.25
+4.1718
+SG,RG SG,RG SG,RG SG,RG
+Keterangan :
+- ST,RT
+: Sumbu Tunggal, Roda Tunggal
+- ST,RG
+: Sumbu Tunggal, Roda Ganda
+- SG,RG
+: Sumbu Ganda, Roda Ganda
+                                                                                        Lampiran                                                                                                      
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                   L - 20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERHITUNGAN ANGKA EKIVALEN BEBAN SUMBU KENDARAAN (VEHICLE DAMAGE FACTOR)
+NAASRA : MST-10
+Type kendaraan &
+Berat
+Konfigurasi beban sumbu roda (ton)
+Vehicle
+No.
+Konfigurasi sumbu
+total
+Depan
+Belakang
+Damage
+(ton)
+ST,RT
+ke-1
+ke-2
+ke-3
+ke-4
+ke-5
+Factor
+1
+ Sedan, jeep, st. wagon
+2
+1.1
+2.00
+1.00
+1.00
+0.0024
+ST,RT
+2
+ Pick-up, combi
+3
+1.2
+8.30
+2.82
+5.48
+0.2738
+ST,RG
+3
+ Truck 2 as (L),
+4
+1.2L
+8.30
+2.82
+5.48
+0.2738
+ micro truck, mobil hantaran
+ST,RG
+4
+ Bus kecil
+5a
+1.2
+8.30
+2.82
+5.48
+0.2738
+ST,RG
+5
+ Bus besar
+5b
+1.2
+9.00
+3.06
+5.94
+0.3785
+ST,RG
+6
+ Truck 2 as (H)
+6
+1.2H
+15.15
+5.15
+10.00
+3.0421
+ST,RG
+7
+ Truck 3 as
+7a
+1.2.2
+25.00
+6.25
+9.38
+9.38
+5.4074
+SG,RG SG,RG
+8
+ Trailer 4 as, truck gandengan
+7b
+1.2+2.2
+31.40
+5.65
+8.79
+8.48
+8.48
+4.8071
+ST,RG ST,RG ST,RG
+9
+ Truck S. Trailer
+7c
+1.2.2+2.2
+40.13
+5.88
+10.00
+10.00
+7.00
+7.25
+7.2881
+SG,RG SG,RG SG,RG SG,RG
+Keterangan :
+- ST,RT
+: Sumbu Tunggal, Roda Tunggal
+- ST,RG
+: Sumbu Tunggal, Roda Ganda
+- SG,RG
+: Sumbu Ganda, Roda Ganda
+                                                                                        Lampiran                                                                                                      
+ 
+Pelatihan Road Design Engineer (RDE)                                                                                                                                                                                                                                   L - 21 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERHITUNGAN ANGKA EKIVALEN BEBAN SUMBU KENDARAAN (VEHICLE DAMAGE FACTOR)
+PUSTRANS 2002
+Type kendaraan &
+Berat
+Konfigurasi beban sumbu roda (ton)
+Vehicle
+No.
+Konfigurasi sumbu
+total
+Depan
+Belakang
+Damage
+(ton)
+ST,RT
+ke-1
+ke-2
+ke-3
+ke-4
+ke-5
+Factor
+1
+ Sedan, jeep, st. wagon
+2
+Gol-1
+1.1
+1.50
+0.70
+0.80
+0.0001
+ST,RT
+2
+ Pick-up, combi
+3
+Gol-2
+1.2
+7.71
+2.66
+5.05
+0.1580
+ST,RG
+3
+ Truck 2 as (L),
+4
+Gol-2
+1.2L
+7.71
+2.66
+5.05
+0.1580
+ micro truck, mobil hantaran
+ST,RG
+4
+ Bus kecil
+5a
+Gol-2
+1.2
+7.71
+2.66
+5.05
+0.1580
+ST,RG
+5
+ Bus besar
+5b
+Gol-9
+1.2
+12.07
+5.03
+7.04
+0.6984
+ST,RG
+6
+ Truck 2 as (H)
+6
+Gol-3
+1.2H
+14.83
+4.47
+10.36
+2.6883
+ST,RG
+7
+ Truck 3 as
+7a
+Gol-4
+1.2.2
+29.36
+7.01
+11.20
+11.15
+5.3847
+SG,RG SG,RG
+8
+ Trailer 4 as, truck gandengan
+7b
+Gol-6
+1.2+2.2
+32.54
+4.91
+11.26
+8.47
+7.90
+5.7962
+ST,RG ST,RG ST,RG
+9
+ Truck S. Trailer
+7c
+Gol-8 1.2.2+2.2
+40.20
+5.88
+10.00
+10.07
+7.00
+7.25
+4.2155
+SG,RG SG,RG SG,RG SG,RG
+Keterangan :
+- ST,RT
+: Sumbu Tunggal, Roda Tunggal
+- ST,RG
+: Sumbu Tunggal, Roda Ganda
+- SG,RG
+: Sumbu Ganda, Roda Ganda
