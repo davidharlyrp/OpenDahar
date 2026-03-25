@@ -9,6 +9,14 @@ try:
 except ImportError:
     HAS_SAFETENSORS = False
 
+try:
+    from tqdm import tqdm
+except ImportError:
+    # Jika tqdm tidak ada, kita buat wrapper kosong (dummy) agar kode tidak error
+    print("[Warning] tqdm tidak ditemukan. Disarankan install: pip install tqdm")
+    def tqdm(iterable, **kwargs):
+        return iterable
+
 # ==========================================
 # 1. Konfigurasi Bobot (Hyperparameters)
 # ==========================================
@@ -48,11 +56,16 @@ print(f"Total Karakter Keseluruhan: {len(text)/1e6:.2f} Juta ({len(text)})\n")
 # 3. Manual Tokenizer (Karakter-Level)
 # ==========================================
 vocab_path = os.path.join(data_dir, "vocab.json")
-if os.path.exists(vocab_path) and os.path.exists("model_geoteknik.pth"):
+model_path_pth = "model_geoteknik.pth"
+model_path_safe = "model_geoteknik.safetensors"
+
+# Memuat vocabulary lama jika model sudah ada untuk menjaga konsistensi shape matriks
+if os.path.exists(vocab_path) and (os.path.exists(model_path_pth) or (HAS_SAFETENSORS and os.path.exists(model_path_safe))):
     print(f"[Info] Memuat vocabulary lama dari '{vocab_path}' (Menjaga konsistensi shape matriks)...")
     with open(vocab_path, "r", encoding="utf-8") as f:
         chars = json.load(f)
 else:
+    print(f"[Info] Membuat vocabulary baru dari dataset...")
     chars = sorted(list(set(text)))
 
 vocab_size = len(chars)
@@ -243,8 +256,7 @@ class PyTorchGenModel(nn.Module):
 model = PyTorchGenModel()
 
 # --- MODIFIKASI: Memuat Model Jika Sudah Ada ---
-model_path_pth = "model_geoteknik.pth"
-model_path_safe = "model_geoteknik.safetensors"
+# (Path model sudah didefinisikan di bagian Tokenizer di atas)
 
 if HAS_SAFETENSORS and os.path.exists(model_path_safe):
     print(f"\n[Info] Ditemukan bobot model safetensors di '{model_path_safe}'.")
@@ -268,11 +280,18 @@ if __name__ == "__main__":
     print(f"Total Parameter Model: {total_params / 1e6:.2f} Juta ({total_params})")
     print(f"Menjalankan training dengan Device: {device}...")
     print(f"=====================================")
-    for iter in range(max_iters):
-        # Cetak metrik Evaluasi reguler
+    
+    # Progress bar untuk memantau proses training
+    pbar = tqdm(range(max_iters), desc="Training Model", unit="iter")
+    
+    for iter in pbar:
+        # Cetak metrik Evaluasi reguler ke progress bar (tidak print line baru)
         if iter % eval_interval == 0 or iter == max_iters - 1:
             losses = estimate_loss()
-            print(f"Iterasi {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+            pbar.set_postfix({
+                'train_loss': f"{losses['train']:.4f}", 
+                'val_loss': f"{losses['val']:.4f}"
+            })
 
         # Ambil sampel batch baru
         xb, yb = get_batch('train')
