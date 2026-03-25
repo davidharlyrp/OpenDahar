@@ -1,0 +1,3249 @@
+DEEPSOIL User Manual V 7.0
+Page 1 of 169
+April 4, 2024
+
+Nonlinear and Equivalent Linear Seismic Site Response of
+One-Dimensional Soil Columns
+Version 7.0 http://deepsoil.cee.illinois.edu/
+April 4, 2024
+USER MANUAL
+Youssef M. A. Hashash
+
+Department of Civil and Environmental Engineering
+University of Illinois at Urbana-Champaign hashash@illinois.edu
+
+When referencing the DEEPSOIL program in a publication (such as journal or conference papers, or professional engineering reports) please use the following reference format
+DEEPSOIL (2024, V7.0), A nonlinear and Equivalent Linear Seismic Site Response of 1-D Soil
+Columns, User Manual. Board of Trustees of University of Illinois at Urbana-Champaign, Urbana, IL.
+
+TABLE OF CONTENTS
+Program Background and Installation
+1.1
+About the Program
+1.2
+A Word of Advise and Caution
+1.3
+Historical Development
+1.4
+Program Installation
+Program Organization
+2.1
+Profiles Tab
+2.2
+Motions Tab
+2.2.1
+Baseline Correction
+2.2.2
+Response Spectra Calculation Methods
+2.2.3
+Fourier Amplitude Spectrum Calculation and Smoothing Operation
+2.2.4
+Arias Intensity
+2.2.5
+Significant Duration
+2.2.6
+Housner Intensity
+2.2.7
+Estimation of Kappa (κ)
+2.2.8
+Adding New Input Motions
+2.3
+Analysis Tab
+Analysis Flow
+3.1
+Analysis Definition: Step 1 of 5
+3.1.1
+Linear Analysis
+3.1.2
+Equivalent Linear Analysis
+3.1.3
+Deconvolution via Frequency Domain Analysis
+3.1.4
+Non-Linear Analysis
+3.2
+Soil Profile Definition: Step 2 of 5
+3.2.1
+Single Element Test
+3.2.2
+Maximum Frequency (for Time Domain Analysis only)
+3.2.3
+Implied Strength Profile (Step 2)
+3.2.4
+Halfspace Definition (Bedrock)
+3.3
+Step 3 of 5: Input Motion Selection
+3.4
+Step 4 of 5: Viscous/Small-Strain Damping Definition
+3.4.1
+Frequency Independent Damping Formulation
+3.4.2
+Rayleigh Damping formulation types
+3.5
+Step 5 of 5: Analysis Control Definition
+3.5.1
+Frequency domain analysis
+3.5.2
+Time domain analysis
+3.6
+Results
+3.6.1
+Time History Plots tab
+3.6.2
+Stress-Strain Plots tab
+3.6.3
+Spectral Plots tab
+3.6.4
+Profile Plots tab
+3.6.5
+Mobilized Strength tab
+3.6.6
+Displacement Animation tab
+3.6.7
+Response Spectra Summary tab
+3.6.8
+Check Convergence tab
+3.6.9
+Output data file
+3.6.10
+Output I-soil/LSDYAN input file
+Soil Models
+4.1
+Backbone Curves
+4.1.1
+Hyperbolic / Pressure-Dependent Hyperbolic (MKZ)
+4.1.2
+Generalized Quadratic/Hyperbolic (GQ/H) Model with Shear Strength Control
+4.2
+Hysteretic (Unload-Reload) Behavior
+4.2.1
+Masing Rules
+4.2.2
+Non-Masing Unload-Reload Rules
+4.3
+Porewater Pressure Generation & Dissipation
+4.3.1
+Dobry/Matasovic Model for Sand
+4.3.2
+Matasovic and Vucetic Model for Clays
+4.3.3
+GMP (Green, Mitcher and Polito) Model for Cohesionless Soil
+4.3.4
+Generalized Energy-based PWP Generation Model
+4.3.5
+Park and Ahn Model for Sand
+4.3.6
+Porewater Pressure Degradation Parameters
+4.3.7
+Porewater Pressure Dissipation
+Automatic profile generation
+5.1
+Layer subdivision
+5.2
+Randomization
+5.3
+Interface features
+Database Output Structure
+6.1
+Database Structure for Analyses Output
+Examples and Tutorials
+7.1
+Example 1: Undamped Linear Analysis with Resonance
+7.2
+Example 2: Undamped Linear Analysis with Elastic Bedrock
+7.3
+Example 3: Damped Linear Analysis with Elastic Bedrock
+7.4
+Example 4: Equivalent Linear Analysis with Discrete Points
+7.5
+Example 5: Nonlinear Analysis (MKZ Soil Model with Masing Re/Unloading
+Behavior)
+7.6
+Example 6: Nonlinear Analysis (GQ/H Soil Model with Non-Masing Re/Unloading
+Behavior)
+7.7
+Example 7: Nonlinear Analysis / Multi-Layer, Elastic Rock, Pore Water Pressure
+Generation and Dissipation
+7.8
+Example 8: Nonlinear Analysis / Multi-Layer, Elastic Rock, Pore Pressure
+Generation and Dissipation
+7.9
+Example 9: Equivalent Linear Frequency Domain Analysis / Multi-Layer, Elastic
+Rock, Bay Mud Profile
+7.10
+Example 10: Nonlinear Analysis / Multi-Layer, Rigid Rock, Treasure Island Profile
+
+7.11
+Example 11: Nonlinear Analysis / Multi-Layer, Elastic Rock, MRDF
+7.12
+Example 12: Nonlinear Analysis with Auto-Profile Generation Option:
+7.13
+Example 13: Nonlinear Analysis with Randomized Soil Profile:
+7.14
+Example 14: Nonlinear Analysis by Soil Profile with various Soil Models at Different
+Layers:
+References
+APPENDICES
+LIST OF TABLES
+Table 3.1. Available analysis option in DEEPSOIL 7
+Table 3.2. IDs of different Soil Models in DEEPSOIL – Soil Model Descriptions
+Table 4.1 Available Excess Pore Water Pressure Generation Models and Parameters
+Table 4.2 Description of Dobry/Matasovic Model Parameters
+Table 4.3: Material Parameters for Low Plasticity Silts and Sands for the Matasovic and Vucetic
+(1993) pore pressure generation model (From Carlton, 2014)
+Table 4.4 Description of Matasovic and Vucetic Model Parameters
+Table 4.5 Material parameters for the Matasovic and Vucetic (1995) clay pore pressure generation model (From Carlton, 2014)
+Table 4.6 Description of GMP Model Parameters
+Table 4.7 Description of Generalized Model Parameters
+Table 4.8 Description of Park and Ahn Model Parameters
+Table 7.1 Description of “options” dictionary instances
+Table 7.2 Description of “default_options” dictionary instances
+Table 7.3 Description of “GQH_FITTING_PARAMETERS” dictionary instances
+Table 7.4 Properties in layer properties template
+Table 7.5 Properties in bedrock template
+Table 7.6 General Settings line-by-line description
+Table 7.7 Layer-specific parameters line-by-line description
+Table 7.8 Bedrock definition line-by-line description
+Table 7.9 Output settings
+Table 8.1 Analyses properties and input motions for Example 1
+Table 8.2 Analyses properties and input motions for Example 2
+Table 8.3 Analyses properties and input motions for Example 3
+Table 8.4 Analyses properties and input motions for Example 4
+Table 8.5 Analyses properties and input motions for Example 5
+Table 8.6 Analyses properties and input motions for Example 6
+Table 8.7 Sand-Vucetic Dobry PWP model parameters for Sand layer
+Table 8.8 GMP PWP model parameters for Sand layer
+
+LIST OF FIGURES
+Figure 2.1. DEEPSOIL Main Window and Key Tabs as (a) Analysis Tab, (b) Motions Tab, and
+(c) Profiles Tab
+Figure 2.2. DEEPSOIL Options Window.
+Figure 2.3. Motion Viewer (right-click choices on Plots)
+Figure 2.4. Motion Viewer (Motion Metrics and Tools)
+Figure 2.5 Single Motion View
+Figure 2.6. Baseline Correction.
+Figure 2.7 Kappa Estimator
+Figure 3.1. Step 1/5: Choose type of analysis.
+Figure 3.2. Choose the Default Working Directory.
+Figure 3.3. Input Summary window.
+Figure 3.4. Deconvolution analysis parameters.
+Figure 3.5. Complementary Equivalent Linear-Frequency Domain analysis.
+Figure 3.6. Soil Profile Definition – Advanced Table View window.
+Figure 3.7. Layer Properties Tab.
+Figure 3.8 Single Element Test Window
+Figure 3.9. Soil Profile Plot.
+Figure 3.10. Halfspace Definition – “Bedrock”.
+Figure 3.11. Input Motion Selection.
+Figure 3.12. Dropdown tools menu.
+Figure 3.13. Viscous/Small-Strain Damping Definition.
+Figure 3.14. Analysis Control Definition.
+Figure 3.15. Analysis Running.
+Figure 3.16. Results - Time History Plots.
+Figure 3.17. Results – Stress Strain Plots.
+Figure 3.18. Results – Spectral Plots.
+Figure 3.19. Results – Profile Plots.
+Figure 3.20. Results – Mobilized Strength.
+Figure 3.21. Results – Displacement Animation.
+Figure 3.22. Results – Response Spectra Summary.
+Figure 3.23 Check Convergence Tab
+Figure 4.1 a) Carlton (2014), best fit correlating Vs (m/sec) to parameter F of Dobry pore water pressure model for sands. b) Carlton (2014), best fit correlating FC (%) to parameter s of Dobry pore water pressure model for sands
+Figure 4.2 Proposed correlation to estimate curve-fitting parameter F (Mei et al. 2015)
+Figure 4.3 Comparison of the curves given by Matasovic (1993) and Vucetic (1992) (solid black lines) for t, for different values of PI and OCR and the correlations presented (dotted red lines).
+(Carlton, 2014)
+Figure 6.1 DEEPSOIL V7.0 Output Structure
+Figure 7.1 Soil profile of Example 1
+Figure 7.2 Step 1: Analysis Type Definition for Example 1A
+Figure 7.3 Step 2: Soil Profile Definition for Example 1A and 1B
+Figure 7.4 Step 2: Bedrock Profile Definition in Example 1A and 1B
+Figure 7.5 Step 2: Soil profile plot for Example 1A and 1B
+Figure 7.6 Step 3: Input motion selection window for Example 1A and 1B
+Figure 7.7 Step 4: Viscous/Small-Strain Damping Definition for Example 1B
+Figure 7.8 Step 5: Analysis Control Definition Window for Example 1A
+Figure 7.9 Step 5: Analysis Control Definition for Example 1B
+Figure 7.10 Results: Acceleration, Velocity, Displacement and Arias Intensity Time-Histories for
+Example 1A
+Figure 7.11 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and
+Fourier Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Example 1A
+Figure 7.12 Results: Exporting Analysis Results using Export to Excel Option
+Figure 7.13 Results: Excel Output for Analysis Results for Example 1A
+Figure 7.14 Results: Acceleration, Velocity, Displacement and Arias Intensity Time-Histories for
+Example 1B
+Figure 7.15 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and
+Fourier Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Example 1B
+Figure 7.16 Soil profile of Example 2
+Figure 7.17 Step 2: Bedrock Profile Definition for Example 2A and 2B
+Figure 7.18 Results: Acceleration, Velocity, Displacement and Arias Int. Time-Histories for
+Example 2A
+Figure 7.19 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and
+Fourier Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Example 2A
+Figure 7.20 Results: Acceleration, Velocity, Displacement and Arias Int. Time-Histories for
+Example 2B
+Figure 7.21 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and
+Fourier Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Example 2B
+Figure 7.22 Soil profile of Example 3
+Figure 7.23 Result: Computed Time-Histories (Acceleration, velocity, displacement, and Arias
+Intensity) for Layer 1 for Example 3A
+Figure 7.24 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for
+Input Motion for Example_3A
+Figure 7.25 Result: Computed Time-Histories (Acceleration, velocity, displacement, and Arias
+Intensity) for Layer 1 for Example 3B
+Figure 7.26 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for
+Input Motion for Example_3B
+Figure 7.27 Soil profile of Example 4
+Figure 7.28 Result: Computed Time-Histories (Acceleration, velocity, displacement, and Arias
+Intensity) for Layer 1 for Example 4
+Figure 7.29 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for
+Input Motion for Example_3A
+Figure 7.30 Soil profile of Example 5
+Figure 7.31 5% Damped Spectral Acceleration and Fourier Amplitude Spectrum computed at
+Ground Surface for Nonlinear and Equivalent-Linear Analyses using DC, MR and MRD fitting procedures along with those for Input Motion
+Figure 7.32 Soil profile of Example 6
+Figure 7.33 Step 1: Analysis Type Definition for Example 6.
+Figure 7.34 Step 2: Soil Profile Definition for Example 6
+Figure 7.35 Step 2: Shear Strength Input for Soil Layer 1
+Figure 7.36 Step 2: Definition of Darendeli (2001) Dynamic Curve
+Figure 7.37 Step 2: Application of “MRDF with UIUC Reduction Factor” Option
+Figure 7.38 Step 2: Fitting of GQ/H Model
+Figure 7.39 Step 2: GQ/H Model Fit and Model Parameters for Layer 1
+Figure 7.40 Step 5: Analysis Control Definition for Example 6
+Figure 7.41 Result: Computed Time-Histories (Acceleration, velocity, displacement, and Arias
+Intensity) for Layer 1 via Nonlinear Analysis (blue line) and Equivalent-Linear Analysis (red line) methods
+Figure 7.42 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for
+Input Motion via Nonlinear Analysis Method
+Figure 7.43 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for
+Input Motion via Equivalent-Linear Analysis Method
+Figure 7.44 Step 1: Analysis Type Definition for Example 7
+Figure 7.45 Step 2: Soil Profile in Nonlinear Analysis with PWP Generation and Dissipation
+Figure 7.46 Step 2: Definition of Parameters for PWP Generation and Dissipation Model of Sand-
+Vucetic/Dobry Model
+Figure 7.47 Step 2: Halfspace Definition
+Figure 7.48 Step 2: Soil Profile Plot
+Figure 7.49 Step 3: Time Histories, FAS and 5% Damped Spectral Acceleration for Kobe motion
+Figure 7.50 Results: Profile Plots after analyses
+Figure 7.51 Results: Acceleration, Velocity, Displacement and Arias Intensity Time-Histories for
+Example 7 for Layer 1 (blue line) and Layer 3 (red line).
+Figure 7.52 Results: Stress-Strain plots for Layer 1 (blue line) and Layer 3 (red line)
+Figure 7.53 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and
+Fourier Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Layer 1
+(blue line) and Layer 3 (red line)
+Figure 7.54 Step 2: Definition of Parameters for PWP Generation and Dissipation Model of Sand-
+GMP
+Figure 7.55 Results: Profile Plots
+Figure 7.56 Step 3: Time Histories, FAS and 5% Damped Spectral Acceleration for Kobe motion
+Figure 7.57 Results: Stress-Strain plots for Layer 1 (blue line) and Layer 3 (red line)
+Figure 7.58 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and
+Fourier Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Layer 1
+(blue line) and Layer 3 (red line)
+Figure 7.59 Step 2: Soil Profile Definition
+Figure 7.60 Step 2: Bedrock Profile Definition in Example 9
+Figure 7.61 Step 2: Soil profile plot
+Figure 7.62 Results: Computed Time-Histories (Acceleration, velocity, displacement, and Arias
+Intensity) for Layer 1
+Figure 7.63 Results: 5% Damped Spectral Acceleration for Layer 1 (blue line) and for Input
+Motion (black line)
+Figure 7.64 Step 1: Analysis Type Definition
+Figure 7.65 Step 2: Soil Profile Definition (Layer 1)
+Figure 7.66 Step 2: Bedrock Profile Definition
+Figure 7.67 Step 2: Soil profile plot
+Figure 7.68 Step 3: Properties of Kobe Motion
+Figure 7.69 Step 4: Viscous/Small-Strain Damping Definition
+Figure 7.70 Result: Computed Time-Histories (Acceleration, velocity, displacement, and Arias
+Intensity) from Nonlinear (blue line) and Equivalent-Linear Analysis (red line) for Layer 1
+Figure 7.71 Results: 5% Damped Spectral Acceleration for Layer 1 via Nonlinear Analysis
+Figure 7.72 Results: 5% Damped Spectral Acceleration for Layer 1 via Equivalent-Linear Analysis
+Figure 7.73 Step 1: Analysis Type Definition
+Figure 7.74 Step 2: Soil Profile Definition (Layer 1)
+Figure 7.75 Step 2: Halfspace Definition
+Figure 7.76 Step 2: Soil profile plots
+Figure 7.77 Step 4: Viscous/Small-Strain Damping Definition
+Figure 7.78 Result: Computed Time-Histories (Acceleration, velocity, displacement, and Arias
+Intensity) from Nonlinear (blue line) and Equivalent-Linear Analysis (red line) for Layer 1
+Figure 7.79 Results: 5% Damped Spectral Acceleration for Layer 1 via Nonlinear Analysis
+Figure 7.80 Results: 5% Damped Spectral Acceleration for Layer 1 via Equivalent-Linear Analysis
+Figure 7.81 Step 1: Analysis Type Definition
+Figure 7.82 Step 1: Inputs to Automatic Profile Generation
+Figure 7.83 Step 2: Mean Soil Profile Definition (for Layer 1)
+Figure 7.84 Step 2: Advanced Table View
+Figure 7.85 Step 2: Bedrock definition as Elastic Half-space
+Figure 7.86 Step 2: Subdivision of each Layer Thickness and GQ/H Model Fit to Layer 1
+Figure 7.87 Step 2: Soil Profile Plots
+Figure 7.88 Step 5: Parameters for Nonlinear and Equivalent-Linear Analyses
+Figure 7.89 Results: Acceleration, Velocity, Displacement and Arias Int. Time-Histories for
+Nonlinear Analysis (blue line) and Equivalent-Linear Analysis (red line)
+Figure 7.90 Results: 5% Damped Spectral Acceleration for Layer 1 (blue line) along with for Input
+Motion (black line) from Nonlinear Analysis
+Figure 7.91 Results: 5% Damped Spectral Acceleration for Layer 1 (blue line) along with for Input
+Motion (black line) from Equivalent-Linear Analysis
+Figure 7.92 Step 1: Specification of Maximum Frequency and Definition of Parameters for
+Thickness, VS and Dynamic Curve Randomization
+Figure 7.93 Step 2: Properties of Layer 1 for first Realization after Randomization
+Figure 7.94 Step 2: Export Options for Site Profile Realizations
+Figure 7.95 Randomized VS Profiles along with their logarithmic mean and 95% Confidence
+Interval on Logarithmic Mean
+Figure 7.96 Step 2: Soil Profile Plot for Profile Realizations
+Figure 7.97 Results: Acceleration, Velocity, Displacement and Arias Int. Time-Histories for
+Nonlinear Analysis
+Figure 7.98 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and
+Fourier Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Nonlinear
+Analysis
+Figure 7.99 Results: 5% Damped Spectral Acceleration for Layer 1 (blue line) along with for Input
+Motion (black line) from Equivalent-Linear Analysis
+Figure 7.100 Step 2: Basic Soil Properties and GQ/H Model Fit to Rockfill Layers (Layer 1 as representative)
+Figure 7.101 Step 2: Assignment of Linear Material to Bedrock Layers
+Figure 7.102 Step 2: Removal of Reduction Factor Formulation for linear Bedrock layers
+Figure 7.103 Step 2: Basic Soil Properties of Bedrock Layers (Layer 45 as representative)
+Figure 7.104 Step 2: Rigid half-space definition
+Figure 7.105 Step 2: Soil Profile Plots
+Figure 7.106 Results: Stress-strain plots for Soil Layer 1 (GQ/H Model with Non-Masing
+Un/Reloading Formulation (red line) and Soil Layer 43 (linear elastic soil material (blue line)
+Figure 7.107 Results: Acceleration, Velocity, Displacement and Arias Int. Time-Histories for
+Layer 1 (red line) and Layer 43 (blue line)
+Figure 7.108 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and
+Fourier Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Layer 1
+(blue line) and Layer 43 (yellow line)
+
+DEEPSOIL User Manual V 7.0
+Page 14 of 169
+April 4, 2024
+Program Background and Installation
+1.1
+About the Program
+DEEPSOIL is a one-dimensional site response analysis program that can perform: a) 1-D nonlinear time domain analyses with and without pore water pressure generation, b) 1-D equivalent linear frequency domain analyses including convolution and deconvolution, and c) 1-D linear time and frequency domain analyses.
+DEEPSOIL was developed under the direction of Prof. Youssef M.A. Hashash in collaboration with several graduate and undergraduate students including Duhee Park, Chi-Chin Tsai, Camilo
+Phillips, David R. Groholski, Daniel Turner, Michael Musgrove, Byungmin Kim and Joseph
+Harmon, Okan Ilhan, and Guangchao Xing at the University of Illinois at Urbana-Champaign. This manual was developed in collaboration with these students as well as Maria Kontari and Hua Shao.
+The program is provided as-is and the user assumes full responsibility for all results. The use of the DEEPSOIL program requires knowledge in the theory and procedures for seismic site response analysis and geotechnical earthquake engineering. It is suggested that the user reviews relevant literature and seek appropriate expertise in developing input of the analysis and interpretation of the results.
+Initial development of DEEPSOIL was based on research supported in part through Earthquake
+Engineering Research Centers Program of the National Science Foundation under Award Number
+EEC-9701785: the Mid-America Earthquake Center. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation. The authors gratefully acknowledge this support.
+By using this program, the user(s) agree to indemnify and defend Youssef Hashash and the
+University of Illinois against all claims arising from use of the software and analysis results by the user(s) including all third-party claims related to such use.
+Please see the program license for additional information.
+DEEPSOIL implements the Armadillo C++ linear algebra library (Sanderson, 2010; Sanderson,
+2016). Armadillo is an open-source software released under the Mozilla Public License 2.0. A
+DEEPSOIL User Manual V 7.0
+Page 15 of 169
+April 4, 2024 copy of this license is available at https://www.mozilla.org/MPL/2.0/. You may obtain a copy of the Armadillo source code at http://arma.sourceforge.net/download.html.
+1.2
+A Word of Advise and Caution
+The appropriate use of this software program requires significant expertise and knowledge in a number of areas including ground motions, site characterization, seismic behavior of soils and numerical modeling. Often a team effort maybe required to develop the appropriate input for the analysis and to interpret analysis results. The appropriate use of the software is exclusively the responsibility of the user.
+1.3
+Historical Development
+DEEPSOIL has been under development at UIUC since 1998. The driving motivation for the development of DEEPSOIL was, and continues to be, making site response analysis readily accessible to students, researchers and engineers worldwide and to support research activities at
+UIUC.
+In DEEPSOIL we maintain that it is always necessary to perform equivalent linear (EL) in conjunction with nonlinear (NL) site response analyses. Therefore, DEEPSOIL, since its inception, has incorporated both analysis capabilities. Version 6 of DEEPSOIL gives the user the option to automatically obtain EL analysis results whenever an NL analysis is selected, without the need to separately develop an EL profile.
+As with any development, DEEPSOIL has benefited from research at UIUC and broader research collaborations. For the interested reader, a detailed description of many of the theoretical developments and the background literature can be found in the following publications:
+▪ Hashash, Y. M., and Park, D. (2001). Non-linear one-dimensional seismic ground motion propagation in the Mississippi embayment. Engineering Geology, 62(1), 185-206.
+▪ Hashash, Y. M., and Park, D. (2002). Viscous damping formulation and high frequency motion propagation in non-linear site response analysis. Soil Dynamics and Earthquake
+Engineering, 22(7), 611-624.
+▪ Hashash, Y. M., Tsai, C. C., Phillips, C., and Park, D. (2008). Soil-column depth-dependent seismic site coefficients and hazard maps for the upper Mississippi Embayment. Bulletin of the Seismological Society of America, 98(4), 2004-2021. .
+DEEPSOIL User Manual V 7.0
+Page 16 of 169
+April 4, 2024
+▪ Hashash, Y.M.A., Phillips, C. and Groholski, D. (2010). "Recent advances in non-linear site response analysis", Fifth International Conference on Recent Advances in
+Geotechnical Earthquake Engineering and Soil Dynamics, Paper no. OSP 4.
+▪ Park, D. (2003) "Estimation of non-linear seismic site effects for deep deposits of the
+Mississippi Embayment", Ph.D. Thesis. Department of Civil and Environmental
+Engineering. Urbana: University of Illinois, p 311 p.
+▪ Park, D., and Hashash, Y. M. (2004). Soil damping formulation in nonlinear time domain site response analysis. Journal of Earthquake Engineering, 8(02), 249-274.
+▪ Park, D., and Hashash, Y. M. (2005). Evaluation of seismic site factors in the Mississippi
+Embayment. I. Estimation of dynamic properties. Soil Dynamics and Earthquake
+Engineering, 25(2), 133-144.
+▪ Park, D., & Hashash, Y. M. (2005). Evaluation of seismic site factors in the Mississippi
+Embayment. II. Probabilistic seismic hazard analysis with nonlinear site effects. Soil
+Dynamics and Earthquake Engineering, 25(2), 145-156.
+▪ Tsai, C. C. (2007). Seismic site response and extraction of dynamic soil behavior from downhole array measurements (Doctoral dissertation, University of Illinois at Urbana-
+Champaign).
+▪ Tsai, C. C., and Hashash, Y. M. (2008). A novel framework integrating downhole array data and site response analysis to extract dynamic soil behavior. Soil Dynamics and
+Earthquake Engineering, 28(3), 181-197.
+▪ Tsai, C. C., & Hashash, Y. M. (2009). Learning of dynamic soil behavior from downhole arrays. Journal of Geotechnical and Geoenvironmental Engineering, 135(6), 745-757.
+▪ Phillips, C., & Hashash, Y. M. (2008). A simplified constitutive model to simultaneously match modulus reduction and damping soil curves for nonlinear site response analysis. In
+Geotechnical Earthquake Engineering and Soil Dynamics IV (pp. 1-10).
+▪ Phillips, C., & Hashash, Y. M. (2009). Damping formulation for nonlinear 1D site response analyses. Soil Dynamics and Earthquake Engineering, 29(7), 1143-1158.
+▪ Groholski, D. R., Hashash, Y. M., Kim, B., Musgrove, M., Harmon, J., and Stewart, J. P.
+(2016). Simplified model for small-strain nonlinearity and strength in 1D seismic site response analysis. Journal of Geotechnical and Geoenvironmental Engineering, 142(9),
+04016042.
+DEEPSOIL User Manual V 7.0
+Page 17 of 169
+April 4, 2024
+▪ Musgrove, M., Harmon, J., Hashash, Y. M., & Rathje, E. (2017). Evaluation of the
+DEEPSOIL Software on the DesignSafe Cyberinfrastructure. Journal of Geotechnical and
+Geoenvironmental Engineering, 143(9), 02817005.
+The executable version of DEEPSOIL was originally (circa 1998-1999) developed as a MATLAB program and (circa 1999) was later redeveloped as a C based executable to improve computational efficiency. A visual user interface was added soon afterwards. Since then, numerous developments have been added. Listed below are some important milestones:
+• DEEPSOIL v1.0: First version of DEEPSOIL with both an equivalent linear analysis capability and a new pressure dependent hyperbolic model in nonlinear analysis:
+o The equivalent linear capability was based on the pioneering work of Idriss and Seed
+(1968), and Seed and Idriss (1970) as employed in the widely used program SHAKE
+(Schnabel, et al., 1972) and its more current version SHAKE91 (Idriss and Sun, 1992).
+o The new pressure dependent hyperbolic model introduced by Park and Hashash (2001) is employed in nonlinear analysis. This model extended the hyperbolic model introduced by Matasovic (1992) and was employed in the nonlinear site response code
+D-MOD, which was in turn a modification of the Konder and Zelasko (1963) hyperbolic model. The hyperbolic model had been employed with Masing criteria earlier in the program DESRA by Lee and Finn (1975, 1978). The hyperbolic model was originally proposed by Duncan and Chang (1970), with numerous modifications in other works such as Hardin and Drnevich (1972) and Finn et al. (1977).
+• DEEPSOIL v2.0-2.6:
+o Full and extended Rayleigh damping is introduced in DEEPSOIL (Hashash and Park,
+2002; Park and Hashash, 2004) with a user interface. This was in part based on Clough and Penzien (1993) and the findings of Hudson et al. (1994) as implemented in the program QUAD4-M. Additional developments and modifications are made in
+DEEPSOIL benefited greatly from the PEER lifeline project “Benchmarking of
+Nonlinear Geotechnical Ground Response Analysis Procedures (PEER 2G02)”.
+• DEEPSOIL v3.0-3.7: Additional enhancements are made to the user interface as well as inclusion of pore water pressure generation/dissipation capability.
+DEEPSOIL User Manual V 7.0
+Page 18 of 169
+April 4, 2024 o Current pore water pressure models employed include the same model introduced by
+Matasovic (1992), Matasovic and Vucetic (1993, 1995) and employed in the program
+D_MOD.
+o The current dissipation model used in DEEPSOIL is derived from FDM considerations.
+• DEEPSOIL v3.5: A new soil constitutive model is introduced to allow for significantly enhanced matching of both the target modulus reduction and damping curves (Phillips and
+Hashash, 2008).
+o A new functionality in the user interface is implemented that allows the user to automatically generate hyperbolic model parameters using a variety of methods
+(Phillips and Hashash, 2008).
+o DEEPSOIL v3.7: A new pore water pressure generation model for sands is added – the
+GMP Model (Green et al., 2000), in addition to various improvements in the user interface, as well as the capability to export output data to a Microsoft Excel file.
+• DEEPSOIL v4.0: Complete rewrite of DEEPSOIL user interface.
+o DEEPSOIL was made multi-core aware, leading to much faster completion of batch- mode analyses.
+o An update manager was added to notify the user when updated versions of DEEPSOIL were available.
+o A motion processor and a PEER motion converter were added.
+• DEEPSOIL v5.0: Updates of DEEPSOIL user interface and computational engine.
+o Introduced a new dynamic properties window with significant usability enhancements.
+o First version of DEEPSOIL to natively support 64-bit Windows, enabling faster analyses and the ability to use very long motions.
+• DEEPSOIL v6.0: Complete rewrite of DEEPSOIL computational engine and user interface from the ground up resulting in significantly faster software. Numerous new capabilities are introduced. A new analysis workflow is introduced.
+• DEEPSOIL v6.1: The GQ/H nonlinear model is added to DEEPSOIL, allowing the user to specify soil strength in a Generalized Hyperbolic Model.
+• DEEPSOIL v7.0: The last version of DEEPSOIL overhauls the program workflow and adds new capabilities. The main updates in version 7.0 include:
+DEEPSOIL User Manual V 7.0
+Page 19 of 169
+April 4, 2024 o Automatic subdivision of input soil profile, to achieve proper discretization based on maximum target propagated frequency.
+o Ability to perform layer thickness, shear wave velocity and dynamic curve randomizations for soil profile.
+o Output provided in relational database format, which allows the user to retrieve large data sets efficiently.
+o Overhauled user interface.
+o Multiple user language selection.
+o Simultaneous view/plot of multiple motions.
+1.4
+Program Installation
+Installing DEEPSOIL Using Setup:
+• System Setup:
+DEEPSOIL uses “.” as the symbol for the decimal. For most users outside the USA please change "," to "." for the decimal mark in your system when using DEEPSOIL.
+• Hardware Requirements:
+
+2 GHz or faster processor*
+
+2 GB or more available RAM
+250 MB available on hard drive for installation
+Parallel analyses require a multi-core processor
+• Software Requirements:
+
+Windows 7 or later
+
+Microsoft .NET Framework 4.5.2 or later
+
+Administrator privileges are required for installation
+• Installation:
+Run “DEEPSOIL 7 Installer.exe” as administrator.
+The DEEPSOIL installer will automatically detect if your system supports 64-bit installations and install the appropriate libraries.
+
+DEEPSOIL User Manual V 7.0
+Page 20 of 169
+April 4, 2024
+Program Organization
+
+The DEEPSOIL graphical user interface is composed of several steps to guide the user throughout the site response analysis process as illustrated in the Navigation box shown in Figure 2-1, presented to the user upon starting DEEPSOIL.
+
+Figure 2-1. DEEPSOIL Main Window and Key Tabs as (a) Analysis Tab, (b) Motions Tab, and (c) Profiles
+Tab
+
+At the top left, the user has the option of choosing the “Analysis,” “Motions,” or “Profiles” tab.
+These tabs are discussed in the following section.
+Figure 2-2 shows the Options window. This window can be accessed by clicking on the Options menu. The window allows the user to set the default working directory, the directory containing
+(a)
+(b)
+(c)
+DEEPSOIL User Manual V 7.0
+Page 21 of 169
+April 4, 2024 the input motions for use in the analyses, the default directory in which profiles are saved, the default units and languages, enable or disable multi-core support, choose the graph color and the line thickness.
+
+Figure 2-2. DEEPSOIL Options Window.
+
+2.1
+Profiles Tab
+Saved profiles are shown in this tab. The user can directly select a profile and start a new analysis or modify a saved analysis file.
+
+2.2
+Motions Tab
+DEEPSOIL contains a Motions tab which can be used to view/process input motions. To view/process a motion, simply click on the check box for the related motion. DEEPSOIL will
+DEEPSOIL User Manual V 7.0
+Page 22 of 169
+April 4, 2024 generate acceleration, velocity, displacement and Arias intensity time histories, as well as the response spectrum and Fourier amplitude spectrum for the selected motion (Figure 2-3). In
+DEEPSOIL V7.0, multiple motions can be viewed at the same time (Figure 2-3). Once the new motion is selected, the color of the plot for the previous motion becomes gray and the new motion is plotted with blue color. The relative size of the plots can be adjusted by clicking on the gray vertical line and dragging it to the left or right. Additionally, zoom in and out options for each axis to arrange the axis limits are available for each plot, such that scroll bar appears once the user moves the cursor on each axis, and the axis limits can be arranged using this scroll bar. Figure 2-3 shows that linear and log scales on the axes of Fourier Amplitude Spectrum and Response
+Spectrum can be selected through the pop-up menu via right-click.
+
+Figure 2-3. Motion Viewer (right-click choices on Plots)
+
+The ground motion parameters (PGA, PGV and PGD), timestep, Nyquist frequency and number of points of the selected ground motion can be viewed under Motion Metrics and Tools at the bottom of window (Figure 2-4). The pop-up menu of “Process” under Motion Metrics and Tools provides the option of (i) kappa estimation, (ii) baseline correction, (iii) timestep reduction, (iv)
+DEEPSOIL User Manual V 7.0
+Page 23 of 169
+April 4, 2024 tripartite graph view, and (iv) single motion view. The selected motion can be monitored in a separate window using Single Motion View (Figure 2-5). This window also provides to the user the option to linearly scale the selected input motion under Time History Plots tab. The user is provided two options for scaling: scale the original motion by a specified factor (scale by) or scale the original motion to a specified maximum acceleration (scale to). The desired method can be selected using the drop-down list in the upper right corner of the window. Click on the Apply button to scale the motion and recalculate the other data. After scaling, the user can save the new motion by pressing the Save As button. In Spectral Plots tab, Log-triangle and Rectangular with user specified window width FAS smoothing types are provided, and Response Spectrum can be calculated with five different methods: (i) Frequency Domain, (ii) Duhamel Integral, (iii) Duhamel
+Integral with Timestep Correction (zero-padded in frequency domain), (iv) Newmark Beta
+Method, and (v) Newmark Beta Method with Timestep Correction (zero-padded in frequency domain). Fourier amplitude and phase angle plots are presented in Fourier Plots tab. The calculated data is also provided in data tables which can be accessed by selecting the Time History
+Data or Spectral Data tabs on the top of the window.
+
+Figure 2-4. Motion Viewer (Motion Metrics and Tools)
+DEEPSOIL User Manual V 7.0
+Page 24 of 169
+April 4, 2024
+
+Figure 2-5 Single Motion View
+
+2.2.1
+Baseline Correction
+Similarly to the motion viewer, the baseline correction can be used by selecting a motion in the list and clicking on the “Baseline Correction” option under Motion Metrics and Tools.
+DEEPSOIL can perform baseline correction for any input motion (Figure 2-6). By selecting an input motion and clicking on the Baseline Correction option, a new window appears, which shows the acceleration, velocity, and displacement time-histories corresponding to this motion.
+Motions which exhibit non-zero displacement time-histories for the latter part of the motion should be corrected. The corrected time-histories are also calculated and presented to the user. The response spectra and Fourier amplitude spectra for the original motion and the baseline-corrected
+DEEPSOIL User Manual V 7.0
+Page 25 of 169
+April 4, 2024 motion are also provided for the user. The spectra should be carefully examined by the user to ensure that the baseline correction process did not greatly alter the input motion. The baseline- corrected motion can then be stored as a file defined by the user. The relative size of the plots can be adjusted by clicking on the gray vertical line and dragging it to the left or right. Dragging to the left causes the response spectra and Fourier amplitude spectra plots to increase in size, while dragging to the right causes the time-histories plots to increase in size, respectively.
+The baseline correction routine in DEEPSOIL is adapted from the baseline correction routine included in the USGS motion processing program BAP (USGS Open File Report 92-296A). The baseline correction is accomplished using the following steps:
+
+1. Truncate both ends of the motion using the first and last zero-crossings as bounds.
+2. Pad the motion with zeros at both ends.
+3. Process the motion with a second order, recursive, high-pass (0.1 Hz cutoff frequency)
+Butterworth filter with convolution in both directions in the time domain.
+4. Truncate the new motion using the last zero-crossing as bound.
+
+Figure 2-6. Baseline Correction.
+DEEPSOIL User Manual V 7.0
+Page 26 of 169
+April 4, 2024
+
+2.2.2
+Response Spectra Calculation Methods
+The frequency-domain solution, the Newmark β method and Duhamel integral solutions are the three most common methods employed to estimate the response of Single Degree of Freedom
+(SDOF) systems and therefore to calculate the response spectra. A brief description is presented for each method to calculate the response of SDOF systems and to solve the dynamic equilibrium equation defined as (Chopra, 1995; Newmark, 1959):
+
+𝑚𝑢̈ + 𝑐𝑢̇ + 𝑘𝑢= −𝑚𝑢̈𝑔
+(2.1)
+
+where m, c and k are the mass, the viscous damping and the system stiffness of the SDOF system respectively. 𝑢̈ , 𝑢̇ and 𝑢 are the nodal relative accelerations, relative velocities and relative displacements respectively and 𝑢̈𝑔 is the exciting acceleration at the base of the SDOF.
+
+2.2.2.1
+Frequency-domain solution
+In the frequency-domain solution, the Fourier Amplitude Spectra (FAS) input motion is modified by a transfer function defined as:
+
+𝐻(𝑓) =
+−𝑓𝑛
+(𝑓2 −𝑓𝑛2) −2𝑖𝜉𝑓𝑓𝑛
+
+(2.2)
+
+where fn is the natural frequency of the oscillator calculated as 𝑓𝑛=
+2𝜋√𝑘𝑚
+⁄ and 𝜉 is the damping ratio calculated as 𝜉= 𝑐
+2√𝑘𝑚. Use of the frequency-domain solution requires FFTs (Fast Fourier
+Transforms) to move between the frequency-domain, where the oscillator transfer function is applied, and the time-domain, where the peak oscillator response is estimated. Over the frequency range of the ground motion, the frequency-domain solution is exact.
+
+DEEPSOIL User Manual V 7.0
+Page 27 of 169
+April 4, 2024
+2.2.2.2
+Duhamel integral solution
+The second method to compute the response of linear SDOF systems interpolates –commonly assuming linear interpolation– the excitation function (−𝑚𝑢̈𝑔) and solves the equation of motion as the addition of the exact solution for three different parts: (a) free-vibration due to initial displacement and velocity conditions, (b) a response step force (−𝑚𝑢̈𝑔𝑖) with zero initial conditions and (c) response of the ramp force [−𝑚(𝑢̈𝑔𝑖+1 −𝑢̈𝑔𝑖) 𝛥𝑡
+⁄
+]. The solution in terms of velocities and displacements is presented in the following equations:
+
+𝑢̇ 𝑖+1 = 𝐴′𝑢𝑖+ 𝐵′𝑢̇ 𝑖+ 𝐶′(−𝑚𝑢̈𝑔𝑖) + 𝐷′(−𝑚𝑢̈𝑔𝑖+1)
+(2.3)
+
+𝑢𝑖+1 = 𝐴𝑢𝑖+ 𝐵𝑢̇ 𝑖+ 𝐶(−𝑚𝑢̈𝑔𝑖) + 𝐷(−𝑚𝑢̈𝑔𝑖+1)
+(2.4)
+
+where:
+
+𝐴= 𝑒−𝜉𝜔𝑛Δ𝑡( 𝜉
+√1 −𝜉2 𝑠𝑖𝑛(𝜔𝐷Δ𝑡) + 𝑐𝑜𝑠(𝜔𝐷Δ𝑡))
+(2.5)
+
+𝐵= 𝑒−𝜉𝜔𝑛Δ𝑡( 1 𝜔𝐷 𝑠𝑖𝑛(𝜔𝐷Δ𝑡))
+(2.6)
+
+𝐶= 1 𝑘{ 2𝜉 𝜔𝑛Δ𝑡+ 𝑒−𝜉𝜔𝑛Δ𝑡[(1 −2𝜉2 𝜔𝐷Δ𝑡− 𝜉
+√1 −𝜉2) 𝑠𝑖𝑛(𝜔𝐷Δ𝑡) −(1 + 2𝜉 𝜔𝑛Δ𝑡) 𝑐𝑜𝑠(𝜔𝐷Δ𝑡)]}
+
+(2.7)
+
+𝐷= 1 𝑘[1 −2𝜉 𝜔𝑛Δ𝑡+ 𝑒−𝜉𝜔𝑛Δ𝑡(2𝜉2 −1 𝜔𝐷Δ𝑡𝑠𝑖𝑛(𝜔𝐷Δ𝑡) + 2𝜉 𝜔𝑛Δ𝑡𝑐𝑜𝑠(𝜔𝐷Δ𝑡))]
+(2.8)
+
+𝐴′ = −𝑒−𝜉𝜔𝑛Δ𝑡( 𝜔𝑛
+√1 −𝜉2 𝑠𝑖𝑛(𝜔𝐷Δ𝑡))
+(2.9)
+
+𝐵′ = −𝑒−𝜉𝜔𝑛Δ𝑡(𝑐𝑜𝑠(𝜔𝐷Δ𝑡) − 𝜉
+√1 −𝜉2 𝑠𝑖𝑛(𝜔𝐷Δ𝑡))
+(2.10)
+DEEPSOIL User Manual V 7.0
+Page 28 of 169
+April 4, 2024
+
+𝐶′ = 1 𝑘{−1
+Δ𝑡+ 𝑒−𝜉𝜔𝑛Δ𝑡[( 𝜔𝑛
+√1 −𝜉2 + 𝜉
+Δ𝑡√1 −𝜉2) 𝑠𝑖𝑛(𝜔𝐷Δ𝑡) + 1
+Δ𝑡𝑐𝑜𝑠(𝜔𝐷Δ𝑡)]}
+(2.11)
+
+𝐷′ = 1 𝑘Δ𝑡[1 −𝑒−𝜉𝜔𝑛Δ𝑡( 𝜉
+√1 −𝜉2 𝑠𝑖𝑛(𝜔𝐷Δ𝑡) + 𝑐𝑜𝑠(𝜔𝐷Δ𝑡))]
+(2.12)
+
+2.2.2.3
+Newmark β time integration method in time-domain SDOF analysis
+The third method is the Newmark β method. The Newmark β method calculates the nodal relative velocity 𝑢̇ 𝑖+1and 𝑢𝑖+1 displacements at a time i+1 by using the following equations:
+
+𝑢̇ 𝑖+1 = 𝑢̇ 𝑖+ [(1 −𝛾)∆𝑡]𝑢̈ 𝑖+ (𝛾∆𝑡)𝑢̈ 𝑖+1
+(2.13)
+
+𝑢𝑖+1 = 𝑢𝑖+ (∆𝑡)𝑢̇ 𝑖+ [(0.5 −𝛽)(∆𝑡)2] 𝑢̈ 𝑖+ [𝛽(∆𝑡)2]𝑢̈ 𝑖+1
+(2.14)
+
+The parameters β and γ define the assumption of the acceleration variation over a time step (Δt) and determine the stability and accuracy of the integration of the method. A unique characteristic of the assumption of average acceleration (β = 0.5 and γ = 0.25) is that the integration is unconditionally stable for any Δt with no numerical damping. For this reason, the Newmark β method with average acceleration is commonly used to model the dynamic response of single and multiple degree of freedom systems.
+The Newmark β method has inherent numerical errors associated with the time step of the input motion (Chopra, 1995; Mugan and Hulbe, 2001). These errors generate inaccuracy in the solution resulting in miss-prediction of the high-frequency response. To determine if a motion’s time step is too large to be used directly, the response spectrum calculated with the Newmark β method can be compared with the response spectra calculated by other means, with and without a time step correction in the motion viewer/processor (see section 2.2).
+
+2.2.3
+Fourier Amplitude Spectrum Calculation and Smoothing Operation
+One of the most important factors to consider when evaluating ground motions is frequency content. The most common measure of frequency content is the Fourier amplitude spectrum, which
+DEEPSOIL User Manual V 7.0
+Page 29 of 169
+April 4, 2024 indicates how the amplitude of the ground motion is distributed across different frequencies.
+Calculation of the spectrum requires a transformation of the ground motion from the time domain to the frequency domain. This transformation is called a Fourier transform. In DEEPSOIL, the transformation is completed using a Fast Fourier Transform (FFT). The resulting Fourier spectrum is then used to calculate the Fourier amplitude spectrum using the following equations:
+
+fi = i time step ∗n
+(2.15)
+
+|F|i = √(real(Ci))2 + (imag(Ci))2 ∗time step
+(2.16) where fi is the i-th frequency, n is the number of points in the FFT, |F|iis the Fourier amplitude at the i-th frequency, and Ci is the i-th amplitude and phase (in complex number representation) of the FFT. The maximum frequency that can be contained in the motion is dictated by the motion’s time step. This maximum frequency is called the Nyquest frequency and is calculated using the following equation:
+
+fNyquest =
+2 ∗time step
+(2.17)
+DEEPSOIL can also smooth the calculated Fourier amplitude spectrum to make interpretation easier by providing a clearer view of the overall frequency content. DEEPSOIL uses a triangle smoother in log space (also called a log-triangle smoother). The smoothing routine in DEEPSOIL uses a sliding triangular smoothing window in log-space and is adapted from a routine developed by David Boore. The weights assigned to each point are based on the log distance from the point of interest. Currently, the maximum smoothing width is set to 0.2. At each frequency of the spectrum the weights of the smoothing window are calculated as follows:
+• For frequencies below the current frequency:
+
+Wi = log10(i lower bound index
+⁄
+) log10(current index lower bound index
+⁄
+)
+(2.18)
+• For the current frequency:
+
+Wi = 1
+(2.19)
+• For frequencies above the current frequency:
+
+Wi = 1 − log10(i current index
+⁄
+) log10(upper bound index current index
+⁄
+)
+(2.20)
+DEEPSOIL User Manual V 7.0
+Page 30 of 169
+April 4, 2024 where the upper and lower bound indices are determined using the desired window width and index of the current frequency.
+
+2.2.4
+Arias Intensity
+The Arias intensity provides a measure of the intensity of the motion as a function of acceleration.
+It is plotted as a function of time and is calculated using the following equation:
+
+𝐼𝑎(𝑡) = 𝜋
+2𝑔∫[𝑎(𝑡)]2𝑑𝑡 𝑡
+
+(2.21) where g is the acceleration due to gravity and a(t) is the acceleration time history.
+
+2.2.5
+Significant Duration
+The significant duration is defined as the timespan (in seconds) between the occurrence of 5% and
+95% of the total Arias Intensity (section 2.2.4). The significant duration, and its location in the motion time histories, can be shown by checking the box at the lower left of the motion viewer.
+
+2.2.6
+Housner Intensity
+The Housner intensity (also referred as spectral intensity) provides a measure of the intensity of the motion as a function of spectral velocity. It is plotted as a function of time. The Duhamel integral method is used in calculation of the acceleration response spectra for computational efficiency, and converted to velocity spectra by multiplying the spectra by the corresponding angular frequency. The Housner intensity is often reported as a single value, however, DEEPSOIL is able to provide the Housner intensity as a time-history by calculating the response spectrum at each point of an acceleration record. The Housner intensity is calculated using the following equation:
+
+𝐼ℎ(𝑡) = ∑
+∫𝑆𝑣(𝑇, 𝜉)
+2.5
+𝑇=0.1 𝑡
+
+(2.22) where T is the period and ξ is the damping ratio. In DEEPSOIL, the Housner intensity is calculated assuming a damping ratio of 5%.
+
+DEEPSOIL User Manual V 7.0
+Page 31 of 169
+April 4, 2024
+2.2.7
+Estimation of Kappa (κ)
+DEEPSOIL includes a tool to aid in the estimation of the high-frequency attenuation parameter κ.
+This tool is accessed by clicking on the Estimate Kappa under Process of Motion Metrics and
+Tools on the motion processor window. To estimate κ, the user defines two bounding frequencies.
+DEEPSOIL will then average the Fourier amplitude spectrum (as described in section 2.2.3) and perform a linear regression over the range of frequencies chosen by the user. The plot is then updated to reflect the chosen range of frequencies and the resulting κ and amplitude intercept.
+The user can also plot a fixed κ value. The resulting line can be moved vertically by specifying an amplitude intercept.
+Once a line of constant κ is plotted (either by estimation or user-specification), it can be interactively positioned vertically using the scroll-wheel on the mouse. The user can also show/hide the averaged Fourier amplitude spectrum and plot a legend by right-clicking on the plot.
+
+Figure 2-7 Kappa Estimator
+
+DEEPSOIL User Manual V 7.0
+Page 32 of 169
+April 4, 2024
+2.2.8
+Adding New Input Motions
+Motions may be added to DEEPSOIL by clicking File Menu to select New and them Motion. This tool is designed to convert motions from the PEER “.AT2” format to the DEEPSOIL format, through a fully automated process. DEEPSOIL will read through the PEER file and determine the number of data points and the time step. Additional options are provided for reading non-PEER motions and should be set as needed. If DEEPSOIL cannot complete the conversion, a message box is used to notify the user of the failure. Upon successful conversion, the user is notified by a message box and the motion is added to the Motion Library.
+Motions can also be added manually. This is done by using a text editor capable of producing .TXT files. To add an input motion, enter the necessary data in the format described below and save as a .TXT file in the “Input Motion” directory. The default input motion directory is: C:\Users\[User
+Name]\Documents\DEEPSOIL\Input Motions\. If the user has specified a different directory, the input motion file should be placed in the user-specified directory. The motion will then appear in the motion list under Motions tab. The added motion should have the properties as:
+• Units of the ground motion should be seconds and g’s.
+• The format should be as follows:
+o 1st row: Number of data points & time step (separated by 1 space) o 2nd and subsequent rows: time & acceleration (separated by 1 space)
+
+2.3
+Analysis Tab
+The analysis tab options are discussed in detail in the next section.
+
+DEEPSOIL User Manual V 7.0
+Page 33 of 169
+April 4, 2024
+Analysis Flow
+
+3.1
+Analysis Definition: Step 1 of 5
+The first step in the analysis requires the selection of analysis type. Figure 3-1 illustrates the form for Step 1.
+In the introductory tab (Analysis Definition), the user is required to choose the Analysis Method, the Solution Type (Frequency of Time domain), the Default Soil Model for all newly generated layers and the Default Hysteretic Re/Unloading Formulation for the analysis of DEEPSOIL. In addition, the user can choose whether DEEPSOIL will automatically generate profiles for the given input data (Automatic Profile Generation on/off), the Unit System (English or Metric) as well as the type of Complementary Analyses that may be requested (Equivalent Linear-Frequency
+Domain, Linear-Frequency Domain and Linear-Time Domain). Finally, under Analysis Tag, the user can see the identifiers, which are IDs that are included in the analysis results to help users identify the kind of soil model analysis that DEEPSOIL performed (See Table 3.2 for Soil Models
+Descriptions).
+
+Figure 3-1. Step 1/5: Choose type of analysis.
+DEEPSOIL User Manual V 7.0
+Page 34 of 169
+April 4, 2024
+Note: Before creating a new profile, or opening an existing profile, it is recommended to verify the Default Working Directory from the menu Options (Figure 3-2). If a different directory is preferred, press the Change button to bring up a folder browser and select the preferred directory.
+At the same window, the user can choose the Default Units (English or Metric), the Default
+Language, the Multi Core, the Graph Colors and the choice to allow DEEPSOIL to collect anonymous data to improve user experience.
+
+Figure 3-2. Choose the Default Working Directory.
+
+Under Analysis Method the following options are available
+• Linear
+• Equivalent Linear
+• Nonlinear
+
+Depending on the Analysis Method choice of the user, different Solution Type, Default Soil Model,
+Default Hysteretic Re/Unloading Formulation choices may be available. The available combinations for each Analysis Method are presented in tabular format in Table 3.1.
+
+DEEPSOIL User Manual V 7.0
+Page 35 of 169
+April 4, 2024
+Table 3.1. Available analysis option in DEEPSOIL 7
+Analysis Method
+Soil Model
+Hysteretic
+Re/Un-loading
+Formulation
+Pore
+Pressure
+Options
+Linear
+Frequency and Time domain
+-
+-
+-
+Equivalent
+Linear
+Frequency domain
+● General Quadratic/
+Hyperbolic Model
+(GQ/H)
+● Pressure-Dependent
+Modified Kondner
+Zelasko (MKZ)
+● Yee et al. (2013)
+● Discrete Points
+(Equivalent Linear)
+● User-Defined (UMAT)
+● Non-Masing
+● Masing
+-
+Nonlinear
+Time domain
+● Generate Excess
+Porewater Pressure
+● Enable Dissipation
+● Make top of
+Profile Permeable
+● Make Bottom of
+Profile Perm.
+
+DEEPSOIL User Manual V 7.0
+Page 36 of 169
+April 4, 2024
+Table 3.2. IDs of different Soil Models in DEEPSOIL – Soil Model Descriptions
+ID
+Model Description
+DS-FL0
+Frequency Domain Linear
+DS-EL0
+Frequency Domain Equivalent Linear - Discrete Points
+DS-EL1
+Frequency Domain Equivalent Linear - MKZ with Masing Rules
+DS-EL2
+Frequency Domain Equivalent Linear - MKZ with Non-Masing Rules
+DS-EL3
+Frequency Domain Equivalent Linear - GQ/H with Masing Rules
+DS-EL4
+Frequency Domain Equivalent Linear - GQ/H with Non-Masing Rules
+DS-TL0
+Time Domain Linear
+DS-NL1
+Time Domain Nonlinear - MKZ with Masing Rules
+DS-NL2
+Time Domain Nonlinear - MKZ with Non-Masing Rules
+DS-NL3
+Time Domain Nonlinear - GQ/H with Masing Rules
+DS-NL4
+Time Domain Nonlinear - GQ/H with Masing Rules
+-PWP0
+Porewater pressure generation without dissipation
+-PWP1
+Porewater pressure generation and dissipation - permeable halfspace
+-PWP2
+Porewater pressure generation and dissipation - impermeable halfspace
+
+Note: To review the input parameters, you can select the Input Summary menu at any moment.
+The Input Summary window (Figure 3-3) may be viewed any time after completing step 1. Note:
+tabs will only appear after the corresponding parameters have been inputted.
+
+Figure 3-3. Input Summary window.
+DEEPSOIL User Manual V 7.0
+Page 37 of 169
+April 4, 2024
+3.1.1
+Linear Analysis
+A Linear Analysis (Lin) model can be solved in the following two ways:
+-Frequency Domain
+-Time Domain
+In both linear site response analyses, the maximum soil stiffness and a constant damping ratio are considered throughout the entire time history.
+3.1.2
+Equivalent Linear Analysis
+The Equivalent Linear (EL) model employs an iterative procedure in the selection of the shear modulus and damping ratio soil properties as pioneered in program SHAKE. These properties can be defined by discrete points or by defining the soil parameters that define the backbone curve of one of the nonlinear models.
+
+The option of defining the soil curves using discrete points is only applicable for the Equivalent
+Linear analysis. For this option, the G/Gmax and damping ratio (%) are defined as functions of shear strain (%).
+3.1.3
+Deconvolution via Frequency Domain Analysis
+This approach is the same as the frequency-domain equivalent linear analysis approaches except that the input motion can be applied at the ground surface or anywhere else in the soil column.
+The corresponding rock motion is then computed and provided to the user.
+
+Deconvolution requires definition of a soil profile. The following properties need to be defined for each layer:
+•
+Thickness
+•
+Shear Wave Velocity (𝑉𝑠) or Initial Shear Modulus (𝐺𝑚𝑎𝑥)
+•
+Unit Weight
+•
+Damping Ratio (%)
+
+To perform the deconvolution,
+1. Open or create an frequency domain profile (Linear or Equivalent Linear Analysis)
+2. Enter the requested information into the table on Step 2a, as shown in Figure 3-4.
+DEEPSOIL User Manual V 7.0
+Page 38 of 169
+April 4, 2024
+3. Additional layers may be added using the Add Layer button. Unwanted layers may similarly be removed using the Remove Layer button.
+4. Select the bottom layer and check the box labeled Deconvolution near the bottom of the window
+5. Specify the point of application of the ground motion by selecting the appropriate layer in the drop-down list.
+6. Use the circular buttons to select the type of ground motions to be generated as output.
+7. Click Next to advance to Step 3 and select the locations for output and the motion(s) to be deconvolved.
+8. Click Next to advance to Step 5 and set the frequency-domain parameters.
+9. Click Analyze.
+
+Figure 3-4. Deconvolution analysis parameters.
+
+The output from a deconvolution analysis is a set of DEEPSOIL-formatted motions. Regardless of the output selection, there will be a file named “Deconvolved - [motion name].txt” that is the motion at the top of rock (bottom of profile). Additional files will be produced for each layer output requested and will be named “Deconvolved - [motion name] - layer [#].txt”. These files can be used directly in DEEPSOIL.
+DEEPSOIL User Manual V 7.0
+Page 39 of 169
+April 4, 2024
+Note: Deconvolution cannot be performed in the time domain analysis. Finding the motion at the bottom of the soil profile given the motion at the ground surface is an inverse problem in nonlinear analysis that is complex to solve and is not amenable to a simple deconvolution computation.
+3.1.4
+Non-Linear Analysis
+Non-linear (NL) analysis solves the equations of motions in time domain using the Newmark β method (implicit) or the Heun’s Method (explicit). Several soil models are available for users to select from, summarized above and in Table 3.1. The analysis can be performed with or without porewater pressure generation.
+The user has the option of obtaining the site response results using the equivalent linear method automatically whenever nonlinear site response analysis is conducted. It is highly recommended that EL results are always examined whenever a NL analysis is conducted. This can be done by checking the box labeled Equivalent Linear – Frequency Domain as it is shown in Figure 3-5.
+
+Figure 3-5. Complementary Equivalent Linear-Frequency Domain analysis.
+
+3.2
+Soil Profile Definition: Step 2 of 5
+The Soil Profile Definition window (Figure 3-6) consists of a visual display of the soil profile (Soil
+Profile Plot), the Soil Profile Metrics section and either one of the two tabs: (a) Layer Properties and (b)., Advanced Table View.
+DEEPSOIL User Manual V 7.0
+Page 40 of 169
+April 4, 2024
+The user can define the properties of each layer of the soil profile (Thickness, Shear Wave Velocity
+(VS) or Initial Shear Modulus (Gmax) and Unit Weight) using one or both the Layer Properties and the Advanced Table View tabs.
+Additional layers may be added using the Add Layer(s) button. Unwanted layers may similarly be removed using the Remove Layer(s) button.
+If the user selects to generate porewater pressure during the analysis (nonlinear analyses only), additional parameters must be specified, including the model to be used and their respective parameters. Each model and the required inputs are discussed in detail in Section 4.
+The check box Water Table is used to choose the depth of the water table by clicking the drop- down menu and selecting the layer that the water table will be above. The Advanced Table View tab displays every layer beneath the water table by changing the background color to blue. The location of the water table affects the calculations only when introducing the pressure dependent soil parameters or performing an effective stress analysis. The location of the water table does not influence the frequency domain solution.
+The Layer Properties (Figure 3-7) tab is divided in five sections: i. the Current Soil Properties, ii.
+the Reference Curve iii. the Curve Fitting iv. the Save Materials and v. Other Material Files. In the right side of the window the plots of G/Gmax, Damping Ratio and Shear Strength vs Shear
+Strain are shown. Single Element Test
+The Previous Layer and Next Layer buttons on the top right corner of the window can be used to select the layers. Alternatively, the user can double click on the layer he wants to modify from the visual display on the left side of the window.
+
+DEEPSOIL User Manual V 7.0
+Page 41 of 169
+April 4, 2024
+
+Figure 3-6. Soil Profile Definition – Advanced Table View window.
+
+Figure 3-7. Layer Properties Tab.
+
+The Advanced Table View (Figure 3-6) tab summarizes the input parameters of each layer along with the generated information from the Layer Properties tab in a tabular format.
+DEEPSOIL User Manual V 7.0
+Page 42 of 169
+April 4, 2024
+The user must specify the typical soil properties of each layer based on the type of analysis that was selected (Linear, Nonlinear, etc). The input parameters for each soil model are discussed in
+Chapter 4.
+
+3.2.1
+Single Element Test
+Single Element Test option (Figure 3-8) is provided under Layer Properties Tab (Figure 3-7) in order to test the soil model behavior for given strain path. Soil Model can be changed to any of available options. Additionally, different damping models and pore water pressure options can be selected to evaluate the soil hysteresis behavior. Soil backbone curve can be plotted on top of hysteresis loop. Figure 3-8 shows the hysteresis behavior for soil layer for which MKZ soil model and Masing type of damping model is adopted.
+
+3.2.2
+Maximum Frequency (for Time Domain Analysis only)
+Upon completing the definition of the soil and model properties, the user is shown a plot of the maximum frequency versus depth for each layer (Figure 3-9). A plot of maximum frequencies
+(Hz) versus depths of all layers are displayed. The maximum frequency is the highest frequency that the layer can propagate and is calculated as: fmax = VS/4H, where VS is the shear wave velocity of the layer, and H is the layer thickness. To increase the fmax, the thickness of the layer should be decreased. This check is performed solely for time domain analyses. It is recommended that the layers have the same maximum frequency throughout the soil profile, though this is not required.
+For all layers, the maximum frequency should generally be a minimum of 30 Hz.
+
+DEEPSOIL User Manual V 7.0
+Page 43 of 169
+April 4, 2024
+
+Figure 3-8 Single Element Test Window
+
+Figure 3-9. Soil Profile Plot.
+
+DEEPSOIL User Manual V 7.0
+Page 44 of 169
+April 4, 2024
+3.2.3
+Implied Strength Profile (Step 2)
+Upon completing the definition of the soil and model properties, the user is shown a plot of the implied strength of the soil profile. The window provides three plots for the user to view: implied shear strength versus depth, normalized implied shear strength (shear strength divided by effective vertical stress) versus depth, and implied friction angle versus depth (Figure 3-9). The shear strength and friction angle are also provided in the table to the right for closer inspection. The implied shear strength is calculated from the modulus reduction curves entered as part of step 2a.
+At each point on the curve, the shear stress is calculated using the following equation:
+
+𝜏= 𝜌𝑉𝑠
+2 𝐺
+𝐺𝑜 𝛾
+(3.1) where, τ is the shear stress at the given point, ρ is the mass density of the soil, VS is the shear wave velocity in the given layer, G is the shear modulus at the given point, G0 is the shear modulus at
+0% shear strain, γ is the shear strain at the given point.
+The maximum value of shear stress for the given layer is then plotted at the depth corresponding to that layer. Using this maximum value, the implied friction angle is then calculated using the following equation:
+
+𝜙= 𝑡𝑎𝑛−1 (𝜏𝑚𝑎𝑥 𝜎′𝑣
+)
+(3.2)
+Where 𝜙 is the friction angle, 𝜏𝑚𝑎𝑥 is the maximum shear stress as calculated above, and 𝜎′𝑣 is the effective vertical stress at the mid-depth of each layer.
+The user is encouraged to carefully check the provided plots. If the implied strength or friction angle of particular layer is deemed unreasonable, the user should consider modifying the modulus reduction curve for the layer to provide a more realistic implied strength or friction angle.
+
+3.2.4
+Halfspace Definition (Bedrock)
+As part of the Soil Profile Definition, the user must also define the rock / half-space properties of the bottom of the profile. This can be done through the Layer Properties tab by double clicking on the last bottom of the Soil Profile Plot at the left side of the window (Figure 3-10).
+The user has the option of selecting either an Elastic Half-space or a Rigid Half-space. An informational display (Information Regarding Rock Properties) explains that an elastic half-space
+DEEPSOIL User Manual V 7.0
+Page 45 of 169
+April 4, 2024 should be selected if an outcrop motion is being used and a rigid half-space should be selected if a within motion is being used. If an elastic half-space is being used, the user must supply the shear wave velocity (or modulus), unit weight, and damping ratio of the half-space. If a rigid half-space is being used, no input parameters are required.
+In general, the shear wave velocity of the bedrock should be greater than that of the overlying soil profile. It should be noted that the bedrock damping ratio has no effect in time domain analyses and only a negligible effect in frequency domain analyses regardless of the value specified by the user.
+Bedrock properties may be saved by giving the bedrock a name and pressing the Save Bedrock button. The new bedrock will appear in the list of saved bedrocks below. To use a saved bedrock, select the file from the list box and press the Load button.
+If the analysis includes porewater pressure generation and dissipation with a permeable half-space, the user is also given the option to specify the coefficient of consolidation Cv for the halfspace. If no value is specified, DEEPSOIL will use the coefficient of consolidation Cv of the last layer for the half-space as well. If the user is conducting a frequency domain analysis, deconvolution can be performed rather than a forward analysis. Deconvolution is discussed in section 3.1.3.
+
+Figure 3-10. Halfspace Definition – “Bedrock”.
+DEEPSOIL User Manual V 7.0
+Page 46 of 169
+April 4, 2024
+3.3
+Step 3 of 5: Input Motion Selection
+The Input Motion Selection allows the user to select specify the input motion(s) to be used in the analysis. The input motion(s) must be selected from the current input motion library (to which the user may add additional motions, see section 2.2.8). The motions may be selected by checking the appropriate checkbox in the second column of the window. All motions can be selected or deselected by using the Select All button at the bottom of the motion list. Once a motion is selected,
+DEEPSOIL will calculate and plot the acceleration, velocity, displacement, Arias intensity and
+Housner intensity time histories as well as the Fourier amplitude spectrum and Peak spectral acceleration (Figure 3-11). If multiple motions are selected, a single motion can be highlighted in the plots by clicking on it either in the motion list or in its column in the table below the plots.
+The user can utilize the dropdown tools menu at the bottom of the window (Figure 3-12) for each motion in which one of the following options can be chosen: i. Estimate Kappa, ii. Baseline
+Correction, iii. Timestep Reduction, iv. Show Tripartite Graph and v. Single Motion View. Finally, the additional dropdown menu Spectral plots can be used to display: a. a smoothed FAS, b. the
+Duhamel Integral, c. the Duhamel Integral with Timestep Correction (zero-padded in frequency domain) d. the Newmark Beta Method and e. the Newmark Beta Method with Timestep Correction
+(zero-padded in frequency domain).
+
+Figure 3-11. Input Motion Selection.
+DEEPSOIL User Manual V 7.0
+Page 47 of 169
+April 4, 2024
+3.4
+Step 4 of 5: Viscous/Small-Strain Damping Definition
+The Viscous/Small-Strain Damping Definition step appears only for time domain analyses and allows the user to set the viscous damping formulation and select the optimum modes/frequencies for the analysis (Figure 3-13). This window is unique to DEEPSOIL and it helps control the introduction of numerical damping through frequency dependent nature of the viscous damping formulation.
+Note that when multiple input motions are selected for an analysis, the viscous damping formulation and the selected modes/frequencies are the same for all the selected input motions.
+The following options must be specified:
+• Damping Matrix Type:
+o Frequency Independent (recommended) o Rayleigh Damping
+▪ 1 mode/freq.
+▪ 2 modes/freq. (Rayleigh)
+▪ 4 modes/freq. (Extended Rayleigh)
+• Damping Matrix Update:
+▪ Yes
+▪ No
+The user can also press the Plot Damping Curve to generate a plot of the Normalized Damping
+Ratio. This option is available only when the Rayleigh Damping option is activated. Also, the user can choose whether the damping matrix will be recalculated at each step of the analysis or not by choosing the appropriate circular button in the Damping Matrix Update section. Finally, the user can plot the Frequency Domain Solution and the Time Domain Solution for his motion of choice using the corresponding buttons from the Linear Response Evaluation section. For more details on this stage, please refer to Example 6 in the tutorial.
+Viscous damping formulation is used to model small strain damping. The viscous damping formulation results in frequency dependent damping and can introduce significant artificial damping. It is therefore important to select an appropriate viscous damping formulation and corresponding coefficients to reduce the numerical damping (Hashash and Park, 2002; Park and
+Hashash, 2004). There are three types of Rayleigh damping formulations in DEEPSOIL, as listed below. It is, however, recommended that the frequency independent damping formulation be selected for most analyses.
+DEEPSOIL User Manual V 7.0
+Page 48 of 169
+April 4, 2024
+When ready to proceed, click Next.
+
+Figure 3-12. Dropdown tools menu.
+
+Figure 3-13. Viscous/Small-Strain Damping Definition.
+DEEPSOIL User Manual V 7.0
+Page 49 of 169
+April 4, 2024
+3.4.1
+Frequency Independent Damping Formulation
+This procedure solves for the eigenvalues and eigenvectors of the damping matrix and requires no specification of modes or frequencies. This formulation removes many of the limitations of
+Rayleigh Damping and does not greatly increase the required analysis time in most situations. A complete explanation of the damping formulation is presented in Phillips and Hashash, 2009.
+3.4.2
+Rayleigh Damping formulation types
+•
+Simplified Rayleigh Damping formulation (1 mode/frequency)
+Uses one mode/frequency to define viscous damping.
+•
+Full Rayleigh Damping formulation (2 modes/frequencies)
+Uses two modes/frequencies to define viscous damping.
+•
+Extended Rayleigh Damping formulation (4 modes)
+Uses four modes/frequencies to define viscous damping.
+
+A complete explanation of the extended Rayleigh damping formulation is presented in Park and
+Hashash, 2004.
+
+3.4.2.1
+Modes/frequencies selection
+There are two options available for selecting modes. The first option is choosing the natural modes
+(e.g. 1st and 2nd modes). The second option is choosing the frequencies for Rayleigh damping directly. The resulting Rayleigh damping curve can be displayed by pressing Show Rayleigh
+Damping and the curve will be displayed at the right bottom window. Note again that the viscous damping is frequency dependent. The goal in time domain analysis is to make the viscous damping as constant as possible at significant frequencies.
+
+3.4.2.2
+Verification of the selected modes/frequencies
+The time domain solution uses the frequency dependent Rayleigh damping formulation, whereas actual viscous damping of soils is known to be fairly frequency independent. The frequency domain solution uses frequency independent viscous damping. The appropriateness of the chosen modes/frequencies should be therefore verified with the linear frequency domain solution.
+DEEPSOIL User Manual V 7.0
+Page 50 of 169
+April 4, 2024
+Press Graph Lin. Freq. Domain. The results of the linear frequency domain solution (Frequency ratio vs. Freq. and Response spectrum plots) will be displayed as blue curves. The goal is to choose the appropriate modes/frequencies that compare well with the linear frequency domain solution.
+Enter the desired modes/frequencies as input. Then press the Check with Lin. Time Domain button.
+The results (in the same window as frequency domain solution) will be displayed as pink curves.
+Choose the modes/frequencies that agree well with the linear frequency domain solution. This is an iterative procedure and optimum modes/frequencies should be chosen by trial and error.
+3.4.2.3
+Damping Matrix Update
+This option is only applicable for nonlinear solutions. During the excitation, soil stiffness and the frequencies corresponding to the natural modes of the profile change at each time step. The natural modes selected are recalculated at each time step to incorporate the change in stiffness and the damping matrix is recalculated.
+This feature is enabled by clicking the Update Matrix option in the Damping Matrix Update selection. Note that using this feature may significantly increase the time required to complete an analysis.
+
+3.5
+Step 5 of 5: Analysis Control Definition
+In this stage of analysis, the user may specify options to be used for either the frequency domain or time domain analysis as well as define the output settings (Figure 3-14).
+
+Figure 3-14. Analysis Control Definition.
+DEEPSOIL User Manual V 7.0
+Page 51 of 169
+April 4, 2024
+
+3.5.1
+Frequency domain analysis
+The options in a frequency domain analysis are:
+• Number of Iterations
+• Effective Shear Strain Definition
+• Complex Shear Modulus Formulation o Frequency Independent o Frequency Dependent o Simplified
+
+3.5.1.1
+Number of Iterations
+Determines the number of iterations in performing an equivalent linear analysis. Check whether the solution has converged and the selected iteration number is sufficient by clicking Check
+Convergence tab after running the analysis.
+
+3.5.1.2
+Effective Shear Strain Definition
+When performing an equivalent linear analysis, the effective strain needs to be defined. An effective shear strain, calculated as a percentage of the maximum strain, is used to obtain new estimates of shear modulus and damping ratio. The default and recommended value is 0.65 (65%).
+The following equation relates this value to earthquake magnitude.
+
+𝑆𝑆𝑅= 𝑀−1
+(3.3)
+
+3.5.1.3
+Complex Shear Modulus
+DEEPSOIL allows a choice among three types of complex shear modulus formulae in performing frequency domain analysis:
+
+• Frequency Independent Complex Shear Modulus (Kramer, 1996):
+The frequency independent shear modulus results in frequency independent damping, and is thus recommended to be used in the analysis. This is the same modulus used in
+SHAKE91.
+DEEPSOIL User Manual V 7.0
+Page 52 of 169
+April 4, 2024
+
+𝐺∗= 𝐺 (1 + 𝑖2𝜉)
+(3.4)
+
+• Frequency Dependent Complex Shear modulus (Udaka, 1975)
+The frequency dependent shear modulus results in frequency dependent damping, and should thus be used with caution.
+
+𝐺∗= 𝐺 (1 −2𝜉2 + 𝑖2√1 − 𝜉2
+(3.5)
+• Simplified Complex Shear modulus (Kramer, 1996)
+This is a simplified form of frequency independent shear modulus defined as:
+
+𝐺∗= 𝐺 (1 −𝜉2 + 𝑖2𝜉)
+(3.6)
+3.5.2
+Time domain analysis
+For a time domain analysis, the options are:
+• Step Control o Flexible o Fixed
+• Maximum Strain Increment
+• Number of Sub-Increments
+
+The accuracy of the time domain solution depends on the time step selected. There are two options in choosing the time step (Hashash and Park, 2001).
+
+3.5.2.1
+Flexible Step
+A time increment is subdivided only if computed strains in the soil exceed a specified maximum strain increment.
+The procedure is the same as that for the Fixed Step above, except the Flexible option is chosen.
+Type the desired Maximum Strain Increment into the text box. The default and recommended value is 0.005 (%).
+
+3.5.2.2
+Fixed Step
+Each time-step is divided into N equal sub-increments throughout the time series.
+DEEPSOIL User Manual V 7.0
+Page 53 of 169
+April 4, 2024
+To choose this option:
+• Click the option button labeled Fixed
+• DEEPSOIL responds by disabling the text box labeled Maximum Strain Increment and enabling Number of sub-increments
+• Type the desired integer value of sub-increments into the text box
+
+3.5.2.3
+Integration Method
+There are two available time integration methods:
+• the Newmark β method (implicit) and
+• the Heun’s Method (explicit).
+
+3.5.2.4
+Time-history Interpolation Method
+This option is only available when the flexible step is selected. When subdividing a time step, accelerations must be computed at intermediate points. DEEPSOIL implements two subdivision strategies: 1) linear time-domain interpolation and 2) zero-padded frequency-domain interpolation.
+Linear (time-domain) interpolation is the classical approach in which the change in acceleration is simply divided into equal increments. This method has been shown to fundamentally alter the motion by adding energy to the signal at frequencies above the Nyquest frequency of the original signal. This can potentially add high frequency noise to the output signal.
+Zero-padded frequency-domain interpolation is often referred to as “perfect interpolation” because it allows for increased resolution (reduced time step) without adding energy above the Nyquist frequency of the original signal. This means that the intermediate points are added to the signal in a manner that is consistent with the actual behavior of the propagating wave. However, they are not reported in the output and hence can cause a distortion in the output motion. Results from this method should always be compared to the linear interpolation results.
+
+3.5.2.5
+Output Settings
+The users can choose the layer(s) for which the results are presented. This can be done by checking the appropriate checkbox in the first column of the window. There are four different choices: i.
+Surface only, ii. All Layers iii. At Specific Depth and iv. At Specific Layers.
+DEEPSOIL User Manual V 7.0
+Page 54 of 169
+April 4, 2024
+All layers can be selected using the All Layers button. Specific layers can be selected by clicking at the appropriate boxes from the Want Output column of the table. It needs to be noticed that requesting time-history output for additional layers will increase the time required for analyses to complete. Therefore, it is recommended that the user only request time-history output for layers of interest.
+The user is also provided with the choice to generate an output displacement animation, by clicking the box in the Displacement Animation section. As it is stated in the warning note, generating the displacement animation will slow down the speed of the analysis.
+After all the analysis parameters are completed, the user proceeds by clicking the Analyse button in the right bottom of the window. An Analysis Running window will appear, showing the progress
+(Figure 3-15).
+
+Figure 3-15. Analysis Running.
+
+3.6
+Results
+After the completion of the analysis, the following output for each selected layer will be directly exported to a text file “Results - motion.txt” in the working directory specified using the Options menu.
+The Results window (Figure 3-16) consists of a visual display of the Motions and Layers selection and the following tabs: a. Time History Plots, b. Stress-Strain Plots, c. Spectral Plots, d. Profile
+DEEPSOIL User Manual V 7.0
+Page 55 of 169
+April 4, 2024
+Plots, e. Mobilized Strength, f. Displacement Animation, g. Response Spectra Summary and h.
+Check Convergence.
+
+If multiple motions were selected for analysis, the output can be found in the user’s working directory in a folder named “Batch_Output”. Within this folder, there will be a folder corresponding to each profile and within this folder there will be the folders of each of the motions, that contain the results from each motion.
+If a single motion was selected for analysis, the results can be found in the user’s working directory.
+
+3.6.1
+Time History Plots tab
+In the Time History Plots tab, the user can see the following plots: a. Acceleration, b. Relative
+Velocity, c. Relative Displacement and d. Arias Intensity (see Figure 3-16). The relative velocity/displacement are calculated by subtracting the total velocity/displacement at top of rock from the total velocity/displacement at middle of the target layer. The total velocity and total displacement are provided in the output database, as described in section 6.1.
+
+3.6.2
+Stress-Strain Plots tab
+In the Stress-Strain Plots tab, the user can see the following plots: a. Shear Strain, b. Shear Stress
+Ratio, c. Excess PWP (if applicable) and d. Strain Stress Ratio (Figure 3-17).
+
+DEEPSOIL User Manual V 7.0
+Page 56 of 169
+April 4, 2024
+
+Figure 3-16. Results - Time History Plots.
+
+Figure 3-17. Results – Stress Strain Plots.
+
+3.6.3
+Spectral Plots tab
+In the Spectral Plots tab, the user can see the following plots: a. Peak Spectral Acceleration, b.
+Fourier Amplitude and c. Fourier Amplitude Ratio (Figure 3-18).
+
+DEEPSOIL User Manual V 7.0
+Page 57 of 169
+April 4, 2024
+
+Figure 3-18. Results – Spectral Plots.
+3.6.4
+Profile Plots tab
+In the Profile Plots tab, the user can see the following plots: a. PGA, b. PGD, c. Max Strain, d.
+Max Stress, e. Max PWP Ratio (if applicable) and f. Effective Vertical Stress (Figure 3-19).
+
+DEEPSOIL User Manual V 7.0
+Page 58 of 169
+April 4, 2024
+
+Figure 3-19. Results – Profile Plots.
+
+3.6.5
+Mobilized Strength tab
+In the Mobilized Strength tab, the user can see the following plots: a. Mobilized Shear Strength, b.
+Normalized Shear Strength and c. Mobilized Friction Angle (Figure 3-20).
+
+DEEPSOIL User Manual V 7.0
+Page 59 of 169
+April 4, 2024
+
+Figure 3-20. Results – Mobilized Strength.
+
+Figure 3-21. Results – Displacement Animation.
+
+DEEPSOIL User Manual V 7.0
+Page 60 of 169
+April 4, 2024
+3.6.6
+Displacement Animation tab
+In the Displacement Animation tab, the user can see an animation of the Displacement profile over time (Figure 3-21). The user can modify the speed of the animation by adjusting the slide bar Speed as well as start, stop and pick a time instance to be plotted using the Stop and Finish buttons and by adjusting the slide bar Time, respectively. If multiple motions are selected, the user should pick motion of choice for the animation using the dropdown menu at the top of the soil profile visual.
+
+3.6.7
+Response Spectra Summary tab
+In the Response Spectra Summary tab, the user can see a plot of the Peak Spectral Acceleration for the motion as well as the selected layer(s) (Figure 3-22). If multiple motions are selected, the user should pick motion of choice for the animation using the dropdown menu at the top of the soil profile visual.
+
+Figure 3-22. Results – Response Spectra Summary.
+
+3.6.8
+Check Convergence tab
+To view the convergence of the solution, click Check Convergence Tab This option enables checking whether the solution has converged in an equivalent linear analysis. Plots of maximum
+DEEPSOIL User Manual V 7.0
+Page 61 of 169
+April 4, 2024 strain profiles for each iteration are displayed (Figure 3-23). To view the layersin the plots, check
+Show Layers.
+
+Figure 3-23 Check Convergence Tab
+
+3.6.9
+Output data file
+Output data for each layer is automatically exported to “Results – motion.txt” in the user’s working directory.
+DEEPSOIL provides the user with the option to export the analysis results to a Microsoft Excel® file or an LS-DYNA® file. This is done by clicking the Export to Excel or the Export to LS-DYNA buttons respectively, located in the left bottom part of the results window. Note that this feature requires that Microsoft Excel® or LS-DYNA® is installed on the system. Also, by clicking on the
+Show results in folder view the user is directed to the results’ folder.
+3.6.10 Output I-soil/LSDYAN input file
+Users can use the ‘export to I-soil/LSDYAN’ button to generate I-soil/LSDYAN input file. The details can be found in I-SOIL/LSDYAN User Manual.
+DEEPSOIL User Manual V 7.0
+Page 62 of 169
+April 4, 2024
+Soil Models
+
+A variety of models are available for DEEPSOIL analyses. These models include: a) Equivalent
+Linear, b) Hyperbolic (MR, MRD, DC), c) a Non-Masing Hyperbolic model (MRDF), and d)
+Porewater Pressure Generation and Dissipation.
+
+4.1
+Backbone Curves
+4.1.1
+Hyperbolic / Pressure-Dependent Hyperbolic (MKZ)
+DEEPSOIL incorporates the pressure-dependent hyperbolic model. The modified hyperbolic model, developed by (Matasovic, 1993), is based on the hyperbolic model by (Konder and Zelasko,
+1963), but adds two additional parameters Beta (β) and s that adjust the shape of the backbone curve:
+
+𝜏=
+𝐺0𝛾
+1 + 𝛽( 𝛾 𝛾𝑟) 𝑠
+(4.1) where G0 = initial shear modulus,  = shear strength,  = shear strain. Beta, s, and r
+ are the model parameters, respectively. There is no coupling between the confining pressure and shear stress.
+DEEPSOIL extends the model to allow coupling by making r
+ confining pressure dependent as follows (Hashash and Park, 2001):
+
+𝛾𝑟= 𝑅𝑒𝑓𝑒𝑟𝑒𝑛𝑐𝑒 𝑆𝑡𝑟𝑎𝑖𝑛( 𝜎𝑣
+′
+𝑅𝑒𝑓𝑒𝑟𝑒𝑛𝑐𝑒 𝑆𝑡𝑟𝑒𝑠𝑠) 𝑏
+
+(4.2) where v’ is the effective vertical stress. Reference stress is the vertical effective stress at which r
+ = Ref. stress. This model is termed as the “pressure-dependent hyperbolic model.”
+The pressure-dependent modified hyperbolic model is almost linear at small strains and results in zero hysteretic damping at small strains. Small strain damping has to be added separately to simulate actual soil behavior which exhibits damping even at very small strains (Hashash and Park,
+2001). The small strain damping is defined as
+
+𝜉= 𝑆𝑚𝑎𝑙𝑙 𝑆𝑡𝑟𝑎𝑖𝑛 𝐷𝑎𝑚𝑝𝑖𝑛𝑔 𝑅𝑎𝑡𝑖𝑜( 1 𝜎𝑣′) 𝑑
+
+(4.3) where d can be set to zero in case a pressure independent small strain damping is desired.
+In summary, the parameters to be defined in addition to the layer properties are:
+DEEPSOIL User Manual V 7.0
+Page 63 of 169
+April 4, 2024
+• Reference Strain
+• Stress-strain curve parameter, Beta (β)
+• Stress-strain curve parameter, s
+• Pressure dependent (reference strain) parameter, b
+• Reference Stress
+• Pressure dependent (damping curve) parameter, d
+
+4.1.2
+Generalized Quadratic/Hyperbolic (GQ/H) Model with Shear Strength Control
+(Darendeli 2001) study constructs the shear strength - shear strain curves based on the experimentally obtained data. At small strains the data is collected using resonant column test, and towards the medium shear strain levels the torsional shear test results are used. The values are extrapolated at the large strain levels. This extrapolation may underestimate or overestimate the shear strength at large strains. Therefore, shear strength correction is necessary to account for the correct shear strength at large strains (Phillips and Hashash 2009). General Quadratic/ Hyperbolic model proposed by (Groholski et al. 2016) has a curve fitting scheme that automatically corrects the reference curves (such as Darendeli (2001)) based on the specified shear strength at the large strains (the parameter τmax in the eq. (4.5)). The curve fitting parameters θ1 through θ5 (eq. (4.5)) are used to preserve the modulus reduction curves obtained from reference studies as much as possible and modifies the large strain values based on the specified large strain shear strength.
+
+The parameters τmax, and θ1 through θ5 are required to construct the shear strength corrected shear strength - shear strain curves. Obtaining τmax is straightforward and user only needs to determine the shear strength of the simulated soil material at large strains. The parameters θ1 through θ5 can be obtained based on the reference study (Groholski et al. 2016). One easy way to obtain these parameters is using DEEPSOIL (a 1-D nonlinear site response analysis software, (Hashash et al.
+2016)). The user can create the layered domain in DEEPSOIL software and select the available reference curve. Upon constructing the layered domain, GQ/H curve fitting routine calculates the shear strength corrected shear strength - shear strain curve and provides the parameters θ1 through θ5. These values can be directly used in soil hysteretic material without necessity to define any reference shear strength - shear strain curve. The material model uses the τmax, G0, and θ1 through θ5 to construct the shear strength - shear strain curve using the following functions:
+
+DEEPSOIL User Manual V 7.0
+Page 64 of 169
+April 4, 2024
+
+𝜃𝜏= 𝜃1 + 𝜃2 ∗ 𝜃4 ∗( 𝛾 𝛾𝑟)𝜃5 𝜃3 𝜃5 + 𝜃4 ∗( 𝛾 𝛾𝑟)𝜃5
+(4.4) where, 𝛾𝑟 is the reference strain and is calculated as 𝛾𝑟= 𝜏𝑚𝑎𝑥/𝐺0. Once the θτ is determined, the shear strength - shear strain curve is constructed as follows:
+
+𝜏= 𝜏𝑚𝑎𝑥∗[ 1 𝜃𝜏
+∗{1 + ( 𝛾 𝛾𝑟
+) − √{1 + 𝛾 𝛾𝑟
+}
+−4 ∗𝜃𝜏∗𝛾 𝛾𝑟
+}]
+(4.5)
+
+4.2
+Hysteretic (Unload-Reload) Behavior
+4.2.1
+Masing Rules
+When the user wishes to fit a soil curve (i.e. determine the model parameters which most closely match the defined curves), the following options are available:
+
+MR: Procedure to find the parameters that provide the best fit for the modulus reduction curve with potentially significant mismatch of the damping curve.
+
+MRD: Procedure to find the parameters that provide the best fit for both the modulus reduction and damping curve.
+
+DC: Procedure to find the parameters that provide the best fit for the damping curve with potentially significant mismatch of the backbone curve.
+
+4.2.2
+Non-Masing Unload-Reload Rules
+The non-Masing model included in DEEPSOIL is the MRDF Pressure-Dependent Hyperbolic model (Phillips and Hashash, 2009). This model is implemented as a reduction factor which effectively alters the Masing rules. By introducing the reduction factor, the modulus reduction and damping curves can be fit simultaneously. The damping behavior is modified as:
+
+𝜉𝑀𝑎𝑠𝑖𝑛𝑔𝐻𝑦𝑠𝑡𝑒𝑟𝑒𝑡𝑖𝑐= 𝐹(𝛾𝑚𝑎𝑥) ∗𝜉𝑀𝑎𝑠𝑖𝑛𝑔
+(4.6)
+
+DEEPSOIL User Manual V 7.0
+Page 65 of 169
+April 4, 2024 where F(γm) is the reduction factor calculated as a function of γm,, the maximum shear strain experienced by the soil at any given time, and ξMasing is the hysteretic damping calculated using the
+Masing rules, based on the modulus reduction curve. Two formulations for F(γm) are implemented in DEEPSOIL and are discussed in the following sections.
+
+4.2.2.1
+MRDF-UIUC
+The MRDF Pressure-Dependent Hyperbolic (Phillips and Hashash, 2009) model available in
+DEEPSOIL allows the user to introduce a reduction factor into the hyperbolic model. The reduction factor has the form:
+
+𝐹(𝛾𝑚) = 𝑃1 −𝑃2(1 −𝐺(𝛾𝑚) 𝐺0
+⁄
+)𝑃3
+(4.7)
+
+where 𝛾𝑚 is the maximum shear strain experienced at any given time, 𝐺(𝛾𝑚) is the shear modulus at 𝛾𝑚, and P1, P2, and P3 are the fitting parameters.
+By setting P1= 1 and P2= 0, the reduction factor is equal to 1 (regardless of the value of P3), and the model is reduced to the Extended Masing criteria.
+
+4.2.2.2
+MRDF-Darendeli
+The MRDF Pressure-Dependent Hyperbolic model (Phillips and Hashash, 2009) can also be used with alternative formulations for the reduction factor. One alternative is the formulation proposed by Darendeli, 2001. This formulation is an empirically-based modified hyperbolic model to predict the nonlinear dynamic responses of different soil types. The developed model is implemented as a reduction factor with the form:
+
+𝐹(𝛾𝑚) = 𝑃1(𝐺(𝛾𝑚) 𝐺0
+⁄
+)𝑃2
+(4.8) where 𝛾𝑚 is the maximum shear strain experienced at any given time, 𝐺(𝛾𝑚) is the shear modulus at 𝛾𝑚, and P1 and P2 are the fitting parameters.
+By setting P1= 1 and P2= 0, the reduction factor is equal to 1, and the model is reduced to the
+Extended Masing criteria.
+
+DEEPSOIL User Manual V 7.0
+Page 66 of 169
+April 4, 2024
+4.2.2.3
+Non-Masing Unload-Reload Formulation
+The hyperbolic / pressure-dependent hyperbolic unload-reload equation is modified with the reduction factor, 𝐹(𝛾𝑚), as follows:
+
+𝜏= 𝐹(𝛾𝑚) [2 𝐺0((𝛾−𝛾𝑟𝑒𝑣) 2
+⁄ )
+1 + 𝛽((𝛾−𝛾𝑟𝑒𝑣)
+2𝛾𝑟
+) 𝑠−𝐺0(𝛾−𝛾𝑟𝑒𝑣)
+1 + 𝛽(𝛾𝑚 𝛾𝑟) 𝑠] + 𝐺0(𝛾−𝛾𝑟𝑒𝑣)
+1 + 𝛽(𝛾𝑚 𝛾𝑟) 𝑠+ 𝜏𝑟𝑒𝑣
+(4.9)
+
+4.3
+Porewater Pressure Generation & Dissipation
+The following table summarizes the available excess pore water pressure generation models and required parameters.
+Table 4.1 Available Excess Pore Water Pressure Generation Models and Parameters
+PWP
+Model
+Soil Type
+Abbrev.
+Model
+No:
+Input
+Input
+Input
+Input
+Input
+Input
+Input
+Dobry &
+Matasovic
+Sand
+S-M/D f p
+F s γtvp v
+-
+Matasovic
+& Vucetic
+Clay
+C-M s r
+A
+B
+C
+D γtvp
+GMP
+Cohesioneless
+GMP α
+Dr
+(%)
+FC(%)
+-
+- v
+-
+Park & Ahn
+Sand
+P/A α β
+Dru=1.0
+CSRt
+- v
+-
+Generalized
+Any
+G α β
+-
+-
+- v
+-
+
+Each model is described in the following sections. The user is referred to the original sources for additional details.
+
+4.3.1
+Dobry/Matasovic Model for Sand
+The Matasovic (1992) pore water pressure generation parameters must be determined by a curve- fitting procedure of cyclic undrained lab-test data. Once the data is obtained, the following
+DEEPSOIL User Manual V 7.0
+Page 67 of 169
+April 4, 2024 equation, proposed by Matasovic and Vucetic (1993, 1995), can be used to determine the best-fit parameters to be used in the analysis.
+The excess pore water pressure is generated using the following equation:
+
+𝑢𝑁= 𝑝∗𝑓∗𝑁𝑐∗𝐹∗(𝛾𝑐−𝛾𝑡𝑣𝑝) 𝑠
+1 + 𝑓∗𝑁𝑐∗𝐹∗(𝛾𝑐−𝛾𝑡𝑣𝑝) 𝑠
+(4.10)
+
+Table 4.2 Description of Dobry/Matasovic Model Parameters
+VARIABLE
+DESCRIPTION uN
+Normalized excess pore pressure (ru).
+Neq
+Equivalent number of cycles.
+γc
+The current reversal shear strain.
+γtvp
+Threshold shear strain value.
+p
+Curve fitting parameter.
+s
+Curve fitting parameter.
+F
+Curve fitting parameter.
+f
+Dimensionality factor.
+v
+Degradation parameter
+
+4.3.1.1
+Remarks:
+The uN parameter is defined as the normalized excess pore water pressure ratio (ru = u’ / σv’).
+
+Neq is the equivalent number of cycles calculated for the most recent strain reversal. For uniform strain cycles, the equivalent number of cycles is the same as the number of loading cycles. For irregular strain cycles, since the cycle number does not increase uniformly, Neq is calculated at strain reversals using the uN obtained from the previous step and is then incremented by 0.5 for the current step.
+
+γtvp is the shear strain value below which reversals will not generate excess pore water pressure.
+
+DEEPSOIL User Manual V 7.0
+Page 68 of 169
+April 4, 2024 f is used to account for loading in multiple dimensions. f = 1 is used for 1D motion. f = 2 is used for 2D motion. Note that assigning a value of f = 2 does not double the excess pore water pressure, because f is included in both the numerator and denominator of the equation.
+
+F, s, and p are the curve fitting parameters and can be obtained from laboratory tests.
+
+The degradation parameter, v, is discussed in further detail in section 4.3.6
+
+4.3.1.2
+Suggested Values:
+Carlton (2014) presents empirical correlations for the curve fitting parameters F and s for sands.
+The best data fit is shown in Figure 4-1 and have the following functional forms:
+
+𝐹= 3810 ∗ 𝑉𝑠
+(−1.55)
+(4.11)
+
+𝑠= (𝐹𝐶+ 1)0.1252
+(4.12)
+
+where Vs is the shear wave velocity in m/s and FC is the percentage of fines content. The fit is produced using the data from Table 4.3.
+Table 4.3 shows that the values of p range within +-7.1% of 1 for different types and relative densities of sands. For practical purposes, p = 1 is often assumed in the absence of laboratory data.
+DEEPSOIL User Manual V 7.0
+Page 69 of 169
+April 4, 2024
+
+Figure 4-1 a) Carlton (2014), best fit correlating Vs (m/sec) to parameter F of Dobry pore water pressure model for sands. b) Carlton (2014), best fit correlating FC (%) to parameter s of Dobry pore water pressure model for sands
+DEEPSOIL User Manual V 7.0
+Page 70 of 169
+April 4, 2024
+Table 4.3: Material Parameters for Low Plasticity Silts and Sands for the Matasovic and Vucetic (1993) pore pressure generation model (From Carlton, 2014)
+Material
+Reference k
+(ft/sec)
+Pore Water Pressure Model Parameters v f p
+F s γtv
+(%)
+Warrenton, Oregon Silt recovered from 130 to 248 ft b.g.s; 73%<fines<99%;
+32.9%<water content<37.3%;
+86.3<γdry< 88.9 pcf;882<
+Vs<1086 fps; OCR = 1.0; PI =
+10, LL = 37
+Dickenson
+(2008) not reported
+0.493
+1.761
+0.06
+Stillaguamish River Silt,
+Washington; recovered from
+30 to 95 ft b.g.s; 60%< fines<
+90%; 600ft<Vs<900 ft/s; PI=8-
+10; LL=31-32
+Anderson et al. (2010) not reported not reported
+1.05
+0.3
+1.5
+0.02
+
+Bangding Sand (BS); poorly- graded commercially avaliable sane; Dγ＝40%；Dγ＝0.19；
+Cc＝0.9；Cu＝1.4；γd,min =
+90pcf;γd,max=106pcf
+Dobry et al.
+(1985)
+5.5x10-4
+10.9
+0.017
+Wildlife Site Sand A(WSA); void ratio 0.84 to 0.85; 37% fines; N≈5;Vs≈350ft/s
+Vucetic and
+Dobry (1988)
+9.8x10-4
+1.04
+2.6
+1.7
+0.02
+Wildlife Site Sand B(WSB); void ratio 0.74 to 0.76; 25% fines; N≈6 to 13;Vs ≈ 450 to
+500 ft/s
+Vucetic and
+Dobry (1988)
+6.6x10-3
+1.04
+2.6
+1.7
+0.02
+Heber Road Site Sand PB; void ratio 0.7; 15% fines; Vs ≈ 500 to 600 ft/s
+Vucetic and
+Dobry (1989)
+1.4x10-4
+1.05
+1.706
+1.09
+0.024
+Heber Road Site Sand PB; void ratio 0.7; 22% fines; Vs ≈ 400 to 466 ft/s
+Vucetic and
+Dobry (1990)
+3.9x10-5
+1.071
+1.333
+1.08
+0.022
+DEEPSOIL User Manual V 7.0
+Page 71 of 169
+April 4, 2024
+Santa Monica Beach
+Sand(SMB); clean uniform beach sand similar to Monterey
+No. 0; void ratio = 0.56; zero fines; dense; Vs ≈ 867 ft/s
+Matasovic
+(1993)
+3.3x10-1
+3.8
+0.73
+0.02
+Owi Island Sand at depths from 6 to 14 m b.g.s.; silty fine sand placed as hydraulic fill;
+18% <fines<35%
+Thilakaratne and
+Vucetic(1987)
+6.6x10-3
+1.005
+1.8
+0.025
+Owi Island Sand at depths of 6 m; placed as hydraulic fill;
+50% <fines<85%
+Thilakaratne and
+Vucetic(1988)
+9.8x10-4
+0.95
+2.5
+1.6
+0.015
+
+Mei et al. (2015) developed correlation for the curve fitting parameter F using 123 cyclic shear test results compiled from literature. Two soil index properties, relative density (Dr) and uniformity coefficient (Cu) are used in the correlation and it is applicable to sub-angular to sub-rounded clean sands.
+
+Figure 4-2 Proposed correlation to estimate curve-fitting parameter F (Mei et al. 2015)
+DEEPSOIL User Manual V 7.0
+Page 72 of 169
+April 4, 2024
+4.3.2
+Matasovic and Vucetic Model for Clays
+Matasovic and Vucetic (1995) propose the following equation for the excess pore water pressure generation for clays:
+
+𝑢𝑁= 𝐴𝑁𝑐
+−3𝑠(𝛾𝑐−𝛾𝑡𝑣𝑝)𝑟
++ 𝐵𝑁𝑐
+−2𝑠(𝛾𝑐−𝛾𝑡𝑣𝑝)𝑟
++ 𝐶𝑁𝑐
+−𝑠(𝛾𝑐−𝛾𝑡𝑣𝑝)𝑟
++ 𝐷
+(4.13)
+
+Table 4.4 Description of Matasovic and Vucetic Model Parameters
+VARIABLE
+DESCRIPTION uN
+Normalized excess pore pressure (ru)
+Neq
+Equivalent number of cycles γc
+The most recent reversal shear strain.
+γtvp
+Threshold shear strain value.
+r
+Curve fitting parameter.
+s
+Curve fitting parameter.
+A
+Curve fitting coefficients
+B
+Curve fitting coefficients
+C
+Curve fitting coefficients
+D
+Curve fitting coefficients
+
+4.3.2.1
+Remarks:
+The uN parameter is the same as in normalized excess pore water pressure ratio (ru = u’ / σv’)
+
+Neq is the equivalent number of cycles calculated for the most recent strain reversal. For uniform strain cycles, the equivalent number of cycles is the same as the number of loading cycles. For irregular strain cycles, since the cycle number does not increase uniformly, and Neq is calculated using the uN obtained from previous step and is then incremented by 0.5 for the current step.
+
+γtvp is the threshold shear strain value below which reversals will not generate excess pore water pressure.
+
+DEEPSOIL User Manual V 7.0
+Page 73 of 169
+April 4, 2024
+4.3.2.2
+Suggested Values:
+Carlton (2014) presents empirical correlations for the curve fitting parameters s, r, A, B, C, and D.
+Table 4.5 and Figure 4-3 (solid black lines) are used in the correlations. The parameter t in the figure corresponds to s*(γc - γtvp)r. The empirical correlations take the following functional forms:
+
+𝑠= 1.6374 𝑥 𝑃𝐼−0.802 𝑥 𝑂𝐶𝑅−0.417
+(4.14)
+
+𝑟= 0.7911 𝑥 𝑃𝐼−0.113 𝑥 𝑂𝐶𝑅−0.147
+(4.15)
+
+𝐴= {
+7.6451 𝑓𝑜𝑟 𝑂𝐶𝑅< 1.1
+15.641 𝑥 𝑂𝐶𝑅−0.242 𝑓𝑜𝑟 𝑂𝐶𝑅 ≥1.1
+(4.16)
+
+𝐵= {
+−14.714 𝑓𝑜𝑟 𝑂𝐶𝑅< 1.1
+−33.691 𝑥 𝑂𝐶𝑅−0.33 𝑓𝑜𝑟 𝑂𝐶𝑅 ≥1.1
+(4.17)
+
+𝐶= {
+6.38 𝑓𝑜𝑟 𝑂𝐶𝑅< 1.1
+21.45 𝑥 𝑂𝐶𝑅−0.468 𝑓𝑜𝑟 𝑂𝐶𝑅 ≥1.1
+(4.18)
+
+𝐷= {
+0.6922 𝑓𝑜𝑟 𝑂𝐶𝑅< 1.1
+−3.4708 𝑥 𝑂𝐶𝑅−0.857 𝑓𝑜𝑟 𝑂𝐶𝑅 ≥1.1
+(4.19) where OCR is the over consolidation ratio, and PI is the plasticity index.
+
+Figure 4-3 Comparison of the curves given by Matasovic (1993) and Vucetic (1992) (solid black lines) for t, for different values of PI and OCR and the correlations presented (dotted red lines). (Carlton, 2014)
+Table 4.5 Material parameters for the Matasovic and Vucetic (1995) clay pore pressure generation model
+(From Carlton, 2014)
+DEEPSOIL User Manual V 7.0
+Page 74 of 169
+April 4, 2024
+Material
+Reference γtvp
+(%)
+Pore Water Pressure and Degradation Model
+Parameter s r
+A
+B
+C
+D
+Marine
+Clay
+(OCR =
+1.0)
+Matasovic and Vucetic
+(1995)
+0.1
+0.075 0.495
+7.6451
+-14.7174
+6.3800
+0.6922
+
+Marine
+Clay
+(OCR =
+1.4)
+Matasovic and Vucetic
+(1995)
+0.1
+0.064 0.520
+14.62
+-30.5124
+18.4265
+-2.5343
+
+Marine
+Clay
+(OCR =
+2.0)
+Matasovic and Vucetic
+(1995)
+0.1
+0.054 0.480
+12.95
+-26.3287
+15.3736
+-1.9944
+
+Marine
+Clay
+(OCR =
+4.0)
+Matasovic and Vucetic
+(1995)
+0.1
+0.042 0.423
+11.263
+-21.4595
+11.2404
+-1.0443
+
+4.3.3
+GMP (Green, Mitcher and Polito) Model for Cohesionless Soil
+The GMP model (Green et al. 2000) is an energy-based pore pressure generation model. The excess pore pressure is calculated as follows:
+
+𝑟𝑢= 𝛼√𝑊𝑠
+𝑃𝐸𝐶
+(4.20)
+
+Table 4.6 Description of GMP Model Parameters
+DEEPSOIL User Manual V 7.0
+Page 75 of 169
+April 4, 2024
+VARIABLE
+DESCRIPTION ru
+Normalized excess pore pressure.
+Ws
+Normalized dissipated energy per unit volume of soil.
+PEC
+Pseudo energy capacity.
+α
+Scale factor.
+v
+Degradation parameter
+
+4.3.3.1
+Remarks:
+The dissipated energy, 𝑊𝑠, is calculated as the area beneath the current stress-strain path and has the following functional form:
+
+𝑊𝑠= 1
+2𝜎0
+′ ∑(𝜏𝑖+1 + 𝜏𝑖) ∗(𝛾𝑖+1 −𝛾𝑖) 𝑛 𝑖=1
+
+(4.21)
+
+In DEEPSOIL, a scale factor “α” is introduced to allow for scaling of the generated excess pore water pressure to match laboratory or field data.
+The GMP model is a special case of the Berrill and Davis model (Berrill and Davis, 1985) that has the form ru = α x Wsβ. In GMP model, α and β values are replaced by (1/PEC)0.5 and 0.5 respectively.
+The degradation parameter is as described by Matasovic (1993) and uses the same functional form as defined in the Matasovic model for sands (see section 4.3.6).
+
+4.3.3.2
+Suggested Values:
+The determination of the 𝑃𝐸𝐶 calibration parameter can be conducted either via graphical procedure or by use of an empirical relationship. The graphical procedure is described in detail by
+Green et al. (2000). However, this causes an interruption in the analysis as it requires the construction of the graphical procedure outside of the site response analysis software.
+Polito et al. (2008) derived an empirical relationship between 𝑃𝐸𝐶, relative density (𝐷𝑟), and fines content (FC) from a large database of laboratory data on non-plastic silt-sand mixtures, ranging from clean sands to pure silts. The use of this empirical relationship allows the use of the GMP model directly in the nonlinear site response analysis software by removing the need to find the value of 𝑃𝐸𝐶 through graphical procedures. The empirical relationship is defined as:
+DEEPSOIL User Manual V 7.0
+Page 76 of 169
+April 4, 2024
+
+ln(𝑃𝐸𝐶) = {
+𝐹𝐶< 35%: 𝑒0.0139𝐷𝑟−1.021
+𝐹𝐶 ≥35%: −0.597 ∗𝐹𝐶0.312 + 𝑒0.0139𝐷𝑟−1.021
+(4.22)
+
+4.3.4
+Generalized Energy-based PWP Generation Model
+This model allows for a user-defined excess pore water pressure generation model based on the framework adopted from Berrill and Davis (1985) and Green et al. (2000). The model is energy- based and the excess pore water pressure is calculated as follows:
+
+𝑟𝑢= α ∗𝑊𝑠 β
+(4.23)
+
+The model is a generalized form of GMP model, and uses the same general functional form presented in the Berrill and Davis (1985) formulation. α and β are curve fitting parameters and can be extracted from laboratory tests. Ws is the dissipated energy and is calculated using the formulation defined in the GMP model.
+The degradation parameter is as described by Matasovic (1993) and uses the same functional form as defined in the Matasovic model for sands (see section 4.3.6).
+
+Table 4.7 Description of Generalized Model Parameters
+VARIABLE
+DESCRIPTION α
+Curve fitting coefficient β
+Curve fitting parameter
+Ws
+Normalized dissipated energy per unit volume of soil v
+Degradation parameter
+
+4.3.5
+Park and Ahn Model for Sand
+The Park and Ahn (2013) model is a stress-based excess pore water pressure generation model that uses the concept of a damage parameter to account for the accumulation of stress. The excess pore water pressure is calculated as follows:
+
+𝑟𝑢= 2 𝜋arcsin (
+𝐷
+𝐷𝑟𝑢=1.0
+)
+( 1
+2𝛽)
+
+(4.24)
+DEEPSOIL User Manual V 7.0
+Page 77 of 169
+April 4, 2024
+
+where the damage parameter D at each time step can be calculated as:
+
+𝐷𝑖+1 = 𝐷𝑖 + ∆𝐷
+(4.25)
+
+∆𝐷= 2(𝐶𝑆𝑅𝑖+1 −𝐶𝑆𝑅𝑡)𝛼
+(4.26)
+
+In an incremental form, the generation model becomes:
+
+𝑑𝑟𝑢= (𝑟𝑢)𝑖+1 −(𝑟𝑢)𝑖= 2 𝜋𝑎𝑟𝑐𝑠𝑖𝑛[( 𝐷𝑖+1
+𝐷𝑟𝑢=1.0
+)
+2𝛽
+] −2 𝜋𝑎𝑟𝑐𝑠𝑖𝑛[(
+𝐷𝑖
+𝐷𝑟𝑢=1.0
+)
+2𝛽
+]
+(4.27)
+
+Table 4.8 Description of Park and Ahn Model Parameters
+VARIABLE
+DESCRIPTION ru
+Normalized excess pore pressure.
+D
+Damage parameter.
+Dru = 1.0
+Damage parameter at the initiation of liquefaction
+CSRt
+Threshold shear stress ratio value.
+α
+A calibration parameter β
+Empirical constant v
+Degradation parameter
+
+DEEPSOIL User Manual V 7.0
+Page 78 of 169
+April 4, 2024
+4.3.5.1
+Remarks:
+CSRt is the threshold shear stress ratio below which reversals will not generate excess pore water pressure.
+The degradation parameter is as described by Matasovic (1993) and uses the same functional form as defined in the Matasovic model for sands (see section 4.3.6).
+
+4.3.5.2
+Suggested Values:
+α is a calibration parameter that can be calculated using the following formulation with the CSR-
+N curve obtained from laboratory tests:
+
+𝛼𝑎𝑣𝑒= 1
+𝑀∗ ∑( log (𝑁𝑖/𝑁𝑖+1)/(log(𝐶𝑆𝑅𝑖+1 −𝐶𝑆𝑅𝑡) −log(𝐶𝑆𝑅𝑖−𝐶𝑆𝑅𝑡))
+𝑀−1 𝑖=1
+
+(4.28)
+
+where M is the total number of data points in CSR-N curve.
+
+β is an empirical constant and for clean sands, a value of 0.7 is suggested.
+
+Dru=1.0 is the value of damage parameter, D, at initiation of liquefaction and can be calculated from
+CSR-N curves that are obtained from laboratory tests using the following formula:
+
+𝐷𝑟𝑢=1.0 = 4𝑁(𝐶𝑆𝑅−𝐶𝑆𝑅𝑡)𝛼
+(4.29)
+4.3.6
+Porewater Pressure Degradation Parameters
+Matasovic (1993) represents the degradation of the shear strength and shear stiffness of the soil within the MKZ model by inclusion of two degradation indices. These degradation parameters have also been implemented (and have similar effects) within the GQ/H model. The degradation parameters are defined as:
+
+𝛿𝐺= √1 −𝑢∗
+(4.30)
+
+𝛿𝜏= 1 −(𝑢∗)𝑣
+(4.31)
+Where 𝛿𝐺is the shear modulus degradation function, 𝛿𝜏is the shear stress degradation function, 𝑢∗ is the excess porewater pressure normalized by initial effective overburden stress, and 𝑣 is a curve-
+DEEPSOIL User Manual V 7.0
+Page 79 of 169
+April 4, 2024 fitting parameter to better model the degradation of shear strength with excess pore pressure generation.
+These degradation parameter formulations are implemented for all soil models except the
+Matasovic and Vucetic model for clays. The degradation parameters for the Matasovic and Vucetic model for clays are defined by Matasovic (1995) as:
+
+𝛿𝐺= 𝛿𝜏= 𝑁−1
+(4.32)
+Where 𝛿𝐺is the shear modulus degradation function, 𝛿𝜏is the shear stress degradation function, and 𝑁 is the number of equivalent cycles.
+
+4.3.7
+Porewater Pressure Dissipation
+The pore water pressure dissipation model is based on Terzaghi 1-D consolidation theory:
+
+𝜕𝑢
+𝜕𝑡= 𝐶𝑣(𝜕2𝑢
+𝜕𝑧2)
+(4.33)
+
+where Cv is the coefficient of consolidation.
+Dissipation of the excess pore water pressure is assumed to occur in the vertical direction only.
+Porewater pressure generation and dissipation occur simultaneously during ground shaking.
+
+DEEPSOIL User Manual V 7.0
+Page 80 of 169
+April 4, 2024
+Automatic profile generation
+This section is under development.
+5.1
+Layer subdivision
+With the information of the shear wave velocity and thickness of each layer in the profile, an automatic subdivision of the profile can be achieved. That is done by computing the highest frequency that the layer can propagate and is calculated as: fmax = VS/4H, where Vs is the shear wave velocity of the layer, and H is the layer thickness. The layer is then divided into sublayers of equal thicknesses to achieve a target fmax, specified by the user, or higher. The properties of the sublayers are the same as that of the parent layer. The target fmax is recommended to be equal to
+30 Hz or higher. It is recommended that the layers have the same maximum frequency throughout the soil profile, though this is not required.
+5.2
+Randomization
+Under development.
+
+DEEPSOIL User Manual V 7.0
+Page 81 of 169
+April 4, 2024
+Database Output Structure
+
+DEEPSOIL versions until V7.0 are designed to provide site response analysis results as text file(s).
+In the case of single analysis, one text file output is generated as including results of each selected layer in separate tables of (i) acceleration, strain and stress ratio (shear stress/effective vertical stress) time histories, (ii) spectral accelerations at 113 oscillator periods from 0.01 to 10.0s, (iii)
+Fourier amplitude spectrum (FAS) and Fourier amplitude ratio computed as FASsurface/FASinput, and (iv) calculated PGA, minimum and maximum displacements at the top of each layer, and max.
+strain, max. stress ratio and effective vertical stress at the mid-depth of each layer. The results of a batch analysis, in which one site profile can be exposed to several input motions, are stored in subfolders with motion names, and a unique text file is created for each table given in one text file for every single analysis.
+After the introduction of randomization of site profile properties, as VS and dynamic curve randomization in DEEPSOIL V7.0, users have the ability to run large numbers of analyses (such as parametric studies) through the interface, and this necessitates handling large amount of output with complicated structure. Thus, SQLite database structure has been introduced to store the analysis results in DEEPSOIL V7.0. The transition from using text files for the analysis results to database files happened for mainly two reasons: (i) databases can handle querying and indexing of more sophisticated output structure, and (ii) significant reduction of output size (1.5 ≈ 2.0 times) can be achieved.
+The next section gives further details on the database output structure for DEEPSOIL V7.0.
+
+6.1
+Database Structure for Analyses Output
+Figure 6-1 shows the database structure for DEEPSOIL V7.0 output. It is composed of mainly 6 components as:
+(i) Fourier Amplitude Spectra (FAS):
+FAS data includes the frequency array (Frequency), FAS of input motion
+(Input_Motion_FAS), FAS of computed motions at selected layers (Layer#_FAS), and ratio of FAS of computed motions at selected layers to that of input motion.
+
+DEEPSOIL User Manual V 7.0
+Page 82 of 169
+April 4, 2024
+(ii) DEEPSOIL Input:
+Input file created by the interface is provided as BLOB data in database output.
+(iii) Profile Data:
+Profile Data is composed of (a) total PGA (PGA_Total), relative PGA -which is defined as the difference between the computed PGA and the PGA of bedrock motion
+(PGA_Relative)-, minimum and maximum relative displacement (Min_DISP_Relative
+& Max_DISP_Relative) at top depth (Depth_Layer_Top) of each layer, (b) initial effective stress (Initial_Effective_Stress), maximum strain (Max_Strain), and maximum stress ratio (Max_Stress_Ratio), which is the ratio of shear stress and effective vertical stress at mid-depth (Depth_Layer_Mid) of each layer.
+(iv) Response Spectra (RS):
+Response spectrum of input motion (Input_Motion_RS) and calculated RS at selected layers (Layer#_RS) are provided at 113 periods.
+(v) Time Histories:
+Calculated acceleration (Layer#_Accel), velocity (Layer#_Vel), displacement
+(Layer#_Disp), Arias intensity (Layer#_Arias), strain (Layer#_Strain) and stress
+(Layer#_Stress) time history are provided.
+(vi) Velocity and Displacement Time Histories:
+Velocity time history as relative (Layer#_Vel_Relative) and total (Layer#_Vel_Total), and displacement time history as relative (Layer#_Disp_Relative) and total
+(Layer#_Disp_Total) are provided under this table.
+
+DEEPSOIL User Manual V 7.0
+Page 83 of 169
+April 4, 2024
+
+Figure 6-1 DEEPSOIL V7.0 Output Structure
+
+Output Structure
+Fourier Amplitude
+Spectra (FAS)
+• Frequency
+• Input_Motion_FAS
+• Layer#_FAS
+• Layer#_FAS_Ratio
+DEEPSOIL
+Input
+Profile
+Data
+• Depth_Layer_Top
+• PGA_Total
+• PGV_Relative
+• Min_DISP_Relative
+• Max_DISP_Relative
+• Depth_Layer_Mid
+• Initial_Effective_Stress
+• Max_Strain
+• Max_Stress_Ratio
+Response
+Spectra (RS)
+• Period
+• Input_Motion_RS
+• Layer#_RS
+Time
+Histories
+•
+Time
+•
+Layer#_Accel
+•
+Layer#_Vel
+•
+Layer#_Disp
+•
+Layer#_Arias
+•
+Layer#_Strain
+•
+Layer#_Stress
+Vel&Disp
+Time H.
+•
+Time
+•
+Layer#_
+Vel_Tot al
+•
+Layer#_
+DEEPSOIL User Manual V 7.0
+Page 84 of 169
+April 4, 2024
+Examples and Tutorials
+
+The tutorial is intended to help users get familiar with DEEPSOIL. Six examples are prepared to guide the users through the various features of DEEPSOIL. It is recommended that the examples are followed in the order they appear. The example soil profiles and strain paths are stored in the
+“Examples” folder under the default DEEPSOIL working directory. The motions for use with example profiles are included under the default DEEPSOIL motion directory.
+
+7.1
+Example 1: Undamped Linear Analysis with Resonance
+Two analyses included in Example 1 consist of linear analysis with frequency domain
+(Example_1A) and time domain solutions (Example_1B), respectively, and selected input motions with analyses properties are presented in Table 7.1.
+
+Figure 7-1 Soil profile of Example 1
+
+Table 7.1 Analyses properties and input motions for Example 1
+Name
+Analysis Method Solution Type
+Analysis Tag
+Input Motion
+Example_1A
+Linear
+Frequency Domain
+DS-FL0
+ChiChi.txt
+Example_1B
+Linear
+Time Domain
+DS-TL0
+ChiChi.txt
+
+20 m
+Soil
+Unit Weight= 20 kN/m3
+Vs=500 m/s
+Damping (%) = 0.0
+
+Rigid Half space
+DEEPSOIL User Manual V 7.0
+Page 85 of 169
+April 4, 2024
+The flow of analysis through DEEPSOIL V7.0 interface of these two examples are illustrated below:
+
+• The analysis definition for linear frequency-domain analysis (Example 1A) is given in
+Figure 7-2. The solution type in Figure 7-2 should be changed to time-domain for time- domain linear analysis (Example 1B).
+• Figure 7-3 show Soil Profile Definition window to input basic soil properties (thickness, unit weight, shear wave velocity, effective vertical stress) and soil model properties (small- strain damping) for soil layer of interest
+• Definition of bedrock as Rigid Half-space is presented in Figure 7-4
+• After the definition of basic soil properties and small-strain damping for each soil layer, profile plots as shear wave velocity, maximum frequency (fmax), small-strain damping can be viewed as in Figure 7-5 along with implied shear strength, normalized implied shear strength and implied friction angle.
+• ChiChi motion is selected in Input Motion Selection window, where time-history
+(Acceleration, velocity, displacement, Arias and Housner Intensity) and spectral plots (5% damped spectral acceleration and Fourier Amplitude Spectrum (FAS) of selected motion can be viewed, for two analyses in Figure 7-6.
+• Viscous/Small-Strain Damping definition for time-domain analysis is presented in Figure
+7-7. The recommended options as frequency-independent damping and no update on damping matrix for Example 1B are selected.
+• In Analysis Control Definition window, frequency-independent complex shear modulus reduction is recommended for Example 1A (Figure 7-8). Flexible time-step control along with maximum strain increment of 0.005 and time history interpolation method as zero- padded in frequency-domain are adopted for Example 1B (Figure 7-9).
+• Figure 7-10 and Figure 7-11 illustrate the computed time-history (acceleration, velocity, displacement and arias intensity), and spectral plots (5% damped spectral acceleration,
+FAS and FAS ratio) for Example 1A. Export output as Excel file and related Excel output file are illustrated in Figure 7-12 and Figure 7-13, respectively. Calculated time-histories and spectral plots for Example 1B are given in Figure 7-14 and Figure 7-15.
+DEEPSOIL User Manual V 7.0
+Page 86 of 169
+April 4, 2024
+
+Figure 7-2 Step 1: Analysis Type Definition for Example 1A
+
+Figure 7-3 Step 2: Soil Profile Definition for Example 1A and 1B
+DEEPSOIL User Manual V 7.0
+Page 87 of 169
+April 4, 2024
+
+Figure 7-4 Step 2: Bedrock Profile Definition in Example 1A and 1B
+
+Figure 7-5 Step 2: Soil profile plot for Example 1A and 1B
+DEEPSOIL User Manual V 7.0
+Page 88 of 169
+April 4, 2024
+
+Figure 7-6 Step 3: Input motion selection window for Example 1A and 1B
+
+Figure 7-7 Step 4: Viscous/Small-Strain Damping Definition for Example 1B
+DEEPSOIL User Manual V 7.0
+Page 89 of 169
+April 4, 2024
+
+Figure 7-8 Step 5: Analysis Control Definition Window for Example 1A
+
+Figure 7-9 Step 5: Analysis Control Definition for Example 1B
+DEEPSOIL User Manual V 7.0
+Page 90 of 169
+April 4, 2024
+
+Figure 7-10 Results: Acceleration, Relative Velocity, Relative Displacement and Arias Intensity Time-
+Histories for Example 1A
+
+Figure 7-11 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and Fourier
+Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Example 1A
+DEEPSOIL User Manual V 7.0
+Page 91 of 169
+April 4, 2024
+
+Figure 7-12 Results: Exporting Analysis Results using Export to Excel Option
+
+Figure 7-13 Results: Excel Output for Analysis Results for Example 1A
+DEEPSOIL User Manual V 7.0
+Page 92 of 169
+April 4, 2024
+
+Figure 7-14 Results: Acceleration, Relative Velocity, Relative Displacement and Arias Intensity Time-
+Histories for Example 1B
+
+Figure 7-15 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and Fourier
+Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Example 1B
+DEEPSOIL User Manual V 7.0
+Page 93 of 169
+April 4, 2024
+7.2
+Example 2: Undamped Linear Analysis with Elastic Bedrock
+Two analyses included in Example 2 consist of linear analysis with frequency domain
+(Example_2A) and time domain solutions (Example_2B), respectively, and selected input motions with analyses properties are presented in Table 7.2.
+
+Figure 7-16 Soil profile of Example 2
+
+Table 7.2 Analyses properties and input motions for Example 2
+Name
+Analysis Method Solution Type
+Analysis Tag
+Input Motion
+Example_2A
+Linear
+Frequency Domain
+DS-FL0
+ChiChi.txt
+Example_2B
+Linear
+Time Domain
+DS-TL0
+ChiChi.txt
+
+The flow of analysis for Example 2 is quite similar to that described in Example 1. Only difference between Example 1 and 2 is bedrock definition, and Elastic Half-space is defined for this case with:
+• Shear wave velocity: 760 m/s
+• Unit weight: 25.0 kN/m3
+• Damping Ratio: 2.0 %
+
+20 m
+Soil
+Unit Weight= 20 kN/m3
+Vs=500 m/s
+Damping (%) = 0.0
+
+Elastic Half space
+DEEPSOIL User Manual V 7.0
+Page 94 of 169
+April 4, 2024
+Figure 7-18 and Figure 7-19 illustrate the computed time-history (acceleration, velocity, displacement and arias intensity), and spectral plots (5% damped spectral acceleration, FAS and
+FAS ratio) for Example 2A. Calculated time-histories and spectral plots for Example 2B are given in Figure 7-20 and Figure 7-21.
+
+DEEPSOIL User Manual V 7.0
+Page 95 of 169
+April 4, 2024
+
+Figure 7-17 Step 2: Bedrock Profile Definition for Example 2A and 2B
+
+Figure 7-18 Results: Acceleration, Relative Velocity, Relative Displacement and Arias Intensity Time-
+Histories for Example 2A
+DEEPSOIL User Manual V 7.0
+Page 96 of 169
+April 4, 2024
+
+Figure 7-19 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and Fourier
+Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Example 2A
+
+Figure 7-20 Results: Acceleration, Relative Velocity, Relative Displacement and Arias Intensity Time-
+Histories for Example 2B
+DEEPSOIL User Manual V 7.0
+Page 97 of 169
+April 4, 2024
+
+Figure 7-21 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and Fourier
+Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Example 2B
+DEEPSOIL User Manual V 7.0
+Page 98 of 169
+April 4, 2024
+7.3
+Example 3: Damped Linear Analysis with Elastic Bedrock
+Two analyses included in Example 3 consist of linear analysis with frequency domain
+(Example_3A) and time domain solutions (Example_3B), respectively, and selected input motions with analyses properties are presented in Table 7.3. Computed time-histories (Acceleration,
+Velocity, Displacement, and Arias Intensity) for Example 3A and Example 3B are presented in
+Figure 7-23 and Figure 7-25. Response spectrum at first layer of site profile for Example 3A and
+3B along with that of input motion are given in Figure 7-24 and Figure 7-26.
+
+Figure 7-22 Soil profile of Example 3
+
+Table 7.3 Analyses properties and input motions for Example 3
+Name
+Analysis Method Solution Type
+Analysis Tag
+Input Motion
+Example_3A
+Linear
+Frequency Domain
+DS-FL0
+ChiChi.txt
+Example_3B
+Linear
+Time Domain
+DS-TL0
+ChiChi.txt
+
+20 m
+Soil
+Unit Weight= 20 kN/m3
+Vs=500 m/s
+Damping (%) = 5.0
+
+Elastic Half space
+DEEPSOIL User Manual V 7.0
+Page 99 of 169
+April 4, 2024
+
+Figure 7-23 Result: Computed Time-Histories (Acceleration, Relative velocity, Relative displacement, and
+Arias intensity) for Layer 1 for Example 3A
+
+Figure 7-24 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for Input
+Motion for Example_3A
+DEEPSOIL User Manual V 7.0
+Page 100 of 169
+April 4, 2024
+
+Figure 7-25 Result: Computed Time-Histories (Acceleration, Relative velocity, Relative displacement, and Arias intensity) for Layer 1 for Example 3B
+
+Figure 7-26 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for Input
+Motion for Example_3B
+
+DEEPSOIL User Manual V 7.0
+Page 101 of 169
+April 4, 2024
+7.4
+Example 4: Equivalent Linear Analysis with Discrete Points
+One example included in Example 4 (Figure 7-27) consists of linear analysis with frequency domain, and selected input motions with analyses properties are presented in Table 7.4. Computed time-histories (Acceleration, Velocity, Displacement, and Arias Intensity) and response spectrum at first layer of site profile along with that of input motion are presented in Figure 7-28 and Figure
+7-29.
+
+Figure 7-27 Soil profile of Example 4
+
+Table 7.4 Analyses properties and input motions for Example 4
+Name
+Analysis Method Analysis Tag
+Input Motion
+Example_4
+Equivalent Linear DS-EL0
+ChiChi.txt
+
+20 m
+Soil
+Unit Weight= 20 kN/m3
+Vs=500 m/s
+
+Elastic Half space
+DEEPSOIL User Manual V 7.0
+Page 102 of 169
+April 4, 2024
+
+Figure 7-28 Result: Computed Time-Histories (Acceleration, Relative velocity, Relative displacement, and
+Arias intensity) for Layer 1 for Example 4
+
+Figure 7-29 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for Input
+Motion for Example_3A
+
+DEEPSOIL User Manual V 7.0
+Page 103 of 169
+April 4, 2024
+7.5
+Example 5: Nonlinear Analysis (MKZ Soil Model with Masing Re/Unloading Behavior)
+Three examples included in Example 5 consist of nonlinear site response analyses with different types of fitting procedure as DC (Damping Curve Only), MR (Modulus Reduction Only), and
+MRD (Modulus Reduction and Damping Curve) adopted for nonlinear dynamic curves (Table
+7.5), and MKZ model with Masing type of re/unloading formation is used for dynamic curves defined for each layer. Soil column is given in Figure 7-30. Selected input motions with analyses properties are presented in Table 7.5. 5% Damped Spectral Acceleration and Fourier Amplitude
+Spectrum computed at Ground Surface for Nonlinear and Equivalent-Linear Analyses using DC,
+MR and MRD fitting procedures along with those for Input Motion are presented in Figure 7-31
+
+Table 7.5 Analyses properties and input motions for Example 5
+Name
+Analysis Method
+Analysis Tag
+Fitting Type
+Input Motion
+Example_5A
+Nonlinear
+DS-NL1
+DC
+ChiChi.txt
+Example_5B
+Nonlinear
+DS-NL1
+MR
+ChiChi.txt
+Example_5C
+Nonlinear
+DS-NL1
+MRD
+ChiChi.txt
+
+DEEPSOIL User Manual V 7.0
+Page 104 of 169
+April 4, 2024
+
+Figure 7-30 Soil profile of Example 5
+
+4 m
+Soil 1
+Unit Weight= 20 kN/m3
+Vs=250 m/s
+
+Elastic Half space
+Soil 2
+Unit Weight= 20 kN/m
+Vs=250 m/s
+Soil 3
+Unit Weight= 20 kN/m
+Vs=250 m/s
+Soil 4
+Unit Weight= 20 kN/m
+Vs=250 m/s
+Soil 5
+Unit Weight= 20 kN/m
+Vs=250 m/s
+4 m
+4 m
+4 m
+4 m
+DEEPSOIL User Manual V 7.0
+Page 105 of 169
+April 4, 2024
+
+Figure 7-31 5% Damped Spectral Acceleration and Fourier Amplitude Spectrum computed at Ground
+Surface for Nonlinear and Equivalent-Linear Analyses using DC, MR and MRD fitting procedures along with those for Input Motion
+
+DEEPSOIL User Manual V 7.0
+Page 106 of 169
+April 4, 2024
+7.6
+Example 6: Nonlinear Analysis (GQ/H Soil Model with Non-Masing Re/Unloading Behavior)
+Example 6 consists of nonlinear site response analysis along with supplementary equivalent-linear analysis, and GQ/H model with Non-Masing type of re/unloading formulation is used for soil dynamic curves. Selected input motion together with analyses properties are given in Table 7.6.
+
+Figure 7-32 Soil profile of Example 6
+
+4 m
+Soil 1
+Unit Weight= 20 kN/m3
+Vs=500 m/s
+
+Elastic Half space
+Soil 2
+Unit Weight= 20 kN/m
+Vs=500 m/s
+Soil 3
+Unit Weight= 20 kN/m
+Vs=500 m/s
+Soil 4
+Unit Weight= 20 kN/m
+Vs=500 m/s
+Soil 5
+Unit Weight= 20 kN/m
+Vs=500 m/s
+4 m
+4 m
+4 m
+4 m
+DEEPSOIL User Manual V 7.0
+Page 107 of 169
+April 4, 2024
+Table 7.6 Analyses properties and input motions for Example 6
+Name
+Analysis Method Solution Type
+Analysis Tag
+Input Motion
+Example_6
+Nonlinear
+Time Domain
+DS-NL2
+ChiChi.txt
+
+The flow of analysis for Example 6 can be illustrated as:
+
+• In the Analysis Type Definition window, nonlinear analysis method is selected along with
+General Quadratic/Hyperbolic Model (GQ/H) soil model and Non-Masing Re/Unloading formulation. Additionally, equivalent-linear analysis is performed using the option under
+Complementary Analyses. (Figure 7-33)
+• The basic soil properties for each layer is defined as given in Figure 7-34 (Only layer 1 is illustrated in this example). The use of GQ/H model necessitates to input the shear strength of soil layer to represent the large-strain behavior of soil. The target shear strength of the nonlinear shear modulus reduction (G/Gmax) is calculated using the Mohr-Coulomb equation as:
+
+𝜏𝑡𝑎𝑟𝑔𝑒𝑡,𝑖𝑚𝑝𝑙𝑖𝑒𝑑= 𝑐𝑉𝑠+ 𝜎𝑣
+′ ∗tan (𝜙)
+(7.1) where, 𝜎𝑣
+′ is the effective stress at the mid-depth of interested soil layer, 𝜙 is the friction angle of soil layer (300 for this example), and 𝑐𝑉𝑠 is the judgement-based shear strength developed at 0.1% shear strain for a linear elastic material with 80% of the maximum shear modulus derived from the shear wave velocity (VS) of the soil layer under consideration.
+(Harmon et al. (2017)) as (Figure 7-35),
+
+where ρ is the soil density. Equation (7.1) and Equation (7.2) are problem specific and should not be used for general engineering practice.
+• Reference curve (Figure 7-36) is selected as Darendeli (2001) with parameters of OCR and
+PI (%) as 1.0 and 0.0. The coefficient of earth pressure at rest (K0) required for calculation of reference dynamic curves (Darendeli (2001) model is selected for this example) is calculated using the (Jaky, 1948) eq. as,
+
+𝑐𝑉𝑠= 𝜌∗𝑉𝑆
+2 ∗0.8 ∗0.1%
+(7.2)
+DEEPSOIL User Manual V 7.0
+Page 108 of 169
+April 4, 2024
+
+𝐾0 = [1 −sin (𝜙)] ∗𝑂𝐶𝑅sin (𝜙)
+(7.3)
+
+where OCR is over-consolidation ratio.
+• The modulus reduction and damping curve fitting (MRDF) with UIUC Reduction Factor is used to capture the Non-Masing behavior (Figure 7-37), and GQ/H Model is fitted for a shear strain range up to 0.05% considering the Modulus Reduction Curve under the condition that the shear stresses reach 95% of the target shear strength at shear strain of
+10% (Figure 7-38). The fitted modulus reduction and damping curve together with fitting ranges for Layer 1 are illustrated in Figure 7-39.
+• Chi-Chi Motion is used, and Frequency-Independent viscous damping along with no damping matrix update are selected as in Example 1 and 2.
+• Parameters for nonlinear and equivalent-linear analysis are assigned as (Figure 7-40):
+o For frequency-domain analysis:
+▪ Number of iterations: 15
+▪ Effective Shear Strain Ratio (SSR): 0.65
+▪ Complex Shear Modulus Formulation: Frequency-Independent o For nonlinear (time-domain) analysis:
+▪ Step Control: Flexible
+▪ Maximum Strain Increment: 0.005 %
+▪ Time History Interpolation Method: Linear in time domain
+• Computed time-histories (Acceleration, Velocity, Displacement, and Arias Intensity) from nonlinear (blue line) and equivalent-linear analyses (red line) are given in Figure 7-41.
+Response spectrum at first layer of site profile from nonlinear analysis and equivalent- linear analysis along with that of input motion are given in Figure 7-42 and Figure 7-43.
+
+DEEPSOIL User Manual V 7.0
+Page 109 of 169
+April 4, 2024
+
+Figure 7-33 Step 1: Analysis Type Definition for Example 6.
+
+Figure 7-34 Step 2: Soil Profile Definition for Example 6
+DEEPSOIL User Manual V 7.0
+Page 110 of 169
+April 4, 2024
+
+Figure 7-35 Step 2: Shear Strength Input for Soil Layer 1
+
+Figure 7-36 Step 2: Definition of Darendeli (2001) Dynamic Curve
+DEEPSOIL User Manual V 7.0
+Page 111 of 169
+April 4, 2024
+
+Figure 7-37 Step 2: Application of “MRDF with UIUC Reduction Factor” Option
+
+Figure 7-38 Step 2: Fitting of GQ/H Model
+DEEPSOIL User Manual V 7.0
+Page 112 of 169
+April 4, 2024
+
+Figure 7-39 Step 2: GQ/H Model Fit and Model Parameters for Layer 1
+
+Figure 7-40 Step 5: Analysis Control Definition for Example 6
+DEEPSOIL User Manual V 7.0
+Page 113 of 169
+April 4, 2024
+
+Figure 7-41 Result: Computed Time-Histories (Acceleration, Relative velocity, Relative displacement, and
+Arias intensity) for Layer 1 via Nonlinear Analysis (blue line) and Equivalent-Linear Analysis (red line) methods
+
+Figure 7-42 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for Input
+Motion via Nonlinear Analysis Method
+DEEPSOIL User Manual V 7.0
+Page 114 of 169
+April 4, 2024
+
+Figure 7-43 Result: Computed 5% Damped Spectral Acceleration for Layer 1 along with that for Input
+Motion via Equivalent-Linear Analysis Method
+
+DEEPSOIL User Manual V 7.0
+Page 115 of 169
+April 4, 2024
+7.7
+Example 7: Nonlinear Analysis / Multi-Layer, Elastic Rock, Pore Water Pressure
+Generation and Dissipation
+This example is composed of nonlinear analysis as an effective stress analysis with generation and dissipation of pore water pressure. The steps are mainly identical to those taken in Example 6 except the definition of parameters for pore water pressure model. The flow of analysis through
+DEEPSOIL V7.0 interface is illustrated below:
+• The nonlinear analysis is selected for site profile in which soils are modelled using GQ/H model with Non-Masing Re/Unloading formulation. “Generate Excess Porewater
+Pressure” option is enabled to enable dissipation and to make both top and bottom of profile as permeable boundaries. (Figure 7-44)
+• Figure 7-45 shows the propertes of first layer, and shear strength is calculated using the eq.
+(7.1) in Example 6. Friction angle for each sand layer is assumed as 300. Darendeli (2001) is selected as reference curve along with K0 calculation by Jaky’s equation in Example 6.
+• In Advanced Table View (Figure 7-46), Sand-Vucetic Dobry model is selected with the paramaters give in Table 7.7.
+• Half-space definition is given in Figure 7-47 with VS = 5000 ft/s, unit weight of 160.0 pcf, and damping ratio of 2.0 %. The resultant soil profile properties can be viewed in Figure
+7-48.
+• “Kobe” motion is selected for this example, and time-histories (Acceleration, Velocity,
+Displacement, Arias and Housner Intensity), FAS, and 5% damped spectral acceleration for Kobe motion can be viewed in Figure 7-49.
+• After analysis, (i) profile plots, (ii) Acceleration, Velocity, Displacement, and Arias
+Intensity time histories, (iii) stress-strain plots for layer 1 and layer 3, and (iv) 5% damped spectral acceleration, Fourier Amplitude Spectrum and Ratio for Layer 1 and Layer 3 are presented in Figure 7-50, Figure 7-51, Figure 7-52 and Figure 7-53, respectively. Layer 1 and 3 are distinguished by blue and red lines, respetively. Maximum strain of approximately 0.4% in site profile occurs Layer 3 due to development of significant level of pore water pressure. (Figure 7-52)
+
+DEEPSOIL User Manual V 7.0
+Page 116 of 169
+April 4, 2024
+Table 7.7 Sand-Vucetic Dobry PWP model parameters for Sand layer
+Max ru
+Cv (ft2/sec)
+Cv–exponent f p s γ ν
+0.95
+0.1
+0.0
+1.0
+1.0
+1.0
+0.02
+3.80
+
+DEEPSOIL User Manual V 7.0
+Page 117 of 169
+April 4, 2024
+
+Figure 7-44 Step 1: Analysis Type Definition for Example 7
+
+Figure 7-45 Step 2: Soil Profile in Nonlinear Analysis with PWP Generation and Dissipation
+DEEPSOIL User Manual V 7.0
+Page 118 of 169
+April 4, 2024
+
+Figure 7-46 Step 2: Definition of Parameters for PWP Generation and Dissipation Model of Sand-
+Vucetic/Dobry Model
+
+Figure 7-47 Step 2: Halfspace Definition
+DEEPSOIL User Manual V 7.0
+Page 119 of 169
+April 4, 2024
+
+Figure 7-48 Step 2: Soil Profile Plot
+
+Figure 7-49 Step 3: Time Histories, FAS and 5% Damped Spectral Acceleration for Kobe motion
+DEEPSOIL User Manual V 7.0
+Page 120 of 169
+April 4, 2024
+
+Figure 7-50 Results: Profile Plots after analyses
+
+Figure 7-51 Results: Acceleration, Relative Velocity, Relative Displacement and Arias Intensity Time-
+Histories for Example 7 for Layer 1 (blue line) and Layer 3 (red line).
+DEEPSOIL User Manual V 7.0
+Page 121 of 169
+April 4, 2024
+
+Figure 7-52 Results: Stress-Strain plots for Layer 1 (blue line) and Layer 3 (red line)
+
+Figure 7-53 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and Fourier
+Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Layer 1 (blue line) and Layer
+3 (red line)
+DEEPSOIL User Manual V 7.0
+Page 122 of 169
+April 4, 2024
+7.8
+Example 8: Nonlinear Analysis / Multi-Layer, Elastic Rock, Pore Pressure Generation and Dissipation:
+Example 8 is identical to Example 7 except that GMP PWP model is adopted for sand layers. The details of analysis are presented as:
+• The definition of parameters for GMP PWP model for each layer is given in Table 7.8, and also can be viewed in Figure 7-54.
+• After analysis, (i) profile plots, (ii) Acceleration, Velocity, Displacement, and Arias
+Intensity time histories, (iii) stress-strain plots for layer 1 and layer 3, and (iv) 5% damped spectral acceleration, Fourier Amplitude Spectrum and Ratio for Layer 1 and Layer 3 are presented in Figure 7-55, Figure 7-56, Figure 7-57 and Figure 7-58, respectively. Layer 1 and 3 are distinguished by blue and red lines, respetively. Results are similar to Example 7 except that much greater maximum strain of approximately 5.0% in site profile occurs
+Layer 3 due to significant level of pore water pressure, which reaches ru = 0.95 (Figure
+7-57).
+
+Table 7.8 GMP PWP model parameters for Sand layer
+Max ru
+Cv (ft2/sec)
+Cv–exponent α
+Dr (%)
+FC (%) ν
+0.95
+0.1
+0.0
+2.0
+3.80
+
+DEEPSOIL User Manual V 7.0
+Page 123 of 169
+April 4, 2024
+
+Figure 7-54 Step 2: Definition of Parameters for PWP Generation and Dissipation Model of Sand-GMP
+
+Figure 7-55 Results: Profile Plots
+DEEPSOIL User Manual V 7.0
+Page 124 of 169
+April 4, 2024
+
+Figure 7-56 Step 3: Time Histories, FAS and 5% Damped Spectral Acceleration for Kobe motion
+
+Figure 7-57 Results: Stress-Strain plots for Layer 1 (blue line) and Layer 3 (red line)
+DEEPSOIL User Manual V 7.0
+Page 125 of 169
+April 4, 2024
+
+Figure 7-58 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and Fourier
+Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Layer 1 (blue line) and Layer
+3 (red line)
+
+DEEPSOIL User Manual V 7.0
+Page 126 of 169
+April 4, 2024
+7.9
+Example 9: Equivalent Linear Frequency Domain Analysis / Multi-Layer, Elastic
+Rock, Bay Mud Profile
+Example 9 is similar to Example 4 (equivalent-linear analysis with discrete points) but includes
+31 layers as given in Figure 7-59. This is a typical profile near San Francisco Bay, and is included to illustrate the capabilities of DEEPSOIL for more realistic profiles. The reference condition is defined as elastic halfspace with shear wave velocity of 1500 m/s, unit weight of 22 kN/m3 and damping ratio of 0.0%, and the resultant profile plots can be viewed in Figure 7-61. Analyses results as (i) computed time-histories (accelertion, velocity, displacement and Arias intensity), and
+(ii) 5% damped spectral acceleration, FAS and Fourier Amplitude Ratio at first layer (Fill) are presented in Figure 7-62 and Figure 7-63, respectively.
+
+DEEPSOIL User Manual V 7.0
+Page 127 of 169
+April 4, 2024
+
+Figure 7-59 Step 2: Soil Profile Definition
+
+Figure 7-60 Step 2: Bedrock Profile Definition in Example 9
+DEEPSOIL User Manual V 7.0
+Page 128 of 169
+April 4, 2024
+
+Figure 7-61 Step 2: Soil profile plot
+
+Figure 7-62 Results: Computed Time-Histories (Acceleration, Relative velocity, Relative displacement, and Arias intensity) for Layer 1
+DEEPSOIL User Manual V 7.0
+Page 129 of 169
+April 4, 2024
+
+Figure 7-63 Results: 5% Damped Spectral Acceleration for Layer 1 (blue line) and for Input Motion (black line)
+
+DEEPSOIL User Manual V 7.0
+Page 130 of 169
+April 4, 2024
+7.10 Example 10: Nonlinear Analysis / Multi-Layer, Rigid Rock, Treasure Island Profile
+Example 10 consists of nonlinear analysis along with compementary equivalent-linear analysis, identical to Example 6 but includes 53 layers and located on rigid bedrock. The flow of analysis through DEEPSOIL V7.0 intefrace is illustrated below:
+• Nonlinear analysis using MKZ soil model with Masing Re/Unloading formulation along with complementary equivalent-linear analysis is selected as given in Figure 7-64.
+• The soil profile including 53 layers and MKZ model parameters to create soil backbone curve for Layer 1 (as representative) can be viewed in Figure 7-65
+• The reference condition is determined as rigid bedrock in Figure 7-66, and soil profile plots can be seen in Figure 7-67
+• Kobe motion is selected as input motion, and motion properties can be viewed in Figure
+7-68
+• Two modes of Rayleigh Damping along with update on Damping Matrix is selected as given in Figure 7-69
+• Parameters for nonlinear and equivalent-linear analysis are assigned as:
+o For frequency-domain analysis:
+▪ Number of iterations: 15
+▪ Effective Shear Strain Ratio (SSR): 0.65
+▪ Complex Shear Modulus Formulation: Frequency-Independent o For nonlinear (time-domain) analysis:
+▪ Step Control: Flexible
+▪ Maximum Strain Increment: 0.0005 %
+▪ Time History Interpolation Method: Zero-padded in frequency domain
+• Computed time-histories as acceleration, velocity, displacement and arias intensity from nonlinear (blue line) and equivalent-linear analysis (red line) at the top layer of soil profile are given in Figure 7-70
+• 5% damped spectral acceleration response spectra from nonlinear and equivalent-linear analysis at top layer of the soil profile (blue line) along with that for input motion (black line) are presented in Figure 7-71 and Figure 7-72, respectively.
+
+DEEPSOIL User Manual V 7.0
+Page 131 of 169
+April 4, 2024
+
+Figure 7-64 Step 1: Analysis Type Definition
+
+Figure 7-65 Step 2: Soil Profile Definition (Layer 1)
+DEEPSOIL User Manual V 7.0
+Page 132 of 169
+April 4, 2024
+
+Figure 7-66 Step 2: Bedrock Profile Definition
+
+Figure 7-67 Step 2: Soil profile plot
+DEEPSOIL User Manual V 7.0
+Page 133 of 169
+April 4, 2024
+
+Figure 7-68 Step 3: Properties of Kobe Motion
+
+Figure 7-69 Step 4: Viscous/Small-Strain Damping Definition
+DEEPSOIL User Manual V 7.0
+Page 134 of 169
+April 4, 2024
+
+Figure 7-70 Result: Computed Time-Histories (Acceleration, Relative velocity, Relative displacement, and
+Arias intensity) from Nonlinear (blue line) and Equivalent-Linear Analysis (red line) for Layer 1
+
+Figure 7-71 Results: 5% Damped Spectral Acceleration for Layer 1 via Nonlinear Analysis
+DEEPSOIL User Manual V 7.0
+Page 135 of 169
+April 4, 2024
+
+Figure 7-72 Results: 5% Damped Spectral Acceleration for Layer 1 via Equivalent-Linear Analysis
+
+DEEPSOIL User Manual V 7.0
+Page 136 of 169
+April 4, 2024
+7.11 Example 11: Nonlinear Analysis / Multi-Layer, Elastic Rock, MRDF
+Example 11 is composed of 80-layer profile located on elastic rock, and is generated to further illustrate the the capabilities of DEEPSOIL for more realistic profiles as well as the MRDF curve parameters. The flow of analysis through DEEPSOIL V7.0 intefrace is illustrated below:
+• Nonlinear analysis using MKZ soil model with Non-Masing Re/Unloading Formulation along with complementary equivalent-linear analysis is selected as given in Figure 7-73.
+• The soil profile including 80 layers and MKZ model parameters to create soil backbone curve for Layer 1 (as representative) can be viewed in Figure 7-74.
+• The reference condition is determined as elastic halfspace with shear wave velocity of 2492 ft/s, unit weight of 137 pcf. and no damping in Figure 7-75, and soil profile plots can be seen in Figure 7-76.
+• Kobe motion is selected as input motion, and selection of Rayleigh Damping with 2 modes/freqs along with no update in damping matrix is illustrated in Figure 7-77.
+• Parameters for nonlinear and equivalent-linear analysis are assigned as:
+o For frequency-domain analysis:
+▪ Number of iterations: 15
+▪ Effective Shear Strain Ratio (SSR): 0.65
+▪ Complex Shear Modulus Formulation: Frequency-Independent o For nonlinear (time-domain) analysis:
+▪ Step Control: Flexible
+▪ Maximum Strain Increment: 0.001 %
+▪ Time History Interpolation Method: Zero-padded in frequency domain
+• Computed time-histories as acceleration, velocity, displacement and arias intensity from nonlinear (blue line) and equivalent-linear analysis (red line) at the top layer of soil profile are given in Figure 7-78
+• 5% damped spectral acceleration response spectra from nonlinear and equivalent-linear analysis at top layer of the soil profile (blue line) along with that for input motion (black line) are presented in Figure 7-79 and Figure 7-80, respectively.
+
+DEEPSOIL User Manual V 7.0
+Page 137 of 169
+April 4, 2024
+
+Figure 7-73 Step 1: Analysis Type Definition
+
+Figure 7-74 Step 2: Soil Profile Definition (Layer 1)
+DEEPSOIL User Manual V 7.0
+Page 138 of 169
+April 4, 2024
+
+Figure 7-75 Step 2: Halfspace Definition
+
+Figure 7-76 Step 2: Soil profile plots
+DEEPSOIL User Manual V 7.0
+Page 139 of 169
+April 4, 2024
+
+Figure 7-77 Step 4: Viscous/Small-Strain Damping Definition
+
+Figure 7-78 Result: Computed Time-Histories (Acceleration, Relative velocity, Relative displacement, and
+Arias intensity) from Nonlinear (blue line) and Equivalent-Linear Analysis (red line) for Layer 1
+DEEPSOIL User Manual V 7.0
+Page 140 of 169
+April 4, 2024
+
+Figure 7-79 Results: 5% Damped Spectral Acceleration for Layer 1 via Nonlinear Analysis
+
+Figure 7-80 Results: 5% Damped Spectral Acceleration for Layer 1 via Equivalent-Linear Analysis
+DEEPSOIL User Manual V 7.0
+Page 141 of 169
+April 4, 2024
+7.12 Example 12: Nonlinear Analysis with Auto-Profile Generation Option:
+This example is generated to illustrate the new feature in DEEPSOIL V7.0 as auto-profile generation, which allows to (i) divide the soil layers considering the maximum frequency (fmax =
+VS/4H), and (ii) automatically fit the selected soil model to reference curve for each layer. The site profile in this example is one of the 70650 site profiles used in Harmon et al. (2017), and is composed of 20 clay layers with constant unit weight of 19 kN/m3, PI = 15%, OCR = 1.5, and friction angle (𝜙) of 250 along the profile. The shear wave velocity monotonically increases with depth and, shear strength required for fitting GQ/H Model at each layer is calculated as explained in Example 6.
+
+The flow of analysis through DEEPSOIL V7.0 interface of this example is illustrated below:
+• The analysis type definition for nonlinear analysis with auto-profile generation is illustrated in Figure 7-81. The only difference from Example 6 is to turn Automatic Profile Generation
+“on”.
+• In the Automatic-Profile generation page (Figure 7-82), maximum frequency (fmax = VS/4H) value is provided as 50.0 Hz to specify the maximum layer thickness, and randomization option for soil thickness, velocity and dynamic curve is turned off at this stage.
+• Mean soil profile definition is illustrated in Figure 7-83 for Layer 1. The required basic soil parameters as soil thickness, unit weight, shear wave velocity (as constant for each layer), and shear strength (as constant for each layer) needed for fitting GQ/H Model have been provided. These values for each soil layer can be viewed through Advanced Table View
+(Figure 7-84) Mean reference curve is selected as Darendeli (2001), and K0 parameter is calculated as 0.685 using the same eq. in Example 6.
+• Bedrock is defined as elastic half-space with VS of 3000 m/s for CENA (Hashash et al.,
+2014), unit weight of 22 kN/m3, and damping ratio of 0.5%.
+• The subdivided profile and GQ/H Model fit performed automatically for each subdivided layer is illustrated in Figure 7-86 (only Layer 1 is shown as representative). Additionally,
+Soil profile plots are presented in Figure 7-87
+DEEPSOIL User Manual V 7.0
+Page 142 of 169
+April 4, 2024
+• Input motion for nonlinear and complementary equivalent-linear analyses is selected as
+ChiChi (Step 3), and Frequency-independent viscous-damping along with “No update in damping matrix” is used (Step 4).
+• Parameters for nonlinear and equivalent-linear analysis are assigned as (Figure 7-88):
+o For frequency-domain analysis:
+▪ Number of iterations: 15
+▪ Effective Shear Strain Ratio (SSR): 0.65
+▪ Complex Shear Modulus Formulation: Frequency-Independent o For nonlinear (time-domain) analysis:
+▪ Step Control: Flexible
+▪ Maximum Strain Increment: 0.00001 %
+▪ Time History Interpolation Method: Linear in time domain
+• Computed time-histories (acceleration, velocity, displacement and Arias Intensity) from nonlinear (blue line) and equivalent-linear (red line) analyses is presented in Figure 7-89.
+5% damped spectral acceleration at the top of Layer along with that of input motion from nonlinear and equivalent-linear analysis are given in Figure 7-90 and Figure 7-91.
+
+DEEPSOIL User Manual V 7.0
+Page 143 of 169
+April 4, 2024
+
+Figure 7-81 Step 1: Analysis Type Definition
+
+Figure 7-82 Step 1: Inputs to Automatic Profile Generation
+DEEPSOIL User Manual V 7.0
+Page 144 of 169
+April 4, 2024
+
+Figure 7-83 Step 2: Mean Soil Profile Definition (for Layer 1)
+
+Figure 7-84 Step 2: Advanced Table View
+DEEPSOIL User Manual V 7.0
+Page 145 of 169
+April 4, 2024
+
+Figure 7-85 Step 2: Bedrock definition as Elastic Half-space
+
+Figure 7-86 Step 2: Subdivision of each Layer Thickness and GQ/H Model Fit to Layer 1
+DEEPSOIL User Manual V 7.0
+Page 146 of 169
+April 4, 2024
+
+Figure 7-87 Step 2: Soil Profile Plots
+
+Figure 7-88 Step 5: Parameters for Nonlinear and Equivalent-Linear Analyses
+DEEPSOIL User Manual V 7.0
+Page 147 of 169
+April 4, 2024
+
+Figure 7-89 Results: Acceleration, Relative Velocity, Relative Displacement and Arias Intensity Time-
+Histories for Nonlinear Analysis (blue line) and Equivalent-Linear Analysis (red line)
+
+Figure 7-90 Results: 5% Damped Spectral Acceleration for Layer 1 (blue line) along with for Input Motion
+(black line) from Nonlinear Analysis
+DEEPSOIL User Manual V 7.0
+Page 148 of 169
+April 4, 2024
+
+Figure 7-91 Results: 5% Damped Spectral Acceleration for Layer 1 (blue line) along with for Input Motion
+(black line) from Equivalent-Linear Analysis
+
+DEEPSOIL User Manual V 7.0
+Page 149 of 169
+April 4, 2024
+7.13 Example 13: Nonlinear Analysis with Randomized Soil Profile:
+Example 13 is created to illustrate the new features in DEEPSOIL V7.0 as Thickness, VS and
+Dynamic Curve randomizations. The mean site profile used as input to site realizations is identical to that in Example 12. The theory behind the site realization will explained in Chapter 6 in detail.
+The flow of analysis through DEEPSOIL V7.0 interface of this example is illustrated below:
+
+• The analysis type definition for Example 13 is identical to that for Example 12 (Figure
+7-81).
+• The maximum frequency (fmax) is specified as 50.0 Hz, and parameters for thickness, VS and dynamic curve randomization are given below (Figure 7-92):
+o Thickness Randomization: (Default parameters given in Toro (1995))
+▪ Minimum Thickness: 0.03 m
+▪ Maximum Thickness: 152.40
+▪ C1: 10.86
+▪ C2: 0.89
+▪ C3: 1.98 o Velocity Randomization:
+▪ Input Parameter Method: User Defined
+▪ σ: 0.2
+▪ ρ0 (Rho0): 0.0
+▪ Δ (Delta): 1.0
+▪ ρ200 (Rho200): 1.0
+▪ b: 0.0
+▪ h0: 0.0 o Dynamic Curve Randomization:
+▪ ρ1: -1.0
+▪ ρ2: 1.0
+▪ σ Randomization Bound: 1.50 o Number of Random Profiles: 20
+It is of importance to note that:
+DEEPSOIL User Manual V 7.0
+Page 150 of 169
+April 4, 2024 o ρ1 represents the correlation between G/Gmax and dynamic curve for each layer.
+Perfectly negatively correlated G/Gmax (ρ1 = -1.0) and damping curves are assumed in this example.
+o ρ2 is inter-layer correlation for dynamic curves. Dynamic curves are perfectly positively correlated (ρ2 = 1.0) for this example o σ randomization bound is assigned as 1.5.
+• After realization, layer properties of each realization can be viewed as given in Figure 7-93
+(Layer 1 of 1st profile realization is illustrated as representative, and each realization can be viewed using pop-up menu in red circle). GQ/H Model fitted to selected reference curve, which is Darendeli (2001) as an only option for dynamic curve randomization, for each layer can be monitored along with curve bounds (orange lines in Figure 7-93).
+Additionally, options for exporting the thickness and VS of each layer for randomized VS profiles along with mean soil profile are provided as (i) Excel file, (ii) SQLite database, and (iii) Enhanced Metafile (EMF) of VS plot. Figure 7-95 shows the VS profiles of 20 site profile realizations along with (i) mean input profile, (ii) logarithmic mean of 20 randomized VS profile, and 95% confidence interval (CI) on logarithmic mean.
+• Figure 7-96 illustrates the soil profile plots for 1st realization. The purple and blue lines represent plots for mean profile and selected realization, respectively (1st realization as illustrated by red circle is shown in Figure 7-96).
+• Input motion for nonlinear and complementary equivalent-linear analyses is selected as
+ChiChi (Step 3), and Frequency-independent viscous-damping along with “No update in damping matrix” is used (Step 4).
+• Parameters for nonlinear and equivalent-linear analysis are assigned as:
+o For frequency-domain analysis:
+▪ Number of iterations: 15
+▪ Effective Shear Strain Ratio (SSR): 0.65
+▪ Complex Shear Modulus Formulation: Frequency-Independent o For nonlinear (time-domain) analysis:
+▪ Step Control: Flexible
+▪ Maximum Strain Increment: 0.005 %
+▪ Time History Interpolation Method: Linear in time domain
+DEEPSOIL User Manual V 7.0
+Page 151 of 169
+April 4, 2024
+• Computed time-histories (acceleration, velocity, displacement and Arias Intensity) from nonlinear (blue line) and equivalent-linear (red line) analyses is presented in Figure 7-97.
+5% damped spectral acceleration at the top of Layer along with that of input motion from nonlinear and equivalent-linear analysis are given in Figure 7-98 and Figure 7-99.
+
+DEEPSOIL User Manual V 7.0
+Page 152 of 169
+April 4, 2024
+
+Figure 7-92 Step 1: Specification of Maximum Frequency and Definition of Parameters for Thickness, VS and Dynamic Curve Randomization
+
+Figure 7-93 Step 2: Properties of Layer 1 for first Realization after Randomization
+DEEPSOIL User Manual V 7.0
+Page 153 of 169
+April 4, 2024
+
+Figure 7-94 Step 2: Export Options for Site Profile Realizations
+
+Figure 7-95 Randomized VS Profiles along with their logarithmic mean and 95% Confidence Interval on
+Logarithmic Mean
+DEEPSOIL User Manual V 7.0
+Page 154 of 169
+April 4, 2024
+
+Figure 7-96 Step 2: Soil Profile Plot for Profile Realizations
+
+Figure 7-97 Results: Acceleration, Velocity, Displacement and Arias Int. Time-Histories for Nonlinear
+Analysis
+DEEPSOIL User Manual V 7.0
+Page 155 of 169
+April 4, 2024
+
+Figure 7-98 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and Fourier
+Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Nonlinear Analysis
+
+Figure 7-99 Results: 5% Damped Spectral Acceleration for Layer 1 (blue line) along with for Input Motion
+(black line) from Equivalent-Linear Analysis
+DEEPSOIL User Manual V 7.0
+Page 156 of 169
+April 4, 2024
+7.14 Example 14: Nonlinear Analysis by Soil Profile with various Soil Models at Different Layers:
+Example 14 is designed to illustrate the new feature in DEEPSOIL as allowing users to adopt various soil models to different soil layers. This site profile is extracted as shear-beam from 2-D finite element model of centrifuge model for Concrete-face rockfill dams with depth of 352.2 m, which is composed of rock-fill with 202.2 m depth (from top to 42th layer (included) and underlying bedrock layers. The properties of each layer can be detailed as:
+• For Rockfill Layer:
+o Friction angle is selected constant value of 450 throughout depth.
+o Stress-strain behavior of rockfill material is assumed to follow Non-Masing
+Re/Unloading Formulation, and backbone formulation is computed using GQ/H soil model fitted to Darendeli (2001) reference curve.
+o “MRDF with UIUC Formulation” is selected to capture the Non-Masing behavior of Rockfill material.
+o K0 and shear strength value required for Darendeli (2001) curve and GQ/H model are calculated as given in Example 6, respectively.
+• For Bedrock Layer:
+o It is assumed to behave linearly under earthquake excitation.
+o VS and Dmin values are assumed to be constant as 1500 m/s and 0.1%, respectively.
+The flow of analysis through DEEPSOIL V7.0 interface of this example is illustrated below:
+• Nonlinear analysis without any complementary analyses is selected, and GQ/H soil model with Non-Masing Re/Unloading formulation is used for the analysis.
+• Figure 7-100 shows the assignment of properties for Rockfill material at Step 2.
+• After properties of all Rockfill layers are assigned, the Soil Models from Layer 43 to 58 should be converted to “Linear” to represent the bedrock behavior (red rectangular in
+Figure 7-101) along with removal of “Reduction Factor Formulation” in Figure 7-102
+• Bedrock layer properties are assigned as given in Figure 7-103.
+• Half-space is defined as “Rigid Halfspace” (Figure 7-104), and soil profile plots are presented in Figure 7-105
+• Parameters for nonlinear is assigned as:
+o Step Control: Flexible
+DEEPSOIL User Manual V 7.0
+Page 157 of 169
+April 4, 2024 o Maximum Strain Increment: 0.005 % o Time History Interpolation Method: Linear in time domain
+• Stress-strain plots for top of rockfill (Layer 1 with red line) and bedrock material (Layer
+43 with blue line) are presented in Figure 7-106
+• Computed time-histories (Acceleration, Velocity, Displacement and Arias Intensity) at top of rockfill (Layer 1 with red line) and bedrock material (Layer 43 with blue line) are presented in Figure 7-107
+• 5% damped spectral acceleration and FAS at top of rockfill (Layer 1 with blue line) and bedrock material (Layer 43 with yellow line) are presented in Figure 7-108.
+
+DEEPSOIL User Manual V 7.0
+Page 158 of 169
+April 4, 2024
+
+Figure 7-100 Step 2: Basic Soil Properties and GQ/H Model Fit to Rockfill Layers (Layer 1 as representative)
+
+Figure 7-101 Step 2: Assignment of Linear Material to Bedrock Layers
+DEEPSOIL User Manual V 7.0
+Page 159 of 169
+April 4, 2024
+
+Figure 7-102 Step 2: Removal of Reduction Factor Formulation for linear Bedrock layers
+
+Figure 7-103 Step 2: Basic Soil Properties of Bedrock Layers (Layer 45 as representative)
+DEEPSOIL User Manual V 7.0
+Page 160 of 169
+April 4, 2024
+
+Figure 7-104 Step 2: Rigid half-space definition
+
+Figure 7-105 Step 2: Soil Profile Plots
+DEEPSOIL User Manual V 7.0
+Page 161 of 169
+April 4, 2024
+
+Figure 7-106 Results: Stress-strain plots for Soil Layer 1 (GQ/H Model with Non-Masing Un/Reloading
+Formulation (red line) and Soil Layer 43 (linear elastic soil material (blue line)
+
+Figure 7-107 Results: Acceleration, Relative Velocity, Relative Displacement and Arias Intensity Time-
+Histories for Layer 1 (red line) and Layer 43 (blue line)
+DEEPSOIL User Manual V 7.0
+Page 162 of 169
+April 4, 2024
+
+Figure 7-108 Results: 5% Damped Spectral Acceleration, Fourier Amplitude Spectrum (FAS) and Fourier
+Amplitude Ratio (FAS at ground surface divided by FAS at input motion) for Layer 1 (blue line) and Layer
+43 (yellow line)
+
+DEEPSOIL User Manual V 7.0
+Page 163 of 169
+April 4, 2024
+References
+Amir-Faryar, B., M. Sherif Aggour & Richard H. McCuen (2016). Universal model forms for predicting the shear modulus and material damping of soils. Geomechanics and Geoengineering.
+http://dx.doi.org/10.1080/17486025.2016.1162332
+
+Andrus, R. D., et al. (2003). Guide for Estimating the Dynamic Properties of South Carolina
+Soils for Ground Response Analysis, Clemson University.
+
+Berrill, J.B. & Davis, R.O. (1985). Energy Dissipation and Seismic Liquefaction of Sands:
+Revised Model. JSSMFE Soils and Foundations 25(2): 106-118.
+
+Carlton, B. (2014). “An Improved Description of the Seismic Response of Sites with
+High Plasticity Soils, Organic Clays, and Deep Soft Soil Deposits.” PhD Thesis.
+University of California, Berkeley
+
+Chopra, Anil K. (1995) Dynamic of Structures, Theory and applications to Earthquake
+Engineering Englewood Cliffs, New Jersey: Prentice Hall.
+
+Clough, Ray W., and Joseph Penzien (1993) Dynamics of structures, New York: McGraw-Hill.
+
+Darendeli, M. B. (2001). Development of a New Family of Normalized Modulus Reduction and Material Damping Curves, Department of Civil, Architectural and Environmental
+Engineering, The University of Texas, Austin, Texas.
+
+Duncan, James M., and Chin-Yung Chang (1970) "Nonlinear analysis of stress and strain in soils," Journal of the Soil Mechanics and Foundations Division, Vol. 96, No. SM5, pp 1629-1653.
+
+Finn, W. D. L., Lee, K. L, and Martin, G. R. (1977) “An effective stress model for liquefaction.”
+Journal of the Geotechnical Engineering Division, ASCE, Vol. 103, No. GT6, 517-533.
+
+DEEPSOIL User Manual V 7.0
+Page 164 of 169
+April 4, 2024
+Green, R.A., Mitchell, J.K. and Polito, C.P. (2000). "An Energy-Based Pore Pressure
+Generation Model for Cohesionless Soils", Proceedings: John Booker Memorial Symposium,
+Melbourne, Australia, November 16-17, 2000.
+
+Groholski, D., Hashash, Y., Kim, B., Musgrove, M., Harmon, J., and Stewart, J. (2016).
+"Simplified Model for Small-Strain Nonlinearity and Strength in 1D Seismic Site Response
+
+Hardin, B. O. and Drnevich, V. P. (1972) “Shear modulus and damping in soils: Design equations and curves.” Journal of the Soil Mechanics and Foundations Division, ASCE, Vol. 98,
+No. SM7, 667-692.
+
+Hashash, Y. M. A., and D. Park (2002) "Viscous damping formulation and high frequency motion propagation in nonlinear site response analysis," Soil Dynamics and Earthquake
+Engineering, Vol. 22, No. 7, pp. 611-624.
+
+Hashash, Youssef M. A., and Duhee Park (2001) "Non-linear one-dimensional seismic ground motion propagation in the Mississippi embayment," Engineering Geology, Vol. 62, No. 1-3, pp
+185-206.
+
+Hashash, Y.M.A., Phillips, C. and Groholski, D. (2010). "Recent advances in non-linear site response analysis", Fifth International Conference on Recent Advances in Geotechnical
+Earthquake Engineering and Soil Dynamics, Paper no. OSP 4.
+
+Hudson, M., Idriss, I.M., and Beikae, M. 1994. (1994) "QUAD4M - A computer program to evaluate the seismic response of soil structures using finite element procedures and incorporating a compliant base." Davis, CA: Center for Geotechnical Modeling, Department of Civil and
+Environmental Engineering, University of California, Davis, CA.
+
+Idriss, I. M. and Seed, H. B. (1968) “Seismic response of horizontal soil layers.” Journal of the
+Soil Mechanics and Foundations Division, ASCE, Vol. 94, No. SM4, pp 1003-1031.
+DEEPSOIL User Manual V 7.0
+Page 165 of 169
+April 4, 2024
+
+Idriss, I. M. and Sun, J. I. (1992) “User’s Manual for SHAKE91, A Computer Program for
+Conducting Equivalent Linear Seismic Response Analyses of Horizontally Layered Soil Deposits”
+
+Kramer, Steven Lawrence (1996) Geotechnical earthquake engineering, Upper Saddle River,
+N.J.: Prentice Hall.
+
+Konder, R. L. and Zelasko, J. S. (1963) “A hyperbolic stress-strain formulation of sands.”
+Proceedings of the 2nd Pan American Conference on Soil Mechanics and Foundation Engineering,
+Sao Paulo, Brasil, 289-324.
+
+Lee, M. K. W. and Finn, W. D. L (1975) “DESRA-1, Program for the dynamic effective stress response analysis of soil deposits including liquefaction evaluation.” Soil Mechanics Series No.
+36, Department of Civil Engineering, University of British Columbia, Vancouver, Canada.
+
+Lee, M. K. W. and Finn, W. D. L (1978) “DESRA-2, Dynamic effective stress response analysis of soil deposits with energy transmitting boundary including assessment of liquefaction potential.”
+Soil Mechanics Series No. 36, Department of Civil Engineering, University of British Columbia,
+Vancouver, Canada.
+
+Matasovic, Neven, and M. Vucetic (1993) "Cyclic Characterization of Liquefiable Sands,"
+ASCE Journal of Geotechnical and Geoenvironmental Engineering, Vol. 119, No. 11, pp 1805-
+1822.
+
+Matasovic, N. (1992) “Seismic response of composite horizontally-layered soil deposits.” Ph.D.
+Thesis, University of California, Los Angeles.
+
+Matasovic, Neven, and M. Vucetic (1995) "Generalized Cyclic Degradation-Pore Pressure
+Generation Model for Clays," ASCE Journal of Geotechnical and Geoenvironmental Engineering,
+Vol. 121, No. 1, pp 33-42.
+
+DEEPSOIL User Manual V 7.0
+Page 166 of 169
+April 4, 2024
+Mei, X., Olson, S.M., and Hashash Y.M. (2015) “Empirical curve-fitting parameters for a porewater pressure generation model for use in 1-D effective stress-based site response analysis,”
+6th International Conference on Earthquake Geotechnical Engineering, 1-4 November 2015,
+Christchurch, New Zealand.
+
+Menq, Farn-Yuh (2003). Dynamic Properties of Sandy and Gravelly Soils, Department of Civil,
+Architectural and Environmental Engineering, The University of Texas, Austin, Texas.
+
+Mugan, Ata, and Gregory M. Hulbe (2001) "Frequency-domain analysis of time-integration methods for semidiscrete finite element equations - part II: Hyperbolic and parabolic-hyperbolic problems," International Journal for numerical Methods in Engineering, Vol. 51, No. 3, pp 351-
+376.
+
+Numanoglu, O. A., Musgrove, M., Harmon, J. A., & Hashash, Y. M. A. (2017). Generalized
+Non-Masing Hysteresis Model for Cyclic Loading. Journal of Geotechnical and
+Geoenvironmental Engineering, 144(1), 06017015.
+
+Newmark, Nathan M. (1959) "A method of computation for structural dynamics," Journal of the Engineering Mechanics Division, Vol. EM 3, pp 67-94.
+
+Park D., J.-K. Ahn. (2013) “Accumulated Stress Based Model for Prediction of Residual Pore
+Pressure,” Proceedings of the 18th International Conference on Soil Mechanics and Geotechnical
+Engineering, Paris, pp 1567-1570.
+
+Park, D., and Y. M. A. Hashash (2004) "Soil damping formulation in nonlinear time domain site response analysis," Journal of Earthquake Engineering, Vol. 8, No. 2, pp 249-274.
+
+PEER (2010) "PEER Ground Motion Database Web Application," PEER.
+
+Phillips, Camilo, and Youssef M. A. Hashash (2008) "A new simplified constitutive model to simultaneously match modulus reduction and damping soil curves for nonlinear site response
+DEEPSOIL User Manual V 7.0
+Page 167 of 169
+April 4, 2024 analysis," Geotechnical Earthquake Engineering & Soil Dynamics IV (GEESD IV). Sacramento,
+California.
+
+Phillips, C. and Hashash, Y. (2009) “Damping formulation for non-linear 1D site response analyses” Soil Dynamics and Earthquake Engineering, v. 29, pp 1143–1158.
+
+Phillips, C., Kottke, A.R., Hashash, Y.M.A., and Rathje, E.M. (2012) “Significance of ground motion timestep in one dimensional site response analysis” Soil Dynamics and Earthquake
+Engineering, v. 43, pp 202–217.
+
+Richart, F.E., Hall, J.R., and Woods, R.D. (1970). “Vibrations of Soils and Foundations,”
+Prentice Hall, Englewood Cliffs, New Jersey, 401 pp.
+
+Roblee, Cliff and Chiou, Brian. (2004) “A proposed geoindex model for design selection of non-linear properties for site response analyses.” Caltrans Geo-Research Group. Sacramento, CA.
+
+Sanderson, Conrad. (2010) “Armadillo: An Open Source C++ Linear Algebra Library for Fast
+Prototyping and Computationally Intensive Experiments.” Technical Report, NICTA.
+
+Sanderson, Conrad and Ryan Curtin. (2016) Armadillo: a template-based C++ library for linear algebra. Journal of Open Source Software, Vol. 1, pp. 26.
+
+Schnabel, P. B., Lysmer, J. and Seed, H. B. (1972) “SHAKE: A computer program for earthquake response analysis of horizontally layered sites.” Report No. EERC 72-12, Earthquake
+Engineering Research Center, University of California, Berkeley, California.
+
+Seed, H. B. and Idriss, I. M. (1970) “Soil moduli and damping factors for dynamic response analyses.” Report No. EERC 70-10, Earthquake Engineering Research Center, University of
+California, Berkeley, California, 40p.
+
+DEEPSOIL User Manual V 7.0
+Page 168 of 169
+April 4, 2024
+Udaka, Takekazu (1975) "Analysis of Response of Large Embankments to Traveling Base
+Motions," Department of Civil and Environmental Engineering. Berkeley: University of
+California, p 346.
+
+Vucetic, M. (1992). “Soil Properties and Seismic Response.” In Proceedings of 10th World
+Conference of Earthquake Engineering, July 19 – 24, Madrid, Spain, 1199 – 1204.
+
+DEEPSOIL User Manual V 7.0
+Page 169 of 169
+April 4, 2024
+APPENDICES
+This section is under development.

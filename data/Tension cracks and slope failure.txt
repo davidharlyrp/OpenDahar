@@ -1,540 +1,218 @@
 5. Tension cracks and slope failure
 R. N. CHOWDHURY, BSc, PhD, Associate Professor, University of Wollongong and S. ZHANG, PhD,
 University College, Australia
-The significance of tension cracks for the stability of slopes has been widely recognised. However, new methods need to be
-developed for determining the appropriate depth and location of tension cracks in slope stability studies. A new approach, based
-on assessing the depth of tension cracks from interslice forces in any limit equilibrium method of slices, is advocated. The
-generalised Janbu procedure of slices has been modified and combined with an optimisation approach involving the Simplex
-Reflection Method. Thus critical slip surfaces associated with critical tension cracks can be determined. The factors of safety
-associated with critical surfaces involving cirtical tension cracks are found to be significantly lower than those for conventional
-critical slip surfaces especially where the tension cracks are full of water.
+The significance of tension cracks for the stability of slopes has been widely recognised. However, new methods need to be developed for determining the appropriate depth and location of tension cracks in slope stability studies. A new approach, based on assessing the depth of tension cracks from interslice forces in any limit equilibrium method of slices, is advocated. The generalised Janbu procedure of slices has been modified and combined with an optimisation approach involving the Simplex
+Reflection Method. Thus critical slip surfaces associated with critical tension cracks can be determined. The factors of safety associated with critical surfaces involving cirtical tension cracks are found to be significantly lower than those for conventional critical slip surfaces especially where the tension cracks are full of water.
 INTRODUCTION
-1. 
-There are many different ways in which slopes fail
-depending on the type of slope and relevant topographical,
-geological and environmental factors. Prediction of slope
-performance is never easy and there are often a number of
-uncertainties associated with the important geomechanics
-parameters and, in particular, shear strength parameters and
-pore water pressures. The tendency for slope failure is
-considered on the basis of a balance between driving or
-disturbing forces on the one hand and resisting forces on the
-other hand. This assessment is usually carried out within
-the framework of the concept of limit equilibrium. In order
-to carry out such an assessment successfully, the
-geomechanics model must be realistic and the method of
-analysis reliable. Conventional deterministic approaches to
-analysis have, in recent years, been supplemented by
-probabilistic approaches. However, the latter are not yet
-used as widely in practice as they should be.
-2. 
-The formation of tension cracks in slopes and their
-significance is well known and any geomechanics model for
-slopes must have a provision for inclusion of tension cracks.
-The existence of tension cracks is likely to decrease stability
-and, therefore, increase the tendency of a slope to fail.
-Firstly, the length of a potential slip surface over which
-shear strength can be mobilised is reduced. Secondly, a
-crack may fill with water which exerts an additional driving
-force. For slopes of cohesive soil, therefore, it is necessary
-to estimate the appropriate depth of tension cracks to be used
-in a stability analysis. Moreover, the location of a tension
-crack with respect to the crest of a given slope is also
-unknown. 
-Consequently, the results of slope stability
-analyses may depend, to a significant extent, on the way in
-which the method of analysis handles the estimation of
-tension crack depth and location.
-PREVIOUS 
-APPROACHES 
-FOR 
+1.
+There are many different ways in which slopes fail depending on the type of slope and relevant topographical, geological and environmental factors. Prediction of slope performance is never easy and there are often a number of uncertainties associated with the important geomechanics parameters and, in particular, shear strength parameters and pore water pressures. The tendency for slope failure is considered on the basis of a balance between driving or disturbing forces on the one hand and resisting forces on the other hand. This assessment is usually carried out within the framework of the concept of limit equilibrium. In order to carry out such an assessment successfully, the geomechanics model must be realistic and the method of analysis reliable. Conventional deterministic approaches to analysis have, in recent years, been supplemented by probabilistic approaches. However, the latter are not yet used as widely in practice as they should be.
+2.
+The formation of tension cracks in slopes and their significance is well known and any geomechanics model for slopes must have a provision for inclusion of tension cracks.
+The existence of tension cracks is likely to decrease stability and, therefore, increase the tendency of a slope to fail.
+Firstly, the length of a potential slip surface over which shear strength can be mobilised is reduced. Secondly, a crack may fill with water which exerts an additional driving force. For slopes of cohesive soil, therefore, it is necessary to estimate the appropriate depth of tension cracks to be used in a stability analysis. Moreover, the location of a tension crack with respect to the crest of a given slope is also unknown.
+Consequently, the results of slope stability analyses may depend, to a significant extent, on the way in which the method of analysis handles the estimation of tension crack depth and location.
+PREVIOUS
+APPROACHES
+FOR
 TENSION
 CRACKS
-1. 
-The classical approach based on Rankine's earth
-pressure theory leads to the following well known equation
-for the depth up to which the earth pressure is negative or
-tensile in a cohesive soil mass free to yield laterally:
+1.
+The classical approach based on Rankine's earth pressure theory leads to the following well known equation for the depth up to which the earth pressure is negative or tensile in a cohesive soil mass free to yield laterally:
 2c'
-(1)
-in which c' and $' are the effective stress shear strength
-parameters, cohesion and angle of internal friction
-respectively and y is the unit weight. Assuming that the soil
-has no tensile strength, this depth can be regarded as the
-depth of tension cracks Dt, i.e.,:-
+(1) in which c' and $' are the effective stress shear strength parameters, cohesion and angle of internal friction respectively and y is the unit weight. Assuming that the soil has no tensile strength, this depth can be regarded as the depth of tension cracks Dt, i.e.,:-
 Dt =
 (2)
-This expression, Eq. 1, is based on the assumption of an
-active Rankine state and is only applicable to homogeneous
-soil. It does not take into consideration the geometry of a
-slope, pore water pressures within it and, more importantly,
-the factor of safety of the slope.
-2. 
-Assuming that the factor of safety of a slope is F, the
-mobilised shear strength parameters are given by:
+This expression, Eq. 1, is based on the assumption of an active Rankine state and is only applicable to homogeneous soil. It does not take into consideration the geometry of a slope, pore water pressures within it and, more importantly, the factor of safety of the slope.
+2.
+Assuming that the factor of safety of a slope is F, the mobilised shear strength parameters are given by:
 c'm = c'/F and tan <|)'m = — —
-The pore water pressure u at a point within the slope
-located at a depth of Z below the upper slope boundary is
-often represented by the dimensionless parameter
-ru = u/yZ
-As the pore water pressure often varies from point to point
-within a slope, it is customary, for some types of slope
-stability study, to calculate a 'homogeneous pore pressure
-ratio' representative of the average pore pressure conditions
-within a slope. It should be noted, however, that the use of
-a single pore pressure ratio for the whole slope should be
-limited to parametric, sensitivity or design studies.
-Wherever possible, the detailed analysis of a slope should be
-made on the basis of actual pore water pressure
-distributions, if these are known. In some cases, realistic
-pore water pressure distributions can be assumed if the
-actual distributions are not known.
+The pore water pressure u at a point within the slope located at a depth of Z below the upper slope boundary is often represented by the dimensionless parameter ru = u/yZ
+As the pore water pressure often varies from point to point within a slope, it is customary, for some types of slope stability study, to calculate a 'homogeneous pore pressure ratio' representative of the average pore pressure conditions within a slope. It should be noted, however, that the use of a single pore pressure ratio for the whole slope should be limited to parametric, sensitivity or design studies.
+Wherever possible, the detailed analysis of a slope should be made on the basis of actual pore water pressure distributions, if these are known. In some cases, realistic pore water pressure distributions can be assumed if the actual distributions are not known.
 Slope stability engineering. Thomas Telford, London, 1991.
-27
 Downloaded by [ NEW YORK UNIVERSITY] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
 MECHANICS
-3. 
-A systematic approach to consideration of tension
-cracks in limit equilibrium slope stability analysis was
-proposed and developed by Spencer (Refs. 4, 5, 6, 7) He
-modified the classical equation for depth of tension cracks to
-the following:
+3.
+A systematic approach to consideration of tension cracks in limit equilibrium slope stability analysis was proposed and developed by Spencer (Refs. 4, 5, 6, 7) He modified the classical equation for depth of tension cracks to the following:
 Dr =
 2c',m
-Y(l -r u)
-tan T +
+Y(l -r u) tan T +
 (3)
-The factor of safety, F, is unknown to begin with and,
-therefore, an assumption is made in order to calculate Dt.
-On that basis, the stability analysis can be carried out to
-determine a new value of F which may then be used again
-for a new analysis. In this way iterative analyses will lead to
-the correct values of Dt and F.
-Spencer used the well known method of slices in which the
-potential sliding mass (the mass above the potential slip
-surface) is divided into vertical slices for the purpose of
-analysis. He recommended the assumption that the interslice
-forces be regarded as parallel to each other.
-Another feature of his approach for tension cracks involves
-the line of thrust, the line which connects the poinb of
-application of the interslice forces. Proceeding from an
-initial assumption of Dt, the line of thrust is determined. If
-the position of the line of thrust is 'reasonable', the assumed
-value of Dt is considered to be acceptable. On the other
-hand, if the position of the line of thrust seems
-'unreasonable' a new value of Dt is assumed and the process
-may be repeated until a 'reasonable' position of the line of
-thrust is obtained. The criteria for defining a 'reasonable'
-position for the line of thrust can, of course, be very simple
-and straightforward. However, the real state of stress and
-strain within the slope is not known and is, therefore, not
-taken into considerastion in a limit equilibrium stability
-analysis. Therefore, it is obviously difficult to define
-precisely the criteria for a 'reasonable' position of the line of
-thrust in such an analysis.
-4. 
-Other approaches for incorporating the depth of
-tension cracks in slope stability studies have been proposed,
-among others, by Hoek and Bray (Ref. 3), Cousins (Ref. 2)
-and Baker (Ref. 1). The first two of these three publications
-also provide stability charts which include the effect of
-tension cracks. The basis for these approaches is the search
-for the location and depth of a tension crack which leads to
-the lowest factor of safety for a particular slip surface. In
-other words, a critical slip surface is first located without
-considering any tension cracks. Considering such a slip
-surface as the basis, the depth and location of the tension
-crack are varied until a minimum factor of safety is obtained.
-The approach of Baker (Ref. 1) is based on the
-generalised variational calculus procedure to extreme value
-problems of limit equilibrium. The depth and location of a
-tension crack associated with a slip surface of log spiral
-shape is determined and tensile strength of the slope material
-can be taken into consideration. However, the critical slip
-surface is pre-determined considering a no-crack situation as
-in the two cases discussed above (Ref. 2 and Ref. 3).
+The factor of safety, F, is unknown to begin with and, therefore, an assumption is made in order to calculate Dt.
+On that basis, the stability analysis can be carried out to determine a new value of F which may then be used again for a new analysis. In this way iterative analyses will lead to the correct values of Dt and F.
+Spencer used the well known method of slices in which the potential sliding mass (the mass above the potential slip surface) is divided into vertical slices for the purpose of analysis. He recommended the assumption that the interslice forces be regarded as parallel to each other.
+Another feature of his approach for tension cracks involves the line of thrust, the line which connects the poinb of application of the interslice forces. Proceeding from an initial assumption of Dt, the line of thrust is determined. If the position of the line of thrust is 'reasonable', the assumed value of Dt is considered to be acceptable. On the other hand, if the position of the line of thrust seems
+'unreasonable' a new value of Dt is assumed and the process may be repeated until a 'reasonable' position of the line of thrust is obtained. The criteria for defining a 'reasonable' position for the line of thrust can, of course, be very simple and straightforward. However, the real state of stress and strain within the slope is not known and is, therefore, not taken into considerastion in a limit equilibrium stability analysis. Therefore, it is obviously difficult to define precisely the criteria for a 'reasonable' position of the line of thrust in such an analysis.
+4.
+Other approaches for incorporating the depth of tension cracks in slope stability studies have been proposed, among others, by Hoek and Bray (Ref. 3), Cousins (Ref. 2) and Baker (Ref. 1). The first two of these three publications also provide stability charts which include the effect of tension cracks. The basis for these approaches is the search for the location and depth of a tension crack which leads to the lowest factor of safety for a particular slip surface. In other words, a critical slip surface is first located without considering any tension cracks. Considering such a slip surface as the basis, the depth and location of the tension crack are varied until a minimum factor of safety is obtained.
+The approach of Baker (Ref. 1) is based on the generalised variational calculus procedure to extreme value problems of limit equilibrium. The depth and location of a tension crack associated with a slip surface of log spiral shape is determined and tensile strength of the slope material can be taken into consideration. However, the critical slip surface is pre-determined considering a no-crack situation as in the two cases discussed above (Ref. 2 and Ref. 3).
 NEED FOR A NEW APPROACH
-1. 
-The classical approach which leads to Eq. 1 and
-which is the basis of Spencer's method, considers the stress
-conditions at a point and not the forces over a finite depth.
-In limit equilibrium approaches for slope stability, where
-subdivision into vertical slices is considered, the lateral force
-condition at any vertical section within the sliding mass is of
-real interest. If the lateral force across a vertical section is
-zero in a slope material with zero tensile strength, a tension
-crack along that vertical section is implied. More generally,
-if the force across a vertical section is tensile and exceeds in
-magnitude the tensile strength across that section, a tension
-crack is implied.
-2. 
-On this basis, one can determine, for any trial
-surface, the boundary between an upper zone A which is
-°Kove the tension crack and a lower zone B which is rv1"-'
-the tension crack. Assuming, for instance, a slope material
-with zero tensile strength, the upper zone may be regarded
-effectively as a zone of tensile interslice forces and the lower
-zone as one of compressive interslice forces.
-Thus an approach is needed in which the critical slip
-surface is determined considering the location of the
-boundary between these zones as part of the search process.
-It should be noted that the stability of the slope can be
-determined from a consideration of the equilibrium of zone
-B only, on the basis that no force can be transmitted across a
-vertical crack except, of course the lateral pressure of water
-which may fill the crack wholly or partly.
-3. 
-Thus two important shortcomings of some previous
-methods have become obvious, namely:
-(1) 
-The definition of tension crack depth on the basis of a
-stress rather than a force criterion.
-(2) 
-The determination for a critical slip surface
-independent of the existence of a tension crack.
-Moreover, several of the methods are applicable only to
-homogeneous slopes. In particular, the methods based on
-classical earth pressure approach do not directly take into
-consideration the slope geometry.
+1.
+The classical approach which leads to Eq. 1 and which is the basis of Spencer's method, considers the stress conditions at a point and not the forces over a finite depth.
+In limit equilibrium approaches for slope stability, where subdivision into vertical slices is considered, the lateral force condition at any vertical section within the sliding mass is of real interest. If the lateral force across a vertical section is zero in a slope material with zero tensile strength, a tension crack along that vertical section is implied. More generally, if the force across a vertical section is tensile and exceeds in magnitude the tensile strength across that section, a tension crack is implied.
+2.
+On this basis, one can determine, for any trial surface, the boundary between an upper zone A which is
+°Kove the tension crack and a lower zone B which is rv1"-' the tension crack. Assuming, for instance, a slope material with zero tensile strength, the upper zone may be regarded effectively as a zone of tensile interslice forces and the lower zone as one of compressive interslice forces.
+Thus an approach is needed in which the critical slip surface is determined considering the location of the boundary between these zones as part of the search process.
+It should be noted that the stability of the slope can be determined from a consideration of the equilibrium of zone
+B only, on the basis that no force can be transmitted across a vertical crack except, of course the lateral pressure of water which may fill the crack wholly or partly.
+3.
+Thus two important shortcomings of some previous methods have become obvious, namely:
+(1)
+The definition of tension crack depth on the basis of a stress rather than a force criterion.
+(2)
+The determination for a critical slip surface independent of the existence of a tension crack.
+Moreover, several of the methods are applicable only to homogeneous slopes. In particular, the methods based on classical earth pressure approach do not directly take into consideration the slope geometry.
 A NEW APPROACH
-1. 
-Over the previous few decades several limit
-equilibrium methods of slices have been developed and a
-review of these methods is outside the scope of the present
-paper. Among these, Janbu's Generalised Procedure of
-Slices is one which is widely used because of its simplicity
-and because it is suitable for slip surfaces of arbitrary shape.
-(Of course, there are other, more 'rigorous', methods of
-analysis available but the Janbu Generalised Method
-compares favourably with these other methods). The force
-and moment equilibrium for each vertical slice is taken into
-consideration and then the horizontal force equilibrium of the
-whole system of slices is also considered in order to develop
-the equation for the factor of safety. Starting with zero
-values of interslice forces, the solution can be developed
-iteratively to the final stage which includes these forces
-consistent with the equilibrium equations. Janbu's method
-allows the kind of modification which was considered
-desirable in order to search realistically for a critical slip
-surface without ignoring tension cracks.
-2. 
-In order to include tension cracks in Janbu's
-approach, the concept of negative tensile force across a
-vertical slice boundary exceeding the tensile strength across
-that boundary was used, as discussed in the previous
-section.
-3. 
-In order to determine the crifcal slip surface with
-critical position of tension crack an optimisation approach
-has been developed based on the Simplex Reflection
+1.
+Over the previous few decades several limit equilibrium methods of slices have been developed and a review of these methods is outside the scope of the present paper. Among these, Janbu's Generalised Procedure of
+Slices is one which is widely used because of its simplicity and because it is suitable for slip surfaces of arbitrary shape.
+(Of course, there are other, more 'rigorous', methods of analysis available but the Janbu Generalised Method compares favourably with these other methods). The force and moment equilibrium for each vertical slice is taken into consideration and then the horizontal force equilibrium of the whole system of slices is also considered in order to develop the equation for the factor of safety. Starting with zero values of interslice forces, the solution can be developed iteratively to the final stage which includes these forces consistent with the equilibrium equations. Janbu's method allows the kind of modification which was considered desirable in order to search realistically for a critical slip surface without ignoring tension cracks.
+2.
+In order to include tension cracks in Janbu's approach, the concept of negative tensile force across a vertical slice boundary exceeding the tensile strength across that boundary was used, as discussed in the previous section.
+3.
+In order to determine the crifcal slip surface with critical position of tension crack an optimisation approach has been developed based on the Simplex Reflection
 Method. The modification of Janbu's approach and the
-28
 Downloaded by [ NEW YORK UNIVERSITY] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
-PAPER 5: CHOWDHURY AND ZHANG
-development of the Simplex Reflection Method for slip
-surfaces of arbitrary shape have been discussed in detail
-elsewhere (Ref. 8).
-4. 
-The Janbu Method, modified to locate tension crack
-position based on normal force on the vertical side of any
-slice, was found to have improved convergence.
-5. 
-Several example problems solved by others were re-
-analysed and it was found that the results given by the
+PAPER 5: CHOWDHURY AND ZHANG development of the Simplex Reflection Method for slip surfaces of arbitrary shape have been discussed in detail elsewhere (Ref. 8).
+4.
+The Janbu Method, modified to locate tension crack position based on normal force on the vertical side of any slice, was found to have improved convergence.
+5.
+Several example problems solved by others were re- analysed and it was found that the results given by the
 Modified Janbu Method were reliable and accurate.
-6. 
+6.
 The procedure involves the following steps:
-(a) 
-For any initial slip surface, the determination of the
-interface at which the potential sliding mass and the
-slip surface are divided into two parts because of the
-existence of a tension crack.
-(b) 
-Using an iterative procedure, based on the equilibrium
-equations, to calculate a converged factor of safety for
-the lower part of the potential sliding mass taking into
-consideration any external forces (e.g., the water
-pressure in the crack) at the upper or side boundaries.
-(c) 
-Determination of all the interslice forces for the upper
-and lower parts, based on the equilibrium equations
-and the calculated value of F.
-(d) 
-Considering 'new' interslice forces at the previously
-located boundary as external forces on the lower part,
-recalculation of the factor of safety and the interslice
-forces. Thus, the process involving steps (b), (c) and
+(a)
+For any initial slip surface, the determination of the interface at which the potential sliding mass and the slip surface are divided into two parts because of the existence of a tension crack.
+(b)
+Using an iterative procedure, based on the equilibrium equations, to calculate a converged factor of safety for the lower part of the potential sliding mass taking into consideration any external forces (e.g., the water pressure in the crack) at the upper or side boundaries.
+(c)
+Determination of all the interslice forces for the upper and lower parts, based on the equilibrium equations and the calculated value of F.
+(d)
+Considering 'new' interslice forces at the previously located boundary as external forces on the lower part, recalculation of the factor of safety and the interslice forces. Thus, the process involving steps (b), (c) and
 (d) is repeated until convergence is obtained.
-(e) 
-Using the Simplex Reflection Method as a search
-technique to locate the critical slip surface including
-the critical tension crack.
-7. 
-The Modified Janbu Method along with the search
-process for determining the location of the critical slip
-surface was used to determine the effect of tension cracks
-(dry or water filled) on slope stability. Some illustrative
-examples are presented in the next section.
+(e)
+Using the Simplex Reflection Method as a search technique to locate the critical slip surface including the critical tension crack.
+7.
+The Modified Janbu Method along with the search process for determining the location of the critical slip surface was used to determine the effect of tension cracks
+(dry or water filled) on slope stability. Some illustrative examples are presented in the next section.
 ILLUSTRATIVE EXAMPLES
-1. 
+1.
 Comparison With Classical Approach
-In order to investigate the relationship between
-cohesion c' and the critical crack depth Dt for a given slope,
-several example problems were considered. 
+In order to investigate the relationship between cohesion c' and the critical crack depth Dt for a given slope, several example problems were considered.
 A simple
-^•irrtisation study including the definition of tension crarV
-based on forces and the search for critical slip surface of
-arbitrary shape was carried out in each case.
+^•irrtisation study including the definition of tension crarV based on forces and the search for critical slip surface of arbitrary shape was carried out in each case.
 A typical slope is shown in Fig. 1 with height H =
 10.67 m, inclination (3 = 30°, 0' = 32.21° and ru = 0.3.
-The cohesion c' was varied and the relationships between the
-ratio Dt/H and c' is shown in Fig. 1 for two values of the
-unit weight y. 
-The water depth in tension cracks is
-considered to be consistent with the ru value.
-The relationships are, as expected, not very sensitive
-to variations in y and quite different from the linear
-relationship that is implied if the classical equation, Eq. 1, is
-used. 
-The divergence of the results from a linear
-relationship increases markedly with increasing values of
-cohesion.
+The cohesion c' was varied and the relationships between the ratio Dt/H and c' is shown in Fig. 1 for two values of the unit weight y.
+The water depth in tension cracks is considered to be consistent with the ru value.
+The relationships are, as expected, not very sensitive to variations in y and quite different from the linear relationship that is implied if the classical equation, Eq. 1, is used.
+The divergence of the results from a linear relationship increases markedly with increasing values of cohesion.
 0.3-
 0 2-
 0.1-
 /
-/
-0
-y
-o
-q
-•^ a
-o
-a
+/ y o q
+•^ a o a
 — ^
 Y = 18.86kr
 I
 7 = 2 2kN/n
 M/m3
-3
-H = 10.67m
-p =30*
-0'= 32.21°
-r =0.3
-10 
-20 
-30
-c1 (kPa)
+H = 10.67m p =30*
+0'= 32.21° r =0.3 c1 (kPa)
 Note: The calculated value of D( is that for the critical condition
-(leading to minimum safety factor) based on proposed
-approach. The curves are obtained by regression analysis.
-Depth of Tension Crack D t Determined by the Method Proposed
-in Chapter 3 as a Ratio of H vs. Cohesion c1 for Two
+(leading to minimum safety factor) based on proposed approach. The curves are obtained by regression analysis.
+Depth of Tension Crack D t Determined by the Method Proposed in Chapter 3 as a Ratio of H vs. Cohesion c1 for Two
 Different Values of the Unit Weight Y.
 Figure 1
-29
 Downloaded by [ NEW YORK UNIVERSITY] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
 MECHANICS
 0.85
-80 
-100
-F o c — critical value of factor of
-safety without considering
-tension crack
-F c — critical value of factor of
-safety considering tension
-crack
+F o c — critical value of factor of safety without considering tension crack
+F c — critical value of factor of safety considering tension crack
 0.0
 When(H-D t)<H w.
 TW=(H-HW)%
 Whcn(H-Dt)>H^
-Tw= Dt%
-y= 18.86 kN/m3, c'= 19.15 kPa
-$'=28' 
-H = 7.62 m
-slope inclination p = 35.5'
-Hwal the same level as the toe of
-the slope
+Tw= Dt% y= 18.86 kN/m3, c'= 19.15 kPa
+$'=28'
+H = 7.62 m slope inclination p = 35.5'
+Hwal the same level as the toe of the slope
 H w = 11x20%
 1^=11x50%
-20
-60 
-80
-100
-The Influence of Depth Tw of Crack Water on Critical Factor
-of Safety, Depth of Critical Crack Dt and Distance U
-of Critical Crack from Slope Crest
+The Influence of Depth Tw of Crack Water on Critical Factor of Safety, Depth of Critical Crack Dt and Distance U of Critical Crack from Slope Crest
 Figure 2
-30
 Downloaded by [ NEW YORK UNIVERSITY] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
 PAPER 5: CHOWDHURY AND ZHANG
-However, it is interesting to note that, for the whole
-range of cohesion values, the shape of the curves is very
-similar to that based on Eq. 3, provided the factor of safety
-value from the optimisation approach is used for determining
-c'm and §'m. In fact, the value of Dt/H given by Eq. 3 for
-any value of c' is quite close to the corresponding value
-based on the new approach provided the F value used for
-c'm and §'m is the one obtained from the new approach.
-However, if it is assumed that c'm = c' (fully
-mobilised cohesion) Eq. 3 generally overpredicts Dt even
-more than Eq. 1. Again if it is assumed that (J)' m = (j)' (fully
-mobilised internal friction), Eq. 3 overpredicts Dt but to a
-lesser extent than Eq. 1 at values of cohesion above c' = 12
-kPa.
-2 . 
+However, it is interesting to note that, for the whole range of cohesion values, the shape of the curves is very similar to that based on Eq. 3, provided the factor of safety value from the optimisation approach is used for determining c'm and §'m. In fact, the value of Dt/H given by Eq. 3 for any value of c' is quite close to the corresponding value based on the new approach provided the F value used for c'm and §'m is the one obtained from the new approach.
+However, if it is assumed that c'm = c' (fully mobilised cohesion) Eq. 3 generally overpredicts Dt even more than Eq. 1. Again if it is assumed that (J)' m = (j)' (fully mobilised internal friction), Eq. 3 overpredicts Dt but to a lesser extent than Eq. 1 at values of cohesion above c' = 12 kPa.
+2 .
 Dry and Water Filled Tension Cracks
-Studies were made to investigate the effect of depth of
-water in a tension crack on the critical factor of safety. A
-slope with height H = 7.62m, inclination p = 35.5°, y =
+Studies were made to investigate the effect of depth of water in a tension crack on the critical factor of safety. A slope with height H = 7.62m, inclination p = 35.5°, y =
 18.86 kN/m3, c' = 19.15 kPa and f = 28° was considered.
-For a dry slope, the inclusion of dry tension crack had
-a negligible effect on slope stability, a decrease of about 2%.
+For a dry slope, the inclusion of dry tension crack had a negligible effect on slope stability, a decrease of about 2%.
 However the critical factor of safety decreased by about
 7.5% if the tension crack was assumed to be full of water.
 (Fig. 2)
-Considering a horizontal water table in the slope at a
-level of 0.5H, the decrease in the factor of safety was about
-4% for dry tension crack and about 13% for fully filled
-tension crack.
-For both dry slope and slope with horizontal water
-table, the depth of tension crack increases as the depth of
-water in the tension crack is assumed to increase. The
-increase in the depth of crack is significant and is within the
-approximate range (18% H - 41% H).
-The distance of the tension crack from the crest of the
-slope decreases significantly as the depth of water in the
-tension crack is assumed to increase.
-3. 
-Other analyses were carried out in terms of the
-homogeneous pore pressure ratio ru. 
-These analyses
-confirmed that considering tension cracks full of water leads
-to significant reductions in the critical safety factor.
-Moreover such a reduction is greatest at an intermediate
-value of ru and not at the highest value of ru = 0.5
-considered.
-Comparison with other approaches confirmed that the
-lowest factor of safety is obtained when the critical slip
-surface is considered in combination with a critical depth and
-location of tension crack and when the tension crack is
-considered to be full of water.
-The factor of safety can be grossly overestimated if the
-tension cracks are not considered in an analysis. Moreover,
-if the water depth in a tension crack is considered to be
-consistent with the homogeneous pore water pressure ratio
-the factor of safety can be significantly overestimated, if, in
-fact, the tension crack is likely to fill up with water during a
-rainstorm. The overestimates were in the order of 33% for a
-slope with II = 10.67m, p = 40°, c'= 19.18 kPa, <j>" = 28°, y
-= 18.87 kN/m3 and ru = 0.2. The complete set of results in
-the form of tables and figures are not included here because
-of space limitations.
-Previous approaches for the inclusion of tension
-cracks do not reveal these important results because of the
-simple fact that either the depth of tension cracks or the
-location of critical slip surface or both are pre-determined
-rather than considered together.
+Considering a horizontal water table in the slope at a level of 0.5H, the decrease in the factor of safety was about
+4% for dry tension crack and about 13% for fully filled tension crack.
+For both dry slope and slope with horizontal water table, the depth of tension crack increases as the depth of water in the tension crack is assumed to increase. The increase in the depth of crack is significant and is within the approximate range (18% H - 41% H).
+The distance of the tension crack from the crest of the slope decreases significantly as the depth of water in the tension crack is assumed to increase.
+3.
+Other analyses were carried out in terms of the homogeneous pore pressure ratio ru.
+These analyses confirmed that considering tension cracks full of water leads to significant reductions in the critical safety factor.
+Moreover such a reduction is greatest at an intermediate value of ru and not at the highest value of ru = 0.5 considered.
+Comparison with other approaches confirmed that the lowest factor of safety is obtained when the critical slip surface is considered in combination with a critical depth and location of tension crack and when the tension crack is considered to be full of water.
+The factor of safety can be grossly overestimated if the tension cracks are not considered in an analysis. Moreover, if the water depth in a tension crack is considered to be consistent with the homogeneous pore water pressure ratio the factor of safety can be significantly overestimated, if, in fact, the tension crack is likely to fill up with water during a rainstorm. The overestimates were in the order of 33% for a slope with II = 10.67m, p = 40°, c'= 19.18 kPa, <j>" = 28°, y
+= 18.87 kN/m3 and ru = 0.2. The complete set of results in the form of tables and figures are not included here because of space limitations.
+Previous approaches for the inclusion of tension cracks do not reveal these important results because of the simple fact that either the depth of tension cracks or the location of critical slip surface or both are pre-determined rather than considered together.
 CONCLUSIONS
-1. 
-The presence of significant tension cracks in a slope is
-often considered to be an indication of movement \ hich
-may, in some cases, lead to eventual slope failure. It has
-been widely recognised that tension cracks should be
-incorporated into well known conventional limit equilibrium
-methods for slope stability analysis. 
-In fact, several
-methods have been proposed and some slope stability
-charts, which include tension cracks, have also been
-developed. In most of these methods, the critical slip
-surface is pre-determined as if tension cracks were absent.
-In fact, however, tension crack formation is part and parcel
-of the progressive process which may, in some situations,
-lead to slope failure.
-2. 
-In this paper, reference is made to a new methoc for
-determining the position and location of tension cracks b;«seH
-on consideration of the net force on any vertical slice
-boundary in a limit equilibrium method of slices. When
-combined with a powerful optimisation approach such as the
-Simplex Reflection Method, the critical slip surface
-associated with a critical depth and location of tension cracks
-can be determined and the associated critical factor of safety
-can be calculated.
-The depth of a tension crack determined in this way
-increases as the cohesion c' of a slope increases for a slope
-of given height. Moreover, if the critical factor of safety
-calculated in this way is used to calculate mobilised values of
-cohesion and internal friction angle, the results given by Eq.
-3 of this paper are similar to those given by the new
-approach.
-3. 
-Illustrative examples show that the factor of safety
-decreases only slightly with inclusion of a dry tension crack
-in a dry slope. This is consistent with studies based on
-previous approaches. As the depth of water in the tension
-crack increases, the decrease in critical factor of safety
-becomes more significant. For slopes with a water table the
-trends are similar but the decreases in factor of safety are
-larger. The dpeth of tension cracks increases with increase
-in iix depth of water as a proportion of total depth of the
-crack whereas the distance from the crest decreases.
-The factor of safety may be grossly overestimated if
-tcision cracks are not considered in an analysis. Moreover,
-the factor of safety may be significantly overestimated if
-depth of water in the tension crack is assumed to be
-consistent with a given value of ru < 0.5 where, in fact, it is
-likely that tension crack will fill with water during a
-rainstorm.
-4. 
-These significant results are only revealed when a
-method is introduced in which the search for critical slip
-surfaces includes the search for critical location and depth of
-tension cracks. One such method is proposed in this paper
-and its successful application confirmed.
-31
+1.
+The presence of significant tension cracks in a slope is often considered to be an indication of movement \ hich may, in some cases, lead to eventual slope failure. It has been widely recognised that tension cracks should be incorporated into well known conventional limit equilibrium methods for slope stability analysis.
+In fact, several methods have been proposed and some slope stability charts, which include tension cracks, have also been developed. In most of these methods, the critical slip surface is pre-determined as if tension cracks were absent.
+In fact, however, tension crack formation is part and parcel of the progressive process which may, in some situations, lead to slope failure.
+2.
+In this paper, reference is made to a new methoc for determining the position and location of tension cracks b;«seH on consideration of the net force on any vertical slice boundary in a limit equilibrium method of slices. When combined with a powerful optimisation approach such as the
+Simplex Reflection Method, the critical slip surface associated with a critical depth and location of tension cracks can be determined and the associated critical factor of safety can be calculated.
+The depth of a tension crack determined in this way increases as the cohesion c' of a slope increases for a slope of given height. Moreover, if the critical factor of safety calculated in this way is used to calculate mobilised values of cohesion and internal friction angle, the results given by Eq.
+3 of this paper are similar to those given by the new approach.
+3.
+Illustrative examples show that the factor of safety decreases only slightly with inclusion of a dry tension crack in a dry slope. This is consistent with studies based on previous approaches. As the depth of water in the tension crack increases, the decrease in critical factor of safety becomes more significant. For slopes with a water table the trends are similar but the decreases in factor of safety are larger. The dpeth of tension cracks increases with increase in iix depth of water as a proportion of total depth of the crack whereas the distance from the crest decreases.
+The factor of safety may be grossly overestimated if tcision cracks are not considered in an analysis. Moreover, the factor of safety may be significantly overestimated if depth of water in the tension crack is assumed to be consistent with a given value of ru < 0.5 where, in fact, it is likely that tension crack will fill with water during a rainstorm.
+4.
+These significant results are only revealed when a method is introduced in which the search for critical slip surfaces includes the search for critical location and depth of tension cracks. One such method is proposed in this paper and its successful application confirmed.
 Downloaded by [ NEW YORK UNIVERSITY] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.
 MECHANICS
 ACKNOWLEDGEMENTS
 The authors wish to acknowledge the support of the
-University of Wollongong for academic and research
-activities. The first author also acknowledges the sup; )rt of
-the Australian Research Council for support of research.
+University of Wollongong for academic and research activities. The first author also acknowledges the sup; )rt of the Australian Research Council for support of research.
 REFERENCES
-1. 
-BAKER R. Tensile strength, tension cracks, and
-stability of slopes. Japanese Society of Soil Mechanics and
+1.
+BAKER R. Tensile strength, tension cracks, and stability of slopes. Japanese Society of Soil Mechanics and
 Foundation Engng., Vol. 21, No. 2, p 1-17, 1981.
-2. 
-COUSINS B.F. Stability charts for simplified earth
-slopes allowing for tension cracks. 3rd Australia New
-Zealand Conference on Geomechanics, Wellington, Vol. 2,
-pp 101-105, 1980.
-3. 
+2.
+COUSINS B.F. Stability charts for simplified earth slopes allowing for tension cracks. 3rd Australia New
+Zealand Conference on Geomechanics, Wellington, Vol. 2, pp 101-105, 1980.
+3.
 HOEK E. and BRAY J.W. Rock slope engineering.
 2nd edition, The Institution of Mining and Metallurgy.
 London, 402pp, 1977.
-4. 
-SPENCER E. A method for the analysis of the
-stability of embankments assuming parallel inter-slice
-forces, Geotechnique, Vol. 17, No. 1, 11-26, 1967.
-5. 
-SPENCER 
-E. Effect of tension on stability of
-embankments. ASCE, Vol. 94, SM5, 1159-1173, 1968.
-6. 
-SPENCER E. Thrust line criterion in embankment
-stability analysis. Geotechnique, Vol. 23, No. 1, 85-100,
+4.
+SPENCER E. A method for the analysis of the stability of embankments assuming parallel inter-slice forces, Geotechnique, Vol. 17, No. 1, 11-26, 1967.
+5.
+SPENCER
+E. Effect of tension on stability of embankments. ASCE, Vol. 94, SM5, 1159-1173, 1968.
+6.
+SPENCER E. Thrust line criterion in embankment stability analysis. Geotechnique, Vol. 23, No. 1, 85-100,
 1973.
-7. 
+7.
 SPENCER E. Slip circles and critical shear planes.
 Geotechnical Engineering Division, ASCE, Vol. 107, GT7,
 929-942, 1981.
-8. 
-ZHANG 
-S. 
-Evaluation and updating of slope
-reliability. Ph.D. thesis, Department of Civil and Mining
+8.
+ZHANG
+S.
+Evaluation and updating of slope reliability. Ph.D. thesis, Department of Civil and Mining
 Engineering, University of Wollongong, 1990.
-32
 Downloaded by [ NEW YORK UNIVERSITY] on [18/09/16]. Copyright © ICE Publishing, all rights reserved.

@@ -1,0 +1,233 @@
+An example of lateral earth pressure overturning a retaining wall
+Lateral earth pressure
+The lateral earth pressure is the pressure that soil exerts in the horizontal direction. It is important because it affects the consolidation behavior and strength of the soil and because it is considered in the design of geotechnical engineering structures such as retaining walls, basements, tunnels, deep foundations and braced excavations.
+The earth pressure problem dates from the beginning of the 18th century, when Gautier[1] listed five areas requiring research, one of which was the dimensions of gravity-retaining walls needed to hold back soil. However, the first major contribution to the field of earth pressures was made several decades later by Coulomb,[2] who considered a rigid mass of soil sliding upon a shear surface. Rankine[3] extended earth pressure theory by deriving a solution for a complete soil mass in a state of failure, as compared with Coulomb's solution which had considered a soil mass bounded by a single failure surface. Originally, Rankine's theory considered the case of only cohesionless soils, with Bell[4] subsequently extending it to cover the case of soils possessing both cohesion and friction. Caquot and Kerisel[5] modified Muller-Breslau's equations to account for a nonplanar rupture surface.
+The coefficient of lateral earth pressure, K, is defined as the ratio of the horizontal effective stress, σ’h, to the vertical effective stress, σ’v. The effective stress is the intergranular stress calculated by subtracting the pore water pressure from the total stress as described in soil mechanics.
+K for a particular soil deposit is a function of the soil properties and stress history. The minimum stable value of K is called the active earth pressure coefficient, Ka; the active earth pressure is obtained, for example, when a retaining wall moves away from the soil. The maximum stable value of K is called the passive earth pressure coefficient, Kp; the passive earth pressure would develop, for example against a vertical plow that is pushing soil horizontally. For a level ground deposit with zero lateral strain in the soil, the "at-rest" coefficient of lateral earth pressure, K0 is obtained.
+There are many theories for predicting lateral earth pressure; some are empirically based, and some are analytically derived.
+In this article, the following variables in the equations are defined as follows:
+OCR
+Overconsolidation ratio β
+Angle of the backslope measured to the horizontal δ
+Wall friction angle θ
+Angle of the wall measured to the vertical φ
+Soil stress friction angle φ'
+Effective soil stress friction angle φ'cs
+Effective soil stress friction angle at critical state
+The in situ lateral pressure of soil is called earth pressure at rest and it is generally calculated by the product of the overburden stress times the coefficient K0; the latter is called the coefficient of earth pressure at rest. K0 can be obtained directly in the field based on e.g. the dilatometer test (DMT) or a borehole pressuremeter test (PMT), although it is more commonly calculated using the well-known Jaky's formula. For loosely deposited sands at rest, Jaky[6][7] showed analytically that K0 deviates from unity with downward trend as the sinusoidal term of the internal friction angle of material increases, i.e.
+The coefficient of lateral earth pressure
+Symbols definitions
+At rest pressure
+Different types of wall structures can be designed to resist earth pressure.
+Jaky's coefficient has been proved later to be also valid for normally consolidated granular deposits[8][9][10] and normally consolidated clays.[11][12][13]
+From a purely theoretical point of view, the very simple formula works ideally for the two extreme values of
+, where for
+= 0o it gives referring to hydrostatic conditions and for
+= 90o (theoretical value) it gives referring to a frictional material that can stand vertically without support, thus, exerting no lateral pressure. These extreme cases are enough evidence that the correct expression for the coefficient of earth pressure at rest is the
+.
+There is a general impression that Jaky's (1944) coefficient of earth pressure at rest is empirical and, indeed, the expression is just a simplification of the expression below:
+However, the latter derives from a fully analytical procedure and corresponds to an intermediate state between the state at rest and the active state (for more information see Pantelidis[14]).
+As mentioned earlier, according to the literature, Jaky's equation matches very well the experimental data for both normally consolidated sands and clays. Some researchers state, however, that slightly modified forms of Jaky's equation show better fit to their data.
+However, although some of these modifications gained great popularity, they do not provide better estimations for
+. For example, Brooker and Ireland's[11] has been based on the laboratory determination of of only five samples, whilst the effective angle of shearing resistance of three of them was obtained from the literature, having no control on them. Moreover, refinements in the order of a few percentage points rather support the validity of the expression than the superiority of the refined expression.
+For overconsolidated soils, Mayne & Kulhawy[15] suggested the following expression:
+The latter requires the OCR profile with depth to be determined. OCR is the overconsolidation ratio and is the effective stress friction angle.
+To estimate K0 due to compaction pressures, refer to Ingold (1979)[16]
+Pantelidis[14] offered an analytical expression for the coefficient of earth pressure at rest, applicable to cohesive-frictional soils and both horizontal and vertical pseudo-static conditions, which is part of a unified continuum mechanics approach (the expression in question is given in the section below).
+The active state occurs when a retained soil mass is allowed to relax or deform laterally and outward (away from the soil mass) to the point of mobilizing its available full shear resistance (or engaging its shear strength) in trying to resist lateral deformation. That is, the soil is at the point of incipient failure by shearing due to unloading in the lateral direction. It is the minimum theoretical lateral pressure that a given soil mass will exert on a retaining wall that will move or rotate away from the soil until the soil active state is reached (not necessarily the actual in- service lateral pressure on walls that do not move when subjected to soil lateral pressures higher than the active pressure).
+The passive state occurs when a soil mass is externally forced laterally and inward (towards the soil mass) to the point of mobilizing its available full shear resistance in trying to resist further lateral deformation. That is, the soil mass is at the point of incipient failure by shearing due to loading in the lateral direction. It is the maximum lateral resistance that a given soil mass can offer to a retaining wall that is being pushed towards the soil mass. That is, the soil is at the point of incipient failure by shearing, but this time due to loading in the lateral direction. Thus active pressure and passive resistance define the minimum lateral pressure and the maximum lateral resistance possible from a given mass of soil.
+Coulomb (1776)[2] first studied the problem of lateral earth pressures on retaining structures. He used the limit equilibrium theory, which considers the failing soil block as a free body in order to determine the limiting horizontal earth pressure.
+Soil lateral active pressure and passive resistance
+Coulomb's earth pressure coefficients
+The limiting horizontal pressures at failure in extension or compression are used to determine the and respectively. Since the problem is indeterminate,[17] a number of potential failure surfaces must be analysed to identify the critical failure surface (i.e. the surface that produces the maximum or minimum thrust on the wall). Coulombs main assumption is that the failure surface is planar. In simpler terms,
+Coulomb’s theory imagines a wedge of soil behind the wall that is just on the verge of sliding. By comparing the forces trying to push the wedge forward with those resisting movement, the maximum or minimum pressure on the wall can be estimated.
+Mayniel (1808)[18] later extended Coulomb's equations to account for wall friction, denoted by . Müller-Breslau (1906)[19] further generalized Mayniel's equations for a non-horizontal backfill and a non-vertical soil-wall interface (represented by an angle from the vertical). The symbols and represent dimensionless "earth pressure coefficients":
+for active pressure (when the wall moves away from the soil and the soil expands slightly) and for passive pressure (when the wall moves into the soil and the soil is compressed). These coefficients scale the weight of the soil to give the actual horizontal pressure on the wall.
+Instead of evaluating the above equations or using commercial software applications for this, books of tables for the most common cases can be used. Generally, instead of
+, the horizontal part is tabulated. It is the same as times
+. [Note that under certain conditions, the equation for
+"blows up". For example, if and
+, then
+.]
+The actual earth pressure force is the sum of the part due to the weight of the earth, a part due to extra loads such as traffic, minus a part due to any cohesion present.
+is the integral of the pressure over the height of the wall, which equates to times the specific gravity of the earth, times one half the wall height squared.
+In the case of a uniform pressure loading on a terrace above a retaining wall, equates to this pressure times times the height of the wall. This applies if the terrace is horizontal or the wall vertical. Otherwise, must be multiplied by
+.
+is generally assumed to be zero unless a value of cohesion can be maintained permanently.
+acts on the wall's surface at one third of its height from the bottom and at an angle relative to a right angle at the wall.
+acts at the same angle, but at one half the height.
+Rankine's theory, developed in 1857,[3] is a stress field solution that predicts active and passive earth pressure. It assumes that the soil is cohesionless, the wall is non-battered and frictionless whilst the backfill is horizontal. The failure surface on which the soil moves is planar.
+The expressions for the active and passive lateral earth pressure coefficients are given below.
+For soils with cohesion, Bell[4] developed an analytical solution that uses the square root of the pressure coefficient to predict the cohesion's contribution to the overall resulting pressure. These equations represent the total lateral earth pressure. The first term represents the non-cohesive contribution and the second term the cohesive contribution. The first equation is for the active earth pressure condition and the second for the passive earth pressure condition.
+Note that c' and φ' are the effective cohesion and angle of shearing resistance of the soil respectively. For cohesive soils, the depth of tension crack (referring to the active state) is:
+For purely frictional soils with sloping backfill exerting pressure on non-battered, frictionless wall the coefficients are:
+Rankine's earth pressure coefficients and Bell's extension for cohesive soils with horizontal components of earth pressure:
+where, β is the backfill inclination angle.
+In 1948, Albert Caquot (1881–1976) and Jean Kerisel (1908–2005)[5] developed an advanced theory that modified Muller-Breslau's equations to account for a non-planar rupture surface. They used a logarithmic spiral to represent the rupture surface instead. This modification is extremely important for passive earth pressure where there is soil-wall friction. Mayniel and Muller-Breslau's equations are unconservative in this situation and are dangerous to apply. For the active pressure coefficient, the logarithmic spiral rupture surface provides a negligible difference compared to Muller-Breslau. These equations are too complex to use, so tables or computers are used instead.
+Mononobe-Okabe's[20][21] and Kapilla's[22] earth pressure coefficients for dynamic active and passive conditions respectively have been obtained on the same basis as Coulomb's solution. These coefficients are given below:
+with horizontal components of earth pressure:
+where, and are the seismic coefficients of horizontal and vertical acceleration respectively,
+, is the back face inclination angle of the structure with respect to vertical, is the angle of friction between structure and soil and is the back slope inclination.
+The above coefficients are included in numerous seismic design codes worldwide (e.g., EN1998-5,[23] AASHTO[24]), since being suggested as standard methods by Seed and Whitman.[25] The problems with these two solutions are known (e.g., see Anderson[26]]) with the most important one being the square root of negative number for
+(the minus sign stands for the active case whilst the plus sign stands for the passive case).
+The various design codes recognize the problem with these coefficients and they either attempt an interpretation, dictate a modification of these equations, or propose alternatives. In this respect:
+Eurocode 8[23] dictates (without any explanation) the whole square root in Mononobe-Okabe's formula, when negative, to be arbitrarily replaced by unity
+AASHTO,[24] in addition to the problem with the square root, recognized the conservatism of the Mononobe-Okabe's solution adopting as standard design practice the use of a reduction coefficient for the expected peak ground acceleration, suggesting
+(where is the Peak Ground Acceleration)
+The Building Seismic Safety Council[27] suggests that for the same reason as above
+GEO Report No. 45[28] of Geotechnical Engineering Office of Hong Kong dictates the use of the trial wedge method when the number under the square root is negative.
+It is noted that the above empirical corrections on made by AASHTO[24] and the Building Seismic Safety Council[27] return coefficients of earth pressure very close to those derived by the analytical solution proposed by Pantelidis[14] (see below).
+Caquot and Kerisel's analysis for log-spiral failure surfaces
+Mononobe-Okabe's and Kapilla's earth pressure coefficients for dynamic conditions
+Mazindrani and Ganjale[29] presented an analytical solution to the problem of earth pressures exerted on a frictionless, non-battered wall by a cohesive-frictional soil with inclined surface. The derived equations are given below for both the active and passive states:
+with horizontal components for the active and passive earth pressure are:
+ka and kp coefficients for various values of
+, , and can be found in tabular form in Mazindrani and Ganjale.[29]
+Based on a similar analytical procedure, Gnanapragasam[30] gave a different expression for ka. It is noted, however, that both Mazindrani and
+Ganjale's and Gnanapragasam's expressions lead to identical active earth pressure values.
+Following either approach for the active earth pressure, the depth of tension crack appears to be the same as in the case of zero backfill inclination (see Bell's extension of Rankine's theory).
+Pantelidis[14] offered a unified fully analytical continuum mechanics approach (based on Cauchy's first law of motion) for deriving earth pressure coefficients for all soil states, applicable to cohesive-frictional soils and both horizontal and vertical pseudo-static conditions.
+The following symbols are used:
+and are the seismic coefficients of horizontal and vertical acceleration respectively
+, and are the effective cohesion, effective internal friction angle (peak values) and unit weight of soil respectively is the mobilized cohesion of soil (the mobilized shear strength of soil, i.e. the and parameters, can be obtained either analytically or through relevant charts; see Pantelidis[14]) and are the effective elastic constants of soil (i.e. the Young modulus and Poisson's ratio respectively) is the wall height is the depth where the earth pressure is calculated with with with
+Mazindrani and Ganjale's approach for cohesive-frictional soils with inclined surface
+Pantelidis' unified approach: the generalized coefficients of earth pressure
+The coefficient of earth pressure at rest
+The coefficient of active earth pressure
+The coefficient of passive earth pressure with where,
+,
+, and with and are parameters related to the transition from the soil wedge of the state at rest to the soil wedge of the passive state (i.e., inclination angle of soil wedge changing from to
+. Also, and are the lateral displacement of the wall and the lateral
+(maximum) displacement of the wall corresponding to the active or passive state (both at depth ). The latter is given below.
+for smooth retaining wall and for rough retaining wall with or for the active and passive "side" respectively.
+The depth of neutral zone in the state at rest is:
+whilst the depth of tension crack in the active state is:
+Under static conditions (
+=
+=0), where the mobilized cohesion,
+, is equal to the cohesion value at the critical state,
+, the above expression is transformed to the well-known:
+Actually, this has been foreseen in EM1110-2-2502[31] with the application of a Strength Mobilization Factor (SMF) to c′ and tanφ′.
+According to this Engineer Manual, an appropriate SMF value allows calculation of greater-than-active earth pressures using Coulomb's active force equation. Assuming an average SMF value equal to 2/3 along Coulomb's failure surface, it has been shown that for purely frictional soils the derived coefficient value of earth pressure matches quite well with the respective one derived from Jaky's equation.
+In the solution proposed by Pantelidis,[14] the SMF factor is the ratio and what has been foreseen by EM1110-2-2502, it can be calculated exactly.
+The coefficient of intermediate earth pressure on the active "side"
+The coefficient of intermediate earth pressure on the passive "side"
+The lateral maximum displacement of the wall corresponding to the active or passive state
+The depth of tension crack (active state) or neutral zone (state at rest)
+Derivation of the earth pressure at rest by the active earth pressure coefficient
+Example #1: For =20 kPa,
+=30o, γ=18 kN/m3,
+=
+=0, and =2 m, for the state at rest
+=0.211,
+=9.00 kPa and
+=14.57o. Using this (
+,
+) pair of values in place of the ( ,
+) pair of values in the coefficient of active earth pressure (
+) given previously, the latter returns a coefficient of earth pressure equal to 0.211, that is, the coefficient of earth pressure at rest.
+Example #2: For
+=0kPa,
+=30o, γ=18 kN/m3,
+=0.3,
+=0.15, and =2 m, for the state at rest
+=0.602,
+=0 kPa and
+=14.39o.
+Using this (
+,
+) pair of values in place of the ( ,
+) pair of values and
+=
+=0 in the coefficient of active earth pressure (
+) given previously, the latter returns a coefficient of earth pressure equal to 0.602, that is, again the coefficient of earth pressure at rest.
+Mohr–Coulomb theory
+Soil mechanics
+1. Gautier, H. Dissertation sur L’epaisseur des Culées des
+Ponts, sur la Largeur des Piles, sur la Portée des
+Voussoirs, sur L’effort Et la Pesanteur des Arches À
+Differens Surbaissemens, Et sur Les Profils de Maçonnerie
+Qui Doivent Supporter des Chaussées, des Terrasse; Chez
+André Cailleau: Paris, France, 1717; ISBN 1295197669.
+2. Coulomb C.A., (1776). Essai sur une application des regles des maximis et minimis a quelques problemes de statique relatifs a l'architecture. Memoires de l'Academie Royale pres Divers Savants, Vol. 7
+3. Rankine, W. (1856) On the stability of loose earth.
+Philosophical Transactions of the Royal Society of London,
+Vol. 147.
+4. Bell, A.L. The lateral pressure and resistance of clay and the supporting power of clay foundations. Minutes Proc.
+Inst. Civ. Eng. 1915, 199, 233–272.
+5. Caquot, A. I.; Kérisel, J. L. (1948). Tables for the calculation of passive pressure, active pressure and bearing capacity of foundations. Paris, France: Gautier-Villars.
+6. Jaky, J. The coefficient of earth pressure at rest. J. Soc.
+Hung. Archit. Eng. 1944, 78, 355–388.
+7. Jaky, J. Pressure in silos. In Proceedings of the 2nd
+International Conference on Soil Mechanics and
+Foundation Engineering ICSMFE, London, UK, 21–30 June
+1948; pp. 103–107.
+8. Bishop, A.W.; Eldin, A.K.G. The effect of stress history on the relation between and porosity in sand. In Proceedings of the 3rd International Conference Soil Mechanics, Zurich,
+Switzerland, 16–27 August 1953; pp. 100–105.
+9. Hendron, A.J., Jr. The Behavior of Sand in One-
+Dimensional Compression. Ph.D. Thesis, University of
+Illinois, Urbana, IL, USA, 1963.
+10. Saglamer, A. Soil parameters affecting coefficient of earth pressure at rest of cohesionless soils. In Proceedings of the
+Istanbul conference on soil/mechanics and Foundation
+Engineering, Istanbul, Turkey, 31 March–4 April 1975; pp.
+9–16.
+11. Brooker, E.W.; Ireland, H.O. Earth pressures at rest related to stress history. Can. Geotech. J. 1965, 2, 1–15.
+12. Abdelhamid, M.S.; Krizek, R.J. At-rest lateral earth pressure of a consolidating clay. J. Geotech. Geoenviron.
+Eng. 1976, 102, 721–738.
+13. Abdelhamid, M.S.; Krizek, R.J. At Rest Lateral Earth
+Pressures of a Consolidating Clay. J. Geotech. Geoenviron.
+Eng. 1977, 103, 820–821.
+14. Pantelidis, Lysandros (2019-12-04). "The Generalized
+Coefficients of Earth Pressure: A Unified Approach" (https:// doi.org/10.3390%2Fapp9245291). Applied Sciences. 9
+(24): 5291. doi:10.3390/app9245291 (https://doi.org/10.339
+0%2Fapp9245291). hdl:20.500.14279/18516 (https://hdl.ha ndle.net/20.500.14279%2F18516). ISSN 2076-3417 (http s://search.worldcat.org/issn/2076-3417).
+15. Mayne, P.W. and Kulhawy, F.H. (1982). "K0-OCR relationships in soil". Journal of Geotechnical Engineering,
+Vol. 108 (GT6), 851-872.
+16. Ingold, T.S., (1979) The effects of compaction on retaining walls, Gèotechnique, 29, p265-283.
+17. Kramer S.L. (1996) Earthquake Geotechnical Engineering,
+Prentice Hall, New Jersey
+18. Mayniel K., (1808), Traité expérimental, analytique et preatique de la poussée des terres et des murs de revêtement, Paris.
+19. Müller-Breslau H., (1906) Erddruck auf Stutzmauern, Alfred
+Kroner, Stuttgart.
+20. Mononobe, N.; Matsuo, H. On the determination of earth pressures during earthquakes. In Proceedings of the World
+Engineering Congress, Tokyo, Japan, 22–28 October 1929.
+21. Okabe, S. General theory of earth pressure. Jpn. Soc. Civ.
+Eng. 1926, 12.
+22. Kapila, J. Earthquake resistant design of retaining walls. In
+Proceedings of the 2nd Earthquake Symposium; University of Roorkee: Rooekee, India, 1962; pp. 97–108.
+23. EN1998-5. Eurocode 8: Design of Structures for
+Earthquake Resistance—Part 5: Foundations, Retaining
+Structures and Geotechnical Aspects; European Committee for Standardization: Brussels, Belgium, 2004.
+24. AASHTO (American Association of State Highway and
+Transportation Officials). LRFD Bridge Design
+Specifications, Customary, U.S. Units, 5th ed.; AASHTO:
+Washington, DC, USA, 2010.
+25. Seed, H.B.; Whitman., R.V. Design of earth retaining structures for dynamic loads. In Proceedings of the ASCE
+Specialty Conference-Lateral Stresses in the Ground and
+Design of Earth Retaining Structures, New York, NY, USA,
+22–24 June 1970; pp. 103–147.
+26. Anderson, D.G. Seismic Analysis and Design of Retaining
+Walls, Buried Structures, Slopes, and Embankments;
+Transportation Research Board: Washington, DC, USA,
+2008; ISBN 0309117658.
+27. Building Seismic Safety Council NEHRP Recommended
+Seismic Provisions: Design Examples; FEMA P-751;
+FEMA: Washington, DC, USA, 2012.
+28. Au-Yeung, Y.S.; Ho, K.K.S. Gravity Retaining Walls Subject to Seismic Loading; Geotechnical Engineering Office, Civil
+Engineering Department: Valencia, Spain, 1995.
+29. Mazindrani, Z. H., & Ganjali, M. H. (1997). Lateral Earth
+Pressure Problem of Cohesive Backfill with Inclined
+Surface. Journal of Geotechnical and Geoenvironmental
+Engineering, 123(2), 110–112. doi:10.1061/(asce)1090-
+0241(1997)123:2(110)
+30. Gnanapragasam, N. (2000). Active earth pressure in cohesive soils with an inclined ground surface. Canadian
+Geotechnical Journal, 37(1), 171–177. doi:10.1139/t99-091
+See also
+Notes
+31. USACE, U.S. Army Corps of Engineers. Engineering and
+Design of Retaining and Flood Walls; USACE: Washington,
+DC, USA, 1989; EM 1110-2-2502.
+Coduto, Donald (2001), Foundation Design, Prentice-Hall, ISBN 0-13-589706-8
+California Department of Transportation Material on Lateral Earth Pressure (http://www.dot.ca.gov/hq/esc/construction/manua ls/OSCCompleteManuals/TrenchingandShoringManual2011.pdf)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Lateral_earth_pressure&oldid=1306029485"
+References

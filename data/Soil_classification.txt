@@ -1,0 +1,173 @@
+Samples of soil horizons belonging to different soil types
+Soil classification
+Soil classification deals with the systematic categorization of soils based on distinguishing characteristics as well as criteria that dictate choices in use. Soil Classification is used in a variety of disciplines such as soil science, engineering, and environmental management, to elevate soil properties and determine the appropriate land use. Classification systems group soils according to measurable characteristics such as texture, structure, mineral composition, and the formation process. These new frameworks are designed to support research and help with infrastructure planning. Some of these major systems include soil taxonomy developed by the
+United States Department of Agriculture as well as engineering-based systems used to assess soil stability and performance. Educational resources from institutions such as the University of Idaho emphasize that these systems provide standardized methods for comparing soils across regions and applications.
+Soil classification is a dynamic subject, from the structure of the system, to the definitions of classes, to the application in the field. Soil classification can be approached from the perspective of soil as a material and soil as a resource.
+Inscriptions at the temple of Horus at Edfu outline a soil classification used by Tanen to determine what kind of temple to build at which site.[1] Ancient Greek scholars produced a number of classification based on several different qualities of the soil.[2]
+Geotechnical engineers classify soils according to their engineering properties as they relate to use for foundation support or building material. Modern engineering classification systems are designed to allow an easy transition from field observations to basic predictions of soil engineering properties and behaviors.
+The most common engineering classification system for soils in North America is the Unified Soil
+Classification System (USCS). The USCS has three major classification groups: (1) coarse-grained soils
+(e.g. sands and gravels); (2) fine-grained soils (e.g. silts and clays); and (3) highly organic soils (referred to as "peat"). The USCS further subdivides the three major soil classes for clarification. It distinguishes sands from gravels by grain size, classifying some as "well-graded" and the rest as "poorly-graded". Silts and clays are distinguished by the soils' Atterberg limits, and thus the soils are separated into "high- plasticity" and "low-plasticity" soils. Moderately organic soils are considered subdivisions of silts and
+Overview
+Engineering
+Soil texture triangle showing the USDA classification system based on grain size clays and are distinguished from inorganic soils by changes in their plasticity properties (and Atterberg limits) on drying. The European soil classification system (ISO 14688) is very similar, differing primarily in coding and in adding an "intermediate-plasticity" classification for silts and clays, and in minor details.
+Other engineering soil classification systems in the United States include the AASHTO Soil
+Classification System, which classifies soils and aggregates relative to their suitability for pavement construction, and the Modified Burmister system, which works similarly to the USCS but includes more coding for various soil properties.[3]
+A full geotechnical engineering soil description will also include other properties of the soil including color, in-situ moisture content, in-situ strength, and somewhat more detail about the material properties of the soil than is provided by the USCS code. The USCS and additional engineering description is standardized in ASTM D 2487.[4]
+For soil resources, experience has shown that a natural system approach to classification, i.e. grouping soils by their intrinsic property (soil morphology), behaviour, or genesis, results in classes that can be interpreted for many diverse uses.
+Differing concepts of pedogenesis, and differences in the significance of morphological features to various land uses can affect the classification approach. Despite these differences, in a well-constructed system, classification criteria group similar concepts so that interpretations do not vary widely. This is in contrast to a technical system approach to soil classification, where soils are grouped according to their fitness for a specific use and their edaphic characteristics.
+Natural system approaches to soil classification, such as the
+French Soil Reference System (Référentiel pédologique français) are based on presumed soil genesis. Systems have developed, such as USDA soil taxonomy and the World
+Reference Base for Soil Resources,[5][6] which use taxonomic criteria involving soil morphology and laboratory tests to inform and refine hierarchical classes. Another approach is numerical classification, also called ordination, where soil individuals are grouped by multivariate statistical methods such as cluster analysis. This produces natural groupings without requiring any inference about soil genesis.
+In soil survey, as practiced in the United States, soil classification usually means criteria based on soil morphology in addition to characteristics developed during soil formation. Criteria are designed to guide choices in land use and soil management. As indicated, this is a hierarchical system that is a hybrid of both natural and objective criteria. USDA soil taxonomy provides the core criteria for differentiating soil map units. This is a substantial revision of the 1938 USDA soil taxonomy which was a strictly natural system. The USDA classification was originally developed by Guy Donald Smith, director of the U.S.
+Department of Agriculture's soil survey investigations.[7] Soil taxonomy based soil map units are additionally sorted into classes based on technical classification systems. Land Capability Classes, hydric soil, and prime farmland are some examples.
+Soil science
+Map of global soil regions from the USDA
+The USDA soil taxonomy places soils into hierarchical categories, including orders, suborders, great groups, subgroups, and families. There are twelve recognized soil orders in the United States, each reflecting distinct soil- forming processes and characteristics such as climate, vegetation, and mineral composition. According to the
+University of
+Idaho[8], understanding these orders helps scientists and land managers predict soil behavior for agriculture, conservation, and land development.
+International systems, including the Canadian soil classification system, use similar criteria with some variations to reflect local conditions and research advancements, highlighting the importance of standardized methods for comparing soils across regions.
+Recent research on Canadian soils proposes the addition of a Leptosolic order (soils that are shallow or over bedrock), complementing existing USDA and international soil orders, and highlighting regional variations and ongoing refinement in soil classification systems.[9]
+The European Union uses the World Reference Base for Soil Resources (WRB), currently the fourth edition is valid.[5] According to the first edition of the WRB (1998),[10] the booklet "Soils of the
+European Union"[11] was published by the former Institute of Environment and Sustainability (now: Land
+Resources Unit, European Soil Data Centre/ESDAC).
+In addition to scientific soil classification systems, there are also vernacular soil classification systems.
+Folk taxonomies have been used for millennia, while scientifically based systems are relatively recent developments.[12] Knowledge on the spatial distribution of soils has increased dramatically. SoilGrids is a system for automated soil mapping based on models fitted using soil profiles and environmental covariate data. On a global scale, it provides maps at 1.00–0.25 km spatial resolution.[13] Whether sustainability might be the ultimate goal for managing the global soil resources, these new developments require studied soils to be classified and given its own name.[14]
+The U.S. Occupational Safety and Health Administration (OSHA) requires the classification of soils to protect workers from injury when working in excavations and trenches. OSHA uses three soil classifications plus one for rock, based primarily on strength but also other factors which affect the stability of cut slopes:[15]
+OSHA
+Stable Rock: natural solid mineral matter that can be excavated with vertical sides and remain intact while exposed.
+Type A - cohesive, plastic soils with unconfined compressive strength greater than 1.5 ton per square foot (tsf)(144 kPa), and meeting several other requirements (which induces a lateral earth pressure of 25 psf per ft of depth[16])
+Type B - cohesive soils with unconfined compressive strength between 0.5 tsf (48 kPa) and
+1.5 tsf (144 kPa), or unstable dry rock, or soils which would otherwise be Type A (lateral earth pressure of 45 psf per ft of depth[16])
+Type C - granular soils or cohesive soils with unconfined compressive strength less than 0.5 tsf (48 kPa) or any submerged or freely seeping soil or adversely bedded soils (lateral earth pressure of 80 psf per ft of depth[16])
+Type C60 - A subtype of Type C soil, though is not officially recognized by OSHA as a separate type, induces a lateral earth pressure of 60 psf per ft of depth[17][18]
+Each of the soil classifications has implications for the way the excavation must be made or the protections (sloping, shoring, shielding, etc.) that must be provided to protect workers from collapse of the excavated bank.[19][20]
+Soil classification in excavation work is important because different soil types vary in their ability to hold weight and avoid collapse. According to the Occupational Safety and Health Administration[21], proper identification of soil conditions helps determine the protective systems required to reduce the risk of trench failures and worker injury. Multiple factors such as moisture content, vibrations from nearby equipment, and the presence of fissures can reduce soil stability and must be considered during site evaluation. These safety-based classifications differ from scientific soil taxonomy systems, as they are designed primarily to guide construction practices rather than to study soil formation or environmental characteristics.
+AASHTO Soil Classification System
+Australian Soil Classification
+Canadian system of soil classification
+French soil classification
+FAO soil classification (1974–1998)
+International Committee on Anthropogenic Soils (ICOMANTH)
+Unified Soil Classification System
+USDA soil taxonomy
+World Reference Base for Soil Resources (WRB) (1998-)
+1. Retallack, Gregory J. (2022). "Sacred soils of ancient Egypt" (https://doi.org/10.1016%2Fj.g eoderma.2022.116191). Geoderma. 428 116191. Bibcode:2022Geode.42816191R (https://u i.adsabs.harvard.edu/abs/2022Geode.42816191R). doi:10.1016/j.geoderma.2022.116191
+(https://doi.org/10.1016%2Fj.geoderma.2022.116191). S2CID 253191277 (https://api.seman ticscholar.org/CorpusID:253191277).
+See also
+References
+2. "Archived copy" (https://web.archive.org/web/20220707024717/https://cpb-us-e1.wpmucdn.
+com/blogs.uoregon.edu/dist/d/3735/files/2013/07/antiquity-2008-1l4ladp.pdf) (PDF).
+Archived from the original (https://cpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/d/3735/fi les/2013/07/antiquity-2008-1l4ladp.pdf) (PDF) on 2022-07-07.
+3. "Donald M. Burmister" (http://www.civil.columbia.edu/ling/burmister/burmister.html).
+Civil.columbia.edu. Archived (https://web.archive.org/web/20120415003511/http://www.civil.
+columbia.edu/ling/burmister/burmister.html) from the original on 2012-04-15. Retrieved
+2014-06-11.
+4. Classification of Soils for Engineering Purposes: Annual Book of ASTM Standards (http://ww w.astm.org/Standards/D2487.htm), D 2487-83, vol. 04, American Society for Testing and
+Materials, 1985, pp. 395–408, archived (https://web.archive.org/web/20100914111626/htt p://www.astm.org/Standards/D2487.htm) from the original on 2010-09-14, retrieved
+2015-05-08
+5. IUSS Working Group WRB (2022). "World Reference Base for Soil Resources, fourth edition" (https://wrb.isric.org/files/WRB_fourth_edition_2022-12-18.pdf) (PDF). International
+Union of Soil Sciences, Vienna. Retrieved 2023-09-27.
+6. H.-P. Blume, P. Schad (2015). "90 Years of Soil Classification of the IUSS" (https://web.archi ve.org/web/20180906161731/https://iuss.boku.ac.at/files/iuss126_def_72dpi.pdf) (PDF).
+IUSS Bulletin 126, 38–45. Archived from the original (https://iuss.boku.ac.at/files/iuss126_de f_72dpi.pdf) (PDF) on 2018-09-06. Retrieved 2018-12-09.
+7. Donovan, Alan (1981-08-29). "Guy D. Smith, 73, USDA Soil Expert, Dies" (https://www.wash ingtonpost.com/archive/local/1981/08/29/guy-d-smith-73-usda-soil-expert-dies/962ae425-d6 cb-40c0-af27-c0fcb1700b2d/). Washington Post. ISSN 0190-8286 (https://search.worldcat.o rg/issn/0190-8286). Archived (https://web.archive.org/web/20171115082844/https://www.wa shingtonpost.com/archive/local/1981/08/29/guy-d-smith-73-usda-soil-expert-dies/962ae425- d6cb-40c0-af27-c0fcb1700b2d/) from the original on 2017-11-15. Retrieved 2017-11-15.
+8. "CALS twelve soil orders | University of Idaho" (https://www.uidaho.edu/agricultural-life-scien ces/soil-orders). www.uidaho.edu. Retrieved 2026-02-16.
+9. Warren, C. J., Saurette, D. D., Heck, R. J., & Comeau, L.-P. (2022). Proposed new soil order
+— Leptosolic order for Canadian System of Soil Classification. Canadian Journal of Soil
+Science, 102(3), 733–744. https://doi.org/10.1139/cjss-2021-0186
+10. ISSS-ISRIC-FAO (1998). "World Reference Base for Soil Resources" (http://www.fao.org/do crep/w8594e/w8594e00.HTM). World Soil Resources Reports 84, FAO, Rome. Archived (htt ps://web.archive.org/web/20181216015002/http://www.fao.org/docrep/w8594e/w8594e00.H
+TM) from the original on 2018-12-16. Retrieved 2018-12-13.
+11. G. Tóth, L. Montanarella, V. Stolbovoy, F. Máté, K. Bódis, A. Jones, P. Panagos, M. Van
+Liedekerke (2008). "Soils of the European Union" (https://esdac.jrc.ec.europa.eu/ESDB_Arc hive/eusoils_docs/other/EUR23439.pdf) (PDF). European Commission, Luxembourg.
+12. Soil classification systems (http://forages.oregonstate.edu/is/ssis/main.cfm?PageID=162)
+Archived (https://web.archive.org/web/20060907150151/http://forages.oregonstate.edu/is/ss is/main.cfm?PageID=162) 2006-09-07 at the Wayback Machine. Url last accessed 2006-04-
+13. Hengl, T; et al. (2017). "Global gridded soil information based on machine learning" (https:// www.ncbi.nlm.nih.gov/pmc/articles/PMC5313206). PLOS ONE. 12 (2) e0169748.
+doi:10.1371/journal.pone.0169748 (https://doi.org/10.1371%2Fjournal.pone.0169748).
+PMC 5313206 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5313206). PMID 28207752
+(https://pubmed.ncbi.nlm.nih.gov/28207752).
+14. Certini, G; Scalenghe, R (2019). "Unnamed soils, lost opportunities" (https://doi.org/10.102
+1%2Facs.est.9b03050). Environmental Science & Technology. 53 (15): 8477–8478.
+Bibcode:2019EnST...53.8477C (https://ui.adsabs.harvard.edu/abs/2019EnST...53.8477C).
+doi:10.1021/acs.est.9b03050 (https://doi.org/10.1021%2Facs.est.9b03050).
+PMID 31293149 (https://pubmed.ncbi.nlm.nih.gov/31293149).
+15. "Safety and Health Regulations for Construction Subpart P, Excavations, Appendix A" (http s://www.osha.gov/pls/oshaweb/owadisp.show_document?p_table=STANDARDS&p_id=109
+31). Osha.gov. 9 August 1994. Archived (https://web.archive.org/web/20160305203236/http s://www.osha.gov/pls/oshaweb/owadisp.show_document?p_table=STANDARDS&p_id=109
+31) from the original on 5 March 2016. Retrieved 2015-05-07.
+16. "Safety and Health Regulations for Construction Subpart P, Excavations, Appendix C" (http s://www.osha.gov/pls/oshaweb/owadisp.show_document?p_table=STANDARDS&p_id=109
+33). Osha.gov. 9 August 1994. Archived (https://web.archive.org/web/20170828230854/http s://www.osha.gov/pls/oshaweb/owadisp.show_document?p_table=STANDARDS&p_id=109
+33) from the original on 28 August 2017. Retrieved 2017-08-28.
+17. "Corrugated Sheeting, Tabulated Data" (http://pacificshoring.com/store/media/pdf/corrugated
+-sheeting.pdf) (PDF). Pacific Shoring, LLC. January 1, 2012. Archived (https://web.archive.o rg/web/20160822075112/http://pacificshoring.com/store/media/pdf/corrugated-sheeting.pdf)
+(PDF) from the original on August 22, 2016. Retrieved August 8, 2016.
+18. "Soil classification. - Occupational Safety and Health Administration" (https://www.osha.gov/ pls/oshaweb/owadisp.show_document?p_table=INTERPRETATIONS&p_id=21360).
+www.osha.gov. Archived (https://web.archive.org/web/20160827032637/https://www.osha.g ov/pls/oshaweb/owadisp.show_document?p_table=INTERPRETATIONS&p_id=21360) from the original on 2016-08-27. Retrieved 2016-08-08.
+19. "Sampling and Analytical Methods | Classification of Soils for Excavations, ID-194" (https://w ww.osha.gov/dts/sltc/methods/validated/id194/id194.html). Osha.gov. Archived (https://web.
+archive.org/web/20140319035208/https://www.osha.gov/dts/sltc/methods/validated/id194/id
+194.html) from the original on 2014-03-19. Retrieved 2014-06-11.
+20. "Safety and Health Regulations for Construction Subpart P, Excavations, Appendix B" (http s://www.osha.gov/pls/oshaweb/owadisp.show_document?p_table=STANDARDS&p_id=109
+32). Osha.gov. 9 August 1994. Archived (https://web.archive.org/web/20140715151544/http s://www.osha.gov/pls/oshaweb/owadisp.show_document?p_table=STANDARDS&p_id=109
+32) from the original on 15 July 2014. Retrieved 2014-06-11.
+21. "Soil Classification | Transcript | Occupational Safety and Health Administration" (https://ww w.osha.gov/vtools/construction/soil-testing-fnl-eng-web-transcript). www.osha.gov. Retrieved
+2026-02-16.
+Buol, S.W., Southard, R.J., Graham, R.C., and McDaniel, P.A. (2003). Soil Genesis and
+Classification, 5th Edition. Iowa State Press - Blackwell, Ames, IA.
+Driessen, P., Deckers, J., Spaargaren, O., & Nachtergaele, F. (Eds.). (2001). Lecture notes on the major soils of the world. Rome: FAO.
+W. Zech, P. Schad, G. Hintermaier-Erhard: Soils of the World. Springer, Berlin 2022.
+ISBN 978-3-540-30460-9
+IUSS Working Group WRB: World Reference Base for Soil Resources, fourth edition.
+International Union of Soil Sciences, Vienna 2022. ISBN 979-8-9862451-1-9 ([1] (https://wr b.isric.org/files/WRB_fourth_edition_2022-12-18.pdf)).
+P. Schad: World Reference Base for Soil Resources - Its fourth edition and its history. In:
+Journal of Plant Nutrition and Soil Science 186, 2023, S. 151–163. doi:
+10.1002/jpln.202200417 ([2] (https://onlinelibrary.wiley.com/doi/epdf/10.1002/jpln.20220041
+7)).
+Further reading
+Current international system
+Agriculture Canada Expert Committee on Soil Survey. (1987). The Canadian system of soil classification (2nd ed.). Ottawa: Canadian Government Publishing Centre.
+Avery, B. W. (1980). Soil classification for England and Wales: higher categories. Cranfield,
+England: Cranfield University, Soil Survey & Land Research Centre/National Soil Resources
+Institute.
+Baize, D., & Girard, M. C. (Eds.). (1995). Référentiel pédologique 1995. Paris: Institut
+National de la Recherche Agronomique.
+Baize, D., & Girard, M. C. (Eds.). (1998). A sound reference base for soils: The "Référentiel
+Pédologique" (English translation by Hodgson J.M., Eskenazi N.R., & Baize D. ed.). Paris:
+Institut National de la Recherche Agronomique.
+Baize, D., & Girard, M. C. (Eds.). (2008). Référentiel pédologique, troisième édition.
+Association française pour l'étude du sol (Afes). Versailles, France.
+Hewitt, A. E. (1992). Soil classification in New Zealand: legacy and lessons. Australian
+Journal of Soil Research, 30, 843–854.
+Hewitt, A. E. (2010). New Zealand soil classification, third edition. Manaaki Whenua -
+Landcare Research. Lincoln, Canterbury, New Zealand.
+Isbell, R. F. and the National Committee on Soil and Terrain. (2016). The Australian soil classification, second edition. CSIRO. Clayton South, Victoria, Australia.
+Soil Classification Working Group. (2018). Soil classification: a natural and anthropogenic system for South Africa, third edition. Agricultural Research Council; Institute for Soil,
+Climate and Water. Pretoria, RSA.
+Soil Survey Staff. (1999). Soil taxonomy: a basic system of soil classification for making and interpreting soil surveys (2nd ed.). Washington, DC: US Department of Agriculture Soil
+Conservation Service.
+Technical soil classification systems focus on representing some specific facet or quality of the soil, rather than a direct pedogenetic classification. Such technical classifications are developed with specific applications in mind, such as soil-water relationships, land quality assessment or geotechnical engineering.
+Boorman, D. B., Hollis, J. M., & Lilly, A. (1995). Hydrology of soil types: a hydrologically based classification of the soils of the United Kingdom (No. 126): UK Institute of Hydrology.
+Klingebiel, A. A., & Montgomery, P. H. (1961). Land capability classification. Washington,
+DC: US Government Printing Office.
+Sanchez, P. A., Palm, C. A., & Buol, S. W. (2003). Fertility capability soil classification: a tool to help assess soil quality in the tropics. Geoderma, 114(3–4), 157–185.
+American Society for Testing and Materials, 1985, D 2487–83, Classification of Soils for
+Engineering Purposes: Annual Book of ASTM Standards. Vol. 04.08, pp 395–408.
+Baldwin, M., Kellogg, C. E., & Thorp, J. (1938). Soil classification. In Soils and men:
+Yearbook of agriculture (pp. 979–1001). Washington, DC: U.S. Department of Agriculture.
+Simonson, R. W. (1989). Historical aspects of soil survey and soil classification with emphasis on the United States, 1899–1970. Wageningen, NL: International Soil Reference and Information Centre (ISRIC).
+Current national systems
+Current technical systems
+Earlier systems of historical interest
+Eswaran, H., Rice, T., Ahrens, R., & Stewart, B. A. (Eds.). (2002). Soil classification : a global desk reference. Boca Raton, Fla.: CRC Press.
+Butler, B. E. (1980). Soil classification for soil survey. Oxford: Oxford Science Publications.
+Science, 96,
+Cline, M. G. (1949). Basic principles of soil classification. Soil Science, 67(2), 81–91.
+Cline, M. G. (1963). Logic of the new system of soil classification. Soil 17–22.
+Webster, R. (1968). Fundamental objections to the 7th approximation. Journal of Soil
+Science, 19, 354–366.
+Terzaghi Karl (1924). Soil Mechanics in Engineering Practice, Wiley-Interscience; 3 Sub- edition (January 1996, ISBN 0-471-08658-4) kevin Hart (1923) . founded it
+McBratney, A. B., & de Gruijter, J. J. (1992). A continuum approach to soil classification by modified fuzzy k-means with extragrades. Journal of Soil Science, 43(1), 159–175.
+A Compendium of On-Line Soil Survey Information - Soil Classification for Soil Survey by D.
+G. Rossiter (https://web.archive.org/web/20050302033120/http://www.itc.nl/personal/rossite r/research/rsrch_ss_class.html)
+OSHA Soil Classification (https://www.osha.gov/pls/oshaweb/owadisp.show_document?p_ta ble=STANDARDS&p_id=10931)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Soil_classification&oldid=1340079463"
+Principles
+Numerical classification
+External links

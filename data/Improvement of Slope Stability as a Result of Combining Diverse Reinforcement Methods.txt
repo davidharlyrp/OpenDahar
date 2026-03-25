@@ -2,141 +2,66 @@ IMPROVEMENT OF SLOPE STABILITY AS A RESULT
 OF COMBINING DIVERSE REINFORCEMENT METHODS
 Eugeniusz Koda, Piotr OsiĔski
 Warsaw University of Life Sciences – SGGW
-Abstract. The paper presents several methods of slopes reinforcement using anthropo-
-genic materials, geosynthetics and bio-engineering methods. The case study to be presented 
-proves that complex combination of slope engineering techniques inÀ uences the factor of 
-safety of slopes signi¿ cantly. The reinforcing materials used consisted of tires mattresses, 
-waste material from land¿ ll site, composition of geotextiles, geogrids and vegetation cover. 
-The assessment of applied solution ef¿ ciency was conducted using numerical modeling and 
-long term observations of the reinforced structures. The computation of factor of safety was 
-conducted including all the geotechnical parameters of materials used. Furthermore, the 
-research revealed that application of plants with geotextile and compost underlying signi¿ -
-cantly improved the slope stability conditions. The results of numerical analysis and com-
-prehensive observation con¿ rmed the correctness of combination of the methods applied. 
-The computed factor of safety for bare slopes has signi¿ cantly increased, and basically, no 
-signs of failures were noticed at the site.
+Abstract. The paper presents several methods of slopes reinforcement using anthropo- genic materials, geosynthetics and bio-engineering methods. The case study to be presented proves that complex combination of slope engineering techniques inÀ uences the factor of safety of slopes signi¿ cantly. The reinforcing materials used consisted of tires mattresses, waste material from land¿ ll site, composition of geotextiles, geogrids and vegetation cover.
+The assessment of applied solution ef¿ ciency was conducted using numerical modeling and long term observations of the reinforced structures. The computation of factor of safety was conducted including all the geotechnical parameters of materials used. Furthermore, the research revealed that application of plants with geotextile and compost underlying signi¿ - cantly improved the slope stability conditions. The results of numerical analysis and com- prehensive observation con¿ rmed the correctness of combination of the methods applied.
+The computed factor of safety for bare slopes has signi¿ cantly increased, and basically, no signs of failures were noticed at the site.
 Key words: land¿ ll, slope failure, geotextile, vegetation cover, recycled material
 INTRODUCTION
-A stability of slopes very often becomes one of main problems when considering em-
-bankment type landfills. The reclamation of such sites gives a lot of opportunities for the 
-application of several reinforcement methods including i.e. bio-engineering techniques, uti-
-lization of reused materials or application of geotextiles. During the exploitation of a land-
-fill and its reclamation quite commonly such anthropogenic materials as ballast waste and 
-debris, used tiers mattresses, diluted leachate, fly ash and sewage sludge, all used for the 
-slope stability improvement are utilized [Pisarczyk 2004, Drągowski 2010]. There are also 
-many researches conducted on utilization of waste combustion and power plant by-prod-
-ucts improving the stability of engineering structures [Katsumi et al. 2010, Koda 2012].
+A stability of slopes very often becomes one of main problems when considering em- bankment type landfills. The reclamation of such sites gives a lot of opportunities for the application of several reinforcement methods including i.e. bio-engineering techniques, uti- lization of reused materials or application of geotextiles. During the exploitation of a land- fill and its reclamation quite commonly such anthropogenic materials as ballast waste and debris, used tiers mattresses, diluted leachate, fly ash and sewage sludge, all used for the slope stability improvement are utilized [Pisarczyk 2004, Drągowski 2010]. There are also many researches conducted on utilization of waste combustion and power plant by-prod- ucts improving the stability of engineering structures [Katsumi et al. 2010, Koda 2012].
 Architectura 11 (1) 2012, 3–14
-Corresponding author – Adres do korespondencji: Eugeniusz Koda, Warsaw University of Life 
-Sciences – SGGW, Department of Geotechnical Engineering, 159 Nowoursynowska St., 02-776 
+Corresponding author – Adres do korespondencji: Eugeniusz Koda, Warsaw University of Life
+Sciences – SGGW, Department of Geotechnical Engineering, 159 Nowoursynowska St., 02-776
 Warsaw, e-mail: eugeniusz_koda@sggw.pl
-4                                                                                                                                            E. Koda, P. OsiĔski
+4 E. Koda, P. OsiĔski
 Acta Sci. Pol.
-The paper presents the slope stability improvement of Radiowo landfill located nearby 
-Warsaw. Radiowo landfill is located in the north-western part of Warsaw. Since early 60’s 
-to 1991 it was the place, where municipal waste from all around Warsaw was disposed. 
-Currently, it covers ca. 15 ha area, and exceeds the height of 55 m. Since 1992 only non-
-composted waste from Radiowo compostory plant have been disposed on the landfill. 
-The non-composted waste consists mainly of: plastics, textiles, glass and debris. The 
-organic matter content for this waste is ca. 4%. Central and southern parts of the landfill 
-are filled with old municipal waste (15–40 years), while the upper layers in the north part 
-are filled with fresh non-composted products.
-The combination of above mentioned reinforcement techniques were used for the sta-
-bility improvement of the Radiowo landfill site. The stability reinforcement methods on 
-the landfill consist of berms (constructed with selected waste materials), geogrids and mat-
-tresses made of used tires, and the utilization of slag as a backfill material was also con-
-sidered for this purpose. The compost produced from mixed waste in the compostory plant 
-could be utilized for the capping layer creation on the landfill’s surface, and also could be 
-used as vital layer enhancing the establishment of plants [Gourc and Staub 2010].
+The paper presents the slope stability improvement of Radiowo landfill located nearby
+Warsaw. Radiowo landfill is located in the north-western part of Warsaw. Since early 60’s to 1991 it was the place, where municipal waste from all around Warsaw was disposed.
+Currently, it covers ca. 15 ha area, and exceeds the height of 55 m. Since 1992 only non- composted waste from Radiowo compostory plant have been disposed on the landfill.
+The non-composted waste consists mainly of: plastics, textiles, glass and debris. The organic matter content for this waste is ca. 4%. Central and southern parts of the landfill are filled with old municipal waste (15–40 years), while the upper layers in the north part are filled with fresh non-composted products.
+The combination of above mentioned reinforcement techniques were used for the sta- bility improvement of the Radiowo landfill site. The stability reinforcement methods on the landfill consist of berms (constructed with selected waste materials), geogrids and mat- tresses made of used tires, and the utilization of slag as a backfill material was also con- sidered for this purpose. The compost produced from mixed waste in the compostory plant could be utilized for the capping layer creation on the landfill’s surface, and also could be used as vital layer enhancing the establishment of plants [Gourc and Staub 2010].
 MATERIALS AND METHODS
 Determination of geotechnical parameters of Radiowo landfill
-The subsoil of Radiowo landfill generally consists of cohesive soils. The groundwater 
-level is at the depth of 0–1.0 m. On the basis of CPT and DMT tests, following shear 
-strength parameters for stability analysis were proposed: ĳƍ = 27°, cƍ = 40 kPa (cohesive 
-soils) and ĳƍ = 33° (non-cohesive soils). The investigation of the field’s capacity of waste, 
-i.e. maximum water content without the leachate, was also carried out on Radiowo land-
-fill. The test results were used in the analysis of the water balance for the waste body on 
-the landfills. The in situ tests were conducted to determine the mechanical parameters of 
-waste for stability analysis, settlement prediction and estimation of bearing capacity for 
-road foundation. The shear strength parameters for stability analysis were determined on 
-the basis of waste morphological tests, WST and CPT tests [Manassero et al. 1996] as 
-well as slope failure tests on trial embankments and back analysis of landslides. 
-The main purpose of these tests was to explore the existing landfill entirely, i.e. to 
-determine shear parameters in order to assure safe slope inclination. The investigations 
-consisting of displacement measurements, WST and CPT soundings [Jessberger 1993, 
-Brandl 2008], back analysis (including slope failure tests) were carried out. In the case 
-of Radiowo landfill, morphological composition of waste creates an additional factor 
-influencing mechanical parameters. Organic matter content for non-composted waste is 
-ca. 4%, while for fresh municipal waste it is 40–50% [Koda 2011].
-The WST sounding was generally performed in the vicinity of the main road construct-
-ed on the landfill. The tests have been repeated when 5 m thick layer of waste had been 
-laid. The sounding results are used for the quality control of the road foundation compac-
-tion. The average amount of N20 for fresh waste was approximately 10, but for old waste 
-– locally of approximately 5. The amount of N20 increases twice, when disposed waste 
-was separated with sand layers. The results of in situ tests are presented in Figure 1.
-Improvement of slope stability as a result of combining diverse... 
-5
+The subsoil of Radiowo landfill generally consists of cohesive soils. The groundwater level is at the depth of 0–1.0 m. On the basis of CPT and DMT tests, following shear strength parameters for stability analysis were proposed: ĳƍ = 27°, cƍ = 40 kPa (cohesive soils) and ĳƍ = 33° (non-cohesive soils). The investigation of the field’s capacity of waste, i.e. maximum water content without the leachate, was also carried out on Radiowo land- fill. The test results were used in the analysis of the water balance for the waste body on the landfills. The in situ tests were conducted to determine the mechanical parameters of waste for stability analysis, settlement prediction and estimation of bearing capacity for road foundation. The shear strength parameters for stability analysis were determined on the basis of waste morphological tests, WST and CPT tests [Manassero et al. 1996] as well as slope failure tests on trial embankments and back analysis of landslides.
+The main purpose of these tests was to explore the existing landfill entirely, i.e. to determine shear parameters in order to assure safe slope inclination. The investigations consisting of displacement measurements, WST and CPT soundings [Jessberger 1993,
+Brandl 2008], back analysis (including slope failure tests) were carried out. In the case of Radiowo landfill, morphological composition of waste creates an additional factor influencing mechanical parameters. Organic matter content for non-composted waste is ca. 4%, while for fresh municipal waste it is 40–50% [Koda 2011].
+The WST sounding was generally performed in the vicinity of the main road construct- ed on the landfill. The tests have been repeated when 5 m thick layer of waste had been laid. The sounding results are used for the quality control of the road foundation compac- tion. The average amount of N20 for fresh waste was approximately 10, but for old waste
+– locally of approximately 5. The amount of N20 increases twice, when disposed waste was separated with sand layers. The results of in situ tests are presented in Figure 1.
+Improvement of slope stability as a result of combining diverse...
 Architectura 11 (1) 2012
-The CPT soundings in Radiowo were carried out in the northern part of the landfill, 
-to the depth of approximately 25 m (Fig. 2). The CPT tests interpretation procedures, 
-widely used for the evaluation of shear parameters for soils, were adopted for waste. The 
-effective internal friction angle for waste was reached within the range of ĳƍ = 25–45°, 
-with local values ĳƍ = 20–25°. These values were received after having considered waste 
-as non-cohesive soils. Test results confirm the existence of waste cohesion. The CPT 
-test interpretation for waste, analogically to cohesive soils, gave total shear strength of 
+The CPT soundings in Radiowo were carried out in the northern part of the landfill, to the depth of approximately 25 m (Fig. 2). The CPT tests interpretation procedures, widely used for the evaluation of shear parameters for soils, were adopted for waste. The effective internal friction angle for waste was reached within the range of ĳƍ = 25–45°, with local values ĳƍ = 20–25°. These values were received after having considered waste as non-cohesive soils. Test results confirm the existence of waste cohesion. The CPT test interpretation for waste, analogically to cohesive soils, gave total shear strength of
 Ĳfu = 80 kPa for non-composted and Ĳfu = 90 kPa for municipal wastes.
 Cone resistance, qc [MPa]
-Opór stożka
-odpady niezagęszczone
-odpady  stare
+Opór stożka odpady niezagęszczone odpady stare
 Depth [m]
-Głębokość
-grunt
+Głębokość grunt
 Side friction resistance, fS [MPa]
 Tarcie na tulei
 Profile
 Profiles
-Fig. 2. 
+Fig. 2.
 The example of CPT test results for Radiowo land¿ ll
-Rys. 2. 
-Przykáad wyników sondowania CPT na skáadowisku Radiowo
-a) layers
-warstwy
-b) fresh waste
-    odpady świeże
-c) old waste
-    odpady stare
+Rys. 2.
+Przykáad wyników sondowania CPT na skáadowisku Radiowo a) layers warstwy b) fresh waste odpady świeże c) old waste odpady stare
 Depth [m]
-Głębokość
-waste/odpady (0.7 m)
-sand/piasek (0.3 m)
+Głębokość waste/odpady (0.7 m) sand/piasek (0.3 m)
 N20
 N20
 N20
-Fig. 1. 
+Fig. 1.
 The example of WST test results for different waste on the land¿ ll
-Rys. 1. 
+Rys. 1.
 Przykáadowe wyniki sondowaĔ WST dla róĪnych odpadów na skáadowisku
-6                                                                                                                                            E. Koda, P. OsiĔski
+6 E. Koda, P. OsiĔski
 Acta Sci. Pol.
-The shear strength parameters of waste used in calculation were obtained from back 
-analyses of previously occurred failures and from the trial loading of the experimental 
-embankment (Fig. 3).
-Fig. 3. 
-Trial loading of the experimental embankment constructed on Radiowo land¿ ll [Koda 
+The shear strength parameters of waste used in calculation were obtained from back analyses of previously occurred failures and from the trial loading of the experimental embankment (Fig. 3).
+Fig. 3.
+Trial loading of the experimental embankment constructed on Radiowo land¿ ll [Koda
 2011]
-Rys. 3. 
+Rys. 3.
 ObciąĪenia próbne nasypu doĞwiadczalnego na skáadowisku Radiowo [Koda 2011]
 Numerical stability analyses of Radiowo land¿ ll slopes
 The back-stability analysis by the Bishop (GEO-SLOPE program) and FEM
-(Z-SOIL program) methods were performed for three chosen cross-sections of Radi-
-owo landfill and was applied for shear strength parameters verification (Fig. 4). The 
-analysis for cross-section A-A, where the landslide occurred in 1991, is of particular 
-importance. The failure surface was confirmed by the CPT tests. The results of calcula-
-tion indicated that the surface of sliding was almost circle (Fig. 5). Slope inclination of 
-the landfill just before the failure was 1:1.1, and its height was 46 m. Calculations with 
-a classical method confirmed the results obtained by FEM Similar results achieved for 
-stable slopes (Table 1).
+(Z-SOIL program) methods were performed for three chosen cross-sections of Radi- owo landfill and was applied for shear strength parameters verification (Fig. 4). The analysis for cross-section A-A, where the landslide occurred in 1991, is of particular importance. The failure surface was confirmed by the CPT tests. The results of calcula- tion indicated that the surface of sliding was almost circle (Fig. 5). Slope inclination of the landfill just before the failure was 1:1.1, and its height was 46 m. Calculations with a classical method confirmed the results obtained by FEM Similar results achieved for stable slopes (Table 1).
 Table 1. Stability factors from back-analysis of slopes on Radiowo land¿ ll
 Tabela 1. Wspóáczynniki statecznoĞci skarp skáadowiska Radiowo metodą analizy wstecznej
 Cross-section
@@ -168,103 +93,52 @@ Bishop
 FEM
 Stable slope
 Skarpa stabilna
-Improvement of slope stability as a result of combining diverse... 
-7
+Improvement of slope stability as a result of combining diverse...
 Architectura 11 (1) 2012
-Fig. 4. 
+Fig. 4.
 Cross-sections for the back – and stability analysis on Radiowo land¿ ll
-Rys. 4. 
+Rys. 4.
 Przekroje wytypowane do analizy wstecznej skarp skáadowiska Radiowo
 C
 C
 A
-A
-2
-2
-6
-6
-design bike path
-ścieżka rowerowa 
-cut-off wall
-przesłona przeciwfiltracyjna
-zone of retential capacity
-strefa  pojemności polowej 
-pomp station
-pompownia 
-CPT sounding
-sondowania CPT 
-WST sounding
-sondowania WST 
-cross section for slop analysis
-przekroje do analizy
-stateczności skarp  
+A design bike path ścieżka rowerowa cut-off wall przesłona przeciwfiltracyjna zone of retential capacity strefa pojemności polowej pomp station pompownia
+CPT sounding sondowania CPT
+WST sounding sondowania WST cross section for slop analysis przekroje do analizy stateczności skarp
 B
 LEGEND
-8                                                                                                                                            E. Koda, P. OsiĔski
+8 E. Koda, P. OsiĔski
 Acta Sci. Pol.
-In the case of Radiowo landfill, the morphological composition of waste creates an 
-additional factor influencing mechanical parameters. The results of back-analysis con-
-firmed the proper choice of shear waste parameters as well as the possibility of uses of 
-both classical and FEM methods for stability landfill design. Next steps of calculation 
-were carried out for the design of slope reinforcement and formation of the landfill sur-
-face.
+In the case of Radiowo landfill, the morphological composition of waste creates an additional factor influencing mechanical parameters. The results of back-analysis con- firmed the proper choice of shear waste parameters as well as the possibility of uses of both classical and FEM methods for stability landfill design. Next steps of calculation were carried out for the design of slope reinforcement and formation of the landfill sur- face.
 RESULTS
-Land¿ ll slopes reinforcement with the use of anthropogenic materials
-and bio-engineering method
-It is highly recommended that the inclination of the landfill slope should fall in the 
-range of 1 : 3 – 1.2.5. Such conditions assure the stability of slopes and allow efficient 
-implementation of the vegetation cover on the surface [Koda et al. 2012].
-In cases when the slope failure is very likely to occur, it is recommended to undertake 
-activities improving the stability [Fang 1993, Santos et al. 2010]. Most commonly applied 
-solutions in such cases are:
-í decrease of slope inclination (if there is enough space at the embankment toe),
-í retaining wall, gabions or berms,
-í reinforcement materials such as geosynthetics, horizontal reinforcement.
-Fig. 5. 
+Land¿ ll slopes reinforcement with the use of anthropogenic materials and bio-engineering method
+It is highly recommended that the inclination of the landfill slope should fall in the range of 1 : 3 – 1.2.5. Such conditions assure the stability of slopes and allow efficient implementation of the vegetation cover on the surface [Koda et al. 2012].
+In cases when the slope failure is very likely to occur, it is recommended to undertake activities improving the stability [Fang 1993, Santos et al. 2010]. Most commonly applied solutions in such cases are:
+í decrease of slope inclination (if there is enough space at the embankment toe), í retaining wall, gabions or berms, í reinforcement materials such as geosynthetics, horizontal reinforcement.
+Fig. 5.
 Back-analysis of landslide in Radiowo land¿ ll by Bishop method (Slope/W program)
-Rys. 5. 
-Analiza wsteczna osuwiska na skáadowisku Radiowo metodą Bishopa (program Slope/W)
-przekrój przez 
-skáadowisko 
-odpady stare 
-odpady stare 
+Rys. 5.
+Analiza wsteczna osuwiska na skáadowisku Radiowo metodą Bishopa (program Slope/W) przekrój przez skáadowisko odpady stare odpady stare
 Distance [m]
 OdlegáoĞü
 Elevation [m]
 WysokoĞü
-Improvement of slope stability as a result of combining diverse... 
-9
+Improvement of slope stability as a result of combining diverse...
 Architectura 11 (1) 2012
-The example of utilisation of waste materials, as a reinforcement solution is pre-
-sented for the Radiowo landfill site. The site boarders with a railway siding at west, and 
-additionally in the close vicinity of the slope’s toe there is also a gas pipeline installed. 
-The initial inclination of 60 m high slope was 1 : 2.8, what made the slope potentially 
-unstable. As the surrounding area was very limited, the reinforcement of the slope con-
-sisted of berm, and the higher part was reinforced with PE geogrid, and additionally 
-three layers of used tires mattresses were build in, the scheme of construction is pre-
-sented in Figures 6 and 7. The computations assuring the effectiveness of such solution 
-are presented in Figure 8. 
- 
-schem at  á ączenia opon
-m at erace z opon
-geosiat ka
-odpady
-podá oĪe
-kom post
-grunt  spoist y
-t ory
-droga t echn.
-nasyp
-dociąĪając y
-Fig. 6. 
+The example of utilisation of waste materials, as a reinforcement solution is pre- sented for the Radiowo landfill site. The site boarders with a railway siding at west, and additionally in the close vicinity of the slope’s toe there is also a gas pipeline installed.
+The initial inclination of 60 m high slope was 1 : 2.8, what made the slope potentially unstable. As the surrounding area was very limited, the reinforcement of the slope con- sisted of berm, and the higher part was reinforced with PE geogrid, and additionally three layers of used tires mattresses were build in, the scheme of construction is pre- sented in Figures 6 and 7. The computations assuring the effectiveness of such solution are presented in Figure 8.
+
+schem at á ączenia opon m at erace z opon geosiat ka odpady podá oĪe kom post grunt spoist y t ory droga t echn.
+nasyp dociąĪając y
+Fig. 6.
 Cross-section of the analysed reinforced slope at Radiowo land¿ ll [Koda 2012]
-Rys. 6. 
+Rys. 6.
 Przekrój przez wzmocnioną skarpĊ skáadowiska Radiowo [Koda 2012]
-Fig. 7. 
+Fig. 7.
 Construction of the used tires mattresses layers on Radiowo land¿ ll [Koda 2012]
-Rys. 7. 
+Rys. 7.
 Konstrukcja warstwy materacy ze zuĪytych opon na skáadowisku Radiowo [Koda 2012]
-10                                                                                                                                            E. Koda, P. OsiĔski
+10 E. Koda, P. OsiĔski
 Acta Sci. Pol.
 .
 .
@@ -281,237 +155,137 @@ Acta Sci. Pol.
 140.
 Z_SOIL v.4.23
 PROJECT : rad-dr2a
-DATE : 1999-02-26  h. 14:14:13
-t-ref.=0.
+DATE : 1999-02-26 h. 14:14:13 t-ref.=0.
 t = 0.
 Safety=1.41
 DISPLACEMENT-ABS
- 0
 0.
- 14.99e+001
- 29.99e+001
- 31.49e+002
- 41.99e+002
- 52.49e+002
- 62.99e+002
- 73.49e+002
- 83.99e+002
- 94.49e+002
+14.99e+001
+29.99e+001
+31.49e+002
+41.99e+002
+52.49e+002
+62.99e+002
+73.49e+002
+83.99e+002
+94.49e+002
 104.99e+002
-Fig. 8. 
+Fig. 8.
 Stability analysis of the western slope of Radiowo land¿ ll with FEM [Koda 2011]
-Rys. 8. 
+Rys. 8.
 Analiza statecznoĞci zachodniej skarpy skáadowiska Radiowo metodą MES [Koda 2011]
-The construction of berm (Fig. 9) allowed gaining additional space for the further waste 
-disposal, which occurred to be a crucial advantage according to a huge problem of the 
-waste management in Warsaw at the time. Within an actual construction plan of the land-
-fill the amount of waste to be disposed at the site (ballast waste, slag, ash) is 450,000 Mg, 
-and the waste to be reused (debris, ceramic waste, soil, compost, winning) is 300,000 Mg.
-Fig. 9. 
+The construction of berm (Fig. 9) allowed gaining additional space for the further waste disposal, which occurred to be a crucial advantage according to a huge problem of the waste management in Warsaw at the time. Within an actual construction plan of the land- fill the amount of waste to be disposed at the site (ballast waste, slag, ash) is 450,000 Mg, and the waste to be reused (debris, ceramic waste, soil, compost, winning) is 300,000 Mg.
+Fig. 9.
 The scheme of the berm construction with stability analysis
-Rys. 9. 
-Schemat konstrukcji nasypu dociąĪającego wraz z analizą statecznoĞci
-compost
-clay
-waste
-sand
-sand
-compacted
-clay
-Soil to be
-removed
+Rys. 9.
+Schemat konstrukcji nasypu dociąĪającego wraz z analizą statecznoĞci compost clay waste sand sand compacted clay
+Soil to be removed
 Scheme of berm construction
-160
-171
-146
-130
 111.6
-"A"
-technological
-plane
-technological
-plane
-technological
-plane
-półka technologiczna
+"A" technological plane technological plane technological plane półka technologiczna
 Konstrukcja nasypu dociążającego
-Nasyp dociążający (odpady, grunt, gruz) 
-Improvement of slope stability as a result of combining diverse... 
-11
+Nasyp dociążający (odpady, grunt, gruz)
+Improvement of slope stability as a result of combining diverse...
 Architectura 11 (1) 2012
-Beyond the technical activities for the slope stability improvement purpose on the 
-Radiowo landfill, there were also bio-engineering techniques applied with additional use 
-of geosythetics. By using the Slip4Ex spreadsheet [Greenwood 2006], it is possible to 
-assess how the distribution and type of vegetation can influences the Factor of Safety. 
-In the present study slopes, where the vegetation cover was applied, have been assessed 
-to see whether implementation of plants affected the resulting stability significantly. In 
-Slip4EX the Factor of Safety can be calculated by using several equations developed 
-by Greenwood, however in this study the Greenwood General Method was used, as it 
-presents similar characteristics to other methods used in this study. For the purpose of 
-enhancing FOS, some parts of slopes where cover with trees, bushes, and grass. For those 
-slopes additional computation have been conducted and the results presented in Table 2. 
-The research proved that vegetation establishment has increased the factor of safety by as 
-much as 20%. The overall scheme of FOS computation with the use of numerical mod-
-eling is presented in Figure 10.
+Beyond the technical activities for the slope stability improvement purpose on the
+Radiowo landfill, there were also bio-engineering techniques applied with additional use of geosythetics. By using the Slip4Ex spreadsheet [Greenwood 2006], it is possible to assess how the distribution and type of vegetation can influences the Factor of Safety.
+In the present study slopes, where the vegetation cover was applied, have been assessed to see whether implementation of plants affected the resulting stability significantly. In
+Slip4EX the Factor of Safety can be calculated by using several equations developed by Greenwood, however in this study the Greenwood General Method was used, as it presents similar characteristics to other methods used in this study. For the purpose of enhancing FOS, some parts of slopes where cover with trees, bushes, and grass. For those slopes additional computation have been conducted and the results presented in Table 2.
+The research proved that vegetation establishment has increased the factor of safety by as much as 20%. The overall scheme of FOS computation with the use of numerical mod- eling is presented in Figure 10.
 Fig. 10. The inÀ uence of the vegetation cover on slope stability [OsiĔski 2012]
-Rys. 10. Wpáyw okrywy roĞlinnej na statecznoĞü skarpy [OsiĔski 2010]
-okrywa roĞlinna
+Rys. 10. Wpáyw okrywy roĞlinnej na statecznoĞü skarpy [OsiĔski 2010] okrywa roĞlinna
 Distance [m]
 OdlegáoĞü
 Elevation [m]
 WysokoĞü
-For the confirmation of a reliability of the solutions presented in the paper Table 2 is 
-provided, where the statement and comparison of factors of safety for landfill slopes be-
-fore the introduction of reclamation activities and afterwards results are presented. Con-
-struction of berms seems to be the most effective method of the stability improvement of 
-old landfills, however it needs the extension of the landfill in its close vicinity. The tire 
-mattresses seem to be a cheap and effective method of the slope stability reinforcement 
-in the landfill conditions. The stability factors of slope obtained from FEM method are 
-a little higher than from classical methods. In the case of classical methods, it should be 
-considered whether circle surface of sliding is suitable for a real failure mechanism.
-12                                                                                                                                            E. Koda, P. OsiĔski
+For the confirmation of a reliability of the solutions presented in the paper Table 2 is provided, where the statement and comparison of factors of safety for landfill slopes be- fore the introduction of reclamation activities and afterwards results are presented. Con- struction of berms seems to be the most effective method of the stability improvement of old landfills, however it needs the extension of the landfill in its close vicinity. The tire mattresses seem to be a cheap and effective method of the slope stability reinforcement in the landfill conditions. The stability factors of slope obtained from FEM method are a little higher than from classical methods. In the case of classical methods, it should be considered whether circle surface of sliding is suitable for a real failure mechanism.
+12 E. Koda, P. OsiĔski
 Acta Sci. Pol.
-Table 2. The results of the stability analysis for the Radiowo site acc. to Bishop, FEM and Green-
-wood methods
+Table 2. The results of the stability analysis for the Radiowo site acc. to Bishop, FEM and Green- wood methods
 Tabela 2. Wyniki analizy statecznoĞci Radiowa metodami Bishopa, MES, Greenwood
 Slope Cross-
 Section
-Przekrój 
-skarpy
-FOS without 
-reinforcement
-Wspóáczynnik 
-statecznoĞci
-bez wzmocnieĔ
+Przekrój skarpy
+FOS without reinforcement
+Wspóáczynnik statecznoĞci bez wzmocnieĔ
 Reinforcements
 Wzmocnienia
-FOS with
-reinforcement
-Wspóáczynnik 
-statecznoĞü 
-z wzmocnieniami
-FOS
-with plants
-Wspóáczynnik 
-statecznoĞü 
-dla okrywy 
-roĞlinnej
+FOS with reinforcement
+Wspóáczynnik statecznoĞü z wzmocnieniami
+FOS with plants
+Wspóáczynnik statecznoĞü dla okrywy roĞlinnej
 Bishop
 FEM
 Bishop
 FEM
 Greenwood
-Western – I 
+Western – I
 Zachodni
 1.04
 1.13
-Berm (nasyp 
-dociąĪający), 
-tyre mattress 
-(materac 
-z opon),
-geogrid 
+Berm (nasyp dociąĪający), tyre mattress
+(materac z opon), geogrid
 (geosiatka)
 1.40
 1.42
 1.52
-Northern – III 
+Northern – III
 Pólnocny
 1.03
 1.11
-Inclination 
-change
-(zmiana 
-nachyleĔ),
-geogrid
+Inclination change
+(zmiana nachyleĔ), geogrid
 (geosiatka)
 1.68
 1.75
 1.84
-Ekstern – IV 
+Ekstern – IV
 Wschodni
 1.18
 1.23
 Berm
-(nasyp 
-dociąĪający)
+(nasyp dociąĪający)
 1.57
 1.62
 1.78
 CONCLUSIONS
-The reclamation of old sanitary landfills is a long term process, and it often requires 
-complex and unusual technical and biological activities to be applied. The solutions pre-
-sented in the paper show the variety of techniques and materials that could be used for the 
-purpose of slope stability improvement, which is a crucial element in reclamation process 
-of embankment type landfills.
-The most appropriate slope stability improvement method for landfills is berms con-
-struction filled with ballast waste, debris and soil residues from a landfill. This kind of 
-solution helps gaining additional space for the further waste storage and often becomes 
-alternative for the waste management plan at the site. As the example showed utilisation 
-of used tires mattresses could also be an effective method of the slope reinforcement. Fur-
-thermore, other waste material like compost could be a great substitute of humus for the 
-surface reclamation layer establishment. It is also very useful material when considering 
-The bio-engineering method which was successfully used for the natural reinforcement 
-of slopes which positively influences also the erosion control on slopes, a factor directly 
-driving to stability failures. 
-To sum up all the techniques combined together allowed achieving the required effect 
-of the Radiowo landfill slopes stability improvement.
-Improvement of slope stability as a result of combining diverse... 
-13
+The reclamation of old sanitary landfills is a long term process, and it often requires complex and unusual technical and biological activities to be applied. The solutions pre- sented in the paper show the variety of techniques and materials that could be used for the purpose of slope stability improvement, which is a crucial element in reclamation process of embankment type landfills.
+The most appropriate slope stability improvement method for landfills is berms con- struction filled with ballast waste, debris and soil residues from a landfill. This kind of solution helps gaining additional space for the further waste storage and often becomes alternative for the waste management plan at the site. As the example showed utilisation of used tires mattresses could also be an effective method of the slope reinforcement. Fur- thermore, other waste material like compost could be a great substitute of humus for the surface reclamation layer establishment. It is also very useful material when considering
+The bio-engineering method which was successfully used for the natural reinforcement of slopes which positively influences also the erosion control on slopes, a factor directly driving to stability failures.
+To sum up all the techniques combined together allowed achieving the required effect of the Radiowo landfill slopes stability improvement.
+Improvement of slope stability as a result of combining diverse...
 Architectura 11 (1) 2012
 REFERENCES
-Brandl H., 2008. Environmental geotechnical engineering of land¿ lls and contaminated land. Proc. 
+Brandl H., 2008. Environmental geotechnical engineering of land¿ lls and contaminated land. Proc.
 11th Baltic Sea Geotech. Conf. Geotech. Maritime Eng., GdaĔsk, 2, 803–826.
-Drągowski A., 2010. Characteristics and classi¿ cation of anthropogenic soils. Przeg. Geolog. 58, 
+Drągowski A., 2010. Characteristics and classi¿ cation of anthropogenic soils. Przeg. Geolog. 58,
 9/2, 868–872 [in Polish].
-Fang H.Y., 1993. Engineering behaviour of urban refuse, compaction and slope stability analysis 
-of land¿ ll. General Report GREEN ’93. Proceedings of the International Symposium on 
+Fang H.Y., 1993. Engineering behaviour of urban refuse, compaction and slope stability analysis of land¿ ll. General Report GREEN ’93. Proceedings of the International Symposium on
 Geotechnics Related to the Environment. Waste Disposal by Land¿ ll, Bolton, 47–72.
-Gourc J.P., Staub M.J., 2010. Bio-hydro behavior of MSW (Municipal Solid Waste) and the im-
-provement of land¿ ll environmental sustainability. Proceedings of the 6th International 
+Gourc J.P., Staub M.J., 2010. Bio-hydro behavior of MSW (Municipal Solid Waste) and the im- provement of land¿ ll environmental sustainability. Proceedings of the 6th International
 Congress on Environmental Geotechnics, New Delhi, 1, 24–39.
-Grif¿ ths D.V., Lane P.A., 1999. Slope stability analysis by ¿ nite elements. Geotechnique 49, 3, 
+Grif¿ ths D.V., Lane P.A., 1999. Slope stability analysis by ¿ nite elements. Geotechnique 49, 3,
 387–403.
-Jessberger H.J., 1993. Geotechnics of Land¿ lls Design and Remedial Works – Technical Recomen-
-dations GLR. Ernst & Sohn, Berlin.
-Katsumi T., Inui T., Kamon M., 2010. Sustainable geotechnics for reuse of by-products. Proc. 6th 
+Jessberger H.J., 1993. Geotechnics of Land¿ lls Design and Remedial Works – Technical Recomen- dations GLR. Ernst & Sohn, Berlin.
+Katsumi T., Inui T., Kamon M., 2010. Sustainable geotechnics for reuse of by-products. Proc. 6th
 Inter. Congress Env. Geotech., 1, New Delhi, 302–317.
-Koda E., 2011. Stability and pollutant transport from remediated land¿ lls with the use of Observa-
-tional Method. Wydawnictwo SGGW, Warsaw [in Polish].
-Koda E., 2012. Wykorzystanie materiaáów antropogenicznych do rekultywacji skáadowisk od-
-padów. InĪ. Mor. Geotech. 4, 451–456.
-Koda E., OsiĔski P., GáaĪewski M., 2012. Use of À y-ash and sewage sludge for the erosion control 
-on sanitary land¿ ll slopes. Proc. GeoCongress 2012, State of the Art and Practice in Geo-
-technical Engineering. ASCE 225, Oakland, 8828–8836.
-Manassero M., Van Impe W.F., Bouazza A., 1996. Geotechnical properties of MSW. Proc. 2nd Inter. 
+Koda E., 2011. Stability and pollutant transport from remediated land¿ lls with the use of Observa- tional Method. Wydawnictwo SGGW, Warsaw [in Polish].
+Koda E., 2012. Wykorzystanie materiaáów antropogenicznych do rekultywacji skáadowisk od- padów. InĪ. Mor. Geotech. 4, 451–456.
+Koda E., OsiĔski P., GáaĪewski M., 2012. Use of À y-ash and sewage sludge for the erosion control on sanitary land¿ ll slopes. Proc. GeoCongress 2012, State of the Art and Practice in Geo- technical Engineering. ASCE 225, Oakland, 8828–8836.
+Manassero M., Van Impe W.F., Bouazza A., 1996. Geotechnical properties of MSW. Proc. 2nd Inter.
 Congress Env. Geotech., Osaka III, 1425–1474.
-Pisarczyk S., 2004. Anthropogenic soils. Geotechnical parameters and investigation. O¿ cyna Wy-
-dawnicza Politechniki Warszawskiej, Warsaw [in Polish].
+Pisarczyk S., 2004. Anthropogenic soils. Geotechnical parameters and investigation. O¿ cyna Wy- dawnicza Politechniki Warszawskiej, Warsaw [in Polish].
 OsiĔski P., 2012. Ocena statecznoĞci skarp maáych budowli ziemnych. InĪ. Mor. Geotech. 4, 478–
 –473.
-Santos E.C.G., Vilar O.M., Palmeira E.M., 2010. The Use of Recycled Construction and Demolition 
-Waste in Geosynthetic Reinforced Soil Structures: InÀ uence of the Recycling  Process. 
+Santos E.C.G., Vilar O.M., Palmeira E.M., 2010. The Use of Recycled Construction and Demolition
+Waste in Geosynthetic Reinforced Soil Structures: InÀ uence of the Recycling Process.
 Proc. 6th Inter. Congress Env. Geotech., New Delhi, 1, 1105–1108.
-POPRAWA STATECZNOĝCI SKARP JAKO WYNIK ZASTOSOWANIA 
+POPRAWA STATECZNOĝCI SKARP JAKO WYNIK ZASTOSOWANIA
 ZRÓĩNICOWANYCH METOD WZMOCNIENIA
-Streszczenie. Artykuá przedstawia zastosowanie zróĪnicowanych metod wzmocnienia 
-skarp skáadowiska Radiowo przy uĪyciu materiaáów antropogenicznych, geosyntetyków 
-oraz metod bioinĪynierii. Zaprezentowany w artykule przykáad dowodzi, iĪ kombinacja 
-zbrojenia oraz ksztaátowania skarp znacząco poprawia wspóáczynnik statecznoĞci ogólnej. 
-Materiaáy zastosowane w celu wzmocnienia skarp skáadaáy siĊ z materacy, zuĪytych opon, 
-odpadów ze skáadowiska, materiaáów geosyntetycznych, geosiatek oraz technik bioinĪy-
-nierskich. Ocena efektywnoĞci zastosowanych rozwiązaĔ zostaáa przeprowadzona na dro-
-dze modelowania numerycznego oraz dáugotrwaáych obserwacji terenowych wzmocnionej 
-konstrukcji. Obliczenia numeryczne przeprowadzono przy uwzglĊdnieniu wymaganych 
-parametrów geotechnicznych zastosowanych materiaáów. Ponadto badanie dowiodáo, iĪ za-
-stosowanie okrywy roĞlinnej wyĞcielonej materiaáem kompostowym znacząco poprawiáo 
-14                                                                                                                                            E. Koda, P. OsiĔski
+Streszczenie. Artykuá przedstawia zastosowanie zróĪnicowanych metod wzmocnienia skarp skáadowiska Radiowo przy uĪyciu materiaáów antropogenicznych, geosyntetyków oraz metod bioinĪynierii. Zaprezentowany w artykule przykáad dowodzi, iĪ kombinacja zbrojenia oraz ksztaátowania skarp znacząco poprawia wspóáczynnik statecznoĞci ogólnej.
+Materiaáy zastosowane w celu wzmocnienia skarp skáadaáy siĊ z materacy, zuĪytych opon, odpadów ze skáadowiska, materiaáów geosyntetycznych, geosiatek oraz technik bioinĪy- nierskich. Ocena efektywnoĞci zastosowanych rozwiązaĔ zostaáa przeprowadzona na dro- dze modelowania numerycznego oraz dáugotrwaáych obserwacji terenowych wzmocnionej konstrukcji. Obliczenia numeryczne przeprowadzono przy uwzglĊdnieniu wymaganych parametrów geotechnicznych zastosowanych materiaáów. Ponadto badanie dowiodáo, iĪ za- stosowanie okrywy roĞlinnej wyĞcielonej materiaáem kompostowym znacząco poprawiáo
+14 E. Koda, P. OsiĔski
 Acta Sci. Pol.
-warunki statecznoĞci skarp rozpatrywanego obiektu. Wyniki analiz numerycznych oraz ob-
-serwacje terenowe dowiodáy poprawnoĞci zastosowanych rozwiązaĔ, gdyĪ wspóáczynnik 
-statecznoĞü ogólnej skarp wzmocnionych znacząco poprawiá siĊ w stosunku do warunków 
-bez zbrojenia, a Īadne oznaki utraty statecznoĞci obiektu nie zostaáy do tej pory zaobser-
-wowane.
-Sáowa kluczowe: skáadowisko, osuwisko, geosyntetyki, okrywa roĞlinna, materiaáy odpa-
-dowe
+warunki statecznoĞci skarp rozpatrywanego obiektu. Wyniki analiz numerycznych oraz ob- serwacje terenowe dowiodáy poprawnoĞci zastosowanych rozwiązaĔ, gdyĪ wspóáczynnik statecznoĞü ogólnej skarp wzmocnionych znacząco poprawiá siĊ w stosunku do warunków bez zbrojenia, a Īadne oznaki utraty statecznoĞci obiektu nie zostaáy do tej pory zaobser- wowane.
+Sáowa kluczowe: skáadowisko, osuwisko, geosyntetyki, okrywa roĞlinna, materiaáy odpa- dowe
 Accepted for print – Zaakceptowano do druku: 17.12.2012

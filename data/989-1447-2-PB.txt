@@ -1,914 +1,621 @@
-Reka Racana                 
- 
+Reka Racana
+
 © Jurusan Teknik Sipil Itenas | Vol.
- 
- 
-2
- 
+
 | No.
- 
- 
-1
- 
-Jurnal Online Institut Teknologi Nasional 
-                 
- 
-        
-  Maret 2016 
+
+Jurnal Online Institut Teknologi Nasional
+
+Maret 2016
 Reka Racana -
-07
-1
- 
- 
-Pemodelan Numerik Pada Perbaikan Tanah 
-Menggunakan Stone Column Di Tanah 
-Lempung Lunak Di Bawah Tanah Timbunan  
- 
-ISKANDAR, FAUZIAH FITRIANI1, HAMDHAN, INDRA NOER2 
-1Mahasiswa, Jurusan Teknik Sipil, Fakultas Teknik Sipil dan Perencanaan 
-Institut Teknologi Nasional 
-2Dosen, Jurusan Teknik Sipil, Fakultas Teknik Sipil dan Perencanaan 
-Institut Teknologi Nasional 
-Email : fauziahfitrianiuji@gmail.com 
- 
-ABSTRAK 
- 
-Tanah lempung lunak memiliki sifat gaya geser tanah yang kecil, kompresibilitas 
-yang sangat besar, koefisien permeabilitas yang kecil dan mempunyai daya 
-dukung rendah. Agar tanah lempung lunak dapat digunakan sebagai tanah dasar 
-dari timbunan, maka perbaikan tanah diperlukan. Salah satu perbaikan tanah 
-untuk tanah lempung lunak yaitu stone column. Stone column merupakan 
-kolom-kolom vertikal dari material kerikil. Analisis yang dilakukan menggunakan 
-program PLAXIS 2D AE dengan model Axisymmetric. Analisis yang dilakukan 
-dengan memvariasikan jarak antar stone column dan diameter stone column. 
-Kedua variasi ini menggunakan pengaruh smear zone dan tanpa smear zone. 
-Variasi jarak antar stone column yang digunakan yaitu 2 m, 3 m dan 4 m dan 
-variasi diameter stone column menggunakan diameter 40 cm, 70 cm dan 100 
-cm. Hasil analisis menunjukan adanya pengurangan penurunan hingga 80% dan 
-pengurangan waktu hingga 2367 hari. 
-Kata Kunci : Tanah Lempung Lunak, Stone Column, Smear Zone, Axisymmetric, 
-penurunan, PLAXIS 2D AE 
- 
-ABSTRACT 
- 
-Soft clay is characterized by low shear strength, a high compressibility, a low 
-coeffiecient of permeability and a low bearing capacity. Soft soil as subgrade of 
-embankment must be improved using soil improvement. One of soil 
-improvement methods for soft clay soil is stone column. Stone column is a 
-vertical column with gravel material. The Analysis of stone column for soil 
-improvement used PLAXIS 2D AE and Axisymmetric model. The analysis was did 
-by two variation, The variation of spacing between stone column and diameter 
-stone column used in this analysis. Effect smear zone and without smear zone 
-are considered. 
-The Variation spacing of stone column that have been used for analysis are 2 m, 
-3 m and 4 m and the variation of diameter for stone column are 40 cm, 70 cm 
-and 100 cm. The result show the settlement reduced until 80% and time of 
-consolidation until 2367 days using stone column. 
-Key Words : Soft clay, Stone column, smear zone, Axisymmetric, settlement, 
-PLAXIS 2D AE. 
-Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2 
- 
+
+Pemodelan Numerik Pada Perbaikan Tanah
+Menggunakan Stone Column Di Tanah
+Lempung Lunak Di Bawah Tanah Timbunan
+
+ISKANDAR, FAUZIAH FITRIANI1, HAMDHAN, INDRA NOER2
+1Mahasiswa, Jurusan Teknik Sipil, Fakultas Teknik Sipil dan Perencanaan
+Institut Teknologi Nasional
+2Dosen, Jurusan Teknik Sipil, Fakultas Teknik Sipil dan Perencanaan
+Institut Teknologi Nasional
+Email : fauziahfitrianiuji@gmail.com
+
+ABSTRAK
+
+Tanah lempung lunak memiliki sifat gaya geser tanah yang kecil, kompresibilitas yang sangat besar, koefisien permeabilitas yang kecil dan mempunyai daya dukung rendah. Agar tanah lempung lunak dapat digunakan sebagai tanah dasar dari timbunan, maka perbaikan tanah diperlukan. Salah satu perbaikan tanah untuk tanah lempung lunak yaitu stone column. Stone column merupakan kolom-kolom vertikal dari material kerikil. Analisis yang dilakukan menggunakan program PLAXIS 2D AE dengan model Axisymmetric. Analisis yang dilakukan dengan memvariasikan jarak antar stone column dan diameter stone column.
+Kedua variasi ini menggunakan pengaruh smear zone dan tanpa smear zone.
+Variasi jarak antar stone column yang digunakan yaitu 2 m, 3 m dan 4 m dan variasi diameter stone column menggunakan diameter 40 cm, 70 cm dan 100 cm. Hasil analisis menunjukan adanya pengurangan penurunan hingga 80% dan pengurangan waktu hingga 2367 hari.
+Kata Kunci : Tanah Lempung Lunak, Stone Column, Smear Zone, Axisymmetric, penurunan, PLAXIS 2D AE
+
+ABSTRACT
+
+Soft clay is characterized by low shear strength, a high compressibility, a low coeffiecient of permeability and a low bearing capacity. Soft soil as subgrade of embankment must be improved using soil improvement. One of soil improvement methods for soft clay soil is stone column. Stone column is a vertical column with gravel material. The Analysis of stone column for soil improvement used PLAXIS 2D AE and Axisymmetric model. The analysis was did by two variation, The variation of spacing between stone column and diameter stone column used in this analysis. Effect smear zone and without smear zone are considered.
+The Variation spacing of stone column that have been used for analysis are 2 m,
+3 m and 4 m and the variation of diameter for stone column are 40 cm, 70 cm and 100 cm. The result show the settlement reduced until 80% and time of consolidation until 2367 days using stone column.
+Key Words : Soft clay, Stone column, smear zone, Axisymmetric, settlement,
+PLAXIS 2D AE.
+Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2
+
 Reka Racana -
-08
-1
- 
- 
-1. PENDAHULUAN 
- 
-Tanah lempung lunak (soft clay) memiliki sifat gaya geser tanah yang kecil, kompresibilitas 
-yang sangat besar, kemampatan yang besar, koefisien permeabilitas yang kecil dan 
-mempunyai daya dukung rendah. Tanah lempung lunak banyak dijumpai di daerah sekitar 
-pantai dan daratan rendah lainnya terutama di muara sungai-sungai besar. Apabila 
-pembangunan struktur terpaksa dilakukan di tanah lempung lunak, maka untuk memenuhi 
-syarat daya dukung tanah tersebut dibutuhkan metode perbaikan. Salah satu metode 
-perbaikan tanah yang digunakan pada penelitian ini adalah menggunakan stone column.  
- 
-Pada Tugas akhir ini akan dilakukan analisis perbaikan tanah menggunakan stone column 
-dengan memvariasikan diameter dan jarak antar stone column. Agar metode perbaikan 
-tanah yang akan diterapkan sesuai dengan tahapan kondisi pekerjaan, maka dibutuhkan 
-perhitungan yang tepat dengan melakukan pemodelan. Pemodelan perbaikan tanah ini 
-menggunakan program PLAXIS 2D AE yang berbasis metode elemen hingga. 
- 
-Tujuan penelitian ini yaitu untuk mengetahui pengaruh perbaikan tanah menggunakan stone 
-column terhadap besar dan waktu konsolidasi yang terjadi dengan memvariasikan diameter 
-stone column dan jarak antar stone column.  
- 
-2. TINJAUAN PUSTAKA 
- 
-2.1 
-Metode Perbaikan Menggunakan Stone column  
-Stone column merupakan upaya penggalian yang dilakukan untuk mengganti sebagian tanah 
-yang akan digunakan sebagai dasar konstuksi dengan kolom vertical yang dipadatkan. 
-Fungsi utama pemasangan stone column adalah untuk meningkatkan daya dukung tanah 
-yang kurang baik sehingga dapat menerima beban yang lebih besar dan settlement yang 
-terjadi akan berkurang. Menurut Barksdale dan Banchus, 1982 selain untuk meningkatkan 
-daya dukung tanah, fungsi lain dari stone column adalah : 
-1. Mengurangi total settlement tanah. 
-2. Memperpendek waktu konsolidasi.  
-3. Mengurangi bahaya liquefaction. 
- 
-2.2 
-Perencanaan Stone column  
-Dalam perencanaan Stone column banyak hal-hal yang dipertimbangkan, antara lain : 
-1) Diameter stone column   
-2) Area replacement ratio 
-3) Jarak stone column  
-4) Konsentrasi tegangan 
-5) Smear zone  
- 
-Smear zone merupakan daerah terganggu akibat dari instalasi pemasangan stone column itu 
-sendiri. Efek smear zone adalah berkurangnya nilai koefisien untuk tanah lempung di dekat 
-stone column atau diameter stone column yang digunakan diperkecil, hal ini disebabkan 
-proses peremasan (remoulding) selama pemasangan stone column. Pada tugas akhir ini 
-hanya menggunakan perubahan nilai koefisien yang dijelaskan pada Tabel 1. 
- 
- 
- 
- 
- 
-Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di 
-Bawah Tanah Timbunan  
+
+1. PENDAHULUAN
+
+Tanah lempung lunak (soft clay) memiliki sifat gaya geser tanah yang kecil, kompresibilitas yang sangat besar, kemampatan yang besar, koefisien permeabilitas yang kecil dan mempunyai daya dukung rendah. Tanah lempung lunak banyak dijumpai di daerah sekitar pantai dan daratan rendah lainnya terutama di muara sungai-sungai besar. Apabila pembangunan struktur terpaksa dilakukan di tanah lempung lunak, maka untuk memenuhi syarat daya dukung tanah tersebut dibutuhkan metode perbaikan. Salah satu metode perbaikan tanah yang digunakan pada penelitian ini adalah menggunakan stone column.
+
+Pada Tugas akhir ini akan dilakukan analisis perbaikan tanah menggunakan stone column dengan memvariasikan diameter dan jarak antar stone column. Agar metode perbaikan tanah yang akan diterapkan sesuai dengan tahapan kondisi pekerjaan, maka dibutuhkan perhitungan yang tepat dengan melakukan pemodelan. Pemodelan perbaikan tanah ini menggunakan program PLAXIS 2D AE yang berbasis metode elemen hingga.
+
+Tujuan penelitian ini yaitu untuk mengetahui pengaruh perbaikan tanah menggunakan stone column terhadap besar dan waktu konsolidasi yang terjadi dengan memvariasikan diameter stone column dan jarak antar stone column.
+
+2. TINJAUAN PUSTAKA
+
+2.1
+Metode Perbaikan Menggunakan Stone column
+Stone column merupakan upaya penggalian yang dilakukan untuk mengganti sebagian tanah yang akan digunakan sebagai dasar konstuksi dengan kolom vertical yang dipadatkan.
+Fungsi utama pemasangan stone column adalah untuk meningkatkan daya dukung tanah yang kurang baik sehingga dapat menerima beban yang lebih besar dan settlement yang terjadi akan berkurang. Menurut Barksdale dan Banchus, 1982 selain untuk meningkatkan daya dukung tanah, fungsi lain dari stone column adalah :
+1. Mengurangi total settlement tanah.
+2. Memperpendek waktu konsolidasi.
+3. Mengurangi bahaya liquefaction.
+
+2.2
+Perencanaan Stone column
+Dalam perencanaan Stone column banyak hal-hal yang dipertimbangkan, antara lain :
+1) Diameter stone column
+2) Area replacement ratio
+3) Jarak stone column
+4) Konsentrasi tegangan
+5) Smear zone
+
+Smear zone merupakan daerah terganggu akibat dari instalasi pemasangan stone column itu sendiri. Efek smear zone adalah berkurangnya nilai koefisien untuk tanah lempung di dekat stone column atau diameter stone column yang digunakan diperkecil, hal ini disebabkan proses peremasan (remoulding) selama pemasangan stone column. Pada tugas akhir ini hanya menggunakan perubahan nilai koefisien yang dijelaskan pada Tabel 1.
+
+Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di
+Bawah Tanah Timbunan
 Reka Racana -
-09
-1
- 
- 
-Tabel 1. Parameter Smear Zone 
-Parameter 
-Han and Ye (2002) 
-Walker and Indraratna (2006) 
-Normalized horizontal of smear zone (ks/kh) 
-0.1 
-0.333 
-Normalized radius of smear zone (rs/rc) 
-1.15 
-2.5 
-Sumber : Numerical solution of stone column improved soft soil considering arching, clogging and 
-smear zone, Buddhima Indraratna, 2013 
- 
-2.3 
-Penurunan Konsolidasi 
-Penurunan konsolidasi terjadi pada tanah lunak yang terletak dibawah muka air tanah. 
-Penurunan pada tanah lunak membutuhkan waktu yang lama. Penurunan terjadi 
-berlangsung dalam 2 fase yaitu :   
- 
-1. Fase penurunan segera (immediately Settement) 
-Penurunan segera yang dimaksud yaitu penurunan yang terjadi setelah beban yang 
-diberikan bekerja. Penurunan ini diakibatkan oleh keluarnya udara dari rongga pori. 
- 
-2. Fase konsolidasi  
-Tanah lempung jenuh yang diberi beban mendadak mengakibatkan kompresi elastis yang 
-menyebabkan penurunan segera (immediately Settement) dan juga menyebabkan kelebihan 
-tekanan air pori (excess pore pressure). 
- 
-Faktor yang mempengaruhi besarnya penurunan yaitu : 
-1. Sifat kompresibilitas tanah  
-2. Tebal lapisan tanah yang kompresibel 
-3. Besarnya tekanan efektif tanah  
- 
-Kecepatan konsolidasi dipengaruhi oleh permeabilitas tanah, tebal tanah kompressibel, 
-waktu beban kerja serta kondisi drainase di atas dan di bawah lapisan tanah kompresibel. 
-Factor yang mempengaruhi kecepatan konsolidasi yaitu : 
-  
-1. Koefisien permeabilitas (k)  
-Permeabilitas tanah merupakan kemampuan tanah meloloskan air. Koefisien permeabilitas 
-tanah tergantung dari besarnya ukuran rongga pori tanah yang dipengaruhi oleh distribusi 
-ukuran partikel, bentuk partikel dan struktur partikel. Semakin kecil ukuran partikel tanah 
-maka akan semakin kecil juga rongga pori tanah sehingga sulit meloloskan air, artinya nilai 
-koefisien tanah (k) juga kecil. 
- 
-2. Beban yang diterapkan (B)  
-Beban yang dimaksud adalah besarnya beban yang diterapkan diatas tanah konsolidasi. 
-Semakin berat beban maka akan semakin cepat proses konsolidasi. 
- 
-3. Panjang lintasan drainase (l)  
-Panjang lintasan tergantung dari kondisi tanah single drainage (satu arah) atau double 
-drainage (dua arah). Arah drainase pada umumnya merupakan arah vertikal namun untuk 
-beberapa kasus terdapat upaya menciptakan arah aliran horizontal dalam rangka 
-mempercepat laju konsolidasi dengan panjang lintasan yang lebih pendek. 
- 
- 
- 
- 
- 
- 
-Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2 
- 
+
+Tabel 1. Parameter Smear Zone
+Parameter
+Han and Ye (2002)
+Walker and Indraratna (2006)
+Normalized horizontal of smear zone (ks/kh)
+0.1
+0.333
+Normalized radius of smear zone (rs/rc)
+1.15
+2.5
+Sumber : Numerical solution of stone column improved soft soil considering arching, clogging and smear zone, Buddhima Indraratna, 2013
+
+2.3
+Penurunan Konsolidasi
+Penurunan konsolidasi terjadi pada tanah lunak yang terletak dibawah muka air tanah.
+Penurunan pada tanah lunak membutuhkan waktu yang lama. Penurunan terjadi berlangsung dalam 2 fase yaitu :
+
+1. Fase penurunan segera (immediately Settement)
+Penurunan segera yang dimaksud yaitu penurunan yang terjadi setelah beban yang diberikan bekerja. Penurunan ini diakibatkan oleh keluarnya udara dari rongga pori.
+
+2. Fase konsolidasi
+Tanah lempung jenuh yang diberi beban mendadak mengakibatkan kompresi elastis yang menyebabkan penurunan segera (immediately Settement) dan juga menyebabkan kelebihan tekanan air pori (excess pore pressure).
+
+Faktor yang mempengaruhi besarnya penurunan yaitu :
+1. Sifat kompresibilitas tanah
+2. Tebal lapisan tanah yang kompresibel
+3. Besarnya tekanan efektif tanah
+
+Kecepatan konsolidasi dipengaruhi oleh permeabilitas tanah, tebal tanah kompressibel, waktu beban kerja serta kondisi drainase di atas dan di bawah lapisan tanah kompresibel.
+Factor yang mempengaruhi kecepatan konsolidasi yaitu :
+
+1. Koefisien permeabilitas (k)
+Permeabilitas tanah merupakan kemampuan tanah meloloskan air. Koefisien permeabilitas tanah tergantung dari besarnya ukuran rongga pori tanah yang dipengaruhi oleh distribusi ukuran partikel, bentuk partikel dan struktur partikel. Semakin kecil ukuran partikel tanah maka akan semakin kecil juga rongga pori tanah sehingga sulit meloloskan air, artinya nilai koefisien tanah (k) juga kecil.
+
+2. Beban yang diterapkan (B)
+Beban yang dimaksud adalah besarnya beban yang diterapkan diatas tanah konsolidasi.
+Semakin berat beban maka akan semakin cepat proses konsolidasi.
+
+3. Panjang lintasan drainase (l)
+Panjang lintasan tergantung dari kondisi tanah single drainage (satu arah) atau double drainage (dua arah). Arah drainase pada umumnya merupakan arah vertikal namun untuk beberapa kasus terdapat upaya menciptakan arah aliran horizontal dalam rangka mempercepat laju konsolidasi dengan panjang lintasan yang lebih pendek.
+
+Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2
+
 Reka Racana -
-10
-1
- 
- 
-2.4 
-Axisymmetric dan Plane Strain  
-Pemodelan geometri PLAXIS 2D AE terdapat dua macam pemodelan yaitu bersifat menerus 
-(plane strain) dan radial (axisymmetric) seperti yang ditunjukan pada Gambar 1. 
- 
- 
-a)  
- 
- 
- 
-b) 
-Gambar 1. Pemodelan Secara Plane Strain a) Axisymmetric b). 
- 
-Model regangan bidang atau plane strain digunakan untuk model geometri dengan 
-penampang melintang yang kurang lebih seragam dengan kondisi tegangan dan kondisi 
-pembebanan yang cukup panjang dalam arah tegak lurus terhadap penampang tersebut 
-(arah z).  
- 
-Model axisymmetric digunakan untuk struktur berbentuk lingkaran dengan penampang 
-melintang radial yang kurang lebih seragam dan kondisi pembebanan mengililingi sumbu 
-aksial, dimana deformasi dan kondisi tegangan diasumsikan sama di setiap arah radial. 
- 
-3. METODE PENELITIAN 
- 
-3.1 
-Pengumpulan Data  
-Pengumpulan data-data tanah yang digunakan diperoleh dari pihak yang berwenang pada 
-Proyek Eastkal Supply Base, PT. Pelabuhan Penajam Banua Taka (PT. PPBT), desa Gunung 
-Steleng, Kabupaten Penajam Paser Utara, Kalimantan Timur. Sedangkan data Stone column 
-sebagai metode perbaikan tanah diperoleh dari buku dan referensi lainnya. 
- 
-3.2 
-Pemodelan Stone Column pada Tanah Lempung Lunak di Atas Tanah 
-Timbuanan Menggunakan PLAXIS 2D AE 
-Penyusunan tugas akhir dilakukan secara bertahap yang digambarkan pada bagan alir pada 
-Gambar 2. Analisis stone column sebagai perbaikan tanah dilakukan dengan menggunakan 
-PLAXIS 2D AE yang berbasis metode elemen hingga, sehingga output yang didapatkan besar 
-penurunan dan waktu konsolidasi.  
- 
-Pemodelan terdiri dari 2 kondisi yaitu kondisi adanya stone column dan tanpa adanya stone 
-column. Pemodelan stone column pada program PLAXIS 2D AE melakukan variasi diameter 
-stone column dan jarak antara stone column. Pada proses memvariasikan stone column 
-dilakukan dengan menggunakan smear zone dan tanpa smear zone. Sehingga terdapat 18 
-kondisi pemodelan pada analisis stone column pada tanah lempung lunak.  
-Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di 
-Bawah Tanah Timbunan  
+
+2.4
+Axisymmetric dan Plane Strain
+Pemodelan geometri PLAXIS 2D AE terdapat dua macam pemodelan yaitu bersifat menerus
+(plane strain) dan radial (axisymmetric) seperti yang ditunjukan pada Gambar 1.
+
+a)
+
+b)
+Gambar 1. Pemodelan Secara Plane Strain a) Axisymmetric b).
+
+Model regangan bidang atau plane strain digunakan untuk model geometri dengan penampang melintang yang kurang lebih seragam dengan kondisi tegangan dan kondisi pembebanan yang cukup panjang dalam arah tegak lurus terhadap penampang tersebut
+(arah z).
+
+Model axisymmetric digunakan untuk struktur berbentuk lingkaran dengan penampang melintang radial yang kurang lebih seragam dan kondisi pembebanan mengililingi sumbu aksial, dimana deformasi dan kondisi tegangan diasumsikan sama di setiap arah radial.
+
+3. METODE PENELITIAN
+
+3.1
+Pengumpulan Data
+Pengumpulan data-data tanah yang digunakan diperoleh dari pihak yang berwenang pada
+Proyek Eastkal Supply Base, PT. Pelabuhan Penajam Banua Taka (PT. PPBT), desa Gunung
+Steleng, Kabupaten Penajam Paser Utara, Kalimantan Timur. Sedangkan data Stone column sebagai metode perbaikan tanah diperoleh dari buku dan referensi lainnya.
+
+3.2
+Pemodelan Stone Column pada Tanah Lempung Lunak di Atas Tanah
+Timbuanan Menggunakan PLAXIS 2D AE
+Penyusunan tugas akhir dilakukan secara bertahap yang digambarkan pada bagan alir pada
+Gambar 2. Analisis stone column sebagai perbaikan tanah dilakukan dengan menggunakan
+PLAXIS 2D AE yang berbasis metode elemen hingga, sehingga output yang didapatkan besar penurunan dan waktu konsolidasi.
+
+Pemodelan terdiri dari 2 kondisi yaitu kondisi adanya stone column dan tanpa adanya stone column. Pemodelan stone column pada program PLAXIS 2D AE melakukan variasi diameter stone column dan jarak antara stone column. Pada proses memvariasikan stone column dilakukan dengan menggunakan smear zone dan tanpa smear zone. Sehingga terdapat 18 kondisi pemodelan pada analisis stone column pada tanah lempung lunak.
+Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di
+Bawah Tanah Timbunan
 Reka Racana - 111
- 
- 
+
 Mulai
 Studi Pustaka
 Pengumpulan Data
-Data Tanah 
-(Lapangan dan 
+Data Tanah
+(Lapangan dan
 Laboratorium)
-Data Stone Column 
-sebagai Metode 
+Data Stone Column sebagai Metode
 Perbaikan Tanah
-Menentukan Jenis Tanah, 
-Kedalaman, Ketebalan Tanah  
-dan Parameter Tanah Lempung 
+Menentukan Jenis Tanah,
+Kedalaman, Ketebalan Tanah dan Parameter Tanah Lempung
 Lunak
-Menentukan Parameter Stone 
+Menentukan Parameter Stone
 Column
-Pemodelan Stone Column pada Tanah 
-Lempung Lunak di atas Tanah Timbuanan 
-menggunakan PLAXIS 2D AE
+Pemodelan Stone Column pada Tanah
+Lempung Lunak di atas Tanah Timbuanan menggunakan PLAXIS 2D AE
 Pemodelan Tanpa Stone Column
 Pemodelan Dengan Stone Column
-Penurunan 
-yang terjadi 
+Penurunan yang terjadi
 Pembahasan
 Kesimpulan
 Selesai
-Memvariasikan Jarak antara 
-Stone Column 
-Memvariasikan Diameter 
+Memvariasikan Jarak antara
 Stone Column
-Perumusan Masalah 
-Menentukan Parameter Smear 
-Zone 
-Dengan 
-Smear Zone
-Tanpa Smear 
+Memvariasikan Diameter
+Stone Column
+Perumusan Masalah
+Menentukan Parameter Smear
 Zone
-Dengan 
+Dengan
 Smear Zone
-Tanpa Smear 
+Tanpa Smear
 Zone
- 
-Gambar 2. Bagan Alir Pemodelan Perbaikan Tanah Menggunakan Stone Column pada 
-Tanah Lempung Lunak dengan Program PLAXIS 2D AE 
- 
-4. ANALISIS DATA 
- 
-4.1 
-Pemodelan  
-Analisis tanah menggunakan parameter tanah yang berasal dari proyek Eastkal Supply Base, 
-PT. Pelabuhan Penajam Banua Taka (PT. PPBT), desa Gunung Steleng, Kabupaten Penajam 
-Paser Utara, Kalimantan Timur. Berikut parameter tanah yang digunakan pada Pemodelan 
-PLAXIS 2D AE pada Tabel 2. 
- 
-Tabel 2. Parameter Tanah dan Timbunan pada PLAXIS 2D AE 
-Pemodelan 
-Ketebalan  
-γsat 
-γunsat 
-e' 
-υ 
-c 
-φ 
-kh=kv 
-m 
-kN/m3 
-kN/m3 
-kN/m3 
-N/m2 
-° 
-m/hari 
-Lempung Lunak 
-8 
-17 
-16 
-1500 
-0.3 
-5.51 
-1 
-0.4294 x10-3 
-Timbunan  
-2.5 
-16.5 
-15.5 
-40000 
-0.3 
-20 
-25 
-0.6 
-Selimut Pasir 
-0.5 
-17 
-16 
-20000 
-0.3 
-5 
-39.5 
-7.128 
-Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2 
- 
+Dengan
+Smear Zone
+Tanpa Smear
+Zone
+
+Gambar 2. Bagan Alir Pemodelan Perbaikan Tanah Menggunakan Stone Column pada
+Tanah Lempung Lunak dengan Program PLAXIS 2D AE
+
+4. ANALISIS DATA
+
+4.1
+Pemodelan
+Analisis tanah menggunakan parameter tanah yang berasal dari proyek Eastkal Supply Base,
+PT. Pelabuhan Penajam Banua Taka (PT. PPBT), desa Gunung Steleng, Kabupaten Penajam
+Paser Utara, Kalimantan Timur. Berikut parameter tanah yang digunakan pada Pemodelan
+PLAXIS 2D AE pada Tabel 2.
+
+Tabel 2. Parameter Tanah dan Timbunan pada PLAXIS 2D AE
+Pemodelan
+Ketebalan γsat γunsat e' υ c φ kh=kv m kN/m3 kN/m3 kN/m3
+N/m2
+° m/hari
+Lempung Lunak
+0.3
+5.51
+0.4294 x10-3
+Timbunan
+2.5
+16.5
+15.5
+0.3
+0.6
+Selimut Pasir
+0.5
+0.3
+39.5
+7.128
+Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2
+
 Reka Racana - 112
- 
- 
-Selain parameter tanah, parameter lain yang digunakan untuk melakukan pemodelan 
-menggunakan PLAXIS 2D AE adalah parameter stone column dan smear zone. Parameter 
-yang digunakan terlihat pada Tabel 3.  
- 
- 
-Tabel 3. Parameter Stone Column dan Smear Zone 
-Pemdolan  
-γsat 
-γunsat 
-E' 
-υ 
-c 
-φ 
-Kh=Kv 
-kN/m3 
-kN/m3 
-kN/m2 
-N/m2 
-° 
-m/hari 
-Stone column 
-21 
-20 
-45000 
-0.2 
-5 
-42 
-7.128 
-Smear zone 
-17 
-16 
-1500 
-0.3 
-5.51 
-5 
-0.143 x10-3 
- 
-Tahapan pemodelan pada PLAXIS 2D AE yang disesuaikan dengan tahapan perkerjaan yang 
-sebenarnya dilapangan dapat dilihat pada Tabel 4. 
- 
-Table 4. Tahapan Pekerjaan dalam Pemodelan PLAXIS 2D AE 
-No 
-Tahapan Pekerjaan 
-Waktu Pekerjaan 
-1 
-Tanah Asli 
-- 
-2 
-Selimut Pasir  
-1 hari 
-3 
-Pemasangan Stone column  
-2 hari 
-4 
-Timbunan Layer 1 + Stone column  
-2 hari 
-5 
-Konsolidasi 2 hari 
-2 hari 
-6 
-Timbunan Layer 2 + Stone column  
-2 hari 
-7 
-Konsolidasi 2 hari 
-2 hari 
-8 
-Timbunan Layer 3 + Stone column  
-2 hari 
-9 
-Konsolidasi 10 hari  
-10 hari 
-10 
-Konsolidasi 90% 
-Sampai konsolidasi 90% 
- 
-4.2 
-Hasil Analisis  
-Hasil analisis dengan kondisi stone column diameter 100 cm dan jarak antar stone column 2 
-m memiliki presentase nilai penurunan terkecil dan waktu konsolidasi tercepat disajikan pada 
-Gambar 3 dan Tabel 5 untuk nilai konsolidasi.  
- 
- 
-Gambar 3. Grafik Penurunan dan Waktu Konsolidasi pada Pemodelan Stone Column 
-dengan Diameter 100 cm dan Jarak Antar Stone Column 2 m. 
- 
- 
- 
- 
-Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di 
-Bawah Tanah Timbunan  
+
+Selain parameter tanah, parameter lain yang digunakan untuk melakukan pemodelan menggunakan PLAXIS 2D AE adalah parameter stone column dan smear zone. Parameter yang digunakan terlihat pada Tabel 3.
+
+Tabel 3. Parameter Stone Column dan Smear Zone
+Pemdolan γsat γunsat
+E' υ c φ
+Kh=Kv kN/m3 kN/m3 kN/m2
+N/m2
+° m/hari
+Stone column
+0.2
+7.128
+Smear zone
+0.3
+5.51
+0.143 x10-3
+
+Tahapan pemodelan pada PLAXIS 2D AE yang disesuaikan dengan tahapan perkerjaan yang sebenarnya dilapangan dapat dilihat pada Tabel 4.
+
+Table 4. Tahapan Pekerjaan dalam Pemodelan PLAXIS 2D AE
+No
+Tahapan Pekerjaan
+Waktu Pekerjaan
+Tanah Asli
+-
+Selimut Pasir
+1 hari
+Pemasangan Stone column
+2 hari
+Timbunan Layer 1 + Stone column
+2 hari
+Konsolidasi 2 hari
+2 hari
+Timbunan Layer 2 + Stone column
+2 hari
+Konsolidasi 2 hari
+2 hari
+Timbunan Layer 3 + Stone column
+2 hari
+Konsolidasi 10 hari
+10 hari
+Konsolidasi 90%
+Sampai konsolidasi 90%
+
+4.2
+Hasil Analisis
+Hasil analisis dengan kondisi stone column diameter 100 cm dan jarak antar stone column 2 m memiliki presentase nilai penurunan terkecil dan waktu konsolidasi tercepat disajikan pada
+Gambar 3 dan Tabel 5 untuk nilai konsolidasi.
+
+Gambar 3. Grafik Penurunan dan Waktu Konsolidasi pada Pemodelan Stone Column dengan Diameter 100 cm dan Jarak Antar Stone Column 2 m.
+
+Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di
+Bawah Tanah Timbunan
 Reka Racana -
-13
-1
- 
- 
-Tabel 5. Hasil Pemodelan Stone Column dengan Diameter 100 cm dan Jarak Antar  
-Stone Column 2 m. 
-Kondisi 
-Penurunan ( m ) 
-Waktu ( hari ) 
-Stone column dengan smear zone 
-0.04619  
-27 
-Stone column tanpa smear zone 
-0.04755  
-24 
-Tanpa stone column  
-0.24083  
-2391 
- 
- 
-Gambar 4. Grafik Tekanan Air Pori Ekses pada Pemodelan Stone Column dengan Diameter 
-100 cm dan Jarak Antar Stone Column 2 m. 
- 
-Perubahan tekanan air pori dari setiap tahapan pemodelan pekerjaan mulai dari pemasangan 
-selimut pasir hingga konsolidasi 90% terlihat pada Gambar 5 dan Gambar 6. 
- 
-(a) 
-Selimut Pasir 
-(b) 
-Pemasangan 
-Stone column 
-(c) 
-Timbunan 
-Layer 1 
-(d) 
-Timbunan 
-Layer 2 
-(e) 
-Timbunan 
-Layer 3 
-(f) 
-Konsolidasi 
-90% 
- 
-Gambar 5. Tekanan Air Pori Ekses dengan Diameter Stone Column 100 cm dan Jarak 
-Antar Stone Column 2 m dengan Pengaruh Smear Zone 
- 
-Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2 
- 
+
+Tabel 5. Hasil Pemodelan Stone Column dengan Diameter 100 cm dan Jarak Antar
+Stone Column 2 m.
+Kondisi
+Penurunan ( m )
+Waktu ( hari )
+Stone column dengan smear zone
+0.04619
+Stone column tanpa smear zone
+0.04755
+Tanpa stone column
+0.24083
+
+Gambar 4. Grafik Tekanan Air Pori Ekses pada Pemodelan Stone Column dengan Diameter
+100 cm dan Jarak Antar Stone Column 2 m.
+
+Perubahan tekanan air pori dari setiap tahapan pemodelan pekerjaan mulai dari pemasangan selimut pasir hingga konsolidasi 90% terlihat pada Gambar 5 dan Gambar 6.
+
+(a)
+Selimut Pasir
+(b)
+Pemasangan
+Stone column
+(c)
+Timbunan
+Layer 1
+(d)
+Timbunan
+Layer 2
+(e)
+Timbunan
+Layer 3
+(f)
+Konsolidasi
+90%
+
+Gambar 5. Tekanan Air Pori Ekses dengan Diameter Stone Column 100 cm dan Jarak
+Antar Stone Column 2 m dengan Pengaruh Smear Zone
+
+Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2
+
 Reka Racana -
-14
-1
- 
- 
-(a) 
-Selimut Pasir 
-(b) 
-Pemasangan 
-Stone column 
-(c) 
-Timbunan 
-Layer 1 
-(d) 
-Timbunan 
-Layer 2 
-(e) 
-Timbunan 
-Layer 3 
-(f) 
-Konsolidasi 
-90% 
- 
-Gambar 6. Tekanan Air Pori Ekses dengan Diameter Stone Column 100 cm dan Jarak 
-Antar Stone Column 2 m Tanpa Pengaruh Smear Zone 
- 
-Hasil analisis dengan kondisi stone column diameter 40 cm dan jarak antar stone column 4 
-m memiliki presentase nilai penurunan terbesar dan waktu konsolidasi terlama disajikan 
-pada Gambar 7 dan Tabel 6 untuk nilai konsolidasi. Gambar 8, Gambar 9 dan Gambar 
-10 untuk besar tegangan air pori ekses. 
- 
- 
-Gambar 7. Grafik Penurunan dan Waktu Konsolidasi pada Pemodelan Stone Column 
-dengan Diameter 40 cm dan Jarak Antar Stone Column 4 m. 
- 
-Tabel 6. Hasil Pemodelan Stone Column dengan Diameter 40 cm dan Jarak Antar Stone 
-column 4 m. 
-Kondisi 
-Penurunan ( m ) 
-Waktu ( hari ) 
-Stone column dengan smear zone 
-0.22125  
-417 
-Stone column tanpa smear zone 
-0.22413  
-237 
-Tanpa stone column  
-0.24083 
-221 
- 
-Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di 
-Bawah Tanah Timbunan  
+
+(a)
+Selimut Pasir
+(b)
+Pemasangan
+Stone column
+(c)
+Timbunan
+Layer 1
+(d)
+Timbunan
+Layer 2
+(e)
+Timbunan
+Layer 3
+(f)
+Konsolidasi
+90%
+
+Gambar 6. Tekanan Air Pori Ekses dengan Diameter Stone Column 100 cm dan Jarak
+Antar Stone Column 2 m Tanpa Pengaruh Smear Zone
+
+Hasil analisis dengan kondisi stone column diameter 40 cm dan jarak antar stone column 4 m memiliki presentase nilai penurunan terbesar dan waktu konsolidasi terlama disajikan pada Gambar 7 dan Tabel 6 untuk nilai konsolidasi. Gambar 8, Gambar 9 dan Gambar
+10 untuk besar tegangan air pori ekses.
+
+Gambar 7. Grafik Penurunan dan Waktu Konsolidasi pada Pemodelan Stone Column dengan Diameter 40 cm dan Jarak Antar Stone Column 4 m.
+
+Tabel 6. Hasil Pemodelan Stone Column dengan Diameter 40 cm dan Jarak Antar Stone column 4 m.
+Kondisi
+Penurunan ( m )
+Waktu ( hari )
+Stone column dengan smear zone
+0.22125
+Stone column tanpa smear zone
+0.22413
+Tanpa stone column
+0.24083
+
+Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di
+Bawah Tanah Timbunan
 Reka Racana -
-15
-1
- 
- 
- 
-Gambar 8. Grafik Tekanan Air Pori Ekses pada Pemodelan Stone Column dengan Diameter 
-40 cm dan Jarak Antar Stone Column 4 m.  
- 
- 
- 
- 
- 
-(a) 
-Selimut Pasir 
-(b) 
-Pemasangan 
-Stone column 
-(c) 
-Timbunan 
-Layer 1 
-(d) 
-Timbunan 
-Layer 2  
-(e) 
-Timbunan 
-Layer 3  
-(f) 
-Konsolidasi  
-90% 
- 
-Gambar 9. Tekanan air Pori ekses dengan diameter Stone Column 40 cm dan Jarak Antar 
-Stone Column 4 m dengan Pengaruh Smear Zone. 
- 
- 
- 
- 
-(a) 
-Selimut Pasir 
-(b) 
-Pemasangan 
-Stone column 
-(c) 
-Timbunan 
-Layer 1 
-(d) 
-Timbunan 
-Layer 2  
-(e) 
-Timbunan 
-Layer 3  
-(f) 
-Konsolidasi  
-90% 
- 
-Gambar 10. Tekanan Air Pori Ekses dengan diameter Stone Column 40 cm dan Jarak Antar 
-Stone Column 4 m Tanpa Pengaruh Smear Zone 
-Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2 
- 
-Reka Racana - 
-6
-11  
-Dalam mempermudah mengetahui hasil dari penggunaan stone column maka dibuat rasio, 
-dimana perbandingan antara diameter stone column (DS) dan jarak antar stone column (S).  
- 
-Hasil analisis berupa persentase penurunan akibat peggunaan stone column dengan smear 
-zone dan tanpa smear zone dari berbagai kondisi disajikan pada Tabel 7 dan Gambar 11. 
- 
-Tabel 7. Rekapitulasi Persentase Kenaikan Penurunan dari Variasi Jarak dan Diameter  
-Stone column 
-Kondisi  
-Besar Penurunan  
-Persentase Penurunan  
-Jarak  
-Diameter 
-Rasio 
-Dengan 
-Smear zone  
-Tanpa 
-Smear zone  
-Dengan 
-Smear zone  
-Tanpa 
-Smear zone  
-m 
-cm 
-  
-M 
-m 
-(%) 
-(%) 
-Tanpa Perbaikan 
-0.24083 
-0.00 
-2 
-40 
-0.20 
-0.17114 
-0.17843 
-28.94 
-25.91 
-70 
-0.35 
-0.09306 
-0.09832 
-61.36 
-59.17 
-100 
-0.50 
-0.04619 
-0.04755 
-80.82 
-80.26 
-3 
-40 
-0.13 
-0.20685 
-0.21104 
-14.11 
-12.37 
-70 
-0.23 
-0.15230 
-0.16094 
-36.76 
-33.18 
-100 
-0.33 
-0.09756 
-0.10333 
-59.49 
-57.09 
-4 
-40 
-0.10 
-0.22125 
-0.22413 
-8.13 
-6.94 
-70 
-0.18 
-0.15421 
-0.19250 
-35.97 
-20.07 
-100 
-0.25 
-0.14468 
-0.15342 
-39.93 
-36.29 
- 
- 
-Gambar 11. Grafik Perbandingan Rasio dan Besar Penurunan. 
- 
-Hasil analisis lainnya berupa persentase waktu penurunan akibat peggunaan stone column 
-dengan smear zone dan tanpa smear zone disajikan pada Tabel 8 dan Gambar 12.  
- 
- 
- 
- 
- 
- 
- 
- 
+
+Gambar 8. Grafik Tekanan Air Pori Ekses pada Pemodelan Stone Column dengan Diameter
+40 cm dan Jarak Antar Stone Column 4 m.
+
+(a)
+Selimut Pasir
+(b)
+Pemasangan
+Stone column
+(c)
+Timbunan
+Layer 1
+(d)
+Timbunan
+Layer 2
+(e)
+Timbunan
+Layer 3
+(f)
+Konsolidasi
+90%
+
+Gambar 9. Tekanan air Pori ekses dengan diameter Stone Column 40 cm dan Jarak Antar
+Stone Column 4 m dengan Pengaruh Smear Zone.
+
+(a)
+Selimut Pasir
+(b)
+Pemasangan
+Stone column
+(c)
+Timbunan
+Layer 1
+(d)
+Timbunan
+Layer 2
+(e)
+Timbunan
+Layer 3
+(f)
+Konsolidasi
+90%
+
+Gambar 10. Tekanan Air Pori Ekses dengan diameter Stone Column 40 cm dan Jarak Antar
+Stone Column 4 m Tanpa Pengaruh Smear Zone
+Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2
+
+Reka Racana -
+Dalam mempermudah mengetahui hasil dari penggunaan stone column maka dibuat rasio, dimana perbandingan antara diameter stone column (DS) dan jarak antar stone column (S).
+
+Hasil analisis berupa persentase penurunan akibat peggunaan stone column dengan smear zone dan tanpa smear zone dari berbagai kondisi disajikan pada Tabel 7 dan Gambar 11.
+
+Tabel 7. Rekapitulasi Persentase Kenaikan Penurunan dari Variasi Jarak dan Diameter
+Stone column
+Kondisi
+Besar Penurunan
+Persentase Penurunan
+Jarak
+Diameter
+Rasio
+Dengan
+Smear zone
+Tanpa
+Smear zone
+Dengan
+Smear zone
+Tanpa
+Smear zone m cm
+
+M m
+(%)
+(%)
+Tanpa Perbaikan
+0.24083
+0.00
+0.20
+0.17114
+0.17843
+28.94
+25.91
+0.35
+0.09306
+0.09832
+61.36
+59.17
+0.50
+0.04619
+0.04755
+80.82
+80.26
+0.13
+0.20685
+0.21104
+14.11
+12.37
+0.23
+0.15230
+0.16094
+36.76
+33.18
+0.33
+0.09756
+0.10333
+59.49
+57.09
+0.10
+0.22125
+0.22413
+8.13
+6.94
+0.18
+0.15421
+0.19250
+35.97
+20.07
+0.25
+0.14468
+0.15342
+39.93
+36.29
+
+Gambar 11. Grafik Perbandingan Rasio dan Besar Penurunan.
+
+Hasil analisis lainnya berupa persentase waktu penurunan akibat peggunaan stone column dengan smear zone dan tanpa smear zone disajikan pada Tabel 8 dan Gambar 12.
+
 0,00
 0,05
 0,10
 0,15
 0,20
 0,25
-0,00 
-0,10 
-0,20 
-0,30 
-0,40 
-0,50 
-0,60 
-BESAR PENURUNAN (M) 
-RASIO (DS/S) 
+0,00
+0,10
+0,20
+0,30
+0,40
+0,50
+0,60
+BESAR PENURUNAN (M)
+RASIO (DS/S)
 DENGAN SMEAR ZONE
 TANPA SMEAR ZONE
 DENGAN SMEAR ZONE
 TANPA SMEAR ZONE
-Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di 
-Bawah Tanah Timbunan  
-Reka Racana - 
-7
-11  
-Tabel 8. Rekapitulasi Persentase Waktu Penurunan dari Variasi Jarak dan Diameter  
-Stone column 
-Kondisi 
-Waktu Penurunan 
-Persentase Waktu 
-Jarak 
-Diameter 
-Rasio 
-Dengan 
-Smear zone 
-Tanpa 
-Smear zone 
-Dengan 
-Smear zone 
-Tanpa 
-Smear zone 
-M 
-cm 
-hari 
-hari 
-(%) 
-(%) 
-Tanpa Perbaikan 
-2391 
-100.00 
-2 
-40 
-0.20 
-89 
-45 
-3.72 
-1.88 
-70 
-0.35 
-47 
-26 
-1.97 
-1.09 
-100 
-0.50 
-27 
-24 
-1.13 
-1.00 
-3 
-40 
-0.13 
-234 
-120 
-9.79 
-5.02 
-70 
-0.23 
-154 
-72 
-6.44 
-3.01 
-100 
-0.33 
-91 
-45 
-3.81 
-1.88 
-4 
-40 
-0.10 
-417 
-237 
-17.44 
-9.91 
-70 
-0.18 
-291 
-160 
-12.17 
-6.69 
-100 
-0.25 
-230 
-107 
-9.62 
-4.48 
- 
- 
-Gambar 12. Grafik Perbandingan Rasio dan Waktu Penurunan. 
- 
-Pada analisis perbaikan tanah dengan menggunakan stone column ini terdapat 18 kondisi 
-pemodelan dari memvariasikan jarak antar stone column dan diameter stone column. Pada 
-Tabel 7 dapat dilihat bahwa Stone column dapat menurunkan nilai penurunan dan juga 
-mempercepat waktu konsolidasi. 
- 
-5. KESIMPULAN 
- 
-Nilai persentase penurunan kondisi stone column dengan pengaruh smear zone dan tanpa 
-pengaruh smear zone dapat mengurangi penurunan tanpa stone column hingga 80%. 
- 
-Kondisi pada pemodelan dengan pengaruh smear zone memiliki nilai persentase penurunan 
-lebih kecil dibandingkan dengan nilai persentase pada kondisi pemodelan tanpa smear zone. 
-Perbedaan persentase kondisi pemodelan stone column dengan smear zone dan pemodelan 
-stone column tanpa smear zone hingga 3.5%. Sehingga, penurunan kondisi dengan 
-0
-50
-100
-150
-200
-250
-300
-350
-400
-450
-0,00 
-0,10 
-0,20 
-0,30 
-0,40 
-0,50 
-0,60 
-WAKTU PENURUNAN (HARI) 
-RASIO (DS/S) 
+Pemodelan Numerik Pada Perbaikan Tanah Menggunakan Stone Column Di Tanah Lempung Lunak Di
+Bawah Tanah Timbunan
+Reka Racana -
+Tabel 8. Rekapitulasi Persentase Waktu Penurunan dari Variasi Jarak dan Diameter
+Stone column
+Kondisi
+Waktu Penurunan
+Persentase Waktu
+Jarak
+Diameter
+Rasio
+Dengan
+Smear zone
+Tanpa
+Smear zone
+Dengan
+Smear zone
+Tanpa
+Smear zone
+M cm hari hari
+(%)
+(%)
+Tanpa Perbaikan
+100.00
+0.20
+3.72
+1.88
+0.35
+1.97
+1.09
+0.50
+1.13
+1.00
+0.13
+9.79
+5.02
+0.23
+6.44
+3.01
+0.33
+3.81
+1.88
+0.10
+17.44
+9.91
+0.18
+12.17
+6.69
+0.25
+9.62
+4.48
+
+Gambar 12. Grafik Perbandingan Rasio dan Waktu Penurunan.
+
+Pada analisis perbaikan tanah dengan menggunakan stone column ini terdapat 18 kondisi pemodelan dari memvariasikan jarak antar stone column dan diameter stone column. Pada
+Tabel 7 dapat dilihat bahwa Stone column dapat menurunkan nilai penurunan dan juga mempercepat waktu konsolidasi.
+
+5. KESIMPULAN
+
+Nilai persentase penurunan kondisi stone column dengan pengaruh smear zone dan tanpa pengaruh smear zone dapat mengurangi penurunan tanpa stone column hingga 80%.
+
+Kondisi pada pemodelan dengan pengaruh smear zone memiliki nilai persentase penurunan lebih kecil dibandingkan dengan nilai persentase pada kondisi pemodelan tanpa smear zone.
+Perbedaan persentase kondisi pemodelan stone column dengan smear zone dan pemodelan stone column tanpa smear zone hingga 3.5%. Sehingga, penurunan kondisi dengan
+0,00
+0,10
+0,20
+0,30
+0,40
+0,50
+0,60
+WAKTU PENURUNAN (HARI)
+RASIO (DS/S)
 DENGAN SMEAR ZONE
 TANPA SMEAR ZONE
 DENGAN SMEAR ZONE
 TANPA SMEAR ZONE
-0.12 
-0.26 0.29 
-0.36 
-Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2 
- 
+0.12
+0.26 0.29
+0.36
+Iskandar, Fauziah Fitriani1, Hamdhan, Indra Noer2
+
 Reka Racana - 18
-1
- 
-pengaruh smear zone dan kondisi tanpa pengaruh smear zone tidak memiliki perbedaan 
-yang signifikan. 
- 
-Pemodelan dengan kondisi stone column dengan rasio 0.5 memiliki presentase nilai 
-penurunan terkecil dibandingkan dengan pemodelan lainnya dan presentase nilai penurunan 
-terbesar terdapat pada kondisi dengan rasio 0.1.  
- 
-Nilai persentase waktu konsolidasi stone column dengan pengaruh smear zone dapat 
-mengurangi penurunan tanpa stone column hingga 17% dan nilai persentase waktu 
-penurunan kondisi stone column tanpa pengaruh smear zone dapat mengurangi penurunan 
-tanpa stone column hingga 9%.  
- 
-Kondisi pada pemodelan dengan pengaruh smear zone memiliki nilai persentase waktu lebih 
-besar dibandingkan dengan nilai persentase pada kondisi pemodelan tanpa smear zone. 
-Perbedaan persentase kondisi pemodelan stone column dengan smear zone dan pemodelan 
-stone column tanpa smear zone sebesar hingga 7%.  
- 
-Pemodelan dengan kondisi stone column dengan rasio 0.5 memiliki presentase nilai 
-penurunan terkecil dibandingkan dengan pemodelan lainnya dan presentase nilai penurunan 
-terbesar terdapat pada kondisi dengan rasio 0.1.  
- 
-Perbaikan tanah membutuhkan waktu yang cukup lama untuk menghasilkan hasil yang 
-memuaskan, namun dalam pekerjaan lapangan memiliki waktu pekerjaan yang terbatas. 
-Sehingga pada umumnya, pekerjaan perbaikan tanah di lapangan membutuhkan waktu 90 
-hingga 150 hari. Durasi ini membutuhkan rasio jarak dengan diameter stone column sebesar 
-0.29 hingga 0.36 pada kondisi pengaruh smear zone dan rasio 0.12 hingga 0.26 kondisi 
-tanpa pengaruh smear zone. 
- 
-DAFTAR PUSTAKA 
- 
-Das, Braja M., 1985. Mekanika Tanah : Principle of Geotechnical Engineering 
-FHWA-NHI 132034 Ground Improvement Techniques 
-FHWA/RD-83/026 Design and Construction of Stone column Vol. I (1983) 
-FHWA/RD-83/027 Design and Construction of Stone column Vol. II (1983) 
-Hird, C.C., Pyrah, I.C. & Russell, D. 1992. Finite element modelling of vertical drains beneath 
-embankments on soft ground. Géotechnique. 42(3): 499–511 
-Indraratna, B. & Redana, I.W. 1997. Plane-Strain Modelling of Smear Effects Associated with 
-Vertical Drains. Journal of Geotechnical and Geoenvironmental Engineering (ASCE). 
-123(5): 474–478. 
-Indraratna, B. & Redana, I.W. 2000. Numerical modelling of vertical drains with smear and 
-well resistance installed in soft clay. Canadian Geotechnical Journal. 37(1): 132–145. 
-Indraratna, B, 2013. Numerical Solution of Stone Column Improved Soft Soil Considering 
-Arching, Clogging and Smear Effects. 
-Pedoman Kimpraswil No: Pt T-10-2002-B Panduan Geoteknik Desain dan Konstruksi. 
-Nurtjahjaningtyas, Indra. Efektifitas Penggunaan Stone Column Untuk Mengurangi Besar 
-Pemampatan Pada Tanah Dengan Daya Dukung Rendah.  
-Weber, T.M. and Springman, S.M. Numerical modelling of stone columns in soft clay under 
-an embankment. 
- 
- 
+
+pengaruh smear zone dan kondisi tanpa pengaruh smear zone tidak memiliki perbedaan yang signifikan.
+
+Pemodelan dengan kondisi stone column dengan rasio 0.5 memiliki presentase nilai penurunan terkecil dibandingkan dengan pemodelan lainnya dan presentase nilai penurunan terbesar terdapat pada kondisi dengan rasio 0.1.
+
+Nilai persentase waktu konsolidasi stone column dengan pengaruh smear zone dapat mengurangi penurunan tanpa stone column hingga 17% dan nilai persentase waktu penurunan kondisi stone column tanpa pengaruh smear zone dapat mengurangi penurunan tanpa stone column hingga 9%.
+
+Kondisi pada pemodelan dengan pengaruh smear zone memiliki nilai persentase waktu lebih besar dibandingkan dengan nilai persentase pada kondisi pemodelan tanpa smear zone.
+Perbedaan persentase kondisi pemodelan stone column dengan smear zone dan pemodelan stone column tanpa smear zone sebesar hingga 7%.
+
+Pemodelan dengan kondisi stone column dengan rasio 0.5 memiliki presentase nilai penurunan terkecil dibandingkan dengan pemodelan lainnya dan presentase nilai penurunan terbesar terdapat pada kondisi dengan rasio 0.1.
+
+Perbaikan tanah membutuhkan waktu yang cukup lama untuk menghasilkan hasil yang memuaskan, namun dalam pekerjaan lapangan memiliki waktu pekerjaan yang terbatas.
+Sehingga pada umumnya, pekerjaan perbaikan tanah di lapangan membutuhkan waktu 90 hingga 150 hari. Durasi ini membutuhkan rasio jarak dengan diameter stone column sebesar
+0.29 hingga 0.36 pada kondisi pengaruh smear zone dan rasio 0.12 hingga 0.26 kondisi tanpa pengaruh smear zone.
+
+DAFTAR PUSTAKA
+
+Das, Braja M., 1985. Mekanika Tanah : Principle of Geotechnical Engineering
+FHWA-NHI 132034 Ground Improvement Techniques
+FHWA/RD-83/026 Design and Construction of Stone column Vol. I (1983)
+FHWA/RD-83/027 Design and Construction of Stone column Vol. II (1983)
+Hird, C.C., Pyrah, I.C. & Russell, D. 1992. Finite element modelling of vertical drains beneath embankments on soft ground. Géotechnique. 42(3): 499–511
+Indraratna, B. & Redana, I.W. 1997. Plane-Strain Modelling of Smear Effects Associated with
+Vertical Drains. Journal of Geotechnical and Geoenvironmental Engineering (ASCE).
+123(5): 474–478.
+Indraratna, B. & Redana, I.W. 2000. Numerical modelling of vertical drains with smear and well resistance installed in soft clay. Canadian Geotechnical Journal. 37(1): 132–145.
+Indraratna, B, 2013. Numerical Solution of Stone Column Improved Soft Soil Considering
+Arching, Clogging and Smear Effects.
+Pedoman Kimpraswil No: Pt T-10-2002-B Panduan Geoteknik Desain dan Konstruksi.
+Nurtjahjaningtyas, Indra. Efektifitas Penggunaan Stone Column Untuk Mengurangi Besar
+Pemampatan Pada Tanah Dengan Daya Dukung Rendah.
+Weber, T.M. and Springman, S.M. Numerical modelling of stone columns in soft clay under an embankment.

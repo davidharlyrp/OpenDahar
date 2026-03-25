@@ -1,425 +1,212 @@
- 
-Characterisation of a rock slope showing three  
-weather-dominated failure modes 
-M Roustaei  University of Alberta, Canada 
-R Macciotta  University of Alberta, Canada 
-M Hendry  University of Alberta, Canada 
-J Rodriguez  University of Alberta, Canada  
-C Gräpel  Klohn Crippen Berger, Canada 
-R Skirrow  Alberta Transportation, Canada 
- 
-Abstract 
-Climatic conditions and weather events are known landslide precursory factors and triggers. This is 
-particularly the case for a rock slope along a section of highway in the Badlands area of central Alberta. This 
-rock slope displays three modes of failure, which largely depend on the moisture conditions of the materials 
-forming the slope: 1) earthflows associated with heavy rainfall; 2) rockfalls that result from differential 
-weathering rates and undermining of various rock units, and; 3) slides of frozen slabs of highly weathered 
-rock. Experience at the site has shown that these failure modes follow continuous weathering of the slope 
-materials and are dominated by the moisture content of the weathered material (saturated versus 
-unsaturated) and its state (liquid versus frozen). By understanding the weathering processes and influence of 
-precipitation and changing air temperature on the weathered materials, we can start to identify a climatic 
-signature that could help forecast times when the various failure modes could affect the highway below the 
-slope, hence provide cost-effective hazard management solutions. This paper presents findings of a research 
-project initiated to better understand the relationship between slope failure events, its failure modes, and 
-how their timing is influenced by antecedent weather. 
-Keywords: rock slopes, failure modes, weather triggers, remote sensing, material susceptibility 
-1 
-Introduction 
-Climatic conditions and weather events are known landslide precursory factors and triggers. This is 
-particularly the case for a rock slope along a section of highway in the Badlands area of central Alberta, known 
-as site C018 within the geohazard numbering system used by Alberta Transportation (AT). The Badlands are 
-an arid to semi-arid region with little vegetation cover and an eroded and weathered landscape along the 
-Red Deer River. Bedrock and surficial geology maps indicate that this area is part of the Upper Cretaceous 
-Horseshoe Canyon Formation, which is feldspathic sandstone interbedded with siltstone, bentonitic 
-mudstone, carbonaceous mudstone, concretionary sideritic layers, and laterally continuous coal seams; 
-includes white, pedogenically altered sandstone and mudstone interval at the top (formerly assigned to the 
-Whitemud Formation); The formation is non-marine to locally marginal marine (Prior et al. 2013). Wind and 
-water erosion within the Badlands area have created terrain formations such as deep, narrow and winding 
-gullies, dispersive soil features (e.g. sinkholes, tunnels, disappearing streams), steep barren slopes and 
-erosional features like hoodoos and pinnacle rocks. 
-1.1 
-Site C018 
-Site C018 is a 500 m long, 60 m high rock slope along a section of Highway 837 that parallels the Red Deer 
-River at the base of the Red Deer Valley, as shown in Figure 1. This slope is predominantly in a weak, poorly 
+Characterisation of a rock slope showing three weather-dominated failure modes
+M Roustaei University of Alberta, Canada
+R Macciotta University of Alberta, Canada
+M Hendry University of Alberta, Canada
+J Rodriguez University of Alberta, Canada
+C Gräpel Klohn Crippen Berger, Canada
+R Skirrow Alberta Transportation, Canada
+
+Abstract
+Climatic conditions and weather events are known landslide precursory factors and triggers. This is particularly the case for a rock slope along a section of highway in the Badlands area of central Alberta. This rock slope displays three modes of failure, which largely depend on the moisture conditions of the materials forming the slope: 1) earthflows associated with heavy rainfall; 2) rockfalls that result from differential weathering rates and undermining of various rock units, and; 3) slides of frozen slabs of highly weathered rock. Experience at the site has shown that these failure modes follow continuous weathering of the slope materials and are dominated by the moisture content of the weathered material (saturated versus unsaturated) and its state (liquid versus frozen). By understanding the weathering processes and influence of precipitation and changing air temperature on the weathered materials, we can start to identify a climatic signature that could help forecast times when the various failure modes could affect the highway below the slope, hence provide cost-effective hazard management solutions. This paper presents findings of a research project initiated to better understand the relationship between slope failure events, its failure modes, and how their timing is influenced by antecedent weather.
+Keywords: rock slopes, failure modes, weather triggers, remote sensing, material susceptibility
+Introduction
+Climatic conditions and weather events are known landslide precursory factors and triggers. This is particularly the case for a rock slope along a section of highway in the Badlands area of central Alberta, known as site C018 within the geohazard numbering system used by Alberta Transportation (AT). The Badlands are an arid to semi-arid region with little vegetation cover and an eroded and weathered landscape along the
+Red Deer River. Bedrock and surficial geology maps indicate that this area is part of the Upper Cretaceous
+Horseshoe Canyon Formation, which is feldspathic sandstone interbedded with siltstone, bentonitic mudstone, carbonaceous mudstone, concretionary sideritic layers, and laterally continuous coal seams; includes white, pedogenically altered sandstone and mudstone interval at the top (formerly assigned to the
+Whitemud Formation); The formation is non-marine to locally marginal marine (Prior et al. 2013). Wind and water erosion within the Badlands area have created terrain formations such as deep, narrow and winding gullies, dispersive soil features (e.g. sinkholes, tunnels, disappearing streams), steep barren slopes and erosional features like hoodoos and pinnacle rocks.
+1.1
+Site C018
+Site C018 is a 500 m long, 60 m high rock slope along a section of Highway 837 that parallels the Red Deer
+River at the base of the Red Deer Valley, as shown in Figure 1. This slope is predominantly in a weak, poorly
 Slope Stability 2020 - PM Dight (ed.)
 © Australian Centre for Geomechanics, Perth, ISBN 978-0-9876389-7-7
-Slope Stability 2020
-427
-doi:10.36487/ACG_repo/2025_24
- 
-indurated sedimentary rock with layers of stronger sandstone, siltstone, and coal. According to Environment 
-Canada, the weather is characterised by an average 370 mm of combined snow and rainfall per year, with 
-about 70 mm occurring in June. Peak daily rainfalls seldom exceed 50 mm. Temperatures range from 
-seasonal lows of -18.6oC in January to seasonal highs of 26.7oC in July. Extremes temperatures range from a 
-record low of -43.9oC to a record high of 40.6oC. There are approximately 100 freeze-thaw cycles each year. 
-Wind speeds vary throughout the year averaging about 14 km/h with only a slight westerly preference 
-(Government of Canada 2019). 
- 
-Figure 1 
-Location and plan view of site C018 in the province of Alberta, Canada. White dashed line shows 
-the currently active areas of instability. Red dashed line shows the extent of investigation 
-Site C018 has a long history of instabilities with fallen material reaching and blocking the highway. In recent 
-years, three failure events required substantial intervention from maintenance crews: May 2017, an earthflow 
-partially blocked highway at a location where a similar event had occurred several years before; December 
-2017, a rockfall of intact rock blocks and frozen soil/weathered rock occurred after a period of warm weather 
-followed by freezing temperatures; May 2018, a rockfall - slide of an intact block of bedrock, buried highway. 
-Smaller failure volumes are also common at this site and require regular removal of material from the road 
-surface and the narrow ditch at the toe of the slope, with the mode of failure depending on climatic conditions. 
-These observations have led to the conclusion that the slope displays three modes of failure, which largely 
-depend on the moisture conditions of the materials forming the slope: 1) earthflows associated with heavy 
-rainfall; 2) rockfalls that result from differential weathering rates and undermining of various rock units, and; 
-3) slides of frozen slabs of highly weathered rock. Experience at the site has shown that these failure modes 
-follow continuous weathering of the slope materials (caused by precipitation, surface runoff, seepage,  
-freeze-thaw and wet-dry cycles, swelling and desiccation cycles) and are dominated by the moisture content of 
-the weathered material (saturated versus unsaturated) and its state (liquid versus frozen). 
-The objective of this study is to better understand the slope weathering processes and weather conditions 
-leading to instabilities at site C018. This information will inform and enhance AT’s geohazard management 
-strategies for this site and other geohazard sites. Part of the investigations associated with this goal include 
-quantitative assessment of the degradation behaviour of the different slope materials with moisture 
-fluctuations, and quantification of their rates of deterioration. This paper presents preliminary findings 
-related to the active zones at site C018, the mechanisms of disaggregation of the slope materials exposed to 
-water, and how these would relate to the observed failure modes at this site. 
+Slope Stability 2020 doi:10.36487/ACG_repo/2025_24
+
+indurated sedimentary rock with layers of stronger sandstone, siltstone, and coal. According to Environment
+Canada, the weather is characterised by an average 370 mm of combined snow and rainfall per year, with about 70 mm occurring in June. Peak daily rainfalls seldom exceed 50 mm. Temperatures range from seasonal lows of -18.6oC in January to seasonal highs of 26.7oC in July. Extremes temperatures range from a record low of -43.9oC to a record high of 40.6oC. There are approximately 100 freeze-thaw cycles each year.
+Wind speeds vary throughout the year averaging about 14 km/h with only a slight westerly preference
+(Government of Canada 2019).
+
+Figure 1
+Location and plan view of site C018 in the province of Alberta, Canada. White dashed line shows the currently active areas of instability. Red dashed line shows the extent of investigation
+Site C018 has a long history of instabilities with fallen material reaching and blocking the highway. In recent years, three failure events required substantial intervention from maintenance crews: May 2017, an earthflow partially blocked highway at a location where a similar event had occurred several years before; December
+2017, a rockfall of intact rock blocks and frozen soil/weathered rock occurred after a period of warm weather followed by freezing temperatures; May 2018, a rockfall - slide of an intact block of bedrock, buried highway.
+Smaller failure volumes are also common at this site and require regular removal of material from the road surface and the narrow ditch at the toe of the slope, with the mode of failure depending on climatic conditions.
+These observations have led to the conclusion that the slope displays three modes of failure, which largely depend on the moisture conditions of the materials forming the slope: 1) earthflows associated with heavy rainfall; 2) rockfalls that result from differential weathering rates and undermining of various rock units, and;
+3) slides of frozen slabs of highly weathered rock. Experience at the site has shown that these failure modes follow continuous weathering of the slope materials (caused by precipitation, surface runoff, seepage, freeze-thaw and wet-dry cycles, swelling and desiccation cycles) and are dominated by the moisture content of the weathered material (saturated versus unsaturated) and its state (liquid versus frozen).
+The objective of this study is to better understand the slope weathering processes and weather conditions leading to instabilities at site C018. This information will inform and enhance AT’s geohazard management strategies for this site and other geohazard sites. Part of the investigations associated with this goal include quantitative assessment of the degradation behaviour of the different slope materials with moisture fluctuations, and quantification of their rates of deterioration. This paper presents preliminary findings related to the active zones at site C018, the mechanisms of disaggregation of the slope materials exposed to water, and how these would relate to the observed failure modes at this site.
 Characterisation of a rock slope showing three weather-dominated failure modes
 M Roustaei et al.
-428
 Slope Stability 2020
- 
-2 
-Landslide activity and failure modes 
-The slope at site C018 shows extensive signs of weathering processes including deep gullies, sinkholes, weak 
-runoff marks, and pipe or tunnel erosion, as shown in Figure 2. It can also be observed that weathering 
-processes are ubiquitous. Weathering of the exposed bedrock results in a soft soil-like material at surface 
-with the bedrock structure almost eradicated. Discontinuous blocks of more indurated bedrock remain as 
-less weathered cohesive blocks on the slope (Klohn Crippen Berger Ltd 2018). 
- 
-Figure 2 
-Wide and deep gullies, runoff marks and pronounced cracks in exposed rocks of the slope as a 
-result of weathering processes 
-The thickness of the failure events observed at the site suggests these failures are part of an episodic process 
-during which the slope is ‘shedding’ a thin weathered layer. There is an observed lack of heavily vegetated 
-areas with sporadic presence of tufts of grass on the slope that do not appear to have reached maturity. This 
-can be as a result of the continuous weathering process and a lack of growth media on the slope combined 
-with the sodic nature of the bedrock (bentonitic content). This lack of vegetation would further promote the 
-erosion processes. 
-Remote sensing monitoring campaigns were initiated in December of 2017. These consisted of bi-annual 
-Unmanned Aerial Vehicle (UAV) photogrammetry used to provide an enhanced perspective view of the rock 
-slope and to calculate slope volumetric changes. The photogrammetry was obtained using a DJI Phantom 4 
-UAV with its ‘of-the-box’ camera (35 mm equivalent format lens, 12.4 megapixels), and the images were 
-processed using the software Pix4D. Pix4D allows for exporting a point cloud of the photogrammetric surface 
-model which is then imported into the software CloudCompare. CloudCompare is then used to calculate the 
-changes in the slope surface through change detection techniques. In this study, the M3C2 method was used, 
-which consists of comparing the normal distance between two point-clouds within a given sample area. 
-Figure 3 shows the photogrammetry models of site C018 for May 2018, November 2018 and May 2019. The 
-calculated change (material gain or loss perpendicular to the slope) is superimposed to the photographs (in 
-metres) relative to the model for December 2017. Figure 3 includes the detection limits for the slope change 
-calculations (in metres). The detection limit represents the minimum change that can be measured in a 
-reliable manner. In this study, the detection limit was calculated as one standard deviation of the changes 
-calculated at areas that did not present visual changes (mean change of zero). Figure 3 identifies four active 
-zones within the rock slope at site C018 between December 2017 and May 2019. Zones C has presented the 
-most activity, with material losses between 1 and 2 m. Zones A, B and D showed smaller areal extents of 
+
+Landslide activity and failure modes
+The slope at site C018 shows extensive signs of weathering processes including deep gullies, sinkholes, weak runoff marks, and pipe or tunnel erosion, as shown in Figure 2. It can also be observed that weathering processes are ubiquitous. Weathering of the exposed bedrock results in a soft soil-like material at surface with the bedrock structure almost eradicated. Discontinuous blocks of more indurated bedrock remain as less weathered cohesive blocks on the slope (Klohn Crippen Berger Ltd 2018).
+
+Figure 2
+Wide and deep gullies, runoff marks and pronounced cracks in exposed rocks of the slope as a result of weathering processes
+The thickness of the failure events observed at the site suggests these failures are part of an episodic process during which the slope is ‘shedding’ a thin weathered layer. There is an observed lack of heavily vegetated areas with sporadic presence of tufts of grass on the slope that do not appear to have reached maturity. This can be as a result of the continuous weathering process and a lack of growth media on the slope combined with the sodic nature of the bedrock (bentonitic content). This lack of vegetation would further promote the erosion processes.
+Remote sensing monitoring campaigns were initiated in December of 2017. These consisted of bi-annual
+Unmanned Aerial Vehicle (UAV) photogrammetry used to provide an enhanced perspective view of the rock slope and to calculate slope volumetric changes. The photogrammetry was obtained using a DJI Phantom 4
+UAV with its ‘of-the-box’ camera (35 mm equivalent format lens, 12.4 megapixels), and the images were processed using the software Pix4D. Pix4D allows for exporting a point cloud of the photogrammetric surface model which is then imported into the software CloudCompare. CloudCompare is then used to calculate the changes in the slope surface through change detection techniques. In this study, the M3C2 method was used, which consists of comparing the normal distance between two point-clouds within a given sample area.
+Figure 3 shows the photogrammetry models of site C018 for May 2018, November 2018 and May 2019. The calculated change (material gain or loss perpendicular to the slope) is superimposed to the photographs (in metres) relative to the model for December 2017. Figure 3 includes the detection limits for the slope change calculations (in metres). The detection limit represents the minimum change that can be measured in a reliable manner. In this study, the detection limit was calculated as one standard deviation of the changes calculated at areas that did not present visual changes (mean change of zero). Figure 3 identifies four active zones within the rock slope at site C018 between December 2017 and May 2019. Zones C has presented the most activity, with material losses between 1 and 2 m. Zones A, B and D showed smaller areal extents of
 Safety and risk management
 Slope Stability 2020
-429
- 
-activity. It is noted that accumulations at the base of the slope do not reflect detachment volumes because 
-of removal of that material intermittently by the maintenance contractors. 
-Closer examination of the modes of failure attributed to the changes detected in Figure 3 corroborated that 
-failure modes included earth flows of highly weathered material and the development of overhangs that 
-would promote the detachment of blocks from the slope (Figure 4). 
- 
-Figure 3 
-Photogrammetry models of site C018 for May 2018, November 2018 and May 2019. The calculated 
-change (material gain or loss perpendicular to the slope) is superimposed to the photographs 
-(in metres) relative to the model for December 2017. Upper right corner includes the change 
-detection limits in metres for each model. Largest change is indicated in red circles 
- 
-Figure 4 
-Change detection (photogrammetry-based) between December 2017 and May 2018, and 
-photographs of the active areas highlighting earth flows and the development of overhangs of 
-stronger rock 
-The interpreted mechanisms for modes of failure consist of the continuous weathering of the surficial rock 
-materials, mainly due to precipitation, freeze-thaw cycles, and swelling-shrinking processes of the clay 
-fraction of these materials as a response to drying-wetting cycles. This weather processes generate a surface 
+
+activity. It is noted that accumulations at the base of the slope do not reflect detachment volumes because of removal of that material intermittently by the maintenance contractors.
+Closer examination of the modes of failure attributed to the changes detected in Figure 3 corroborated that failure modes included earth flows of highly weathered material and the development of overhangs that would promote the detachment of blocks from the slope (Figure 4).
+
+Figure 3
+Photogrammetry models of site C018 for May 2018, November 2018 and May 2019. The calculated change (material gain or loss perpendicular to the slope) is superimposed to the photographs
+(in metres) relative to the model for December 2017. Upper right corner includes the change detection limits in metres for each model. Largest change is indicated in red circles
+
+Figure 4
+Change detection (photogrammetry-based) between December 2017 and May 2018, and photographs of the active areas highlighting earth flows and the development of overhangs of stronger rock
+The interpreted mechanisms for modes of failure consist of the continuous weathering of the surficial rock materials, mainly due to precipitation, freeze-thaw cycles, and swelling-shrinking processes of the clay fraction of these materials as a response to drying-wetting cycles. This weather processes generate a surface
 Characterisation of a rock slope showing three weather-dominated failure modes
 M Roustaei et al.
-430
 Slope Stability 2020
- 
-layer of soil-like materials that experience a continuous process of cohesion loss. Once a critical strength loss 
-is reached, gains in moisture would allow the development of earthflow events with thicknesses that would 
-correspond to the weathering front into the slope (first mode of failure). 
-The presence of weak, poorly indurated sedimentary rock with layers of stronger sandstone, siltstone, and coal 
-sets the stage for differential weathering of these layers. Progressive mass wasting and earthflow events would 
-undermine stronger rock layers (Figure 4, centre right). Continuous weathering of these blocks and loss of 
-support would lead to block detachments and subsequent rockfall occurrences (Second mode of failure). 
-Prolonged freezing temperatures lead to freezing of near-surface high moisture content of the weathered 
-materials. At the study site highway maintenance crews have observed blocks and slabs of frozen weathered 
-material sliding and subsequently falling/rolling towards the highway. This is attributed to temperature 
-changes leading to volumetric changes, in turn generating separation of these frozen weathered materials 
-from less weathered rock; and the potential for seepage to be blocked by the frozen surface layers, resulting 
-in detachment of the block by hydrostatic force (third mode of failure). 
-The qualitative understanding described is an important first step towards enhancing the slope management 
-strategies for AT. It is recognised that a deeper understanding between failure modes, their frequency and 
-weather conditions is required in order to develop a robust, weather-based slope hazard management 
-framework. This work would include a better characterisation of the weather susceptibility and erosion rates 
-of the rock materials at the C018 site, as well as statistical correlations of antecedent weather patterns 
-(weather signatures) to large events with the potential to block the highway. The following section includes 
-the work done to date for characterising the weather susceptibility and erosion rates of the rock materials at 
-the C018 site. 
-3 
-Material susceptibility to moisture conditions 
-The rate of disintegration for many rock types has been inferred to be highly dependent on water absorption 
-capacity and bulk specific gravity (Robinson and Williams 2000, Nicholson 2001, Diop et al. 2008). Some other 
-experimental results show that the content of montmorillonite and the size of voids appear to have a highly 
-significant control on slaking rates of shale and tuff under cyclic wetting and drying conditions (Matsukura & 
-Yatsu 1982).Therefore, the first step for evaluating the water susceptibility of rock samples is to undertake 
-the following preliminary experimental tests: 1) Water reaction test in order to observe the swelling and 
-slaking potential of samples 2) Slaking durability test in order to quantify the rate of deterioration of samples 
-when contacted with water 3) Wetting-drying cycles in order to clarify the response of these materials to 
-cyclic wetting and drying environmental conditions. 
-3.1 
-Methods 
-Three rock samples were collected from different rock layers during a site visit in November 2018 (Figure 5). 
-The samples were obtained near the base of the slope and consisted of fine sandstone and siltstones with 
-different levels of cementation and fines content. 
-3.1.1 
-Water reaction test 
-For this test the soil sample is immersed in water, and visual observations are performed. Swelling clay 
-minerals develop cracks and flake off or break into smaller parts as they increase in volume. The swelling 
-process slows down and eventually the sample may exhibit complete disaggregation. The lesser the time 
-required to reach complete disaggregation, the greater the swelling and slaking potential (International 
-Society for Rock Mechanics [ISRM] 1994). 
+
+layer of soil-like materials that experience a continuous process of cohesion loss. Once a critical strength loss is reached, gains in moisture would allow the development of earthflow events with thicknesses that would correspond to the weathering front into the slope (first mode of failure).
+The presence of weak, poorly indurated sedimentary rock with layers of stronger sandstone, siltstone, and coal sets the stage for differential weathering of these layers. Progressive mass wasting and earthflow events would undermine stronger rock layers (Figure 4, centre right). Continuous weathering of these blocks and loss of support would lead to block detachments and subsequent rockfall occurrences (Second mode of failure).
+Prolonged freezing temperatures lead to freezing of near-surface high moisture content of the weathered materials. At the study site highway maintenance crews have observed blocks and slabs of frozen weathered material sliding and subsequently falling/rolling towards the highway. This is attributed to temperature changes leading to volumetric changes, in turn generating separation of these frozen weathered materials from less weathered rock; and the potential for seepage to be blocked by the frozen surface layers, resulting in detachment of the block by hydrostatic force (third mode of failure).
+The qualitative understanding described is an important first step towards enhancing the slope management strategies for AT. It is recognised that a deeper understanding between failure modes, their frequency and weather conditions is required in order to develop a robust, weather-based slope hazard management framework. This work would include a better characterisation of the weather susceptibility and erosion rates of the rock materials at the C018 site, as well as statistical correlations of antecedent weather patterns
+(weather signatures) to large events with the potential to block the highway. The following section includes the work done to date for characterising the weather susceptibility and erosion rates of the rock materials at the C018 site.
+Material susceptibility to moisture conditions
+The rate of disintegration for many rock types has been inferred to be highly dependent on water absorption capacity and bulk specific gravity (Robinson and Williams 2000, Nicholson 2001, Diop et al. 2008). Some other experimental results show that the content of montmorillonite and the size of voids appear to have a highly significant control on slaking rates of shale and tuff under cyclic wetting and drying conditions (Matsukura &
+Yatsu 1982).Therefore, the first step for evaluating the water susceptibility of rock samples is to undertake the following preliminary experimental tests: 1) Water reaction test in order to observe the swelling and slaking potential of samples 2) Slaking durability test in order to quantify the rate of deterioration of samples when contacted with water 3) Wetting-drying cycles in order to clarify the response of these materials to cyclic wetting and drying environmental conditions.
+3.1
+Methods
+Three rock samples were collected from different rock layers during a site visit in November 2018 (Figure 5).
+The samples were obtained near the base of the slope and consisted of fine sandstone and siltstones with different levels of cementation and fines content.
+3.1.1
+Water reaction test
+For this test the soil sample is immersed in water, and visual observations are performed. Swelling clay minerals develop cracks and flake off or break into smaller parts as they increase in volume. The swelling process slows down and eventually the sample may exhibit complete disaggregation. The lesser the time required to reach complete disaggregation, the greater the swelling and slaking potential (International
+Society for Rock Mechanics [ISRM] 1994).
 Safety and risk management
 Slope Stability 2020
-431
+
+Figure 5
+Views of location where samples were collected from different rock materials. The figure shows surface moisture after precipitation event
+3.1.2
+Slake durability test
+This test was developed and improved by Franklin & Chandra (1971) as a standard test for rocks to provide an index that is related to resistance of rock against degradation when subjected to two wetting and drying cycles (ISRM 2007). This parameter is considered critical for understanding the durability and behaviour of shales and other clay-bearing rocks and similar weak rocks (Ankara et al. 2016). The apparatus consists of a metal drum comprising a 2 mm standard mesh cylinder with a length of 100 mm and diameter of 140 mm, with solid fixed base and a motor drive capable of rotating the drum at a speed of 20 rpm. The rotation speed is held constant for a period of 10 minutes in a slaking fluid. Our testing used tap water at 20oC. The standard recommends using 10 samples of the same material, each with a mass between 40 and 60 grams, and profiles as close to spherical as possible. No spherical samples were found and selection focused on the ratios between sample length, width and height to be approximately 1.
+The slake durability index is calculated as the ratio of final to initial dry sample masses as a percentage
+(ISRM 2007):
+
  
- 
-Figure 5 
-Views of location where samples were collected from different rock materials. The figure shows 
-surface moisture after precipitation event 
-3.1.2 
-Slake durability test 
-This test was developed and improved by Franklin & Chandra (1971) as a standard test for rocks to provide 
-an index that is related to resistance of rock against degradation when subjected to two wetting and drying 
-cycles (ISRM 2007). This parameter is considered critical for understanding the durability and behaviour of 
-shales and other clay-bearing rocks and similar weak rocks (Ankara et al. 2016). The apparatus consists of a 
-metal drum comprising a 2 mm standard mesh cylinder with a length of 100 mm and diameter of 140 mm, 
-with solid fixed base and a motor drive capable of rotating the drum at a speed of 20 rpm. The rotation speed 
-is held constant for a period of 10 minutes in a slaking fluid. Our testing used tap water at 20oC. The standard 
-recommends using 10 samples of the same material, each with a mass between 40 and 60 grams, and profiles 
-as close to spherical as possible. No spherical samples were found and selection focused on the ratios 
-between sample length, width and height to be approximately 1. 
-The slake durability index is calculated as the ratio of final to initial dry sample masses as a percentage 
-(ISRM 2007): 
- 
- 
-
- 
- 100% 
-(1) 
-Where D is the weight of the empty drum, A is the weight of the drum full of dried samples before the test 
-and C is the same weight of the full drum after two slaking tests. The index for the second sample can be 
-used for rock classification (Gamble 1971). Samples with second cycle indexes lower than 10% require 
-characterisation by their first cycle slake durability indexes. 
-3.1.3 
-Wetting-drying cycles 
-These cycles consisted of freely submerging the specimen in water until it was saturated, then placing it into 
-a 105℃ oven to be fully dried, and then cooling it to room temperature (Diop et al. 2008). Changes in sample 
-weights are measured in order to better understand the wetting and drying weathering process reflected as 
+
+
+100%
+(1)
+Where D is the weight of the empty drum, A is the weight of the drum full of dried samples before the test and C is the same weight of the full drum after two slaking tests. The index for the second sample can be used for rock classification (Gamble 1971). Samples with second cycle indexes lower than 10% require characterisation by their first cycle slake durability indexes.
+3.1.3
+Wetting-drying cycles
+These cycles consisted of freely submerging the specimen in water until it was saturated, then placing it into a 105℃ oven to be fully dried, and then cooling it to room temperature (Diop et al. 2008). Changes in sample weights are measured in order to better understand the wetting and drying weathering process reflected as
 Characterisation of a rock slope showing three weather-dominated failure modes
 M Roustaei et al.
-432
 Slope Stability 2020
- 
-a loss of material. Observations also provide insight into the potential effects of wetting and drying on the 
-mechanism of fracturing and breakdown of rock materials. The modified water evaporation index is defined 
-as the moisture loss from saturation, after seven hours of oven drying at 60℃. This index has been associated 
-with the volume of connected coarse pores in the rock samples (Diop et al. 2008). The index is calculated as: 
- 
- 
-
+
+a loss of material. Observations also provide insight into the potential effects of wetting and drying on the mechanism of fracturing and breakdown of rock materials. The modified water evaporation index is defined as the moisture loss from saturation, after seven hours of oven drying at 60℃. This index has been associated with the volume of connected coarse pores in the rock samples (Diop et al. 2008). The index is calculated as:
+
+ 
+
 
- 100  
-(2) 
-Where W2 is the weight of the sample after submerging in water and W3 is the weight of the same sample 
-after drying. 
-3.2 
-Results 
-Water reaction tests were performed on three samples to observe the degradation of the material after 
-being submerged on water for up to six days. This process resulted in a deterioration of the structure of the 
-material. Figure 6 shows the sequential process of these samples reacting to water immersion at 0 and 
-30 minutes, one day and six days. Samples 1 and 3 appeared to be disaggregating after 1 day, while Sample 
-2 showed more resistance. It was noticed that at six days samples 1 and 3 completely lost any sign of their 
-initial structure. Sample 3 showed the most swelling potential, before disaggregating completely. This 
-suggests that the clay fraction for this specimen dominates in its behaviour. 
- 
-Figure 6 
-Water reaction results after six days 
-Figure 7 shows the changes in the profiles of samples after five slaking cycles. It can be seen that Samples 1 
-and 3 have more slaking potential and significantly deteriorated more during the test, in comparison to 
-Sample 2. The slaking durability indexes of these three rock samples were calculated through equation 1 after 
-each test and the results were plotted versus the number of slaking cycles in Figure 8(a). This figure shows 
-the slaking indexes of Samples 1 and 3 decreased significantly during the cycle while Sample 2 was more 
-resistant. The reductions of these indexes are 7%, 40% and 47% for Samples 2, 1, and 3 respectively. 
+(2)
+Where W2 is the weight of the sample after submerging in water and W3 is the weight of the same sample after drying.
+3.2
+Results
+Water reaction tests were performed on three samples to observe the degradation of the material after being submerged on water for up to six days. This process resulted in a deterioration of the structure of the material. Figure 6 shows the sequential process of these samples reacting to water immersion at 0 and
+30 minutes, one day and six days. Samples 1 and 3 appeared to be disaggregating after 1 day, while Sample
+2 showed more resistance. It was noticed that at six days samples 1 and 3 completely lost any sign of their initial structure. Sample 3 showed the most swelling potential, before disaggregating completely. This suggests that the clay fraction for this specimen dominates in its behaviour.
+
+Figure 6
+Water reaction results after six days
+Figure 7 shows the changes in the profiles of samples after five slaking cycles. It can be seen that Samples 1 and 3 have more slaking potential and significantly deteriorated more during the test, in comparison to
+Sample 2. The slaking durability indexes of these three rock samples were calculated through equation 1 after each test and the results were plotted versus the number of slaking cycles in Figure 8(a). This figure shows the slaking indexes of Samples 1 and 3 decreased significantly during the cycle while Sample 2 was more resistant. The reductions of these indexes are 7%, 40% and 47% for Samples 2, 1, and 3 respectively.
 Safety and risk management
 Slope Stability 2020
-433
- 
-Results were also compared against the findings by Gamble (1971), which provide insights into the material 
-behaviour class according its slaking durability index (Figure 8b).  
- 
-Figure 7 
-Slaking durability results after five cycles 
- 
-(a) 
-(b) 
-Figure 8 
-(a) Slaking durability indexes after five cycles and (b) Slaking durability indexes and rock types 
-This classification has six classes of durability: very high (100–98%), high (98–95%), medium high (95–85%), 
-medium (85–60%), low (60–30%), and very low (30–0%). Moreover, Masada and Han (2013), McGlade 
-et al. (1982) and Underwood (1967) found that ranges of this index could be correlated with the behaviour of 
-siltstones (65–90%), shales (20–90%) and claystones (0–60%). According to these studies and observations of 
-the tested materials, Sample 1 behaves as a weak sandstone, Sample 2 as a hard shale or siltstone, and Sample 3 
-as a weak dispersive siltstone or claystone. 
-Water reaction tests showed significant disaggregation of two samples after two hours and immersion of the 
-samples was reduced to 45 minutes in the wetting-drying cycle tests. This modification to test procedures 
+
+Results were also compared against the findings by Gamble (1971), which provide insights into the material behaviour class according its slaking durability index (Figure 8b).
+
+Figure 7
+Slaking durability results after five cycles
+
+(a)
+(b)
+Figure 8
+(a) Slaking durability indexes after five cycles and (b) Slaking durability indexes and rock types
+This classification has six classes of durability: very high (100–98%), high (98–95%), medium high (95–85%), medium (85–60%), low (60–30%), and very low (30–0%). Moreover, Masada and Han (2013), McGlade et al. (1982) and Underwood (1967) found that ranges of this index could be correlated with the behaviour of siltstones (65–90%), shales (20–90%) and claystones (0–60%). According to these studies and observations of the tested materials, Sample 1 behaves as a weak sandstone, Sample 2 as a hard shale or siltstone, and Sample 3 as a weak dispersive siltstone or claystone.
+Water reaction tests showed significant disaggregation of two samples after two hours and immersion of the samples was reduced to 45 minutes in the wetting-drying cycle tests. This modification to test procedures
 Characterisation of a rock slope showing three weather-dominated failure modes
 M Roustaei et al.
-434
 Slope Stability 2020
- 
-was considered for interpretation when comparing these results to other studies that maintain samples 
-submerged for longer periods of time which might achieve higher degrees of saturation. 
-Figure 9(a) shows sample material loss after each wetting-drying cycle. This figure shows that Samples 1 and 
-3 have faster rates of breakdown than Sample 1. The percentage of the weight of the sample remaining 
-compared to the original weight is also plotted versus the number of cycles in Figure 9(b). 
- 
-(a) 
-(b) 
-Figure 9 
-(a) Percentage of material weight after five wetting-drying cycles and (b) visual aspect of samples 
-for the three materials tested 
-These results showed that just five wetting-drying cycles can disaggregate 11% and 18% of Samples 1 and 3, 
-respectively. Only 1% is loss for Sample 2 under the same conditions. Figure 10 shows the water evaporation 
-indexes after each wetting-drying cycle. The water evaporation index of Sample 3 increases significantly with 
-number of cycles when compared to Samples 1 and 2. This increasing trend is associated with an increase in 
-the number and size of pores and microfissures (Diop et al. 2008). This suggests that materials represented 
-by Sample 3 exhibit higher swelling behaviour than other materials in the slope. 
- 
-Figure 10 Water evaporation indexes of the rock samples after five wetting-drying cycles 
+
+was considered for interpretation when comparing these results to other studies that maintain samples submerged for longer periods of time which might achieve higher degrees of saturation.
+Figure 9(a) shows sample material loss after each wetting-drying cycle. This figure shows that Samples 1 and
+3 have faster rates of breakdown than Sample 1. The percentage of the weight of the sample remaining compared to the original weight is also plotted versus the number of cycles in Figure 9(b).
+
+(a)
+(b)
+Figure 9
+(a) Percentage of material weight after five wetting-drying cycles and (b) visual aspect of samples for the three materials tested
+These results showed that just five wetting-drying cycles can disaggregate 11% and 18% of Samples 1 and 3, respectively. Only 1% is loss for Sample 2 under the same conditions. Figure 10 shows the water evaporation indexes after each wetting-drying cycle. The water evaporation index of Sample 3 increases significantly with number of cycles when compared to Samples 1 and 2. This increasing trend is associated with an increase in the number and size of pores and microfissures (Diop et al. 2008). This suggests that materials represented by Sample 3 exhibit higher swelling behaviour than other materials in the slope.
+
+Figure 10 Water evaporation indexes of the rock samples after five wetting-drying cycles
 Safety and risk management
 Slope Stability 2020
-435
- 
-4 
-Discussion and conclusion 
-Site C018, a 500 m long, 60 m high rock slope along a section of highway, displays extensive signs of multiple 
-weathering processes that result in near eradication of the exposed bedrock structure and produce a soft 
-soil-like material. Discontinuous blocks of more indurated bedrock remain as less weathered blocks on the 
-slope. This site has shown a long history of instabilities, mostly associated with moisture conditions of the 
-near-surface slope materials (moisture content and liquid/solid state). The observed failure modes include 
-1) earthflows associated with heavy rainfall; 2) rockfalls that result from differential weathering rates and 
-undermining of various rock units, and; 3) slides of frozen slabs of highly weathered rock. These are 
-schematically illustrated in Figure 11 and discussed in more detail. 
- 
-Figure 11 Modes of failure identified at the site, and their development mechanisms for (a) earthflows, 
-(b) rockfalls, and (c) slides of frozen slabs 
-The slope weathering activity appears to be ubiquitous across site C018. However, monitoring of the slope 
-through remote sensing techniques suggest that most slope deterioration activity is concentrated in four 
-locations. Ongoing observations will determine if the onset of these zones of instability show an uphill 
-retrogression trend or if the activity migrates laterally within the slope. The slope has shown to be active at 
-least for the monitoring period of December 2017 to May 2019, with no signs of stopping by the time this 
-paper was submitted. 
-It was recognised that a deeper understanding between failure modes, their frequency and weather 
-conditions is required in order to develop a robust, weather-based slope hazard management framework. 
-This work requires a better characterisation of the weather susceptibility and erosion rates of the rock 
-materials at the C018 site, as well as statistical correlations of antecedent weather patterns (weather 
-signatures) to large events with the potential to block the highway. The work presented here validates some 
-of the hypothesis on the precursory factors and the development of the failure modes observed. 
-The surficial rock materials continuous weather due to: precipitation, freeze-thaw cycles, and  
-swelling-shrinking in response to drying-wetting cycles. Field observations suggest the bedrock is highly 
-susceptible to these processes and conditions, and these observations are confirmed by the laboratory tests. 
+
+Discussion and conclusion
+Site C018, a 500 m long, 60 m high rock slope along a section of highway, displays extensive signs of multiple weathering processes that result in near eradication of the exposed bedrock structure and produce a soft soil-like material. Discontinuous blocks of more indurated bedrock remain as less weathered blocks on the slope. This site has shown a long history of instabilities, mostly associated with moisture conditions of the near-surface slope materials (moisture content and liquid/solid state). The observed failure modes include
+1) earthflows associated with heavy rainfall; 2) rockfalls that result from differential weathering rates and undermining of various rock units, and; 3) slides of frozen slabs of highly weathered rock. These are schematically illustrated in Figure 11 and discussed in more detail.
+
+Figure 11 Modes of failure identified at the site, and their development mechanisms for (a) earthflows,
+(b) rockfalls, and (c) slides of frozen slabs
+The slope weathering activity appears to be ubiquitous across site C018. However, monitoring of the slope through remote sensing techniques suggest that most slope deterioration activity is concentrated in four locations. Ongoing observations will determine if the onset of these zones of instability show an uphill retrogression trend or if the activity migrates laterally within the slope. The slope has shown to be active at least for the monitoring period of December 2017 to May 2019, with no signs of stopping by the time this paper was submitted.
+It was recognised that a deeper understanding between failure modes, their frequency and weather conditions is required in order to develop a robust, weather-based slope hazard management framework.
+This work requires a better characterisation of the weather susceptibility and erosion rates of the rock materials at the C018 site, as well as statistical correlations of antecedent weather patterns (weather signatures) to large events with the potential to block the highway. The work presented here validates some of the hypothesis on the precursory factors and the development of the failure modes observed.
+The surficial rock materials continuous weather due to: precipitation, freeze-thaw cycles, and swelling-shrinking in response to drying-wetting cycles. Field observations suggest the bedrock is highly susceptible to these processes and conditions, and these observations are confirmed by the laboratory tests.
 Characterisation of a rock slope showing three weather-dominated failure modes
 M Roustaei et al.
-436
 Slope Stability 2020
- 
-These weathering processes generate a surface layer of soil-like materials that experience cohesion loss. 
-Once a critical strength loss is reached, further increases in moisture content would allow the development 
-of earthflow events with thicknesses that would correspond to the weathering front into the slope (first 
-mode of failure). The different susceptibility of these materials, as shown in the laboratory tests, would lead 
-to earth flows with a variety of clast sizes embedded into a mud-like matrix. The study found that some of 
-these materials react quickly to moisture, which suggests that these dispersive soils are an important 
-contributing factor to the failure modes observed. Dispersive soils erode readily, and concentrated surface 
-water flow from farmland runoff upslope from the site or during heavy precipitation events would be a 
-contributing factor to the earthflow failure mode. 
-The presence of weak, poorly indurated sedimentary rock with layers of stronger sandstone, siltstone, and 
-coal sets the stage for differential weathering of these layers. The different degree of susceptibility of the 
-various bedrock facies in this slope to moisture content, wetting-drying and freeze-thaw cycles results in 
-differential weathering rates. Some bedrock layers weather faster than others, which increases the potential 
-for stronger layers of bedrock to be undermined. This increases the likelihood of rockfalls and slides of intact 
-bedrock blocks (second mode of failure). This phenomenon has been observed in some locations of the slope 
-as shown in Figure 4. 
-Progressive mass wasting and earthflow events would also undermine stronger rock layers. Continuous 
-weathering of these blocks and loss of support would lead to block detachments and subsequent rockfall 
-occurrences. During the colder months of the year, freezing temperatures commonly lead to freezing of high 
-moisture weathered materials. Blocks and slabs of frozen weather material have been observed sliding and 
-subsequently falling/rolling towards the highway. Although more research is needed at this site regarding 
-the material response to freeze-thaw cycles, the phenomena described can be attributed to temperature 
-changes leading to volumetric changes, in turn generating separation of these frozen weathered materials 
-from less weathered rock; and the potential for seepage to be blocked by the frozen surface layers, resulting 
-in detachment of the block by hydrostatic force (third mode of failure). 
-Ongoing work towards quantifying the relationship between these failure modes and climatic conditions is 
-focusing now on continuing building a database of slope instabilities and the antecedent weather. These will 
-allow for probabilistic approaches towards quantifying the likelihood of each failure mode under a set of 
-climatic conditions. Furthermore, more detailed geological profiles of the slope are being constructed to 
-show the location of the changes in facies. This will allow an increased understanding of the potential failure 
-volumes for the rockfall failure mode. Furthermore, this ongoing study has potential applications at other 
-natural and cut slopes within the Alberta Badlands, and ultimately could provide hazard mitigation strategies 
-and design guidelines for such slopes. 
-Acknowledgement 
-This research was made possible through the collaboration of AT and Klohn Crippen Berger, as well as through 
-the Railway Ground Hazard Research Program, funded in part by Natural Sciences and Engineering Research 
-Council of Canada, the Canadian Pacific and Canadian National Railway. Our special thanks also to Dr Derek 
-Apel at the University of Alberta and Tony Penney, P.Eng. of AT. 
-References 
-Ankara, H, Çiçek, F, Deniz, IT, Uçak, E & Kandemir, SY 2016, ‘Determination of Slake Durability Index (Sdi) Values on Different Shape 
-of Laminated Marl Samples’, IOP Conf. Series: Earth and Environmental Science, p. 44. 
-Diop, S, Ogawa, Y & Zhang, M 2008, Effects of Cyclic Wetting and Drying on Physical and Mechanical Properties of Neogene 
-Sandstones and Siltstones from Boso Peninsula, Japan, The Journal of the Geological Society of Japan, vol. 49, issue 3,  
-pp. 150–163. 
-Franklin JA & Chandra, R 1971, ‘The slake-durability test’, International Journal of Rock Mechanics and Mining Sciences & 
-Geomechanics Abstracts, vol. 9, pp. 325–328. 
-Gamble JC 1971, Durability-plasticity classification of shales and other agrillaceous rocks, PhD thesis, University of Illinois, Champaign. 
+
+These weathering processes generate a surface layer of soil-like materials that experience cohesion loss.
+Once a critical strength loss is reached, further increases in moisture content would allow the development of earthflow events with thicknesses that would correspond to the weathering front into the slope (first mode of failure). The different susceptibility of these materials, as shown in the laboratory tests, would lead to earth flows with a variety of clast sizes embedded into a mud-like matrix. The study found that some of these materials react quickly to moisture, which suggests that these dispersive soils are an important contributing factor to the failure modes observed. Dispersive soils erode readily, and concentrated surface water flow from farmland runoff upslope from the site or during heavy precipitation events would be a contributing factor to the earthflow failure mode.
+The presence of weak, poorly indurated sedimentary rock with layers of stronger sandstone, siltstone, and coal sets the stage for differential weathering of these layers. The different degree of susceptibility of the various bedrock facies in this slope to moisture content, wetting-drying and freeze-thaw cycles results in differential weathering rates. Some bedrock layers weather faster than others, which increases the potential for stronger layers of bedrock to be undermined. This increases the likelihood of rockfalls and slides of intact bedrock blocks (second mode of failure). This phenomenon has been observed in some locations of the slope as shown in Figure 4.
+Progressive mass wasting and earthflow events would also undermine stronger rock layers. Continuous weathering of these blocks and loss of support would lead to block detachments and subsequent rockfall occurrences. During the colder months of the year, freezing temperatures commonly lead to freezing of high moisture weathered materials. Blocks and slabs of frozen weather material have been observed sliding and subsequently falling/rolling towards the highway. Although more research is needed at this site regarding the material response to freeze-thaw cycles, the phenomena described can be attributed to temperature changes leading to volumetric changes, in turn generating separation of these frozen weathered materials from less weathered rock; and the potential for seepage to be blocked by the frozen surface layers, resulting in detachment of the block by hydrostatic force (third mode of failure).
+Ongoing work towards quantifying the relationship between these failure modes and climatic conditions is focusing now on continuing building a database of slope instabilities and the antecedent weather. These will allow for probabilistic approaches towards quantifying the likelihood of each failure mode under a set of climatic conditions. Furthermore, more detailed geological profiles of the slope are being constructed to show the location of the changes in facies. This will allow an increased understanding of the potential failure volumes for the rockfall failure mode. Furthermore, this ongoing study has potential applications at other natural and cut slopes within the Alberta Badlands, and ultimately could provide hazard mitigation strategies and design guidelines for such slopes.
+Acknowledgement
+This research was made possible through the collaboration of AT and Klohn Crippen Berger, as well as through the Railway Ground Hazard Research Program, funded in part by Natural Sciences and Engineering Research
+Council of Canada, the Canadian Pacific and Canadian National Railway. Our special thanks also to Dr Derek
+Apel at the University of Alberta and Tony Penney, P.Eng. of AT.
+References
+Ankara, H, Çiçek, F, Deniz, IT, Uçak, E & Kandemir, SY 2016, ‘Determination of Slake Durability Index (Sdi) Values on Different Shape of Laminated Marl Samples’, IOP Conf. Series: Earth and Environmental Science, p. 44.
+Diop, S, Ogawa, Y & Zhang, M 2008, Effects of Cyclic Wetting and Drying on Physical and Mechanical Properties of Neogene
+Sandstones and Siltstones from Boso Peninsula, Japan, The Journal of the Geological Society of Japan, vol. 49, issue 3, pp. 150–163.
+Franklin JA & Chandra, R 1971, ‘The slake-durability test’, International Journal of Rock Mechanics and Mining Sciences &
+Geomechanics Abstracts, vol. 9, pp. 325–328.
+Gamble JC 1971, Durability-plasticity classification of shales and other agrillaceous rocks, PhD thesis, University of Illinois, Champaign.
 Safety and risk management
 Slope Stability 2020
-437
- 
-Government of Canada 2019, Station Results - Historical Data, Morrin AGDM Station, https://climate.weather.gc.ca/historical_data/ 
-search_historic_data_stations_e.html?searchType=stnName&timeframe=1&txtStationName=morrin+agdm&searchMethod
-=contains&optLimit=yearRange&StartYear=1840&EndYear=2019&Year=2019&Month=10&Day=2&selRowPerPage=25 
-International Society for Rock Mechanics 1994, Suggested Methods for Rapid Field Identification of Swelling and Slaking Rocks. 
-International Society for Rock Mechanics 2007, ISRM Suggested Methods for Rock Characterization, Testing and Monitoring,  
-1974–2006, Suggested Methods Prepared by The Commission o Testing Methods, R Ulusay & JA Hudson (eds), International 
-Society for Rock Mechanics. 
-Klohn Crippen Berger Ltd 2018, CON0017608 Central Region GRMP – Call-Out Report, C018 Hwy 837:02 Call-Out Report, 
-http://www.transportation.alberta.ca/planningtools/GMS/Annual%20Landslides%20Assessments/Central%20Region/Inspe
-ction%20Sites/837_02%20(C18)%20-%20Red%20Deer%20River%20Scour%201.9km%20from%20SH575/Reports/Call% 
-20Out%20Reports/2018%20C018%20Call%20Out%20Report.pdf 
-Masada, T & Han, X 2013, Rock Mass Classification System: Transition from RMR to GSI, Ohio Department of Transportation. 
-Matsukura, Y & Yatsu, E 1982, ‘Wet-dry slaking of tertiary shale and tuff’, Transactions Japanese Geomorphological Union, vol. 3, 
-pp. 25–39. 
-McGlade, WG, Geyer, AR & Wilshusen, JP 1982, Engineering characteristics of the rocks of Pennsylvania, 2nd ed., Pennsylvania 
-Geological Survey. 
-Nicholson, DT 2001, ‘Pore properties as indicators of breakdown mechanisms in experimentally weathered limestones’, Earth Surface 
-Processes and Landforms, vol. 26, pp. 819–838. 
-Prior, GJ, Hathway, B, Glombick, PM, Pana, DI, Banks, CJ, Hay, DC,… & Weiss, JA 2013, Bedrock Geology of Alberta, AER/AGS Map 
-600, Scale 1:1,000,000. To Accompany AGS Open File Report 2013-02, https://ags.aer.ca/document/OFR/OFR_2013_02.pdf 
-Robinson, DA & Williams, RBG 2000, ‘Experimental weathering of sandstone by combinations of salts’, Earth Surface Processes and 
-Landforms, vol. 25, pp. 1309–1315. 
-Underwood, LB 1967, ‘Classification and Identification of Shales’, Journal of the Soil Mechanics and Foundations Division, vol. 93, 
-issue 6, pp. 97–116. 
+
+Government of Canada 2019, Station Results - Historical Data, Morrin AGDM Station, https://climate.weather.gc.ca/historical_data/ search_historic_data_stations_e.html?searchType=stnName&timeframe=1&txtStationName=morrin+agdm&searchMethod
+=contains&optLimit=yearRange&StartYear=1840&EndYear=2019&Year=2019&Month=10&Day=2&selRowPerPage=25
+International Society for Rock Mechanics 1994, Suggested Methods for Rapid Field Identification of Swelling and Slaking Rocks.
+International Society for Rock Mechanics 2007, ISRM Suggested Methods for Rock Characterization, Testing and Monitoring,
+1974–2006, Suggested Methods Prepared by The Commission o Testing Methods, R Ulusay & JA Hudson (eds), International
+Society for Rock Mechanics.
+Klohn Crippen Berger Ltd 2018, CON0017608 Central Region GRMP – Call-Out Report, C018 Hwy 837:02 Call-Out Report, http://www.transportation.alberta.ca/planningtools/GMS/Annual%20Landslides%20Assessments/Central%20Region/Inspe ction%20Sites/837_02%20(C18)%20-%20Red%20Deer%20River%20Scour%201.9km%20from%20SH575/Reports/Call%
+20Out%20Reports/2018%20C018%20Call%20Out%20Report.pdf
+Masada, T & Han, X 2013, Rock Mass Classification System: Transition from RMR to GSI, Ohio Department of Transportation.
+Matsukura, Y & Yatsu, E 1982, ‘Wet-dry slaking of tertiary shale and tuff’, Transactions Japanese Geomorphological Union, vol. 3, pp. 25–39.
+McGlade, WG, Geyer, AR & Wilshusen, JP 1982, Engineering characteristics of the rocks of Pennsylvania, 2nd ed., Pennsylvania
+Geological Survey.
+Nicholson, DT 2001, ‘Pore properties as indicators of breakdown mechanisms in experimentally weathered limestones’, Earth Surface
+Processes and Landforms, vol. 26, pp. 819–838.
+Prior, GJ, Hathway, B, Glombick, PM, Pana, DI, Banks, CJ, Hay, DC,… & Weiss, JA 2013, Bedrock Geology of Alberta, AER/AGS Map
+600, Scale 1:1,000,000. To Accompany AGS Open File Report 2013-02, https://ags.aer.ca/document/OFR/OFR_2013_02.pdf
+Robinson, DA & Williams, RBG 2000, ‘Experimental weathering of sandstone by combinations of salts’, Earth Surface Processes and
+Landforms, vol. 25, pp. 1309–1315.
+Underwood, LB 1967, ‘Classification and Identification of Shales’, Journal of the Soil Mechanics and Foundations Division, vol. 93, issue 6, pp. 97–116.
 Characterisation of a rock slope showing three weather-dominated failure modes
 M Roustaei et al.
-438
 Slope Stability 2020

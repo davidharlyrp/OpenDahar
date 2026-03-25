@@ -1,0 +1,305 @@
+Geophysics
+Geophysics (/ˌdʒiːoʊˈfɪzɪks/) is a physical science concerned with the processes and properties of Earth and its surrounding space environment, studied using quantitative and observational methods. It focuses primarily on Earth’s shape and its gravitational, magnetic, and electromagnetic fields. It also studies internal structure, composition, and dynamics, and their surface expression in tectonics, volcanism, and rock formation. Geophysics also encompasses a broader Earth-system and planetary perspective, including the oceans, atmosphere, cryosphere, ionosphere, magnetosphere, as well as solar–terrestrial interactions and analogous processes on the Moon, other planets, and their satellites.[1][2][3][4][5][6]
+It is one of the oldest sciences, dating back to antiquity with the development of early seismometers and magnetic compasses, and later extending to Newtonian analyses of tides, precession, and Earth’s physical properties. Today, geophysics is pursued for fundamental scientific understanding and practical applications, including the exploration of mineral and energy resources, assessment and mitigation of natural hazards, groundwater and environmental studies, archaeological investigations, and environmental monitoring.[2]
+Geophysics integrates theory, observation, and experiment to investigate Earth and planetary systems across diverse spatial and temporal scales. Its methods include field measurements, laboratory experiments, remote sensing, numerical modelling, and data analysis of both natural and instrumented records, including signal processing. As a unifying physical framework for Earth and planetary studies, geophysics connects phenomena from the deep interior to the upper atmosphere and near-space environment, providing the basis for understanding of planetary evolution, dynamics, and habitability.
+Geophysics is a highly interdisciplinary subject, and geophysicists contribute to every area of the Earth sciences, while some geophysicists conduct research in the planetary sciences. To provide a more clear idea on what constitutes geophysics, this section describes phenomena that are studied in physics and how they relate to the Earth and its surroundings. Geophysicists also investigate the physical processes and properties of the Earth, its fluid layers, and magnetic field along with the near-Earth environment in the Solar System, which includes other planetary bodies.
+The gravitational pull of the Moon and Sun gives rise to two high tides and two low tides every lunar day, or every 24 hours and 50 minutes. Therefore, there is a gap of 12 hours and 25 minutes between every high tide and between every low tide.[7]
+Gravitational forces make rocks press down on deeper rocks, increasing their density as the depth increases.[8] Measurements of gravitational acceleration and gravitational potential at the Earth's surface and above it can be used to look for mineral deposits (see gravity anomaly and gravimetry).[9] The surface gravitational field provides information on the dynamics of tectonic plates. The geopotential
+Physical phenomena
+Gravity
+A map of deviations in gravity from a perfectly smooth, idealized Earth
+Illustration of the deformations of a block by body waves and surface waves (see seismic wave) surface called the geoid is one definition of the shape of the
+Earth. The geoid would be the global mean sea level if the oceans were in equilibrium and could be extended through the continents (such as with very narrow canals).[10]
+Seismic waves are vibrations that travel through the Earth's interior or along its surface.[11] The entire Earth can also oscillate in forms that are called normal modes or free oscillations of the Earth. Ground motions from waves or normal modes are measured using seismographs. If the waves come from a localized source such as an earthquake or explosion, measurements at more than one location can be used to locate the source. The locations of earthquakes provide information on plate tectonics and mantle convection.[12][13]
+Recording of seismic waves from controlled sources provides information on the region that the waves travel through. If the density or composition of the rock changes, waves are reflected. Reflections recorded using Reflection Seismology can provide a wealth of information on the structure of the earth up to several kilometers deep and are used to increase our understanding of the geology as well as to explore for oil and gas.[9] Changes in the travel direction, called refraction, can be used to infer the deep structure of the Earth.[13]
+Earthquakes pose a risk to humans. Understanding their mechanisms, which depend on the type of earthquake (e.g., intraplate or deep focus), can lead to better estimates of earthquake risk and improvements in earthquake engineering.[14]
+There is always a downward electric field near the surface that averages 120 volts per meter.[15] The galactic cosmic rays penetrating the atmosphere result in its ionization relative to the solid Earth, leaving it with a net positive charge.[16] A current of about
+1800 amperes flows in the global circuit.[15] It flows downward from the ionosphere over most of the
+Earth and back upwards through thunderstorms. The flow is manifested by lightning below the clouds and sprites above.
+Vibrations
+Electricity
+Earth's dipole axis (pink line) is tilted away from the rotational axis (blue line).
+Computer simulation of the Earth's magnetic field in a period of normal polarity between reversals[21]
+A variety of electric methods are used in geophysical survey. Some measure spontaneous potential, a potential that arises in the ground because of human-made or natural disturbances. Telluric currents flow in Earth and the oceans. They have two causes: electromagnetic induction by the time-varying, external- origin geomagnetic field and motion of conducting bodies (such as seawater) across the Earth's permanent magnetic field.[17] The distribution of telluric current density can be used to detect variations in electrical resistivity of underground structures. Geophysicists can also provide the electric current themselves (see induced polarization and electrical resistivity tomography).
+Electromagnetic waves occur in the ionosphere and magnetosphere as well as in Earth's outer core. Dawn chorus is believed to be caused by high-energy electrons that get caught in the Van Allen radiation belt.
+Whistlers are produced by lightning strikes. Hiss may be generated by both. Electromagnetic waves may also be generated by earthquakes (see seismo-electromagnetics).
+In the highly conductive liquid iron of the outer core, magnetic fields are generated by electric currents through electromagnetic induction. Alfvén waves are magnetohydrodynamic waves in the magnetosphere or the Earth's core. In the core, they probably have little observable effect on the Earth's magnetic field, but slower waves such as magnetic Rossby waves may be one source of geomagnetic secular variation.[18]
+Electromagnetic methods that are used for geophysical survey include transient electromagnetics, magnetotellurics, surface nuclear magnetic resonance and electromagnetic seabed logging.[19]
+The Earth's magnetic field protects the Earth from the deadly solar wind and has long been used for navigation. It originates in the fluid motions of the outer core.[18] The magnetic field in the upper atmosphere gives rise to the auroras.[20]
+Electromagnetic waves
+Magnetism
+Example of a radioactive decay chain
+(see Radiometric dating)
+The Earth's field is roughly like a tilted dipole, but it changes over time (a phenomenon called geomagnetic secular variation). Mostly the geomagnetic pole stays near the geographic pole, but at random intervals averaging 440,000 to a million years or so, the polarity of the Earth's field reverses.
+These geomagnetic reversals, analyzed within a Geomagnetic Polarity Time Scale, contain 184 polarity intervals in the last 83 million years, with change in frequency over time, with the most recent brief complete reversal of the Laschamp event occurring 41,000 years ago during the last glacial period.
+Geologists observed geomagnetic reversal recorded in volcanic rocks, through magnetostratigraphy correlation (see natural remanent magnetization) and their signature can be seen as parallel linear magnetic anomaly stripes on the seafloor. These stripes provide quantitative information on seafloor spreading, a part of plate tectonics. They are the basis of magnetostratigraphy, which correlates magnetic reversals with other stratigraphies to construct geologic time scales.[22] In addition, the magnetization in rocks can be used to measure the motion of continents.[18]
+Radioactive decay accounts for about 80% of the Earth's internal heat, powering the geodynamo and plate tectonics.[23]
+The main heat-producing isotopes are potassium-40, uranium-
+238, uranium-235, and thorium-232.[24] Radioactive elements are used for radiometric dating, the primary method for establishing an absolute time scale in geochronology.
+Unstable isotopes decay at predictable rates, and the decay rates of different isotopes cover several orders of magnitude, so radioactive decay can be used to accurately date both recent events and events in past geologic eras.[25]
+Radiometric mapping using ground and airborne gamma spectrometry can be used to map the concentration and distribution of radioisotopes near the Earth's surface, which is useful for mapping lithology and alteration.[26][27]
+Fluid motions occur in the magnetosphere, atmosphere, ocean, mantle and core. Even the mantle, though it has an enormous viscosity, flows like a fluid over long time intervals. This flow is reflected in phenomena such as isostasy, post-glacial rebound and mantle plumes. The mantle flow drives plate tectonics and the flow in the Earth's core drives the geodynamo.[18]
+Geophysical fluid dynamics is a primary tool in physical oceanography and meteorology. The rotation of the Earth has profound effects on the Earth's fluid dynamics, often due to the Coriolis effect. In the atmosphere, it gives rise to large-scale patterns like Rossby waves and determines the basic circulation patterns of storms. In the ocean, they drive large-scale circulation patterns as well as Kelvin waves and
+Ekman spirals at the ocean surface.[28] In the Earth's core, the circulation of the molten iron is structured by Taylor columns.[18]
+Waves and other phenomena in the magnetosphere can be modeled using magnetohydrodynamics.
+Radioactivity
+Fluid dynamics
+A model of thermal convection in the Earth's mantle. The thin red columns are mantle plumes.
+The Earth is cooling, and the resulting heat flow generates the Earth's magnetic field through the geodynamo and plate tectonics through mantle convection.[29] The main sources of heat are: primordial heat due to
+Earth's cooling and radioactivity in the planets upper crust.[30]
+There is also some contributions from phase transitions. Heat is mostly carried to the surface by thermal convection, although there are two thermal boundary layers – the core–mantle boundary and the lithosphere – in which heat is transported by conduction.[31] Some heat is carried up from the bottom of the mantle by mantle plumes. The heat flow at the Earth's surface is about 4.2 × 1013 W, and it is a potential source of geothermal energy.[32]
+The physical properties of minerals must be understood to infer the composition of the Earth's interior from seismology, the geothermal gradient and other sources of information. Mineral physicists study the elastic properties of minerals; their high-pressure phase diagrams, melting points and equations of state at high pressure; and the rheological properties of rocks, or their ability to flow. Deformation of rocks by creep make flow possible, although over short times the rocks are brittle. The viscosity of rocks is affected by temperature and pressure, and in turn, determines the rates at which tectonic plates move.[8]
+Water is a very complex substance and its unique properties are essential for life.[33] Its physical properties shape the hydrosphere and are an essential part of the water cycle and climate. Its thermodynamic properties determine evaporation and the thermal gradient in the atmosphere. The many types of precipitation involve a complex mixture of processes such as coalescence, supercooling and supersaturation.[34] Some precipitated water becomes groundwater, and groundwater flow includes phenomena such as percolation, while the conductivity of water makes electrical and electromagnetic methods useful for tracking groundwater flow. Physical properties of water such as salinity have a large effect on its motion in the oceans.[28]
+The many phases of ice form the cryosphere and come in forms like ice sheets, glaciers, sea ice, freshwater ice, snow, and frozen ground (or permafrost).[35]
+Contrary to popular belief, the earth is not entirely spherical but instead generally exhibits an ellipsoid shape- which is a result of the centrifugal forces the planet generates due to its constant motion.[36] These forces cause the planets diameter to bulge towards the Equator and results in the ellipsoid shape.[36]
+Earth's shape is constantly changing, and different factors including glacial isostatic rebound (large ice
+Heat flow
+Mineral physics
+Regions of the Earth
+Size and form of the Earth
+Seismic velocities and boundaries in the interior of the
+Earth sampled by seismic waves sheets melting causing the Earth's crust to the rebound due to the release of the pressure[37]), geological features such as mountains or ocean trenches, tectonic plate dynamics, and natural disasters can further distort the planet's shape.[36]
+Evidence from seismology, heat flow at the surface, and mineral physics is combined with the Earth's mass and moment of inertia to infer the composition, density, temperature, and pressure of the Earth's interior. For example, the
+Earth's mean specific gravity (5.515) is far higher than the typical specific gravity of rocks at the surface (2.7–3.3), implying that the deeper material is denser. This is also implied by its low moment of inertia ( 0.33 M R2, compared to
+0.4 M R2 for a sphere of constant density).
+However, some of the density increase is compression under the enormous pressures inside the Earth. The effect of pressure can be calculated using the
+Adams–Williamson equation. The conclusion is that pressure alone cannot account for the increase in density.
+Instead, we know that the Earth's core is composed of an alloy of iron and other minerals.[8]
+Reconstructions of seismic waves in the deep interior of the Earth show that there are no S-waves in the outer core. This indicates that the outer core is liquid, because liquids cannot support shear. The outer core is liquid, and the motion of this highly conductive fluid generates the Earth's field. Earth's inner core, however, is solid because of the enormous pressure.[10]
+Reconstruction of seismic reflections in the deep interior indicates some major discontinuities in seismic velocities that demarcate the major zones of the Earth: inner core, outer core, mantle, lithosphere and crust. The mantle itself is divided into the upper mantle, transition zone, lower mantle and D′′ layer.
+Between the crust and the mantle is the Mohorovičić discontinuity.[10]
+The seismic model of the Earth does not by itself determine the composition of the layers. For a complete model of the Earth, mineral physics is needed to interpret seismic velocities in terms of composition. The mineral properties are temperature-dependent, so the geotherm must also be determined. This requires physical theory for thermal conduction and convection and the heat contribution of radioactive elements.
+The main model for the radial structure of the interior of the Earth is the preliminary reference Earth model (PREM). Some parts of this model have been updated by recent findings in mineral physics (see post-perovskite) and supplemented by seismic tomography. The mantle is mainly composed of silicates, and the boundaries between layers of the mantle are consistent with phase transitions.[8]
+The mantle acts as a solid for seismic waves, but under high pressures and temperatures, it deforms so that over millions of years it acts like a liquid. This makes plate tectonics possible.
+Structure of the interior
+Schematic of Earth's magnetosphere. The solar wind flows from left to right.
+If a planet's magnetic field is strong enough, its interaction with the solar wind forms a magnetosphere. Early space probes mapped out the gross dimensions of the Earth's magnetic field, which extends about 10 Earth radii towards the Sun. The solar wind, a stream of charged particles, streams out and around the terrestrial magnetic field, and continues behind the magnetic tail, hundreds of
+Earth radii downstream. Inside the magnetosphere, there are relatively dense regions of solar wind particles called the Van Allen radiation belts.[20]
+Geophysical measurements are generally at a particular time and place. Accurate measurements of position, along with earth deformation and gravity, are the province of geodesy. While geodesy and geophysics are separate fields, the two are so closely connected that many scientific organizations such as the American Geophysical Union, the Canadian Geophysical Union and the International Union of
+Geodesy and Geophysics encompass both.[38]
+Absolute positions are most frequently determined using the global positioning system (GPS). A three- dimensional position is calculated using messages from four or more visible satellites and referred to the
+1980 Geodetic Reference System. An alternative, optical astronomy, combines astronomical coordinates and the local gravity vector to get geodetic coordinates. This method only provides the position in two coordinates and is more difficult to use than GPS. However, it is useful for measuring motions of the
+Earth such as nutation and Chandler wobble. Relative positions of two or more points can be determined using very-long-baseline interferometry.[38][39][40]
+Gravity measurements became part of geodesy because they were needed to related measurements at the surface of the Earth to the reference coordinate system. Gravity measurements on land can be made using gravimeters deployed either on the surface or in helicopter flyovers. Since the 1960s, the Earth's gravity field has been measured by analyzing the motion of satellites. Sea level can also be measured by satellites using radar altimetry, contributing to a more accurate geoid.[38] In 2002, NASA launched the Gravity
+Recovery and Climate Experiment (GRACE), wherein two twin satellites map variations in Earth's gravity field by making measurements of the distance between the two satellites using GPS and a microwave ranging system. Gravity variations detected by GRACE include those caused by changes in ocean currents; runoff and ground water depletion; melting ice sheets and glaciers.[41]
+Magnetosphere
+Methods
+Geodesy
+Satellites in space have made it possible to collect data from not only the visible light region, but in other areas of the electromagnetic spectrum. The planets can be characterized by their force fields: gravity and their magnetic fields, which are studied through geophysics and space physics.
+Measuring the changes in acceleration experienced by spacecraft as they orbit has allowed fine details of the gravity fields of the planets to be mapped. For example, in the 1970s, the gravity field disturbances above lunar maria were measured through lunar orbiters, which led to the discovery of concentrations of mass, mascons, beneath the Imbrium, Serenitatis, Crisium, Nectaris and Humorum basins.[42]
+Since geophysics is concerned with the shape of the Earth, and by extension the mapping of features around and in the planet, geophysical measurements include high accuracy GPS measurements. These measurements are processed to increase their accuracy through differential GPS processing. Once the geophysical measurements have been processed and inverted, the interpreted results are plotted using
+GIS. Programs such as ArcGIS and Geosoft were built to meet these needs and include many geophysical functions that are built-in, such as upward continuation, and the calculation of the measurement derivative such as the first-vertical derivative.[9][43] Many geophysics companies have designed in-house geophysics programs that pre-date ArcGIS and GeoSoft in order to meet the visualization requirements of a geophysical dataset.
+Exploration geophysics is a branch of applied geophysics that involves the development and utilization of different seismic or electromagnetic methods which the aim of investigating different energy, mineral and water resources.[44] This is done through the uses of various remote sensing platforms such as; satellites, aircraft, boats, drones, borehole sensing equipment and seismic receivers. These equipment are often used in conjunction with different geophysical methods such as magnetic, gravimetry, electromagnetic, radiometric, barometry methods in order to gather the data. The remote sensing platforms used in exploration geophysics are not perfect and need adjustments done on them in order to accurately account for the effects that the platform itself may have on the collected data. For example, when gathering aeromagnetic data (aircraft gathered magnetic data) using a conventional fixed-wing aircraft- the platform has to be adjusted to account for the electromagnetic currents that it may generate as it passes through
+Earth's magnetic field.[9] There are also corrections related to changes in measured potential field intensity as the Earth rotates, as the Earth orbits the Sun, and as the moon orbits the Earth.[9][43]
+Geophysical measurements are often recorded as time-series with GPS location. Signal processing involves the correction of time-series data for unwanted noise or errors introduced by the measurement platform, such as aircraft vibrations in gravity data. It also involves the reduction of sources of noise, such as diurnal corrections in magnetic data.[9][43] In seismic data, electromagnetic data, and gravity data,
+Satellites and space probes
+Global positioning systems (GPS) and geographical information systems
+(GIS)
+Remote sensing
+Signal processing
+Replica of Zhang Heng's seismoscope, possibly the first contribution to seismology processing continues after error corrections to include computational geophysics which result in the final interpretation of the geophysical data into a geological interpretation of the geophysical measurements[9][43]
+Geophysics emerged as a separate discipline only in the 19th century, from the intersection of physical geography, geology, astronomy, meteorology, and physics.[45][46] The first known use of the word geophysics was in German ("Geophysik") by Julius Fröbel in 1834.[47] However, many geophysical phenomena – such as the Earth's magnetic field and earthquakes – have been investigated since the ancient era.
+The magnetic compass existed in China back as far as the fourth century BC. It was used as much for feng shui as for navigation on land. It was not until good steel needles could be forged that compasses were used for navigation at sea; before that, they could not retain their magnetism long enough to be useful. The first mention of a compass in
+Europe was in 1190 AD.[48]
+In circa 240 BC, Eratosthenes of Cyrene deduced that the Earth was round and measured the circumference of Earth with great precision.[49] He developed a system of latitude and longitude.[50]
+Perhaps the earliest contribution to seismology was the invention of a seismoscope by the prolific inventor Zhang Heng in 132 AD.[51] This instrument was designed to drop a bronze ball from the mouth of a dragon into the mouth of a toad. By looking at which of eight toads had the ball, one could determine the direction of the earthquake. It was
+1571 years before the first design for a seismoscope was published in Europe, by Jean de la Hautefeuille.
+It was never built.[52]
+The 17th century had major milestones that marked the beginning of modern science. In 1600, William
+Gilbert release a publication titled De Magnete (1600) where he conducted series of experiments on both natural magnets (called 'loadstones') and artificially magnetized iron.[53] His experiments lead to observations involving a small compass needle (versorium) which replicated magnetic behaviours when subjected to a spherical magnet, along with it experiencing 'magnetic dips' when it was pivoted on a horizontal axis.[53] HIs findings led to the deduction that compasses point north due to the Earth itself being a giant magnet.[53]
+In 1687 Isaac Newton published his work titled Principia which was pivotal in the development of modern scientific fields such as astronomy and physics.[54] In it, Newton both laid the foundations for classical mechanics and gravitation, as well as explained different geophysical phenomena such as the
+History
+Ancient and classical eras
+Beginnings of modern science precession of the equinox (the orbit of whole star patterns along an ecliptic axis.[55] Newton's theory of gravity had gained so much success, that it resulted in changing the main objective of physics in that era to unravel natures fundamental forces, and their characterizations in laws.[54]
+The first seismometer, an instrument capable of keeping a continuous record of seismic activity, was built by James Forbes in 1844.[52]
+Earth sciences portal
+Geophysics portal
+Physics portal
+International Union of Geodesy and Geophysics (IUGG)
+Sociedade Brasileira de Geofísica
+Earth system science – Scientific study of the Earth's spheres and their natural integrated systems
+List of geophysicists – Famous geophysicists
+Outline of geophysics – Topics in the physics of the Earth and its vicinity
+Geodynamics – Study of dynamics of the Earth
+Planetary science – Science of planets and planetary systems
+Geological Engineering
+Physics
+Space physics
+Geosciences
+Geodesy
+Aeromagnetic survey
+1. Sheriff 1991
+2. IUGG 2011
+3. AGU 2011
+4. Gutenberg, B., 1929, Lehrbuch der Geophysik. Leipzig. Berlin (Gebruder Borntraeger).
+5. Runcorn, S.K, (editor-in-chief), 1967, International dictionary of geophysics: Pergamon,
+Oxford, 2 volumes, 1,728 pp., 730 fig
+6. Geophysics, 1970, Encyclopaedia Britannica, Vol.10, p. 202-202
+7. Ross 1995, pp. 236–242
+8. Poirier 2000
+9. Telford, Geldart & Sheriff 1990
+10. Lowrie 2004
+11. "Seismic wave | Earth's Interior Structure & Movement | Britannica" (https://www.britannica.c om/science/seismic-wave). www.britannica.com. 12 January 2024. Retrieved 18 February
+2024.
+See also
+Notes
+12. Shearer, Peter M. (2009). Introduction to seismology (2nd ed.). Cambridge: Cambridge
+University Press. ISBN 9780521708425.
+13. Stein & Wysession 2003
+14. Bozorgnia & Bertero 2004
+15. Harrison & Carslaw 2003
+16. Nicoll, Keri (April 2016). "Earth's electric atmosphere" (https://www.metlink.org/wp-content/u ploads/2020/11/PhysRev25_4_Nicoll.pdf) (PDF). metlink.org. Retrieved 18 February 2024.
+17. Lanzerotti & Gregori 1986
+18. Merrill, McElhinny & McFadden 1998
+19. Stéphane, Sainson (2017). Electromagnetic seabed logging : a new tool for geoscientists.
+Springer. ISBN 978-3-319-45355-2.
+20. Kivelson & Russell 1995
+21. "Earth's Inconstant Magnetic Field" (https://science.nasa.gov/science-news/science-at-nasa/
+2003/29dec_magneticfield). science@nasa. National Aeronautics and Space Administration.
+29 December 2003. Retrieved 13 November 2018.
+22. Opdyke & Channell 1996
+23. Turcotte & Schubert 2002
+24. Sanders 2003
+25. Renne, Ludwig & Karner 2000
+26. "Radiometrics" (http://www.ga.gov.au/scientific-topics/disciplines/geophysics/radiometrics).
+Geoscience Australia. Commonwealth of Australia. 15 May 2014. Retrieved 23 June 2014.
+27. "Interpreting radiometrics" (https://web.archive.org/web/20120321102348/http://spatial.agric.
+wa.gov.au/geophysics/radiometrics.asp). Natural Resource Management. Department of
+Agriculture and Food, Government of Western Australia. Archived from the original (http://sp atial.agric.wa.gov.au/geophysics/radiometrics.asp) on 21 March 2012. Retrieved 23 June
+2014.
+28. Pedlosky 1987
+29. Davies 2001
+30. "What is "Heat Flow"?" (https://www.smu.edu/dedman/academics/departments/Earth-Scienc es/Research/GeothermalLab/DataMaps/GeothermalMapofNorthAmerica/What-is-Heat-Flo w). www.smu.edu. Retrieved 18 February 2024.
+31. Fowler 2005
+32. Pollack, Hurter & Johnson 1993
+33. Sadava et al. 2009
+34. Sirvatka 2003
+35. CFG 2011
+36. "Is the Earth round?" (https://oceanservice.noaa.gov/facts/earth-round.html#:~:text=While%
+20the%20Earth%20appears%20to,unique%20and%20ever-changing%20shape.).
+oceanservice.noaa.gov. Retrieved 18 February 2024.
+37. US Department of Commerce, National Oceanic and Atmospheric Administration. "What is glacial isostatic adjustment?" (https://oceanservice.noaa.gov/facts/glacial-adjustment.html).
+oceanservice.noaa.gov. Retrieved 18 February 2024.
+38. National Research Council (U.S.). Committee on Geodesy 1985
+39. Defense Mapping Agency 1984
+40. Torge 2001
+41. CSR 2011
+42. Muller & Sjogren 1968
+43. Reynolds 2011
+44. "Energy Geosciences" (https://www.jsg.utexas.edu/research/themes/energy-geosciences/).
+Jackson School of Geosciences. Retrieved 18 February 2024.
+45. Hardy & Goodman 2005
+46. Schröder, W. (2010). "History of geophysics". Acta Geodaetica et Geophysica Hungarica. 45
+(2): 253–261. Bibcode:2010AGGH...45..253S (https://ui.adsabs.harvard.edu/abs/2010AGG
+H...45..253S). doi:10.1556/AGeod.45.2010.2.9 (https://doi.org/10.1556%2FAGeod.45.2010.
+2.9). S2CID 122239663 (https://api.semanticscholar.org/CorpusID:122239663).
+47. Varga, P. (2009). "Common roots of modern seismology and of earth tide research. A historical overview" (https://linkinghub.elsevier.com/retrieve/pii/S0264370709000994).
+Journal of Geodynamics. 48 (3–5): 241–246. Bibcode:2009JGeo...48..241V (https://ui.adsab s.harvard.edu/abs/2009JGeo...48..241V). doi:10.1016/j.jog.2009.09.032 (https://doi.org/10.1
+016%2Fj.jog.2009.09.032). S2CID 129513373 (https://api.semanticscholar.org/CorpusID:12
+9513373).
+48. Temple 2006, pp. 162–166
+49. Russo, Lucio (2004). The Forgotten Revolution (https://archive.org/details/forgottenrevolut0
+0russ_217). Berlin: Springer. p. 273 (https://archive.org/details/forgottenrevolut00russ_217/p age/n277)–277.
+50. Eratosthenes 2010
+51. Temple 2006, pp. 177–181
+52. Dewey & Byerly 1969
+53. "Review of "De Magnete" " (https://pwg.gsfc.nasa.gov/earthmag/DMGRev2.htm).
+pwg.gsfc.nasa.gov. Retrieved 18 February 2024.
+54. Smith, George (2008), "Newton's Philosophiae Naturalis Principia Mathematica" (https://plat o.stanford.edu/archives/win2008/entries/newton-principia/), in Zalta, Edward N. (ed.), The
+Stanford Encyclopedia of Philosophy (Winter 2008 ed.), Metaphysics Research Lab,
+Stanford University, retrieved 18 February 2024
+55. Institute of Physics (18 February 2024). "Precession of the equinoxes" (https://spark.iop.org/ precession-equinoxes#:~:text=The%20precession%20of%20the%20equinoxes%20is%20 a%20slow%20rotation%20of,BC%20to%20~120%20BC).). Retrieved 18 February 2024.
+American Geophysical Union (2011). "Our Science" (http://about.agu.org/our-science/).
+About AGU. Retrieved 30 September 2011.
+"About IUGG" (http://www.iugg.org/about/). 2011. Retrieved 30 September 2011.
+"AGUs Cryosphere Focus Group" (https://web.archive.org/web/20111116035839/http://ww w.agu.org/focus_group/cryosphere/). 2011. Archived from the original (http://www.agu.org/fo cus_group/cryosphere/) on 16 November 2011. Retrieved 30 September 2011.
+Bozorgnia, Yousef; Bertero, Vitelmo V. (2004). Earthquake Engineering: From Engineering
+Seismology to Performance-Based Engineering. CRC Press. ISBN 978-0-8493-1439-1.
+Chemin, Jean-Yves; Desjardins, Benoit; Gallagher, Isabelle; Grenier, Emmanuel (2006).
+Mathematical geophysics: an introduction to rotating fluids and the Navier-Stokes equations.
+Oxford lecture series in mathematics and its applications. Oxford University Press. ISBN 0-
+19-857133-X.
+Davies, Geoffrey F. (2001). Dynamic Earth: Plates, Plumes and Mantle Convection.
+Cambridge University Press. ISBN 0-521-59067-1.
+References
+Dewey, James; Byerly, Perry (1969). "The Early History of Seismometry (to 1900)" (https://w eb.archive.org/web/20111123090130/http://earthquake.usgs.gov/learn/topics/seismology/his tory/history_seis.php). Bulletin of the Seismological Society of America. 59 (1): 183–227.
+Archived from the original (https://earthquake.usgs.gov/learn/topics/seismology/history/histo ry_seis.php) on 23 November 2011.
+Defense Mapping Agency (1984) [1959]. Geodesy for the Layman (http://www.ngs.noaa.go v/PUBS_LIB/Geodesy4Layman/toc.htm) (Technical report). National Geospatial-Intelligence
+Agency. TR 80-003. Retrieved 30 September 2011.
+Eratosthenes (2010). Eratosthenes' "Geography". Fragments collected and translated, with commentary and additional material by Duane W. Roller. Princeton University Press.
+ISBN 978-0-691-14267-8.
+Fowler, C.M.R. (2005). The Solid Earth: An Introduction to Global Geophysics (https://www.c ambridge.org/sj/titles/solid-earth-introduction-global-geophysics-2nd-edition) (2 ed.).
+Cambridge University Press. ISBN 0-521-89307-0.
+"GRACE: Gravity Recovery and Climate Experiment" (https://web.archive.org/web/2009120
+1022216/http://www.csr.utexas.edu/grace/). University of Texas at Austin Center for Space
+Research. 2011. Archived from the original (http://www.csr.utexas.edu/grace/) on 1
+December 2009. Retrieved 30 September 2011.
+Hardy, Shaun J.; Goodman, Roy E. (2005). "Web resources in the history of geophysics" (htt ps://web.archive.org/web/20130427182807/http://history.agu.org/hgc_web_resources.htm).
+American Geophysical Union. Archived from the original (http://history.agu.org/hgc_web_res ources.htm) on 27 April 2013. Retrieved 30 September 2011.
+Harrison, R. G.; Carslaw, K. S. (2003). "Ion-aerosol-cloud processes in the lower atmosphere" (https://doi.org/10.1029%2F2002RG000114). Reviews of Geophysics. 41 (3):
+1012. Bibcode:2003RvGeo..41.1012H (https://ui.adsabs.harvard.edu/abs/2003RvGeo..41.1
+012H). doi:10.1029/2002RG000114 (https://doi.org/10.1029%2F2002RG000114).
+S2CID 123305218 (https://api.semanticscholar.org/CorpusID:123305218).
+Kivelson, Margaret G.; Russell, Christopher T. (1995). Introduction to Space Physics.
+Cambridge University Press. ISBN 978-0-521-45714-9.
+Lanzerotti, Louis J.; Gregori, Giovanni P. (1986). "Telluric currents: the natural environment and interactions with man-made systems" (http://books.nap.edu/openbook.php?record_id=8
+98&page=232). In Geophysics Study Committee; Geophysics Research Forum;
+Commission on Physical Sciences, Mathematics and Resources; National Research
+Council (eds.). The Earth's electrical environment. National Academy Press. pp. 232–258.
+ISBN 0-309-03680-1.
+Lowrie, William (2004). Fundamentals of Geophysics. Cambridge University Press. ISBN 0-
+521-46164-2.
+Merrill, Ronald T.; McElhinny, Michael W.; McFadden, Phillip L. (1998). The Magnetic Field of the Earth: Paleomagnetism, the Core, and the Deep Mantle. International Geophysics
+Series. Vol. 63. Academic Press. ISBN 978-0124912458.
+Muller, Paul; Sjogren, William (1968). "Mascons: lunar mass concentrations". Science. 161
+(3842): 680–684. Bibcode:1968Sci...161..680M (https://ui.adsabs.harvard.edu/abs/1968Sc i...161..680M). doi:10.1126/science.161.3842.680 (https://doi.org/10.1126%2Fscience.161.3
+842.680). PMID 17801458 (https://pubmed.ncbi.nlm.nih.gov/17801458). S2CID 40110502
+(https://api.semanticscholar.org/CorpusID:40110502).
+National Research Council (U.S.). Committee on Geodesy (1985). Geodesy: a look to the future (https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19860002190.pdf) (PDF)
+(Report). National Academies.
+Newton, Isaac (1999). The Principia, Mathematical principles of natural philosophy. A new translation by I Bernard Cohen and Anne Whitman, preceded by "A Guide to Newton's
+Principia" by I Bernard Cohen. University of California Press. ISBN 978-0-520-08816-0.
+Opdyke, Neil D.; Channell, James T. (1996). Magnetic Stratigraphy. Academic Press.
+ISBN 0-12-527470-X.
+Pedlosky, Joseph (1987). Geophysical Fluid Dynamics (https://archive.org/details/geophysic alfluid00jose) (Second ed.). Springer-Verlag. ISBN 0-387-96387-1.
+Poirier, Jean-Paul (2000). Introduction to the Physics of the Earth's Interior. Cambridge
+Topics in Mineral Physics & Chemistry. Cambridge University Press. ISBN 0-521-66313-X.
+Pollack, Henry N.; Hurter, Suzanne J.; Johnson, Jeffrey R. (1993). "Heat flow from the
+Earth's interior: Analysis of the global data set". Reviews of Geophysics. 31 (3): 267–280.
+Bibcode:1993RvGeo..31..267P (https://ui.adsabs.harvard.edu/abs/1993RvGeo..31..267P).
+doi:10.1029/93RG01249 (https://doi.org/10.1029%2F93RG01249).
+Renne, P.R.; Ludwig, K.R.; Karner, D.B. (2000). "Progress and challenges in geochronology". Science Progress. 83: 107–121. PMID 10800377 (https://pubmed.ncbi.nlm.
+nih.gov/10800377).
+Reynolds, John M. (2011). An Introduction to Applied and Environmental Geophysics.
+Wiley-Blackwell. ISBN 978-0-471-48535-3.
+Richards, M. A.; Duncan, R. A.; Courtillot, V. E. (1989). "Flood Basalts and Hot-Spot Tracks:
+Plume Heads and Tails". Science. 246 (4926): 103–107. Bibcode:1989Sci...246..103R (http s://ui.adsabs.harvard.edu/abs/1989Sci...246..103R). doi:10.1126/science.246.4926.103 (htt ps://doi.org/10.1126%2Fscience.246.4926.103). PMID 17837768 (https://pubmed.ncbi.nlm.
+nih.gov/17837768). S2CID 9147772 (https://api.semanticscholar.org/CorpusID:9147772).
+Ross, D.A. (1995). Introduction to Oceanography (https://archive.org/details/introductiontooc
+0000ross). HarperCollins. ISBN 0-13-491408-2.
+Sadava, David; Heller, H. Craig; Hillis, David M.; Berenbaum, May (2009). Life: The Science of Biology. Macmillan. ISBN 978-1-4292-1962-4.
+Sanders, Robert (10 December 2003). "Radioactive potassium may be major heat source in
+Earth's core" (http://www.berkeley.edu/news/media/releases/2003/12/10_heat.shtml). UC
+Berkeley News. Retrieved 28 February 2007.
+Sirvatka, Paul (2003). "Cloud Physics: Collision/Coalescence; The Bergeron Process" (htt p://weather.cod.edu/sirvatka/bergeron.html). College of DuPage. Retrieved 31 August 2011.
+Sheriff, Robert E. (1991). "Geophysics" (https://archive.org/details/encyclopedicdict0000uns e_h0w6). Encyclopedic Dictionary of Exploration Geophysics (3rd ed.). Society of
+Exploration. ISBN 978-1-56080-018-7.
+Stein, Seth; Wysession, Michael (2003). An introduction to seismology, earthquakes, and earth structure. Wiley-Blackwell. ISBN 0-86542-078-5.
+Telford, William Murray; Geldart, L. P.; Sheriff, Robert E. (1990). Applied geophysics.
+Cambridge University Press. ISBN 978-0-521-33938-4.
+Temple, Robert (2006). The Genius of China. Andre Deutsch. ISBN 0-671-62028-2.
+Torge, W. (2001). Geodesy (3rd ed.). Walter de Gruyter. ISBN 0-89925-680-5.
+Turcotte, Donald Lawson; Schubert, Gerald (2002). Geodynamics (https://books.google.co m/books?id=-nCHlVuJ4FoC&pg=PA286) (2nd ed.). Cambridge University Press. ISBN 0-
+521-66624-4.
+Verhoogen, John (1980). Energetics of the Earth (https://archive.org/details/bub_gb_yTsrAA
+AAYAAJ). National Academy Press. ISBN 978-0-309-03076-2.
+A reference manual for near-surface geophysics techniques and applications (http://www.en vironmental-geophysics.co.uk/documents/ref_manual/TechRef.pdf) Archived (https://web.arc hive.org/web/20210218212208/http://www.environmental-geophysics.co.uk/documents/ref_ manual/TechRef.pdf) 18 February 2021 at the Wayback Machine
+External links
+Commission on Geophysical Risk and Sustainability (GeoRisk), International Union of
+Geodesy and Geophysics (IUGG) (https://web.archive.org/web/20190210154628/https://ww w.iugg-georisk.org/)
+Study of the Earth's Deep Interior, a Committee of IUGG (http://www.sedigroup.org/)
+Union Commissions (IUGG) (http://www.iugg.org/about/commissions/)
+USGS Geomagnetism Program (https://geomag.usgs.gov/)
+Career crate: Seismic processor (https://web.archive.org/web/20120121022344/http://career crate.com/video/266/Seismic-processor)
+Society of Exploration Geophysicists (http://www.seg.org/)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Geophysics&oldid=1337873351"

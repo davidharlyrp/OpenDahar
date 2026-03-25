@@ -1,0 +1,1410 @@
+Bridge
+A bridge is a structure designed to span an obstacle, such as a river or valley, allowing vehicles, pedestrians, and other loads to pass across. Most bridges consist of a flat deck, supported by beams, arches, or cables. These structures rest on a foundation that is carefully designed to transfer the weight of the bridge to the subsoil without settling.
+Bridges can be constructed in a wide variety of forms, determined by the location, intended purpose, and available construction technologies. Simple bridge structures include beam bridges made from logs, and suspension bridges made of ropes or vines. The Romans and ancient Chinese built major arch bridges of timber, stone, and brick. During the Renaissance, advances in science and engineering led to wider bridge spans and more elegant designs. Concrete was perfected in the early nineteenth century, and arch bridges are now built primarily of concrete or steel.
+With the Industrial Revolution came mass-produced steel, which enabled the creation of more complex forms  – including truss and cantilever bridges  – that permitted bridges to cross wide rivers or deep valleys. The longest spans use suspension or cable-stayed designs, both of which rely on high-strength steel cables to support the deck. Over time, the maximum achievable span of bridges has steadily increased, reaching 2 kilometers (1.2 miles) in 2022. Other bridge forms include multi-span viaducts, which can cross wide valleys; trestles, a common design for carrying heavy trains; and movable bridges including drawbridges and swing bridges.
+The design of a bridge must satisfy many requirements, namely connecting to a transportation network, providing adequate clearances, and safely transporting its users. A bridge must be strong enough to support its own weight as well as the weight of the traffic passing over it. It must also tolerate violent, unpredictable stresses imposed by the environment, including winds, floods, and earthquakes. To meet all these goals, bridge engineers typically use limit state design processes and the finite element method.
+Many bridges are admired for their beauty, and some spectacular bridges serve as iconic landmarks that provide a sense of pride and identity for the local community. In art and literature, bridges are frequently used as metaphors to represent connection or transition. Bridges can create beneficial impacts on a community, including shorter transport times and increased gross domestic product; and also negative effects such as increased pollution and contributions to global warming.
+The earliest forms of bridges were simple structures for crossing wetlands and creeks, consisting of wooden boardwalks or logs.[2][a] Pilings – which are critical elements of bridge construction – were used in Switzerland around 4,000 BC to support stilt houses built over water.[4] Several corbel arch bridges were built c. 13th century BC by the Mycenaean Greece culture, including the Arkadiko Bridge, which is
+History
+Antiquity
+The Pont du Gard aqueduct in France was built by the Roman
+Empire c. 40–60 AD.[1]
+The Anji Bridge, which uses a shallow segmental arch, was built in China c.
+600 AD.[15] still in existence.[5] In the 7th century
+BC,
+Assyrian king
+Sennacherib constructed stone aqueducts to carry water near the city of Nineveh; one of the aqueducts crossed a small valley at Jerwan with five corbelled arches, and was 280 meters (920  ft) long and 20 meters
+(66  ft) wide.[6] In Babylonia in 626
+BC, a bridge across the Euphrates was built with an estimated length of 120 to 200 meters (390 to 660  ft).[7] In
+India, the Arthashastra treatise by Kautilya mentions the construction of bridges and dams.[8] Ancient
+China has an extensive history of bridge construction, including cantilever bridges, rope bridges, and bridges built across floating boats.[9]
+The ancient Romans built many durable bridges using advanced engineering techniques.[10] Many
+Roman aqueducts – some still standing today – used a semicircular arch style.[10] Examples include the
+Alcántara Bridge in Spain and the Pont du Gard in France.[11] The Romans used cement as a construction material, which could be mixed with small rocks to form concrete, or mixed with sand to form mortar to join bricks or stones.[12] Some Roman cements, particularly those containing volcanic ash, were waterproof.[13][b] The enormous timber and stone Trajan's Bridge (c. 105 AD) crossed the Danube river and was over 900 meters (3,000 ft) long.[14]
+The oldest surviving stone bridge in China is the Anji Bridge, built from 595 to 605 AD during the Sui dynasty. This bridge is also historically significant as it is the world's oldest open- spandrel stone segmental arch bridge.[16] Rope bridges, a simple type of suspension bridge, were used by the Inca civilization in the Andes mountains of South America prior to
+European colonization in the 16th century.[17]
+In Medieval Europe, bridge design capabilities declined after the fall of Rome, but revived in the High Middle Ages in
+France, England, and Italy with the construction of bridges like the Pont d'Avignon, bridges of the Durance river, and the
+Old London Bridge.[18] Surviving examples include the Ponte
+Vecchio in Florence, the Old Exe Bridge, and the Monnow Bridge in Wales.[18]
+In 15th- and 16th-century Europe, the Renaissance brought a new emphasis on science and engineering.[19] Figures such as Galileo Galilei, Fausto Veranzio, and Andrea Palladio (author of I quattro libri dell'architettura) wrote treatises that applied a rigorous, analytic approach to architecture and
+300 to 1400
+1400 to 1750
+The Rialto Bridge, built in 1591, crosses the Grand Canal in Venice.
+The mass production of steel enabled the construction of large suspension bridges.
+The Brooklyn Bridge, built in the 1870s, was the first suspension bridge to use steel for its cables.[25] building.[20] Their innovations included truss bridges and stone segmental arches, resulting in Florence's Ponte Santa
+Trinita, Rialto Bridge in Venice, and Paris's Pont Neuf.[21]
+Military and commercial bridges were constructed in India by the Mughal administration.[22] The Asante Empire in Africa built bridges over streams and rivers using tree trunks and beams.[23]
+In the late eighteenth century, the design of arch bridges was revolutionized in Europe by Jean-Rodolphe Perronet and John
+Rennie. They designed arches that were flatter than semicircular Roman arches, which yielded faster construction times, better water flow under the bridge, and slimmer piers. These designs were used for
+Pont de la Concorde and New London Bridge.[24]
+With the advent of the Industrial Revolution, iron became an important construction material for bridges.[26] Both cast iron
+(which is strong under compression, but brittle) and wrought iron (which was more ductile and better under tension) were used for building bridges.[27] The Iron Bridge in England – made of cast iron and completed in 1781 – was the first major bridge made entirely of metal.[28] Several long suspension bridges were built in the early nineteenth century using iron eyebars (steel wire, vastly superior, became available later in the century).[29]
+The age of railways began in the 1820s, and led to major innovations in bridge design.[30] Britain is representative of how railways influenced bridge-building in industrialized nations: led by designers Isambard Kingdom Brunel, Robert
+Stephenson, and Joseph Locke, British railway bridges steadily grew in size as the decades passed.[31]
+Notable bridges of that era include the High Level Bridge (1849),[32] Royal Border Bridge (1850),[32]
+Britannia Bridge (1850),[33] Royal Albert Bridge (1859),[34] and Clifton Suspension Bridge (1864).[35]
+The number of railway bridges in Britain increased from 30,000 to 60,000 during the Railway Mania era.[36] Railway bridges primarily used masonry and stone arch designs, because those could withstand the tremendous loads imposed by trains, but iron beam designs (on masonry or stone piers) were also used.[37] The abundance of inexpensive lumber in North America led that continent to favor timber as a bridge material: using truss designs (for long spans) and trestle designs (for spanning deep ravines).[38]
+The mass production of steel in the late nineteenth century provided a new material for bridges, enabling lighter, stronger truss bridges and cantilever bridges; and steel wires replaced iron bars as the preferred material for suspension bridge cables.[39] Concrete  – which was originally used within the Roman
+Empire  – was improved with the invention of Portland cement in the early nineteenth century, and replaced stone and masonry as the primary material for bridge foundations. When iron or steel is embedded in the concrete, as in reinforced concrete or prestressed concrete, it is a strong, inexpensive material that can be used for horizontal elements of beam bridges and box girder bridges.[40]
+1750 to 1900
+The Sidi M'Cid Bridge in Algeria was the highest bridge in the world when it was built in 1912.[41]
+The Magdeburg Water Bridge in
+Germany carries boats across a valley.[55]
+Throughout the 20th century, new bridges  – by designer
+Othmar Ammann and others  – repeatedly broke records for span distances, enabling transportation networks to cross increasingly wider rivers and valleys.[42] Cable-stayed bridges  – which use cable-stays as the exclusive means of support  – became a popular bridge design following World
+War II (WW II).[43][c] The late 20th century saw several major innovations in bridge design. Extradosed bridges were introduced and found widespread use, predominantly in
+Japan.[47] In China, concrete-filled steel tubes were adopted as a new approach to building arch bridges.[48] Fiber- reinforced polymers  – which do not suffer from the rust problems that plague steel – were used in bridges for many applications, such as beams, deck slabs, prestressing cables, wraps on the exterior of concrete elements, and internal reinforcing within concrete.[49][d] In the 21st century a bridge span exceeded 2 kilometers (1.2 mi) for the first time, with the construction of the 1915
+Çanakkale Bridge.[50][e]
+The purpose of any bridge is to traverse an obstacle. A bridge can provide support and transport for railways, cars, pedestrians, pipelines, cables, or any combination of these.[52] Aqueducts were developed early in human history, and carried water to towns and cities.[53] Canal systems sometimes include navigable aqueducts (also called canal bridges) to carry boats across a valley or ravine.[54]
+Until the early 19th century, most bridges were designed to carry pedestrians, horses, and horse-drawn carriages.[30]
+Following the invention of railways, many rail bridges were built; in Britain the number of bridges doubled during the railway-building boom in the mid-nineteenth century.[30]
+Railway bridges have unique requirements because of the heavy loads they carry – a single locomotive can weigh 197 tonnes (217 short tons).[56] Railway bridges are designed to minimize deflection (bending under load), to maximize robustness (localize the damage caused by accidents), and to tolerate heavy impacts (sudden shocks from, for example, rail wheels striking an imperfection in the track).[57] These requirements led railways to avoid curved bridges, suspension bridges, and cable-stayed bridges; instead, straight beam or truss bridges are commonly used.[58] The explosive growth of motorway networks in the 20th century required bridges to span ever longer distances to reach islands and cross valleys.[59]
+1900 to present
+Uses
+Transportation
+Invented for wartime use, Bailey bridges found civilian use after WW II.[66]
+An important application of bridges is improving safety and traffic flow at traffic junctions where roads or railways cross at ground level. Such intersections require vehicles to stop, and lead to slower traffic, wasted fuel, and higher incidence of collisions. One technique to mitigate these issues is to build a bridge, enabling one of the roads to pass over the other: this process is known as grade separation.[60][f] Grade separation can be implemented at railway-road intersections[61] or road-road intersections.[62]
+Some bridges, known as footbridges, are devoted to pedestrian traffic.[63] They range from simple boardwalks enabling passage over marshy land to elevated skybridges  – including the Minneapolis
+Skyway System – which shield pedestrians from harsh winter weather.[64] When used to cross roads in busy urban areas, footbridges are generally safer than crosswalks, but have been criticized by urbanists and disability advocates for inconveniencing pedestrians, hindering accessibility, diminishing the quality of city life, and perpetuating car dependency.[65]
+Military bridges are an important type of equipment in the field of military engineering. They perform a variety of wartime roles, namely quickly traversing obstacles in the midst of battle, or facilitating resupply behind front lines.[67]
+Military bridges can be categorized as wet bridges that rest on pontoon floats, and dry bridges that rest on piers, river banks, or anchorages.[67] A crude mechanism to cross a small ravine is to place a fascine (a large bundle of pipes or logs) into the ravine to enable vehicles to drive across.[68]
+Armoured vehicle-launched bridges, are carried on purpose- built vehicles.[68] These vehicles typically have the same cross-country performance as a tank, and can carry a bridge to an obstacle and deploy ("launch") the bridge.[69] The UK's Chieftain vehicle could launch a 23-meter
+(75 ft) bridge – capable of supporting 54-tonne (60-short-ton) loads – in 3 minutes.[70] Military bridges have found use in civilian applications. The Bailey bridge was originally invented in 1940 for use in WW
+II, but continues to be used in peacetime. Bailey bridges are used as small, permanent bridges, as well as temporary bridges used while a permanent bridge is being replaced or repaired.[66]
+During wartime, bridges are often damaged by bombing or by combat engineers. Bridges can be valuable targets because they are immobile, relatively easy to spot from the air, and damage to the bridge can disrupt the enemy's transportation network.[71] Bridges have been targeted by artillery since antiquity, and the advent of newer technologies – specifically, aircraft and drones – has made bridges easier to attack.
+Germany used the Stuka aircraft to perform dive-bomb attacks on bridges during WW II,[72] and Ukraine damaged the Crimean Bridge with a drone attack in 2023.[73]
+Grade separation
+Pedestrians
+Military
+Arch bridge
+Deck arch
+Tied arch
+Some bridges accommodate uses other than transportation. Pipeline bridges carry oil pipes or water pipes across valleys or rivers.[74] Many historical bridges supported buildings, including shrines, factories, shops, restaurants, and houses. Notable examples were the Old London Bridge and Ponte Vecchio.[75]
+Some bridges built in Europe in the Middle Ages incorporated chapels into their design.[76] In the modern era, bridge-restaurants can be found at some highway rest areas; these support a restaurant or shops directly above the highway and are accessible to drivers moving in both directions.[77] An example is
+Will Rogers Archway over the Oklahoma Turnpike.[78] The Nový Most bridge in Bratislava features a restaurant set atop its single tower.[79] Conservationists use wildlife bridges to reduce habitat fragmentation and animal-vehicle collisions.[80] The first wildlife crossings were built in the 1950s, and these types of bridges are now used worldwide.[81]
+Bridges are primarily classified by their basic structural design: arch, truss, cantilever, suspension, cable- stayed, or beam.[82][g] Several other terms can be used to designate various aspects of a bridge's form or design, including viaduct, trestle, and causeway.
+The choice of bridge structure to use in a particular situation is based on many factors, including aesthetics, environment, cost, and purpose.[84] Some bridge spans combine two types of basic structures; for instance, the Brooklyn Bridge is primarily a suspension structure, but also uses cable-stays.[85] Some multi-span bridges – called hybrid bridges – use different basic structures for different spans.[86]
+Arch bridges consist of a curved arch, under compression, which supports the deck either above or below the arch.[87] The shape of the arch can be a semicircle, elliptical, a pointed arch, or a segment of a circle.[88] Arches exert a diagonal force at both ends, requiring strong supports or abutments to prevent the arch from spreading or collapsing.[89] Deck arch bridges hold the deck above the arch; tied-arch bridges suspend the deck below the arch; and through-arch bridges position the deck through the middle of the arch.[90]
+A truss bridge is composed of multiple, connected triangular elements.[91] The set of triangles form a rigid whole, which rests on the foundation at both ends, applying a vertical force downward.[91] The deck can be carried on top of the truss ("deck truss") or at the bottom of the truss ("through truss").[92] Through trusses are useful when more clearance under the bridge is required; deck trusses permit oversized loads
+Other
+Structure and form
+Basic structures
+Arch bridge
+Truss bridge
+Truss bridge
+Through truss
+Deck truss
+Cantilever bridge
+Balanced cantilever on a single pier
+Two cantilevers extending from anchorages
+Suspension bridge
+With anchorages
+Self-anchored and do not interfere with overhead objects, such as electrical lines.[93]
+The individual bars can be made of iron or wood, but most modern truss bridges are made of steel.[94] The horizontal bars along the top are usually in compression, and the horizontal bars along the bottom are usually in tension.[91]
+Bars connecting the top and bottom may be in tension or compression, depending on the layout of the triangles.[95] Trusses typically have a span-to-depth ratio (the width of a structure divided by its height) ranging from 10 to 16, compared to beam bridges which typically have a ratio ranging from 20 to 30.[96]
+Trusses tend to be relatively stiff, and are commonly used for rail bridges which are required to carry very heavy loads.[96]
+Cantilever bridges consist of beams or trusses that are rigidly attached to a support (pier or anchorage) and extend horizontally from the support without additional supports.[97] In ancient Asia, cantilever bridges made of large rocks or timber were used to span small obstacles.[98] In the
+1880s, some early cantilever bridges were built from wrought iron, but steel became common starting in the late nineteenth century.[99] A balanced cantilever bridge consists of two connected cantilevers extending outward in opposite directions from a single central support.[100]
+Other cantilever bridges have two cantilevers, anchored at each end of the span, extending toward the center, and meeting in the center.[101] Cantilever construction is a method of building a bridge superstructure, which can be utilized for arch and cable-stayed bridges, as well as cantilever bridges. In this technique, construction begins at a support (specifically a pier, abutment, or tower) and extends outwards across the obstacle, with no support from below.[102]
+Suspension bridges have large, curved cables attached to the tops of tall towers,[h] and suspend the bridge deck from the cables.[103][i] In the early nineteenth century, the first modern suspension bridges – such as the Jacob's Creek Bridge  – were chain bridges that used iron bars rather than bundled wires for the cables.[105] After steel wire became widely available, longer cables could be built by stringing hundreds
+Cantilever bridge
+Suspension bridge
+Cable-stayed bridge
+Harp pattern, two towers
+Fan pattern, single tower
+Beam bridge of wires between the towers and bundling them,[106] enabling suspension bridges to achieve spans 2 kilometers (1.2 miles) long. When the bridge crosses a river, stringing the wires across the large span is a complex process.[107] The cable of a suspension bridge assumes the shape of a catenary when initially suspended between the bridge towers; however, once the uniform load of the bridge deck is applied, the cable adopts a parabolic shape.[108] Shorter towers require a smaller sag in the cable, which increases the tension in the cable, and thus requires stronger towers and anchorages.[109]
+Cable-stayed bridges are similar to suspension bridges, but the cables that support the deck connect directly to the towers.[110][h] The inclined cables may be arranged in a fan pattern or a harp pattern.[113][j]
+Modern cable-stayed bridges became popular after WW II, when the design was used for many new bridges in Germany.[115] When traversing a wide obstacle, designers have a choice of suspension or cable-stayed structures. Suspension bridges can achieve a longer span, but cable-stayed bridges use less cable for a given span size, do not require anchorages, and the deck can be readily built by cantilevering outward from the towers.[116]
+Beam bridges are simple structures consisting of one or more parallel, horizontal beams or girders that span an obstacle.[117] A box girder bridge is a variant that is generally shallower than an I-beam equivalent, permitting shorter and lower approach roads to cross an obstacle of a given height.[118] Beam bridges are commonly used for both railways and roadways.[117] Beam bridges are often used for spans shorter than about 50 meters (160 ft); for longer spans, trusses or similar structures are generally more efficient.[119] The majority of beam bridges have a flat, horizontal bottom; but some have a bottom that arches upward, called haunching. Haunching looks more graceful than a flat bottom, and can provide greater clearance below the bridge, but it tends to be more costly because flat bottom beams are easier to build.[120]
+In addition to the basic bridge structures, there are many other forms of bridges. The following sections describe some of the more common forms, but are not an exhaustive list.
+Movable bridges are designed so that all or part of the bridge deck can be moved, usually to permit tall traffic – such as tall boats or ships – to pass by.[122] Early movable bridges include drawbridges that pivoted at one end, and required a large amount of work to raise. Adding counterweights on the pivot side of the drawbridge creates a bascule bridge, and makes moving the bridge easier and safer.[123] Swing
+Cable-stayed bridge
+Beam bridge
+Other forms
+Movable bridge
+Tower Bridge in London is a movable bridge.[121]
+The Millau Viaduct crosses the Tarn river valley in France.[128] bridges pivot horizontally around an anchor point on the bank of a canal, or sometimes from a pier in the middle of the water.[124] Lift bridges are raised vertically between two towers by cables passing over pulleys at the top of the towers.[125] Notable movable bridges include El Ferdan
+Railway Bridge in Egypt, Erasmusbrug bascule in Rotterdam, and Limehouse Basin footbridge in London.[126] In the modern era, designers sometimes create unusual movable bridges with the intention of establishing signature bridges for a town or locality.[126] Examples include Puente de la Mujer swing bridge in Buenos Aires, Gateshead Millennium – a rare example of a tilt bridge  – over the River Tyne, and Hörn
+Bridge in Germany.[127][k]
+There are a variety of terms that describe long, multi-span bridges  – including viaduct, trestle, continuous, and causeway. The usage of the terms can overlap, but each has a specific focus.[129]
+Viaducts
+(carrying vehicles) and aqueducts (carrying water) are bridges crossing a valley, supported by multiple arches or piers.[130] Romans built many aqueducts, some of which are still standing today.[131]
+Notable viaducts include Penponds Viaduct in England,[132]
+Garabit Viaduct in France,[133] Tunkhannock Viaduct in
+Pennsylvania,[134] and Millau Viaduct in France.[128]
+A trestle bridge  – commonly used in the 19th century for railway bridges – consists of multiple short spans supported by closely spaced structural elements.[135] A trestle is similar to a viaduct, but viaducts typically have taller piers and longer spans.[136] A continuous truss bridge is a long, single truss that rests upon multiple supports. A continuous truss bridge may use less material than a series of simple trusses because a continuous truss distributes live loads across all the spans (in contrast to a series of simple trusses, where each truss must be capable of supporting the entire live load). Visually, a continuous truss looks similar to a cantilever bridge, but a continuous truss experiences hogging stresses at the supports and sagging stresses between the supports.[137][l] A causeway is a low road, usually crossing a bog, marsh, lake, or other body of water.[139] Many causeways are earthen embankments, but some are raised bridges, such as the 38.4-kilometer (23.9-mile) Lake
+Pontchartrain Causeway in Louisiana.[139]
+An extradosed bridge combines features of a box girder bridge and a cable-stayed bridge.[141] Visually, extradosed bridges can be distinguished from cable-stayed bridges because the tower height (above the deck) is relatively low: between seven and thirteen percent of the span width.[142] Extradosed bridges are appropriate for spans ranging from 100 meters (330 ft) to 250 meters (820 ft).[142] Unlike suspension bridges or cable-stayed bridges, the towers of an extradosed bridge often rest on the deck (rather than on a footing) and are solidly connected to the deck.[143] Because of the relatively flat angle of the cables, the
+Long multi-span bridge
+Extradosed
+The Shin Meisei bridge (foreground) in
+Japan is an example of an extradosed bridge.[140]
+Floating concrete pontoons support the weight of the Nordhordland Bridge as it crosses a deep fjord in Norway.[146] cables of an extradosed bridge compress the deck horizontally, performing a function comparable to prestressing wires that are used within concrete girders.[144]
+Extradosed bridges may be appropriate in applications where the deck must have a shallow depth to maximize clearance under the bridge; or where towers must be relatively short to abide by aviation safety constraints.[145]
+A pontoon bridge, also known as a floating bridge, uses floats or shallow-draft boats to support a continuous deck for pedestrian or vehicle travel over water.[147] Pontoon bridges are typically used where waters are too deep to build piers, or as a mechanism to implement a movable swing bridge in a canal.[148] During the Second Persian invasion of Greece,
+Persian ruler Xerxes built a large pontoon bridge across the
+Hellespont, consisting of two parallel rows of 360 boats.[149]
+Several pontoon bridges are in use in the modern world.
+Washington State in the US has several, including Hood
+Canal Bridge.[150] In Norway, Nordhordland Bridge crosses a deep fjord by resting on floating concrete pontoons.[146]
+Many armies have pontoon bridges that can be rapidly deployed, including the PMP Floating Bridge, designed by the USSR.[151]
+The process for designing a new bridge typically goes through several stages, progressively refining the design.[152] An early step in the design process – sometimes called conceptual design – is to consider the multiple requirements that a bridge must satisfy.[152] Requirements that are directly related to function include lifespan, safety, climate, soil condition, traffic volume, the size and nature of the obstacle to be traversed, and clearance required for passage underneath.[153] Other constraints may include construction cost, maintenance cost, aesthetics, time available for construction, owner preference, and experience of the builders.[153] Some bridge designs consider factors such as impact to environment and wildlife; and the bridge's economic, social, and historic relationship to the local community.[154] After the requirements of a bridge are established, a bridge designer uses structural analysis methods to identify candidate designs.[155] Several designs may meet the requirements. The value engineering methodology can be used to select a final design from multiple alternatives.[156] This methodology evaluates candidate designs based on weighted scores assigned to several different criteria, including cost, service life, durability, availability of resources, ease of construction, construction time, and maintenance cost.[156]
+Pontoon bridge
+Design
+Design process
+The Brusio spiral viaduct – a part of the Bernina railway in Switzerland – is a World Heritage Site.[168]
+An important requirement considered during the design process is the service life, which is a specific number of years that the bridge is expected to remain in operation with routine maintenance (and without requiring major repairs).[157][m] For example, wood bridge superstructures typically have a service life of
+10 to 50 years.[159][n] Concrete highway bridges can have service lives of 75 to 150 years.[158] A bridge design methodology incorporates the service life into the design process.[161]
+One of the requirements a new bridge must satisfy is compliance with the local bridge design specifications and codes which – in some countries – may be legally binding requirements.[162] In many countries, these specifications are developed and published by standards organizations that define acceptable bridge-building practices and designs. In Europe, the organization is the European Committee for Standardization, and the standards it publishes are the Eurocodes.[163] In the United States, the
+American Association of State Highway and Transportation Officials (AASHTO) publishes the AASHTO
+LRFD Bridge Design Specifications.[164][o] Canada's bridge standard is the Canadian Highway Bridge
+Design Code, developed by the non-profit CSA Group.[166] Agencies that regulate aviation or waterways may also impose standards that dictate some aspects of a bridge design, such as requirements for aviation warning lights at the top of bridge towers, or navigational warning lights on bridge supports located in navigable waterways.[167]
+A bridge's appearance is one of the factors considered during its design.[169] Attractive bridges can have a positive impact on a community, and some bridges can even be considered as works of art.[170] Bridge designers that are known for emphasizing the visual appeal of their bridges include Thomas Telford, Gustave
+Eiffel, John Roebling, Robert Maillart, and
+Santiago Calatrava.[171] Qualities that influence the perceived attractiveness of a bridge include proportion, color, texture, order, refinement, environmental integration, and functionality.[172]
+The art historian Dan Cruickshank notes that bridges are regarded as manifestations of human imagination and ambition, and that many bridges transcend their original utilitarian role and become a work of art.[173] He writes "[a] great bridge has an emotional impact, it has a sublime quality and a heroic beauty that moves even those who are not accustomed to having their senses inflamed by the visual arts."[173]
+A bridge designer can select from a wide variety of materials, including wood, brick, rope, stone, iron, steel, and concrete.[174][p] A bridge made from two or more distinct materials (for example, steel and concrete) is known as a composite bridge.[176] Some of the largest arch bridges are composite, because
+Specifications and standards
+Aesthetics
+Material
+The Iron Bridge in Shropshire, England, completed in 1781, is the first major bridge made entirely of cast iron.[28] they are made from concrete and steel.[48]
+Wood is an inexpensive, renewable resource with a high strength-to-weight ratio, but it is rarely used for modern roadway bridges because it is prone to degradation from the environment, and is much weaker than steel or concrete.[177] Wood is primarily used in beam or truss bridges, and is also used to build large trestle bridges for railways.[178] When wood is used, it is often in the form of glued laminated timber.[177]
+Masonry includes stone and brick, and is suitable only for elements of a bridge that are under compression (as opposed to tension), therefore, masonry is limited to structures such as arches or foundations.[179] In the twentieth century, large masonry bridges  – although superseded by concrete in the West – continued to be built in China.[180]
+Iron  – including cast iron and wrought iron  – was used extensively from the late eighteenth century to late nineteenth century, primarily for arch and truss structures. Iron is relatively brittle, and has been replaced by steel for all but ornamental uses.[181] Steel is one of the most common materials used in modern bridges because it is strong in both compression and tension.[182] Steel was made in small quantities in antiquity, but became widely available in the late nineteenth century following invention of new smelting processes. Truss bridges and beam bridges are often made of steel, and steel wires are an essential component of virtually all suspension bridges and cable-stayed bridges.[183] Steel is a critical component in concrete bridges, because steel reinforcing bars or steel prestressed cables must be embedded within concrete to make it sufficiently strong.[184] Steel bridges are more expensive than comparable concrete bridges, but they are much lighter (for the same strength), faster to build, and offer more flexibility during construction and repair.[185]
+Concrete is commonly used in modern bridges, and many roadway bridges are built primarily with a reinforced concrete beam structure, often of the box girder variety.[186][q] The shape of concrete elements is determined by the formwork (mold) into which the concrete is poured (cast): the concrete will adopt the shape of the formwork as it cures.[188] Beams can be precast offsite and transported to the bridge site, or cast in place.[189] Bridges use concrete that contains embedded steel reinforcing bars – placed within the concrete when it is initially poured – which greatly increase the strength.[190] Concrete is a strong and inexpensive material, but is brittle and can crack when in tension.[191] If concrete is used in elements that may experience tension, prestressed cables are usually embedded within the concrete and tightened, which compresses the concrete.[192] When a horizontal beam is placed into the bridge and carries a load, the undesirable tension (produced by the tendency of the beam to sag) is counteracted by the compression from the prestressed cables.[193] The prestressed cables can be pre-tensioned (stretched before  – and while – the concrete cures); or post-tensioned (placed within tubes in the concrete, and tightened after the concrete cures).[193]
+The San Francisco–Oakland Bay Bridge is designed to withstand severe earthquakes. The eastern span, shown above, is a self-anchored suspension bridge which can survive a once-in-1,500-year earthquake.[201]
+Designers may choose to use a double-deck design (also known as double-decked or double-decker), that carries two decks on top of each other. This technique can be used to increase the amount of traffic a bridge can carry; or when the location constrains the size of the bridge.[194] Double-deck bridges also permit two different kinds of traffic to be safely carried. For example, motor vehicles can be separated from pedestrians or railways.[194] Some double-deck bridges carry rail on one deck, and vehicles on the other deck. An early example was Niagara Falls Suspension Bridge,[195] and a modern example is the
+Dom Luís I Bridge in Portugal.[196] Because of their ability to carry large amounts of motor vehicles, double-deck bridges are often found near large cities carrying cars on both decks, for example, Tsing Ma
+Bridge in Hong Kong,[197] Øresund Bridge connecting Copenhagen and Malmö,[198] and Shimotsui-Seto
+Bridge near Kurashiki.[199] George Washington Bridge in New York carries 14 motor vehicle lanes (eight above, six below), and is the world's busiest bridge, carrying over 100 million vehicles annually.[200]
+A bridge design must accommodate all loads and forces that the bridge might reasonably experience. The totality of the forces that the bridge must tolerate is the structural load, which is often divided into three components: dead load, live load, and environmental load. The dead load is the weight of the bridge itself.[202][r] The live load is all forces and vibrations caused by traffic passing over the bridge, including weight, braking, and acceleration.[202] The environmental load encompasses all forces applied by the bridge's surroundings, including weather, earthquakes, mudslides, water currents, flooding, soil subsidence, frost heaving, temperature fluctuations, and collisions.[202]
+For sporadic events like floods, earthquakes, collisions, and hurricanes, bridge designers select a maximum severity that the design must accommodate.[204] The severity is based on the return period, which is average time between events of a given magnitude. Return periods range from 10 to 2,500 years, depending on type of event and the country in which the bridge is located.[205][s] Longer return periods are used for bridges that are a critical part of the transportation infrastructure. For example, if the bridge is a key lifeline in case of emergencies, the designer may utilize relatively long return period, for instance, 2,000 years; in this example, the design must endure the strongest storm that is expected to happen once every 2,000 years.[206]
+The load forces acting on a bridge cause the components of the bridge to become stressed. Stress is a measure of the internal force experienced within a material. Strain is a measure of how much a bridge component bends, stretches, or twists in response to stress. Some strain (bending or twisting) may be acceptable in a bridge component if the material is elastic. For example, steel can tolerate some stretching or bending without failing. In contrast, concrete is inelastic, and the change in its shape when stressed is negligible (until the stress becomes excessive and the concrete fails).[207]
+Double-deck bridge
+Load analysis
+Stress and strain
+The 1994 Northridge earthquake damaged several bridges.[215]
+A critical phase of the design process is calculating the maximum stress that each bridge component will experience, and selecting an appropriate design and size for the components to ensure they will safely tolerate the loads on the bridge. Stresses are categorized based on the nature of the force that causes the stress, namely: compression, tension, shear, and torsion. Compression forces compact a component by pushing inward (for example, as felt by a bridge foundation when a heavy tower is resting on it). Tension is a stretching force experienced by a component when pulled (for example by the cables of a suspension bridge). Shear is a sliding force experienced by a component when two offset external forces are applied in opposite directions (for example, during an earthquake when the upper part of a structure is pulled north, and the lower part is pulled south). Torsion is a twisting force.[208]
+The bridge design process typically employs structural analysis methods that divide the bridge into smaller components, and analyze the components individually, subject to certain constraints.[209] A proposed bridge design is then usually modeled with formulas or computer applications.[210] The models incorporate the loads the bridge will experience, calculate the stresses in the bridge, and provide data to the designer indicating whether the design meets the required design goals.[210][t] To ensure that a proposed bridge design is sufficiently strong to endure foreseeable stresses, many bridge designers use limit state design methodologies (used in Europe and China) or Load and Resistance Factor Design
+(LRFD) methodologies (used in US).[212]
+Many loads imposed on a bridge  – wind, earthquakes, and vehicular traffic  – can cause a bridge to experience irregular or periodic forces, which may cause bridge components to vibrate or oscillate.[213]
+Some bridge components have inherent resonant frequencies to which they are particularly susceptible, and vibrations near those frequencies can cause very large stresses.[214]
+Winds can produce a variety of vibrational forces on a bridge, including flutter, galloping, and vortex shedding.[216]
+Considering wind forces during the design process is especially important for long, slender bridges (typically suspension or cable-stayed bridges).[217] If resonance issues are identified in the design process, they must be mitigated.
+Common techniques to address vibration include increasing the rigidity of the bridge deck by adding trusses and adding dampers to cables and towers.[218] Neglecting to account for vibrations and oscillations can lead to bridge failure. The
+Tacoma Narrows Bridge collapsed in 1940 in winds of
+68 km/h (42 mph), even though the bridge was designed to withstand winds up to 206 km/h (128 mph). Investigations revealed that the designer failed to account for wind-induced flutter and resonant vibrations.[219]
+Bridges can suffer severe damage when subjected to earthquake ground motions.[220] During a seismic event, several phenomena can occur, such as long-period velocity pulses, shear cracks, large ground motions, vertical accelerations, and soil liquefaction.[221] To mitigate risks, earthquake engineers study seismic data to classify and quantify the motions experienced by bridges.[222] These studies are used by governments to create and revise design standards that specify the types of seismic movements that new bridges must withstand.[223]
+Vibration
+Some elements of a fictional bridge. 1 Approach,
+2 Arch, 3 Truss, 4 Abutment, 5 Bearing, 6 Deck and beams, 7 Pier Cap, 8 Pier, 9 Piling, 10
+Footing, 11 Caisson, 12 Subsoil.[228]
+Abutments are an important element of a substructure. Beam bridges (left) direct force vertically into the abutments; some arch bridges
+(right) direct forces diagonally. 1 Deck, 2
+Abutments, 3 Subsoil, 4 Load on bridge, 5 Force from abutment into subsoil.[89]
+The structural elements of a bridge are generally divided into the substructure and the superstructure.[224]
+The substructure consists of the lower portions of the bridge, including the footings,[u] abutments, piers, pilings, anchorages, and bearings.[226] The superstructure rests upon the substructure, and consists of the deck, trusses, arches, towers, cables, beams, and girders.[227]
+Construction of a bridge is typically managed by construction engineers, who are responsible for planning and supervising the construction process.
+Important aspects of this role include budgeting, scheduling, periodically conducting formal design reviews, and communicating with the bridge designers to interpret and update the design plans.[229][v] When an existing bridge is being replaced or refurbished, the impact on traffic flow can have a detrimental effect on residents and services.
+Accelerated bridge construction processes – that focus on using pre-fabricated components and a rapid timetable – may be used to mitigate the impacts.[231]
+The forces experienced by a bridge during construction can be larger or have a different nature to the forces it will experience after completion. The bridge design process typically focuses on the strength of the fully completed bridge, but it should also consider the unusual stresses that individual elements will experience during construction. Special techniques may be required during construction to avoid excessive stresses, such as temporary supports under the bridge, temporary bracing or reinforcement, or permanently strengthening specific elements.[232] For instance, when a cable-stayed bridge with concrete towers is complete, the towers will experience desirable compression forces from the heavy load of the cables; but during construction, without that load, the towers may experience undesirable tension forces caused by lateral winds.[233]
+Construction of all bridge types begins by creating the substructure. The first elements built are usually the footings and abutments, which are typically large blocks of reinforced concrete, entirely or partially buried underground. The footings and abutments support the entire weight of the bridge, and transfer the weight to the subsoil.[234] Based on their height- to-width ratio, footings are categorized as: shallow
+(height is less than width) or deep (height is greater than width).[235] If the subsoil cannot support the load placed on the footings, pilings must first be driven
+Construction
+Construction process
+Substructure
+This concrete bridge pier is being built within a steel cofferdam.[242] below the footings: pilings are long structures  – made of wood, steel, or concrete  – placed vertically below footings.[236] Some pilings reach down and rest on bedrock; others rely on friction to prevent the footing from sinking lower.[236]
+Abutments are usually located at the ends of a bridge deck, where it reaches the subsoil.[237] They direct the weight into the subsoil, either vertically or diagonally.[89] Abutments may also act as retaining walls, keeping the subsoil under the approach road from eroding.[237] After footings for the piers have been created, the piers and pier caps are built to complete the substructure.[238][w] Suspension bridges usually require anchorages, which are large reinforced concrete blocks solidly anchored into the earth – they must be exceptionally heavy and tied into the subsoil because they must withstand the lateral pull of the large cables that hold the entire deck and live load.[240][x]
+When bridge supports (piers or towers) are built in a river, lake, or ocean, special technologies must be utilized.[243]
+Caissons can be used to provide a workspace while constructing the submerged portion of the supports. A caisson is a large, watertight, hollow structure, open on the bottom. It is usually sunk to the bottom of the water and workers can work inside, preparing the ground for the footings. When excavation is complete, a caisson is typically filled with concrete to create all or part of the footing.[244] Air pressure inside a sealed caisson must be kept high to prevent water from seeping in.[245] Workers, if they do not properly decompress when exiting the caisson, can get decompression sickness.[246] Early bridge builders did not understand decompression, and deaths were common: thirteen workers died from decompression sickness when building the Eads Bridge (completed in 1874).[246]
+Another approach for constructing foundations in water is a box caisson, which is a large steel or concrete box, open on top, which is towed by tugboats to the bridge site, then sunk to the bottom and filled with concrete.[247] The Akashi Kaikyo suspension bridge used box caissons for its two foundations – each 70 meters (230 ft) tall and 80 meters (260 ft) in diameter. The caissons were sunk to the bottom in water 60 meters (200 ft) deep, and each was filled with 355,000 cubic meters of concrete. The foundations rest directly on the ocean bottom, without pilings or footings.[247] An alternative to a caisson is a cofferdam, which is a temporary dam surrounding the support location, open on top, where workers may work while constructing the footings.[248]
+Bearings are often placed between the superstructure and the substructure at the points of contact.
+Bearings are mechanical devices that enable small movements  – which may result from thermal expansion and contraction, material creep, or minor seismic events. Without bearings, the bridge structure may be damaged when such movements occur. Bearings can be selected to permit small rotational or slipping movements in a specific direction, without permitting movements in other directions. Types of bearings used on bridges include hinge bearings, roller bearings, rocker bearings, sliding bearings, spring bearings, and elastomeric bearings.[250]
+Constructing supports in water
+Bearings
+Bearings can prevent damage to the superstructure by permitting small movements.[249]
+Gantries are one technique used to gradually assemble a bridge deck.[254]
+After the substructure is complete, the superstructure is built, resting on the substructure. Beam bridge superstructures may be built in place, or fabricated off-site (precast) and transported to the bridge site.[251] Precast beams may be placed atop the supports by a crane or gantry.[252] If the span crosses a deep ravine, a technique known as launching may be used: the beams and deck are assembled on the approach road, then pushed horizontally across the obstacle.[253][y]
+Arch bridge superstructure construction methods depend on the material. Concrete or stone arches use a temporary wood structure known as falsework or centering to support the arch while it is built.[255] Some steel arch bridges are constructed with falsework, but others use cantilevering to build both halves out from the abutments.[256]
+Cantilever bridge superstructures are usually built incrementally by proceeding outward from anchorages or piers. Most cantilever superstructures can be built without temporary support piers, as the bridge can support itself as it extends outward. A similar process is used for steel or concrete cantilevers: prefabricated sections may be positioned at ground (or water) level and hoisted into place with a gantry, or may be transported horizontally along the previously completed portion of the cantilever. Concrete cantilevers require steel prestressing cables to be passed through tubes within each section and tightened, which will put the concrete into compression.[257] Truss bridges are built using a variety of methods, including piece-by- piece, cantilevering, or falsework.[258]
+Cable-stayed bridge superstructures begin with the construction of one or more towers which rest directly on footings that are part of the substructure. The deck is constructed in pieces beginning at the towers[h] and moving outward. The pieces can be put into place by hoisting, supporting from below, launching, or cantilevering from the portion of the deck that has been assembled.[259] As each piece of the deck is added, it is connected to towers with steel cables, and the cables are tightened to take the load of the deck.[259]
+Suspension bridge superstructure construction usually begins with the towers.[260][h] The towers may be steel or concrete, and rest directly on footings. The large cables are created by hauling a large pulley back and forth across the span, stringing multiple wires between the anchorages in each pass, in a process termed spinning. After the wires are spun, they are bundled together to form the cables.[z] The cables are securely fastened to the anchorages at both ends.[aa] Vertical wires called hangers are suspended from the cables, then small sections of the deck are attached to the hangers, and the sections are attached to each other.[263]
+Superstructure
+A suspension bridge cable transfers its load to the tower by resting on a curved saddle.
+A spinning wheels pulls two wires at a time to gradually build up a suspension bridge cable.[269]
+Towers, made of either concrete or steel, are an important component of the superstructure of cable-stayed bridges and suspension bridges.[ab] Concrete is generally suitable for towers up to about 250 meters (820  ft) tall, whereas steel towers can be taller.[265][ac] Towers support the bridge cables, which hold the weight of the deck and the traffic. Most of the load imposed on a tower is applied vertically downward on the tower, rather than sideways.[267] Towers experience a compression stress, in contrast to cables, which experience a tension stress.[104] There are two mechanisms used to attach a cable to a tower: saddles or anchors. Saddles are curved structures which allow a cable to pass through (or over the top of) a tower. An anchor holds the end of a cable. Saddles are often used in suspension bridges, and anchors are often used in cable-stayed bridges.[268]
+Steel cables are an element of both cable-stayed bridges and suspension bridges. Cables are made of one or more strands, and each strand consists of multiple wires. A wire is a thin, flexible piece of solid steel, of higher tensile strength than normal steel, and with a diameter of 3mm to 7mm.[270][ad]
+Cables are typically constructed at the bridge site by unspooling wires or strands from large reels.[272] Large suspension bridges may use cables that are over 1 meter (3 ft
+3  in) in diameter and weigh over 20,000 tonnes
+(44,092,450 lb).[273]
+Before building the cables of a suspension bridge, temporary catwalks must be constructed to support the wires while they are drawn across the span and over the tops of the towers.[274]
+There are two approaches to pulling the wires across the span: the air spinning method (in which individual wires are carried across by pulleys); and the prefabricated strand method (in which entire strands are pulled across).[275][ae]
+The air spinning method was used for all suspension bridges until the prefabricated strand method was invented in the 1960s.[276] After 300 to 500 wires are pulled, aluminum bands are used to bundle them into strands.[277][af] The wires within a strand may be parallel, or they may wrap around each other in a twisted (spiral) pattern.[279] Air spinning always produces strands that contain parallel wires. The prefabricated strand method can utilize strands with parallel or twisted wires.[279][ag]
+The deck of a bridge is the flat, horizontal surface that extends across the full span of a bridge. Decks generally rest on beams or box girders. When a deck is rigidly attached to its supporting beams or girders they function together as a single structure.[281] Two common types of decks are concrete decks and
+Towers
+Cables
+Deck
+The deck of this arch bridge is being horizontally pushed onto the substructure with jacks [253] orthotropic steel decks.[282][ah] Concrete decks are flat slabs of reinforced concrete. The slabs may precast off-site, or cast- in-place by pouring concrete into forms on the bridge superstructure.[285][ai] Orthotropic steel decks consist of a flat steel plate, coated with a wearing surface.[287] Numerous small steel ribs are welded to the underside of the top plate, running in the direction of the bridge roadway.[aj] Below the ribs are steel floor beams, placed crosswise to the ribs.[289][ak]
+Orthotropic steel decks are more expensive than concrete steel decks, but weigh less. They are useful in applications where weight is critical, a thin deck is required, or the environment is subject to earthquakes or extreme cold weather.[290]
+Many decks have a wearing surface on top, which is a layer of material designed to be periodically replaced after it is worn away by vehicular traffic. Wearing surfaces are typically made of aggregate
+(small rocks) mixed with a binder such as asphalt, polyurethane, epoxy resins, or polyester.[291][al]
+Railway bridge decks are categorized as open decks (the ties rest directly on beams or girders, with air gaps between) and ballast decks (the ties rest on ballast rocks, and the ballast rests on a deck slab).[293]
+Constructing the deck (and its supporting beams or girders) can be difficult when the bridge is over water or a deep valley. A variety of techniques are available, and the choice depends on the topography of the site, the deck material (concrete or steel), traffic or obstacles under the bridge, and whether sections can be built off-site and transported to the bridge. Methods of deck construction include building atop temporary supports, jacking up from the ground, incremental launching (building the entire deck on the approach road and pushing it horizontally), lifting from below with a hoist mounted on the bridge, cantilevering (incrementally extending the deck, starting from towers or abutments), and lifting with a floating crane.[294]
+To achieve the designed service life, a bridge must be protected from deterioration by incorporating certain features into the design. Bridges can deteriorate due to a variety of causes, including rust, corrosion, chemical actions, and mechanical abrasion. Deterioration is sometimes visible as rust on steel components, or cracks and spalling in concrete.[295] Deterioration can be slowed with various measures, primarily aimed at excluding water and oxygen from the bridge elements.[296] Techniques to prevent water-based damage include drainage systems, waterproofing membranes (such as polymer films), and eliminating expansion joints.[297][am] Concrete bridge elements can be protected with waterproof seals and coatings.[299][an] Reinforcing steel within concrete can be protected by using high-quality concrete and increasing the thickness of the concrete surrounding the steel.[301] Steel elements of a bridge can be protected by paints or by galvanizing with zinc.[302] Paint can be avoided entirely for steel members by using stainless steel or weathering steel (a steel alloy that eliminates the need for paint, by forming a protective outer layer of rust).[303]
+Bridge scour is a potentially serious problem when bridge footings are located in water. Currents in the water can cause the sand and rocks around and below the footings to wash away over time. This effect can be mitigated by placing a cofferdam around the footings, or surrounding the footings with large,
+Protection
+A crew of workers are using a maintenance traveler (the mobile cage structure) to inspect the Clifton Suspension Bridge.
+carefully placed rocks.[304][ao] Suspension bridges and cable-stayed bridges have large cables containing hundreds of steel wires. Several techniques are used to minimize corrosion inside the cables, including wrapping the cables with galvanized wire, injecting the cables with grout or epoxy, using interlocking S- profile wires, and circulating dry air through the interior of the cable.[306] Bridges with supports in navigable waterways are designed to withstand ship strikes up to a specific, predefined magnitude. In addition to waterway markings and pilot warning systems, bridge supports in water may be surrounded by physical protections such as fenders, pilings, or small artificial islands.[307]
+After a bridge is completed and becomes operational, management processes are employed to ensure that it remains open to traffic, avoids safety incidents, and achieves its intended lifespan. These processes – collectively referred to as bridge management  – include technical activities  – namely, maintenance, inspection, monitoring, and testing.[308] In addition to technical tasks, management encompasses planning, budgeting, and prioritization of maintenance activities.[308] Bridge managers use bridge management systems and life-cycle cost analysis methodologies to manage a bridge and estimate the maintenance costs of a bridge throughout its lifetime.[309] Annual maintenance costs increase as the bridge ages and degrades.[310]
+Maintenance activities seek to prolong the life of the bridge, reduce lifecycle costs, and ensure the safety of the community.[311] Maintenance tasks can be categorized as corrective tasks and preventive tasks.[312] Corrective tasks are implemented in response to unexpected issues that arise, for example, repairing structural elements (piers, beams, girders, towers, or cables) and replacing bearings.[313]
+Preventive tasks include washing, painting, lubricating bearings, sealing the deck, filling cracks, removing snow, filling potholes, and repairing minor issues with structures and electrical fixtures.[314] Some preventive tasks are performed on a periodic schedule. An example schedule for periodic bridge maintenance tasks is: washing entire structure (1–2 years); sealing deck surface (4–6 years); lubricating bearings (4 years); painting steel bridge components (12–15 years); replacing the deck's wearing surface (12 years); sealing sidewalks (5 years); filling cracks (4 years); and cleaning drains (2 years).[315]
+Operation and financing
+Management
+Maintenance
+Scaffolding is erected under the
+Sitterviadukt rail bridge in Switzerland while maintenance on the deck truss is performed.[316]
+An important part of maintenance is inspecting a bridge for damage or degradation, and taking steps to mitigate any issues detected. Degradation can come from environmental sources, including expansion/contraction from freeze/thaw cycles, rain, oxidation of steel, and sea spray. Human activities may also cause damage, for example: vehicular traffic, mechanical abrasion, poor bridge design, and improper repair procedures.[317] Some countries mandate periodic inspection schedules, for example, routine inspections every 24 months, or inspecting underwater foundations for scouring every 60 months.[318]
+Relying solely on visual inspection to assess degradation of a bridge can be unreliable, so inspectors use a variety of nondestructive testing techniques.[319] These techniques include hammer strike tests, ultrasonic pulse velocity tests, seismic tomography, and ground penetrating radar.[320] Various electrical tests that assess permeability and resistance can give insight into the condition of surface concrete.[321] X-rays can be passed through concrete to obtain data about concrete density and condition.[322] Videography using slender probes can be used where access is available.[323]
+Measurements of the state of a bridge may be made automatically and periodically using structural health monitoring (SHM) technologies.[324] Some testing  – termed destructive testing  – requires removing samples from the bridge and taking them to a laboratory for analysis with microscopes, sonic devices, or
+X-ray diffraction.[325] Destructive testing is performed by removing cores drilled from concrete, or a small pieces of steel wire cut from a cable.[325]
+Funding for bridge construction and operation comes from a variety of sources, including fuel taxes, annual vehicle registration fees, tolls, congestion fees, and usage fees based on satellite tracking.[326]
+Some bridges – particularly in developing countries – are financed by international sources including the
+World Bank or China's Belt and Road Initiative.[327] Toll systems are generally an inefficient mechanism for collecting funding, particularly when toll booths are used, because they are expensive to build and manage. Toll booths can slow down traffic and interfere with the construction of entry or exit points.[328]
+The cost of building a bridge is typically borne by government agencies, but since 1990 an increasing number of bridges are built and paid for by private companies using a public–private partnership (PPP) agreement. In a PPP project, the government grants the right to build the bridge to a company, and the company recoups its expenses by collecting tolls for a fixed period of time.[329][ap] At the end of the period, the bridge is transferred to government ownership, and the government may choose to continue to charge tolls or not. Notable bridges constructed with a PPP model include the Queen Elizabeth II Bridge
+(built in 1991, toll collection period 20 years) and the Second Severn Crossing (built in 1996, toll collection period 30 years).[330]
+Inspection and monitoring
+Financing
+Failures
+The Nanfang'ao Bridge in Taiwan collapsed because of excessive corrosion that went undetected.[331]
+The Dagu Bridge in China was designed to be a signature bridge.[343]
+Bridge failures are of special importance to structural engineers, because the analyses of the failures provide lessons learned that serve to improve design and construction processes.[332] Bridge failures have a variety of causes, which can be categorized as natural factors (flood, scour, earthquake, landslide, and wind) and human factors (improper design and construction method, collision, overloading, fire, corrosion, and lack of inspection and maintenance).[333] Over time, bridge failures have led to significant improvements in bridge design, construction, and maintenance practices.[334]
+Before the advent of bridge engineering procedures based on rigorous, scientific principles, bridges frequently failed.
+Failures were most common in the mid-nineteenth century, when the rapidly expanding railway networks were building hundreds of new bridges every year around the globe.[335] In the United States, 40 bridges per year failed in the 1870s, amounting to 25% of all bridges built in that decade.[336]
+In the modern era, in spite of advances in bridge engineering methodologies, bridge failures continue to occur regularly.[337] In Australia, the King Street Bridge collapsed in 1962, a year after opening, due to improper welding techniques.[338] In Palau, the Koror–Babeldaob Bridge collapsed in 1996, three months after a repair operation made major changes to the bridge.[339] In 1998, the Turag-Bhakurta Bridge in
+Bangladesh collapsed due to river waters scouring away the soil around the bridge supports.[340] The
+Millennium Bridge in London opened in 2000, but closed two days later due to excessive swaying. It did not open until two years later – after dampers were installed.[341] About half of all bridge failures in the early 21st century in the US were due to flood damage or scouring (water currents undermining the bridge supports).[342]
+Many bridges  – known as signature bridges  – are strongly identified with a particular community.[344][aq] Large suspension bridges, in particular, are often regarded as iconic landmarks that symbolize the cities in which they are located.
+Notable examples include the Brooklyn Bridge in New York; the Golden Gate Bridge in San Francisco; the Clifton
+Suspension Bridge in Bristol; and the Széchenyi Chain
+Bridge in Budapest.[345][ar] Some visually impressive bridges, such as the Dagu Bridge in China, are designed with the express goal of creating a landmark for the host city.[347] Dan
+Cruickshank notes that some bridges have the ability to
+"transform a place a community and ... can make its mark on the landscape and in men's minds, capture the imagination, engender pride and sense of identity and define a time and place."[173]
+Society and culture
+Signature bridges
+Bridges can have significant impacts  – both positive and negative  – on a community's environment, society, and economy. During the bridge design process, these effects may be modeled with life cycle sustainability assessment or building information modeling, and the results can be used to adjust the bridge's design to improve its effect on the environment, society, and economy.[348]
+Positive effects of a new bridge can include shorter transport times, employment opportunities, improvements to social equity, improved productivity, and increases to the gross domestic product
+(GDP).[348] Construction of a new bridge can increase wages in the surrounding region, but can also increase income inequity between genders (men see larger wage gains than women) and between education levels (higher-educated persons see more gains than lower-educated persons).[349] In locales where flooding is common, bridges can increase overall income by providing reliable crossings across rivers.[350] In underdeveloped regions with mountainous topography, construction of bridges that cross deep valleys can bring major benefits to the communities they connect. Without bridges, such areas often have a core region that is more prosperous, surrounded by less developed peripheral regions. Building bridges over deep valleys can reduce developmental disparities between areas, as well as generate economic development, and improve accessibility to goods and services.[351]
+Global warming can be exacerbated by the creation of a new bridge, because the production of concrete significantly contributes to the greenhouse effect.[352][as] Although bridges can boost the economy of the surrounding region, they also increase environmental pollution proportionally.[352] Corruption endemic in the construction industry (including bridge building) can produce negative societal and economic consequences.[353] Bridges that carry highways can result in increased vehicular collisions, which have economic costs (medical care and lost productivity) averaging over €14,000 each.[354]
+Suicides are sometimes carried out by jumping off bridges. This method can account for 20% to 70% of suicides in urban areas with access to tall bridges.[at] In some regions, suicide by jumping disproportionately affects young adults, who tend to have lower inhibitory control. Specific bridges can gain notoriety and attract persons experiencing a suicidal crisis, which creates a feedback loop. High-risk bridges often have suicide prevention barriers installed,[au] which dramatically decrease the suicide rate on the bridge.[av] Installing barriers on a high-risk bridge generally reduces the jumping suicide rate in a region, although in some instances, other bridges become substitutes.[355]
+The profession of civil engineering  – which includes the discipline of bridge building  – began to be formalized in the eighteenth century when a school of engineering was created in France within the Corps des Ponts et Chaussées at the École de Paris, under the direction of Jacques Gabriel.[356] In 1747 the first school dedicated to bridge building was founded: the École Nationale des Ponts et Chaussées led by
+French engineers Daniel-Charles Trudaine and Jean-Rodolphe Perronet.[356] The first professional organization focused on civil engineering was the Institution of Civil Engineers founded in 1818 in the
+UK, initially led by Thomas Telford.[357]
+Economic and environmental impact
+Suicide
+Profession and regulation
+In Norse mythology, the Bifröst rainbow bridge connects Earth with Asgard.[363]
+In the modern era, bridge engineering is regulated by national organizations, such as the National Council of Examiners for Engineering and Surveying (US), the Canadian Council of Professional Engineers
+(Canada), and the Engineering Council (UK).[358] In many countries, bridge engineers must be licensed or meet minimal educational requirements.[359] Some countries require engineers to pass qualification examinations, for example, in the US engineers must pass the Fundamentals of Engineering exam followed by the Principles and Practice of Engineering exam.[360] In Poland, bridge engineers are required to obtain certification by accumulating several years of experience under a senior engineer, and passing an exam administered by the Polish Chamber of Civil Engineers.[361] International cooperation in the field of engineering is facilitated by the World Federation of Engineering Organizations.[362]
+Bridges occur extensively in art, legend, and literature, often employed as metaphors or symbols of human accomplishment, lifespan, or experience.[364] In Norse mythology, the home of the gods – Asgard – is connected to the earth by Bifröst, a rainbow bridge.[363] Many bridges in
+Europe are named Devil's Bridge, and in some cases have folkloric stories that explain why the bridge is associated with the devil.[365] Christian legend holds that St. Bénézet lifted a huge boulder to begin construction of the Pont
+Saint-Bénézet bridge, and went on to found the apocryphal
+Bridge-Building Brotherhood.[366] Bridges feature prominently in paintings – often in the background – as in the Mona Lisa.[367]
+In the modern era, bridges continue to feature prominently in culture. Bridges are often the setting for pageants, celebrations, and processions.[368] Authors have used bridges as the centerpiece of novels, notably The Bridge on the Drina by Ivo Andrić and Thornton Wilder's The Bridge of San Luis Rey.[369]
+British poet Philip Larkin, inspired by the construction of the Humber Bridge near his home, wrote
+"Bridge for the Living" in 1981.[370] Neighboring nations have chosen to designate some shared bridges as friendship bridges or peace bridges.[371][aw] In 1996, the European Commission held a competition to select art for the euro banknotes. Robert Kalina, an Austrian designer, won with a set of illustrations of bridges, chosen because they symbolize links between states in the union and paths to the future.[372] a. Examples of early bridges include the Sweet Track and the Post Track in England, approximately 6,000 years old.[3] b. The volcanic ash, called pozzolana, was used to create a variety of concrete called Roman concrete.[12]
+Art and culture
+References
+Footnotes c. Straight, inclined cables – known as stays – are used to directly connect the bridge deck to bridge towers.[44] An early cable-stayed bridge was the 1955 Strömsund Bridge in
+Norway.[45] Stays were used as supplemental supports in some suspension bridges in the
+19th century – including the Brooklyn Bridge.[46] d. Fiber-reinforced polymers include carbon fiber, fiberglass, and aramids.
+e. The maximum theoretical span lengths, using materials available in 2014, are: Beam/girder:
+550 meters (1,800 ft). Arch: 4,200 meters (13,800 ft). Cable-stayed: 5,500 meters
+(18,000 ft). Suspension: 8,000 meters (26,000 ft). As calculated by bridge engineer Man-
+Chung Tang.[51] f. An early example of grade separation for roadways is the Holborn Viaduct in London, completed in 1869.
+g. In some contexts, beams and girders are treated as distinct types of structures. Suspension and cable-stayed are sometimes grouped together as cable-supported bridges.[83] h. Most suspension bridges and cable-stayed bridges have two or more towers, but some have only one tower. A single-tower cable-stayed bridge is the Flehe Bridge in Germany,[111] and a single-tower suspension bridge is the east span of the San Francisco-Oakland Bay
+Bridge.[112] i. The deck is suspended from the cables by large wire ropes called hangers, also called suspenders.[104] j. In a harp pattern all the cables are parallel; in a fan pattern the cables all radiate from near the top of the tower. The Severins Bridge was the first cable-stayed bridge that arranged its cables in a fan pattern, rather than a harp pattern.[45] Other cable-stay patterns include star and radial.[114] k. These bridges were designed by Santiago Calatrava (Spain), WilkinsonEyre (England), and
+Schlaich Bergermann (Germany).[127] l. Similarly, a continuous beam consists of a single, rigid beam that crosses two or more spans.[138] m. Routine maintenance includes replacing bridge elements that are designed to be replaced, specifically the wearable surface of the deck, or certain cables.[158] n. Bridges made from glued laminated timber, if properly designed, can have service lives longer than 50 years.[160] o. A list of some bridge-related specifications in the US is found in Planning and Design of
+Bridges.[165] p. The number of bridges in the US in 2018, based on their primary material, are: 60% concrete, 30% steel, and 3% wood (the remainder are masonry, aluminum iron, etc).[175] q. High-performance concrete is becoming more commonly used in bridges (compared to conventional concrete) because it suffers less damage from heavy traffic and lasts longer.[187] Conventional concrete has strength about 25 to 50 MPa, whereas high- performance concrete has strength about 50 to 100 MPa.[187] r. The dead load also includes any permanent fixtures on the bridge, including light poles, traffic signage, and guardrails;[203] s. Authors discussing international bridge design policies provide return period examples of
+10, 50, 350, 475, 500, 1000, 2000, and 2500 years.[205] t. The finite element method is a numerical model commonly used to perform detailed analysis of stresses and loads of a bridge design.[211] u. The term foundation is sometimes used to represent footings, but in other contexts foundation may mean all or most of the substructure.[225] v. An example schedule for design reviews is to hold them at 33%, 65%, 95%, and 100% of bridge completion.[230] w. A pier cap is a block of concrete at the top of a pier, upon which rests the deck.[239] x. Self-anchored suspension bridges do not require anchorages.[241] y. Incremental launching may be employed for several types of bridges: beam bridges, deck arch bridges, and cable-stay bridges with short spans. In all cases, the substructure is completed first, then the deck is pushed horizontally across the top of the substructure.[253] z. Spinning the wires took 209 days for the George Washington Bridge.[261] aa. Some suspension bridges, called self-anchored suspension bridges, do not use anchorages.[262] ab. In the context of bridges, the term pylon is interchangeable with the word tower.[264] ac. Most towers are rigidly attached to the footings below them, but some relatively short towers have bearings at their base which permit pivoting.[266] ad. The number of wires in a strand is typically 37 to 127 (for prefabricated strand construction) and 200 to 500 (for air-spinning construction).[271] ae. The prefabricated method is sometimes called the prefabricated parallel-wire strands
+(PPWS) method.[276] af. For large suspension bridges, the length of wire or strand on a reel may not reach across the full span, so when a reel reaches its end, the wires (or strands) must be spliced to the wires (or strands) of a new reel.[278] ag. The prefabricated strand method was used for the Akashi Kaikyo Bridge, where each strand weighed 94 tonnes (207,230 lb) and was 4 kilometers (2.5 mi) long.[280] ah. Some bridges use both types of deck: concrete in some parts of the bridge, and orthotropic steel in other parts.[283] Other materials (in addition to concrete and steel plates) used to build decks include wood planks and open steel gratings.[284] ai. An advantage of pre-cast slabs is that – after bridge construction – they do not shrink or creep as much as cast-in-place slabs.[286] aj. Orthotropic means (a) the ribs are perpendicular to the crosswise floor beams (orthogonal); and (b) the ribs are more closely spaced than the crosswise floor beams (anisotropic).[288] ak. Floor beams are small beams that cross the width of the bridge, and rest on larger beams that run lengthwise and span the full distance between bridge supports.[289] al. Wearing surfaces are essential for steel decks, but a concrete deck often acts as its own wearing surface. Concrete decks must be designed to accommodate the weight of a future addition of a wearing surface, which will be applied when the concrete wears down due to vehicular traffic.[292] am. Expansion joints relieve stress due to thermal expansion and contraction, but permit water to seep into vulnerable bridge elements, which can lead to corrosion and degradation.
+Integral bridge concepts are an alternative to expansion joints.[298] an. Concrete can deteriorate by the process of carbonatation, or by penetration of chloride ions, typically from salt. The salt may come from ocean water, or from road salt applied during winter de-icing procedures.[300] ao. As an example of measures taken to combat scour: the underwater foundations of the
+Akashi Kaikyo Bridge are surrounded with rip rap 8 meters (26 ft) thick.[305] ap. Some PPP agreements specify that the agreement terminates at the end of the fixed period, or when the private company recoups its expenses, whichever comes first.[330] See also the build–operate–transfer financing method.
+aq. Most signature bridges are roadway bridges or pedestrian bridges; railways rarely construct signature bridges.[57] ar. Some large cable-stayed bridges also have iconic designs.[346] as. Bridges often utilize large amounts of concrete, which is a major source of carbon dioxide, a gas that contributes to the greenhouse effect.[352] at. In general, less than 10% of suicides are from jumping.[355] au. Arguments against installing suicide prevention measures include cost, aesthetics, and questions of effectiveness.[355] av. Many bridges have installed barriers to prevent suicide. The heights range from 2 meters
+(6.6 ft) to 5 meters (16 ft), and are generally successful at reducing suicide rates.[355] aw. See this list of bridges with "friendship" in the name, and this list of bridges with "peace" in the name.
+1. Brown 2005, pp. 22–23.
+2. Bennett 2000, pp. 1–3.
+Bennett 1999, pp. 9–11.
+Brown 2005, pp. 12–13.
+Brunning 2001.
+3. Brunning 2001.
+4. Bennett 2000, p. 2.
+5. Cruickshank 2010, p. 47.
+6. Brown 2005, p. 18.
+7. Brown 2005, pp. 18–19.
+8. Dikshitar 1993, p. 332.
+9. Cruickshank 2010, p. 298.
+Bennett 1999, pp. 11–12.
+Shirley-Smith & Billington.
+10. Bennett 1999, pp. 14–17.
+Bennett 2000, pp. 3–5.
+Brown 2005, pp. 20–25.
+Cruickshank 2010, pp. 58, 63–65, 68–73.
+11. Brown 2005, p. 25.
+Cruickshank 2010, pp. 71–73.
+Shirley-Smith & Billington.
+Bennett 1999, pp. 16–17. Pont du Gard.
+12. Delatte 2001.
+13. Brown 2005, pp. 20–25, 26.
+Bennett 2000, pp. 3–5.
+Delatte 2001.
+Citations
+14. Brown 2005, p. 23. Caption.
+Bennett 1999, p. 101.
+Watson 1937, pp. 84, 150.
+Bjelić 2022.
+15. Brown 2005, p. 26.
+16. Cruickshank 2010, pp. 11–12.
+Shirley-Smith & Billington.
+17. Brown 2005, p. 17.
+Squier 1877, pp. 505–506, 540, 544–548, 558.
+18. Bennett 2000, pp. 5–7.
+Brown 2005, pp. 28–32.
+Cruickshank 2010, pp. 84, 86, 88–91, 96, 109–113.
+Shirley-Smith & Billington.
+19. Cruickshank 2010, pp. 32–33.
+Brown 2005, pp. 36–38.
+20. Cruickshank 2010, pp. 32–33.
+21. Bennett 2000, pp. 7–10.
+Brown 2005, pp. 36–45.
+Shirley-Smith & Billington.
+22. Nath 1982, pp. 183–185.
+23. Wilks 1989, p. 38.
+Edgerton 2010, p. 78.
+24. Bennett 2000, pp. 11–12.
+Brown 2005, pp. 44–45.
+25. Bennett 2000, p. 22.
+26. Brown 2005, pp. 45–51.
+27. Brown 2005, pp. 47–51.
+Bennett 2000, pp. 16–18.
+28. Cruickshank 2010, pp. 50–51.
+29. Brown 2005, pp. 58–59.
+Shirley-Smith & Billington.
+30. Brown 2005, p. 64.
+31. Brown 2005, pp. 64–65.
+32. Brown 2005, p. 65.
+33. Brown 2005, pp. 65–67.
+34. Brown 2005, pp. 74–75.
+35. Brown 2005, pp. 70–73.
+36. Brown 2005, p. 64.
+Hayward 2014, p. 59.
+37. Brown 2005, pp. 64–66.
+38. Bennett 2000, pp. 12–16.
+Brown 2005, pp. 82–84.
+Shirley-Smith & Billington.
+39. Bennett 2000, pp. 16–21.
+Brown 2005, pp. 88–104.
+40. Cruickshank 2010, pp. 312–318, 320–327.
+Brown 2005, pp. 126–144.
+41. Sakowski 2014, pp. 1259–1261.
+42. Bennett 2000, pp. 22–24.
+Brown 2005, pp. 102, 106–108, 110, 113–114, 116–119, 123, 152.
+Shirley-Smith & Billington.
+43. Bennett 2000, pp. 27–29.
+Brown 2005, pp. 146–154.
+Shirley-Smith & Billington.
+44. Bennett 1999, p. 61.
+45. Bennett 2000, p. 29.
+46. Bennett 1999, p. 157.
+47. Schlaich 2019, pp. 1, 3, 6–7.
+48. Zheng & Wang 2018.
+49. Svecova 2014, pp. 371–375, 382, 384–386, 389–392.
+50. Gülkan 2023.
+51. Tang 2014, pp. 11–15.
+52. Tang 2014, p. 1.
+53. Brown 2005, pp. 8, 18, 20–23.
+54. Brown 2005, p. 53.
+55. Denison 2012, p. 72.
+56. Sorgenfrei 2014, p. 144..
+57. Sorgenfrei 2014, p. 144.
+58. Sorgenfrei 2014, p. 146.
+59. Bennett 2000, p. 17.
+60. Ogden & Cooper 2019.
+Chase 2020.
+61. Ogden & Cooper 2019.
+62. Chase 2020.
+63. "Footbridge". Merriam-Webster.
+64. Robertson 1988, pp. 481–482.
+Cai & Liu 2012.
+"LRFD Guide Specifications for the Design of Pedestrian Bridges". AASHTO.
+65. Robertson 1988, pp. 457–459, 464–477, 483–484.
+Soliz & Pérez-López 2022.
+66. Odrobiňák 2022.
+67. Tytler 1985, p. 198.
+68. Tytler 1985, p. 200.
+69. Tytler 1985, pp. 200–203.
+"Close Support Bridging". British Army.
+70. Tytler 1985, pp. 198, 200. The bridge could support a Chieftain Mark 5 tank.
+71. Price 1993.
+Bennett 1999, pp. 102, 104, 108, 181.
+Brown 2005, pp. 33, 105, 114–115.
+Cruickshank 2010, pp. 20, 40–41, 43, 91, 327.
+72. Price 1993.
+73. McGarvey 2023.
+74. Dusseau 2002.
+75. Cruickshank 2010, pp. 144–175.
+76. Cruickshank 2010, pp. 91–92, 96.
+77. Greco 2016, pp. 89–100.
+78. "Will Rogers Archway". Travel Oklahoma.
+79. "Bratislava UFO Classed One of the Craziest Places". Travel to Slovakia.
+80. Greenfield 2021.
+"Why Do Foxes". Israel21C.
+81. Newer 2012.
+82. Shirley-Smith & Billington.
+Barker 2007, pp. 2–21, 87–96.
+83. Shi 2014.
+84. Barker 2007, pp. 96–108.
+85. Tang 2014, p. 4. Two types of structures.
+Bennett 1999, p. 157. Brooklyn bridge example.
+86. Denison 2012, p. 35.
+87. Bennett 1999, pp. 70–75.
+88. Bennett 1999, p. 72.
+Bennett 2000, p. 11.
+Brown 2005, p. 46.
+89. Bennett 1999, pp. 72, 228.
+Brown 2005, p. 15.
+Cruickshank 2010, pp. 35, 64, 162, 207, 364–365.
+90. Bennett 1999, pp. 75–76.
+91. Bennett 1999, pp. 77–79.
+92. Kulicki 2014, p. 284.
+Wright 2022, pp. 7–9, 19–20.
+93. Wright 2022, pp. 4, 7–9, 19–20.
+94. Bennett 2000, pp. 14–17, 21.
+95. Bennett 1999, p. 77.
+96. Collings 2000, p. 413.
+97. Cruickshank 2010, pp. 292–294, 361.
+Brown 2005, p. 202.
+98. Cruickshank 2010, p. 298.
+Brown 2005, p. 15.
+Bennett 1999, p. 12.
+99. Cruickshank 2010, pp. 292–294.
+Brown 2005, p. 78.
+100. Cruickshank 2010, pp. 36, 294.
+Bennett 1999, pp. 42, 53, 78, 94, 97, 145, 223.
+101. Bennett 1999, p. 12.
+102. Collings 2000, p. 433.
+Cruickshank 2010, pp. 262–266.
+Bennett 1999, pp. 74, 96, 113, 145.
+Brown 2005, pp. 89, 105, 141, 149.
+103. Brown 2005, p. 203.
+104. Bennett 1999, p. 84.
+105. Brown 2005, p. 58.
+106. Bennett 1999, pp. 84, 88–90.
+107. Gimsing 1997, pp. 37–38.
+Bennett 1999, pp. 84, 88–90.
+108. Cruickshank 2010, pp. 232–233.
+109. Bennett 1999, pp. 88–89.
+110. Bennett 1999, pp. 92–94, 228.
+111. Troyano 2003, pp. 623, 656, 664.
+112. Brown 2005, pp. 194–195.
+113. Vejrum 2014, pp. 407–410.
+Cruickshank 2010, p. 347.
+Gimsing 1997, pp. 194, 211, 351–352.
+114. Tang 2014, p. 13.
+115. Bennett 2000, pp. 27–29.
+116. Bennett 2000, pp. 27–28.
+Cruickshank 2010, pp. 343–347.
+117. Bennett 1999, p. 78.
+Bennett 2000, pp. 24–26.
+Barker 2007, pp. 20–21.
+Cruickshank 2010, pp. 360, 362.
+118. Bennett 2000, p. 24.
+119. Barker 2007, pp. 20–21.
+Bennett 1999, p. 78.
+120. Zhao 2017, pp. 79, 214–215.
+Troitsky 1994, p. 104.
+Shirley-Smith & Billington.
+121. Birnstiel 2000, pp. 688–690.
+122. Brown 2005, pp. 80–81.
+Birnstiel 2000, pp. 663–664.
+123. Brown 2005, pp. 80–81.
+Birnstiel 2000, pp. 668–678, 684.
+124. Brown 2005, p. 80.
+Birnstiel 2000, pp. 665–668, 682–683.
+125. Brown 2005, p. 80.
+Birnstiel 2000, pp. 676–679.
+126. Brown 2005, pp. 164–165, 184–185.
+127. Brown 2005, p. 164.
+128. Brown 2005, pp. 192–193.
+129. Cruickshank 2010, p. 349.
+Honan 2018.
+130. "Aqueduct". The Concise Oxford Dictionary.
+"Viaduct". The Concise Oxford Dictionary.
+131. Cruickshank 2010, pp. 58, 60–63, 70.
+132. Brown 2005, p. 69.
+133. Brown 2005, pp. 92–93.
+134. Brown 2005, pp. 130–131.
+135. Cruickshank 2010, pp. 46–47.
+136. Honan 2018.
+137. Denison 2012, p. 153.
+Adams 1909, p. 168.
+138. Shirley-Smith & Billington.
+139. "Causeway". Merriam-Webster.
+"Causeway". Oxford English Dictionary.
+Cruickshank 2010, p. 349.
+140. Hu 2016, p. 40.
+141. Vejrum 2014, pp. 410–412.
+Schlaich 2019, p. 3.
+Hu 2016, pp. i, 1, 7–13.
+142. Schlaich 2019, pp. 3–4.
+143. Schlaich 2019, p. 5.
+144. Schlaich 2019, pp. 3–7, 58.
+145. Schlaich 2019, p. 6.
+146. Watanabe 2003, pp. 129–130.
+147. Watanabe 2003, p. 128.
+Brown 2005, p. 203.
+Bennett 1999, p. 229.
+148. Birnstiel 2000, pp. 668, 679.
+149. Brown 2005, pp. 8, 19, 80.
+Bennett 2000, p. 3.
+150. Watanabe 2003, pp. 128–129.
+151. "Handbook on Soviet Ground Forces". Department of the Army, pp. 6.78–6.80.
+152. Tang 2014, p. 2.
+153. Tang 2014, pp. 3–4.
+Barker 2007, pp. 96–101.
+Hu 2016, pp. 98, 106–108, 112.
+Cruickshank 2010, p. 38.
+154. Hu 2016, pp. 98, 106–108.
+155. Barker 2007, pp. 45–51.
+156. Hu 2016, pp. 66, 69–72, 106–109, 112.
+157. Hopper & Langlois 2022, pp. 1–5, 19–20.
+Kulicki 2014, p. 113.
+Mangus 2014, p. 632.
+158. Hopper & Langlois 2022, p. 5.
+159. Fridley & Duan 2014, pp. 348–350.
+160. Fridley & Duan 2014, p. 350.
+161. Hopper & Langlois 2022, pp. 5–20.
+162. Tang 2014, p. 3.
+Barker 2007, p. 101.
+163. "Eurocodes: Building the Future". European Commission.
+164. "AASHTO LRFD Bridge Design Specifications".
+165. Troitsky 1994, pp. 177–179.
+166. "CSA S6:19, Canadian Highway Bridge Design Code". CSA Group.
+167. "Obstruction Marking and Lighting". FAA. Aviation.
+"Bridge Lighting". US National Archives. Navigable waterways.
+168. "Rhaetian Railway in the Albula". UNESCO World Heritage Convention.
+169. Tang 2014, pp. 22–24.
+170. Goettemoeller 2014, pp. 49–55, 75.
+Barker 2007, pp. 51–66.
+Cruickshank 2010, p. 312.
+171. Goettemoeller 2014, pp. 52–53. Telford, Eiffel, Roebling.
+Brown 2005, pp. 164, 174–17. Calatrava.
+Shirley-Smith & Billington. Maillart.
+172. Leonhardt 2014, pp. 43–46.
+173. Cruickshank 2010, pp. 8–9.
+174. Collings 2000, pp. 407–408.
+Brown 2005, p. 6.
+175. Nowak & Iatsko 2018.
+176. Collings 2000, pp. 407–408.
+177. Zhao 2017, pp. 84–85.
+178. Cruickshank 2010, pp. 39–47.
+Zhao 2017, pp. 84–85.
+179. Cruickshank 2010, pp. 47–50.
+Bennett 1999, pp. 14–16.
+180. Ou & Chen 2005.
+181. Cruickshank 2010, pp. 50–52.
+Bennett 1999, pp. 31–33.
+Bennett 2000, pp. 17–18.
+Brown 2005, p. 92.
+182. Bennett 2000, pp. 16–21.
+183. Bennett 1999, pp. 36–42.
+Bennett 2000, pp. 18–20.
+Brown 2005, pp. 92–104.
+184. Cruickshank 2010, pp. 321–327.
+Brown 2005, pp. 140–141.
+Bennett 1999, pp. 68–69.
+185. Bennett 1999, p. 70.
+Ellobody 2014, pp. 1–2.
+186. Bennett 2000, pp. 25–27.
+187. Blank 2014, pp. 74, 76–77, 81.
+188. Bennett 2000, p. 25.
+Blank 2014, p. 82.
+189. Bennett 1999, p. 53.
+190. Bennett 1999, pp. 68–69,
+Brown 2005, pp. 126–134.
+Cruickshank 2010, pp. 322–327.
+191. Bennett 1999, pp. 68–69.
+192. Bennett 1999, pp. 68–69.
+Cruickshank 2010, pp. 322–327.
+Hewson 2000, pp. 241–255.
+Zhao 2017, pp. 290–294.
+Blank 2014, pp. 77–78.
+193. Cruickshank 2010, pp. 322–327.
+Hewson 2000, pp. 241–255.
+Blank 2014, pp. 77–78.
+194. Kumar 2025.
+195. Brown 2005, p. 87.
+196. "Dom Luís I Bridge ". Structurae.
+197. Brown 2005, pp. 178–179.
+198. Brown 2005, p. 181.
+199. Brown 2005, pp. 170–171.
+200. "2024 Monthly Traffic and Percent of E‐ZPass Usage". Port Authority of New York and New
+Jersey.
+201. "SAS Maintenance Travelers". California Department of Transportation.
+202. Cruickshank 2010, p. 34.
+Ryall 2000, pp. 43–44.
+Huff 2022, pp. 23–26.
+Barker 2007, pp. 161–165.
+Zhao 2017, pp. 100–109.
+203. Barker 2007, p. 161.
+204. Barker 2007, pp. 197, 201.
+205. Barker 2007, pp. 197, 201.
+Kulicki 2014, p. 122.
+Chen & Duan 2014, pp. 52, 99, 301, 334, 420, 435, 502, 539, 542, 645, 836, 918.
+206. Barker 2007, pp. 161, 197, 201.
+207. Ellobody 2014, pp. 47–54.
+Beer 2017, pp. 7–13, 28–34, 55–77, 100–104, 119–122, 237–247.
+208. Brown 2005, pp. 14–15.
+Bennett 1999, pp. 67–70.
+209. Barker 2007, pp. 283–288.
+210. Krimotat 2014, pp. 253–257.
+Barker 2007, pp. 283–288.
+211. Yamaguchi 2014, pp. 225–226, 236.
+Ellobody 2014, pp. 1–7.
+Reddy 2004, pp. 1–23.
+212. Barker 2007, pp. 113–118.
+Zhao 2017, pp. 125–131, 341–349.
+Du & Au 2005.
+213. Ryall 2000, pp. 62–68.
+Barker 2007, pp. 178–179, 195.
+O'Brien 2015, pp. 40, 57–58.
+214. Ellobody 2014, pp. 24, 130, 142–144.
+Cruickshank 2010, pp. 252–253.
+O'Brien 2015, pp. 40, 57–58.
+215. Yashinsky 2014, p. 54.
+"Northridge Earthquake Image 2816". National Archives.
+216. Cai 2014, pp. 541–547.
+Ryall 2000, pp. 63–66.
+Jones & Howells 2000, pp. 641–644.
+Scott 2001, pp. 89–93.
+217. Cai 2014, pp. 535–536.
+Ryall 2000, p. 63.
+Jones & Howells 2000, pp. 641–644.
+O'Brien 2015, pp. 40, 57–58.
+218. O'Brien 2015, pp. 41–46, 57.
+Cruickshank 2010, pp. 243–244.
+Brown 2005, pp. 170, 184, 203.
+"Resisting the Twisting". Golden Gate Bridge Highway and Transportation District.
+219. Barker 2007, pp. 12–14.
+Cruickshank 2010, pp. 252–253.
+"Tacoma Narrows Bridge History". Washington Department of Transportation.
+220. Yashinsky 2014, pp. 53–55, 61, 77, 83, 94.
+Bennett 1999, p. 173.
+221. Yashinsky 2014, pp. 53–56.
+222. Yashinsky 2014, pp. 53–54.
+223. Yashinsky 2014, p. 53.
+224. Zhao 2017, pp. 4–7.
+225. Elnashai 2000, pp. 530–531.
+226. Zhao 2017, pp. 6, 7.
+227. Zhao 2017, pp. 4–5.
+"Tacoma Narrows Bridge History". Washington Department of Transportation.
+228. Zhao 2017, pp. 2–6.
+"Tacoma Narrows Bridge History". Washington Department of Transportation.
+229. Durkee 2014, pp. 24–25.
+Blank 2014, pp. 67–71.
+230. Blank 2014, p. 70.
+231. Tang 2014a, pp. 175–179.
+232. Durkee 2014, pp. 3–4.
+Kulicki 2014a, pp. 307–308.
+Gimsing 1997, p. 375.
+233. Gimsing 1997, p. 375.
+234. Zhao 2017, pp. 6, 7.
+Islam & Malek 2014, pp. 181–182.
+Ma 2014, pp. 239–240.
+235. Islam & Malek 2014, pp. 181–182.
+Ma 2014, pp. 239–240.
+236. Gerwick 2014, pp. 138–147.
+Ma 2014, pp. 239–244, 247, 272.
+Denison 2012, pp. 233–234, 246, 248.
+Cruickshank 2010, p. 206.
+237. Zhao 2017, pp. 6, 23, 356–362.
+238. Rookhuyzen 2018.
+Zhao 2017, pp. 395–403.
+Shirley-Smith & Billington.
+239. Zhao 2017, pp. 33, 67, 397.
+240. Cruickshank 2010, pp. 227, 249–250, 343, 360.
+Brown 2005, pp. 107–108, 110, 113, 202.
+Bennett 1999, pp. 84, 118, 228.
+241. Brown 2005, p. 107.
+242. "I-205 Abernethy Bridge". Oregon Department of Transportation.
+243. Gerwick 2014, pp. 137–138.
+244. Gerwick 2014, pp. 161–162.
+Cruickshank 2010, pp. 283–285.
+Brown 2005, pp. 77–78, 92–93.
+Bennett 1999, pp. 111–112.
+245. Cruickshank 2010, p. 53.
+246. Brown 2005, p. 89.
+Bennett 1999, pp. 111–112.
+247. Sangree & Shafer 2003.
+Kashima & Sakamoto 1998, pp. 71–72.
+Gerwick 2014, pp. 162–163.
+248. Gerwick 2014, pp. 148–155.
+Bennett 1999, p. 228.
+Shi 2014, pp. 88–95.
+249. Zhao 2017, pp. 424–434.
+250. Dornsife 2014, pp. 1–9.
+Zhao 2017, pp. 424–434.
+251. Bennett 2000, pp. 25–26.
+Hewson 2000, p. 283.
+Barker 2007, pp. 94, 100, 103–106.
+252. Hewson 2000, pp. 286–288.
+Brown 2005, p. 141.
+253. Hewson 2000, pp. 302–306.
+Collings 2000, pp. 432–433.
+Brown 2005, p. 193
+Shirley-Smith & Billington.
+254. Bennett 1999, pp. 79–80, 97, 226.
+Shi 2014, p. 102.
+255. Zhao 2017, p. 16.
+Cruickshank 2010, pp. 64, 97, 334, 362.
+Brown 2005, pp. 21, 44, 54, 101, 140, 202.
+Bennett 1999, pp. 16, 70, 228.
+Shirley-Smith & Billington.
+256. Durkee 2014, pp. 10–12.
+Brown 2005, pp. 101, 140.
+Shirley-Smith & Billington
+257. Theryo 2014, pp. 97–101.
+Kulicki 2014a, pp. 283–287, 293–301.
+Cruickshank 2010, pp. 292–297.
+Brown 2005, pp. 78–79.
+Shirley-Smith & Billington.
+258. Kulicki 2014a, pp. 307–308.
+259. Shi 2014, pp. 85–87.
+Gimsing 1997, pp. 437–443.
+260. Gimsing 1997, pp. 434–436.
+261. Bennett 1999, p. 118.
+262. Gimsing 1997, pp. 192–193.
+263. Gimsing 1997, pp. 434–436.
+Bennett 1999, pp. 84, 89–90, 118.
+Shirley-Smith & Billington.
+Brown 2005, pp. 8, 87, 91, 106, 109, 202.
+264. Gimsing 1997, p. 345.
+265. Gimsing 1997, p. 345.
+Shi 2014, p. 85.
+266. Gimsing 1997, p. 347.
+267. Gimsing 1997, pp. 345–347.
+268. Gimsing 1997, pp. 377–383, 395–406, 427–429.
+Shi 2014, p. 88.
+269. Talese 2014, pp. 65–77.
+270. Gimsing 1997, pp. 87–88.
+271. Jones & Howells 2000, pp. 602–604.
+272. Gimsing 1997, pp. 431–433.
+Jones & Howells 2000, pp. 652–653.
+273. Gimsing 1997, p. 56. Diameter over 1m.
+Sangree & Shafer 2003. 290 strands per cable.
+Jones & Howells 2000, pp. 599–603. 94 tonnes per strand.
+274. Jones & Howells 2000, pp. 650–651.
+Gimsing 1997, pp. 419–424.
+275. Jones & Howells 2000, pp. 602–605.
+Gimsing 1997, pp. 97–99.
+276. Gimsing 1997, pp. 37–38.
+277. Gimsing 1997, pp. 424–425.
+278. Gimsing 1997, pp. 422–423.
+279. Jones & Howells 2000, pp. 599–602.
+280. Jones & Howells 2000, pp. 599–603.
+281. Chavel 2022, p. 1.
+Vejrum 2014, p. 413.
+Mangus 2014, pp. 592, 594, 596.
+Shi 2014, pp. 85–87. Uses term girder to refer to deck/girder structure.
+282. Mangus 2014, p. 590.
+Shen 2014, p. 573.
+283. Mangus 2014, p. 604.
+284. Chavel 2022, pp. 20, 31–32.
+285. Chavel 2022, pp. 5–6, 11–13.
+Shen 2014, pp. 573–575.
+286. Vejrum 2014, p. 413.
+287. Mangus 2014, pp. 590, 602.
+Chavel 2022, pp. 26–28.
+288. Dahlberg 2022, p. 2.
+289. Mangus 2014, pp. 590, 592.
+290. Mangus 2014, pp. 590, 604.
+291. Mangus 2014, pp. 625–628.
+Chavel 2022, pp. 27, 29–30.
+292. Shen 2014, pp. 279–280.
+293. Sorgenfrei 2014, pp. 147–148.
+294. Bakhoum 2014, pp. 568–578.
+Shi 2014, pp. 86–87.
+Hewson 2000, pp. 283–310.
+295. Mulheron 2000, pp. 805–807.
+296. Mulheron 2000, pp. 807–809.
+297. Mulheron 2000, pp. 810–816.
+298. Mulheron 2000, pp. 815–816.
+299. Mulheron 2000, pp. 816–822.
+300. Mulheron 2000, pp. 806–808, 817–819, 821, 824.
+301. Mulheron 2000, pp. 822–830.
+302. Mulheron 2000, pp. 808, 822–826, 830–837.
+Zhao 2017, pp. 252–268, 284–286.
+303. Mulheron 2000, pp. 837–842.
+Zhao 2017, pp. 279–284.
+304. Mulheron 2000, pp. 842–844.
+Kashima & Sakamoto 1998, p. 72.
+305. Kashima & Sakamoto 1998, pp. 72.
+306. Jones & Howells 2000, pp. 557–559, 604–605.
+Gimsing 1997, pp. 102–108.
+307. Knott & Prucz 2014, pp. 107–109.
+308. Vassie 2000, p. 849.
+309. Hu 2016, pp. 66–69.
+Fu & Devaraj 2014, pp. 233–234.
+310. Hu 2016, p. 67.
+311. Alampalli 2014, pp. 269–272.
+312. Alampalli 2014, pp. 276, 282.
+313. Alampalli 2014, pp. 288–292.
+314. Alampalli 2014, pp. 282–288.
+315. Alampalli 2014, pp. 285–286. Maintenance periods shown are from the New York City
+Department of Transportation.
+316. Quirchmair 2022.
+317. Abdunur 2000, pp. 883–895.
+Mulheron 2000, pp. 804–808, 834–836.
+318. Copelan 2014, p. 338.
+319. Washer 2014, pp. 301–305.
+320. Abdunur 2000, pp. 898–907.
+Washer 2014, pp. 305–306, 317–318.
+Alampalli 2014, p. 295.
+321. Abdunur 2000, pp. 904–905.
+322. Abdunur 2000, pp. 907–909.
+323. Abdunur 2000, pp. 910–912.
+324. Frangopol 2014, pp. 247–248.
+325. Abdunur 2000, pp. 896–898, 955.
+326. Queiroz 2016, pp. 7–9.
+327. "A Small Bridge". World Bank.
+Marlow 2025.
+328. Queiroz 2016, pp. 7–8.
+329. Engel 2020, pp. 3–7.
+Queiroz 2016, pp. 4–5, 21.
+330. Engel 2020, pp. 28–29.
+331. "TTSB Details Reasons for Nanfang'ao Bridge Collapse". Focus Taiwan.
+332. Petroski 1994, pp. 169–171.
+"Bridge Failure". United Nations.
+Barker 2007, pp. 21–39.
+333. Choudhury & Hasnat 2015, pp. 26–28.
+334. Barker 2007, pp. 23–25.
+Petroski 1994, pp. 158–171.
+335. Barker 2007, p. 22.
+336. Barker 2007, p. 22.
+Bennett 1999, p. 31.
+337. Choudhury & Hasnat 2015, pp. 26, 33.
+Cheng & Duan 2014, pp. 445–451.
+338. Choudhury & Hasnat 2015, pp. 30–31.
+339. Burgoyne & Scantlebury 2008.
+340. Choudhury & Hasnat 2015, p. 32.
+341. Dallard 2001.
+Warren 2025.
+342. Cook 2014.
+Nowak & Iatsko 2018.
+Wardhana & Hadipriono 2003.
+343. Tang 2014, pp. 19–20.
+344. Brown 2005, pp. 130, 164–165, 168, 186.
+Cruickshank 2010, pp. 23, 233.
+345. Cruickshank 2010, p. 233.
+346. Vejrum 2014, pp. 405–407.
+347. Cruickshank 2010, pp. 8–9.
+Hu 2016, pp. 103–112.
+Tang 2014, pp. 19–20, 23. Dagu bridge.
+348. Ahmad 2025.
+Zhou 2021.
+349. Bütikofer 2024.
+De Borger 2025.
+350. Brooks 2021.
+351. Cai & Deng 2024.
+352. Zhou 2021.
+353. Sohail & Cavill 2008.
+Zhou 2021.
+354. Zhou 2021. Value as of 2021.
+355. Merli & Costanza 2024.
+356. Bennett 1999, p. 24.
+357. Watson 1988, pp. viii, 14–16, 53.
+358. "The History of the National Council". NCEES, pp. 1, 161, 366.
+359. "Engineering: Issues Challenges and Opportunities". UNESCO, pp. 27–28, 135–136, 358–
+365.
+360. "Occupational Outlook Handbook". Department of Labor, p. 148.
+361. Biliszczuk 2014, p. 632.
+362. "The History of the National Council". NCEES, pp. 70–71, 88, 123–125, 366, 377.
+363. Watson 1937, p. 1.
+364. Cruickshank 2010, pp. 8–20.
+Watson 1937, pp. vii–viii, 65–66, 71–74, 231–233.
+365. Watson 1937, pp. 33, 35–39.
+366. Watson 1937, pp. 43–48.
+367. Cruickshank 2010, pp. 14–16.
+368. Watson 1937, pp. 103–106.
+369. Cruickshank 2010, pp. 17–19.
+370. Cruickshank 2010, pp. 13–14.
+French 1993.
+371. Brown 2005, p. 6.
+Watson 1937, p. 147.
+372. "Money Talks". BBC News.
+Schmid 2001.
+"Design Elements". European Central Bank.
+Abdunur, Charles (2000). "Inspection, Monitoring, and Assessment" (https://archive.org/deta ils/manualofbridgeen0000unse/page/883). In Ryall, Michael (ed.). The Manual of Bridge
+Engineering. Thomas Telford. pp. 883–942. ISBN 978-0-7277-2774-9. Retrieved
+1 September 2025.
+Sources
+Books
+Adams, Charles Kendall (1909). "Bridges". Universal Cyclopædia and Atlas (https://books.g oogle.com/books?id=TttTAAAAYAAJ). D. Appleton and Company. pp. 161–174.
+OCLC 707041389 (https://search.worldcat.org/oclc/707041389). Retrieved 1 September
+2022.
+Alampalli, Sreenivas (2014). "Bridge Maintenance". In Chen, Wai-Fah; Duan, Lian (eds.).
+Bridge Engineering Handbook. Vol 5. Construction and Maintenance (Second ed.). CRC
+Press. pp. 269–298. doi:10.1201/b16467 (https://doi.org/10.1201%2Fb16467). ISBN 978-1-
+4398-5233-0.
+Bakhoum, Mourad (2014). "Bridge Construction Methods". In Chen, Wai-Fah; Duan, Lian
+(eds.). Bridge Engineering Handbook. Vol 5. Construction and Maintenance (Second ed.).
+CRC Press. pp. 567–627. doi:10.1201/b16467 (https://doi.org/10.1201%2Fb16467).
+ISBN 978-1-4398-5233-0.
+Barker, Richard M. (2007). Design of Highway Bridges: An LRFD Approach (https://archive.o rg/details/designofhighwayb0000bark_s2n4). Wiley. ISBN 978-1-119-64631-0. Retrieved
+1 September 2025.
+Beer, Ferdinand (2017). Mechanics of Materials (https://archive.org/details/mechanicsofmat er0000beer_a6t7). McGraw Hill. ISBN 9789339217624. Retrieved 17 September 2025.
+Bennett, David (1999). The Creation of Bridges: From Vision to Reality - the Ultimate
+Challenge of Architecture, Design and Distance (https://archive.org/details/creationofbridge0
+000davi). Aurum Press. ISBN 978-1-55041-552-0. Retrieved 1 September 2025.
+Bennett, David (2000). "The History and Aesthetic Development of Bridges" (https://archive.
+org/details/manualofbridgeen0000unse/page/1). In Ryall, Michael (ed.). The Manual of
+Bridge Engineering. Thomas Telford. pp. 1–42. ISBN 978-0-7277-2774-9. Retrieved
+1 September 2025.
+Biliszczuk, Jan; et al. (2014). "Bridge Engineering in Poland". In Chen, Wai-Fah; Duan, Lian
+(eds.). Handbook of International Bridge Engineering (https://archive.org/details/handbookofi ntern0000unse_j3m6). Taylor & Francis. pp. 593–634. ISBN 978-1-4398-1029-3. Retrieved
+1 September 2025.
+Birnstiel, Charles (2000). "Moveable Bridges" (https://archive.org/details/manualofbridgeen0
+000unse/page/663). In Ryall, Michael (ed.). The Manual of Bridge Engineering. Thomas
+Telford. pp. 663–698. ISBN 978-0-7277-2774-9. Retrieved 1 September 2025.
+Blank, Simon; et al. (2014). "Concrete Bridge Construction". In Chen, Wai-Fah; Duan, Lian
+(eds.). Bridge Engineering Handbook. Vol 5. Construction and Maintenance (Second ed.).
+CRC Press. pp. 67–84. doi:10.1201/b16467 (https://doi.org/10.1201%2Fb16467).
+ISBN 978-1-4398-5233-0.
+Brown, David (2005). Bridges: Three Thousand Years of Defying Nature (https://archive.org/ details/bridgesthreethou0000davi). Mitchell Beazley. ISBN 978-1-84533-080-4. Retrieved
+1 September 2025.
+Cai, Steve; et al. (2014). "Wind Effects on Long-Span Bridges". In Chen, Wai-Fah; Duan,
+Lian (eds.). Bridge Engineering Handbook. Vol 1. Fundamentals (Second ed.). CRC Press.
+pp. 535–554. doi:10.1201/b15616 (https://doi.org/10.1201%2Fb15616). ISBN 978-1-4398-
+5234-7.
+Chavel, Brandon (2022). "Bridge Deck Design" (https://cloud.aisc.org/NSBA/handbook/b917
+_sbdh_chapter_17.pdf) (PDF). Steel Bridge Design Handbook. American Institute of Steel
+Construction. Archived (https://web.archive.org/web/20251203212340/https://www.aisc.org/ globalassets/nsba/design-resources/steel-bridge-design-handbook/b917_sbdh_chapter17.p df) (PDF) from the original on 3 December 2025. Retrieved 4 November 2025.
+Chen, Wai-Fah; Duan, Lian, eds. (2014). Handbook of International Bridge Engineering (http s://archive.org/details/handbookofintern0000unse_j3m6). Taylor & Francis.
+doi:10.1201/b15520 (https://doi.org/10.1201%2Fb15520). ISBN 978-1-4398-1029-3.
+Retrieved 1 September 2025.
+Cheng, Xiaohua; Duan, Lian (2014). "Rehabilitation and Strengthening of Highway Bridge
+Superstructures". In Chen, Wai-Fah; Duan, Lian (eds.). Bridge Engineering Handbook. Vol
+5. Construction and Maintenance (https://books.google.com/books?id=BCeOAgAAQBAJ)
+(Second ed.). CRC Press. pp. 443–485. ISBN 978-1-4398-5233-0. Archived (https://web.arc hive.org/web/20251224082337/https://books.google.com/books?id=BCeOAgAAQBAJ) from the original on 24 December 2025. Retrieved 31 October 2025.
+Choudhury, Jamilur; Hasnat, Ariful (2015). "Bridge Collapses Around the World: Causes and
+Mechanisms" (https://www.iabse-bd.org/session/k2.pdf) (PDF). IABSE-JSCE Joint
+Conference on Advances in Bridge Engineering-III. International Association for Bridge and
+Structural Engineering. pp. 26–34. ISBN 9789843393135. Archived (https://web.archive.org/ web/20251125051032/https://www.iabse-bd.org/session/k2.pdf) (PDF) from the original on
+25 November 2025. Retrieved 4 November 2025.
+Collings, David (2000). "Composite Construction" (https://archive.org/details/manualofbridge en0000unse/page/407). In Ryall, Michael (ed.). The Manual of Bridge Engineering. Thomas
+Telford. pp. 407–448. ISBN 0727727745. Retrieved 1 September 2025.
+Copelan, Joyce (2014). "Bridge Maintenance". In Chen, Wai-Fah; Duan, Lian (eds.). Bridge
+Engineering Handbook. Vol 5. Construction and Maintenance (https://books.google.com/boo ks?id=BCeOAgAAQBAJ) (Second ed.). CRC Press. pp. 337–350. ISBN 9781439852330.
+Retrieved 31 October 2025.
+Cruickshank, Dan (2010). Bridges: Heroic Designs that Changed the World (https://archive.
+org/details/isbn_9780007881086). Harper Collins. ISBN 9780007881086. Retrieved
+1 September 2025.
+Denison, Edward (2012). How to Read Bridges: A Crash Course In Engineering and
+Architecture (https://archive.org/details/howtoreadbridges0000deni). Rizzoli.
+ISBN 9781408171769. Retrieved 1 September 2025.
+Dikshitar, V.R.R. (1993) [1932]. The Mauryan Polity (https://archive.org/details/in.ernet.dli.20
+15.78927/page/n340/mode/1up?q=bridge). Motilal Banarsidass. ISBN 8120810236.
+Retrieved 20 September 2025. Reprinted in 1993.
+Dornsife, Ralph (2014). "Bearings". In Chen, Wai-Fah; Duan, Lian (eds.). Bridge
+Engineering Handbook. Vol 3. Substructure Design (https://books.google.com/books?id=Q6i
+NAgAAQBAJ) (Second ed.). CRC Press. pp. 1–34. ISBN 9781439852309. Archived (https:// web.archive.org/web/20251126234501/https://books.google.com/books?id=Q6iNAgAAQBA
+J) from the original on 26 November 2025. Retrieved 31 October 2025.
+Durkee, Jackson (2014). "Steel Bridge Construction". In Chen, Wai-Fah; Duan, Lian (eds.).
+Bridge Engineering Handbook. Vol 5. Construction and Maintenance (https://books.google.c om/books?id=BCeOAgAAQBAJ) (Second ed.). CRC Press. pp. 1–50.
+ISBN 9781439852330. Archived (https://web.archive.org/web/20251224082337/https://book s.google.com/books?id=BCeOAgAAQBAJ) from the original on 24 December 2025.
+Retrieved 31 October 2025.
+Edgerton, Robert B. (2010). The Fall of the Asante Empire: The Hundred-Year War For
+Africa's Gold Coast (https://books.google.com/books?id=Tkm5UZJz8z0C&q=Bridges+constr ucted+by+pounding). Simon and Schuster. ISBN 9781451603736.
+Ellobody, Ehab (2014). Finite Element Analysis and Design of Steel and Steel–Concrete
+Composite Bridges (https://archive.org/details/finiteelementana0000ello). Butterworth-
+Heinemann. ISBN 9780124172470. Retrieved 1 September 2025.
+Elnashai, Amr (2000). "Seismic Response and Design" (https://archive.org/details/manualof bridgeen0000unse/page/519). In Ryall, Michael (ed.). The Manual of Bridge Engineering.
+Thomas Telford. pp. 519–548. ISBN 0727727745. Retrieved 1 September 2025.
+Frangopol, Dan; et al. (2014). "Bridge Health Monitoring". In Chen, Wai-Fah; Duan, Lian
+(eds.). Bridge Engineering Handbook. Vol 5. Construction and Maintenance (https://books.g oogle.com/books?id=BCeOAgAAQBAJ) (Second ed.). CRC Press. pp. 247–268.
+ISBN 9781439852330. Archived (https://web.archive.org/web/20251224082337/https://book s.google.com/books?id=BCeOAgAAQBAJ) from the original on 24 December 2025.
+Retrieved 31 October 2025.
+Fridley, Kenneth; Duan, Lian (2014). "Timber Design". In Chen, Wai-Fah; Duan, Lian (eds.).
+Bridge Engineering Handbook. Vol 1. Fundamentals (https://books.google.com/books?id=W aONAgAAQBAJ) (Second ed.). CRC Press. pp. 341–369. ISBN 9781439852347. Retrieved
+31 October 2025.
+Fu, Gongkang; Devaraj, Dinesh (2014). "Bridge Management Using Pontis and Improved
+Concepts". In Chen, Wai-Fah; Duan, Lian (eds.). Bridge Engineering Handbook. Vol 5.
+Construction and Maintenance (https://books.google.com/books?id=BCeOAgAAQBAJ)
+(Second ed.). CRC Press. pp. 233–245. ISBN 9781439852330. Archived (https://web.archiv e.org/web/20251224082337/https://books.google.com/books?id=BCeOAgAAQBAJ) from the original on 24 December 2025. Retrieved 31 October 2025.
+Gerwick, Ben (2014). "Substructures of Major Overwater Bridges". In Chen, Wai-Fah; Duan,
+Lian (eds.). Bridge Engineering Handbook. Vol 5. Construction and Maintenance (https://boo ks.google.com/books?id=BCeOAgAAQBAJ) (Second ed.). CRC Press. pp. 137–174.
+ISBN 9781439852330. Retrieved 31 October 2025.
+Gimsing, Niels J. (1997). Cable Supported Bridges: Concept and Design (https://archive.or g/details/cablesupportedbr0000gims) (Second ed.). Wiley. ISBN 9781119951872. Retrieved
+1 September 2025.
+Goettemoeller, Frederick (2014). "Bridge Aesthetics: Achieving Structural Art in Bridge
+Design". In Chen, Wai-Fah; Duan, Lian (eds.). Bridge Engineering Handbook. Vol 1.
+Fundamentals (https://books.google.com/books?id=WaONAgAAQBAJ) (Second ed.). CRC
+Press. pp. 49–76. ISBN 9781439852347. Archived (https://web.archive.org/web/202511260
+72136/https://books.google.com/books?id=WaONAgAAQBAJ) from the original on 26
+November 2025. Retrieved 31 October 2025.
+Greco, Laura (2016). Architetture Autostradali in Italia (https://books.google.com/books?id=_ fZTCwAAQBAJ) (in Italian). it:Gangemi Editore. ISBN 9788849292121. Retrieved
+1 September 2025.
+Hewson, Nigel (2000). "Design of Prestressed Concrete Beams" (https://archive.org/details/ manualofbridgeen0000unse/page/241). In Ryall, Michael (ed.). The Manual of Bridge
+Engineering. Thomas Telford. pp. 241–314. ISBN 0727727745. Retrieved 1 September
+2025.
+Huff, T. (2022). LRFD Bridge Design: Fundamentals and Applications (https://books.google.c om/books?id=MCtaEAAAQBAJ). CRC Press. ISBN 9781000543377. Retrieved
+10 September 2025.
+Islam, Mohammed; Malek, Amir (2014). "Shallow Foundations". In Chen, Wai-Fah; Duan,
+Lian (eds.). Bridge Engineering Handbook. Vol 3. Substructure Design (https://books.googl e.com/books?id=Q6iNAgAAQBAJ) (Second ed.). CRC Press. pp. 181–238.
+ISBN 9781439852309. Archived (https://web.archive.org/web/20251126234501/https://book s.google.com/books?id=Q6iNAgAAQBAJ) from the original on 26 November 2025.
+Retrieved 31 October 2025.
+Jones, Vardiman; Howells, John (2000). "Suspension Bridges" (https://archive.org/details/m anualofbridgeen0000unse/page/595). In Ryall, Michael (ed.). The Manual of Bridge
+Engineering. Thomas Telford. pp. 595–662. ISBN 0727727745. Retrieved 1 September
+2025.
+Knott, Michael; Prucz, Zolan (2014). "Vesssel Collision Design of Bridges". In Chen, Wai-
+Fah; Duan, Lian (eds.). Bridge Engineering Handbook. Vol 3. Substructure Design (https://b ooks.google.com/books?id=Q6iNAgAAQBAJ) (Second ed.). CRC Press. pp. 89–112.
+ISBN 9781439852309. Retrieved 31 October 2025.
+Krimotat, Alexander (2014). "Structural Modeling". In Chen, Wai-Fah; Duan, Lian (eds.).
+Bridge Engineering Handbook. Vol 1. Fundamentals (https://books.google.com/books?id=W aONAgAAQBAJ) (Second ed.). CRC Press. pp. 253–269. ISBN 9781439852309. Archived
+(https://web.archive.org/web/20251126072136/https://books.google.com/books?id=WaONA gAAQBAJ) from the original on 26 November 2025. Retrieved 31 October 2025.
+Kulicki, John (2014). "Highway Bridge Design Specifications". In Chen, Wai-Fah; Duan, Lian
+(eds.). Bridge Engineering Handbook. Vol 1 Fundamentals (https://books.google.com/book s?id=WaONAgAAQBAJ) (Second ed.). CRC Press. pp. 113–130. ISBN 9781439852309.
+Archived (https://web.archive.org/web/20251126072136/https://books.google.com/books?id
+=WaONAgAAQBAJ) from the original on 26 November 2025. Retrieved 31 October 2025.
+Kulicki, John (2014a). "Highway Truss Bridges". In Chen, Wai-Fah; Duan, Lian (eds.).
+Bridge Engineering Handbook. Vol 2. Superstructure Design (https://books.google.com/book s?id=JpClAgAAQBAJ) (Second ed.). CRC Press. pp. 283–308. ISBN 9781439852293.
+Retrieved 31 October 2025.
+Leonhardt, Fritz (2014). "Aesthetics: Basics". In Chen, Wai-Fah; Duan, Lian (eds.). Bridge
+Engineering Handbook. Vol 1. Fundamentals (https://books.google.com/books?id=WaONAg
+AAQBAJ) (Second ed.). CRC Press. pp. 29–48. ISBN 9781439852347. Archived (https://we b.archive.org/web/20251126072136/https://books.google.com/books?id=WaONAgAAQBAJ) from the original on 26 November 2025. Retrieved 31 October 2025.
+Ma, Youzhi (2014). "Deep Foundations". In Chen, Wai-Fah; Duan, Lian (eds.). Bridge
+Engineering Handbook. Vol 3. Substructure Design (https://books.google.com/books?id=Q6i
+NAgAAQBAJ) (Second ed.). CRC Press. pp. 238–278. ISBN 9781439852309. Archived (htt ps://web.archive.org/web/20251126234501/https://books.google.com/books?id=Q6iNAgAA
+QBAJ) from the original on 26 November 2025. Retrieved 31 October 2025.
+Mangus, Alfred (2014). "Orthotropic Steel Decks". In Chen, Wai-Fah; Duan, Lian (eds.).
+Bridge Engineering Handbook. Vol 2. Superstructure Design (https://books.google.com/book s?id=JpClAgAAQBAJ) (Second ed.). CRC Press. pp. 589–646. ISBN 9781439852293.
+Retrieved 31 October 2025.
+Mulheron, Mike (2000). "Protection" (https://archive.org/details/manualofbridgeen0000unse/ page/805). In Ryall, Michael (ed.). The Manual of Bridge Engineering. Thomas Telford.
+pp. 805–848. ISBN 0727727745. Retrieved 1 September 2025.
+Nath, Ram (1982). History of Mughal Architecture (https://books.google.com/books?id=ha5f
+G13V3XcC). Vol. 3. Abhinav Publications. ISBN 8170172977. Retrieved 17 September
+2025.
+O'Brien, Eugene (2015). Bridge Deck Analysis (https://archive.org/details/bridgedeckanalys0
+000obri_m0m0) (Second ed.). CRC Press. ISBN 9781482227239. Retrieved 12 September
+2025.
+Ogden, Brent; Cooper, Chelsey (2019). Highway-Rail Crossing Handbook (https://highways.
+dot.gov/sites/fhwa.dot.gov/files/2022-06/fhwasa18040v2.pdf) (PDF) (3rd ed.). Federal
+Highway Administration. ISBN 9781998295067. Archived (https://web.archive.org/web/2025
+0305230722/https://highways.dot.gov/sites/fhwa.dot.gov/files/2022-06/fhwasa18040v2.pdf)
+(PDF) from the original on 5 March 2025. Retrieved 7 December 2025.
+Petroski, Henry (1994). To Engineer Is Human: The Role of Failure in Successful Design (htt ps://archive.org/details/toengineerishuma0000henr). Barnes & Noble. ISBN 1566195020.
+Retrieved 20 September 2025.
+Reddy, J. N. (2004). An Introduction to the Finite Element Method (https://archive.org/detail s/introductiontofi0000jnre) (Third ed.). McGraw Hill. ISBN 9780070607415. Retrieved
+10 September 2025.
+Ryall, Michael (2000). "Loads and Load Distribution" (https://archive.org/details/manualofbri dgeen0000unse/page/43). In Ryall, Michael (ed.). The Manual of Bridge Engineering.
+Thomas Telford. pp. 43–94. ISBN 0727727745. Retrieved 1 September 2025.
+Sakowski, Eric (2014). "Highest Bridges". In Chen, Wai-Fah; Duan, Lian (eds.). Handbook of
+International Bridge Engineering (https://archive.org/details/handbookofintern0000unse_j3m
+6). Taylor & Francis. pp. 1251–1306. ISBN 9781439810293. Retrieved 1 September 2025.
+Scott, Richard (2001). In the Wake of Tacoma: Suspension Bridges and the Quest for
+Aerodynamic Stability (https://archive.org/details/inwakeoftacomasu0000scot). ASCE Press.
+ISBN 0784405425. Retrieved 1 September 2025.
+Schlaich, Mike (2019). "General". In Schlaich, Mike (ed.). Extradosed Bridges (https://concre te.ethz.ch/assets/sed17.pdf) (PDF). International Association for Bridge and Structural
+Engineering. pp. 3–8. ISBN 9783857481680. Archived (https://web.archive.org/web/202511
+02162115/https://concrete.ethz.ch/assets/sed17.pdf) (PDF) from the original on 2 November
+2025. Retrieved 16 October 2025.
+Shi, Junfeng; et al. (2014). "Cable-Supported Bridge Construction". In Chen, Wai-Fah;
+Duan, Lian (eds.). Bridge Engineering Handbook. Vol 5. Construction and Maintenance (http s://books.google.com/books?id=BCeOAgAAQBAJ) (Second ed.). CRC Press. pp. 85–112.
+ISBN 9781439852330. Retrieved 31 October 2025.
+Shen, John (2014). "Concrete Decks". In Chen, Wai-Fah; Duan, Lian (eds.). Bridge
+Engineering Handbook. Vol 2. Superstructure Design (https://books.google.com/books?id=J pClAgAAQBAJ) (Second ed.). CRC Press. pp. 573–588. ISBN 9781439852293. Retrieved
+31 October 2025.
+Sorgenfrei, Donald; et al. (2014). "Railroad Bridge Design Specifications". In Chen, Wai-
+Fah; Duan, Lian (eds.). Bridge Engineering Handbook. Vol 1. Fundamentals (https://books.g oogle.com/books?id=WaONAgAAQBAJ) (Second ed.). CRC Press. pp. 143–158.
+ISBN 9781439852347. Archived (https://web.archive.org/web/20251126072136/https://book s.google.com/books?id=WaONAgAAQBAJ) from the original on 26 November 2025.
+Retrieved 31 October 2025.
+Squier, Ephraim George (1877). Peru; Incidents of Travel and Exploration in the Land of the
+Incas (https://archive.org/details/peruincidentsoft00squi). Harper & Brothers.
+OCLC 2396588 (https://search.worldcat.org/oclc/2396588). Retrieved 13 September 2025.
+Svecova, Dagmar; et al. (2014). "Application of Fiber Reinforced Polymers in Bridges". In
+Chen, Wai-Fah; Duan, Lian (eds.). Bridge Engineering Handbook. Vol 1. Fundamentals (http s://books.google.com/books?id=WaONAgAAQBAJ) (Second ed.). CRC Press. pp. 371–404.
+ISBN 9781439852347. Archived (https://web.archive.org/web/20251126072136/https://book s.google.com/books?id=WaONAgAAQBAJ) from the original on 26 November 2025.
+Retrieved 31 October 2025.
+Talese, Gay (2014) [1964]. The Bridge: The Building of the Verrazano–Narrows Bridge (http s://books.google.com/books?id=cK-pBAAAQBAJ). Harper & Row. ISBN 9781620409114.
+Tang, Benjamin (2014a). "Accelerated Bridge Development". In Chen, Wai-Fah; Duan, Lian
+(eds.). Bridge Engineering Handbook. Vol 5. Construction and Maintenance (https://books.g oogle.com/books?id=BCeOAgAAQBAJ) (Second ed.). CRC Press. pp. 175–206.
+ISBN 9781439852330. Archived (https://web.archive.org/web/20251224082337/https://book s.google.com/books?id=BCeOAgAAQBAJ) from the original on 24 December 2025.
+Retrieved 31 October 2025.
+Tang, Man-Chung (2014). "Conceptual Design". In Chen, Wai-Fah; Duan, Lian (eds.).
+Bridge Engineering Handbook. Vol 1. Fundamentals (https://books.google.com/books?id=W aONAgAAQBAJ) (Second ed.). CRC Press. pp. 1–34. ISBN 9781439852347. Archived (http s://web.archive.org/web/20251126072136/https://books.google.com/books?id=WaONAgAA
+QBAJ) from the original on 26 November 2025. Retrieved 31 October 2025.
+Theryo, Teddy (2014). "Segmental Concrete Bridges". In Chen, Wai-Fah; Duan, Lian (eds.).
+Bridge Engineering Handbook. Vol 2. Superstructure Design (https://books.google.com/book s?id=JpClAgAAQBAJ) (Second ed.). CRC Press. pp. 91–170. ISBN 9781439852293.
+Retrieved 31 October 2025.
+Troitsky, M.S. (1994). Planning and Design of Bridges (https://archive.org/details/planningde signof0000troi). Wiley. ISBN 0471028533. Retrieved 1 September 2025.
+Troyano, L.F. (2003). Bridge Engineering: A Global Perspective (https://books.google.com/b ooks?id=0u5G8E3uPUAC). Thomas Telford. ISBN 9780727732156. Retrieved 25 October
+2025.
+Tytler, I.F.B.; et al. (1985). Vehicles and Bridging (https://archive.org/details/vehiclesbridging
+0000unse). Battlefield Weapons Systems and Technology. Brasey's Defense Publishers.
+ISBN 0080283225. Retrieved 13 September 2025.
+Vassie, Perry (2000). "Bridge Management" (https://archive.org/details/manualofbridgeen00
+00unse/page/849). In Ryall, Michael (ed.). The Manual of Bridge Engineering. Thomas
+Telford. pp. 849–882. ISBN 0727727745. Retrieved 1 September 2025.
+Vejrum, Tina (2014). "Cable-Stayed Bridges". In Chen, Wai-Fah; Duan, Lian (eds.). Bridge
+Engineering Handbook. Vol 2. Superstructure Design (https://books.google.com/books?id=J pClAgAAQBAJ) (Second ed.). CRC Press. pp. 399–434. ISBN 9781439852293. Retrieved
+31 October 2025.
+Washer, Glenn (2014). "Nondestructive Evaluation Methods for Bridge Elements". In Chen,
+Wai-Fah; Duan, Lian (eds.). Bridge Engineering Handbook. Vol 5. Construction and
+Maintenance (https://books.google.com/books?id=BCeOAgAAQBAJ) (Second ed.). CRC
+Press. pp. 301–336. ISBN 9781439852330. Archived (https://web.archive.org/web/2025122
+4082337/https://books.google.com/books?id=BCeOAgAAQBAJ) from the original on 24
+December 2025. Retrieved 31 October 2025.
+Watson, Wilbur J. (1937). Bridges in History and Legend (https://archive.org/details/bridgesi nhistory0000wilb). J. H. Jansen. OCLC 1393531 (https://search.worldcat.org/oclc/1393531).
+Retrieved 1 September 2025.
+Watson, Garth (1988). The Civils: The Story of the Institution of Civil Engineers (https://archi ve.org/details/civilsstoryofins0000wats). Thomas Telford. ISBN 9780727703927. Retrieved
+31 October 2025.
+Wilks, Ivor (1989). Asante in the Nineteenth Century: The Structure and Evolution of a
+Political Order (https://books.google.com/books?id=NSs4AAAAIAAJ). CUP Archive.
+ISBN 9780521379946. Retrieved 29 December 2020 – via Books.google.com.
+Wright, William J. (2022). "Selecting the Right Bridge Type" (https://www.aisc.org/globalasse ts/nsba/design-resources/steel-bridge-design-handbook/b905_sbdh_chapter5.pdf) (PDF).
+Steel Bridge Design Handbook (https://www.aisc.org/nsba/design-and-estimation-resources/ steel-bridge-design-handbook/). American Institute of Steel Construction. Archived (https://w eb.archive.org/web/20251005094507/https://www.aisc.org/nsba/design-and-estimation-reso urces/steel-bridge-design-handbook/) from the original on 5 October 2025. Retrieved
+18 September 2025.
+Yamaguchi, Eiki (2014). "Finite Element Method". In Chen, Wai-Fah; Duan, Lian (eds.).
+Bridge Engineering Handbook. Vol 1. Fundamentals (https://books.google.com/books?id=W aONAgAAQBAJ) (Second ed.). CRC Press. pp. 225–251. ISBN 9781439852309. Archived
+(https://web.archive.org/web/20251126072136/https://books.google.com/books?id=WaONA gAAQBAJ) from the original on 26 November 2025. Retrieved 31 October 2025.
+Yashinsky, Mark; et al. (2014). "Earthquake Damage to Bridges". In Chen, Wai-Fah; Duan,
+Lian (eds.). Bridge Engineering Handbook. Vol 4. Seismic Design (https://books.google.co m/books?id=EqSNAgAAQBAJ) (Second ed.). CRC Press. pp. 53–98.
+ISBN 9781439852323. Archived (https://web.archive.org/web/20251220004823/https://book s.google.com/books?id=EqSNAgAAQBAJ) from the original on 20 December 2025.
+Retrieved 31 October 2025.
+Zhao, Jim; et al. (2017). Bridge Engineering: Design, Rehabilitation, and Maintenance of
+Modern Highway Bridges (https://books.google.com/books?id=Ii1zDgAAQBAJ) (Fourth ed.).
+McGraw Hill. ISBN 9781259643101. Archived (https://web.archive.org/web/2025112606233
+4/https://books.google.com/books?id=Ii1zDgAAQBAJ) from the original on 26 November
+2025. Retrieved 16 September 2025.
+Ahmad, DM (2025). "A Risk-Informed BIM-LCSA Framework for Lifecycle Sustainability
+Optimization of Bridge Infrastructure" (https://doi.org/10.3390%2Fbuildings15162853).
+Buildings. 15 (16) 2853. doi:10.3390/buildings15162853 (https://doi.org/10.3390%2Fbuilding s15162853).
+Bjelić, Igor (2022). "Use of Building Materials During the Construction of Trajan's Bridge on the Danube". Arheologija I Prirodne Nauke. 18. Institute of Archaeology, Belgrade: 45–58.
+doi:10.18485/arhe_apn.2022.18.4 (https://doi.org/10.18485%2Farhe_apn.2022.18.4).
+Brooks, Wyatt; et al. (5 August 2021). "Building Bridges Can Boost Income for the Rural
+Poor" (https://insights.som.yale.edu/insights/building-bridges-can-boost-income-for-the-rural
+-poor). Yale Insights. Yale School of Management. Retrieved 20 November 2025.
+Brunning, Richard (2001). "The Somerset Levels". Current Archaeology. XV (4) (172).
+Current Publishing: 139–143.
+Burgoyne, C; Scantlebury, R (2008). "Lessons Learned from the Bridge Collapse in Palau".
+Proceedings of the Institution of Civil Engineers - Civil Engineering. 161 (6) 700038.
+doi:10.1680/cien.2008.161.6.28 (https://doi.org/10.1680%2Fcien.2008.161.6.28).
+Journals and websites
+Bütikofer, Aline; et al. (2024). "Building Bridges and Widening Gaps". The Review of
+Economics and Statistics. 106 (3). MIT Press: 681–697. doi:10.1162/rest_a_01183 (https://d oi.org/10.1162%2Frest_a_01183).
+Cai, J.; Deng, Z. (2024). "The Spatial Impact of High Bridges on Travel Accessibility and
+Economic Integration in Guizhou, China". Humanities and Social Sciences Communications.
+11 1565. doi:10.1057/s41599-024-04106-x (https://doi.org/10.1057%2Fs41599-024-04106- x).
+Cai, Ming; Liu, Yonghong (2012). "Integrated Benefit Evaluation of Pedestrian Bridge".
+Environmental Modeling & Assessment. 17 (3): 301–313. Bibcode:2012EMdAs..17..301L (ht tps://ui.adsabs.harvard.edu/abs/2012EMdAs..17..301L). doi:10.1007/s10666-011-9292-0 (ht tps://doi.org/10.1007%2Fs10666-011-9292-0).
+Chase, Thomas; et al. (2020). "Reasonable Alternatives for Grade-Separated Intersections"
+(https://connect.ncdot.gov/projects/research/RNAProjDocs/2018-20%20Final%20Report.pdf
+#:~:text=Grade%2Dseparated%20intersections%20increase%20the%20capacity%20of%20 two,is%20needed%20for%20bicycles%2C%20pedestrians%20and%20driveways) (PDF).
+North Carolina Department of Transportation. Retrieved 7 December 2025.
+Cook, Wesley (2014). Bridge Failure Rates, Consequences, and Predictive Trends (https://di gitalcommons.usu.edu/etd/2163) (PhD thesis). Utah State University. Archived (https://web.a rchive.org/web/20251122150512/https://digitalcommons.usu.edu/etd/2163/) from the original on 22 November 2025. Retrieved 2 October 2025.
+Dahlberg, Justin; et al. (2022). "Guide for Orthotropic Steel Deck Level 1 Design" (https://ww w.fhwa.dot.gov/bridge/pubs/hif22056.pdf#:~:text=Orthotropic%20steel%20deck:%20A%20s ystem%20where%20a,to%20the%20deck%20directly%20supporting%20live%20loads)
+(PDF). U. S. Federal Highway Administration. Retrieved 10 November 2025.
+Dallard, P.; et al. (2001). "London Millennium Bridge: Pedestrian-Induced Lateral Vibration".
+Journal of Bridge Engineering. 6 (6): 412–417. doi:10.1061/(ASCE)1084-
+0702(2001)6:6(412) (https://doi.org/10.1061%2F%28ASCE%291084-0702%282001%296%
+3A6%28412%29).
+De Borger, Bruno; et al. (2025). "Productivity and Wage Effects of An Exogenous
+Improvement in Transport Infrastructure: Accessibility and the Great Belt Bridge". Regional
+Science and Urban Economics. 114 104133. Bibcode:2025RSUE..11404133D (https://ui.ad sabs.harvard.edu/abs/2025RSUE..11404133D). doi:10.1016/j.regsciurbeco.2025.104133 (ht tps://doi.org/10.1016%2Fj.regsciurbeco.2025.104133).
+Delatte, Norbert (July 2001). "Lessons from Roman Cement and Concrete". Journal of
+Professional Issues in Engineering Education and Practice. 127 (3). American Society of
+Civil Engineers: 109–115. doi:10.1061/(ASCE)1052-3928(2001)127:3(109) (https://doi.org/1
+0.1061%2F%28ASCE%291052-3928%282001%29127%3A3%28109%29).
+Du, Jin Sheng; Au, Francis T.K. (July 2005). "Deterministic and Reliability Analysis of
+Prestressed Concrete Bridge Girders: Comparison of the Chinese, Hong Kong and
+AASHTO LRFD Codes". Structural Safety. 27 (3): 230–245.
+doi:10.1016/j.strusafe.2004.10.004 (https://doi.org/10.1016%2Fj.strusafe.2004.10.004).
+Dusseau, Ralph (2002). "The Evolution of Pipeline Suspension Bridges in North America
+Since 1952". Pipelines 2002 Beneath Our Feet: Challenges and Solutions (Proceedings).
+American Society of Civil Engineers. pp. 1–10. doi:10.1061/40641(2002)60 (https://doi.org/1
+0.1061%2F40641%282002%2960). ISBN 978-0-7844-0641-0.
+Engel, Eduardo; et al. (2020). "When and How to Use Public-Private Partnerships in
+Infrastructure: Lessons from the International Experience" (https://www.nber.org/system/file s/working_papers/w26766/w26766.pdf) (PDF). National Bureau of Economic Research.
+doi:10.3386/w26766 (https://doi.org/10.3386%2Fw26766). Archived (https://web.archive.org/ web/20251209215831/https://www.nber.org/system/files/working_papers/w26766/w26766.p df) (PDF) from the original on 9 December 2025. Retrieved 3 December 2025.
+French, Patricia Ross (January 1993). "Living by Bridges: Philip Larkin's Resisting Subtext".
+South Atlantic Review. 58 (1): 85–100. doi:10.2307/3201102 (https://doi.org/10.2307%2F32
+01102). JSTOR 3201102 (https://www.jstor.org/stable/3201102).
+Greenfield, Patrick (23 January 2021). "How Creating Wildlife Crossings Can Help Reindeer,
+Bears – and Even Crabs" (https://www.theguardian.com/environment/2021/jan/23/how-wildli fe-crossings-are-helping-reindeer-bears-and-even-crabs-aoe). The Guardian. Archived (http s://web.archive.org/web/20210123083528/https://www.theguardian.com/environment/2021/j an/23/how-wildlife-crossings-are-helping-reindeer-bears-and-even-crabs-aoe) from the original on 23 January 2021. Retrieved 26 January 2021.
+Gülkan, P. (2023). "IABSE Symposium Istanbul 2023 "Long Span Bridges" – A Report".
+Structural Engineering International. 33 (3): 510–512. doi:10.1080/10168664.2023.2224643
+(https://doi.org/10.1080%2F10168664.2023.2224643).
+Hayward, Alan (2014). "The Construction of Railway Bridges" (https://www.tandfonline.com/ doi/pdf/10.1179/1758120613Z.00000000037). The International Journal for the History of
+Engineering & Technology. 84 (1). Taylor & Francis: 59–87.
+doi:10.1179/1758120613Z.00000000037 (https://doi.org/10.1179%2F1758120613Z.000000
+00037). ISSN 1758-1214 (https://search.worldcat.org/issn/1758-1214). Retrieved
+15 January 2026.
+Honan, David (2018). "Railroad Bridges, Viaducts, and Trestles" (https://www.trains.com/trn/ train-basics/ask-trains/bridges-viaducts-and-trestles/). Trains Magazine. Retrieved
+11 September 2020.
+Hopper, Travis; Langlois, Anne-Marie; et al. (November 2022). "Service Life Design
+Reference Guide" (https://www.fhwa.dot.gov/bridge/preservation/docs/hif22052.pdf) (PDF).
+Federal Highway Administration. Retrieved 2 October 2025.
+Hu, Jiong; et al. (March 2016). "Synthesis on Cost-Effectiveness of Extradosed Bridges" (htt ps://static.tti.tamu.edu/tti.tamu.edu/documents/0-6729-1.pdf) (PDF). Texas A&M
+Transportation Institute. Technical Report. Retrieved 17 September 2025.
+Kashima, Satoshi; Sakamoto, Mitsushige (1998). "Construction of Akashi Kaikyo Bridge
+Foundation". IABSE Reports = Rapports AIPC = IVBH Reports. 79: 69–74.
+doi:10.5169/seals-59833 (https://doi.org/10.5169%2Fseals-59833).
+Kumar, Saket; et al. (2025). "Dynamic Response of Double Deck Cable-Stayed Bridge
+Subjected to Train Load on Lower Deck". Journal of Vibration Engineering & Technologies.
+13 (20) 20. Bibcode:2025JVET...13...20K (https://ui.adsabs.harvard.edu/abs/2025JVET...1
+3...20K). doi:10.1007/s42417-024-01562-2 (https://doi.org/10.1007%2Fs42417-024-01562-
+2).
+Marlow, Ben (3 September 2025). "All Aboard 'The Debt Express': China's pincer Movement on Africa" (https://www.telegraph.co.uk/global-health/climate-and-people/the-debt-express-c hinas-pincer-movement-on-kenya-africa/). The Daily Telegraph. Retrieved 11 December
+2025.
+McGarvey, Emily (18 July 2023). "Ukraine War: Russia Says Crimean Bridge Partially Open to Cars Again" (https://www.bbc.com/news/world-europe-66229533). BBC. Archived (https:// web.archive.org/web/20230718015102/https://www.bbc.com/news/world-europe-66229533) from the original on 18 July 2023. Retrieved 18 January 2026.
+Merli, Roberto; Costanza, Alessandra (2024). "Effectiveness of Physical Barriers to Prevent
+Suicide by Jumping from High-Risk Bridges" (https://www.ncbi.nlm.nih.gov/pmc/articles/PM
+C11077020). Preventive Medicine Reports. 42 102745. doi:10.1016/j.pmedr.2024.102745 (h ttps://doi.org/10.1016%2Fj.pmedr.2024.102745). PMC 11077020 (https://www.ncbi.nlm.nih.
+gov/pmc/articles/PMC11077020). PMID 38721569 (https://pubmed.ncbi.nlm.nih.gov/387215
+69).
+Newer, Rachel (23 July 2012). "World's Coolest Animal Bridges" (https://www.smithsonianm ag.com/smart-news/worlds-coolest-animal-bridges-5774855/). Smithsonian. Smithsonian
+Institution. Archived (https://web.archive.org/web/20210422004837/https://www.smithsonian mag.com/smart-news/worlds-coolest-animal-bridges-5774855/) from the original on 22 April
+2021. Retrieved 21 February 2019.
+Nowak, Andrzej; Iatsko, Olga (June 2018). "Are Our Bridges Safe?" (https://www.nae.edu/18
+3130/Are-Our-Bridges-Safe). The Bridge. Vol. 48, no. 2. National Academy of Engineering.
+Archived (https://web.archive.org/web/20250512044111/https://www.nae.edu/183130/Are-O ur-Bridges-Safe) from the original on 12 May 2025. Retrieved 17 November 2025.
+Odrobiňák, Prokop; et al. (2022). "Load-Carrying Capacity of Bailey Bridge in Civil
+Applications" (https://doi.org/10.3390%2Fapp12083788). Applied Sciences. 12 (8) 3788.
+doi:10.3390/app12083788 (https://doi.org/10.3390%2Fapp12083788).
+Ou, Z.; Chen, B. (2005). "Stone Arch Bridges in Fujian, China" (https://arch-bridges.fzu.edu.
+cn/__local/D/17/E4/2A8621F70E7AC7ABD0302341CA7_8367E69E_14B74D.pdf?e=.pdf)
+(PDF). Fuzhou University. Retrieved 10 September 2025.
+Price, Alfred (1 December 1993). "Bridge Busting" (https://www.airandspaceforces.com/articl e/1293bridge/). Air Force Magazine. Air & Space Forces Association. ISSN 0730-6784 (http s://search.worldcat.org/issn/0730-6784). Retrieved 17 January 2026.
+Queiroz, Cesar; et al. (2016). "Mechanisms for Financing Roads: A Review of International
+Practice" (https://publications.iadb.org/en/mechanisms-financing-roads-review-international- practice). Inter-American Development Bank. doi:10.18235/0009351 (https://doi.org/10.1823
+5%2F0009351). Retrieved 7 December 2025.
+Quirchmair, Martin (2022). "Track Maintenance: Sittertobel Renovation Improves Track
+Forces" (https://www.railwaygazette.com/in-depth/track-maintenance-sittertobel-renovation-i mproves-track-forces/61622.article). Railway Gazette International. Retrieved 21 September
+2025.
+Robertson, K. A. (1988). "Pedestrian Skywalk Systems: Downtown's Great Hope or
+Pathways to Ruin?". Transportation Quarterly. 42 (3): 457–484.
+hdl:2027/mdp.39015023846507 (https://hdl.handle.net/2027%2Fmdp.39015023846507?urla ppend=%3Bseq=479%3Bownerid=13510798887558937-509).
+Rookhuyzen, David (2018). "Transportation Defined: Pier Caps" (https://azdot.gov/adot-blo g/transportation-defined-pier-caps-cap-piers). Arizona Department of Transportation.
+Retrieved 20 September 2025.
+Sangree, Rachel; Shafer, Ben; et al. (2003). "The Structural Art of the Akashi Kaikyo Bridge"
+(https://www.ce.jhu.edu/perspectives/handouts_unprotected/akashi.pdf) (PDF). Perceptions on the Evolution of Structures. Retrieved 2 October 2025.
+Schmid, John (3 August 2001). "Etching the Notes of a New European Identity" (https://ww w.nytimes.com/2001/08/03/news/03iht-euro_ed3_.html). International Herald Tribune.
+Archived (https://web.archive.org/web/20160723031217/http://www.nytimes.com/2001/08/0
+3/news/03iht-euro_ed3_.html) from the original on 23 July 2016. Retrieved 23 September
+2025.
+Shirley-Smith, Hubert; Billington, David P. "Bridge" (https://www.britannica.com/technology/b ridge-engineering). Britannica. Archived (https://web.archive.org/web/20200103014451/http s://www.britannica.com/technology/bridge-engineering) from the original on 3 January 2020.
+Retrieved 19 September 2025.
+Sohail, Mu; Cavill, Sue (2008). "Accountability to Prevent Corruption in Construction
+Projects". Journal of Construction Engineering and Management. 134 (9). American Society of Civil Engineers: 729–738. doi:10.1061/(ASCE)0733-9364(2008)134:9(729) (https://doi.or g/10.1061%2F%28ASCE%290733-9364%282008%29134%3A9%28729%29).
+Soliz, Aryana; Pérez-López, Ruth (2022). "Footbridges: Pedestrian Infrastructure or Urban
+Barrier?". Current Opinion in Environmental Sustainability. 55 101161.
+Bibcode:2022COES...5501161S (https://ui.adsabs.harvard.edu/abs/2022COES...5501161
+S). doi:10.1016/j.cosust.2022.101161 (https://doi.org/10.1016%2Fj.cosust.2022.101161).
+Wardhana, Kumalasari; Hadipriono, Fabian (2003). "Analysis of Recent Bridge Failures in the United States". Journal of Performance of Constructed Facilities. 17 (3). American
+Society of Civil Engineers: 144. doi:10.1061/(ASCE)0887-3828(2003)17:3(144) (https://doi.o rg/10.1061%2F%28ASCE%290887-3828%282003%2917%3A3%28144%29).
+Warren, Jess (10 June 2025). " 'Wobbly' Millennium Bridge marks 25th anniversary" (https:// www.bbc.com/news/articles/c787gy21w6po). BBC. Retrieved 6 November 2025.
+Watanabe, Eiichi (2003). "Floating Bridges: Past and Present". Structural Engineering
+International. 13 (2): 128–132. doi:10.2749/101686603777964810 (https://doi.org/10.2749%
+2F101686603777964810).
+Zheng, Jielian; Wang, Jianjun (2018). "Concrete-Filled Steel Tube Arch Bridges in China".
+Engineering. 4 (1): 143–155. Bibcode:2018Engin...4..143Z (https://ui.adsabs.harvard.edu/ab s/2018Engin...4..143Z). doi:10.1016/j.eng.2017.12.003 (https://doi.org/10.1016%2Fj.eng.20
+17.12.003).
+Zhou, ZhiWu; et al. (2021). "Environmental, Economic and Social Impact Assessment:
+Study of Bridges in China's Five Major Economic Regions" (https://www.ncbi.nlm.nih.gov/pm c/articles/PMC7795641). International Journal of Environmental Research and Public
+Health. 18 (1) 2021: 122. doi:10.3390/ijerph18010122 (https://doi.org/10.3390%2Fijerph180
+10122). PMC 7795641 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7795641).
+PMID 33375382 (https://pubmed.ncbi.nlm.nih.gov/33375382).
+"2024 Monthly Traffic and Percent of E-ZPass Usage" (https://www.panynj.gov/content/dam/ bridges-tunnels/pdfs/traffic-e-zpass-usage-2024.pdf) (PDF). Port Authority of New York and
+New Jersey. Archived (https://web.archive.org/web/20251118041318/https://www.panynj.go v/content/dam/bridges-tunnels/pdfs/traffic-e-zpass-usage-2024.pdf) (PDF) from the original on 18 November 2025. Retrieved 12 September 2025. Document states 50,241,454 eastbound vehicles in 2024.
+"A Small Bridge, a Great Transformation for the People of Tocantins, Northern Brazil" (http s://www.worldbank.org/en/news/feature/2024/05/28/bridge-manoel-alves-river-tocantins-bra zil). World Bank. 28 May 2024. Archived (https://web.archive.org/web/20251212065303/http s://www.worldbank.org/en/news/feature/2024/05/28/bridge-manoel-alves-river-tocantins-bra zil) from the original on 12 December 2025. Retrieved 11 December 2025.
+AASHTO LRFD Bridge Design Specifications (https://archive.org/details/aashto-lrfd-bridge-d esign-specifications-10th-edition-2024). American Association of State Highway
+Unknown author
+Transportation Officials. 2024. ISBN 9781560518280. Retrieved 2 November 2025.
+"Aqueduct" (https://archive.org/details/conciseoxforddic0000unse_t1j9/page/66). The
+Concise Oxford Dictionary. Oxford University Press. 2001. p. 66. ISBN 0198604386.
+Retrieved 27 December 2022.
+"Bratislava UFO Classed One of the Craziest Places" (https://slovakia.travel/en/bratislava-uf o-classed-one-of-the-craziest-places). Travel to Slovakia. Ministry of Tourism and Sports of the Slovak Republic. Archived (https://web.archive.org/web/20160822051452/http://slovakia.
+travel/en/bratislava-ufo-classed-one-of-the-craziest-places) from the original on 22 August
+2016. Retrieved 17 September 2025.
+"Bridge Failure" (https://www.undrr.org/understanding-disaster-risk/terminology/hips/tl0204).
+United Nations Office for Disaster Risk Reduction. 2025. Retrieved 2 October 2025.
+"Bridge Lighting" (https://www.ecfr.gov/current/title-33/chapter-I/subchapter-J/part-118).
+Code of Federal Regulations. US National Archives. Archived (https://web.archive.org/web/2
+0250203182313/https://www.ecfr.gov/current/title-33/chapter-I/subchapter-J/part-118) from the original on 3 February 2025. Retrieved 12 November 2025.
+"Causeway" (https://www.merriam-webster.com/dictionary/causeway). Merriam-Webster
+Dictionary. Merriam-Webster. 12 September 2025. Retrieved 16 September 2025.
+"Causeway" (https://www.oed.com/dictionary/causeway_n). Oxford English Dictionary.
+Oxford University Press. Retrieved 14 November 2025.
+"Close Support Bridging" (https://web.archive.org/web/20111126032356/http://army.mod.uk/ royalengineers/equipment/702.aspx). British Army. Archived from the original (http://army.m od.uk/royalengineers/equipment/702.aspx) on 26 November 2011. Retrieved 7 August
+2012.
+"CSA S6:19, Canadian Highway Bridge Design Code" (https://www.csagroup.org/canadian- highway-bridge-design-code/). CSA Group. Archived (https://web.archive.org/web/20251005
+094530/https://www.csagroup.org/canadian-highway-bridge-design-code/) from the original on 5 October 2025. Retrieved 17 September 2025.
+"Design Elements" (https://www.ecb.europa.eu/euro/banknotes/current/design/html/index.e n.html). European Central Bank. 15 November 2024.
+"Dom Luís I Bridge" (https://structurae.net/en/structures/dom-luis-i-bridge). Structurae.
+Archived (https://web.archive.org/web/20251228065511/https://structurae.net/en/structures/ dom-luis-i-bridge) from the original on 28 December 2025. Retrieved 18 January 2026.
+Engineering: Issues Challenges and Opportunities (https://archive.org/details/engineeringiss ue0000unse). United Nations Educational, Scientific and Cultural Organization. 2010.
+ISBN 9789231041563. Retrieved 26 October 2025.
+"Eurocodes: Building the Future" (https://eurocodes.jrc.ec.europa.eu/). European
+Commission. Archived (https://web.archive.org/web/20210104074703/https://eurocodes.jrc.
+ec.europa.eu/) from the original on 4 January 2021. Retrieved 17 September 2025.
+"Footbridge" (https://www.merriam-webster.com/dictionary/footbridge). Merriam-Webster
+Dictionary. Merriam-Webster. 12 September 2025. Retrieved 11 December 2025.
+Handbook on Soviet Ground Forces (https://archive.org/details/FM30-40_1975). Field manual FM 30-40. U.S. Department of the Army. 1975. ISBN 9781119646310. Retrieved
+1 September 2025.
+"I-205 Abernethy Bridge" (https://www.oregon.gov/odot/Get-Involved/Docs_ACECODOT/20
+24_10_Abernethy%20Bridge%20Reconstruction.pdf) (PDF). Oregon Department of
+Transportation. Archived (https://web.archive.org/web/20251125051041/https://www.oregon.
+gov/odot/Get-Involved/Docs_ACECODOT/2024_10_Abernethy%20Bridge%20Reconstructi on.pdf) (PDF) from the original on 25 November 2025. Retrieved 2 October 2025.
+LRFD Guide Specifications for the Design of Pedestrian Bridges (https://books.google.com/ books?id=hfENo7LPg3QC). American Association of State Highway and Transportation
+Officials. 2009. ISBN 9781560514695. Archived (https://web.archive.org/web/20251221214
+554/https://books.google.com/books?id=hfENo7LPg3QC) from the original on 21 December
+2025. Retrieved 15 December 2025.
+"Money Talks: The New Euro Cash" (http://news.bbc.co.uk/hi/english/static/slideshow/mone y_talks/slide2.stm). BBC News. Archived (https://web.archive.org/web/20250529134037/htt p://news.bbc.co.uk/hi/english/static/slideshow/money_talks/slide2.stm) from the original on
+29 May 2025. Retrieved 1 September 2025.
+"Northridge Earthquake Image 2816" (https://aad.archives.gov/aad/record-detail.jsp?dt=168
+0&mtch=1&cat=all&tf=I&op_22807=3&nfo_22807=N,6,1900&rpp=10&pg=1&rid=2762).
+Access to Archival Databases. US National Archives. Retrieved 13 November 2025.
+"Obstruction Marking and Lighting" (https://www.faa.gov/regulations_policies/advisory_circul ars/index.cfm/go/document.current/documentnumber/70_7460-1). Federal Aviation
+Administration. US Department of Transportation. 16 January 2020. Retrieved 16 November
+2025.
+Occupational Outlook Handbook (https://archive.org/details/occupationaloutl00usde_2).
+JIST Publishing, U. S. Department of Labor. 2008. ISBN 9781593575137. Retrieved
+26 October 2025.
+"Resisting the Twisting" (https://www.goldengate.org/exhibits/resisting-the-twisting/). Golden
+Gate Bridge, Highway and Transportation District. Archived (https://web.archive.org/web/202
+51005094522/https://www.goldengate.org/exhibits/resisting-the-twisting/) from the original on 5 October 2025. Retrieved 12 September 2025.
+"Rhaetian Railway in the Albula / Bernina Landscapes" (https://whc.unesco.org/en/list/1276).
+UNESCO World Heritage Convention. UNESCO. Archived (https://web.archive.org/web/201
+20302172057/http://whc.unesco.org/en/list/1276) from the original on 2 March 2012.
+Retrieved 14 September 2025.
+"SAS Maintenance Travelers" (https://web.archive.org/web/20120625142735/http://baybridg einfo.org/sas-travelers-page). California Department of Transportation. Archived from the original (http://baybridgeinfo.org/sas-travelers-page) on 25 June 2012. Retrieved 24 June
+2012.
+"Tacoma Narrows Bridge History – Suspension Bridge Basics" (https://www.wsdot.wa.gov/T
+NBHistory/suspension-bridges.htm). Washington State Department of Transportation.
+Archived (https://web.archive.org/web/20250917200319/https://www.wsdot.wa.gov/TNBHist ory/suspension-bridges.htm) from the original on 17 September 2025. Retrieved
+18 September 2025.
+"The History of the National Council of Examiners for Engineering and Surveying" (https://nc ees.org/wp-content/uploads/2022/09/2020_history_web_version.pdf) (PDF) (Third ed.).
+National Council of Examiners for Engineering and Surveying. 2004. Retrieved 25 October
+2025.
+"TTSB Details Reasons for Nanfang'ao Bridge Collapse" (https://focustaiwan.tw/society/202
+011250017). Focus Taiwan. 25 November 2020. Retrieved 16 September 2025.
+"Viaduct" (https://archive.org/details/conciseoxforddic0000unse_t1j9/page/1596). The
+Concise Oxford Dictionary. Oxford University Press. 2001. p. 1596. ISBN 0198604386.
+Retrieved 27 December 2022.
+"Why Do Foxes, Jackals and Hyenas Cross Israel's Highway 1?" (https://israel21c.org/why- do-foxes-jackals-and-hyenas-cross-israels-highway-1/). ISRAEL21c. 28 March 2016.
+Archived (https://web.archive.org/web/20251005094509/https://israel21c.org/why-do-foxes-j ackals-and-hyenas-cross-israels-highway-1/) from the original on 5 October 2025. Retrieved
+19 September 2025.
+"Will Rogers Archway" (https://www.travelok.com/listings/view.profile/id.22615). Travel
+Oklahoma. Oklahoma Department of Tourism and Recreation. Archived (https://web.archive.
+org/web/20240804170142/https://www.travelok.com/listings/view.profile/id.22615) from the original on 4 August 2024. Retrieved 17 September 2025.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Bridge&oldid=1343303301"

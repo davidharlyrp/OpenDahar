@@ -1,0 +1,403 @@
+Shear modulus
+Common symbols G, S, μ
+SI unit
+Pa
+Derivations from other quantities
+G = τ / γ = E / [2(1 + ν)]
+Shear strain
+Material
+Typical values for shear modulus (GPa)
+(at room temperature)
+Diamond,[2] SC (111)[3]: Supp.Tbl.3
+478.0
+Diamond, SC (100)
+443[3]
+Steel[4]
+79.3
+Iron[5]
+52.5
+Copper[6]
+44.7
+Titanium[4]
+41.4
+Glass[4]
+26.2
+Aluminium[4]
+25.5
+Polyethylene[4]
+0.117
+Rubber[7]
+0.0006
+Granite[8][9]
+Shale[8][9]
+1.6
+Limestone[8][9]
+Chalk[8][9]
+3.2
+Sandstone[8][9]
+0.4
+Wood
+Influences of selected glass component additions on the shear modulus of a specific base glass.[11]
+Shear modulus
+In solid mechanics, the shear modulus or modulus of rigidity, denoted by G, or sometimes S or μ, is a measure of the elastic shear stiffness of a material and is defined as the ratio of shear stress to shear strain:[1]
+The derived SI unit of shear modulus is the pascal (Pa), although it is usually expressed in gigapascals (GPa) or in thousand pounds per square inch (ksi). Its dimensional form is M1L−1T−2, replacing force by mass times acceleration.
+The shear modulus is one of several quantities for measuring the stiffness of materials. All of them arise in the generalized Hooke's law:
+Young's modulus E describes the material's strain response to uniaxial stress in the direction of this stress (like pulling on the ends of a wire or putting a weight on top of a column, with the wire getting longer and the column losing height).
+Poisson's ratio ν describes the response in the directions orthogonal to this uniaxial stress
+(the wire getting thinner and the column thicker).
+The bulk modulus K describes the material's response to (uniform) hydrostatic pressure
+(like the pressure at the bottom of the ocean or a deep swimming pool).
+The shear modulus G describes the material's response to shear stress (like cutting it with dull scissors).
+These moduli are not independent, and for isotropic materials they are connected via the equations[10]
+The shear modulus is concerned with the deformation of a solid when it experiences a force perpendicular to one of its surfaces while its opposite face experiences an opposing force (such as friction). In the case of an object shaped like a rectangular prism, it will deform into a parallelepiped.
+Anisotropic materials such as wood, paper and also essentially all single crystals exhibit differing material response to stress or strain when tested in different directions. In this case, one may need to use the full tensor-expression of the elastic constants, rather than a single scalar value.
+One possible definition of a fluid would be a material with zero shear modulus.
+In homogeneous and isotropic solids, there are two kinds of waves, pressure waves and shear waves. The velocity of a shear wave, is controlled by the shear modulus, where
+G is the shear modulus is the solid's density.
+The shear modulus of metals is usually observed to decrease with increasing temperature. At high pressures, the shear modulus also appears to increase with the applied pressure.
+Correlations between the melting temperature, vacancy formation energy, and the shear modulus have been observed in many metals.[14]
+Explanation
+Shear waves
+Shear modulus of metals
+Shear modulus of copper as a function of temperature. The experimental data[12][13] are shown with colored symbols.
+Several models exist that attempt to predict the shear modulus of metals (and possibly that of alloys). Shear modulus models that have been used in plastic flow computations include:
+1. the Varshni-Chen-Gray model developed by[15] and used in conjunction with the Mechanical
+Threshold Stress (MTS) plastic flow stress model.[16][17]
+2. the Steinberg-Cochran-Guinan (SCG) shear modulus model developed by[18] and used in conjunction with the Steinberg-Cochran-Guinan-Lund (SCGL) flow stress model.
+3. the Nadal and LePoac (NP) shear modulus model[13] that uses Lindemann theory to determine the temperature dependence and the SCG model for pressure dependence of the shear modulus.
+The Varshni-Chen-Gray model (sometimes referred to as the Varshni equation) has the form:
+where is the shear modulus at
+, and and are material constants.
+The Steinberg-Cochran-Guinan (SCG) shear modulus model is pressure dependent and has the form where, μ0 is the shear modulus at the reference state (T = 300 K, p = 0, η = 1), p is the pressure, and T is the temperature.
+The Nadal-Le Poac (NP) shear modulus model is a modified version of the SCG model. The empirical temperature dependence of the shear modulus in the
+SCG model is replaced with an equation based on Lindemann melting theory. The NP shear modulus model has the form:
+where and μ0 is the shear modulus at absolute zero and ambient pressure, ζ is an area, m is the atomic mass, and f is the Lindemann constant.
+The shear relaxation modulus is the time-dependent generalization of the shear modulus[19]
+:
+.
+Elasticity tensor
+Dynamic modulus
+Impulse excitation technique
+Shear strength
+Seismic moment
+1. IUPAC, Compendium of Chemical Terminology, 5th ed. (the "Gold
+Book") (2025). Online version: (2006–) "shear modulus, G (https://g oldbook.iupac.org/terms/view/S05635.html)".
+doi:10.1351/goldbook.S05635 (https://doi.org/10.1351%2Fgoldboo k.S05635)
+2. McSkimin, H.J.; Andreatch, P. (1972). "Elastic Moduli of Diamond as a Function of Pressure and Temperature". J. Appl. Phys. 43 (7):
+2944–2948. Bibcode:1972JAP....43.2944M (https://ui.adsabs.harvar d.edu/abs/1972JAP....43.2944M). doi:10.1063/1.1661636 (https://do i.org/10.1063%2F1.1661636).
+Varshni-Chen-Gray model
+SCG model
+NP model
+Shear relaxation modulus
+See also
+References
+3. Lai, Shoulong; Yang, Xigui; Shi, Jiuyang; Liu, Shijie; Guo, Ying;
+Yan, Longbin; Zang, Jinhao; Zhang, Zhuangfei; Jia, Qiuhan; Sun,
+Jian; Cheng, Shaobo; Shan, Chongxin (4 March 2026). "Bulk hexagonal diamond". Nature. doi:10.1038/s41586-026-10212-4 (htt ps://doi.org/10.1038%2Fs41586-026-10212-4).
+4. Crandall, Dahl, Lardner (1959). An Introduction to the Mechanics of
+Solids. Boston: McGraw-Hill. ISBN 0-07-013441-3.
+5. Rayne, J.A. (1961). "Elastic constants of Iron from 4.2 to 300 ° K".
+Physical Review. 122 (6): 1714–1716.
+Bibcode:1961PhRv..122.1714R (https://ui.adsabs.harvard.edu/abs/
+1961PhRv..122.1714R). doi:10.1103/PhysRev.122.1714 (https://do i.org/10.1103%2FPhysRev.122.1714).
+6. Material properties (http://homepages.which.net/~paul.hills/Material s/MaterialsBody.html)
+7. Spanos, Pete (2003). "Cure system effect on low temperature dynamic shear modulus of natural rubber" (http://www.thefreelibrar y.com/Cure+system+effect+on+low+temperature+dynamic+shear+ modulus+of...-a0111451108). Rubber World.
+8. Hoek, Evert, and Jonathan D. Bray. Rock slope engineering. CRC
+Press, 1981.
+9. Pariseau, William G. Design analysis in rock mechanics. CRC
+Press, 2017.
+10. [Landau LD, Lifshitz EM. Theory of Elasticity, vol. 7. Course of
+Theoretical Physics. (2nd Ed) Pergamon: Oxford 1970 p13]
+11. Shear modulus calculation of glasses (http://www.glassproperties.c om/shear_modulus/)
+12. Overton, W.; Gaffney, John (1955). "Temperature Variation of the
+Elastic Constants of Cubic Elements. I. Copper". Physical Review.
+98 (4): 969. Bibcode:1955PhRv...98..969O (https://ui.adsabs.harvar d.edu/abs/1955PhRv...98..969O). doi:10.1103/PhysRev.98.969 (htt ps://doi.org/10.1103%2FPhysRev.98.969).
+13. Nadal, Marie-Hélène; Le Poac, Philippe (2003). "Continuous model for the shear modulus as a function of pressure and temperature up to the melting point: Analysis and ultrasonic validation". Journal of
+Applied Physics. 93 (5): 2472. Bibcode:2003JAP....93.2472N (http s://ui.adsabs.harvard.edu/abs/2003JAP....93.2472N).
+doi:10.1063/1.1539913 (https://doi.org/10.1063%2F1.1539913).
+14. March, N. H., (1996), Electron Correlation in Molecules and
+Condensed Phases (https://books.google.com/books?id=PaphaJhf
+AloC&pg=PA363), Springer, ISBN 0-306-44844-0 p. 363
+15. Varshni, Y. (1970). "Temperature Dependence of the Elastic
+Constants". Physical Review B. 2 (10): 3952–3958.
+Bibcode:1970PhRvB...2.3952V (https://ui.adsabs.harvard.edu/abs/1
+970PhRvB...2.3952V). doi:10.1103/PhysRevB.2.3952 (https://doi.or g/10.1103%2FPhysRevB.2.3952).
+16. Chen, Shuh Rong; Gray, George T. (1996). "Constitutive behavior of tantalum and tantalum-tungsten alloys" (https://zenodo.org/recor d/1232556). Metallurgical and Materials Transactions A. 27 (10):
+2994. Bibcode:1996MMTA...27.2994C (https://ui.adsabs.harvard.ed u/abs/1996MMTA...27.2994C). doi:10.1007/BF02663849 (https://do i.org/10.1007%2FBF02663849). S2CID 136695336 (https://api.sem anticscholar.org/CorpusID:136695336).
+17. Goto, D. M.; Garrett, R. K.; Bingert, J. F.; Chen, S. R.; Gray, G. T.
+(2000). "The mechanical threshold stress constitutive-strength model description of HY-100 steel" (https://apps.dtic.mil/sti/pdfs/AD
+A372816.pdf) (PDF). Metallurgical and Materials Transactions A. 31
+(8): 1985–1996. Bibcode:2000MMTA...31.1985G (https://ui.adsabs.
+harvard.edu/abs/2000MMTA...31.1985G). doi:10.1007/s11661-000-
+0226-8 (https://doi.org/10.1007%2Fs11661-000-0226-8).
+S2CID 136118687 (https://api.semanticscholar.org/CorpusID:13611
+8687). Archived (https://web.archive.org/web/20170925012725/htt p://www.dtic.mil/get-tr-doc/pdf?AD=ADA372816) from the original on September 25, 2017.
+18. Guinan, M; Steinberg, D (1974). "Pressure and temperature derivatives of the isotropic polycrystalline shear modulus for 65 elements". Journal of Physics and Chemistry of Solids. 35 (11):
+1501. Bibcode:1974JPCS...35.1501G (https://ui.adsabs.harvard.ed u/abs/1974JPCS...35.1501G). doi:10.1016/S0022-3697(74)80278-7
+(https://doi.org/10.1016%2FS0022-3697%2874%2980278-7).
+19. Rubinstein, Michael, 1956 December 20- (2003). Polymer physics.
+Colby, Ralph H. Oxford: Oxford University Press. p. 284.
+ISBN 019852059X. OCLC 50339757 (https://search.worldcat.org/oc lc/50339757).
+Homogeneous isotropic linear elastic materials have their elastic properties uniquely determined by any two quantities among these; thus, given any two, any other of the elastic moduli can be calculated accord both for 3D materials (first part of the table) and for 2D materials (second part).
+3D Formulae
+Knowns
+Bulk modulus (K)
+Young's modulus (E)
+Lamé's first parameter (λ)
+Shear modulus (G)
+Poisson's ratio (ν)
+P-wave modulus (M)
+(K, E)
+3K(1 + ⁠ 6K
+E − 9K⁠)
+⁠
+E
+3 − ⁠E
+3K⁠⁠
+⁠1
+2⁠ − ⁠E
+6K⁠
+⁠
+3K + E
+3 − ⁠E
+3K⁠⁠
+(K, λ)
+9K(K − λ)
+3K − λ ⁠
+⁠3(K − λ)
+⁠
+⁠ λ
+3K − λ⁠
+3K − 2λ
+(K, G)
+⁠ 9KG
+3K + G⁠
+K − ⁠2G
+3 ⁠
+⁠3K − 2G
+6K + 2G⁠
+K + ⁠4G
+3 ⁠
+(K, ν)
+3K(1 − 2ν)
+⁠3Kν
+1 + ν⁠
+⁠3K(1 − 2ν)
+2(1 + ν) ⁠
+⁠3K(1 − ν)
+1 + ν
+(K, M)
+⁠9K(M − K)
+3K + M ⁠
+⁠3K − M
+⁠
+⁠3(M − K)
+⁠
+⁠3K − M
+3K + M⁠
+(E, λ)
+⁠E + 3λ + R
+⁠
+⁠E − 3λ + R
+⁠
+− ⁠E + R
+4λ ⁠ − ⁠1
+4⁠
+⁠E − λ + R
+⁠
+(E2
+(E, G)
+⁠
+EG
+3(3G − E)⁠
+⁠G(E − 2G)
+3G − E ⁠
+⁠E
+2G⁠ − 1
+⁠G(4G − E)
+3G − E ⁠
+(E, ν)
+⁠ E
+3 − 6ν⁠
+Eν
+(1 + ν)(1 − 2ν)⁠
+⁠
+E
+2(1 + ν)⁠
+⁠
+E(1 − ν)
+(1 + ν)(1 − 2ν)⁠
+(E, M)
+⁠3M − E + S
+⁠
+⁠M − E + S
+⁠
+⁠3M + E − S
+⁠
+⁠E + S
+4M ⁠ − ⁠1
+4⁠
+(E2 +
+(λ, G) λ + ⁠2G
+3 ⁠
+⁠G(3λ + 2G) λ + G
+⁠
+⁠ λ
+2(λ + G)⁠ λ + 2G
+(λ, ν)
+⁠λ
+3⁠(1 + ⁠1 ν⁠) λ(⁠1 ν⁠ − 2ν − 1) λ(⁠1
+2ν⁠ − 1) λ(⁠1 ν⁠ − 1)
+(λ, M)
+⁠M + 2λ
+⁠
+⁠(M − λ)(M+2λ)
+M + λ
+⁠
+⁠M − λ
+⁠
+⁠ λ
+M + λ⁠
+(G, ν)
+⁠2G(1 + ν)
+3 − 6ν ⁠
+2G(1 + ν)
+⁠2 G ν
+1 − 2ν⁠
+⁠2G(1 − ν)
+1 − 2ν ⁠
+(G, M)
+M − ⁠4G
+3 ⁠
+⁠G(3M − 4G)
+M − G
+⁠
+M − 2G
+M − 2G
+2M − 2G⁠
+(ν, M)
+⁠M(1 + ν)
+3(1 − ν) ⁠
+⁠M(1 + ν)(1 − 2ν)
+1 − ν
+⁠M ν
+1 − ν⁠
+⁠M(1 − 2ν)
+2(1 − ν) ⁠
+2D Formulae
+Knowns
+(K)
+(E)
+(λ)
+(G)
+(ν)
+(M)
+(K2D, E2D)
+⁠
+2K2D(2K2D − E2D)
+4K2D − E2D
+⁠ ⁠
+K2DE2D
+4K2D − E2D⁠
+⁠
+2K2D − E2D
+2K2D
+⁠
+⁠
+4K2D^2
+4K2D − E2D⁠
+(K2D, λ2D)
+⁠
+4K2D(K2D − λ2D)
+2K2D − λ2D
+⁠
+K2D − λ2D
+⁠ λ2D
+2K2D − λ2D⁠
+2K2D − λ2D
+(K2D, G2D)
+⁠
+4K2DG2D
+K2D + G2D⁠
+K2D − G2D
+⁠
+K2D − G2D
+K2D + G2D⁠
+K2D + G2D
+(K2D, ν2D)
+2K2D(1 − ν2D)
+⁠
+2K2Dν2D
+1 + ν2D ⁠
+⁠
+K2D(1 − ν2D)
+1 + ν2D
+⁠
+⁠
+2K2D
+1 + ν2D⁠
+(E2D, G2D)
+⁠
+E2DG2D
+4G2D − E2D⁠
+⁠
+2G2D(E2D − 2G2D)
+4G2D − E2D
+⁠
+⁠
+E2D
+2G2D⁠ − 1
+⁠
+4G2D^2
+4G2D − E2D⁠
+(E2D, ν2D)
+⁠
+E2D
+2(1 − ν2D)⁠
+⁠
+E2Dν2D
+(1 + ν2D)(1 − ν2D)⁠
+⁠
+E2D
+2(1 + ν2D)⁠
+⁠
+E2D
+(1 + ν2D)(1 − ν2D)⁠
+(λ2D, G2D) λ2D + G2D
+⁠
+4G2D(λ2D + G2D) λ2D + 2G2D
+⁠
+⁠ λ2D λ2D + 2G2D⁠ λ2D + 2G2D
+(λ2D, ν2D)
+⁠ λ2D(1 + ν2D)
+2ν2D
+⁠ ⁠ λ2D(1 + ν2D)(1 − ν2D) ν2D
+⁠
+⁠ λ2D(1 − ν2D)
+2ν2D
+⁠
+⁠ λ2D ν2D⁠
+(G2D, ν2D)
+⁠
+G2D(1 + ν2D)
+1 − ν2D
+⁠
+2G2D(1 + ν2D)
+⁠
+2 G2D ν2D
+1 − ν2D ⁠
+⁠
+2G2D
+1 − ν2D⁠
+(G2D, M2D)
+M2D − G2D
+⁠
+4G2D(M2D − G2D)
+M2D
+⁠
+M2D − 2G2D
+⁠
+M2D − 2G2D
+M2D
+⁠
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Shear_modulus&oldid=1342930807"

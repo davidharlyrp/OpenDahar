@@ -1,0 +1,59 @@
+A cross section showing the water table varying with surface topography as well as a perched water table
+Diagram showing definitions and directions for
+Darcy's law
+Seepage
+In soil mechanics, seepage is the movement of water through soil. If fluid pressures in a soil deposit are uniformly increasing with depth according to
+, where is the depth below the water table, then hydrostatic conditions will prevail and the fluids will not be flowing through the soil. However, if the water table is sloping or there is a perched water table as indicated in the accompanying sketch, then seepage will occur. For steady state seepage, the seepage velocities are not varying with time. If the water tables are changing levels with time, or if the soil is in the process of consolidation, then steady state conditions do not apply.
+Darcy's law states that the volume of flow of the pore fluid through a porous medium per unit time is proportional to the rate of change of excess fluid pressure with distance.
+The constant of proportionality includes the viscosity of the fluid and the intrinsic permeability of the soil. For the simple case of a horizontal tube filled with soil
+The total discharge,
+(having units of volume per time, e.g., ft3/s or m3/s), is proportional to the intrinsic permeability,
+, the cross sectional area,
+, and rate of pore pressure change with distance,
+, and inversely proportional to the dynamic viscosity of the fluid, . The negative sign is needed because fluids flow from high pressure to low pressure. So if the change in pressure is negative (in the
+- direction) then the flow will be positive (in the
+-direction). The above equation works well for a horizontal tube, but if the tube was inclined so that point b was a different elevation than point a, the equation would not work. The effect of elevation is accounted for by replacing the pore pressure by excess pore pressure, defined as:
+where is the depth measured from an arbitrary elevation reference (datum). Replacing by we obtain a more general equation for flow:
+Darcy's law
+Dividing both sides of the equation by
+, and expressing the rate of change of excess pore pressure as a derivative, we obtain a more general equation for the apparent velocity in the x-direction:
+where has units of velocity and is called the Darcy velocity (or the specific discharge, filtration velocity, or superficial velocity). The pore or interstitial velocity is the average velocity of fluid molecules in the pores; it is related to the Darcy velocity and the porosity through the Dupuit-
+Forchheimer relationship
+(Some authors use the term seepage velocity to mean the Darcy velocity,[1] while others use it to mean the pore velocity.[2])
+Civil engineers predominantly work on problems that involve water and predominantly work on problems on earth (in earth's gravity). For this class of problems, civil engineers will often write Darcy's law in a much simpler form:[3][4][5] where is the hydraulic conductivity, defined as
+, and is the hydraulic gradient. The hydraulic gradient is the rate of change of total head with distance. The total head, at a point is defined as the height (measured relative to the datum) to which water would rise in a piezometer at that point. The total head is related to the excess water pressure by:
+and the is zero if the datum for head measurement is chosen at the same elevation as the origin for the depth, z used to calculate
+.
+Values of hydraulic conductivity, , can vary by many orders of magnitude depending on the soil type.
+Clays may have hydraulic conductivity as small as about
+, gravels may have hydraulic conductivity up to about
+. Layering and heterogeneity and disturbance during the sampling and testing process make the accurate measurement of soil hydraulic conductivity a very difficult problem.[3]
+Typical values of hydraulic conductivity
+A plan flow net to estimate flow of water from a stream to a discharging well
+Darcy's Law applies in one, two or three dimensions.[6] In two or three dimensions, steady state seepage is described by
+Laplace's equation. Computer programs are available to solve this equation. But traditionally two-dimensional seepage problems were solved using a graphical procedure known as flownet.[6][5][7] One set of lines in the flownet are in the direction of the water flow (flow lines), and the other set of lines are in the direction of constant total head (equipotential lines). Flownets may be used to estimate the quantity of seepage under dams and sheet piling.
+When the seepage velocity is great enough, erosion can occur because of the frictional drag exerted on the soil particles. Vertically upwards seepage is a source of danger on the downstream side of sheet piling and beneath the toe of a dam or levee. Erosion of the soil, known as "soil piping", can lead to failure of the structure and to sinkhole formation. Seeping water removes soil, starting from the exit point of the seepage, and erosion advances upgradient.[8] The term "sand boil" is used to describe the appearance of the discharging end of an active soil pipe.[9]
+Seepage in an upward direction reduces the effective stress within the soil. When the water pressure at a point in the soil is equal to the total vertical stress at that point, the effective stress is zero and the soil has no frictional resistance to deformation. For a surface layer, the vertical effective stress becomes zero within the layer when the upward hydraulic gradient is equal to the critical gradient.[5] At zero effective stress soil has very little strength and layers of relatively impermeable soil may heave up due to the underlying water pressures. The loss in strength due to upward seepage is a common contributor to levee failures. The condition of zero effective stress associated with upward seepage is also called liquefaction, quicksand, or a boiling condition. Quicksand was so named because the soil particles move around and appear to be 'alive' (the biblical meaning of 'quick' – as opposed to 'dead'). (Note that it is not possible to be 'sucked down' into quicksand. On the contrary, you would float with about half your body out of the water.)[10]
+1. Smith, I. (2013) Smith's Elements of Soil Mechanics|Smith's elements of soil mechanics, 8th edition, John Wiley and Sons, Inc., ISBN 978-1-405-13370-8
+2. Delleur, Jacques W. (2007) The handbook of groundwater engineering, Taylor & Francis,
+ISBN 978-0-849-34316-2
+3. A Guide to Soil Mechanics, Bolton, Malcolm, Macmillan Press, 1979. ISBN 0-333-18931-0
+Flownets
+Forces and erosion
+Pressures
+References
+4. Lambe, T. William & Robert V. Whitman. Soil Mechanics. Wiley, 1991; p. 29. ISBN 978-0-
+471-51192-2
+5. Holtz, R.D, and Kovacs, W.D., 1981. An Introduction to Geotechnical Engineering. Prentice-
+Hall, Inc. page 448
+6. Powrie, W., Spon Press, 2004, Soil Mechanics – 2nd ed ISBN 0-415-31156-X
+7. Cedergren, Harry R. (1977), Seepage, Drainage, and Flow Nets, Wiley. ISBN 0-471-14179-
+8. Jones, J. A. A. (1976). "Soil piping and stream channel initiation". Water Resources
+Research. 7 (3): 602–610. Bibcode:1971WRR.....7..602J (https://ui.adsabs.harvard.edu/abs/
+1971WRR.....7..602J). doi:10.1029/WR007i003p00602 (https://doi.org/10.1029%2FWR007i
+003p00602).
+9. Dooley, Alan (June 2006). "Sandboils 101: Corps has experience dealing with common flood danger" (https://web.archive.org/web/20060727161844/http://www.hq.usace.army.mil/cepa/p ubs/jun06/story8.htm). Engineer Update. US Army Corps of Engineers. Archived from the original (http://www.hq.usace.army.mil/cepa/pubs/jun06/story8.htm) on 2006-07-27.
+Retrieved 2006-08-29.
+10. Terzaghi, K., Peck, R.B., and Mesri, G. 1996. Soil Mechanics in Engineering Practice (http s://books.google.com/books?id=bAwVvO71FXoC&q=seepage). Third Edition, John Wiley &
+Sons, Inc. Article 18, page 135.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Seepage&oldid=1325149418"

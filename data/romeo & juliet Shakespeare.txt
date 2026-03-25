@@ -1,21 +1,13 @@
 The Project Gutenberg eBook of Romeo and Juliet
-    
-This eBook is for the use of anyone anywhere in the United States and
-most other parts of the world at no cost and with almost no restrictions
-whatsoever. You may copy it, give it away or re-use it under the terms
-of the Project Gutenberg License included with this eBook or online
-at www.gutenberg.org. If you are not located in the United States,
-you will have to check the laws of the country where you are located
-before using this eBook.
+
+This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
 
 Title: Romeo and Juliet
 
 Author: William Shakespeare
 
-
-        
 Release date: November 1, 1998 [eBook #1513]
-                Most recently updated: September 18, 2025
+Most recently updated: September 18, 2025
 
 Language: English
 
@@ -23,18 +15,11 @@ Other information and formats: www.gutenberg.org/ebooks/1513
 
 Credits: the PG Shakespeare Team, a team of about twenty Project Gutenberg volunteers
 
-
 *** START OF THE PROJECT GUTENBERG EBOOK ROMEO AND JULIET ***
-
-
-
 
 THE TRAGEDY OF ROMEO AND JULIET
 
 by William Shakespeare
-
-
-
 
 Contents
 
@@ -75,10 +60,7 @@ Scene I. Mantua. A Street.
 Scene II. Friar Lawrence’s Cell.
 Scene III. A churchyard; in it a Monument belonging to the Capulets.
 
-
-
-
- Dramatis Personæ
+Dramatis Personæ
 
 ESCALUS, Prince of Verona.
 MERCUTIO, kinsman to the Prince, and friend to Romeo.
@@ -115,13 +97,9 @@ Maskers, Guards, Watchmen and Attendants.
 SCENE. During the greater part of the Play in Verona; once, in the
 Fifth Act, at Mantua.
 
-
-
-
 THE PROLOGUE
 
-
- Enter Chorus.
+Enter Chorus.
 
 CHORUS.
 Two households, both alike in dignity,
@@ -139,17 +117,13 @@ Is now the two hours’ traffic of our stage;
 The which, if you with patient ears attend,
 What here shall miss, our toil shall strive to mend.
 
- [_Exit._]
-
-
-
+[_Exit._]
 
 ACT I
 
 SCENE I. A public place.
 
-
- Enter Sampson and Gregory armed with swords and bucklers.
+Enter Sampson and Gregory armed with swords and bucklers.
 
 SAMPSON.
 Gregory, on my word, we’ll not carry coals.
@@ -173,8 +147,7 @@ SAMPSON.
 A dog of the house of Montague moves me.
 
 GREGORY.
-To move is to stir; and to be valiant is to stand: therefore, if thou
-art moved, thou runn’st away.
+To move is to stir; and to be valiant is to stand: therefore, if thou art moved, thou runn’st away.
 
 SAMPSON.
 A dog of that house shall move me to stand.
@@ -184,36 +157,31 @@ GREGORY.
 That shows thee a weak slave, for the weakest goes to the wall.
 
 SAMPSON.
-True, and therefore women, being the weaker vessels, are ever thrust to
-the wall: therefore I will push Montague’s men from the wall, and
-thrust his maids to the wall.
+True, and therefore women, being the weaker vessels, are ever thrust to the wall: therefore I will push Montague’s men from the wall, and thrust his maids to the wall.
 
 GREGORY.
 The quarrel is between our masters and us their men.
 
 SAMPSON.
-’Tis all one, I will show myself a tyrant: when I have fought with the
-men I will be civil with the maids, I will cut off their heads.
+’Tis all one, I will show myself a tyrant: when I have fought with the men I will be civil with the maids, I will cut off their heads.
 
 GREGORY.
 The heads of the maids?
 
 SAMPSON.
-Ay, the heads of the maids, or their maidenheads; take it in what sense
-thou wilt.
+Ay, the heads of the maids, or their maidenheads; take it in what sense thou wilt.
 
 GREGORY.
 They must take it in sense that feel it.
 
 SAMPSON.
-Me they shall feel while I am able to stand: and ’tis known I am a
-pretty piece of flesh.
+Me they shall feel while I am able to stand: and ’tis known I am a pretty piece of flesh.
 
 GREGORY.
 ’Tis well thou art not fish; if thou hadst, thou hadst been poor John.
 Draw thy tool; here comes of the house of Montagues.
 
- Enter Abram and Balthasar.
+Enter Abram and Balthasar.
 
 SAMPSON.
 My naked weapon is out: quarrel, I will back thee.
@@ -234,8 +202,7 @@ GREGORY.
 I will frown as I pass by, and let them take it as they list.
 
 SAMPSON.
-Nay, as they dare. I will bite my thumb at them, which is disgrace to
-them if they bear it.
+Nay, as they dare. I will bite my thumb at them, which is disgrace to them if they bear it.
 
 ABRAM.
 Do you bite your thumb at us, sir?
@@ -270,7 +237,7 @@ No better.
 SAMPSON.
 Well, sir.
 
- Enter Benvolio.
+Enter Benvolio.
 
 GREGORY.
 Say better; here comes one of my master’s kinsmen.
@@ -284,14 +251,14 @@ You lie.
 SAMPSON.
 Draw, if you be men. Gregory, remember thy washing blow.
 
- [_They fight._]
+[_They fight._]
 
 BENVOLIO.
 Part, fools! put up your swords, you know not what you do.
 
- [_Beats down their swords._]
+[_Beats down their swords._]
 
- Enter Tybalt.
+Enter Tybalt.
 
 TYBALT.
 What, art thou drawn among these heartless hinds?
@@ -306,15 +273,15 @@ What, drawn, and talk of peace? I hate the word
 As I hate hell, all Montagues, and thee:
 Have at thee, coward.
 
- [_They fight._]
+[_They fight._]
 
- Enter three or four Citizens with clubs.
+Enter three or four Citizens with clubs.
 
 FIRST CITIZEN.
 Clubs, bills and partisans! Strike! Beat them down!
 Down with the Capulets! Down with the Montagues!
 
- Enter Capulet in his gown, and Lady Capulet.
+Enter Capulet in his gown, and Lady Capulet.
 
 CAPULET.
 What noise is this? Give me my long sword, ho!
@@ -326,7 +293,7 @@ CAPULET.
 My sword, I say! Old Montague is come,
 And flourishes his blade in spite of me.
 
- Enter Montague and his Lady Montague.
+Enter Montague and his Lady Montague.
 
 MONTAGUE.
 Thou villain Capulet! Hold me not, let me go.
@@ -334,7 +301,7 @@ Thou villain Capulet! Hold me not, let me go.
 LADY MONTAGUE.
 Thou shalt not stir one foot to seek a foe.
 
- Enter Prince Escalus, with Attendants.
+Enter Prince Escalus, with Attendants.
 
 PRINCE.
 Rebellious subjects, enemies to peace,
@@ -361,8 +328,8 @@ To know our farther pleasure in this case,
 To old Free-town, our common judgement-place.
 Once more, on pain of death, all men depart.
 
- [_Exeunt Prince and Attendants; Capulet, Lady Capulet, Tybalt,
- Citizens and Servants._]
+[_Exeunt Prince and Attendants; Capulet, Lady Capulet, Tybalt,
+Citizens and Servants._]
 
 MONTAGUE.
 Who set this ancient quarrel new abroach?
@@ -434,7 +401,7 @@ Or dedicate his beauty to the sun.
 Could we but learn from whence his sorrows grow,
 We would as willingly give cure as know.
 
- Enter Romeo.
+Enter Romeo.
 
 BENVOLIO.
 See, where he comes. So please you step aside;
@@ -444,7 +411,7 @@ MONTAGUE.
 I would thou wert so happy by thy stay
 To hear true shrift. Come, madam, let’s away,
 
- [_Exeunt Montague and Lady Montague._]
+[_Exeunt Montague and Lady Montague._]
 
 BENVOLIO.
 Good morrow, cousin.
@@ -518,7 +485,7 @@ What is it else? A madness most discreet,
 A choking gall, and a preserving sweet.
 Farewell, my coz.
 
- [_Going._]
+[_Going._]
 
 BENVOLIO.
 Soft! I will go along:
@@ -599,11 +566,11 @@ Farewell, thou canst not teach me to forget.
 BENVOLIO.
 I’ll pay that doctrine, or else die in debt.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE II. A Street.
 
- Enter Capulet, Paris and Servant.
+Enter Capulet, Paris and Servant.
 
 CAPULET.
 But Montague is bound as well as I,
@@ -652,17 +619,12 @@ Through fair Verona; find those persons out
 Whose names are written there, [_gives a paper_] and to them say,
 My house and welcome on their pleasure stay.
 
- [_Exeunt Capulet and Paris._]
+[_Exeunt Capulet and Paris._]
 
 SERVANT.
-Find them out whose names are written here! It is written that the
-shoemaker should meddle with his yard and the tailor with his last, the
-fisher with his pencil, and the painter with his nets; but I am sent to
-find those persons whose names are here writ, and can never find what
-names the writing person hath here writ. I must to the learned. In good
-time!
+Find them out whose names are written here! It is written that the shoemaker should meddle with his yard and the tailor with his last, the fisher with his pencil, and the painter with his nets; but I am sent to find those persons whose names are here writ, and can never find what names the writing person hath here writ. I must to the learned. In good time!
 
- Enter Benvolio and Romeo.
+Enter Benvolio and Romeo.
 
 BENVOLIO.
 Tut, man, one fire burns out another’s burning,
@@ -708,7 +670,7 @@ Ye say honestly, rest you merry!
 ROMEO.
 Stay, fellow; I can read.
 
- [_He reads the letter._]
+[_He reads the letter._]
 
 _Signior Martino and his wife and daughters;
 County Anselmo and his beauteous sisters;
@@ -719,7 +681,6 @@ Mine uncle Capulet, his wife, and daughters;
 My fair niece Rosaline and Livia;
 Signior Valentio and his cousin Tybalt;
 Lucio and the lively Helena. _
-
 
 A fair assembly. [_Gives back the paper_] Whither should they come?
 
@@ -742,11 +703,9 @@ ROMEO.
 Indeed I should have ask’d you that before.
 
 SERVANT.
-Now I’ll tell you without asking. My master is the great rich Capulet,
-and if you be not of the house of Montagues, I pray come and crush a
-cup of wine. Rest you merry.
+Now I’ll tell you without asking. My master is the great rich Capulet, and if you be not of the house of Montagues, I pray come and crush a cup of wine. Rest you merry.
 
- [_Exit._]
+[_Exit._]
 
 BENVOLIO.
 At this same ancient feast of Capulet’s
@@ -776,11 +735,11 @@ ROMEO.
 I’ll go along, no such sight to be shown,
 But to rejoice in splendour of my own.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE III. Room in Capulet’s House.
 
- Enter Lady Capulet and Nurse.
+Enter Lady Capulet and Nurse.
 
 LADY CAPULET.
 Nurse, where’s my daughter? Call her forth to me.
@@ -790,7 +749,7 @@ Now, by my maidenhead, at twelve year old,
 I bade her come. What, lamb! What ladybird!
 God forbid! Where’s this girl? What, Juliet!
 
- Enter Juliet.
+Enter Juliet.
 
 JULIET.
 How now, who calls?
@@ -937,29 +896,28 @@ I’ll look to like, if looking liking move:
 But no more deep will I endart mine eye
 Than your consent gives strength to make it fly.
 
- Enter a Servant.
+Enter a Servant.
 
 SERVANT.
-Madam, the guests are come, supper served up, you called, my young lady
-asked for, the Nurse cursed in the pantry, and everything in extremity.
+Madam, the guests are come, supper served up, you called, my young lady asked for, the Nurse cursed in the pantry, and everything in extremity.
 I must hence to wait, I beseech you follow straight.
 
 LADY CAPULET.
 We follow thee.
 
- [_Exit Servant._]
+[_Exit Servant._]
 
 Juliet, the County stays.
 
 NURSE.
 Go, girl, seek happy nights to happy days.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE IV. A Street.
 
- Enter Romeo, Mercutio, Benvolio, with five or six Maskers;
- Torch-bearers and others.
+Enter Romeo, Mercutio, Benvolio, with five or six Maskers;
+Torch-bearers and others.
 
 ROMEO.
 What, shall this speech be spoke for our excuse?
@@ -1137,39 +1095,34 @@ Direct my suit. On, lusty gentlemen!
 BENVOLIO.
 Strike, drum.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE V. A Hall in Capulet’s House.
 
- Musicians waiting. Enter Servants.
+Musicians waiting. Enter Servants.
 
 FIRST SERVANT.
 Where’s Potpan, that he helps not to take away?
 He shift a trencher! He scrape a trencher!
 
 SECOND SERVANT.
-When good manners shall lie all in one or two men’s hands, and they
-unwash’d too, ’tis a foul thing.
+When good manners shall lie all in one or two men’s hands, and they unwash’d too, ’tis a foul thing.
 
 FIRST SERVANT.
-Away with the join-stools, remove the court-cupboard, look to the
-plate. Good thou, save me a piece of marchpane; and as thou loves me,
-let the porter let in Susan Grindstone and Nell. Antony and Potpan!
+Away with the join-stools, remove the court-cupboard, look to the plate. Good thou, save me a piece of marchpane; and as thou loves me, let the porter let in Susan Grindstone and Nell. Antony and Potpan!
 
 SECOND SERVANT.
 Ay, boy, ready.
 
 FIRST SERVANT.
-You are looked for and called for, asked for and sought for, in the
-great chamber.
+You are looked for and called for, asked for and sought for, in the great chamber.
 
 SECOND SERVANT.
-We cannot be here and there too. Cheerly, boys. Be brisk awhile, and
-the longer liver take all.
+We cannot be here and there too. Cheerly, boys. Be brisk awhile, and the longer liver take all.
 
- [_Exeunt._]
+[_Exeunt._]
 
- Enter Capulet, &c. with the Guests and Gentlewomen to the Maskers.
+Enter Capulet, &c. with the Guests and Gentlewomen to the Maskers.
 
 CAPULET.
 Welcome, gentlemen, ladies that have their toes
@@ -1184,7 +1137,7 @@ Such as would please; ’tis gone, ’tis gone, ’tis gone,
 You are welcome, gentlemen! Come, musicians, play.
 A hall, a hall, give room! And foot it, girls.
 
- [_Music plays, and they dance._]
+[_Music plays, and they dance._]
 
 More light, you knaves; and turn the tables up,
 And quench the fire, the room is grown too hot.
@@ -1295,7 +1248,7 @@ Makes my flesh tremble in their different greeting.
 I will withdraw: but this intrusion shall,
 Now seeming sweet, convert to bitter gall.
 
- [_Exit._]
+[_Exit._]
 
 ROMEO.
 [_To Juliet._] If I profane with my unworthiest hand
@@ -1370,7 +1323,7 @@ More torches here! Come on then, let’s to bed.
 Ah, sirrah, by my fay, it waxes late,
 I’ll to my rest.
 
- [_Exeunt all but Juliet and Nurse._]
+[_Exeunt all but Juliet and Nurse._]
 
 JULIET.
 Come hither, Nurse. What is yond gentleman?
@@ -1411,21 +1364,17 @@ JULIET.
 A rhyme I learn’d even now
 Of one I danc’d withal.
 
- [_One calls within, ‘Juliet’._]
+[_One calls within, ‘Juliet’._]
 
 NURSE.
 Anon, anon!
 Come let’s away, the strangers all are gone.
 
- [_Exeunt._]
-
-
-
+[_Exeunt._]
 
 ACT II
 
-
- Enter Chorus.
+Enter Chorus.
 
 CHORUS.
 Now old desire doth in his deathbed lie,
@@ -1443,19 +1392,19 @@ To meet her new beloved anywhere.
 But passion lends them power, time means, to meet,
 Tempering extremities with extreme sweet.
 
- [_Exit._]
+[_Exit._]
 
 SCENE I. An open place adjoining Capulet’s Garden.
 
- Enter Romeo.
+Enter Romeo.
 
 ROMEO.
 Can I go forward when my heart is here?
 Turn back, dull earth, and find thy centre out.
 
- [_He climbs the wall and leaps down within it._]
+[_He climbs the wall and leaps down within it._]
 
- Enter Benvolio and Mercutio.
+Enter Benvolio and Mercutio.
 
 BENVOLIO.
 Romeo! My cousin Romeo! Romeo!
@@ -1518,16 +1467,16 @@ BENVOLIO.
 Go then; for ’tis in vain
 To seek him here that means not to be found.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE II. Capulet’s Garden.
 
- Enter Romeo.
+Enter Romeo.
 
 ROMEO.
 He jests at scars that never felt a wound.
 
- Juliet appears above at a window.
+Juliet appears above at a window.
 
 But soft, what light through yonder window breaks?
 It is the east, and Juliet is the sun!
@@ -1736,14 +1685,14 @@ I hear some noise within. Dear love, adieu.
 Anon, good Nurse!—Sweet Montague be true.
 Stay but a little, I will come again.
 
- [_Exit._]
+[_Exit._]
 
 ROMEO.
 O blessed, blessed night. I am afeard,
 Being in night, all this is but a dream,
 Too flattering sweet to be substantial.
 
- Enter Juliet above.
+Enter Juliet above.
 
 JULIET.
 Three words, dear Romeo, and good night indeed.
@@ -1775,16 +1724,16 @@ So thrive my soul,—
 JULIET.
 A thousand times good night.
 
- [_Exit._]
+[_Exit._]
 
 ROMEO.
 A thousand times the worse, to want thy light.
 Love goes toward love as schoolboys from their books,
 But love from love, towards school with heavy looks.
 
- [_Retiring slowly._]
+[_Retiring slowly._]
 
- Re-enter Juliet, above.
+Re-enter Juliet, above.
 
 JULIET.
 Hist! Romeo, hist! O for a falconer’s voice
@@ -1844,7 +1793,7 @@ Yet I should kill thee with much cherishing.
 Good night, good night. Parting is such sweet sorrow
 That I shall say good night till it be morrow.
 
- [_Exit._]
+[_Exit._]
 
 ROMEO.
 Sleep dwell upon thine eyes, peace in thy breast.
@@ -1852,11 +1801,11 @@ Would I were sleep and peace, so sweet to rest.
 Hence will I to my ghostly Sire’s cell,
 His help to crave and my dear hap to tell.
 
- [_Exit._]
+[_Exit._]
 
 SCENE III. Friar Lawrence’s Cell.
 
- Enter Friar Lawrence with a basket.
+Enter Friar Lawrence with a basket.
 
 FRIAR LAWRENCE.
 The grey-ey’d morn smiles on the frowning night,
@@ -1882,7 +1831,7 @@ Revolts from true birth, stumbling on abuse.
 Virtue itself turns vice being misapplied,
 And vice sometime’s by action dignified.
 
- Enter Romeo.
+Enter Romeo.
 
 Within the infant rind of this weak flower
 Poison hath residence, and medicine power:
@@ -1996,11 +1945,11 @@ O let us hence; I stand on sudden haste.
 FRIAR LAWRENCE.
 Wisely and slow; they stumble that run fast.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE IV. A Street.
 
- Enter Benvolio and Mercutio.
+Enter Benvolio and Mercutio.
 
 MERCUTIO.
 Where the devil should this Romeo be? Came he not home tonight?
@@ -2009,12 +1958,10 @@ BENVOLIO.
 Not to his father’s; I spoke with his man.
 
 MERCUTIO.
-Why, that same pale hard-hearted wench, that Rosaline, torments him so
-that he will sure run mad.
+Why, that same pale hard-hearted wench, that Rosaline, torments him so that he will sure run mad.
 
 BENVOLIO.
-Tybalt, the kinsman to old Capulet, hath sent a letter to his father’s
-house.
+Tybalt, the kinsman to old Capulet, hath sent a letter to his father’s house.
 
 MERCUTIO.
 A challenge, on my life.
@@ -2029,46 +1976,29 @@ BENVOLIO.
 Nay, he will answer the letter’s master, how he dares, being dared.
 
 MERCUTIO.
-Alas poor Romeo, he is already dead, stabbed with a white wench’s black
-eye; run through the ear with a love song, the very pin of his heart
-cleft with the blind bow-boy’s butt-shaft. And is he a man to encounter
+Alas poor Romeo, he is already dead, stabbed with a white wench’s black eye; run through the ear with a love song, the very pin of his heart cleft with the blind bow-boy’s butt-shaft. And is he a man to encounter
 Tybalt?
 
 BENVOLIO.
 Why, what is Tybalt?
 
 MERCUTIO.
-More than Prince of cats. O, he’s the courageous captain of
-compliments. He fights as you sing prick-song, keeps time, distance,
-and proportion. He rests his minim rest, one, two, and the third in
-your bosom: the very butcher of a silk button, a duellist, a duellist;
-a gentleman of the very first house, of the first and second cause. Ah,
-the immortal passado, the punto reverso, the hay.
+More than Prince of cats. O, he’s the courageous captain of compliments. He fights as you sing prick-song, keeps time, distance, and proportion. He rests his minim rest, one, two, and the third in your bosom: the very butcher of a silk button, a duellist, a duellist; a gentleman of the very first house, of the first and second cause. Ah, the immortal passado, the punto reverso, the hay.
 
 BENVOLIO.
 The what?
 
 MERCUTIO.
-The pox of such antic lisping, affecting phantasies; these new tuners
-of accent. By Jesu, a very good blade, a very tall man, a very good
-whore. Why, is not this a lamentable thing, grandsire, that we should
-be thus afflicted with these strange flies, these fashion-mongers,
-these pardon-me’s, who stand so much on the new form that they cannot
-sit at ease on the old bench? O their bones, their bones!
+The pox of such antic lisping, affecting phantasies; these new tuners of accent. By Jesu, a very good blade, a very tall man, a very good whore. Why, is not this a lamentable thing, grandsire, that we should be thus afflicted with these strange flies, these fashion-mongers, these pardon-me’s, who stand so much on the new form that they cannot sit at ease on the old bench? O their bones, their bones!
 
- Enter Romeo.
+Enter Romeo.
 
 BENVOLIO.
 Here comes Romeo, here comes Romeo!
 
 MERCUTIO.
-Without his roe, like a dried herring. O flesh, flesh, how art thou
-fishified! Now is he for the numbers that Petrarch flowed in. Laura, to
-his lady, was but a kitchen wench,—marry, she had a better love to
-berhyme her: Dido a dowdy; Cleopatra a gypsy; Helen and Hero hildings
-and harlots; Thisbe a grey eye or so, but not to the purpose. Signior
-Romeo, bonjour! There’s a French salutation to your French slop. You
-gave us the counterfeit fairly last night.
+Without his roe, like a dried herring. O flesh, flesh, how art thou fishified! Now is he for the numbers that Petrarch flowed in. Laura, to his lady, was but a kitchen wench,—marry, she had a better love to berhyme her: Dido a dowdy; Cleopatra a gypsy; Helen and Hero hildings and harlots; Thisbe a grey eye or so, but not to the purpose. Signior
+Romeo, bonjour! There’s a French salutation to your French slop. You gave us the counterfeit fairly last night.
 
 ROMEO.
 Good morrow to you both. What counterfeit did I give you?
@@ -2077,12 +2007,10 @@ MERCUTIO.
 The slip sir, the slip; can you not conceive?
 
 ROMEO.
-Pardon, good Mercutio, my business was great, and in such a case as
-mine a man may strain courtesy.
+Pardon, good Mercutio, my business was great, and in such a case as mine a man may strain courtesy.
 
 MERCUTIO.
-That’s as much as to say, such a case as yours constrains a man to bow
-in the hams.
+That’s as much as to say, such a case as yours constrains a man to bow in the hams.
 
 ROMEO.
 Meaning, to curtsy.
@@ -2106,9 +2034,7 @@ ROMEO.
 Why, then is my pump well flowered.
 
 MERCUTIO.
-Sure wit, follow me this jest now, till thou hast worn out thy pump,
-that when the single sole of it is worn, the jest may remain after the
-wearing, solely singular.
+Sure wit, follow me this jest now, till thou hast worn out thy pump, that when the single sole of it is worn, the jest may remain after the wearing, solely singular.
 
 ROMEO.
 O single-soled jest, solely singular for the singleness!
@@ -2120,13 +2046,10 @@ ROMEO.
 Swits and spurs, swits and spurs; or I’ll cry a match.
 
 MERCUTIO.
-Nay, if thy wits run the wild-goose chase, I am done. For thou hast
-more of the wild-goose in one of thy wits, than I am sure, I have in my
-whole five. Was I with you there for the goose?
+Nay, if thy wits run the wild-goose chase, I am done. For thou hast more of the wild-goose in one of thy wits, than I am sure, I have in my whole five. Was I with you there for the goose?
 
 ROMEO.
-Thou wast never with me for anything, when thou wast not there for the
-goose.
+Thou wast never with me for anything, when thou wast not there for the goose.
 
 MERCUTIO.
 I will bite thee by the ear for that jest.
@@ -2141,18 +2064,13 @@ ROMEO.
 And is it not then well served in to a sweet goose?
 
 MERCUTIO.
-O here’s a wit of cheveril, that stretches from an inch narrow to an
-ell broad.
+O here’s a wit of cheveril, that stretches from an inch narrow to an ell broad.
 
 ROMEO.
-I stretch it out for that word broad, which added to the goose, proves
-thee far and wide a broad goose.
+I stretch it out for that word broad, which added to the goose, proves thee far and wide a broad goose.
 
 MERCUTIO.
-Why, is not this better now than groaning for love? Now art thou
-sociable, now art thou Romeo; now art thou what thou art, by art as
-well as by nature. For this drivelling love is like a great natural,
-that runs lolling up and down to hide his bauble in a hole.
+Why, is not this better now than groaning for love? Now art thou sociable, now art thou Romeo; now art thou what thou art, by art as well as by nature. For this drivelling love is like a great natural, that runs lolling up and down to hide his bauble in a hole.
 
 BENVOLIO.
 Stop there, stop there.
@@ -2164,11 +2082,9 @@ BENVOLIO.
 Thou wouldst else have made thy tale large.
 
 MERCUTIO.
-O, thou art deceived; I would have made it short, for I was come to the
-whole depth of my tale, and meant indeed to occupy the argument no
-longer.
+O, thou art deceived; I would have made it short, for I was come to the whole depth of my tale, and meant indeed to occupy the argument no longer.
 
- Enter Nurse and Peter.
+Enter Nurse and Peter.
 
 ROMEO.
 Here’s goodly gear!
@@ -2199,8 +2115,7 @@ NURSE.
 Is it good-den?
 
 MERCUTIO.
-’Tis no less, I tell ye; for the bawdy hand of the dial is now upon the
-prick of noon.
+’Tis no less, I tell ye; for the bawdy hand of the dial is now upon the prick of noon.
 
 NURSE.
 Out upon you! What a man are you?
@@ -2209,13 +2124,10 @@ ROMEO.
 One, gentlewoman, that God hath made for himself to mar.
 
 NURSE.
-By my troth, it is well said; for himself to mar, quoth a? Gentlemen,
-can any of you tell me where I may find the young Romeo?
+By my troth, it is well said; for himself to mar, quoth a? Gentlemen, can any of you tell me where I may find the young Romeo?
 
 ROMEO.
-I can tell you: but young Romeo will be older when you have found him
-than he was when you sought him. I am the youngest of that name, for
-fault of a worse.
+I can tell you: but young Romeo will be older when you have found him than he was when you sought him. I am the youngest of that name, for fault of a worse.
 
 NURSE.
 You say well.
@@ -2236,15 +2148,14 @@ ROMEO.
 What hast thou found?
 
 MERCUTIO.
-No hare, sir; unless a hare, sir, in a lenten pie, that is something
-stale and hoar ere it be spent.
+No hare, sir; unless a hare, sir, in a lenten pie, that is something stale and hoar ere it be spent.
 [_Sings._]
-    An old hare hoar,
-    And an old hare hoar,
-  Is very good meat in Lent;
-    But a hare that is hoar
-    Is too much for a score
-  When it hoars ere it be spent.
+An old hare hoar,
+And an old hare hoar,
+Is very good meat in Lent;
+But a hare that is hoar
+Is too much for a score
+When it hoars ere it be spent.
 Romeo, will you come to your father’s? We’ll to dinner thither.
 
 ROMEO.
@@ -2253,51 +2164,33 @@ I will follow you.
 MERCUTIO.
 Farewell, ancient lady; farewell, lady, lady, lady.
 
- [_Exeunt Mercutio and Benvolio._]
+[_Exeunt Mercutio and Benvolio._]
 
 NURSE.
-I pray you, sir, what saucy merchant was this that was so full of his
-ropery?
+I pray you, sir, what saucy merchant was this that was so full of his ropery?
 
 ROMEO.
-A gentleman, Nurse, that loves to hear himself talk, and will speak
-more in a minute than he will stand to in a month.
+A gentleman, Nurse, that loves to hear himself talk, and will speak more in a minute than he will stand to in a month.
 
 NURSE.
-And a speak anything against me, I’ll take him down, and a were lustier
-than he is, and twenty such Jacks. And if I cannot, I’ll find those
-that shall. Scurvy knave! I am none of his flirt-gills; I am none of
-his skains-mates.—And thou must stand by too and suffer every knave to
-use me at his pleasure!
+And a speak anything against me, I’ll take him down, and a were lustier than he is, and twenty such Jacks. And if I cannot, I’ll find those that shall. Scurvy knave! I am none of his flirt-gills; I am none of his skains-mates.—And thou must stand by too and suffer every knave to use me at his pleasure!
 
 PETER.
-I saw no man use you at his pleasure; if I had, my weapon should
-quickly have been out. I warrant you, I dare draw as soon as another
-man, if I see occasion in a good quarrel, and the law on my side.
+I saw no man use you at his pleasure; if I had, my weapon should quickly have been out. I warrant you, I dare draw as soon as another man, if I see occasion in a good quarrel, and the law on my side.
 
 NURSE.
-Now, afore God, I am so vexed that every part about me quivers. Scurvy
-knave. Pray you, sir, a word: and as I told you, my young lady bid me
-enquire you out; what she bade me say, I will keep to myself. But first
-let me tell ye, if ye should lead her in a fool’s paradise, as they
-say, it were a very gross kind of behaviour, as they say; for the
-gentlewoman is young. And therefore, if you should deal double with
-her, truly it were an ill thing to be offered to any gentlewoman, and
-very weak dealing.
+Now, afore God, I am so vexed that every part about me quivers. Scurvy knave. Pray you, sir, a word: and as I told you, my young lady bid me enquire you out; what she bade me say, I will keep to myself. But first let me tell ye, if ye should lead her in a fool’s paradise, as they say, it were a very gross kind of behaviour, as they say; for the gentlewoman is young. And therefore, if you should deal double with her, truly it were an ill thing to be offered to any gentlewoman, and very weak dealing.
 
-ROMEO. Nurse, commend me to thy lady and mistress. I protest unto
-thee,—
+ROMEO. Nurse, commend me to thy lady and mistress. I protest unto thee,—
 
 NURSE.
-Good heart, and i’faith I will tell her as much. Lord, Lord, she will
-be a joyful woman.
+Good heart, and i’faith I will tell her as much. Lord, Lord, she will be a joyful woman.
 
 ROMEO.
 What wilt thou tell her, Nurse? Thou dost not mark me.
 
 NURSE.
-I will tell her, sir, that you do protest, which, as I take it, is a
-gentlemanlike offer.
+I will tell her, sir, that you do protest, which, as I take it, is a gentlemanlike offer.
 
 ROMEO.
 Bid her devise
@@ -2337,21 +2230,15 @@ ROMEO.
 I warrant thee my man’s as true as steel.
 
 NURSE.
-Well, sir, my mistress is the sweetest lady. Lord, Lord! When ’twas a
-little prating thing,—O, there is a nobleman in town, one Paris, that
-would fain lay knife aboard; but she, good soul, had as lief see a
-toad, a very toad, as see him. I anger her sometimes, and tell her that
-Paris is the properer man, but I’ll warrant you, when I say so, she
-looks as pale as any clout in the versal world. Doth not rosemary and
+Well, sir, my mistress is the sweetest lady. Lord, Lord! When ’twas a little prating thing,—O, there is a nobleman in town, one Paris, that would fain lay knife aboard; but she, good soul, had as lief see a toad, a very toad, as see him. I anger her sometimes, and tell her that
+Paris is the properer man, but I’ll warrant you, when I say so, she looks as pale as any clout in the versal world. Doth not rosemary and
 Romeo begin both with a letter?
 
 ROMEO.
 Ay, Nurse; what of that? Both with an R.
 
 NURSE.
-Ah, mocker! That’s the dog’s name. R is for the—no, I know it begins
-with some other letter, and she hath the prettiest sententious of it,
-of you and rosemary, that it would do you good to hear it.
+Ah, mocker! That’s the dog’s name. R is for the—no, I know it begins with some other letter, and she hath the prettiest sententious of it, of you and rosemary, that it would do you good to hear it.
 
 ROMEO.
 Commend me to thy lady.
@@ -2359,7 +2246,7 @@ Commend me to thy lady.
 NURSE.
 Ay, a thousand times. Peter!
 
- [_Exit Romeo._]
+[_Exit Romeo._]
 
 PETER.
 Anon.
@@ -2367,11 +2254,11 @@ Anon.
 NURSE.
 Before and apace.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE V. Capulet’s Garden.
 
- Enter Juliet.
+Enter Juliet.
 
 JULIET.
 The clock struck nine when I did send the Nurse,
@@ -2392,7 +2279,7 @@ And his to me.
 But old folks, many feign as they were dead;
 Unwieldy, slow, heavy and pale as lead.
 
- Enter Nurse and Peter.
+Enter Nurse and Peter.
 
 O God, she comes. O honey Nurse, what news?
 Hast thou met with him? Send thy man away.
@@ -2400,7 +2287,7 @@ Hast thou met with him? Send thy man away.
 NURSE.
 Peter, stay at the gate.
 
- [_Exit Peter._]
+[_Exit Peter._]
 
 JULIET.
 Now, good sweet Nurse,—O Lord, why look’st thou sad?
@@ -2417,8 +2304,7 @@ I would thou hadst my bones, and I thy news:
 Nay come, I pray thee speak; good, good Nurse, speak.
 
 NURSE.
-Jesu, what haste? Can you not stay a while? Do you not see that I am
-out of breath?
+Jesu, what haste? Can you not stay a while? Do you not see that I am out of breath?
 
 JULIET.
 How art thou out of breath, when thou hast breath
@@ -2431,11 +2317,7 @@ Let me be satisfied, is’t good or bad?
 
 NURSE.
 Well, you have made a simple choice; you know not how to choose a man.
-Romeo? No, not he. Though his face be better than any man’s, yet his
-leg excels all men’s, and for a hand and a foot, and a body, though
-they be not to be talked on, yet they are past compare. He is not the
-flower of courtesy, but I’ll warrant him as gentle as a lamb. Go thy
-ways, wench, serve God. What, have you dined at home?
+Romeo? No, not he. Though his face be better than any man’s, yet his leg excels all men’s, and for a hand and a foot, and a body, though they be not to be talked on, yet they are past compare. He is not the flower of courtesy, but I’ll warrant him as gentle as a lamb. Go thy ways, wench, serve God. What, have you dined at home?
 
 JULIET.
 No, no. But all this did I know before.
@@ -2493,11 +2375,11 @@ Go. I’ll to dinner; hie you to the cell.
 JULIET.
 Hie to high fortune! Honest Nurse, farewell.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE VI. Friar Lawrence’s Cell.
 
- Enter Friar Lawrence and Romeo.
+Enter Friar Lawrence and Romeo.
 
 FRIAR LAWRENCE.
 So smile the heavens upon this holy act
@@ -2520,7 +2402,7 @@ And in the taste confounds the appetite.
 Therefore love moderately: long love doth so;
 Too swift arrives as tardy as too slow.
 
- Enter Juliet.
+Enter Juliet.
 
 Here comes the lady. O, so light a foot
 Will ne’er wear out the everlasting flint.
@@ -2557,17 +2439,13 @@ Come, come with me, and we will make short work,
 For, by your leaves, you shall not stay alone
 Till holy church incorporate two in one.
 
- [_Exeunt._]
-
-
-
+[_Exeunt._]
 
 ACT III
 
 SCENE I. A public Place.
 
-
- Enter Mercutio, Benvolio, Page and Servants.
+Enter Mercutio, Benvolio, Page and Servants.
 
 BENVOLIO.
 I pray thee, good Mercutio, let’s retire:
@@ -2576,43 +2454,28 @@ And if we meet, we shall not scape a brawl,
 For now these hot days, is the mad blood stirring.
 
 MERCUTIO.
-Thou art like one of these fellows that, when he enters the confines of
-a tavern, claps me his sword upon the table, and says ‘God send me no
-need of thee!’ and by the operation of the second cup draws him on the
-drawer, when indeed there is no need.
+Thou art like one of these fellows that, when he enters the confines of a tavern, claps me his sword upon the table, and says ‘God send me no need of thee!’ and by the operation of the second cup draws him on the drawer, when indeed there is no need.
 
 BENVOLIO.
 Am I like such a fellow?
 
 MERCUTIO.
-Come, come, thou art as hot a Jack in thy mood as any in Italy; and as
-soon moved to be moody, and as soon moody to be moved.
+Come, come, thou art as hot a Jack in thy mood as any in Italy; and as soon moved to be moody, and as soon moody to be moved.
 
 BENVOLIO.
 And what to?
 
 MERCUTIO.
-Nay, an there were two such, we should have none shortly, for one would
-kill the other. Thou? Why, thou wilt quarrel with a man that hath a
-hair more or a hair less in his beard than thou hast. Thou wilt quarrel
-with a man for cracking nuts, having no other reason but because thou
-hast hazel eyes. What eye but such an eye would spy out such a quarrel?
-Thy head is as full of quarrels as an egg is full of meat, and yet thy
-head hath been beaten as addle as an egg for quarrelling. Thou hast
-quarrelled with a man for coughing in the street, because he hath
-wakened thy dog that hath lain asleep in the sun. Didst thou not fall
-out with a tailor for wearing his new doublet before Easter? with
-another for tying his new shoes with an old riband? And yet thou wilt
-tutor me from quarrelling!
+Nay, an there were two such, we should have none shortly, for one would kill the other. Thou? Why, thou wilt quarrel with a man that hath a hair more or a hair less in his beard than thou hast. Thou wilt quarrel with a man for cracking nuts, having no other reason but because thou hast hazel eyes. What eye but such an eye would spy out such a quarrel?
+Thy head is as full of quarrels as an egg is full of meat, and yet thy head hath been beaten as addle as an egg for quarrelling. Thou hast quarrelled with a man for coughing in the street, because he hath wakened thy dog that hath lain asleep in the sun. Didst thou not fall out with a tailor for wearing his new doublet before Easter? with another for tying his new shoes with an old riband? And yet thou wilt tutor me from quarrelling!
 
 BENVOLIO.
-And I were so apt to quarrel as thou art, any man should buy the fee
-simple of my life for an hour and a quarter.
+And I were so apt to quarrel as thou art, any man should buy the fee simple of my life for an hour and a quarter.
 
 MERCUTIO.
 The fee simple! O simple!
 
- Enter Tybalt and others.
+Enter Tybalt and others.
 
 BENVOLIO.
 By my head, here comes the Capulets.
@@ -2625,12 +2488,10 @@ Follow me close, for I will speak to them.
 Gentlemen, good-den: a word with one of you.
 
 MERCUTIO.
-And but one word with one of us? Couple it with something; make it a
-word and a blow.
+And but one word with one of us? Couple it with something; make it a word and a blow.
 
 TYBALT.
-You shall find me apt enough to that, sir, and you will give me
-occasion.
+You shall find me apt enough to that, sir, and you will give me occasion.
 
 MERCUTIO.
 Could you not take some occasion without giving?
@@ -2639,9 +2500,7 @@ TYBALT.
 Mercutio, thou consortest with Romeo.
 
 MERCUTIO.
-Consort? What, dost thou make us minstrels? And thou make minstrels of
-us, look to hear nothing but discords. Here’s my fiddlestick, here’s
-that shall make you dance. Zounds, consort!
+Consort? What, dost thou make us minstrels? And thou make minstrels of us, look to hear nothing but discords. Here’s my fiddlestick, here’s that shall make you dance. Zounds, consort!
 
 BENVOLIO.
 We talk here in the public haunt of men.
@@ -2653,7 +2512,7 @@ MERCUTIO.
 Men’s eyes were made to look, and let them gaze.
 I will not budge for no man’s pleasure, I.
 
- Enter Romeo.
+Enter Romeo.
 
 TYBALT.
 Well, peace be with you, sir, here comes my man.
@@ -2693,9 +2552,7 @@ TYBALT.
 What wouldst thou have with me?
 
 MERCUTIO.
-Good King of Cats, nothing but one of your nine lives; that I mean to
-make bold withal, and, as you shall use me hereafter, dry-beat the rest
-of the eight. Will you pluck your sword out of his pilcher by the ears?
+Good King of Cats, nothing but one of your nine lives; that I mean to make bold withal, and, as you shall use me hereafter, dry-beat the rest of the eight. Will you pluck your sword out of his pilcher by the ears?
 Make haste, lest mine be about your ears ere it be out.
 
 TYBALT.
@@ -2707,7 +2564,7 @@ Gentle Mercutio, put thy rapier up.
 MERCUTIO.
 Come, sir, your passado.
 
- [_They fight._]
+[_They fight._]
 
 ROMEO.
 Draw, Benvolio; beat down their weapons.
@@ -2716,7 +2573,7 @@ Tybalt, Mercutio, the Prince expressly hath
 Forbid this bandying in Verona streets.
 Hold, Tybalt! Good Mercutio!
 
- [_Exeunt Tybalt with his Partizans._]
+[_Exeunt Tybalt with his Partizans._]
 
 MERCUTIO.
 I am hurt.
@@ -2730,19 +2587,13 @@ MERCUTIO.
 Ay, ay, a scratch, a scratch. Marry, ’tis enough.
 Where is my page? Go villain, fetch a surgeon.
 
- [_Exit Page._]
+[_Exit Page._]
 
 ROMEO.
 Courage, man; the hurt cannot be much.
 
 MERCUTIO.
-No, ’tis not so deep as a well, nor so wide as a church door, but ’tis
-enough, ’twill serve. Ask for me tomorrow, and you shall find me a
-grave man. I am peppered, I warrant, for this world. A plague o’ both
-your houses. Zounds, a dog, a rat, a mouse, a cat, to scratch a man to
-death. A braggart, a rogue, a villain, that fights by the book of
-arithmetic!—Why the devil came you between us? I was hurt under your
-arm.
+No, ’tis not so deep as a well, nor so wide as a church door, but ’tis enough, ’twill serve. Ask for me tomorrow, and you shall find me a grave man. I am peppered, I warrant, for this world. A plague o’ both your houses. Zounds, a dog, a rat, a mouse, a cat, to scratch a man to death. A braggart, a rogue, a villain, that fights by the book of arithmetic!—Why the devil came you between us? I was hurt under your arm.
 
 ROMEO.
 I thought all for the best.
@@ -2753,7 +2604,7 @@ Or I shall faint. A plague o’ both your houses.
 They have made worms’ meat of me.
 I have it, and soundly too. Your houses!
 
- [_Exeunt Mercutio and Benvolio._]
+[_Exeunt Mercutio and Benvolio._]
 
 ROMEO.
 This gentleman, the Prince’s near ally,
@@ -2764,7 +2615,7 @@ Hath been my cousin. O sweet Juliet,
 Thy beauty hath made me effeminate
 And in my temper soften’d valour’s steel.
 
- Re-enter Benvolio.
+Re-enter Benvolio.
 
 BENVOLIO.
 O Romeo, Romeo, brave Mercutio’s dead,
@@ -2775,7 +2626,7 @@ ROMEO.
 This day’s black fate on mo days doth depend;
 This but begins the woe others must end.
 
- Re-enter Tybalt.
+Re-enter Tybalt.
 
 BENVOLIO.
 Here comes the furious Tybalt back again.
@@ -2797,7 +2648,7 @@ Shalt with him hence.
 ROMEO.
 This shall determine that.
 
- [_They fight; Tybalt falls._]
+[_They fight; Tybalt falls._]
 
 BENVOLIO.
 Romeo, away, be gone!
@@ -2811,9 +2662,9 @@ O, I am fortune’s fool!
 BENVOLIO.
 Why dost thou stay?
 
- [_Exit Romeo._]
+[_Exit Romeo._]
 
- Enter Citizens.
+Enter Citizens.
 
 FIRST CITIZEN.
 Which way ran he that kill’d Mercutio?
@@ -2826,7 +2677,7 @@ FIRST CITIZEN.
 Up, sir, go with me.
 I charge thee in the Prince’s name obey.
 
- Enter Prince, attended; Montague, Capulet, their Wives and others.
+Enter Prince, attended; Montague, Capulet, their Wives and others.
 
 PRINCE.
 Where are the vile beginners of this fray?
@@ -2904,11 +2755,11 @@ Else, when he is found, that hour is his last.
 Bear hence this body, and attend our will.
 Mercy but murders, pardoning those that kill.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE II. A Room in Capulet’s House.
 
- Enter Juliet.
+Enter Juliet.
 
 JULIET.
 Gallop apace, you fiery-footed steeds,
@@ -2945,7 +2796,7 @@ And may not wear them. O, here comes my Nurse,
 And she brings news, and every tongue that speaks
 But Romeo’s name speaks heavenly eloquence.
 
- Enter Nurse, with cords.
+Enter Nurse, with cords.
 
 Now, Nurse, what news? What hast thou there?
 The cords that Romeo bid thee fetch?
@@ -2953,7 +2804,7 @@ The cords that Romeo bid thee fetch?
 NURSE.
 Ay, ay, the cords.
 
- [_Throws them down._]
+[_Throws them down._]
 
 JULIET.
 Ay me, what news? Why dost thou wring thy hands?
@@ -3108,18 +2959,18 @@ JULIET.
 O find him, give this ring to my true knight,
 And bid him come to take his last farewell.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE III. Friar Lawrence’s cell.
 
- Enter Friar Lawrence.
+Enter Friar Lawrence.
 
 FRIAR LAWRENCE.
 Romeo, come forth; come forth, thou fearful man.
 Affliction is enanmour’d of thy parts
 And thou art wedded to calamity.
 
- Enter Romeo.
+Enter Romeo.
 
 ROMEO.
 Father, what news? What is the Prince’s doom?
@@ -3223,7 +3074,7 @@ Then mightst thou speak, then mightst thou tear thy hair,
 And fall upon the ground as I do now,
 Taking the measure of an unmade grave.
 
- [_Knocking within._]
+[_Knocking within._]
 
 FRIAR LAWRENCE.
 Arise; one knocks. Good Romeo, hide thyself.
@@ -3232,18 +3083,18 @@ ROMEO.
 Not I, unless the breath of heartsick groans
 Mist-like infold me from the search of eyes.
 
- [_Knocking._]
+[_Knocking._]
 
 FRIAR LAWRENCE.
 Hark, how they knock!—Who’s there?—Romeo, arise,
 Thou wilt be taken.—Stay awhile.—Stand up.
 
- [_Knocking._]
+[_Knocking._]
 
 Run to my study.—By-and-by.—God’s will,
 What simpleness is this.—I come, I come.
 
- [_Knocking._]
+[_Knocking._]
 
 Who knocks so hard? Whence come you, what’s your will?
 
@@ -3254,7 +3105,7 @@ I come from Lady Juliet.
 FRIAR LAWRENCE.
 Welcome then.
 
- Enter Nurse.
+Enter Nurse.
 
 NURSE.
 O holy Friar, O, tell me, holy Friar,
@@ -3301,7 +3152,7 @@ In what vile part of this anatomy
 Doth my name lodge? Tell me, that I may sack
 The hateful mansion.
 
- [_Drawing his sword._]
+[_Drawing his sword._]
 
 FRIAR LAWRENCE.
 Hold thy desperate hand.
@@ -3368,7 +3219,7 @@ NURSE.
 Here sir, a ring she bid me give you, sir.
 Hie you, make haste, for it grows very late.
 
- [_Exit._]
+[_Exit._]
 
 ROMEO.
 How well my comfort is reviv’d by this.
@@ -3387,11 +3238,11 @@ But that a joy past joy calls out on me,
 It were a grief so brief to part with thee.
 Farewell.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE IV. A Room in Capulet’s House.
 
- Enter Capulet, Lady Capulet and Paris.
+Enter Capulet, Lady Capulet and Paris.
 
 CAPULET.
 Things have fallen out, sir, so unluckily
@@ -3445,11 +3296,11 @@ Farewell, my lord.—Light to my chamber, ho!
 Afore me, it is so very very late that we
 May call it early by and by. Good night.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE V. An open Gallery to Juliet’s Chamber, overlooking the Garden.
 
- Enter Romeo and Juliet.
+Enter Romeo and Juliet.
 
 JULIET.
 Wilt thou be gone? It is not yet near day.
@@ -3499,7 +3350,7 @@ O now be gone, more light and light it grows.
 ROMEO.
 More light and light, more dark and dark our woes.
 
- Enter Nurse.
+Enter Nurse.
 
 NURSE.
 Madam.
@@ -3511,7 +3362,7 @@ NURSE.
 Your lady mother is coming to your chamber.
 The day is broke, be wary, look about.
 
- [_Exit._]
+[_Exit._]
 
 JULIET.
 Then, window, let day in, and let life out.
@@ -3519,7 +3370,7 @@ Then, window, let day in, and let life out.
 ROMEO.
 Farewell, farewell, one kiss, and I’ll descend.
 
- [_Descends._]
+[_Descends._]
 
 JULIET.
 Art thou gone so? Love, lord, ay husband, friend,
@@ -3550,7 +3401,7 @@ ROMEO.
 And trust me, love, in my eye so do you.
 Dry sorrow drinks our blood. Adieu, adieu.
 
- [_Exit below._]
+[_Exit below._]
 
 JULIET.
 O Fortune, Fortune! All men call thee fickle,
@@ -3567,7 +3418,7 @@ Who is’t that calls? Is it my lady mother?
 Is she not down so late, or up so early?
 What unaccustom’d cause procures her hither?
 
- Enter Lady Capulet.
+Enter Lady Capulet.
 
 LADY CAPULET.
 Why, how now, Juliet?
@@ -3672,7 +3523,7 @@ LADY CAPULET.
 Here comes your father, tell him so yourself,
 And see how he will take it at your hands.
 
- Enter Capulet and Nurse.
+Enter Capulet and Nurse.
 
 CAPULET.
 When the sun sets, the air doth drizzle dew;
@@ -3782,7 +3633,7 @@ For by my soul, I’ll ne’er acknowledge thee,
 Nor what is mine shall never do thee good.
 Trust to’t, bethink you, I’ll not be forsworn.
 
- [_Exit._]
+[_Exit._]
 
 JULIET.
 Is there no pity sitting in the clouds,
@@ -3796,7 +3647,7 @@ LADY CAPULET.
 Talk not to me, for I’ll not speak a word.
 Do as thou wilt, for I have done with thee.
 
- [_Exit._]
+[_Exit._]
 
 JULIET.
 O God! O Nurse, how shall this be prevented?
@@ -3847,7 +3698,7 @@ To make confession and to be absolv’d.
 NURSE.
 Marry, I will; and this is wisely done.
 
- [_Exit._]
+[_Exit._]
 
 JULIET.
 Ancient damnation! O most wicked fiend!
@@ -3859,17 +3710,13 @@ Thou and my bosom henceforth shall be twain.
 I’ll to the Friar to know his remedy.
 If all else fail, myself have power to die.
 
- [_Exit._]
-
-
-
+[_Exit._]
 
 ACT IV
 
 SCENE I. Friar Lawrence’s Cell.
 
-
- Enter Friar Lawrence and Paris.
+Enter Friar Lawrence and Paris.
 
 FRIAR LAWRENCE.
 On Thursday, sir? The time is very short.
@@ -3898,7 +3745,7 @@ FRIAR LAWRENCE.
 [_Aside._] I would I knew not why it should be slow’d.—
 Look, sir, here comes the lady toward my cell.
 
- Enter Juliet.
+Enter Juliet.
 
 PARIS.
 Happily met, my lady and my wife!
@@ -3965,7 +3812,7 @@ God shield I should disturb devotion!—
 Juliet, on Thursday early will I rouse ye,
 Till then, adieu; and keep this holy kiss.
 
- [_Exit._]
+[_Exit._]
 
 JULIET.
 O shut the door, and when thou hast done so,
@@ -4068,34 +3915,32 @@ JULIET.
 Love give me strength, and strength shall help afford.
 Farewell, dear father.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE II. Hall in Capulet’s House.
 
- Enter Capulet, Lady Capulet, Nurse and Servants.
+Enter Capulet, Lady Capulet, Nurse and Servants.
 
 CAPULET.
 So many guests invite as here are writ.
 
- [_Exit first Servant._]
+[_Exit first Servant._]
 
 Sirrah, go hire me twenty cunning cooks.
 
 SECOND SERVANT.
-You shall have none ill, sir; for I’ll try if they can lick their
-fingers.
+You shall have none ill, sir; for I’ll try if they can lick their fingers.
 
 CAPULET.
 How canst thou try them so?
 
 SECOND SERVANT.
-Marry, sir, ’tis an ill cook that cannot lick his own fingers;
-therefore he that cannot lick his fingers goes not with me.
+Marry, sir, ’tis an ill cook that cannot lick his own fingers; therefore he that cannot lick his fingers goes not with me.
 
 CAPULET.
 Go, begone.
 
- [_Exit second Servant._]
+[_Exit second Servant._]
 
 We shall be much unfurnish’d for this time.
 What, is my daughter gone to Friar Lawrence?
@@ -4107,7 +3952,7 @@ CAPULET.
 Well, he may chance to do some good on her.
 A peevish self-will’d harlotry it is.
 
- Enter Juliet.
+Enter Juliet.
 
 NURSE.
 See where she comes from shrift with merry look.
@@ -4150,7 +3995,7 @@ No, not till Thursday. There is time enough.
 CAPULET.
 Go, Nurse, go with her. We’ll to church tomorrow.
 
- [_Exeunt Juliet and Nurse._]
+[_Exeunt Juliet and Nurse._]
 
 LADY CAPULET.
 We shall be short in our provision,
@@ -4167,11 +4012,11 @@ To County Paris, to prepare him up
 Against tomorrow. My heart is wondrous light
 Since this same wayward girl is so reclaim’d.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE III. Juliet’s Chamber.
 
- Enter Juliet and Nurse.
+Enter Juliet and Nurse.
 
 JULIET.
 Ay, those attires are best. But, gentle Nurse,
@@ -4180,7 +4025,7 @@ For I have need of many orisons
 To move the heavens to smile upon my state,
 Which, well thou know’st, is cross and full of sin.
 
- Enter Lady Capulet.
+Enter Lady Capulet.
 
 LADY CAPULET.
 What, are you busy, ho? Need you my help?
@@ -4197,7 +4042,7 @@ LADY CAPULET.
 Good night.
 Get thee to bed and rest, for thou hast need.
 
- [_Exeunt Lady Capulet and Nurse._]
+[_Exeunt Lady Capulet and Nurse._]
 
 JULIET.
 Farewell. God knows when we shall meet again.
@@ -4211,7 +4056,7 @@ What if this mixture do not work at all?
 Shall I be married then tomorrow morning?
 No, No! This shall forbid it. Lie thou there.
 
- [_Laying down her dagger._]
+[_Laying down her dagger._]
 
 What if it be a poison, which the Friar
 Subtly hath minister’d to have me dead,
@@ -4249,11 +4094,11 @@ Seeking out Romeo that did spit his body
 Upon a rapier’s point. Stay, Tybalt, stay!
 Romeo, Romeo, Romeo, here’s drink! I drink to thee.
 
- [_Throws herself on the bed._]
+[_Throws herself on the bed._]
 
 SCENE IV. Hall in Capulet’s House.
 
- Enter Lady Capulet and Nurse.
+Enter Lady Capulet and Nurse.
 
 LADY CAPULET.
 Hold, take these keys and fetch more spices, Nurse.
@@ -4261,7 +4106,7 @@ Hold, take these keys and fetch more spices, Nurse.
 NURSE.
 They call for dates and quinces in the pastry.
 
- Enter Capulet.
+Enter Capulet.
 
 CAPULET.
 Come, stir, stir, stir! The second cock hath crow’d,
@@ -4282,12 +4127,12 @@ LADY CAPULET.
 Ay, you have been a mouse-hunt in your time;
 But I will watch you from such watching now.
 
- [_Exeunt Lady Capulet and Nurse._]
+[_Exeunt Lady Capulet and Nurse._]
 
 CAPULET.
 A jealous-hood, a jealous-hood!
 
- Enter Servants, with spits, logs and baskets.
+Enter Servants, with spits, logs and baskets.
 
 Now, fellow, what’s there?
 
@@ -4297,7 +4142,7 @@ Things for the cook, sir; but I know not what.
 CAPULET.
 Make haste, make haste.
 
- [_Exit First Servant._]
+[_Exit First Servant._]
 
 —Sirrah, fetch drier logs.
 Call Peter, he will show thee where they are.
@@ -4306,7 +4151,7 @@ SECOND SERVANT.
 I have a head, sir, that will find out logs
 And never trouble Peter for the matter.
 
- [_Exit._]
+[_Exit._]
 
 CAPULET.
 Mass and well said; a merry whoreson, ha.
@@ -4314,22 +4159,22 @@ Thou shalt be loggerhead.—Good faith, ’tis day.
 The County will be here with music straight,
 For so he said he would. I hear him near.
 
- [_Play music._]
+[_Play music._]
 
 Nurse! Wife! What, ho! What, Nurse, I say!
 
- Re-enter Nurse.
+Re-enter Nurse.
 
 Go waken Juliet, go and trim her up.
 I’ll go and chat with Paris. Hie, make haste,
 Make haste; the bridegroom he is come already.
 Make haste I say.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE V. Juliet’s Chamber; Juliet on the bed.
 
- Enter Nurse.
+Enter Nurse.
 
 NURSE.
 Mistress! What, mistress! Juliet! Fast, I warrant her, she.
@@ -4349,7 +4194,7 @@ Alas, alas! Help, help! My lady’s dead!
 O, well-a-day that ever I was born.
 Some aqua vitae, ho! My lord! My lady!
 
- Enter Lady Capulet.
+Enter Lady Capulet.
 
 LADY CAPULET.
 What noise is here?
@@ -4368,7 +4213,7 @@ O me, O me! My child, my only life.
 Revive, look up, or I will die with thee.
 Help, help! Call help.
 
- Enter Capulet.
+Enter Capulet.
 
 CAPULET.
 For shame, bring Juliet forth, her lord is come.
@@ -4396,7 +4241,7 @@ CAPULET.
 Death, that hath ta’en her hence to make me wail,
 Ties up my tongue and will not let me speak.
 
- Enter Friar Lawrence and Paris with Musicians.
+Enter Friar Lawrence and Paris with Musicians.
 
 FRIAR LAWRENCE.
 Come, is the bride ready to go to church?
@@ -4481,7 +4326,7 @@ To follow this fair corse unto her grave.
 The heavens do lower upon you for some ill;
 Move them no more by crossing their high will.
 
- [_Exeunt Capulet, Lady Capulet, Paris and Friar._]
+[_Exeunt Capulet, Lady Capulet, Paris and Friar._]
 
 FIRST MUSICIAN.
 Faith, we may put up our pipes and be gone.
@@ -4493,20 +4338,18 @@ For well you know this is a pitiful case.
 FIRST MUSICIAN.
 Ay, by my troth, the case may be amended.
 
- [_Exit Nurse._]
+[_Exit Nurse._]
 
- Enter Peter.
+Enter Peter.
 
 PETER.
-Musicians, O, musicians, ‘Heart’s ease,’ ‘Heart’s ease’, O, and you
-will have me live, play ‘Heart’s ease.’
+Musicians, O, musicians, ‘Heart’s ease,’ ‘Heart’s ease’, O, and you will have me live, play ‘Heart’s ease.’
 
 FIRST MUSICIAN.
 Why ‘Heart’s ease’?
 
 PETER.
-O musicians, because my heart itself plays ‘My heart is full’. O play
-me some merry dump to comfort me.
+O musicians, because my heart itself plays ‘My heart is full’. O play me some merry dump to comfort me.
 
 FIRST MUSICIAN.
 Not a dump we, ’tis no time to play now.
@@ -4530,8 +4373,7 @@ FIRST MUSICIAN.
 Then will I give you the serving-creature.
 
 PETER.
-Then will I lay the serving-creature’s dagger on your pate. I will
-carry no crotchets. I’ll re you, I’ll fa you. Do you note me?
+Then will I lay the serving-creature’s dagger on your pate. I will carry no crotchets. I’ll re you, I’ll fa you. Do you note me?
 
 FIRST MUSICIAN.
 And you re us and fa us, you note us.
@@ -4540,11 +4382,10 @@ SECOND MUSICIAN.
 Pray you put up your dagger, and put out your wit.
 
 PETER.
-Then have at you with my wit. I will dry-beat you with an iron wit, and
-put up my iron dagger. Answer me like men.
-    ‘When griping griefs the heart doth wound,
-      And doleful dumps the mind oppress,
-    Then music with her silver sound’—
+Then have at you with my wit. I will dry-beat you with an iron wit, and put up my iron dagger. Answer me like men.
+‘When griping griefs the heart doth wound,
+And doleful dumps the mind oppress,
+Then music with her silver sound’—
 Why ‘silver sound’? Why ‘music with her silver sound’? What say you,
 Simon Catling?
 
@@ -4565,31 +4406,25 @@ Faith, I know not what to say.
 
 PETER.
 O, I cry you mercy, you are the singer. I will say for you. It is
-‘music with her silver sound’ because musicians have no gold for
-sounding.
-      ‘Then music with her silver sound
-      With speedy help doth lend redress.’
+‘music with her silver sound’ because musicians have no gold for sounding.
+‘Then music with her silver sound
+With speedy help doth lend redress.’
 
- [_Exit._]
+[_Exit._]
 
 FIRST MUSICIAN.
 What a pestilent knave is this same!
 
 SECOND MUSICIAN.
-Hang him, Jack. Come, we’ll in here, tarry for the mourners, and stay
-dinner.
+Hang him, Jack. Come, we’ll in here, tarry for the mourners, and stay dinner.
 
- [_Exeunt._]
-
-
-
+[_Exeunt._]
 
 ACT V
 
 SCENE I. Mantua. A Street.
 
-
- Enter Romeo.
+Enter Romeo.
 
 ROMEO.
 If I may trust the flattering eye of sleep,
@@ -4604,7 +4439,7 @@ That I reviv’d, and was an emperor.
 Ah me, how sweet is love itself possess’d,
 When but love’s shadows are so rich in joy.
 
- Enter Balthasar.
+Enter Balthasar.
 
 News from Verona! How now, Balthasar?
 Dost thou not bring me letters from the Friar?
@@ -4643,7 +4478,7 @@ ROMEO.
 No matter. Get thee gone,
 And hire those horses. I’ll be with thee straight.
 
- [_Exit Balthasar._]
+[_Exit Balthasar._]
 
 Well, Juliet, I will lie with thee tonight.
 Let’s see for means. O mischief thou art swift
@@ -4670,7 +4505,7 @@ As I remember, this should be the house.
 Being holiday, the beggar’s shop is shut.
 What, ho! Apothecary!
 
- Enter Apothecary.
+Enter Apothecary.
 
 APOTHECARY.
 Who calls so loud?
@@ -4718,16 +4553,16 @@ Farewell, buy food, and get thyself in flesh.
 Come, cordial and not poison, go with me
 To Juliet’s grave, for there must I use thee.
 
- [_Exeunt._]
+[_Exeunt._]
 
 SCENE II. Friar Lawrence’s Cell.
 
- Enter Friar John.
+Enter Friar John.
 
 FRIAR JOHN.
 Holy Franciscan Friar! Brother, ho!
 
- Enter Friar Lawrence.
+Enter Friar Lawrence.
 
 FRIAR LAWRENCE.
 This same should be the voice of Friar John.
@@ -4763,7 +4598,7 @@ Unto my cell.
 FRIAR JOHN.
 Brother, I’ll go and bring it thee.
 
- [_Exit._]
+[_Exit._]
 
 FRIAR LAWRENCE.
 Now must I to the monument alone.
@@ -4774,11 +4609,11 @@ But I will write again to Mantua,
 And keep her at my cell till Romeo come.
 Poor living corse, clos’d in a dead man’s tomb.
 
- [_Exit._]
+[_Exit._]
 
 SCENE III. A churchyard; in it a Monument belonging to the Capulets.
 
- Enter Paris, and his Page bearing flowers and a torch.
+Enter Paris, and his Page bearing flowers and a torch.
 
 PARIS.
 Give me thy torch, boy. Hence and stand aloof.
@@ -4795,7 +4630,7 @@ PAGE.
 [_Aside._] I am almost afraid to stand alone
 Here in the churchyard; yet I will adventure.
 
- [_Retires._]
+[_Retires._]
 
 PARIS.
 Sweet flower, with flowers thy bridal bed I strew.
@@ -4805,16 +4640,16 @@ Or wanting that, with tears distill’d by moans.
 The obsequies that I for thee will keep,
 Nightly shall be to strew thy grave and weep.
 
- [_The Page whistles._]
+[_The Page whistles._]
 
 The boy gives warning something doth approach.
 What cursed foot wanders this way tonight,
 To cross my obsequies and true love’s rite?
 What, with a torch! Muffle me, night, awhile.
 
- [_Retires._]
+[_Retires._]
 
- Enter Romeo and Balthasar with a torch, mattock, &c.
+Enter Romeo and Balthasar with a torch, mattock, &c.
 
 ROMEO.
 Give me that mattock and the wrenching iron.
@@ -4847,14 +4682,14 @@ BALTHASAR.
 For all this same, I’ll hide me hereabout.
 His looks I fear, and his intents I doubt.
 
- [_Retires_]
+[_Retires_]
 
 ROMEO.
 Thou detestable maw, thou womb of death,
 Gorg’d with the dearest morsel of the earth,
 Thus I enforce thy rotten jaws to open,
 
- [_Breaking open the door of the monument._]
+[_Breaking open the door of the monument._]
 
 And in despite, I’ll cram thee with more food.
 
@@ -4865,7 +4700,7 @@ It is supposed, the fair creature died,—
 And here is come to do some villainous shame
 To the dead bodies. I will apprehend him.
 
- [_Advances._]
+[_Advances._]
 
 Stop thy unhallow’d toil, vile Montague.
 Can vengeance be pursu’d further than death?
@@ -4891,18 +4726,18 @@ And apprehend thee for a felon here.
 ROMEO.
 Wilt thou provoke me? Then have at thee, boy!
 
- [_They fight._]
+[_They fight._]
 
 PAGE.
 O lord, they fight! I will go call the watch.
 
- [_Exit._]
+[_Exit._]
 
 PARIS.
 O, I am slain! [_Falls._] If thou be merciful,
 Open the tomb, lay me with Juliet.
 
- [_Dies._]
+[_Dies._]
 
 ROMEO.
 In faith, I will. Let me peruse this face.
@@ -4920,7 +4755,7 @@ For here lies Juliet, and her beauty makes
 This vault a feasting presence full of light.
 Death, lie thou there, by a dead man interr’d.
 
- [_Laying Paris in the monument._]
+[_Laying Paris in the monument._]
 
 How oft when men are at the point of death
 Have they been merry! Which their keepers call
@@ -4956,10 +4791,9 @@ The dashing rocks thy sea-sick weary bark.
 Here’s to my love! [_Drinks._] O true apothecary!
 Thy drugs are quick. Thus with a kiss I die.
 
- [_Dies._]
+[_Dies._]
 
- Enter, at the other end of the Churchyard, Friar Lawrence, with a
- lantern, crow, and spade.
+Enter, at the other end of the Churchyard, Friar Lawrence, with a lantern, crow, and spade.
 
 FRIAR LAWRENCE.
 Saint Francis be my speed. How oft tonight
@@ -5016,21 +4850,21 @@ The stony entrance of this sepulchre?
 What mean these masterless and gory swords
 To lie discolour’d by this place of peace?
 
- [_Enters the monument._]
+[_Enters the monument._]
 
 Romeo! O, pale! Who else? What, Paris too?
 And steep’d in blood? Ah what an unkind hour
 Is guilty of this lamentable chance?
 The lady stirs.
 
- [_Juliet wakes and stirs._]
+[_Juliet wakes and stirs._]
 
 JULIET.
 O comfortable Friar, where is my lord?
 I do remember well where I should be,
 And there I am. Where is my Romeo?
 
- [_Noise within._]
+[_Noise within._]
 
 FRIAR LAWRENCE.
 I hear some noise. Lady, come from that nest
@@ -5046,7 +4880,7 @@ Come, go, good Juliet. I dare no longer stay.
 JULIET.
 Go, get thee hence, for I will not away.
 
- [_Exit Friar Lawrence._]
+[_Exit Friar Lawrence._]
 
 What’s here? A cup clos’d in my true love’s hand?
 Poison, I see, hath been his timeless end.
@@ -5055,7 +4889,7 @@ To help me after? I will kiss thy lips.
 Haply some poison yet doth hang on them,
 To make me die with a restorative.
 
- [_Kisses him._]
+[_Kisses him._]
 
 Thy lips are warm!
 
@@ -5065,13 +4899,13 @@ FIRST WATCH.
 JULIET.
 Yea, noise? Then I’ll be brief. O happy dagger.
 
- [_Snatching Romeo’s dagger._]
+[_Snatching Romeo’s dagger._]
 
 This is thy sheath. [_stabs herself_] There rest, and let me die.
 
- [_Falls on Romeo’s body and dies._]
+[_Falls on Romeo’s body and dies._]
 
- Enter Watch with the Page of Paris.
+Enter Watch with the Page of Paris.
 
 PAGE.
 This is the place. There, where the torch doth burn.
@@ -5080,7 +4914,7 @@ FIRST WATCH.
 The ground is bloody. Search about the churchyard.
 Go, some of you, whoe’er you find attach.
 
- [_Exeunt some of the Watch._]
+[_Exeunt some of the Watch._]
 
 Pitiful sight! Here lies the County slain,
 And Juliet bleeding, warm, and newly dead,
@@ -5088,13 +4922,13 @@ Who here hath lain this two days buried.
 Go tell the Prince; run to the Capulets.
 Raise up the Montagues, some others search.
 
- [_Exeunt others of the Watch._]
+[_Exeunt others of the Watch._]
 
 We see the ground whereon these woes do lie,
 But the true ground of all these piteous woes
 We cannot without circumstance descry.
 
- Re-enter some of the Watch with Balthasar.
+Re-enter some of the Watch with Balthasar.
 
 SECOND WATCH.
 Here’s Romeo’s man. We found him in the churchyard.
@@ -5102,7 +4936,7 @@ Here’s Romeo’s man. We found him in the churchyard.
 FIRST WATCH.
 Hold him in safety till the Prince come hither.
 
- Re-enter others of the Watch with Friar Lawrence.
+Re-enter others of the Watch with Friar Lawrence.
 
 THIRD WATCH. Here is a Friar that trembles, sighs, and weeps.
 We took this mattock and this spade from him
@@ -5111,13 +4945,13 @@ As he was coming from this churchyard side.
 FIRST WATCH.
 A great suspicion. Stay the Friar too.
 
- Enter the Prince and Attendants.
+Enter the Prince and Attendants.
 
 PRINCE.
 What misadventure is so early up,
 That calls our person from our morning’s rest?
 
- Enter Capulet, Lady Capulet and others.
+Enter Capulet, Lady Capulet and others.
 
 CAPULET.
 What should it be that they so shriek abroad?
@@ -5153,7 +4987,7 @@ LADY CAPULET.
 O me! This sight of death is as a bell
 That warns my old age to a sepulchre.
 
- Enter Montague and others.
+Enter Montague and others.
 
 PRINCE.
 Come, Montague, for thou art early up,
@@ -5293,38 +5127,16 @@ Some shall be pardon’d, and some punished,
 For never was a story of more woe
 Than this of Juliet and her Romeo.
 
- [_Exeunt._]
-
-
-
+[_Exeunt._]
 
 *** END OF THE PROJECT GUTENBERG EBOOK ROMEO AND JULIET ***
 
+Updated editions will replace the previous one—the old editions will be renamed.
 
-    
-
-Updated editions will replace the previous one—the old editions will
-be renamed.
-
-Creating the works from print editions not protected by U.S. copyright
-law means that no one owns a United States copyright in these works,
-so the Foundation (and you!) can copy and distribute it in the United
-States without permission and without paying copyright
-royalties. Special rules, set forth in the General Terms of Use part
-of this license, apply to copying and distributing Project
-Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
-concept and trademark. Project Gutenberg is a registered trademark,
-and may not be used if you charge for an eBook, except by following
-the terms of the trademark license, including paying royalties for use
-of the Project Gutenberg trademark. If you do not charge anything for
-copies of this eBook, complying with the trademark license is very
-easy. You may use this eBook for nearly any purpose such as creation
-of derivative works, reports, performances and research. Project
-Gutenberg eBooks may be modified and printed and given away—you may
-do practically ANYTHING in the United States with eBooks not protected
-by U.S. copyright law. Redistribution is subject to the trademark
-license, especially commercial redistribution.
-
+Creating the works from print editions not protected by U.S. copyright law means that no one owns a United States copyright in these works, so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright royalties. Special rules, set forth in the General Terms of Use part of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™ concept and trademark. Project Gutenberg is a registered trademark, and may not be used if you charge for an eBook, except by following the terms of the trademark license, including paying royalties for use of the Project Gutenberg trademark. If you do not charge anything for copies of this eBook, complying with the trademark license is very easy. You may use this eBook for nearly any purpose such as creation of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may do practically ANYTHING in the United States with eBooks not protected by U.S. copyright law. Redistribution is subject to the trademark license, especially commercial redistribution.
 
 START: FULL LICENSE
 
@@ -5332,187 +5144,78 @@ THE FULL PROJECT GUTENBERG™ LICENSE
 
 PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
 
-To protect the Project Gutenberg™ mission of promoting the free
-distribution of electronic works, by using or distributing this work
+To protect the Project Gutenberg™ mission of promoting the free distribution of electronic works, by using or distributing this work
 (or any other work associated in any way with the phrase “Project
 Gutenberg”), you agree to comply with all the terms of the Full
-Project Gutenberg License available with this file or online at
-www.gutenberg.org/license.
+Project Gutenberg License available with this file or online at www.gutenberg.org/license.
 
-Section 1. General Terms of Use and Redistributing Project Gutenberg
-electronic works
+Section 1. General Terms of Use and Redistributing Project Gutenberg electronic works
 
-1.A. By reading or using any part of this Project Gutenberg
-electronic work, you indicate that you have read, understand, agree to
-and accept all the terms of this license and intellectual property
-(trademark/copyright) agreement. If you do not agree to abide by all
-the terms of this agreement, you must cease using and return or
-destroy all copies of Project Gutenberg electronic works in your
-possession. If you paid a fee for obtaining a copy of or access to a
-Project Gutenberg electronic work and you do not agree to be bound
-by the terms of this agreement, you may obtain a refund from the person
-or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+1.A. By reading or using any part of this Project Gutenberg electronic work, you indicate that you have read, understand, agree to and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all the terms of this agreement, you must cease using and return or destroy all copies of Project Gutenberg electronic works in your possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg electronic work and you do not agree to be bound by the terms of this agreement, you may obtain a refund from the person or entity to whom you paid the fee as set forth in paragraph 1.E.8.
 
-1.B. “Project Gutenberg” is a registered trademark. It may only be
-used on or associated in any way with an electronic work by people who
-agree to be bound by the terms of this agreement. There are a few
-things that you can do with most Project Gutenberg electronic works
-even without complying with the full terms of this agreement. See
-paragraph 1.C below. There are a lot of things you can do with Project
-Gutenberg electronic works if you follow the terms of this
-agreement and help preserve free future access to Project Gutenberg
-electronic works. See paragraph 1.E below.
+1.B. “Project Gutenberg” is a registered trademark. It may only be used on or associated in any way with an electronic work by people who agree to be bound by the terms of this agreement. There are a few things that you can do with most Project Gutenberg electronic works even without complying with the full terms of this agreement. See paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg electronic works if you follow the terms of this agreement and help preserve free future access to Project Gutenberg electronic works. See paragraph 1.E below.
 
 1.C. The Project Gutenberg Literary Archive Foundation (“the
-Foundation” or PGLAF), owns a compilation copyright in the collection
-of Project Gutenberg electronic works. Nearly all the individual
-works in the collection are in the public domain in the United
+Foundation” or PGLAF), owns a compilation copyright in the collection of Project Gutenberg electronic works. Nearly all the individual works in the collection are in the public domain in the United
 States. If an individual work is unprotected by copyright law in the
-United States and you are located in the United States, we do not
-claim a right to prevent you from copying, distributing, performing,
-displaying or creating derivative works based on the work as long as
-all references to Project Gutenberg are removed. Of course, we hope
-that you will support the Project Gutenberg mission of promoting
-free access to electronic works by freely sharing Project Gutenberg
-works in compliance with the terms of this agreement for keeping the
-Project Gutenberg name associated with the work. You can easily
-comply with the terms of this agreement by keeping this work in the
-same format with its attached full Project Gutenberg License when
-you share it without charge with others.
+United States and you are located in the United States, we do not claim a right to prevent you from copying, distributing, performing, displaying or creating derivative works based on the work as long as all references to Project Gutenberg are removed. Of course, we hope that you will support the Project Gutenberg mission of promoting free access to electronic works by freely sharing Project Gutenberg works in compliance with the terms of this agreement for keeping the
+Project Gutenberg name associated with the work. You can easily comply with the terms of this agreement by keeping this work in the same format with its attached full Project Gutenberg License when you share it without charge with others.
 
-1.D. The copyright laws of the place where you are located also govern
-what you can do with this work. Copyright laws in most countries are
-in a constant state of change. If you are outside the United States,
-check the laws of your country in addition to the terms of this
-agreement before downloading, copying, displaying, performing,
-distributing or creating derivative works based on this work or any
-other Project Gutenberg work. The Foundation makes no
-representations concerning the copyright status of any work in any
-country other than the United States.
+1.D. The copyright laws of the place where you are located also govern what you can do with this work. Copyright laws in most countries are in a constant state of change. If you are outside the United States, check the laws of your country in addition to the terms of this agreement before downloading, copying, displaying, performing, distributing or creating derivative works based on this work or any other Project Gutenberg work. The Foundation makes no representations concerning the copyright status of any work in any country other than the United States.
 
 1.E. Unless you have removed all references to Project Gutenberg:
 
-1.E.1. The following sentence, with active links to, or other
-immediate access to, the full Project Gutenberg License must appear
-prominently whenever any copy of a Project Gutenberg work (any work
-on which the phrase “Project Gutenberg” appears, or with which the
-phrase “Project Gutenberg” is associated) is accessed, displayed,
-performed, viewed, copied or distributed:
+1.E.1. The following sentence, with active links to, or other immediate access to, the full Project Gutenberg License must appear prominently whenever any copy of a Project Gutenberg work (any work on which the phrase “Project Gutenberg” appears, or with which the phrase “Project Gutenberg” is associated) is accessed, displayed, performed, viewed, copied or distributed:
 
-    This eBook is for the use of anyone anywhere in the United States and most
-    other parts of the world at no cost and with almost no restrictions
-    whatsoever. You may copy it, give it away or re-use it under the terms
-    of the Project Gutenberg™ License included with this eBook or online
-    at www.gutenberg.org. If you
-    are not located in the United States, you will have to check the laws
-    of the country where you are located before using this eBook.
-  
-1.E.2. If an individual Project Gutenberg electronic work is
-derived from texts not protected by U.S. copyright law (does not
-contain a notice indicating that it is posted with permission of the
-copyright holder), the work can be copied and distributed to anyone in
-the United States without paying any fees or charges. If you are
-redistributing or providing access to a work with the phrase “Project
-Gutenberg” associated with or appearing on the work, you must comply
-either with the requirements of paragraphs 1.E.1 through 1.E.7 or
-obtain permission for the use of the work and the Project Gutenberg
-trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg™ License included with this eBook or online at www.gutenberg.org. If you are not located in the United States, you will have to check the laws of the country where you are located before using this eBook.
 
-1.E.3. If an individual Project Gutenberg electronic work is posted
-with the permission of the copyright holder, your use and distribution
-must comply with both paragraphs 1.E.1 through 1.E.7 and any
-additional terms imposed by the copyright holder. Additional terms
-will be linked to the Project Gutenberg License for all works
-posted with the permission of the copyright holder found at the
-beginning of this work.
+1.E.2. If an individual Project Gutenberg electronic work is derived from texts not protected by U.S. copyright law (does not contain a notice indicating that it is posted with permission of the copyright holder), the work can be copied and distributed to anyone in the United States without paying any fees or charges. If you are redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply either with the requirements of paragraphs 1.E.1 through 1.E.7 or obtain permission for the use of the work and the Project Gutenberg trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg electronic work is posted with the permission of the copyright holder, your use and distribution must comply with both paragraphs 1.E.1 through 1.E.7 and any additional terms imposed by the copyright holder. Additional terms will be linked to the Project Gutenberg License for all works posted with the permission of the copyright holder found at the beginning of this work.
 
 1.E.4. Do not unlink or detach or remove the full Project Gutenberg
-License terms from this work, or any files containing a part of this
-work or any other work associated with Project Gutenberg.
+License terms from this work, or any files containing a part of this work or any other work associated with Project Gutenberg.
 
-1.E.5. Do not copy, display, perform, distribute or redistribute this
-electronic work, or any part of this electronic work, without
-prominently displaying the sentence set forth in paragraph 1.E.1 with
-active links or immediate access to the full terms of the Project
+1.E.5. Do not copy, display, perform, distribute or redistribute this electronic work, or any part of this electronic work, without prominently displaying the sentence set forth in paragraph 1.E.1 with active links or immediate access to the full terms of the Project
 Gutenberg License.
 
-1.E.6. You may convert to and distribute this work in any binary,
-compressed, marked up, nonproprietary or proprietary form, including
-any word processing or hypertext form. However, if you provide access
-to or distribute copies of a Project Gutenberg work in a format
-other than “Plain Vanilla ASCII” or other format used in the official
-version posted on the official Project Gutenberg website
-(www.gutenberg.org), you must, at no additional cost, fee or expense
-to the user, provide a copy, a means of exporting a copy, or a means
-of obtaining a copy upon request, of the work in its original “Plain
-Vanilla ASCII” or other form. Any alternate format must include the
-full Project Gutenberg License as specified in paragraph 1.E.1.
+1.E.6. You may convert to and distribute this work in any binary, compressed, marked up, nonproprietary or proprietary form, including any word processing or hypertext form. However, if you provide access to or distribute copies of a Project Gutenberg work in a format other than “Plain Vanilla ASCII” or other format used in the official version posted on the official Project Gutenberg website
+(www.gutenberg.org), you must, at no additional cost, fee or expense to the user, provide a copy, a means of exporting a copy, or a means of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the full Project Gutenberg License as specified in paragraph 1.E.1.
 
-1.E.7. Do not charge a fee for access to, viewing, displaying,
-performing, copying or distributing any Project Gutenberg works
-unless you comply with paragraph 1.E.8 or 1.E.9.
+1.E.7. Do not charge a fee for access to, viewing, displaying, performing, copying or distributing any Project Gutenberg works unless you comply with paragraph 1.E.8 or 1.E.9.
 
-1.E.8. You may charge a reasonable fee for copies of or providing
-access to or distributing Project Gutenberg electronic works
-provided that:
+1.E.8. You may charge a reasonable fee for copies of or providing access to or distributing Project Gutenberg electronic works provided that:
 
-    • You pay a royalty fee of 20% of the gross profits you derive from
-        the use of Project Gutenberg works calculated using the method
-        you already use to calculate your applicable taxes. The fee is owed
-        to the owner of the Project Gutenberg trademark, but he has
-        agreed to donate royalties under this paragraph to the Project
-        Gutenberg Literary Archive Foundation. Royalty payments must be paid
-        within 60 days following each date on which you prepare (or are
-        legally required to prepare) your periodic tax returns. Royalty
-        payments should be clearly marked as such and sent to the Project
-        Gutenberg Literary Archive Foundation at the address specified in
-        Section 4, “Information about donations to the Project Gutenberg
-        Literary Archive Foundation.”
-    
-    • You provide a full refund of any money paid by a user who notifies
-        you in writing (or by e-mail) within 30 days of receipt that s/he
-        does not agree to the terms of the full Project Gutenberg™
-        License. You must require such a user to return or destroy all
-        copies of the works possessed in a physical medium and discontinue
-        all use of and all access to other copies of Project Gutenberg™
-        works.
-    
-    • You provide, in accordance with paragraph 1.F.3, a full refund of
-        any money paid for a work or a replacement copy, if a defect in the
-        electronic work is discovered and reported to you within 90 days of
-        receipt of the work.
-    
-    • You comply with all other terms of this agreement for free
-        distribution of Project Gutenberg™ works.
-    
+• You pay a royalty fee of 20% of the gross profits you derive from the use of Project Gutenberg works calculated using the method you already use to calculate your applicable taxes. The fee is owed to the owner of the Project Gutenberg trademark, but he has agreed to donate royalties under this paragraph to the Project
+Gutenberg Literary Archive Foundation. Royalty payments must be paid within 60 days following each date on which you prepare (or are legally required to prepare) your periodic tax returns. Royalty payments should be clearly marked as such and sent to the Project
+Gutenberg Literary Archive Foundation at the address specified in
+Section 4, “Information about donations to the Project Gutenberg
+Literary Archive Foundation.”
+
+• You provide a full refund of any money paid by a user who notifies you in writing (or by e-mail) within 30 days of receipt that s/he does not agree to the terms of the full Project Gutenberg™
+License. You must require such a user to return or destroy all copies of the works possessed in a physical medium and discontinue all use of and all access to other copies of Project Gutenberg™ works.
+
+• You provide, in accordance with paragraph 1.F.3, a full refund of any money paid for a work or a replacement copy, if a defect in the electronic work is discovered and reported to you within 90 days of receipt of the work.
+
+• You comply with all other terms of this agreement for free distribution of Project Gutenberg™ works.
 
 1.E.9. If you wish to charge a fee or distribute a Project
-Gutenberg™ electronic work or group of works on different terms than
-are set forth in this agreement, you must obtain permission in writing
-from the Project Gutenberg Literary Archive Foundation, the manager of
-the Project Gutenberg™ trademark. Contact the Foundation as set
-forth in Section 3 below.
+Gutenberg™ electronic work or group of works on different terms than are set forth in this agreement, you must obtain permission in writing from the Project Gutenberg Literary Archive Foundation, the manager of the Project Gutenberg™ trademark. Contact the Foundation as set forth in Section 3 below.
 
 1.F.
 
-1.F.1. Project Gutenberg volunteers and employees expend considerable
-effort to identify, do copyright research on, transcribe and proofread
-works not protected by U.S. copyright law in creating the Project
-Gutenberg™ collection. Despite these efforts, Project Gutenberg™
-electronic works, and the medium on which they may be stored, may
-contain “Defects,” such as, but not limited to, incomplete, inaccurate
-or corrupt data, transcription errors, a copyright or other
-intellectual property infringement, a defective or damaged disk or
-other medium, a computer virus, or computer codes that damage or
-cannot be read by your equipment.
+1.F.1. Project Gutenberg volunteers and employees expend considerable effort to identify, do copyright research on, transcribe and proofread works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™ electronic works, and the medium on which they may be stored, may contain “Defects,” such as, but not limited to, incomplete, inaccurate or corrupt data, transcription errors, a copyright or other intellectual property infringement, a defective or damaged disk or other medium, a computer virus, or computer codes that damage or cannot be read by your equipment.
 
-1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
-of Replacement or Refund” described in paragraph 1.F.3, the Project
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right of Replacement or Refund” described in paragraph 1.F.3, the Project
 Gutenberg Literary Archive Foundation, the owner of the Project
 Gutenberg™ trademark, and any other party distributing a Project
-Gutenberg™ electronic work under this agreement, disclaim all
-liability to you for damages, costs and expenses, including legal
-fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+Gutenberg™ electronic work under this agreement, disclaim all liability to you for damages, costs and expenses, including legal fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
 LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
 PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
 TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
@@ -5520,131 +5223,61 @@ LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
 INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
 DAMAGE.
 
-1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
-defect in this electronic work within 90 days of receiving it, you can
-receive a refund of the money (if any) you paid for it by sending a
-written explanation to the person you received the work from. If you
-received the work on a physical medium, you must return the medium
-with your written explanation. The person or entity that provided you
-with the defective work may elect to provide a replacement copy in
-lieu of a refund. If you received the work electronically, the person
-or entity providing it to you may choose to give you a second
-opportunity to receive the work electronically in lieu of a refund. If
-the second copy is also defective, you may demand a refund in writing
-without further opportunities to fix the problem.
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a defect in this electronic work within 90 days of receiving it, you can receive a refund of the money (if any) you paid for it by sending a written explanation to the person you received the work from. If you received the work on a physical medium, you must return the medium with your written explanation. The person or entity that provided you with the defective work may elect to provide a replacement copy in lieu of a refund. If you received the work electronically, the person or entity providing it to you may choose to give you a second opportunity to receive the work electronically in lieu of a refund. If the second copy is also defective, you may demand a refund in writing without further opportunities to fix the problem.
 
-1.F.4. Except for the limited right of replacement or refund set forth
-in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+1.F.4. Except for the limited right of replacement or refund set forth in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
 OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
 LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
 
-1.F.5. Some states do not allow disclaimers of certain implied
-warranties or the exclusion or limitation of certain types of
-damages. If any disclaimer or limitation set forth in this agreement
-violates the law of the state applicable to this agreement, the
-agreement shall be interpreted to make the maximum disclaimer or
-limitation permitted by the applicable state law. The invalidity or
-unenforceability of any provision of this agreement shall not void the
-remaining provisions.
+1.F.5. Some states do not allow disclaimers of certain implied warranties or the exclusion or limitation of certain types of damages. If any disclaimer or limitation set forth in this agreement violates the law of the state applicable to this agreement, the agreement shall be interpreted to make the maximum disclaimer or limitation permitted by the applicable state law. The invalidity or unenforceability of any provision of this agreement shall not void the remaining provisions.
 
-1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
-trademark owner, any agent or employee of the Foundation, anyone
-providing copies of Project Gutenberg™ electronic works in
-accordance with this agreement, and any volunteers associated with the
-production, promotion and distribution of Project Gutenberg™
-electronic works, harmless from all liability, costs and expenses,
-including legal fees, that arise directly or indirectly from any of
-the following which you do or cause to occur: (a) distribution of this
-or any Project Gutenberg work, (b) alteration, modification, or
-additions or deletions to any Project Gutenberg work, and (c) any
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the trademark owner, any agent or employee of the Foundation, anyone providing copies of Project Gutenberg™ electronic works in accordance with this agreement, and any volunteers associated with the production, promotion and distribution of Project Gutenberg™ electronic works, harmless from all liability, costs and expenses, including legal fees, that arise directly or indirectly from any of the following which you do or cause to occur: (a) distribution of this or any Project Gutenberg work, (b) alteration, modification, or additions or deletions to any Project Gutenberg work, and (c) any
 Defect you cause.
 
 Section 2. Information about the Mission of Project Gutenberg
 
-Project Gutenberg is synonymous with the free distribution of
-electronic works in formats readable by the widest variety of
-computers including obsolete, old, middle-aged and new computers. It
-exists because of the efforts of hundreds of volunteers and donations
-from people in all walks of life.
+Project Gutenberg is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete, old, middle-aged and new computers. It exists because of the efforts of hundreds of volunteers and donations from people in all walks of life.
 
-Volunteers and financial support to provide volunteers with the
-assistance they need are critical to reaching Project Gutenberg’s
-goals and ensuring that the Project Gutenberg collection will
-remain freely available for generations to come. In 2001, the Project
-Gutenberg Literary Archive Foundation was created to provide a secure
-and permanent future for Project Gutenberg and future
-generations. To learn more about the Project Gutenberg Literary
+Volunteers and financial support to provide volunteers with the assistance they need are critical to reaching Project Gutenberg’s goals and ensuring that the Project Gutenberg collection will remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure and permanent future for Project Gutenberg and future generations. To learn more about the Project Gutenberg Literary
 Archive Foundation and how your efforts and donations can help, see
 Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
 
 Section 3. Information about the Project Gutenberg Literary Archive Foundation
 
 The Project Gutenberg Literary Archive Foundation is a non-profit
-501(c)(3) educational corporation organized under the laws of the
-state of Mississippi and granted tax exempt status by the Internal
-Revenue Service. The Foundation’s EIN or federal tax identification
-number is 64-6221541. Contributions to the Project Gutenberg Literary
+501(c)(3) educational corporation organized under the laws of the state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification number is 64-6221541. Contributions to the Project Gutenberg Literary
 Archive Foundation are tax deductible to the full extent permitted by
 U.S. federal laws and your state’s laws.
 
 The Foundation’s business office is located at 41 Watchung Plaza #516,
-Montclair NJ 07042, USA, +1 (862) 621-9288. Email contact links and up
-to date contact information can be found at the Foundation’s website
-and official page at www.gutenberg.org/contact
+Montclair NJ 07042, USA, +1 (862) 621-9288. Email contact links and up to date contact information can be found at the Foundation’s website and official page at www.gutenberg.org/contact
 
 Section 4. Information about Donations to the Project Gutenberg
 Literary Archive Foundation
 
-Project Gutenberg™ depends upon and cannot survive without widespread
-public support and donations to carry out its mission of
-increasing the number of public domain and licensed works that can be
-freely distributed in machine-readable form accessible by the widest
-array of equipment including outdated equipment. Many small donations
-($1 to $5,000) are particularly important to maintaining tax exempt
-status with the IRS.
+Project Gutenberg™ depends upon and cannot survive without widespread public support and donations to carry out its mission of increasing the number of public domain and licensed works that can be freely distributed in machine-readable form accessible by the widest array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt status with the IRS.
 
-The Foundation is committed to complying with the laws regulating
-charities and charitable donations in all 50 states of the United
-States. Compliance requirements are not uniform and it takes a
-considerable effort, much paperwork and many fees to meet and keep up
-with these requirements. We do not solicit donations in locations
-where we have not received written confirmation of compliance. To SEND
-DONATIONS or determine the status of compliance for any particular state
-visit www.gutenberg.org/donate.
+The Foundation is committed to complying with the laws regulating charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a considerable effort, much paperwork and many fees to meet and keep up with these requirements. We do not solicit donations in locations where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state visit www.gutenberg.org/donate.
 
-While we cannot and do not solicit contributions from states where we
-have not met the solicitation requirements, we know of no prohibition
-against accepting unsolicited donations from donors in such states who
-approach us with offers to donate.
+While we cannot and do not solicit contributions from states where we have not met the solicitation requirements, we know of no prohibition against accepting unsolicited donations from donors in such states who approach us with offers to donate.
 
-International donations are gratefully accepted, but we cannot make
-any statements concerning tax treatment of donations received from
-outside the United States. U.S. laws alone swamp our small staff.
+International donations are gratefully accepted, but we cannot make any statements concerning tax treatment of donations received from outside the United States. U.S. laws alone swamp our small staff.
 
-Please check the Project Gutenberg web pages for current donation
-methods and addresses. Donations are accepted in a number of other
-ways including checks, online payments and credit card donations. To
-donate, please visit: www.gutenberg.org/donate.
+Please check the Project Gutenberg web pages for current donation methods and addresses. Donations are accepted in a number of other ways including checks, online payments and credit card donations. To donate, please visit: www.gutenberg.org/donate.
 
 Section 5. General Information About Project Gutenberg electronic works
 
 Professor Michael S. Hart was the originator of the Project
-Gutenberg concept of a library of electronic works that could be
-freely shared with anyone. For forty years, he produced and
-distributed Project Gutenberg eBooks with only a loose network of
-volunteer support.
+Gutenberg concept of a library of electronic works that could be freely shared with anyone. For forty years, he produced and distributed Project Gutenberg eBooks with only a loose network of volunteer support.
 
-Project Gutenberg eBooks are often created from several printed
-editions, all of which are confirmed as not protected by copyright in
-the U.S. unless a copyright notice is included. Thus, we do not
-necessarily keep eBooks in compliance with any particular paper
-edition.
+Project Gutenberg eBooks are often created from several printed editions, all of which are confirmed as not protected by copyright in the U.S. unless a copyright notice is included. Thus, we do not necessarily keep eBooks in compliance with any particular paper edition.
 
-Most people start at our website which has the main PG search
-facility: www.gutenberg.org.
+Most people start at our website which has the main PG search facility: www.gutenberg.org.
 
-This website includes information about Project Gutenberg,
-including how to make donations to the Project Gutenberg Literary
-Archive Foundation, how to help produce our new eBooks, and how to
-subscribe to our email newsletter to hear about new eBooks.
-
+This website includes information about Project Gutenberg, including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to subscribe to our email newsletter to hear about new eBooks.

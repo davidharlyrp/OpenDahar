@@ -1,0 +1,25 @@
+Gasses or liquids that move along a pressure gradient can exert forces on objects.
+Suction
+Suction is the day-to-day term for the movement of gases or liquids along a pressure gradient with the implication that the movement occurs because the lower pressure pulls the gas or liquid. However, the forces acting in this case do not originate from just the lower pressure side, but instead from the side of the higher pressure, as a reaction to the pressure difference.
+When the pressure in one part of a physical system is reduced relative to another, the fluid or gas in the higher pressure region will exert a force relative to the region of lowered pressure, referred to as pressure-gradient force. If all gas or fluid is removed the result is a perfect vacuum in which the pressure is zero. Hence, no negative pressure forces can be generated.
+Accordingly, from a physics point of view, the objects are not pulled but pushed.
+Pressure reduction may be static, as in a piston and cylinder arrangement, or dynamic, as in the case of a vacuum cleaner when air flow results in a reduced pressure region.
+When animals breathe, the diaphragm and muscles around the rib cage cause a change of volume in the lungs. With increasing volume of the chest cavity the pressure decreases inside, creating an imbalance with the ambient air pressure, resulting in suction. Similarly, when a straw is used to suck a liquid from a glass into the mouth, the atmospheric pressure on the fluid in the glass pushes the liquid up through the straw along the pressure gradient, creating a liquid column up to the height corresponding to the drop in pressure.
+A common semantic mistake in aviation accident reporting is describing people or objects as being
+'sucked out' during rapid decompression events, when physically they are 'blown out' by the higher internal cabin pressure rushing toward the lower ambient pressure outside the plane — the opposite phenomenon to what happens when an object is placed too close to a running jet engine creating the risk of being sucked in.[1][2][3]
+Pump
+Vacuum pump
+Suction devices used in medicine
+Implosion
+Suction cup
+Examples
+See also
+Suction cupping
+1. Quora. "There's No Suction In Space, Because Suction Is An Illusion" (https://www.forbes.co m/sites/quora/2016/11/21/theres-no-suction-in-space-because-suction-is-an-illusion/).
+Forbes. Retrieved 2024-01-14.
+2. "Why doesn't Earth's atmosphere escape into space?" (https://www.spacecentre.nz/resourc es/faq/solar-system/earth/atmosphere-escape.html). www.spacecentre.nz. Retrieved
+2024-01-14.
+3. "NTSB Schedules Investigative Hearing on Boeing 737-9 MAX Door Plug Blowout" (https:// www.ntsb.gov/news/press-releases/Pages/NR20240312.aspx). www.ntsb.gov. Retrieved
+2025-03-19.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Suction&oldid=1341716789"
+References

@@ -1,466 +1,152 @@
-Full Terms & Conditions of access and use can be found at
-https://www.tandfonline.com/action/journalInformation?journalCode=ngrk20
+Full Terms & Conditions of access and use can be found at https://www.tandfonline.com/action/journalInformation?journalCode=ngrk20
 Georisk: Assessment and Management of Risk for
 Engineered Systems and Geohazards
 ISSN: 1749-9518 (Print) 1749-9526 (Online) Journal homepage: https://www.tandfonline.com/loi/ngrk20
-Reduction of slope stability uncertainty based on
-hydraulic measurement via inverse analysis
+Reduction of slope stability uncertainty based on hydraulic measurement via inverse analysis
 P. J. Vardon, K. Liu & M. A. Hicks
-To cite this article: P. J. Vardon, K. Liu & M. A. Hicks (2016) Reduction of slope stability
-uncertainty based on hydraulic measurement via inverse analysis, Georisk: Assessment
-and Management of Risk for Engineered Systems and Geohazards, 10:3, 223-240, DOI:
+To cite this article: P. J. Vardon, K. Liu & M. A. Hicks (2016) Reduction of slope stability uncertainty based on hydraulic measurement via inverse analysis, Georisk: Assessment and Management of Risk for Engineered Systems and Geohazards, 10:3, 223-240, DOI:
 10.1080/17499518.2016.1180400
-To link to this article:  https://doi.org/10.1080/17499518.2016.1180400
+To link to this article: https://doi.org/10.1080/17499518.2016.1180400
 © 2016 The Author(s). Published by Informa
 UK Limited, trading as Taylor & Francis
 Group
 Published online: 20 May 2016.
-Submit your article to this journal 
+Submit your article to this journal
 Article views: 2447
-View related articles 
+View related articles
 View Crossmark data
-Citing articles: 8 View citing articles 
-Reduction of slope stability uncertainty based on hydraulic measurement via
-inverse analysis
+Citing articles: 8 View citing articles
+Reduction of slope stability uncertainty based on hydraulic measurement via inverse analysis
 P. J. Vardon, K. Liu and M. A. Hicks
 Geo-Engineering Section, Faculty of Civil Engineering and Geosciences, Delft University of Technology, Delft, The Netherlands
 ABSTRACT
-The determination of slope stability for existing slopes is challenging, partly due to the spatial
-variability of soils. Reliability-based design can incorporate uncertainties and yield probabilities of
-slope failure. Field measurements can be utilised to constrain probabilistic analyses, thereby
-reducing uncertainties and generally reducing the calculated probabilities of failure. A method to
-utilise pore pressure measurements, to ﬁrst reduce the spatial uncertainty of hydraulic
-conductivity, by using inverse analysis linked to the Ensemble Kalman Filter, is presented.
-Subsequently, the hydraulic conductivity has been utilised to constrain uncertainty in strength
-parameters, usually leading to an increase in the calculated slope reliability.
+The determination of slope stability for existing slopes is challenging, partly due to the spatial variability of soils. Reliability-based design can incorporate uncertainties and yield probabilities of slope failure. Field measurements can be utilised to constrain probabilistic analyses, thereby reducing uncertainties and generally reducing the calculated probabilities of failure. A method to utilise pore pressure measurements, to ﬁrst reduce the spatial uncertainty of hydraulic conductivity, by using inverse analysis linked to the Ensemble Kalman Filter, is presented.
+Subsequently, the hydraulic conductivity has been utilised to constrain uncertainty in strength parameters, usually leading to an increase in the calculated slope reliability.
 ARTICLE HISTORY
 Received 21 December 2015
 Accepted 13 April 2016
 KEYWORDS
-Ensemble Kalman ﬁlter;
-reliability; slope stability;
-spatial variability; uncertainty
-reduction
+Ensemble Kalman ﬁlter; reliability; slope stability; spatial variability; uncertainty reduction
 1. Introduction
-Conventional methods for the determination of slope
-stability are deterministic, with soil properties character-
-ised as constants for a given soil layer and each speciﬁed
-layer assumed to be homogeneous. The results tend to be
-expressed as a single number – that is, by a factor of
-safety (FOS) (Fredlund and Krahn 1977; Grifﬁths and
-Lane 1999). However, natural soils are highly variable
-and heterogeneous (Phoon and Kulhawy 1999). The
-limitations of deterministic methods, which do not expli-
-citly account for variability and uncertainty related to
-soil parameters, have been highlighted, for example, by
-Vanmarcke (1977), Gui et al. (2000) and Cho (2007),
-and it has been shown that they can over- or underpre-
-dict the true FOS.
-Reliability-based methods for geotechnical appli-
-cations have been developing since the 1970s – from sim-
-pler methods such as the ﬁrst order second moment
-method, ﬁrst order reliability method (Hasofer and
+Conventional methods for the determination of slope stability are deterministic, with soil properties character- ised as constants for a given soil layer and each speciﬁed layer assumed to be homogeneous. The results tend to be expressed as a single number – that is, by a factor of safety (FOS) (Fredlund and Krahn 1977; Grifﬁths and
+Lane 1999). However, natural soils are highly variable and heterogeneous (Phoon and Kulhawy 1999). The limitations of deterministic methods, which do not expli- citly account for variability and uncertainty related to soil parameters, have been highlighted, for example, by
+Vanmarcke (1977), Gui et al. (2000) and Cho (2007), and it has been shown that they can over- or underpre- dict the true FOS.
+Reliability-based methods for geotechnical appli- cations have been developing since the 1970s – from sim- pler methods such as the ﬁrst order second moment method, ﬁrst order reliability method (Hasofer and
 Lind 1974) and point estimate method (Rosenblueth
-1975), to more complex methods such as the random
-ﬁnite element method (RFEM) (Grifﬁths and Fenton
-1993). In RFEM, random ﬁelds of spatially varying soil
-properties are linked with ﬁnite elements within a
-Monte Carlo simulation. Such analyses require a knowl-
-edge of the distributions of the soil parameter values,
-including the scale of ﬂuctuation, which is the distance
-over which variables are signiﬁcantly correlated (Fenton
-and Vanmarcke 1990). These data can be derived from
-ﬁeld tests (e.g. cone penetration tests (CPTs) and piezo-
-meters), laboratory tests and previous experience. How-
-ever, the overall distribution of soil parameters is a
-general description of soil parameter variability, whereas,
-if the local variability was captured better, the overall
-uncertainty could be reduced (Lloret-Cabot, Hicks, and
-van den Eijnden 2012).
-In
-geotechnical
-engineering,
-many
-projects are
-equipped with tools to monitor the project performance,
-for example, through measurements of displacement,
-strain, pore pressure and so on. These measurements
-cannot be directly incorporated into conditional random
-ﬁelds to reduce the uncertainty of soil parameters, as they
-measure system responses and not soil properties. How-
-ever, a general way to make use of these measurements is
-inverse analysis, which can be used to back-calculate the
-soil parameters (e.g. Cividini, Maier, and Nappi 1983;
-Gens, Ledesma, and Alonso 1996; Honjo, Wen-Tsung,
-and Guha 1994; Ledesma, Gens, and Alonso 1996a).
-Honjo, Wen-Tsung, and Guha (1994) indicated that
-inverse analysis methods can generally be categorised
-into two types: direct methods and indirect methods.
-Direct methods need to build a unique explicit relation-
-ship between parameters and measurements, so that the
-relationship can be inverted. However, due to the com-
-plexity of most engineering problems, it is virtually
-impossible to build such a relationship. Indirect methods
+1975), to more complex methods such as the random ﬁnite element method (RFEM) (Grifﬁths and Fenton
+1993). In RFEM, random ﬁelds of spatially varying soil properties are linked with ﬁnite elements within a
+Monte Carlo simulation. Such analyses require a knowl- edge of the distributions of the soil parameter values, including the scale of ﬂuctuation, which is the distance over which variables are signiﬁcantly correlated (Fenton and Vanmarcke 1990). These data can be derived from ﬁeld tests (e.g. cone penetration tests (CPTs) and piezo- meters), laboratory tests and previous experience. How- ever, the overall distribution of soil parameters is a general description of soil parameter variability, whereas, if the local variability was captured better, the overall uncertainty could be reduced (Lloret-Cabot, Hicks, and van den Eijnden 2012).
+In geotechnical engineering, many projects are equipped with tools to monitor the project performance, for example, through measurements of displacement, strain, pore pressure and so on. These measurements cannot be directly incorporated into conditional random ﬁelds to reduce the uncertainty of soil parameters, as they measure system responses and not soil properties. How- ever, a general way to make use of these measurements is inverse analysis, which can be used to back-calculate the soil parameters (e.g. Cividini, Maier, and Nappi 1983;
+Gens, Ledesma, and Alonso 1996; Honjo, Wen-Tsung, and Guha 1994; Ledesma, Gens, and Alonso 1996a).
+Honjo, Wen-Tsung, and Guha (1994) indicated that inverse analysis methods can generally be categorised into two types: direct methods and indirect methods.
+Direct methods need to build a unique explicit relation- ship between parameters and measurements, so that the relationship can be inverted. However, due to the com- plexity of most engineering problems, it is virtually impossible to build such a relationship. Indirect methods
 © 2016 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group
 This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License (http://creativecommons.org/licenses/by-nc-nd/
-4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited, and is not altered, transformed, or built upon in
-any way.
-CONTACT P. J. Vardon
-p.j.vardon@tudelft.nl
+4.0/), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited, and is not altered, transformed, or built upon in any way.
+CONTACT P. J. Vardon p.j.vardon@tudelft.nl
 Geo-Engineering Section, Faculty of Civil Engineering and Geosciences, Delft University of Technology, Delft,
 The Netherlands
 GEORISK, 2016
-VOL. 10, NO. 3, 223–240
-http://dx.doi.org/10.1080/17499518.2016.1180400
-are iterative procedures and make use of the forward
-relationship between parameters and measurements.
-A number of indirect methods exist. These include the
-maximum likelihood method, which considers the
-measurements as random quantities and estimates a set
-of parameters which are statistically the most likely,
-that is, to maximise the probability of achieving the
-measured data; and Bayesian methods, which consider
-the parameters to be random and the distribution of par-
-ameters which are able to produce the measured data are
-estimated. The Kalman ﬁlter (KF) is a scheme which uses
-ongoing measurements to better estimate parametric
-inputs. In the case of the ensemble Kalman ﬁlter
-(EnKF), an ensemble of potential parameters is used,
-making it a variant of the Bayesian approach (Ledesma,
+VOL. 10, NO. 3, 223–240 http://dx.doi.org/10.1080/17499518.2016.1180400 are iterative procedures and make use of the forward relationship between parameters and measurements.
+A number of indirect methods exist. These include the maximum likelihood method, which considers the measurements as random quantities and estimates a set of parameters which are statistically the most likely, that is, to maximise the probability of achieving the measured data; and Bayesian methods, which consider the parameters to be random and the distribution of par- ameters which are able to produce the measured data are estimated. The Kalman ﬁlter (KF) is a scheme which uses ongoing measurements to better estimate parametric inputs. In the case of the ensemble Kalman ﬁlter
+(EnKF), an ensemble of potential parameters is used, making it a variant of the Bayesian approach (Ledesma,
 Gens, and Alonso 1996b).
 Ledesma, Gens, and Alonso (1996b) and Gens,
-Ledesma, and Alonso (1996) implemented the maximum
-likelihood method in a synthetic problem of tunnel exca-
-vation. The authors combined this method with the ﬁnite
-element method (FEM) to back-calculate Young’s mod-
-ulus. Wang et al. (2013, 2014) utilised the maximum like-
-lihood method in analysing a slope failure and an
-excavation, respectively, to improve the estimation of soil
-parameters based on ﬁeld measurements such as slip sur-
-face inclination and ground settlement. The application of
-the maximum likelihood method was found to better
-explain the slope failure mechanism and also the predic-
-tion of wall and ground responses in the staged excavation.
-Lee and Kim (1999) used the extended Bayesian
-method in tunnelling engineering and tried to back-
-calculate four parameters, that is, the elastic modulus,
-the initial horizontal stress coefﬁcient at rest, the cohe-
-sion and the internal friction angle. Zhou et al. (2007)
-proposed a modiﬁed extended Bayesian method in the
-estimation of the Young’s modulus for a three-layered
-embankment. Papaioannou and Straub (2012) utilised
-Bayesian updating to improve the estimation of the
-reliability of an excavation, with a sheet pile retaining
-wall,
-in
-sand,
-based
-on
-non-linear
-deformation
-measurements. Zhang et al. (2013) applied the Baye-
-sian method to back-calculate hydraulic parameters
-by utilising measurements of pore water pressure and
-investigated the effect of uncertainties in the hydraulic
-parameters on the prediction of slope stability, but
-without considering the spatial variability of hydraulic
-parameters. Zhang et al. (2014) further investigated the
-effect of measurement data duration and frequency in
-the Bayesian updating of hydraulic parameters.
-Kalman (1960) developed the KF, which was initially
-used to estimate a set of variables and uncertainties and,
-based on a set of observations, improve the estimation.
-Later a number of variants were developed, such as the
-extended Kalman ﬁlter (EKF) and the EnKF. The EnKF
-requires no linearisation when updating state variables
-which are governed by a non-linear relationship, in con-
-trast to the EKF. Hommels et al. (2005) and Hommels and
-Molenkamp (2006) utilised the EnKF and observations of
-settlements to improve the estimation of Young’s mod-
-ulus. Yang et al. (2011) made use of the EKF and obser-
-vations of displacement in a tunnel to back-analyse the
-natural stress in the rock mass.
-The majority of the inverse analysis methods given
-above only made use of direct measurements which
-were directly related to the undetermined parameters.
+Ledesma, and Alonso (1996) implemented the maximum likelihood method in a synthetic problem of tunnel exca- vation. The authors combined this method with the ﬁnite element method (FEM) to back-calculate Young’s mod- ulus. Wang et al. (2013, 2014) utilised the maximum like- lihood method in analysing a slope failure and an excavation, respectively, to improve the estimation of soil parameters based on ﬁeld measurements such as slip sur- face inclination and ground settlement. The application of the maximum likelihood method was found to better explain the slope failure mechanism and also the predic- tion of wall and ground responses in the staged excavation.
+Lee and Kim (1999) used the extended Bayesian method in tunnelling engineering and tried to back- calculate four parameters, that is, the elastic modulus, the initial horizontal stress coefﬁcient at rest, the cohe- sion and the internal friction angle. Zhou et al. (2007) proposed a modiﬁed extended Bayesian method in the estimation of the Young’s modulus for a three-layered embankment. Papaioannou and Straub (2012) utilised
+Bayesian updating to improve the estimation of the reliability of an excavation, with a sheet pile retaining wall, in sand, based on non-linear deformation measurements. Zhang et al. (2013) applied the Baye- sian method to back-calculate hydraulic parameters by utilising measurements of pore water pressure and investigated the effect of uncertainties in the hydraulic parameters on the prediction of slope stability, but without considering the spatial variability of hydraulic parameters. Zhang et al. (2014) further investigated the effect of measurement data duration and frequency in the Bayesian updating of hydraulic parameters.
+Kalman (1960) developed the KF, which was initially used to estimate a set of variables and uncertainties and, based on a set of observations, improve the estimation.
+Later a number of variants were developed, such as the extended Kalman ﬁlter (EKF) and the EnKF. The EnKF requires no linearisation when updating state variables which are governed by a non-linear relationship, in con- trast to the EKF. Hommels et al. (2005) and Hommels and
+Molenkamp (2006) utilised the EnKF and observations of settlements to improve the estimation of Young’s mod- ulus. Yang et al. (2011) made use of the EKF and obser- vations of displacement in a tunnel to back-analyse the natural stress in the rock mass.
+The majority of the inverse analysis methods given above only made use of direct measurements which were directly related to the undetermined parameters.
 For example, the measurements used in Chen and
-Zhang (2006) were pressure head, so the corresponding
-uncertain parameter was hydraulic conductivity. In
-Hommels and Molenkamp (2006), the parameter and
-measurement were stiffness and settlement, respectively.
-This limits the choice of information which could con-
-tribute to the determination of parameters, although,
-as the underlying differences in material behaviour
-come from, in general, differences in composition, stress
-state or stress history, it is likely that material parameters
-are correlated (Ching and Phoon 2013; Nguyen and
+Zhang (2006) were pressure head, so the corresponding uncertain parameter was hydraulic conductivity. In
+Hommels and Molenkamp (2006), the parameter and measurement were stiffness and settlement, respectively.
+This limits the choice of information which could con- tribute to the determination of parameters, although, as the underlying differences in material behaviour come from, in general, differences in composition, stress state or stress history, it is likely that material parameters are correlated (Ching and Phoon 2013; Nguyen and
 Chowdhury 1985). Fenton and Grifﬁths (2003) and
-Cho and Park (2010) studied the inﬂuence of cross-cor-
-relation between cohesion and friction angle on the bear-
-ing capacity of a strip foundation. Grifﬁths, Huang, and
-Fenton (2009) investigated the inﬂuence of cross-corre-
-lation between Mohr–Coulomb strength parameters (i.e.
-cohesion and friction angle) in probabilistic analyses of
-slope stability. Zhang, Zhang, and Tang (2005) considered
-the
-cross-correlation
-between
-different
-unsaturated
-hydraulic parameters in seepage analysis, and Arnold
-and Hicks (2011) considered the cross-correlation of
-hydraulic and strength parameters in stochastic analyses
-of rainfall-induced slope failure.
-In this paper, the authors present a theoretical study
-of the uncertainty in the FOS (with respect to the stab-
-ility) of embankment slopes under steady-state seepage
-conditions. The work takes advantage of the fact that
-instrumentation is often available in geotechnical pro-
-jects, but also that, in soils, pore pressure measurements
-are cheaper, easier to install and more reliable than
-stress/strain measurements. In addition, it takes account
-of the cross-correlation between material properties;
-speciﬁcally, it proposes that the hydraulic conductivity,
-cohesion and friction angle are cross-correlated. There-
-fore, the pore pressure measurements can be used to
-reduce the uncertainty in the slope stability, via more
-accurate effective stress and shear strength estimations.
-The proposed method ﬁrst utilises the EnKF inverse
-analysis method to better determine the hydraulic con-
-ductivity ﬁeld; then the cohesion and friction angle are
-224
+Cho and Park (2010) studied the inﬂuence of cross-cor- relation between cohesion and friction angle on the bear- ing capacity of a strip foundation. Grifﬁths, Huang, and
+Fenton (2009) investigated the inﬂuence of cross-corre- lation between Mohr–Coulomb strength parameters (i.e.
+cohesion and friction angle) in probabilistic analyses of slope stability. Zhang, Zhang, and Tang (2005) considered the cross-correlation between different unsaturated hydraulic parameters in seepage analysis, and Arnold and Hicks (2011) considered the cross-correlation of hydraulic and strength parameters in stochastic analyses of rainfall-induced slope failure.
+In this paper, the authors present a theoretical study of the uncertainty in the FOS (with respect to the stab- ility) of embankment slopes under steady-state seepage conditions. The work takes advantage of the fact that instrumentation is often available in geotechnical pro- jects, but also that, in soils, pore pressure measurements are cheaper, easier to install and more reliable than stress/strain measurements. In addition, it takes account of the cross-correlation between material properties; speciﬁcally, it proposes that the hydraulic conductivity, cohesion and friction angle are cross-correlated. There- fore, the pore pressure measurements can be used to reduce the uncertainty in the slope stability, via more accurate effective stress and shear strength estimations.
+The proposed method ﬁrst utilises the EnKF inverse analysis method to better determine the hydraulic con- ductivity ﬁeld; then the cohesion and friction angle are
 P. J. VARDON ET AL.
-cross-correlated with hydraulic conductivity so that the
-estimation of slope stability can be improved.
-The purpose of this paper is to present, demonstrate
-and evaluate the robustness of the new method within
-a controlled (albeit simpliﬁed) environment. This has
-been facilitated by the use of synthetic (i.e. numerically
-generated) “measurements”, so that full knowledge of
-the solution is available and the results can be properly
-tested. First the method is presented, and this is followed
-by a series of analyses to examine the effects of the var-
-ious parameters on the overall calculated uncertainty.
-These results will be used to guide future studies invol-
-ving real ﬁeld situations.
+cross-correlated with hydraulic conductivity so that the estimation of slope stability can be improved.
+The purpose of this paper is to present, demonstrate and evaluate the robustness of the new method within a controlled (albeit simpliﬁed) environment. This has been facilitated by the use of synthetic (i.e. numerically generated) “measurements”, so that full knowledge of the solution is available and the results can be properly tested. First the method is presented, and this is followed by a series of analyses to examine the effects of the var- ious parameters on the overall calculated uncertainty.
+These results will be used to guide future studies invol- ving real ﬁeld situations.
 2. Framework and theoretical formulation
 2.1. Framework of the overall analysis
-The framework of the proposed numerical approach is
-shown in Figure 1. The ﬂow chart shows that it can be
-split into two parts: inverse and forward analyses. Inverse
-analysis is possible where there are measurements avail-
-able, that is, pore pressures in this paper. Synthetic data
-have here been used to provide a fully known solution
-against which the method can be tested, and are sampled
-to provide a proxy for real measurements. In the remain-
-der of the paper, these sampled data are referred to as
+The framework of the proposed numerical approach is shown in Figure 1. The ﬂow chart shows that it can be split into two parts: inverse and forward analyses. Inverse analysis is possible where there are measurements avail- able, that is, pore pressures in this paper. Synthetic data have here been used to provide a fully known solution against which the method can be tested, and are sampled to provide a proxy for real measurements. In the remain- der of the paper, these sampled data are referred to as
 “synthetic measurements”.
-The analysis starts with an estimation of the hydraulic
-conductivity in the ﬁeld, which is the distribution of
-hydraulic conductivity characterised by its mean, stan-
-dard deviation and scales of ﬂuctuation. Based on this
-statistical characterisation of the hydraulic conductivity
-an RFEM analysis can be undertaken, whereby multiple
-realisations of the hydraulic conductivity ﬁeld are gener-
-ated and analysed to give a distribution of computed
-pore water pressure ﬁelds. Then, via the EnKF, the
-ensemble of realisations are compared to the synthetic
-measurements, so that the estimation of the hydraulic
-conductivity ﬁeld can be updated/improved.
-The forward analysis beneﬁts from the output of the
-preceding inverse analysis. The updated hydraulic conduc-
-tivity ﬁeld improves the computed pore pressure ﬁeld,
-which in turn affects the effective stress ﬁeld. In addition,
-by using the cross-correlation between the hydraulic con-
-ductivity and strength parameters, the strength parameters
-can also be updated. Another RFEM analysis is then carried
-out, this time to obtain a probabilistic description of the
-slope stability. However, the EnKF method cannot be
-used to update the slope stability, as the shear strength can-
-not be easily/directly measured in a non-destructive way.
-The improvements achieved during the inverse and for-
-ward analysis stages, that is, with respect to pore water
-pressure and strength parameters, cause a reduction in
-the uncertainty in the calculated FOS of the slope.
-In order to facilitate the understanding and evaluation of
-the model, in the analyses in Section 3 the following simpli-
-ﬁcations were adopted: (i) a one-directional coupled analy-
-sis; (ii) no ﬂow in the unsaturated zone; (iii) linear elastic,
-perfectly plastic constitutive behaviour, with a Mohr–Cou-
-lomb failure surface and (iv) steady-state seepage.
+The analysis starts with an estimation of the hydraulic conductivity in the ﬁeld, which is the distribution of hydraulic conductivity characterised by its mean, stan- dard deviation and scales of ﬂuctuation. Based on this statistical characterisation of the hydraulic conductivity an RFEM analysis can be undertaken, whereby multiple realisations of the hydraulic conductivity ﬁeld are gener- ated and analysed to give a distribution of computed pore water pressure ﬁelds. Then, via the EnKF, the ensemble of realisations are compared to the synthetic measurements, so that the estimation of the hydraulic conductivity ﬁeld can be updated/improved.
+The forward analysis beneﬁts from the output of the preceding inverse analysis. The updated hydraulic conduc- tivity ﬁeld improves the computed pore pressure ﬁeld, which in turn affects the effective stress ﬁeld. In addition, by using the cross-correlation between the hydraulic con- ductivity and strength parameters, the strength parameters can also be updated. Another RFEM analysis is then carried out, this time to obtain a probabilistic description of the slope stability. However, the EnKF method cannot be used to update the slope stability, as the shear strength can- not be easily/directly measured in a non-destructive way.
+The improvements achieved during the inverse and for- ward analysis stages, that is, with respect to pore water pressure and strength parameters, cause a reduction in the uncertainty in the calculated FOS of the slope.
+In order to facilitate the understanding and evaluation of the model, in the analyses in Section 3 the following simpli- ﬁcations were adopted: (i) a one-directional coupled analy- sis; (ii) no ﬂow in the unsaturated zone; (iii) linear elastic, perfectly plastic constitutive behaviour, with a Mohr–Cou- lomb failure surface and (iv) steady-state seepage.
 2.2. Slope stability under seepage conditions
-In this paper, a one-way coupled slope stability analysis
-has been undertaken. First, the pore pressure distribution
-due to steady-state seepage has been analysed; next, the
-inﬂuence of the pore pressure distribution has been
-incorporated in the slope stability analysis.
+In this paper, a one-way coupled slope stability analysis has been undertaken. First, the pore pressure distribution due to steady-state seepage has been analysed; next, the inﬂuence of the pore pressure distribution has been incorporated in the slope stability analysis.
 2.2.1. Steady-state seepage
-The governing mass conservation equation for steady-
-state saturated groundwater ﬂow in 2D is utilised, with
-the deformation of the domain and compressibility of
+The governing mass conservation equation for steady- state saturated groundwater ﬂow in 2D is utilised, with the deformation of the domain and compressibility of
 Figure 1. Flowchart of the numerical approach.
-GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS
-225
-water being neglected. Therefore, the governing equation
-is (Smith, Grifﬁths, and Margetts 2013)
+GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS water being neglected. Therefore, the governing equation is (Smith, Grifﬁths, and Margetts 2013)
 ∂
-∂x
-kx
+∂x kx
 ∂h
 ∂x
-
-
+
+
 + ∂
-∂y
-ky
+∂y ky
 ∂h
 ∂y
-
-
+
+
 = 0
-(1)
-where h = z + p/gw is the hydraulic head, in which z is
-the elevation, p is the pore pressure and gw is the unit
-weight of water, and kx and ky are the hydraulic conduc-
-tivity in the x and y directions, respectively. The equation
-is spatially discretised using the FEM with the Galerkin
-weighted residual method. A no-ﬂow condition in the
-unsaturated zone is assumed for simplicity and an itera-
-tive procedure (Chapuis et al. 2001; Chapuis and Auber-
-tin 2001) has been adopted to determine the phreatic
-surface and exit points on the downstream surface of
-the embankment. For more details of this algorithm,
-see Liu et al. (2015).
+(1) where h = z + p/gw is the hydraulic head, in which z is the elevation, p is the pore pressure and gw is the unit weight of water, and kx and ky are the hydraulic conduc- tivity in the x and y directions, respectively. The equation is spatially discretised using the FEM with the Galerkin weighted residual method. A no-ﬂow condition in the unsaturated zone is assumed for simplicity and an itera- tive procedure (Chapuis et al. 2001; Chapuis and Auber- tin 2001) has been adopted to determine the phreatic surface and exit points on the downstream surface of the embankment. For more details of this algorithm, see Liu et al. (2015).
 2.2.2. Slope stability
-The slope stability analysis uses the results of the pre-
-vious seepage analysis to deﬁne the pore water pressure,
-in order to generate the effective stress ﬁeld. The effective
-stress
-vector
-s
-′ =
-s
-′
-x
-s
-′
-y
-txy
-s
-′
-z
-
-T
-can
-be
-expressed as
-s
+The slope stability analysis uses the results of the pre- vious seepage analysis to deﬁne the pore water pressure, in order to generate the effective stress ﬁeld. The effective stress vector s
+′ = s
+′ x s
+′ y txy s
+′ z
+
+T can be expressed as s
 ′ = s −pm
-(2)
-where σ is the total stress vector generated by the gravi-
-tational load, m = [1, 1, 0, 1]T for 2D plane strain analy-
-sis and p is the pore water pressure.
-The slope stability analysis considers an elastic, per-
-fectly plastic soil with the Mohr–Coulomb failure cri-
-terion (e.g. Smith, Grifﬁths, and Margetts 2013) and
-the FOS of the slope is computed using the strength
-reduction method (Grifﬁths and Lane 1999), that is:
+(2) where σ is the total stress vector generated by the gravi- tational load, m = [1, 1, 0, 1]T for 2D plane strain analy- sis and p is the pore water pressure.
+The slope stability analysis considers an elastic, per- fectly plastic soil with the Mohr–Coulomb failure cri- terion (e.g. Smith, Grifﬁths, and Margetts 2013) and the FOS of the slope is computed using the strength reduction method (Grifﬁths and Lane 1999), that is:
 c
-′
-f = c′/FOS
-(3)
-w
-′
-f = arctan tanw′
+′ f = c′/FOS
+(3) w
+′ f = arctan tanw′
 FOS
-
-
-(4)
-where c′ and w′ are the effective cohesion and friction
-angle, and c
-′
-f and w
-′
-f are the respective factored shear
-strength parameters corresponding to slope failure.
+
+
+(4) where c′ and w′ are the effective cohesion and friction angle, and c
+′ f and w
+′ f are the respective factored shear strength parameters corresponding to slope failure.
 2.3. Stochastic FE analysis
-Due to the spatial variability of the soil parameters, FEM
-is combined with random ﬁeld theory within a stochastic
-(Monte Carlo) process. This involves multiple simu-
-lations (i.e. realisations) of the same problem, a pro-
-cedure often referred to as the RFEM (Grifﬁths and
-Fenton 1993). In each realisation of an RFEM analysis,
-a random ﬁeld of material properties is generated,
-based on the point and spatial statistics of the material
-properties. RFEM has proved to be an efﬁcient approach
-for conducting stochastic slope stability analyses (e.g.
+Due to the spatial variability of the soil parameters, FEM is combined with random ﬁeld theory within a stochastic
+(Monte Carlo) process. This involves multiple simu- lations (i.e. realisations) of the same problem, a pro- cedure often referred to as the RFEM (Grifﬁths and
+Fenton 1993). In each realisation of an RFEM analysis, a random ﬁeld of material properties is generated, based on the point and spatial statistics of the material properties. RFEM has proved to be an efﬁcient approach for conducting stochastic slope stability analyses (e.g.
 Hicks and Samy 2002, 2004).
 2.3.1. Random ﬁeld generation for single variable
-The local average subdivision method (Fenton and Van-
-marcke 1990) has been applied to generate the random
-ﬁelds. This method generates standard normal ﬁelds, in
-which the spatial variation of property values is related
-to a correlation function incorporating the scale of ﬂuc-
-tuation. The standard normal ﬁeld is then transformed
-to the appropriate distribution based on the mean and
-standard deviation of the variable being modelled, and
-also post-processed to account for different scales of ﬂuc-
-tuation in different directions (Hicks and Samy 2004).
-For the application in this paper, as the distribution of
-hydraulic conductivity is usually considered to be log-
-normal (Grifﬁths and Fenton 1993; Zhu et al. 2013),
-the natural log of hydraulic conductivity, ln(k), follows
-a normal distribution. Hence, the standard normal ran-
-dom ﬁeld is transformed into a normal ﬁeld of ln(k).
-An exponential Markov correlation function has been
-used to build the covariance function relating the spatial
-correlation between the variable values at different
-locations, that is:
-r(t) = exp −2
-ulnk
-t
-
-
-(5)
-where τ is the lag distance between two points in a ran-
-dom ﬁeld, and ulnk is the scale of ﬂuctuation of ln(k).
+The local average subdivision method (Fenton and Van- marcke 1990) has been applied to generate the random ﬁelds. This method generates standard normal ﬁelds, in which the spatial variation of property values is related to a correlation function incorporating the scale of ﬂuc- tuation. The standard normal ﬁeld is then transformed to the appropriate distribution based on the mean and standard deviation of the variable being modelled, and also post-processed to account for different scales of ﬂuc- tuation in different directions (Hicks and Samy 2004).
+For the application in this paper, as the distribution of hydraulic conductivity is usually considered to be log- normal (Grifﬁths and Fenton 1993; Zhu et al. 2013), the natural log of hydraulic conductivity, ln(k), follows a normal distribution. Hence, the standard normal ran- dom ﬁeld is transformed into a normal ﬁeld of ln(k).
+An exponential Markov correlation function has been used to build the covariance function relating the spatial correlation between the variable values at different locations, that is:
+r(t) = exp −2 ulnk t
+
+
+(5) where τ is the lag distance between two points in a ran- dom ﬁeld, and ulnk is the scale of ﬂuctuation of ln(k).
 Fenton and Grifﬁths (2008) indicated that ulnk ≈uk
-(where uk is the scale of ﬂuctuation of k), and this
-relationship has been adopted in this paper.
-2.3.2. Random ﬁeld generation for multiple
-variables
-In this paper, three variables are spatially random,
-that is, hydraulic conductivity, cohesion and friction
-angle. The paper makes use of the inter-dependence
-between these parameters (Nguyen and Chowdhury
-1985) to cross-correlate the random ﬁelds. Cross-cor-
-related parameters are ﬁrst transformed into standard
-normal space and the dependence between the par-
-ameters is deﬁned via a correlation matrix (Fenton
-and Grifﬁths 2003),
-r =
-1
-rlnk,c
-rlnk,w
-rlnk,c
-1
-rc,w
-rlnk,w
-rc,w
-1
+(where uk is the scale of ﬂuctuation of k), and this relationship has been adopted in this paper.
+2.3.2. Random ﬁeld generation for multiple variables
+In this paper, three variables are spatially random, that is, hydraulic conductivity, cohesion and friction angle. The paper makes use of the inter-dependence between these parameters (Nguyen and Chowdhury
+1985) to cross-correlate the random ﬁelds. Cross-cor- related parameters are ﬁrst transformed into standard normal space and the dependence between the par- ameters is deﬁned via a correlation matrix (Fenton and Grifﬁths 2003), r = rlnk,c rlnk,w rlnk,c rc,w rlnk,w rc,w
 ⎡
 ⎣
 ⎤
 ⎦
-(6)
-where r represents the correlation (in standard nor-
-mal space) between the parameters identiﬁed by the
-226
+(6) where r represents the correlation (in standard nor- mal space) between the parameters identiﬁed by the
 P. J. VARDON ET AL.
-ﬁrst and second subscripts. The matrix is decomposed
-by Cholesky decomposition, that is, ρ = LL T, and used
-to generate correlated random ﬁeld values from
-initially uncorrelated random ﬁeld values, via:
+ﬁrst and second subscripts. The matrix is decomposed by Cholesky decomposition, that is, ρ = LL T, and used to generate correlated random ﬁeld values from initially uncorrelated random ﬁeld values, via:
 Gdepend = Lgindepend
 (7)
 Glnk
@@ -469,837 +155,243 @@ Gw
 ⎡
 ⎣
 ⎤
-⎦
-depend
-= L
-glnk
-gc
-gw
+⎦ depend
+= L glnk gc gw
 ⎡
 ⎣
 ⎤
-⎦
-independ
-(8)
-where Gdepend is a vector of correlated values and
-gindepend is a vector of uncorrelated values.
+⎦ independ
+(8) where Gdepend is a vector of correlated values and gindepend is a vector of uncorrelated values.
 2.4. Inverse analysis via the EnKF
-Evensen (1994) proposed the EnKF based on the tra-
-ditional KF (Kalman 1960), to reduce parameter uncer-
-tainty based upon measured data. In this paper, the
-EnKF is linked to the random ﬁeld approach to better
-capture the local variability of hydraulic conductivity.
-In the approach of Evensen (1994), the measurements
-are time dependent, but here the measured data are
-ﬁxed in time and hence the EnKF has been used inde-
-pendent of time.
-In this paper, the EnKF follows an iterative process, in
-which each iteration contains two steps: forecast and
-update. For applying the EnKF to stochastic seepage, a
-state vector has to be constructed to incorporate both
-the
-unknown
-local
-hydraulic
-conductivities
-and
-measurements of hydraulic head. This is expressed as:
-xi =
-k
-h
-
-
+Evensen (1994) proposed the EnKF based on the tra- ditional KF (Kalman 1960), to reduce parameter uncer- tainty based upon measured data. In this paper, the
+EnKF is linked to the random ﬁeld approach to better capture the local variability of hydraulic conductivity.
+In the approach of Evensen (1994), the measurements are time dependent, but here the measured data are ﬁxed in time and hence the EnKF has been used inde- pendent of time.
+In this paper, the EnKF follows an iterative process, in which each iteration contains two steps: forecast and update. For applying the EnKF to stochastic seepage, a state vector has to be constructed to incorporate both the unknown local hydraulic conductivities and measurements of hydraulic head. This is expressed as:
+xi = k h
+
+
 =
 (ln(k1) ln(k2) . . . ln(kn))T
 (h1 h2 . . . hm)T
-
-
+
+
 ,
-(9)
-where subscript i represents an ensemble; k is the vector
-of logarithmic hydraulic conductivity, ln(k), as the EnKF
-can only be applied to normally distributed variables
-(Chen and Zhang 2006); h is the vector of hydraulic
-heads computed at the measurement locations; and n
-and m are the number of unknown hydraulic conduc-
-tivity values and hydraulic head measurements, respect-
-ively. In this case, the number of unknown hydraulic
-conductivity values is equal to the number of Gauss
-points in the foundation of the FE mesh. In the EnKF,
-an ensemble of N state vectors is used to simulate the
-initial estimation of the hydraulic conductivity ﬁeld,
-that is, x = (x1, x2, . . . , xN).
-In the forecasting step of each iteration, the
-ensemble of state vectors is forecasted to the second
-(i.e. update) step by the model describing the pro-
-blem, that is, xt = F(xt−1), where t is the iteration
-number in the EnKF. In this case, the seepage
-model is utilised to compute the hydraulic heads
-for all realisations of the ensemble, based on the
-updated hydraulic conductivity ﬁelds from the end
-of the previous iteration.
-After the forecasting step, the computed hydraulic
-heads at the measurement locations in the forecasted
-ensemble of state vectors are compared with the collected
-“real” hydraulic head measurements. The ensemble of
-state vectors is then updated (with respect to hydraulic
-conductivity) by
-xu
-t = xf
-t + KG(D −Hxf
-t)
+(9) where subscript i represents an ensemble; k is the vector of logarithmic hydraulic conductivity, ln(k), as the EnKF can only be applied to normally distributed variables
+(Chen and Zhang 2006); h is the vector of hydraulic heads computed at the measurement locations; and n and m are the number of unknown hydraulic conduc- tivity values and hydraulic head measurements, respect- ively. In this case, the number of unknown hydraulic conductivity values is equal to the number of Gauss points in the foundation of the FE mesh. In the EnKF, an ensemble of N state vectors is used to simulate the initial estimation of the hydraulic conductivity ﬁeld, that is, x = (x1, x2, . . . , xN).
+In the forecasting step of each iteration, the ensemble of state vectors is forecasted to the second
+(i.e. update) step by the model describing the pro- blem, that is, xt = F(xt−1), where t is the iteration number in the EnKF. In this case, the seepage model is utilised to compute the hydraulic heads for all realisations of the ensemble, based on the updated hydraulic conductivity ﬁelds from the end of the previous iteration.
+After the forecasting step, the computed hydraulic heads at the measurement locations in the forecasted ensemble of state vectors are compared with the collected
+“real” hydraulic head measurements. The ensemble of state vectors is then updated (with respect to hydraulic conductivity) by xu t = xf t + KG(D −Hxf t)
 (10)
 D = (h1, h2, · · · , hN)
-(11)
-hi = h∗+ 1i
-(12)
-where xu
-t is the matrix containing the ensemble of
-updated state vectors, of dimensions (m + n) × N, and
-xf
-t is the corresponding matrix of state vectors resulting
-from the forecasting step; D is the matrix of measure-
-ment data perturbed by noise, of dimensions m × N; hi
-is a vector of perturbed measurements; h∗is the vector
-of real measurements; and 1i is a vector of measurement
-errors added to the real measurements in order to create
-perturbed measurements. Each element in the error vec-
-tor 1i is randomly selected from a normal distribution
-with a zero mean and a variance deﬁned by the input
-measurement error. Here, R is a matrix based on 1i,
-that is:
-R =
-eeT
+(11) hi = h∗+ 1i
+(12) where xu t is the matrix containing the ensemble of updated state vectors, of dimensions (m + n) × N, and xf t is the corresponding matrix of state vectors resulting from the forecasting step; D is the matrix of measure- ment data perturbed by noise, of dimensions m × N; hi is a vector of perturbed measurements; h∗is the vector of real measurements; and 1i is a vector of measurement errors added to the real measurements in order to create perturbed measurements. Each element in the error vec- tor 1i is randomly selected from a normal distribution with a zero mean and a variance deﬁned by the input measurement error. Here, R is a matrix based on 1i, that is:
+R = eeT
 N −1
-(13)
-e = (11, 12, . . . 1N)
+(13) e = (11, 12, . . . 1N)
 (14)
-Also, with reference to Equation (10), H is the
-measurement operator which relates the state vector
-to the measurement points; it is in the form of H =
-[0∣I], where 0 is an m × n null matrix and I is an
-m × m identity matrix. KG is the Kalman gain derived
-from the minimisation of the posterior error covari-
-ance of the ensemble of state vectors, that is:
-KG = Pf
-tHT(HPf
-tHT + R)−1
+Also, with reference to Equation (10), H is the measurement operator which relates the state vector to the measurement points; it is in the form of H =
+[0∣I], where 0 is an m × n null matrix and I is an m × m identity matrix. KG is the Kalman gain derived from the minimisation of the posterior error covari- ance of the ensemble of state vectors, that is:
+KG = Pf tHT(HPf tHT + R)−1
 (15)
-Pf
-t =
-1
-N −1 (xf
-t −xf
-t)(xf
-t −xf
-t)T
-(16)
-where Pf
-t is the error covariance matrix of the ensem-
-ble of forecasted state vectors, and xf
-t is the ensemble
-mean of xf
-t, that is, xf
-t = xf
-t1N, where 1N is a matrix
-in which each element is equal to 1/N.
-At the end of the iteration process, the ensemble
-mean is considered to be the best estimate of the
-hydraulic conductivity ﬁeld, and the pore pressures
-GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS
-227
-generated using this result are passed to the slope
-stability analysis in Section 2.2.2 and utilised to gener-
-ate correlated strength parameters in Section 2.3.2.
-The implementation of this aspect is undertaken uti-
-lising the subroutine found in Section 5 of Evensen
+Pf t =
+N −1 (xf t −xf t)(xf t −xf t)T
+(16) where Pf t is the error covariance matrix of the ensem- ble of forecasted state vectors, and xf t is the ensemble mean of xf t, that is, xf t = xf t1N, where 1N is a matrix in which each element is equal to 1/N.
+At the end of the iteration process, the ensemble mean is considered to be the best estimate of the hydraulic conductivity ﬁeld, and the pore pressures
+GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS generated using this result are passed to the slope stability analysis in Section 2.2.2 and utilised to gener- ate correlated strength parameters in Section 2.3.2.
+The implementation of this aspect is undertaken uti- lising the subroutine found in Section 5 of Evensen
 (2003).
 3. Model performance
-In this section, an illustrative example is presented, to
-show how the proposed approach can affect the uncer-
-tainty in the calculated slope stability via the use of
-only hydraulic measurement data.
-Figure 2 shows the geometry of an embankment over-
-lying a foundation. The embankment is 4 m high, with
-upstream and downstream side slopes of 1:2. It is 4 m
-wide at the crown and 20 m wide at its base. The
-upstream water level is 4 m above the base of the
-embankment and the downstream water level is at 0 m.
-The soil foundation is 40 m wide and 5 m deep, and
-the lateral and bottom boundaries of the foundation
-are assumed to be impermeable.
+In this section, an illustrative example is presented, to show how the proposed approach can affect the uncer- tainty in the calculated slope stability via the use of only hydraulic measurement data.
+Figure 2 shows the geometry of an embankment over- lying a foundation. The embankment is 4 m high, with upstream and downstream side slopes of 1:2. It is 4 m wide at the crown and 20 m wide at its base. The upstream water level is 4 m above the base of the embankment and the downstream water level is at 0 m.
+The soil foundation is 40 m wide and 5 m deep, and the lateral and bottom boundaries of the foundation are assumed to be impermeable.
 3.1. Application of EnKF in stochastic seepage
 3.1.1. Results
-As previously stated, the results of an arbitrary realis-
-ation have been selected to represent the actual spatial
-variability of hydraulic conductivity at the site, which
-means that the hydraulic conductivity is known at all
-points, that is, in contrast to a real situation where it
-would not be known everywhere. In the analysis, the
-embankment is assumed to be homogeneous, whereas
-the foundation is heterogeneous. This is for simplicity,
-to enable better understanding of the performance of
-the model. Moreover, the hydraulic conductivity is
-assumed to be isotropic, that is, the same in the vertical
-and horizontal directions, again for simplicity. The FE
-mesh size is 1.0 by 1.0 m, as shown in Figure 5(e), and
-the elements are 4-noded bi-linear elements with four
-Gaussian integration points. The cell size in the random
-ﬁeld is 0.5 by 0.5 m, which means that each of the four
-integration points is assigned a different cell value from
-the random ﬁeld. Hence 800 hydraulic conductivity
-values are generated in the foundation layer for the
-inverse analysis.
-Initially 500 realisations were generated for the
-ensemble. The mean and standard deviation (log-normal
-distribution) of the hydraulic conductivity for the ran-
-dom ﬁeld generation were both selected to be 10−6 m/s.
+As previously stated, the results of an arbitrary realis- ation have been selected to represent the actual spatial variability of hydraulic conductivity at the site, which means that the hydraulic conductivity is known at all points, that is, in contrast to a real situation where it would not be known everywhere. In the analysis, the embankment is assumed to be homogeneous, whereas the foundation is heterogeneous. This is for simplicity, to enable better understanding of the performance of the model. Moreover, the hydraulic conductivity is assumed to be isotropic, that is, the same in the vertical and horizontal directions, again for simplicity. The FE mesh size is 1.0 by 1.0 m, as shown in Figure 5(e), and the elements are 4-noded bi-linear elements with four
+Gaussian integration points. The cell size in the random ﬁeld is 0.5 by 0.5 m, which means that each of the four integration points is assigned a different cell value from the random ﬁeld. Hence 800 hydraulic conductivity values are generated in the foundation layer for the inverse analysis.
+Initially 500 realisations were generated for the ensemble. The mean and standard deviation (log-normal distribution) of the hydraulic conductivity for the ran- dom ﬁeld generation were both selected to be 10−6 m/s.
 The scale of ﬂuctuation was selected to be anisotropic
-(Lloret-Cabot, Fenton, and Hicks 2014) and within realis-
-tic bounds, with the vertical and horizontal scales of ﬂuc-
-tuation
-for
-the
-foundation
-being
+(Lloret-Cabot, Fenton, and Hicks 2014) and within realis- tic bounds, with the vertical and horizontal scales of ﬂuc- tuation for the foundation being
 1.0 and
-8.0 m,
-respectively (Cho and Park 2010; Firouzianbandpey
-et al. 2014; Hicks and Onisiphorou 2005; Suchomel and
-Mašín 2010). It is anticipated that these initial values
-can be estimated from laboratory tests, or soil databases,
-where sufﬁcient similar material is available. Such tests
-have previously been utilised to generate input statistics
-for RFEM analyses or parameter variations in parametric
-FEM analyses. Moreover, the initial estimated scale of
-ﬂuctuation and degree of anisotropy of the heterogeneity
-could be estimated from CPT data (e.g. Lloret-Cabot,
+8.0 m, respectively (Cho and Park 2010; Firouzianbandpey et al. 2014; Hicks and Onisiphorou 2005; Suchomel and
+Mašín 2010). It is anticipated that these initial values can be estimated from laboratory tests, or soil databases, where sufﬁcient similar material is available. Such tests have previously been utilised to generate input statistics for RFEM analyses or parameter variations in parametric
+FEM analyses. Moreover, the initial estimated scale of ﬂuctuation and degree of anisotropy of the heterogeneity could be estimated from CPT data (e.g. Lloret-Cabot,
 Fenton, and Hicks 2014).
-The realisation selected to provide the measured data
-is shown in Figure 3(a), with the discrete nature of the
-hydraulic conductivity values in the ﬁgure being due to
-single values being assigned to each Gauss point. Figure
+The realisation selected to provide the measured data is shown in Figure 3(a), with the discrete nature of the hydraulic conductivity values in the ﬁgure being due to single values being assigned to each Gauss point. Figure
 3(b) shows that the initial estimate, based on the mean of
 500 realisations, approximates to the input mean of k
-= 10−6 m/s. Figure 4(a) and 4(b) shows the error in the
-hydraulic head values, generated by the initial esti-
-mation of the hydraulic conductivity and the updated
-hydraulic conductivity, respectively, that is:
+= 10−6 m/s. Figure 4(a) and 4(b) shows the error in the hydraulic head values, generated by the initial esti- mation of the hydraulic conductivity and the updated hydraulic conductivity, respectively, that is:
 1initial = hinitial −hreference
 (17)
 1updated = hupdated −hreference
 (18)
 Figure 2. Geometry of the illustrative example (dimensions in metres).
-228
 P. J. VARDON ET AL.
-where 1initial and 1updated are the initial and updated
-errors in hydraulic head, respectively, and hreference,
-hinitial and hupdated are the hydraulic heads calculated
-from the reference hydraulic conductivity ﬁeld, and
-the initial and updated estimations of the hydraulic
-conductivity ﬁeld, respectively. Figure 4(c)–(e) shows
-the reference, initial and the updated pore water
-head distributions. It is seen that the geometry of the
-system controls the overall shape of the distribution,
-with only relatively minor perturbations due to the
-heterogeneity. However, these perturbations are large
-enough (∼0.3 m) to give more information on the
-local hydraulic conductivity distribution.
-The number of synthetic measurements used in the
-analysis was ﬁrst chosen to be 88, with the locations of
-the measuring points shown in Figure 5(a) as solid
-dots. Three further patterns of measuring points were
-also used, that is, 44 (Figure 5(b)), 24 (Figure 5(c)) and
-12 (Figure 5(d)) points, where the full column of syn-
-thetic measurements is used in each measurement con-
-ﬁguration.
-The
-element
-and
-local
-Gauss
-point
-numbering are given in Figure 5(e). All monitoring
-points for the synthetic measurements have been located
-in the foundation, for two reasons: (i) for long-term ﬁeld
-measurements, ensuring that the points are saturated
-increases the reliability of the sensors and (ii) the foun-
-dation of an embankment is more likely to be highly
-heterogeneous.
-Each element in 1i (Equation (12)) has been
-selected from a normal distribution, with a zero
-mean and a variance chosen to be 10−6 m2, for the
-hydraulic head measurement. The variance is related
-to the precision of the measurement tools. A variance
-of 10−6 m2 means that the accuracy of the synthetic
-measurements of hydraulic head are required to be
+where 1initial and 1updated are the initial and updated errors in hydraulic head, respectively, and hreference, hinitial and hupdated are the hydraulic heads calculated from the reference hydraulic conductivity ﬁeld, and the initial and updated estimations of the hydraulic conductivity ﬁeld, respectively. Figure 4(c)–(e) shows the reference, initial and the updated pore water head distributions. It is seen that the geometry of the system controls the overall shape of the distribution, with only relatively minor perturbations due to the heterogeneity. However, these perturbations are large enough (∼0.3 m) to give more information on the local hydraulic conductivity distribution.
+The number of synthetic measurements used in the analysis was ﬁrst chosen to be 88, with the locations of the measuring points shown in Figure 5(a) as solid dots. Three further patterns of measuring points were also used, that is, 44 (Figure 5(b)), 24 (Figure 5(c)) and
+12 (Figure 5(d)) points, where the full column of syn- thetic measurements is used in each measurement con- ﬁguration.
+The element and local
+Gauss point numbering are given in Figure 5(e). All monitoring points for the synthetic measurements have been located in the foundation, for two reasons: (i) for long-term ﬁeld measurements, ensuring that the points are saturated increases the reliability of the sensors and (ii) the foun- dation of an embankment is more likely to be highly heterogeneous.
+Each element in 1i (Equation (12)) has been selected from a normal distribution, with a zero mean and a variance chosen to be 10−6 m2, for the hydraulic head measurement. The variance is related to the precision of the measurement tools. A variance of 10−6 m2 means that the accuracy of the synthetic measurements of hydraulic head are required to be
 ±0.003 m (i.e. 3σ).
-In this illustrative example, the authors use 50 iter-
-ation steps of the EnKF. The updated estimated
-hydraulic conductivity ﬁeld (the average of the ﬁnal
-updated values of the 500 ensemble members), arising
-from the EnKF results, is shown in Figure 3(c) and dis-
-plays a clear local variability. The hydraulic head
-errors resulting from this updated ﬁeld are small, as
-shown in Figure 4(b). Figure 6 shows the comparison
-between the 800 reference values of the local hydraulic
-conductivity ﬁeld, the initial estimation of the local
+In this illustrative example, the authors use 50 iter- ation steps of the EnKF. The updated estimated hydraulic conductivity ﬁeld (the average of the ﬁnal updated values of the 500 ensemble members), arising from the EnKF results, is shown in Figure 3(c) and dis- plays a clear local variability. The hydraulic head errors resulting from this updated ﬁeld are small, as shown in Figure 4(b). Figure 6 shows the comparison between the 800 reference values of the local hydraulic conductivity ﬁeld, the initial estimation of the local
 Figure 3. Initial and updated estimations of the logarithmic hydraulic conductivity, ln(k), ﬁeld compared to the reference case (k in m/s):
-(a) reference ﬁeld of ln(k) in the foundation; (b) initial estimation of ln(k) ﬁeld (taken to be the mean of the ensemble) and (c) updated
-estimation of ln(k) ﬁeld after inverse analysis (mean of the ensemble).
-GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS
-229
-hydraulic conductivity ﬁeld and the updated estimate
-of the local hydraulic conductivity ﬁeld, based on aver-
-aging the 500 ensemble members. Figure 6(a)–(c)
-shows the comparisons at the ends of iteration steps
-1, 5 and 50, respectively, while the sequential number-
-ing of the Gauss points used in Figure 6(a)–(c) is
-shown in terms of depth in Figure 6(d). It can be
-seen that the estimation of the local hydraulic
-conductivity ﬁeld improved quickly. After ﬁve iter-
-ations, there is no signiﬁcant change in the estimation.
+(a) reference ﬁeld of ln(k) in the foundation; (b) initial estimation of ln(k) ﬁeld (taken to be the mean of the ensemble) and (c) updated estimation of ln(k) ﬁeld after inverse analysis (mean of the ensemble).
+GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS hydraulic conductivity ﬁeld and the updated estimate of the local hydraulic conductivity ﬁeld, based on aver- aging the 500 ensemble members. Figure 6(a)–(c) shows the comparisons at the ends of iteration steps
+1, 5 and 50, respectively, while the sequential number- ing of the Gauss points used in Figure 6(a)–(c) is shown in terms of depth in Figure 6(d). It can be seen that the estimation of the local hydraulic conductivity ﬁeld improved quickly. After ﬁve iter- ations, there is no signiﬁcant change in the estimation.
 3.1.2. Sensitivity analysis of EnKF
-A sensitivity analysis has been undertaken to study the
-inﬂuence of various aspects. In order to evaluate the
-ﬁnal results, the root mean square error (RMSE) of
-Figure 4. Error in hydraulic head (in metres) based on the initial and updated hydraulic conductivity ﬁelds relative to the reference
-hydraulic conductivity ﬁeld: (a) error between reference and initial hydraulic conductivity ﬁelds; (b) error between reference and
-updated hydraulic conductivity ﬁelds; (c) reference pore pressure head ﬁeld; (d) initial pore pressure head ﬁeld and (e) updated ﬁeld.
-230
+A sensitivity analysis has been undertaken to study the inﬂuence of various aspects. In order to evaluate the ﬁnal results, the root mean square error (RMSE) of
+Figure 4. Error in hydraulic head (in metres) based on the initial and updated hydraulic conductivity ﬁelds relative to the reference hydraulic conductivity ﬁeld: (a) error between reference and initial hydraulic conductivity ﬁelds; (b) error between reference and updated hydraulic conductivity ﬁelds; (c) reference pore pressure head ﬁeld; (d) initial pore pressure head ﬁeld and (e) updated ﬁeld.
 P. J. VARDON ET AL.
 the hydraulic head has been used. This is deﬁned as
 RMSE =
 
-
-
-
-
-
-
-
-
-1
 Nk
-
-Nk
-i=1
-(ht
-i −he
-i)2
-
-
-
+
+Nk i=1
+(ht i −he i)2
+
 
-(19)
-where Nk is either the number of unknown hydraulic
-head values in the foundation layer (i.e. the total num-
-ber of nodes in the foundation), or the number of
-measurement points (i.e. m), and superscripts t and e
-represent the true and estimated values, respectively.
-The lower the RMSE, the better the result. For this
-analysis the hydraulic conductivity, although being
-the variable updated, has not been used in the RMSE
-calculation due to the steady-state calculations used.
-Speciﬁcally, due to the steady-state nature of the simu-
-lations, the results of the hydraulic conductivity are
-not unique; only the relative differences between the
-hydraulic
-conductivities
-at
-different
-points
-are.
-Hence, it is the hydraulic head values which have
-been used and optimised in the KF.
-Measurement error. Figure 7 shows the RMSE result-
-ing from different measurement error variances. The
-solid lines represent the RMSE values when only the
-measurement points are taken into account, whereas
-the dotted lines include all of the unknown hydraulic
-head values in the foundation layer. In all cases, the
-Figure 5. Locations of measuring points: (a) measurement point locations for 88 observation points; (b) measurement point locations
-for 44 observation points; (c) measurement point locations for 24 observation points; (d) measurement point locations for 12 obser-
-vation points and (e) mesh, element and local Gauss point numbering.
+(19) where Nk is either the number of unknown hydraulic head values in the foundation layer (i.e. the total num- ber of nodes in the foundation), or the number of measurement points (i.e. m), and superscripts t and e represent the true and estimated values, respectively.
+The lower the RMSE, the better the result. For this analysis the hydraulic conductivity, although being the variable updated, has not been used in the RMSE calculation due to the steady-state calculations used.
+Speciﬁcally, due to the steady-state nature of the simu- lations, the results of the hydraulic conductivity are not unique; only the relative differences between the hydraulic conductivities at different points are.
+Hence, it is the hydraulic head values which have been used and optimised in the KF.
+Measurement error. Figure 7 shows the RMSE result- ing from different measurement error variances. The solid lines represent the RMSE values when only the measurement points are taken into account, whereas the dotted lines include all of the unknown hydraulic head values in the foundation layer. In all cases, the
+Figure 5. Locations of measuring points: (a) measurement point locations for 88 observation points; (b) measurement point locations for 44 observation points; (c) measurement point locations for 24 observation points; (d) measurement point locations for 12 obser- vation points and (e) mesh, element and local Gauss point numbering.
 GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS
-231
 Figure 6. Comparison between the reference values, initial values and updated values of the local hydraulic conductivity at different
-EnKF iteration steps: (a) comparison at step 1; (b) comparison at step 5; (c) comparison at step 50 and (d) Gauss point numbering against
-depth.
-232
+EnKF iteration steps: (a) comparison at step 1; (b) comparison at step 5; (c) comparison at step 50 and (d) Gauss point numbering against depth.
 P. J. VARDON ET AL.
 size of the ensemble was 500 members. Considering the
-RMSE for only the measured points, the error is gener-
-ally seen to reduce with each iteration step. When the
-input variance of the measurement error is equal to or
-lower than 10−6 m2, the RMSE for the measured points
-reduces to almost zero and has therefore been used in
-the further analyses presented in this paper. This clearly
-illustrates that the method is able to optimise the results
-based upon the measured data. Considering the RMSE
-for all the unknown hydraulic head values, in all cases
-the RMSE initially reduces before converging. Note
-that, in this method, for each iteration of the EnKF a
-different ensemble of random errors (1i from Equation
-(12)) was used. An alternative algorithm was also exam-
-ined where the same random ensemble was used; how-
-ever, with this algorithm, the results were found not to
-converge for larger values of the measurement error. It
-is seen that, where the measurement errors are small,
-the majority of the improvement occurs within 10 iter-
-ation steps. For larger errors convergence is slower,
-although the improvement continues with more iter-
-ation steps for all cases.
-Ensemble size. Another important aspect of the EnKF
-is the size of the ensemble. The authors analysed several
-cases with different sizes to see the inﬂuence, although, in
-all cases, the input variance of the measurement error
-was 10−6 m2. Figure 8 shows the RMSE for different
-ensemble sizes; once again, with the solid lines represent-
-ing RMSE values based on only the measured points and
-the dotted lines for RMSE values based on all the
-unknown hydraulic head values in the foundation
-layer. Figure 8 shows that, when the size of the ensemble
-is too small (i.e. 200), the RMSE oscillates. It was found
-that, for the problem analysed, 500 ensemble members
-were sufﬁcient, although for other problems this may
-not be the case.
+RMSE for only the measured points, the error is gener- ally seen to reduce with each iteration step. When the input variance of the measurement error is equal to or lower than 10−6 m2, the RMSE for the measured points reduces to almost zero and has therefore been used in the further analyses presented in this paper. This clearly illustrates that the method is able to optimise the results based upon the measured data. Considering the RMSE for all the unknown hydraulic head values, in all cases the RMSE initially reduces before converging. Note that, in this method, for each iteration of the EnKF a different ensemble of random errors (1i from Equation
+(12)) was used. An alternative algorithm was also exam- ined where the same random ensemble was used; how- ever, with this algorithm, the results were found not to converge for larger values of the measurement error. It is seen that, where the measurement errors are small, the majority of the improvement occurs within 10 iter- ation steps. For larger errors convergence is slower, although the improvement continues with more iter- ation steps for all cases.
+Ensemble size. Another important aspect of the EnKF is the size of the ensemble. The authors analysed several cases with different sizes to see the inﬂuence, although, in all cases, the input variance of the measurement error was 10−6 m2. Figure 8 shows the RMSE for different ensemble sizes; once again, with the solid lines represent- ing RMSE values based on only the measured points and the dotted lines for RMSE values based on all the unknown hydraulic head values in the foundation layer. Figure 8 shows that, when the size of the ensemble is too small (i.e. 200), the RMSE oscillates. It was found that, for the problem analysed, 500 ensemble members were sufﬁcient, although for other problems this may not be the case.
 3.2. Prediction of seepage uncertainty
-Initially, there is only knowledge about the global distri-
-bution of hydraulic conductivity in the whole foundation
-and there is no information about the local variability of
-the hydraulic conductivity. Before the inverse analysis
-was applied, a stochastic seepage analysis was carried
-out to predict the seepage behaviour based on the global
-distribution of hydraulic conductivity.
-Figure 9 shows the comparison of results from the
-stochastic seepage analysis before and after inverse
-analysis. It can be seen from Figure 9(a) that the
-range of inﬂows is reduced, which indicates an
-improvement in the estimation of the hydraulic con-
-ductivity. In Figure 9(b), it is seen that there is a sig-
-niﬁcant
-change
-in
-the
-cumulative
-distribution
-function (CDF); in particular, an increase in the gradi-
-ent indicates a reduction in the uncertainty. Note that,
-although the absolute values of the inﬂow are not
-important in this case, due to the steady-state nature
-of the analyses, the reduction in uncertainty represents
-a much improved hydraulic conductivity ﬁeld with
-respect to the local comparative variations.
-3.3. Slope stability with improved seepage
-behaviour estimation
-The improved prediction of pore water pressure in the
-foundation has been imported into the slope stability
-analysis. The slope stability has been computed
-based on the unimproved and improved pore pressure
-ﬁelds. The saturated unit weight of both the embank-
-ment and foundation is 20 kN/m3. The unsaturated
-unit weight of the embankment is 13 kN/m3. The
+Initially, there is only knowledge about the global distri- bution of hydraulic conductivity in the whole foundation and there is no information about the local variability of the hydraulic conductivity. Before the inverse analysis was applied, a stochastic seepage analysis was carried out to predict the seepage behaviour based on the global distribution of hydraulic conductivity.
+Figure 9 shows the comparison of results from the stochastic seepage analysis before and after inverse analysis. It can be seen from Figure 9(a) that the range of inﬂows is reduced, which indicates an improvement in the estimation of the hydraulic con- ductivity. In Figure 9(b), it is seen that there is a sig- niﬁcant change in the cumulative distribution function (CDF); in particular, an increase in the gradi- ent indicates a reduction in the uncertainty. Note that, although the absolute values of the inﬂow are not important in this case, due to the steady-state nature of the analyses, the reduction in uncertainty represents a much improved hydraulic conductivity ﬁeld with respect to the local comparative variations.
+3.3. Slope stability with improved seepage behaviour estimation
+The improved prediction of pore water pressure in the foundation has been imported into the slope stability analysis. The slope stability has been computed based on the unimproved and improved pore pressure ﬁelds. The saturated unit weight of both the embank- ment and foundation is 20 kN/m3. The unsaturated unit weight of the embankment is 13 kN/m3. The
 Young’s modulus and Poisson’s ratio are 105 kPa and
-0.3, respectively. The strength parameters (cohesion
-and friction angle) of the foundation follow truncated
-normal distributions (i.e. with any negative values
-Figure 7. RMSE of hydraulic head for various input measurement
-error variances. Solid lines represent RMSE values with only the
-measurement points taken into account and the dotted lines
-include all of the unknown hydraulic head values in the foun-
-dation layer.
+0.3, respectively. The strength parameters (cohesion and friction angle) of the foundation follow truncated normal distributions (i.e. with any negative values
+Figure 7. RMSE of hydraulic head for various input measurement error variances. Solid lines represent RMSE values with only the measurement points taken into account and the dotted lines include all of the unknown hydraulic head values in the foun- dation layer.
 Figure 8. RMSE for different ensemble sizes.
-GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS
-233
-discarded), whereas constant strength parameters are
-used for the embankment and these are selected to
-be equal to the mean values assumed for the foun-
-dation. The mean cohesion and friction angle are 10
-kPa and 30°, respectively. The coefﬁcient of variation
-of cohesion is 0.2 (Arnold and Hicks 2011) and the
-coefﬁcient of variation of the friction angle is chosen
-to be 0.15 (Phoon and Kulhawy 1999). The scale of
-ﬂuctuation is related to the deposition process (Firou-
-zianbandpey et al. 2014), so it is assumed that the scale
-of ﬂuctuation of the cohesion and friction angle are
-equal to each other and also identical to the scale of
-ﬂuctuation of the hydraulic conductivity. However,
-note that this assumption is not implicit to the method
-and that the method is also applicable to the case
-where different scales of ﬂuctuation exist for different
-parameters. The cross-correlations are included using
-the method deﬁned in Section 2.3.2.
-The distribution of FOS from the slope stability analy-
-sis without improvement of the pore pressure prediction,
-and for uncorrelated strength parameters, is shown in
-Figure 10 in light grey and approximated by a normal
-distribution. The distribution of FOS for the slope with
-the updated hydraulic conductivity (based on the
-measured data), for uncorrelated strength parameters,
-is shown hatched.
-The mean and standard deviation of the FOS in the
-original case are 1.95 and 0.12, whereas the mean and
-standard deviation of the FOS in the updated case are
-2.02 and 0.11. Hence, there is a modest reduction in
-the uncertainty and an increase in the computed slope
-reliability when considering updated pore pressure simu-
-lations. Note that the increase in the mean FOS is due to
-the speciﬁc distribution of pore pressures within the
-foundation layer and the associated changes in shear
-strength;
-for
-another
-spatial
-distribution
-of
-pore
-pressure, it could be possible for the mean FOS to
-decrease when using updated pore pressure simulations.
+GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS discarded), whereas constant strength parameters are used for the embankment and these are selected to be equal to the mean values assumed for the foun- dation. The mean cohesion and friction angle are 10 kPa and 30°, respectively. The coefﬁcient of variation of cohesion is 0.2 (Arnold and Hicks 2011) and the coefﬁcient of variation of the friction angle is chosen to be 0.15 (Phoon and Kulhawy 1999). The scale of ﬂuctuation is related to the deposition process (Firou- zianbandpey et al. 2014), so it is assumed that the scale of ﬂuctuation of the cohesion and friction angle are equal to each other and also identical to the scale of ﬂuctuation of the hydraulic conductivity. However, note that this assumption is not implicit to the method and that the method is also applicable to the case where different scales of ﬂuctuation exist for different parameters. The cross-correlations are included using the method deﬁned in Section 2.3.2.
+The distribution of FOS from the slope stability analy- sis without improvement of the pore pressure prediction, and for uncorrelated strength parameters, is shown in
+Figure 10 in light grey and approximated by a normal distribution. The distribution of FOS for the slope with the updated hydraulic conductivity (based on the measured data), for uncorrelated strength parameters, is shown hatched.
+The mean and standard deviation of the FOS in the original case are 1.95 and 0.12, whereas the mean and standard deviation of the FOS in the updated case are
+2.02 and 0.11. Hence, there is a modest reduction in the uncertainty and an increase in the computed slope reliability when considering updated pore pressure simu- lations. Note that the increase in the mean FOS is due to the speciﬁc distribution of pore pressures within the foundation layer and the associated changes in shear strength; for another spatial distribution of pore pressure, it could be possible for the mean FOS to decrease when using updated pore pressure simulations.
 The slight reduction in the standard deviation is
-Figure 9. Probability distributions of the total inﬂow based on
-the initial and updated hydraulic conductivity ﬁelds, based on
-500 realisations (ensemble members): (a) PDF of total inﬂow
-and (b) CDF of total inﬂow.
-Figure 10. Probability distributions of FOS based on the initial
-and updated pore pressure ﬁelds, based on 500 realisations: (a)
+Figure 9. Probability distributions of the total inﬂow based on the initial and updated hydraulic conductivity ﬁelds, based on
+500 realisations (ensemble members): (a) PDF of total inﬂow and (b) CDF of total inﬂow.
+Figure 10. Probability distributions of FOS based on the initial and updated pore pressure ﬁelds, based on 500 realisations: (a)
 PDF of FOS and (b) CDF of FOS.
-234
 P. J. VARDON ET AL.
-explained by a reduction in the possible effective stress
-variations in the analysis, due to the constrained hydrau-
-lic conductivity ﬁeld.
-3.4. Slope stability by using improved hydraulic
-conductivity estimation and strength parameters
-cross-correlated with hydraulic conductivity
-In this section, the previous improved estimations of
-pore pressure are again imported into the slope stability
-analysis. However, due to the cross-correlation proposed
-between hydraulic conductivity and strength parameters,
-and between the shear strength components themselves,
-updated strength parameters have also been used in the
-slope stability analysis.
-This paper proposes that the hydraulic conductivity
-can be correlated with the shear strength properties of
-the soil. While little experimental data have previously
-been analysed in this manner, both properties have
-been investigated in terms of porosity and particle size.
+explained by a reduction in the possible effective stress variations in the analysis, due to the constrained hydrau- lic conductivity ﬁeld.
+3.4. Slope stability by using improved hydraulic conductivity estimation and strength parameters cross-correlated with hydraulic conductivity
+In this section, the previous improved estimations of pore pressure are again imported into the slope stability analysis. However, due to the cross-correlation proposed between hydraulic conductivity and strength parameters, and between the shear strength components themselves, updated strength parameters have also been used in the slope stability analysis.
+This paper proposes that the hydraulic conductivity can be correlated with the shear strength properties of the soil. While little experimental data have previously been analysed in this manner, both properties have been investigated in terms of porosity and particle size.
 The well-known Kozeny–Carman equation (Carman
-1937) correlates the saturated hydraulic conductivity
-with porosity and particle size, and has been widely
-applied in research, such as in Le et al. (2015). The
-equation deﬁnes a relationship in which the hydraulic
-conductivity increases with increasing porosity and
-increasing particle size. Vallejo and Mawby (2000) inves-
-tigated the inﬂuence of porosity and particle size on the
-shear strength of granular mixtures and found that
-the porosity of the mixture has a strong inﬂuence on
-the shear strength, with the peak shear strength generally
-correlating to the minimum porosity. Bartetzko and
-Kopf (2007) studied the undrained shear strength and
-porosity versus depth relationships of marine sediments.
-While a spread of results was noted, most ﬁeld tests
-exhibited an increase in shear strength with depth and
-a decrease in porosity, that is, the porosity and shear
-strength were negatively correlated. Moreover, the effect
-of particle size was also studied; it was shown that the
-shear strength, in terms of the coefﬁcient of friction,
-increased with an increase in quartz content (and a
-decrease in clay content). Thevanayagam (1998) investi-
-gated the effects of particle size and void ratio on the
-undrained shear strength, ﬁnding that, in general, with
-a lower porosity the shear strength increased. The mix-
-ture of particle sizes inﬂuenced the shear strength in a
-more complex way, with high proportions of a certain
-constituent particle size dominating the behaviour,
-alongside a dependence on density and conﬁning
-pressure. Therefore, it seems reasonable that the hydrau-
-lic conductivity can be correlated to the shear strength of
-a soil in a certain setting. However, the correlation prop-
-erties will depend on how the variation of a soil in a cer-
-tain locale depends upon the particle size and/or porosity
-distributions.
-Figure 11. Probability distributions of FOS for four different
-cases: (a) PDF of FOS (rlnk,c = −0.5, rlnk,w = −0.2, rc,w = 0); (b)
-PDF of FOS (rlnk,c = −0.5, rlnk,w = −0.2, rc,w = −0.5) and (c) CDF
-of FOS.
+1937) correlates the saturated hydraulic conductivity with porosity and particle size, and has been widely applied in research, such as in Le et al. (2015). The equation deﬁnes a relationship in which the hydraulic conductivity increases with increasing porosity and increasing particle size. Vallejo and Mawby (2000) inves- tigated the inﬂuence of porosity and particle size on the shear strength of granular mixtures and found that the porosity of the mixture has a strong inﬂuence on the shear strength, with the peak shear strength generally correlating to the minimum porosity. Bartetzko and
+Kopf (2007) studied the undrained shear strength and porosity versus depth relationships of marine sediments.
+While a spread of results was noted, most ﬁeld tests exhibited an increase in shear strength with depth and a decrease in porosity, that is, the porosity and shear strength were negatively correlated. Moreover, the effect of particle size was also studied; it was shown that the shear strength, in terms of the coefﬁcient of friction, increased with an increase in quartz content (and a decrease in clay content). Thevanayagam (1998) investi- gated the effects of particle size and void ratio on the undrained shear strength, ﬁnding that, in general, with a lower porosity the shear strength increased. The mix- ture of particle sizes inﬂuenced the shear strength in a more complex way, with high proportions of a certain constituent particle size dominating the behaviour, alongside a dependence on density and conﬁning pressure. Therefore, it seems reasonable that the hydrau- lic conductivity can be correlated to the shear strength of a soil in a certain setting. However, the correlation prop- erties will depend on how the variation of a soil in a cer- tain locale depends upon the particle size and/or porosity distributions.
+Figure 11. Probability distributions of FOS for four different cases: (a) PDF of FOS (rlnk,c = −0.5, rlnk,w = −0.2, rc,w = 0); (b)
+PDF of FOS (rlnk,c = −0.5, rlnk,w = −0.2, rc,w = −0.5) and (c) CDF of FOS.
 GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS
-235
-The correlation matrix that has been used, for illustra-
-tive purposes, is
-r =
-1
+The correlation matrix that has been used, for illustra- tive purposes, is r =
 −0.5
-−0.2
-rlnk,c
-1
-−0.5
-rlnk,w
-rc,w
-1
+−0.2 rlnk,c
+−0.5 rlnk,w rc,w
 ⎡
 ⎣
 ⎤
 ⎦
 (20)
-As outlined above, it is proposed that, as a soil gets den-
-ser, the permeability will decrease and the friction angle
-and cohesion will increase (e.g. Bartetzko and Kopf 2007;
-Carman 1937; Thevanayagam 1998). Moreover, a lower
-permeability may also be apparent if there are more
-smaller, for example, clay, particles, which may then
-result in a higher cohesion. Therefore, a negative cross-
-correlation between hydraulic conductivity and both
-the friction angle and cohesion has been considered.
-The effect of the cross-correlation has been investigated
-in detail in Section 3.5.2. As for the cross-correlation
-between cohesion and friction angle, Arnold and Hicks
-(2011) indicated that normally there is a negative corre-
-lation between these two strength parameters. Rackwitz
-(2000) suggested that the correlation coefﬁcient between
-friction angle and cohesion is negative and around −0.5,
-although El-Ramly, Morgenstern, and Cruden (2006)
-and Suchomel and Mašín (2010) found that the cross-
-correlation between cohesion and tangent of friction
-angle is −0.06 and −0.0719, respectively, for the same
-marine clay. Therefore, in this paper, two different
-cases were analysed; one considered the cross-correlation
-between cohesion and friction angle, and the other did
-not.
-It can be seen, in Figure 11, that there is a further
-reduction in slope stability uncertainty when the cross-
-correlations between the hydraulic and strength par-
-ameters are accounted for. The mean and standard
-deviation of FOS, which are based on the updated
-hydraulic conductivity and cross-correlated strength
-parameters with hydraulic conductivity, are (a) 1.97
-and 0.10 when the cohesion and friction angle are
-uncorrelated (rc,w = 0) and (b) 2.00 and 0.06 when the
-cohesion and friction angle are negatively correlated
-(rc,w = −0.5). Figure 11(c) summarises the results in
-the form of cumulative distribution functions. It can
-be seen that the reliable FOS, for example, at the 95%
-conﬁdence level, increases from 1.76 for the initial dis-
-tribution of hydraulic conductivity, to 1.82 for the
-updated distribution of hydraulic conductivity, and to
-1.90 when the shear strength properties are cross-corre-
-lated as shown in Figure 11(b).
+As outlined above, it is proposed that, as a soil gets den- ser, the permeability will decrease and the friction angle and cohesion will increase (e.g. Bartetzko and Kopf 2007;
+Carman 1937; Thevanayagam 1998). Moreover, a lower permeability may also be apparent if there are more smaller, for example, clay, particles, which may then result in a higher cohesion. Therefore, a negative cross- correlation between hydraulic conductivity and both the friction angle and cohesion has been considered.
+The effect of the cross-correlation has been investigated in detail in Section 3.5.2. As for the cross-correlation between cohesion and friction angle, Arnold and Hicks
+(2011) indicated that normally there is a negative corre- lation between these two strength parameters. Rackwitz
+(2000) suggested that the correlation coefﬁcient between friction angle and cohesion is negative and around −0.5, although El-Ramly, Morgenstern, and Cruden (2006) and Suchomel and Mašín (2010) found that the cross- correlation between cohesion and tangent of friction angle is −0.06 and −0.0719, respectively, for the same marine clay. Therefore, in this paper, two different cases were analysed; one considered the cross-correlation between cohesion and friction angle, and the other did not.
+It can be seen, in Figure 11, that there is a further reduction in slope stability uncertainty when the cross- correlations between the hydraulic and strength par- ameters are accounted for. The mean and standard deviation of FOS, which are based on the updated hydraulic conductivity and cross-correlated strength parameters with hydraulic conductivity, are (a) 1.97 and 0.10 when the cohesion and friction angle are uncorrelated (rc,w = 0) and (b) 2.00 and 0.06 when the cohesion and friction angle are negatively correlated
+(rc,w = −0.5). Figure 11(c) summarises the results in the form of cumulative distribution functions. It can be seen that the reliable FOS, for example, at the 95% conﬁdence level, increases from 1.76 for the initial dis- tribution of hydraulic conductivity, to 1.82 for the updated distribution of hydraulic conductivity, and to
+1.90 when the shear strength properties are cross-corre- lated as shown in Figure 11(b).
 3.5. Sensitivity of the numerical approach
-This section focuses on the sensitivity of the numerical
-approach with respect to both the number of synthetic
-measurements and the degree of cross-correlation
-between
-the
-hydraulic
-conductivity
-and
-strength
-parameters.
+This section focuses on the sensitivity of the numerical approach with respect to both the number of synthetic measurements and the degree of cross-correlation between the hydraulic conductivity and strength parameters.
 3.5.1. Number of measurement points
-In the previous illustrative example, the number of
-measurement points is 88. In order to investigate the
-inﬂuence of the number of measurement points, three
-further conﬁgurations of measurement points have
-been considered; these are for 12, 24 and 44 points, at
-the locations shown in Figure 5.
-It can be seen from Figure 12 that, when the number
-of measurement points is 12, the RMSE of hydraulic
-head for the measured points is higher than in the
-other three cases, indicating more error. Figure 13
-shows the standard deviation of the inﬂow (the sums
-of the ﬂuxes ﬂowing into the model domain) against
-the number of measurement points. As the number of
-Figure 12. RMSE of hydraulic head for different numbers of
-measurement points.
-Figure 13. Inﬂow standard deviation against the number of
-measurement points.
-236
+In the previous illustrative example, the number of measurement points is 88. In order to investigate the inﬂuence of the number of measurement points, three further conﬁgurations of measurement points have been considered; these are for 12, 24 and 44 points, at the locations shown in Figure 5.
+It can be seen from Figure 12 that, when the number of measurement points is 12, the RMSE of hydraulic head for the measured points is higher than in the other three cases, indicating more error. Figure 13 shows the standard deviation of the inﬂow (the sums of the ﬂuxes ﬂowing into the model domain) against the number of measurement points. As the number of
+Figure 12. RMSE of hydraulic head for different numbers of measurement points.
+Figure 13. Inﬂow standard deviation against the number of measurement points.
 P. J. VARDON ET AL.
-measurement points increases, the standard deviation of
-the calculated inﬂow decreases. However, it can be seen
-that, even when the number of measurement points is
-small, that is, 12, there is still a signiﬁcant reduction in
-the standard deviation, illustrating that the hydraulic
-conductivity ﬁeld is better captured.
-3.5.2. Inﬂuence of cross-correlation between
-hydraulic conductivity and strength parameters
-This section studies the sensitivity of the FOS distri-
-bution to different correlation coefﬁcients. Table 1
-gives the scenarios which have been studied. Scenario 1
-is to keep rlnk,c constant and change rlnk,w. Scenario 2
-is the opposite. Scenarios 1 and 2 do not take account
-of the cross-correlation between cohesion and friction
-angle. In Scenario 3, the cohesion and friction angle
-are cross-correlated.
-In the case which does not utilise inverse analysis,
-μFOS = 1.95 and the standard deviation of FOS is 0.122.
-The μFOS for the case which utilises inverse analysis,
-but does not take account of cross-correlation between
-any of the parameters, is 2.02 and the standard deviation
-of FOS is 0.108. Table 1 shows that there can be a further
-improvement in μFOS and the standard deviation, irre-
-spective of the cross-correlation.
-It can be seen in Figure 14(a) that, in Scenario 1, when
-the cross-correlation rlnk,w increases, μFOS also increases.
-The increase in μFOS is related to the hydraulic conduc-
-tivity in the foundation. In Figure 3(a), the “real” values
-of hydraulic conductivity near the embankment toe,
-through which the slip surface passes, are relatively
-large compared to those in other areas of the foundation.
-After using inverse analysis, the improved estimation of
-the hydraulic conductivity also gives higher local values
-in this area. Therefore, when rlnk,c is constant and
-rlnk,w changes from negative to positive values, it
-means that the friction angle, which is cross-correlated
-with the improved estimation of k, increases near the
-embankment toe. The increase of friction angle results
-in an increase of shear strength which causes the higher
-calculated FOS. Meanwhile, Table 1 shows that the stan-
-dard deviation also increases with rlnk,w. The shear
-strength is the combined effect of cohesion and friction
-angle, so when rlnk,w increases and rlnk,c is negative and
-Table 1. Scenarios for the sensitivity analysis of the cross-
-correlation coefﬁcients
+measurement points increases, the standard deviation of the calculated inﬂow decreases. However, it can be seen that, even when the number of measurement points is small, that is, 12, there is still a signiﬁcant reduction in the standard deviation, illustrating that the hydraulic conductivity ﬁeld is better captured.
+3.5.2. Inﬂuence of cross-correlation between hydraulic conductivity and strength parameters
+This section studies the sensitivity of the FOS distri- bution to different correlation coefﬁcients. Table 1 gives the scenarios which have been studied. Scenario 1 is to keep rlnk,c constant and change rlnk,w. Scenario 2 is the opposite. Scenarios 1 and 2 do not take account of the cross-correlation between cohesion and friction angle. In Scenario 3, the cohesion and friction angle are cross-correlated.
+In the case which does not utilise inverse analysis, μFOS = 1.95 and the standard deviation of FOS is 0.122.
+The μFOS for the case which utilises inverse analysis, but does not take account of cross-correlation between any of the parameters, is 2.02 and the standard deviation of FOS is 0.108. Table 1 shows that there can be a further improvement in μFOS and the standard deviation, irre- spective of the cross-correlation.
+It can be seen in Figure 14(a) that, in Scenario 1, when the cross-correlation rlnk,w increases, μFOS also increases.
+The increase in μFOS is related to the hydraulic conduc- tivity in the foundation. In Figure 3(a), the “real” values of hydraulic conductivity near the embankment toe, through which the slip surface passes, are relatively large compared to those in other areas of the foundation.
+After using inverse analysis, the improved estimation of the hydraulic conductivity also gives higher local values in this area. Therefore, when rlnk,c is constant and rlnk,w changes from negative to positive values, it means that the friction angle, which is cross-correlated with the improved estimation of k, increases near the embankment toe. The increase of friction angle results in an increase of shear strength which causes the higher calculated FOS. Meanwhile, Table 1 shows that the stan- dard deviation also increases with rlnk,w. The shear strength is the combined effect of cohesion and friction angle, so when rlnk,w increases and rlnk,c is negative and
+Table 1. Scenarios for the sensitivity analysis of the cross- correlation coefﬁcients
 Scenario
-Analysis
-rlnk,c
-rlnk,w
-rc,w
-µFOS
-σFOS
-1
-1
+Analysis rlnk,c rlnk,w rc,w µFOS σFOS
 −0.5
 −0.5
-0
 1.954
 0.079
-2
 −0.5
 −0.2
-0
 1.973
 0.097
-3
 −0.5
 −0.1
-0
 1.980
 0.101
-4
 −0.5
 0.2
-0
 2.002
 0.108
-5
 −0.5
 0.5
-0
 2.028
 0.109
-2
-6
 −0.3
 −0.2
-0
 1.983
 0.103
-7
-0
 −0.2
-0
 2.000
 0.107
-8
 0.3
 −0.2
-0
 2.020
 0.107
-9
 0.5
 −0.2
-0
 2.034
 0.106
-3
-10
 −0.5
 −0.2
 −0.5
 1.996
 0.062
-11
 −0.5
 −0.2
 −0.2
 1.982
 0.085
-Figure 14. Fitted normal distributions of FOS for different coefﬁ-
-cients of cross-correlation: (a) inﬂuence of rlnk,w; (b) inﬂuence of
-rlnk,c and (c) inﬂuence of rc,w.
-GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS
-237
-constant, the range of shear strength becomes wider with
-the increase of the correlation coefﬁcient. The uncer-
-tainty in FOS is strongly related to the range of shear
-strength; hence, the wider the range of shear strength,
-the larger the standard deviation of FOS. In Figure 14
-(b), the variations of the mean and standard deviation
-of FOS for Scenario 2 are similar to those for Scenario 1.
-In Figure 14(c), when the cohesion and friction angle
-are negatively cross-correlated, the standard deviation of
-FOS can be further reduced compared to the case in
-which the cohesion and friction angle are uncorrelated.
-In this section, it has been shown that the cross-
-correlation can play an important role in the ﬁnal dis-
-tribution of FOS; in particular, by reducing the uncertainty
-and thereby generally increasing the FOS corresponding to
-a conﬁdence level of, for example, 95%. Further research on
-the values of the cross-correlations, in general, is needed.
+Figure 14. Fitted normal distributions of FOS for different coefﬁ- cients of cross-correlation: (a) inﬂuence of rlnk,w; (b) inﬂuence of rlnk,c and (c) inﬂuence of rc,w.
+GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS constant, the range of shear strength becomes wider with the increase of the correlation coefﬁcient. The uncer- tainty in FOS is strongly related to the range of shear strength; hence, the wider the range of shear strength, the larger the standard deviation of FOS. In Figure 14
+(b), the variations of the mean and standard deviation of FOS for Scenario 2 are similar to those for Scenario 1.
+In Figure 14(c), when the cohesion and friction angle are negatively cross-correlated, the standard deviation of
+FOS can be further reduced compared to the case in which the cohesion and friction angle are uncorrelated.
+In this section, it has been shown that the cross- correlation can play an important role in the ﬁnal dis- tribution of FOS; in particular, by reducing the uncertainty and thereby generally increasing the FOS corresponding to a conﬁdence level of, for example, 95%. Further research on the values of the cross-correlations, in general, is needed.
 4. Conclusions
-In this paper, a method to reduce the uncertainty in slope
-stability analyses via ﬁeld observations, inverse analysis
-and the RFEM is presented. It is shown, via the use of
-a synthetic dataset, that the method can be used to
-reduce the uncertainty in calculated factors of safety
-and, in general, reduce the calculated probabilities of fail-
-ure. It is anticipated that this may contribute signiﬁcantly
-to the assessment of existing geotechnical infrastructure.
-The main workﬂow is to ﬁrst make use of the hydrau-
-lic measurements (i.e. pore pressures) to directly
-improve the estimation of local hydraulic conductivity
-via inverse analysis. The updated hydraulic conductivity
-can generate better predictions of the seepage behaviour
-in the domain. Meanwhile, due to the cross-correlation
-between hydraulic parameters and strength parameters,
-the strength parameters (i.e. cohesion and friction
-angle) can be indirectly updated based on the updated
-hydraulic conductivity. The updated predictions of
-both seepage behaviour and strength parameters are sim-
-ultaneously imported into the slope stability analysis. It
-is shown that the slope stability computation can not
-only be improved by the better prediction of the seepage
-behaviour (i.e. the uncertainty reduced), but also be
-further improved by cross-correlating the hydraulic
-and strength parameters. This represents an improve-
-ment from previous research in which the hydraulic par-
-ameters were updated based on hydraulic measurements
-and the strength parameters were updated based on
-displacements.
-Extending this method to include time dependency is
-proposed, as a further step to further reduce uncertainty
-in predictions and reduce the amount of measurement
-data points required.
+In this paper, a method to reduce the uncertainty in slope stability analyses via ﬁeld observations, inverse analysis and the RFEM is presented. It is shown, via the use of a synthetic dataset, that the method can be used to reduce the uncertainty in calculated factors of safety and, in general, reduce the calculated probabilities of fail- ure. It is anticipated that this may contribute signiﬁcantly to the assessment of existing geotechnical infrastructure.
+The main workﬂow is to ﬁrst make use of the hydrau- lic measurements (i.e. pore pressures) to directly improve the estimation of local hydraulic conductivity via inverse analysis. The updated hydraulic conductivity can generate better predictions of the seepage behaviour in the domain. Meanwhile, due to the cross-correlation between hydraulic parameters and strength parameters, the strength parameters (i.e. cohesion and friction angle) can be indirectly updated based on the updated hydraulic conductivity. The updated predictions of both seepage behaviour and strength parameters are sim- ultaneously imported into the slope stability analysis. It is shown that the slope stability computation can not only be improved by the better prediction of the seepage behaviour (i.e. the uncertainty reduced), but also be further improved by cross-correlating the hydraulic and strength parameters. This represents an improve- ment from previous research in which the hydraulic par- ameters were updated based on hydraulic measurements and the strength parameters were updated based on displacements.
+Extending this method to include time dependency is proposed, as a further step to further reduce uncertainty in predictions and reduce the amount of measurement data points required.
 Disclosure statement
 No potential conﬂict of interest was reported by the authors.
 Funding
-The authors wish to acknowledge the support for the ﬁrst
-author via a Marie Curie Career Integration Grant [grant
-number 333177], and the China Scholarship Council coupled
-with the Geo-Engineering Section of Delft University of Tech-
-nology for ﬁnancial support of the second author.
+The authors wish to acknowledge the support for the ﬁrst author via a Marie Curie Career Integration Grant [grant number 333177], and the China Scholarship Council coupled with the Geo-Engineering Section of Delft University of Tech- nology for ﬁnancial support of the second author.
 References
 Arnold, P., and M. A. Hicks. 2011. “A Stochastic Approach to
 Rainfall-Induced Slope Failure.” In Proceedings of the Third
@@ -1313,20 +405,16 @@ Shallow (<50 m) Marine Sediments.” Sedimentary Geology
 Carman, P. C. 1937. “Fluid Flow Through Granular Beds.”
 Transactions of the Institution of Chemical Engineers 15:
 150–166.
-Chapuis, R. P., and M. Aubertin. 2001. “A Simpliﬁed Method
-to Estimate Saturated and Unsaturated Seepage Through
-Dikes
-under
+Chapuis, R. P., and M. Aubertin. 2001. “A Simpliﬁed Method to Estimate Saturated and Unsaturated Seepage Through
+Dikes under
 Steady-State
 Conditions.”
 Canadian
 Geotechnical Journal 38 (6): 1321–1328.
 Chapuis, R. P., D. Chenaf, B. Bussière, M. Aubertin, and R.
 Crespo. 2001. “A User’s Approach to Assess Numerical
-Codes
-for
-Saturated
-and
+Codes for
+Saturated and
 Unsaturated
 Seepage
 Conditions.” Canadian Geotechnical Journal 38 (5): 1113–
@@ -1335,18 +423,15 @@ Chen, Y., and D. Zhang. 2006. “Data Assimilation for
 Transient Flow in Geologic Formations via Ensemble
 Kalman Filter.” Advances in Water Resources 29 (8):
 1107–1122.
-Ching, J., and K. K. Phoon. 2013. “Multivariate Distribution
-for
+Ching, J., and K. K. Phoon. 2013. “Multivariate Distribution for
 Undrained
 Shear
-Strengths
-under
+Strengths under
 Various
 Test
 Procedures.” Canadian Geotechnical Journal 50 (9): 907–
 923.
-Cho, S. E. 2007. “Effects of Spatial Variability of Soil Properties
-on Slope Stability.” Engineering Geology 92 (3): 97–109.
+Cho, S. E. 2007. “Effects of Spatial Variability of Soil Properties on Slope Stability.” Engineering Geology 92 (3): 97–109.
 Cho, S. E., and H. C. Park. 2010. “Effect of Spatial Variability of
 Cross-Correlated Soil Properties on Bearing Capacity of
 Strip Footing.” International Journal for Numerical and
@@ -1360,19 +445,15 @@ Slide: A Probabilistic Assessment.” Canadian Geotechnical
 Journal 43 (9): 956–968.
 Evensen, G. 1994. “Sequential Data Assimilation with a
 Nonlinear Quasi-Geostrophic Model Using Monte Carlo
-Methods
-to
+Methods to
 Forecast
 Error
 Statistics.”
-Journal
-of
+Journal of
 Geophysical Research 99 (5): 10143–10162.
-238
 P. J. VARDON ET AL.
 Evensen, G. 2003. “The Ensemble Kalman Filter: Theoretical
-Formulation
-and
+Formulation and
 Practical
 Implementation.”
 Ocean
@@ -1386,21 +467,17 @@ Fenton, G. A., and E. H. Vanmarcke. 1990. “Simulation of
 Random Fields via Local Average Subdivision.” Journal of
 Engineering Mechanics 116 (8): 1733–1749.
 Firouzianbandpey, S., D.V. Grifﬁths, L. Ibsen, and L. Andersen.
-2014. “Spatial Correlation Length of Normalized Cone Data
-in Sand: A Case Study in the North of Denmark.” Canadian
+2014. “Spatial Correlation Length of Normalized Cone Data in Sand: A Case Study in the North of Denmark.” Canadian
 Geotechnical Journal 51 (8): 844–857.
 Fredlund, D., and J. Krahn. 1977. “Comparison of Slope
 Stability Methods of Analysis.” Canadian Geotechnical
 Journal 14 (3): 429–439.
 Gens, A., A. Ledesma, and E. Alonso. 1996. “Estimation of
-Parameters in Geotechnical Backanalysis—II. Application
-to
-a
+Parameters in Geotechnical Backanalysis—II. Application to a
 Tunnel
 Excavation
 Problem.”
-Computers
-and
+Computers and
 Geotechnics 18 (1): 29–46.
 Grifﬁths, D. V., and G. A. Fenton. 1993. “Seepage Beneath
 Water Retaining Structures Founded on Spatially Random
@@ -1414,26 +491,22 @@ Finite Elements.” Géotechnique 49 (3): 387–403.
 Gui, S., R. Zhang, J. P. Turner, and X. Xue. 2000. “Probabilistic
 Slope Stability Analysis with Stochastic Soil Hydraulic
 Conductivity.”
-Journal
-of
-Geotechnical
-and
+Journal of
+Geotechnical and
 Geoenvironmental Engineering 126 (1): 1–9.
 Hasofer, A. M., and N. C. Lind. 1974. “An Exact and Invariant
 First-Order Reliability Format.” Journal of the Engineering
 Mechanics Division 100 (1): 111–121.
 Hicks,
 M.
-A.,
-and
+A., and
 C.
 Onisiphorou.
 2005.
 “Stochastic
 Evaluation of Static Liquefaction in a Predominantly
 Dilative Sand Fill.” Géotechnique 55 (2): 123–133.
-Hicks, M. A., and K. Samy. 2002. “Inﬂuence of Heterogeneity
-on Undrained Clay Slope Stability.” Quarterly Journal of
+Hicks, M. A., and K. Samy. 2002. “Inﬂuence of Heterogeneity on Undrained Clay Slope Stability.” Quarterly Journal of
 Engineering Geology and Hydrogeology 35 (1): 41–49.
 Hicks, M. A., and K. Samy. 2004. “Stochastic Evaluation of
 Heterogeneous
@@ -1442,25 +515,19 @@ Stability.”
 Italian
 Geotechnical
 Journal 38 (2): 54–66.
-Hommels, A., and F. Molenkamp. 2006. “Inverse Analysis of
-an
-Embankment
-using
-the
+Hommels, A., and F. Molenkamp. 2006. “Inverse Analysis of an
+Embankment using the
 Ensemble
 Kalman
 Filter
 Including Heterogeneity of the Soft Soil.” Sixth European
-Conference
-on
+Conference on
 Numerical
-Methods
-in
+Methods in
 Geotechnical
 Engineering, 635–639, Graz, Austria.
 Hommels, A., F. Molenkamp, A. Heemink, and B. Nguyen.
-2005. “Inverse Analysis of an Embankment on Soft Clay
-using the Ensemble Kalman Filter.” Proceedings of the
+2005. “Inverse Analysis of an Embankment on Soft Clay using the Ensemble Kalman Filter.” Proceedings of the
 Tenth International Conference on Civil, Structural and
 Environmental
 Engineering
@@ -1470,8 +537,7 @@ Stirling,
 Scotland.
 Honjo, Y., L. Wen-Tsung, and S. Guha. 1994. “Inverse
 Analysis of an Embankment on Soft Clay by Extended
-Bayesian Method.” International Journal for Numerical
-and Analytical Methods in Geomechanics 18 (10): 709–734.
+Bayesian Method.” International Journal for Numerical and Analytical Methods in Geomechanics 18 (10): 709–734.
 Kalman, R. E. 1960. “A New Approach to Linear Filtering and
 Prediction Problems.” Journal of Fluids Engineering 82 (1):
 35–45.
@@ -1484,8 +550,7 @@ Likelihood Approach.” Computers and Geotechnics 18 (1):
 1–27.
 Ledesma, A., A. Gens, and E. Alonso. 1996b. “Parameter and
 Variance Estimation in Geotechnical Backanalysis Using
-Prior Information.” International Journal for Numerical
-and Analytical Methods in Geomechanics 20 (2): 119–141.
+Prior Information.” International Journal for Numerical and Analytical Methods in Geomechanics 20 (2): 119–141.
 Lee, I.-M., and D.-H. Kim. 1999. “Parameter Estimation Using
 Extended Bayesian Method in Tunnelling.” Computers and
 Geotechnics 24 (2): 109–124.
@@ -1495,19 +560,14 @@ Earth Embankments for Piping Investigation.” Geotechnical
 Safety and Risk V, edited by T. Schweckendiek, A. F. van
 Tol, D. Pereboom, M. van Staveren, and PMCBM Cools,
 683–688. Rotterdam, Netherlands: IOS Press.
-Lloret-Cabot, M., G. A. Fenton, and M. A. Hicks. 2014. “On
-the Estimation of Scale of Fluctuation in Geostatistics.”
+Lloret-Cabot, M., G. A. Fenton, and M. A. Hicks. 2014. “On the Estimation of Scale of Fluctuation in Geostatistics.”
 Georisk:
-Assessment
-and
-Management
-of
-Risk
-for
+Assessment and
+Management of
+Risk for
 Engineered Systems and Geohazards 8 (2): 129–140.
 Lloret-Cabot, M., M. A. Hicks, and A. P. van den Eijnden.
-2012. “Investigation of the Reduction in Uncertainty due
-to Soil Variability When Conditioning a Random Field
+2012. “Investigation of the Reduction in Uncertainty due to Soil Variability When Conditioning a Random Field
 Using Kriging.” Géotechnique Letters 2: 123–127.
 Nguyen, V., and R. Chowdhury. 1985. “Simulation for Risk
 Analysis with Correlated Variables.” Géotechnique 35 (1):
@@ -1520,82 +580,63 @@ Geotechnical Variability.” Canadian Geotechnical Journal
 36 (4): 612–624.
 Rackwitz, R. 2000. “Reviewing Probabilistic Soils Modelling.”
 Computers and Geotechnics 26 (3): 199–223.
-Rosenblueth, E. 1975. “Point Estimates
-for Probability
+Rosenblueth, E. 1975. “Point Estimates for Probability
 Moments.”
-Proceedings
-of
-the
+Proceedings of the
 National
-Academy
-of
+Academy of
 Sciences 72 (10): 3812–3814.
 Smith, I. M., D. V. Grifﬁths, and L. Margetts. 2013.
-Programming
-the
+Programming the
 Finite
 Element
 Method.
-5th
-ed.
+5th ed.
 Chichester: Wiley.
 Suchomel, R., and D. Mašín. 2010. “Comparison of Different
 Probabilistic Methods for Predicting Stability of a Slope in
 Spatially Variable c −ф Soil.” Computers and Geotechnics
 37 (1): 132–140.
-Thevanayagam, S. 1998. “Effect of Fines and Conﬁning Stress
-on Undrained Shear Strength of Silty Sands.” Journal of
+Thevanayagam, S. 1998. “Effect of Fines and Conﬁning Stress on Undrained Shear Strength of Silty Sands.” Journal of
 Geotechnical and Geoenvironmental Engineering 124 (6):
 479–491.
 Vallejo, L. E., and R. Mawby. 2000. “Porosity Inﬂuence on the
 Shear Strength of Granular Material–Clay Mixtures.”
 Engineering Geology 58 (2): 125–136.
-Vanmarcke, E. H. 1977. “Reliability of Earth Slopes.” Journal
-of the Geotechnical Engineering Division 103 (11): 1247–
+Vanmarcke, E. H. 1977. “Reliability of Earth Slopes.” Journal of the Geotechnical Engineering Division 103 (11): 1247–
 1265.
 GEORISK: ASSESSMENT AND MANAGEMENT OF RISK FOR ENGINEERED SYSTEMS AND GEOHAZARDS
-239
 Wang, L., J. H. Hwang, Z. Luo, C. H. Juang, and J. Xiao. 2013.
-“Probabilistic Back Analysis of Slope Failure – A Case Study
-in Taiwan.” Computers and Geotechnics 51: 12–23.
+“Probabilistic Back Analysis of Slope Failure – A Case Study in Taiwan.” Computers and Geotechnics 51: 12–23.
 Wang, L., Z. Luo, J. Xiao, and C. H. Juang. 2014. “Probabilistic
 Inverse Analysis of Excavation-Induced Wall and Ground
 Responses for Assessing Damage Potential of Adjacent
 Buildings.” Geotechnical and Geological Engineering 32
 (2): 273–285.
 Yang, C. X., Y. H. Wu, T. Hon, and X. T. Feng. 2011.
-“Application of Extended Kalman Filter to Back Analysis
-of the Natural Stress State Accounting for Measuring
+“Application of Extended Kalman Filter to Back Analysis of the Natural Stress State Accounting for Measuring
 Uncertainties.” International Journal for Numerical and
 Analytical Methods in Geomechanics 35 (6): 694–712.
-Zhang, L. L., L. M. Zhang, and W. H. Tang. 2005. “Rainfall-
-induced Slope Failure Considering Variability of Soil
+Zhang, L. L., L. M. Zhang, and W. H. Tang. 2005. “Rainfall- induced Slope Failure Considering Variability of Soil
 Properties.” Géotechnique 55 (2): 183–188.
 Zhang, L. L., Y. F. Zheng, L. M. Zhang, X., Li, and J. H. Wang.
 2014. “Probabilistic Model Calibration for Soil Slope Under
-Rainfall: Effects of Measurement Duration and Frequency
-in Field Monitoring.” Géotechnique 64 (5): 365–378.
+Rainfall: Effects of Measurement Duration and Frequency in Field Monitoring.” Géotechnique 64 (5): 365–378.
 Zhang, L. L, Z. B. Zuo, G. L. Ye, D. S. Jeng, and J. H. Wang.
 2013. “Probabilistic Parameter Estimation and Predictive
 Uncertainty
-Based
-on
+Based on
 Field
-Measurements
-for
+Measurements for
 Unsaturated Soil Slope.” Computers and Geotechnics 48:
 72–81.
 Zhou, M., Y. Li, Z. Xiang, G. Swoboda, and Z. Cen. 2007. “A
 Modiﬁed
 Extended
 Bayesian
-Method
-for
+Method for
 Parameter
 Estimation.” Tsinghua Science & Technology 12 (5): 546–553.
 Zhu, H., L. M. Zhang, L. L. Zhang, and C. B. Zhou. 2013.
-“Two-dimensional Probabilistic Inﬁltration Analysis with
-a Spatially Varying Permeability Function.” Computers
-and Geotechnics 48: 249–259.
-240
+“Two-dimensional Probabilistic Inﬁltration Analysis with a Spatially Varying Permeability Function.” Computers and Geotechnics 48: 249–259.
 P. J. VARDON ET AL.

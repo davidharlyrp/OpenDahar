@@ -1,1720 +1,848 @@
- 
- 
- 
-MODUL  
-PENGENALAN SISTEM IRIGASI 
- 
- 
- 
-Bimbingan Teknik Pengembangan Tata Guna Air  
-Dalam Rangka Pelatihan Teknis Instruktur PTGA 
- 
- 
- 
-Jakarta, 2019 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-2 
- 
- 
-KATA PENGANTAR 
- 
- 
-Ungkapan puji syukur kita panjatkan kehadirat Tuhan Yang Maha Esa, yang telah 
-melimpahkan rahmat dan hidayah-Nya sehingga kami selaku penyelenggara NSPK 
-untuk Pengembangan Tata Guna Air (PTGA) dapat menyelesaikan penyusunan modul 
-ini dengan baik. Modul ini berisi pentingnya seorang Calon Instruktur PTGA memiliki 
-pemahaman dan kemampuan untuk melakukan bimbingan dalam kegiatan PTGA. 
-Berbeda dengan Direktorat yang menangani pembangunan, peningkatan dan rehabilitasi 
-jaringan irigasi, peran Direktorat Bina Operasi dan Pemeliharaan lebih berperan dalam 
-penyiapan perangkat lunak / NSPK dan pembinaan penyelenggaraan Operasi dan 
-Pemeliharaan. Dalam memfasilitasi pembangunan infrastruktur publik dimaksud 
-dilakukan melalui dua hal, pembentukan iklim yang kondusif bagi investasi, dan 
-penyiapan kapasitas dan kompetensi berbagai komponen dalam industri konstruksi untuk 
-melaksanakan pembangunan tersebut. Hal tersebut telah kita ketahui semua bahwa 
-tuntutan publik atas layanan infrastruktur meningkat lebih cepat dibanding kemampuan 
-pemerintah menyediakan dana, sehingga untuk infrastruktur publik perlu dibiayai melalui 
-investasi swasta dengan pengaturan yang memadai, dimana motivasi swasta 
-berinvestasi sangat dipengaruhi oleh iklim berinvestasi yang kondusif baik dukungan 
-keamanan investasi dan pengembaliannya.  
-Pembuatan Modul ini adalah salah satu upaya untuk meningkatkan pengetahuan, 
-keahlian, keterampilan, dan sikap Calon Instruktur Pengembangan Tata Guna Air (PTGA) 
-di bidang pengelolaan irigasi, agar memiliki kompetensi dasar dalam memahami dan 
-mengetahui teknik dan tata melakukan bimbingan teknik dalam rangka pengelolaan 
-irigasi. 
-Kami menyadari bahwa modul ini masih ada kekurangan dan kelemahannya, baik pada 
-isi, bahasa, maupun penyajiannya. Kami sangat mengharapkan adanya tanggapan 
-berupa kritik dan saran guna penyempurnaan modul ini. Semoga modul ini bermanfaat 
-khususnya bagi peserta Pelatihan untuk calon pelatih PTGA.  
- 
-      Jakarta, ….   2019 
-     Direktur Bina Operasi dan Pemeliharaan 
-    Direktorat Jenderal Sumber Daya Air 
- 
- 
- 
-3 
- 
-DAFTAR ISI 
- 
-Kata Pengantar 
-Daftar Isi 
-Daftar Informasi Visual 
-Petunjuk Penggunaan Modul  
-PENDAHULUAN 
-A. Latar Belakang  
-B. Deskripsi Singkat 
-C. Tujuan Pembelajaran  
-D. Pengertian  
-E. Dasar Hukum  
-F. Materi Pokok & Sub Materi Pokok  
- 
-Materi Pokok 1 : Sistem Irigasi  
-A. Lima Pilar Pengelolaan Irigasi  
-B. Tujuan, Fungsi dan Manfaat Irigasi  
-C. Pemberian Air Irigasi  
-D. Klasifikasi Jaringan Irigasi  
- 
-Materi Pokok 2 : Prasarana dan Sarana Irigasi  
-A. Prasarana Irigasi  
-1. Bangunan Utama  
-2. Bangunan Pengatur Jaringan Utama  
-3. Bangunan Pengatur Jaringan Tersier 
-4. Bangunan Pelengkap  
-5. Saluran Irigasi  
-B. Sarana Irigasi  
-1. Peta Daerah Irigasi  
-2. Skema Jaringan Irigasi  
-3. Skema Bangunan  
-4. Skema Operasi Irigasi  
-5. Sosio Hidro 
-  
-Materi Pokok 3 : Pengelolaan (Manajemen) Irigasi  
-A. Prinsip Pengelolaan Sistem Irigasi  
-B. Manual O&P  
-C. Manual O&P Tingkat Tersier  
-D. Fasilitas O&P  
-E. Sistem Pembiayaan  
-F. Monitoring dan Evaluasi  
-G. Penegakan Hukum  
- 
-Materi Pokok 4 : Kelembagaan dan Struktur Organisasi Pengelolaan Irigasi  
-A. Kelembagaan Irigasi  
-B. Struktur Organisasi Pengelolaan Irigasi  
-4 
- 
- 
-PENUTUP 
-A. Latihan  
-B. Rangkuman 
-C. Evaluasi Kegiatan Belajar 
-D. Umpan Balik dan Tindak Lanjut 
-E. Kunci Jawaban Soal 
- 
-DAFTAR PUSTAKA 
-GLOSERI 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-5 
- 
-DAFTAR INFORMASI VISUAL 
- 
- 
-A. Daftar Tabel  
- 
-Tabel 1.1 Klasifikasi Jaringan Irigasi 
-Tabel 1.2. Pembagian kewenangan pengembangan dan pengelolaan irigasi 
- 
-B. Daftar Gambar : 
-Gambar 1.1. LIMA PILAR IRIGASI  
-Gambar 1.2. Jaringan Irigasi Sederhana 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-6 
- 
-PETUNJUK PENGGUNAAN MODUL 
- 
-A. Petunjuk Bagi Peserta 
-Untuk memperoleh hasil belajar secara maksimal, dalam menggunakan modul 
-Prinsip-prinsip Pelatihan, maka langkah-langkah yang perlu dilaksanakan antara lain:   
-1) Bacalah dan pahami dengan seksama uraian-uraian materi yang ada pada 
-masing-masing kegiatan belajar. Bila ada materi yang kurang jelas, peserta dapat 
-bertanya pada instruktur yang mengampu kegiatan belajar. 
-2) Kerjakan setiap tugas formatif (soal latihan) untuk mengetahui seberapa besar 
-pemahaman yang telah dimiliki terhadap materi-materi yang dibahas dalam setiap 
-kegiatan belajar. 
-3) Untuk kegiatan belajar yang terdiri dari teori dan praktik, perhatikanlah hal-hal 
-berikut ini: 
-a. Perhatikan petunjuk-petunjuk yang berlaku.  
-b. Pahami setiap langkah kerja dengan baik. 
-4) Jika belum menguasai level materi yang diharapkan, ulangi lagi pada kegiatan 
-belajar sebelumnya atau bertanyalah kepada instruktur atau instruktur yang 
-mengampu kegiatan pembelajaran yang bersangkutan.  
- 
-B. Petunjuk Bagi Instruktur  
-Dalam setiap kegiatan belajar instruktur berperan untuk:  
-1. Membantu peserta dalam merencanakan proses belajar. 
-2. Membimbing peserta melalui tugas-tugas pelatihan yang dijelaskan dalam tahap 
-belajar. 
-3. Membantu peserta dalam memahami konsep, praktik baru, dan menjawab 
-pertanyaan peserta mengenai proses belajar peserta.  
-4. Membantu peserta untuk menentukan dan mengakses sumber tambahan lain 
-yang diperlukan untuk belajar. 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-7 
- 
-PENDAHULUAN 
- 
- 
-A. 
-Latar Belakang  
-Ketersediaan air untuk mendukung budidaya tanaman dapat berasal dari 
-hujan maupun irigasi, tetapi pada saat ketersediaan air hujan terbatas maka irigasi 
-menjadi tulang punggung kegiatan pencapaian produksi tanaman. 
-Keberadaan irigasi akan sangat mendukung rantai produksi tanaman dari 
-mulai tumbuh sampai berproduksinya tanaman. Dengan demikian tanpa adanya 
-sistem irigasi yang memadai maka sistem produksi pangan tidak dapat berjalan 
-secara maksimal. 
-Apabila berbicara tentang irigasi, maka tidak semata tentang sistem 
-infrastruktur saja, namun mempunyai unsur-unsur yang saling terkait untuk 
-mencapai satu tujuan manajemen sistem penyaluran, maka sistem irigasi terkait 5 
-pilar irigasi yaitu : (i) ketersediaan air irigasi; (ii) infrastruktur; (iii) manajemen 
-pengelolaan irigasi; (iv) kelembagaan/institusi irigasi; (v) sumber daya manusia. 
-Agar dapat bekerja sebagai sebuah sistem dan berkelanjutan, maka sistem itu 
-harus berkesesuaian dengan lingkungannya baik lingkungan strategis maupun 
-lingkungan ekologisnya. 
- 
-B. 
-Deskripsi Singkat 
-Modul pelatihan ini membahas berbagai materi terkait dengan sistem irigasi 
-yang meliputi lima pilar sistem irigasi, tujuan & fungsi irigasi, prasarana & sarana 
-irigasi, pengelolaan/manajemen irigasi, kelembagaan dan sumber daya manusia 
-pengelola irigasi. 
- 
-C. 
-Tujuan Pembelajaran 
-1. Tujuan Instruksional Umum (TIU) 
-Setelah mengikuti semua kegiatan pembelajaran dalam mata pelajaran ini 
-diharapkan instruktur mampu menjelaskan mengenai sistem irigasi yang 
-merupakan satu proses manajemen.  
-2. Tujuan Instruksional Khusus (TIK) 
-Setelah selesai mengikuti pembelajaran ini peserta dapat : 
-a. Menjelaskan secara rinci mengenai sistem irigasi 
-b. Menjelaskan secara rinci jenis & klasifikasi irigasi 
-8 
- 
-c. Sarana & prasarana irigasi, pengelolaaan/manajemen irigasi, kelembagaan 
-dan sumber daya manusia pengelola irigasi. 
-  
-D. 
-Pengertian 
-1. Air adalah semua air yang terdapat pada, di atas, ataupun di bawah permukaan 
-tanah, termasuk dalam pengertian ini air permukaan, air tanah, air hujan, dan 
-air laut yang berada di darat. 
-2. Sumber air adalah tempat atau wadah air alami dan/atau buatan yang terdapat 
-pada, di atas, ataupun di bawah permukaan tanah. 
-3. Irigasi adalah usaha penyediaan, pengaturan, dan pembuangan air irigasi 
-untuk menunjang pertanian yang jenisnya meliputi irigasi permukaan, irigasi 
-rawa, irigasi air bawah tanah, irigasi pompa, dan irigasi tambak. 
-4. Sistem irigasi meliputi prasarana irigasi, air irigasi, manajemen irigasi, 
-kelembagaan pengelolaan irigasi, dan sumber daya manusia. 
-5. Daerah irigasi adalah kesatuan lahan yang mendapat air dari satu jaringan 
-irigasi. 
-6. Jaringan irigasi adalah saluran, bangunan, dan bangunan pelengkapnya yang 
-merupakan satu kesatuan yang diperlukan untuk penyediaan, pembagian, 
-pemberian, penggunaan, dan pembuangan air irigasi 
-7. Jaringan irigasi primer adalah bagian dari jaringan irigasi yang terdiri dari 
-bangunan utama, saluran induk/primer, saluran pembuangannya, bangunan 
-bagi, bangunan bagisadap, bangunan sadap, dan bangunan pelengkapnya. 
-  
-8. Jaringan irigasi sekunder adalah bagian dari jaringan irigasi yang terdiri dari 
-saluran sekunder, saluran pembuangannya, bangunan bagi, bangunan bagi- 
-sadap, bangunan sadap, dan bangunan pelengkapnya   
-9. Jaringan irigasi tersier adalah jaringan irigasi yang berfungsi sebagai 
-prasarana pelayanan air irigasi dalam petak tersier yang terdiri dari saluran 
-tersier, saluran kuarter dan saluran pembuang, boks tersier, boks kuarter serta 
-bangunan pelengkapnya. 
-10. Jaringan irigasi air tanah adalah jaringan irigasi yang airnya berasal dari air 
-tanah, mulai dari sumur dan instalasi pompa sampai dengan saluran irigasi air 
-tanah termasuk bangunan di dalamnya. 
-9 
- 
-11. Jaringan irigasi desa adalah jaringan irigasi yang dibangun dan dikelola oleh 
-masyarakat desa atau pemerintah desa. 
-12. Operasi dan pemeliharaan jaringan irigasi adalah serangkaian upaya 
-pengaturan air irigasi termasuk pembuangannya dan upaya menjaga serta 
-mengamankan jaringan irigasi agar selalu dapat berfungsi dengan baik.  
-13. Pengaturan air irigasi adalah kegiatan yang meliputi pembagian, pemberian, 
-dan penggunaan air irigasi. 
-14. Pembagian air irigasi adalah kegiatan membagi air di bangunan bagi dalam 
-jaringan primer, dan/atau jaringan sekunder. 
-15. Pemberian air irigasi adalah kegiatan menyalurkan air dengan jumlah tertentu 
-dari jaringan primer atau jaringan sekunder ke petak tersier. 
-16. Penggunaan air irigasi adalah kegiatan memanfaatkan air dari petak tersier 
-untuk mengairi lahan pertanian pada saat diperlukan. 
- 
-E. 
-Dasar Hukum 
-1. Undang-undang No. 17 Tahun 2019 tentang Sumber Daya Air; 
-2. Inpres No. 2 Tahun 1984 tentang Pembinaan Perkumpulan Petani Pemakai 
-Air (P3A); 
-3. Permen PUPR No. 8/PRT/M/2015 tentang Penetapan Garis Sempadan 
-Jaringan Irigasi; 
-4. Permen PUPR No. 12 /PRT/M/2015 tentang Eksploitasi dan Pemeliharaan 
-Irigasi; 
-5. Permen PUPR No. 14/PRT/M/2015 tentang Kriteria dan Penetapan Status 
-Daerah Irigasi; 
-6. Permen PUPR No. 17/PRT/M/2015 tentang Komisi Irigasi; 
-7. Permen PUPR No. 23/PRT/M/2015 tentang Pengelolaan Aset Irigasi; 
-8. Permen PUPR No. 30/PRT/M/2015 tentang Pengembangan dan Pengelolaan 
-Sistem Irigasi. 
- 
-F. Materi Pokok dan Sub Materi Pokok 
-1. Sistem Irigasi 
-1.1. Lima Pilar Irigasi 
-1.2. Tujuan, Fungsi dan Manfaat irigasi 
-1.3. Jenis irigasi 
-10 
- 
-1.4. Tipe pemberian air irigasi 
-1.5. Klasifikasi jaringan irigasi 
-1.6. Jenis jaringan Irigasi 
-1.7. Batasan kewenangan pengembangan dan pengelolaan sistem irigasi utama 
-2. Prasarana Irigasi dan Sarana Irigasi 
-2.1 Prasarana Irigasi 
-2.1.1. Bangunan Utama 
-2.1.2. Bangunan Pengatur 
-2.1.3. Bangunan Pelengkap 
-2.1.4. Saluran Irigasi 
-2.2 Sarana Irigasi 
-2.2.1. Peta Daerah Irigasi 
-2.2.2. Skema Jaringan Irigasi 
-2.2.3. Skema Bangunan 
-2.2.4. Skema Operasi Irigasi 
-2.2.5. Peta Sosio Hidro 
-3. Manajemen Pengelolaan Irigasi 
-3.1. Prinsip Pengelolaan Sistem Irigasi 
-3.2. Manual Operasi dan Pemeliharaan 
-3.3. Manual Operasi dan Pemeliharaan Tingkat Tersier 
-3.4. Fasilitasi Operasi dan Pemeliharaan 
-3.5. Sistem Pembiayaan 
-3.6. Monitoring dan Evaluasi 
-3.7. Penegakan Hukum 
-4. Organisasi dan Sumber Daya Manusia (SDM) O&P 
-4.1 Kelembagaan pengelolaan Irigasi 
-4.2 Sumber Daya Manusia 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-11 
- 
-MATERI POKOK 1 
-SISTEM IRIGASI 
- 
-A. 
-Umum 
-Sistem irigasi meliputi prasarana irigasi, air irigasi, manajemen irigasi, 
-kelembagaan pengelolaan irigasi, dan sumber daya manusia. 
-Apabila berbicara tentang irigasi, orang selalu berpikir tentang satu sistem 
-infrastruktur yang rigid dan itu tidak selamanya benar. Teori tentang manajemen, 
-irigasi dapat dibahas dari sudut pandang sebuah sistem karena mempunyai unsur-
-unsur yang saling kait-mengait untuk mencapai satu tujuan manajemen. Sebagai 
-suatu sistem pengaliran maka Peraturan Menteri PUPR No.30/PRT/M/2015 tentang 
-Pengembangan dan Pengelolaan Sistem Irigasi menganggap irigasi terdiri atas lima 
-(5) pilar irigasi yaitu: (i) ketersediaan air; (ii) infrastruktur; (iii) pengelolaan irigasi; (iv) 
-institusi irigasi; dan (v) manusia pelaku. Kelima unsur tersebut harus saling 
-bersesuaian, berhubungan dan saling terkait sehingga dapat dikatakan bahwa 
-irigasi merupakan suatu sistem. Masing-masing unsur tersebut disebut sebagai sub 
-sistem.  
-Pada prinsipnya irigasi adalah upaya manusia untuk mengambil air dari 
-sumber air, mengalirkannya ke dalam saluran, membagikan ke petak sawah, 
-memberikan air pada tanaman, dan membuang kelebihan air ke jaringan 
-pembuang. 
-Pemberian air irigasi tersebut harus sesuai dengan kebutuhan berdasarkan 
-hal-hal sebagai berikut: 
-1) Tempat: setiap daerah irigasi mempunyai karakteristik kebutuhan air yang 
-berbeda tergantung dari jenis tanah dan iklim (evapotranspirasi dan 
-curah hujan efektif), serta kehilangan air di saluran. 
-2) Jumlah: setiap daerah irigasi memiliki luas dan usaha tani yang berbeda. 
-3) Waktu : setiap fase tanaman pertumbuhan (fase pengolahan tanah, 
-pertumbuhan dan panen) mempunyai kebutuhan air yang berbeda. 
-4) Mutu : air irigasi harus memenuhi standar mutu irigasi (contoh: salinitas yang 
-sangat rendah). 
-Oleh sebab itu irigasi disebut sebagai sistem irigasi. Arif dan Subekti (2013) 
-melengkapi kelima pilar irigasi dengan azas hukum serta pembiayaan sehingga lima 
-12 
- 
-pilar tersebut menjadi 5 (lima) dan pilar 1 (satu). Agar dapat bekerja sebagai sebuah 
-sistem maka sistem itu harus berkesesuaian dengan lingkungannya baik lingkungan 
-strategis maupun lingkungan ekologisnya seperti terlihat pada gambar 1. 
- 
- 
-Gambar 1.1. LIMA PILAR IRIGASI  
- (arif & subekti, 2013) 
- 
-Pada prinsipnya irigasi adalah upaya manusia untuk mengambil air dari 
-sumber, mengalirkannya ke dalam saluran, membagikan ke petak sawah, 
-memberikan air pada tanaman, dan membuang kelebihan air ke jaringan 
-pembuang. 
-Pemberian air irigasi tersebut harus sesuai dengan kebutuhan berdasarkan 
-hal-hal sebagai berikut : 
-1) Tempat  : 
-setiap daerah irigasi mempunyai kebutuhan air yang berbeda 
-tergantung dari jenis tanah dan iklim (evapotranspirasi dan curah hujan 
-efektif), serta kehilangan air di saluran. 
-2) Jumlah : 
-petak tersier memiliki luas dan usaha tani yang berbeda. 
-3) Waktu 
-: 
-setiap fase tanaman pertumbuhan (fase pengolahan tanah, 
-pertumbuhan dan panen) mempunyai kebutuhan air yang berbeda. 
-4) Mutu       : air irigasi harus memenuhi standar mutu irigasi (contoh: pH 
-dan salinitas). 
- 
-4
-Ketersedia-an  
-Air 
-Azas 
-Pengelolaan  
-Institusi   
-infrastruktur
-Manusia 
-Pembiayaan  
-Produksi 
-pertanian 
-Kesejahter
-aan petani 
-Lingkungan 
-& kondisi 
-strategis 
-13 
- 
-Sistem irigasi dibangun dan dikelola oleh manusia untuk tujuan kesejahteraan 
-manusia, sehingga manusia merupakan unsur utama dalam pembangunan dan 
-pengelolaan irigasi. 
-Secara fisik sistem irigasi dinyatakan dua pengertian, yaitu jaringan irigasi dan 
-daerah irigasi. Secara fungsional jaringan irigasi dibedakan menjadi empat 
-komponen utama, yaitu bangunan, saluran pembawa, saluran pembuang dan petak 
-yang diairi. 
- 
-B. 
-Tujuan, Fungsi dan Manfaat Irigasi  
-Tujuan:  
-• air yang tersedia dapat dipergunakan atau dimanfaatkan secara efektif dan 
-efisien. 
-• air yang tersedia dibagi secara adil dan merata. 
-• air yang diberikan ke petak-petak tersier secara tepat cara, waktu dan jumlah, 
-sesuai dengan  kebutuhan pertumbuhan tanaman.  
-• akibat negatif yang mungkin ditimbulkan oleh air berlebihan dapat dihindari. 
-  
-Fungsi: 
-mendukung produktivitas usaha tani guna meningkatkan produksi pertanian dalam 
-rangka ketahanan pangan nasional dan kesejahteraan masyarakat, khususnya 
-petani. 
- 
-Manfaat irigasi antara lain: 
- melancarkan aliran air ke lahan persawahan. 
- menyuburkan/meningkatkan kesuburan tanah. 
- sebagai tempat budidaya tumbuhan. 
- pengatur suhu dalam tanah. 
- 
-C. 
-Jenis irigasi di Indonesia meliputi : 
-1) Irigasi permukaan  
-Irigasi permukaan adalah sistem irigasi dimana air digenangkan pada tanaman 
-dan dialirkan lewat permukaan tanah, misalnya sistem irigasi pada sawah. 
-Sistem irigasi ini dilakukan oleh sebagian besar petani dalam budidaya pada 
-sawah. 
-14 
- 
-  
- 
-Bangunan Utama  
- 
- 
-Saluran irigasi permukaan 
- 
-2) Irigasi air tanah 
-Irigasi air tanah adalah sistem irigasi dimana sumber airnya dari bawah tanah 
-dan dialirkan jaringan irigasi permukaan atau perpipaan dengan menggunakan 
-pompa. Sistem irigasi ini dilakukan pada daerah yang air permukaannya sangat 
-terbatas. 
- 
- 
-Irigasi Air Tanah 
- 
-3) Jaringan Irigasi Pompa  
-Jaringan irigasi pompa adalah sistem irigasi permukaan yang pengambilan 
-airnya di sungai atau sumber lainnya dengan menggunakan pompa air.   
- 
-Irigasi Pompa 
- 
- 
-4) Jaringan Irigasi Rawa  
-Jaringan irigasi rawa adalah sistem irigasi permukaan yang pengambilan airnya 
-dari rawa. 
- 
-15 
- 
- 
- 
- 
- 
-Irigasi Rawa Pasang Surut                       Irigasi Rawa Lebak 
- 
-5) Jaringan Irigasi Tambak 
-Jaringan irigasi tambak adalah sistem irigasi untuk keperluan budidaya tambak 
-ikan. 
- 
- 
-Irigasi Tambak 
-D. Tipe Pemberian Air Irigasi 
-1) Irigasi genangan : pemberian air dengan digenangkan pada lahan pertanian 
-umumnya untuk tanaman padi 
-2) Irigasi tetes/mikro : pemberian air langsung diteteskan pada tanaman dengan 
-menggunakan emiter/penetes dan apabila sumber air tidak cukup bersih 
-diperlukan penyaringan. Metode ini biasanya digunakan oleh petani maju yang 
-membudidayakan Tanaman Bernilai Ekonomi Tinggi (TBET), misalnya melon, 
-semangka, cabe, dll. 
-3) Irigasi 
-curah 
-: 
-pemberian 
-air 
-dengan 
-cara 
-membentuk 
-pancaran/semprotan/tetesan mirip hujan ke lahan dengan menggunakan 
-sprinkler dan cocok untuk yang lahannya porus. 
-4) Irigasi alur : memberikan air melalui alur-alur yang telah disediakan dan 
-membasahi langsung pada akar tanaman. 
-16 
- 
- 
-Irigasi tetes dan irigasi curah belum banyak digunakan oleh petani di Indonesia, 
-tetapi metode ini masih digunakan sebatas pada lahan-lahan penelitian dan lahan 
-yang dibudidayakan oleh petani modern. 
-Beberapa pertimbangan yang dipakai untuk menentukan cara pemberian air 
-irigasi pada tanaman, antara lain ditentukan oleh ketersediaan sumber air, jenis 
-teknologi yang dipakai, jenis tanaman, topografi, ketersediaan keuangan, dll. 
- 
-E. Klasifikasi Jaringan Irigasi 
-Klasifikasi jaringan irigasi permukaan ditentukan oleh keberfungsian sistem 
-jaringan irigasi, yaitu (i) mengambil air dari sumber, (ii) mengalirkan air ke dalam 
-sistem saluran, (iii) membagi ke petak sawah, dan (iv) membuang kelebihan air ke 
-jaringan pembuang. Berdasarkan faktor pengaturan dan pengukuran debit aliran 
-serta kerumitan sistem pengelolaannya, maka sistem jaringan irigasi dapat 
-diklasifikasikan menjadi 3 (tiga) tiga macam, yaitu : 
-1) Jaringan Irigasi Sederhana 
-Jaringan irigasi sederhana dicirikan oleh kesederhanaan fasilitas bangunan 
-yang dimiliki, sehingga operasional pembagian air pada jaringan irigasi 
-sederhana pada umumnya air tidak diukur dan diatur. Kondisi ini mungkin 
-diterapkan jika ketersediaan air berlebihan (pada tanah dengan kemiringan 
-sedang sampai curam) dan jika memiliki keterbatasan ketersediaan air irigasi 
-maka kondisi ini harus segera diatasi. 
-Jaringan irigasi desa yang banyak dibangun masyarakat secara mandiri 
-kebanyakan dapat diklasifikasikan ke dalam jaringan irigasi sederhana ini.  
- 
- 
-17 
- 
- 
-Gambar 1.2. Jaringan Irigasi Sederhana 
- 
-2) Jaringan Irigasi Semi Teknis 
-Jaringan irigasi semi teknis mempunyai ciri bahwa fasilitas-fasilitas yang ada 
-untuk melaksanakan ke empat fungsinya sudah lebih baik dan lengkap 
-dibandingkan jaringan irigasi sederhana. 
-Misalnya, bangunan pengambilan sudah dibangun permanen, debit sudah 
-diukur, tetapi sistem jaringan pembagi masih sama dengan sistem irigasi 
-sederhana. Hal ini ditunjukkan pemisahan saluran pembawa dan pembuang 
-belum dipisahkan secara baik dan pembagian petak tersier belum dilakukan 
-secara detail, sehingga sulit dilakukan pembagian air. 
-Pada sistem irigasi ini, biasanya pemerintah sudah terlibat dalam 
-pengelolaannya, misalnya dalam pelaksanaan operasi dan pemeliharaan 
-(O&P) bangunan pengambilan. 
-18 
- 
- 
-Gambar 1.3. Jaringan Irigasi Semi Teknis 
- 
- 
-3) Jaringan Irigasi Teknis 
-Jaringan irigasi teknis mempunyai fasilitas bangunan yang sudah lengkap. 
-Salah satu prinsip rancang bangun dalam jaringan irigasi adalah pemisahan 
-fungsi jaringan pembawa dengan jaringan pembuang. Bangunan ukur dan 
-bangunan pengatur sangat dibutuhkan dalam pengaturan air irigasi. Petak 
-tersier menjadi sangat penting karena menjadi dasar perhitungan sistem alokasi 
-air, baik jumlah maupun waktu. 
-Jaringan irigasi teknis dilengkapi : Bangunan Pengambilan yang permanen, 
-sistem pembagian air dapat diukur dan diatur, serta jaringan pembawa dan 
-pembuang telah terpisah.  
- 
- 
- 
-19 
- 
- 
- 
- 
- 
-Gambar 1.4 : Jaringan Irigasi Teknis 
- 
- 
- 
- 
- 
-Tabel 1.1 
-Klasifikasi Jaringan Irigasi 
- 
-No 
-Parameter 
-Jaringan Irigasi 
-Sederhana 
-Semi teknis 
-Teknis 
-1. 
-Konstruksi 
-Bangunan 
-Sederhana 
-Semi 
-Permanen/Permanen Permanen 
-2. 
-Pengukuran 
-debit 
-Tidak ada 
-Ada 
-Ada 
-3. 
-Pengaturan 
-debit 
-Tidak ada 
-Tidak ada 
-Ada 
-4. 
-Fungsi saluran 
-saluran 
-pembawa 
-berfungsi ganda 
-sebagai saluran 
-pembuang  
-saluran pembawa 
-dan saluran 
-pembuang tidak 
-sepenuhnya terpisah 
-saluran pembawa 
-dan saluran 
-pembuang terpisah 
- 
-20 
- 
- 
-F. Jenis Jaringan Irigasi 
-1) Jaringan Irigasi Utama 
-Jaringan irigasi utama meliputi bangunan utama, saluran primer dan 
-sekunder serta bangunan air (bangunan bagi/bagi sadap/sadap) dan 
-bangunan pelengkapnya yang ada di saluran primer dan saluran sekunder. 
- 
-2) Jaringan Irigasi tersier  
-merupakan jaringan irigasi di petak tersier, mulai saluran tersier, saluran 
-kuarter dan bangunan yang ada di kedua saluran tersebut (boks bagi tersier, 
-boks bagi kuarter dan bangunan air lainnya). 
- 
-Pengelolaan dalam sistem irigasi selama ini menjadi tanggung jawab 
-bersama antara pemerintah dan petani.  
- Pemerintah bertanggung jawab terhadap jaringan utama dengan batas 
-pengelolaan saluran tersier berjarak batas 50 m dari bangunan sadap 
-tersier,  
-sedangkan petani melalui P3A bertanggung jawab terhadap jaringan 
-tersier. 
-Berdasarkan Permen PUPR No. 30 PRT/M/2015 tentang Pengembangan 
-dan Pengelolaan Sistem Irigasi, bahwa pengelolaan irigasi diselenggarakan 
-secara partisipatif.  
- 
-G. Batasan kewenangan pengembangan dan pengelolaan sistem irigasi utama 
-Batasan kewenangan disamping berdasarkan letak juga berdasarkan strata 
-luasan daerah irigasi dibagi sebagai berikut : 
-1) Pemerintah (Pusat) : pengembangan dan pengelolaan sistem irigasi 
-primer dan sekunder pada daerah irigasi yang luasnya  >3.000 ha, dan 
-daerah irigasi lintas negara, lintas provinsi dan strategis nasional. 
-2) Daerah Provinsi : pengembangan dan pengelolaan sistem irigasi 
-primer dan  sekunder pada daerah irigasi yang luasnya 1.000 ha-3.000 
-ha, dan daerah irigasi lintas daerah kabupaten/kota. 
-21 
- 
-3) Daerah Kab/Kota : pengembangan dan pengelolaan sistem irigasi primer 
-dan  sekunder pada daerah irigasi yang luasnya kurang dari 1.000 ha 
-dalam 1 (satu) daerah kabupaten/kota 
-Tabel 1.2. Pembagian kewenangan pengembangan dan pengelolaan 
-irigasi 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-No 
-Parameter 
-Kewenangan 
-Pusat 
-Provinsi 
-Kabupaten/Kota 
-1. 
-Pengembangan 
-dan Pengelolaan 
-Sistem Irigasi 
-Primer dan 
-Sekunder 
-DI.> 3.000 ha 
-DI : 1.000-3.000 
-ha 
-DI. < 1.000 ha 
-2. 
-Lintas Negara Lintas Kab/Kota 
-Utuh dalam 
-Kab/Kota 
-3. 
-Lintas 
-Provinsi 
- 
- 
-4. 
-Strategis 
-Nasional 
-(>10.000 ha) 
- 
- 
-22 
- 
-MATERI POKOK 2 
-PRASARANA DAN SARANA IRIGASI 
- 
- 
-A. Prasarana Irigasi 
-Prasarana irigasi merupakan saluran dan bangunan irigasi yang berfungsi untuk 
-mengalirkan air dari sumber air ke lahan sawah. 
- 
-Bangunan Irigasi 
-Bangunan irigasi dapat dibedakan menjadi tiga tipe bangunan irigasi, yaitu (1) 
-bangunan utama, (2) bangunan pengatur dan (3) bangunan pelengkap. 
-1. Bangunan Utama 
-Bangunan utama (head work) dapat didefinisikan sebagai kompleks bangunan 
-yang 
-direncanakan 
-di 
-sumber 
-air, 
-guna 
-meninggikan 
-muka 
-air, 
-membelokkan/mengalirkan air atau menampung kelebihan air pada musim 
-hujan ke jaringan saluran agar dapat dipakai guna keperluan irigasi. Bangunan 
-utama ini diharapkan pula dapat mengarungi sedimen yang masuk ke jaringan 
-irigasi dan mengukur debit aliran. 
-Tipe-tipe bangunan utama di Indonesia dapat dibedakan (i) Bendung atau 
-Bendung Gerak (barrage), (ii) Pompa, (iii) Pengambilan Bebas, (iv) Mata Air dan 
-(v) Waduk atau Embung. 
- 
-a. Bendung atau Bendung Gerak (Barrage)  
-Bendung (weir) atau bendung gerak (barrage) dipakai untuk meninggikan 
-muka air di sungai sampai pada ketinggian yang diperlukan agar air 
-dapat dialirkan ke saluran irigasi sampai di lahan pertanian (command 
-area). Tubuh bendung (dinding penahan air) pada bendung gerak 
-dilengkapi dengan pintu air guna mengalirkan aliran banjir dan ditutup 
-jika aliran kecil. 
-Secara ideal, bangunan utama ini terdiri dari beberapa bangunan, yaitu : 
-1) Bangunan pelimpah guna mengalirkan air banjir melalui tubuh 
-bendung; 
-2) Kolam olak dan peredam energi guna mengurangi energi 
-ketinggian air banjir; 
-23 
- 
-3) Pintu kuras berguna untuk menguras membersihkan kandungan 
-lumpur di depan bangunan pengambilan; 
-4) Bangunan pengambilan utama dan pintu pengambilan guna 
-mengalirkan air ke jaringan irigasi; 
-5) Saluran ukur merupakan saluran yang menghubungkan antara 
-bangunan/pintu pengambilan dengan bangunan ukur; 
-6) Bangunan ukur guna mengukur debit yang masuk ke jaringan 
-irigasi; 
-7) Kantong lumpur guna pengendapan lumpur yang masuk ke 
-bangunan pengambilan; 
-8) Pintu bilas guna mengeluarkan kandungan lumpur ke sungai; 
-9) Sayap bendung guna stabilitas bendung; dan 
-10) Tanggul sungai guna menahan erosi. 
-b. Pengambilan Bebas 
-Pengambilan bebas merupakan bangunan yang dibuat pada tepi sungai 
-guna mengalirkan air ke dalam jaringan irigasi, tanpa mengatur 
-ketinggian muka air sungai pada bangunan ini harus lebih tinggi dari 
-lahan yang akan diairi. 
-Secara ideal bangunan ini terdiri dari : 
-1) Pengarah aliran guna mengarah aliran sungai ke bangunan 
-pengambilan (untuk daerah yang mempunyai aliran sungai yang 
-lurus); 
-2) Bangunan pengambilan dan pintu pengambilan guna mengalirkan 
-air ke jaringan irigasi; 
-3) Saluran ukur merupakan saluran yang menghubungkan antara 
-bangunan/ pintu pengambilan dengan bangunan ukur; 
-4) Bangunan ukur guna mengukur debit yang masuk ke jaringan 
-irigasi. 
-c. Mata Air 
-Sumber air dapat berfungsi sebagai sumber air utama atau sumber air 
-suplesi. 
-Bangunan pengambilan sumber air ini pada umumnya terdiri dari : 
-1) Bak penampung yang berfungsi untuk menampung air dari mata 
-air; 
-24 
- 
-2) Bangunan pelimpah guna mengalirkan kelebihan air; 
-3) Bangunan pengambilan dan pintu pengambilan guna mengalirkan 
-dan mengatur air yang mengalir dari mata air; 
-4) Saluran ukur merupakan saluran yang menghubungkan antara 
-bangunan/pintu pengambilan dengan bangunan ukur; dan 
-5) Bangunan ukur guna mengukur debit yang dikeluarkan. 
-d. Waduk/Embung 
- 
-Waduk/embung adalah bangunan utama yang berfungsi sebagai 
-penampungan (reservoir), guna menampung kelebihan air dan 
-dipergunakan pada saat kekurangan air (pengatur aliran sungai). 
- 
-Waduk yang berukuran besar mempunyai banyak fungsi seperti 
-irigasi, tenaga air, pengendali banjir, perikanan, pariwisata dan 
-sebagainya. Dan waduk yang berukuran kecil (embung) dipergunakan 
-untuk keperluan irigasi dan air minum. 
-Waduk atau embung mempunyai sarana atau bangunan sebagai berikut 
-: 
-1) Daerah genangan merupakan daerah yang dipergunakan sebagai 
-tempat menyimpan air (reservoir, tandon); 
-2) Tubuh bendung berfungsi sebagai dinding penahan air; 
-3) Dinding penahan hilir tubuh bendung berfungsi untuk menahan 
-bagian hilir bawah tubuh bendung dan membelokkan garis 
-rembesan; 
-4) Bangunan pelimpah guna mengalirkan air banjir; 
-5) Bangunan pengambilan dan pintu pengambilan guna mengalirkan 
-air dari waduk; 
-6) Saluran ukur merupakan saluran yang menghubungkan antara 
-bangunan/ pintu pengambilan dengan bangunan ukur; dan 
-7) Bangunan ukur guna mengukur debit yang dikeluarkan. 
-Waduk bertipe urugan pada umunya dilengkapi dengan bangunan 
-kontrol debit untuk mengukur debit yang keluar dari rembesan tubuh 
-bendung. 
- 
-25 
- 
-e. Stasiun Pompa Air  
- 
-Jika ketersediaan air permukaan tidak dapat mencukupi kebutuhan, 
-maka alternatif pengembangan sumber air dengan memanfaatkan air 
-bawah tanah. Bangunan utama pada pengembangan sumber air bawah 
-tanah adalah stasiun pompa, serta pompa air dan instalasinya. 
-e.1 Pompa Air Permukaan 
- 
-Pengambilan air dari sungai yang tidak memungkinkan pembangunan 
-bendung dilakukan dengan pompa air. Secara ideal bangunan ini terdiri 
-dari: 
-1) Bangunan 
-pengambilan 
-dilengkapi 
-pintu 
-pengambilan, 
-guna 
-disalurkan ke kolam penampung. 
-2) Pompa air mengambil dari kolam penampung untuk dialirkan ke 
-saluran irigasi melalui bangunan ukur. 
-3) Bangunan ukur guna mengukur debit yang masuk ke jaringan utama. 
- 
- 
- 
- 
-e.2. Pompa Air Tanah 
- 
-Pengambilan air bawah tanah yang umumnya digunakan pada daerah 
-irigasi tadah hujan atau sebagai suplesi irigasi air permukaan di saat 
-musim kemarau. Secara ideal bangunan ini terdiri dari : 
-1) Sumber dalam air bawah tanah. 
-2) Pompa air yang dilengkapi dengan mesin pompa. 
-3) Jaringan irigasi untuk menyalurkan air ke lahan atau melalui saluran 
-irigasi tersier. 
-4) Bangunan ukur untuk mengukur ke saluran. 
-26 
- 
- 
- 
- 
-2. 
-Bangunan Pengatur 
- 
-Bangunan pengatur merupakan bangunan yang befungsi untuk mengatur 
-pembagian air antara dua atau lebih daerah layanan. Bangunan pengatur dapat 
-dibedakan menjadi dua kelompok berdasarkan pengelolaan layanan, yaitu : 
-1) Bangunan Pengatur Jaringan Utama 
-2) Bangunan Pengatur Jaringan Tersier 
-a. Bangunan Pengatur Jaringan Utama 
- 
-Bangunan pengatur terdiri dari empat macam bangunan, yaitu: 
-1) Bangunan Bagi 
-Bangunan bagi terletak di saluran primer dan sekunder pada suatu 
-titik cabang dan berfungsi untuk membagi aliran antara  
-dua saluran atau lebih.  
-2) Bangunan Sadap 
-Bangunan sadap tersier mengalirkan air dari saluran primer atau 
-sekunder tersier penerima. 
-3) Bangunan Bagi dan Sadap 
-Bangunan ini merupakan gabungan antara bangunan bagi dan 
-bangunan sadap. 
-4) Bangunan pengatur (individu) 
-Bangunan ini merupakan bangunan pengatur tinggi muka air di 
-saluran primer atau sekunder. 
-b. Komponen Konstruksi 
-Secara konstruksi bangunan pengatur ini terdiri dari komponen sebagai 
-berikut: 
-1) Konstruksi Pengatur Muka Air 
-27 
- 
-Konstruksi pengatur muka air berada di saluran utama yang berfungsi 
-untuk menaikkan muka air saluran utama, sehingga air dapat masuk ke 
-lahan pertanian. 
-Variasi konstruksi pada umumnya berbentuk sebagai berikut : 
-a. Skot balok 
-b. Pintu pengatur 
-c. Bendung dan Pintu Kuras 
-d. Tanpa Konstruksi Pengatur 
-Pada sadap tunggal pada umumnya mengambil dari saluran induk, 
-tidak mempergunakan bangunan pengatur karena elevasi sudah 
-mencukupi. 
-Bangunan pengatur mempunyai potongan pengontrol aliran yang dapat 
-disetel (pintu sorong, radial, skot balok) atau tetap (bendung). 
-2) Pintu Pengambilan 
-Pintu pengambilan berguna untuk mengatur/mengontrol muka air di 
-jaringan irigasi utama sampai batas-batas yang diperlukan dalam 
-memberikan debit yang konstan kepada bangunan sadap tersier. 
-3) Bangunan Ukur 
-Debit yang dikeluarkan diukur oleh bangunan ukur. 
-c. Tipe Sadap 
-Tipe sadap dapat dibedakan sebagai berikut : 
-1) Tipe 1 
-Bangunan sadap tipe 1 ini pada umumnya dirancang jika perbedaan 
-tinggi air antara muka air di saluran dengan muka air hilir lebih dari 
-0,30 m, biasanya dengan alat ukur Drempel. 
-Bangunan ukur yang dirancang adalah Bangunan Ukur Drempel. 
- 
-2) Tipe 2 
-Bangunan dirancang untuk semua keadaan, dimana beda tinggi air 
-kurang dari 0,30 m, atau bila beda tinggi yang diperlukan kurang jelas, 
-yang dimungkinkan karena perbaikan/pembangunan petak tersier. 
-28 
- 
-Bangunan ukur yang dipakai adalah bangunan ukur flume 
- 
-3) Tipe 3 
-Bangunan sadap tipe ini dipakai untuk debit yang kecil 
- 
-4) Tipe 4 
-Dipakai untuk pemberian air langsung di sawah-sawah dengan luas 
-kurang dari 1,0 ha. 
- 
- 
- 
-3. 
-Bangunan Pengatur Jaringan tersier 
-Bangunan pengatur di jaringan tersier adalah boks bagi tersier, sub tersier dan 
-kuater, boks-boks bagi di saluran tersier yang membagi aliran untuk dua saluran 
-atau lebih tersier, sub tersier dan atau kuater. Boks tersier dilengkapi dengan 
-pintu untuk keperluan giliran pemberian air. 
-Bangunan pengatur jaringan tersier tidak dilengkapi dengan bangunan ukur, 
-sehingga pelaksanaan pembagian air hanya dibuka dan ditutup saja. 
-29 
- 
- 
- 
-4. 
-Bangunan Pelengkap 
-1) Talang 
- 
-Talang merupakan saluran buatan yang melintasi permukaan tanah yang 
-rendah (lembah, saluran irigasi/pembuang, sungai). 
- 
-Talang dipergunakan pada tempat dimana perbedaan tinggi antara saluran 
-irigasi dengan permukaan tanah yang dilewati cukup tinggi dan dipandang 
-lebih ekonomis dibandingkan dengan siphon. Talang dapat terbuat dari 
-beton, baja, kayu atau paralon PVC/HDPE. 
- 
- 
-2) Siphon 
- 
-Siphon merupakan bangunan saluran tertutup yang berguna untuk 
-mengalirkan air yang melintasi tempat dengan perbedaan tinggi yang relatif 
-kecil dibanding dengan muka air di saluran. 
- 
-Siphon dipakai untuk mengalirkan air irigasi dengan menggunakan gravitasi 
-di bawah saluran pembuang, cekungan, anak sungai atau sungai. Siphon 
-juga dipakai untuk melewatkan air irigasi dibawah jalan, jalan kereta api atau 
-bangunan-bangunan lainnya. 
- 
-30 
- 
- 
-3) Bangunan Terjun 
- 
-Bangunan terjun adalah bangunan yang befungsi untuk mengurangi 
-kemiringan saluran. Bangunan terjun dapat dipisahkan menjadi dua tipe, 
-yaitu bangunan terjun tegak dan bangunan terjun miring. 
- 
-Bangunan terjun tegak pada umumnya dipergunakan pada perbedaan 
-ketinggian maksimum 1,5 m dengan debit lebih kecil dari 2,5 m³/detik atau 
-perbedaan ketinggian 0,75 m dengan debit lebih besar dari 2,5 m³/detik. Jika 
-perbedaan ketinggian air antara 1,5 - 2,5 m, maka dipergunakan bangunan 
-terjun miring. 
- 
-Untuk mencegah muka air yang tinggi atau rendah di saluran akibat terjunan, 
-dipakai mercu tetap atau celah kontrol trapesium (trapeziodal notch). 
- 
- 
-4) Got Miring 
- 
-Bangunan got miring dipergunakan pada trase saluran dengan kemiringan 
-yang cukup tajam. Got miring berupa potongan saluran yang diberi 
-pasangan (lining) dengan aliran super kritis, dan umumnya mengikuti 
-kemiringan medan alamiah dengan beda tinggi di atas 2,5 m. 
- 
-Bangunan ini dilengkapi dengan kolam olak pada bagian hilir dan untuk 
-mencegah muka air yang tinggi atau rendah di saluran akibat terjunan, 
-dipakai mercu tetap atau celah kontrol trapesium (trapeziodal notch).  
-5) Gorong-gorong 
- 
-Gorong-gorong adalah bangunan yang berfungsi untuk mengalirkan air di 
-bawah bangunan (jalan, rel kereta api) atau untuk mengalirkan air di 
-persilangan antara saluran pembuang dengan saluran pembawa. 
- 
-31 
- 
- 
- 
-6) Terowongan  
- 
-Terowongan dibangun apabila keadaan ekonomi/anggaran memungkinkan 
-untuk saluran tertutup guna mengalirkan air melewati bukit-bukit dan medan 
-yang tinggi. Aliran yang mengalir dalam terowongan adalah aliran terbuka. 
-7) Bangunan Pelimpah Samping 
- 
-Bangunan pelimpah samping berfungsi untuk membatasi debit yang masuk 
-ke saluran pembawa dan melimpaskan kelebihan air hujan yang masuk ke 
-saluran pembawa. 
-8) Jalan dan Jembatan  
- 
-Jalan yang dimaksud adalah jalan masuk dan jalan inspeksi, untuk 
-menunjang kegiatan operasi dan pemeliharaan jaringan irigasi pembawa 
-dan 
-pembuang 
-oleh 
-instansi 
-yang 
-membidangi 
-irigasi. 
-Untuk 
-menghubungkan jalan inspeksi yang dipisahkan oleh saluran irigasi, saluran 
-pembuang 
-dan 
-sungai 
-diperlukan 
-jembatan. 
-Masyarakat 
-dapat 
-menggunakan fasilitas ini untuk sarana transportasi sesuai ketentuan yang 
-ditetapkan oleh pengelola irigasi. Jika saluran dibangun sejajar dengan jalan 
-umum di dekatnya, maka tidak diperlukan jalan inspeksi di sepanjang ruas 
-saluran tersebut. 
-9) Tanggul 
- 
-Tanggul diperlukan untuk melindungi daerah irigasi terhadap banjir yang 
-berasal dari sungai atau saluran pembuang yang besar. Pada umumnya 
-tanggul diperlukan di sepanjang sungai di sebelah hulu bendung atau di 
-sepanjang saluran primer. 
- 
-5. 
-Saluran Irigasi 
-a. Saluran Pembawa 
-Saluran pembawa merupakan prasarana jaringan irigasi untuk mengalirkan 
-air irigasi. Terdiri dari saluran induk dan saluran sekunder. 
- 
-32 
- 
-b. Saluran Pembuang  
-Saluran pembuang ini berfungsi membuang kelebihan air di lokasi sawah 
-akibat tingginya curah hujan yang dapat menyebabkan genangan pada 
-sawah dan meyebabkan kerusakan tanaman. 
-Aliran buangan ditampung di saluran terbuka yang mengalir secara paralel di 
-sebelah atas saluran irigasi (saluran gendong). Saluran-saluran ini membawa 
-air buangan ke bangunan pembuang silang atau jika debit relatif kecil 
-dibandingkan dengan aliran air irigasi, dimasukkan ke dalam saluran irigasi 
-melalui lubang pemasukan. 
- 
-B. Sarana Irigasi 
- 
-Dalam rangka pelaksanaan operasi & pemeliharaan jaringan irigsi, petugas perlu 
-dibekali peta-peta dan pedoman/ manual op dari sistem tersebut. 
- 
-Adapun peta yang diperlukan : 
-1. Peta daerah irigasi 
- 
- 
- 
- 
- 
- 
-	
-	
-33 
- 
-2. Skema jaringan irigasi 
- 
- 
- 
- 
-3. 
+MODUL
+PENGENALAN SISTEM IRIGASI
+
+Bimbingan Teknik Pengembangan Tata Guna Air
+Dalam Rangka Pelatihan Teknis Instruktur PTGA
+
+Jakarta, 2019
+
+KATA PENGANTAR
+
+Ungkapan puji syukur kita panjatkan kehadirat Tuhan Yang Maha Esa, yang telah melimpahkan rahmat dan hidayah-Nya sehingga kami selaku penyelenggara NSPK untuk Pengembangan Tata Guna Air (PTGA) dapat menyelesaikan penyusunan modul ini dengan baik. Modul ini berisi pentingnya seorang Calon Instruktur PTGA memiliki pemahaman dan kemampuan untuk melakukan bimbingan dalam kegiatan PTGA.
+Berbeda dengan Direktorat yang menangani pembangunan, peningkatan dan rehabilitasi jaringan irigasi, peran Direktorat Bina Operasi dan Pemeliharaan lebih berperan dalam penyiapan perangkat lunak / NSPK dan pembinaan penyelenggaraan Operasi dan
+Pemeliharaan. Dalam memfasilitasi pembangunan infrastruktur publik dimaksud dilakukan melalui dua hal, pembentukan iklim yang kondusif bagi investasi, dan penyiapan kapasitas dan kompetensi berbagai komponen dalam industri konstruksi untuk melaksanakan pembangunan tersebut. Hal tersebut telah kita ketahui semua bahwa tuntutan publik atas layanan infrastruktur meningkat lebih cepat dibanding kemampuan pemerintah menyediakan dana, sehingga untuk infrastruktur publik perlu dibiayai melalui investasi swasta dengan pengaturan yang memadai, dimana motivasi swasta berinvestasi sangat dipengaruhi oleh iklim berinvestasi yang kondusif baik dukungan keamanan investasi dan pengembaliannya.
+Pembuatan Modul ini adalah salah satu upaya untuk meningkatkan pengetahuan, keahlian, keterampilan, dan sikap Calon Instruktur Pengembangan Tata Guna Air (PTGA) di bidang pengelolaan irigasi, agar memiliki kompetensi dasar dalam memahami dan mengetahui teknik dan tata melakukan bimbingan teknik dalam rangka pengelolaan irigasi.
+Kami menyadari bahwa modul ini masih ada kekurangan dan kelemahannya, baik pada isi, bahasa, maupun penyajiannya. Kami sangat mengharapkan adanya tanggapan berupa kritik dan saran guna penyempurnaan modul ini. Semoga modul ini bermanfaat khususnya bagi peserta Pelatihan untuk calon pelatih PTGA.
+
+Jakarta, …. 2019
+Direktur Bina Operasi dan Pemeliharaan
+Direktorat Jenderal Sumber Daya Air
+
+DAFTAR ISI
+
+Kata Pengantar
+Daftar Isi
+Daftar Informasi Visual
+Petunjuk Penggunaan Modul
+PENDAHULUAN
+A. Latar Belakang
+B. Deskripsi Singkat
+C. Tujuan Pembelajaran
+D. Pengertian
+E. Dasar Hukum
+F. Materi Pokok & Sub Materi Pokok
+
+Materi Pokok 1 : Sistem Irigasi
+A. Lima Pilar Pengelolaan Irigasi
+B. Tujuan, Fungsi dan Manfaat Irigasi
+C. Pemberian Air Irigasi
+D. Klasifikasi Jaringan Irigasi
+
+Materi Pokok 2 : Prasarana dan Sarana Irigasi
+A. Prasarana Irigasi
+1. Bangunan Utama
+2. Bangunan Pengatur Jaringan Utama
+3. Bangunan Pengatur Jaringan Tersier
+4. Bangunan Pelengkap
+5. Saluran Irigasi
+B. Sarana Irigasi
+1. Peta Daerah Irigasi
+2. Skema Jaringan Irigasi
+3. Skema Bangunan
+4. Skema Operasi Irigasi
+5. Sosio Hidro
+
+Materi Pokok 3 : Pengelolaan (Manajemen) Irigasi
+A. Prinsip Pengelolaan Sistem Irigasi
+B. Manual O&P
+C. Manual O&P Tingkat Tersier
+D. Fasilitas O&P
+E. Sistem Pembiayaan
+F. Monitoring dan Evaluasi
+G. Penegakan Hukum
+
+Materi Pokok 4 : Kelembagaan dan Struktur Organisasi Pengelolaan Irigasi
+A. Kelembagaan Irigasi
+B. Struktur Organisasi Pengelolaan Irigasi
+
+PENUTUP
+A. Latihan
+B. Rangkuman
+C. Evaluasi Kegiatan Belajar
+D. Umpan Balik dan Tindak Lanjut
+E. Kunci Jawaban Soal
+
+DAFTAR PUSTAKA
+GLOSERI
+
+DAFTAR INFORMASI VISUAL
+
+A. Daftar Tabel
+
+Tabel 1.1 Klasifikasi Jaringan Irigasi
+Tabel 1.2. Pembagian kewenangan pengembangan dan pengelolaan irigasi
+
+B. Daftar Gambar :
+Gambar 1.1. LIMA PILAR IRIGASI
+Gambar 1.2. Jaringan Irigasi Sederhana
+
+PETUNJUK PENGGUNAAN MODUL
+
+A. Petunjuk Bagi Peserta
+Untuk memperoleh hasil belajar secara maksimal, dalam menggunakan modul
+Prinsip-prinsip Pelatihan, maka langkah-langkah yang perlu dilaksanakan antara lain:
+1) Bacalah dan pahami dengan seksama uraian-uraian materi yang ada pada masing-masing kegiatan belajar. Bila ada materi yang kurang jelas, peserta dapat bertanya pada instruktur yang mengampu kegiatan belajar.
+2) Kerjakan setiap tugas formatif (soal latihan) untuk mengetahui seberapa besar pemahaman yang telah dimiliki terhadap materi-materi yang dibahas dalam setiap kegiatan belajar.
+3) Untuk kegiatan belajar yang terdiri dari teori dan praktik, perhatikanlah hal-hal berikut ini:
+a. Perhatikan petunjuk-petunjuk yang berlaku.
+b. Pahami setiap langkah kerja dengan baik.
+4) Jika belum menguasai level materi yang diharapkan, ulangi lagi pada kegiatan belajar sebelumnya atau bertanyalah kepada instruktur atau instruktur yang mengampu kegiatan pembelajaran yang bersangkutan.
+
+B. Petunjuk Bagi Instruktur
+Dalam setiap kegiatan belajar instruktur berperan untuk:
+1. Membantu peserta dalam merencanakan proses belajar.
+2. Membimbing peserta melalui tugas-tugas pelatihan yang dijelaskan dalam tahap belajar.
+3. Membantu peserta dalam memahami konsep, praktik baru, dan menjawab pertanyaan peserta mengenai proses belajar peserta.
+4. Membantu peserta untuk menentukan dan mengakses sumber tambahan lain yang diperlukan untuk belajar.
+
+PENDAHULUAN
+
+A.
+Latar Belakang
+Ketersediaan air untuk mendukung budidaya tanaman dapat berasal dari hujan maupun irigasi, tetapi pada saat ketersediaan air hujan terbatas maka irigasi menjadi tulang punggung kegiatan pencapaian produksi tanaman.
+Keberadaan irigasi akan sangat mendukung rantai produksi tanaman dari mulai tumbuh sampai berproduksinya tanaman. Dengan demikian tanpa adanya sistem irigasi yang memadai maka sistem produksi pangan tidak dapat berjalan secara maksimal.
+Apabila berbicara tentang irigasi, maka tidak semata tentang sistem infrastruktur saja, namun mempunyai unsur-unsur yang saling terkait untuk mencapai satu tujuan manajemen sistem penyaluran, maka sistem irigasi terkait 5 pilar irigasi yaitu : (i) ketersediaan air irigasi; (ii) infrastruktur; (iii) manajemen pengelolaan irigasi; (iv) kelembagaan/institusi irigasi; (v) sumber daya manusia.
+Agar dapat bekerja sebagai sebuah sistem dan berkelanjutan, maka sistem itu harus berkesesuaian dengan lingkungannya baik lingkungan strategis maupun lingkungan ekologisnya.
+
+B.
+Deskripsi Singkat
+Modul pelatihan ini membahas berbagai materi terkait dengan sistem irigasi yang meliputi lima pilar sistem irigasi, tujuan & fungsi irigasi, prasarana & sarana irigasi, pengelolaan/manajemen irigasi, kelembagaan dan sumber daya manusia pengelola irigasi.
+
+C.
+Tujuan Pembelajaran
+1. Tujuan Instruksional Umum (TIU)
+Setelah mengikuti semua kegiatan pembelajaran dalam mata pelajaran ini diharapkan instruktur mampu menjelaskan mengenai sistem irigasi yang merupakan satu proses manajemen.
+2. Tujuan Instruksional Khusus (TIK)
+Setelah selesai mengikuti pembelajaran ini peserta dapat :
+a. Menjelaskan secara rinci mengenai sistem irigasi b. Menjelaskan secara rinci jenis & klasifikasi irigasi
+
+c. Sarana & prasarana irigasi, pengelolaaan/manajemen irigasi, kelembagaan dan sumber daya manusia pengelola irigasi.
+
+D.
+Pengertian
+1. Air adalah semua air yang terdapat pada, di atas, ataupun di bawah permukaan tanah, termasuk dalam pengertian ini air permukaan, air tanah, air hujan, dan air laut yang berada di darat.
+2. Sumber air adalah tempat atau wadah air alami dan/atau buatan yang terdapat pada, di atas, ataupun di bawah permukaan tanah.
+3. Irigasi adalah usaha penyediaan, pengaturan, dan pembuangan air irigasi untuk menunjang pertanian yang jenisnya meliputi irigasi permukaan, irigasi rawa, irigasi air bawah tanah, irigasi pompa, dan irigasi tambak.
+4. Sistem irigasi meliputi prasarana irigasi, air irigasi, manajemen irigasi, kelembagaan pengelolaan irigasi, dan sumber daya manusia.
+5. Daerah irigasi adalah kesatuan lahan yang mendapat air dari satu jaringan irigasi.
+6. Jaringan irigasi adalah saluran, bangunan, dan bangunan pelengkapnya yang merupakan satu kesatuan yang diperlukan untuk penyediaan, pembagian, pemberian, penggunaan, dan pembuangan air irigasi
+7. Jaringan irigasi primer adalah bagian dari jaringan irigasi yang terdiri dari bangunan utama, saluran induk/primer, saluran pembuangannya, bangunan bagi, bangunan bagisadap, bangunan sadap, dan bangunan pelengkapnya.
+
+8. Jaringan irigasi sekunder adalah bagian dari jaringan irigasi yang terdiri dari saluran sekunder, saluran pembuangannya, bangunan bagi, bangunan bagi- sadap, bangunan sadap, dan bangunan pelengkapnya
+
+9. Jaringan irigasi tersier adalah jaringan irigasi yang berfungsi sebagai prasarana pelayanan air irigasi dalam petak tersier yang terdiri dari saluran tersier, saluran kuarter dan saluran pembuang, boks tersier, boks kuarter serta bangunan pelengkapnya.
+10. Jaringan irigasi air tanah adalah jaringan irigasi yang airnya berasal dari air tanah, mulai dari sumur dan instalasi pompa sampai dengan saluran irigasi air tanah termasuk bangunan di dalamnya.
+
+11. Jaringan irigasi desa adalah jaringan irigasi yang dibangun dan dikelola oleh masyarakat desa atau pemerintah desa.
+12. Operasi dan pemeliharaan jaringan irigasi adalah serangkaian upaya pengaturan air irigasi termasuk pembuangannya dan upaya menjaga serta mengamankan jaringan irigasi agar selalu dapat berfungsi dengan baik.
+13. Pengaturan air irigasi adalah kegiatan yang meliputi pembagian, pemberian, dan penggunaan air irigasi.
+14. Pembagian air irigasi adalah kegiatan membagi air di bangunan bagi dalam jaringan primer, dan/atau jaringan sekunder.
+15. Pemberian air irigasi adalah kegiatan menyalurkan air dengan jumlah tertentu dari jaringan primer atau jaringan sekunder ke petak tersier.
+16. Penggunaan air irigasi adalah kegiatan memanfaatkan air dari petak tersier untuk mengairi lahan pertanian pada saat diperlukan.
+
+E.
+Dasar Hukum
+1. Undang-undang No. 17 Tahun 2019 tentang Sumber Daya Air;
+2. Inpres No. 2 Tahun 1984 tentang Pembinaan Perkumpulan Petani Pemakai
+Air (P3A);
+3. Permen PUPR No. 8/PRT/M/2015 tentang Penetapan Garis Sempadan
+Jaringan Irigasi;
+4. Permen PUPR No. 12 /PRT/M/2015 tentang Eksploitasi dan Pemeliharaan
+Irigasi;
+5. Permen PUPR No. 14/PRT/M/2015 tentang Kriteria dan Penetapan Status
+Daerah Irigasi;
+6. Permen PUPR No. 17/PRT/M/2015 tentang Komisi Irigasi;
+7. Permen PUPR No. 23/PRT/M/2015 tentang Pengelolaan Aset Irigasi;
+8. Permen PUPR No. 30/PRT/M/2015 tentang Pengembangan dan Pengelolaan
+Sistem Irigasi.
+
+F. Materi Pokok dan Sub Materi Pokok
+1. Sistem Irigasi
+1.1. Lima Pilar Irigasi
+1.2. Tujuan, Fungsi dan Manfaat irigasi
+1.3. Jenis irigasi
+
+1.4. Tipe pemberian air irigasi
+1.5. Klasifikasi jaringan irigasi
+1.6. Jenis jaringan Irigasi
+1.7. Batasan kewenangan pengembangan dan pengelolaan sistem irigasi utama
+2. Prasarana Irigasi dan Sarana Irigasi
+2.1 Prasarana Irigasi
+2.1.1. Bangunan Utama
+2.1.2. Bangunan Pengatur
+2.1.3. Bangunan Pelengkap
+2.1.4. Saluran Irigasi
+2.2 Sarana Irigasi
+2.2.1. Peta Daerah Irigasi
+2.2.2. Skema Jaringan Irigasi
+2.2.3. Skema Bangunan
+2.2.4. Skema Operasi Irigasi
+2.2.5. Peta Sosio Hidro
+3. Manajemen Pengelolaan Irigasi
+3.1. Prinsip Pengelolaan Sistem Irigasi
+3.2. Manual Operasi dan Pemeliharaan
+3.3. Manual Operasi dan Pemeliharaan Tingkat Tersier
+3.4. Fasilitasi Operasi dan Pemeliharaan
+3.5. Sistem Pembiayaan
+3.6. Monitoring dan Evaluasi
+3.7. Penegakan Hukum
+4. Organisasi dan Sumber Daya Manusia (SDM) O&P
+4.1 Kelembagaan pengelolaan Irigasi
+4.2 Sumber Daya Manusia
+
+MATERI POKOK 1
+SISTEM IRIGASI
+
+A.
+Umum
+Sistem irigasi meliputi prasarana irigasi, air irigasi, manajemen irigasi, kelembagaan pengelolaan irigasi, dan sumber daya manusia.
+Apabila berbicara tentang irigasi, orang selalu berpikir tentang satu sistem infrastruktur yang rigid dan itu tidak selamanya benar. Teori tentang manajemen, irigasi dapat dibahas dari sudut pandang sebuah sistem karena mempunyai unsur- unsur yang saling kait-mengait untuk mencapai satu tujuan manajemen. Sebagai suatu sistem pengaliran maka Peraturan Menteri PUPR No.30/PRT/M/2015 tentang
+Pengembangan dan Pengelolaan Sistem Irigasi menganggap irigasi terdiri atas lima
+(5) pilar irigasi yaitu: (i) ketersediaan air; (ii) infrastruktur; (iii) pengelolaan irigasi; (iv) institusi irigasi; dan (v) manusia pelaku. Kelima unsur tersebut harus saling bersesuaian, berhubungan dan saling terkait sehingga dapat dikatakan bahwa irigasi merupakan suatu sistem. Masing-masing unsur tersebut disebut sebagai sub sistem.
+Pada prinsipnya irigasi adalah upaya manusia untuk mengambil air dari sumber air, mengalirkannya ke dalam saluran, membagikan ke petak sawah, memberikan air pada tanaman, dan membuang kelebihan air ke jaringan pembuang.
+Pemberian air irigasi tersebut harus sesuai dengan kebutuhan berdasarkan hal-hal sebagai berikut:
+1) Tempat: setiap daerah irigasi mempunyai karakteristik kebutuhan air yang berbeda tergantung dari jenis tanah dan iklim (evapotranspirasi dan curah hujan efektif), serta kehilangan air di saluran.
+2) Jumlah: setiap daerah irigasi memiliki luas dan usaha tani yang berbeda.
+3) Waktu : setiap fase tanaman pertumbuhan (fase pengolahan tanah, pertumbuhan dan panen) mempunyai kebutuhan air yang berbeda.
+4) Mutu : air irigasi harus memenuhi standar mutu irigasi (contoh: salinitas yang sangat rendah).
+Oleh sebab itu irigasi disebut sebagai sistem irigasi. Arif dan Subekti (2013) melengkapi kelima pilar irigasi dengan azas hukum serta pembiayaan sehingga lima
+
+pilar tersebut menjadi 5 (lima) dan pilar 1 (satu). Agar dapat bekerja sebagai sebuah sistem maka sistem itu harus berkesesuaian dengan lingkungannya baik lingkungan strategis maupun lingkungan ekologisnya seperti terlihat pada gambar 1.
+
+Gambar 1.1. LIMA PILAR IRIGASI
+(arif & subekti, 2013)
+
+Pada prinsipnya irigasi adalah upaya manusia untuk mengambil air dari sumber, mengalirkannya ke dalam saluran, membagikan ke petak sawah, memberikan air pada tanaman, dan membuang kelebihan air ke jaringan pembuang.
+Pemberian air irigasi tersebut harus sesuai dengan kebutuhan berdasarkan hal-hal sebagai berikut :
+1) Tempat :
+setiap daerah irigasi mempunyai kebutuhan air yang berbeda tergantung dari jenis tanah dan iklim (evapotranspirasi dan curah hujan efektif), serta kehilangan air di saluran.
+2) Jumlah :
+petak tersier memiliki luas dan usaha tani yang berbeda.
+3) Waktu
+:
+setiap fase tanaman pertumbuhan (fase pengolahan tanah, pertumbuhan dan panen) mempunyai kebutuhan air yang berbeda.
+4) Mutu : air irigasi harus memenuhi standar mutu irigasi (contoh: pH dan salinitas).
+
+Ketersedia-an
+Air
+Azas
+Pengelolaan
+Institusi infrastruktur
+Manusia
+Pembiayaan
+Produksi pertanian
+Kesejahter aan petani
+Lingkungan
+& kondisi strategis
+
+Sistem irigasi dibangun dan dikelola oleh manusia untuk tujuan kesejahteraan manusia, sehingga manusia merupakan unsur utama dalam pembangunan dan pengelolaan irigasi.
+Secara fisik sistem irigasi dinyatakan dua pengertian, yaitu jaringan irigasi dan daerah irigasi. Secara fungsional jaringan irigasi dibedakan menjadi empat komponen utama, yaitu bangunan, saluran pembawa, saluran pembuang dan petak yang diairi.
+
+B.
+Tujuan, Fungsi dan Manfaat Irigasi
+Tujuan:
+• air yang tersedia dapat dipergunakan atau dimanfaatkan secara efektif dan efisien.
+• air yang tersedia dibagi secara adil dan merata.
+• air yang diberikan ke petak-petak tersier secara tepat cara, waktu dan jumlah, sesuai dengan kebutuhan pertumbuhan tanaman.
+• akibat negatif yang mungkin ditimbulkan oleh air berlebihan dapat dihindari.
+
+Fungsi:
+mendukung produktivitas usaha tani guna meningkatkan produksi pertanian dalam rangka ketahanan pangan nasional dan kesejahteraan masyarakat, khususnya petani.
+
+Manfaat irigasi antara lain:
+ melancarkan aliran air ke lahan persawahan.
+ menyuburkan/meningkatkan kesuburan tanah.
+ sebagai tempat budidaya tumbuhan.
+ pengatur suhu dalam tanah.
+
+C.
+Jenis irigasi di Indonesia meliputi :
+1) Irigasi permukaan
+Irigasi permukaan adalah sistem irigasi dimana air digenangkan pada tanaman dan dialirkan lewat permukaan tanah, misalnya sistem irigasi pada sawah.
+Sistem irigasi ini dilakukan oleh sebagian besar petani dalam budidaya pada sawah.
+
+Bangunan Utama
+
+Saluran irigasi permukaan
+
+2) Irigasi air tanah
+Irigasi air tanah adalah sistem irigasi dimana sumber airnya dari bawah tanah dan dialirkan jaringan irigasi permukaan atau perpipaan dengan menggunakan pompa. Sistem irigasi ini dilakukan pada daerah yang air permukaannya sangat terbatas.
+
+Irigasi Air Tanah
+
+3) Jaringan Irigasi Pompa
+Jaringan irigasi pompa adalah sistem irigasi permukaan yang pengambilan airnya di sungai atau sumber lainnya dengan menggunakan pompa air.
+
+Irigasi Pompa
+
+4) Jaringan Irigasi Rawa
+Jaringan irigasi rawa adalah sistem irigasi permukaan yang pengambilan airnya dari rawa.
+
+Irigasi Rawa Pasang Surut Irigasi Rawa Lebak
+
+5) Jaringan Irigasi Tambak
+Jaringan irigasi tambak adalah sistem irigasi untuk keperluan budidaya tambak ikan.
+
+Irigasi Tambak
+D. Tipe Pemberian Air Irigasi
+1) Irigasi genangan : pemberian air dengan digenangkan pada lahan pertanian umumnya untuk tanaman padi
+2) Irigasi tetes/mikro : pemberian air langsung diteteskan pada tanaman dengan menggunakan emiter/penetes dan apabila sumber air tidak cukup bersih diperlukan penyaringan. Metode ini biasanya digunakan oleh petani maju yang membudidayakan Tanaman Bernilai Ekonomi Tinggi (TBET), misalnya melon, semangka, cabe, dll.
+3) Irigasi curah
+:
+pemberian air dengan cara membentuk pancaran/semprotan/tetesan mirip hujan ke lahan dengan menggunakan sprinkler dan cocok untuk yang lahannya porus.
+4) Irigasi alur : memberikan air melalui alur-alur yang telah disediakan dan membasahi langsung pada akar tanaman.
+
+Irigasi tetes dan irigasi curah belum banyak digunakan oleh petani di Indonesia, tetapi metode ini masih digunakan sebatas pada lahan-lahan penelitian dan lahan yang dibudidayakan oleh petani modern.
+Beberapa pertimbangan yang dipakai untuk menentukan cara pemberian air irigasi pada tanaman, antara lain ditentukan oleh ketersediaan sumber air, jenis teknologi yang dipakai, jenis tanaman, topografi, ketersediaan keuangan, dll.
+
+E. Klasifikasi Jaringan Irigasi
+Klasifikasi jaringan irigasi permukaan ditentukan oleh keberfungsian sistem jaringan irigasi, yaitu (i) mengambil air dari sumber, (ii) mengalirkan air ke dalam sistem saluran, (iii) membagi ke petak sawah, dan (iv) membuang kelebihan air ke jaringan pembuang. Berdasarkan faktor pengaturan dan pengukuran debit aliran serta kerumitan sistem pengelolaannya, maka sistem jaringan irigasi dapat diklasifikasikan menjadi 3 (tiga) tiga macam, yaitu :
+1) Jaringan Irigasi Sederhana
+Jaringan irigasi sederhana dicirikan oleh kesederhanaan fasilitas bangunan yang dimiliki, sehingga operasional pembagian air pada jaringan irigasi sederhana pada umumnya air tidak diukur dan diatur. Kondisi ini mungkin diterapkan jika ketersediaan air berlebihan (pada tanah dengan kemiringan sedang sampai curam) dan jika memiliki keterbatasan ketersediaan air irigasi maka kondisi ini harus segera diatasi.
+Jaringan irigasi desa yang banyak dibangun masyarakat secara mandiri kebanyakan dapat diklasifikasikan ke dalam jaringan irigasi sederhana ini.
+
+Gambar 1.2. Jaringan Irigasi Sederhana
+
+2) Jaringan Irigasi Semi Teknis
+Jaringan irigasi semi teknis mempunyai ciri bahwa fasilitas-fasilitas yang ada untuk melaksanakan ke empat fungsinya sudah lebih baik dan lengkap dibandingkan jaringan irigasi sederhana.
+Misalnya, bangunan pengambilan sudah dibangun permanen, debit sudah diukur, tetapi sistem jaringan pembagi masih sama dengan sistem irigasi sederhana. Hal ini ditunjukkan pemisahan saluran pembawa dan pembuang belum dipisahkan secara baik dan pembagian petak tersier belum dilakukan secara detail, sehingga sulit dilakukan pembagian air.
+Pada sistem irigasi ini, biasanya pemerintah sudah terlibat dalam pengelolaannya, misalnya dalam pelaksanaan operasi dan pemeliharaan
+(O&P) bangunan pengambilan.
+
+Gambar 1.3. Jaringan Irigasi Semi Teknis
+
+3) Jaringan Irigasi Teknis
+Jaringan irigasi teknis mempunyai fasilitas bangunan yang sudah lengkap.
+Salah satu prinsip rancang bangun dalam jaringan irigasi adalah pemisahan fungsi jaringan pembawa dengan jaringan pembuang. Bangunan ukur dan bangunan pengatur sangat dibutuhkan dalam pengaturan air irigasi. Petak tersier menjadi sangat penting karena menjadi dasar perhitungan sistem alokasi air, baik jumlah maupun waktu.
+Jaringan irigasi teknis dilengkapi : Bangunan Pengambilan yang permanen, sistem pembagian air dapat diukur dan diatur, serta jaringan pembawa dan pembuang telah terpisah.
+
+Gambar 1.4 : Jaringan Irigasi Teknis
+
+Tabel 1.1
+Klasifikasi Jaringan Irigasi
+
+No
+Parameter
+Jaringan Irigasi
+Sederhana
+Semi teknis
+Teknis
+1.
+Konstruksi
+Bangunan
+Sederhana
+Semi
+Permanen/Permanen Permanen
+2.
+Pengukuran debit
+Tidak ada
+Ada
+Ada
+3.
+Pengaturan debit
+Tidak ada
+Tidak ada
+Ada
+4.
+Fungsi saluran saluran pembawa berfungsi ganda sebagai saluran pembuang saluran pembawa dan saluran pembuang tidak sepenuhnya terpisah saluran pembawa dan saluran pembuang terpisah
+
+F. Jenis Jaringan Irigasi
+1) Jaringan Irigasi Utama
+Jaringan irigasi utama meliputi bangunan utama, saluran primer dan sekunder serta bangunan air (bangunan bagi/bagi sadap/sadap) dan bangunan pelengkapnya yang ada di saluran primer dan saluran sekunder.
+
+2) Jaringan Irigasi tersier merupakan jaringan irigasi di petak tersier, mulai saluran tersier, saluran kuarter dan bangunan yang ada di kedua saluran tersebut (boks bagi tersier, boks bagi kuarter dan bangunan air lainnya).
+
+Pengelolaan dalam sistem irigasi selama ini menjadi tanggung jawab bersama antara pemerintah dan petani.
+ Pemerintah bertanggung jawab terhadap jaringan utama dengan batas pengelolaan saluran tersier berjarak batas 50 m dari bangunan sadap tersier, sedangkan petani melalui P3A bertanggung jawab terhadap jaringan tersier.
+Berdasarkan Permen PUPR No. 30 PRT/M/2015 tentang Pengembangan dan Pengelolaan Sistem Irigasi, bahwa pengelolaan irigasi diselenggarakan secara partisipatif.
+
+G. Batasan kewenangan pengembangan dan pengelolaan sistem irigasi utama
+Batasan kewenangan disamping berdasarkan letak juga berdasarkan strata luasan daerah irigasi dibagi sebagai berikut :
+1) Pemerintah (Pusat) : pengembangan dan pengelolaan sistem irigasi primer dan sekunder pada daerah irigasi yang luasnya >3.000 ha, dan daerah irigasi lintas negara, lintas provinsi dan strategis nasional.
+2) Daerah Provinsi : pengembangan dan pengelolaan sistem irigasi primer dan sekunder pada daerah irigasi yang luasnya 1.000 ha-3.000 ha, dan daerah irigasi lintas daerah kabupaten/kota.
+
+3) Daerah Kab/Kota : pengembangan dan pengelolaan sistem irigasi primer dan sekunder pada daerah irigasi yang luasnya kurang dari 1.000 ha dalam 1 (satu) daerah kabupaten/kota
+Tabel 1.2. Pembagian kewenangan pengembangan dan pengelolaan irigasi
+
+No
+Parameter
+Kewenangan
+Pusat
+Provinsi
+Kabupaten/Kota
+1.
+Pengembangan dan Pengelolaan
+Sistem Irigasi
+Primer dan
+Sekunder
+DI.> 3.000 ha
+DI : 1.000-3.000 ha
+DI. < 1.000 ha
+2.
+Lintas Negara Lintas Kab/Kota
+Utuh dalam
+Kab/Kota
+3.
+Lintas
+Provinsi
+
+4.
+Strategis
+Nasional
+(>10.000 ha)
+
+MATERI POKOK 2
+PRASARANA DAN SARANA IRIGASI
+
+A. Prasarana Irigasi
+Prasarana irigasi merupakan saluran dan bangunan irigasi yang berfungsi untuk mengalirkan air dari sumber air ke lahan sawah.
+
+Bangunan Irigasi
+Bangunan irigasi dapat dibedakan menjadi tiga tipe bangunan irigasi, yaitu (1) bangunan utama, (2) bangunan pengatur dan (3) bangunan pelengkap.
+1. Bangunan Utama
+Bangunan utama (head work) dapat didefinisikan sebagai kompleks bangunan yang direncanakan di sumber air, guna meninggikan muka air, membelokkan/mengalirkan air atau menampung kelebihan air pada musim hujan ke jaringan saluran agar dapat dipakai guna keperluan irigasi. Bangunan utama ini diharapkan pula dapat mengarungi sedimen yang masuk ke jaringan irigasi dan mengukur debit aliran.
+Tipe-tipe bangunan utama di Indonesia dapat dibedakan (i) Bendung atau
+Bendung Gerak (barrage), (ii) Pompa, (iii) Pengambilan Bebas, (iv) Mata Air dan
+(v) Waduk atau Embung.
+
+a. Bendung atau Bendung Gerak (Barrage)
+Bendung (weir) atau bendung gerak (barrage) dipakai untuk meninggikan muka air di sungai sampai pada ketinggian yang diperlukan agar air dapat dialirkan ke saluran irigasi sampai di lahan pertanian (command area). Tubuh bendung (dinding penahan air) pada bendung gerak dilengkapi dengan pintu air guna mengalirkan aliran banjir dan ditutup jika aliran kecil.
+Secara ideal, bangunan utama ini terdiri dari beberapa bangunan, yaitu :
+1) Bangunan pelimpah guna mengalirkan air banjir melalui tubuh bendung;
+2) Kolam olak dan peredam energi guna mengurangi energi ketinggian air banjir;
+
+3) Pintu kuras berguna untuk menguras membersihkan kandungan lumpur di depan bangunan pengambilan;
+4) Bangunan pengambilan utama dan pintu pengambilan guna mengalirkan air ke jaringan irigasi;
+5) Saluran ukur merupakan saluran yang menghubungkan antara bangunan/pintu pengambilan dengan bangunan ukur;
+6) Bangunan ukur guna mengukur debit yang masuk ke jaringan irigasi;
+7) Kantong lumpur guna pengendapan lumpur yang masuk ke bangunan pengambilan;
+8) Pintu bilas guna mengeluarkan kandungan lumpur ke sungai;
+9) Sayap bendung guna stabilitas bendung; dan
+10) Tanggul sungai guna menahan erosi.
+b. Pengambilan Bebas
+Pengambilan bebas merupakan bangunan yang dibuat pada tepi sungai guna mengalirkan air ke dalam jaringan irigasi, tanpa mengatur ketinggian muka air sungai pada bangunan ini harus lebih tinggi dari lahan yang akan diairi.
+Secara ideal bangunan ini terdiri dari :
+1) Pengarah aliran guna mengarah aliran sungai ke bangunan pengambilan (untuk daerah yang mempunyai aliran sungai yang lurus);
+2) Bangunan pengambilan dan pintu pengambilan guna mengalirkan air ke jaringan irigasi;
+3) Saluran ukur merupakan saluran yang menghubungkan antara bangunan/ pintu pengambilan dengan bangunan ukur;
+4) Bangunan ukur guna mengukur debit yang masuk ke jaringan irigasi.
+c. Mata Air
+Sumber air dapat berfungsi sebagai sumber air utama atau sumber air suplesi.
+Bangunan pengambilan sumber air ini pada umumnya terdiri dari :
+1) Bak penampung yang berfungsi untuk menampung air dari mata air;
+
+2) Bangunan pelimpah guna mengalirkan kelebihan air;
+3) Bangunan pengambilan dan pintu pengambilan guna mengalirkan dan mengatur air yang mengalir dari mata air;
+4) Saluran ukur merupakan saluran yang menghubungkan antara bangunan/pintu pengambilan dengan bangunan ukur; dan
+5) Bangunan ukur guna mengukur debit yang dikeluarkan.
+d. Waduk/Embung
+
+Waduk/embung adalah bangunan utama yang berfungsi sebagai penampungan (reservoir), guna menampung kelebihan air dan dipergunakan pada saat kekurangan air (pengatur aliran sungai).
+
+Waduk yang berukuran besar mempunyai banyak fungsi seperti irigasi, tenaga air, pengendali banjir, perikanan, pariwisata dan sebagainya. Dan waduk yang berukuran kecil (embung) dipergunakan untuk keperluan irigasi dan air minum.
+Waduk atau embung mempunyai sarana atau bangunan sebagai berikut
+:
+1) Daerah genangan merupakan daerah yang dipergunakan sebagai tempat menyimpan air (reservoir, tandon);
+2) Tubuh bendung berfungsi sebagai dinding penahan air;
+3) Dinding penahan hilir tubuh bendung berfungsi untuk menahan bagian hilir bawah tubuh bendung dan membelokkan garis rembesan;
+4) Bangunan pelimpah guna mengalirkan air banjir;
+5) Bangunan pengambilan dan pintu pengambilan guna mengalirkan air dari waduk;
+6) Saluran ukur merupakan saluran yang menghubungkan antara bangunan/ pintu pengambilan dengan bangunan ukur; dan
+7) Bangunan ukur guna mengukur debit yang dikeluarkan.
+Waduk bertipe urugan pada umunya dilengkapi dengan bangunan kontrol debit untuk mengukur debit yang keluar dari rembesan tubuh bendung.
+
+e. Stasiun Pompa Air
+
+Jika ketersediaan air permukaan tidak dapat mencukupi kebutuhan, maka alternatif pengembangan sumber air dengan memanfaatkan air bawah tanah. Bangunan utama pada pengembangan sumber air bawah tanah adalah stasiun pompa, serta pompa air dan instalasinya.
+e.1 Pompa Air Permukaan
+
+Pengambilan air dari sungai yang tidak memungkinkan pembangunan bendung dilakukan dengan pompa air. Secara ideal bangunan ini terdiri dari:
+1) Bangunan pengambilan dilengkapi pintu pengambilan, guna disalurkan ke kolam penampung.
+2) Pompa air mengambil dari kolam penampung untuk dialirkan ke saluran irigasi melalui bangunan ukur.
+3) Bangunan ukur guna mengukur debit yang masuk ke jaringan utama.
+
+e.2. Pompa Air Tanah
+
+Pengambilan air bawah tanah yang umumnya digunakan pada daerah irigasi tadah hujan atau sebagai suplesi irigasi air permukaan di saat musim kemarau. Secara ideal bangunan ini terdiri dari :
+1) Sumber dalam air bawah tanah.
+2) Pompa air yang dilengkapi dengan mesin pompa.
+3) Jaringan irigasi untuk menyalurkan air ke lahan atau melalui saluran irigasi tersier.
+4) Bangunan ukur untuk mengukur ke saluran.
+
+2.
+Bangunan Pengatur
+
+Bangunan pengatur merupakan bangunan yang befungsi untuk mengatur pembagian air antara dua atau lebih daerah layanan. Bangunan pengatur dapat dibedakan menjadi dua kelompok berdasarkan pengelolaan layanan, yaitu :
+1) Bangunan Pengatur Jaringan Utama
+2) Bangunan Pengatur Jaringan Tersier a. Bangunan Pengatur Jaringan Utama
+
+Bangunan pengatur terdiri dari empat macam bangunan, yaitu:
+1) Bangunan Bagi
+Bangunan bagi terletak di saluran primer dan sekunder pada suatu titik cabang dan berfungsi untuk membagi aliran antara dua saluran atau lebih.
+2) Bangunan Sadap
+Bangunan sadap tersier mengalirkan air dari saluran primer atau sekunder tersier penerima.
+3) Bangunan Bagi dan Sadap
+Bangunan ini merupakan gabungan antara bangunan bagi dan bangunan sadap.
+4) Bangunan pengatur (individu)
+Bangunan ini merupakan bangunan pengatur tinggi muka air di saluran primer atau sekunder.
+b. Komponen Konstruksi
+Secara konstruksi bangunan pengatur ini terdiri dari komponen sebagai berikut:
+1) Konstruksi Pengatur Muka Air
+
+Konstruksi pengatur muka air berada di saluran utama yang berfungsi untuk menaikkan muka air saluran utama, sehingga air dapat masuk ke lahan pertanian.
+Variasi konstruksi pada umumnya berbentuk sebagai berikut :
+a. Skot balok b. Pintu pengatur c. Bendung dan Pintu Kuras d. Tanpa Konstruksi Pengatur
+Pada sadap tunggal pada umumnya mengambil dari saluran induk, tidak mempergunakan bangunan pengatur karena elevasi sudah mencukupi.
+Bangunan pengatur mempunyai potongan pengontrol aliran yang dapat disetel (pintu sorong, radial, skot balok) atau tetap (bendung).
+2) Pintu Pengambilan
+Pintu pengambilan berguna untuk mengatur/mengontrol muka air di jaringan irigasi utama sampai batas-batas yang diperlukan dalam memberikan debit yang konstan kepada bangunan sadap tersier.
+3) Bangunan Ukur
+Debit yang dikeluarkan diukur oleh bangunan ukur.
+c. Tipe Sadap
+Tipe sadap dapat dibedakan sebagai berikut :
+1) Tipe 1
+Bangunan sadap tipe 1 ini pada umumnya dirancang jika perbedaan tinggi air antara muka air di saluran dengan muka air hilir lebih dari
+0,30 m, biasanya dengan alat ukur Drempel.
+Bangunan ukur yang dirancang adalah Bangunan Ukur Drempel.
+
+2) Tipe 2
+Bangunan dirancang untuk semua keadaan, dimana beda tinggi air kurang dari 0,30 m, atau bila beda tinggi yang diperlukan kurang jelas, yang dimungkinkan karena perbaikan/pembangunan petak tersier.
+
+Bangunan ukur yang dipakai adalah bangunan ukur flume
+
+3) Tipe 3
+Bangunan sadap tipe ini dipakai untuk debit yang kecil
+
+4) Tipe 4
+Dipakai untuk pemberian air langsung di sawah-sawah dengan luas kurang dari 1,0 ha.
+
+3.
+Bangunan Pengatur Jaringan tersier
+Bangunan pengatur di jaringan tersier adalah boks bagi tersier, sub tersier dan kuater, boks-boks bagi di saluran tersier yang membagi aliran untuk dua saluran atau lebih tersier, sub tersier dan atau kuater. Boks tersier dilengkapi dengan pintu untuk keperluan giliran pemberian air.
+Bangunan pengatur jaringan tersier tidak dilengkapi dengan bangunan ukur, sehingga pelaksanaan pembagian air hanya dibuka dan ditutup saja.
+
+4.
+Bangunan Pelengkap
+1) Talang
+
+Talang merupakan saluran buatan yang melintasi permukaan tanah yang rendah (lembah, saluran irigasi/pembuang, sungai).
+
+Talang dipergunakan pada tempat dimana perbedaan tinggi antara saluran irigasi dengan permukaan tanah yang dilewati cukup tinggi dan dipandang lebih ekonomis dibandingkan dengan siphon. Talang dapat terbuat dari beton, baja, kayu atau paralon PVC/HDPE.
+
+2) Siphon
+
+Siphon merupakan bangunan saluran tertutup yang berguna untuk mengalirkan air yang melintasi tempat dengan perbedaan tinggi yang relatif kecil dibanding dengan muka air di saluran.
+
+Siphon dipakai untuk mengalirkan air irigasi dengan menggunakan gravitasi di bawah saluran pembuang, cekungan, anak sungai atau sungai. Siphon juga dipakai untuk melewatkan air irigasi dibawah jalan, jalan kereta api atau bangunan-bangunan lainnya.
+
+3) Bangunan Terjun
+
+Bangunan terjun adalah bangunan yang befungsi untuk mengurangi kemiringan saluran. Bangunan terjun dapat dipisahkan menjadi dua tipe, yaitu bangunan terjun tegak dan bangunan terjun miring.
+
+Bangunan terjun tegak pada umumnya dipergunakan pada perbedaan ketinggian maksimum 1,5 m dengan debit lebih kecil dari 2,5 m³/detik atau perbedaan ketinggian 0,75 m dengan debit lebih besar dari 2,5 m³/detik. Jika perbedaan ketinggian air antara 1,5 - 2,5 m, maka dipergunakan bangunan terjun miring.
+
+Untuk mencegah muka air yang tinggi atau rendah di saluran akibat terjunan, dipakai mercu tetap atau celah kontrol trapesium (trapeziodal notch).
+
+4) Got Miring
+
+Bangunan got miring dipergunakan pada trase saluran dengan kemiringan yang cukup tajam. Got miring berupa potongan saluran yang diberi pasangan (lining) dengan aliran super kritis, dan umumnya mengikuti kemiringan medan alamiah dengan beda tinggi di atas 2,5 m.
+
+Bangunan ini dilengkapi dengan kolam olak pada bagian hilir dan untuk mencegah muka air yang tinggi atau rendah di saluran akibat terjunan, dipakai mercu tetap atau celah kontrol trapesium (trapeziodal notch).
+5) Gorong-gorong
+
+Gorong-gorong adalah bangunan yang berfungsi untuk mengalirkan air di bawah bangunan (jalan, rel kereta api) atau untuk mengalirkan air di persilangan antara saluran pembuang dengan saluran pembawa.
+
+6) Terowongan
+
+Terowongan dibangun apabila keadaan ekonomi/anggaran memungkinkan untuk saluran tertutup guna mengalirkan air melewati bukit-bukit dan medan yang tinggi. Aliran yang mengalir dalam terowongan adalah aliran terbuka.
+7) Bangunan Pelimpah Samping
+
+Bangunan pelimpah samping berfungsi untuk membatasi debit yang masuk ke saluran pembawa dan melimpaskan kelebihan air hujan yang masuk ke saluran pembawa.
+8) Jalan dan Jembatan
+
+Jalan yang dimaksud adalah jalan masuk dan jalan inspeksi, untuk menunjang kegiatan operasi dan pemeliharaan jaringan irigasi pembawa dan pembuang oleh instansi yang membidangi irigasi.
+Untuk menghubungkan jalan inspeksi yang dipisahkan oleh saluran irigasi, saluran pembuang dan sungai diperlukan jembatan.
+Masyarakat dapat menggunakan fasilitas ini untuk sarana transportasi sesuai ketentuan yang ditetapkan oleh pengelola irigasi. Jika saluran dibangun sejajar dengan jalan umum di dekatnya, maka tidak diperlukan jalan inspeksi di sepanjang ruas saluran tersebut.
+9) Tanggul
+
+Tanggul diperlukan untuk melindungi daerah irigasi terhadap banjir yang berasal dari sungai atau saluran pembuang yang besar. Pada umumnya tanggul diperlukan di sepanjang sungai di sebelah hulu bendung atau di sepanjang saluran primer.
+
+5.
+Saluran Irigasi a. Saluran Pembawa
+Saluran pembawa merupakan prasarana jaringan irigasi untuk mengalirkan air irigasi. Terdiri dari saluran induk dan saluran sekunder.
+
+b. Saluran Pembuang
+Saluran pembuang ini berfungsi membuang kelebihan air di lokasi sawah akibat tingginya curah hujan yang dapat menyebabkan genangan pada sawah dan meyebabkan kerusakan tanaman.
+Aliran buangan ditampung di saluran terbuka yang mengalir secara paralel di sebelah atas saluran irigasi (saluran gendong). Saluran-saluran ini membawa air buangan ke bangunan pembuang silang atau jika debit relatif kecil dibandingkan dengan aliran air irigasi, dimasukkan ke dalam saluran irigasi melalui lubang pemasukan.
+
+B. Sarana Irigasi
+
+Dalam rangka pelaksanaan operasi & pemeliharaan jaringan irigsi, petugas perlu dibekali peta-peta dan pedoman/ manual op dari sistem tersebut.
+
+Adapun peta yang diperlukan :
+1. Peta daerah irigasi
+
+2. Skema jaringan irigasi
+
+3.
 Skema bangunan irigasi
- 
- 
- 
-34 
- 
-4. 
-Skema operasi irigasi 
- 
- 
- 
- 
-5. 
-Skema sosio-hidro 
- 
- 
-35 
- 
-MATERI POKOK 3 
-PENGELOLAAN (MANAJEMEN IRIGASI) 
- 
-Pengelolaan irigasi dilaksanakan berorientasi pada peningkatan layanan irigasi 
-berdasarkan hak dan kewajiban masyarakat petani agar dapat mengakses 
-sumberdaya lokal secara berkeadilan untuk mendukung kedaulatan pangan dan 
-pertanian lainnya 
-  
-A. 
-Prinsip pengelolaan sistem irigasi diselenggarakan secara : 
- partisipatif berbasis peran serta masyarakat petani  
- terpadu mengintegrasikan kepentingan antarsektor terkait  
- berwawasan lingkungan hidup  memperhatikan keseimbangan ekosistem 
-dan daya dukung lingkungan  
- transparan dan akuntabel  terbuka dan dapat dipertanggungjawabkan  
- berkeadilan secara proporsional  sesuai dengan kebutuhan masyarakat 
-pemakai air irigasi dari bagian hulu sampai dengan hilir 
- 
-B. Manual Operasi dan Pemeliharaan Jaringan Utama 
-Setiap daerah irigasi harus dilengkapi petunjuk / Manual O&P dengan substansi 
-minimal sebagai berikut : 
-1. 
-Pendahuluan 
-2. 
-Prosedur Operasi 
-3. 
-Prosedur Pemeliharaan 
-4. 
-Siaga Banjir 
-5. 
-Mekanisme Pelaporan O&P 
-6. 
-Organisasi dan Personalia 
-7. 
-Komisi Irigasi 
-8. 
-Perkumpulan Petani Pemakai Air 
-9. 
-Angka Kebutuhan Nyata Operasi dan Pemeliharaan (AKNOP) 
-10. Lampiran : 
- 
-Buku data DI 
- 
-RTTG dan RTTD 
- 
-Rencana Golongan 
- 
-Tabel debit/pintu air 
- 
-Blangko Operasi 
- 
-Blangko Pemeliharaan 
- 
-Dll 
-36 
- 
- 
-C. Manual O&P di Tingkat Tersier 
-Tidak hanya di sistem irigasi utama tetapi di sistem tersierpun harus disiapkan 
-Manual Operasi dan Pemeliharaan Tersier dengan substansi minimal sebagai 
-berikut : 
-1. Operasi pada jaringan tersier 
-2. Pembagian air secara terus menerus 
-3. Mengatur rotasi dan/atau giliran 
-4. Contoh mengatur rotasi dan/atau giliran 
-5. Pemeliharaan pada jaringan tersier 
-6. Pengisian blangko O&P Tersier 
-7. Angka Kebutuhan Nyata O&P (AKNOP) Tersier 
- 
-D. Fasilitas O&P 
-Guna mendukung pelaksanaan operasi dan pemeliharaan maka para petugas 
-perlu dilengkapi fasilitasi O&P antara lain : 
-1. Alat transportasi dan komunikasi 
-2. Peralatan kerja lapangan 
-3. Seragam 
-4. Peralatan sarana sistem informasi O&P berbasis blangko dan/atau IT 
- 
-E. Sistem pembiayaan 
-Sistem pembiayaan harus jelas dan transparan sesuai kebutuhan di lapangan 
-berdasarkan target capaian yang telah ditentukan  
- 
-F. Monitoring dan evaluasi 
-Monitoring dan evaluasi dilakukan secara rutin, berkala sesuai dengan SOP yang 
-telah ditetapkan termasuk rekomendasi adanya reward dan punishment terhadap 
-petugas dalam pelayanan pada masyarakat petani. 
- 
-G. Penegakan Hukum 
-Perlu adanya penerapan secara disiplin penegakan hukum setiap adanya 
-pelanggaran dalam pengelolaan sistem irigasi berdasarkan kriteria hukum yang 
-telah ditetapkan yang mengacu pada peraturan perundangan yang berlaku. 
- 
-37 
- 
-MATERI POKOK 4 
-KELEMBAGAAN, STRUKTUR ORGANISASI, DAN SDM PENGELOLAAN 
-IRIGASI  
- 
-A. Kelembagaan Pengelolaan Irigasi  : 
-• 
-Instansi pemerintah yang membidangi irigasi  
-• 
-Perkumpulan petani pemakai air 
-• 
-Komisi irigasi  
-Untuk dapat melaksanakan tugas dan fungsinya lembaga pengelola irigasi harus 
-mempunyai kemampuan sebagai berikut : 
-a. Kemampuan Organisasi : 
-• 
-Instansi pemerintah atau Instansi/Dinas yang membidangi irigasi harus 
-memiliki struktur organisasi sampai tingkat pelayanan irigasi 
-• 
-P3A melaksanakan pengelolaan irigasi di tingkat tersier dan dapat 
-membentuk GP3A / IP3A untuk dapat berpartisipasi dalam pengelolaan 
-sistem irigasi utama 
-• 
-Komir sebagai wadah koordinasi melaksanakan tugas konsultasi dan 
-koordinasi membantu Bupati/Walikota atau Gubernur dalam pengelolaan 
-irigasi.  
-b. Kemampuan Pendanaan : 
-• 
-Masing-masing menyediakan pendanaan sesuai dengan tugas dan 
-fungsinya  
- 
-B. Struktur Organisasi dan SDM Pengelolaan Irigasi 
-a. Pimpinan & Pegawai instansi pemerintah yang membidangi irigasi minimal 
-terdiri : 
- Kepala Dinas, Kepala Bidang, Kepala Seksi 
- Kepala UPTD/Pengamat Pengairan, Juru/Mantri Pengairan, POB, 
-PPA dan Pekarya 
-b. Pengurus & Anggota Perkumpulan petani pemakai air, minimal terdiri : 
- Ketua, Sekretaris, Bendahara 
- Ulu-ulu 
- Ketua Blok Tersier/Kuarter 
-c. Ketua & Anggota Komisi irigasi, minimal terdiri : 
-38 
- 
- Ketua, Ketua Harian, Sekretaris, Ketua Bidang 
- Sekretariat Komir : Kepala, Kepala urusan, dllnya 
-Sumber daya manusia yang menduduki dalam butir 4.2 harus memenuhi 
-kapasitas dan kemampuan dalam bidangnya sesuai dengan: 
-• Pengetahuan (knowledge)  
-• Ketrampilan (skills)  
-• Perilaku (attitude) 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-39 
- 
-PENUTUP 
- 
- 
-A. 
-Latihan 
-Jawablah pertanyaan di bawah ini dengan cara memilih jawaban yang 
-paling benar! 
-1) Yang dimaksud sistem irigasi meliputi yang tersebut dibawah ini, kecuali ... 
-a. Prasarana irigasi 
-b. Air irigasi 
-c. Manajemen irigasi 
-d. Aset irigasi 
-e. Kelembagaan pengelolaan irigasi 
-f. Sumber daya manusia 
-2) Bangunan utama (head work) dapat didefinisikan sebagai kompleks bangunan 
-yang 
-direncanakan 
-di 
-sumber 
-air, 
-guna 
-meninggikan 
-muka 
-air, 
-membelokkan/mengalirkan air atau menampung kelebihan air pada musim 
-hujan ke jaringan saluran agar dapat dipakai keperluan irigasi.  
-Bangunan utama tersebut antara lain adalah : 
-a. Bendung 
-b. Pengambilan bebas 
-c. Bangunan bagi/sadap 
-d. Mata air 
-3) Bangunan pengatur jaringan utama terdiri 4 (empat) bangunan tersebut 
-dibawah ini kecuali ….. 
-a. Bangunan bagi 
-b. Bangunan bagi-sadap  
-c. Sadap tersier (langsung) 
-d. Bangunan sadap 
-e. Bangunan pengatur muka air (individual) 
-4) Untuk menjalankan kegiatan operasi dan pemeliharaan jaringan irigasi, maka 
-setiap daerah irigasi perlu dilengkapi :... 
-a. Gambar purna laksana (asbuilt drawing) 
-b. Manual Operasi dan Pemeliharaan 
-c. AKNOP 
-40 
- 
-d. Rekomendasi RTT Komisi Irigasi 
-5) Dalam pelayanan irigasi di lapangan, kelembagaan dan SDM yang harus 
-dilengkapi adalah : 
-a. Dinas yang dilengkapi dengan jabatan : Kepala Dinas, Kabid, Kasi, Staf. 
-b. UPTD/Pengamat Pengairan yang dilengkapi dengan jabatan : Kepala 
-UPTD/Pengamat Pengairan, Juru/Mantri Pengairan, POB, Pekarya. 
-c. UPTD/Pengamat Pengairan yang dilengkapi dengan jabatan : Kepala 
-UPTD/Pengamat Pengairan, Juru/Mantri Pengairan, POB, PPA. 
-d. UPTD/Pengamat Pengairan yang dilengkapi dengan jabatan : Kepala 
-UPTD/Pengamat Pengairan, Juru/Mantri Pengairan, PPA, Pekarya. 
- 
-B. 
-Rangkuman 
-1. Pada prinsipnya irigasi adalah upaya manusia untuk mengambil air dari 
-sumber, mengalirkannya ke dalam saluran, membagikan ke petak sawah, 
-memberikan air pada tanaman, dan membuang kelebihan air ke jaringan 
-pembuang. 
-2. Pemberian air irigasi tersebut harus sesuai dengan kebutuhan berdasarkan 
-hal-hal sebagai berikut : 
-a. Tempat : setiap petak tersier mempunyai kebutuhan air yang 
-berbeda tergantung dari jenis tanah dan iklim (evapotranspirasi dan 
-curah hujan efektif), serta kehilangan air di saluran. 
-b. Jumlah : petak tersier memiliki luas dan ushatani yang berbeda. 
-c. Waktu : 
-setiap fase tanaman pertumbuhan (fase pengolahan 
-tanah, pertumbuhan dan panen) mempunyai kebutuhan air yang 
-berbeda. 
-d. Mutu : 
-air irigasi harus memenuhi standard mutu irigasi (contoh: 
-salinitas yang sangat rendah). 
-3. Batasan kewenangan disamping berdasarkan letak juga berdasarkan 
-strata luasan daerah irigasi dibagi sebagai berikut : 
-a. Pemerintah (Pusat) : pengembangan dan pengelolaan sistem 
-irigasi primer dan sekunder pada daerah irigasi yang luasnya  
->3.000 ha, dan daerah irigasi lintas negara, lintas provinsi dan 
-strategis nasional. 
-41 
- 
-b. Daerah Provinsi : pengembangan dan pengelolaan sistem irigasi 
-primer dan  sekunder pada daerah irigasi yang luasnya 1.000 ha-
-3.000 ha, dan daerah irigasi lintas daerah kabupaten/kota. 
-c. Daerah Kab/Kota : pengembangan dan pengelolaan sistem irigasi 
-primer dan  sekunder pada daerah irigasi yang luasnya kurang dari 
-1.000 ha dalam 1 (satu) daerah kabupaten/kota 
-5. Prasarana Irigasi merupakan saluran dan bangunan irigasi yang berfungsi 
-untuk mengalirkan air dari sumber air ke lahan sawah.  
-6. Tipe-tipe bangunan utama di Indonesia dapat dibedakan (i) Bendung atau 
-Bendung Gerak (barrage), (ii) Pompa, (iii) Pengambilan Bebas, (iv) Mata 
-Air dan (v) Waduk atau Embung 
-7. Bangunan utama (head work) dapat didefinisikan sebagai kompleks 
-bangunan yang direncanakan di sumber air, guna meninggikan muka air, 
-membelokkan/mengalirkan air atau menampung kelebihan air pada 
-musim hujan ke jaringan saluran agar dapat dipakai guna keperluan irigasi. 
-Bangunan utama ini diharapkan pula dapat mengarungi sedimen yang 
-masuk ke jaringan irigasi dan mengukur debit aliran.  
-8. Bangunan pengatur jaringan utama terdiri dari empat macam bangunan, 
-yaitu: 
-1) Bangunan Bagi 
-Bangunan bagi terletak di saluran primer dan sekunder pada suatu 
-titik cabang dan berfungsi untuk membagi aliran antara  
-dua saluran atau lebih.  
-2) Bangunan Sadap 
-Bangunan sadap tersier mengalirkan air dari saluran primer atau 
-sekunder tersier penerima. 
-3) Bangunan Bagi dan Sadap 
-Bangunan ini merupakan gabungan antara bangunan bagi dan 
-bangunan sadap. 
-9.  Saluran Irigasi terdiri : 
-a. Saluran Pembawa 
-Saluran irigasi merupakan sarana jaringan irigasi untuk mengalirkan air 
-irigasi. Terdiri dari saluran induk dan saluran sekunder. 
-42 
- 
- 
-b.Saluran Pembuang 
-Saluran pembuang ini berfungsi membuang kelebihan air di lokasi 
-sawah akibat tingginya curah hujan yang dapat menyebabkan genangan 
-pada sawah dan meyebabkan kerusakan tanaman 
-        10. Prinsip pengelolaan sistem irigasi diselenggarakan secara : 
- partisipatif berbasis peran serta masyarakat petani  
- terpadu mengintegrasikan kepentingan antarsektor terkait  
- berwawasan lingkungan hidup  memperhatikan keseimbangan 
-ekosistem dan daya dukung lingkungan  
- transparan 
-dan 
-akuntabel 
- 
-terbuka 
-dan 
-dapat 
-dipertanggungjawabkan  
- berkeadilan secara proporsional  sesuai dengan kebutuhan 
-masyarakat pemakai air irigasi dari bagian hulu sampai dengan hilir 
-11. Kelembagaan Pengelolaan Irigasi  : 
- Instansi instansi pemerintah yang membidangi irigasi  
- Perkumpulan petani pemakai air 
- Komisi irigasi 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-43 
- 
- 
-C. 
-Evaluasi Kegiatan Belajar : 
-Pendekatan evaluasi secara konvensional (pedagogi) kurang efektif untuk 
-diterapkan bagi orang dewasa. Untuk itu pendekatan ini tidak cocok dan tidaklah 
-cukup untuk menilai hasil belajar orang dewasa. Ada beberapa pokok dalam 
-melaksanakan evaluasi hasil belajar bagi orang dewasa yakni: 
-a. Evaluasi hendaknya berorientasi kepada pengukuran perubahan perilaku 
-setelah mengikuti proses pembelajaran / pepelatihan; 
-b. Sebaiknya evaluasi dilaksanakan melalui pengujian terhadap dan oleh 
-peserta belajar itu sendiri (Self Evaluation); 
-c. Perubahan positif perilaku merupakan tolok ukur keberhasilan; 
-d. Ruang lingkup materi evaluasi "ditetapkan bersama secara partisipatif" 
-atau berdasarkan kesepakatan bersama seluruh pihak terkait yang 
-terlibat; 
-e. Evaluasi ditujukan untuk menilai efektifitas dan efisiensi penyelenggaraan 
-program pendidikan yang mencakup kekuatan maupun kelemahan 
-program; 
-f. 
-Menilai efektifitas materi yang dibahas dalam kaitannya dengan 
-perubahan sikap dan perilaku. 
-Evaluasi terhadap pemahaman materi sebagai berikut : 
-1. Jika peserta dapat menjawab > 80% maka pemahaman terhadap Pengenalan 
-Sistem Irigasi sangat baik. 
-2. Jika peserta dapat menjawab 60-79% maka pemahaman terhadap 
-Pengenalan Sistem Irigasi baik. 
-3. Jika peserta dapat menjawab 40-59% maka pemahaman terhadap 
-Pengenalan Sistem Irigasi cukup. 
-4. Jika peserta dapat menjawab < 40% maka pemahaman terhadap Pengenalan 
-Sistem Irigasi kurang. 
- 
- 
-D. 
-Umpan Balik dan Tindak Lanjut 
-Setelah peserta mengikuti pelatihan mengenai pengenalan sistem irigasi dan 
-hasil evaluasi belajar, maka instruktur dan peserta dapat menilai seberapa jauh 
-keberhasilan pepelatihan yang diberikan. 
-44 
- 
-Sebagai tindak lanjut, maka peserta dapat memperdalam materi tersebut 
-dengan mengacu pada dasar hukum, pedoman serta daftar pustaka. Disamping 
-itu anda perlu mempraktekkan metode-metode tersebut selama proses 
-pembelajaran 
-maupun 
-pasca 
-pembelajaran, 
-karena 
-ilmu 
-tanpa 
-dipraktekkan/diamalkan tidak ada artinya 
- 
- 
-E. 
-Kunci Jawaban Soal : 
- 
-1) D 
-2) C 
-3) C 
-4) B 
-5) C 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-45 
- 
- 
-DAFTAR PUSTAKA 
- 
-1. Peraturan Kepala Lembaga Administrasi Negara No: 5 Tahun 2009 tentang 
-Pedoman Penulisan Modul Pendidikan dan Pelatihan 
-2. Modul Pengelolaan Sistem Irigasi Partisipatif Edisi ke-3 Desember 2005 oleh 
-Badan Penelitian dan Pengembangan, Direktorat Jenderal Sumber Daya Air 
-Kerjasama Japan International Coorperation Agency (JICA)  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-46 
- 
-GLOSARI 
- 
-P3A 
-: Perkumpulan Petani Pemakai Air 
-GP3A 
-: Gabungan Perkumpulan Petani Pemakai Air 
-IP3A 
-: Induk Perkumpulan Petani Pemakai Air 
-AKNOP 
-: Angka Kebutuhan Nyata Operasi dan Pemeliharaan 
-RTT 
-: Rencana Tata Tanam 
-Komir 
-: Komisi Irigasi 
-SDM 
-: Sumber Daya Manusia O&P 
- 
- 
- 
+
+4.
+Skema operasi irigasi
+
+5.
+Skema sosio-hidro
+
+MATERI POKOK 3
+PENGELOLAAN (MANAJEMEN IRIGASI)
+
+Pengelolaan irigasi dilaksanakan berorientasi pada peningkatan layanan irigasi berdasarkan hak dan kewajiban masyarakat petani agar dapat mengakses sumberdaya lokal secara berkeadilan untuk mendukung kedaulatan pangan dan pertanian lainnya
+
+A.
+Prinsip pengelolaan sistem irigasi diselenggarakan secara :
+ partisipatif berbasis peran serta masyarakat petani
+ terpadu mengintegrasikan kepentingan antarsektor terkait
+ berwawasan lingkungan hidup  memperhatikan keseimbangan ekosistem dan daya dukung lingkungan
+ transparan dan akuntabel  terbuka dan dapat dipertanggungjawabkan
+ berkeadilan secara proporsional  sesuai dengan kebutuhan masyarakat pemakai air irigasi dari bagian hulu sampai dengan hilir
+
+B. Manual Operasi dan Pemeliharaan Jaringan Utama
+Setiap daerah irigasi harus dilengkapi petunjuk / Manual O&P dengan substansi minimal sebagai berikut :
+1.
+Pendahuluan
+2.
+Prosedur Operasi
+3.
+Prosedur Pemeliharaan
+4.
+Siaga Banjir
+5.
+Mekanisme Pelaporan O&P
+6.
+Organisasi dan Personalia
+7.
+Komisi Irigasi
+8.
+Perkumpulan Petani Pemakai Air
+9.
+Angka Kebutuhan Nyata Operasi dan Pemeliharaan (AKNOP)
+10. Lampiran :
+
+Buku data DI
+
+RTTG dan RTTD
+
+Rencana Golongan
+
+Tabel debit/pintu air
+
+Blangko Operasi
+
+Blangko Pemeliharaan
+
+Dll
+
+C. Manual O&P di Tingkat Tersier
+Tidak hanya di sistem irigasi utama tetapi di sistem tersierpun harus disiapkan
+Manual Operasi dan Pemeliharaan Tersier dengan substansi minimal sebagai berikut :
+1. Operasi pada jaringan tersier
+2. Pembagian air secara terus menerus
+3. Mengatur rotasi dan/atau giliran
+4. Contoh mengatur rotasi dan/atau giliran
+5. Pemeliharaan pada jaringan tersier
+6. Pengisian blangko O&P Tersier
+7. Angka Kebutuhan Nyata O&P (AKNOP) Tersier
+
+D. Fasilitas O&P
+Guna mendukung pelaksanaan operasi dan pemeliharaan maka para petugas perlu dilengkapi fasilitasi O&P antara lain :
+1. Alat transportasi dan komunikasi
+2. Peralatan kerja lapangan
+3. Seragam
+4. Peralatan sarana sistem informasi O&P berbasis blangko dan/atau IT
+
+E. Sistem pembiayaan
+Sistem pembiayaan harus jelas dan transparan sesuai kebutuhan di lapangan berdasarkan target capaian yang telah ditentukan
+
+F. Monitoring dan evaluasi
+Monitoring dan evaluasi dilakukan secara rutin, berkala sesuai dengan SOP yang telah ditetapkan termasuk rekomendasi adanya reward dan punishment terhadap petugas dalam pelayanan pada masyarakat petani.
+
+G. Penegakan Hukum
+Perlu adanya penerapan secara disiplin penegakan hukum setiap adanya pelanggaran dalam pengelolaan sistem irigasi berdasarkan kriteria hukum yang telah ditetapkan yang mengacu pada peraturan perundangan yang berlaku.
+
+MATERI POKOK 4
+KELEMBAGAAN, STRUKTUR ORGANISASI, DAN SDM PENGELOLAAN
+IRIGASI
+
+A. Kelembagaan Pengelolaan Irigasi :
+•
+Instansi pemerintah yang membidangi irigasi
+•
+Perkumpulan petani pemakai air
+•
+Komisi irigasi
+Untuk dapat melaksanakan tugas dan fungsinya lembaga pengelola irigasi harus mempunyai kemampuan sebagai berikut :
+a. Kemampuan Organisasi :
+•
+Instansi pemerintah atau Instansi/Dinas yang membidangi irigasi harus memiliki struktur organisasi sampai tingkat pelayanan irigasi
+•
+P3A melaksanakan pengelolaan irigasi di tingkat tersier dan dapat membentuk GP3A / IP3A untuk dapat berpartisipasi dalam pengelolaan sistem irigasi utama
+•
+Komir sebagai wadah koordinasi melaksanakan tugas konsultasi dan koordinasi membantu Bupati/Walikota atau Gubernur dalam pengelolaan irigasi.
+b. Kemampuan Pendanaan :
+•
+Masing-masing menyediakan pendanaan sesuai dengan tugas dan fungsinya
+
+B. Struktur Organisasi dan SDM Pengelolaan Irigasi a. Pimpinan & Pegawai instansi pemerintah yang membidangi irigasi minimal terdiri :
+ Kepala Dinas, Kepala Bidang, Kepala Seksi
+ Kepala UPTD/Pengamat Pengairan, Juru/Mantri Pengairan, POB,
+PPA dan Pekarya b. Pengurus & Anggota Perkumpulan petani pemakai air, minimal terdiri :
+ Ketua, Sekretaris, Bendahara
+ Ulu-ulu
+ Ketua Blok Tersier/Kuarter c. Ketua & Anggota Komisi irigasi, minimal terdiri :
+
+ Ketua, Ketua Harian, Sekretaris, Ketua Bidang
+ Sekretariat Komir : Kepala, Kepala urusan, dllnya
+Sumber daya manusia yang menduduki dalam butir 4.2 harus memenuhi kapasitas dan kemampuan dalam bidangnya sesuai dengan:
+• Pengetahuan (knowledge)
+• Ketrampilan (skills)
+• Perilaku (attitude)
+
+PENUTUP
+
+A.
+Latihan
+Jawablah pertanyaan di bawah ini dengan cara memilih jawaban yang paling benar!
+1) Yang dimaksud sistem irigasi meliputi yang tersebut dibawah ini, kecuali ...
+a. Prasarana irigasi b. Air irigasi c. Manajemen irigasi d. Aset irigasi e. Kelembagaan pengelolaan irigasi f. Sumber daya manusia
+2) Bangunan utama (head work) dapat didefinisikan sebagai kompleks bangunan yang direncanakan di sumber air, guna meninggikan muka air, membelokkan/mengalirkan air atau menampung kelebihan air pada musim hujan ke jaringan saluran agar dapat dipakai keperluan irigasi.
+Bangunan utama tersebut antara lain adalah :
+a. Bendung b. Pengambilan bebas c. Bangunan bagi/sadap d. Mata air
+3) Bangunan pengatur jaringan utama terdiri 4 (empat) bangunan tersebut dibawah ini kecuali …..
+a. Bangunan bagi b. Bangunan bagi-sadap c. Sadap tersier (langsung) d. Bangunan sadap e. Bangunan pengatur muka air (individual)
+4) Untuk menjalankan kegiatan operasi dan pemeliharaan jaringan irigasi, maka setiap daerah irigasi perlu dilengkapi :...
+a. Gambar purna laksana (asbuilt drawing) b. Manual Operasi dan Pemeliharaan c. AKNOP
+
+d. Rekomendasi RTT Komisi Irigasi
+5) Dalam pelayanan irigasi di lapangan, kelembagaan dan SDM yang harus dilengkapi adalah :
+a. Dinas yang dilengkapi dengan jabatan : Kepala Dinas, Kabid, Kasi, Staf.
+b. UPTD/Pengamat Pengairan yang dilengkapi dengan jabatan : Kepala
+UPTD/Pengamat Pengairan, Juru/Mantri Pengairan, POB, Pekarya.
+c. UPTD/Pengamat Pengairan yang dilengkapi dengan jabatan : Kepala
+UPTD/Pengamat Pengairan, Juru/Mantri Pengairan, POB, PPA.
+d. UPTD/Pengamat Pengairan yang dilengkapi dengan jabatan : Kepala
+UPTD/Pengamat Pengairan, Juru/Mantri Pengairan, PPA, Pekarya.
+
+B.
+Rangkuman
+1. Pada prinsipnya irigasi adalah upaya manusia untuk mengambil air dari sumber, mengalirkannya ke dalam saluran, membagikan ke petak sawah, memberikan air pada tanaman, dan membuang kelebihan air ke jaringan pembuang.
+2. Pemberian air irigasi tersebut harus sesuai dengan kebutuhan berdasarkan hal-hal sebagai berikut :
+a. Tempat : setiap petak tersier mempunyai kebutuhan air yang berbeda tergantung dari jenis tanah dan iklim (evapotranspirasi dan curah hujan efektif), serta kehilangan air di saluran.
+b. Jumlah : petak tersier memiliki luas dan ushatani yang berbeda.
+c. Waktu :
+setiap fase tanaman pertumbuhan (fase pengolahan tanah, pertumbuhan dan panen) mempunyai kebutuhan air yang berbeda.
+d. Mutu :
+air irigasi harus memenuhi standard mutu irigasi (contoh:
+salinitas yang sangat rendah).
+3. Batasan kewenangan disamping berdasarkan letak juga berdasarkan strata luasan daerah irigasi dibagi sebagai berikut :
+a. Pemerintah (Pusat) : pengembangan dan pengelolaan sistem irigasi primer dan sekunder pada daerah irigasi yang luasnya
+>3.000 ha, dan daerah irigasi lintas negara, lintas provinsi dan strategis nasional.
+
+b. Daerah Provinsi : pengembangan dan pengelolaan sistem irigasi primer dan sekunder pada daerah irigasi yang luasnya 1.000 ha-
+3.000 ha, dan daerah irigasi lintas daerah kabupaten/kota.
+c. Daerah Kab/Kota : pengembangan dan pengelolaan sistem irigasi primer dan sekunder pada daerah irigasi yang luasnya kurang dari
+1.000 ha dalam 1 (satu) daerah kabupaten/kota
+5. Prasarana Irigasi merupakan saluran dan bangunan irigasi yang berfungsi untuk mengalirkan air dari sumber air ke lahan sawah.
+6. Tipe-tipe bangunan utama di Indonesia dapat dibedakan (i) Bendung atau
+Bendung Gerak (barrage), (ii) Pompa, (iii) Pengambilan Bebas, (iv) Mata
+Air dan (v) Waduk atau Embung
+7. Bangunan utama (head work) dapat didefinisikan sebagai kompleks bangunan yang direncanakan di sumber air, guna meninggikan muka air, membelokkan/mengalirkan air atau menampung kelebihan air pada musim hujan ke jaringan saluran agar dapat dipakai guna keperluan irigasi.
+Bangunan utama ini diharapkan pula dapat mengarungi sedimen yang masuk ke jaringan irigasi dan mengukur debit aliran.
+8. Bangunan pengatur jaringan utama terdiri dari empat macam bangunan, yaitu:
+1) Bangunan Bagi
+Bangunan bagi terletak di saluran primer dan sekunder pada suatu titik cabang dan berfungsi untuk membagi aliran antara dua saluran atau lebih.
+2) Bangunan Sadap
+Bangunan sadap tersier mengalirkan air dari saluran primer atau sekunder tersier penerima.
+3) Bangunan Bagi dan Sadap
+Bangunan ini merupakan gabungan antara bangunan bagi dan bangunan sadap.
+9. Saluran Irigasi terdiri :
+a. Saluran Pembawa
+Saluran irigasi merupakan sarana jaringan irigasi untuk mengalirkan air irigasi. Terdiri dari saluran induk dan saluran sekunder.
+
+b.Saluran Pembuang
+Saluran pembuang ini berfungsi membuang kelebihan air di lokasi sawah akibat tingginya curah hujan yang dapat menyebabkan genangan pada sawah dan meyebabkan kerusakan tanaman
+10. Prinsip pengelolaan sistem irigasi diselenggarakan secara :
+ partisipatif berbasis peran serta masyarakat petani
+ terpadu mengintegrasikan kepentingan antarsektor terkait
+ berwawasan lingkungan hidup  memperhatikan keseimbangan ekosistem dan daya dukung lingkungan
+ transparan dan akuntabel
+ terbuka dan dapat dipertanggungjawabkan
+ berkeadilan secara proporsional  sesuai dengan kebutuhan masyarakat pemakai air irigasi dari bagian hulu sampai dengan hilir
+11. Kelembagaan Pengelolaan Irigasi :
+ Instansi instansi pemerintah yang membidangi irigasi
+ Perkumpulan petani pemakai air
+ Komisi irigasi
+
+C.
+Evaluasi Kegiatan Belajar :
+Pendekatan evaluasi secara konvensional (pedagogi) kurang efektif untuk diterapkan bagi orang dewasa. Untuk itu pendekatan ini tidak cocok dan tidaklah cukup untuk menilai hasil belajar orang dewasa. Ada beberapa pokok dalam melaksanakan evaluasi hasil belajar bagi orang dewasa yakni:
+a. Evaluasi hendaknya berorientasi kepada pengukuran perubahan perilaku setelah mengikuti proses pembelajaran / pepelatihan; b. Sebaiknya evaluasi dilaksanakan melalui pengujian terhadap dan oleh peserta belajar itu sendiri (Self Evaluation); c. Perubahan positif perilaku merupakan tolok ukur keberhasilan; d. Ruang lingkup materi evaluasi "ditetapkan bersama secara partisipatif" atau berdasarkan kesepakatan bersama seluruh pihak terkait yang terlibat; e. Evaluasi ditujukan untuk menilai efektifitas dan efisiensi penyelenggaraan program pendidikan yang mencakup kekuatan maupun kelemahan program; f.
+Menilai efektifitas materi yang dibahas dalam kaitannya dengan perubahan sikap dan perilaku.
+Evaluasi terhadap pemahaman materi sebagai berikut :
+1. Jika peserta dapat menjawab > 80% maka pemahaman terhadap Pengenalan
+Sistem Irigasi sangat baik.
+2. Jika peserta dapat menjawab 60-79% maka pemahaman terhadap
+Pengenalan Sistem Irigasi baik.
+3. Jika peserta dapat menjawab 40-59% maka pemahaman terhadap
+Pengenalan Sistem Irigasi cukup.
+4. Jika peserta dapat menjawab < 40% maka pemahaman terhadap Pengenalan
+Sistem Irigasi kurang.
+
+D.
+Umpan Balik dan Tindak Lanjut
+Setelah peserta mengikuti pelatihan mengenai pengenalan sistem irigasi dan hasil evaluasi belajar, maka instruktur dan peserta dapat menilai seberapa jauh keberhasilan pepelatihan yang diberikan.
+
+Sebagai tindak lanjut, maka peserta dapat memperdalam materi tersebut dengan mengacu pada dasar hukum, pedoman serta daftar pustaka. Disamping itu anda perlu mempraktekkan metode-metode tersebut selama proses pembelajaran maupun pasca pembelajaran, karena ilmu tanpa dipraktekkan/diamalkan tidak ada artinya
+
+E.
+Kunci Jawaban Soal :
+
+1) D
+2) C
+3) C
+4) B
+5) C
+
+DAFTAR PUSTAKA
+
+1. Peraturan Kepala Lembaga Administrasi Negara No: 5 Tahun 2009 tentang
+Pedoman Penulisan Modul Pendidikan dan Pelatihan
+2. Modul Pengelolaan Sistem Irigasi Partisipatif Edisi ke-3 Desember 2005 oleh
+Badan Penelitian dan Pengembangan, Direktorat Jenderal Sumber Daya Air
+Kerjasama Japan International Coorperation Agency (JICA)
+
+GLOSARI
+
+P3A
+: Perkumpulan Petani Pemakai Air
+GP3A
+: Gabungan Perkumpulan Petani Pemakai Air
+IP3A
+: Induk Perkumpulan Petani Pemakai Air
+AKNOP
+: Angka Kebutuhan Nyata Operasi dan Pemeliharaan
+RTT
+: Rencana Tata Tanam
+Komir
+: Komisi Irigasi
+SDM
+: Sumber Daya Manusia O&P

@@ -1,0 +1,418 @@
+Comparison of non-prestressed beam (top) and prestressed concrete beam (bottom) under load:
+1. Non-prestressed beam without load
+2. Non-prestressed beam with load
+3. Before concrete solidifies, tendons embedded in concrete are tensioned
+4. After concrete solidifies, tendons apply compressive stress to concrete
+5. Prestressed beam without load
+6. Prestressed beam with load
+Prestressed concrete
+Prestressed concrete is a form of concrete used in construction. It is substantially prestressed (compressed) during production, in a manner that strengthens it against tensile forces which will exist when in service.[1][2]: 3–5 [3] It was patented by Eugène
+Freyssinet in 1928.[4]
+This compression is produced by the tensioning of high-strength tendons located within or adjacent to the concrete and is done to improve the performance of the concrete in service.[5]
+Tendons may consist of single wires, multi-wire strands or threaded bars that are most commonly made from high-tensile steels, carbon fiber or aramid fiber.[1]: 52–59  The essence of prestressed concrete is that once the initial compression has been applied, the resulting material has the characteristics of high-strength concrete when subject to any subsequent compression forces and of ductile high-strength steel when subject to tension forces. This can result in improved structural capacity or serviceability, or both, compared with conventionally reinforced concrete in many situations.[6][2]: 6  In a prestressed concrete member, the internal stresses are introduced in a planned manner so that the stresses resulting from the imposed loads are counteracted to the desired degree.
+Prestressed concrete is used in a wide range of building and civil structures where its improved performance can allow for longer spans, reduced structural thicknesses, and material savings compared with simple reinforced concrete. Typical applications include high-rise buildings, residential concrete slabs, foundation systems, bridge and dam structures, silos and tanks, industrial pavements and nuclear containment structures.[7]
+First used in the late nineteenth century,[1] prestressed concrete has developed beyond pre-tensioning to include post-tensioning, which occurs after the concrete is cast. Tensioning systems may be classed as either 'monostrand', where each tendon's strand or wire is stressed individually, or 'multi-strand', where all strands or wires in a tendon are stressed simultaneously.[6] Tendons may be located either within the
+Pre-tensioning process
+Pre-tensioned bridge girder in precasting bed, with single- strand tendons exiting through the formwork concrete volume (internal prestressing) or wholly outside of it (external prestressing). While pre- tensioned concrete uses tendons directly bonded to the concrete, post-tensioned concrete can use either bonded or unbonded tendons.
+Pre-tensioned concrete is a variant of prestressed concrete where the tendons are tensioned prior to the concrete being cast.[1]: 25  The concrete bonds to the tendons as it cures, following which the end-anchoring of the tendons is released, and the tendon tension forces are transferred to the concrete as compression by static friction.[6]: 7
+Pre-tensioning is a common prefabrication technique, where the resulting concrete element is manufactured off-site from the final structure location and transported to site once cured. It requires strong, stable end-anchorage points between which the tendons are stretched.
+These anchorages form the ends of a casting bed which may be many times the length of the concrete element being fabricated. This allows multiple elements to be constructed end-to-end in the one pre- tensioning operation, allowing significant productivity benefits and economies of scale to be realized.[6][8]
+The amount of bond (or adhesion) achievable between the freshly set concrete and the surface of the tendons is critical to the pre-tensioning process, as it determines when the tendon anchorages can be safely released. Higher bond strength in early-age concrete will speed production and allow more economical fabrication. To promote this, pre-tensioned tendons are usually composed of isolated single wires or strands, which provides a greater surface area for bonding than bundled-strand tendons.[6]
+Unlike those of post-tensioned concrete (see below), the tendons of pre-tensioned concrete elements generally form straight lines between end anchorages. Where profiled or harped tendons[9] are required, one or more intermediate deviators are located between the ends of the tendon to hold the tendon to the desired non-linear alignment during tensioning.[1]: 68–73 [6]: 11  Such deviators usually act against substantial forces, and hence require a robust casting-bed foundation system. Straight tendons are typically used in linear precast concrete elements, such as shallow beams and hollow-core slabs; whereas profiled tendons are more commonly found in deeper precast bridge beams and girders.
+Pre-tensioned concrete
+Pre-tensioned, precast hollow-core slab being placed
+Forces on post-tensioned concrete with profiled (curved) tendon
+Pre-tensioned concrete is most commonly used for the fabrication of structural beams, floor slabs, hollow-core slabs, balconies, lintels, driven piles, water tanks and concrete pipes.
+Post-tensioned concrete is a variant of prestressed concrete where the tendons are tensioned after the surrounding concrete structure has been cast.[1]: 25
+The tendons are not placed in direct contact with the concrete, but are encapsulated within a protective sleeve or duct which is either cast into the concrete structure or placed adjacent to it. At each end of a tendon is an anchorage assembly firmly fixed to the surrounding concrete. Once the concrete has been cast and set, the tendons are tensioned (stressed) by pulling the tendon ends through the anchorages while pressing against the concrete. The large forces required to tension the tendons result in a significant permanent compression being applied to the concrete once the tendon is locked off at the anchorage.[1]: 25 [6]: 7  The method of locking the tendon ends to the anchorage is dependent upon the tendon composition, with the most common systems being button-head anchoring
+(for wire tendons), split-wedge anchoring (for strand tendons), and threaded anchoring (for bar tendons).[1]: 79–84
+Tendon encapsulation systems are constructed from plastic or galvanised steel materials, and are classified into two main types: those where the tendon element is subsequently bonded to the surrounding concrete by internal grouting of the duct after stressing (bonded post-tensioning); and those where the tendon element is permanently debonded from the surrounding concrete, usually by means of a greased sheath over the tendon strands (unbonded post-tensioning).[1]: 26 [6]: 10
+Casting the tendon ducts or sleeves into the concrete before any tensioning occurs allows them to be readily profiled to any desired shape including incorporating vertical or horizontal curvature or both.
+When the tendons are tensioned, this profiling results in reaction forces being imparted onto the hardened concrete, and these can be beneficially used to counter any loadings subsequently applied to the structure.[2]: 5–6 [6]: 48 : 9–10
+Post-tensioned concrete
+Post-tensioned tendon anchorage; four-piece lock-off wedges are visible holding each strand
+Balanced-cantilever bridge under construction. Each added segment is supported by post-tensioned tendons.
+Multi-strand post-tensioning anchor
+In bonded post-tensioning, tendons are permanently bonded to the surrounding concrete by the in situ grouting of their encapsulating ducting
+(after tendon tensioning).
+This grouting is undertaken for three main purposes: to protect the tendons against corrosion; to permanently lock in the tendon pre- tension, thereby removing the long-term reliance upon the end-anchorage systems; and to improve certain structural behaviors of the final concrete structure.[10]
+Bonded post-tensioning characteristically uses tendons each comprising bundles of elements (e.g., strands or wires) placed inside a single tendon duct, with the exception of bars which are mostly used unbundled. This bundling makes for more efficient tendon installation and grouting processes, since each complete tendon requires only one set of end anchorages and one grouting operation. Ducting is fabricated from a durable and corrosion-resistant material such as plastic (e.g., polyethylene) or galvanised steel, and can be either round or rectangular/oval in cross-section.[2]: 7  The tendon sizes used are highly dependent upon the application, ranging from building works typically using between 2 and 6 strands per tendon, to specialized dam works using up to 91 strands per tendon.
+Fabrication of bonded tendons is generally undertaken on-site, commencing with the fitting of end anchorages to formwork, placing the tendon ducting to the required curvature profiles, and reeving (or threading) the strands or wires through the ducting. Following concreting and tensioning, the ducts are pressure-grouted and the tendon-stressing ends sealed against corrosion.[6]: 2
+Unbonded post-tensioning differs from bonded post-tensioning by allowing the tendons permanent freedom of longitudinal movement relative to the concrete. This is most commonly achieved by encasing each individual tendon element within a plastic sheathing filled with a corrosion-inhibiting grease, usually lithium-based. Anchorages at each end of the tendon transfer the tensioning force to the concrete, and are required to reliably perform this role for the life of the structure.[10]: 1
+Unbonded post-tensioning can take the form of:
+Bonded post- tensioning
+Unbonded post-tensioning
+Unbonded slab post-tensioning. (Above) Installed strands and edge anchors are visible, along with prefabricated coiled strands for the next pour. (Below) End-view of slab after stripping forms, showing individual strands and stressing-anchor recesses.
+Individual strand tendons placed directly into the concreted structure (e.g., buildings, ground slabs)
+Bundled strands, individually greased-and-sheathed, forming a single tendon within an encapsulating duct that is placed either within or adjacent to the concrete (e.g., restressable anchors, external post-tensioning)
+For individual strand tendons, no additional tendon ducting is used and no post-stressing grouting operation is required, unlike for bonded post-tensioning. Permanent corrosion protection of the strands is provided by the combined layers of grease, plastic sheathing, and surrounding concrete. Where strands are bundled to form a single unbonded tendon, an enveloping duct of plastic or galvanised steel is used and its interior free spaces grouted after stressing. In this way, additional corrosion protection is provided via the grease, plastic sheathing, grout, external sheathing, and surrounding concrete layers.[10]: 1
+Individually greased-and-sheathed tendons are usually fabricated off-site by an extrusion process. The bare steel strand is fed into a greasing chamber and then passed to an extrusion unit where molten plastic forms a continuous outer coating. Finished strands can be cut to length and fitted with dead-end anchor assemblies as required for the project.
+Both bonded and unbonded post-tensioning technologies are widely used around the world, and the choice of system is often dictated by regional preferences, contractor experience, or the availability of alternative systems. Either one is capable of delivering code-compliant, durable structures meeting the structural strength and serviceability requirements of the designer.[10]: 2
+The benefits that bonded post-tensioning can offer over unbonded systems are:
+Reduced reliance on end-anchorage integrity. Following tensioning and grouting, bonded tendons are connected to the surrounding concrete along their full length by high-strength grout. Once cured, this grout can transfer the full tendon tension force to the concrete within a very short distance (approximately 1 metre). As a result, any inadvertent severing of the tendon or failure of an end anchorage has only a very localised impact on tendon performance, and almost never results in tendon ejection from the anchorage.[2]: 18 [10]: 7
+Comparison between bonded and unbonded post-tensioning
+Increased ultimate strength in flexure. With bonded post-tensioning, any flexure of the structure is directly resisted by tendon strains at that same location (i.e. no strain redistribution occurs). This results in significantly higher tensile strains in the tendons than if they were unbonded, allowing their full yield strength to be realised, and producing a higher ultimate load capacity.[2]: 16–17 [6]: 10
+Improved crack control. In the presence of concrete cracking, bonded tendons respond similarly to conventional reinforcement (rebar). With the tendons fixed to the concrete at each side of the crack, greater resistance to crack expansion is offered than with unbonded tendons, allowing many design codes to specify reduced reinforcement requirements for bonded post-tensioning.[10]: 4 [11]: 1
+Improved fire performance. The absence of strain redistribution in bonded tendons may limit the impact that any localised overheating has on the overall structure. As a result, bonded structures may display a higher capacity to resist fire conditions than unbonded ones.[12]
+The benefits that unbonded post-tensioning can offer over bonded systems are:
+Ability to be prefabricated. Unbonded tendons can be readily prefabricated off-site complete with end anchorages, facilitating faster installation during construction. Additional lead time may need to be allowed for this fabrication process.
+Improved site productivity. The elimination of the post-stressing grouting process required in bonded structures improves the site-labour productivity of unbonded post-tensioning.[10]: 5
+Improved installation flexibility. Unbonded single-strand tendons have greater handling flexibility than bonded ducting during installation, allowing them a greater ability to be deviated around service penetrations or obstructions.[10]: 5
+Reduced concrete cover. Unbonded tendons may allow some reduction in concrete element thickness, as their smaller size and increased corrosion protection may allow them to be placed closer to the concrete surface.[2]: 8
+Simpler replacement and adjustment. Being permanently isolated from the concrete, unbonded tendons can be readily de-stressed, re-stressed or replaced should they become damaged or need their tension adjusted in service.[10]: 6
+Superior overload performance. Although having a lower ultimate strength than bonded tendons, unbonded tendons' ability to redistribute strains over their full length can give them superior pre-collapse ductility. In extremes, unbonded tendons can resort to a catenary-type action instead of pure flexure, allowing significantly greater deformation before structural failure.[13]
+Long-term durability is an essential requirement for prestressed concrete given its widespread use.
+Research on the durability performance of in-service prestressed structures has been undertaken since the
+1960s,[14] and anti-corrosion technologies for tendon protection have been continually improved since the earliest systems were developed.[15]
+The durability of prestressed concrete is principally determined by the level of corrosion protection provided to any high-strength steel elements within the prestressing tendons. Also critical is the protection afforded to the end-anchorage assemblies of unbonded tendons or cable-stay systems, as the anchorages of both of these are required to retain the prestressing forces. Failure of any of these components can result in the release of prestressing forces, or the physical rupture of stressing tendons.
+Modern prestressing systems deliver long-term durability by addressing the following areas:
+Tendon durability and corrosion protection
+Tendon grouting (bonded tendons)
+Bonded tendons consist of bundled strands placed inside ducts located within the surrounding concrete. To ensure full protection to the bundled strands, the ducts must be pressure-filled with a corrosion-inhibiting grout, without leaving any voids, following strand tensioning.
+Tendon coating (unbonded tendons)
+Unbonded tendons comprise individual strands coated in an anti-corrosion grease or wax, and fitted with a durable plastic-based full-length sleeve or sheath. The sleeving is required to be undamaged over the tendon length, and it must extend fully into the anchorage fittings at each end of the tendon.
+Double-layer encapsulation
+Prestressing tendons requiring permanent monitoring or force adjustment, such as stay cables and re-stressable dam anchors, will typically employ double-layer corrosion protection. Such tendons are composed of individual strands, grease-coated and sleeved, collected into a strand bundle and placed inside encapsulating polyethylene outer ducting.
+The remaining void space within the duct is pressure-grouted, providing a multi-layer polythene–grout–plastic–grease protection barrier system for each strand.
+Anchorage protection
+In all post-tensioned installations, protection of the end anchorages against corrosion is essential, and critically so for unbonded systems.
+Several durability-related events are listed below:
+Ynys-y-Gwas bridge, West Glamorgan, Wales, 1985
+A single-span, precast-segmental structure constructed in 1953 with longitudinal and transverse post-tensioning. Corrosion attacked the under-protected tendons where they crossed the in-situ joints between the segments, leading to sudden collapse.[15]: 40
+Scheldt River bridge, Melle, Belgium, 1991
+A three-span prestressed cantilever structure constructed in the 1950s. Inadequate concrete cover in the side abutments resulted in tie-down cable corrosion, leading to a progressive failure of the main bridge span and the death of one person.[16]
+UK Highways Agency, 1992
+Following discovery of tendon corrosion in several bridges in England, the Highways Agency issued a moratorium on the construction of new internally grouted post-tensioned bridges and embarked on a five-year programme of inspections on its existing post-tensioned bridge stock. The moratorium was lifted in 1996.[17][18]
+Pedestrian bridge, Charlotte Motor Speedway, North Carolina, US, 2000
+A multi-span steel and concrete structure constructed in 1995. An unauthorised chemical was added to the tendon grout to speed construction, leading to corrosion of the prestressing strands and the sudden collapse of one span, injuring many spectators.[19]
+Hammersmith Flyover London, England, 2011
+Sixteen-span prestressed structure constructed in 1961. Corrosion from road de-icing salts was detected in some of the prestressing tendons, necessitating initial closure of the road while additional investigations were done. Subsequent repairs and strengthening using external post-tensioning was carried out and completed in 2015.[20][21]
+Petrulla Viaduct ("Viadotto Petrulla"), Sicily, Italy, 2014
+One span of a twelve-span viaduct collapsed on 7 July 2014, causing four injuries,[22] due to corrosion of the post-tensioning tendons.
+Genoa bridge collapse, 2018. The Ponte Morandi was a cable-stayed bridge characterised by a prestressed concrete structure for the piers, pylons and deck, very few stays, as few as two per span, and a hybrid system for the stays constructed from steel cables with prestressed concrete shells poured on. The concrete was only prestressed to 10 MPa, resulting in it being prone to cracks and water intrusion, which caused corrosion of the embedded steel.
+Churchill Way flyovers, Liverpool, England
+The flyovers were closed in September 2018 after inspections revealed poor quality concrete, tendon corrosion and signs of structural distress. They were demolished in
+2019.[23]
+Prestressed concrete is a highly versatile construction material as a result of it being an almost ideal combination of its two main constituents: high-strength steel, pre-stretched to allow its full strength to be easily realised; and modern concrete, pre-compressed to minimise cracking under tensile forces.[1]: 12  Its wide range of application is reflected in its incorporation into the major design codes covering most areas of structural and civil engineering, including buildings, bridges, dams, foundations, pavements, piles, stadiums, silos, and tanks.[7]
+Building structures are typically required to satisfy a broad range of structural, aesthetic and economic requirements. Significant among these include: a minimum number of (intrusive) supporting walls or columns; low structural thickness (depth), allowing space for services, or for additional floors in high-rise construction; fast construction cycles, especially for multi-storey buildings; and a low cost-per-unit-area, to maximise the building owner's return on investment.
+The prestressing of concrete allows load-balancing forces to be introduced into the structure to counter in-service loadings. This provides many benefits to building structures:
+Longer spans for the same structural depth
+Load balancing results in lower in-service deflections, which allows spans to be increased
+(and the number of supports reduced) without adding to structural depth.
+Reduced structural thickness
+For a given span, lower in-service deflections allows thinner structural sections to be used, in turn resulting in lower floor-to-floor heights, or more room for building services.
+Faster stripping time
+Typically, prestressed concrete building elements are fully stressed and self-supporting within five days. At this point they can have their formwork stripped and re-deployed to the next section of the building, accelerating construction cycle times.
+Reduced material costs
+The combination of reduced structural thickness, reduced conventional reinforcement quantities, and fast construction often results in prestressed concrete showing significant cost benefits in building structures compared to alternative structural materials.
+Some notable building structures constructed from prestressed concrete include: Sydney Opera House[24] and World Tower, Sydney;[25] St George Wharf Tower, London;[26] CN Tower, Toronto;[27] Kai Tak
+Cruise Terminal[28] and International Commerce Centre, Hong Kong;[29] Ocean Heights 2, Dubai;[30]
+Eureka Tower, Melbourne;[31] Torre Espacio, Madrid;[32] Guoco Tower (Tanjong Pagar Centre),
+Singapore;[33] Zagreb International Airport, Croatia;[34] and Capital Gate, Abu Dhabi UAE.[35]
+Applications
+Building structures
+ICC tower, Hong
+Kong
+484m 2010
+
+Guoco Tower,
+Singapore
+290m 2016
+
+Sydney Opera House
+
+Kai Tak Terminal
+Hong Kong 2013
+World Tower, Sydney
+230m 2004
+
+Ocean Heights 2,
+Dubai
+335m 2016
+
+Eureka Tower,
+Melbourne
+297m 2006
+
+Torre Espacio, Madrid
+230m 2008
+Capital Gate, Abu
+Dhabi
+18° lean 2010
+Concrete is the most popular structural material for bridges, and prestressed concrete is frequently adopted.[36][37] When investigated in the 1940s for use on heavy-duty bridges, the advantages of this type of bridge over more traditional designs was that it is quicker to install, more economical and longer- lasting with the bridge being less lively.[38][39] One of the first bridges built in this way is the Adam
+Viaduct, a railway bridge constructed 1946 in the UK.[40] By the 1960s, prestressed concrete largely superseded reinforced concrete bridges in the UK, with box girders being the dominant form.[41]
+Civil structures
+Bridges
+In short-span bridges of around 10 to 40 metres (30 to 130 ft), prestressing is commonly employed in the form of precast pre-tensioned girders or planks.[42] Medium-length structures of around 40 to 200 metres
+(150 to 650 ft), typically use precast-segmental, in-situ balanced-cantilever and incrementally-launched designs.[43] For the longest bridges, prestressed concrete deck structures often form an integral part of cable-stayed designs.[44]
+Concrete dams have used prestressing to counter uplift and increase their overall stability since the mid-
+1930s.[45][46] Prestressing is also frequently retro-fitted as part of dam remediation works, such as for structural strengthening, or when raising crest or spillway heights.[47][48]
+Most commonly, dam prestressing takes the form of post-tensioned anchors drilled into the dam's concrete structure, the underlying rock strata, or both. Such anchors typically comprise tendons of high- tensile bundled steel strands or individual threaded bars. A tendon is grouted to the concrete or rock at its far (internal) end and has a significant de-bonded free length at its external end which allows the tendon to stretch during tensioning. Tendons may be full-length-bonded to the surrounding concrete or rock once tensioned, or (more commonly) have strands permanently encapsulated in corrosion-inhibiting grease over the free length to permit long-term load monitoring and re-stressability.[49]
+Circular storage structures such as silos and tanks can use prestressing forces to directly resist the outward pressures generated by stored liquids or bulk solids. Horizontally curved tendons are installed within the concrete wall to form a series of hoops, spaced vertically up the structure. When tensioned, these tendons exert both axial (compressive) and radial (inward) forces onto the structure, which can directly oppose the subsequent storage loadings. If the magnitude of the prestress is designed to always exceed the tensile stresses produced by the loadings, a permanent residual compression will exist in the wall concrete, assisting in maintaining a watertight crack-free structure.[50][51][52]: 61
+Prestressed concrete has been established as a reliable construction material for high-pressure containment structures such as nuclear reactor vessels and containment buildings, and petrochemical tank blast-containment walls. Using pre-stressing to place such structures into an initial state of bi-axial or tri- axial compression increases their resistance to concrete cracking and leakage, while providing a proof- loaded, redundant and monitorable pressure-containment system.[53][54][55]: 585–594
+Nuclear reactor and containment vessels will commonly employ separate sets of post-tensioned tendons curved horizontally or vertically to completely envelop the reactor core. Blast containment walls, such as for liquid natural gas (LNG) tanks, will normally utilize layers of horizontally-curved hoop tendons for containment in combination with vertically looped tendons for axial wall pre-stressing.
+Heavily loaded concrete ground slabs and pavements can be sensitive to cracking and subsequent traffic- driven deterioration. As a result, prestressed concrete is regularly used in such structures as its pre- compression provides the concrete with the ability to resist the crack-inducing tensile stresses generated
+Dams
+Silos and tanks
+Nuclear and blast
+Hardstands and pavements by in-service loading. This crack resistance also allows individual slab sections to be constructed in larger pours than for conventionally reinforced concrete, resulting in wider joint spacings, reduced jointing costs and less long-term joint maintenance issues.[55]: 594–598 [56] Initial works have also been successfully conducted on the use of precast prestressed concrete for road pavements, where the speed and quality of the construction has been noted as being beneficial for this technique.[57]
+Some notable civil structures constructed using prestressed concrete include: Gateway Bridge, Brisbane
+Australia;[58] Incheon Bridge, South Korea;[59] Roseires Dam, Sudan;[60] Wanapum Dam, Washington,
+US;[61] LNG tanks, South Hook, Wales; Cement silos, Brevik Norway; Autobahn A73 bridge, Itz Valley,
+Germany; Ostankino Tower, Moscow, Russia; CN Tower, Toronto, Canada; and Ringhals nuclear reactor,
+Videbergshamn Sweden.[53]: 37
+Gateway Bridge
+Brisbane, Aust.
+
+Incheon Bridge
+South Korea
+
+Autobahn A73
+Itz Valley, Germany
+
+Ostankino Tower
+Moscow, Russia
+CN Tower
+Toronto, Canada
+
+Norcem silos
+Brevik, Norway
+
+Roseires Dam
+Ad Damazin, Sudan
+
+Wanapum Dam
+Washington, US
+LNG tanks
+South Hook, Wales
+
+Ringhals nuclear plant
+Videbergshamn,
+Sweden
+Worldwide, many professional organizations exist to promote best practices in the design and construction of prestressed concrete structures. In the United States, such organizations include the Post-
+Tensioning Institute (PTI) and the Precast/Prestressed Concrete Institute (PCI).[62] Similar bodies include the Canadian Precast/Prestressed Concrete Institute (CPCI),[63] the UK's Post-Tensioning Association,[64] the Post Tensioning Institute of Australia[65] and the South African Post Tensioning Association.[66]
+Europe has similar country-based associations and institutions.
+These organizations are not the authorities of building codes or standards, but rather exist to promote the understanding and development of prestressed concrete design, codes and best practices.
+Rules and requirements for the detailing of reinforcement and prestressing tendons are specified by individual national codes and standards such as:
+European Standard EN 1992-2:2005 – Eurocode 2: Design of Concrete Structures;
+US Standard ACI318: Building Code Requirements for Reinforced Concrete; and
+Australian Standard AS 3600-2009: Concrete Structures.
+Cable stayed bridge
+Dyckerhoff & Widmann AG (Dywidag)
+Freyssinet Test Arch
+Glossary of prestressed concrete terms
+PC strand
+Prestressed structure
+Properties of concrete
+Segmental bridge
+1. Lin, T.Y.; Burns, Ned H. (1981). Design of Prestressed Concrete Structures (https://www.slid eshare.net/ankitd1094/design-of-prestressed-concrete-structures-tylin-50801288)
+(Third ed.). New York, US: John Wiley & Sons. ISBN 0-471-01898-8. Archived (https://web.a rchive.org/web/20170208031221/http://www.slideshare.net/ankitd1094/design-of-prestresse d-concrete-structures-tylin-50801288) from the original on 8 February 2017. Retrieved
+24 August 2016.
+2. Federation Internationale du Beton (February 2005). fib Bulletin 31: Post-tensioning in
+Buildings (https://web.archive.org/web/20170208014104/http://www.civil.ist.utl.pt/~cristina/E
+BAP/book_63505_fib31.pdf) (PDF). FIB. ISBN 978-2-88394-071-0. Archived from the original (http://www.civil.ist.utl.pt/~cristina/EBAP/book_63505_fib31.pdf) (PDF) on 8
+February 2017. Retrieved 26 August 2016.
+Design agencies and regulations
+See also
+References
+3. American Concrete Institute. "CT-13: ACI Concrete Terminology" (https://www.concrete.org/t opicsinconcrete/topicdetail/prestressed). American Concrete Institute. Farmington Hills,
+Michigan US: ACI. Archived (https://web.archive.org/web/20161211061649/https://www.con crete.org/topicsinconcrete/topicdetail/prestressed) from the original on 11 December 2016.
+Retrieved 25 August 2016. Post-tensioned concreted is "structural concrete in which internal stresses have been introduced to reduce potential tensile stresses in the concrete resulting from loads."
+4. Billington, David (1985). The Tower and the Bridge (https://archive.org/details/towerbridgene war00bill). Princeton: Princeton University Press. ISBN 0-691-02393-X.
+5. Warner, R. F.; Rangan, B. V.; Hall, A. S.; Faulkes, K. A. (1988). Concrete Structures. South
+Melbourne, Australia: Addison Welsley Longman. pp. 8–19. ISBN 0-582-80247-4.
+6. Warner, R. F.; Faulkes, K. A. (1988). Prestressed Concrete (2nd ed.). Melbourne, Australia:
+Longman Cheshire. pp. 1–13. ISBN 0-582-71225-4.
+7. Post-Tensioning Institute (2006). Post-Tensioning Manual (https://archive.org/details/postten sioningma00inst) (6th ed.). Phoenix, AZ US: PTI. pp. 5 (https://archive.org/details/posttensio ningma00inst/page/n18)–54. ISBN 0-9778752-0-2.
+8. Tokyo Rope Mfg Co Ltd. "CFCC Pre-tensioning Manual" (http://www.maine.gov/mdot/contra ctors/projects/2014/019283.00-kittery/pm019283.00.pdf) (PDF). MaineDOT. Archived (http s://web.archive.org/web/20170208073207/http://www.maine.gov/mdot/contractors/projects/2
+014/019283.00-kittery/pm019283.00.pdf) (PDF) from the original on 8 February 2017.
+Retrieved 19 August 2016.
+9. "Tendons having one or more deviations from a straight line, either vertically or horizontally, between the ends of the structure"
+10. Aalami, Bijan O. (5 September 1994). "Unbonded and bonded post-tensioning systems in building construction" (http://www.post-tensioning.org/Uploads/technote5.pdf) (PDF). PTI
+Technical Notes (5). Phoenix, Arizona US: Post-Tensioning Institute. Archived (https://web.ar chive.org/web/20161123041522/http://www.post-tensioning.org/Uploads/technote5.pdf)
+(PDF) from the original on 23 November 2016. Retrieved 23 August 2016.
+11. Aalami, Bijan O. (February 2001). "Nonprestresed Bonded Reinforcement in Post-Tensioned
+Building Design" (http://www.adaptsoft.com/resources/ADAPT_P201_Nonpre-Bonded-PT-Bl dg-Dsgnr.pdf) (PDF). ADAPT Technical Publication (2–01). Archived (https://web.archive.or g/web/20170208013955/http://www.adaptsoft.com/resources/ADAPT_P201_Nonpre-Bonde d-PT-Bldg-Dsgnr.pdf) (PDF) from the original on 8 February 2017. Retrieved 25 August
+2016.
+12. Bailey, Colin G.; Ellobody, Ehab (2009). "Comparison of unbonded and bonded post- tensioned concrete slabs under fire conditions" (https://www.istructe.org/journal/volumes/vol ume-87-(published-in-2009)/issues/issue-19/articles/comparison-of-unbonded-and-bonded- posttensioned-co). The Structural Engineer. 87 (19). Archived (https://web.archive.org/web/2
+0160917225506/https://www.istructe.org/journal/volumes/volume-87-(published-in-2009)/iss ues/issue-19/articles/comparison-of-unbonded-and-bonded-posttensioned-co) from the original on 17 September 2016. Retrieved 22 August 2016.
+13. Bondy, Kenneth B. (December 2012). "Two way post-tensioned slabs with bonded tendons"
+(http://www.kenbondy.com/images/ProfessionalArticles/130129-Journal_Reprint-Bondy-Two
+-Way_PT_Slabs_with_Bonded_Tendons.pdf) (PDF). PTI Journal. 8 (2). US: Post-Tensioning
+Institute: 44. Archived (https://web.archive.org/web/20160828205253/http://www.kenbondy.c om/images/ProfessionalArticles/130129-Journal_Reprint-Bondy-Two-Way_PT_Slabs_with_
+Bonded%20Tendons.pdf) (PDF) from the original on 28 August 2016. Retrieved 25 August
+2016.
+14. Szilard, Rudolph (October 1969). "Survey on the Durability of Prestressed Concrete
+Structures" (http://www.pci.org/uploadedFiles/Siteroot/Publications/PCI_Journal/1969/DOI_
+Articles/jl-69-october-7.pdf) (PDF). PCI Journal: 62–73. Archived (https://web.archive.org/we b/20160916113911/http://www.pci.org/uploadedFiles/Siteroot/Publications/PCI_Journal/196
+9/DOI_Articles/jl-69-october-7.pdf) (PDF) from the original on 16 September 2016.
+Retrieved 7 September 2016.
+15. Podolny, Walter (September 1992). "Corrosion of Prestressing Steels and its Mitigation" (htt p://www.pci.org/uploadedFiles/Siteroot/Publications/PCI_Journal/1992/DOI_Articles/jl-92-se ptember-october-4.pdf) (PDF). PCI Journal. 37 (5): 34–55.
+doi:10.15554/pcij.09011992.34.55 (https://doi.org/10.15554%2Fpcij.09011992.34.55).
+S2CID 109223938 (https://api.semanticscholar.org/CorpusID:109223938). Archived (https:// web.archive.org/web/20160916113840/http://www.pci.org/uploadedFiles/Siteroot/Publication s/PCI_Journal/1992/DOI_Articles/jl-92-september-october-4.pdf) (PDF) from the original on
+16 September 2016. Retrieved 7 September 2016.
+16. De Schutter, Geert (10 May 2012). Damage to Concrete Structures (https://books.google.co m/books?id=38LLBQAAQBAJ&q=melle+bridge+belgium&pg=PA31). CRC Press. pp. 31–
+33. ISBN 978-0-415-60388-1. Archived (https://web.archive.org/web/20210417194438/http s://books.google.com/books?id=38LLBQAAQBAJ&q=melle+bridge+belgium&pg=PA31) from the original on 17 April 2021. Retrieved 7 September 2016.
+17. Ryall, M. J.; Woodward, R.; Milne, D. (2000). Bridge Management 4: Inspection,
+Maintenance, Assessment and Repair (https://books.google.com/books?id=vSZAnyWpzDc
+C&q=uk+highways+agency+moratorium+post-tensioning+bridges&pg=PA170). London:
+Thomas Telford. pp. 170–173. ISBN 978-0-7277-2854-8. Archived (https://web.archive.org/w eb/20210417204757/https://books.google.com/books?id=vSZAnyWpzDcC&q=uk+highways
++agency+moratorium+post-tensioning+bridges&pg=PA170) from the original on 17 April
+2021. Retrieved 7 September 2016.
+18. CARES. "Post-Tensioning Systems" (http://www.ukcares.com/certification/post-tensioning-sy stems). www.ukcares.com. CARES. Archived (https://web.archive.org/web/2016061102535
+3/http://ukcares.com/certification/post-tensioning-systems) from the original on 11 June
+2016. Retrieved 7 September 2016.
+19. NACE. "Corrosdion Failures: Lowe's Motor Speedway Bridge Collapse" (https://web.archive.
+org/web/20160924051847/http://www.nace.org/CORROSION-FAILURES-Lowes-Motor-Spe edway-Bridge-Collapse.aspx). www.nace.org. NACE. Archived from the original (http://www.
+nace.org/CORROSION-FAILURES-Lowes-Motor-Speedway-Bridge-Collapse.aspx) on 24
+September 2016. Retrieved 7 September 2016.
+20. Ed Davey and Rebecca Cafe (3 December 2012). "TfL report warned of Hammersmith
+Flyover collapse risk" (https://www.bbc.co.uk/news/uk-england-london-20533457). BBC
+News, London. Archived (https://web.archive.org/web/20121203013407/http://www.bbc.co.u k/news/uk-england-london-20533457) from the original on 3 December 2012. Retrieved
+3 December 2012.
+21. Freyssinet. "Extending the Life of Hammersmith Flyover" (http://www.freyssinet.com/freyssin et/wfreyssinet_en.nsf/sb/repair.extending-the-life-of-hammersmith-flyover---second-step-of-t he-strengthening-works). www.freyssinet.com. Freyssinet. Archived (https://web.archive.org/ web/20160915155635/http://www.freyssinet.com/freyssinet/wfreyssinet_en.nsf/sb/repair.ext ending-the-life-of-hammersmith-flyover---second-step-of-the-strengthening-works) from the original on 15 September 2016. Retrieved 7 September 2016.
+22. "Giù il viadotto Petrulla, panico sulla Statale 626" (https://qds.it/16684-giu-il-viadotto-petrulla
+-panico-sulla-statale-626-htm/). 8 July 2014.
+23. "Churchill Way Flyovers Deconstruction Scheme" (https://www.liverpool.gov.uk/parking-road s-and-travel/getting-around-liverpool/road-improvements/better-roads/better-roads-scheme s/completed-schemes/churchill-way-flyovers-deconstruction-scheme/). Archived (https://we b.archive.org/web/20210409234446/https://www.liverpool.gov.uk/parking-roads-and-travel/g etting-around-liverpool/road-improvements/better-roads/better-roads-schemes/completed-sc hemes/churchill-way-flyovers-deconstruction-scheme/) from the original on 9 April 2021.
+Retrieved 8 April 2021.
+24. Australian Society for History of Engineering and Technology. "An Engineering Walk around the Sydney Opera House" (http://ashet.org.au/images/Opera-House.pdf) (PDF).
+ashet.org.au. ASHET. Archived (https://web.archive.org/web/20170208014406/http://ashet.o rg.au/images/Opera-House.pdf) (PDF) from the original on 8 February 2017. Retrieved
+1 September 2016.
+25. Martin, Owen; Lal, Nalean. "Structural Design of the 84 Storey World Tower in Sydney" (htt p://global.ctbuh.org/resources/papers/download/1649-structural-design-of-the-84-storey-wor ld-tower-in-sydney.pdf) (PDF). ctbuh.org. Council on Tall Buildings and Urban Habitat.
+Archived (https://web.archive.org/web/20160414020438/http://global.ctbuh.org/resources/pa pers/download/1649-structural-design-of-the-84-storey-world-tower-in-sydney.pdf) (PDF) from the original on 14 April 2016. Retrieved 1 September 2016.
+26. "The Tower, One St. George Wharf, London, UK" (http://www.cclint.com/tower-st-george).
+cclint.com. CCL. Archived (https://web.archive.org/web/20210430221204/https://www.cclint.
+com/tower-st-george) from the original on 30 April 2021. Retrieved 1 September 2016.
+27. Knoll, Franz; Prosser, M. John; Otter, John (May–June 1976). "Prestressing the CN Tower"
+(http://www.pci.org/uploadedFiles/Siteroot/Publications/PCI_Journal/1976/DOI_Articles/jl-76- may-june-6.pdf) (PDF). PCI Journal. 21 (3): 84–111. doi:10.15554/pcij.05011976.84.111 (htt ps://doi.org/10.15554%2Fpcij.05011976.84.111). Archived (https://web.archive.org/web/201
+60915190533/http://www.pci.org/uploadedFiles/Siteroot/Publications/PCI_Journal/1976/DOI
+_Articles/jl-76-may-june-6.pdf) (PDF) from the original on 15 September 2016. Retrieved
+2 September 2016.
+28. VSL. "Kai Tak Cruise Terminal Building – Hong Kong" (http://www.vslvietnam.com/Referenc es/jobreport.php?getfile=JR2847.pdf&name=VSL_____(2847).pdf) (PDF). vslvietnam.com.
+VSL. Archived (https://web.archive.org/web/20160914095625/http://www.vslvietnam.com/Re ferences/jobreport.php?getfile=JR2847.pdf&name=VSL_____(2847).pdf) (PDF) from the original on 14 September 2016. Retrieved 1 September 2016.
+29. ARUP. "International Commerce Centre (ICC)" (http://www.arup.com/projects/international_c ommerce_center_hong_kong). www.arup.com. ARUP. Archived (https://web.archive.org/we b/20160904202806/http://www.arup.com/projects/international_commerce_center_hong_ko ng) from the original on 4 September 2016. Retrieved 2 September 2016.
+30. CM Engineering Consultants. "Ocean Heights 2, Dubai UAE" (http://www.cmecs.co/Project s?item=2). www.cmecs.co. CMECS. Archived (https://web.archive.org/web/2016092405433
+7/http://www.cmecs.co/Projects?item=2) from the original on 24 September 2016. Retrieved
+1 September 2016.
+31. Design Build Network. "Eureka Tower, Melbourne Victoria Australia" (http://www.designbuild- network.com/projects/eureka/). www.designbuild-network.com. Design Build Network.
+Archived (https://web.archive.org/web/20120213040847/http://www.designbuild-network.co m/projects/eureka/) from the original on 13 February 2012. Retrieved 1 September 2016.
+32. Martinez, Julio; Gomez, Miguel (July 2008). "Torre Espacio. Building Structure" (http://e-ach e.com/modules/pd-downloads/visit.php?cid=1&lid=12). Hormigon y Acero. 59 (249). Madrid,
+Spain: 19–43. ISSN 0439-5689 (https://search.worldcat.org/issn/0439-5689). Archived (http s://web.archive.org/web/20170208014249/http://e-ache.com/modules/pd-downloads/visit.ph p?cid=1&lid=12) from the original on 8 February 2017. Retrieved 1 September 2016.
+33. BBR Network (2016). "Reaching for the Skies" (http://www.bbrnetwork.com/fileadmin/bbr_ne twork/PDFs/CONNAECTs/CONNAECT_2016.pdf) (PDF). Connaect. 10: 51. Archived (http s://web.archive.org/web/20160922200652/http://www.bbrnetwork.com/fileadmin/bbr_networ k/PDFs/CONNAECTs/CONNAECT_2016.pdf) (PDF) from the original on 22 September
+2016. Retrieved 2 September 2016.
+34. BBR Network (2016). "Gateway to South Eastern Europe" (http://www.bbrnetwork.com/filea dmin/bbr_network/PDFs/CONNAECTs/CONNAECT_2016.pdf) (PDF). Connaect. 10: 37–41.
+Archived (https://web.archive.org/web/20160922200652/http://www.bbrnetwork.com/fileadmi n/bbr_network/PDFs/CONNAECTs/CONNAECT_2016.pdf) (PDF) from the original on 22
+September 2016. Retrieved 2 September 2016.
+35. Schofield, Jeff (2012). "Case Study: Capital Gate, Abu Dhabi" (http://global.ctbuh.org/resour ces/papers/download/21-case-study-capital-gate-abu-dhabi.pdf) (PDF). CTBUH Journal
+(11). Archived (https://web.archive.org/web/20160730000725/http://global.ctbuh.org/resourc es/papers/download/21-case-study-capital-gate-abu-dhabi.pdf) (PDF) from the original on
+30 July 2016. Retrieved 2 September 2016.
+36. Tang, Man-Chung (2007). "Evolution of Bridge Technology" (http://www.ciccp.es/ImgWeb/Ca stilla_y_Leon/Ingenier%C3%ADa-Humanismo/Evolution_of_bridge_technology.pdf) (PDF).
+IABSE Symposium Proceedings: 7. Archived (https://web.archive.org/web/2016091704130
+4/http://www.ciccp.es/ImgWeb/Castilla_y_Leon/Ingenier%C3%ADa-Humanismo/Evolution_o f_bridge_technology.pdf) (PDF) from the original on 17 September 2016. Retrieved
+5 September 2016.
+37. Hewson, Nigel R. (2012). Prestressed Concrete bridges: design and Construction (https://bo oks.google.com/books?id=WXKbZwEACAAJ). ICE. ISBN 978-0-7277-4113-4. Archived (htt ps://web.archive.org/web/20210417201235/https://books.google.com/books?id=WXKbZwE
+ACAAJ) from the original on 17 April 2021. Retrieved 2 September 2016.
+38. R. L. M'ilmoyle (20 September 1947). "Prestressed Concrete Bridge Beams Being Tested in
+England" (https://books.google.com/books?id=aXFCAQAAIAAJ&pg=RA10-PA56). Railway
+Age. Vol. 123. Simmons-Boardman Publishing Company. pp. 54–58. Archived (https://web.a rchive.org/web/20210417201238/https://books.google.com/books?id=aXFCAQAAIAAJ&pg=
+RA10-PA56) from the original on 17 April 2021. Retrieved 25 August 2018.
+39. "History of Prestressed Concrete in UK" (https://web.archive.org/web/20180825180324/htt p://www-civ.eng.cam.ac.uk/cjb/4d8/public/history.html). Cambridge University. 2004.
+Archived from the original (http://www-civ.eng.cam.ac.uk/cjb/4d8/public/history.html) on 25
+August 2018. Retrieved 25 August 2018.
+40. Historic England. "Adam Viaduct (1061327)" (https://HistoricEngland.org.uk/listing/the-list/list
+-entry/1061327?section=official-list-entry). National Heritage List for England. Retrieved
+25 August 2018.
+41. "History of Concrete Bridges" (https://www.cbdg.org.uk/history.asp). Concrete Bridge
+Development Group. Retrieved 22 February 2024.
+42. Main Roads Western Australia. "Structures Engineering Design Manual" (https://www.mainr oads.wa.gov.au/Documents/SE_Design_Manual_3_8_11.PDF) (PDF).
+www.mainroads.wa.gov.au. MRWA. pp. 17–23. Archived (https://web.archive.org/web/20160
+916212247/https://www.mainroads.wa.gov.au/Documents/SE%20Design%20Manual%203_
+8_11.PDF) (PDF) from the original on 16 September 2016. Retrieved 2 September 2016.
+43. LaViolette, Mike (December 2007). Bridge Construction Practices Using Incremental
+Launching (http://onlinepubs.trb.org/onlinepubs/archive/NotesDocs/20-07(229)_FR.pdf)
+(PDF). AASHTO. p. Appendix A. Archived (https://web.archive.org/web/20161130190333/htt p://onlinepubs.trb.org/onlinepubs/archive/NotesDocs/20-07(229)_FR.pdf) (PDF) from the original on 30 November 2016. Retrieved 7 September 2016.
+44. Leonhardt, Fritz (September 1987). "Cable Stayed Bridges with Prestressed Concrete" (http s://web.archive.org/web/20160916234355/https://www.pci.org/Design_Resources/Guides_a nd_Manuals/References/Bridge_Design_Manual/JL-87-September-October_Cable_Stayed_
+Bridges_with_Prestressed_Concrete/). PCI Journal. 32 (5): 52–80.
+doi:10.15554/pcij.09011987.52.80 (https://doi.org/10.15554%2Fpcij.09011987.52.80).
+Archived from the original (https://www.pci.org/Design_Resources/Guides_and_Manuals/Re ferences/Bridge_Design_Manual/JL-87-September-October_Cable_Stayed_Bridges_with_P restressed_Concrete) on 16 September 2016. Retrieved 7 September 2016.
+45. Roemermann, A. C. (February 1965). "Prestressed Concrete Dams: 1936–1964" (http://ww w.pci.org/uploadedFiles/Siteroot/Publications/PCI_Journal/1965/DOI_Articles/JL-65-FEBRU
+ARY-4.pdf) (PDF). PCI Journal. 10: 76–88. doi:10.15554/pcij.02011965.76.88 (https://doi.or g/10.15554%2Fpcij.02011965.76.88). Archived (https://web.archive.org/web/201609161002
+47/http://www.pci.org/uploadedFiles/Siteroot/Publications/PCI_Journal/1965/DOI_Articles/JL
+-65-FEBRUARY-4.pdf) (PDF) from the original on 16 September 2016. Retrieved
+2 September 2016.
+46. Brown, E. T. (February 2015). "Rock-engineering design of post-tensioned anchors for dams – A review" (https://doi.org/10.1016%2Fj.jrmge.2014.08.001). Journal of Rock
+Mechnanics and Geological Engineering. 7 (1): 1–13. Bibcode:2015JRMGE...7....1B (https:// ui.adsabs.harvard.edu/abs/2015JRMGE...7....1B). doi:10.1016/j.jrmge.2014.08.001 (https:// doi.org/10.1016%2Fj.jrmge.2014.08.001).
+47. Institution of Engineers Australia. "Catagunya Dam Tasmania" (https://www.engineersaustral ia.org.au/portal/system/files/engineering-heritage-australia/nomination-title/Catagunya_Da m.pdf) (PDF). www.engineersaustralia.org.au. IEAust. Archived (https://web.archive.org/we b/20160914132637/https://www.engineersaustralia.org.au/portal/system/files/engineering-he ritage-australia/nomination-title/Catagunya_Dam.pdf) (PDF) from the original on 14
+September 2016. Retrieved 2 September 2016.
+48. Xu, Haixue; Benmokrane, Brahim (1996). "Strengthening of existing concrete dams using post-tensioned anchors: A state-of-the-art review" (https://www.researchgate.net/publication/
+237191178). Canadian Journal of Civil Engineering. 23 (6): 1151–1171. doi:10.1139/l96-925
+(https://doi.org/10.1139%2Fl96-925). Archived (https://web.archive.org/web/2021062908283
+6/https://www.researchgate.net/publication/237191178_Strengthening_of_existing_concrete
+_dams_using_post-tensioned_anchors_A_state-of-the-art_review) from the original on 29
+June 2021. Retrieved 2 September 2016.
+49. Cavill, Brian (20 March 1997). "Very High capacity Ground Anchors Used in Strengthening
+Concrete Gravity Dams". Conference Proceedings. London UK: Institution of Civil
+Engineers: 262.
+50. Priestley, M. J. N. (July 1985). "Analysis and Design of Prestressed Circular Concrete
+Storage Tanks" (http://www.pci.org/uploadedFiles/Siteroot/Publications/PCI_Journal/1985/D
+OI_Articles/jl-85-july-august-5.pdf) (PDF). PCI Journal: 64–85.
+doi:10.15554/pcij.07011985.64.85 (https://doi.org/10.15554%2Fpcij.07011985.64.85).
+Archived (https://web.archive.org/web/20160916112233/http://www.pci.org/uploadedFiles/Si teroot/Publications/PCI_Journal/1985/DOI_Articles/jl-85-july-august-5.pdf) (PDF) from the original on 16 September 2016. Retrieved 5 September 2016.
+51. Ghali, Amin (12 May 2014). Circular Storage Tasnks and Silos (https://books.google.com/bo oks?id=RYjNBQAAQBAJ&q=silo+tank+design+prestressed+concrete&pg=PA217)
+(Third ed.). CRC Press. pp. 149–165. ISBN 978-1-4665-7104-4. Archived (https://web.archiv e.org/web/20210417194356/https://books.google.com/books?id=RYjNBQAAQBAJ&q=silo+t ank+design+prestressed+concrete&pg=PA217) from the original on 17 April 2021. Retrieved
+5 September 2016.
+52. Gilbert, R. I.; Mickleborough, N. C.; Ranzi, G. (17 February 2016). Design of Prestressed
+Concrete to AS3600-2009 (https://books.google.com/books?id=8tSYCgAAQBAJ&q=silo+tan k+design+prestressed+concrete) (Second ed.). CRC Press. ISBN 978-1-4665-7277-5.
+Archived (https://web.archive.org/web/20210417194425/https://books.google.com/books?id
+=8tSYCgAAQBAJ&q=silo+tank+design+prestressed+concrete) from the original on 17 April
+2021. Retrieved 5 September 2016.
+53. Bangash, M. Y. H. (2011). Structures for Nuclear Facilities – Analysis, Design and
+Construction (https://books.google.com/books?id=SOF6ZQfxulUC&q=nuclear+vessels+pres tressed+concrete&pg=PA333). London: Springer. pp. 36–37. ISBN 978-3-642-12560-7.
+Archived (https://web.archive.org/web/20210417194354/https://books.google.com/books?id
+=SOF6ZQfxulUC&q=nuclear+vessels+prestressed+concrete&pg=PA333) from the original on 17 April 2021. Retrieved 5 September 2016.
+54. Gerwick, Ben C. (13 February 1997). Construction of Prestressed Concrete Structures (http s://books.google.com/books?id=w1Ay2s9FtgoC&q=nuclear+containment+prestressed+conc rete&pg=PA473) (Second ed.). New York: John Wiley & Sons. pp. 472–494. ISBN 0-471-
+53915-5. Archived (https://web.archive.org/web/20210417203921/https://books.google.com/ books?id=w1Ay2s9FtgoC&q=nuclear%2Bcontainment%2Bprestressed%2Bconcrete&pg=P
+A473) from the original on 17 April 2021. Retrieved 5 September 2016.
+55. Raju, Krishna (1 December 2006). Prestressed Concrete (http://clghub.com/wp-content/uplo ads/2016/07/Prestressed-Concrete.pdf) (PDF) (Fourth ed.). New Delhi: Tata McGraw Hill.
+ISBN 0-07-063444-0. Archived (https://web.archive.org/web/20160911184704/http://clghub.
+com/wp-content/uploads/2016/07/Prestressed-Concrete.pdf) (PDF) from the original on 11
+September 2016. Retrieved 5 September 2016.
+56. "Building Post-Tensioned Slabs on Grade" (http://www.concreteconstruction.net/how-to/build ing-post-tensioned-slabs-on-grade_o). www.concreteconstruction.net. Concrete
+Construction. April 1993. Archived (https://web.archive.org/web/20160918110855/http://ww w.concreteconstruction.net/how-to/building-post-tensioned-slabs-on-grade_o) from the original on 18 September 2016. Retrieved 5 September 2016.
+57. Merritt, David; Rogers, Richard; Rasmussen, Robert (March 2008). Construction of a
+Precast Prestressed Concrete Pavement Demonstration Project on Interstate 57 near
+Sikeston, Missouri (https://www.fhwa.dot.gov/pavement/concrete/pubs/hif08009/hif08009.pd f) (PDF). US DOT Federal Highway Administration. Archived (https://web.archive.org/web/20
+160915234455/http://www.fhwa.dot.gov/pavement/concrete/pubs/hif08009/hif08009.pdf)
+(PDF) from the original on 15 September 2016. Retrieved 5 September 2016.
+58. Connall, John; Wheeler, Paul; Pau, Andrew; Mihov, Miho. "Design of the Main Spans,
+Second Gateway Bridge, Brisbane" (http://www.cmnzl.co.nz/assets/sm/3553/61/0037-Wheel er.pdf) (PDF). www.cmnzl.co.nz. Archived (https://web.archive.org/web/20160917020811/htt p://www.cmnzl.co.nz/assets/sm/3553/61/0037-Wheeler.pdf) (PDF) from the original on 17
+September 2016. Retrieved 2 September 2016.
+59. DYWIDAG. "Incheon Bridge, Seoul, South Korea" (https://www.dywidag-systems.at/en/proje cts/project-details/article/incheon-bridge-seoul-south-korea.html). www.dywidag-systems.a.
+DYWIDAG. Archived (https://web.archive.org/web/20160810063321/https://www.dywidag-sy stems.at/en/projects/project-details/article/incheon-bridge-seoul-south-korea.html) from the original on 10 August 2016. Retrieved 2 September 2016.
+60. "SRG Remote Projects" (http://www.srglimited.com.au/images/files/brochures/srg-remote-pr ojects-brochure-2015-07-e.pdf) (PDF). www.srglimited.com.au. SRG Limited. p. 10.
+Archived (https://web.archive.org/web/20170226050940/http://www.srglimited.com.au/image s/files/brochures/srg-remote-projects-brochure-2015-07-e.pdf) (PDF) from the original on 26
+February 2017. Retrieved 6 September 2016.
+61. Eberhardt, A.; Veltrop, J. A. (August 1965). "1300-Ton-Capacity Prestressed Anchors
+Stabilize Dam" (http://www.pci.org/uploadedFiles/Siteroot/Publications/PCI_Journal/1965/D
+OI_Articles/JL-65-AUGUST-2.pdf) (PDF). PCI Journal. 10 (4): 18–43.
+doi:10.15554/pcij.08011965.18.36 (https://doi.org/10.15554%2Fpcij.08011965.18.36).
+Archived (https://web.archive.org/web/20160916101504/http://www.pci.org/uploadedFiles/Si teroot/Publications/PCI_Journal/1965/DOI_Articles/JL-65-AUGUST-2.pdf) (PDF) from the original on 16 September 2016. Retrieved 6 September 2016.
+62. Precast/Prestressed Concrete Institute (https://web.archive.org/web/19961220081344/http:// www.pci.org/)
+63. "Canadian Precast/Prestressed Concrete Institute" (http://www.cpci.ca/). Archived (https://w eb.archive.org/web/20210505153327/http://www.cpci.ca/) from the original on 5 May 2021.
+Retrieved 12 September 2016.
+64. "Post-Tensioning Association" (http://www.posttensioning.co.uk/). Archived (https://web.archi ve.org/web/20160919213154/http://www.posttensioning.co.uk/) from the original on 19
+September 2016. Retrieved 12 September 2016.
+65. "Post Tensioning Institute of Australia" (http://www.ptia.org.au/). Archived (https://web.archiv e.org/web/20160925000347/http://www.ptia.org.au/) from the original on 25 September
+2016. Retrieved 12 September 2016.
+66. "South African Post Tensioning Association" (http://www.sapta.co.za/). Archived (https://web.
+archive.org/web/20160525015459/http://sapta.co.za/) from the original on 25 May 2016.
+Retrieved 12 September 2016.
+The story of prestressed concrete from 1930 to 1945: A step towards the European Union (h ttp://www.sedhc.es/biblioteca/actas/CIHC1_130_Marrey%20B.pdf)
+Guidelines for Sampling, Assessing, and Restoring Defective Grout in Prestressed Concrete
+Bridge Post-Tensioning Ducts (https://purl.fdlp.gov/GPO/gpo41564) Federal Highway
+Administration
+Historical Patents and the Evolution of Twentieth Century Architectural Construction with
+Reinforced and Pre-stressed Concrete (http://www.arct.cam.ac.uk/Downloads/ichs/vol-2-171
+9-1740-anaya.pdf)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Prestressed_concrete&oldid=1339725788"
+External links

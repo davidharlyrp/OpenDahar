@@ -1,0 +1,426 @@
+An illustration showing groundwater in aquifers (in blue) (1, 5 and 6) below the water table (4), and three different wells (7, 8 and 9) dug to reach it.
+Groundwater
+Groundwater is the water present beneath Earth's surface in rock and soil pore spaces and in the fractures of rock formations. About 30 percent of all readily available fresh water in the world is groundwater.[1] A unit of rock or an unconsolidated deposit is called an aquifer when it can yield a usable quantity of water. The depth at which soil pore spaces or fractures and voids in rock become completely saturated with water is called the water table. Groundwater is recharged from the surface; it may discharge from the surface naturally at springs and seeps, and can form oases or wetlands. Groundwater is also often withdrawn for agricultural, municipal, and industrial use by constructing and operating extraction wells. The study of the distribution and movement of groundwater is hydrogeology, also called groundwater hydrology.
+Typically, groundwater is thought of as water flowing through shallow aquifers, but, in the technical sense, it can also contain soil moisture, permafrost (frozen soil), immobile water in very low permeability bedrock, and deep geothermal or oil formation water. Groundwater is hypothesized to provide lubrication that can possibly influence the movement of faults. It is likely that much of Earth's subsurface contains some water, which may be mixed with other fluids in some instances.
+Groundwater is often cheaper, more convenient and less vulnerable to pollution than surface water.
+Therefore, it is commonly used for public drinking water supplies. For example, groundwater provides the largest source of usable water storage in the United States, and California annually withdraws the largest amount of groundwater of all the states.[2] Underground reservoirs contain far more water than the capacity of all surface reservoirs and lakes in the US, including the Great Lakes. Many municipal water supplies are derived solely from groundwater.[3] Over 2 billion people rely on it as their primary water source worldwide.[4]
+Human use of groundwater causes environmental problems. For example, polluted groundwater is less visible and more difficult to clean up than pollution in rivers and lakes. Groundwater pollution most often results from improper disposal of wastes on land. Major sources include industrial and household chemicals and garbage landfills, excessive fertilizers and pesticides used in agriculture, industrial waste lagoons, tailings and process wastewater from mines, industrial fracking, oil field brine pits, leaking underground oil storage tanks and pipelines, sewage sludge and septic systems. Additionally, groundwater is susceptible to saltwater intrusion in coastal areas and can cause land subsidence when extracted
+Water balance
+Dzherelo, a common source of drinking water in a Ukrainian village unsustainably, leading to sinking cities (like Bangkok) and loss in elevation (such as the multiple meters lost in the Central Valley of California). These issues are made more complicated by sea level rise and other effects of climate change, particularly those on the water cycle. Earth's axial tilt has shifted 31 inches because of human groundwater pumping.[5][6][7]
+Groundwater is fresh water located in the subsurface pore space of soil and rocks. It is also water that is flowing within aquifers below the water table. Sometimes it is useful to make a distinction between groundwater that is closely associated with surface water, and deep groundwater in an aquifer (called
+"fossil water" if it infiltrated into the ground millennia ago[8]).
+Groundwater can be thought of in the same terms as surface water: inputs, outputs and storage. The natural input to groundwater is infiltration from surface water, which must then percolate downward to reach the groundwater. The natural outputs from groundwater are springs and seepage to the oceans.[9] Groundwater storage can be much larger (in volume) compared to its inputs than surface water and have a slower turnover rate, though this depends on the features of the aquifer.[10] This difference makes it easy for humans to use groundwater unsustainably for a long time without severe consequences. Nevertheless, over the long term the average rate of infiltration above a groundwater source plus input from streams is the upper bound for average consumption of water from that source.[11][12]
+Groundwater is naturally replenished by surface water from precipitation, streams, and rivers when this recharge reaches the water table.[13]
+Groundwater can be a long-term 'reservoir' of the natural water cycle
+(with residence times from days to millennia),[14][15] as opposed to short-term water reservoirs like the atmosphere and fresh surface water (which have residence times from minutes to years). Deep groundwater
+(which is quite distant from the surface recharge) can take a very long time to complete its natural cycle.
+The Great Artesian Basin in central and eastern Australia is one of the largest confined aquifer systems in the world, extending for almost 2  million km2. By analysing the trace
+Definition
+Role in the water cycle
+Schematic of an aquifer showing confined zones, groundwater travel times, a spring and a well elements in water sourced from deep underground, hydrogeologists have been able to determine that water extracted from these aquifers can be more than 1 million years old.
+By comparing the age of groundwater obtained from different parts of the Great Artesian Basin, hydrogeologists have found it increases in age across the basin. Where water recharges the aquifers along the Eastern Divide, ages are young. As groundwater flows westward across the continent, it increases in age, with the oldest groundwater occurring in the western parts. This means that in order to have travelled almost 1000 km from the source of recharge in 1 million years, the groundwater flowing through the
+Great Artesian Basin travels at an average rate of about 1 metre per year.
+Groundwater recharge or deep drainage or deep percolation is a hydrologic process, where water moves downward from surface water to groundwater. Recharge is the primary method through which water enters an aquifer. This process usually occurs in the vadose zone below plant roots and is often expressed as a flux to the water table surface. Groundwater recharge also encompasses water moving away from the water table farther into the saturated zone.[16] Recharge occurs both naturally (through the water cycle) and through anthropogenic processes (i.e., "artificial groundwater recharge"), where rainwater and/or reclaimed water is routed to the subsurface.
+The most common methods to estimate recharge rates are: chloride mass balance (CMB); soil physics methods; environmental and isotopic tracers; groundwater-level fluctuation methods; water balance (WB) methods (including groundwater models (GMs)); and the estimation of baseflow (BF) to rivers.[17]
+An aquifer is an underground layer of water-bearing material consisting of permeable or fractured rock, or of unconsolidated materials
+(gravel, sand, or silt).[18]
+Aquifers vary greatly in their characteristics. The study of water flow in aquifers and the characterization of aquifers is called hydrogeology. Related concepts include aquitard, a bed of low permeability along an aquifer, and aquiclude (or aquifuge), a solid and impermeable region underlying or overlying an aquifer, the pressure of which could lead to the formation of a confined aquifer. Aquifers can be classified as saturated versus unsaturated; aquifers versus aquitards; confined versus unconfined; isotropic versus anisotropic; porous, karst, or fractured; and transboundary aquifer.
+Groundwater recharge
+Location in aquifers
+The entire surface water flow of the
+Alapaha River near Jennings, Florida, going into a sinkhole leading to the
+Floridan Aquifer groundwater
+The high specific heat capacity of water and the insulating effect of soil and rock can mitigate the effects of climate and maintain groundwater at a relatively steady temperature. In some places where groundwater temperatures are maintained by this effect at about 10 °C (50 °F), groundwater can be used for controlling the temperature inside structures at the surface.
+For example, during hot weather relatively cool groundwater can be pumped through radiators in a home and then returned to the ground in another well. During cold seasons, because it is relatively warm, the water can be used in the same way as a source of heat for heat pumps that is much more efficient than using air.
+Groundwater makes up about thirty percent of the world's fresh water supply, which is about 0.76% of the entire world's water, including oceans and permanent ice.[19][20] About 99% of the world's liquid fresh water is groundwater.[21] Global groundwater storage is roughly equal to the total amount of freshwater stored in the snow and ice pack, including the north and south poles. This makes it an important resource that can act as a natural storage that can buffer against shortages of surface water, as in during times of drought.[22]
+The volume of groundwater in an aquifer can be estimated by measuring water levels in local wells and by examining geologic records from well-drilling to determine the extent, depth and thickness of water- bearing sediments and rocks. Before an investment is made in production wells, test wells may be drilled to measure the depths at which water is encountered and collect samples of soils, rock and water for laboratory analyses. Pumping tests can be performed in test wells to determine flow characteristics of the aquifer.[3]
+The characteristics of aquifers vary with the geology and structure of the substrate and topography in which they occur. In general, the more productive aquifers occur in sedimentary geologic formations. By comparison, weathered and fractured crystalline rocks yield smaller quantities of groundwater in many environments. Unconsolidated to poorly cemented alluvial materials that have accumulated as valley- filling sediments in major river valleys and geologically subsiding structural basins are included among the most productive sources of groundwater.
+Fluid flows can be altered in different lithological settings by brittle deformation of rocks in fault zones; the mechanisms by which this occurs are the subject of fault zone hydrogeology.[23]
+Characteristics
+Temperature
+Availability
+Groundwater may be extracted through a water well
+Reliance on groundwater will only increase, mainly due to growing water demand by all sectors combined with increasing variation in rainfall patterns.[24] Safe use of groundwater varies substantially by the elements present and use-cases, with significant differences between consumption for humans, livestocks and different crops.[25]
+Groundwater is the most accessed source of freshwater around the world, including as drinking water, irrigation, and manufacturing. Groundwater accounts for about half of the world's drinking water, 40% of its irrigation water, and a third of water for industrial purposes.[21]
+Another estimate stated that globally groundwater accounts for about one third of all water withdrawals, and surface water for the other two thirds.[26]: 21  Groundwater provides drinking water to at least 50% of the global population.[27] About 2.5 billion people depend solely on groundwater resources to satisfy their basic daily water needs.[27]
+A similar estimate was published in 2021 which stated that "groundwater is estimated to supply between a quarter and a third of the world's annual freshwater withdrawals to meet agricultural, industrial and domestic demands."[28]: 1091
+Global freshwater withdrawal was probably around 600 km3 per year in 1900 and increased to 3,880 km3 per year in 2017. The rate of increase was especially high (around 3% per year) during the period 1950–
+1980, partly due to a higher population growth rate, and partly to rapidly increasing groundwater development, particularly for irrigation. The rate of increase is (as per 2022) approximately 1% per year, in tune with the current population growth rate.[24]: 15
+Global groundwater depletion has been calculated to be between 100 and 300  km3 per year. This depletion is mainly caused by "expansion of irrigated agriculture in drylands".[28]: 1091
+The Asia-Pacific region is the largest groundwater abstractor in the world, containing seven out of the ten countries that extract most groundwater (Bangladesh, China, India, Indonesia, Iran, Pakistan and Turkey).
+These countries alone account for roughly 60% of the world's total groundwater withdrawal.[24]: 6
+Groundwater may or may not be a safe water source. In fact, there is considerable uncertainty with groundwater in different hydrogeologic contexts: the widespread presence of contaminants such as arsenic, fluoride and salinity can reduce the suitability of groundwater as a drinking water source. Arsenic and fluoride have been considered as priority contaminants at a global level, although priority chemicals will vary by country.[27]
+Uses by humans
+Quantities
+Drinking water quality aspects
+There is a lot of heterogeneity of hydrogeologic properties. For this reason, salinity of groundwater is often highly variable over space. This contributes to highly variable groundwater security risks even within a specific region.[27] Salinity in groundwater makes the water unpalatable and unusable and is often the worst in coastal areas, especially due to Saltwater intrusion from excessive use, which are notable in Bangladesh, and East and West India, and many island nations.[27]
+Due to climate change groundwater is warming. The temperature of Viennese groundwater has increased by .9 degrees Celsius between 2001 and 2010; by 1.4 degrees between 2011 and 2020.[29] In a joint research project scientists at the Karlsruher Institut für Technologie and the University of Vienna have tried to quantify the amount of drinking water loss to be expected due to ground water warming up to the end of the current century.[30] Stressing the fact that regional shallow groundwater warming patterns vary substantially due to spatial variability in climate change and water table depth these researchers write that we currently lack knowledge about how groundwater responds to surface warming across spatial and temporal scales.[31] Their study shows, however, that following a medium emissions pathway, in 2100 between 77 million and 188 million people are projected to live in areas where groundwater exceeds the highest threshold for drinking water temperatures (DWTs) set by any country.[31]
+Municipal and industrial water supplies are provided through large wells. Multiple wells for one water supply source are termed "wellfields", which may withdraw water from confined or unconfined aquifers.
+Using groundwater from deep, confined aquifers provides more protection from surface water contamination. Some wells, termed "collector wells", are specifically designed to induce infiltration of surface (usually river) water.
+Aquifers that provide sustainable fresh groundwater to urban areas and for agricultural irrigation are typically close to the ground surface (within a couple of hundred metres) and have some recharge by fresh water. This recharge is typically from rivers or meteoric water (precipitation) that percolates into the aquifer through overlying unsaturated materials. In cases where the groundwater has unacceptable levels of salinity or specific ions, desalination is a common treatment,.[25][32][33] However, for the brine, safe disposal or reuse[25] is needed.
+In general, the irrigation of 20% of farming land (with various types of water sources) accounts for the production of 40% of food production.[34][35] Irrigation techniques across the globe includes canals redirecting surface water,[36][37] groundwater pumping, and diverting water from dams. Aquifers are critically important in agriculture. Deep aquifers in arid areas have long been water sources for irrigation.
+A majority of extracted groundwater, 70%, is used for agricultural purposes.[38] Significant investigation has gone into determining safe levels of specific salts present for different agricultural uses.[39]
+In India, 65% of the irrigation is from groundwater[40] and about 90% of extracted groundwater is used for irrigation.[41]
+Occasionally, sedimentary or "fossil" aquifers are used to provide irrigation and drinking water to urban areas. In Libya, for example, Muammar Gaddafi's Great Manmade River project has pumped large amounts of groundwater from aquifers beneath the Sahara to populous areas near the coast.[42] Though
+Water supply for municipal and industrial uses
+Irrigation
+Center-pivot irrigated fields in Kansas covering hundreds of square miles watered by the Ogallala Aquifer
+Families collecting water from a water well in
+Niger.
+this has saved Libya money over the alternative, seawater desalination, the aquifers are likely to run dry in 60 to 100 years.[42]
+Groundwater provides critical freshwater supply, particularly in dry regions where surface water availability is limited.[43]
+Globally, more than one-third of the water used originates from underground. In the mid-latitude arid and semi-arid regions lacking sufficient surface water supply from rivers and reservoirs, groundwater is critical for sustaining global ecology and meeting societal needs of drinking water and food production. The demand for groundwater is rapidly increasing with population growth, while climate change is imposing additional stress on water resources and raising the probability of severe drought occurrence.[43]
+The anthropogenic effects on groundwater resources are mainly due to groundwater pumping and the indirect effects of irrigation and land use changes.[43]
+Groundwater plays a central role in sustaining water supplies and livelihoods in sub-Saharan Africa.[44] In some cases, groundwater is an additional water source that was not used previously.[45]
+First, flood mitigation schemes, intended to protect infrastructure built on floodplains, have had the unintended consequence of reducing aquifer recharge associated with natural flooding. Second, prolonged depletion of groundwater in extensive aquifers can result in land subsidence, with associated infrastructure damage – as well as, third, saline intrusion.[46] Fourth, draining acid sulphate soils, often found in low-lying coastal plains, can result in acidification and pollution of formerly freshwater and estuarine streams.[47]
+Groundwater is a highly useful and often abundant resource. Most land areas on Earth have some form of aquifer underlying them, sometimes at significant depths. In some cases, these aquifers are rapidly being depleted by the human population. Such over-use, over-abstraction or overdraft can cause major problems to human users and to the environment. The most evident problem (as far as human groundwater use is concerned) is a lowering of the water table beyond the reach of existing wells. As a consequence, wells must be drilled deeper to reach the groundwater; in some places (e.g., California, Texas, and India) the water table has dropped hundreds of feet because of extensive well pumping.[49] The GRACE satellites
+In developing countries
+Challenges
+Overdraft
+Within a long period of groundwater depletion in California's Central Valley, short periods of recovery were mostly driven by extreme weather events that typically caused flooding and had negative social, environmental and economic consequences.[48]
+Diagram of a water balance of the aquifer have collected data that demonstrates 21 of Earth's 37 major aquifers are undergoing depletion.[21] In the Punjab region of
+India, for example, groundwater levels have dropped 10 meters since
+1979, and the rate of depletion is accelerating.[50] A lowered water table may, in turn, cause other problems such as groundwater-related subsidence and saltwater intrusion.[51]
+Another cause for concern is that groundwater drawdown from over-allocated aquifers has the potential to cause severe damage to both terrestrial and aquatic ecosystems – in some cases very conspicuously but in others quite imperceptibly because of the extended period over which the damage occurs.[46] The importance of groundwater to ecosystems is often overlooked, even by freshwater biologists and ecologists. Groundwaters sustain rivers, wetlands, and lakes, as well as subterranean ecosystems within karst or alluvial aquifers.
+Not all ecosystems need groundwater, of course. Some terrestrial ecosystems – for example, those of the open deserts and similar arid environments – exist on irregular rainfall and the moisture it delivers to the soil, supplemented by moisture in the air. While there are other terrestrial ecosystems in more hospitable environments where groundwater plays no central role, groundwater is in fact fundamental to many of the world's major ecosystems. Water flows between groundwaters and surface waters. Most rivers, lakes, and wetlands are fed by, and (at other places or times) feed groundwater, to varying degrees. Groundwater feeds soil moisture through percolation, and many terrestrial vegetation communities depend directly on either groundwater or the percolated soil moisture above the aquifer for at least part of each year. Hyporheic zones (the mixing zone of streamwater and groundwater) and riparian zones are examples of ecotones largely or totally dependent on groundwater.
+A 2021 study found that of ~39 million investigated groundwater wells 6–20% are at high risk of running dry if local groundwater levels decline by a few meters, or – as with many areas and possibly more than half of major aquifers[52] – continue to decline.[53][54]
+Fresh-water aquifers, especially those with limited recharge by snow or rain, also known as meteoric water, can be over-exploited and depending on the local hydrogeology, may draw in non-potable water or saltwater intrusion from hydraulically connected aquifers or surface water bodies. This can be a serious problem, especially in coastal areas and other areas where aquifer pumping is excessive.
+Subsidence occurs when too much water is pumped out from underground, deflating the space below the above-surface, and thus causing the ground to collapse. The result can look like craters on plots of land.
+This occurs because, in its natural equilibrium state, the hydraulic pressure of groundwater in the pore spaces of the aquifer and the aquitard supports some of the weight of the overlying sediments. When
+Subsidence groundwater is removed from aquifers by excessive pumping, pore pressures in the aquifer drop and compression of the aquifer may occur. This compression may be partially recoverable if pressures rebound, but much of it is not. When the aquifer gets compressed, it may cause land subsidence, a drop in the ground surface.[55]
+In unconsolidated aquifers, groundwater is produced from pore spaces between particles of gravel, sand, and silt. If the aquifer is confined by low-permeability layers, the reduced water pressure in the sand and gravel causes slow drainage of water from the adjoining confining layers. If these confining layers are composed of compressible silt or clay, the loss of water to the aquifer reduces the water pressure in the confining layer, causing it to compress from the weight of overlying geologic materials. In severe cases, this compression can be observed on the ground surface as subsidence. Unfortunately, much of the subsidence from groundwater extraction is permanent (elastic rebound is small). Thus, the subsidence is not only permanent, but the compressed aquifer has a permanently reduced capacity to hold water.
+The city of New Orleans, Louisiana is actually below sea level today, and its subsidence is partly caused by removal of groundwater from the various aquifer/aquitard systems beneath it.[56] In the first half of the
+20th century, the San Joaquin Valley experienced significant subsidence, in some places up to 8.5 metres
+(28 feet)[57] due to groundwater removal. Cities on river deltas, including Venice in Italy,[58] and
+Bangkok in Thailand,[59] have experienced surface subsidence; Mexico City, built on a former lake bed, has experienced rates of subsidence of up to 40 centimetres (1 foot 4 inches) per year.[60]
+For coastal cities, subsidence can increase the risk of other environmental issues, such as sea level rise.[61] For example, Bangkok is expected to have 5.138 million people exposed to coastal flooding by
+2070 because of these combining factors.[61]
+If the surface water source is also subject to substantial evaporation, a groundwater source may become saline. This situation can occur naturally under endorheic bodies of water, or artificially under irrigated farmland. In coastal areas, human use of a groundwater source may cause the direction of seepage to ocean to reverse which can also cause soil salinization.
+As water moves through the landscape, it collects soluble salts, mainly sodium chloride. Where such water enters the atmosphere through evapotranspiration, these salts are left behind. In irrigation districts, poor drainage of soils and surface aquifers can result in water tables' coming to the surface in low-lying areas. Major land degradation problems of soil salinity and waterlogging result,[62] combined with increasing levels of salt in surface waters. As a consequence, major damage has occurred to local economies and environments.[63]
+Aquifers in surface irrigated areas in semi-arid zones with reuse of the unavoidable irrigation water losses percolating down into the underground by supplemental irrigation from wells run the risk of salination.[64]
+Surface irrigation water normally contains salts in the order of 0.5 g/L or more and the annual irrigation requirement is in the order of 10,000  m3/ha or more so the annual import of salt is in the order of
+5,000 kg/ha or more.[65]
+Groundwater becoming saline due to evaporation
+Waterborne diseases can be spread via a groundwater well which is contaminated with fecal pathogens from pit latrines
+Under the influence of continuous evaporation, the salt concentration of the aquifer water may increase continually and eventually cause an environmental problem.
+For salinity control in such a case, annually an amount of drainage water is to be discharged from the aquifer by means of a subsurface drainage system and disposed of through a safe outlet. The drainage system may be horizontal (i.e. using pipes, tile drains or ditches) or vertical (drainage by wells). To estimate the drainage requirement, the use of a groundwater model with an agro-hydro-salinity component may be instrumental, e.g. SahysMod.
+Aquifers near the coast have a lens of freshwater near the surface and denser seawater under freshwater.
+Seawater penetrates the aquifer diffusing in from the ocean and is denser than freshwater. For porous (i.e., sandy) aquifers near the coast, the thickness of freshwater atop saltwater is about 12 metres (40 ft) for every 0.3 m (1 ft) of freshwater head above sea level. This relationship is called the Ghyben-Herzberg equation. If too much groundwater is pumped near the coast, salt-water may intrude into freshwater aquifers causing contamination of potable freshwater supplies. Many coastal aquifers, such as the
+Biscayne Aquifer near Miami and the New Jersey Coastal Plain aquifer, have problems with saltwater intrusion as a result of overpumping and sea level rise.
+Seawater intrusion is the flow or presence of seawater into coastal aquifers; it is a case of saltwater intrusion. It is a natural phenomenon but can also be caused or worsened by anthropogenic factors, such as sea level rise due to climate change.[66] In the case of homogeneous aquifers, seawater intrusion forms a saline wedge below a transition zone to fresh groundwater, flowing seaward on the top.[67][68] These changes can have other effects on the land above the groundwater. For example, coastal groundwater in
+California would rise in many aquifers, increasing risks of flooding and runoff challenges.[66]
+Sea level rise causes the mixing of sea water into the coastal groundwater, rendering it unusable once it amounts to more than 2–3% of the reservoir. Along an estimated 15% of the US coastline, the majority of local groundwater levels are already below the sea level.[69]
+Groundwater pollution
+(also called groundwater contamination) occurs when pollutants are released to the ground and make their way into groundwater. This type of water pollution can also occur naturally due to the presence of a minor and unwanted constituent, contaminant, or impurity in the groundwater, in which case it is more likely referred to as contamination rather than pollution. Groundwater pollution can occur from on-site sanitation systems, landfill leachate, effluent from wastewater treatment plants, leaking sewers, petrol filling stations, hydraulic fracturing (fracking), or from over application of fertilizers in agriculture. Pollution (or contamination) can also occur from naturally occurring
+Seawater intrusion
+Pollution
+Groundwater pollution in Lusaka,
+Zambia, where the pit latrine in the background is polluting the shallow well in the foreground with pathogens and nitrate
+A woman pumps water from a handpump in her village in Sindh, Pakistan contaminants, such as arsenic or fluoride.[70] Using polluted groundwater causes hazards to public health through poisoning or the spread of disease (water-borne diseases).
+The pollutant often produces a contaminant plume within an aquifer. Movement of water and dispersion within the aquifer spreads the pollutant over a wider area. Its advancing boundary, often called a plume edge, can intersect with groundwater wells and surface water, such as seeps and springs, making the water supplies unsafe for humans and wildlife. The movement of the plume, called a plume front, may be analyzed through a hydrological transport model or groundwater model. Analysis of groundwater pollution may focus on soil characteristics and site geology, hydrogeology, hydrology, and the nature of the contaminants. Different mechanisms have influence on the transport of pollutants, e.g.
+diffusion, adsorption, precipitation, decay, in the groundwater.
+The impacts of climate change on groundwater may be greatest through its indirect effects on irrigation water demand via increased evapotranspiration.[24]: 5  There is an observed declined in groundwater storage in many parts of the world. This is due to more groundwater being used for irrigation activities in agriculture, particularly in drylands.[28]: 1091  Some of this increase in irrigation can be due to water scarcity issues made worse by effects of climate change on the water cycle. Direct redistribution of water by human activities amounting to ~24,000 km3 per year is about double the global groundwater recharge each year.[28]
+Climate change causes changes to the water cycle which in turn affect groundwater in several ways:
+There can be a decline in groundwater storage, and reduction in groundwater recharge and water quality deterioration due to extreme weather events.[71]: 558  In the tropics intense precipitation and flooding events appear to lead to more groundwater recharge.[71]: 582
+However, the exact impacts of climate change on groundwater are still under investigation.[71]: 579  This is because scientific data derived from groundwater monitoring is still missing, such as changes in space and time, abstraction data and "numerical representations of groundwater recharge processes".[71]: 579
+Effects of climate change could have different impacts on groundwater storage: The expected more intense (but fewer) major rainfall events could lead to increased groundwater recharge in many environments.[24]: 104  But more intense drought periods could result in soil drying-out and compaction which would reduce infiltration to groundwater.[72]
+Climate change
+For the higher altitudes regions, the reduced duration and amount of snow may lead to reduced recharge of groundwater in spring.[71]: 582  The impacts of receding alpine glaciers on groundwater systems are not well understood.[24]: 106
+Global sea level rise due to climate change has induced seawater intrusion into coastal aquifers around the world, particularly in low-lying areas and small islands.[71]: 611  However, groundwater abstraction is usually the main reason for seawater intrusion, rather than sea level rise (see in section on seawater intrusion).[24]: 5  Seawater intrusion threatens coastal ecosystems and livelihood resilience. Bangladesh is a vulnerable country for this issue, and mangrove forest of Sundarbans is a vulnerable ecosystem.[71]: 611
+Groundwater pollution may also increase indirectly due to climate change: More frequent and intense storms can pollute groundwater by mobilizing contaminants, for example fertilizers, wastewater or human excreta from pit latrines.[71]: 611  Droughts reduce river dilution capacities and groundwater levels, increasing the risk of groundwater contamination.
+Aquifer systems that are vulnerable to climate change include the following examples (the first four are largely independent of human withdrawals, unlike examples 5 to 8 where the intensity of human groundwater withdrawals plays a key role in amplifying vulnerability to climate change):[24]: 109
+1. low-relief coastal and deltaic aquifer systems,
+2. aquifer systems in continental northern latitudes or alpine and polar regions
+3. aquifers in rapidly expanding low-income cities and large displaced and informal communities
+4. shallow alluvial aquifers underlying seasonal rivers in drylands,
+5. intensively pumped aquifer systems for groundwater-fed irrigation in drylands
+6. intensively pumped aquifers for dryland cities
+7. intensively pumped coastal aquifers
+8. low-storage/low-recharge aquifer systems in drylands
+Using more groundwater, particularly in Sub-Saharan Africa, is seen as a method for climate change adaptation in the case that climate change causes more intense or frequent droughts.[73]
+Groundwater-based adaptations to climate change exploit distributed groundwater storage and the capacity of aquifer systems to store seasonal or episodic water surpluses.[24]: 5  They incur substantially lower evaporative losses than conventional infrastructure, such as surface dams. For example, in tropical
+Africa, pumping water from groundwater storage can help to improve the climate resilience of water and food supplies.[24]: 110
+The development of geothermal energy, a sustainable energy source, plays an important role in reducing
+CO2 emissions and thus mitigating climate change.[24]: 5  Groundwater is an agent in the storage, movement, and extraction of geothermal energy.[24]: 110
+Climate change adaptation
+Climate change mitigation
+Groundwater withdrawal rates from the
+Ogallala Aquifer in the Central United
+States
+In pioneering nations, such as the Netherlands and Sweden, the ground/groundwater is increasingly seen as just one component (a seasonal source, sink or thermal 'buffer') in district heating and cooling networks.[24]: 113
+Deep aquifers can also be used for carbon capture and sequestration, the process of storing carbon to curb accumulation of carbon dioxide in the atmosphere.[24]: 5
+Groundwater governance processes enable groundwater management, planning and policy implementation. It takes place at multiple scales and geographic levels, including regional and transboundary scales.[24]: 2
+Groundwater management is action-oriented, focusing on practical implementation activities and day-to-day operations.
+Because groundwater is often perceived as a private resource
+(that is, closely connected to land ownership, and in some jurisdictions treated as privately owned), regulation and top– down governance and management are difficult.
+Governments need to fully assume their role as resource custodians in view of the common-good aspects of groundwater.[24]: 2
+Domestic laws and regulations regulate access to groundwater as well as human activities that impact the quality of groundwater. Legal frameworks also need to include protection of discharge and recharge zones and of the area surrounding water supply wells, as well as sustainable yield norms and abstraction controls, and conjunctive use regulations. In some jurisdictions, groundwater is regulated in conjunction with surface water, including rivers.[24]: 2
+Groundwater is an important water resource for the supply of drinking water, especially in arid countries.
+The Arab region is one of the most water-scarce in the world and groundwater is the most relied-upon water source in at least 11 of the 22 Arab states. Over-extraction of groundwater in many parts of the region has led to groundwater table declines, especially in highly populated and agricultural areas.[24]: 7
+All pages with titles containing Groundwater
+Groundwater governance
+By country
+See also
+Baseflow – Stream flow between precipitation events
+Hydrology
+List of aquifers
+List of aquifers in the United States
+Water resources – Sources of water that are potentially useful for humans
+Water security – Goal of water management to harness water-related opportunities and manage risks
+1. "What is Groundwater? | International Groundwater Resources Assessment Centre" (https:// www.un-igrac.org/what-groundwater). www.un-igrac.org. Retrieved 2022-03-14.
+2. National Geographic Almanac of Geography, 2005, ISBN 0-7922-3877-X, p. 148.
+3. "What is hydrology and what do hydrologists do?" (https://water.usgs.gov/edu/hydrology.htm l). The USGS Water Science School. United States Geological Survey. 23 May 2013.
+Retrieved 21 Jan 2014.
+4. Famiglietti, J. S. (November 2014). "The global groundwater crisis" (https://www.nature.com/ articles/nclimate2425). Nature Climate Change. 4 (11): 945–948.
+Bibcode:2014NatCC...4..945F (https://ui.adsabs.harvard.edu/abs/2014NatCC...4..945F).
+doi:10.1038/nclimate2425 (https://doi.org/10.1038%2Fnclimate2425). ISSN 1758-6798 (http s://search.worldcat.org/issn/1758-6798). Retrieved 2 March 2022.
+5. Weisberger, Mindy (2023-06-26). "Humans pump so much groundwater that Earth's axis has shifted, study finds" (https://www.cnn.com/2023/06/26/world/pumping-groundwater-eart h-axis-shifting-scn/index.html). CNN. Retrieved 2023-08-15.
+6. Castelvecchi, Davide (2023). "Rampant Groundwater Pumping Has Changed the Tilt of
+Earth's Axis" (https://www.scientificamerican.com/article/rampant-groundwater-pumping-has
+-changed-the-tilt-of-earths-axis/). Nature. doi:10.1038/d41586-023-01993-z (https://doi.org/1
+0.1038%2Fd41586-023-01993-z). PMID 37328564 (https://pubmed.ncbi.nlm.nih.gov/37328
+564). S2CID 259183868 (https://api.semanticscholar.org/CorpusID:259183868). Retrieved
+2023-08-15.
+7. "Humans Have Shifted Earth's Axis by Pumping Lots of Groundwater" (https://www.smithson ianmag.com/smart-news/humans-have-shifted-earths-axis-by-pumping-lots-of-groundwater-
+180982403/). Smithsonian Magazine. Retrieved 2023-08-15.
+8. "Non-renewable groundwater resources: a guidebook on socially-sustainable management for water-policy makers; 2006" (http://www.unesco.org/ulis/cgi-bin/ulis.pl?catno=146997&set
+=005671D42B_3_346&gp=1&lin=1&ll=1). unesco.org. Retrieved 2015-12-16.
+9. "Simplified hydrologic cycle" (https://www.weather.gov/mrx/hydro_cycle#:~:text=Percolatio n%20is%20the%20movement%20of,called%20the%20%22water%20table%22.). National
+Weather Service Morristown. National Oceanic and Atmospheric Administration. Retrieved
+5 May 2025.
+10. Water Science School (8 June 2019). "Infiltration and the Water Cycle" (https://www.usgs.go v/special-topics/water-science-school/science/infiltration-and-water-cycle). U.S. Geological
+Survey. Retrieved 5 May 2025.
+11. Water Science School (16 October 2019). "Aquifers and Streams" (https://www.usgs.gov/sp ecial-topics/water-science-school/science/aquifers-and-groundwater). U.S. Geological
+Survey. Retrieved 5 May 2025.
+12. Water Science School (6 June 2018). "Rivers Contain Groundwater" (https://www.usgs.gov/ special-topics/water-science-school/science/rivers-contain-groundwater). U.S. Geological
+Survey. Retrieved 5 May 2025.
+References
+13. United States Department of the Interior (1977). Ground Water Manual (First ed.). United
+States Government Printing Office. p. 4.
+14. Bethke, Craig M.; Johnson, Thomas M. (May 2008). "Groundwater Age and Groundwater
+Age Dating". Annual Review of Earth and Planetary Sciences. 36 (1): 121–152.
+Bibcode:2008AREPS..36..121B (https://ui.adsabs.harvard.edu/abs/2008AREPS..36..121B).
+doi:10.1146/annurev.earth.36.031207.124210 (https://doi.org/10.1146%2Fannurev.earth.36.
+031207.124210). ISSN 0084-6597 (https://search.worldcat.org/issn/0084-6597).
+15. Gleeson, Tom; Befus, Kevin M.; Jasechko, Scott; Luijendijk, Elco; Cardenas, M. Bayani
+(February 2016). "The global volume and distribution of modern groundwater" (http://www.n ature.com/articles/ngeo2590). Nature Geoscience. 9 (2): 161–167.
+Bibcode:2016NatGe...9..161G (https://ui.adsabs.harvard.edu/abs/2016NatGe...9..161G).
+doi:10.1038/ngeo2590 (https://doi.org/10.1038%2Fngeo2590). ISSN 1752-0894 (https://sea rch.worldcat.org/issn/1752-0894).
+16. Freeze, R.A.; Cherry, J.A. (1979). Groundwater (https://archive.org/details/groundwater00fre e). Prentice-Hall. ISBN 978-0-13-365312-0. OCLC 643719314 (https://search.worldcat.org/o clc/643719314). Accessed from: http://hydrogeologistswithoutborders.org/wordpress/1979- english/ Archived (https://web.archive.org/web/20200406061947/http://hydrogeologistswitho utborders.org/wordpress/1979-english/) 2020-04-06 at the Wayback Machine
+17. MacDonald, Alan M; Lark, R Murray; Taylor, Richard G; Abiye, Tamiru; Fallas, Helen C;
+Favreau, Guillaume; Goni, Ibrahim B; Kebede, Seifu; Scanlon, Bridget; Sorensen, James P
+R; Tijani, Moshood; Upton, Kirsty A; West, Charles (2021-03-01). "Mapping groundwater recharge in Africa from ground observations and implications for water security" (https://doi.
+org/10.1088%2F1748-9326%2Fabd661). Environmental Research Letters. 16 (3): 034012.
+Bibcode:2021ERL....16c4012M (https://ui.adsabs.harvard.edu/abs/2021ERL....16c4012M).
+doi:10.1088/1748-9326/abd661 (https://doi.org/10.1088%2F1748-9326%2Fabd661).
+ISSN 1748-9326 (https://search.worldcat.org/issn/1748-9326). S2CID 233941479 (https://ap i.semanticscholar.org/CorpusID:233941479). Text was copied from this source, which is available under a Creative Commons Attribution 4.0 International License (https://creativeco mmons.org/licenses/by/4.0/)
+18. "Aquifers" (https://education.nationalgeographic.org/resource/aquifers).
+education.nationalgeographic.org. Retrieved 2025-10-06.
+19. "Where is Earth's Water?" (https://www.usgs.gov/special-topic/water-science-school/scienc e/where-earths-water?qt-science_center_objects=0#qt-science_center_objects).
+www.usgs.gov. 13 November 2019. Retrieved 2020-03-18.
+20. Gleick, Peter H., ed. (1993). Water in Crisis: A Guide to the World's Fresh Water Resources
+(https://archive.org/details/waterincrisisgui00glei). Oxford University Press. ISBN 978-0-19-
+507628-8. OCLC 26400228 (https://search.worldcat.org/oclc/26400228).
+21. Lall, Upmanu; Josset, Laureline; Russo, Tess (2020-10-17). "A Snapshot of the World's
+Groundwater Challenges" (https://doi.org/10.1146%2Fannurev-environ-102017-025800).
+Annual Review of Environment and Resources. 45 (1): 171–194. doi:10.1146/annurev- environ-102017-025800 (https://doi.org/10.1146%2Fannurev-environ-102017-025800).
+ISSN 1543-5938 (https://search.worldcat.org/issn/1543-5938).
+22. "Learn More: Groundwater" (http://water.columbia.edu/?id=learn_more&navid=groundwate r/). Columbia Water Center. Retrieved 15 September 2009.
+23. Bense, V.F.; Gleeson, T.; Loveless, S.E.; Bour, O.; Scibek, J. (2013). "Fault zone hydrogeology" (https://linkinghub.elsevier.com/retrieve/pii/S0012825213001657). Earth-
+Science Reviews. 127: 171–192. Bibcode:2013ESRv..127..171B (https://ui.adsabs.harvard.
+edu/abs/2013ESRv..127..171B). doi:10.1016/j.earscirev.2013.09.008 (https://doi.org/10.101
+6%2Fj.earscirev.2013.09.008).
+24. United Nations (2022) The United Nations World Water Development Report 2022:
+Groundwater: Making the invisible visible (https://unesdoc.unesco.org/ark:/48223/pf0000380
+721). UNESCO, Paris
+Text was copied from this source, which is available under a
+Creative Commons Attribution 3.0 International License
+25. Lanter, Alec M.; Svetanoff, Rachel; Chitturi, Lahiri; Chirchir, Abraham; Arowo, Moses
+NyoTonglo; Ringera, Harun; Warsinger, David M. (2024). "Maximizing water recovery from reverse osmosis for agricultural brine reuse in Kenya" (https://doi.org/10.1016%2Fj.agwat.2
+024.108855). Agricultural Water Management. 298 108855.
+Bibcode:2024AgWM..29808855L (https://ui.adsabs.harvard.edu/abs/2024AgWM..29808855
+L). doi:10.1016/j.agwat.2024.108855 (https://doi.org/10.1016%2Fj.agwat.2024.108855).
+26. Alix, Alexandre; Bellet, Laurent; Trommsdorff, Corinne; Audureau, Iris, eds. (2022).
+Reducing the Greenhouse Gas Emissions of Water and Sanitation Services: Overview of emissions and their potential reduction illustrated by utility know-how (https://iwaponline.co m/ebooks/book/850/Reducing-the-Greenhouse-Gas-Emissions-of-Water-and). IWA
+Publishing. doi:10.2166/9781789063172 (https://doi.org/10.2166%2F9781789063172).
+ISBN 978-1-78906-317-2. S2CID 250128707 (https://api.semanticscholar.org/CorpusID:250
+128707).
+27. Akhter, Tanjila; Naz, Maheen; Salehin, Mashfiqus; Arif, Sharif Tanjim; Hoque, Sonia
+Ferdous; Hope, Robert; Rahman, Mohammad Rezaur (2023). "Hydrogeologic Constraints for Drinking Water Security in Southwest Coastal Bangladesh: Implications for Sustainable
+Development Goal 6.1" (https://doi.org/10.3390%2Fw15132333). Water. 15 (13): 2333.
+Bibcode:2023Water..15.2333A (https://ui.adsabs.harvard.edu/abs/2023Water..15.2333A).
+doi:10.3390/w15132333 (https://doi.org/10.3390%2Fw15132333). ISSN 2073-4441 (https:// search.worldcat.org/issn/2073-4441).
+Text was copied from this source, which is available under a Creative Commons Attribution 4.0 International License (https://creativeco mmons.org/licenses/by/4.0/)
+28. Douville, H.; Raghavan, K.; Renwick, J.; Allan, R.P.; Arias, P.A.; Barlow, M.; Cerezo-Mota,
+R.; Cherchi, A.; Gan, T.Y.; Gergis, J.; Jiang, D.; Khan, A.; Pokam Mba, W.; Rosenfeld, D.;
+Tierney, J.; Zolina, O. (2021). "8 Water Cycle Changes" (https://www.ipcc.ch/report/ar6/wg1/ downloads/report/IPCC_AR6_WGI_Chapter08.pdf) (PDF). In Masson-Delmotte, V.; Zhai, P.;
+Pirani, A.; Connors, S.L.; Péan, C.; Berger, S.; Caud, N.; Chen, Y.; Goldfarb, L.; Gomis, M.I.;
+Huang, M.; Leitzell, K.; Lonnoy, E.; Matthews, J.B.R.; Maycock, T.K.; Waterfield, T.; Yelekçi,
+O.; Yu, R.; Zhou, B. (eds.). Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on
+Climate Change (https://www.ipcc.ch/report/ar6/wg1/). Cambridge University Press.
+pp. 1055–1210. doi:10.1017/9781009157896.010 (https://doi.org/10.1017%2F97810091578
+96.010). ISBN 978-1-009-15789-6.
+29. "Wiener Grundwasser wird wärmer" (https://wien.orf.at/stories/3289090/). wien.ORF.at (in
+Austrian German). 2025-01-15. Retrieved 2025-01-15.
+30. Hochwarth, Dominik (2024-06-04). "Forscher warnen: Erwärmung des Grundwassers gefährdet Millionen weltweit" (https://www.ingenieur.de/technik/fachbereiche/umwelt/forsche r-warnen-erwaermung-des-grundwassers-gefaehrdet-millionen-weltweit/). ingenieur.de -
+Jobbörse und Nachrichtenportal für Ingenieure (in German). Retrieved 2025-01-15.
+31. Benz, Susanne A.; Irvine, Dylan J.; Rau, Gabriel C.; Bayer, Peter; Menberg, Kathrin; Blum,
+Philipp; Jamieson, Rob C.; Griebler, Christian; Kurylyk, Barret L. (2024-06-04). "Global groundwater warming due to climate change" (https://doi.org/10.1038%2Fs41561-024-0145
+3-x). Nature Geoscience. 17 (6): 545–551. Bibcode:2024NatGe..17..545B (https://ui.adsabs.
+harvard.edu/abs/2024NatGe..17..545B). doi:10.1038/s41561-024-01453-x (https://doi.org/1
+0.1038%2Fs41561-024-01453-x). ISSN 1752-0908 (https://search.worldcat.org/issn/1752-0
+908).
+32. Stanton, Jennifer S.; Anning, David W.; Brown, Craig J.; Moore, Richard B.; McGuire,
+Virginia L.; Qi, Sharon L.; Harris, Alta C.; Dennehy, Kevin F.; McMahon, Peter B.; Degnan,
+James R.; Böhlke, John Karl (2017). Professional Paper (Report). doi:10.3133/pp1833 (http s://doi.org/10.3133%2Fpp1833).
+33. Arafat, H. (2017). Desalination Sustainability: A Technical, Socioeconomic, and
+Environmental Approach (https://books.google.com/books?id=mZ2pDQAAQBAJ&pg=PA36
+7). Elsevier. p. 367. ISBN 978-0-12-809896-7. Retrieved 2024-12-24.
+34. "On Water" (https://www.eib.org/en/essays/on-water). European Investment Bank. Retrieved
+2020-12-07.
+35. "Water in Agriculture" (https://www.worldbank.org/en/topic/water-in-agriculture). World Bank.
+Retrieved 2020-12-07.
+36. McNeill 2000 pp.174.
+37. Peterson 2016
+38. "Facts About Global Groundwater Usage" (https://www.ngwa.org/what-is-groundwater/About
+-groundwater/facts-about-global-groundwater-usage). National Ground Water Association.
+Retrieved 29 March 2021.
+39. Ayers, R.S. (1967-04-10). "Water quality for agriculture" (https://www.fao.org/4/t0234e/T023
+4E00.htm#TOC). FAOHome. Retrieved 2024-12-24.
+40. PM Launches Rs 6,000 Crore Groundwater Management Plan (https://www.ndtv.com/india- news/pm-launches-rs-6-000-crore-national-groundwater-management-plan-on-atal-bihari-va jpayees-birth-anniv-2154120), NDTV, 25 December 2019.
+41. Chindarkar, Namrata; Grafton, Quentin (5 January 2019). "India's depleting groundwater:
+When science meets policy" (https://doi.org/10.1002%2Fapp5.269). Asia & the Pacific
+Policy Studies. 6 (1): 108–124. doi:10.1002/app5.269 (https://doi.org/10.1002%2Fapp5.26
+9). hdl:1885/202483 (https://hdl.handle.net/1885%2F202483).
+42. Scholl, Adam. "Map Room: Hidden Waters" (https://web.archive.org/web/20211030012853/h ttp://worldpolicy.org/2013/09/12/map-room-anonymous/). World Policy journal. Archived from the original (http://www.worldpolicy.org/journal/winter2012/map-room) on 30 October 2021.
+Retrieved 19 December 2012.
+43. Wu WY, Lo MH, Wada Y, Famiglietti JS, Reager JT, Yeh PJ, et al. (July 2020). "Divergent effects of climate change on future groundwater availability in key mid-latitude aquifers" (http s://www.ncbi.nlm.nih.gov/pmc/articles/PMC7382464). Nature Communications. 11 (1) 3710.
+Bibcode:2020NatCo..11.3710W (https://ui.adsabs.harvard.edu/abs/2020NatCo..11.3710W).
+doi:10.1038/s41467-020-17581-y (https://doi.org/10.1038%2Fs41467-020-17581-y).
+PMC 7382464 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7382464). PMID 32709871
+(https://pubmed.ncbi.nlm.nih.gov/32709871).
+Text was copied from this source, which is available under a Creative Commons Attribution 4.0 International License (https://creative commons.org/licenses/by/4.0/)
+44. Cuthbert MO, Taylor RG, Favreau G, Todd MC, Shamsudduha M, Villholth KG, et al.
+(August 2019). "Observed controls on resilience of groundwater to climate variability in sub-
+Saharan Africa" (http://nora.nerc.ac.uk/id/eprint/524920/1/Chronicles%20Nature%20Revisio n%202%20Apr%202019.pdf) (PDF). Nature. 572 (7768): 230–234.
+Bibcode:2019Natur.572..230C (https://ui.adsabs.harvard.edu/abs/2019Natur.572..230C).
+doi:10.1038/s41586-019-1441-7 (https://doi.org/10.1038%2Fs41586-019-1441-7).
+PMID 31391559 (https://pubmed.ncbi.nlm.nih.gov/31391559). S2CID 199491973 (https://ap i.semanticscholar.org/CorpusID:199491973).
+45. Taye, Meron Teferi; Dyer, Ellen (22 August 2019). "Ethiopia's future is tied to water -- a vital yet threatened resource in a changing climate" (https://theconversation.com/ethiopias-future
+-is-tied-to-water-a-vital-yet-threatened-resource-in-a-changing-climate-121844). The
+Conversation. Retrieved 4 August 2022.
+46. Zektser, S.; LoaIciga, H. A.; Wolf, J. T. (2004). "Environmental impacts of groundwater overdraft: selected case studies in the southwestern United States". Environmental
+Geology. 47 (3): 396–404. doi:10.1007/s00254-004-1164-3 (https://doi.org/10.1007%2Fs00
+254-004-1164-3). S2CID 129514582 (https://api.semanticscholar.org/CorpusID:129514582).
+47. Sommer, Bea; Horwitz, Pierre; Sommer, Bea; Horwitz, Pierre (2001). "Water quality and macroinvertebrate response to acidification following intensified summer droughts in a
+Western Australian wetland". Marine and Freshwater Research. 52 (7): 1015.
+Bibcode:2001MFRes..52.1015S (https://ui.adsabs.harvard.edu/abs/2001MFRes..52.1015S).
+doi:10.1071/MF00021 (https://doi.org/10.1071%2FMF00021).
+48. Liu, Pang-Wei; Famiglietti, James S.; Purdy, Adam J.; Adams, Kyra H.; et al. (19 December
+2022). "Groundwater depletion in California's Central Valley accelerates during megadrought" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9763392). Nature
+Communications. 13 (7825): 7825. Bibcode:2022NatCo..13.7825L (https://ui.adsabs.harvar d.edu/abs/2022NatCo..13.7825L). doi:10.1038/s41467-022-35582-x (https://doi.org/10.103
+8%2Fs41467-022-35582-x). PMC 9763392 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC
+9763392). PMID 36535940 (https://pubmed.ncbi.nlm.nih.gov/36535940). (Archive (https://w eb.archive.org/web/20230130223801/https://www.nature.com/articles/s41467-022-35582-x/f igures/4) of chart itself)
+49. Perrone, Debra; Jasechko, Scott (August 2019). "Deeper well drilling an unsustainable stopgap to groundwater depletion" (https://www.nature.com/articles/s41893-019-0325-z).
+Nature Sustainability. 2 (8): 773–782. Bibcode:2019NatSu...2..773P (https://ui.adsabs.harva rd.edu/abs/2019NatSu...2..773P). doi:10.1038/s41893-019-0325-z (https://doi.org/10.1038%
+2Fs41893-019-0325-z). ISSN 2398-9629 (https://search.worldcat.org/issn/2398-9629).
+S2CID 199503276 (https://api.semanticscholar.org/CorpusID:199503276).
+50. Upmanu Lall (28 July 2009). "Punjab: A tale of prosperity and decline" (http://blogs.ei.colum bia.edu/water/2009/07/28/punjab-a-tale-of-prosperity-and-decline/). Columbia Water Center.
+Retrieved 2009-09-11.
+51. Bagheri, Rahim; Nosrati, Azad; Jafari, Hadi; Eggenkamp, Hermanus Gerardus M.; Mozafari,
+Morteza (5 May 2019). "Overexploitation hazards and salinization risks in crucial declining aquifers, chemo-isotopic approaches" (https://www.sciencedirect.com/science/article/abs/pii/
+S0304389419301517). Journal of Hazardous Materials. 369: 150–163.
+Bibcode:2019JHzM..369..150B (https://ui.adsabs.harvard.edu/abs/2019JHzM..369..150B).
+doi:10.1016/j.jhazmat.2019.02.024 (https://doi.org/10.1016%2Fj.jhazmat.2019.02.024).
+ISSN 0304-3894 (https://search.worldcat.org/issn/0304-3894). PMID 30776598 (https://pub med.ncbi.nlm.nih.gov/30776598). S2CID 73455611 (https://api.semanticscholar.org/CorpusI
+D:73455611). Retrieved 2 March 2022.
+52. Famiglietti, James S.; Ferguson, Grant (23 April 2021). "The hidden crisis beneath our feet"
+(https://www.science.org/doi/10.1126/science.abh2867). Science. 372 (6540): 344–345.
+Bibcode:2021Sci...372..344F (https://ui.adsabs.harvard.edu/abs/2021Sci...372..344F).
+doi:10.1126/science.abh2867 (https://doi.org/10.1126%2Fscience.abh2867).
+PMID 33888627 (https://pubmed.ncbi.nlm.nih.gov/33888627). S2CID 233353241 (https://ap i.semanticscholar.org/CorpusID:233353241). Retrieved 10 May 2021.
+53. "The largest assessment of global groundwater wells finds many are at risk of drying up" (htt ps://www.sciencedaily.com/releases/2021/04/210423130101.htm). ScienceDaily. Retrieved
+10 May 2021.
+54. Jasechko, Scott; Perrone, Debra (23 April 2021). "Global groundwater wells at risk of running dry" (https://www.science.org/doi/10.1126/science.abc2755). Science. 372 (6540):
+418–421. Bibcode:2021Sci...372..418J (https://ui.adsabs.harvard.edu/abs/2021Sci...372..41
+8J). doi:10.1126/science.abc2755 (https://doi.org/10.1126%2Fscience.abc2755).
+ISSN 0036-8075 (https://search.worldcat.org/issn/0036-8075). PMID 33888642 (https://pub med.ncbi.nlm.nih.gov/33888642). S2CID 233353207 (https://api.semanticscholar.org/Corpu sID:233353207). Retrieved 10 May 2021.
+55. Galloway, Devin L.; Burbey, Thomas J. (December 2011). "Review: Regional land subsidence accompanying groundwater extraction" (https://link.springer.com/article/10.1007/ s10040-011-0775-5). Hydrogeology Journal (in English, French, Spanish, Chinese, and
+Portuguese). 19 (8): 1459–1486. Bibcode:2011HydJ...19.1459G (https://ui.adsabs.harvard.e du/abs/2011HydJ...19.1459G). doi:10.1007/s10040-011-0775-5 (https://doi.org/10.1007%2F s10040-011-0775-5). S2CID 127084866 (https://api.semanticscholar.org/CorpusID:1270848
+66). Retrieved 2 March 2022.
+56. Dokka, Roy K. (2011). "The role of deep processes in late 20th century subsidence of New
+Orleans and coastal areas of southern Louisiana and Mississippi" (https://doi.org/10.1029%
+2F2010JB008008). Journal of Geophysical Research. 116 (B6) B06403.
+Bibcode:2011JGRB..116.6403D (https://ui.adsabs.harvard.edu/abs/2011JGRB..116.6403
+D). doi:10.1029/2010JB008008 (https://doi.org/10.1029%2F2010JB008008). ISSN 0148-
+0227 (https://search.worldcat.org/issn/0148-0227). S2CID 53395648 (https://api.semanticsc holar.org/CorpusID:53395648).
+57. Sneed, M; Brandt, J; Solt, M (2013). "Land Subsidence along the Delta-Mendota Canal in the Northern Part of the San Joaquin Valley, California, 2003–10" (https://pubs.usgs.gov/sir/
+2013/5142/pdf/sir2013-5142.pdf) (PDF). USGS Scientific Investigations Report 2013-5142.
+Scientific Investigations Report: 87. Bibcode:2013usgs.rept...87S (https://ui.adsabs.harvard.
+edu/abs/2013usgs.rept...87S). doi:10.3133/sir20135142 (https://doi.org/10.3133%2Fsir2013
+5142). Retrieved 22 June 2015.
+58. Tosi, Luigi; Teatini, Pietro; Strozzi, Tazio; Da Lio, Cristina (2014). "Relative Land Subsidence of the Venice Coastland, Italy". Engineering Geology for Society and Territory – Volume 4.
+pp. 171–73. doi:10.1007/978-3-319-08660-6_32 (https://doi.org/10.1007%2F978-3-319-086
+60-6_32). ISBN 978-3-319-08659-0.
+59. Aobpaet, Anuphao; Cuenca, Miguel Caro; Hooper, Andrew; Trisirisatayawong, Itthi (2013).
+"InSAR time-series analysis of land subsidence in Bangkok, Thailand". International Journal of Remote Sensing. 34 (8): 2969–82. Bibcode:2013IJRS...34.2969A (https://ui.adsabs.harva rd.edu/abs/2013IJRS...34.2969A). doi:10.1080/01431161.2012.756596 (https://doi.org/10.1
+080%2F01431161.2012.756596). ISSN 0143-1161 (https://search.worldcat.org/issn/0143-1
+161). S2CID 129140583 (https://api.semanticscholar.org/CorpusID:129140583).
+60. Arroyo, Danny; Ordaz, Mario; Ovando-Shelley, Efrain; Guasch, Juan C.; Lermo, Javier;
+Perez, Citlali; Alcantara, Leonardo; Ramírez-Centeno, Mario S. (2013). "Evaluation of the change in dominant periods in the lake-bed zone of Mexico City produced by ground subsidence through the use of site amplification factors". Soil Dynamics and Earthquake
+Engineering. 44: 54–66. Bibcode:2013SDEE...44...54A (https://ui.adsabs.harvard.edu/abs/2
+013SDEE...44...54A). doi:10.1016/j.soildyn.2012.08.009 (https://doi.org/10.1016%2Fj.soildy n.2012.08.009). ISSN 0267-7261 (https://search.worldcat.org/issn/0267-7261).
+61. Nicholls, R. J.; Hanson, S.; Herweijer, C.; Patmore, N.; Hallegatte, S.; CorfeeMorlot, J.;
+Chateau, Jean; Muir-Wood, Robert (2008). "Ranking Port Cities with High Exposure and
+Vulnerability to Climate Extremes: Exposure Estimates" (http://www.oecd-ilibrary.org/docser ver/download/5kzssgshj742.pdf?expires=1443516109&id=id&accname=guest&checksum=8
+6F9E81D60F674BDFA259B0843C4A964) (PDF). OECD Environment Working Papers (1).
+doi:10.1787/011766488208 (https://doi.org/10.1787%2F011766488208). Retrieved 22 May
+2014.
+62. "Free articles and software on drainage of waterlogged land and soil salinity control" (http:// www.waterlog.info). Retrieved 2010-07-28.
+63. Ludwig, D.; Hilborn, R.; Walters, C. (1993). "Uncertainty, Resource Exploitation, and
+Conservation: Lessons from History" (https://web.archive.org/web/20130826142557/http://la ndscape.forest.wisc.edu/courses/Landscape565spr01/Ludwig_etal1993.pdf) (PDF).
+Science. 260 (5104): 17–36. Bibcode:1993Sci...260...17L (https://ui.adsabs.harvard.edu/ab s/1993Sci...260...17L). doi:10.1126/science.260.5104.17 (https://doi.org/10.1126%2Fscienc e.260.5104.17). JSTOR 1942074 (https://www.jstor.org/stable/1942074). PMID 17793516 (h ttps://pubmed.ncbi.nlm.nih.gov/17793516). Archived from the original (http://landscape.fores t.wisc.edu/courses/Landscape565spr01/Ludwig_etal1993.pdf) (PDF) on 2013-08-26.
+Retrieved 2011-06-09.
+64. ILRI (1989), Effectiveness and Social/Environmental Impacts of Irrigation Projects: a Review
+(http://www.waterlog.info/pdf/irreff.pdf) (PDF), In: Annual Report 1988 of the International
+Institute for Land Reclamation and Improvement (ILRI), Wageningen, The Netherlands, pp. 18–34
+65. ILRI (2003), Drainage for Agriculture: Drainage and hydrology/salinity - water and salt balances. Lecture notes International Course on Land Drainage, International Institute for
+Land Reclamation and Improvement (ILRI), Wageningen, The Netherlands. Download from :
+[1] (http://www.waterlog.info/faqs.htm), or directly as PDF : [2] (http://www.waterlog.info/pdf/ balances.pdf)
+66. Befus, K. M.; Barnard, P. L.; Hoover, D. J.; Finzi Hart, J. A.; Voss, C. I. (October 2020).
+"Increasing threat of coastal groundwater hazards from sea-level rise in California" (https://w ww.nature.com/articles/s41558-020-0874-1). Nature Climate Change. 10 (10): 946–952.
+Bibcode:2020NatCC..10..946B (https://ui.adsabs.harvard.edu/abs/2020NatCC..10..946B).
+doi:10.1038/s41558-020-0874-1 (https://doi.org/10.1038%2Fs41558-020-0874-1).
+ISSN 1758-6798 (https://search.worldcat.org/issn/1758-6798). S2CID 221146885 (https://ap i.semanticscholar.org/CorpusID:221146885).
+67. Polemio, M.; Dragone, V.; Limoni, P.P. (2009). "Monitoring and methods to analyse the groundwater quality degradation risk in coastal karstic aquifers (Apulia, Southern Italy)".
+Environmental Geology. 58 (2): 299–312. Bibcode:2009EnGeo..58..299P (https://ui.adsabs.
+harvard.edu/abs/2009EnGeo..58..299P). doi:10.1007/s00254-008-1582-8 (https://doi.org/1
+0.1007%2Fs00254-008-1582-8). S2CID 54203532 (https://api.semanticscholar.org/CorpusI
+D:54203532).
+68. Fleury, P.; Bakalowicz, M.; De Marsily, G. (2007). "Submarine springs and coastal karst aquifers: a review". Journal of Hydrology. 339 (1–2): 79–92. Bibcode:2007JHyd..339...79F
+(https://ui.adsabs.harvard.edu/abs/2007JHyd..339...79F). doi:10.1016/j.jhydrol.2007.03.009
+(https://doi.org/10.1016%2Fj.jhydrol.2007.03.009).
+69. Jasechko, Scott J.; Perrone, Debra; Seybold, Hansjörg; Fan, Ying; Kirchner, James W. (26
+June 2020). "Groundwater level observations in 250,000 coastal US wells reveal scope of potential seawater intrusion" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7319989).
+Nature Communications. 11 (1): 3229. Bibcode:2020NatCo..11.3229J (https://ui.adsabs.har vard.edu/abs/2020NatCo..11.3229J). doi:10.1038/s41467-020-17038-2 (https://doi.org/10.1
+038%2Fs41467-020-17038-2). PMC 7319989 (https://www.ncbi.nlm.nih.gov/pmc/articles/P
+MC7319989). PMID 32591535 (https://pubmed.ncbi.nlm.nih.gov/32591535).
+70. Adelana, Segun Michael (2014). Groundwater: Hydrogeochemistry, Environmental Impacts and Management Practices. Nova Science Publishers, Inc. ISBN 978-1-63321-791-1.
+OCLC 915416488 (https://search.worldcat.org/oclc/915416488).
+71. Caretta, M.A.; Mukherji, A.; Arfanuzzaman, M.; Betts, R.A.; Gelfan, A.; Hirabayashi, Y.;
+Lissner, T.K.; Liu, J.; Lopez Gunn, E.; Morgan, R.; Mwanga, S.; Supratid, S. (2022). "4.
+Water" (https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_Chapter04.p df) (PDF). In Pörtner, H.-O.; Roberts, D.C.; Tignor, M.; Poloczanska, E.S.; Mintenbeck, K.;
+Alegría, A.; Craig, M.; Langsdorf, S.; Löschke, S.; Möller, V.; Okem, A.; Rama, B. (eds.).
+Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution of Working Group
+II to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (http s://www.ipcc.ch/report/ar6/wg2/). Cambridge University Press. pp. 551–712.
+doi:10.1017/9781009325844.006 (https://doi.org/10.1017%2F9781009325844.006).
+ISBN 978-1-009-32584-4.
+72. IAH (2019). "Climate-Change Adaptation & Groundwater" (https://iah.org/wp-content/upload s/2019/07/IAH_Climate-ChangeAdaptationGdwtr.pdf) (PDF). Strategic Overview Series.
+73. WaterAid and BGS (2022) Groundwater: The world's neglected defence against climate change (https://washmatters.wateraid.org/publications/groundwater-the-worlds-neglected-de fence-against-climate-change)
+USGS Office of Groundwater (https://water.usgs.gov/ogw/)
+External links
+IAH, International Association of Hydrogeologists (https://iah.org/)
+The Groundwater Project (https://gw-project.org/) Online platform for groundwater knowledge
+UGPRO (https://upgro.org/) 7-year research project on the "Potential of Groundwater for the
+Poor" (2013–2020)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Groundwater&oldid=1322795768"

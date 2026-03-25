@@ -1,0 +1,173 @@
+Boston's Big Dig presented geotechnical challenges in an urban environment.
+Precast concrete retaining wall
+Geotechnical engineering
+Geotechnical engineering, also known as geotechnics, is the branch of civil engineering concerned with the engineering behavior of earth materials. It uses the principles of soil mechanics and rock mechanics to solve its engineering problems. It also relies on knowledge of geology, hydrology, geophysics, and other related sciences.
+Geotechnical engineering has applications in military engineering, mining engineering, petroleum engineering, coastal engineering, and offshore construction. The fields of geotechnical engineering and engineering geology have overlapping knowledge areas. However, while geotechnical engineering is a specialty of civil engineering, engineering geology is a specialty of geology.
+Humans have historically used soil as a material for flood control, irrigation purposes, burial sites, building foundations, and construction materials for buildings. Dykes, dams, and canals dating back to at least 2000 BCE—found in parts of ancient Egypt, ancient Mesopotamia, the Fertile Crescent, and the early settlements of Mohenjo Daro and Harappa in the
+Indus valley—provide evidence for early activities linked to irrigation and flood control. As cities expanded, structures were erected and supported by formalized foundations. The ancient Greeks notably constructed pad footings and strip- and-raft foundations. Until the 18th century, however, no theoretical basis for soil design had been developed, and the discipline was more of an art than a science, relying on experience.[1]
+Several foundation-related engineering problems, such as the Leaning Tower of Pisa, prompted scientists to begin taking a more scientific-based approach to examining the subsurface. The earliest advances occurred in the development of earth pressure theories for the construction of retaining walls. Henri
+Gautier, a French royal engineer, recognized the "natural slope" of different soils in 1717, an idea later known as the soil's angle of repose. Around the same time, a rudimentary soil classification system was also developed based on a material's unit weight, which is no longer considered a good indication of soil type.[1][2]
+History
+A typical cross-section of a slope used in two-dimensional analyzes.
+The application of the principles of mechanics to soils was documented as early as 1773 when Charles Coulomb, a physicist and engineer, developed improved methods to determine the earth pressures against military ramparts.
+Coulomb observed that, at failure, a distinct slip plane would form behind a sliding retaining wall and suggested that the maximum shear stress on the slip plane, for design purposes, was the sum of the soil cohesion, , and friction
+, where is the normal stress on the slip plane and is the friction angle of the soil. By combining Coulomb's theory with Christian Otto Mohr's 2D stress state, the theory became known as Mohr-Coulomb theory. Although it is now recognized that precise determination of cohesion is impossible because is not a fundamental soil property, the Mohr-Coulomb theory is still used in practice today.[3]
+In the 19th century, Henry Darcy developed what is now known as Darcy's law, describing the flow of fluids in a porous media. Joseph Boussinesq, a mathematician and physicist, developed theories of stress distribution in elastic solids that proved useful for estimating stresses at depth in the ground. William
+Rankine, an engineer and physicist, developed an alternative to Coulomb's earth pressure theory. Albert
+Atterberg developed the clay consistency indices that are still used today for soil classification.[1][2] In
+1885, Osborne Reynolds recognized that shearing causes volumetric dilation of dense materials and contraction of loose granular materials.
+Modern geotechnical engineering is said to have begun in 1925 with the publication of Erdbaumechanik by Karl von Terzaghi, a mechanical engineer and geologist. Considered by many to be the father of modern soil mechanics and geotechnical engineering, Terzaghi developed the principle of effective stress, and demonstrated that the shear strength of soil is controlled by effective stress.[4] Terzaghi also developed the framework for theories of bearing capacity of foundations, and the theory for prediction of the rate of settlement of clay layers due to consolidation.[1][3][5] Afterwards, Maurice Biot fully developed the three-dimensional soil consolidation theory, extending the one-dimensional model previously developed by Terzaghi to more general hypotheses and introducing the set of basic equations of Poroelasticity.
+In his 1948 book, Donald Taylor recognized that the interlocking and dilation of densely packed particles contributed to the peak strength of the soil. Roscoe, Schofield, and Wroth, with the publication of On the
+Yielding of Soils in 1958, established the interrelationships between the volume change behavior (dilation, contraction, and consolidation) and shearing behavior with the theory of plasticity using critical state soil mechanics. Critical state soil mechanics is the basis for many contemporary advanced constitutive models describing the behavior of soil.[6]
+In 1960, Alec Skempton carried out an extensive review of the available formulations and experimental data in the literature about the effective stress validity in soil, concrete, and rock in order to reject some of these expressions, as well as clarify what expressions were appropriate according to several working hypotheses, such as stress-strain or strength behavior, saturated or non-saturated media, and rock, concrete or soil behavior.
+Geotechnical engineers investigate and determine the properties of subsurface conditions and materials.
+They also design corresponding earthworks and retaining structures, tunnels, and structure foundations, and may supervise and evaluate sites, which may further involve site monitoring as well as the risk assessment and mitigation of natural hazards.[7][8]
+Geotechnical engineers and engineering geologists perform geotechnical investigations to obtain information on the physical properties of soil and rock underlying and adjacent to a site to design earthworks and foundations for proposed structures and for the repair of distress to earthworks and structures caused by subsurface conditions. Geotechnical investigations involve surface and subsurface exploration of a site, often including subsurface sampling and laboratory testing of retrieved soil samples.
+Sometimes, geophysical methods are also used to obtain data, which include measurement of seismic waves (pressure, shear, and Rayleigh waves), surface-wave methods and downhole methods, and electromagnetic surveys (magnetometer, resistivity, and ground-penetrating radar). Electrical tomography can be used to survey soil and rock properties and existing underground infrastructure in construction projects.[9]
+Surface exploration can include on-foot surveys, geological mapping, geophysical methods, and photogrammetry. Geological mapping and interpretation of geomorphology are typically completed in consultation with a geologist or engineering geologist. Subsurface exploration usually involves in-situ testing (for example, the standard penetration test and cone penetration test). The digging of test pits and trenching (particularly for locating faults and slide planes) may also be used to learn about soil conditions at depth. Large-diameter borings are rarely used due to safety concerns and expense. Still, they are sometimes used to allow a geologist or engineer to be lowered into the borehole for direct visual and manual examination of the soil and rock stratigraphy.
+Various soil samplers exist to meet the needs of different engineering projects. The standard penetration test, which uses a thick-walled split spoon sampler, is the most common way to collect disturbed samples.
+Piston samplers, employing a thin-walled tube, are most commonly used to collect less disturbed samples. More advanced methods, such as the Sherbrooke block sampler, are superior but expensive.
+Coring frozen ground provides high-quality undisturbed samples from ground conditions, such as fill, sand, moraine, and rock fracture zones.[10]
+Geotechnical centrifuge modeling is another method of testing physical-scale models of geotechnical problems. The use of a centrifuge enhances the similarity of the scale model tests involving soil because soil's strength and stiffness are susceptible to the confining pressure. The centrifugal acceleration allows a researcher to obtain large (prototype-scale) stresses in small physical models.
+The foundation of a structure's infrastructure transmits loads from the structure to the earth. Geotechnical engineers design foundations based on the load characteristics of the structure and the properties of the soils and bedrock at the site. Generally, geotechnical engineers first estimate the magnitude and location
+Roles
+Geotechnical investigation
+Foundation design
+A compactor/roller operated by U.S. Navy
+Seabees
+Simple slope slip section.
+of loads to be supported before developing an investigation plan to explore the subsurface and determine the necessary soil parameters through field and lab testing. Following this, they may begin the design of an engineering foundation. The primary considerations for a geotechnical engineer in foundation design are bearing capacity, settlement, and ground movement beneath the foundations.[11]
+Geotechnical engineers are also involved in the planning and execution of earthworks, which include ground improvement,[11] slope stabilization, and slope stability analysis.
+Various geotechnical engineering methods can be used for ground improvement, including reinforcement geosynthetics such as geocells and geogrids, which disperse loads over a larger area, increasing the soil's load-bearing capacity.
+Through these methods, geotechnical engineers can reduce direct and long-term costs.[12]
+Geotechnical engineers can analyze and improve slope stability using engineering methods. Slope stability is determined by the balance of shear stress and shear strength. A previously stable slope may be initially affected by various factors, making it unstable.
+Nonetheless, geotechnical engineers can design and implement engineered slopes to increase stability.
+Stability analysis is needed to design engineered slopes and estimate the risk of slope failure in natural or designed slopes by determining the conditions under which the topmost mass of soil will slip relative to the base of soil and lead to slope failure.[13] If the interface between the mass and the base of a slope has a complex geometry, slope stability analysis is difficult and numerical solution methods are required.
+Typically, the interface's exact geometry is unknown, and a simplified interface geometry is assumed.
+Finite slopes require three-dimensional models to be analyzed, so most slopes are analyzed assuming that they are infinitely wide and can be represented by two-dimensional models.
+Earthworks
+Ground improvement
+Slope stabilization
+Slope stability analysis
+A collage of geosynthetic products.
+Platforms offshore Mexico.
+Geosynthetics are a type of plastic polymer products used in geotechnical engineering that improve engineering performance while reducing costs. This includes geotextiles, geogrids, geomembranes, geocells, and geocomposites. The synthetic nature of the products make them suitable for use in the ground where high levels of durability are required. Their main functions include drainage, filtration, reinforcement, separation, and containment.
+Geosynthetics are available in a wide range of forms and materials, each to suit a slightly different end-use, although they are frequently used together. Some reinforcement geosynthetics, such as geogrids and more recently, cellular confinement systems, have shown to improve bearing capacity, modulus factors and soil stiffness and strength.[14] These products have a wide range of applications and are currently used in many civil and geotechnical engineering applications including roads, airfields, railroads, embankments, piled embankments, retaining structures, reservoirs, canals, dams, landfills, bank protection and coastal engineering.[15]
+Offshore (or marine) geotechnical engineering is concerned with foundation design for human-made structures in the sea, away from the coastline (in opposition to onshore or nearshore engineering). Oil platforms, artificial islands and submarine pipelines are examples of such structures.[16]
+There are a number of significant differences between onshore and offshore geotechnical engineering.[16][17]
+Notably, site investigation and ground improvement on the seabed are more expensive; the offshore structures are exposed to a wider range of geohazards; and the environmental and financial consequences are higher in case of failure. Offshore structures are exposed to various environmental loads, notably wind, waves and currents. These phenomena may affect the integrity or the serviceability of the structure and its foundation during its operational lifespan and need to be taken into account in offshore design.
+In subsea geotechnical engineering, seabed materials are considered a two-phase material composed of rock or mineral particles and water.[18][19] Structures may be fixed in place in the seabed—as is the case for piers, jetties and fixed-bottom wind turbines—or may comprise a floating structure that remains roughly fixed relative to its geotechnical anchor point. Undersea mooring of human-engineered floating
+Sub-disciplines
+Geosynthetics
+Offshore structures include a large number of offshore oil and gas platforms and, since 2008, a few floating wind turbines. Two common types of engineered design for anchoring floating structures include tension-leg and catenary loose mooring systems.[20]
+First proposed by Karl Terzaghi and later discussed in a paper by Ralph B. Peck, the observational method is a managed process of construction control, monitoring, and review, which enables modifications to be incorporated during and after construction. The method aims to achieve a greater overall economy without compromising safety by creating designs based on the most probable conditions rather than the most unfavorable.[21] Using the observational method, gaps in available information are filled by measurements and investigation, which aid in assessing the behavior of the structure during construction, which in turn can be modified per the findings. The method was described by Peck as
+"learn-as-you-go".[22]
+The observational method may be described as follows:[22]
+1. General exploration sufficient to establish the rough nature, pattern, and properties of deposits.
+2. Assessment of the most probable conditions and the most unfavorable conceivable deviations.
+3. Creating the design based on a working hypothesis of behavior anticipated under the most probable conditions.
+4. Selection of quantities to be observed as construction proceeds and calculating their anticipated values based on the working hypothesis under the most unfavorable conditions.
+5. Selection, in advance, of a course of action or design modification for every foreseeable significant deviation of the observational findings from those predicted.
+6. Measurement of quantities and evaluation of actual conditions.
+7. Design modification per actual conditions
+The observational method is suitable for construction that has already begun when an unexpected development occurs or when a failure or accident looms or has already happened. It is unsuitable for projects whose design cannot be altered during construction.[22]
+Civil engineering
+Deep Foundations Institute
+Earthquake engineering
+Earth structure
+Effective stress
+Engineering geology
+Geological Engineering
+Geoprofessions
+Hydrogeology
+International Society for Soil Mechanics and Geotechnical Engineering
+Observational method
+See also
+Karl von Terzaghi
+Land reclamation
+Landfill
+Mechanically stabilized earth
+Offshore geotechnical engineering
+Rock mass classifications
+Sediment control
+Seismology
+Soil mechanics
+Soil physics
+Soil science
+1. Das, Braja (2006). Principles of Geotechnical Engineering. Thomson Learning.
+2. Budhu, Muni (2007). Soil Mechanics and Foundations. John Wiley & Sons, Inc. ISBN 978-0-
+471-43117-6.
+3. Disturbed soil properties and geotechnical design, Schofield, Andrew N., Thomas Telford,
+2006. ISBN 0-7277-2982-9
+4. Guerriero V., Mazzoli S. (2021). "Theory of Effective Stress in Soil and Rock and
+Implications for Fracturing Processes: A Review" (https://doi.org/10.3390%2Fgeosciences11
+030119). Geosciences. 11 (3): 119. Bibcode:2021Geosc..11..119G (https://ui.adsabs.harvar d.edu/abs/2021Geosc..11..119G). doi:10.3390/geosciences11030119 (https://doi.org/10.33
+90%2Fgeosciences11030119).
+5. Soil Mechanics, Lambe, T.William and Whitman, Robert V., Massachusetts Institute of
+Technology, John Wiley & Sons., 1969. ISBN 0-471-51192-7
+6. Soil Behavior and Critical State Soil Mechanics, Wood, David Muir, Cambridge University
+Press, 1990. ISBN 0-521-33782-8
+7. Terzaghi, K., Peck, R.B. and Mesri, G. (1996), Soil Mechanics in Engineering Practice 3rd
+Ed., John Wiley & Sons, Inc. ISBN 0-471-08658-4
+8. Holtz, R. and Kovacs, W. (1981), An Introduction to Geotechnical Engineering, Prentice-
+Hall, Inc. ISBN 0-13-484394-0
+9. Deep Scan Tech (2023): Deep Scan Tech uncovers hidden structures at the site of
+Denmark's tallest building (https://www.deepscantech.com/news/deep-scan-tech-uncovers-h idden-structures-at-the-site-of-denmarks-tallest-building.html).
+10. "Geofrost Coring" (https://www.geofrost.no/en/ground-investigations/#Undisturbed%20samp les). GEOFROST. Retrieved 20 November 2020.
+11. Han, Jie (2015). Principles and Practice of Ground Improvement. Wiley.
+ISBN 9781118421307.
+12. RAJU, V. R. (2010). Ground Improvement Technologies and Case Histories. Singapore:
+Research Publishing Services. p. 809. ISBN 978-981-08-3124-0. Ground Improvement –
+Principles And Applications In Asia.
+13. Pariseau, William G. (2011). Design analysis in rock mechanics. CRC Press.
+14. Hegde, A.M. and Palsule P.S. (2020), Performance of Geosynthetics Reinforced Subgrade
+Subjected to Repeated Vehicle Loads: Experimental and Numerical Studies. Front. Built
+Environ. 6:15. https://www.frontiersin.org/articles/10.3389/fbuil.2020.00015/full.
+15. Koerner, Robert M. (2012). Designing with Geosynthetics (6th Edition, Vol. 1 ed.). Xlibris.
+ISBN 9781462882892.
+Notes
+16. Dean, E.T.R. (2010). Offshore Geotechnical Engineering – Principles and Practice. Thomas
+Telford, Reston, VA, 520 p.
+17. Randolph, M. and Gourvenec, S., 2011. Offshore geotechnical engineering. Spon Press,
+N.Y., 550 p.
+18. Das, B.M., 2010. Principles of geotechnical engineering. Cengage Learning, Stamford, 666 p.
+19. Atkinson, J., 2007. The mechanics of soils and foundations. Taylor & Francis, N.Y., 442 p.
+20. Floating Offshore Wind Turbines: Responses in a Sea state – Pareto Optimal Designs and
+Economic Assessment (http://web.mit.edu/flowlab/pdf/Floating_Offshore_Wind_Turbines.pd f), P. Sclavounos et al., October 2007.
+21. Nicholson, D, Tse, C and Penny, C. (1999). The Observational Method in ground engineering – principles and applications. Report 185, CIRIA, London.
+22. Peck, R.B (1969). Advantages and limitations of the observational method in applied soil mechanics, Geotechnique, 19, No. 1, pp. 171–187.
+Bates and Jackson, 1980, Glossary of Geology: American Geological Institute.
+Krynine and Judd, 1957, Principles of Engineering Geology and Geotechnics: McGraw-Hill,
+New York.
+Pierfranco Ventura, Fondazioni, Modellazioni: Verifiche Statiche e Sismiche Strutture-
+Terreni, vol. I, Milano Hoepli, 2019, pp. 770, ISBN 978-88203-8644-3
+Pierfranco Ventura, Fondazioni, Applicazioni: Verifiche Statiche e Sismiche Strutture-Terreni, vol. II, Milano, Hoepli, 2019, pp. 749, ISBN 978-88-203-8645-0 https://www.hoeplieditore.it/hoepli-catalogo/articolo/fondazioni-modellazioni- pierfrancventura/9788820386443/1451
+Holtz, R. and Kovacs, W. (1981), An Introduction to Geotechnical Engineering, Prentice-Hall, Inc. ISBN 0-13-
+484394-0
+Bowles, J. (1988), Foundation Analysis and Design, McGraw-Hill Publishing Company. ISBN 0-07-006776-7
+Cedergren, Harry R. (1977), Seepage, Drainage, and Flow Nets, Wiley. ISBN 0-471-14179-8
+Kramer, Steven L. (1996), Geotechnical Earthquake Engineering, Prentice-Hall, Inc. ISBN 0-13-374943-6
+Freeze, R.A. & Cherry, J.A., (1979), Groundwater, Prentice-Hall. ISBN 0-13-365312-9
+Lunne, T. & Long, M.,(2006), Review of long seabed samplers and criteria for new sampler design, Marine
+Geology, Vol 226, p. 145–165
+Mitchell, James K. & Soga, K. (2005), Fundamentals of Soil Behavior 3rd ed., John Wiley & Sons, Inc.
+ISBN 978-0-471-46302-3
+Rajapakse, Ruwan., (2005), "Pile Design and Construction", 2005. ISBN 0-9728657-1-3
+Fang, H.-Y. and Daniels, J. (2005) Introductory Geotechnical Engineering : an environmental perspective,
+Taylor & Francis. ISBN 0-415-30402-4
+NAVFAC (Naval Facilities Engineering Command) (1986) Design Manual 7.01, Soil Mechanics (https://web.ar chive.org/web/20080703155459/http://www.vulcanhammer.net/geotechnical/dm7_01.pdf), US Government
+Printing Office
+NAVFAC (Naval Facilities Engineering Command) (1986) Design Manual 7.02, Foundations and Earth
+Structures (https://web.archive.org/web/20110521035250/http://vulcanhammer.net/geotechnical/dm7_02.pd f), US Government Printing Office
+NAVFAC (Naval Facilities Engineering Command) (1983) Design Manual 7.03, Soil Dynamics, Deep
+Stabilization and Special Geotechnical Construction, US Government Printing Office
+Terzaghi, K., Peck, R.B. and Mesri, G. (1996), Soil Mechanics in Engineering Practice 3rd Ed., John Wiley &
+Sons, Inc. ISBN 0-471-08658-4
+References
+Santamarina, J.C., Klein, K.A., & Fam, M.A. (2001), "Soils and Waves: Particulate Materials Behavior,
+Characterization and Process Monitoring", Wiley, ISBN 978-0-471-49058-6
+Firuziaan, M. and Estorff, O., (2002), "Simulation of the Dynamic Behavior of Bedding-Foundation-Soil in the
+Time Domain", Springer Verlag.
+Worldwide Geotechnical Literature Database (http://www.swedgeo.se/templates/SGIStandar dPage____184.aspx?epslanguage=EN)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Geotechnical_engineering&oldid=1336935719"
+External links

@@ -1,0 +1,203 @@
+Stress–strain curve showing typical yield behavior for nonferrous alloys (stress,  , shown as a function of strain,  ):
+1. True elastic limit
+2. Proportionality limit
+3. Elastic limit
+4. Offset yield strength
+()
+Yield (engineering)
+In materials science and engineering, the yield point is the point on a stress–strain curve that indicates the limit of elastic behavior and the beginning of plastic behavior. Below the yield point, a material will deform elastically and will return to its original shape when the applied stress is removed. Once the yield point is passed, some fraction of the deformation will be permanent and non-reversible and is known as plastic deformation.
+The yield strength or yield stress is a material property and is the stress corresponding to the yield point at which the material begins to deform plastically. The yield strength is often used to determine the maximum allowable load in a mechanical component, since it represents the upper limit to forces that can be applied without producing permanent deformation. For most metals, such as aluminium and cold-worked steel, there is a gradual onset of non-linear behavior, and no precise yield point. In such a case, the offset yield point (or proof stress) is taken as the stress at which 0.2% plastic deformation occurs. Yielding is a gradual failure mode which is normally not catastrophic, unlike ultimate failure.
+For ductile materials, the yield strength is typically distinct from the ultimate tensile strength, which is the load-bearing capacity for a given material. The ratio of yield strength to ultimate tensile strength is an important parameter for applications such as steel for pipelines, and has been found to be proportional to the strain hardening exponent.[1]
+In solid mechanics, the yield point can be specified in terms of the three-dimensional principal stresses (
+) with a yield surface or a yield criterion. A variety of yield criteria have been developed for different materials.
+It is often difficult to precisely define yielding due to the wide variety of stress–strain curves exhibited by real materials. In addition, there are several possible ways to define yielding:[10]
+True elastic limit
+The lowest stress at which dislocations move. This definition is rarely used since dislocations move at very low stresses, and detecting such movement is very difficult.
+Proportionality limit
+Definitions
+Material
+Yield strength
+(MPa)
+Ultimate strength
+(MPa)
+ASTM A36 steel
+Steel, API 5L X65[2]
+Steel, high strength alloy ASTM A514
+Steel, prestressing strands
+Piano wire
+
+1740–3300[3]
+Carbon fiber (CF, CFK)
+5650[4]
+High-density polyethylene (HDPE)
+26–33
+Polypropylene
+12–43
+19.7–80
+Stainless steel AISI 302 – cold-rolled
+Cast iron 4.5% C, ASTM A-48[5]
+Titanium alloy (6% Al, 4% V)
+Aluminium alloy 2014-T6
+Copper 99.9% Cu
+Cupronickel 10% Ni, 1.6% Fe, 1% Mn, balance Cu
+Brass
+200+ ~
+Spider silk
+1150 (??)
+Silkworm silk
+
+Aramid (Kevlar or Twaron)
+UHMWPE[6][7]
+35[8]
+Bone (limb)
+104–121
+Nylon, type 6/6
+Aluminium (annealed)
+15–20
+40–50[9]
+Copper (annealed)
+Iron (annealed)
+80–100
+Nickel (annealed)
+14–35
+140–195
+Silicon (annealed)
+5000–9000
+
+Tantalum (annealed)
+Tin (annealed)
+9–14
+15–200
+Titanium (annealed)
+100–225
+240–370
+Tungsten (annealed)
+550–620
+Up to this amount of stress, stress is proportional to strain
+(Hooke's law), so the stress- strain graph is a straight line, and the gradient will be equal to the elastic modulus of the material.
+Elastic limit
+(yield strength)
+Beyond the elastic limit, permanent deformation will occur.
+The elastic limit is, therefore, the lowest stress point at which permanent deformation can be measured.
+This requires a manual load-unload procedure, and the accuracy is critically dependent on the equipment used and operator skill. For elastomers, such as rubber, the elastic limit is much larger than the proportionality limit. Also, precise strain measurements have shown that plastic strain begins at very low stresses.[11][12]
+Yield point
+The point in the stress-strain curve at which the curve levels off and plastic deformation begins to occur.[13]
+Offset yield point (proof stress)
+A steel beam being tested for yield strength. The beam is whitewashed to show the development of yield lines.
+When a yield point is not easily defined on the basis of the shape of the stress-strain curve an offset yield point is arbitrarily defined. The value for this is commonly set at 0.1% or
+0.2% plastic strain.[14] The offset value is given as a subscript, e.g.,
+MPa or
+MPa.[15] For most practical engineering uses, is multiplied by a factor of safety to obtain a lower value of the offset yield point. High strength steel and aluminum alloys do not exhibit a yield point, so this offset yield point is used on these materials.[14]
+Upper and lower yield points
+Some metals, such as mild steel, reach an upper yield point before dropping rapidly to a lower yield point. The material response is linear up until the upper yield point, but the lower yield point is used in structural engineering as a conservative value. If a metal is only stressed to the upper yield point, and beyond, Lüders bands can develop.[16]
+Yielded structures have a lower stiffness, leading to increased deflections and decreased buckling strength. The structure will be permanently deformed when the load is removed, and may have residual stresses. Engineering metals display strain hardening, which implies that the yield stress is increased after unloading from a yield state.
+Yield strength testing involves taking a small sample with a fixed cross-section area and then pulling it with a controlled, gradually increasing force until the sample changes shape or breaks. This is called a tensile test. Longitudinal and/or transverse strain is recorded using mechanical or optical extensometers.
+Indentation hardness correlates roughly linearly with tensile strength for most steels, but measurements on one material cannot be used as a scale to measure strengths on another.[17]
+Hardness testing can therefore be an economical substitute for tensile testing, as well as providing local variations in yield strength due to, e.g., welding or forming operations. For critical situations, tension testing is often done to eliminate ambiguity. However, it is possible to obtain stress-strain curves from indentation-based procedures, provided certain conditions are met. These procedures are grouped under the term Indentation plastometry.
+There are several ways in which crystalline materials can be engineered to increase their yield strength.
+By altering dislocation density, impurity levels, grain size (in crystalline materials), the yield strength of the material can be fine-tuned. This occurs typically by introducing defects such as impurities dislocations
+Usage in structural engineering
+Testing
+Strengthening mechanisms in the material. To move this defect (plastically deforming or yielding the material), a larger stress must be applied. This thus causes a higher yield stress in the material. While many material properties depend only on the composition of the bulk material, yield strength is extremely sensitive to the materials processing as well.
+These mechanisms for crystalline materials include
+Work hardening
+Solid solution strengthening
+Precipitation strengthening
+Grain boundary strengthening
+Where deforming the material will introduce dislocations, which increases their density in the material.
+This increases the yield strength of the material since now more stress must be applied to move these dislocations through a crystal lattice. Dislocations can also interact with each other, becoming entangled.
+The governing formula for this mechanism is:
+where is the yield stress, G is the shear modulus, b is the magnitude of the Burgers vector, and is the dislocation density.
+By alloying the material, impurity atoms in low concentrations will occupy a lattice position directly below a dislocation, such as directly below an extra half plane defect. This relieves a tensile strain directly below the dislocation by filling that empty lattice space with the impurity atom.
+The relationship of this mechanism goes as:
+where is the shear stress, related to the yield stress, and are the same as in the above example, is the concentration of solute and is the strain induced in the lattice due to adding the impurity.
+Where the presence of a secondary phase will increase yield strength by blocking the motion of dislocations within the crystal. A line defect that, while moving through the matrix, will be forced against a small particle or precipitate of the material. Dislocations can move through this particle either by shearing the particle or by a process known as bowing or ringing, in which a new ring of dislocations is created around the particle.
+The shearing formula goes as:
+Work hardening
+Solid solution strengthening
+Particle/precipitate strengthening and the bowing/ringing formula:
+In these formulas, is the particle radius, is the surface tension between the matrix and the particle, is the distance between the particles.
+Where a buildup of dislocations at a grain boundary causes a repulsive force between dislocations. As grain size decreases, the surface area to volume ratio of the grain increases, allowing more buildup of dislocations at the grain edge. Since it requires much energy to move dislocations to another grain, these dislocations build up along the boundary, and increase the yield stress of the material. Also known as
+Hall-Petch strengthening, this type of strengthening is governed by the formula:
+where is the stress required to move dislocations, is a material constant, and is the grain size.
+The theoretical yield strength of a perfect crystal is much higher than the observed stress at the initiation of plastic flow.[18]
+That experimentally measured yield strength is significantly lower than the expected theoretical value can be explained by the presence of dislocations and defects in the materials. Indeed, whiskers with perfect single crystal structure and defect-free surfaces have been shown to demonstrate yield stress approaching the theoretical value. For example, nanowhiskers of copper were shown to undergo brittle fracture at 1
+GPa,[19] a value much higher than the strength of bulk copper and approaching the theoretical value.
+The theoretical yield strength can be estimated by considering the process of yield at the atomic level. In a perfect crystal, shearing results in the displacement of an entire plane of atoms by one interatomic separation distance, b (typically measured in Bohr radii, so care must be taken with units), relative to the plane below. In order for the atoms to move, considerable force must be applied to overcome the lattice energy and move the atoms in the top plane over the lower atoms and into a new lattice site. The applied stress to overcome the resistance of a perfect lattice to shear is the theoretical yield strength, τmax.
+The stress displacement curve of a plane of atoms varies sinusoidally as stress peaks when an atom is forced over the atom below and then falls as the atom slides into the next lattice point.[18]
+Grain boundary strengthening
+Theoretical yield strength where b is the interatomic separation distance. Since τ = Gγ and G = ⁠dτ dγ⁠ (where G is the shear modulus) at small strains (i.e. single atomic distance displacements), this equation becomes:
+For small displacements of γ = x⁄a, where a is the spacing of atoms on the slip plane, this can be rewritten as:
+During monotonic tensile testing, some metals such as annealed steel exhibit a distinct upper yield point or a delay in work hardening.[20] These tensile testing phenomena, wherein the strain increases but stress does not increase as expected, are two types of yield point elongation.
+Yield Point Elongation (YPE) significantly impacts the usability of steel. In the context of tensile testing and the engineering stress-strain curve, the Yield Point is the initial stress level, below the maximum stress, at which an increase in strain occurs without an increase in stress. This characteristic is typical of certain materials, indicating the presence of YPE.[20] The mechanism for YPE has been related to carbon diffusion, and more specifically to Cottrell atmospheres.
+YPE can lead to issues such as coil breaks, edge breaks, fluting, stretcher strain, and reel kinks or creases, which can affect both aesthetics and flatness. Coil and edge breaks may occur during either initial or subsequent customer processing, while fluting and stretcher strain arise during forming. Reel kinks, transverse ridges on successive inner wraps of a coil, are caused by the coiling process.[20]
+When these conditions are undesirable, it is essential for suppliers to be informed to provide appropriate materials. The presence of YPE is influenced by chemical composition and mill processing methods such as skin passing or temper rolling, which temporarily eliminate YPE and improve surface quality.
+However, YPE can return over time due to aging, which is holding at a temperature usually 200-400
+°C.[20]
+Despite its drawbacks, YPE offers advantages in certain applications, such as roll forming, and reduces springback. Generally, steel with YPE is highly formable.[20]
+Yield point elongation (YPE)
+Plasticity (physics)
+Specified minimum yield strength
+Ultimate tensile strength
+Yield curve (physics)
+Yield surface
+1. Scales, M.; Kornuta, J.A.; Switzner, N.; Veloo, P. (1 December 2023). "Automated
+Calculation of Strain Hardening Parameters from Tensile Stress vs. Strain Data for Low
+Carbon Steel Exhibiting Yield Point Elongation" (https://doi.org/10.1007/s40799-023-00626-
+4). Experimental Techniques. 47 (6): 1311–1322. doi:10.1007/s40799-023-00626-4 (https://d oi.org/10.1007%2Fs40799-023-00626-4). ISSN 1747-1567 (https://search.worldcat.org/issn/
+1747-1567).
+2. "ussteel.com" (https://web.archive.org/web/20120622101738/http://www.ussteel.com/corp/tu bular/linepipe-seamless.asp). Archived from the original (http://www.ussteel.com/corp/tubula r/linepipe-seamless.asp) on 22 June 2012. Retrieved 15 June 2011.
+3. ASTM A228-A228M-14
+4. "complore.com" (https://web.archive.org/web/20110719052037/http://www.complore.com/pr operties-materials-tensile-strength). Archived from the original (http://www.complore.com/pro perties-materials-tensile-strength) on 19 July 2011. Retrieved 10 September 2010.
+5. Beer, Johnston & Dewolf 2001, p. 746.
+6. "Technical Product Data Sheets UHMWPE" (https://web.archive.org/web/20111014111446/h ttp://plastic-products.com/spec11.htm). Archived from the original (http://www.plastic-product s.com/spec11.htm) on 14 October 2011. Retrieved 18 August 2010.
+7. "unitex-deutschland.eu" (https://web.archive.org/web/20120325180543/http://www.unitex-de utschland.eu/pdf/download/Dyneema-Version-web-db.pdf) (PDF). Archived from the original
+(http://www.unitex-deutschland.eu/pdf/download/Dyneema-Version-web-db.pdf) (PDF) on 25
+March 2012. Retrieved 15 June 2011.
+8. matweb.com (http://matweb.com/search/DataSheet.aspx?MatGUID=f9470672aa5549cb9c7 b157677d02062&ckck=1)
+9. A. M. Howatson, P. G. Lund and J. D. Todd, "Engineering Tables and Data", p. 41.
+10. G. Dieter, Mechanical Metallurgy, McGraw-Hill, 1986
+11. Flinn, Richard A.; Trojan, Paul K. (1975). Engineering Materials and their Applications (http s://archive.org/details/engineeringmater00flin/page/61). Boston: Houghton Mifflin Company.
+p. 61 (https://archive.org/details/engineeringmater00flin/page/61). ISBN 978-0-395-18916-0.
+12. Barnes, Howard (1999). "The yield stress—a review or 'παντα ρει'—everything flows?".
+Journal of Non-Newtonian Fluid Mechanics. 81 (1–2): 133–178. doi:10.1016/S0377-
+0257(98)00094-9 (https://doi.org/10.1016%2FS0377-0257%2898%2900094-9).
+13. Ross 1999, p. 56.
+14. Ross 1999, p. 59.
+15. ISO 6892-1:2009
+16. Degarmo, p. 377.
+See also
+References
+17. Pavlina, E.J.; Van Tyne, C.J. (2008). "Correlation of Yield Strength and Tensile Strength with
+Hardness for Steels" (https://doi.org/10.1007%2Fs11665-008-9225-5). Journal of Materials
+Engineering and Performance. 17 (6): 888–893. Bibcode:2008JMEP...17..888P (https://ui.ad sabs.harvard.edu/abs/2008JMEP...17..888P). doi:10.1007/s11665-008-9225-5 (https://doi.or g/10.1007%2Fs11665-008-9225-5). S2CID 135890256 (https://api.semanticscholar.org/Corp usID:135890256).
+18. Courtney, Thomas H. (2005). Mechanical behavior of materials. Waveland Press. ISBN 978-
+1577664253. OCLC 894800884 (https://search.worldcat.org/oclc/894800884).
+19. Richter, Gunther (2009). "Ultrahigh Strength Single-Crystalline Nanowhiskers Grown by
+Physical Vapor Deposition". Nano Letters. 9 (8): 3048–3052. Bibcode:2009NanoL...9.3048R
+(https://ui.adsabs.harvard.edu/abs/2009NanoL...9.3048R). CiteSeerX 10.1.1.702.1801 (http s://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.702.1801). doi:10.1021/nl9015107 (ht tps://doi.org/10.1021%2Fnl9015107). PMID 19637912 (https://pubmed.ncbi.nlm.nih.gov/196
+37912).
+20. "Yield Point Elongation (YPE) – Pros and Cons" (https://www.baileymetalprocessing.com/tec hmatters/blog-category-1/2020/01/21/yield-point-elongation-(ype)).
+www.baileymetalprocessing.com. Retrieved 16 June 2024.
+Avallone, Eugene A. & Baumeister III, Theodore (1996). Mark's Standard Handbook for
+Mechanical Engineers (8th ed.). New York: McGraw-Hill. ISBN 978-0-07-004997-0.
+Avallone, Eugene A.; Baumeister, Theodore; Sadegh, Ali; Marks, Lionel Simeon (2006).
+Mark's Standard Handbook for Mechanical Engineers (https://books.google.com/books?id=o
+OKqwp3CIt8C) (11th, Illustrated ed.). McGraw-Hill Professional. ISBN 978-0-07-142867-5..
+Beer, Ferdinand P.; Johnston, E. Russell; Dewolf, John T. (2001). Mechanics of Materials (htt ps://books.google.com/books?id=TSDcA2-N2_sC) (3rd ed.). McGraw-Hill. ISBN 978-0-07-
+365935-0..
+Boresi, A. P., Schmidt, R. J., and Sidebottom, O. M. (1993). Advanced Mechanics of
+Materials, 5th edition John Wiley & Sons. ISBN 0-471-55157-0
+Degarmo, E. Paul; Black, J T.; Kohser, Ronald A. (2003). Materials and Processes in
+Manufacturing (9th ed.). Wiley. ISBN 978-0-471-65653-1..
+Oberg, E., Jones, F. D., and Horton, H. L. (1984). Machinery's Handbook, 22nd edition.
+Industrial Press. ISBN 0-8311-1155-0
+Ross, C. (1999). Mechanics of Solids (https://books.google.com/books?id=H_5zV2twBtwC).
+City: Albion/Horwood Pub. ISBN 978-1-898563-67-9.
+Shigley, J. E., and Mischke, C. R. (1989). Mechanical Engineering Design, 5th edition.
+McGraw Hill. ISBN 0-07-056899-5
+Young, Warren C. & Budynas, Richard G. (2002). Roark's Formulas for Stress and Strain,
+7th edition. New York: McGraw-Hill. ISBN 978-0-07-072542-3.
+Engineer's Handbook (https://web.archive.org/web/20070825161309/http://www.engineersh andbook.com/Materials/mechanical.htm)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Yield_(engineering)&oldid=1340501409"
+Bibliography

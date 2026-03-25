@@ -1,721 +1,215 @@
-22 
- 
-JURNAL TEKNIK  VOLUME VIII, FEBRUARI 2019 ; 22-35 
-ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING 
-PENAHAN TANAH DI SKYLAND JAYAPURA SELATAN 
- 
-Ir. Masriani Endayanti, MT1) 
-Krisman Marpaung, ST 2) 
- 
-1)Staf Pengajar Program Studi Teknik Sipil Universitas Darma Agung 
-2) Alumni  Program Studi Teknik Sipil Universitas Darma Agung 
- 
-ABSTRAKSI 
-Kelongsoran tanah merupakan salah satu yang paling sering terjadi pada lereng, akibat 
-meningkatnya tegangan geser suatu massa tanah atau menurunnya kekuatan geser suatu 
-massa tanah. Dengan kata lain, kekuatan geser dari suatu massa tanah tidak mampu 
-memikul beban kerja yang terjadi. Gangguan terhadap stabilitas lereng dapat 
-disebabkan oleh berbagai kegiatan manusia maupun kondisi alam. Lereng yang tidak 
-stabil sangatlah berbahaya terhadap lingkungan sekitarnya, oleh sebab itu sistem 
-perkuatan lereng sangat diperlukan. Pada kasus ini, Lereng Skyland Jayapura Selatan 
-mengalami kelongsoran. Alternatif desain yang dilakukan adalah dengan menggunakan 
-perkuatan dinding penahan tanah.   Dinding penahan tanah adalah suatu bangunan yang 
-dibangun untuk mencegah material agar tidak longsor menurut kemiringan alamnya 
-dimana kestabilannya dipengaruhi oleh kondisi topografinya.Selain itu dinding penahan 
-tanah juga digunakan untuk menahan timbunan tanah serta tekanan-tekanan akibat 
-beban-beban lain seperti beban merata, beban garis, tekanan air dan beban gempa. 
-Alternatif penanggulangan longsor pada kasus lereng Skyland Jayapura Selatan, 
-dilakukan dengan menggunakan dinding penahan tanah model gravity wall yaitu  
-konstruksi dinding penahan tanah dari pasangan batu, dimana berat struktur menjadi 
-komponen kestabilan struktur terhadap gaya-gaya lateral tanah. Hasil perhitungan 
-perencanaan perkuatan  lereng Skyland Jayapura Selatan dengan menggunakan dinding 
-penahan tanah model gravity wall  terhadap gaya guling, geser, dan daya dukung 
-menghasilkan nilai SF > 1,5 yang dapat dipresentasikan sebagai berikut : 
+JURNAL TEKNIK VOLUME VIII, FEBRUARI 2019 ; 22-35
+ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING
+PENAHAN TANAH DI SKYLAND JAYAPURA SELATAN
+
+Ir. Masriani Endayanti, MT1)
+Krisman Marpaung, ST 2)
+
+1)Staf Pengajar Program Studi Teknik Sipil Universitas Darma Agung
+2) Alumni Program Studi Teknik Sipil Universitas Darma Agung
+
+ABSTRAKSI
+Kelongsoran tanah merupakan salah satu yang paling sering terjadi pada lereng, akibat meningkatnya tegangan geser suatu massa tanah atau menurunnya kekuatan geser suatu massa tanah. Dengan kata lain, kekuatan geser dari suatu massa tanah tidak mampu memikul beban kerja yang terjadi. Gangguan terhadap stabilitas lereng dapat disebabkan oleh berbagai kegiatan manusia maupun kondisi alam. Lereng yang tidak stabil sangatlah berbahaya terhadap lingkungan sekitarnya, oleh sebab itu sistem perkuatan lereng sangat diperlukan. Pada kasus ini, Lereng Skyland Jayapura Selatan mengalami kelongsoran. Alternatif desain yang dilakukan adalah dengan menggunakan perkuatan dinding penahan tanah. Dinding penahan tanah adalah suatu bangunan yang dibangun untuk mencegah material agar tidak longsor menurut kemiringan alamnya dimana kestabilannya dipengaruhi oleh kondisi topografinya.Selain itu dinding penahan tanah juga digunakan untuk menahan timbunan tanah serta tekanan-tekanan akibat beban-beban lain seperti beban merata, beban garis, tekanan air dan beban gempa.
+Alternatif penanggulangan longsor pada kasus lereng Skyland Jayapura Selatan, dilakukan dengan menggunakan dinding penahan tanah model gravity wall yaitu konstruksi dinding penahan tanah dari pasangan batu, dimana berat struktur menjadi komponen kestabilan struktur terhadap gaya-gaya lateral tanah. Hasil perhitungan perencanaan perkuatan lereng Skyland Jayapura Selatan dengan menggunakan dinding penahan tanah model gravity wall terhadap gaya guling, geser, dan daya dukung menghasilkan nilai SF > 1,5 yang dapat dipresentasikan sebagai berikut :
 )
 (overturing
 SF
-= 
-6,829 ; 
+=
+6,829 ;
 )
 (sliding
 SF
-=  4,270 ; 
+= 4,270 ;
 )
-(
-acity
-bearingcap
+( acity bearingcap
 SF
-= 4,550. Nilai SF yang didapat menunjukkan 
-bahwa dinding penahan tanah aman terhadap gaya guling, geser, dan daya dukung. 
- 
-1.  PENDAHULUAN 
- 
-Perkuatan lereng atau dinding 
-penahan tanah adalah suatu bangunan 
-yang berfungsi untuk menstabilkan 
-kondisi tanah tertentu 
-yang pada 
-umumnya dipasang pada daerah tebing 
-yang labil.Fungsi utama dari konstruksi 
-penahan tanah adalah menahan tanah  
-yang berada dibelakangnya dari bahaya 
-longsor.  
-Tanah atau material berbutir 
-yang 
-ditahan 
-tersebut 
-mendorong 
-dinding 
-dan 
-cenderung 
-membuat 
-dinding terguling dan tergeser. Hal ini 
-disebabkan oleh 3 (tiga) buah gaya yang 
-bekerja pada dinding penahan tanah, 
-yang mana gaya ini harus tetap dalam 
-kesetimbangan, 
-yaitu: 
-1). 
-Beban 
-gravitasi dari dinding penahan tanah 
-atau berat tambahan, 2). Tekanan lateral 
-dari tanah, 3). Daya dukung tanah.  
-23 
- 
-ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI 
-SKYLAND JAYAPURA SELATAN 
-Ir. Masriani Endayanti, MT1)  , Krisman Marpaung, ST 2) 
- 
-Tegangan yang terjadi dalam struktur 
-harus berada dalam batas nilai yang 
-diizinkan dan beban harus dipikul 
-secara benar sehingga penurunan yang 
-berlebihan 
-tidak 
-terjadi. 
-Salahsatu 
-alternatif desain perkuatan lereng adalah 
-dengan menggunakan dinding penahan 
-tanah.  
-Dinding penahan tanah adalah 
-suatu bangunan yang dibangun untuk 
-mencegah material agar tidak longsor 
-menurut kemiringan alamnya dimana 
-kestabilannya dipengaruhi oleh kondisi 
-topografinya. Jika dilakukan pekerjaan 
-tanah 
-seperti 
-penanggulan 
-atau 
-pemotongan tanah, terutama bila jalan 
-dibangun berbatasan dengan sungai atau 
-danau maka konstruksi penahan itu 
-dibangun untuk melindungi kemiringan 
-tanah 
-dan 
-melengkapi 
-kemiringan 
-dengan pondasi yang kokoh. Selain itu 
-dinding penahan tanah juga digunakan 
-untuk menahan timbunan tanah serta 
-tekanan-tekanan akibat beban-beban 
-lain seperti beban merata, beban garis, 
-tekanan air dan beban gempa. 
-Pada kasus lereng Skyland Jayapura 
-Selatan, 
-alternatif 
-penanggulangan 
-longsor dilakukan dengan menggunakan 
-dinding penahan tanah model gravity 
-wall yaitu  konstruksi dinding penahan 
-tanah dari pasangan batu, dimana berat 
-struktur menjadi komponen kestabilan 
-struktur terhadap gaya-gaya lateral 
-tanah. 
-Penelitian ini bertujuan untuk: 
-1. Untuk menganalisa gaya-gaya yang 
-bekerja pada dinding penahan tanah. 
-2. Untuk 
-mengetahui 
-faktor-faktor 
-yang dibutuhkan dalam perencanaan 
-dan desain dinding  penahan tanah. 
-3. Untuk menentukan daya dukung 
-tanah 
-setelah 
-diberi 
-perkuatan 
-dengan dinding penahan tanah. 
-4. Perencanaan 
-dan 
-perhitungan 
-dinding penahan tanah. 
- 
-Perumusan  Masalah : 
-Pada kasus lereng di Skyland 
-Jayapura 
-Selatan 
-mengalami 
-kelongsoran. Tanah dengan kondisi 
-kepadatan dan kadar air tertentu akan 
-memiliki kekuatan yang cukup untuk 
-menopang 
-struktur 
-diatasnya, 
-khususnya apabila bebannya merupakan 
-beban tekan.  
-Tanah sangat lemah terhadap 
-beban tarik. Hal ini telah membatasi 
-penggunaan 
-tanah 
-untuk 
-berbagai 
-aplikasi, 
-misalnya 
-untuk 
-membuat 
-lereng yang lebih curam.  
-Aspek penting dari sistem perkuatan 
-tanah adalah bahwa material perkuatan 
-lereng tersebut dapat membentuk suatu 
-geometri tertentu yang memungkinkan 
-terjadinya transfer beban material yang 
-satu kepada yang lainnya.  
-Parameter penting yang diperlukan 
-untuk 
-perkuatan 
-dinding 
-penahan 
-adalah kemampuan kuat tarik dan geser 
-yang tinggi. 
- 
-2. TINJAUAN PUSTAKA 
-Dinding penahan tanah adalah 
-bangunan untuk mencegah keruntuhan 
-tanah yang curam (lereng) dimana 
-kemantapan lereng tersebut tidak dapat 
-dijamin 
-terhadap 
-kelongsoran. 
-Bangunan dinding biasa digunakan 
-untuk menopang tanah, timbunan, air 
-dan sebagainya. Faktor penting dalam 
-mendesain dan membangun dinding 
-penahan tanah adalah mengusahakan 
-agar dinding penahan tanah tidak 
-bergerak ataupun tanahnya longsor 
-akibat gaya gravitasi. Tekanan tanah 
-lateral di belakang dinding penahan 
-24 
- 
-JURNAL TEKNIK  VOLUME VIII, FEBRUARI 2019 ; 22-35 
-tanah bergantung kepada sudut geser 
-dalam tanah (Ø) dan kohesi (c).  
-Tekanan lateral meningkat dari 
-atas sampai kebagian paling bawah 
-pada dinding penahan tanah. Jika tidak 
-direncanakan dengan baik, tekanan 
-tanah akan mendorong dinding penahan 
-tanah sehingga menyebabkan kegagalan 
-konstruksi serta kelongsoran.Kegagalan 
-juga disebabkan oleh air tanah yang 
-berada di belakang dinding penahan 
-tanah yang tidak terdisipasi oleh sistem 
-drainase. Oleh karena itu, sangatlah 
-penting untuk sebuah dinding penahan 
-tanah mempunyai sistem drainase yang 
-baik, 
-untuk 
-mengurangi 
-tekanan 
-hidrostatik dan meningkatakan stabilitas 
-tanah.Dari 
-cara 
-menimbulkan 
-kestabilannya dinding penahan tanah 
-dapat dikelompokkan sebagai berikut : 
-1). Penulangan tanah secara mekanis, 
-2). Gaya berat (gravitasi), 3). Kantilever 
-(penyokong), 4). Penjangkaran. 
-Saat ini, stabilitas tanah secara 
-mekanis dan dinding gaya berat (gravity 
-wall), yang paling banyak digunakan 
-khususnya untuk pekerjaan jalan yang 
-memerlukan galian dalam atau lokasi 
-jalan dilereng bukit yang memerlukan 
-dinding penahan tanah, sehingga dapat 
-menghindari 
-timbulnya 
-kemiringan 
-tanah asli.  
- 
-Dinding Penahan Tanah Bertulang 
-Mekanis 
-Dinding penahan tanah bertulang 
-mekanis 
-menggunakan 
-prinsip 
-penulangan pada bahan isian berbutir 
-kasar dengan bahan mekanis seperti 
-lempeng dan batang besi, lembaran 
-geotekstil atau anyaman kawat. Ada 
-sedikit perbedaan antara penulangan 
-tanah dan penulangan beton, keduanya 
-memakai 
-tulangan 
-untuk 
-menahan 
-tegangan tarik yang timbul akibat beban 
-yang 
-diberikan. 
-Tegangan-tegangan 
-ikatan melawan tarikan dalam beton dan 
-tanah 
-dengan 
-memakai 
-tegangan-
-tegangan geser berdasarkan sudut geser 
-antara tanah dan penulangan.  Ada tiga 
-komponen dasar yang terlibat dalam 
-tanah bertulangan : 
-1. Tanah pengisi, biasanya dipilih 
-material berbutir kasar dengan 15% 
-lolos ayakan nomor 200. 
-2. Penulangan 
-berupa 
-lempengan 
-batang 
-logam, 
-lempengan 
-atau 
-lembaran geotekstil, anyaman kawat 
-yang 
-dikaitkan 
-kepermukaan 
-penahan dan diperpanjang sedikit 
-sampai kedalam bahan pengisi. 
-3. Dinding 
-depan, 
-tidak 
-selalu 
-diperlukan 
-tetapi 
-biasanya 
-digunakan 
-untuk 
-kerapian 
-dan 
-menghindarkan erosi tanah yang 
-berada diantara tulangan.  
-Prinsip dasar tanah bertulangan 
-dengan dinding bertumpu pada pasak 
-tanah aktif. Berdasarkan pengujian 
-bahwa gaya yang timbul pada pasak 
-tanah aktif diseberang kedalaman z 
-ditahan oleh tarikan lempeng tulangan. 
-Tarikan lempeng terjadi didaerah luar 
-pasak tanah aktif dari sudut geser  
-bergeser antara lempeng dan tanah dan 
-tekanan tanah vertikal 
-v
-pada lempeng. 
-Tanpa adanya tekanan tanah 
-yang harus dipikul oleh dinding depan, 
-maka bagian ini dapat dibuat cukup 
-tipis serta lentur sehubungan dengan 
-fungsi utamanya sebagai pencegah 
-erosi.  
-Apabila 
-struktur 
-dinding 
-penahan tanah bertulang mengalami 
-keruntuhan, maka di dalam struktur 
-akan terlihat adanya dua zona, yaitu 
-zona tanah longsor yang disebut zona 
-aktif dan zona yang relatif tidak 
-25 
- 
-ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI 
-SKYLAND JAYAPURA SELATAN 
-Ir. Masriani Endayanti, MT1)  , Krisman Marpaung, ST 2) 
- 
-bergerak disebut zona pasif atau zona 
-angker, atau sering pula disebut zona 
-penahan. Sebelum keruntuhan terjadi, 
-massa tanah pada zona aktif yang akan 
-runtuh ditahan oleh gaya tarik tulangan-
-tulangan pada zona pasif, yaitu oleh 
-tahanan geser yang terjadi antara tanah 
-dan tulangan-tulangan yang arahnya 
-berlawanan dengan arah runtuhnya 
-tanah pada zona aktif. Tahanan tulangan 
-dalam menahan gaya cabut dan gaya 
-tarik 
-pada 
-zona 
-pasif 
-sangat 
-menentukan stabilitas intern Struktur. 
-Karena itu  batas antara zona aktif dan 
-zona pasif yang dibatasi oleh bidang 
-longsor ini perlu ditentukan terlebih 
-dahulu dalam perancangan.  
-Pengamatan 
-dari 
-pengujian-
-pengujian 
-di 
-lapangan 
-dan 
-di 
-laboratorium menunjukkan letak bidang 
-longsor, yaitu batas zona aktif dan zona 
-pasif. Bergantung pada jenis tulangan 
-yang digunakan.  
-Pada struktur dinding penahan 
-tanah 
-bertulang 
-skala 
-penuh 
-menunjukkan bahwa lokasi-lokasi gaya 
-tarik maksimal yang terjadi pada 
-tulangan 
-terletak 
-hampir 
-berimpit 
-dengan bidang longsor, bila struktur 
-dibebani 
-sampai 
-mencapai 
-keruntuhan.Lokasi permukaan bidang 
-longsor bergantung pada tipe struktur 
-dan sistem penulangannya. 
-Beberapa 
-perancang 
-menganggap bidang longsor berasal 
-dari kaki dinding penahan tanah menuju 
-ke atas bersudut (45o+ /2) terhadap 
-horisontal. 
-Sedang 
-perancang 
-lain 
-menganggap longsor berbentuk spiral 
-logaritmik. Bentuk-bentuk yang lain 
-seperti bentuk dua garis linear (bilinear) 
-atau campuran bidang longsor lingkaran 
-dan linear juga digunakan terutama 
-pada 
-hitungan 
-stabilitas 
-dengan 
-menggunakan stabilitas lereng. 
-Permukaan 
-bidang 
-longsor 
-untuk dinding vertikal dengan tanah 
-yang 
-diperkuat 
-dengan 
-tulangan-
-tulangan yang mudah meregang (seperti 
-geotekstil) umumnya dianggap berimpit 
-dengan bidang lonsor Rankine, yaitu 
-keruntuhan terjadi pada bidang bersudut 
-(45o+ /2) terhadap bidang horizontal. 
-Karena itu untuk tanah yang diperkuat 
-dengan tulangan, dalam hitungan tanah 
-lateral digunakan koefisien tekanan 
-aktif  (Ka). 
-Untuk struktur baru, permukaan 
-bidang longsor dapat didefenisikan 
-dengan ketepatan yang memadai, sebab 
-tanah urug yang digunakan relatif 
-homogen 
-dengan 
-jarak 
-tulangan 
-seragam (uniform). Namun untuk lereng 
-alam yang diperkuat dengan tulangan 
-sering kondisi tanahnya tidak homogen. 
-Dengan 
-demikian 
-geometri 
-sistem 
-penulangan 
-(jarak 
-vertikal 
-dan 
-horizontal) pada setiap lokasi bervariasi, 
-sehingga 
-bidang 
-longsor 
-potensial 
-sangat sulit diprediksi. Karena itu, 
-untuk tipe struktur yang terakhir ini, 
-dalam perancangan beberapa bidang 
-longsor 
-harus 
-dianalisis 
-untuk 
-menentukan faktor aman yang terkecil. 
- 
-2.1.1.2. Distribusi Gaya Tarik pada 
-Tulangan  
-Dalam hitungan  tegangan vertikal 
-untuk perancangan dinding penahan 
-tanah bertulang, terdapat tiga anggapan, 
-sebagai berikut: 
-1. Tegangan vertikal untuk sembarang 
-kedalaman dianggap terbagi rata, 
-yaitu 
-sama 
-dengan 
-tekanan 
-overburden.
-z
-v
-
+= 4,550. Nilai SF yang didapat menunjukkan bahwa dinding penahan tanah aman terhadap gaya guling, geser, dan daya dukung.
+
+1. PENDAHULUAN
+
+Perkuatan lereng atau dinding penahan tanah adalah suatu bangunan yang berfungsi untuk menstabilkan kondisi tanah tertentu yang pada umumnya dipasang pada daerah tebing yang labil.Fungsi utama dari konstruksi penahan tanah adalah menahan tanah yang berada dibelakangnya dari bahaya longsor.
+Tanah atau material berbutir yang ditahan tersebut mendorong dinding dan cenderung membuat dinding terguling dan tergeser. Hal ini disebabkan oleh 3 (tiga) buah gaya yang bekerja pada dinding penahan tanah, yang mana gaya ini harus tetap dalam kesetimbangan, yaitu:
+1).
+Beban gravitasi dari dinding penahan tanah atau berat tambahan, 2). Tekanan lateral dari tanah, 3). Daya dukung tanah.
+
+ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI
+SKYLAND JAYAPURA SELATAN
+Ir. Masriani Endayanti, MT1) , Krisman Marpaung, ST 2)
+
+Tegangan yang terjadi dalam struktur harus berada dalam batas nilai yang diizinkan dan beban harus dipikul secara benar sehingga penurunan yang berlebihan tidak terjadi.
+Salahsatu alternatif desain perkuatan lereng adalah dengan menggunakan dinding penahan tanah.
+Dinding penahan tanah adalah suatu bangunan yang dibangun untuk mencegah material agar tidak longsor menurut kemiringan alamnya dimana kestabilannya dipengaruhi oleh kondisi topografinya. Jika dilakukan pekerjaan tanah seperti penanggulan atau pemotongan tanah, terutama bila jalan dibangun berbatasan dengan sungai atau danau maka konstruksi penahan itu dibangun untuk melindungi kemiringan tanah dan melengkapi kemiringan dengan pondasi yang kokoh. Selain itu dinding penahan tanah juga digunakan untuk menahan timbunan tanah serta tekanan-tekanan akibat beban-beban lain seperti beban merata, beban garis, tekanan air dan beban gempa.
+Pada kasus lereng Skyland Jayapura
+Selatan, alternatif penanggulangan longsor dilakukan dengan menggunakan dinding penahan tanah model gravity wall yaitu konstruksi dinding penahan tanah dari pasangan batu, dimana berat struktur menjadi komponen kestabilan struktur terhadap gaya-gaya lateral tanah.
+Penelitian ini bertujuan untuk:
+1. Untuk menganalisa gaya-gaya yang bekerja pada dinding penahan tanah.
+2. Untuk mengetahui faktor-faktor yang dibutuhkan dalam perencanaan dan desain dinding penahan tanah.
+3. Untuk menentukan daya dukung tanah setelah diberi perkuatan dengan dinding penahan tanah.
+4. Perencanaan dan perhitungan dinding penahan tanah.
+
+Perumusan Masalah :
+Pada kasus lereng di Skyland
+Jayapura
+Selatan mengalami kelongsoran. Tanah dengan kondisi kepadatan dan kadar air tertentu akan memiliki kekuatan yang cukup untuk menopang struktur diatasnya, khususnya apabila bebannya merupakan beban tekan.
+Tanah sangat lemah terhadap beban tarik. Hal ini telah membatasi penggunaan tanah untuk berbagai aplikasi, misalnya untuk membuat lereng yang lebih curam.
+Aspek penting dari sistem perkuatan tanah adalah bahwa material perkuatan lereng tersebut dapat membentuk suatu geometri tertentu yang memungkinkan terjadinya transfer beban material yang satu kepada yang lainnya.
+Parameter penting yang diperlukan untuk perkuatan dinding penahan adalah kemampuan kuat tarik dan geser yang tinggi.
+
+2. TINJAUAN PUSTAKA
+Dinding penahan tanah adalah bangunan untuk mencegah keruntuhan tanah yang curam (lereng) dimana kemantapan lereng tersebut tidak dapat dijamin terhadap kelongsoran.
+Bangunan dinding biasa digunakan untuk menopang tanah, timbunan, air dan sebagainya. Faktor penting dalam mendesain dan membangun dinding penahan tanah adalah mengusahakan agar dinding penahan tanah tidak bergerak ataupun tanahnya longsor akibat gaya gravitasi. Tekanan tanah lateral di belakang dinding penahan
+
+JURNAL TEKNIK VOLUME VIII, FEBRUARI 2019 ; 22-35 tanah bergantung kepada sudut geser dalam tanah (Ø) dan kohesi (c).
+Tekanan lateral meningkat dari atas sampai kebagian paling bawah pada dinding penahan tanah. Jika tidak direncanakan dengan baik, tekanan tanah akan mendorong dinding penahan tanah sehingga menyebabkan kegagalan konstruksi serta kelongsoran.Kegagalan juga disebabkan oleh air tanah yang berada di belakang dinding penahan tanah yang tidak terdisipasi oleh sistem drainase. Oleh karena itu, sangatlah penting untuk sebuah dinding penahan tanah mempunyai sistem drainase yang baik, untuk mengurangi tekanan hidrostatik dan meningkatakan stabilitas tanah.Dari cara menimbulkan kestabilannya dinding penahan tanah dapat dikelompokkan sebagai berikut :
+1). Penulangan tanah secara mekanis,
+2). Gaya berat (gravitasi), 3). Kantilever
+(penyokong), 4). Penjangkaran.
+Saat ini, stabilitas tanah secara mekanis dan dinding gaya berat (gravity wall), yang paling banyak digunakan khususnya untuk pekerjaan jalan yang memerlukan galian dalam atau lokasi jalan dilereng bukit yang memerlukan dinding penahan tanah, sehingga dapat menghindari timbulnya kemiringan tanah asli.
+
+Dinding Penahan Tanah Bertulang
+Mekanis
+Dinding penahan tanah bertulang mekanis menggunakan prinsip penulangan pada bahan isian berbutir kasar dengan bahan mekanis seperti lempeng dan batang besi, lembaran geotekstil atau anyaman kawat. Ada sedikit perbedaan antara penulangan tanah dan penulangan beton, keduanya memakai tulangan untuk menahan tegangan tarik yang timbul akibat beban yang diberikan.
+Tegangan-tegangan ikatan melawan tarikan dalam beton dan tanah dengan memakai tegangan- tegangan geser berdasarkan sudut geser antara tanah dan penulangan. Ada tiga komponen dasar yang terlibat dalam tanah bertulangan :
+1. Tanah pengisi, biasanya dipilih material berbutir kasar dengan 15% lolos ayakan nomor 200.
+2. Penulangan berupa lempengan batang logam, lempengan atau lembaran geotekstil, anyaman kawat yang dikaitkan kepermukaan penahan dan diperpanjang sedikit sampai kedalam bahan pengisi.
+3. Dinding depan, tidak selalu diperlukan tetapi biasanya digunakan untuk kerapian dan menghindarkan erosi tanah yang berada diantara tulangan.
+Prinsip dasar tanah bertulangan dengan dinding bertumpu pada pasak tanah aktif. Berdasarkan pengujian bahwa gaya yang timbul pada pasak tanah aktif diseberang kedalaman z ditahan oleh tarikan lempeng tulangan.
+Tarikan lempeng terjadi didaerah luar pasak tanah aktif dari sudut geser  bergeser antara lempeng dan tanah dan tekanan tanah vertikal v
+pada lempeng.
+Tanpa adanya tekanan tanah yang harus dipikul oleh dinding depan, maka bagian ini dapat dibuat cukup tipis serta lentur sehubungan dengan fungsi utamanya sebagai pencegah erosi.
+Apabila struktur dinding penahan tanah bertulang mengalami keruntuhan, maka di dalam struktur akan terlihat adanya dua zona, yaitu zona tanah longsor yang disebut zona aktif dan zona yang relatif tidak
+
+ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI
+SKYLAND JAYAPURA SELATAN
+Ir. Masriani Endayanti, MT1) , Krisman Marpaung, ST 2)
+
+bergerak disebut zona pasif atau zona angker, atau sering pula disebut zona penahan. Sebelum keruntuhan terjadi, massa tanah pada zona aktif yang akan runtuh ditahan oleh gaya tarik tulangan- tulangan pada zona pasif, yaitu oleh tahanan geser yang terjadi antara tanah dan tulangan-tulangan yang arahnya berlawanan dengan arah runtuhnya tanah pada zona aktif. Tahanan tulangan dalam menahan gaya cabut dan gaya tarik pada zona pasif sangat menentukan stabilitas intern Struktur.
+Karena itu batas antara zona aktif dan zona pasif yang dibatasi oleh bidang longsor ini perlu ditentukan terlebih dahulu dalam perancangan.
+Pengamatan dari pengujian- pengujian di lapangan dan di laboratorium menunjukkan letak bidang longsor, yaitu batas zona aktif dan zona pasif. Bergantung pada jenis tulangan yang digunakan.
+Pada struktur dinding penahan tanah bertulang skala penuh menunjukkan bahwa lokasi-lokasi gaya tarik maksimal yang terjadi pada tulangan terletak hampir berimpit dengan bidang longsor, bila struktur dibebani sampai mencapai keruntuhan.Lokasi permukaan bidang longsor bergantung pada tipe struktur dan sistem penulangannya.
+Beberapa perancang menganggap bidang longsor berasal dari kaki dinding penahan tanah menuju ke atas bersudut (45o+ /2) terhadap horisontal.
+Sedang perancang lain menganggap longsor berbentuk spiral logaritmik. Bentuk-bentuk yang lain seperti bentuk dua garis linear (bilinear) atau campuran bidang longsor lingkaran dan linear juga digunakan terutama pada hitungan stabilitas dengan menggunakan stabilitas lereng.
+Permukaan bidang longsor untuk dinding vertikal dengan tanah yang diperkuat dengan tulangan- tulangan yang mudah meregang (seperti geotekstil) umumnya dianggap berimpit dengan bidang lonsor Rankine, yaitu keruntuhan terjadi pada bidang bersudut
+(45o+ /2) terhadap bidang horizontal.
+Karena itu untuk tanah yang diperkuat dengan tulangan, dalam hitungan tanah lateral digunakan koefisien tekanan aktif (Ka).
+Untuk struktur baru, permukaan bidang longsor dapat didefenisikan dengan ketepatan yang memadai, sebab tanah urug yang digunakan relatif homogen dengan jarak tulangan seragam (uniform). Namun untuk lereng alam yang diperkuat dengan tulangan sering kondisi tanahnya tidak homogen.
+Dengan demikian geometri sistem penulangan
+(jarak vertikal dan horizontal) pada setiap lokasi bervariasi, sehingga bidang longsor potensial sangat sulit diprediksi. Karena itu, untuk tipe struktur yang terakhir ini, dalam perancangan beberapa bidang longsor harus dianalisis untuk menentukan faktor aman yang terkecil.
+
+2.1.1.2. Distribusi Gaya Tarik pada
+Tulangan
+Dalam hitungan tegangan vertikal untuk perancangan dinding penahan tanah bertulang, terdapat tiga anggapan, sebagai berikut:
+1. Tegangan vertikal untuk sembarang kedalaman dianggap terbagi rata, yaitu sama dengan tekanan overburden.
+z v
+
 
- 
-26 
- 
-JURNAL TEKNIK  VOLUME VIII, FEBRUARI 2019 ; 22-35 
-dengan γ = berat volume tanah dan z 
-= kedalaman yang ditinjau. 
-2. Tegangan 
-vertikal 
-dihitung 
-berdasarkan metode Mayerhoff. 
+
+JURNAL TEKNIK VOLUME VIII, FEBRUARI 2019 ; 22-35 dengan γ = berat volume tanah dan z
+= kedalaman yang ditinjau.
+2. Tegangan vertikal dihitung berdasarkan metode Mayerhoff.
 2)
 /
 )(
-3
 /
 (
-1
-L
-z
-K
-z
-a
-v
+L z
+K z a v
 
 
-
+
 
- 
-dengan:Ka = Koefisien tekanan 
-tanah aktif 
- 
- 
-z = kedalaman yang 
-ditinjau 
- 
- 
-γ= berat volume tanah 
- 
- 
-L= lebar dinding 
-3. Tegangan 
-vertikal 
-dianggap 
-mengikuti distribusi trapesium. Pada 
-cara ini tanah bertulang dianggap 
-sebagai struktur yang kaku. Tekanan 
-tanah yang bekerja di belakang 
-tanah 
-bertulang 
-cenderung 
-menggulingkan struktur sehingga 
-akan 
-terjadi 
-tegangan 
-vertikal 
-maksimum 
-di 
-bawah 
-dinding 
-penahan tanah dan minimum di 
-bagian 
-belakang. 
-Persamaan 
-tegangan vertikal untuk distribusi 
-tegangan 
-trapesium 
-adalah:
+
+dengan:Ka = Koefisien tekanan tanah aktif
+
+z = kedalaman yang ditinjau
+
+γ= berat volume tanah
+
+L= lebar dinding
+3. Tegangan vertikal dianggap mengikuti distribusi trapesium. Pada cara ini tanah bertulang dianggap sebagai struktur yang kaku. Tekanan tanah yang bekerja di belakang tanah bertulang cenderung menggulingkan struktur sehingga akan terjadi tegangan vertikal maksimum di bawah dinding penahan tanah dan minimum di bagian belakang.
+Persamaan tegangan vertikal untuk distribusi tegangan trapesium adalah:
 
 
 2)
 /
 (
-1
-L
-z
-K
-z
-a
-v
+L z
+K z a v
 
-
+
 
- 
-Dalam hal ini tanah urug dianggap 
-berupa tanah granuler dengan kohesi  
-c=0, dan struktur tidak dibebani dengan 
-beban terbagi rata di atasnya. 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-(a) Distribusi (b) Distribusi  
-Uniforms Meyerhoff 
-Gambar 
-2.1. 
-Distribusi 
-tegangan 
-vertikal di bawah dinding 
-2.1.1.3. 
-Distribusi 
-Tegangan 
-Horizontal 
-Hitungan tegangan horizontal 
-dianggap sama pada tegangan vertikal 
-tersebut di atas. Oleh karena itu maka 
-terdapat 
-tiga 
-metode 
-yang 
-telah 
-digunakan untuk menghitung tegangan 
-horizontal dalam perencanaan dinding 
-penahan tanah bertulang : 
-1. Tegangan 
-horizontal 
-dihitung 
-menurut hitungan tekanan aktif 
-Rankine: 
+
+Dalam hal ini tanah urug dianggap berupa tanah granuler dengan kohesi c=0, dan struktur tidak dibebani dengan beban terbagi rata di atasnya.
+
+(a) Distribusi (b) Distribusi
+Uniforms Meyerhoff
+Gambar
+2.1.
+Distribusi tegangan vertikal di bawah dinding
+2.1.1.3.
+Distribusi
+Tegangan
+Horizontal
+Hitungan tegangan horizontal dianggap sama pada tegangan vertikal tersebut di atas. Oleh karena itu maka terdapat tiga metode yang telah digunakan untuk menghitung tegangan horizontal dalam perencanaan dinding penahan tanah bertulang :
+1. Tegangan horizontal dihitung menurut hitungan tekanan aktif
+Rankine:
 z
-Ka
-h
-
+Ka h
+
 
 
- 
-2. Tegangan 
-horizontal 
-dihitung 
-dengan metode yang diberikan 
-Mayerhof: 
+
+2. Tegangan horizontal dihitung dengan metode yang diberikan
+Mayerhof:
 2)
 /
 )(
-3
 /
 (
-1
-L
-z
-K
-z
-K
-a
-a
-h
+L z
+K z
+K a a h
 
 
-
+
 
- 
-3. Tegangan horizontal sama dengan 
-koefisien tekanan tanah lateral (Ka) 
-dikali dengan tegangan vertikal 
-maksimum tepat di belakang elemen 
-permukaan (penutup depan). Dalam 
-persamaan 
-dituliskan:
+
+3. Tegangan horizontal sama dengan koefisien tekanan tanah lateral (Ka) dikali dengan tegangan vertikal maksimum tepat di belakang elemen permukaan (penutup depan). Dalam persamaan dituliskan:
 
 
 2)
 /
 (
-1
-L
-z
-K
-z
-K
-a
-a
-h
+L z
+K z
+K a a h
 
 
-
+
 
- 
-Persamaan di atas dapat digunakan 
-untuk 
-menghitung 
-gaya 
-tarik 
-maksimum tulangan. Tulangan yang 
-berada 
-dibagian 
-bawah, 
-biasanya 
-permukaan bidang longsor adalah lokasi 
-gaya tarik maksimum. 
- 
-2.1.1.4. 
-Gaya 
-Horizontal 
-yang 
-Ditahan Tulangan 
-Tegangan-tegangan vertikal dan 
-horizontal pada bidang simetri yang 
-berada diantara dua tulangan merupakan 
-tegangan-tegangan utama, oleh sebab 
-itu tegangan geser pada bidang ini 
-dianggap sama dengan nol.  
-Gaya tarik maksimum dalam tulangan 
-dihitung 
-dengan 
-meninjau 
-keseimbangan horizontal pada tiap-tiap 
-L 
-Z
-σv= 
-L 
-σv= γz/(1-
-σ
-σ
-27 
- 
-ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI 
-SKYLAND JAYAPURA SELATAN 
-Ir. Masriani Endayanti, MT1)  , Krisman Marpaung, ST 2) 
- 
-pias, yaitu dengan menganggap setiap 
-tulangan harus menahan gaya horizontal 
-sebesar setengah tebal tanah di bawah 
-dan setengah tebal tanah di atasnya. 
-Dengan 
-anggapan 
-tersebut, 
-setiap 
-tulangan harus menahan gaya horizontal 
-sebesar:
+
+Persamaan di atas dapat digunakan untuk menghitung gaya tarik maksimum tulangan. Tulangan yang berada dibagian bawah, biasanya permukaan bidang longsor adalah lokasi gaya tarik maksimum.
+
+2.1.1.4.
+Gaya
+Horizontal yang
+Ditahan Tulangan
+Tegangan-tegangan vertikal dan horizontal pada bidang simetri yang berada diantara dua tulangan merupakan tegangan-tegangan utama, oleh sebab itu tegangan geser pada bidang ini dianggap sama dengan nol.
+Gaya tarik maksimum dalam tulangan dihitung dengan meninjau keseimbangan horizontal pada tiap-tiap
+L
+Z σv=
+L σv= γz/(1- σ σ
+
+ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI
+SKYLAND JAYAPURA SELATAN
+Ir. Masriani Endayanti, MT1) , Krisman Marpaung, ST 2)
+
+pias, yaitu dengan menganggap setiap tulangan harus menahan gaya horizontal sebesar setengah tebal tanah di bawah dan setengah tebal tanah di atasnya.
+Dengan anggapan tersebut, setiap tulangan harus menahan gaya horizontal sebesar:
 H
 K
 H
-P
-v
-h
-h
+P v h h
 
 
 
@@ -723,46 +217,27 @@ h
 
 
 
- 
-dengan: 
+
+dengan:
 
-
-hP
-  gaya horizontal per meter lebar 
-pada dinding setinggi 
+ hP gaya horizontal per meter lebar pada dinding setinggi
 H
 
- 
+
 
-H
-  jumlah dari jarak setengah 
-tebal tanah bagian atas dan 
-setengah tebal tanah bagian 
-bawah 
-K    =  
-koefisien tekanan tanah lateral 
-
-v
+H jumlah dari jarak setengah tebal tanah bagian atas dan setengah tebal tanah bagian bawah
+K = koefisien tekanan tanah lateral
+ v
 
- 
-tegangan 
-vertikal 
-pada 
-kedalaman yang di tinjau. 
-Jika jarak vertikal tulangan-tulangan 
-sama, yaitu sebesar Sv, maka 
-v
+
+tegangan vertikal pada kedalaman yang di tinjau.
+Jika jarak vertikal tulangan-tulangan sama, yaitu sebesar Sv, maka v
 S
 H 
 
-. 
-Untuk kondisi ini, gaya horizontal yang 
-harus didukung tulangan adalah:  
-v
-v
-v
-h
-h
+.
+Untuk kondisi ini, gaya horizontal yang harus didukung tulangan adalah:
+v v v h h
 S
 K
 S
@@ -772,18 +247,10 @@ P
 
 
 
- 
-Untuk tulangan yang berbentuk lajur, 
-dengan jarak pusat ke pusat arah 
-vertikal Sv dan arah horizontal Sh maka 
-: 
-h
-v
-v
-h
-v
-h
-h
+
+Untuk tulangan yang berbentuk lajur, dengan jarak pusat ke pusat arah vertikal Sv dan arah horizontal Sh maka
+:
+h v v h v h h
 S
 S
 K
@@ -795,274 +262,91 @@ P
 
 
 
- 
+
 hP
-
-adalah gaya yang bekerja pada 
-dinding seluas (Sv,Sh) 
- 
-2.1.1.5. Distribusi Gaya Tarik Pada 
-Tulangan Dan Gaya Geser 
-Dinding 
-penahan 
-tanah 
-bertulang 
-dengan 
-menggunakan 
-tulangan lajur metal, menyimpulkan 
-bahwa distribusi-distribusi gaya tarik 
-tulangan 
-dan 
-gaya 
-geser 
-dapat 
-diilustrasikan 
-dalam 
-gambar 
-2.2. 
-Gambar 
-tersebut 
-menunjukkan 
-distribusi 
-gaya 
-tarik 
-disepanjang 
-tulangan sebagai fungsi dari jumlah 
-tegangan vertikal. 
- 
-Gambar 2.2.Distribusi gaya tarik dan 
-gaya geser disepanjang tulangan. 
- 
-Dalam hitungan gaya horizontal yang 
-harus didukung oleh tulangan-tulangan, 
-tekanan 
-tanah 
-lateral 
-dianggap 
-bervariasi secara linear, yaitu mengikuti 
-distribusi Rankine. Karena itu distribusi 
-gaya tarik tulangan (T) juga akan 
-bervariasi secara linear dengan nilai 
-maksimum pada tulangan yang paling 
-bawah. Dalam gambar 2.3 diperlihatkan 
-distribusi tekanan tanah lateral Rankine 
-untuk dinding yang di pengaruhi beban 
-terbagi rata diatasnya. 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-a).Bidang longsor Rankine 
-b) Distribusi tekanan 
- 
-Gambar 2.3. Distribusi tekanan pada 
-dinding yang dipengaruhi beban terbagi 
-rata 
-Bidang longsor 
-Rankine 
-Zona 
-pasif
-Zona 
-aktif
-Tegangan 
-tarik 
-Tegangan 
-geser
-θ = 450 + 
-φ/2 
-H 
-Z σ
-σma
-k
-τm
-k
+ adalah gaya yang bekerja pada dinding seluas (Sv,Sh)
+
+2.1.1.5. Distribusi Gaya Tarik Pada
+Tulangan Dan Gaya Geser
+Dinding penahan tanah bertulang dengan menggunakan tulangan lajur metal, menyimpulkan bahwa distribusi-distribusi gaya tarik tulangan dan gaya geser dapat diilustrasikan dalam gambar
+2.2.
+Gambar tersebut menunjukkan distribusi gaya tarik disepanjang tulangan sebagai fungsi dari jumlah tegangan vertikal.
+
+Gambar 2.2.Distribusi gaya tarik dan gaya geser disepanjang tulangan.
+
+Dalam hitungan gaya horizontal yang harus didukung oleh tulangan-tulangan, tekanan tanah lateral dianggap bervariasi secara linear, yaitu mengikuti distribusi Rankine. Karena itu distribusi gaya tarik tulangan (T) juga akan bervariasi secara linear dengan nilai maksimum pada tulangan yang paling bawah. Dalam gambar 2.3 diperlihatkan distribusi tekanan tanah lateral Rankine untuk dinding yang di pengaruhi beban terbagi rata diatasnya.
+
+a).Bidang longsor Rankine b) Distribusi tekanan
+
+Gambar 2.3. Distribusi tekanan pada dinding yang dipengaruhi beban terbagi rata
+Bidang longsor
+Rankine
+Zona pasif
+Zona aktif
+Tegangan tarik
+Tegangan geser θ = 450 + φ/2
+H
+Z σ σma k τm k
 L
 L
-H 
-Sv 
-H/
-tgθ 
-Beban 
-berbagi 
-θ = 450 
-+ φ/2 
-Sv 
-σh = 
+H
+Sv
+H/ tgθ
+Beban berbagi θ = 450
++ φ/2
+Sv σh =
 Ka(γH+
-28 
- 
-JURNAL TEKNIK  VOLUME VIII, FEBRUARI 2019 ; 22-35 
-2.2. Stabilitas Dinding Penahan  
-Tanah 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Gambar 2.4. Keruntuhan Pada Dinding 
-Penahan Tanah 
-Gambar 2.4 menunjukkan bahwa ada 
-beberapa hal yang dapat menyebabkan 
-keruntuhan  pada dinding penahan 
-tanah, antara lain oleh: penggulingan, 
-penggeseran, dan keruntuhan daya 
-dukung. 
-Maka 
-dari 
-itu, 
-dalam 
-merencanakan dinding penahan tanah 
-langkah pertama yang harus dilakukan 
-adalah menetapkan ukuran dinding 
-penahan untuk menjamin stabilitas 
-dinding penahan. Dinding penahan 
-harus stabil terhadap guling, geser, dan 
-daya dukung tanah. 
-Besaran tekanan lateral menjadi 
-salah 
-satu 
-faktor 
-utama 
-yang 
-diperhitungkan 
-untuk 
-perancangan 
-kestabilan 
-dinding 
-penahan 
-tanah. 
-Tekanan 
-lateral 
-tersebut 
-dapat 
-menyebabkan 
-dinding 
-penahan 
-terguling (overturning) atau bergeser 
-(slidding). 
-Selain 
-besaran 
-tekanan 
-lateral 
-kestabilan 
-dinding 
-penahan 
-dipengaruhi pula oleh bentuk struktur 
-dan 
-faktor 
-pelaksanaan 
-konsruksi. 
-Buruknya pemadatan tanah tertahan 
-dibelakang dinding penahan merupakan 
-penyebab 
-keruntuhan 
-undermining. 
-Analisa stabilitas dinding penahan tanah 
-harus memperhatikan hal-hal yang 
-berikut ini : 1).Berat sendiri dari 
-dinding penahan tanah, 2). Gaya tekan 
-tanah aktif, 3). Gaya tekan tanah pasif, 
-4).Tekanan air, 5).Reaksi tanah dasar 
- 
-Gambar 2.5. Diagram Keruntuhan 
-Geser Tanah 
-Dinding penahan tanah dikatakan dalam 
-keadaan stabil jika jumlah vektor gaya-
-gaya yang disebutkan di atas dalam 
-keadaan setimbang. Analisa stabilitas 
-dinding penahan tanah ditinjau terhadap 
-hal-hal berikut : 
-1. Faktor aman terhadap pergeseran 
-dan penggulingan harus mencukupi. 
-2. Tekanan yang terjadi pada tanah 
-dasar harus tidak boleh melebihi 
-kapasitas daya dukung tanah izin. 
-3. Stabilitas lereng harus memenuhi 
-syarat faktor keamanan. 
-Secara umum faktor keamanan SF 
-(safety factor) untuk stabilitas guling 
-maupun gelincir dinding penahan tanah 
-diambil sebesar: 
-1. SF 
+
+JURNAL TEKNIK VOLUME VIII, FEBRUARI 2019 ; 22-35
+2.2. Stabilitas Dinding Penahan
+Tanah
+
+Gambar 2.4. Keruntuhan Pada Dinding
+Penahan Tanah
+Gambar 2.4 menunjukkan bahwa ada beberapa hal yang dapat menyebabkan keruntuhan pada dinding penahan tanah, antara lain oleh: penggulingan, penggeseran, dan keruntuhan daya dukung.
+Maka dari itu, dalam merencanakan dinding penahan tanah langkah pertama yang harus dilakukan adalah menetapkan ukuran dinding penahan untuk menjamin stabilitas dinding penahan. Dinding penahan harus stabil terhadap guling, geser, dan daya dukung tanah.
+Besaran tekanan lateral menjadi salah satu faktor utama yang diperhitungkan untuk perancangan kestabilan dinding penahan tanah.
+Tekanan lateral tersebut dapat menyebabkan dinding penahan terguling (overturning) atau bergeser
+(slidding).
+Selain besaran tekanan lateral kestabilan dinding penahan dipengaruhi pula oleh bentuk struktur dan faktor pelaksanaan konsruksi.
+Buruknya pemadatan tanah tertahan dibelakang dinding penahan merupakan penyebab keruntuhan undermining.
+Analisa stabilitas dinding penahan tanah harus memperhatikan hal-hal yang berikut ini : 1).Berat sendiri dari dinding penahan tanah, 2). Gaya tekan tanah aktif, 3). Gaya tekan tanah pasif,
+4).Tekanan air, 5).Reaksi tanah dasar
+
+Gambar 2.5. Diagram Keruntuhan
+Geser Tanah
+Dinding penahan tanah dikatakan dalam keadaan stabil jika jumlah vektor gaya- gaya yang disebutkan di atas dalam keadaan setimbang. Analisa stabilitas dinding penahan tanah ditinjau terhadap hal-hal berikut :
+1. Faktor aman terhadap pergeseran dan penggulingan harus mencukupi.
+2. Tekanan yang terjadi pada tanah dasar harus tidak boleh melebihi kapasitas daya dukung tanah izin.
+3. Stabilitas lereng harus memenuhi syarat faktor keamanan.
+Secara umum faktor keamanan SF
+(safety factor) untuk stabilitas guling maupun gelincir dinding penahan tanah diambil sebesar:
+1. SF
 
- 1,5 untuk tanah dasar 
-granuler (C = 0). 
-2. SF  2,0 untuk tanah dasar kohesif. 
- 
-2.2.1. Stabilitas Terhadap 
-Penggulingan 
-Tekanan 
-tanah 
-lateral 
-yang 
-diakibatkan 
-oleh 
-tanah 
-urugan 
-dibelakang dinding  penahan, cendrung 
-menggulingkan dinding dengan pusat 
-rotasi pada ujung kaki depan pondasi. 
-Momen penggulingan ini, dilawan oleh 
-momen akibat berat sendiri dinding 
-penahan dan momen akibat berat tanah 
-diatas plat pondasi. Untuk pendekatan 
-29 
- 
-ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI 
-SKYLAND JAYAPURA SELATAN 
-Ir. Masriani Endayanti, MT1)  , Krisman Marpaung, ST 2) 
- 
-keamanan terhadap bahaya guling dari 
-dinding penahan yang mengandalkan 
-berat (gravity wall) dan semi gravity 
-wall, dapat digunakan criteria pada 
-gambar 2.6 dibawah ini, diperlihatkan 
-diagram tekanan tanah pada dinding 
-penahan tanah yang akan ditinjau, 
-(asumsi tekanan tanah dihitung dengan 
-rumus Rankine). Faktor keamanan 
-terhadap guling didefinisikan sebagai 
-(ditinjau dari kaki/titik O pada gambar): 
-   
-   
-    
- 
-(2.1) 
-dimana : 
-∑MO=jumlah momen dari gaya-
-gaya 
-yang 
-menyebabkan 
-momen pada titik O 
-∑MR=jumlah 
-momen 
-yang 
-menahan 
-guling 
-terhadap 
-titik O  
-Momen yang menghasilkan guling : 
-      
- 
-  
- 
-(2.2)  
- 
-Gambar 2.6. Tekanan tanah pada bagian 
-dinding dan alas dinding 
+1,5 untuk tanah dasar granuler (C = 0).
+2. SF  2,0 untuk tanah dasar kohesif.
+
+2.2.1. Stabilitas Terhadap
+Penggulingan
+Tekanan tanah lateral yang diakibatkan oleh tanah urugan dibelakang dinding penahan, cendrung menggulingkan dinding dengan pusat rotasi pada ujung kaki depan pondasi.
+Momen penggulingan ini, dilawan oleh momen akibat berat sendiri dinding penahan dan momen akibat berat tanah diatas plat pondasi. Untuk pendekatan
+
+ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI
+SKYLAND JAYAPURA SELATAN
+Ir. Masriani Endayanti, MT1) , Krisman Marpaung, ST 2)
+
+keamanan terhadap bahaya guling dari dinding penahan yang mengandalkan berat (gravity wall) dan semi gravity wall, dapat digunakan criteria pada gambar 2.6 dibawah ini, diperlihatkan diagram tekanan tanah pada dinding penahan tanah yang akan ditinjau,
+(asumsi tekanan tanah dihitung dengan rumus Rankine). Faktor keamanan terhadap guling didefinisikan sebagai
+(ditinjau dari kaki/titik O pada gambar):
+
+(2.1) dimana :
+∑MO=jumlah momen dari gaya- gaya yang menyebabkan momen pada titik O
+∑MR=jumlah momen yang menahan guling terhadap titik O
+Momen yang menghasilkan guling :
+
+(2.2)
+
+Gambar 2.6. Tekanan tanah pada bagian dinding dan alas dinding
 Dimana SF dapat diperoleh dari:
 Gelincir
 Guling
@@ -1072,218 +356,89 @@ Momen
 SF
 /
 
- 
-Dimanatekanan tanah horisontal, Ph 
-=Pa, 
-tekanantanah 
-aktif 
-(apabila 
-permukaan tanah datar). 
-         
-         
-  ( 
- )
- (2.3) 
- 
-Gambar 2.7. Kestabilan dinding 
-penahan tanah terhadap guling dan 
-gelincir 
-2.2.2. Kestabilitas Terhadap Geser 
-Untuk 
-memberikan 
-kekuatan 
-yang 
-cukup 
-melawan 
-geseran 
-horisontal, dasar dinding penahan harus 
-memeiliki kedalaman minimum 3 ft 
-(1m) di bawah muka tanah. Untuk 
-dinding permanen, kekuatan tersebut 
-harus stabil tanpa adanya struktur 
-penahan pasif dibagian kaki dinding. 
-Jika 
-syarat 
-kekuatan 
-diatas 
-tak 
-mencukupi, 
-dapat 
-ditambahkan 
-pengunci geser di bawah telapak 
-pondasi atau tiang pancang untuk 
-menahan geseran. Selain persyaratan 
-kekuatan 
-tersebut, 
-harus 
-dipertimbangkan 
-pula 
-adanya 
-kemungkinan bahaya erosi akibat aliran 
-maupun 
-pengaruh 
-hujan. 
-Gaya-
-gayayangmenggeser 
-dindingpenahan 
-tanah 
-akan 
-ditahan 
-oleh 
-gesekanantaratanah dan dasar pondasi, 
-tekanan 
-tanah 
-pasif 
-didepan 
-dindingpenahan. 
-Faktor 
-keamanan 
-terhadap 
-stabilitas 
-geser 
-dapat 
-dinyatakan dengan rumus: 
-        
-   
-     
-(2.4) 
- 
- 
-30 
- 
-JURNAL TEKNIK  VOLUME VIII, FEBRUARI 2019 ; 22-35 
-dimana: 
-∑FR = jumlah gaya-gaya yang 
-menahan 
-gaya-gaya 
-horisontal 
-∑Fd   = jumlah gaya-gaya yang 
-mendorong 
-Kekuatan geser tanah pada bagian dasar 
-dinding : 
- = c +  tan   
-(2.5)  
-dimana: 
- 
-τ = Kuat geser tanah  
- 
- 
-c = Kohesi tanah 
-σ= Tegangan normal yang bekerja 
- 
-υ = Sudut geser tanah 
-Besarnya gaya perlawanan geser dapat 
-dihitung dengan persamaan : 
-Gaya perlawanan geser : 
-Fr = L μ ( W1 + W2 + W3 ) + Pp(2.6) 
-dimana :  
-Fr: gaya perlawanan geser 
-μ: koefisien gesek antara tanah dan 
-tapak dinding 
-Harga-hargakoefisien gesek diberikan 
-dalam Tabel 2.1 
-Pp 
-: gaya penyebab geser 
+
+Dimanatekanan tanah horisontal, Ph
+=Pa, tekanantanah aktif
+(apabila permukaan tanah datar).
+
+(
+)
+(2.3)
+
+Gambar 2.7. Kestabilan dinding penahan tanah terhadap guling dan gelincir
+2.2.2. Kestabilitas Terhadap Geser
+Untuk memberikan kekuatan yang cukup melawan geseran horisontal, dasar dinding penahan harus memeiliki kedalaman minimum 3 ft
+(1m) di bawah muka tanah. Untuk dinding permanen, kekuatan tersebut harus stabil tanpa adanya struktur penahan pasif dibagian kaki dinding.
+Jika syarat kekuatan diatas tak mencukupi, dapat ditambahkan pengunci geser di bawah telapak pondasi atau tiang pancang untuk menahan geseran. Selain persyaratan kekuatan tersebut, harus dipertimbangkan pula adanya kemungkinan bahaya erosi akibat aliran maupun pengaruh hujan.
+Gaya- gayayangmenggeser dindingpenahan tanah akan ditahan oleh gesekanantaratanah dan dasar pondasi, tekanan tanah pasif didepan dindingpenahan.
+Faktor keamanan terhadap stabilitas geser dapat dinyatakan dengan rumus:
+
+(2.4)
+
+JURNAL TEKNIK VOLUME VIII, FEBRUARI 2019 ; 22-35 dimana:
+∑FR = jumlah gaya-gaya yang menahan gaya-gaya horisontal
+∑Fd = jumlah gaya-gaya yang mendorong
+Kekuatan geser tanah pada bagian dasar dinding :
+ = c +  tan 
+(2.5) dimana:
+
+τ = Kuat geser tanah
+
+c = Kohesi tanah σ= Tegangan normal yang bekerja
+
+υ = Sudut geser tanah
+Besarnya gaya perlawanan geser dapat dihitung dengan persamaan :
+Gaya perlawanan geser :
+Fr = L μ ( W1 + W2 + W3 ) + Pp(2.6) dimana :
+Fr: gaya perlawanan geser μ: koefisien gesek antara tanah dan tapak dinding
+Harga-hargakoefisien gesek diberikan dalam Tabel 2.1
+Pp
+: gaya penyebab geser
 Faktor keamanan terhadap geser :
 5,1
 
 Pp
 Fr
 SF
- 
- 
-Nilai Pp sering tidak diperhitungkan, 
-karenakemungkinan kondisi tanah yang 
-ada di depan tapak dinding tersebut 
-tidak 
-samasebelum 
-dan 
-sesudah 
-pembangunan dinding. 
-Apabila faktor keamanan geser tidak 
-mencukupi 
-(S.F 
-< 
-1,5), 
-gaya 
-perlawanan geser dapat ditingkatkan 
-dengan membuat koperan (pengunci) di 
-bawah tapak. 
-Dengan membuat koperan tersebut, 
-dapat 
-menimbulkan 
-tekanan 
-pasif 
-Pp2dan 
-dapat 
-menggeser 
-bidang 
-keruntuhan dari garis 1 ke garis 2. 
-Disamping 
-itu,bidang 
-geser 
-akan 
-bertambah panjang. Nilai Pp2 dapat 
-dihitung menurut persamaan berikut : 
-p
-p
-K
-h
-h
+
+Nilai Pp sering tidak diperhitungkan, karenakemungkinan kondisi tanah yang ada di depan tapak dinding tersebut tidak samasebelum dan sesudah pembangunan dinding.
+Apabila faktor keamanan geser tidak mencukupi
+(S.F
+<
+1,5), gaya perlawanan geser dapat ditingkatkan dengan membuat koperan (pengunci) di bawah tapak.
+Dengan membuat koperan tersebut, dapat menimbulkan tekanan pasif
+Pp2dan dapat menggeser bidang keruntuhan dari garis 1 ke garis 2.
+Disamping itu,bidang geser akan bertambah panjang. Nilai Pp2 dapat dihitung menurut persamaan berikut :
+p p
+K h h
 P
-2
 )
 (
-2
-1
 2 
-
-(2.7) 
- 
-Tabel 2.1. Nilai-nilai koefisien gesek 
-antara tanah dan beton 
-No 
-Jenis Tanah 
-Μ 
-1 
-2 
- 
-3 
-4 
-Tanah bebutir kasar 
-Tanah bebutir kasar  
-(dengan lumpur) 
-Lumpur 
-Tanah cadas 
-0,55 
-0,45 
- 
-0,35 
-0,60 
- 
-2.2.3. Stabilitas TerhadapDaya 
-Dukung 
-Gaya-gaya 
-horizontal 
-dan 
-vertikal 
-pada 
-dinding 
-akan 
-menimbulkan tegangan pada tanah. 
-Apabila tegangan yang timbul melebihi 
-tegangan ijin tanah, maka akan terjadi 
-penurunan tanah, yang mengakibatkan 
-pula penurunan bangunan. Untuk tapak 
-dinding 
-penahan 
-tanah 
-yang 
-keseluruhannya berada dalam kondisi 
-tertekan (e ≤ L/6), besarnya tegangan 
-tanah yang timbul per satuan luas dapat 
-dihitung menurut persamaan : 
-Tegangan tanah di titik A adalah : 
+
+(2.7)
+
+Tabel 2.1. Nilai-nilai koefisien gesek antara tanah dan beton
+No
+Jenis Tanah
+Μ
+
+Tanah bebutir kasar
+Tanah bebutir kasar
+(dengan lumpur)
+Lumpur
+Tanah cadas
+0,55
+0,45
+
+0,35
+0,60
+
+2.2.3. Stabilitas TerhadapDaya
+Dukung
+Gaya-gaya horizontal dan vertikal pada dinding akan menimbulkan tegangan pada tanah.
+Apabila tegangan yang timbul melebihi tegangan ijin tanah, maka akan terjadi penurunan tanah, yang mengakibatkan pula penurunan bangunan. Untuk tapak dinding penahan tanah yang keseluruhannya berada dalam kondisi tertekan (e ≤ L/6), besarnya tegangan tanah yang timbul per satuan luas dapat dihitung menurut persamaan :
+Tegangan tanah di titik A adalah :
 
 
 
@@ -1293,25 +448,20 @@ Tegangan tanah di titik A adalah :
 
 
 
-L
-e
+L e
 BL
 Rv
-BL
-e
+BL e
 Rv
 BL
 Rv
-6
-1
 )6
 /1(
 .
-2
 max
 
-    (2.8) 
-Tegangan tanah di titik B adalah : 
+(2.8)
+Tegangan tanah di titik B adalah :
 
 
 
@@ -1321,482 +471,204 @@ Tegangan tanah di titik B adalah :
 
 
 
-L
-e
+L e
 BL
 Rv
-BL
-e
+BL e
 Rv
 BL
 Rv
-6
-1
 )6
 /1(
 .
-2
 max
 
-   (2.9) 
-Momen yang terjadi : 
-Mnet= ∑MR - ∑Mo  ( ∑MRdan ∑Mo(2.10)
- 
- 
- 
-2.3.  Perancangan Dinding Penahan 
-Tanah 
-Dinding penahan tanah dapat 
-dirancang untuk kasus tekanan tanah 
-aktif dimana dinding cukup lentur 
-31 
- 
-ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI 
-SKYLAND JAYAPURA SELATAN 
-Ir. Masriani Endayanti, MT1)  , Krisman Marpaung, ST 2) 
- 
-sehingga akan cukup berputar untuk 
-memungkinkan 
-terbentuknya 
-pasak 
-tekanan tanah aktif. Dalam kasus lain 
-dinding harus dirancang untuk tekanan 
-tanah 
-perkiraan 
-yang 
-mungkin 
-berkembang.  
-Ada pendapat bahwa tekanan 
-tanah aktif cocok untuk semua dinding 
-karena karena suatu kerusakan dinding 
-selamanya gerak yang cukup untuk 
-memulai pembentukan pasak tekanan 
-tanah aktif.  
-Untuk kondisi dimana tekanan  
-tanah aktif tidak terbentuk atau dimana 
-pasak aktif Rankine dapat terbentuk, 
-maka mungkin sekali hal itu hanya 
-terjadi pada bagian atas dinding. 
-Sedangkan bagian bawahnya agak 
-terkekang oleh alas dan dari faktor-
-faktor lain, sehingga pasak Rankine 
-tidak terbentuk sepenuhnya.  
-Dinding-dinding berskala penuh 
-yang dilaporkan oleh Coyle (1972) 
-serta oleh Prescott (1973) secara 
-konsisten mengukur tekanan tanah pada 
-bagian bawah dinding yang ternyata 
-lebih tinggi dari pada nilai-nilai aktif 
-Rankine 
-atau 
-Coulomb. 
-Beberapa 
-ukuran tekanan ada yang mencapai dua 
-setengah kali nilai-nilai teoritisnya. 
-Bila sebuah dinding penampang diurug 
-balik 
-dengan 
-bahan 
-kohesif 
-dan 
-dimampatkan, maka akan berkembang 
-tekanan lateral yang sangat tinggi. 
-Untuk ini digunakan : 
-1. Gunakan Faktor Keamanan besar 
-untuk tekanan lateral. 
-2. Selidiki 
-berat 
-satuan 
-yang 
-mungkin 
-dengan 
-mempertimbangkan bahwa tanah 
-kohesif 
-yang 
-menjadi 
-hampir 
-jenuh 
-itu 
-sangat 
-berat 
-dan 
-dibarengi dengan pengurangan φ. 
-3. Pengurukan balik dapat dihentikan 
-bila terjadi jungkit atau gerak 
-menyamping mulai tampak pada 
-dinding. 
-Untuk 
-perancangan 
-dinding 
-tanah 
-bertulang sebagai berikut : 
-1. Urugan balik biasanya ditetapkan 
-harus 
-berbutir 
-kasar, 
-namun 
-penelitian 
-terbaru 
-menunjukkan 
-bahwa 
-tanah 
-kohesif 
-dapat 
-digunakan 
-sebagai 
-penulangan 
-dipakai 
-geotekstil 
-berpori 
-agar 
-kelebihan tekanan pori dari tekanan 
-vertikal pada lempeng penulangan 
-dapat dihilangkan sehingga sudut 
-geser 
-terdrainase 
-φ’ 
-dapat 
-menimbulkan komponen gesekan 
-antara tanah dengan tulangan. 
-2. Urugan 
-balik 
-harus 
-dipadatkan 
-namun dengan hati-hati agar alat 
-terlalu dekat dengan dinding depan 
-sehingga tidak menarik tulangannya. 
-Hal ini merupakan pertimbangan 
-pokok untuk urugan balik kohesif 
-dan untuk tanah berbutir kasar, 
-sedikitnya 
-memerlukan 
-daerah 
-vertikal terhadap dinding depan. 
-3. Pengujian dengan dinding percobaan 
-menunjukkan 
-bahwa 
-potongan 
-Rankine cocok dengan potongan 
-tanah.  Sudut ρ mendekati 45+φ/2 
-terhadap horizontal. Untuk sudut β 
-yang besar, sudut ini harus diperiksa 
-secara 
-teratur 
-memakai 
-metode 
-potongan coba-coba, atau dengan 
-program konputer. 
-4. Dinding harus cukup lentur untuk 
-membentuk tekanan tanah aktif dan 
-bila menurun tidak akan merobek 
-dinding depan dari tulangan. 
-5. Umumnya 
-hanya 
-diperhitungkan 
-tarikan pada tulangan diluar daerah 
-potongan tanah yang diandaikan 
-sepanjang Le. 
-32 
- 
-JURNAL TEKNIK  VOLUME VIII, FEBRUARI 2019 ; 22-35 
-6. Kelongsoran dinding terjadi karena : 
-a. Tarikan pada tulangan 
-b. Longsoran daya dukung pada 
-tanah dasar yang menyangga 
-dinding  
-c. Seluruh dinding tergelincir. 
-7. Tambahan beban diberikan pada 
-urugan 
-balik. 
-Hal 
-ini 
-dapat 
-meningkatkan 
-tekanan 
-lateral 
-menurut 
-teori 
-elastisitas 
-dan 
-tekanan vertikal pada seberang 
-kedalaman. Tekanan vertikal dapat 
-dihitung dengan memakai tekanan 
-vertikal      2 :1 . Tekanan vertikal 
-dari beban tambahan meningkatkan 
-komponen tahanan geser kesuatu 
-tekanan lateral yang lebih besar 
-yang harus ditahan akibat beban 
-tambahan yang sama. 
-8. Korosi dapat merupakan faktor 
-kritis bila dipakai tulangan logam. 
-Biasanya 
-dilakukan 
-sedikit 
-penambahan tebal tulangan untuk 
-menahan 
-korosi 
-agar 
-dapat 
-menahan bangunan sesuai umur 
-rencana. 
-9. Bila keindahan merupakan faktor 
-penting, tersedia sejumlah besar 
-susunan dinding depan yang indah 
-dan dapat dipergunakan sebagai 
-hiasan dinding. 
-Perancangan dinding penahan pada 
-dasarnya dilakukan sebagai berikut : 
-1. Perkiraan jarak horizontal dan 
-vertikal lempeng tulangan. Jarak 
-vertikal dapat berkisar 0,2 sampai 
-1 meter dan jarak horizontal dapat 
-diantara 0,7 sampai 1 meter. 
-Analisa didasarkan pada satuan 
-lebar yang sesuai dengan diagram 
-tanah lateral. 
-2. Hitung beban tarik dari beberapa 
-tulangan sebagai luas diagram 
-tekanan 
-yang 
-diberikan 
-pada 
-lempengan.  
-3. Hitung panjang lempengan Le yang 
-diperlukan 
-untuk 
-menimbulkan 
-tahanan geser Fr  = Ti . dari 
-panjang 
-dan 
-daerah 
-potongan 
-Rankine dapat ditentukan panjang 
-keseluruhan lempeng  Lo  yang 
-akan 
-dipakai. 
-Umumnya 
-digunakan panjang yang sama 
-untuk 
-seluruh 
-tinggi 
-dinding. 
-Panjang gesekan didasarkan pada 
-gesekan tanah kelempengan besar 
-f = tan δ dengan sudut δ 
-merupakan pecahan sudut geser 
-dalam φ. Bila lempengan cukup 
-besar maka δ = φ. Untuk logam 
-yang licin δ berkisar antara 20 – 
-25o. 
-4. Hitung luas tulangan bxt, untuk 
-baja lempengan atau bulat dengan 
-tegangan izin fa = Fy / SF. 
- 
-2.3.1. Daya Dukung Yang Diizinkan 
-Kestabilan 
-alas 
-terhadap 
-kerusakan daya dukung dicapai dengan 
-memakai faktor keamanan yang sesuai 
-dengan daya dukung puncak yang 
-dihitung 
-dimana 
-faktor 
-kemanan 
-biasanya diambil 2,0 untuk tanah 
-berbutir dan 3,0 untuk tanah kohesif. 
-Daya dukung tanah yang diizinkan 
-dapat 
-dihitung 
-dengan 
-memakai 
-persamaan daya dukung berikut : 
+(2.9)
+Momen yang terjadi :
+Mnet= ∑MR - ∑Mo ( ∑MRdan ∑Mo(2.10)
+
+2.3. Perancangan Dinding Penahan
+Tanah
+Dinding penahan tanah dapat dirancang untuk kasus tekanan tanah aktif dimana dinding cukup lentur
+
+ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI
+SKYLAND JAYAPURA SELATAN
+Ir. Masriani Endayanti, MT1) , Krisman Marpaung, ST 2)
+
+sehingga akan cukup berputar untuk memungkinkan terbentuknya pasak tekanan tanah aktif. Dalam kasus lain dinding harus dirancang untuk tekanan tanah perkiraan yang mungkin berkembang.
+Ada pendapat bahwa tekanan tanah aktif cocok untuk semua dinding karena karena suatu kerusakan dinding selamanya gerak yang cukup untuk memulai pembentukan pasak tekanan tanah aktif.
+Untuk kondisi dimana tekanan tanah aktif tidak terbentuk atau dimana pasak aktif Rankine dapat terbentuk, maka mungkin sekali hal itu hanya terjadi pada bagian atas dinding.
+Sedangkan bagian bawahnya agak terkekang oleh alas dan dari faktor- faktor lain, sehingga pasak Rankine tidak terbentuk sepenuhnya.
+Dinding-dinding berskala penuh yang dilaporkan oleh Coyle (1972) serta oleh Prescott (1973) secara konsisten mengukur tekanan tanah pada bagian bawah dinding yang ternyata lebih tinggi dari pada nilai-nilai aktif
+Rankine atau
+Coulomb.
+Beberapa ukuran tekanan ada yang mencapai dua setengah kali nilai-nilai teoritisnya.
+Bila sebuah dinding penampang diurug balik dengan bahan kohesif dan dimampatkan, maka akan berkembang tekanan lateral yang sangat tinggi.
+Untuk ini digunakan :
+1. Gunakan Faktor Keamanan besar untuk tekanan lateral.
+2. Selidiki berat satuan yang mungkin dengan mempertimbangkan bahwa tanah kohesif yang menjadi hampir jenuh itu sangat berat dan dibarengi dengan pengurangan φ.
+3. Pengurukan balik dapat dihentikan bila terjadi jungkit atau gerak menyamping mulai tampak pada dinding.
+Untuk perancangan dinding tanah bertulang sebagai berikut :
+1. Urugan balik biasanya ditetapkan harus berbutir kasar, namun penelitian terbaru menunjukkan bahwa tanah kohesif dapat digunakan sebagai penulangan dipakai geotekstil berpori agar kelebihan tekanan pori dari tekanan vertikal pada lempeng penulangan dapat dihilangkan sehingga sudut geser terdrainase φ’ dapat menimbulkan komponen gesekan antara tanah dengan tulangan.
+2. Urugan balik harus dipadatkan namun dengan hati-hati agar alat terlalu dekat dengan dinding depan sehingga tidak menarik tulangannya.
+Hal ini merupakan pertimbangan pokok untuk urugan balik kohesif dan untuk tanah berbutir kasar, sedikitnya memerlukan daerah vertikal terhadap dinding depan.
+3. Pengujian dengan dinding percobaan menunjukkan bahwa potongan
+Rankine cocok dengan potongan tanah. Sudut ρ mendekati 45+φ/2 terhadap horizontal. Untuk sudut β yang besar, sudut ini harus diperiksa secara teratur memakai metode potongan coba-coba, atau dengan program konputer.
+4. Dinding harus cukup lentur untuk membentuk tekanan tanah aktif dan bila menurun tidak akan merobek dinding depan dari tulangan.
+5. Umumnya hanya diperhitungkan tarikan pada tulangan diluar daerah potongan tanah yang diandaikan sepanjang Le.
+
+JURNAL TEKNIK VOLUME VIII, FEBRUARI 2019 ; 22-35
+6. Kelongsoran dinding terjadi karena :
+a. Tarikan pada tulangan b. Longsoran daya dukung pada tanah dasar yang menyangga dinding c. Seluruh dinding tergelincir.
+7. Tambahan beban diberikan pada urugan balik.
+Hal ini dapat meningkatkan tekanan lateral menurut teori elastisitas dan tekanan vertikal pada seberang kedalaman. Tekanan vertikal dapat dihitung dengan memakai tekanan vertikal 2 :1 . Tekanan vertikal dari beban tambahan meningkatkan komponen tahanan geser kesuatu tekanan lateral yang lebih besar yang harus ditahan akibat beban tambahan yang sama.
+8. Korosi dapat merupakan faktor kritis bila dipakai tulangan logam.
+Biasanya dilakukan sedikit penambahan tebal tulangan untuk menahan korosi agar dapat menahan bangunan sesuai umur rencana.
+9. Bila keindahan merupakan faktor penting, tersedia sejumlah besar susunan dinding depan yang indah dan dapat dipergunakan sebagai hiasan dinding.
+Perancangan dinding penahan pada dasarnya dilakukan sebagai berikut :
+1. Perkiraan jarak horizontal dan vertikal lempeng tulangan. Jarak vertikal dapat berkisar 0,2 sampai
+1 meter dan jarak horizontal dapat diantara 0,7 sampai 1 meter.
+Analisa didasarkan pada satuan lebar yang sesuai dengan diagram tanah lateral.
+2. Hitung beban tarik dari beberapa tulangan sebagai luas diagram tekanan yang diberikan pada lempengan.
+3. Hitung panjang lempengan Le yang diperlukan untuk menimbulkan tahanan geser Fr = Ti . dari panjang dan daerah potongan
+Rankine dapat ditentukan panjang keseluruhan lempeng Lo yang akan dipakai.
+Umumnya digunakan panjang yang sama untuk seluruh tinggi dinding.
+Panjang gesekan didasarkan pada gesekan tanah kelempengan besar f = tan δ dengan sudut δ merupakan pecahan sudut geser dalam φ. Bila lempengan cukup besar maka δ = φ. Untuk logam yang licin δ berkisar antara 20 –
+25o.
+4. Hitung luas tulangan bxt, untuk baja lempengan atau bulat dengan tegangan izin fa = Fy / SF.
+
+2.3.1. Daya Dukung Yang Diizinkan
+Kestabilan alas terhadap kerusakan daya dukung dicapai dengan memakai faktor keamanan yang sesuai dengan daya dukung puncak yang dihitung dimana faktor kemanan biasanya diambil 2,0 untuk tanah berbutir dan 3,0 untuk tanah kohesif.
+Daya dukung tanah yang diizinkan dapat dihitung dengan memakai persamaan daya dukung berikut :
 qu=c.Nc.Fcd.Fci+q.Nq.Fqd.Fqi+0.5.
-.B'.N .F d.F i  
- 
- 
- 
-dimana qu  adalah daya dukung tanah  
-Telapak tersebut juga harus cukup 
-stabil terhadap pengikisan/erosi dan 
-penegangan 
-daya 
-dukung 
-dan 
-ketahanan gelincir yang cukup.  
-Tekanan tanah sebenarnya dihitung 
-sebagai suatu telapak kaku dengan 
-menggunakan distribusi tekanan linier. 
-33 
- 
-ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI 
-SKYLAND JAYAPURA SELATAN 
-Ir. Masriani Endayanti, MT1)  , Krisman Marpaung, ST 2) 
- 
-Pada tanah mempunyai daya dukung 
-rendah, tidak praktis untuk memakai 
-plat alas yang lebih lebar, maka perlu 
-untuk memakai pondasi tiang pancang 
-untuk mendukung plat alas yang pada 
-akhirnya mendukung dinding turap. 
-Cara ini merupakan bentuk umum 
-untuk tumpuan jembatan sehingga 
-penurunan dapat dikendalikan secara 
-wajar pada sambungan antara urugan 
-dan lantai jembatan.    
- 
-3. METODOLOGI PENELITIAN 
-Dinding penahan tanah pada lereng 
-Skyland Jayapura Selatan berada pada 
-lereng yang curam. Untuk pelaksanaan 
-perbaikan lereng digunakan dinding 
-penahan tanah  gravitasi.  
- 
-Pada lereng Skyland Jayapura Selatan 
-digunakan 
-dinding 
-penahan 
-tanah 
-gravitasi yang terbuat dari pasangan 
-batu kali. Tinggi dinding penahan tanah  
-6meter. Bahan dari dinding ini dibuat 
-dari blok batuan, bata, atau beton polos 
-(plain concrete).  
- 
- 
-Gambar 3.1. Peta Lokasi Skyland 
-Jayapura Selatan  
- 
-Gambar 3.2. Dinding Penahan Tanah di 
-Lokasi Skyland Jayapura Selatan  
- 
-4. ANALSIS DAN PEMBAHASAN 
-Perencanaan dinding penahan tanah  
-(retainingwall) pada lereng Skyland 
-Jayapura Selatan sebagai berikut : 
- 
-4.1. Perhitungan Berat dan Gaya 
-pada Dinding Penahan Tanah 
-Tabel 4.3. Berat Dinding Penahan 
-Tanah dan Momen Tahanan terhadap 
-titik O 
-No 
-Berat 
-Dinding 
-(ton) 
-Lengan 
-Momen 
-(m) 
-Momen 
-Tahanan 
-(ton.m) 
-1 
-W1 = 1,764 
-0,767 
-1,352 
-2 
-W2 = 1,512 
-1,150 
-1,739 
-3 
-W3 = 2,856 
-0,850 
-2,428 
-4 
-W4 = 2,016 
-1,500 
-3,024 
-TOTAL 
-8,148 
- 
-8,543 
-Wi = γc Ai, merupakan berat dari 
-dinding penahan tanah (retaining 
-wall) persatuan panjang dinding, 
-γc= berat volume dinding yang terbuat 
-dari beton ( γc= 2.40 t/m3)  
-Skyland 
-34 
- 
-JURNAL TEKNIK  VOLUME VIII, FEBRUARI 2019 ; 22-35 
-Ai = luaspenampang dari bagian-bagian 
-dinding penahan tanah. 
- 
-Gambar 4.1. Perencanaan Dinding 
-Penahan Tanah 
- 
-4.2. Perhitungan Tekanan Tanah 
-Tekanan tanah aktif dibelakang 
-dinding penahan tanah (retaining wall), 
-dihitung berdasarkan metode Rankine, 
-yaitu sebagai berikut : 
-Ka = tan2 (45 – φ/2) = tan2 [45 – 
-(18,52/2)] = 0,518 
-Pa = ½ Ka γ H2 = ½ (0,518) (0,179) 
-(3,00)2 = 0,417 ton 
- 
-1.  Beban dan Gaya-Gaya yang 
-Bekerja 
-pada 
-Dinding 
-Penahan 
-Tanah 
-Tabel 4.4. Beban dan Gaya-Gaya yang 
-Bekerja pada Dinding Penahan Tanah 
-No 
-Beban 
-Nilai 
-Beban 
-(ton) 
-Lengan 
-Momen 
-(m) 
-Mo 
-(ton.m) 
-MR 
-(ton.m) 
-1 
-W1 
-1,764 
-0,767 
-- 
-1,352 
-2 
-W2 
-1,512 
-1,150 
-- 
-1,739 
-3 
-W3 
-2,856 
-0,850 
-- 
-2,428 
-4 
-W4 
-2,016 
-1,500 
-- 
-3,024 
- 
-Pa 
-0,417 
-3,000 
-1,251 
-8,543 
- 
- 
- 
-2. Faktor Keamanan untuk Dinding 
-Penahan Tanah 
-a). Faktor Keamanan terhadap Guling 
-(Overturning) 
-829
+.B'.N .F d.F i
+
+dimana qu adalah daya dukung tanah
+Telapak tersebut juga harus cukup stabil terhadap pengikisan/erosi dan penegangan daya dukung dan ketahanan gelincir yang cukup.
+Tekanan tanah sebenarnya dihitung sebagai suatu telapak kaku dengan menggunakan distribusi tekanan linier.
+
+ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI
+SKYLAND JAYAPURA SELATAN
+Ir. Masriani Endayanti, MT1) , Krisman Marpaung, ST 2)
+
+Pada tanah mempunyai daya dukung rendah, tidak praktis untuk memakai plat alas yang lebih lebar, maka perlu untuk memakai pondasi tiang pancang untuk mendukung plat alas yang pada akhirnya mendukung dinding turap.
+Cara ini merupakan bentuk umum untuk tumpuan jembatan sehingga penurunan dapat dikendalikan secara wajar pada sambungan antara urugan dan lantai jembatan.
+
+3. METODOLOGI PENELITIAN
+Dinding penahan tanah pada lereng
+Skyland Jayapura Selatan berada pada lereng yang curam. Untuk pelaksanaan perbaikan lereng digunakan dinding penahan tanah gravitasi.
+
+Pada lereng Skyland Jayapura Selatan digunakan dinding penahan tanah gravitasi yang terbuat dari pasangan batu kali. Tinggi dinding penahan tanah
+6meter. Bahan dari dinding ini dibuat dari blok batuan, bata, atau beton polos
+(plain concrete).
+
+Gambar 3.1. Peta Lokasi Skyland
+Jayapura Selatan
+
+Gambar 3.2. Dinding Penahan Tanah di
+Lokasi Skyland Jayapura Selatan
+
+4. ANALSIS DAN PEMBAHASAN
+Perencanaan dinding penahan tanah
+(retainingwall) pada lereng Skyland
+Jayapura Selatan sebagai berikut :
+
+4.1. Perhitungan Berat dan Gaya pada Dinding Penahan Tanah
+Tabel 4.3. Berat Dinding Penahan
+Tanah dan Momen Tahanan terhadap titik O
+No
+Berat
+Dinding
+(ton)
+Lengan
+Momen
+(m)
+Momen
+Tahanan
+(ton.m)
+W1 = 1,764
+0,767
+1,352
+W2 = 1,512
+1,150
+1,739
+W3 = 2,856
+0,850
+2,428
+W4 = 2,016
+1,500
+3,024
+TOTAL
+8,148
+
+8,543
+Wi = γc Ai, merupakan berat dari dinding penahan tanah (retaining wall) persatuan panjang dinding, γc= berat volume dinding yang terbuat dari beton ( γc= 2.40 t/m3)
+Skyland
+
+JURNAL TEKNIK VOLUME VIII, FEBRUARI 2019 ; 22-35
+Ai = luaspenampang dari bagian-bagian dinding penahan tanah.
+
+Gambar 4.1. Perencanaan Dinding
+Penahan Tanah
+
+4.2. Perhitungan Tekanan Tanah
+Tekanan tanah aktif dibelakang dinding penahan tanah (retaining wall), dihitung berdasarkan metode Rankine, yaitu sebagai berikut :
+Ka = tan2 (45 – φ/2) = tan2 [45 –
+(18,52/2)] = 0,518
+Pa = ½ Ka γ H2 = ½ (0,518) (0,179)
+(3,00)2 = 0,417 ton
+
+1. Beban dan Gaya-Gaya yang
+Bekerja pada
+Dinding
+Penahan
+Tanah
+Tabel 4.4. Beban dan Gaya-Gaya yang
+Bekerja pada Dinding Penahan Tanah
+No
+Beban
+Nilai
+Beban
+(ton)
+Lengan
+Momen
+(m)
+Mo
+(ton.m)
+MR
+(ton.m)
+W1
+1,764
+0,767
+-
+1,352
+W2
+1,512
+1,150
+-
+1,739
+W3
+2,856
+0,850
+-
+2,428
+W4
+2,016
+1,500
+-
+3,024
+
+Pa
+0,417
+3,000
+1,251
+8,543
+
+2. Faktor Keamanan untuk Dinding
+Penahan Tanah a). Faktor Keamanan terhadap Guling
+(Overturning)
 ,6
-251
 ,1
-543
 ,8
 )
 (
@@ -1806,300 +678,199 @@ a). Faktor Keamanan terhadap Guling
 
 
 O
-R
-overturing
+R overturing
 M
 M
 SF
- 
-b). Faktor Keamanan terhadap Geser 
-(Sliding) 
+
+b). Faktor Keamanan terhadap Geser
+(Sliding)
 
 
-270
 ,4
-417
 ,0
 )
-52
 ,
-18
 )(
-3
 /
-2
-(
-tan
-148
+( tan
 ,8
-)
-tan( 1
+) tan( 1
 )
 (
 
 
 
 
-Pa
-k
+Pa k
 V
 SF Sliding
-
-c). Faktor Keamanan terhadap Daya 
-Dukung (Bearing Capacity) 
-      Kapasitas dukung ultimit dihitung 
-menggunakan 
-persamaan 
-Terzaghi 
-dengan asumsi bahwa dinding penahan 
-tanah merupakan pondasi memanjang. 
-Tabel 4.5. Nilai-Nilai Faktor Kapasitas 
-Daya Dukung Terzaghi 
-Ø 
- 
-Keruntuhan Geser 
-Umum 
- 
- 
-Nc 
-Nq 
-Nγ 
-0 
-5,7 
-1,0 
-0,0 
-5 
-7,3 
-1,6 
-0,5 
-10 
-9,6 
-2,7 
-1,2 
-15 
-12,9 
-4,4 
-2,5 
-20 
-17,7 
-7,4 
-5,0 
-25 
-25,1 
-12,7 
-9,7 
-30 
-37,2 
-22,5 
-19,7 
-35 
-57,8 
-41,4 
-42,4 
-40 
-95,7 
-81,3 
-100,4 
-45 
-172,3 
-173,3 
-297,5 
- 
-Untuk φ = 18,52° dalam hal ini diambil 
-φ = 20 °, dari Tabel 4.3, diperoleh : 
-Nc = 17,7 ;  Nq = 7,4   ; Nγ = 5,0 
-q  = berat tanah yang dipikul  =  1,365 x 
-γ = 1,365 x 1,79 = 2,443 ton 
-qu = C.Nc + q Nq + ½ B γ Nγ  
-= (0,1819 x 17,7) + (2,443 x7,4) + ½ 
-(1,7x0,179x5,0) = 3,219 + 18,06+0,761 
-= 22,039 t/m2 
-2
-max
+ c). Faktor Keamanan terhadap Daya
+Dukung (Bearing Capacity)
+Kapasitas dukung ultimit dihitung menggunakan persamaan
+Terzaghi dengan asumsi bahwa dinding penahan tanah merupakan pondasi memanjang.
+Tabel 4.5. Nilai-Nilai Faktor Kapasitas
+Daya Dukung Terzaghi
+Ø
+
+Keruntuhan Geser
+Umum
+
+Nc
+Nq
+Nγ
+5,7
+1,0
+0,0
+7,3
+1,6
+0,5
+9,6
+2,7
+1,2
+12,9
+4,4
+2,5
+17,7
+7,4
+5,0
+25,1
+12,7
+9,7
+37,2
+22,5
+19,7
+57,8
+41,4
+42,4
+95,7
+81,3
+100,4
+172,3
+173,3
+297,5
+
+Untuk φ = 18,52° dalam hal ini diambil φ = 20 °, dari Tabel 4.3, diperoleh :
+Nc = 17,7 ; Nq = 7,4 ; Nγ = 5,0 q = berat tanah yang dipikul = 1,365 x γ = 1,365 x 1,79 = 2,443 ton qu = C.Nc + q Nq + ½ B γ Nγ
+= (0,1819 x 17,7) + (2,443 x7,4) + ½
+(1,7x0,179x5,0) = 3,219 + 18,06+0,761
+= 22,039 t/m2 max
 /
-843
 ,4
 )
-70
 ,1(
-12
-1
-70
 ,1
-148
-,8
-12
-1
-m
-ton
+,8 m ton
 B
 B
-V
-q
+V q
 
 
 
 
 
- 
-550
+
 ,4
-843
 ,4
-039
-,
-22
-max
+, max
 )
 (
 
 
-q
-q
+q q
+SF u acity bearingcap
+
+ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI
+SKYLAND JAYAPURA SELATAN
+Ir. Masriani Endayanti, MT1) , Krisman Marpaung, ST 2)
+
+Tabel 4.6. Tinjauan Terhadap Guling,
+Geser, Daya Dukung
+
 SF
-u
-acity
-bearingcap
- 
-35 
- 
-ANALISIS PERKUATAN LERENG DENGAN MENGGUNAKAN DINDING PENAHAN TANAH DI 
-SKYLAND JAYAPURA SELATAN 
-Ir. Masriani Endayanti, MT1)  , Krisman Marpaung, ST 2) 
- 
-Tabel 4.6. Tinjauan Terhadap Guling, 
-Geser, Daya Dukung 
- 
-SF 
-Nilai 
-Rujukan  
-Kondisi 
-SF Terhadap 
-Guling  
+Nilai
+Rujukan
+Kondisi
+SF Terhadap
+Guling
 )
 (overturing
 SF
- 
-6,829 
-1,5 
-Aman  
-SF Terhadap 
-Geser  
+
+6,829
+1,5
+Aman
+SF Terhadap
+Geser
 )
 (Sliding
 SF
- 
-4,270 
-1,5 
-Aman  
-SF Terhadap 
-Daya 
-Dukung  
+
+4,270
+1,5
+Aman
+SF Terhadap
+Daya
+Dukung
 )
-(
-acity
-bearingcap
+( acity bearingcap
 SF
- 
-4,550 
-1,5 
-Aman  
- 
-5. KESIMPULAN   
-1. Proyekpembangunan 
-Skyland 
-Jayapura Selatan dengan topografi 
-tanah 
-berlereng 
-memungkinkan 
-terjadinya 
-ketidakstabilan 
-tanah 
-terhadap 
-longsor. 
-Sehingga 
-dibutuhkan penyeledikan terhadap 
-kemampuan tanah menahan geser. 
-Perencanaan dinding penahan tanah 
-ditinjau dari segi kekuatan untuk 
-menopang 
-besarnya 
-gaya 
-guling,gaya geser dan daya dukung. 
-2. Berdasarkankondisi 
-tanah 
-pada 
-proyek 
-pembangunan 
-Skyland 
-Jayapura Selatan yang cendrung 
-memiliki parameter kohesi tanah 
-yang 
-relatif 
-kecil, 
-diperlukan 
-konstruksi dinding penahan tanah. 
-Kelongsoran 
-tanah 
-merupakan 
-salah satu yang paling sering terjadi 
-pada akibat meningkatnya tegangan 
-geser suatu massa tanah atau 
-menurunnya kekuatan geser suatu 
-massa tanah. Dengan kata lain, 
-kekuatan geser dari suatu massa 
-tanah tidak mampu memikul beban 
-kerja yang terjadi.  
-3. Dari perhitungan dinding penahan 
-tanah 
-pada 
-Proyek 
-Skyland 
-Jayapura Selatan ternyata aman 
-terhadap : guling, geser, dan daya 
-dukung. 
- 
-DAFTAR PUSTAKA 
-Bowles, Joseph (translated by Sinaban 
-Pantur), (1999), “Analisis dan 
-Disain Pondasi” edisi ketiga jilid 
-2. Jakarta. Penerbit Erlangga 
-Das, Braja M (translated by Mochtar. N. 
-E and Mochtar I.B.), (1995), 
-“Mekanika 
-Tanah 
-(PrinsipprinsipRekayasa 
-Geoteknis)” 
-Jilid 2, Jakarta, 
-Penerbit Erlangga. 
-Das, Braja M, (1990), “Principles Of 
-Foundation Engineering, second 
-edition”, 
-Boston, 
-Pws-kent 
-Publishing Company. 
-Das, Braja M., (1984), ″Fundamentals 
-of 
-Soil 
-Dynamics″, 
-Elsevier 
-Science Publishing Co. Inc.,New 
-York. 
-Ir.G.Djatmiko 
-Soedarno 
-(1993), 
-Mekanika Tanah 2 , Kanisius, 
-Yokyakarta. 
-Ir. Sunggono Kh (1982), Mekanika 
-Tanah, Penerbit Nova Bandung. 
-L.D. Wesley (1973), Mekanika Tanah 
-terjemahan 
-: 
-Ir.A.M.Luthfi, 
-Pekerjaan Umum, Jakarta 
-Mario Paz, „Dinamika Struktur, Teori 
-dan 
-Perhitungan“, 
-Penerbit 
-Erlangga Jakarta, Edisi Kedua 
- 
+
+4,550
+1,5
+Aman
+
+5. KESIMPULAN
+1. Proyekpembangunan
+Skyland
+Jayapura Selatan dengan topografi tanah berlereng memungkinkan terjadinya ketidakstabilan tanah terhadap longsor.
+Sehingga dibutuhkan penyeledikan terhadap kemampuan tanah menahan geser.
+Perencanaan dinding penahan tanah ditinjau dari segi kekuatan untuk menopang besarnya gaya guling,gaya geser dan daya dukung.
+2. Berdasarkankondisi tanah pada proyek pembangunan
+Skyland
+Jayapura Selatan yang cendrung memiliki parameter kohesi tanah yang relatif kecil, diperlukan konstruksi dinding penahan tanah.
+Kelongsoran tanah merupakan salah satu yang paling sering terjadi pada akibat meningkatnya tegangan geser suatu massa tanah atau menurunnya kekuatan geser suatu massa tanah. Dengan kata lain, kekuatan geser dari suatu massa tanah tidak mampu memikul beban kerja yang terjadi.
+3. Dari perhitungan dinding penahan tanah pada
+Proyek
+Skyland
+Jayapura Selatan ternyata aman terhadap : guling, geser, dan daya dukung.
+
+DAFTAR PUSTAKA
+Bowles, Joseph (translated by Sinaban
+Pantur), (1999), “Analisis dan
+Disain Pondasi” edisi ketiga jilid
+2. Jakarta. Penerbit Erlangga
+Das, Braja M (translated by Mochtar. N.
+E and Mochtar I.B.), (1995),
+“Mekanika
+Tanah
+(PrinsipprinsipRekayasa
+Geoteknis)”
+Jilid 2, Jakarta,
+Penerbit Erlangga.
+Das, Braja M, (1990), “Principles Of
+Foundation Engineering, second edition”,
+Boston,
+Pws-kent
+Publishing Company.
+Das, Braja M., (1984), ″Fundamentals of
+Soil
+Dynamics″,
+Elsevier
+Science Publishing Co. Inc.,New
+York.
+Ir.G.Djatmiko
+Soedarno
+(1993),
+Mekanika Tanah 2 , Kanisius,
+Yokyakarta.
+Ir. Sunggono Kh (1982), Mekanika
+Tanah, Penerbit Nova Bandung.
+L.D. Wesley (1973), Mekanika Tanah terjemahan
+:
+Ir.A.M.Luthfi,
+Pekerjaan Umum, Jakarta
+Mario Paz, „Dinamika Struktur, Teori dan
+Perhitungan“,
+Penerbit
+Erlangga Jakarta, Edisi Kedua

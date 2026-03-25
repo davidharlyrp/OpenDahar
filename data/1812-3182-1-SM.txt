@@ -1,1747 +1,997 @@
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 1  
-  
-ANALISIS PERBAIKAN DAYA DUKUNG TANAH LUNAK DENGAN METODE 
-STONE COLUMN 
-(Studi Kasus : Simpang Susun Rangkas Bitung Jalan Tol Serang-Panimbang) 
-Oleh:  
-Aghnii Auliya Anjani 1), Hikmad Lukman 2), Budiono 3)   
-ABSTRAK  
-Tanah adalah bagian yang sangat penting dalam mendukung pembangunan infrastruktur karena tanah 
-menjadi pijakan dan dasar yang menerima semua beban di atasnya. Suatu konstruksi yang berada di 
-atas tanah lunak akan menemui masalah terutama berkaitan dengan besarnya penurunan yang akan 
-terjadi setelah sebuah konstruksi didirikan di atasnya. Hal ini disebabkan karena tanah lunak memiliki 
-sifat gaya geser tanah yang kecil, kompresibilitas yang sangat besar, koefisien permeabilitas yang 
-kecil dan mempunyai daya dukung rendah. Agar tanah lunak dapat digunakan sebagai tanah dasar, 
-maka perbaikan tanah diperlukan. Salah satu perbaikan untuk tanah lunak yaitu stone column. 
-Penelitian ini menganalisis daya dukung dan besarnya penurunan yang terjadi pada tanah dasar akibat 
-timbunan dengan dua kondisi yaitu kondisi tanah dasar tanpa stone column dan kondisi tanah dasar 
-dengan perbaikan stone column. Pada penelitian ini untuk perhitungan daya dukung tanah dilakukan 
-secara analitis, sedangkan untuk perhitungan penurunan dilakukan menggunakan software Plaxis 8.2 
-2D.  
-Berdasarkan analisis perhitungan, didapatkan daya dukung ijin tanah dasar dengan adanya perkuatan 
-stone column lebih tinggi dibandingkan sebelum adanya stone column. Selanjutnya untuk besarnya 
-penurunan tanah pada tanah dasar terdapat pengurangan penurunan, yaitu tanpa stone column sebesar 
-1,176 m, sedangkan dengan stone column hanya sebesar 0,0023 m. 
- 
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 1
+
+ANALISIS PERBAIKAN DAYA DUKUNG TANAH LUNAK DENGAN METODE
+STONE COLUMN
+(Studi Kasus : Simpang Susun Rangkas Bitung Jalan Tol Serang-Panimbang)
+Oleh:
+Aghnii Auliya Anjani 1), Hikmad Lukman 2), Budiono 3)
+ABSTRAK
+Tanah adalah bagian yang sangat penting dalam mendukung pembangunan infrastruktur karena tanah menjadi pijakan dan dasar yang menerima semua beban di atasnya. Suatu konstruksi yang berada di atas tanah lunak akan menemui masalah terutama berkaitan dengan besarnya penurunan yang akan terjadi setelah sebuah konstruksi didirikan di atasnya. Hal ini disebabkan karena tanah lunak memiliki sifat gaya geser tanah yang kecil, kompresibilitas yang sangat besar, koefisien permeabilitas yang kecil dan mempunyai daya dukung rendah. Agar tanah lunak dapat digunakan sebagai tanah dasar, maka perbaikan tanah diperlukan. Salah satu perbaikan untuk tanah lunak yaitu stone column.
+Penelitian ini menganalisis daya dukung dan besarnya penurunan yang terjadi pada tanah dasar akibat timbunan dengan dua kondisi yaitu kondisi tanah dasar tanpa stone column dan kondisi tanah dasar dengan perbaikan stone column. Pada penelitian ini untuk perhitungan daya dukung tanah dilakukan secara analitis, sedangkan untuk perhitungan penurunan dilakukan menggunakan software Plaxis 8.2
+2D.
+Berdasarkan analisis perhitungan, didapatkan daya dukung ijin tanah dasar dengan adanya perkuatan stone column lebih tinggi dibandingkan sebelum adanya stone column. Selanjutnya untuk besarnya penurunan tanah pada tanah dasar terdapat pengurangan penurunan, yaitu tanpa stone column sebesar
+1,176 m, sedangkan dengan stone column hanya sebesar 0,0023 m.
+
 Kata kunci : daya dukung, penurunan, stone column, tanah lunak.
-I. 
-PENDAHULUAN  
-Jalan Tol Serang – Panimbang adalah jalan 
-tol yang menghubungkan Serang dan Kawasan 
-Ekonomi Khusus Pariwisata Tanjung Lesung, 
-Banten. Pada saat pelaksanaan di lapangan, 
-tentunya 
-selalu 
-ada 
-permasalahan 
-yang 
-dihadapi. Pada Proyek Pembangunan Jalan Tol 
-Serang – Panimbang, terdapat problem pada 
-tanah yaitu adanya tanah lempung lunak dan 
-muka air yang tinggi. Tanah adalah bagian yang 
-sangat penting dalam mendukung pembangunan 
-infrastruktur karena tanah menjadi pijakan dan 
-dasar yang menerima semua beban yang 
-ditimbulkan akibat dari bangunan konstruksi di 
-atasnya. Suatu konstruksi yang berada di atas 
-tanah lunak akan menemui masalah terutama 
-berkaitan dengan besarnya penurunan yang 
-akan terjadi setelah sebuah konstruksi didirikan 
-di atasnya. Hal ini disebabkan karena tingginya 
-kadar air dalam tanah yang dapat menyebabkan 
-hilangnya lekatan antar butiran tanah. Tanah 
-lunak umumnya memiliki daya dukung yang 
-rendah. Apabila tanah lunak digunakan sebagai 
-pendukung fondasi dan bangunan sangat tidak 
-menguntungkan, karena akan banyak kerugian 
-yang ditimbulkan. Meskipun kerusakan yang 
-diakibatkan 
-tidak 
-bersifat 
-mendadak 
-dan 
-langsung namun kerugian secara materi yang 
-diakibatkan akan cukup besar, oleh karena itu 
-perlu diadakannya perbaikan tanah untuk 
-meningkatkan daya dukung tanah tersebut. 
-Sehingga pada kesempatan ini akan dibahas 
-teknik perbaikan untuk perkuatan tanah lunak di 
-Simpang Susun Rangkas Bitung Ramp 3 
-Sta.0+300 Proyek Pembangunan Jalan Tol 
-Serang-Panimbang.  
- 
-II. LANDASAN TEORI  
-2.1. Tinjauan Umum 
-Tanah dasar atau subgrade adalah lapisan 
-tanah paling bawah yang berfungsi sebagai 
-tempat 
-perletakan 
-lapis 
-perkerasan 
-dan 
-mendukung konstruksi perkerasan jalan di 
-atasnya. Subgrade pada proyek jalan raya 
-memegang peranan penting dalam menentukan 
-kualitas 
-perkerasan 
-jalan. 
-Tanah 
-dasar 
-(subgrade) dapat berupa tanah asli yang 
-dipadatkan jika tanah aslinya baik atau tanah 
-urugan yang didatangkan dari tempat lain atau 
-tanah yang distabilisasi (dengan semen, kapur 
-dan lain lain).  
- 
-2.2. Prinsip-Prinsip Dasar Tanah Lunak 
-Tanah lempung merupakan tanah dengan 
-ukuran 
-mikrokonis 
-sampai 
-dengan 
-sub 
-mikrokonis yang berasal dari pelapukan unsur-
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 2  
-  
-unsur kimiawi penyusun batuan. Tanah lempung 
-sangat keras dalam keadaan kering, bersifat 
-plastis pada kadar air sedang, sedangkan pada 
-keadaan air yang lebih tinggi tanah lempung 
-akan bersifat lengket (kohesif) dan sangat lunak 
-(Terzaghi, 1987). Tanah lunak memiliki sifat 
-berupa daya dukung relatif rendah, nilai kuat 
-geser undrained rendah, permeabilitas rendah, 
-sifat 
-kembang 
-susut 
-yang 
-besar, 
-dan 
-pemampatan relatif besar yang berlangsung 
-relatif lama. Sehingga apabila keberadaan tanah 
-lunak ini tidak dikenali dan diselidiki secara 
-berhati-hati 
-dapat 
-menyebabkan 
-masalah 
-ketidakstabilan dan penurunan jangka panjang 
-yang dapat merusak struktur bangunan yang 
-berada di atasnya.  
- 
-2.3. Perencanaan Jalan Tol di Atas Tanah 
-Lunak 
-A.  Analisa Tanah di Lapangan 
-Menganalisa tanah merupakan kegiatan 
-awal 
-daripada 
-sebuah 
-perencanaan 
-bangunan, tujuan dari proses analisa tanah 
-adalah agar dapat memperoleh keputusan 
-yang 
-tepat 
-dalam 
-pemilihan 
-pondasi, 
-terdapat langkah – langkah untuk dapat 
-menganalisa tanah di lapangan :  
-1. Penyelidikan Geoteknik Pendahuluan 
-Untuk Pekerjaan Perbaikan Tanah   
-2. Pembuatan Stratigrafi Tanah 
-3. Parameter Tanah 
-4. Kriteria Desain 
-B. Perencanaan Timbunan 
-Tinggi timbunan pada saat pelaksanaan 
-umumnya tidak akan sama dengan tinggi 
-timbunan yang direncanakan. Tinggi pada 
-saat pelaksanaan haruslah lebih tinggi dari 
-tinggi rencana, hal ini dimaksudkan untuk 
-menambah tinggi yang hilang akibat adanya 
-penurunan tanah dasar yang disebabkan 
-berat timbunan itu sendiri. Tinggi timbunan 
-pada perencanaan dibedakan menjadi tiga 
-jenis, yaitu tinggi timbunan rencana, tinggi 
-timbunan pelaksanaan dan tinggi timbunan 
-kritis. 
-1. Hakhir = Hawal-Sc...(1) 
-2. Hawal = qi+Sci( (γtimb-γ’timb)/ γtimb))…(2) 
-Keterangan :  
-Hakhir : Tinggi Timbunan Akhir  
-Hawal : Tinggi Timbunan Awal  
-Sc 
-: Total penurunan tanah akibat  
-   timbunan H  
-𝛾′t𝑖𝑚𝑏 : Berat volume efektif material  
- timbunan 
-3. Tinggi 
-kritis 
-merupakan 
-tinggi 
-maksimal dari timbunan yang dapat 
-dilaksanakan 
-berdasarkan 
-dari 
-kemampuan daya dukung tanah dasar 
-menerima beban timbunan setinggi yang 
-dilaksanakan. Tinggi timbunan kritis 
-merupakan tinggi yang menyebabkan 
-stabilitas timbunan mendekati kurang 
-dari angka keamanan yakni 1. 
-C. Analisa Potensi Perbaikan Tanah 
-Timbunan direncanakan kemudian daya 
-dukung tanah dasar dan settlement dihitung. 
-Apabila daya dukung tanah dasar tidak 
-mampu mengakomodasi beban timbunan 
-dan beban operasionalnya maka perlu 
-dilakukan improvement. Selain itu guna 
-menghindari nilai settlement rate yang 
-melebihi persyaratan 10 cm/10 tahun dan 
-maksimal 2 cm/tahun. 
-1. Pemeriksaan Daya Dukung Tanah Dasar 
-Sebelum Improvement 
-Daya dukung adalah kemampuan tanah 
-menahan beban, seperti beban timbunan, 
-beban perkerasan, dan beban lalu lintas. 
-Analisis daya dukung menggunakan 
-analisis stabilitas terhadap puncture 
-yang pada prinsipnya sama dengan 
-perhitungan daya dukung pondasi di 
-kondisi yang paling kritis (short term). 
-Untuk menganalisis daya dukung tanah 
-menggunakan formula Terzaghi. 
-2. Pemeriksaan 
-Settlement 
-Sebelum 
-Improvement 
-Penurunan tanah adalah hal utama yang 
-harus diperhatikan dalam perencanaan 
-jalan 
-tol 
-di 
-atas 
-tanah 
-lunak, 
-dikarenakan hal tersebut berpengaruh 
-terhadap 
-kuatnya 
-suatu 
-konstruksi 
-bangunan. Penambahan beban di atas 
-suatu 
-permukaan 
-tanah 
-dapat 
-menyebabkan 
-lapisan 
-tanah 
-di 
-bawahnya 
-mengalami 
-pemampatan. 
-Pemampatan tersebut disebabkan oleh 
-adanya 
-deformasi 
-partikel 
-tanah, 
-relokasi partikel, keluarnya air atau 
-udara dari dalam pori, dan sebab - sebab 
-lain. 
- 
-2.4. Perbaikan Tanah Dasar pada Tanah 
-Lunak  
-Perbaikan dan perkuatan tanah merupakan 
-usaha yang dilakukan dengan tujuan untuk 
-meningkatkan 
-kualitas 
-karakteristik 
-tanah, 
-utamanya parameter kuat geser tanah yang akan 
-mendukung sebuah struktur sehingga mampu 
-menahan beban struktur yang akan dibangun 
-dengan deformasi yang dizinkan. 
-Secara garis besar perbaikan dan perkuatan 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 3  
-  
-tanah dimaksudkan untuk :  
-1. Menaikkan daya dukung & kuat geser 
-2. Menaikkan modulus  
-3. Mengurangi kompressibilitas  
-4. Mengontrol stabilitas volume (shringking & 
-swelling)  
-5. Mengurangi kerentanan terhadap liquifaksi 
-6. Memperbaiki kualitas material untuk bahan 
-konstruksi  
-7. Memperkecil pengaruh lingkungan 
-Ada berbagai macam cara untuk perbaikan 
-tanah dasar, Menurut SNI 8460 – 2017, berbagai 
-macam cara penanganan tanah dapat dilihat 
-pada berikut: 
- 
-Gambar 1. Kriteria Tanah Untuk Pemilihan 
-Jenis Metode Perbaikan Tanah 
-Sumber : SNI 8460 – 2017 
- 
-Melihat pada hasil analisis tanah di 
-lapangan, perhitungan daya dukung tanah, tebal 
-lapisan tanah lunak, salah satu yang menjadikan 
-permasalahan utama adalah penurunan yang 
-sangat besar ketika dibebani, maka untuk 
-menanggulangi 
-permasalahan 
-tersebut 
-diperlukan perbaikan tanah dasar, terdapat 
-beberapa cara perbaikan tanah dasar yang dapat 
-dilakukan : Stone Column, Geotextile, Deep 
-Cement Mixing (DCM), Prefabricated Vertical 
-Drain (PVD). Dari berbagai metode tersebut 
-yang akan dibahas pada tulisan ini adalah 
-metode Stone Column. 
-➢ Stone Column 
-Kolom Batu atau Stone Column adalah jenis 
-perbaikan tanah dalam (deep replacement) 
-dimana agregat/mortar digunakan sebagai 
-material replacement pada lapisan tanah 
-lunak yang kemudian dipadatkan dengan 
-cara 
-digetar 
-dan 
-dibentuk 
-berderet 
-menyerupai 
-kolom. 
-Pemasangan 
-stone 
-column adalah salah satu metode perbaikan 
-tanah. Fungsi utama pemasangan stone 
-column adalah untuk meningkatkan daya 
-dukung tanah yang lunak sehingga tanah 
-lunak tersebut dapat menerima beban yang 
-lebih besar dan settlement yang terjadi akan 
-berkurang. Selain untuk meningkatkan daya 
-dukung tanah, menurut Barksdale dan 
-Banchus, 1982 ada beberapa keuntungan 
-lain, seperti :  
-1. Mengurangi total settlement tanah.  
-2. Memperpendek waktu konsolidasi.  
-3. Mengurangi bahaya liquefaction. 
-Dilihat dari metode pelaksanaan, ada dua 
-jenis metode yang biasa digunakan.  
- 
-          (A)  
- 
-   (B) 
-Gambar 2. (A) Metode Wet top feed  
-(B) Metode Dry Bottom Feed 
- 
-Perencanaan Stone Column : 
-Perencanaan 
-stone 
-column 
-meliputi 
-perencanaan diameter, jarak, dan panjang stone 
-column. Perencanaan tersebut dikontrol terhadap 
-kapasitas daya dukung batas stone column 
-sebagai stone column tunggal dan grup, overall 
-stability terhadap sliding, serta settlement yang 
-terjadi setelah dipasang stone column. 
-1. Diameter stone column dan konsep unit cell 
-Stone column diidealisasikan sebagai 
-suatu silinder dengan penampang berbentuk 
-lingkaran berdiameter D. Diameter stone 
-column 
-menentukan 
-besarnya 
-area 
-replacement ratio dan besarnya distribusi 
-tegangan pada tanah dan stone column. 
-Perencanaan 
-diameter 
-stone 
-column 
-tergantung dari tipe tanah yang diperbaiki, 
-beban yang harus didukung tanah, dan pola 
-pemasangannya. 
-Unit 
-Cell 
-pada 
-Stone 
-Column 
-merupakan satu silinder dengan diameter 
-ekivalen yang meliputi satu Stone Column 
-dengan 
-daerah 
-pengaruhnya. 
-Dalam 
-perencanaannya, konsep Extended Unit Cell 
-wajib berlaku, yaitu saat sebuah grup stone 
-column 
-dengan 
-panjang 
-tak 
-terbatas 
-memikul beban merata, setiap interior 
-kolom dapat dianggap sebagi unit cell 
-seperti yang diilustrasikan pada Gambar 3. 
- 
-Gambar 3. Ilustrasi unit cell 
-Pola pemasangan stone column akan 
-mempengaruhi bentuk 
-unit 
-cell. 
-Pola 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 4  
-  
-pemasangan 
-stone 
-column 
-dibedakan 
-menjadi dua pola, yaitu pola segitiga 
-(equilateral triangular pattern) dan pola 
-bujur 
-sangkar 
-(square 
-pattern). 
-Pola 
-pemasangan segitiga akan memberikan 
-bentuk segienam pada penampang unit cell, 
-dan pola bujur sangkar akan memberikan 
-bentuk 
-bujur 
-sangkar. 
-Kedua 
-bentuk 
-penampang tersebut bisa didekati dengan 
-bentuk lingkaran yang mempunyai diameter 
-Dw (diameter equivalen). Untuk pola 
-segitiga, Dw = 1.05s dan untuk pola bujur 
-sangkar Dw = 1.13s, dimana s adalah jarak 
-antar stone column. 
- 
-          (A)  
- 
-   (B) 
-Gambar 4. (A) Pola Pemasangan Segitiga  
-(B) Pola Pemasangan Bujur Sangkar 
- 
-2. Panjang dan jarak stone column 
-Panjang stone column yang direncanakan 
-diukur dari muka tanah asli sampai dengan 
-batas bawah perencanaan. Jarak stone 
-column 
-adalah 
-jarak 
-antara 
-pusat 
-penampang stone column dengan pusat 
-penampang stone column di sebelahnya. 
-Dengan demikian suatu kelompok stone 
-column mempunyai dua arah spacing, yaitu 
-arah x dan arah y yang besarnya sama. 
-Selain itu spacing juga akan mempengaruhi 
-besarnya pengurangan settlement stone 
-column dan tanah disekelilingnya. 
-3. Area Replacement Ratio (Rasio Pergantian 
-Luas (𝒂𝒔 )) 
-Area replacement ratio adalah perbandingan 
-antara luas penampang stone column dengan 
-luas tanah lunak di sekelilingnya. Untuk 
-menghitung jumlah pergantian tanah yang 
-dibutuhkan Stone Column, ditetapkan rasio 
-pergantian luas (𝑎𝑠), dengan rumusan 
-sebagai berikut : 
- 
-Keterangan :  
-𝒂𝒔 : Area replacement ratio stone column 
-𝒂𝒄 : Area replacement ratio tanah lunak  
-As : Luas penampang stone column  
-Ac : Luas penampang tanah lunak dalam 1 
-unit cell  
-A : Luas penampang total 1 unit cell  
-D : Diameter stone column  
-S : Spacing antar stone column  
-C1 : konstanta yang tergantung pada pola 
-penyusunan stone column (Pola segitiga C1 
-= 0.907, dan pola bujur sangkar C1 = π/4) 
-4. Konsep Penumpukan Tegangan (n) 
-Faktor konsentrasi tegangan (n) adalah 
-perbandingan tegangan antara tegangan 
-pada stone column dan tegangan pada tanah 
-sekitarnya. 
- 
-Keterangan :  
-σs : tegangan pada stone column  
-σc : tegangan tanah disekitar stone column 
- 
-Berdasarkan 
-kesembangan 
-gaya-gaya 
-vertikal yang ada sepanjang unit cell, maka 
-tegangan rata-rata yang bekerja pada unit 
-cell adalah fungsi dari area replacement 
-ratio (as). 
- 
-Dengan menggunakan persamaan di atas, 
-tegangan yang bekerja pada stone column 
-dan tegangan yang bekerja pada tanah lunak 
-di sekeliling stone column dapat ditentukan, 
-yaitu : 
- 
-Keterangan :  
-n : faktor konsentrasi tegangan 
-as : area replacement ratio  
-σ : tegangan rata-rata di atas unit cell akibat  
-     beban luar  
-σs : tegangan pada stone column akibat  
-beban luar  
-σc : tegangan pada tanah lunak di sekeliling  
-sc akibat beban luar  
-μc : ratio tegangan pada tanah lunak  
-μs : ratio tegangan pada stone column 
-5. Daya Dukung Stone Column Tunggal 
-Menurut Moreau (1835), sedikit sekali 
-beban yang mencapai dasar stone column 
-jika panjang stone column lebih besar dari 
-dua kali lebarnya. Beban yang bekerja akan 
-ditransfer oleh stone column ke tanah lunak 
-sekitarnya. 
-Pada 
-saat 
-stone 
-column 
-mengalami bulging dan penurunan, material 
-butiran stone column tertekan ke dalam 
-…(3) 
-…(4) 
-…(5) 
-…(6) 
-…(10) 
-…(9) 
-…(8) 
-…(7) 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 5  
-  
-tanah lunak dan mentransferkan tegangan 
-geser ke tanah. Dengan menggunakan 
-persamaan (11) dengan asumsi deep bulging 
-terjadi di atas stone column. 
- 
-Keterangan :  
-𝑞̃𝑢𝑙𝑡 atau 𝜎𝑠 : tegangan rerata pada stone  
-    column akibat beban luar.  
-𝑐 : kekuatan geser undrained sekitar stone  
-     column  
-𝑁̌𝑐 : faktor daya dukung stone column  
-        (18 < 𝑁̌𝑐< 22 ) 
-6. Daya Dukung Stone Column Group 
-Daya dukung ultimate stone column group 
-sangat dipengaruhi oleh tegangan pasif 
-horisontal dari tanah disekitar kelompok 
-stone column, undrained shear strenght 
-blok 
-komposit, 
-(Cavg) 
-dan 
-koefisien 
-tekanan tanah ke samping pasif untuk blok 
-komposit, (Kpkom). 
- 
-Dimana :  
-𝑷𝒖𝒍𝒕 : tegangan pada luas penampang stone  
-      column akibat beban luar  
-As     : Luas Penampang Stone Column 
- 
-2.5. PLAXIS 2D 
- PLAXIS 2D adalah sebuah paket program 
-dalam 
-dunia 
-teknik 
- 
-sipil 
-yang dibuat 
-berdasarkan 
-metode 
-elemen 
-hingga 
-yang 
-sehingga dapat digunakan untuk melakukan 
-analisa deformasi, penurunan, ataupun stabilitas 
-dalam bidang Geoteknik. Tahap pemodelan 
-dalam program PLAXIS 2D sendiri dapat 
-dilakukan 
-secara 
-grafis, 
-sehingga 
-memungkinkan pembuatan suatu model elemen 
-hingga yang cukup kompleks menjadi lebih 
-cepat dan mudah. Untuk tahap perhitungan 
-dalam program PLAXIS 2D sendiri, dilakukan 
-secara otomatis dengan berdasarkan kepada 
-prosedur numerik. Pada bagian output program 
-PLAXIS 2D, users dapat menampilkan data-data 
-yang diperlukan bilamana diperlukan untuk 
-mendesain suatu proyek. Pada program PLAXIS 
-2D, model struktur Geoteknik dapat dimodelkan 
-dengan 2 cara yaitu plane strain dan axisimetry.  
- 
-Gambar 5. Perbedaan Model Plane strain dan 
-axisimetry 
-Sumber : Manual Plaxis  
- 
-III. METODOLOGI PENELITIAN  
-3.1. Umum 
-Dalam penelitian ini dibahas analisis 
-perbaikan 
-tanah 
-agar 
-meningkatkan 
-daya 
-dukung tanah dan mempercepat pemampatan 
-yang terjadi pada tanah lunak. Lokasi rencana 
-yang akan di analisa yaitu pada Jalan Akses atau 
-Ramp 3 Sta.0+300 Simpang Susun Rangkas 
-Bitung trase Serang Panimbang. Adapun metode 
-yang akan dianalisis oleh penulis yaitu : Stone 
-Column.  
-  
-  
-3.2.  Lokasi Penelitian 
-Lokasi penelitian ini berada di Simpang 
-Susun Rangkas Bitung Ramp 3 Sta.0+300 
-Proyek 
-Pembangunan 
-Jalan 
-Tol 
+I.
+PENDAHULUAN
+Jalan Tol Serang – Panimbang adalah jalan tol yang menghubungkan Serang dan Kawasan
+Ekonomi Khusus Pariwisata Tanjung Lesung,
+Banten. Pada saat pelaksanaan di lapangan, tentunya selalu ada permasalahan yang dihadapi. Pada Proyek Pembangunan Jalan Tol
+Serang – Panimbang, terdapat problem pada tanah yaitu adanya tanah lempung lunak dan muka air yang tinggi. Tanah adalah bagian yang sangat penting dalam mendukung pembangunan infrastruktur karena tanah menjadi pijakan dan dasar yang menerima semua beban yang ditimbulkan akibat dari bangunan konstruksi di atasnya. Suatu konstruksi yang berada di atas tanah lunak akan menemui masalah terutama berkaitan dengan besarnya penurunan yang akan terjadi setelah sebuah konstruksi didirikan di atasnya. Hal ini disebabkan karena tingginya kadar air dalam tanah yang dapat menyebabkan hilangnya lekatan antar butiran tanah. Tanah lunak umumnya memiliki daya dukung yang rendah. Apabila tanah lunak digunakan sebagai pendukung fondasi dan bangunan sangat tidak menguntungkan, karena akan banyak kerugian yang ditimbulkan. Meskipun kerusakan yang diakibatkan tidak bersifat mendadak dan langsung namun kerugian secara materi yang diakibatkan akan cukup besar, oleh karena itu perlu diadakannya perbaikan tanah untuk meningkatkan daya dukung tanah tersebut.
+Sehingga pada kesempatan ini akan dibahas teknik perbaikan untuk perkuatan tanah lunak di
+Simpang Susun Rangkas Bitung Ramp 3
+Sta.0+300 Proyek Pembangunan Jalan Tol
+Serang-Panimbang.
+
+II. LANDASAN TEORI
+2.1. Tinjauan Umum
+Tanah dasar atau subgrade adalah lapisan tanah paling bawah yang berfungsi sebagai tempat perletakan lapis perkerasan dan mendukung konstruksi perkerasan jalan di atasnya. Subgrade pada proyek jalan raya memegang peranan penting dalam menentukan kualitas perkerasan jalan.
+Tanah dasar
+(subgrade) dapat berupa tanah asli yang dipadatkan jika tanah aslinya baik atau tanah urugan yang didatangkan dari tempat lain atau tanah yang distabilisasi (dengan semen, kapur dan lain lain).
+
+2.2. Prinsip-Prinsip Dasar Tanah Lunak
+Tanah lempung merupakan tanah dengan ukuran mikrokonis sampai dengan sub mikrokonis yang berasal dari pelapukan unsur-
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 2
+
+unsur kimiawi penyusun batuan. Tanah lempung sangat keras dalam keadaan kering, bersifat plastis pada kadar air sedang, sedangkan pada keadaan air yang lebih tinggi tanah lempung akan bersifat lengket (kohesif) dan sangat lunak
+(Terzaghi, 1987). Tanah lunak memiliki sifat berupa daya dukung relatif rendah, nilai kuat geser undrained rendah, permeabilitas rendah, sifat kembang susut yang besar, dan pemampatan relatif besar yang berlangsung relatif lama. Sehingga apabila keberadaan tanah lunak ini tidak dikenali dan diselidiki secara berhati-hati dapat menyebabkan masalah ketidakstabilan dan penurunan jangka panjang yang dapat merusak struktur bangunan yang berada di atasnya.
+
+2.3. Perencanaan Jalan Tol di Atas Tanah
+Lunak
+A. Analisa Tanah di Lapangan
+Menganalisa tanah merupakan kegiatan awal daripada sebuah perencanaan bangunan, tujuan dari proses analisa tanah adalah agar dapat memperoleh keputusan yang tepat dalam pemilihan pondasi, terdapat langkah – langkah untuk dapat menganalisa tanah di lapangan :
+1. Penyelidikan Geoteknik Pendahuluan
+Untuk Pekerjaan Perbaikan Tanah
+2. Pembuatan Stratigrafi Tanah
+3. Parameter Tanah
+4. Kriteria Desain
+B. Perencanaan Timbunan
+Tinggi timbunan pada saat pelaksanaan umumnya tidak akan sama dengan tinggi timbunan yang direncanakan. Tinggi pada saat pelaksanaan haruslah lebih tinggi dari tinggi rencana, hal ini dimaksudkan untuk menambah tinggi yang hilang akibat adanya penurunan tanah dasar yang disebabkan berat timbunan itu sendiri. Tinggi timbunan pada perencanaan dibedakan menjadi tiga jenis, yaitu tinggi timbunan rencana, tinggi timbunan pelaksanaan dan tinggi timbunan kritis.
+1. Hakhir = Hawal-Sc...(1)
+2. Hawal = qi+Sci( (γtimb-γ’timb)/ γtimb))…(2)
+Keterangan :
+Hakhir : Tinggi Timbunan Akhir
+Hawal : Tinggi Timbunan Awal
+Sc
+: Total penurunan tanah akibat timbunan H 𝛾′t𝑖𝑚𝑏 : Berat volume efektif material timbunan
+3. Tinggi kritis merupakan tinggi maksimal dari timbunan yang dapat dilaksanakan berdasarkan dari kemampuan daya dukung tanah dasar menerima beban timbunan setinggi yang dilaksanakan. Tinggi timbunan kritis merupakan tinggi yang menyebabkan stabilitas timbunan mendekati kurang dari angka keamanan yakni 1.
+C. Analisa Potensi Perbaikan Tanah
+Timbunan direncanakan kemudian daya dukung tanah dasar dan settlement dihitung.
+Apabila daya dukung tanah dasar tidak mampu mengakomodasi beban timbunan dan beban operasionalnya maka perlu dilakukan improvement. Selain itu guna menghindari nilai settlement rate yang melebihi persyaratan 10 cm/10 tahun dan maksimal 2 cm/tahun.
+1. Pemeriksaan Daya Dukung Tanah Dasar
+Sebelum Improvement
+Daya dukung adalah kemampuan tanah menahan beban, seperti beban timbunan, beban perkerasan, dan beban lalu lintas.
+Analisis daya dukung menggunakan analisis stabilitas terhadap puncture yang pada prinsipnya sama dengan perhitungan daya dukung pondasi di kondisi yang paling kritis (short term).
+Untuk menganalisis daya dukung tanah menggunakan formula Terzaghi.
+2. Pemeriksaan
+Settlement
+Sebelum
+Improvement
+Penurunan tanah adalah hal utama yang harus diperhatikan dalam perencanaan jalan tol di atas tanah lunak, dikarenakan hal tersebut berpengaruh terhadap kuatnya suatu konstruksi bangunan. Penambahan beban di atas suatu permukaan tanah dapat menyebabkan lapisan tanah di bawahnya mengalami pemampatan.
+Pemampatan tersebut disebabkan oleh adanya deformasi partikel tanah, relokasi partikel, keluarnya air atau udara dari dalam pori, dan sebab - sebab lain.
+
+2.4. Perbaikan Tanah Dasar pada Tanah
+Lunak
+Perbaikan dan perkuatan tanah merupakan usaha yang dilakukan dengan tujuan untuk meningkatkan kualitas karakteristik tanah, utamanya parameter kuat geser tanah yang akan mendukung sebuah struktur sehingga mampu menahan beban struktur yang akan dibangun dengan deformasi yang dizinkan.
+Secara garis besar perbaikan dan perkuatan
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 3
+
+tanah dimaksudkan untuk :
+1. Menaikkan daya dukung & kuat geser
+2. Menaikkan modulus
+3. Mengurangi kompressibilitas
+4. Mengontrol stabilitas volume (shringking & swelling)
+5. Mengurangi kerentanan terhadap liquifaksi
+6. Memperbaiki kualitas material untuk bahan konstruksi
+7. Memperkecil pengaruh lingkungan
+Ada berbagai macam cara untuk perbaikan tanah dasar, Menurut SNI 8460 – 2017, berbagai macam cara penanganan tanah dapat dilihat pada berikut:
+
+Gambar 1. Kriteria Tanah Untuk Pemilihan
+Jenis Metode Perbaikan Tanah
+Sumber : SNI 8460 – 2017
+
+Melihat pada hasil analisis tanah di lapangan, perhitungan daya dukung tanah, tebal lapisan tanah lunak, salah satu yang menjadikan permasalahan utama adalah penurunan yang sangat besar ketika dibebani, maka untuk menanggulangi permasalahan tersebut diperlukan perbaikan tanah dasar, terdapat beberapa cara perbaikan tanah dasar yang dapat dilakukan : Stone Column, Geotextile, Deep
+Cement Mixing (DCM), Prefabricated Vertical
+Drain (PVD). Dari berbagai metode tersebut yang akan dibahas pada tulisan ini adalah metode Stone Column.
+➢ Stone Column
+Kolom Batu atau Stone Column adalah jenis perbaikan tanah dalam (deep replacement) dimana agregat/mortar digunakan sebagai material replacement pada lapisan tanah lunak yang kemudian dipadatkan dengan cara digetar dan dibentuk berderet menyerupai kolom.
+Pemasangan stone column adalah salah satu metode perbaikan tanah. Fungsi utama pemasangan stone column adalah untuk meningkatkan daya dukung tanah yang lunak sehingga tanah lunak tersebut dapat menerima beban yang lebih besar dan settlement yang terjadi akan berkurang. Selain untuk meningkatkan daya dukung tanah, menurut Barksdale dan
+Banchus, 1982 ada beberapa keuntungan lain, seperti :
+1. Mengurangi total settlement tanah.
+2. Memperpendek waktu konsolidasi.
+3. Mengurangi bahaya liquefaction.
+Dilihat dari metode pelaksanaan, ada dua jenis metode yang biasa digunakan.
+
+(A)
+
+(B)
+Gambar 2. (A) Metode Wet top feed
+(B) Metode Dry Bottom Feed
+
+Perencanaan Stone Column :
+Perencanaan stone column meliputi perencanaan diameter, jarak, dan panjang stone column. Perencanaan tersebut dikontrol terhadap kapasitas daya dukung batas stone column sebagai stone column tunggal dan grup, overall stability terhadap sliding, serta settlement yang terjadi setelah dipasang stone column.
+1. Diameter stone column dan konsep unit cell
+Stone column diidealisasikan sebagai suatu silinder dengan penampang berbentuk lingkaran berdiameter D. Diameter stone column menentukan besarnya area replacement ratio dan besarnya distribusi tegangan pada tanah dan stone column.
+Perencanaan diameter stone column tergantung dari tipe tanah yang diperbaiki, beban yang harus didukung tanah, dan pola pemasangannya.
+Unit
+Cell pada
+Stone
+Column merupakan satu silinder dengan diameter ekivalen yang meliputi satu Stone Column dengan daerah pengaruhnya.
+Dalam perencanaannya, konsep Extended Unit Cell wajib berlaku, yaitu saat sebuah grup stone column dengan panjang tak terbatas memikul beban merata, setiap interior kolom dapat dianggap sebagi unit cell seperti yang diilustrasikan pada Gambar 3.
+
+Gambar 3. Ilustrasi unit cell
+Pola pemasangan stone column akan mempengaruhi bentuk unit cell.
+Pola
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 4
+
+pemasangan stone column dibedakan menjadi dua pola, yaitu pola segitiga
+(equilateral triangular pattern) dan pola bujur sangkar
+(square pattern).
+Pola pemasangan segitiga akan memberikan bentuk segienam pada penampang unit cell, dan pola bujur sangkar akan memberikan bentuk bujur sangkar.
+Kedua bentuk penampang tersebut bisa didekati dengan bentuk lingkaran yang mempunyai diameter
+Dw (diameter equivalen). Untuk pola segitiga, Dw = 1.05s dan untuk pola bujur sangkar Dw = 1.13s, dimana s adalah jarak antar stone column.
+
+(A)
+
+(B)
+Gambar 4. (A) Pola Pemasangan Segitiga
+(B) Pola Pemasangan Bujur Sangkar
+
+2. Panjang dan jarak stone column
+Panjang stone column yang direncanakan diukur dari muka tanah asli sampai dengan batas bawah perencanaan. Jarak stone column adalah jarak antara pusat penampang stone column dengan pusat penampang stone column di sebelahnya.
+Dengan demikian suatu kelompok stone column mempunyai dua arah spacing, yaitu arah x dan arah y yang besarnya sama.
+Selain itu spacing juga akan mempengaruhi besarnya pengurangan settlement stone column dan tanah disekelilingnya.
+3. Area Replacement Ratio (Rasio Pergantian
+Luas (𝒂𝒔 ))
+Area replacement ratio adalah perbandingan antara luas penampang stone column dengan luas tanah lunak di sekelilingnya. Untuk menghitung jumlah pergantian tanah yang dibutuhkan Stone Column, ditetapkan rasio pergantian luas (𝑎𝑠), dengan rumusan sebagai berikut :
+
+Keterangan :
+𝒂𝒔 : Area replacement ratio stone column 𝒂𝒄 : Area replacement ratio tanah lunak
+As : Luas penampang stone column
+Ac : Luas penampang tanah lunak dalam 1 unit cell
+A : Luas penampang total 1 unit cell
+D : Diameter stone column
+S : Spacing antar stone column
+C1 : konstanta yang tergantung pada pola penyusunan stone column (Pola segitiga C1
+= 0.907, dan pola bujur sangkar C1 = π/4)
+4. Konsep Penumpukan Tegangan (n)
+Faktor konsentrasi tegangan (n) adalah perbandingan tegangan antara tegangan pada stone column dan tegangan pada tanah sekitarnya.
+
+Keterangan :
+σs : tegangan pada stone column σc : tegangan tanah disekitar stone column
+
+Berdasarkan kesembangan gaya-gaya vertikal yang ada sepanjang unit cell, maka tegangan rata-rata yang bekerja pada unit cell adalah fungsi dari area replacement ratio (as).
+
+Dengan menggunakan persamaan di atas, tegangan yang bekerja pada stone column dan tegangan yang bekerja pada tanah lunak di sekeliling stone column dapat ditentukan, yaitu :
+
+Keterangan :
+n : faktor konsentrasi tegangan as : area replacement ratio σ : tegangan rata-rata di atas unit cell akibat beban luar σs : tegangan pada stone column akibat beban luar σc : tegangan pada tanah lunak di sekeliling sc akibat beban luar μc : ratio tegangan pada tanah lunak μs : ratio tegangan pada stone column
+5. Daya Dukung Stone Column Tunggal
+Menurut Moreau (1835), sedikit sekali beban yang mencapai dasar stone column jika panjang stone column lebih besar dari dua kali lebarnya. Beban yang bekerja akan ditransfer oleh stone column ke tanah lunak sekitarnya.
+Pada saat stone column mengalami bulging dan penurunan, material butiran stone column tertekan ke dalam
+…(3)
+…(4)
+…(5)
+…(6)
+…(10)
+…(9)
+…(8)
+…(7)
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 5
+
+tanah lunak dan mentransferkan tegangan geser ke tanah. Dengan menggunakan persamaan (11) dengan asumsi deep bulging terjadi di atas stone column.
+
+Keterangan :
+𝑞̃𝑢𝑙𝑡 atau 𝜎𝑠 : tegangan rerata pada stone column akibat beban luar.
+𝑐 : kekuatan geser undrained sekitar stone column
+𝑁̌𝑐 : faktor daya dukung stone column
+(18 < 𝑁̌𝑐< 22 )
+6. Daya Dukung Stone Column Group
+Daya dukung ultimate stone column group sangat dipengaruhi oleh tegangan pasif horisontal dari tanah disekitar kelompok stone column, undrained shear strenght blok komposit,
+(Cavg) dan koefisien tekanan tanah ke samping pasif untuk blok komposit, (Kpkom).
+
+Dimana :
+𝑷𝒖𝒍𝒕 : tegangan pada luas penampang stone column akibat beban luar
+As : Luas Penampang Stone Column
+
+2.5. PLAXIS 2D
+PLAXIS 2D adalah sebuah paket program dalam dunia teknik
+
+sipil yang dibuat berdasarkan metode elemen hingga yang sehingga dapat digunakan untuk melakukan analisa deformasi, penurunan, ataupun stabilitas dalam bidang Geoteknik. Tahap pemodelan dalam program PLAXIS 2D sendiri dapat dilakukan secara grafis, sehingga memungkinkan pembuatan suatu model elemen hingga yang cukup kompleks menjadi lebih cepat dan mudah. Untuk tahap perhitungan dalam program PLAXIS 2D sendiri, dilakukan secara otomatis dengan berdasarkan kepada prosedur numerik. Pada bagian output program
+PLAXIS 2D, users dapat menampilkan data-data yang diperlukan bilamana diperlukan untuk mendesain suatu proyek. Pada program PLAXIS
+2D, model struktur Geoteknik dapat dimodelkan dengan 2 cara yaitu plane strain dan axisimetry.
+
+Gambar 5. Perbedaan Model Plane strain dan axisimetry
+Sumber : Manual Plaxis
+
+III. METODOLOGI PENELITIAN
+3.1. Umum
+Dalam penelitian ini dibahas analisis perbaikan tanah agar meningkatkan daya dukung tanah dan mempercepat pemampatan yang terjadi pada tanah lunak. Lokasi rencana yang akan di analisa yaitu pada Jalan Akses atau
+Ramp 3 Sta.0+300 Simpang Susun Rangkas
+Bitung trase Serang Panimbang. Adapun metode yang akan dianalisis oleh penulis yaitu : Stone
+Column.
+
+3.2. Lokasi Penelitian
+Lokasi penelitian ini berada di Simpang
+Susun Rangkas Bitung Ramp 3 Sta.0+300
+Proyek
+Pembangunan
+Jalan
+Tol
 Serang-
-Panimbang. 
- 
- 
-Gambar 6. Peta dan Kondisi Lokasi Penelitian 
-Sumber: PT. Wijaya Karya (Persero) Tbk. 
- 
-3.4. Metode Penelitian 
-Untuk mencapai maksud dan tujuan studi 
-ini, dilakukan beberapa tahapan yang dianggap 
-perlu dan secara garis besar diuraikan sebagai 
-berikut: 
-1. Tahapan pertama adalah melakukan review 
-dan studi kepustakaan terhadap text book 
-dan jurnal-jurnal yang terkait. 
-2. Tahap ke-dua adalah pengumpulan data. 
-Data yang digunakan pada penelitian ini 
-adalah data sekunder. Pengumpulan data 
-lapangan harus memenuhi persyaratan 
-berikut: 
-➢ Sumber data sekunder diperoleh dari 
-instansi-instansi yang terkait pada 
-pembangunan Jalan Tol Serang – 
-Panimbang dan dari berbagai literatur 
-yang ditemui.  
-➢ Pada umumnya data yang diperoleh 
-antara lain berupa data narasi (tertulis), 
-data 
-sondir, 
-grafik, 
-gambar, 
-dokumentasi dan sebagainya. Data 
-sekunder 
-yang 
-diperlukan 
-untuk 
-pelaksanaan pekerjaan ini di antaranya 
-adalah: Data Tanah, Data Gambar 
-Perencanaan  dan  Dokumentasi 
-3. Tahap ke tiga adalah menganalisis data 
-dengan menggunakan data-data di atas 
-berdasarkan formula yang ada. 
-4. Tahap 
-ke 
-empat 
-menganalisis 
-hasil 
-perhitungan yang dilakukan dan membuat 
-…(11) 
-…(12) 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 6  
-  
-kesimpulan. 
-Berikut adalah Bagan alir penelitian dapat 
-dilihat pada Gambar 7. 
- 
-Gambar 7. Flowchart Penelitian 
-Sumber: Data Pribadi,2020. 
- 
-3.5. Data Penelitian 
-➢ Data Tanah Laboratorium 
-Tabel 1. Parameter Tanah Asli 
- 
-Sumber: PT. Safoco 
-Tabel 2. Parameter Tanah 
-Timbunan 
- 
-Sumber: PT. Safoco 
-Tabel 3. Parameter Stone Column 
- 
-  Sumber: Literatur 
-Tabel 4. Spesifikasi Stone Column 
- 
-Sumber: PT. Safoco 
-➢ Data Gambar Perencanaan 
- 
-Gambar 8. Plan Akses IC. Rangkas Bitung 
-   Sumber: PT. Wijaya Karya (Persero) Tbk. 
- 
-Gambar 9. Profil IC. Rangkas Bitung 
-Ramp.3 STA 0+000~0+643.590 
-   Sumber: PT. Wijaya Karya (Persero) Tbk. 
- 
- 
-Gambar 10. Tipikal Potongan Melintang 
-Perbaikan Tanah Stone Column 
-   Sumber: PT. Wijaya Karya (Persero) Tbk. 
- 
-3.6. Pengolahan Data 
-A. Pemeriksaan Daya Dukung Tanah Dasar 
-Analisis daya dukung formula Terzaghi: 
-qall= (c.Nc + q.Nq + 0.5.γ.B.N γ)/FK…(13) 
-Dimana:  
-qall : Daya dukung ijin, kN/m2  
-c : Kohesi, kN/m2  
-q : Overburden pressure, kN/m2  
-γ : Berat isi tanah, kN/m3  
-B : Lebar pondasi atau timbunan, m  
-Nc, Nq, Nγ : Faktor daya dukung Terzaghi 
-FK : Faktor keamanan 
-B. Pemeriksaan Settlement / Penurunan Tanah 
-➢ Penurunan Konsolidasi (Consolidation 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 7  
-  
-Settlement) 
- 
-Keterangan:  
-Sc : penurunan konsolidasi (m)  
-Cc : indeks pemampatan  
-H : tebal lapisan tanah (m)  
-e 
-: angka pori  
-σo  : tekanan tanah efektif (t/m2 ) 
-∆σ  : tambahan tekanan efektif (t/m2 ) 
-1. Untuk 
-tanah 
-terkonsolidasi 
-normal 
-(Normally Consolidated Soil) 
- 
-2. Untuk tanah terkonsolidasi lebih (Over 
-Consolidated Soil) 
-   
- 
- 
-Keterangan :  
-Sci: 
-pemampatan 
-konsolidasi 
-pada 
-lapisan tanah yang ke-i yang ditinjau  
-Hi : tebal lapisan tanah ke-i  
-eo : angka pori awal dari lapisan tanah 
-ke-i  
-Cc : indeks kompresi dari lapisan ke-i 
-Cs : indeks mengembang dari lapisan ke-
-i  
-Po’: Tegangan Overburden efektif  
-Pc’: Tegangan prakonsolidasi efektif  
-Δp : penambahan beban vertikal pada 
-lapisan yang ditinjau akibat beban 
-C. Pemodelan Plaxis 2D 
-Untuk memulai perhitungan Plaxis 2D 
-terlebih 
-dahulu 
-menentukan 
-tinggi 
-beban 
-timbunan, dalam hal ini tinggi timbunan yang 
-dipakai adalah tinggi efektif dari perhitungan 
-analitis. Untuk perhitungan penurunan akibat 
-pembebanan dengan bantuan program Plaxis 2D 
-secara berurutan sebagai berikut : 
-1. Pembuatan model geometri dari lapisan 
-tanah 
-dan 
-timbunan 
-dengan 
-bantuan 
-(geometri line). 
-2. Input data material tanah dan stone column 
-pada (material sets).  
-3. Penyusunan 
-jaring 
-elemen 
-(mesh 
-generation) 
-4. Perhitungan kondisi awal, dalam hal ini 
-meliputi tekanan air pori awal (generate 
-water 
-pressure) 
-dan 
-tegangan 
-awal 
-(generate initial stresses) 
-5. Perhitungan konsolidasi 
- 
-Berikut Flowchart Metodologi Pemodelan 
-Menggunakan Plaxis : 
- 
- 
-Tahapan Pemodelan Plaxis 2D : 
-➢ Mulai (Create New Project) 
- 
-Gambar 11. Start New Project 
-    Sumber : Data Pribadi, 2020 
- 
-➢ Model menggunakan Axisymetry 
- 
-Gambar 12. Model Axisymetry 
-   Sumber : Data Pribadi, 2020 
- 
-➢ Pembuatan model geometri dari lapisan 
-tanah dan timbunan dengan geometri line. 
- 
-Gambar 13. Pemodelan Stone Column dan 
-Timbunan 
-Sumber : Data Pribadi, 2020 
-…(14) 
-…(15) 
-(16) 
-(17) 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 8  
-  
-➢ Input data material tanah dan stone column 
-pada (material sets). 
- 
-Gambar 14. Penginputan data material tanah 
-dan stone column 
-Sumber : Data Pribadi, 2020 
- 
- 
-Gambar 15. Penyusunan Jaringan Elemen 
-(Dengan dan Tanpa Stone Column) 
-Sumber : Data Pribadi, 2020 
- 
-➢ Perhitungan, output. 
- 
-IV. 
-ANALISA DAN PERHITUNGAN 
-Berdasarkan data, tanah lunak pada lokasi 
-yang ditinjau berada pada kedalaman sampai 30 
-meter. Semakin dalam lapisan tanah maka 
-tegangan yang bekerja akan semakin kecil, 
-kemudian keadaan tanah semakin dalam sudah 
-tidak terlalu lunak (sedang) sehingga pekerjaan 
-stone column menggunakan tipe pemasangan 
-floating type, dimana pemasangan stone column 
-menggantung atau tidak sampai mencapai tanah 
-keras yaitu pemasangannya hanya sampai 
-kedalaman 15 meter.   
-4.1. Perhitungan Daya Dukung Tanah Dasar 
-(Tanpa Stone Column) 
- 
-A. Lapis 1 (Depth 0-6 m) 
- 
+Panimbang.
+
+Gambar 6. Peta dan Kondisi Lokasi Penelitian
+Sumber: PT. Wijaya Karya (Persero) Tbk.
+
+3.4. Metode Penelitian
+Untuk mencapai maksud dan tujuan studi ini, dilakukan beberapa tahapan yang dianggap perlu dan secara garis besar diuraikan sebagai berikut:
+1. Tahapan pertama adalah melakukan review dan studi kepustakaan terhadap text book dan jurnal-jurnal yang terkait.
+2. Tahap ke-dua adalah pengumpulan data.
+Data yang digunakan pada penelitian ini adalah data sekunder. Pengumpulan data lapangan harus memenuhi persyaratan berikut:
+➢ Sumber data sekunder diperoleh dari instansi-instansi yang terkait pada pembangunan Jalan Tol Serang –
+Panimbang dan dari berbagai literatur yang ditemui.
+➢ Pada umumnya data yang diperoleh antara lain berupa data narasi (tertulis), data sondir, grafik, gambar, dokumentasi dan sebagainya. Data sekunder yang diperlukan untuk pelaksanaan pekerjaan ini di antaranya adalah: Data Tanah, Data Gambar
+Perencanaan dan Dokumentasi
+3. Tahap ke tiga adalah menganalisis data dengan menggunakan data-data di atas berdasarkan formula yang ada.
+4. Tahap ke empat menganalisis hasil perhitungan yang dilakukan dan membuat
+…(11)
+…(12)
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 6
+
+kesimpulan.
+Berikut adalah Bagan alir penelitian dapat dilihat pada Gambar 7.
+
+Gambar 7. Flowchart Penelitian
+Sumber: Data Pribadi,2020.
+
+3.5. Data Penelitian
+➢ Data Tanah Laboratorium
+Tabel 1. Parameter Tanah Asli
+
+Sumber: PT. Safoco
+Tabel 2. Parameter Tanah
+Timbunan
+
+Sumber: PT. Safoco
+Tabel 3. Parameter Stone Column
+
+Sumber: Literatur
+Tabel 4. Spesifikasi Stone Column
+
+Sumber: PT. Safoco
+➢ Data Gambar Perencanaan
+
+Gambar 8. Plan Akses IC. Rangkas Bitung
+Sumber: PT. Wijaya Karya (Persero) Tbk.
+
+Gambar 9. Profil IC. Rangkas Bitung
+Ramp.3 STA 0+000~0+643.590
+Sumber: PT. Wijaya Karya (Persero) Tbk.
+
+Gambar 10. Tipikal Potongan Melintang
+Perbaikan Tanah Stone Column
+Sumber: PT. Wijaya Karya (Persero) Tbk.
+
+3.6. Pengolahan Data
+A. Pemeriksaan Daya Dukung Tanah Dasar
+Analisis daya dukung formula Terzaghi:
+qall= (c.Nc + q.Nq + 0.5.γ.B.N γ)/FK…(13)
+Dimana:
+qall : Daya dukung ijin, kN/m2 c : Kohesi, kN/m2 q : Overburden pressure, kN/m2 γ : Berat isi tanah, kN/m3
+B : Lebar pondasi atau timbunan, m
+Nc, Nq, Nγ : Faktor daya dukung Terzaghi
+FK : Faktor keamanan
+B. Pemeriksaan Settlement / Penurunan Tanah
+➢ Penurunan Konsolidasi (Consolidation
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 7
+
+Settlement)
+
+Keterangan:
+Sc : penurunan konsolidasi (m)
+Cc : indeks pemampatan
+H : tebal lapisan tanah (m) e
+: angka pori σo : tekanan tanah efektif (t/m2 )
+∆σ : tambahan tekanan efektif (t/m2 )
+1. Untuk tanah terkonsolidasi normal
+(Normally Consolidated Soil)
+
+2. Untuk tanah terkonsolidasi lebih (Over
+Consolidated Soil)
+
+Keterangan :
+Sci:
+pemampatan konsolidasi pada lapisan tanah yang ke-i yang ditinjau
+Hi : tebal lapisan tanah ke-i eo : angka pori awal dari lapisan tanah ke-i
+Cc : indeks kompresi dari lapisan ke-i
+Cs : indeks mengembang dari lapisan ke- i
+Po’: Tegangan Overburden efektif
+Pc’: Tegangan prakonsolidasi efektif
+Δp : penambahan beban vertikal pada lapisan yang ditinjau akibat beban
+C. Pemodelan Plaxis 2D
+Untuk memulai perhitungan Plaxis 2D terlebih dahulu menentukan tinggi beban timbunan, dalam hal ini tinggi timbunan yang dipakai adalah tinggi efektif dari perhitungan analitis. Untuk perhitungan penurunan akibat pembebanan dengan bantuan program Plaxis 2D secara berurutan sebagai berikut :
+1. Pembuatan model geometri dari lapisan tanah dan timbunan dengan bantuan
+(geometri line).
+2. Input data material tanah dan stone column pada (material sets).
+3. Penyusunan jaring elemen
+(mesh generation)
+4. Perhitungan kondisi awal, dalam hal ini meliputi tekanan air pori awal (generate water pressure) dan tegangan awal
+(generate initial stresses)
+5. Perhitungan konsolidasi
+
+Berikut Flowchart Metodologi Pemodelan
+Menggunakan Plaxis :
+
+Tahapan Pemodelan Plaxis 2D :
+➢ Mulai (Create New Project)
+
+Gambar 11. Start New Project
+Sumber : Data Pribadi, 2020
+
+➢ Model menggunakan Axisymetry
+
+Gambar 12. Model Axisymetry
+Sumber : Data Pribadi, 2020
+
+➢ Pembuatan model geometri dari lapisan tanah dan timbunan dengan geometri line.
+
+Gambar 13. Pemodelan Stone Column dan
+Timbunan
+Sumber : Data Pribadi, 2020
+…(14)
+…(15)
+(16)
+(17)
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 8
+
+➢ Input data material tanah dan stone column pada (material sets).
+
+Gambar 14. Penginputan data material tanah dan stone column
+Sumber : Data Pribadi, 2020
+
+Gambar 15. Penyusunan Jaringan Elemen
+(Dengan dan Tanpa Stone Column)
+Sumber : Data Pribadi, 2020
+
+➢ Perhitungan, output.
+
+IV.
+ANALISA DAN PERHITUNGAN
+Berdasarkan data, tanah lunak pada lokasi yang ditinjau berada pada kedalaman sampai 30 meter. Semakin dalam lapisan tanah maka tegangan yang bekerja akan semakin kecil, kemudian keadaan tanah semakin dalam sudah tidak terlalu lunak (sedang) sehingga pekerjaan stone column menggunakan tipe pemasangan floating type, dimana pemasangan stone column menggantung atau tidak sampai mencapai tanah keras yaitu pemasangannya hanya sampai kedalaman 15 meter.
+4.1. Perhitungan Daya Dukung Tanah Dasar
+(Tanpa Stone Column)
+
+A. Lapis 1 (Depth 0-6 m)
+
 𝑞𝑢𝑙𝑡= 2
-3. 𝑐2. 𝑁𝑐′ + 𝑞1. 𝑁𝑞′ + 0,5.𝛾′2.𝐵. 𝑁𝛾′ 
-        = 2
-3 𝑥22𝑥7,22 + 31,5𝑥1,59 + 0,5𝑥6,42𝑥30𝑥0,128 
-        = 105,89 + 50,09 + 12,33 
-        = 168,31 kN/m2 
-𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡/FK 
-        = 168,31/3 
-        = 56,103 kN/m2 
- 
- 
- 
-B. Lapis 2 (Depth 6-10 m) 
- 
+3. 𝑐2. 𝑁𝑐′ + 𝑞1. 𝑁𝑞′ + 0,5.𝛾′2.𝐵. 𝑁𝛾′
+= 2
+3 𝑥22𝑥7,22 + 31,5𝑥1,59 + 0,5𝑥6,42𝑥30𝑥0,128
+= 105,89 + 50,09 + 12,33
+= 168,31 kN/m2 𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡/FK
+= 168,31/3
+= 56,103 kN/m2
+
+B. Lapis 2 (Depth 6-10 m)
+
 𝑞𝑢𝑙𝑡= 2
-3 . 𝑐3. 𝑁𝑐′ + 𝑞2. 𝑁𝑞′ + 0,5.𝛾′3.𝐵. 𝑁𝛾′ 
-        = 2
-3 𝑥67,77𝑥16,30 + 57,18 𝑥 6,54 + 0,5𝑥6,48𝑥30𝑥2,88 
-        = 736,43 + 373,96 + 279,94 
-        = 1390,33 kN/m2 
-𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡/FK 
-        = 1390,33 /3 
-        = 463,44 kN/m2 
-C. Lapis 3 (Depth 10-15 m) 
- 
+3 . 𝑐3. 𝑁𝑐′ + 𝑞2. 𝑁𝑞′ + 0,5.𝛾′3.𝐵. 𝑁𝛾′
+= 2
+3 𝑥67,77𝑥16,30 + 57,18 𝑥 6,54 + 0,5𝑥6,48𝑥30𝑥2,88
+= 736,43 + 373,96 + 279,94
+= 1390,33 kN/m2 𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡/FK
+= 1390,33 /3
+= 463,44 kN/m2
+C. Lapis 3 (Depth 10-15 m)
+
 𝑞𝑢𝑙𝑡= 2
-3 . 𝑐4. 𝑁𝑐′ + 𝑞3.𝑁𝑞′ + 0,5. 𝛾′4. 𝐵. 𝑁𝛾′ 
-        = 2
-3 𝑥15,95𝑥14,80 + 89,58𝑥5,60 + 0,5𝑥7,56𝑥30𝑥2,25 
-        = 157,37 + 501,65 + 255,15 
-        = 914,17 kN/m2 
-𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡/FK 
-        = 914,17/3 
-        = 304,72 kN/m2 
-D. Tegangan Kerja (qkerja) : 
-Di atas tanah dasar akan dibebani oleh 
-beban tanah timbunan, beban perkerasan, 
-dan beban lalu lintas.  
-1. Timbunan 
-Spesifikasi teknis dari material adalah 
-sebagai berikut : 
-➢ Parameter tanah timbunan : 
-𝛾𝑠𝑎𝑡 = 20 kN/m3 
-𝛾𝑢𝑛𝑠𝑎𝑡 = 19 kN/m3  
-𝜐 = 3 
-𝐸 , = 40000 kN/m2 
-𝑐 = 8 kN/m2 
-𝜑 = 25° 
-➢ Geometri timbunan : 
-Tinggi timbunan hingga 5 m  
-Lebar atas timbunan 30m  
-Kemiringan timbunan 1: 2  
- 
-Gambar 16. Geometri Timbunan 
-Sumber : Data Layout Perencanaan 
- 
-➢ Beban timbunan 
-(q) = Htimbunan x γsat timbunan  
-      = 5𝑥20 = 100 kN/m2 
-2. Beban lalu lintas 
- 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 9  
-  
-Tabel 5. Beban Lalu Lintas Untuk Analisa 
-Stabilitas 
- 
-   Sumber : SNI 8460 – 2017 
-3. Beban perkerasan 
-Tabel 6. Beban Perkerasan 
- 
-  Sumber : Hasil Analisa, 2020 
- 
-Dengan total tebal perkerasan 0,89 m, maka 
-q total perkarasan adalah 19,19 kN/m2 
-∑Total Beban yang Bekerja  
-= 𝑞𝑇𝑖𝑚𝑏𝑢𝑛𝑎𝑛+ 𝑞𝐿𝑎𝑙𝑢 𝐿𝑖𝑛𝑡𝑎𝑠+ 𝑞𝑃𝑒𝑟𝑘𝑒𝑟𝑎𝑠𝑎𝑛 
-= 100 + 15 + 19,19 
-= 134,19 kN/m2 
- 
-Tabel 7. Rekapitulasi 𝑞𝑎𝑙𝑙,𝑞𝑢𝑙𝑡,𝑞𝑘𝑒𝑟𝑗𝑎 
- 
-   Sumber : Hasil Analisa, 2020 
- 
-4.2. Perhitungan Settlement / Penurunan 
-Tanah (Tanpa Stone Column) 
- 
-Gambar 17. Sketsa Timbunan 
-  Sumber : Data Pribadi, 2020 
- 
-Data : 
-γtimbunan        = 19 kN/m3 
-Tebal lapisan = 15m 
-B                     = 30m 
-Start Elevasi = 0m 
-Htimb              = 5m 
-End Elevasi = 15m 
- 
-A. Perhitungan tegangan overburden efektif 
-(Po’) 
-➢ Lapisan Ke-1 
-Po′1      = (𝛾𝑠𝑎𝑡1 −𝛾𝑤) 𝑥 (1
-2 𝑥 ℎ1) 
+3 . 𝑐4. 𝑁𝑐′ + 𝑞3.𝑁𝑞′ + 0,5. 𝛾′4. 𝐵. 𝑁𝛾′
+= 2
+3 𝑥15,95𝑥14,80 + 89,58𝑥5,60 + 0,5𝑥7,56𝑥30𝑥2,25
+= 157,37 + 501,65 + 255,15
+= 914,17 kN/m2 𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡/FK
+= 914,17/3
+= 304,72 kN/m2
+D. Tegangan Kerja (qkerja) :
+Di atas tanah dasar akan dibebani oleh beban tanah timbunan, beban perkerasan, dan beban lalu lintas.
+1. Timbunan
+Spesifikasi teknis dari material adalah sebagai berikut :
+➢ Parameter tanah timbunan :
+𝛾𝑠𝑎𝑡 = 20 kN/m3 𝛾𝑢𝑛𝑠𝑎𝑡 = 19 kN/m3 𝜐 = 3
+𝐸 , = 40000 kN/m2 𝑐 = 8 kN/m2 𝜑 = 25°
+➢ Geometri timbunan :
+Tinggi timbunan hingga 5 m
+Lebar atas timbunan 30m
+Kemiringan timbunan 1: 2
+
+Gambar 16. Geometri Timbunan
+Sumber : Data Layout Perencanaan
+
+➢ Beban timbunan
+(q) = Htimbunan x γsat timbunan
+= 5𝑥20 = 100 kN/m2
+2. Beban lalu lintas
+
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 9
+
+Tabel 5. Beban Lalu Lintas Untuk Analisa
+Stabilitas
+
+Sumber : SNI 8460 – 2017
+3. Beban perkerasan
+Tabel 6. Beban Perkerasan
+
+Sumber : Hasil Analisa, 2020
+
+Dengan total tebal perkerasan 0,89 m, maka q total perkarasan adalah 19,19 kN/m2
+∑Total Beban yang Bekerja
+= 𝑞𝑇𝑖𝑚𝑏𝑢𝑛𝑎𝑛+ 𝑞𝐿𝑎𝑙𝑢 𝐿𝑖𝑛𝑡𝑎𝑠+ 𝑞𝑃𝑒𝑟𝑘𝑒𝑟𝑎𝑠𝑎𝑛
+= 100 + 15 + 19,19
+= 134,19 kN/m2
+
+Tabel 7. Rekapitulasi 𝑞𝑎𝑙𝑙,𝑞𝑢𝑙𝑡,𝑞𝑘𝑒𝑟𝑗𝑎
+
+Sumber : Hasil Analisa, 2020
+
+4.2. Perhitungan Settlement / Penurunan
+Tanah (Tanpa Stone Column)
+
+Gambar 17. Sketsa Timbunan
+Sumber : Data Pribadi, 2020
+
+Data :
+γtimbunan = 19 kN/m3
+Tebal lapisan = 15m
+B = 30m
+Start Elevasi = 0m
+Htimb = 5m
+End Elevasi = 15m
+
+A. Perhitungan tegangan overburden efektif
+(Po’)
+➢ Lapisan Ke-1
+Po′1 = (𝛾𝑠𝑎𝑡1 −𝛾𝑤) 𝑥 (1
+2 𝑥 ℎ1)
 = (15,05 −9,8) 𝑥(1
-2 𝑥6) 
-= 5,25𝑥3 
-= 15,75  kN/m2 
-➢ Lapisan Ke-2 
-Po′2      = Po′1 +  𝛾′1𝑥(1
-2 𝑥 ℎ1) +  𝛾′2𝑥(1
-2 𝑥 ℎ2) 
-= 15,75 + 15,75 + 12,84 
-= 44,34 kN/m2 
-➢ Lapisan Ke-3 
+2 𝑥6)
+= 5,25𝑥3
+= 15,75 kN/m2
+➢ Lapisan Ke-2
+Po′2 = Po′1 + 𝛾′1𝑥(1
+2 𝑥 ℎ1) + 𝛾′2𝑥(1
+2 𝑥 ℎ2)
+= 15,75 + 15,75 + 12,84
+= 44,34 kN/m2
+➢ Lapisan Ke-3
 Po′
-3      = Po′
-2 +  𝛾′2𝑥(1
-2𝑥 ℎ2) +  𝛾′3𝑥(1
-2𝑥 ℎ3) 
-= 44,34 + 12,84 + 16,15 
-= 73,33 kN/m2 
- 
-B. Mencari nilai Pc’ (tegangan pra konsolidasi) 
-➢ Lapisan Ke-1 
-Pc′ = Po′ + ∆Pf 
-        = 15,75 + 9,8 = 25,55 kN/m2 
-➢ Lapisan Ke-2 
-Pc′ = Po′ + ∆Pf 
-        = 44,34 + 9,8 = 54,14 kN/m2 
-➢ Lapisan Ke-3 
-Pc′ = Po′ + ∆Pf 
-       = 73,33 + 9,8 = 83,13 kN/m2 
- 
-C. Penambahan tegangan (∆p) 
-➢ Lapisan Ke-1 
+3 = Po′
+2 + 𝛾′2𝑥(1
+2𝑥 ℎ2) + 𝛾′3𝑥(1
+2𝑥 ℎ3)
+= 44,34 + 12,84 + 16,15
+= 73,33 kN/m2
+
+B. Mencari nilai Pc’ (tegangan pra konsolidasi)
+➢ Lapisan Ke-1
+Pc′ = Po′ + ∆Pf
+= 15,75 + 9,8 = 25,55 kN/m2
+➢ Lapisan Ke-2
+Pc′ = Po′ + ∆Pf
+= 44,34 + 9,8 = 54,14 kN/m2
+➢ Lapisan Ke-3
+Pc′ = Po′ + ∆Pf
+= 73,33 + 9,8 = 83,13 kN/m2
+
+C. Penambahan tegangan (∆p)
+➢ Lapisan Ke-1
 ∆P1 = 1
-6 (∆𝑝𝑡+ 4∆𝑝𝑚+ ∆𝑝𝑏) 
-  = 1
-6 (100 + 4𝑥99,84 + 98,84) 
-          = 99,7 kN/m2 
-➢ Lapisan Ke-2 
+6 (∆𝑝𝑡+ 4∆𝑝𝑚+ ∆𝑝𝑏)
+= 1
+6 (100 + 4𝑥99,84 + 98,84)
+= 99,7 kN/m2
+➢ Lapisan Ke-2
 ∆P2 = 1
-6 (∆𝑝𝑡+ 4∆𝑝𝑚+ ∆𝑝𝑏) 
-  = 1
-6 (98,84 + 4𝑥97,5 + 95,58) 
-          = 97,403 kN/m2 
-➢ Lapisan Ke-3 
+6 (∆𝑝𝑡+ 4∆𝑝𝑚+ ∆𝑝𝑏)
+= 1
+6 (98,84 + 4𝑥97,5 + 95,58)
+= 97,403 kN/m2
+➢ Lapisan Ke-3
 ∆P3 = 1
-6 (∆𝑝𝑡+ 4∆𝑝𝑚+ ∆𝑝𝑏) 
-        =
-1
-6 (95,58 + 4𝑥92,56 + 88,98) 
-         = 92,467 kN/m2 
- 
-D. Perhitungan Pemampatan (Sc) 
-Untuk 
-menghitung 
-pemampatan 
-harus 
-memperhatikan dari sifat tanah, apakah 
-normally 
-consolidated 
-atau 
-over 
-consolidated. 
-Untuk 
-over 
-consolidated 
-sendiri juga harus memperhatikan apakah 
-Po’+ Δp ≤ Pc’ atau Po’+ Δp >Pc’. 
-➢ Lapisan Ke-1 
-Po′1 = 15,75 kN/m2  
-P𝑐′1 = 25,55   kN/m2 
-∆𝑝1 = 99,7 kN/m2  
- 
- 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 10  
-  
-H = 6 m 
-𝐶𝑐= 0,39  
- 
- 
- 
+6 (∆𝑝𝑡+ 4∆𝑝𝑚+ ∆𝑝𝑏)
+=
+6 (95,58 + 4𝑥92,56 + 88,98)
+= 92,467 kN/m2
+
+D. Perhitungan Pemampatan (Sc)
+Untuk menghitung pemampatan harus memperhatikan dari sifat tanah, apakah normally consolidated atau over consolidated.
+Untuk over consolidated sendiri juga harus memperhatikan apakah
+Po’+ Δp ≤ Pc’ atau Po’+ Δp >Pc’.
+➢ Lapisan Ke-1
+Po′1 = 15,75 kN/m2
+P𝑐′1 = 25,55 kN/m2
+∆𝑝1 = 99,7 kN/m2
+
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 10
+
+H = 6 m
+𝐶𝑐= 0,39
+
 𝐶𝑠= 1
-5 𝐶𝑐= 0,078 
- 𝑒= 2,122  
-▪ 
+5 𝐶𝑐= 0,078 𝑒= 2,122
+▪
 OCR = Pc′
-Po′ = 25,55 
-15,75 = 1,62 
+Po′ = 25,55
+15,75 = 1,62
 𝑂𝐶𝑅
-> 1 maka termasuk 𝑜𝑣𝑒𝑟𝑐𝑜𝑛𝑠𝑜𝑙𝑖𝑑𝑎𝑡𝑒𝑑 
-▪ 
-Po′ + ∆p = 15,75 + 99,7 = 115,45 kN/
-m2 
-Karena Po′ + ∆p > Pc′  maka 
-digunakan 
-rumus :  
+> 1 maka termasuk 𝑜𝑣𝑒𝑟𝑐𝑜𝑛𝑠𝑜𝑙𝑖𝑑𝑎𝑡𝑒𝑑
+▪
+Po′ + ∆p = 15,75 + 99,7 = 115,45 kN/ m2
+Karena Po′ + ∆p > Pc′ maka digunakan rumus :
 𝑺𝒄= ( 𝑯𝒐
-𝟏+ 𝒆𝒐) {(𝑪𝒔 (𝒍𝒐𝒈𝒑𝒄′
-𝒑𝒐′)) + (𝑪𝒄 (𝒍𝒐𝒈. 𝒑𝒐′ + ∆𝒑
-𝒑𝒄′
-))} 
+𝟏+ 𝒆𝒐) {(𝑪𝒔 (𝒍𝒐𝒈𝒑𝒄′ 𝒑𝒐′)) + (𝑪𝒄 (𝒍𝒐𝒈. 𝒑𝒐′ + ∆𝒑 𝒑𝒄′
+))}
 𝑺𝒄= (
-𝟔
 𝟏+ 𝟐,𝟏𝟐𝟐){𝟎,𝟎𝟒 (𝒍𝒐𝒈𝟐𝟓,𝟓𝟓
 𝟏𝟓,𝟕𝟓) + 𝟎,𝟑𝟗 (𝒍𝒐𝒈.𝟏𝟏𝟓,𝟒𝟓
-𝟐𝟓,𝟓𝟓)} 
-    = 0,508 m 
- 
-➢ Lapisan Ke-2 
-Po′2 = 44,34 kN/m2  
- 
-P𝑐′2 = 54,14 kN/m2 
-∆𝑝2 = 97,403 kN/m2   
- 
-H = 4 m 
-𝐶𝑐= 0,39  
- 
- 
- 
+𝟐𝟓,𝟓𝟓)}
+= 0,508 m
+
+➢ Lapisan Ke-2
+Po′2 = 44,34 kN/m2
+
+P𝑐′2 = 54,14 kN/m2
+∆𝑝2 = 97,403 kN/m2
+
+H = 4 m
+𝐶𝑐= 0,39
+
 𝐶𝑠= 1
-5 𝐶𝑐= 0,078 
- 𝑒= 1,595  
-▪ 
+5 𝐶𝑐= 0,078 𝑒= 1,595
+▪
 OCR = Pc′
-Po′ = 54,14 
-44,34 = 1,22 
+Po′ = 54,14
+44,34 = 1,22
 𝑂𝐶𝑅
-> 1 maka termasuk 𝑜𝑣𝑒𝑟𝑐𝑜𝑛𝑠𝑜𝑙𝑖𝑑𝑎𝑡𝑒𝑑  
-▪ 
-Po′ + ∆p = 44,34 + 97,403  =
-141,743 kN/m2 
-Karena Po′ + ∆p > Pc′  maka 
-digunakan 
-rumus : 
+> 1 maka termasuk 𝑜𝑣𝑒𝑟𝑐𝑜𝑛𝑠𝑜𝑙𝑖𝑑𝑎𝑡𝑒𝑑
+▪
+Po′ + ∆p = 44,34 + 97,403 =
+141,743 kN/m2
+Karena Po′ + ∆p > Pc′ maka digunakan rumus :
 𝑺𝒄= ( 𝑯𝒐
-𝟏+ 𝒆𝒐) {(𝑪𝒔 (𝒍𝒐𝒈𝒑𝒄′
-𝒑𝒐′)) + (𝑪𝒄 (𝒍𝒐𝒈. 𝒑𝒐′ + ∆𝒑
-𝒑𝒄′
-))} 
+𝟏+ 𝒆𝒐) {(𝑪𝒔 (𝒍𝒐𝒈𝒑𝒄′ 𝒑𝒐′)) + (𝑪𝒄 (𝒍𝒐𝒈. 𝒑𝒐′ + ∆𝒑 𝒑𝒄′
+))}
 𝑺𝒄= (
-𝟒
 𝟏+ 𝟐,𝟏𝟐𝟐){𝟎,𝟎𝟒 (𝒍𝒐𝒈𝟓𝟒,𝟏𝟒
 𝟒𝟒,𝟑𝟒) + 𝟎,𝟑𝟗 (𝒍𝒐𝒈.𝟏𝟒𝟏,𝟕𝟒𝟑
-𝟓𝟒,𝟏𝟒)} 
-    = 0,213 m 
- 
-➢ Lapisan Ke-3 
-Po′3 = 73,33 kN/m2  
- 
-P𝑐′3 = 83,13 kN/m2 
-∆𝑝3 = 92,467  kN/m2   
- 
-H = 5 m 
-𝐶𝑐= 0,39  
- 
- 
- 
+𝟓𝟒,𝟏𝟒)}
+= 0,213 m
+
+➢ Lapisan Ke-3
+Po′3 = 73,33 kN/m2
+
+P𝑐′3 = 83,13 kN/m2
+∆𝑝3 = 92,467 kN/m2
+
+H = 5 m
+𝐶𝑐= 0,39
+
 𝐶𝑠= 1
-5 𝐶𝑐= 0,078 
- 𝑒= 1,509  
-▪ 
+5 𝐶𝑐= 0,078 𝑒= 1,509
+▪
 OCR = Pc′
-Po′ = 83,13   
-73,33 = 1,13 
-𝑂𝐶𝑅> 1 maka termasuk 𝑜𝑣𝑒𝑟𝑐𝑜𝑛𝑠𝑜𝑙𝑖𝑑𝑎𝑡𝑒𝑑 
-▪ 
+Po′ = 83,13
+73,33 = 1,13
+𝑂𝐶𝑅> 1 maka termasuk 𝑜𝑣𝑒𝑟𝑐𝑜𝑛𝑠𝑜𝑙𝑖𝑑𝑎𝑡𝑒𝑑
+▪
 Po′ + ∆p = 73,33 + 92,467 =
-165,797 kN/m2 
-Karena Po′ + ∆p > Pc′ maka 
-digunakan rumus : 
+165,797 kN/m2
+Karena Po′ + ∆p > Pc′ maka digunakan rumus :
 𝑺𝒄= ( 𝑯𝒐
-𝟏+ 𝒆𝒐) {(𝑪𝒔 (𝒍𝒐𝒈𝒑𝒄′
-𝒑𝒐′)) + (𝑪𝒄 (𝒍𝒐𝒈. 𝒑𝒐′ + ∆𝒑
-𝒑𝒄′
-))} 
+𝟏+ 𝒆𝒐) {(𝑪𝒔 (𝒍𝒐𝒈𝒑𝒄′ 𝒑𝒐′)) + (𝑪𝒄 (𝒍𝒐𝒈. 𝒑𝒐′ + ∆𝒑 𝒑𝒄′
+))}
 𝑺𝒄= (
-𝟓
 𝟏+ 𝟐,𝟏𝟐𝟐){𝟎,𝟎𝟒 (𝒍𝒐𝒈𝟖𝟑,𝟏𝟑
 𝟕𝟑,𝟑𝟑) + 𝟎,𝟑𝟗 (𝒍𝒐𝒈.𝟏𝟔𝟓,𝟕𝟗𝟕
-𝟖𝟑,𝟏𝟑)} 
-    = 0,191 m 
- 
-Tabel 8. Rekapitulasi Perhitungan Penurunan 
-Akibat Timbunan 
- 
-  Sumber : Hasil Analisa, 2020 
- 
-Total penurunan = 0,912 m 
- 
-4.3. Perhitungan Daya Dukung Tanah Dasar 
-(Dengan Stone Column) 
-A. Perhitungan diameter ekuivalen :  
-Dengan pemasangan pola bujur sangkar, 
-rumus diameter ekuivalen sebagai berikut: 
-De=1,13 x S…(18) 
-Keterangan : 
-De = diameter ekuivalen 
-S = Jarak spasi antar stone column 
-Perhitungan : 
-S = 2m 
-De=1,13 x 2 = 2,26 m 
-B. Perhitungan luas penampang stone column 
-dengan rumus : 
+𝟖𝟑,𝟏𝟑)}
+= 0,191 m
+
+Tabel 8. Rekapitulasi Perhitungan Penurunan
+Akibat Timbunan
+
+Sumber : Hasil Analisa, 2020
+
+Total penurunan = 0,912 m
+
+4.3. Perhitungan Daya Dukung Tanah Dasar
+(Dengan Stone Column)
+A. Perhitungan diameter ekuivalen :
+Dengan pemasangan pola bujur sangkar, rumus diameter ekuivalen sebagai berikut:
+De=1,13 x S…(18)
+Keterangan :
+De = diameter ekuivalen
+S = Jarak spasi antar stone column
+Perhitungan :
+S = 2m
+De=1,13 x 2 = 2,26 m
+B. Perhitungan luas penampang stone column dengan rumus :
 As = 1
-4 πD2…(19) 
-Keterangan : 
-As = luas penampang stone column 
-D = diameter stone column 
-Perhitungan : 
-D =0,6 m 
+4 πD2…(19)
+Keterangan :
+As = luas penampang stone column
+D = diameter stone column
+Perhitungan :
+D =0,6 m
 As = 1
-4 π(0,6)2 = 0,282 m2 
-C. Perhitungan luas penampang unit cell 
-dengan rumus : 
+4 π(0,6)2 = 0,282 m2
+C. Perhitungan luas penampang unit cell dengan rumus :
 A = 1
-4 π(De)2…(20) 
-Keterangan : 
-As = total luas pengaruh unit cell 
-De = diameter ekuivalen 
-Perhitungan :  
-De = 2,26 m 
+4 π(De)2…(20)
+Keterangan :
+As = total luas pengaruh unit cell
+De = diameter ekuivalen
+Perhitungan :
+De = 2,26 m
 A = 1
-4 π(2,26)2 = 4,1 m2 
-D. Perhitungan luas penampang tanah dalam 
-unit cell dengan rumus : 
-Ac = A −As…(21) 
-Keterangan : 
-Ac = luas penampang tanah sekitar stone 
-column 
-A  = total luas pengaruh unit cell 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 11  
-  
-As = luas penampang stone column 
-Perhitungan :  
-A = 4,1 𝑚2 
-As = 0,282 𝑚2 
-Ac = 4,1 −0,282 = 3,818 𝑚2 
-E. Perhitungan area replacement ratio stone 
-column dengan rumus : 
-𝑎𝑠= As/A …(22) 
-Keterangan : 
-𝑎𝑠 = area replacement ratio stone column 
-A = total luas pengaruh unit cell 
-As = luas penampang stone column 
-Perhitungan : 
-A = 4,1 𝑚2  
-As = 0,282 𝑚2 
-𝑎𝑠= 0,282/4,1 = 0,068 
-F. Perhitungan area replacement ratio tanah 
-dengan rumus : 
+4 π(2,26)2 = 4,1 m2
+D. Perhitungan luas penampang tanah dalam unit cell dengan rumus :
+Ac = A −As…(21)
+Keterangan :
+Ac = luas penampang tanah sekitar stone column
+A = total luas pengaruh unit cell
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 11
+
+As = luas penampang stone column
+Perhitungan :
+A = 4,1 𝑚2
+As = 0,282 𝑚2
+Ac = 4,1 −0,282 = 3,818 𝑚2
+E. Perhitungan area replacement ratio stone column dengan rumus :
+𝑎𝑠= As/A …(22)
+Keterangan :
+𝑎𝑠 = area replacement ratio stone column
+A = total luas pengaruh unit cell
+As = luas penampang stone column
+Perhitungan :
+A = 4,1 𝑚2
+As = 0,282 𝑚2 𝑎𝑠= 0,282/4,1 = 0,068
+F. Perhitungan area replacement ratio tanah dengan rumus :
 𝑎𝑐= 𝐴𝑐
 𝐴= 𝐴−𝐴𝑠
 𝐴
-= 1 −𝑎𝑠…(23) 
-Keterangan : 
-𝑎𝑐 = area replacement ratio tanah  
-𝑎𝑠 = area replacement ratio stone column 
-Perhitungan : 
-𝑎𝑠 = 0,068 
-𝑎𝑐 = 1-0,068 = 0,932 
-G. Perhitungan rasio tegangan pada stone 
-column dengan rumus :  
-𝜇𝑠=
-𝑛
-(1+(𝑛−1) 𝑥 𝑎𝑠)…(24) 
-Keterangan : 
-𝜇𝑠 = rasio tegangan pada stone column 
-n = faktor penumpukan tegangan 
-𝑎𝑠 = area replacement ratio stone column 
-Perhitungan : 
-n = 3 dan 𝑎𝑠 = 0,068 
-𝜇𝑠=
-3
-(1 + (3 −1) 𝑥 0,068) = 2,64 
-H. Perhitungan rasio tegangan pada tanah di 
-sekitar stone column dengan rumus :  
+= 1 −𝑎𝑠…(23)
+Keterangan :
+𝑎𝑐 = area replacement ratio tanah 𝑎𝑠 = area replacement ratio stone column
+Perhitungan :
+𝑎𝑠 = 0,068 𝑎𝑐 = 1-0,068 = 0,932
+G. Perhitungan rasio tegangan pada stone column dengan rumus :
+𝜇𝑠= 𝑛
+(1+(𝑛−1) 𝑥 𝑎𝑠)…(24)
+Keterangan :
+𝜇𝑠 = rasio tegangan pada stone column n = faktor penumpukan tegangan 𝑎𝑠 = area replacement ratio stone column
+Perhitungan :
+n = 3 dan 𝑎𝑠 = 0,068 𝜇𝑠=
+(1 + (3 −1) 𝑥 0,068) = 2,64
+H. Perhitungan rasio tegangan pada tanah di sekitar stone column dengan rumus :
 𝜇𝑐=
-1
-(1+(𝑛−1) 𝑥 𝑎𝑐)…(25) 
-Keterangan : 
-𝜇𝑠 = rasio tegangan pada tanah sekitar stone 
-column 
-n = faktor penumpukan tegangan 
-𝑎𝑐 = area replacement ratio pada tanah 
-Perhitungan : 
-n = 3 dan 𝑎𝑐 = 0,932 
-𝜇𝑐=
-3
-(1 + (3 −1) 𝑥 0,932) = 1,047 
-I. Perhitungan tegangan yang terjadi pada 
-stone column dengan rumus :  
-𝜎𝑠= 𝜇𝑠 𝑥 𝜎…(26) 
-Keterangan : 
-𝜎𝑠 = tegangan yang terjadi pada stone 
-column 
-𝜇𝑠 = rasio tegangan stone column 
-𝝈 = beban timbunan atau beban struktur 
-yang diterima unit cell 
-Perhitungan : 
-Dengan 𝜇𝑠 = 2,64 dan 𝝈 = 134,19 kN/𝑚2  
-𝜎𝑠= 2,64 𝑥 134,19 = 354,262 kN/𝑚2 
-J. Perhitungan tegangan yang terjadi pada 
-tanah disekitar stone column dengan rumus :  
-𝜎𝑐= 𝜇𝑐 𝑥 𝜎…(27) 
-Keterangan : 
-𝜎c = tegangan yang terjadi pada tanah di 
-sekitar stone column dalam unit cell 
-𝜇c = rasio tegangan tanah di sekitar stone 
-column 
-𝝈 = beban timbunan atau beban struktur 
-yang diterima unit cell 
-Perhitungan : 
-Dengan 𝜇c = 1,047 dan 𝝈 = 134,19 kN/𝑚2  
-𝜎𝑠= 1,047 𝑥 134,19 = 140,497 kN/𝑚2 
-K. Perhitungan perlawanan pasif dari tanah di 
-sekeliling stone column dapat dirumuskan 
-sebagai berikut (menurut Hughes dan 
-Withers, 1974):  
+(1+(𝑛−1) 𝑥 𝑎𝑐)…(25)
+Keterangan :
+𝜇𝑠 = rasio tegangan pada tanah sekitar stone column n = faktor penumpukan tegangan 𝑎𝑐 = area replacement ratio pada tanah
+Perhitungan :
+n = 3 dan 𝑎𝑐 = 0,932 𝜇𝑐=
+(1 + (3 −1) 𝑥 0,932) = 1,047
+I. Perhitungan tegangan yang terjadi pada stone column dengan rumus :
+𝜎𝑠= 𝜇𝑠 𝑥 𝜎…(26)
+Keterangan :
+𝜎𝑠 = tegangan yang terjadi pada stone column 𝜇𝑠 = rasio tegangan stone column 𝝈 = beban timbunan atau beban struktur yang diterima unit cell
+Perhitungan :
+Dengan 𝜇𝑠 = 2,64 dan 𝝈 = 134,19 kN/𝑚2 𝜎𝑠= 2,64 𝑥 134,19 = 354,262 kN/𝑚2
+J. Perhitungan tegangan yang terjadi pada tanah disekitar stone column dengan rumus :
+𝜎𝑐= 𝜇𝑐 𝑥 𝜎…(27)
+Keterangan :
+𝜎c = tegangan yang terjadi pada tanah di sekitar stone column dalam unit cell 𝜇c = rasio tegangan tanah di sekitar stone column 𝝈 = beban timbunan atau beban struktur yang diterima unit cell
+Perhitungan :
+Dengan 𝜇c = 1,047 dan 𝝈 = 134,19 kN/𝑚2 𝜎𝑠= 1,047 𝑥 134,19 = 140,497 kN/𝑚2
+K. Perhitungan perlawanan pasif dari tanah di sekeliling stone column dapat dirumuskan sebagai berikut (menurut Hughes dan
+Withers, 1974):
 𝜎3 = 𝜎𝑟𝑜+ 𝐶𝑢 (1 + 𝑙𝑛
 𝐸𝑐
-2𝐶𝑢 (1+𝑣))…(27) 
-Dimana : 
-𝜎3 = Tegangan Perlawanan Pasif  
-𝜎𝑟𝑜 = Total tegangan horizontal lapangan 
-(awal) = Ko 𝑥 𝜎𝑣 
-𝜎𝑣 = 𝛾𝑐 𝑥 z 
-Ec = Modulus Elastisitas tanah  
-Cu = Kekuatan Geser Undrained, 
-𝑣 = Angka Poison Tanah  
-Ko = Koefisien Tegangan Horisontal “at 
-rest”  
-𝛾𝑐 = Berat volume tanah lunak  
-z = Kedalaman tanah lunak yang ditinjau. 
-Perhitungan : 
-➢ Pada tanah lapis 1 
-Ko = (1 – sin (Φ)) = 1 – sin (7) = 0,88 
-𝜎𝑣1 kedalaman 0−6 m = 𝛾𝑐 𝑥 𝑧 = 5,25 x 6 = 
-31,5 kN/m2 
-𝜎𝑟𝑜1 = Ko x 𝜎𝑣1 = 0,88 x 31,5 = 27,72 
-kN/m2 
-𝜎31 = 𝜎𝑟𝑜1 + 𝐶𝑢 (1 + 𝑙𝑛
+2𝐶𝑢 (1+𝑣))…(27)
+Dimana :
+𝜎3 = Tegangan Perlawanan Pasif 𝜎𝑟𝑜 = Total tegangan horizontal lapangan
+(awal) = Ko 𝑥 𝜎𝑣 𝜎𝑣 = 𝛾𝑐 𝑥 z
+Ec = Modulus Elastisitas tanah
+Cu = Kekuatan Geser Undrained, 𝑣 = Angka Poison Tanah
+Ko = Koefisien Tegangan Horisontal “at rest” 𝛾𝑐 = Berat volume tanah lunak z = Kedalaman tanah lunak yang ditinjau.
+Perhitungan :
+➢ Pada tanah lapis 1
+Ko = (1 – sin (Φ)) = 1 – sin (7) = 0,88 𝜎𝑣1 kedalaman 0−6 m = 𝛾𝑐 𝑥 𝑧 = 5,25 x 6 =
+31,5 kN/m2 𝜎𝑟𝑜1 = Ko x 𝜎𝑣1 = 0,88 x 31,5 = 27,72 kN/m2 𝜎31 = 𝜎𝑟𝑜1 + 𝐶𝑢 (1 + 𝑙𝑛
 𝐸𝑐
-2𝐶𝑢 (1 + 𝑣)) 
-      = 27,72 + 22 (1 + 𝑙𝑛
-1500
-2𝑥22 (1 + 0,35)) 
-      = 120,756 kN/m2 
-➢ Pada tanah lapis 2 
-Ko = (1 – sin (Φ)) = 1 – sin (27) = 0,546 
-∆𝜎𝑣 kedalaman 6−10 m = 𝛾𝑐 𝑥 𝑧 = 6,42 x 4 
-= 25,68 kN/m2 
-𝜎𝑣2 = ∆𝜎𝑣+ 𝜎𝑣1 = 25,68 + 31,5 =
-57,18 kN/m2  
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 12  
-  
-𝜎𝑟𝑜2= Ko x 𝜎𝑣2 = 0,546 x 57,18 = 31,220 
-kN/m2   
-𝜎3 = 𝜎𝑟𝑜2 + 𝐶𝑢 (1 + 𝑙𝑛
+2𝐶𝑢 (1 + 𝑣))
+= 27,72 + 22 (1 + 𝑙𝑛
+2𝑥22 (1 + 0,35))
+= 120,756 kN/m2
+➢ Pada tanah lapis 2
+Ko = (1 – sin (Φ)) = 1 – sin (27) = 0,546
+∆𝜎𝑣 kedalaman 6−10 m = 𝛾𝑐 𝑥 𝑧 = 6,42 x 4
+= 25,68 kN/m2 𝜎𝑣2 = ∆𝜎𝑣+ 𝜎𝑣1 = 25,68 + 31,5 =
+57,18 kN/m2
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 12
+
+𝜎𝑟𝑜2= Ko x 𝜎𝑣2 = 0,546 x 57,18 = 31,220 kN/m2 𝜎3 = 𝜎𝑟𝑜2 + 𝐶𝑢 (1 + 𝑙𝑛
 𝐸𝑐
-2𝐶𝑢 (1 + 𝑣)) 
-      = 31,220 + 67,77 (1 + 𝑙𝑛
-1500
-2𝑥67,77 (1 + 0,35)) 
-      = 241,568 kN/m2 
-➢ Pada tanah lapis 3 
-Ko = (1 – sin (Φ)) = 1 – sin (25) = 0,577 
-∆𝜎𝑣 kedalaman 10−15 m = 𝛾𝑐 𝑥 𝑧 = 6,48 x 
-5 = 32,4 kN/m2   
-𝜎𝑣3 = ∆𝜎𝑣+ 𝜎𝑣2 = 32,4 + 57,18 =
-89,58 kN/m2   
-𝜎𝑟𝑜3 = Ko x 𝜎𝑣3 = 0,577 x 89,58 = 51,688 
-kN/m2 
-𝜎3 = 𝜎𝑟𝑜3 + 𝐶𝑢 (1 + 𝑙𝑛
+2𝐶𝑢 (1 + 𝑣))
+= 31,220 + 67,77 (1 + 𝑙𝑛
+2𝑥67,77 (1 + 0,35))
+= 241,568 kN/m2
+➢ Pada tanah lapis 3
+Ko = (1 – sin (Φ)) = 1 – sin (25) = 0,577
+∆𝜎𝑣 kedalaman 10−15 m = 𝛾𝑐 𝑥 𝑧 = 6,48 x
+5 = 32,4 kN/m2 𝜎𝑣3 = ∆𝜎𝑣+ 𝜎𝑣2 = 32,4 + 57,18 =
+89,58 kN/m2 𝜎𝑟𝑜3 = Ko x 𝜎𝑣3 = 0,577 x 89,58 = 51,688 kN/m2 𝜎3 = 𝜎𝑟𝑜3 + 𝐶𝑢 (1 + 𝑙𝑛
 𝐸𝑐
-2𝐶𝑢 (1 + 𝑣)) 
-      = 51,688 + 15,95 (1 + 𝑙𝑛
-1500
-2𝑥15,95 (1 + 0,35)) 
-      = 124,269 kN/m2 
-L. Untuk dapat menghitung kapasitas daya 
-dukung stone column, kita perlu menghitung 
-koefisien tekanan pasif tanah pada stone 
-column (Kp)  
-Berikut perhitungan koefisien tekanan pasif 
-tanah pada stone column :  
+2𝐶𝑢 (1 + 𝑣))
+= 51,688 + 15,95 (1 + 𝑙𝑛
+2𝑥15,95 (1 + 0,35))
+= 124,269 kN/m2
+L. Untuk dapat menghitung kapasitas daya dukung stone column, kita perlu menghitung koefisien tekanan pasif tanah pada stone column (Kp)
+Berikut perhitungan koefisien tekanan pasif tanah pada stone column :
 𝐾𝑝=
 1+𝑠𝑖𝑛∅𝑠
-1−𝑠𝑖𝑛∅𝑠…(28) 
+1−𝑠𝑖𝑛∅𝑠…(28)
 𝐾𝑝= 1 + sin (40)
-1 −sin (40) = 4,599 
-Maka kapasitas daya dukung stone column 
-tunggal dapat dihitung dengan rumus:  
-➢ Pada tanah lapis 1  
-𝑞𝑢𝑙𝑡= 𝜎3𝑥𝐾𝑝= 120,756 x 4,599
-= 555,357 kN/m2 
-𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡
+1 −sin (40) = 4,599
+Maka kapasitas daya dukung stone column tunggal dapat dihitung dengan rumus:
+➢ Pada tanah lapis 1 𝑞𝑢𝑙𝑡= 𝜎3𝑥𝐾𝑝= 120,756 x 4,599
+= 555,357 kN/m2 𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡
 FK = 555,357
-3
-=  185,119 kN/m2 
-➢ Pada tanah lapis 2  
-𝑞𝑢𝑙𝑡= 𝜎3𝑥𝐾𝑝= 241,568 x 4,599
-= 1110,971 kN/m2 
-𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡
+= 185,119 kN/m2
+➢ Pada tanah lapis 2 𝑞𝑢𝑙𝑡= 𝜎3𝑥𝐾𝑝= 241,568 x 4,599
+= 1110,971 kN/m2 𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡
 FK = 1110,971
-3
-=  370,324 kN/m2 
-➢ Pada tanah lapis 3  
-𝑞𝑢𝑙𝑡= 𝜎3𝑥𝐾𝑝= 124,269 x 4,599
-= 571,513 kN/m2 
-𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡
+= 370,324 kN/m2
+➢ Pada tanah lapis 3 𝑞𝑢𝑙𝑡= 𝜎3𝑥𝐾𝑝= 124,269 x 4,599
+= 571,513 kN/m2 𝑞𝑎𝑙𝑙= 𝑞𝑢𝑙𝑡
 FK = 571,513
-3
-=  190,504 kN/m2 
- 
- 
- 
- 
- 
-Tabel 9. Rekapitulasi 𝑞𝑎𝑙𝑙,𝑞𝑢𝑙𝑡,𝑞𝑘𝑒𝑟𝑗𝑎( Dengan 
-Stone Column ) 
-Layer 
-Depth 
-(m) 
-𝒒𝒖𝒍𝒕 
-   (𝐤𝐍/𝐦𝟐) 
-𝒒𝒂𝒍𝒍 
-(𝐤𝐍/𝐦𝟐) 
-𝒒𝒌𝒆𝒓𝒋𝒂 
-(𝐤𝐍/𝐦𝟐) 
-1 
-0-6 
-555,357 
-185,119 
-134,19 
-2 
-6-10 
-1110,971 
-370,324 
-134,19 
-3 
-10-15 
-571,513 
-190,504 
-134,19 
-  Sumber : Hasil Analisa, 2020 
- 
-4.4. Perhitungan 
-Menggunakan 
-Software 
-Plaxis 
-Perhitungan yang dilakukan menggunakan 
-software plaxis ini adalah consolidation 
-(penurunan) dan mencari safety factor. 
-Perhitungan dilakukan pada dua kondisi 
-yaitu timbunan tanpa stone column dan 
-timbunan dengan stone column. Berikut 
-adalah 
-ditunjukan pemodelan 
-geometri 
-(lapisan tanah dan timbunan) dengan Plaxis 
-8.2. 
- 
-Gambar 18. Model geometri tanpa stone 
-column 
- 
-Gambar 19. Model geometri dengan 
-stone column 
-Sumber : Data Pribadi, 2020 
- 
-Untuk parameter/ material tanah dan 
-stone column yang digunakan pada 
-perhitungan ini dapat dilihat pada 
-Gambar- gambar di bawah ini : 
- 
-Gambar 20. Parameter Tanah Dasar 
-(Lapis 1) 
- 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 13  
-  
- 
-Gambar 21. Parameter Tanah Dasar 
-(Lapis 2) 
- 
-Gambar 22. Parameter Tanah Dasar 
-(Lapis 3) 
- 
-Gambar 23. Parameter Tanah Timbunan 
- 
-Gambar 24. Parameter Stone Column 
-Sumber : Data Pribadi, 2020 
- 
-Calculation type yang digunakan pada 
-perhitungan ini yaitu Consolidation dan 
-Phi/c reduction seperti terlihat pada 
-Gambar 25, kemudian setelah itu 
-dilakukan perhitungan menggunakan 
-software Plaxis. 
- 
-Gambar 25. Calculation type 
-➢ Hasil Output Plaxis 
-A. Konsoildasi (Penurunan Tanah) 
-Hasil 
-penurunan 
-konsolidasi 
-dan 
-distribusi beban pada perhitungan ini 
-dianalisis pada saat konstruksi dengan 
-beban yang bekerja adalah beban mati 
-(timbunan, perkerasan dan lalu lintas). 
-Berikut 
-adalah 
-hasil 
-penurunan 
-konsolidasi ditunjukan pada Gambar 26. 
-untuk timbunan tanpa stone column dan 
-Gambar 27. untuk timbunan dengan 
-stone column. 
- 
-Gambar 26. Besar Penurunan 
-Konsolidasi Timbunan Tanpa Stone 
-Column 
- 
-Gambar 27. Besar Penurunan 
-Konsolidasi Timbunan Dengan Stone 
-Column 
-Sumber : Data Pribadi, 2020 
- 
-B. Safety Factor 
-Analisis stabilitas timbunan diperoleh 
-dengan perhitungan angka keamanan 
-berdasarkan metoda phi-reduction yang 
-terdapat 
-pada 
-calculation 
-software 
-Plaxis.  Dalam kasus ini dapat dilihat 
-angka keamanan stabilitas timbunan 
-berdasarkan displacement yang terjadi 
-seperti yang ditunjukkan pada Gambar 
-28. untuk timbunan tanpa stone column 
-dan Gambar 29.  untuk timbunan 
-dengan stone column di bawah ini. 
- 
-Gambar 28. FK Stabilitas Timbunan 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 14  
-  
-Tanpa Stone Column 
-Sumber : Data Pribadi, 2020 
- 
-Gambar 29. FK Stabilitas Timbunan 
-Dengan Stone Column 
-Sumber : Data Pribadi, 2020 
- 
-V.  KESIMPULAN DAN SARAN  
-5.1  Kesimpulan  
-Berdasarkan hasil perhitungan yang telah 
-dilakukan, maka dapat diambil kesimpulan 
-sebagai berikut: 
-1. Kapasitas 
-daya 
-dukung 
-tanah 
-yang 
-diijinkan (qall) tanpa perkuatan stone 
-column hasil perhitungan menggunakan 
-metode Terzaghi untuk lapisan pertama 
-sebesar 56,103 kN/m2 , untuk lapisan 
-kedua sebesar 463,44 kN/m2 dan untuk 
-lapisan ketiga hanya sebesar 304,72 kN/m2 
-, sedangkan nilai daya dukung tanah yang 
-diijinkan (qall) dengan adanya perkuatan 
-stone column untuk lapisan pertama sebesar 
-185,119 kN/m2 , untuk lapisan kedua 
-sebesar 370,324 kN/m2 dan untuk lapisan 
-ketiga hanya sebesar 190,504 kN/m2 .  
-2. 
-Tegangan yang bekerja pada permukaan 
-tanah sebesar 134,19 kN/m2 , untuk kondisi 
-tanah lunak tanpa perkuatan stone column, 
-kapasitas daya dukung tanah kurang dari 
-tegangan yang bekerja sehingga perlu 
-dilakukan 
-perbaikan 
-tanah 
-(soil 
-improvement). 
-3. Pada 
-kondisi 
-tanah 
-dengan 
-adanya 
-perkuatan stone column, kapasitas daya 
-dukung tanah lebih meningkat pada lapisan 
-1 sehingga mampu mendukung tegangan 
-yang bekerja di atasnya, tetapi pada lapisan 
-ke-2 dan ke-3 daya dukung ijinnya menjadi 
-lebih kecil dibandingkan dengan daya 
-dukunng ijin (qall) tanpa perkuatan stone 
-column, tetapi masih aman untuk menerima 
-beban kerja. 
-4. Total penurunan yang terjadi pada tanah di 
-bawah timbunan tanpa adanya perkuatan 
-stone column dengan perhitungan secara 
-manual didapat sebesar 0,912 meter, 
-sedangkan 
-berdasarkan 
-perhitungan 
-menggunakan 
-software 
-plaxis 
-untuk 
-penurunan yang terjadi pada tanah di bawah 
-timbunan tanpa adanya perkuatan stone 
-column sebesar 1,59 meter, dan untuk 
-penurunan tanah dengan adanya perkuatan 
-stone column hanya sebesar 0,0023 meter. 
-Sehingga dengan adanya perbaikan tanah 
-menggunakan 
-stone 
-column 
-dapat 
-mengurangi besar penurunan yang terjadi 
-pada tanah lunak. 
-5. Pada penelitian ini adanya perbaikan tanah 
-stone column menambah daya dukung ijin 
-tanah tetapi kurang efektif pada tanah 
-lapisan ke-2 dan ke-3, sedangkan untuk 
-penurunan perbaikan stone column ini 
-efektif mengurangi besarnya settlement 
-pada tanah lunak. 
-6. Untuk faktor keamanan stabilitas timbunan 
-tanpa stone column didapatkan angka 1,394 
-dan faktor keamanan stabilitas timbunan 
-dengan stone column didapatkan angka 
-1,695. Faktor kemanan untuk stabilitas 
-timbunan berdasarkan SNI 8460 – 2017 
-disyaratkan sebesar 1,4 sehingga untuk 
-stabilitas timbunan tanpa stone column 
-tidak memenuhi syarat (kurang aman), dan 
-untuk stabilitas timbunan dengan stone 
-column memnuhi syarat (cukup aman). 
- 
-5.2  Saran  
-Untuk  penyempurnaan hasil penelitian 
-serta untuk mengembangkan penelitian lebih 
-lanjut disarankan dilakukan penelitian dengan 
-memperhatikan hal-hal sebagai berikut:  
-1. Sebelum 
-melakukan 
-perhitungan 
-hendaknya memperoleh data yang lengkap, 
-karena data tersebut sangat menunjang 
-dalam 
-membuat 
-rencana 
-analisis 
-perhitungan sesuai dengan standar dan 
-syarat-syaratnya. 
-2. 
-Parameter tanah yang digunakan sebagai 
-data masukan sangat berpengaruh terhadap 
-analisis, oleh karena itu dalam penentuan 
-harga parameter tersebut harus dilakukan 
-secermat mungkin. 
-3. 
-Untuk mendapatkan tingkat akurasi yang 
-tinggi dari perhitungan analitis maupun 
-program Plaxis 8.2 2D perlu dilakukan 
-perbandingan dengan hasil analisa yang ada 
-di lapangan. 
-4. 
-Perlu 
-ada 
-perbandingan 
-efektifitas 
-konfigurasi perletakan model stone column 
-antara model segiempat dengan segitiga. 
- 
-DAFTAR PUSTAKA   
-1. Das , Braja M. 1995. Mekanika Tanah 
-(Prinsip-prinsip 
-Rekayasa 
-Geoteknis). 
-Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan  
-Page 15  
-  
-Penerbit Erlangga. Jakarta. 283 hal. 
-2. Wesley, L.D. 1997. Mekanika Tanah. 
-Badan Penerbit Pekerjaan Umum. Jakarta. 
-278 hal. 
-3. Badan 
-Standarisasi 
-Nasional, 
-SNI 
-8460:2017, 
-Persyaratan 
-Perencanaan 
-Geoteknik, Jakarta, 2017. 
-4. Manual Book Plaxis Versi 8. 
-5. Lukman, Hikmad. Diktat Kuliah Mekanika 
-Tanah II, Universitas Pakuan, Bogor, 1997. 
-6. Hardiyatmo, Hary Christady. Stabilisasi 
-Tanah Untuk Perkerasan Jalan. Penerbit 
-Gajah Mada University Press. Yogyakarta. 
-273 hal. 
-7. Iskandar., Fitriani, Fauziah., Hamdhan., 
-Noer, Indra., Pemodelan Numerik Pada 
-Perbaikan Tanah Menggunakan Stone 
-Column Di Tanah Lempung Lunak Di 
-Bawah Tanah Timbunan, Institut Teknologi 
-Nasional, Bandung, 2016. 
-8. Pangestu, S. H., Desain Dan Pemodelan 
-Stone Column Sebagai Perkuatan Tanah 
-Lunak 
-Di 
-Bawah 
-Timbunan, 
-Institut 
-Teknologi Bandung, Bandung, 2010. 
-9. Siahaan, 
-Logiray 
-Pratikno., 
-Alternatif 
-Perbaikan Tanah Dasar Dan Perkuatan 
-Timbunan Pada Jalan Tol Palembang – 
-Indralaya 
-(Sta 
-8+750 
-S/D 
-Sta 
-10+750)[Tugas Akhir], Institut Teknologi 
-Sepuluh Nopember, Surabaya, 2017. 
-10. Hepma, 
-Immanuel., 
-Studi 
-Parameter 
-Perencanaan 
-Stone 
-Column 
-Untuk 
-Perbaikan 
-Bearing 
-Capacity 
-Dan 
-Settlement Pada Tanah Lempung, ITB, 
-Bandung. 
-11. Maulidina, Katherine., Andienti, Tita., 
-Pradiptiya, 
-Andikanoza., 
-Perhitungan 
-Ulang Daya Dukung Stone Column Pada 
-Proyek Runway 3 Section 2 Bandara 
-Soekarno-Hatta, Politeknik Negri Jakarta, 
-2019. 
-12. Prasetyo, 
-Ikhsan 
-Budi., 
-Evaluasi 
-Perbandingan Hasil Analisis Perbaikan 
-Tanah 
-Lunak 
-Dengan 
-Metode 
-Prefabricated Vertical Drain Dan Stone 
-Column 
-Di 
-Bawah 
-Timbunan, 
-ITB, 
-Bandung. 
- 
-RIWAYAT PENULIS  
-1. Aghnii Auliya Anjani, ST. Alumni (2020) 
-Program Studi Teknik Sipil, Fakultas 
-Teknik, Universitas Pakuan, Bogor (e-mail 
-:aghniiauliyaanjani@gmail.com).  
-2.  Ir. Hikmad Lukman,  MT.  Staf  Dosen  
-Program  Studi Teknik   Sipil,   Fakultas   
-Teknik,   Universitas   Pakuan, Bogor. 
-3. Ir. Budiono, MT. Staf Dosen Program 
-Studi Teknik Sipil, Fakultas Teknik   
-Universitas Pakuan, Bogor. 
- 
+= 190,504 kN/m2
+
+Tabel 9. Rekapitulasi 𝑞𝑎𝑙𝑙,𝑞𝑢𝑙𝑡,𝑞𝑘𝑒𝑟𝑗𝑎( Dengan
+Stone Column )
+Layer
+Depth
+(m) 𝒒𝒖𝒍𝒕
+(𝐤𝐍/𝐦𝟐) 𝒒𝒂𝒍𝒍
+(𝐤𝐍/𝐦𝟐) 𝒒𝒌𝒆𝒓𝒋𝒂
+(𝐤𝐍/𝐦𝟐)
+0-6
+555,357
+185,119
+134,19
+6-10
+1110,971
+370,324
+134,19
+10-15
+571,513
+190,504
+134,19
+Sumber : Hasil Analisa, 2020
+
+4.4. Perhitungan
+Menggunakan
+Software
+Plaxis
+Perhitungan yang dilakukan menggunakan software plaxis ini adalah consolidation
+(penurunan) dan mencari safety factor.
+Perhitungan dilakukan pada dua kondisi yaitu timbunan tanpa stone column dan timbunan dengan stone column. Berikut adalah ditunjukan pemodelan geometri
+(lapisan tanah dan timbunan) dengan Plaxis
+8.2.
+
+Gambar 18. Model geometri tanpa stone column
+
+Gambar 19. Model geometri dengan stone column
+Sumber : Data Pribadi, 2020
+
+Untuk parameter/ material tanah dan stone column yang digunakan pada perhitungan ini dapat dilihat pada
+Gambar- gambar di bawah ini :
+
+Gambar 20. Parameter Tanah Dasar
+(Lapis 1)
+
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 13
+
+Gambar 21. Parameter Tanah Dasar
+(Lapis 2)
+
+Gambar 22. Parameter Tanah Dasar
+(Lapis 3)
+
+Gambar 23. Parameter Tanah Timbunan
+
+Gambar 24. Parameter Stone Column
+Sumber : Data Pribadi, 2020
+
+Calculation type yang digunakan pada perhitungan ini yaitu Consolidation dan
+Phi/c reduction seperti terlihat pada
+Gambar 25, kemudian setelah itu dilakukan perhitungan menggunakan software Plaxis.
+
+Gambar 25. Calculation type
+➢ Hasil Output Plaxis
+A. Konsoildasi (Penurunan Tanah)
+Hasil penurunan konsolidasi dan distribusi beban pada perhitungan ini dianalisis pada saat konstruksi dengan beban yang bekerja adalah beban mati
+(timbunan, perkerasan dan lalu lintas).
+Berikut adalah hasil penurunan konsolidasi ditunjukan pada Gambar 26.
+untuk timbunan tanpa stone column dan
+Gambar 27. untuk timbunan dengan stone column.
+
+Gambar 26. Besar Penurunan
+Konsolidasi Timbunan Tanpa Stone
+Column
+
+Gambar 27. Besar Penurunan
+Konsolidasi Timbunan Dengan Stone
+Column
+Sumber : Data Pribadi, 2020
+
+B. Safety Factor
+Analisis stabilitas timbunan diperoleh dengan perhitungan angka keamanan berdasarkan metoda phi-reduction yang terdapat pada calculation software
+Plaxis. Dalam kasus ini dapat dilihat angka keamanan stabilitas timbunan berdasarkan displacement yang terjadi seperti yang ditunjukkan pada Gambar
+28. untuk timbunan tanpa stone column dan Gambar 29. untuk timbunan dengan stone column di bawah ini.
+
+Gambar 28. FK Stabilitas Timbunan
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 14
+
+Tanpa Stone Column
+Sumber : Data Pribadi, 2020
+
+Gambar 29. FK Stabilitas Timbunan
+Dengan Stone Column
+Sumber : Data Pribadi, 2020
+
+V. KESIMPULAN DAN SARAN
+5.1 Kesimpulan
+Berdasarkan hasil perhitungan yang telah dilakukan, maka dapat diambil kesimpulan sebagai berikut:
+1. Kapasitas daya dukung tanah yang diijinkan (qall) tanpa perkuatan stone column hasil perhitungan menggunakan metode Terzaghi untuk lapisan pertama sebesar 56,103 kN/m2 , untuk lapisan kedua sebesar 463,44 kN/m2 dan untuk lapisan ketiga hanya sebesar 304,72 kN/m2
+, sedangkan nilai daya dukung tanah yang diijinkan (qall) dengan adanya perkuatan stone column untuk lapisan pertama sebesar
+185,119 kN/m2 , untuk lapisan kedua sebesar 370,324 kN/m2 dan untuk lapisan ketiga hanya sebesar 190,504 kN/m2 .
+2.
+Tegangan yang bekerja pada permukaan tanah sebesar 134,19 kN/m2 , untuk kondisi tanah lunak tanpa perkuatan stone column, kapasitas daya dukung tanah kurang dari tegangan yang bekerja sehingga perlu dilakukan perbaikan tanah
+(soil improvement).
+3. Pada kondisi tanah dengan adanya perkuatan stone column, kapasitas daya dukung tanah lebih meningkat pada lapisan
+1 sehingga mampu mendukung tegangan yang bekerja di atasnya, tetapi pada lapisan ke-2 dan ke-3 daya dukung ijinnya menjadi lebih kecil dibandingkan dengan daya dukunng ijin (qall) tanpa perkuatan stone column, tetapi masih aman untuk menerima beban kerja.
+4. Total penurunan yang terjadi pada tanah di bawah timbunan tanpa adanya perkuatan stone column dengan perhitungan secara manual didapat sebesar 0,912 meter, sedangkan berdasarkan perhitungan menggunakan software plaxis untuk penurunan yang terjadi pada tanah di bawah timbunan tanpa adanya perkuatan stone column sebesar 1,59 meter, dan untuk penurunan tanah dengan adanya perkuatan stone column hanya sebesar 0,0023 meter.
+Sehingga dengan adanya perbaikan tanah menggunakan stone column dapat mengurangi besar penurunan yang terjadi pada tanah lunak.
+5. Pada penelitian ini adanya perbaikan tanah stone column menambah daya dukung ijin tanah tetapi kurang efektif pada tanah lapisan ke-2 dan ke-3, sedangkan untuk penurunan perbaikan stone column ini efektif mengurangi besarnya settlement pada tanah lunak.
+6. Untuk faktor keamanan stabilitas timbunan tanpa stone column didapatkan angka 1,394 dan faktor keamanan stabilitas timbunan dengan stone column didapatkan angka
+1,695. Faktor kemanan untuk stabilitas timbunan berdasarkan SNI 8460 – 2017 disyaratkan sebesar 1,4 sehingga untuk stabilitas timbunan tanpa stone column tidak memenuhi syarat (kurang aman), dan untuk stabilitas timbunan dengan stone column memnuhi syarat (cukup aman).
+
+5.2 Saran
+Untuk penyempurnaan hasil penelitian serta untuk mengembangkan penelitian lebih lanjut disarankan dilakukan penelitian dengan memperhatikan hal-hal sebagai berikut:
+1. Sebelum melakukan perhitungan hendaknya memperoleh data yang lengkap, karena data tersebut sangat menunjang dalam membuat rencana analisis perhitungan sesuai dengan standar dan syarat-syaratnya.
+2.
+Parameter tanah yang digunakan sebagai data masukan sangat berpengaruh terhadap analisis, oleh karena itu dalam penentuan harga parameter tersebut harus dilakukan secermat mungkin.
+3.
+Untuk mendapatkan tingkat akurasi yang tinggi dari perhitungan analitis maupun program Plaxis 8.2 2D perlu dilakukan perbandingan dengan hasil analisa yang ada di lapangan.
+4.
+Perlu ada perbandingan efektifitas konfigurasi perletakan model stone column antara model segiempat dengan segitiga.
+
+DAFTAR PUSTAKA
+1. Das , Braja M. 1995. Mekanika Tanah
+(Prinsip-prinsip
+Rekayasa
+Geoteknis).
+Program Studi Teknik Sipil, Fakultas Teknik Universitas Pakuan
+Page 15
+
+Penerbit Erlangga. Jakarta. 283 hal.
+2. Wesley, L.D. 1997. Mekanika Tanah.
+Badan Penerbit Pekerjaan Umum. Jakarta.
+278 hal.
+3. Badan
+Standarisasi
+Nasional,
+SNI
+8460:2017,
+Persyaratan
+Perencanaan
+Geoteknik, Jakarta, 2017.
+4. Manual Book Plaxis Versi 8.
+5. Lukman, Hikmad. Diktat Kuliah Mekanika
+Tanah II, Universitas Pakuan, Bogor, 1997.
+6. Hardiyatmo, Hary Christady. Stabilisasi
+Tanah Untuk Perkerasan Jalan. Penerbit
+Gajah Mada University Press. Yogyakarta.
+273 hal.
+7. Iskandar., Fitriani, Fauziah., Hamdhan.,
+Noer, Indra., Pemodelan Numerik Pada
+Perbaikan Tanah Menggunakan Stone
+Column Di Tanah Lempung Lunak Di
+Bawah Tanah Timbunan, Institut Teknologi
+Nasional, Bandung, 2016.
+8. Pangestu, S. H., Desain Dan Pemodelan
+Stone Column Sebagai Perkuatan Tanah
+Lunak
+Di
+Bawah
+Timbunan,
+Institut
+Teknologi Bandung, Bandung, 2010.
+9. Siahaan,
+Logiray
+Pratikno.,
+Alternatif
+Perbaikan Tanah Dasar Dan Perkuatan
+Timbunan Pada Jalan Tol Palembang –
+Indralaya
+(Sta
+8+750
+S/D
+Sta
+10+750)[Tugas Akhir], Institut Teknologi
+Sepuluh Nopember, Surabaya, 2017.
+10. Hepma,
+Immanuel.,
+Studi
+Parameter
+Perencanaan
+Stone
+Column
+Untuk
+Perbaikan
+Bearing
+Capacity
+Dan
+Settlement Pada Tanah Lempung, ITB,
+Bandung.
+11. Maulidina, Katherine., Andienti, Tita.,
+Pradiptiya,
+Andikanoza.,
+Perhitungan
+Ulang Daya Dukung Stone Column Pada
+Proyek Runway 3 Section 2 Bandara
+Soekarno-Hatta, Politeknik Negri Jakarta,
+2019.
+12. Prasetyo,
+Ikhsan
+Budi.,
+Evaluasi
+Perbandingan Hasil Analisis Perbaikan
+Tanah
+Lunak
+Dengan
+Metode
+Prefabricated Vertical Drain Dan Stone
+Column
+Di
+Bawah
+Timbunan,
+ITB,
+Bandung.
+
+RIWAYAT PENULIS
+1. Aghnii Auliya Anjani, ST. Alumni (2020)
+Program Studi Teknik Sipil, Fakultas
+Teknik, Universitas Pakuan, Bogor (e-mail
+:aghniiauliyaanjani@gmail.com).
+2. Ir. Hikmad Lukman, MT. Staf Dosen
+Program Studi Teknik Sipil, Fakultas
+Teknik, Universitas Pakuan, Bogor.
+3. Ir. Budiono, MT. Staf Dosen Program
+Studi Teknik Sipil, Fakultas Teknik
+Universitas Pakuan, Bogor.

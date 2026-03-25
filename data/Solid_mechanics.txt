@@ -1,0 +1,108 @@
+Solid mechanics
+Solid mechanics (also known as mechanics of solids) is the branch of continuum mechanics that studies the behavior of solid materials, especially their motion and deformation under the action of forces, temperature changes, phase changes, and other external or internal agents.
+Solid mechanics is fundamental for civil, aerospace, nuclear, biomedical and mechanical engineering, for geology, and for many branches of physics and chemistry such as materials science.[1] It has specific applications in many other areas, such as understanding the anatomy of living beings, and the design of dental prostheses and surgical implants. One of the most common practical applications of solid mechanics is the Euler–Bernoulli beam equation. Solid mechanics extensively uses tensors to describe stresses, strains, and the relationship between them.
+Solid mechanics is a vast subject because of the wide range of solid materials available, such as steel, wood, concrete, biological materials, textiles, geological materials, and plastics.
+A solid is a material that can support a substantial amount of shearing force over a given time scale during a natural or industrial process or action. This is what distinguishes solids from fluids, because fluids also support normal forces which are those forces that are directed perpendicular to the material plane across from which they act and normal stress is the normal force per unit area of that material plane. Shearing forces in contrast with normal forces, act parallel rather than perpendicular to the material plane and the shearing force per unit area is called shear stress.
+Therefore, solid mechanics examines the shear stress, deformation and the failure of solid materials and structures.
+The most common topics covered in solid mechanics include:
+1. stability of structures - examining whether structures can return to a given equilibrium after disturbance or partial/complete failure, see Structure mechanics
+2. dynamical systems and chaos - dealing with mechanical systems highly sensitive to their given initial position
+3. thermomechanics - analyzing materials with models derived from principles of thermodynamics
+4. biomechanics - solid mechanics applied to biological materials e.g. bones, heart tissue
+5. geomechanics - solid mechanics applied to geological materials e.g. ice, soil, rock
+6. vibrations of solids and structures - examining vibration and wave propagation from vibrating particles and structures i.e. vital in mechanical, civil, mining, aeronautical, maritime/marine, aerospace engineering
+7. fracture and damage mechanics - dealing with crack-growth mechanics in solid materials
+8. composite materials - solid mechanics applied to materials made up of more than one compound e.g. reinforced plastics, reinforced concrete, fiber glass
+Fundamental aspects
+9. variational formulations and computational mechanics - numerical solutions to mathematical equations arising from various branches of solid mechanics e.g. finite element method (FEM)
+10. experimental mechanics - design and analysis of experimental methods to examine the behavior of solid materials and structures
+As shown in the following table, solid mechanics inhabits a central place within continuum mechanics.
+The field of rheology presents an overlap between solid and fluid mechanics.
+Continuum mechanics
+The study of the physics of continuous materials
+Solid mechanics
+The study of the physics of continuous materials with a defined rest shape.
+Elasticity
+Describes materials that return to their rest shape after applied stresses are removed.
+Plasticity
+Describes materials that permanently deform after a sufficient applied stress.
+Rheology
+The study of materials with both solid and fluid characteristics.
+Fluid mechanics
+The study of the physics of continuous materials which deform when subjected to a force.
+Non-Newtonian fluid
+Do not undergo strain rates proportional to the applied shear stress.
+Newtonian fluids undergo strain rates proportional to the applied shear stress.
+A material has a rest shape and its shape departs away from the rest shape due to stress. The amount of departure from rest shape is called deformation, the proportion of deformation to original size is called strain. If the applied stress is sufficiently low (or the imposed strain is small enough), almost all solid materials behave in such a way that the strain is directly proportional to the stress; the coefficient of the proportion is called the modulus of elasticity. This region of deformation is known as the linearly elastic region.
+It is most common for analysts in solid mechanics to use linear material models, due to ease of computation. However, real materials often exhibit non-linear behavior. As new materials are used and old ones are pushed to their limits, non-linear material models are becoming more common.
+These are basic models that describe how a solid responds to an applied stress:
+1. Elasticity – When an applied stress is removed, the material returns to its undeformed state.
+Linearly elastic materials, those that deform proportionally to the applied load, can be described by the linear elasticity equations such as Hooke's law.
+2. Viscoelasticity – These are materials that behave elastically, but also have damping: when the stress is applied and removed, work has to be done against the damping effects and is converted in heat within the material resulting in a hysteresis loop in the stress–strain curve.
+This implies that the material response has time-dependence.
+3. Plasticity – Materials that behave elastically generally do so when the applied stress is less than a yield value. When the stress is greater than the yield stress, the material behaves
+Relationship to continuum mechanics
+Response models
+Galileo Galilei published the book "Two New Sciences" in which he examined the failure of simple structures
+Isaac Newton published
+"Philosophiae Naturalis
+Principia Mathematica" which contains the Newton's laws of motion plastically and does not return to its previous state. That is, deformation that occurs after yield is permanent.
+4. Viscoplasticity - Combines theories of viscoelasticity and plasticity and applies to materials like gels and mud.
+5. Thermoelasticity - There is coupling of mechanical with thermal responses. In general, thermoelasticity is concerned with elastic solids under conditions that are neither isothermal nor adiabatic. The simplest theory involves the Fourier's law of heat conduction, as opposed to advanced theories with physically more realistic models.
+1452–1519 Leonardo da Vinci made many contributions[2]
+1638: Galileo Galilei published the book "Two New Sciences" in which he examined the failure of simple structures
+1660: Hooke's law by Robert Hooke
+1687: Isaac Newton published "Philosophiae Naturalis
+Principia Mathematica" which contains Newton's laws of motion
+1750: Euler–Bernoulli beam equation
+1700–1782: Daniel Bernoulli introduced the principle of virtual work
+1707–1783: Leonhard Euler developed the theory of buckling of columns
+1826: Claude-Louis Navier published a treatise on the elastic behaviors of structures
+1873: Carlo Alberto Castigliano presented his dissertation
+"Intorno ai sistemi elastici", which contains his theorem for computing displacement as partial derivative of the strain energy. This theorem includes the method of least work as a special case
+1874: Otto Mohr formalized the idea of a statically indeterminate structure.
+1922: Timoshenko corrects the Euler–Bernoulli beam equation
+1936: Hardy Cross' publication of the moment distribution method, an important innovation in the design of continuous frames.
+1941: Alexander Hrennikoff solved the discretization of plane elasticity problems using a lattice framework
+1942: R. Courant divided a domain into finite subregions
+1956: J. Turner, R. W. Clough, H. C. Martin, and L. J. Topp's paper on the "Stiffness and Deflection of Complex
+Structures" introduces the name "finite-element method" and is widely recognized as the first comprehensive treatment of the method as it is known today
+Timeline
+Leonhard Euler developed the theory of buckling of columns
+Strength of materials - Specific definitions and the relationships between stress and strain.
+Applied mechanics
+Materials science
+Continuum mechanics
+Fracture mechanics
+Impact (mechanics)
+Solid-state physics
+Rigid body
+1. Allan Bower (2009). Applied mechanics of solids (http://solidmechanics.org). CRC press.
+Retrieved March 5, 2017.
+2. "Leonardo da Vinci: The Mechanics of Genius" (https://qeprize.org/news/leonardo-da-vinci).
+Queen Elizabeth Prize for Engineering. Retrieved 2024-05-27.
+L.D. Landau, E.M. Lifshitz, Course of Theoretical Physics: Theory of Elasticity Butterworth-
+Heinemann, ISBN 0-7506-2633-X
+J.E. Marsden, T.J. Hughes, Mathematical Foundations of Elasticity, Dover, ISBN 0-486-
+67865-2
+P.C. Chou, N. J. Pagano, Elasticity: Tensor, Dyadic, and Engineering Approaches, Dover,
+ISBN 0-486-66958-0
+R.W. Ogden, Non-linear Elastic Deformation, Dover, ISBN 0-486-69648-0
+S. Timoshenko and J.N. Goodier," Theory of elasticity", 3d ed., New York, McGraw-Hill,
+1970.
+G.A. Holzapfel, Nonlinear Solid Mechanics: A Continuum Approach for Engineering, Wiley,
+A.I. Lurie, Theory of Elasticity, Springer, 1999.
+L.B. Freund, Dynamic Fracture Mechanics, Cambridge University Press, 1990.
+R. Hill, The Mathematical Theory of Plasticity, Oxford University, 1950.
+J. Lubliner, Plasticity Theory, Macmillan Publishing Company, 1990.
+J. Ignaczak, M. Ostoja-Starzewski, Thermoelasticity with Finite Wave Speeds, Oxford
+University Press, 2010.
+D. Bigoni, Nonlinear Solid Mechanics: Bifurcation Theory and Material Instability, Cambridge
+University Press, 2012.
+Y. C. Fung, Pin Tong and Xiaohong Chen, Classical and Computational Solid Mechanics,
+2nd Edition, World Scientific Publishing, 2017, ISBN 978-981-4713-64-1.
+See also
+References
+Notes
+Bibliography
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Solid_mechanics&oldid=1316132591"

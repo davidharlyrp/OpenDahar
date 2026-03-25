@@ -3,8 +3,8 @@ CONNECT Edition V22.01
 Scientific Manual
 Last Updated: March 07, 2022
 Table of Contents
-Chapter 1:  Introduction ............................................................................................................ 4
-Chapter 2:  Deformation theory .................................................................................................5
+Chapter 1: Introduction ............................................................................................................ 4
+Chapter 2: Deformation theory .................................................................................................5
 2.1
 Basic equations of continuum deformation ..................................................................................................................5
 2.2
@@ -13,7 +13,7 @@ Finite element discretisation ..................................................
 Implicit integration of differential plasticity models ................................................................................................7
 2.4
 Global iterative procedure ................................................................................................................................................... 8
-Chapter 3:  Groundwater flow theory .......................................................................................10
+Chapter 3: Groundwater flow theory .......................................................................................10
 3.1
 Basic equations of flow ....................................................................................................................................................... 10
 3.1.1
@@ -28,7 +28,7 @@ Boundary Conditions ............................................................
 Finite element discretisation ............................................................................................................................................15
 3.4
 Flow in interface elements ................................................................................................................................................ 16
-Chapter 4:  Consolidation theory ............................................................................................. 17
+Chapter 4: Consolidation theory ............................................................................................. 17
 4.1
 Basic equations of consolidation ................................................................................................................................... 17
 4.2
@@ -37,7 +37,7 @@ Finite element discretisation ..................................................
 Elastoplastic consolidation ................................................................................................................................................20
 4.4
 Critical time step ....................................................................................................................................................................20
-Chapter 5:  Dynamics ................................................................................................................22
+Chapter 5: Dynamics ................................................................................................................22
 5.1
 Basic equation dynamic behaviour ................................................................................................................................22
 5.2
@@ -78,7 +78,6 @@ Interpolation functions and numerical integration of line elements .............
 6.2.1
 Interpolation functions of line elements ..........................................................................................32
 PLAXIS
-2
 Scientific Manual
 6.2.2
 Structural elements ...................................................................................................................................35
@@ -125,33 +124,22 @@ Definition of threshold value ..................................................
 Theory of parameter variation ........................................................................................................................................ 56
 7.2.1
 Bounds on the system response .......................................................................................................... 56
-Chapter 8:  Reference .............................................................................................................. 58
+Chapter 8: Reference .............................................................................................................. 58
 Appendices ......................................................................................................... 60
-Appendix A:  Symbols ...............................................................................................................61
-Appendix B:  Calculation Process ............................................................................................. 63
+Appendix A: Symbols ...............................................................................................................61
+Appendix B: Calculation Process ............................................................................................. 63
 PLAXIS
-3
 Scientific Manual
- 1
 Introduction
-In this part of the manual some scientific background is given of the theories and numerical methods on which
-the PLAXIS program is based. The manual contains chapters on deformation theory, groundwater flow theory
-(PLAXIS 2D), consolidation theory, dynamics as well as the corresponding finite element formulations and
-integration rules for the various types of elements used in PLAXIS. In Calculation Process (on page 63) a global
-calculation scheme is provided for a plastic deformation analysis.
-In addition to the specific information given in this part of the manual, more information on backgrounds of
-theory and numerical methods can be found in the literature, as amongst others referred to in Reference Manual.
+In this part of the manual some scientific background is given of the theories and numerical methods on which the PLAXIS program is based. The manual contains chapters on deformation theory, groundwater flow theory
+(PLAXIS 2D), consolidation theory, dynamics as well as the corresponding finite element formulations and integration rules for the various types of elements used in PLAXIS. In Calculation Process (on page 63) a global calculation scheme is provided for a plastic deformation analysis.
+In addition to the specific information given in this part of the manual, more information on backgrounds of theory and numerical methods can be found in the literature, as amongst others referred to in Reference Manual.
 For detailed information on stresses, strains, constitutive modelling and the types of soil models used in the
 PLAXIS program, the reader is referred to the Material Models Manual.
 PLAXIS
-4
 Scientific Manual
- 2
 Deformation theory
-In this chapter the basic equations for the static deformation of a soil body are formulated within the framework
-of continuum mechanics. A restriction is made in the sense that deformations are considered to be small. This
-enables a formulation with reference to the original undeformed geometry. The continuum description is
-discretised according to the finite element method.
+In this chapter the basic equations for the static deformation of a soil body are formulated within the framework of continuum mechanics. A restriction is made in the sense that deformations are considered to be small. This enables a formulation with reference to the original undeformed geometry. The continuum description is discretised according to the finite element method.
 2.1 Basic equations of continuum deformation
 The static equilibrium of a continuum can be formulated as:
 LT σ
@@ -163,34 +151,24 @@ LT σ
 Eq. [1]
 This equation relates the spatial derivatives of the six stress components, assembled in vector σ
 ¯
- , to the three
-components of the body forces, assembled in vector b
+, to the three components of the body forces, assembled in vector b
 ¯
- . LT  is the transpose of a differential operator, defined as:
+. LT is the transpose of a differential operator, defined as:
 LT =
 ∂
 ∂x
-0
-0
 ∂
 ∂y
-0
 ∂
 ∂z
-0
 ∂
 ∂y
-0
 ∂
 ∂x
 ∂
 ∂z
-0
-0
-0
 ∂
 ∂z
-0
 ∂
 ∂y
 ∂
@@ -201,26 +179,21 @@ In addition to the equilibrium equation, the kinematic relation can be formulate
 ¯
 = Lu
 ¯
- Eq. [3]
+Eq. [3]
 This equation expresses the six strain components, assembled in vector ε
 ¯
- , as the spatial derivatives of the three
-displacement components, assembled in vector u
+, as the spatial derivatives of the three displacement components, assembled in vector u
 ¯
- , using the previously defined differential operator L . The link
-between Eq. [1] and Eq. [3] is formed by a constitutive relation representing the material behaviour. Constitutive
-relations, i.e. relations between rates of stress and strain, are extensively discussed in the Reference Manual. The
-general relation is repeated here for completeness:
+, using the previously defined differential operator L . The link between Eq. [1] and Eq. [3] is formed by a constitutive relation representing the material behaviour. Constitutive relations, i.e. relations between rates of stress and strain, are extensively discussed in the Reference Manual. The general relation is repeated here for completeness:
 σ
 ¯
 ˙ = Mε
 ¯
 ˙
- Eq. [4]
-The combination of Eq. [1], Eq. [3] and Eq. [4] would lead to a second-order partial differential equation in the
-displacements u
+Eq. [4]
+The combination of Eq. [1], Eq. [3] and Eq. [4] would lead to a second-order partial differential equation in the displacements u
 ¯
- .
+.
 However, instead of a direct combination, the equilibrium equation is reformulated in a weak form according to
 Galerkin's variation principle:
 ∫δu
@@ -230,190 +203,136 @@ T(LT σ
 + b
 ¯
 )dV = 0
- Eq. [5]
+Eq. [5]
 PLAXIS
-5
 Scientific Manual
 In this formulation δu
-¯
- represents a kinematically admissible variation of displacements. Applying Green's
-theorem for partial integration to the first term in Eq. [5] leads to:
+¯ represents a kinematically admissible variation of displacements. Applying Green's theorem for partial integration to the first term in Eq. [5] leads to:
 ∫δε
 ¯
 T σ
-¯
-dV = ∫δu
+¯ dV = ∫δu
 ¯
 T b
-¯
-dV + ∫δu
+¯ dV + ∫δu
 ¯
 T t
-¯
-dS
- Eq. [6]
-This introduces a boundary integral in which the boundary traction appears. The three components of the
-boundary traction are assembled in the vector t
+¯ dS
+Eq. [6]
+This introduces a boundary integral in which the boundary traction appears. The three components of the boundary traction are assembled in the vector t
 ¯
 . Eq. [6] is referred to as the virtual work equation.
 The development of the stress state σ
-¯
- can be regarded as an incremental process:
+¯ can be regarded as an incremental process:
 σi = σi-1 + Δσ
 Δσ = ∫σ˙dt
 Eq. [7]
 In this relation σ
-¯
-i represents the actual state of stress which is unknown and σ
-¯
-i−1 represents the previous state
-of stress which is known. The stress increment Δσ
-¯
- is the stress rate integrated over a small time increment.
+¯ i represents the actual state of stress which is unknown and σ
+¯ i−1 represents the previous state of stress which is known. The stress increment Δσ
+¯ is the stress rate integrated over a small time increment.
 If Eq. [6] is considered for the actual state i, the unknown stresses σ
-¯
-i can be eliminated using Eq. [7]:
+¯ i can be eliminated using Eq. [7]:
 ∫δε
 ¯
 T Δσ
-¯
-dV = ∫δu
+¯ dV = ∫δu
 ¯
 T b
-¯
-idV + ∫δu
+¯ idV + ∫δu
 ¯
 T t
-¯
-idS −∫δε
+¯ idS −∫δε
 ¯
 T σ
-¯
-i−1dV
- Eq. [8]
-It should be noted that all quantities appearing in Eq. [1] till Eq. [8] are functions of the position in the three-
-dimensional space.
+¯ i−1dV
+Eq. [8]
+It should be noted that all quantities appearing in Eq. [1] till Eq. [8] are functions of the position in the three- dimensional space.
 2.2 Finite element discretisation
-According to the finite element method a continuum is divided into a number of (volume) elements. Each
-element consists of a number of nodes. Each node has a number of degrees of freedom that correspond to
-discrete values of the unknowns in the boundary value problem to be solved. In the present case of deformation
-theory the degrees of freedom correspond to the displacement components. Within an element the displacement
-field u
-¯
- is obtained from the discrete nodal values in a vector v
-¯
- using interpolation functions assembled in matrix
+According to the finite element method a continuum is divided into a number of (volume) elements. Each element consists of a number of nodes. Each node has a number of degrees of freedom that correspond to discrete values of the unknowns in the boundary value problem to be solved. In the present case of deformation theory the degrees of freedom correspond to the displacement components. Within an element the displacement field u
+¯ is obtained from the discrete nodal values in a vector v
+¯ using interpolation functions assembled in matrix
 N :
 u
 ¯
 = Nv
 ¯
- Eq. [9]
-The interpolation functions in matrix N are often denoted as shape functions. Substitution of Eq. [9] in the
-kinematic relation Eq. [3] gives:
+Eq. [9]
+The interpolation functions in matrix N are often denoted as shape functions. Substitution of Eq. [9] in the kinematic relation Eq. [3] gives:
 ε
 ¯
 = LNv
 ¯
 = Bv
 ¯
- Eq. [10]
-In this relation N is the strain interpolation matrix, which contains the spatial derivatives of the interpolation
-functions. Eq. [9] and Eq. [10] can be used in variational, incremental and rate form as well.
+Eq. [10]
+In this relation N is the strain interpolation matrix, which contains the spatial derivatives of the interpolation functions. Eq. [9] and Eq. [10] can be used in variational, incremental and rate form as well.
 Eq. [8] can now be reformulated in discretised form as:
 ∫(Bδv
 ¯
 )T Δσ
-¯
-d V = ∫(Nδv
+¯ d V = ∫(Nδv
 ¯
 )T b
-¯
-idV + ∫(Nδv
+¯ idV + ∫(Nδv
 ¯
 )T t
-¯
-idS −∫(Bδv
+¯ idS −∫(Bδv
 ¯
 )T σ
-¯
-i−1dV
+¯ i−1dV
 Eq. [11]
 The discrete displacements can be placed outside the integral:
 δv
 ¯
 ∫BT Δσ
-¯
-d V = δv
+¯ d V = δv
 ¯
 ∫NT b
-¯
-idV + δv
+¯ idV + δv
 ¯
 ∫NT t
-¯
-idS −δv
+¯ idS −δv
 ¯
 ∫BT σ
-¯
-i−1dV
- Eq. [12]
+¯ i−1dV
+Eq. [12]
 Provided that Eq. [12] holds for any kinematically admissible displacement variation δv
 ¯
-T  , the equation can be
-written as:
+T , the equation can be written as:
 ∫BT Δσ
-¯
-d V = ∫NT b
-¯
-idV + ∫NT t
-¯
-idS −∫BT σ
-¯
-i−1dV
- Eq. [13]
+¯ d V = ∫NT b
+¯ idV + ∫NT t
+¯ idS −∫BT σ
+¯ i−1dV
+Eq. [13]
 Deformation theory
 Finite element discretisation
 PLAXIS
-6
 Scientific Manual
-The Eq. [13] is the elaborated equilibrium condition in discretised form. The first term on the right-hand side
-together with the second term represent the current external force vector and the last term represents the
-internal reaction vector from the previous step. A difference between the external force vector and the internal
-reaction vector should be balanced by a stress increment Δσ
+The Eq. [13] is the elaborated equilibrium condition in discretised form. The first term on the right-hand side together with the second term represent the current external force vector and the last term represents the internal reaction vector from the previous step. A difference between the external force vector and the internal reaction vector should be balanced by a stress increment Δσ
 ¯
- .
-The relation between stress increments and strain increments is usually non-linear. As a result, strain
-increments can generally not be calculated directly, and global iterative procedures are required to satisfy the
-equilibrium condition (Eq. [12]) for all material points. Global iterative procedures are described later in Global
-iterative procedure (on page 8), but the attention is first focused on the (local) integration of stresses.
+.
+The relation between stress increments and strain increments is usually non-linear. As a result, strain increments can generally not be calculated directly, and global iterative procedures are required to satisfy the equilibrium condition (Eq. [12]) for all material points. Global iterative procedures are described later in Global iterative procedure (on page 8), but the attention is first focused on the (local) integration of stresses.
 2.3 Implicit integration of differential plasticity models
 The stress increments Δσ
-¯
- are obtained by integration of the stress rates according to Eq. [7]. For differential
-plasticity models the stress increments can generally be written as:
+¯ are obtained by integration of the stress rates according to Eq. [7]. For differential plasticity models the stress increments can generally be written as:
 Δσ
 ¯
 = De (Δε
 ¯
 - Δε
-¯
-p)
- Eq. [14]
+¯ p)
+Eq. [14]
 In this relation De represents the elastic material matrix for the current stress increment. The strain increments
 Δε
-¯
- are obtained from the displacement increments Δσ
-¯
- using the strain interpolation matrix B, similar to Eq.
+¯ are obtained from the displacement increments Δσ
+¯ using the strain interpolation matrix B, similar to Eq.
 [10].
 For elastic material behaviour, the plastic strain increment Δε
-¯
-p is zero. For plastic material behaviour, the
-plastic strain increment can be written, according to Vermmer (1979) (on page 59), as:
+¯ p is zero. For plastic material behaviour, the plastic strain increment can be written, according to Vermmer (1979) (on page 59), as:
 Δε
-¯
-p = Δλ (1 −ω)( ∂g
+¯ p = Δλ (1 −ω)( ∂g
 ∂σ
 ¯
 )i−1 + ω( ∂g
@@ -421,66 +340,45 @@ p = Δλ (1 −ω)( ∂g
 ¯
 )i
 Eq. [15]
-In this equation Δλ is the increment of the plastic multiplier and ω is a parameter indicating the type of time
-integration. For ω = 0 the integration is called explicit and for ω = 1 the integration is called implicit.
-Vermeer (1979) (on page 59) has shown that the use of implicit integration (ω = 1) has some major
-advantages, as it overcomes the requirement to update the stress to the yield surface in the case of a transition
-from elastic to elastoplastic behaviour. Moreover, it can be proven that implicit integration, under certain
-conditions, leads to a symmetric and positive differential matrix ∂ε
+In this equation Δλ is the increment of the plastic multiplier and ω is a parameter indicating the type of time integration. For ω = 0 the integration is called explicit and for ω = 1 the integration is called implicit.
+Vermeer (1979) (on page 59) has shown that the use of implicit integration (ω = 1) has some major advantages, as it overcomes the requirement to update the stress to the yield surface in the case of a transition from elastic to elastoplastic behaviour. Moreover, it can be proven that implicit integration, under certain conditions, leads to a symmetric and positive differential matrix ∂ε
 ¯
 / ∂σ
 ¯
-, which has a positive influence on
-iterative procedures. Because of these major advantages, restriction is made here to implicit integration and no
-attention is given to other types of time integration.
+, which has a positive influence on iterative procedures. Because of these major advantages, restriction is made here to implicit integration and no attention is given to other types of time integration.
 Hence, for ω = 1 Eq. [15] reduces to:
 Δε
-¯
-p = Δλ( ∂g
+¯ p = Δλ( ∂g
 ∂σ
 ¯
 )i−1
 Eq. [16]
 Substitution of Eq. [16] into Eq. [14] and successively into Eq. [7] gives:
 σ
-¯
-i = σ
-¯
-tr −ΔλDe( ∂g
+¯ i = σ
+¯ tr −ΔλDe( ∂g
 ∂σ
 ¯
-)i
- with: 
+)i with:
 σ
+¯ tr = σ
+¯ i−1 + DeΔε
 ¯
-tr = σ
-¯
-i−1 + DeΔε
-¯
- Eq. [17]
+Eq. [17]
 In this relation σ
-¯
-tr is an auxiliary stress vector, referred to as the elastic stresses or trial stresses, which is the
-new stress state when considering purely linear elastic material behaviour.
-The increment of the plastic multiplier Δλ, as used in Eq. [17], can be solved from the condition that the new
-stress state has to satisfy the yield condition:
+¯ tr is an auxiliary stress vector, referred to as the elastic stresses or trial stresses, which is the new stress state when considering purely linear elastic material behaviour.
+The increment of the plastic multiplier Δλ, as used in Eq. [17], can be solved from the condition that the new stress state has to satisfy the yield condition:
 f (σ
-¯
-i) = 0
- Eq. [18]
+¯ i) = 0
+Eq. [18]
 Deformation theory
 Implicit integration of differential plasticity models
 PLAXIS
-7
 Scientific Manual
 For perfectly-plastic and linear hardening models the increment of the plastic multiplier can be written as:
-Δλ =
-f (σ
-¯
-tr)
-d + h
- Eq. [19]
-where:
+Δλ = f (σ
+¯ tr) d + h
+Eq. [19] where:
 d = ( ∂f
 ∂σ
 ¯
@@ -488,124 +386,71 @@ d = ( ∂f
 ∂σ
 ¯
 )i
- Eq. [20]
-The symbol h  denotes the hardening parameter, PLAXIS which is zero for perfectly-plastic models and constant
-for linear hardening models. In the latter case the new stress state can be formulated as:
+Eq. [20]
+The symbol h denotes the hardening parameter, PLAXIS which is zero for perfectly-plastic models and constant for linear hardening models. In the latter case the new stress state can be formulated as:
 σ
-¯
-i = σ
-¯
-tr −
-f (σ
-¯
-tr)
-d + h
+¯ i = σ
+¯ tr − f (σ
+¯ tr) d + h
 De( ∂g
 ∂σ
 ¯
 )i
- Eq. [21]
-The  -brackets are referred to as McCauley brackets, which have the following convention:
-x = 0
-for
-x ≤0
-and
-x = x
-for
-x > 0
-For non-linear hardening models the increment of the plastic multiplier is obtained using a Newton-type
-iterative procedure with convergence control.
+Eq. [21]
+The -brackets are referred to as McCauley brackets, which have the following convention:
+x = 0 for x ≤0 and x = x for x > 0
+For non-linear hardening models the increment of the plastic multiplier is obtained using a Newton-type iterative procedure with convergence control.
 2.4 Global iterative procedure
 Substitution of the relationship between increments of stress and increments of strain, Δσ
 ¯
 = MΔε
 ¯
-, into the
-equilibrium equation (Eq. [13]) leads to:
+, into the equilibrium equation (Eq. [13]) leads to:
 KiΔv
-¯
-i = f
-¯ ex
-i
+¯ i = f
+¯ ex i
 −f
-¯ in
-i
+¯ in i
 Eq. [22]
 In this equation K is a stiffness matrix, Δv
-¯
- is the incremental displacement vector, f
-¯ ex
-i  is the external force
-vector and f
-¯ in
-i  is the internal reaction vector. The superscript i refers to the step number. However, because the
-relation between stress increments and strain increments is generally non-linear, the stiffness matrix cannot be
-formulated exactly beforehand. Hence, a global iterative procedure is required to satisfy both the equilibrium
-condition and the constitutive relation. The global iteration process can be written as:
+¯ is the incremental displacement vector, f
+¯ ex i is the external force vector and f
+¯ in i is the internal reaction vector. The superscript i refers to the step number. However, because the relation between stress increments and strain increments is generally non-linear, the stiffness matrix cannot be formulated exactly beforehand. Hence, a global iterative procedure is required to satisfy both the equilibrium condition and the constitutive relation. The global iteration process can be written as:
 Kiδv
-¯
-j = f
-¯ ex
-i
+¯ j = f
+¯ ex i
 −f
-¯ in
-j−1
- Eq. [23]
+¯ in j−1
+Eq. [23]
 The superscript j refers to the iteration number. δv
-¯
- is a vector containing sub-incremental displacements, which
-contribute to the displacement increments of step i :
+¯ is a vector containing sub-incremental displacements, which contribute to the displacement increments of step i :
 Δv
-¯
-i = ∑
-j=1
-n
-δv
-¯
-j
- Eq. [24]
-where n is the number of iterations within step i. The stiffness matrix K, as used in Eq. [23], represents the
-material behaviour in an approximated manner. The more accurate the stiffness matrix, the fewer iterations are
-required to obtain equilibrium within a certain tolerance.
+¯ i = ∑ j=1 n δv
+¯ j
+Eq. [24] where n is the number of iterations within step i. The stiffness matrix K, as used in Eq. [23], represents the material behaviour in an approximated manner. The more accurate the stiffness matrix, the fewer iterations are required to obtain equilibrium within a certain tolerance.
 In its simplest form K represents a linear-elastic response. In this case the stiffness matrix can be formulated as:
 K = ∫BT DeBdV
 (elastic stiffness matrix )
-Eq. [25]
-where De is the elastic material matrix according to Hooke's law and B is the strain interpolation matrix. The use
-of an elastic stiffness matrix gives a robust iterative procedure as long as the material stiffness does not increase,
+Eq. [25] where De is the elastic material matrix according to Hooke's law and B is the strain interpolation matrix. The use of an elastic stiffness matrix gives a robust iterative procedure as long as the material stiffness does not increase,
 Deformation theory
 Global iterative procedure
 PLAXIS
-8
-Scientific Manual
-even when using non-associated plasticity models. Special techniques such as arc-length control (Riks, 1979) (on
-page 59), over-relaxation and extrapolation (Vermeer & van Langen, 1989) (on page 59) can be used to
-improve the iteration process. Moreover, the automatic step size procedure, as introduced by Van Langen &
-Vermeer (1990) (on page 59), can be used to improve the practical applicability. For material models with
-linear behaviour in the elastic domain, such as the standard Mohr-Coulomb model, the use of an elastic stiffness
-matrix is particularly favourable, as the stiffness matrix needs only be formed and decomposed before the first
-calculation step. This calculation procedure is summarised in Calculation Process (on page 63).
+Scientific Manual even when using non-associated plasticity models. Special techniques such as arc-length control (Riks, 1979) (on page 59), over-relaxation and extrapolation (Vermeer & van Langen, 1989) (on page 59) can be used to improve the iteration process. Moreover, the automatic step size procedure, as introduced by Van Langen &
+Vermeer (1990) (on page 59), can be used to improve the practical applicability. For material models with linear behaviour in the elastic domain, such as the standard Mohr-Coulomb model, the use of an elastic stiffness matrix is particularly favourable, as the stiffness matrix needs only be formed and decomposed before the first calculation step. This calculation procedure is summarised in Calculation Process (on page 63).
 Deformation theory
 Global iterative procedure
 PLAXIS
-9
 Scientific Manual
- 3
 Groundwater flow theory
-In this chapter we will review the theory of groundwater flow as used in PLAXIS. In addition to a general
-description of groundwater flow, attention is focused on the finite element formulation.
+In this chapter we will review the theory of groundwater flow as used in PLAXIS. In addition to a general description of groundwater flow, attention is focused on the finite element formulation.
 3.1 Basic equations of flow
 3.1.1 Transient flow
-Flow in a porous medium can be described by Darcy's law which is expressed by the following equation in three
-dimensions:
+Flow in a porous medium can be described by Darcy's law which is expressed by the following equation in three dimensions:
 q
 ¯
-=
-k
-ρwg (∇¯
-pw + ρwg
+= k ρwg (∇¯ pw + ρwg
 ¯)
- Eq. [26]
+Eq. [26]
 Where
 ∇¯
 =
@@ -615,76 +460,42 @@ Where
 ∂y
 ∂
 ∂z
- Eq. [27]
-q
+Eq. [27] q
 ¯
 , k, g
-¯
- and ρw are the specific discharge (fluid velocity), the tensor of permeability, the acceleration vector due to
-gravity Eq. [28] and the density of water, respectively. ∇¯
-pw is the gradient of the water pore pressure which
-causes groundwater flow. The term ρwg
-¯
- is used as the flow is not affected by the gradient of the water pore
-pressure in vertical direction when hydrostatic conditions are assumed.
+¯ and ρw are the specific discharge (fluid velocity), the tensor of permeability, the acceleration vector due to gravity Eq. [28] and the density of water, respectively. ∇¯ pw is the gradient of the water pore pressure which causes groundwater flow. The term ρwg
+¯ is used as the flow is not affected by the gradient of the water pore pressure in vertical direction when hydrostatic conditions are assumed.
 g
 ¯
 =
-0
 −g
-0
 Eq. [28]
 In unsaturated soils the coefficient of permeability k can be related to the soil saturation as:
 k = krelksat
- Eq. [29]
+Eq. [29]
 PLAXIS
-10
-Scientific Manual
-where
-ksat =
-kx
-sat
-0
-0
-0
-ky
-sat
-0
-0
-0
-kz
-sat
- Eq. [30]
-and krel is the ratio of the permeability at a given saturation to the permeability in saturated state ksat.
+Scientific Manual where ksat = kx sat ky sat kz sat
+Eq. [30] and krel is the ratio of the permeability at a given saturation to the permeability in saturated state ksat.
 3.1.2 Continuity equation
-The mass concentration of the water in each elemental volume of the medium is equal to ρwnS. The parameters
-n and S are the porosity and the degree of saturation of the soil, respectively. According to the mass
-conservation, the water outflow from the volume is equal to the changes in the mass concentration. As the water
-outflow is equal to the divergence of the specific discharge (∇
+The mass concentration of the water in each elemental volume of the medium is equal to ρwnS. The parameters n and S are the porosity and the degree of saturation of the soil, respectively. According to the mass conservation, the water outflow from the volume is equal to the changes in the mass concentration. As the water outflow is equal to the divergence of the specific discharge (∇
 ¯
 T ⋅(q
 ¯
-)), the continuity equation has the form 
+)), the continuity equation has the form
 (Song, 1990) (on page 59):
 ∇¯
 T ⋅(ρwq
 ¯) = -
 ∂
 ∂t (ρwnS)
- Eq. [31]
-where the specific discharge q
-¯
- is defined as:
+Eq. [31] where the specific discharge q
+¯ is defined as:
 q
 ¯
-=
-krel
-ρwg ksat(∇¯
-pw + ρwg
+= krel ρwg ksat(∇¯ pw + ρwg
 ¯)
- Eq. [32]
-By neglecting the deformations of solid particles and the gradients of the density of water (Boussinesq's
-approximation), the continuity equation is simplified to:
+Eq. [32]
+By neglecting the deformations of solid particles and the gradients of the density of water (Boussinesq's approximation), the continuity equation is simplified to:
 ∇¯
 T ⋅(ρwq
 ¯) + Sm¯
@@ -699,15 +510,10 @@ Kw
 ∂pw
 ∂t
 = 0
-Eq. [33]
-where
-m¯
+Eq. [33] where m¯
 T = 1
-1
-1
-0
 0 0
- Eq. [34]
+Eq. [34]
 For transient groundwater flow the displacements of solid particles are neglected. Therefore:
 ∇¯
 T ⋅(ρwq
@@ -720,342 +526,204 @@ Kw
 ∂pw
 ∂t
 = 0
- Eq. [35]
+Eq. [35]
 For steady state flow (∂pw / ∂t = 0) the continuity condition applies:
 ∇¯
 T ⋅(ρwq
 ¯) = 0
- Eq. [36]
+Eq. [36]
 Eq. [36] expresses that there is no net inflow or outflow in an elementary area, as illustrated in:
 Groundwater flow theory
 Basic equations of flow
 PLAXIS
-11
-Scientific Manual
-q
-y+�q
+Scientific Manual q y+�q
 �ydy
- 
+
 qy+�q
 �ydy
- 
-qx  
-qy  
+
+qx qy
 Figure 1: Illustration of continuity condition
 3.1.3 Hydraulic gradient
 Hydraulic gradient or groundwater head gradient, i
 ¯
-= ∇¯
-h , is a vectorial variable, such that:
+= ∇¯ h , is a vectorial variable, such that:
 q
 ¯
-= −k∇¯
-h
+= −k∇¯ h
 Eq. [37]
-∇¯
-h  is defined as follows:
-∇¯
-h =
+∇¯ h is defined as follows:
+∇¯ h =
 ∂h
 ∂x
 ∂h
 ∂y
 ∂h
 ∂z
- Eq. [38]
+Eq. [38]
 For any particular direction:
-ix = dh
-dx
- Eq. [39]
-qx = −k x
-dh
-dx
- Eq. [40]
-Note that the minus sign does not explicitly appear where groundwater flow, q, is directly calculated from pore
-water pressure, pw, and gravity acceleration, g, values, since both pore water pressure and the gravity
-acceleration vector are negative by definition.
-The value of hydraulic gradient is taken equal to 0 when the relative permeability, krel, at that point is lower
-than 0.99. This pre-condition ensures that the hydraulic gradient is only defined for saturated soil volumes.
+ix = dh dx
+Eq. [39] qx = −k x dh dx
+Eq. [40]
+Note that the minus sign does not explicitly appear where groundwater flow, q, is directly calculated from pore water pressure, pw, and gravity acceleration, g, values, since both pore water pressure and the gravity acceleration vector are negative by definition.
+The value of hydraulic gradient is taken equal to 0 when the relative permeability, krel, at that point is lower than 0.99. This pre-condition ensures that the hydraulic gradient is only defined for saturated soil volumes.
 3.2 Boundary Conditions
 The following boundary conditions are available in PLAXIS:
 Groundwater flow theory
 Boundary Conditions
 PLAXIS
-12
 Scientific Manual
 3.2.1 Closed
-This type of boundary conditions specifies a zero Darcy flux over the boundary as
-qxnx + qyny = 0
- Eq. [41]
-where nx and ny are the outward pointing normal vector components on the boundary.
+This type of boundary conditions specifies a zero Darcy flux over the boundary as qxnx + qyny = 0
+Eq. [41] where nx and ny are the outward pointing normal vector components on the boundary.
 3.2.2 Inflow
 A non-zero Darcy flux over a boundary is set by a prescribed recharge value q¯ and reads:
 qxnx + qyny = −q¯
- Eq. [42]
-This indicates that the Darcy flux vector and the normal vector on the boundary are pointing in opposite
-directions.
+Eq. [42]
+This indicates that the Darcy flux vector and the normal vector on the boundary are pointing in opposite directions.
 3.2.3 Outflow
-For outflow boundary conditions the direction of the prescribed Darcy flux, q¯, should equal the direction of the
-normal on the boundary, i.e.:
+For outflow boundary conditions the direction of the prescribed Darcy flux, q¯, should equal the direction of the normal on the boundary, i.e.:
 qxnx + qyny = q¯
- Eq. [43]
+Eq. [43]
 3.2.4 Head
-For prescribed head boundaries the value of the head h¯  (prescribed input value) is imposed as:
+For prescribed head boundaries the value of the head h¯ (prescribed input value) is imposed as:
 h = h¯
- Eq. [44]
-Alternatively prescribed pressure conditions can be given. Overtopping conditions for example can be
-formulated as prescribed pressure boundaries
-p = 0
- Eq. [45]
+Eq. [44]
+Alternatively prescribed pressure conditions can be given. Overtopping conditions for example can be formulated as prescribed pressure boundaries p = 0
+Eq. [45]
 These conditions directly relate to a prescribed head boundary condition and are implemented as such.
 3.2.5 Infiltration
-This type of boundary conditions poses a more complex mixed boundary condition. An inflow value q¯ may
-depend on time and as in nature the amount of inflow is limited by the capacity of the soil. If the precipitation
-rate exceeds this capacity, ponding takes place at a depth h¯ p,max and the boundary condition switches from
-inflow to prescribed head. As soon as the soil capacity meets the infiltration rate the condition switches back.
-{
-h = z + h¯ p,max
-qxnx + qyny = - q
-h = z + h¯ p,min
-if ponding
-if h < z + h¯ p,max ∩h < z + h¯ p,min
-if drying
+This type of boundary conditions poses a more complex mixed boundary condition. An inflow value q¯ may depend on time and as in nature the amount of inflow is limited by the capacity of the soil. If the precipitation rate exceeds this capacity, ponding takes place at a depth h¯ p,max and the boundary condition switches from inflow to prescribed head. As soon as the soil capacity meets the infiltration rate the condition switches back.
+{ h = z + h¯ p,max qxnx + qyny = - q h = z + h¯ p,min if ponding if h < z + h¯ p,max ∩h < z + h¯ p,min if drying
 Eq. [46]
 Groundwater flow theory
 Boundary Conditions
 PLAXIS
-13
 Scientific Manual
-This boundary condition simulates evaporation for negative values of q¯. The outflow boundary condition is
-limited by a minimum head h¯ p,min  to ensure numerical stability.
+This boundary condition simulates evaporation for negative values of q¯. The outflow boundary condition is limited by a minimum head h¯ p,min to ensure numerical stability.
 3.2.6 Seepage
-The water line option generates phreatic/seepage conditions by default. An external head h¯  is prescribed on the
-part of the boundary beneath the water line, seepage or free conditions are applied to the rest of the line. The
-phreatic/seepage condition reads
-{
-h = h¯
-qxnx + qyny = 0
-h = z
-if h¯ ≥z
-if h¯ < z ∩h < z
-if h < z
+The water line option generates phreatic/seepage conditions by default. An external head h¯ is prescribed on the part of the boundary beneath the water line, seepage or free conditions are applied to the rest of the line. The phreatic/seepage condition reads
+{ h = h¯ qxnx + qyny = 0 h = z if h¯ ≥z if h¯ < z ∩h < z if h < z
 Eq. [47]
-The seepage condition only allows for outflow of groundwater at atmospheric pressure. For unsaturated
-conditions at the boundary the boundary is closed.
-Alternatively a water line may generate a phreatic/closed condition if the upper part of the line is replaced by
-closed conditions. This condition is written as
-{
-h = h¯
-Q = 0
-if h¯ ≥z
-if h¯ < z
- Eq. [48]
-The external head h¯  may vary in a time dependent way, however the part that remains closed is derived from
-the initial setting.
+The seepage condition only allows for outflow of groundwater at atmospheric pressure. For unsaturated conditions at the boundary the boundary is closed.
+Alternatively a water line may generate a phreatic/closed condition if the upper part of the line is replaced by closed conditions. This condition is written as
+{ h = h¯
+Q = 0 if h¯ ≥z if h¯ < z
+Eq. [48]
+The external head h¯ may vary in a time dependent way, however the part that remains closed is derived from the initial setting.
 3.2.7 Infiltration well
-Inside the domain wells are modelled as source terms, where Q¯  specifies the inflowing flux per meter.
+Inside the domain wells are modelled as source terms, where Q¯ specifies the inflowing flux per meter.
 Q = Q¯
- Eq. [49]
-As the source term in the governing equation simulates water flowing in the system, the source term is positive
-for a recharge well.
+Eq. [49]
+As the source term in the governing equation simulates water flowing in the system, the source term is positive for a recharge well.
 3.2.8 Extraction well
-A discharge rate Q¯  simulates an amount of water leaving the domain
+A discharge rate Q¯ simulates an amount of water leaving the domain
 Q = −Q¯
 Eq. [50]
 The source term in th e governing equation is negative for a discharge well.
 3.2.9 Drain
-Drains are handled as seepage boundaries. However, drains may be located inside the domain as well. The
-condition is written as
-{
-h = z
-Q = 0
-if Q < 0
-if h < z
+Drains are handled as seepage boundaries. However, drains may be located inside the domain as well. The condition is written as
+{ h = z
+Q = 0 if Q < 0 if h < z
 Eq. [51]
 Groundwater flow theory
 Boundary Conditions
 PLAXIS
-14
 Scientific Manual
-A drain permits water leaving the modelling domain at atmospheric pressure. The drain itself does not generate
-a resistance against flow.
+A drain permits water leaving the modelling domain at atmospheric pressure. The drain itself does not generate a resistance against flow.
 Initial conditions are generated as a steady state solution for a problem with a given set of boundary conditions.
 3.3 Finite element discretisation
 The groundwater pore pressure in any position within an element can be expressed in terms of nodal values:
-pw = N¯
-pw¯
-n
- Eq. [52]
-where N
-¯
- is the vector with interpolation functions. For more information on the finite element theory please
-refer to Bathe & Koshgoftaar (1979) (on page 58), Zienkiewicz (1967) (on page 59). According to Eq. [26],
-the specific discharge is based on the gradient of the groundwater pore pressure. This gradient can be
-determined by means of the L-matrix, which contains the spatial derivatives of the interpolation functions, see
-the PLAXIS Scientific Manual. In the numerical formulation the specific discharge, q
+pw = N¯ pw¯ n
+Eq. [52] where N
+¯ is the vector with interpolation functions. For more information on the finite element theory please refer to Bathe & Koshgoftaar (1979) (on page 58), Zienkiewicz (1967) (on page 59). According to Eq. [26], the specific discharge is based on the gradient of the groundwater pore pressure. This gradient can be determined by means of the L-matrix, which contains the spatial derivatives of the interpolation functions, see the PLAXIS Scientific Manual. In the numerical formulation the specific discharge, q
 ¯
 , is written as:
 q
 ¯
-=
-krel
-γw
-ksat(Bpw¯
-n + ρwg
+= krel γw ksat(Bpw¯ n + ρwg
 ¯)
- Eq. [53]
-where:
+Eq. [53] where:
 q
 ¯
-=
-qx
-qy
- and ksat =
-kx
-sat
-0
-0
-ky
-sat
- Eq. [54]
+= qx qy and ksat = kx sat ky sat
+Eq. [54]
 From the specific discharges in the integration points, q
 ¯
 , the nodal discharges Q
-¯
-e can be integrated according to:
-Q¯
-e = - ∫ksatq
-¯
-dV
- Eq. [55]
-in which BT  is the transpose of the B-matrix. The term dV  indicates integration over the volume of the body.
-Starting from the continuity equation Eq. [35] and applying the Galerkin approach and incorporating prescribed
-boundary conditions we obtain:
-−Hpw¯
-n - S
-d pw
-¯n
-dt
+¯ e can be integrated according to:
+Q¯ e = - ∫ksatq
+¯ dV
+Eq. [55] in which BT is the transpose of the B-matrix. The term dV indicates integration over the volume of the body.
+Starting from the continuity equation Eq. [35] and applying the Galerkin approach and incorporating prescribed boundary conditions we obtain:
+−Hpw¯ n - S d pw
+¯n dt
 = q
 ¯ p
- Eq. [56]
-where H, S and q
-¯ p are the permeability matrix, the compressibility matrix and the prescribed recharges that are
-given by the boundary conditions, respectively:
-H = ∫(∇N)T krel
-γw
-ksat(∇N)dV
+Eq. [56] where H, S and q
+¯ p are the permeability matrix, the compressibility matrix and the prescribed recharges that are given by the boundary conditions, respectively:
+H = ∫(∇N)T krel γw ksat(∇N)dV
 Eq. [57]
-S = ∫NT(
-nS
+S = ∫NT( nS
 Kw
 −n ∂S
 ∂pw )NdV
-Eq. [58]
-q
-¯ p = ∫(∇N)T krel
-γw
-k satρwg
-¯
-dV −∫NT q¯ d Γ
-Eq. [59]
-q¯ is the outflow prescribed flux on the boundary. The term dΓ indicates a surface integral.
+Eq. [58] q
+¯ p = ∫(∇N)T krel γw k satρwg
+¯ dV −∫NT q¯ d Γ
+Eq. [59] q¯ is the outflow prescribed flux on the boundary. The term dΓ indicates a surface integral.
 In PlaxFlow the bulk modulus of the pore fluid is taken automatically according to:
 Groundwater flow theory
 Finite element discretisation
 PLAXIS
-15
 Scientific Manual
-Kw
-n
+Kw n
 =
 3(νu - ν)
 (1 - 2νu)(1 + ν) Kskeleton
- Eq. [60]
-where νu has a default value of 0.495. The value can be modified in the input program on the basis of
+Eq. [60] where νu has a default value of 0.495. The value can be modified in the input program on the basis of
 Skempton's B-parameter. For material just switched on, the bulk modulus of the pore fluid is neglected.
-Due to the unsaturated zone the set of equations is highly non-linear and a Picard scheme is used to solve the
-system of equations iteratively. The linear set is solved in incremental form using an implicit time stepping
-schema. Application of this procedure to Eq. [56] yields:
--(αΔtH + S)Δ pw¯
-n = ΔtHpw¯
-n0 + Δtq
+Due to the unsaturated zone the set of equations is highly non-linear and a Picard scheme is used to solve the system of equations iteratively. The linear set is solved in incremental form using an implicit time stepping schema. Application of this procedure to Eq. [56] yields:
+-(αΔtH + S)Δ pw¯ n = ΔtHpw¯ n0 + Δtq
 ¯ p
-Eq. [61]
-and pw¯
-n0 denote value of water pore pressure at the beginning of a step. The parameter α is the time integration
-coefficient. In general the integration coefficient α can take values from 0 to 1. In PlaxFlow the fully implicit
-scheme of integration is used with α = 1.
+Eq. [61] and pw¯ n0 denote value of water pore pressure at the beginning of a step. The parameter α is the time integration coefficient. In general the integration coefficient α can take values from 0 to 1. In PlaxFlow the fully implicit scheme of integration is used with α = 1.
 For steady state flow the governing equation is:
--αHΔ pw¯
-n = Hpw¯
-n0 + q
+-αHΔ pw¯ n = Hpw¯ n0 + q
 ¯ p
 Eq. [62]
 3.4 Flow in interface elements
-Interface elements are treated specially in groundwater calculations. The interface elements have an active
-setting for the deformation calculation (soil-structure interaction) and an independent setting for flow
-calculations. When the interface elements are active in flow, there is a full coupling of the pore pressure degrees
-of freedom and the interface permeability is taken into account. When the interface elements are inactive in
-flow, there is no flow from one side of the interface element to the other (impermeable screen). In addition,
-options are available to make interface elements semi-permeable or to use them as drain elements.
+Interface elements are treated specially in groundwater calculations. The interface elements have an active setting for the deformation calculation (soil-structure interaction) and an independent setting for flow calculations. When the interface elements are active in flow, there is a full coupling of the pore pressure degrees of freedom and the interface permeability is taken into account. When the interface elements are inactive in flow, there is no flow from one side of the interface element to the other (impermeable screen). In addition, options are available to make interface elements semi-permeable or to use them as drain elements.
 Groundwater flow theory
 Flow in interface elements
 PLAXIS
-16
 Scientific Manual
- 4
 Consolidation theory
-In this chapter we will review the theory of consolidation as used in PLAXIS. In addition to a general description
-of Biot's theory for coupled consolidation, attention is focused on the finite element formulation. Moreover, a
-separate section is devoted to the use of advanced soil models in a consolidation analysis (elastoplastic
-consolidation).
+In this chapter we will review the theory of consolidation as used in PLAXIS. In addition to a general description of Biot's theory for coupled consolidation, attention is focused on the finite element formulation. Moreover, a separate section is devoted to the use of advanced soil models in a consolidation analysis (elastoplastic consolidation).
 4.1 Basic equations of consolidation
 The governing equations of consolidation as used in PLAXIS follow Biot's theory (Biot, 1956 (on page 58)).
-Darcy's law for fluid flow and elastic behaviour of the soil skeleton are also assumed. The formulation is based
-on small strain theory. According to Terzaghi's principle, stresses are divided into effective stresses and pore
-pressures:
+Darcy's law for fluid flow and elastic behaviour of the soil skeleton are also assumed. The formulation is based on small strain theory. According to Terzaghi's principle, stresses are divided into effective stresses and pore pressures:
 σ
 ¯
 = σ
 ¯
 ′ + m¯(psteady + pexcess)
-Eq. [63]
-where:
+Eq. [63] where:
 σ
 ¯
-= (σxx
-σyy
-σzz
-σxy
-σyz
-σzx) T  and m¯
+= (σxx σyy σzz σxy σyz σzx) T and m¯
 = (1
-1
-1
-0
 0 0) T
- Eq. [64]
-σ
+Eq. [64] σ
+¯ is the vector with total stresses, σ
 ¯
- is the vector with total stresses, σ
-¯
-′  contains the effective stresses, pexcess is the excess pore pressure and m¯
- is
-a vector containing unity terms for normal stress components and zero terms for the shear stress components.
-The steady state solution at the end of the consolidation process is denoted as psteady. Within PLAXIS psteady is
-defined as:
+′ contains the effective stresses, pexcess is the excess pore pressure and m¯ is a vector containing unity terms for normal stress components and zero terms for the shear stress components.
+The steady state solution at the end of the consolidation process is denoted as psteady. Within PLAXIS psteady is defined as:
 psteady = pinput
- Eq. [65]
-where pinput is the pore pressure generated in the input program based on phreatic lines or on a groundwater
-flow calculation.
-Note that within PLAXIS compressive stresses are considered to be negative; this applies to effective stresses as
-well as to pore pressures. In fact it would be more appropriate to refer to pexcess and psteady as pore stresses,
-rather than pressures. However, the term pore pressure is retained, although it is positive for tension.
+Eq. [65] where pinput is the pore pressure generated in the input program based on phreatic lines or on a groundwater flow calculation.
+Note that within PLAXIS compressive stresses are considered to be negative; this applies to effective stresses as well as to pore pressures. In fact it would be more appropriate to refer to pexcess and psteady as pore stresses, rather than pressures. However, the term pore pressure is retained, although it is positive for tension.
 The constitutive equation is written in incremental form. Denoting an effective stress increment as σ
 ¯
-˙ ′  and a
-strain increment as ε
+˙ ′ and a strain increment as ε
 ¯
 ˙, the constitutive equation is:
 σ
@@ -1063,140 +731,91 @@ strain increment as ε
 ˙ ′ = Mε
 ¯
 ˙
-Eq. [66]
-where:
+Eq. [66] where:
 ε˙
 ¯
-= (ε˙ xx
-ε˙ yy
-ε˙ zz
-γ˙ xy
-γ˙ yz
-γ˙ zx) T
- Eq. [67]
+= (ε˙ xx ε˙ yy ε˙ zz γ˙ xy γ˙ yz γ˙ zx) T
+Eq. [67]
 PLAXIS
-17
-Scientific Manual
-and M represents the material stiffness matrix. For details on constitutive relations, see the Material Models
+Scientific Manual and M represents the material stiffness matrix. For details on constitutive relations, see the Material Models
 Manual.
 4.2 Finite element discretisation
 To apply a finite element approximation we use the standard notation:
 u
 ¯
 = Nv
-¯
-p
+¯ p
 ¯
 = Np
-¯n
-ε
+¯n ε
 ¯
 = Bv
 ¯
- Eq. [68]
-where v
-¯
- is the nodal displacement vector, p
+Eq. [68] where v
+¯ is the nodal displacement vector, p
 ¯ n is the nodal excess pore pressure vector, u
-¯
- is the continuous
-displacement vector within an element and p
-¯
- is the (excess) pore pressure. The matrix N contains the
-interpolation functions and B is the strain interpolation matrix.
-In general the interpolation functions for the displacements may be different from the interpolation functions
-for the pore pressure. In PLAXIS, however, the same functions are used for displacements and pore pressures.
-Starting from the incremental equilibrium equation and applying the above finite element approximation we
-obtain:
+¯ is the continuous displacement vector within an element and p
+¯ is the (excess) pore pressure. The matrix N contains the interpolation functions and B is the strain interpolation matrix.
+In general the interpolation functions for the displacements may be different from the interpolation functions for the pore pressure. In PLAXIS, however, the same functions are used for displacements and pore pressures.
+Starting from the incremental equilibrium equation and applying the above finite element approximation we obtain:
 ∫BT Δσ
-¯
- dV = ∫NT Δb
-¯
- dV + ∫NT Δt
-¯
- dS + r
+¯ dV = ∫NT Δb
+¯ dV + ∫NT Δt
+¯ dS + r
 ¯0
- Eq. [69]
-with:
+Eq. [69] with:
 r
 ¯ 0 = ∫NT b
 ¯ 0 dV + ∫NT t
 ¯ 0 dS −∫BT σ
 ¯0 dV
- Eq. [70]
-where b
-¯
- is a body force due to self-weight and t
-¯
- represents the surface tractions. In general the residual force
-vector r
-¯ 0 will be equal to zero, but solutions of previous load steps may have been inaccurate. By adding the
-residual force vector the computational procedure becomes self-correcting. The term dV indicates integration
-over the volume of the body considered and dS indicates a surface integral.
-Dividing the total stresses into pore pressure and effective stresses and introducing the constitutive relationship
-gives the nodal equilibrium equation:
+Eq. [70] where b
+¯ is a body force due to self-weight and t
+¯ represents the surface tractions. In general the residual force vector r
+¯ 0 will be equal to zero, but solutions of previous load steps may have been inaccurate. By adding the residual force vector the computational procedure becomes self-correcting. The term dV indicates integration over the volume of the body considered and dS indicates a surface integral.
+Dividing the total stresses into pore pressure and effective stresses and introducing the constitutive relationship gives the nodal equilibrium equation:
 KΔv
 ¯
 + LΔp
 ¯n = Δ f
 ¯ n
-Eq. [71]
-where K is the stiffness matrix, L is the coupling matrix and f
+Eq. [71] where K is the stiffness matrix, L is the coupling matrix and f
 ¯ n is the incremental load vector:
 K = ∫BT MB d V
 L = ∫BT m¯
 N d V
 Δ f
 ¯ n = ∫NT Δb
-¯
-d V + ∫NT Δt
-¯
-d S
- Eq. [72]
+¯ d V + ∫NT Δt
+¯ d S
+Eq. [72]
 To formulate the flow problem, the continuity equation is adopted in the following form:
 ∇T ⋅(k∇(γwy - psteady - p)/ γw) - m¯
 T ∂ε
 ¯
-∂t +
-n
+∂t + n
 Kw
 ∂p
 ∂t = 0
- Eq. [73]
-where k is the permeability matrix:
-k =
-kx
-0
-0
-0
-ky
-0
-0
-0
-kz
+Eq. [73] where k is the permeability matrix:
+k = kx ky kz
 Eq. [74]
 Consolidation theory
 Finite element discretisation
 PLAXIS
-18
-Scientific Manual
-n is the porosity, Kw is the bulk modulus of the pore fluid and γw is the unit weight of the pore fluid. This
-continuity equation includes the sign convention that psteady and p are considered positive for tension.
+Scientific Manual n is the porosity, Kw is the bulk modulus of the pore fluid and γw is the unit weight of the pore fluid. This continuity equation includes the sign convention that psteady and p are considered positive for tension.
 As the steady state solution is defined by the equation:
 ∇T ⋅(k∇(γwy - psteady)/ γw) = 0
- Eq. [75]
-the continuity equation takes the following form:
+Eq. [75] the continuity equation takes the following form:
 ∇T ⋅(k∇p/ γw) + m¯
 T ∂ε
 ¯
-∂t −
-n
+∂t − n
 Kw
 ∂p
 ∂t = 0
- Eq. [76]
-Applying finite element discretisation using a Galerkin procedure and incorporating prescribed boundary
-conditions we obtain:
+Eq. [76]
+Applying finite element discretisation using a Galerkin procedure and incorporating prescribed boundary conditions we obtain:
 −Hp
 ¯n + LT ∂v
 ¯
@@ -1206,28 +825,21 @@ conditions we obtain:
 ∂t
 = q
 ¯ n
- Eq. [77]
-where:
+Eq. [77] where:
 H = ∫(∇⋅N)T k(∇⋅N) d V ,
 S = ∫n
 Kw
 NT N d V
- Eq. [78]
-and q
-¯ n is a vector due to prescribed outflow at the boundary. However within PLAXIS it is not possible to have
-boundaries with non-zero prescribed outflow. The boundary is either closed (zero flux) or open (zero excess
-pore pressure). In reality the bulk modulus of water is very high and so the compressibility of water can be
-neglected in comparison to the compressibility of the soil skeleton.
+Eq. [78] and q
+¯ n is a vector due to prescribed outflow at the boundary. However within PLAXIS it is not possible to have boundaries with non-zero prescribed outflow. The boundary is either closed (zero flux) or open (zero excess pore pressure). In reality the bulk modulus of water is very high and so the compressibility of water can be neglected in comparison to the compressibility of the soil skeleton.
 In PLAXIS the bulk modulus of the pore fluid is taken automatically according to (also see Reference Manual):
-Kw
-n
+Kw n
 =
 3(νu - ν)
 (1 - 2νu)(1 + ν) Kskeleton
 Eq. [79]
 Where νu has a default value of 0.495. The value can be modified in the input program on the basis of
-Skempton's B-parameter. For drained material and material just switched on, the bulk modulus of the pore fluid
-is neglected.
+Skempton's B-parameter. For drained material and material just switched on, the bulk modulus of the pore fluid is neglected.
 The equilibrium and continuity equations may be compressed into a block matrix equation:
 K
 L
@@ -1240,21 +852,15 @@ LT
 ¯n
 ∂t
 =
-0
-0
-0
-H
-v
+H v
 ¯p
 ¯ n
 +
 ∂f¯n
-∂t
-q
+∂t q
 ¯n
- Eq. [80]
-A simple step-by-step integration procedure is used to solve this equation. Using the symbol Δ to denote finite
-increments, the integration gives:
+Eq. [80]
+A simple step-by-step integration procedure is used to solve this equation. Using the symbol Δ to denote finite increments, the integration gives:
 K
 L
 LT
@@ -1264,101 +870,68 @@ LT
 Δp
 ¯n
 =
-0
-0
-0
-ΔtH*
-v
-¯ 0
-p
+ΔtH* v
+¯ 0 p
 ¯ n0
 +
 Δ f
 ¯ n
 Δtq
 ¯ n
- Eq. [81]
-where:
-S = αΔtH + S
-q
+Eq. [81] where:
+S = αΔtH + S q
 ¯n
 * = q
 ¯ n0 + αΔq
 ¯ n
- Eq. [82]
+Eq. [82]
 Consolidation theory
 Finite element discretisation
 PLAXIS
-19
-Scientific Manual
-and v
+Scientific Manual and v
 ¯ 0 and p
 ¯ 0 denote values at the beginning of a time step. The parameter α is the time integration coefficient.
-In general the integration coefficient α can take values from 0 to 1. In PLAXIS the fully implicit scheme of
-integration is used with α=1.
+In general the integration coefficient α can take values from 0 to 1. In PLAXIS the fully implicit scheme of integration is used with α=1.
 4.3 Elastoplastic consolidation
-In general, when a non-linear material model is used, iterations are needed to arrive at the correct solution. Due
-to plasticity or stress-dependent stiffness behaviour the equilibrium equations are not necessarily satisfied
-using the technique described above. Therefore the equilibrium equation is inspected here. Instead of Eq. [71]
-the equilibrium equation is written in sub-incremental form:
+In general, when a non-linear material model is used, iterations are needed to arrive at the correct solution. Due to plasticity or stress-dependent stiffness behaviour the equilibrium equations are not necessarily satisfied using the technique described above. Therefore the equilibrium equation is inspected here. Instead of Eq. [71] the equilibrium equation is written in sub-incremental form:
 Kδv
 ¯
 + Lδ p
 ¯ n = δ f
 ¯n
-Eq. [83]
-where r
+Eq. [83] where r
 ¯ n is the global residual force vector. The total displacement increment Δv
-¯
- is the summation of sub-
-increments δv
-¯
- from all iterations in the current step:
+¯ is the summation of sub- increments δv
+¯ from all iterations in the current step:
 r
 ¯ n = ∫NT b
-¯
-dV + ∫NT t
-¯
-dS −∫BT σ
-¯
-dV
- Eq. [84]
-with:
+¯ dV + ∫NT t
+¯ dS −∫BT σ
+¯ dV
+Eq. [84] with:
 b
 ¯
 = b
 ¯0 + Δb
-¯
- and 
-t
+¯ and t
 ¯
 = t
 ¯ 0 + Δt
 ¯
- Eq. [85]
+Eq. [85]
 In the first iteration we consider σ
 ¯
 = σ
-¯ 0, i.e. the stress at the beginning of the step. Successive iterations are used
-on the current stresses that are computed from the appropriate constitutive model.
+¯ 0, i.e. the stress at the beginning of the step. Successive iterations are used on the current stresses that are computed from the appropriate constitutive model.
 4.4 Critical time step
-For most numerical integration procedures, accuracy increases when the time step is reduced, but for
-consolidation there is a threshold value. Below a particular time increment (critical time step) the accuracy
-rapidly decreases. Care should be taken with time steps that are smaller than the advised minimum time step.
+For most numerical integration procedures, accuracy increases when the time step is reduced, but for consolidation there is a threshold value. Below a particular time increment (critical time step) the accuracy rapidly decreases. Care should be taken with time steps that are smaller than the advised minimum time step.
 The critical time step is calculated as:
 ∆tcritical =
-H 2
-ηαcv
- Eq. [86]
-where α is the time integration coefficient which is equal to 1 for fully implicit integration scheme, η is a
-constant parameter which is determined for each types of element and H  is the height of the element used. cv is
-the consolidation coefficient and is calculated as:
-cv =
-k / γw
+H 2 ηαcv
+Eq. [86] where α is the time integration coefficient which is equal to 1 for fully implicit integration scheme, η is a constant parameter which is determined for each types of element and H is the height of the element used. cv is the consolidation coefficient and is calculated as:
+cv = k / γw
 1 / K ' + Q
-Eq. [87]
-where γw is the unit weight of the pore fluid, k is the coefficient of permeability, K ′  is the drained bulk
-modulus of soil skeleton and Q represents the compressibility of the fluid which is defined as:
+Eq. [87] where γw is the unit weight of the pore fluid, k is the coefficient of permeability, K ′ is the drained bulk modulus of soil skeleton and Q represents the compressibility of the fluid which is defined as:
 Q = n(
 S
 Kw
@@ -1369,84 +942,54 @@ Eq. [88]
 Consolidation theory
 Elastoplastic consolidation
 PLAXIS
-20
-Scientific Manual
-where n is the porosity, S is the degree of saturation, pw is the suction pore pressure and Kw is the elastic bulk
-modulus of water. Therefore the critical time step can be derived as:
+Scientific Manual where n is the porosity, S is the degree of saturation, pw is the suction pore pressure and Kw is the elastic bulk modulus of water. Therefore the critical time step can be derived as:
 ∆tcritical =
-H 2γw
-ηk (
-1
+H 2γw ηk (
 K ′ + Q)
- Eq. [89]
-For one dimensional consolidation (vertical flow) in fully saturated soil, the critical time step can be simplified
-as:
+Eq. [89]
+For one dimensional consolidation (vertical flow) in fully saturated soil, the critical time step can be simplified as:
 ∆tcritical =
-H 2γw
-ηky (
-1
+H 2γw ηky (
 Eoed
-+
-n
++ n
 Kw)
- Eq. [90]
-in which Eoed is the oedometer modulus:
+Eq. [90] in which Eoed is the oedometer modulus:
 Eoed =
 E(1 - ν)
 (1 - 2ν)(1 + ν)
- Eq. [91]
-ν is Poisson's ratio and E is the elastic Young's modulus.
-For two dimensional elements as used in PLAXIS 2D, η = 80 and η = 40 for 15-node triangle and 6-node triangle
-elements, respectively. Therefore, the critical time step for fully saturated soils can be calculated by:
+Eq. [91] ν is Poisson's ratio and E is the elastic Young's modulus.
+For two dimensional elements as used in PLAXIS 2D, η = 80 and η = 40 for 15-node triangle and 6-node triangle elements, respectively. Therefore, the critical time step for fully saturated soils can be calculated by:
 ∆tcritical =
 H 2γw
 80ky (
-1
 Eoed
-+
-n
++ n
 Kw)
 (15 −node triangles)
 Eq. [92]
 ∆tcritical =
 H 2γw
 40ky (
-1
 Eoed
-+
-n
++ n
 Kw) (6 −node triangles)
 Eq. [93]
-For three dimensional elements as used in PLAXIS 3D η = 3. Therefore, the critical time step for fully saturated
-soils can be calculated by:
+For three dimensional elements as used in PLAXIS 3D η = 3. Therefore, the critical time step for fully saturated soils can be calculated by:
 ∆tcritical =
 H 2γw
 3ky (
-1
 Eoed
-+
-n
++ n
 Kw)
 Eq. [94]
-Fine meshes allow for smaller time steps than coarse meshes. For unstructured meshes with different element
-sizes or when dealing with different soil layers and thus different values of k, E and ν, the above formula yields
-different values for the critical time step. To be on the safe side, the time step should not be smaller than the
-maximum value of the critical time steps of all individual elements. This overall critical time step is automatically
-adopted as the First time step in a consolidation analysis. For an introduction to the critical time step concept, the
-reader is referred to Vermmer & Verruijt (1981) (on page 59). Detailed information for various types of finite
-elements is given by Song (1990) (on page 59).
+Fine meshes allow for smaller time steps than coarse meshes. For unstructured meshes with different element sizes or when dealing with different soil layers and thus different values of k, E and ν, the above formula yields different values for the critical time step. To be on the safe side, the time step should not be smaller than the maximum value of the critical time steps of all individual elements. This overall critical time step is automatically adopted as the First time step in a consolidation analysis. For an introduction to the critical time step concept, the reader is referred to Vermmer & Verruijt (1981) (on page 59). Detailed information for various types of finite elements is given by Song (1990) (on page 59).
 Consolidation theory
 Critical time step
 PLAXIS
-21
 Scientific Manual
- 5
 Dynamics
-This chapter highlights some of the theoretical backgrounds of the dynamic module. The chapter does not give a
-full theoretical description of the dynamic modelling. For a more detailed description you are referred to the
-literature Zienkiewicz & Taylor (1991) (on page 59), Hughes (1987) (on page 58), Das (1995) (on page 58), 
-Kramer (1996) (on page 58), Haigh et al. (2005) (on page 58), Basabe & Sen (2007) (on page 58), Kelly et
-al. (1976) (on page 58) and Pradhan et al (2004) (on page 58).
+This chapter highlights some of the theoretical backgrounds of the dynamic module. The chapter does not give a full theoretical description of the dynamic modelling. For a more detailed description you are referred to the literature Zienkiewicz & Taylor (1991) (on page 59), Hughes (1987) (on page 58), Das (1995) (on page 58),
+Kramer (1996) (on page 58), Haigh et al. (2005) (on page 58), Basabe & Sen (2007) (on page 58), Kelly et al. (1976) (on page 58) and Pradhan et al (2004) (on page 58).
 5.1 Basic equation dynamic behaviour
 The basic equation for the time-dependent movement of a volume under the influence of a (dynamic) load is:
 Mu
@@ -1456,175 +999,86 @@ Mu
 ˙ + Ku
 ¯
 = F¯
- Eq. [95]
+Eq. [95]
 Here, M is the mass matrix, u
-¯
- is the displacement vector, C is the damping matrix, K is the stiffness matrix and F
-¯
-is the load vector. The displacement, u
+¯ is the displacement vector, C is the damping matrix, K is the stiffness matrix and F
+¯ is the load vector. The displacement, u
 ¯
 , the velocity, u
 ¯˙ , and the acceleration, u
 ¯
-¨ , can vary with time. The last two
-terms in the Eq. [95] (Ku
+¨ , can vary with time. The last two terms in the Eq. [95] (Ku
 ¯
 = F
 ¯
 ) correspond to the static deformation.
-Here the theory is described on the bases of linear elasticity. However, in principle, all models in PLAXIS can be
-used for dynamics analisis. The soil behaviour can be both drained and undrained. In the latter case, the bulk
-stiffness of the groundwater is added to the stiffness matrix K, as is the case for the static calculation.
-In the matrix M, the mass of the materials (soil + water + any constructions) is taken into account. In PLAXIS the
-mass matrix is implemented as a lumped matrix.
-The matrix C represents the material damping of the materials. In reality, material damping is caused by friction
-or by irreversible deformations (plasticity or viscosity). With more viscosity or more plasticity, more vibration
-energy can be dissipated. If elasticity is assumed, damping can still be taken into account using the matrix C. To
-determine the damping matrix, extra parameters are required, which are difficult to determine from tests. In
-finite element formulations, C is often formulated as a function of the mass and stiffness matrices (Rayleigh
-damping) ( Zienkiewicz & Taylor, 1991 (on page 59); Hughes, 1987) (on page 58)) as:
+Here the theory is described on the bases of linear elasticity. However, in principle, all models in PLAXIS can be used for dynamics analisis. The soil behaviour can be both drained and undrained. In the latter case, the bulk stiffness of the groundwater is added to the stiffness matrix K, as is the case for the static calculation.
+In the matrix M, the mass of the materials (soil + water + any constructions) is taken into account. In PLAXIS the mass matrix is implemented as a lumped matrix.
+The matrix C represents the material damping of the materials. In reality, material damping is caused by friction or by irreversible deformations (plasticity or viscosity). With more viscosity or more plasticity, more vibration energy can be dissipated. If elasticity is assumed, damping can still be taken into account using the matrix C. To determine the damping matrix, extra parameters are required, which are difficult to determine from tests. In finite element formulations, C is often formulated as a function of the mass and stiffness matrices (Rayleigh damping) ( Zienkiewicz & Taylor, 1991 (on page 59); Hughes, 1987) (on page 58)) as:
 C = αRM + βRK
- Eq. [96]
-This limits the determination of the damping matrix to the Rayleigh coefficients αR and βR. Here, when the
-contribution of M is dominant (for example, αR = 10 −2 and βR = 10 −3) more of the low frequency vibrations
-are damped, and when the contribution of K is dominant (for example, αR = 10 −3 and βR = 10 −2) more of the
-high-frequency vibrations are damped. In the standard setting of PLAXIS, αR = βR = 0.
+Eq. [96]
+This limits the determination of the damping matrix to the Rayleigh coefficients αR and βR. Here, when the contribution of M is dominant (for example, αR = 10 −2 and βR = 10 −3) more of the low frequency vibrations are damped, and when the contribution of K is dominant (for example, αR = 10 −3 and βR = 10 −2) more of the high-frequency vibrations are damped. In the standard setting of PLAXIS, αR = βR = 0.
 PLAXIS
-22
 Scientific Manual
 5.2 Time integration
-In the numerical implementation of dynamics, the formulation of the time integration constitutes an important
-factor for the stability and accuracy of the calculation process. Explicit and implicit integration are the two
-commonly used time integration schemes. The advantage of explicit integration is that it is relatively simple to
-formulate. However, the disadvantage is that the calculation process is not as robust and it imposes serious
-limitations on the time step. The implicit method is more complicated, but it produces a more reliable (more
-stable) calculation process and usually a more accurate solution (Sluys, 1992 (on page 59)).
-The implicit time integration scheme of Newmark is a frequently used method. With this method, the
-displacement and the velocity at the point in time t+Δt are expressed respectively as:
+In the numerical implementation of dynamics, the formulation of the time integration constitutes an important factor for the stability and accuracy of the calculation process. Explicit and implicit integration are the two commonly used time integration schemes. The advantage of explicit integration is that it is relatively simple to formulate. However, the disadvantage is that the calculation process is not as robust and it imposes serious limitations on the time step. The implicit method is more complicated, but it produces a more reliable (more stable) calculation process and usually a more accurate solution (Sluys, 1992 (on page 59)).
+The implicit time integration scheme of Newmark is a frequently used method. With this method, the displacement and the velocity at the point in time t+Δt are expressed respectively as:
 u t+∆t = u t + u˙ t ∆t + (( 1
 2 - α)u¨ t + αu¨ t+∆t) ∆t2
- Eq. [97]
-u˙ t+∆t = u˙ t + ((1 - β)u¨ t + βu¨ t+∆t)Δt
- Eq. [98]
-In the above equations, Δt is the time step. The coefficients α and β determine the accuracy of the numerical time
-integration. They are not equal to the α and β for the Rayleigh damping. In order to obtain a stable solution, the
-following condition must apply:
+Eq. [97] u˙ t+∆t = u˙ t + ((1 - β)u¨ t + βu¨ t+∆t)Δt
+Eq. [98]
+In the above equations, Δt is the time step. The coefficients α and β determine the accuracy of the numerical time integration. They are not equal to the α and β for the Rayleigh damping. In order to obtain a stable solution, the following condition must apply:
 β ≥1
-2 ,
-α ≥1
+2 , α ≥1
 4( 1
 2 + β)2
- Eq. [99]
+Eq. [99]
 The user is advised to use the standard setting of PLAXIS, in which the Newmark scheme with α=0.25 and β=0.5
 (average acceleration method) is utilised. Other combinations are also possible, however.
 5.2.1 Implementation of the integration scheme
 Eq. [97] can also be written as:
-u¨ t+Δt = c0Δu −c2u˙ t −c3u¨ t
-u˙ t+Δt = u˙ t + c6u¨ t + c7u¨ t+Δt
-u t+Δt = u t + Δu
- or as: 
-u¨ t+Δt = c0Δu −c2u˙ t −c3u¨ t
-u˙ t+Δt = c1Δu −c4u˙ t −c5u¨ t
-u t+Δt = u t + Δu
- Eq. [100]
-where the coefficients c0, ... , c7, can be expressed in the time step and in the integration parameters α and β. In
-this way, the displacement, the velocity and the acceleration at the end of the time step are expressed by those at
-the start of the time step and the displacement increment. With implicit time integration, Eq. [95] must be
-obtained at the end of a time step ( t+Δt):
+u¨ t+Δt = c0Δu −c2u˙ t −c3u¨ t u˙ t+Δt = u˙ t + c6u¨ t + c7u¨ t+Δt u t+Δt = u t + Δu or as:
+u¨ t+Δt = c0Δu −c2u˙ t −c3u¨ t u˙ t+Δt = c1Δu −c4u˙ t −c5u¨ t u t+Δt = u t + Δu
+Eq. [100] where the coefficients c0, ... , c7, can be expressed in the time step and in the integration parameters α and β. In this way, the displacement, the velocity and the acceleration at the end of the time step are expressed by those at the start of the time step and the displacement increment. With implicit time integration, Eq. [95] must be obtained at the end of a time step ( t+Δt):
 Mu¨
-¯
-t+Δt + Cu˙
-¯
-t+Δt + Ku
-¯
-t+Δt = F¯
-t+Δt
+¯ t+Δt + Cu˙
+¯ t+Δt + Ku
+¯ t+Δt = F¯ t+Δt
 Eq. [101]
-This equation, combined with the expressions Eq. [100] for the displacements, velocities and accelerations at the
-end of the time step, produce:
+This equation, combined with the expressions Eq. [100] for the displacements, velocities and accelerations at the end of the time step, produce:
 (c0M + c1C + K)Δu
 ¯
 =
-F¯ext
-t+Δt + M(c2u˙
-¯
-t + c3u¨
-¯
-t) + M(c4u˙
-¯
-t + c5u¨
-¯
-t)
-−F¯ int
-t+Δt
- Eq. [102]
+F¯ext t+Δt + M(c2u˙
+¯ t + c3u¨
+¯ t) + M(c4u˙
+¯ t + c5u¨
+¯ t)
+−F¯ int t+Δt
+Eq. [102]
 Dynamics
 Time integration
 PLAXIS
-23
 Scientific Manual
-In this form, the system of equations for a dynamic analysis reasonably matches that of a static analysis. The
-difference is that the 'stiffness matrix' contains extra terms for mass and damping and that the right-hand term
-contains extra terms specifying the velocity and acceleration at the start of the time step (time t).
+In this form, the system of equations for a dynamic analysis reasonably matches that of a static analysis. The difference is that the 'stiffness matrix' contains extra terms for mass and damping and that the right-hand term contains extra terms specifying the velocity and acceleration at the start of the time step (time t).
 5.2.2 Recommended maximum time step
-Despite the advantages of the implicit integration, the time step used in the calculation is subject to some
-limitations. If the time step is too large, the solution will display substantial deviations and the calculated
-response will be unreliable. The maximum recommended time step depends on the maximum frequency and the
-coarseness (fineness) of the finite element mesh. The equation used for a single element is:
-Δtmax,recommended =
-lmin
+Despite the advantages of the implicit integration, the time step used in the calculation is subject to some limitations. If the time step is too large, the solution will display substantial deviations and the calculated response will be unreliable. The maximum recommended time step depends on the maximum frequency and the coarseness (fineness) of the finite element mesh. The equation used for a single element is:
+Δtmax,recommended = lmin
 Vs
- Eq. [103]
-where lmin is the minimum length between three nodes of an element and Vs is the shear wave velocity of an
-element. In a finite element model, the recommended maximum time step is equal to the minimum value of Δt
-according toEq. [103] over all elements. In this way, the time step is chosen to ensure that a wave during a single
-step does not move a distance larger than the minimum dimension of one element in case of 2nd order elements
-and half an element in case of 4th order elements.
+Eq. [103] where lmin is the minimum length between three nodes of an element and Vs is the shear wave velocity of an element. In a finite element model, the recommended maximum time step is equal to the minimum value of Δt according toEq. [103] over all elements. In this way, the time step is chosen to ensure that a wave during a single step does not move a distance larger than the minimum dimension of one element in case of 2nd order elements and half an element in case of 4th order elements.
 5.2.3 Dynamic integration coefficients
-The Newmark implicit time history integration scheme has been used in PLAXIS code to solve the equilibrium
-equation (dynamics) of the system. This method requires the calculation of integration constants or coefficients.
-The time step, Δt is selected on the basis of the sampling time of the input signal and the number of dynamic sub-
-steps necessary for the analysis. Once is fixed, the dynamic integration coefficients (c0, c1, c2, c3, c4, c5, c6 and c7)
-required for the numerical evaluation of the effective or pseudo-stiffness matrix and subsequent computation of
-the displacements, velocities and accelerations at the end of each time step may be calculated as follows:
-c0 =
-1
-αΔt2
-c1 =
-β
-αΔt
-c2 =
-1
-αΔt
-c3 =
-1
-2α −1
-c4 = β
-α −1
-c5 =
-β
-α −2
-Δt
-2
-c6 = (1 −β)Δt
-c7 = βΔt
-Eq. [104]
-where, α and β are the Newmark parameters that can be determined to obtain the integration accuracy and
-stability.
+The Newmark implicit time history integration scheme has been used in PLAXIS code to solve the equilibrium equation (dynamics) of the system. This method requires the calculation of integration constants or coefficients.
+The time step, Δt is selected on the basis of the sampling time of the input signal and the number of dynamic sub- steps necessary for the analysis. Once is fixed, the dynamic integration coefficients (c0, c1, c2, c3, c4, c5, c6 and c7) required for the numerical evaluation of the effective or pseudo-stiffness matrix and subsequent computation of the displacements, velocities and accelerations at the end of each time step may be calculated as follows:
+c0 = αΔt2 c1 = β αΔt c2 = αΔt c3 =
+2α −1 c4 = β α −1 c5 = β α −2
+Δt c6 = (1 −β)Δt c7 = βΔt
+Eq. [104] where, α and β are the Newmark parameters that can be determined to obtain the integration accuracy and stability.
 Dynamics
 Time integration
 PLAXIS
-24
 Scientific Manual
 5.3 Model Boundaries
-In the case of a static deformation analysis, prescribed boundary displacements are introduced at the
-boundaries of a finite element model. The boundaries can be completely free, or fixities can be applied in one or
-two directions. Particularly the vertical boundaries of a mesh are often non-physical (synthetic) boundaries that
-have been chosen so that they do not influence the deformation behaviour of the construction to be modelled. In
-other words: the boundaries are 'far away'. For dynamics calculations, the boundaries should in principle be
-much further away than those for static calculations, because, otherwise, stress waves will be reflected leading
-to distortions in the computed results. However, locating the boundaries far away requires many extra elements
-and therefore a lot of extra memory and calculating time.
+In the case of a static deformation analysis, prescribed boundary displacements are introduced at the boundaries of a finite element model. The boundaries can be completely free, or fixities can be applied in one or two directions. Particularly the vertical boundaries of a mesh are often non-physical (synthetic) boundaries that have been chosen so that they do not influence the deformation behaviour of the construction to be modelled. In other words: the boundaries are 'far away'. For dynamics calculations, the boundaries should in principle be much further away than those for static calculations, because, otherwise, stress waves will be reflected leading to distortions in the computed results. However, locating the boundaries far away requires many extra elements and therefore a lot of extra memory and calculating time.
 To counteract reflections and avoid spurious waves, various methods are used at the boundaries, which include:
 •
 Use of half-infinite elements (boundary elements).
@@ -1634,111 +1088,47 @@ Adaptation of the material properties of elements at the boundary (low stiffness
 Use of viscous boundaries (dampers).
 •
 Use of free-field and compliant base boundaries (boundary elements).
-All of these methods have their advantages and disadvantages and are problem dependent. For the
-implementation of dynamic effects in PLAXIS, the viscous boundaries are used for problems where the dynamic
-source is inside the mesh and the free-field boundaries when the dynamic source is applied as a boundary
-condition (e.g. earthquake motions).
+All of these methods have their advantages and disadvantages and are problem dependent. For the implementation of dynamic effects in PLAXIS, the viscous boundaries are used for problems where the dynamic source is inside the mesh and the free-field boundaries when the dynamic source is applied as a boundary condition (e.g. earthquake motions).
 5.3.1 Viscous boundaries
-In opting for viscous boundaries, a damper is used instead of applying fixities in a certain direction. The damper
-ensures that an increase in stress on the boundary is absorbed without rebounding. The boundary then starts to
-move. The use of viscous boundaries in PLAXIS is based on the method described by Lysmer & Kuhlmeyer,
+In opting for viscous boundaries, a damper is used instead of applying fixities in a certain direction. The damper ensures that an increase in stress on the boundary is absorbed without rebounding. The boundary then starts to move. The use of viscous boundaries in PLAXIS is based on the method described by Lysmer & Kuhlmeyer,
 (1969) (on page 58). The normal and shear stress components absorbed by a damper in x-direction are:
-σn = - C1ρV pu˙ x
-τ = - C2ρVsu˙ y
-Eq. [105]
-where ρ is the density of the materials, Vp and Vs are the pressure wave velocity and the shear wave velocity
-respectively, u˙ x and u˙ y are the normal and shear particle velocities derived by time integration, C1 and C2 are
-relaxation coefficients to modify the effect of the absorption. When pressure waves only strike the boundary
-perpendicular, relaxation is redundant (C1= C2=1 ).
-In the presence of shear waves, the damping effect of the viscous boundaries is perfect. The effect can be
-modified by adapting the second coefficient in particular. The experience gained until now shows that the use of
-C1= 1 and C2=1 results in a reasonable absorption of any waves reaching the boundary, which is sufficient for
-practical applications.
+σn = - C1ρV pu˙ x τ = - C2ρVsu˙ y
+Eq. [105] where ρ is the density of the materials, Vp and Vs are the pressure wave velocity and the shear wave velocity respectively, u˙ x and u˙ y are the normal and shear particle velocities derived by time integration, C1 and C2 are relaxation coefficients to modify the effect of the absorption. When pressure waves only strike the boundary perpendicular, relaxation is redundant (C1= C2=1 ).
+In the presence of shear waves, the damping effect of the viscous boundaries is perfect. The effect can be modified by adapting the second coefficient in particular. The experience gained until now shows that the use of
+C1= 1 and C2=1 results in a reasonable absorption of any waves reaching the boundary, which is sufficient for practical applications.
 Dynamics
 Model Boundaries
 PLAXIS
-25
 Scientific Manual
 5.3.2 Free-field and compliant base boundaries
-Using free-field boundaries, the domain is reduced to the area of interest and the free field motion is applied to
-the boundaries employing free-field elements. A free-field element consists of a one-dimensional element (in 2D
-problems) coupled to the main grid by viscous dashpots (Figure 2 (on page 26)). To describe the propagation
-of waves inside the free-field elements, the same mechanical behaviour as the adjacent soil element in the main
-domain is used.
+Using free-field boundaries, the domain is reduced to the area of interest and the free field motion is applied to the boundaries employing free-field elements. A free-field element consists of a one-dimensional element (in 2D problems) coupled to the main grid by viscous dashpots (Figure 2 (on page 26)). To describe the propagation of waves inside the free-field elements, the same mechanical behaviour as the adjacent soil element in the main domain is used.
 Figure 2: Free field elements
-The free field motion is transferred from free-field elements to the main domain by applying the equivalent
-forces according to Eq. [106]. In these equations, the effect of a viscous boundary condition is also considered at
-the boundary of the main domain to absorb the outgoing waves from the internal structures. The normal and
-shear stress components transferred from the free-field element to the main domain, for a damper in x-direction,
-are:
-σn = - C1ρV p(u˙ x
-m −u˙ x
-ff )
-τ = - C2ρVs(u˙ y
-m −u˙ y
-ff )
- Eq. [106]
-where ρ is the density of the materials, Vp and Vs are the pressure wave velocity and the shear wave velocity
-respectively (Materials Manual - Chapter 3 - Basic Parameters of the Mohr-Coulomb model), u˙ m and u˙ ff
-are the particle velocities in the main grid and in the free-field element respectively, C1 and C2 are relaxation
-coefficients to modify the effect of the absorption. When pressure waves only strike the boundary perpendicular,
-relaxation is redundant (C1= C2=1).
-Free-field elements can be attached to the lateral boundaries of the main domain. If the base cluster is
-considered, absorption and application of dynamic input can be done at the same place at the bottom of the
-model with the compliant base boundaries (Joyner & Chen, 1975 (on page 58)). The equivalent stresses in an
-compliant base are given by:
-σn = - C1ρV p(u˙ x
-d −2u
-˙
-x
-u)
-τ = - C2ρVs(u˙ y
-d −2u˙ y
-u)
- Eq. [107]
+The free field motion is transferred from free-field elements to the main domain by applying the equivalent forces according to Eq. [106]. In these equations, the effect of a viscous boundary condition is also considered at the boundary of the main domain to absorb the outgoing waves from the internal structures. The normal and shear stress components transferred from the free-field element to the main domain, for a damper in x-direction, are:
+σn = - C1ρV p(u˙ x m −u˙ x ff ) τ = - C2ρVs(u˙ y m −u˙ y ff )
+Eq. [106] where ρ is the density of the materials, Vp and Vs are the pressure wave velocity and the shear wave velocity respectively (Materials Manual - Chapter 3 - Basic Parameters of the Mohr-Coulomb model), u˙ m and u˙ ff are the particle velocities in the main grid and in the free-field element respectively, C1 and C2 are relaxation coefficients to modify the effect of the absorption. When pressure waves only strike the boundary perpendicular, relaxation is redundant (C1= C2=1).
+Free-field elements can be attached to the lateral boundaries of the main domain. If the base cluster is considered, absorption and application of dynamic input can be done at the same place at the bottom of the model with the compliant base boundaries (Joyner & Chen, 1975 (on page 58)). The equivalent stresses in an compliant base are given by:
+σn = - C1ρV p(u˙ x d −2u
+˙ x u) τ = - C2ρVs(u˙ y d −2u˙ y u)
+Eq. [107]
 Dynamics
 Model Boundaries
 PLAXIS
-26
-Scientific Manual
-where u˙ d and u˙ u are the upward and downward particle velocities, which can be considered as displacement in
-the compliant base element and the main domain, respectively. The compliant base works correctly if the
-relaxation coefficients C1 and C2 are equal to 1. The reaction of the dashpots is multiplied by a factor 2 since half
-of the input is absorbed by the viscous dashpots and half is transferred to the main domain. This is the difference
-between the compliant base and the free field boundary conditions.
+Scientific Manual where u˙ d and u˙ u are the upward and downward particle velocities, which can be considered as displacement in the compliant base element and the main domain, respectively. The compliant base works correctly if the relaxation coefficients C1 and C2 are equal to 1. The reaction of the dashpots is multiplied by a factor 2 since half of the input is absorbed by the viscous dashpots and half is transferred to the main domain. This is the difference between the compliant base and the free field boundary conditions.
 5.4 Initial stresses and stress increments
-By removing the boundary fixities during the transition from a static analysis to a dynamics analisis, the
-boundary stresses also cease. This means that the boundary will start to move as a result of initial stresses. To
-prevent this, the original boundary stress will be converted to an initial (virtual) boundary velocity. When
-calculating the stress, the initial boundary velocity must be subtracted from the real velocity:
+By removing the boundary fixities during the transition from a static analysis to a dynamics analisis, the boundary stresses also cease. This means that the boundary will start to move as a result of initial stresses. To prevent this, the original boundary stress will be converted to an initial (virtual) boundary velocity. When calculating the stress, the initial boundary velocity must be subtracted from the real velocity:
 σn = −c1ρV pu˙ n + σn
 0 = −c1ρV p(u˙ n −u˙ n
 0)
- Eq. [108]
-This initial velocity is calculated at the start of the dynamics analisis and is therefore based purely on the original
-boundary stress (preceding calculation or initial stress state).
-At present, situations can arise where a new load is applied at a certain location on the model and is
-continuously present from that moment onward. Such a load should result in an increase in the average
-boundary stress. If it involves a viscous boundary, the average incremental stress cannot be absorbed. Instead,
-the boundary will start to move. In most situations, however, there are also fixed (non-absorbent) boundaries
-elsewhere in the mesh – for example, on the bottom. The bottom of the mesh, at the location of the transition
-from a non-rigid to a hard (stiff) soil layer, is often chosen for this. Here, reflections also occur in reality, so that
-such a bottom boundary in a dynamics analisis can simply be provided with standard (fixed) peripheral
-conditions. In the above-mentioned case of an increased load on the model, that increase will eventually have to
-be absorbed by the (fixed) bottom boundary – if necessary, after redistributing the stresses.
+Eq. [108]
+This initial velocity is calculated at the start of the dynamics analisis and is therefore based purely on the original boundary stress (preceding calculation or initial stress state).
+At present, situations can arise where a new load is applied at a certain location on the model and is continuously present from that moment onward. Such a load should result in an increase in the average boundary stress. If it involves a viscous boundary, the average incremental stress cannot be absorbed. Instead, the boundary will start to move. In most situations, however, there are also fixed (non-absorbent) boundaries elsewhere in the mesh – for example, on the bottom. The bottom of the mesh, at the location of the transition from a non-rigid to a hard (stiff) soil layer, is often chosen for this. Here, reflections also occur in reality, so that such a bottom boundary in a dynamics analisis can simply be provided with standard (fixed) peripheral conditions. In the above-mentioned case of an increased load on the model, that increase will eventually have to be absorbed by the (fixed) bottom boundary – if necessary, after redistributing the stresses.
 5.5 Amplification of responses
-Let there be an acceleration time history (of size N) defined by a set of accelerations (may be other responses in
-form of velocities or displacements), [a1, a2, a3, ... , aN ] recorded at time steps [ t1, t2, t3, ... , tN] with uniform
-sampling rate. On performing Fourier transform on the given series, the time signature can be converted to
-frequency dependent Fourier spectra like [A1+iB1, A2+iB2, A3+iB3, ... , AM+iBM ] against the frequency set of [ f1, f2,
-f3, ... , fN ], where M is defined as follows:
+Let there be an acceleration time history (of size N) defined by a set of accelerations (may be other responses in form of velocities or displacements), [a1, a2, a3, ... , aN ] recorded at time steps [ t1, t2, t3, ... , tN] with uniform sampling rate. On performing Fourier transform on the given series, the time signature can be converted to frequency dependent Fourier spectra like [A1+iB1, A2+iB2, A3+iB3, ... , AM+iBM ] against the frequency set of [ f1, f2, f3, ... , fN ], where M is defined as follows:
 M =
 N
-2
 :
 N ⊂even integers
 N + 1
-2
 :
 N ⊂odd number }
 Eq. [109]
@@ -1747,249 +1137,130 @@ The power spectra of the response may subsequently be obtained as a set of [ ½(
 Dynamics
 Initial stresses and stress increments
 PLAXIS
-27
 Scientific Manual
-5.6 Pseudo-spectral acceleration response spectrum for a single-degree-
-of-freedom system
-Let a structure be idealized as a single-degree-of-freedom (SDOF) system. This SDOF structure may be physically
-modelled as a combination of mass-spring-dashpot system attached to the ground surface. The equation for this
+5.6 Pseudo-spectral acceleration response spectrum for a single-degree- of-freedom system
+Let a structure be idealized as a single-degree-of-freedom (SDOF) system. This SDOF structure may be physically modelled as a combination of mass-spring-dashpot system attached to the ground surface. The equation for this
 SDOF system may be written as:
 mx¨ + cx˙ + kx = −mx¨ gs
-Eq. [110]
-where, m is the mass of the structure, x is the lateral displacement of the structure, c represents the viscous
-damping coefficient of the structure, k is the stiffness of the structure and x¨ gs is the horizontal acceleration time
-history at the ground surface at the base of the structure. The expressions for the damping coefficient and the
-structural stiffness are given by:
-c = 2mζsωn
- and 
-k = mωn
-2
-Eq. [111]
-respectively. ζs and ω denote respectively the damping ratio and natural frequency of the structure. The natural
-frequency is the inverse of the natural time period. The pseudo-acceleration, a is defined by the following
-equation.
+Eq. [110] where, m is the mass of the structure, x is the lateral displacement of the structure, c represents the viscous damping coefficient of the structure, k is the stiffness of the structure and x¨ gs is the horizontal acceleration time history at the ground surface at the base of the structure. The expressions for the damping coefficient and the structural stiffness are given by:
+c = 2mζsωn and k = mωn
+Eq. [111] respectively. ζs and ω denote respectively the damping ratio and natural frequency of the structure. The natural frequency is the inverse of the natural time period. The pseudo-acceleration, a is defined by the following equation.
 a = | xmax | ωn
-2
-Eq. [112]
-where
+Eq. [112] where
 |xmax|
-=
-absolute peak response of a structure during the whole period of
-dynamic loading
-The acceleration time history obtained at the soil-structure interface (i.e. at soil surface as obtained from PLAXIS
-is used as an input excitation to the structure. The above equation may now be solved in time domain for a
-particular time period of a SDOF structure to obtain the displacements of the structure at every time point and
-subsequently the absolute maximum displacement response (i.e. |xmax|) of the structure can be found out from
-this displacement time history (and hence its pseudo-spectral acceleration from Eq. [112]) for the whole
-duration of the time history. Thus, this equation may be repeatedly solved for different natural time periods of
-the structure to plot its pseudo-acceleration response versus time period giving rise to PSA plot. This would
-enable the users to perform seismic soil-structure interaction analysis or seismic analysis or structures.
+= absolute peak response of a structure during the whole period of dynamic loading
+The acceleration time history obtained at the soil-structure interface (i.e. at soil surface as obtained from PLAXIS is used as an input excitation to the structure. The above equation may now be solved in time domain for a particular time period of a SDOF structure to obtain the displacements of the structure at every time point and subsequently the absolute maximum displacement response (i.e. |xmax|) of the structure can be found out from this displacement time history (and hence its pseudo-spectral acceleration from Eq. [112]) for the whole duration of the time history. Thus, this equation may be repeatedly solved for different natural time periods of the structure to plot its pseudo-acceleration response versus time period giving rise to PSA plot. This would enable the users to perform seismic soil-structure interaction analysis or seismic analysis or structures.
 The stiffness ratio, s¯ is the ratio of structural stiffness to soil stiffness defined by the following equation (page
-261 of Kramer, 1996 (on page 58))
-s¯ =
-ωnL
+261 of Kramer, 1996 (on page 58)) s¯ = ωnL
 Vs
- Eq. [113]
-in which Vs is the shear wave velocity of the supporting soil medium and L is the height of structure above the
-foundation.
+Eq. [113] in which Vs is the shear wave velocity of the supporting soil medium and L is the height of structure above the foundation.
 5.7 Natural frequency of vibration of a soil deposit
-The natural frequency of vibration of a soil deposit may be calculated from the following equation (page 261 of 
+The natural frequency of vibration of a soil deposit may be calculated from the following equation (page 261 of
 Kramer, 1996 (on page 58)):
 Dynamics
 Natural frequency of vibration of a soil deposit
 PLAXIS
-28
-Scientific Manual
-f n =
+Scientific Manual f n =
 Vs
 4H (1 + 2n)
- Eq. [114]
-where, f n is the nth natural frequency of the soil deposit in Hz and n = 0,1,2,....
-For n = 0, the first natural frequency, f 0 (i.e. the fundamental frequency) of vibration of the soil deposit of
-thickness H is given by
-f n =
+Eq. [114] where, f n is the nth natural frequency of the soil deposit in Hz and n = 0,1,2,....
+For n = 0, the first natural frequency, f 0 (i.e. the fundamental frequency) of vibration of the soil deposit of thickness H is given by f n =
 Vs
 4H
 Eq. [115]
 5.8 Hydrodynamic pressure
-The hydrodynamic pressures in a dam-reservoir system can be dealt with using the added mass concept. The
-added mass approach introduced by Westergaard is widely used in practice and simplifies the analysis
-procedure of the response of an incompressible dam-reservoir during earthquakes. Westergaard's analytical
-solution was obtained for a rigid dam with a vertical upstream face under a horizontal harmonic ground motion,
-where the fluid is treated as an added mass to the body of the dam. Zangar extended Westergaard's work by
-considering the sloping upstream face of the dam.
+The hydrodynamic pressures in a dam-reservoir system can be dealt with using the added mass concept. The added mass approach introduced by Westergaard is widely used in practice and simplifies the analysis procedure of the response of an incompressible dam-reservoir during earthquakes. Westergaard's analytical solution was obtained for a rigid dam with a vertical upstream face under a horizontal harmonic ground motion, where the fluid is treated as an added mass to the body of the dam. Zangar extended Westergaard's work by considering the sloping upstream face of the dam.
 5.8.1 Added mass approach
-The added mass is generally described as a matrix which models the interaction between water pressure and the
-structure. It allows to investigate the dynamical response of the structure without explicitly modelling the fluid
-motion and consequently reducing the modelling efforts.
-Zangar derived experimentally an equation for the pressure distribution over the height of the dam for different
-inclinations of the dam. Based on the assumptions of water incompressibility and rigid structure, the expression
-for the hydrodynamic pressure distribution is given as:
+The added mass is generally described as a matrix which models the interaction between water pressure and the structure. It allows to investigate the dynamical response of the structure without explicitly modelling the fluid motion and consequently reducing the modelling efforts.
+Zangar derived experimentally an equation for the pressure distribution over the height of the dam for different inclinations of the dam. Based on the assumptions of water incompressibility and rigid structure, the expression for the hydrodynamic pressure distribution is given as:
 p(y) = Caρwh
- Eq. [116]
-where
+Eq. [116] where
 C
 =
-Pressure coefficient factor
-a
+Pressure coefficient factor a
 =
-Horizontal acceleration
-ρw
+Horizontal acceleration ρw
 =
-Density of water
-h
+Density of water h
 =
-Reservoir height
-y
+Reservoir height y
 =
 Distance of the considered point above the bottom of the reservoir
-For different inclination angles of the upstream surface, Zangar derived a parabolic shape of the mass or
-pressure distribution based on the experimental results. Accordingly, he obtained the following expression for
-the pressure coefficient factor:
+For different inclination angles of the upstream surface, Zangar derived a parabolic shape of the mass or pressure distribution based on the experimental results. Accordingly, he obtained the following expression for the pressure coefficient factor:
 C =
-Cm
-2
-y
-h (2 −y
-h ) +
-y
-h (2 −y
-h )
- Eq. [117]
-The constant factor Cm is defined as the maximum occuring pressure coefficient for a specific inclination. By
-considering water incompressible, the values of Cm can be calculated from
+Cm y h (2 −y h ) + y h (2 −y h )
+Eq. [117]
+The constant factor Cm is defined as the maximum occuring pressure coefficient for a specific inclination. By considering water incompressible, the values of Cm can be calculated from
 Dynamics
 Hydrodynamic pressure
 PLAXIS
-29
 Scientific Manual
 Cm = −0.0073θ + 0.7412
- Eq. [118]
-where the angle of inclination θ is measured in degrees.
+Eq. [118] where the angle of inclination θ is measured in degrees.
 5.8.2 Implementation of Zangar's added mass
-The added mass matrix of a finite element corresponding to the Zangar's approach is obtained as follows. For an
-arbitrary segment of the face of the dam with an area of 1 × dl, the corresponding normal inertia force due to
-the hydrodynamic pressure is written as:
+The added mass matrix of a finite element corresponding to the Zangar's approach is obtained as follows. For an arbitrary segment of the face of the dam with an area of 1 × dl, the corresponding normal inertia force due to the hydrodynamic pressure is written as:
 dFN = pdl = λaxdl
-Eq. [119]
-where:
+Eq. [119] where:
 λ =
-Cmρw
-2
-u
-h (2 −y
-h +
-y
-h (2 −y
-h ))
+Cmρw u h (2 −y h + y h (2 −y h ))
 Eq. [120]
-Notice here that the y parameter is measured from the bottom of the reservoir. By assuming θ to be the angle of
-the upstream face of the dam with the global x-axis, the inertia force components in the x and y directions are
-obtained using the following transformation
-dFN =
-dFx
-dF y
-= λ sin θ
-0
-cos θ
-0
-ax
-ay
-dl
+Notice here that the y parameter is measured from the bottom of the reservoir. By assuming θ to be the angle of the upstream face of the dam with the global x-axis, the inertia force components in the x and y directions are obtained using the following transformation dFN = dFx dF y
+= λ sin θ cos θ ax ay dl
 Eq. [121]
 The total nodal inertia forces are computed by integrating over the upstream face as:
 F = ∫dF d l= ∫λN T TN dl
-Eq. [122]
-where N is the matrix of shape functions and T the transformation matrix.
+Eq. [122] where N is the matrix of shape functions and T the transformation matrix.
 By considering the inertia force as the product of mass and acceleration, the added mass matrix is obtained as:
 Madded = ∫λN T TN dl
- Eq. [123]
-The computed added mass matrix in PLAXIS is always a consistent matrix regardless of the user request for
-lumped mass matrix for soil and structural elements. For an inclined face of the dam, applying horizontal
-acceleration generates vertical hydrodynamic forces but lumping the mass matrix eliminates these vertical
-forces and therefore should be avoided.
+Eq. [123]
+The computed added mass matrix in PLAXIS is always a consistent matrix regardless of the user request for lumped mass matrix for soil and structural elements. For an inclined face of the dam, applying horizontal acceleration generates vertical hydrodynamic forces but lumping the mass matrix eliminates these vertical forces and therefore should be avoided.
 Dynamics
 Hydrodynamic pressure
 PLAXIS
-30
 Scientific Manual
- 6
 Element formulations
-In this chapter the interpolation functions of the finite elements used in the PLAXIS program are described. Each
-element consists of a number of nodes. Each node has a number of degrees of freedom that correspond to
-discrete values of the unknowns in the boundary value problem to be solved. In the case of deformation theory
-the degrees of freedom correspond to the displacement components, whereas in the case of groundwater flow
-the degrees-of-freedom are the groundwater heads. For consolidation problems degrees-of-freedom are both
-displacement components and (excess) pore pressures. In addition to the interpolation functions it is described
-which type of numerical integration over elements is used in the program.
+In this chapter the interpolation functions of the finite elements used in the PLAXIS program are described. Each element consists of a number of nodes. Each node has a number of degrees of freedom that correspond to discrete values of the unknowns in the boundary value problem to be solved. In the case of deformation theory the degrees of freedom correspond to the displacement components, whereas in the case of groundwater flow the degrees-of-freedom are the groundwater heads. For consolidation problems degrees-of-freedom are both displacement components and (excess) pore pressures. In addition to the interpolation functions it is described which type of numerical integration over elements is used in the program.
 6.1 Interpolation functions of point elements
 Point elements are elements existing of only one single node. Hence, the displacement field of the element u
-¯
-itself is only defined by the displacement field of this single node v
+¯ itself is only defined by the displacement field of this single node v
 ¯
 :
 u
 ¯
 = v
 ¯
-Eq. [124]
-with:
+Eq. [124] with:
 u
 ¯
-= (ux
-uy)T
-and
-v
+= (ux uy)T and v
 ¯
-= (vx
-vy)T
-(PLAXIS 2D )
-and
-u
+= (vx vy)T
+(PLAXIS 2D ) and u
 ¯
-= (ux
-uy
-uz)T
-and
-v
+= (ux uy uz)T and v
 ¯
-= (vx
-vy
-vz)T
+= (vx vy vz)T
 (PLAXIS 3D)
 6.1.1 Structural elements
 Fixed-end anchors
-In PLAXIS fixed-end anchors are considered to be point elements. The contribution of this element to the
-stiffness matrix can be derived from the traction the fixed-end anchor imposes on a point in the geometry due to
-the displacement of this point (see Eq. [13]). As a fixed-end anchor has only an axial stiffness and no bending
-stiffness, it is more convenient to rotate the global displacement field v
+In PLAXIS fixed-end anchors are considered to be point elements. The contribution of this element to the stiffness matrix can be derived from the traction the fixed-end anchor imposes on a point in the geometry due to the displacement of this point (see Eq. [13]). As a fixed-end anchor has only an axial stiffness and no bending stiffness, it is more convenient to rotate the global displacement field v
+¯ to the displacement field v
 ¯
- to the displacement field v
-¯
-* such that the
-first axis of the rotated coordinate system coincides with the direction of the fixed-end anchor:
+* such that the first axis of the rotated coordinate system coincides with the direction of the fixed-end anchor:
 v
 ¯
 * = Rθv
 ¯
- Eq. [125]
+Eq. [125]
 PLAXIS
-31
-Scientific Manual
-where Rθ  denotes the rotation matrix. As only axial displacements are relevant, the element will only have one
-degree of freedom in the rotated coordinate system. The traction in the rotated coordinate system t* can be
-derived as:
+Scientific Manual where Rθ denotes the rotation matrix. As only axial displacements are relevant, the element will only have one degree of freedom in the rotated coordinate system. The traction in the rotated coordinate system t* can be derived as:
 t * = D Su *
- Eq. [126]
-where
+Eq. [126] where
 DS
-=
-the constitutive relationship of an anchor as defined in the Material
+= the constitutive relationship of an anchor as defined in the Material
 Models Manual.
 Converting the traction in the rotated coordinate system to the traction in the global coordinate system t
-¯
- by
-using the rotation matrix again and substituting Eq. [124] gives:
+¯ by using the rotation matrix again and substituting Eq. [124] gives:
 t
 ¯
 = Rθ
@@ -1999,144 +1270,99 @@ Eq. [127]
 Substituting this equation in Eq. [13] gives the element stiffness matrix of the fixed-end anchor KS:
 KS = Rθ
 T D SRθ
- Eq. [128]
-In case of elastoplastic behaviour of the anchor the maximum tension force is bound by Fmax,tens and the
-maximum compression force is bound by Fmax,comp .
+Eq. [128]
+In case of elastoplastic behaviour of the anchor the maximum tension force is bound by Fmax,tens and the maximum compression force is bound by Fmax,comp .
 6.2 Interpolation functions and numerical integration of line elements
 Within an element existing of more than one node the displacement field u
 ¯
-= (ux
-uy)T  (PLAXIS 2D) or
-u
+= (ux uy)T (PLAXIS 2D) or u
 ¯
-= (ux
-uy
-uz)T  (PLAXIS 3D) and is obtained from the discrete nodal values in a vector
-v
+= (ux uy uz)T (PLAXIS 3D) and is obtained from the discrete nodal values in a vector v
 ¯
-= (vx
-vy
-⋯
-vn)T  using interpolation functions assembled in matrix N:
+= (vx vy
+⋯ vn)T using interpolation functions assembled in matrix N:
 u
 ¯
 = Nv
 ¯
-Hence, interpolation functions N are used to interpolate values inside an element based on known values in the
-nodes. Interpolation functions are also denoted as shape functions.
+Hence, interpolation functions N are used to interpolate values inside an element based on known values in the nodes. Interpolation functions are also denoted as shape functions.
 Let us first consider a line element. Line elements are the basis for line loads, beams and node-to-node anchors.
-The extension of this theory to areas and volumes is given in the subsequent sections. When the local position, ξ,
-of a point (usually a stress point or an integration point) is known, one can write for a displacement component
-u:
-u(ξ) = ∑
-i=1
-n
+The extension of this theory to areas and volumes is given in the subsequent sections. When the local position, ξ, of a point (usually a stress point or an integration point) is known, one can write for a displacement component u:
+u(ξ) = ∑ i=1 n
 Ni(ξ)vi
- Eq. [129]
-where
-vi
+Eq. [129] where vi
 =
 Nodal values
 Ni(ξ)
 =
-Value of the shape function of node i at position ξ
-u(ξ)
+Value of the shape function of node i at position ξ u(ξ)
 =
-Resulting value at position ξ
-n
+Resulting value at position ξ n
 =
 Number of nodes per element
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-32
 Scientific Manual
 6.2.1 Interpolation functions of line elements
-Interpolation functions or shape functions are derived in a local coordinate system. This has several advantages
-like programming only one function per element type, a simple application of numerical integration and
-allowing higher-order elements to have curved edges.
+Interpolation functions or shape functions are derived in a local coordinate system. This has several advantages like programming only one function per element type, a simple application of numerical integration and allowing higher-order elements to have curved edges.
 2-node line elements
 In Figure 3 (on page 33), an example of a 2-node line element is given. In contrast to a 3-node line element or a
 5-node line element in the PLAXIS 2D program, this element is not compatible with an area element in the
-PLAXIS 2D or PLAXIS 3D program or a volume element in the PLAXIS 3D program. The 2-node line elements are
-the basis for node-to-node anchors. The shape functions Ni have the property that the function value is equal to
-unity at node i and zero at the other node. For 2-node line elements the nodes are located at ξ=-1 and ξ=1. The
-shape functions are given by:
+PLAXIS 2D or PLAXIS 3D program or a volume element in the PLAXIS 3D program. The 2-node line elements are the basis for node-to-node anchors. The shape functions Ni have the property that the function value is equal to unity at node i and zero at the other node. For 2-node line elements the nodes are located at ξ=-1 and ξ=1. The shape functions are given by:
 N1 = 1
 2 (1 −ξ)
 N2 = 1
 2 (1 + ξ)
 Eq. [130]
 2-node line elements provide a first-order (linear) interpolation of displacements.
- 
- 
+
 Figure 3: Shape functions for a 2-node line element
 3-node line elements
-In Figure 4 (on page 34), an example of a 3-node line element is given, which is compatible with the side of a 6-
-node triangle in the PLAXIS 2D or PLAXIS 3D program or a 10-node volume element in the PLAXIS 3D program,
-since these elements also have three nodes on a side. The shape functions Ni have the property that the function
-value is equal to unity at node i and zero at the other nodes. For 3-node line elements, where nodes 1, 2 and 3
-are located at ξ = -1, 0 and 1 respectively, the shape functions are given by:
+In Figure 4 (on page 34), an example of a 3-node line element is given, which is compatible with the side of a 6- node triangle in the PLAXIS 2D or PLAXIS 3D program or a 10-node volume element in the PLAXIS 3D program, since these elements also have three nodes on a side. The shape functions Ni have the property that the function value is equal to unity at node i and zero at the other nodes. For 3-node line elements, where nodes 1, 2 and 3 are located at ξ = -1, 0 and 1 respectively, the shape functions are given by:
 N1 = −1
 2 (1 −ξ)ξ
 N 2 = −1
 2 (1 + ξ)(1 −ξ)
 N3 = 1
 2 (1 + ξ)ξ
- Eq. [131]
+Eq. [131]
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-33
 Scientific Manual
-3-node line elements provide a second-order (quadratic) interpolation of displacements. These elements are the
-basis for line loads and beam elements.
+3-node line elements provide a second-order (quadratic) interpolation of displacements. These elements are the basis for line loads and beam elements.
 Figure 4: Shape functions for a 3-node line element
 5-node line elements
 In Figure 5 (on page 35), an example of a 5-node line element is given, which is compatible with the side of a
-15-node triangle in the PLAXIS 2D program, since these elements also have five nodes on a side. The shape
-functions Ni have the property that the function value is equal to unity at node i and zero at the other nodes. For
-5-node line elements, where nodes 1, 2, 3, 4 and 5 are located at ξ = -1, -0.5, 0, 0.5 and 1 respectively, the shape
-functions are given by:
+15-node triangle in the PLAXIS 2D program, since these elements also have five nodes on a side. The shape functions Ni have the property that the function value is equal to unity at node i and zero at the other nodes. For
+5-node line elements, where nodes 1, 2, 3, 4 and 5 are located at ξ = -1, -0.5, 0, 0.5 and 1 respectively, the shape functions are given by:
 N1 = −(1 −ξ)(1 −2ξ) / 6
 N2 = 4(1 −ξ)(1 −2ξ)ξ( −1 −ξ) / 3
 N3 = (1 −ξ)(1 −2ξ)( −1 −2ξ)( −1 −ξ)
 N4 = 4(1 −ξ)ξ(1 −2ξ)( −1 −ξ) / 3
 N5 = −(1 −2ξ)ξ(1 −2ξ)( −1 −ξ) / 6
 Eq. [132]
-5-node line elements provide a fourth-order (quartic) interpolation of displacements. These elements are the
-basis for line loads and beam elements.
+5-node line elements provide a fourth-order (quartic) interpolation of displacements. These elements are the basis for line loads and beam elements.
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-34
 Scientific Manual
 Figure 5: Shape functions for a 5-node line element
 6.2.2 Structural elements
-Structural line elements in the PLAXIS program are based on the line elements as described in the previous
-sections. However, there are some differences.
+Structural line elements in the PLAXIS program are based on the line elements as described in the previous sections. However, there are some differences.
 Node-to-node anchors
-Node-to-node anchors are springs that are used to model ties between two points. A node-to-node anchor
-consists of a 2-node element with both nodes shared with the elements the node-to-node anchor is attached to.
-Therefore, the nodes have three d.o.f.s in the global coordinate system. However, as a node-to-node anchor can
-only sustain normal forces, only the displacement in the axial direction of the node-to-node anchor is relevant.
-Therefore it is more convenient to rotate the global coordinate system to a coordinate system in which the first
-axis coincides with the direction of the anchor. This rotated coordinate system is denoted as the x*, y*, z*
-coordinate system and is similar to the (1, 2, 3) coordinate system used in the Material Models Manual. In this
-rotated coordinate system, these elements have only one d.o.f. per node (a displacement in axial direction).
-The shape functions for these axial displacements are already given by Eq. [130]. Using index notation, the axial
-displacement can now be defined as:
+Node-to-node anchors are springs that are used to model ties between two points. A node-to-node anchor consists of a 2-node element with both nodes shared with the elements the node-to-node anchor is attached to.
+Therefore, the nodes have three d.o.f.s in the global coordinate system. However, as a node-to-node anchor can only sustain normal forces, only the displacement in the axial direction of the node-to-node anchor is relevant.
+Therefore it is more convenient to rotate the global coordinate system to a coordinate system in which the first axis coincides with the direction of the anchor. This rotated coordinate system is denoted as the x*, y*, z* coordinate system and is similar to the (1, 2, 3) coordinate system used in the Material Models Manual. In this rotated coordinate system, these elements have only one d.o.f. per node (a displacement in axial direction).
+The shape functions for these axial displacements are already given by Eq. [130]. Using index notation, the axial displacement can now be defined as:
 ux
 * = Nivix
 *
- Eq. [133]
-where
-vix
+Eq. [133] where vix
 *
-=
-the nodal displacement in axial direction of node i.
-The nodal displacements in the rotated coordinate system can be rotated to give the nodal displacements in the
-global coordinate system:
+= the nodal displacement in axial direction of node i.
+The nodal displacements in the rotated coordinate system can be rotated to give the nodal displacements in the global coordinate system:
 v
 ¯ i = Rθ
 T vix
@@ -2145,35 +1371,19 @@ Eq. [134]
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-35
-Scientific Manual
-where the nodal displacement vector in the global coordinate system is denoted by v
-¯ i = (vix
-viy)T  in the
+Scientific Manual where the nodal displacement vector in the global coordinate system is denoted by v
+¯ i = (vix viy)T in the
 PLAXIS 2D program and v
-¯ i = (vix
-viy
-viz)T  in the PLAXIS 3D program and Rθ denotes the rotation matrix. For
-further elaboration into the element stiffness matrix see Derivatives of interpolation functions (on page 38)
-and Calculation of element stiffness matrix (on page 40).
+¯ i = (vix viy viz)T in the PLAXIS 3D program and Rθ denotes the rotation matrix. For further elaboration into the element stiffness matrix see Derivatives of interpolation functions (on page 38) and Calculation of element stiffness matrix (on page 40).
 Beam elements (PLAXIS 3D)
 The 3-node beam elements are used to describe semi-one-dimensional structural objects with flexural rigidity.
-Beam elements are slightly different from 3-node line elements in the sense that they have six degrees of
-freedom per node instead of three in the global coordinate system, i.e. three translational d.o.f (ux, uy, uz ) and
-three rotational d.o.f (φx, φy, φz ).
-The rotated coordinate system is denoted as the x*, y*, z* coordinate system and is similar to the (1, 2, 3)
-coordinate system used in the Material Models Manual. The beam elements are numerically integrated over their
-cross section using 4 (2x2) point Gaussian integration. In addition, the beam elements are numerically
-integrated over their length using 4-point Gaussian integration according to Table 1 (on page 40). Beam
-elements have only one local coordinate ( ξ). The element provides a quadratic interpolation (3-node element) of
-the axial displacement (see Eq. [131]). Using index notation, the axial displacement can now be defined as:
+Beam elements are slightly different from 3-node line elements in the sense that they have six degrees of freedom per node instead of three in the global coordinate system, i.e. three translational d.o.f (ux, uy, uz ) and three rotational d.o.f (φx, φy, φz ).
+The rotated coordinate system is denoted as the x*, y*, z* coordinate system and is similar to the (1, 2, 3) coordinate system used in the Material Models Manual. The beam elements are numerically integrated over their cross section using 4 (2x2) point Gaussian integration. In addition, the beam elements are numerically integrated over their length using 4-point Gaussian integration according to Table 1 (on page 40). Beam elements have only one local coordinate ( ξ). The element provides a quadratic interpolation (3-node element) of the axial displacement (see Eq. [131]). Using index notation, the axial displacement can now be defined as:
 ux
 * = Nivix
 *
- Eq. [135]
-where vix
-* denotes the nodal displacement in axial direction of node i. As Mindlin's theory has been adopted the
-shape functions for transverse displacements may be the same as for the axial displacements (see Eq. [131] and
+Eq. [135] where vix
+* denotes the nodal displacement in axial direction of node i. As Mindlin's theory has been adopted the shape functions for transverse displacements may be the same as for the axial displacements (see Eq. [131] and
 Eq. [132]). Using index notation, the transverse displacements can now be defined as:
 u
 ¯ w
@@ -2181,27 +1391,24 @@ u
 * v
 ¯ iw
 *
- Eq. [136]
+Eq. [136]
 The local transverse displacements in any point is given by:
 u
 ¯ w
 * = u
 ¯ y
-*
-u
+* u
 ¯ z
 * T
- Eq. [137]
+Eq. [137]
 The matrix Niw
-*  for transverse displacements is defined as:
+* for transverse displacements is defined as:
 Niw
 *
 =
 Ni(ξ)
-0
-0
 Ni(ξ)
- Eq. [138]
+Eq. [138]
 The local nodal transverse displacements and rotations of node i are given by viw
 * :
 v
@@ -2209,42 +1416,35 @@ v
 *
 = v
 ¯ iy
-*
-v
+* v
 ¯ iz
 *
 T
- Eq. [139]
-where v
+Eq. [139] where v
 ¯ iy
-*  and v
+* and v
 ¯ iz
-*  denote the nodal transverse displacements.
-As the displacements and rotations are fully uncoupled according to Mindlin's theory, the shape functions for the
-rotations may be different than the shape functions used for the displacements. However, in PLAXIS the same
-functions are used. Using index notation, the rotations can now be defined as:
+* denote the nodal transverse displacements.
+As the displacements and rotations are fully uncoupled according to Mindlin's theory, the shape functions for the rotations may be different than the shape functions used for the displacements. However, in PLAXIS the same functions are used. Using index notation, the rotations can now be defined as:
 φ
 ¯ w
 * = Niw
 * ψ
 ¯iw
 *
- Eq. [140]
-where the matrix Niw
-*  is defined by Eq. [138]. The local rotations in any point is given by:
+Eq. [140] where the matrix Niw
+* is defined by Eq. [138]. The local rotations in any point is given by:
 φ
 ¯ w
 * = φ
 ¯ y
-*
-φ
+* φ
 ¯ z
 * T
- Eq. [141]
+Eq. [141]
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-36
 Scientific Manual
 The local nodal rotations of node i are given by v
 ¯ iz
@@ -2254,305 +1454,155 @@ The local nodal rotations of node i are given by v
 *
 = ψ
 ¯iy
-*
-ψ
+* ψ
 ¯ iz
 *
 T
- Eq. [142]
-where ψiy
+Eq. [142] where ψiy
 * and ψiz
-* denote the nodal rotations. For further elaboration into the element stiffness matrix see 
+* denote the nodal rotations. For further elaboration into the element stiffness matrix see
 Derivatives of interpolation functions (on page 38) and Calculation of element stiffness matrix (on page 40).
 Plate elements (PLAXIS 2D)
-The 3-node or 5-node plate elements are used to describe semi-two-dimensional structural objects with flexural
-rigidity and a normal stiffness. Plate elements are slightly different from 3-node or 5-node line elements in the
-sense that they have three degrees of freedom per node instead of two in the global coordinate system, i.e. two
-translational d.o.f (ux and uy) and one rotational d.o.f (φz). The plate elements also have 3 d.o.f per node in the
-rotated coordinate system, i.e.
-•
-one axial displacement (ux
+The 3-node or 5-node plate elements are used to describe semi-two-dimensional structural objects with flexural rigidity and a normal stiffness. Plate elements are slightly different from 3-node or 5-node line elements in the sense that they have three degrees of freedom per node instead of two in the global coordinate system, i.e. two translational d.o.f (ux and uy) and one rotational d.o.f (φz). The plate elements also have 3 d.o.f per node in the rotated coordinate system, i.e.
+• one axial displacement (ux
 *)
-•
-one transverse displacement (uy
+• one transverse displacement (uy
 *)
-•
-one rotation (φz)
-The rotated coordinate system is denoted as the (x*, y*, z*) coordinate system and is similar to the (1, 2, 3)
-coordinate system used in the Material Models Manual. The plate elements are numerically integrated over their
-height using 2 point Gaussian integration. In addition, the plate elements are numerically integrated over their
-length using 2-point Gaussian integration in case of 3-node beam elements and 4-point Gaussian integration in
-case of 5-node beam elements according to Table 1 (on page 40).
-The element provides a quadratic interpolation (3-node element) or a quartic interpolation (5-node element) of
-the axial displacement (see Eq. [131]). Using index notation, the axial displacement can now be defined as:
+• one rotation (φz)
+The rotated coordinate system is denoted as the (x*, y*, z*) coordinate system and is similar to the (1, 2, 3) coordinate system used in the Material Models Manual. The plate elements are numerically integrated over their height using 2 point Gaussian integration. In addition, the plate elements are numerically integrated over their length using 2-point Gaussian integration in case of 3-node beam elements and 4-point Gaussian integration in case of 5-node beam elements according to Table 1 (on page 40).
+The element provides a quadratic interpolation (3-node element) or a quartic interpolation (5-node element) of the axial displacement (see Eq. [131]). Using index notation, the axial displacement can now be defined as:
 ux
 * = Nivix
 *
- Eq. [143]
-where
-vix
+Eq. [143] where vix
 *Eq
-=
-the nodal displacement in axial direction of node i.
-As Mindlin's theory has been adopted the shape functions for transverse displacements may be the same as for
-the axial displacements (see Eq. [131] and Eq. [132]). Using index notation, the transverse displacement uy
-* can
-now be defined as:
+= the nodal displacement in axial direction of node i.
+As Mindlin's theory has been adopted the shape functions for transverse displacements may be the same as for the axial displacements (see Eq. [131] and Eq. [132]). Using index notation, the transverse displacement uy
+* can now be defined as:
 uy
 * = Niviy
 *
- Eq. [144]
-where
-viy
+Eq. [144] where viy
 *
-=
-the nodal displacement perpendicular to the plate axis.
-As the displacements and rotations are fully uncoupled according to Mindlin's theory, the shape functions for the
-rotations may be different than the shape functions used for the displacements. However, in PLAXIS the same
-functions are used. Using index notation, the rotation φz in the PLAXIS program can now be defined as:
+= the nodal displacement perpendicular to the plate axis.
+As the displacements and rotations are fully uncoupled according to Mindlin's theory, the shape functions for the rotations may be different than the shape functions used for the displacements. However, in PLAXIS the same functions are used. Using index notation, the rotation φz in the PLAXIS program can now be defined as:
 φz = Niψiz
- Eq. [145]
-where
-ψiz
-=
-the nodal rotation.
+Eq. [145] where ψiz
+= the nodal rotation.
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-37
-Scientific Manual
-where denotes For further elaboration into the element stiffness matrix see Plate elements (PLAXIS 2D) (on
-page 39). .
+Scientific Manual where denotes For further elaboration into the element stiffness matrix see Plate elements (PLAXIS 2D) (on page 39). .
 6.2.3 Derivatives of interpolation functions
 To compute the element stiffness matrix first the derivatives of the interpolation functions should be derived.
 Node-to-node anchors
-As node-to-node anchors can only sustain axial forces, only the axial strains are of interest: ε*=du*/dx*. Using the
-chain rule for differentiation gives:
-ε * =
-d u *
-d x * =
-d u *
-d ξ
-d ξ
-d x *
-Eq. [146]
-where (using index notation)
-d u *
-d ξ
-=
-d Ni
-d ξ vi
+As node-to-node anchors can only sustain axial forces, only the axial strains are of interest: ε*=du*/dx*. Using the chain rule for differentiation gives:
+ε * = d u * d x * = d u * d ξ d ξ d x *
+Eq. [146] where (using index notation) d u * d ξ
+= d Ni d ξ vi
 *
-Eq. [147]
-and
-d x *
-d ξ
-=
-d Ni
-d ξ xi
+Eq. [147] and d x * d ξ
+= d Ni d ξ xi
 *
 Eq. [148]
 The parameter xi
-* denotes the coordinate of the nodes in the rotated coordinate system. In case of 2-node line
-elements Eq. [148] can be simplified to:
-d x *
-d ξ
+* denotes the coordinate of the nodes in the rotated coordinate system. In case of 2-node line elements Eq. [148] can be simplified to:
+d x * d ξ
 = L
-2
- Eq. [149]
-where
+Eq. [149] where
 L
-=
-length of the element in the global coordinate system.
+= length of the element in the global coordinate system.
 Inserting Eq. [147], Eq. [149], Eq. [143] into Eq. [146] will give:
 ε * = Bi
 *vix
 *
- Eq. [150]
-where the rotated strain interpolation function Bi
+Eq. [150] where the rotated strain interpolation function Bi
 * is given by:
 Bi
 * =
-2
-L
-d Ni
-d ξ
- Eq. [151]
+L d Ni d ξ
+Eq. [151]
 Rotating the local nodal displacements back to the global coordinate system gives:
 Bi =
-2
-L
-d Ni
-d ξ Rθ
+L d Ni d ξ Rθ
 Eq. [152]
-Note that this strain interpolation function is still a function of the local coordinate ξ as the shape functions Ni
-are a function of ξ.
+Note that this strain interpolation function is still a function of the local coordinate ξ as the shape functions Ni are a function of ξ.
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-38
 Scientific Manual
 Plate elements (PLAXIS 2D)
-In case of axial displacements in the rotated coordinate system, the strain interpolation matrix for beams can be
-derived from Eq. [146] till Eq. [148]. As node 2 of a 2-node beam element is located in the middle of the element
-by default, Eq. [148] can be simplified to Eq. [149] In case of 5-node beam elements (2D only), the nodes will also
-be equally distributed along the length of the beam by default, simplifying Eq. [148] to Eq. [149]. So, the strain
-interpolation matrix in the global coordinate system for the longitudinal displacements of beams is given by:
+In case of axial displacements in the rotated coordinate system, the strain interpolation matrix for beams can be derived from Eq. [146] till Eq. [148]. As node 2 of a 2-node beam element is located in the middle of the element by default, Eq. [148] can be simplified to Eq. [149] In case of 5-node beam elements (2D only), the nodes will also be equally distributed along the length of the beam by default, simplifying Eq. [148] to Eq. [149]. So, the strain interpolation matrix in the global coordinate system for the longitudinal displacements of beams is given by:
 Bi =
-2
-L
-d Ni
-d ξ Rθ
- Eq. [159]
-In case of bending moments, a curvature interpolation matrix is needed to define the stiffness matrix. The
-curvature interpolation function describes the kinematic relationship between curvatures and displacements:
+L d Ni d ξ Rθ
+Eq. [159]
+In case of bending moments, a curvature interpolation matrix is needed to define the stiffness matrix. The curvature interpolation function describes the kinematic relationship between curvatures and displacements:
 κ
 ¯
-* =
-κ2
-κ3
+* = κ2 κ3
 =
-−
-d 2 uz
-*
-d x *2
-−
-d 2 uz
-*
-d x *2
+− d 2 uz
+* d x *2
+− d 2 uz
+* d x *2
 = Biφ
 * v
 ¯iφ
 *
- Eq. [160]
-where
+Eq. [160] where
 Biφ
-* = −
-0
-d 2 Niu
-d x *2
-d 2 Niθ
-d x *2
-0
-d 2 Niu
-d x *2
-0
-0
-d 2 Niθ
-d x *2
- Eq. [161]
-and v
+* = − d 2 Niu d x *2 d 2 Niθ d x *2 d 2 Niu d x *2 d 2 Niθ d x *2
+Eq. [161] and v
 ¯ iφ
-*  is defined by Eq. [142]. Using the chain rule for differentiation twice gives:
-d 2 N
-d x *2 =
-d
-d ξ ( d N
-d ξ
-d ξ
-d x *)
-d ξ
-d x * = d 2 N
-d ξ2 (
-d ξ
-d x *)
-2
- Eq. [162]
+* is defined by Eq. [142]. Using the chain rule for differentiation twice gives:
+d 2 N d x *2 = d d ξ ( d N d ξ d ξ d x *) d ξ d x * = d 2 N d ξ2 ( d ξ d x *)
+Eq. [162]
 As Eq. [149] still holds, Eq. [159] can be simplified to:
 Biφ
 * = −
-4
-L 2
-0
-d 2 Niu
-d ξ2
-d 2 Niθ
-d ξ2
-0
-d 2 Niu
-d ξ2
-0
-0
-d 2 Niθ
-d ξ2
- Eq. [163]
-Using Eq. [134] to rotate local nodal transverse displacements and rotations to global nodal displacements and
-rotations and inserting this equation in Eq. [163] gives:
+L 2 d 2 Niu d ξ2 d 2 Niθ d ξ2 d 2 Niu d ξ2 d 2 Niθ d ξ2
+Eq. [163]
+Using Eq. [134] to rotate local nodal transverse displacements and rotations to global nodal displacements and rotations and inserting this equation in Eq. [163] gives:
 Biφ = −
-4
-L 2
-0
-d 2 Niu
-d ξ2
-d 2 Niθ
-d ξ2
-0
-d 2 Niu
-d ξ2
-0
-0
-d 2 Niθ
-d ξ2
+L 2 d 2 Niu d ξ2 d 2 Niθ d ξ2 d 2 Niu d ξ2 d 2 Niθ d ξ2
 Rθ
- Eq. [164]
-Note that this strain interpolation function is still a function of the local coordinate ξ as the shape functions Ni
-are a function of ξ.
+Eq. [164]
+Note that this strain interpolation function is still a function of the local coordinate ξ as the shape functions Ni are a function of ξ.
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-39
 Scientific Manual
 6.2.4 Numerical integration of line elements
 To compute the element stiffness matrix first the derivatives of the interpolation functions should be derived.
 In order to obtain the integral over a certain line, the integral is numerically estimated as:
 ∫−1
-1 F(ξ) d ξ ≈∑
-i=1
-k
+1 F(ξ) d ξ ≈∑ i=1 k
 F(ξi)wI
- Eq. [165]
-where
+Eq. [165] where
 F( ξi)
-=
-value of the function F at position ξi
-wi
-=
-weight factor for point i
-A total of k sampling points is used. A method that is commonly used for numerical integration is Gaussian
-integration, where the positions ξi and weights wi are chosen in a special way to obtain high accuracy. For
-Gaussian-integration a polynomial function of degree 2k-1 can be integrated exactly by using kpoints. The
-position and weight factors of the integration are given in Table 1 (on page 40). Note that the sum of the
-weight factors is equal to 2, which is equal to the length of the line in local coordinates. The types of integration
-used for the 2-node line elements and the 3-node line elements are shaded.
+= value of the function F at position ξi wi
+= weight factor for point i
+A total of k sampling points is used. A method that is commonly used for numerical integration is Gaussian integration, where the positions ξi and weights wi are chosen in a special way to obtain high accuracy. For
+Gaussian-integration a polynomial function of degree 2k-1 can be integrated exactly by using kpoints. The position and weight factors of the integration are given in Table 1 (on page 40). Note that the sum of the weight factors is equal to 2, which is equal to the length of the line in local coordinates. The types of integration used for the 2-node line elements and the 3-node line elements are shaded.
 Table 1: Gaussian integration
-Points
-ξi
-wi
-max. polyn. degree
+Points ξi wi max. polyn. degree
 1 point
 0.000000...
-2
-1
 2 points
 ±0.577350...
-1
-3
 3 points
 ± 0.774596...
 0.55555... (5/9)
-5
 0.000000...
 0.88888... (8/9)
 4 points
 ± 0.861136...
 0.347854...
-7
 ± 0.339981...
 0.652145...
 5 points
 ± 0.906179...
 0.236926...
-9
 ± 0.538469...
 0.478628...
 0.000000...
@@ -2560,101 +1610,62 @@ max. polyn. degree
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-40
 Scientific Manual
 6.2.5 Calculation of element stiffness matrix
 Node-to-node anchors
 The element stiffness matrix of a node-to-node anchor is calculated by the integral (see also Eq. [25]):
 Ke = ∫BT D aB d V
- Eq. [166]
-where
+Eq. [166] where
 Da
-=
-elastic constitutive relationship of the node-to-node anchor as discussed
-in the Material Models Manual
-As the strain interpolation matrix is still a function of the local coordinate ξ it will make more sense to solve the
-integral of Eq. [166] in the local coordinate system. Applying the change of variables theorem to change the
-integral to the local coordinate system gives:
-Ke = ∫BT D aB d x *
-d ξ
-d V *
- Eq. [167]
-In case of a 2-node line element, dx*/dξ=L/2. This integral is estimated by numerical integration as described in 
-Numerical integration of line elements (on page 40). In fact, the element stiffness matrix is composed of
-submatrices Kij
-e  where i and j are the local nodes. The process of calculating the element stiffness matrix can be
-formulated as:
-Kij
-e = ∑
-k
+= elastic constitutive relationship of the node-to-node anchor as discussed in the Material Models Manual
+As the strain interpolation matrix is still a function of the local coordinate ξ it will make more sense to solve the integral of Eq. [166] in the local coordinate system. Applying the change of variables theorem to change the integral to the local coordinate system gives:
+Ke = ∫BT D aB d x * d ξ d V *
+Eq. [167]
+In case of a 2-node line element, dx*/dξ=L/2. This integral is estimated by numerical integration as described in
+Numerical integration of line elements (on page 40). In fact, the element stiffness matrix is composed of submatrices Kij e where i and j are the local nodes. The process of calculating the element stiffness matrix can be formulated as:
+Kij e = ∑ k
 B j
-T D aB j
-d x *
-d ξ wk
- Eq. [168]
-In case of elastoplastic behaviour of the anchor the maximum tension force is bound by Fmax,tens and the
-maximum compression force is bound by Fmax,comp (PLAXIS 3D).
+T D aB j d x * d ξ wk
+Eq. [168]
+In case of elastoplastic behaviour of the anchor the maximum tension force is bound by Fmax,tens and the maximum compression force is bound by Fmax,comp (PLAXIS 3D).
 Beam elements (PLAXIS 3D)
-In case of axial forces, the element stiffness matrix is given by Eq. [166] till Eq. [168]. In case of shear forces the
-stiffness matrix of a beam is calculated by the integral:
+In case of axial forces, the element stiffness matrix is given by Eq. [166] till Eq. [168]. In case of shear forces the stiffness matrix of a beam is calculated by the integral:
 Ke = ∫Bφ
 T DsBφ d V
- Eq. [169]
-where Ds denotes the constitutive relationship of a beam in shearing (see Material Models Manual):
+Eq. [169] where Ds denotes the constitutive relationship of a beam in shearing (see Material Models Manual):
 Ds = GA
-0
-0
 GA
- Eq. [170]
+Eq. [170]
 In case of bending moments the stiffness matrix of a beam is calculated by the integral:
 Ke = ∫Bφ
 T DbBφ d V
- Eq. [171]
-where Db denotes the constitutive relationship of a beam in bending (see Material Models Manual):
+Eq. [171] where Db denotes the constitutive relationship of a beam in bending (see Material Models Manual):
 Db =
 EI2
 EI23
 EI23
 EI3
- Eq. [172]
+Eq. [172]
 Element formulations
 Interpolation functions and numerical integration of line elements
 PLAXIS
-41
 Scientific Manual
-To solve the integral of Eq. [167] in the local coordinate system, the change of variables theorem should be
-applied:
+To solve the integral of Eq. [167] in the local coordinate system, the change of variables theorem should be applied:
 Ke = ∫Bφ
-T DbBφ
-d x *
-d ξ
-d V *
- Eq. [173]
-In PLAXIS, for 3-node beam elements dx*/dξ=L/2. This integral is estimated by numerical integration as
-described in Numerical integration of line elements (on page 40). In fact, the element stiffness matrix is
-composed of submatrices Kij
-e  where i and j are the local nodes. The process of calculating the element stiffness
-matrix can be formulated as:
-Kij
-e = ∑
-k
+T DbBφ d x * d ξ d V *
+Eq. [173]
+In PLAXIS, for 3-node beam elements dx*/dξ=L/2. This integral is estimated by numerical integration as described in Numerical integration of line elements (on page 40). In fact, the element stiffness matrix is composed of submatrices Kij e where i and j are the local nodes. The process of calculating the element stiffness matrix can be formulated as:
+Kij e = ∑ k
 Biφ
-T D bB jφ
-d x *
-d ξ wk
+T D bB jφ d x * d ξ wk
 Eq. [174]
 6.3 Interpolation functions and numerical integration of area elements
-Areas and surfaces in PLAXIS 2D are formed by 6-node or 15-node triangular elements. For the areas and
-surfaces in PLAXIS 3D only the 6-node triangular elements are available. The interpolation functions and the
-type of integration of these elements are described in the following subsections.
+Areas and surfaces in PLAXIS 2D are formed by 6-node or 15-node triangular elements. For the areas and surfaces in PLAXIS 3D only the 6-node triangular elements are available. The interpolation functions and the type of integration of these elements are described in the following subsections.
 6.3.1 Interpolation functions of area elements
 6-node triangular elements
-The 6-node triangles are one of the options for the basis for the soil elements in PLAXIS 2D and the basis for
-plate elements and distributed loads in PLAXIS 3D.
+The 6-node triangles are one of the options for the basis for the soil elements in PLAXIS 2D and the basis for plate elements and distributed loads in PLAXIS 3D.
 For triangular elements there are two local coordinates ( ξ and η). In addition we use an auxiliary coordinate ζ =
-1-ξ-η. 6-node triangular elements provide a second-order interpolation of displacements. The shape functions Ni
-have the property that the function value is equal to unity at node i and zero at the other nodes. The shape
-functions can be written as (see the local node numbering as shown in Figure 6 (on page 43)):
+1-ξ-η. 6-node triangular elements provide a second-order interpolation of displacements. The shape functions Ni have the property that the function value is equal to unity at node i and zero at the other nodes. The shape functions can be written as (see the local node numbering as shown in Figure 6 (on page 43)):
 N1
 = ζ(2ζ-1)
 N2
@@ -2670,14 +1681,10 @@ N6
 Element formulations
 Interpolation functions and numerical integration of area elements
 PLAXIS
-42
 Scientific Manual
-Figure 6: Local numbering and positioning of nodes (•) and integration points (x) of a 6-node triangular elementx)
-of a 6-node triangular element
+Figure 6: Local numbering and positioning of nodes (•) and integration points (x) of a 6-node triangular elementx) of a 6-node triangular element
 15-node triangular elements
-The 15-node triangles are one of the options for the basis for soil elements in PLAXIS 2D. For triangular elements
-there are two local coordinates ( ξ and η). In addition we use an auxiliary coordinate ζ = 1-ξ-η. For 15-node
-triangles the shape functions can be written as (see the local node numbering as shown in Figure 7 (on page
+The 15-node triangles are one of the options for the basis for soil elements in PLAXIS 2D. For triangular elements there are two local coordinates ( ξ and η). In addition we use an auxiliary coordinate ζ = 1-ξ-η. For 15-node triangles the shape functions can be written as (see the local node numbering as shown in Figure 7 (on page
 44)): .
 N1
 = ζ(4ζ-1)(4ζ-2)(4ζ-3)/6
@@ -2712,117 +1719,77 @@ N15
 Element formulations
 Interpolation functions and numerical integration of area elements
 PLAXIS
-43
 Scientific Manual
 Figure 7: Local numbering and positioning of nodes of a 15-node triangular element
 6.3.2 Structural elements
-Structural area elements in the PLAXIS program, i.e. plates and interfaces are based on the are elements as
-described in the previous sections. However there are some differences.
+Structural area elements in the PLAXIS program, i.e. plates and interfaces are based on the are elements as described in the previous sections. However there are some differences.
 Plate elements
-Plate elements are different from the 6-node triangles which have three degrees of freedom per node. As the
-plate elements cannot sustain torsional moments, the plate elements have only 5 d.o.f per node in the rotated
-coordinate system, i.e.:
-•
-one axial displacement (ux
+Plate elements are different from the 6-node triangles which have three degrees of freedom per node. As the plate elements cannot sustain torsional moments, the plate elements have only 5 d.o.f per node in the rotated coordinate system, i.e.:
+• one axial displacement (ux
 *);
-•
-two transverse displacements (uy
+• two transverse displacements (uy
 * and uz
 *);
-•
-two rotations (φy
+• two rotations (φy
 * and φz
 *).
 These elements are directly integrated over their cross section and numerically integrated using 3 point
-Gaussian integration. The position of the integration points is indicated in Figure 8 (on page 45) and
-corresponds with Table 3 (on page 46).
+Gaussian integration. The position of the integration points is indicated in Figure 8 (on page 45) and corresponds with Table 3 (on page 46).
 Element formulations
 Interpolation functions and numerical integration of area elements
 PLAXIS
-44
 Scientific Manual
-Figure 8: Local numbering and positioning of nodes (•) and integration points (x) of a 6-node plate triangle.• ) and
-integration points (x) of a 6-node plate triangle.
+Figure 8: Local numbering and positioning of nodes (•) and integration points (x) of a 6-node plate triangle.• ) and integration points (x) of a 6-node plate triangle.
 Interface elements
-Differently from the plate elements, interface elements have pairs of nodes instead of single nodes. The interface
-elements are numerically integrated using 6 point Gauss integration. The distance between the two nodes of a
-node pair is zero. Each node has three translational degrees of freedom (ux, uy, uz ). As a result, interface
-elements allow for differential displacements between the node pairs (slipping and gapping). The position and
-weight factors of the integration points are given in Table 2 (on page 45).
+Differently from the plate elements, interface elements have pairs of nodes instead of single nodes. The interface elements are numerically integrated using 6 point Gauss integration. The distance between the two nodes of a node pair is zero. Each node has three translational degrees of freedom (ux, uy, uz ). As a result, interface elements allow for differential displacements between the node pairs (slipping and gapping). The position and weight factors of the integration points are given in Table 2 (on page 45).
 Table 2: 6-Point Gaussian integration for 12-node triangular elements
-Point
-ξi
-ηi
-wi
-1
+Point ξi ηi wi
 0.091576...
 0.816848
 0.109952
-2
 0.091576
 0.091576
 0.109952
-3
 0.816848
 0.091576
 0.109952
-4
 0.108103
 0.445948
 0.223382
-5
 0.445948
 0.108103
 0.223382
-6
 0.445948
 0.445948
 0.223382
 For more information see Dunavant (1985) (on page 58).
 6.3.3 Numerical integration of area elements
 As for line elements, one can formulate the numerical integration over areas as:
-∫∫F(ξ, η) d ξ d η ≈∑
-i=1
-k
+∫∫F(ξ, η) d ξ d η ≈∑ i=1 k
 F(ξi, ηi)wi
 Eq. [175]
 The PLAXIS program uses Gaussian integration within the area elements.
 Element formulations
 Interpolation functions and numerical integration of area elements
 PLAXIS
-45
 Scientific Manual
 6-node triangular elements
-For 6-node triangular elements the integration is based on 3 sample points (Figure 6 (on page 43)). The position
-and weight factors of the integration points are given in Table 3 (on page 46). Note that the sum of the weight
-factors is equal to 1.
+For 6-node triangular elements the integration is based on 3 sample points (Figure 6 (on page 43)). The position and weight factors of the integration points are given in Table 3 (on page 46). Note that the sum of the weight factors is equal to 1.
 Table 3: 3-point Gaussian integration for 6-node triangular elements
-Point
-ξi
-ηi
-wi
-1
+Point ξi ηi wi
 1/6
 2/3
 1/3
-2
 1/6
 1/6
 1/3
-3
 2/3
 1/6
 1/3
 15-node triangular elements
-For 15-node elements 12 sample points are used. The position and weight factors of the integration points are
-given in Table 4 (on page 46). Note that, in contrast to the line elements, the sum of the weight factors is equal
-to 1.
+For 15-node elements 12 sample points are used. The position and weight factors of the integration points are given in Table 4 (on page 46). Note that, in contrast to the line elements, the sum of the weight factors is equal to 1.
 Table 4: 12-point Gaussian integration for 15-node triangular elements
-Point
-ξi
-ηi
-ζi
-wi
+Point ξi ηi ζi wi
 1, 2 & 3
 0.063089...
 0.063089...
@@ -2839,20 +1806,13 @@ wi
 0.636502...
 0.082851...
 6.4 Interpolation functions and numerical integration of volume elements
-The soil volume in the PLAXIS program is modelled by means of 10-node tetrahedral elements. The interpolation
-functions, their derivatives and the numerical integration of this type of element are described in the following
-subsections.
+The soil volume in the PLAXIS program is modelled by means of 10-node tetrahedral elements. The interpolation functions, their derivatives and the numerical integration of this type of element are described in the following subsections.
 6.4.1 10-node tetrahedral element
-The 10-node tetrahedral elements are created in the 3D mesh procedure. This type of element provides a
-second-order interpolation of displacements. For tetrahedral elements there are three local coordinates (ξ, η and
-ζ). The shape functions Ni have the property that the function value is equal to unity at node i and zero at the
+The 10-node tetrahedral elements are created in the 3D mesh procedure. This type of element provides a second-order interpolation of displacements. For tetrahedral elements there are three local coordinates (ξ, η and ζ). The shape functions Ni have the property that the function value is equal to unity at node i and zero at the
 Element formulations
 Interpolation functions and numerical integration of volume elements
 PLAXIS
-46
-Scientific Manual
-other nodes. The shape functions of these 10-node volume elements can be written as (see the local node
-numbering as shown in Figure 9 (on page 47)):
+Scientific Manual other nodes. The shape functions of these 10-node volume elements can be written as (see the local node numbering as shown in Figure 9 (on page 47)):
 N1
 = (1-ξ-η-ζ)(1-2ξ-2η-2ζ)
 N2
@@ -2872,82 +1832,55 @@ N8
 N9
 = 4ηζ
 N10
-= 4ξη
-10
-ξ
-η
-ζ
+= 4ξη ξ η ζ
 S1
 S2
 S3
 S4
-Figure 9: Local numbering and positioning of nodes (•) and integration points (x) of a 10-node tetrahedral
-elementx) of a 10-node tetrahedral element
+Figure 9: Local numbering and positioning of nodes (•) and integration points (x) of a 10-node tetrahedral elementx) of a 10-node tetrahedral element
 The soil elements have three degrees of freedom per node: ux, uy and uz. The shape function matrix N
-¯ i can now
-be defined as:
+¯ i can now be defined as:
 Ni =
 Ni
-0
-0
-0
 Ni
-0
-0
-0
 Ni
- Eq. [176]
-and the nodal displacement vector v
+Eq. [176] and the nodal displacement vector v
 ¯ i is defined as:
 v
-¯ i = vix
-viy
-viz
+¯ i = vix viy viz
 T
- Eq. [177]
+Eq. [177]
 6.4.2 Derivatives of interpolation functions
-In order to calculate Cartesian strain components from displacements, such as formulated in Eq. [10],
-derivatives need to be taken with respect to the global system of axes (x,y,z).
+In order to calculate Cartesian strain components from displacements, such as formulated in Eq. [10], derivatives need to be taken with respect to the global system of axes (x,y,z).
 ε
 ¯
 = Biv
 ¯ i
- Eq. [178]
+Eq. [178]
 Element formulations
 Interpolation functions and numerical integration of volume elements
 PLAXIS
-47
-Scientific Manual
-where
+Scientific Manual where
 B =
 ∂Ni
 ∂x
-0
-0
-0
 ∂Ni
 ∂y
-0
-0
-0
 ∂Ni
 ∂z
 ∂Ni
 ∂y
 ∂Ni
 ∂x
-0
-0
 ∂Ni
 ∂z
 ∂Ni
 ∂y
 ∂Ni
 ∂z
-0
 ∂Ni
 ∂x
- Eq. [179]
+Eq. [179]
 Within the elements, derivatives are calculated with respect to the local coordinate system ( ξ, η, ζ).
 The relationship between local and global derivatives involves the Jacobian J:
 ∂Ni
@@ -3003,63 +1936,37 @@ Or inversely:
 ∂η
 ∂Ni
 ∂ζ
- Eq. [181]
-The local derivatives ∂Ni/ ∂ξ, etc., can easily be derived from the element shape functions, since the shape
-functions are formulated in local coordinates. The components of the Jacobian are obtained from the differences
-in nodal coordinates. The inverse Jacobian J-1 is obtained by numerically inverting J. The Cartesian strain
-components can now be calculated by summation of all nodal contributions:
-εxx
-εyy
-εzz
-γxy
-γyz
-γzx
-= ∑
-i
-Bi
-vix
-viy
-viz
- Eq. [182]
-where vi are the displacement components in node i.
+Eq. [181]
+The local derivatives ∂Ni/ ∂ξ, etc., can easily be derived from the element shape functions, since the shape functions are formulated in local coordinates. The components of the Jacobian are obtained from the differences in nodal coordinates. The inverse Jacobian J-1 is obtained by numerically inverting J. The Cartesian strain components can now be calculated by summation of all nodal contributions:
+εxx εyy εzz γxy γyz γzx
+= ∑ i
+Bi vix viy viz
+Eq. [182] where vi are the displacement components in node i.
 Element formulations
 Interpolation functions and numerical integration of volume elements
 PLAXIS
-48
 Scientific Manual
 6.4.3 Numerical integration of volume elements
 As for line and areas, one can formulate the numerical integration over volumes as:
-∫∫∫F(ξ, η, ζ) d ξ d η d ζ ≈∑
-i=1
-k
+∫∫∫F(ξ, η, ζ) d ξ d η d ζ ≈∑ i=1 k
 F(ξi, ηi, ζi)wi
- Eq. [183]
-The PLAXIS program uses Gaussian integration within the tetrahedral elements. The integration is based on 4
-sample points. The position and weight factors of the integration points are given in Table 5 (on page 49). See 
-Figure 9 (on page 47) for the local numbering of integration points. Note that the sum of the weight factors is
-equal to 1/6.
+Eq. [183]
+The PLAXIS program uses Gaussian integration within the tetrahedral elements. The integration is based on 4 sample points. The position and weight factors of the integration points are given in Table 5 (on page 49). See
+Figure 9 (on page 47) for the local numbering of integration points. Note that the sum of the weight factors is equal to 1/6.
 Table 5: 4-point Gaussian integration for 10-node triangular elements
-Point
-ξi
-ηi
-ζi
-wi
-1
+Point ξi ηi ζi wi
 0.138197...
 0.138197...
 0.138197...
 1/24
-2
 0.138197...
 0.138197...
 0.585410...
 1/24
-3
 0.585410...
 0.138197...
 0.138197...
 1/24
-4
 0.138197...
 0.585410...
 0.138197...
@@ -3067,101 +1974,61 @@ wi
 6.4.4 Calculation of element stiffness matrix
 The element stiffness matrix, Ke, is calculated by the integral (see also Eq. [25]):
 Ke = ∫BT DeB d V
- Eq. [184]
-As it is more convenient to calculate the element stiffness matrix in the local coordinate system, the change of
-variables theorem should be applied to change the integral to the local coordinate system:
+Eq. [184]
+As it is more convenient to calculate the element stiffness matrix in the local coordinate system, the change of variables theorem should be applied to change the integral to the local coordinate system:
 Ke = ∫BT DeB j d V *
- Eq. [185]
-where j denotes the determinant of the Jacobian.
-The integral is estimated by numerical integration as described in Numerical integration of volume elements (on
-page 49). In fact, the element stiffness matrix is composed of submatrices Kij
-e  where i and j are the local nodes.
+Eq. [185] where j denotes the determinant of the Jacobian.
+The integral is estimated by numerical integration as described in Numerical integration of volume elements (on page 49). In fact, the element stiffness matrix is composed of submatrices Kij e where i and j are the local nodes.
 The process of calculating the element stiffness matrix can be formulated as:
-Kij
-e = ∑
-k
+Kij e = ∑ k
 Bi
 T D bB j jwk
- Eq. [186]
-In case of plastic deformations of the soil only the elastic part of the soil stiffness will be used in the stiffness
-matrix whereas the plasticity is solved for iteratively.
+Eq. [186]
+In case of plastic deformations of the soil only the elastic part of the soil stiffness will be used in the stiffness matrix whereas the plasticity is solved for iteratively.
 Element formulations
 Interpolation functions and numerical integration of volume elements
 PLAXIS
-49
 Scientific Manual
 6.5 Special elements (PLAXIS 3D)
-As special elements in PLAXIS embedded beams will be considered. Embedded beams are based on the
-embedded beam approach by Sadek & Shahrour (2004) (on page 59). Embedded beams consist of beam
-elements to model a pile, anchor or rock bolt and embedded interface elements to model the interaction
-between the soil and the beam at the beam skin as well as at the foot of a pile.
+As special elements in PLAXIS embedded beams will be considered. Embedded beams are based on the embedded beam approach by Sadek & Shahrour (2004) (on page 59). Embedded beams consist of beam elements to model a pile, anchor or rock bolt and embedded interface elements to model the interaction between the soil and the beam at the beam skin as well as at the foot of a pile.
 6.6 Embedded beams (PLAXIS 3D)
-The embedded beam has been developed to describe the interaction of a pile, anchor, or rock bolt with its
-surrounding soil or rock. The interaction at the skin and at the foot is described by means of embedded interface
-elements. The pile, anchor, or rock bolt is considered as a beam which can cross a volume element at any place
-with any arbitrary orientation (Figure 10 (on page 50)). Due to the existence of the beam element three extra
-nodes are introduced inside the volume element.
-x'
-y'
-z'
-Figure 10: Illustration of the embedded beam element denoted by the solid line. The blank grey circles denote the
-virtual nodes of the soil element.
+The embedded beam has been developed to describe the interaction of a pile, anchor, or rock bolt with its surrounding soil or rock. The interaction at the skin and at the foot is described by means of embedded interface elements. The pile, anchor, or rock bolt is considered as a beam which can cross a volume element at any place with any arbitrary orientation (Figure 10 (on page 50)). Due to the existence of the beam element three extra nodes are introduced inside the volume element.
+x' y' z'
+Figure 10: Illustration of the embedded beam element denoted by the solid line. The blank grey circles denote the virtual nodes of the soil element.
 6.6.1 Finite element discretisation
-The finite element discretisation of the pile or rock bolt is similar to beam elements, as discussed in Beam
-elements (PLAXIS 3D) (on page 36). The finite element discretisation of the interaction with the soil will be
+The finite element discretisation of the pile or rock bolt is similar to beam elements, as discussed in Beam elements (PLAXIS 3D) (on page 36). The finite element discretisation of the interaction with the soil will be
 Element formulations
 Special elements (PLAXIS 3D)
 PLAXIS
-50
-Scientific Manual
-discussed in this chapter. Using the standard notation the displacement of the soil u
-¯ s and the displacement of
-the beam u
+Scientific Manual discussed in this chapter. Using the standard notation the displacement of the soil u
+¯ s and the displacement of the beam u
 ¯ b can be discretised as:
 u
 ¯ s = Nsv
-¯ s
-u
+¯ s u
 ¯b = Nbv
 ¯b
- Eq. [187]
-where Ns and Nb are the matrices containing the interpolation functions of the soil elements and the beam
-elements respectively (see 10-node tetrahedral element (on page 46) and Beam elements (PLAXIS 3D) (on page
+Eq. [187] where Ns and Nb are the matrices containing the interpolation functions of the soil elements and the beam elements respectively (see 10-node tetrahedral element (on page 46) and Beam elements (PLAXIS 3D) (on page
 36)) and v
 ¯ s and v
 ¯ b are the nodal displacement vectors of the soil elements and the beam elements respectively.
 6.6.2 Interaction at the skin
-First, the interaction between the soil and the beam at the beam skin surface will be described by embedded
-interface elements. These interface elements are based on 3-node line elements with pairs of nodes instead of
-single nodes. One node of each pair belongs to the beam element, whereas the other (virtual) node is a point in
-the 10-node tetrahedral element (Figure 10 (on page 50)). The interaction can be represented by a skin traction
+First, the interaction between the soil and the beam at the beam skin surface will be described by embedded interface elements. These interface elements are based on 3-node line elements with pairs of nodes instead of single nodes. One node of each pair belongs to the beam element, whereas the other (virtual) node is a point in the 10-node tetrahedral element (Figure 10 (on page 50)). The interaction can be represented by a skin traction t
+¯ skin. The development of the skin traction can be regarded as an incremental process:
 t
-¯
-skin. The development of the skin traction can be regarded as an incremental process:
-t
-¯
-skin = t
-¯ 0
-skin + Δt
-¯
-skin
+¯ skin = t
+¯ 0 skin + Δt
+¯ skin
 Eq. [188]
 In this equation t
-¯ 0
-skin denotes the initial skin traction and Δt
-¯
-skin denotes the skin traction increment. The
-constitutive relation between the skin traction increment and the relative displacement increment is formulated
-as:
+¯ 0 skin denotes the initial skin traction and Δt
+¯ skin denotes the skin traction increment. The constitutive relation between the skin traction increment and the relative displacement increment is formulated as:
 Δt
-¯
-skin = TskinΔu
+¯ skin = TskinΔu
 ¯ rel
 Eq. [189]
-In this relation Tskin denotes the material stiffness of the embedded interface element in the global coordinate
-system. The increment in the relative displacement vector Δu
-¯ rel is defined as the difference in the increment of
-the soil displacement and the increment of the beam displacement:
+In this relation Tskin denotes the material stiffness of the embedded interface element in the global coordinate system. The increment in the relative displacement vector Δu
+¯ rel is defined as the difference in the increment of the soil displacement and the increment of the beam displacement:
 Δu
 ¯ rel = Δu
 ¯b −Δu
@@ -3169,12 +2036,10 @@ the soil displacement and the increment of the beam displacement:
 ¯ b −NsΔv
 ¯s = NrelΔv
 ¯ rel
- Eq. [190]
-where
+Eq. [190] where
 Nrel = Nb
 −Ns
- Eq. [191]
-and
+Eq. [191] and
 Δv
 ¯rel = Δv
 ¯b
@@ -3189,60 +2054,37 @@ T ∫Nrel
 T TskinNreldSΔv
 ¯ rel = KskinΔv
 ¯rel
-In this formulation the element stiffness matrix Kskin represents the interaction between the beam and the soil
-at the skin and consists of four parts:
+In this formulation the element stiffness matrix Kskin represents the interaction between the beam and the soil at the skin and consists of four parts:
 Kskin =
-Kbb
-skin
-Kbs
-skin
-Ksb
-skin
-Kss
-skin
- Eq. [193]
+Kbb skin
+Kbs skin
+Ksb skin
+Kss skin
+Eq. [193]
 Element formulations
 Embedded beams (PLAXIS 3D)
 PLAXIS
-51
 Scientific Manual
-The matrix Kbb
-skin represents the contribution of the beam nodes to the interaction, the matrix Kss
-skin represents
-the contribution of the soil nodes to the interaction and the matrices Kbs
-skin and Ksb
-skin are the mixed terms:
-Kbb
-skin = ∫Kb
+The matrix Kbb skin represents the contribution of the beam nodes to the interaction, the matrix Kss skin represents the contribution of the soil nodes to the interaction and the matrices Kbs skin and Ksb skin are the mixed terms:
+Kbb skin = ∫Kb
 T TskinNb d S
-Kbs
-skin = ∫Nb
+Kbs skin = ∫Nb
 T TskinNs d S
-Ksb
-skin = ∫Ns
+Ksb skin = ∫Ns
 T TskinNb d S
-Kss
-skin = ∫Ns
+Kss skin = ∫Ns
 T TskinNs d S
 Eq. [194]
 These integrals are numerically estimated using:
 ∫−1
-1 F(ξ) d ξ ≈∑
-i=1
-k
+1 F(ξ) d ξ ≈∑ i=1 k
 F(ξi)wi
- Eq. [195]
-However, instead of Gauss integration Newton-Cotes integration is used. In this method the points ξi are chosen
-at the position of the nodes, see Table 6 (on page 52). The type of integration used for the embedded interface
-elements is shaded. In case of plastic deformations of the embedded interface elements only the elastic part of
-the interface stiffness will be used in the stiffness matrix whereas the plasticity is solved for iteratively.
+Eq. [195]
+However, instead of Gauss integration Newton-Cotes integration is used. In this method the points ξi are chosen at the position of the nodes, see Table 6 (on page 52). The type of integration used for the embedded interface elements is shaded. In case of plastic deformations of the embedded interface elements only the elastic part of the interface stiffness will be used in the stiffness matrix whereas the plasticity is solved for iteratively.
 Table 6: Newton-Cotes integration
-Nodes
-ξi
-wi
+Nodes ξi wi
 2 nodes
 ± 1
-1
 3 nodes
 ± 1, 0
 1/3, 4/3
@@ -3253,40 +2095,25 @@ wi
 ± 1,± 1/2, 0
 7/45, 32/45, 12/45
 6.6.3 Interaction at the foot
-The interaction of the embedded beam at the foot is described by an embedded interface element. This
-interaction can be represented by a foot force vector t
-¯
-foot . Like the development of the skin traction the
-development of the foot force is an incremental process:
+The interaction of the embedded beam at the foot is described by an embedded interface element. This interaction can be represented by a foot force vector t
+¯ foot . Like the development of the skin traction the development of the foot force is an incremental process:
 t
-¯
-foot = t
-¯0
-foot + Δt
-¯
-foot
- Eq. [196]
+¯ foot = t
+¯0 foot + Δt
+¯ foot
+Eq. [196]
 In this equation t
-¯ 0
-foot denotes the initial force and Δt
-¯
-foot denotes the force increment at the foot. The
-constitutive relation between the skin traction increment and the relative displacement increment is formulated
-as:
+¯ 0 foot denotes the initial force and Δt
+¯ foot denotes the force increment at the foot. The constitutive relation between the skin traction increment and the relative displacement increment is formulated as:
 Δt
-¯
-foot = D footΔu
+¯ foot = D footΔu
 ¯ rel
- Eq. [197]
-In this relation D foot denotes the material stiffness matrix of the spring element at the foot of the embedded
-beam in the global coordinate system. As for the skin interaction the force increment at the foot of the beam can
-be discretised by means of the virtual work (Eq. [6]), as:
+Eq. [197]
+In this relation D foot denotes the material stiffness matrix of the spring element at the foot of the embedded beam in the global coordinate system. As for the skin interaction the force increment at the foot of the beam can be discretised by means of the virtual work (Eq. [6]), as:
 Element formulations
 Embedded beams (PLAXIS 3D)
 PLAXIS
-52
-Scientific Manual
-δurel
+Scientific Manual δurel
 T Δt foot = δvrel
 T Nrel
 T D footNrelΔv
@@ -3295,72 +2122,43 @@ T D footNrelΔv
 Eq. [198]
 The stiffness matrix at the foot is represented by K foot and consists of four parts:
 K foot =
-Kbb
-foot
-Kbs
-foot
-Ksb
-foot
-Kss
-foot
- Eq. [199]
-In this equation Kbb
-foot represents the contribution of the beam nodes, Kss
-foot represents the contribution from the
-soil nodes and Kbs
-foot and Ksb
-foot are the mixed terms:
-Kbb
-foot = Nb
+Kbb foot
+Kbs foot
+Ksb foot
+Kss foot
+Eq. [199]
+In this equation Kbb foot represents the contribution of the beam nodes, Kss foot represents the contribution from the soil nodes and Kbs foot and Ksb foot are the mixed terms:
+Kbb foot = Nb
 T D footNb
-Kbs
-foot = −Nb
+Kbs foot = −Nb
 T D footNs
-Ksb
-foot = −Ns
+Ksb foot = −Ns
 T D footNb
-Kss
-foot = Ns
+Kss foot = Ns
 T D footNs
- Eq. [200]
-In case of plastic deformations of the embedded interface element only the elastic part of the interface stiffness
-will be used in the stiffness matrix whereas the plasticity is solved for iteratively.
+Eq. [200]
+In case of plastic deformations of the embedded interface element only the elastic part of the interface stiffness will be used in the stiffness matrix whereas the plasticity is solved for iteratively.
 Element formulations
 Embedded beams (PLAXIS 3D)
 PLAXIS
-53
 Scientific Manual
- 7
 Theory of sensitivity analysis & parameter variation
-This chapter presents some of the theoretical backgrounds of the sensitivity analysis and parameter variation
-module. The chapter does not give a full theoretical description of the methods of interval analysis. For a more
-detailed description you are referred to the literature e.g. Moore (1966) (on page 58), Moore (1979) (on page
+This chapter presents some of the theoretical backgrounds of the sensitivity analysis and parameter variation module. The chapter does not give a full theoretical description of the methods of interval analysis. For a more detailed description you are referred to the literature e.g. Moore (1966) (on page 58), Moore (1979) (on page
 58), Alefeld & Herzberger (1983) (on page 58), Goos & Hartmanis (1985) (on page 58), Neumaier (1990)
 (on page 58) and Jaulin et al. (2001) (on page 58).
 7.1 Sensitivity analysis
 A method for quantifying sensitivity as discussed in this Section and the Section Sensitivity analysis and
-Parameter variation of the Reference Manual is the sensitivity score, ηSS,i. The sensitivity score is a more robust
-method of evaluating important sources of uncertainty compared to other methods (e.g. sensitivity ratio, EPA
-(1999) (on page 58)). The sensitivity score can handle nil value of the variables (e.g. water levels, geometries)
-and it's not sensible to the percentage change of the variables to a reference value. The global score of a certain
-parameter xi concerning one single criterion is calculated as:
+Parameter variation of the Reference Manual is the sensitivity score, ηSS,i. The sensitivity score is a more robust method of evaluating important sources of uncertainty compared to other methods (e.g. sensitivity ratio, EPA
+(1999) (on page 58)). The sensitivity score can handle nil value of the variables (e.g. water levels, geometries) and it's not sensible to the percentage change of the variables to a reference value. The global score of a certain parameter xi concerning one single criterion is calculated as:
 ηSS,i = | f (xi,max ) −f (xi,min ) |
- Eq. [201]
-where f(xi,max) is the result obtained when xi=xi,max and f(xi,max) is the result for xi=xi,min.
+Eq. [201] where f(xi,max) is the result obtained when xi=xi,max and f(xi,max) is the result for xi=xi,min.
 If n parameters are varied, the sensitivity score of xi is given by:
 xi,score =
 100ηSS,i
-∑
-j=1
-n
-ηSS, j
- Eq. [202]
-Performing a sensitivity analysis as described above, the sensitivity score of each variable, ηSS,i, on respective
-results A, B, ... ,Z, (e.g. displacements, forces, factor of safety, etc.) at each construction step (calculation phase)
-can be quantified as shown in Table 7 (on page 55). The total sensitivity score of each variable, Σ ηSS,i, results
-from summation of all sensitivity scores for each respective result at each construction step.
+∑ j=1 n ηSS, j
+Eq. [202]
+Performing a sensitivity analysis as described above, the sensitivity score of each variable, ηSS,i, on respective results A, B, ... ,Z, (e.g. displacements, forces, factor of safety, etc.) at each construction step (calculation phase) can be quantified as shown in Table 7 (on page 55). The total sensitivity score of each variable, Σ ηSS,i, results from summation of all sensitivity scores for each respective result at each construction step.
 PLAXIS
-54
 Scientific Manual
 Table 7: Sensitivity matrix
 Input
@@ -3370,150 +2168,76 @@ A
 B
 …
 Z
-Σ
-α (%)
-x1
-ηSS,A1
-ηSS,B1
-…
-ηSS,Z1
-Σ ηSS,1
-α(x1)
-x2
-ηSS,A2
-ηSS,B2
-…
-ηSS,Z2
-Σ ηSS,2
-α(x2)
+Σ α (%) x1 ηSS,A1 ηSS,B1
+… ηSS,Z1
+Σ ηSS,1 α(x1) x2 ηSS,A2 ηSS,B2
+… ηSS,Z2
+Σ ηSS,2 α(x2)
 ⋮
 ⋮
 ⋮
 …
 ⋮
 ⋮
-⋮
-xN
-ηSS,A3
-ηSS,BN
-…
-ηSS,ZN
-Σ ηSS,N
-α(xN)
-It should be noted, that the results of the sensitivity analysis appeared to be strongly dependent on the
-respective results used and thus results relevant for the problem investigated have to be chosen based on sound
-engineering judgment. In the case of m multiple criteria, for each xi parameter, ηSS,i is calculated with respect to
-each j-criterion (ηSS,i)j, with j=1, 2, ... , m. Finally, the total relative sensitivity α(x1) for each input variable is given
-by:
+⋮ xN ηSS,A3 ηSS,BN
+… ηSS,ZN
+Σ ηSS,N α(xN)
+It should be noted, that the results of the sensitivity analysis appeared to be strongly dependent on the respective results used and thus results relevant for the problem investigated have to be chosen based on sound engineering judgment. In the case of m multiple criteria, for each xi parameter, ηSS,i is calculated with respect to each j-criterion (ηSS,i)j, with j=1, 2, ... , m. Finally, the total relative sensitivity α(x1) for each input variable is given by:
 α(xi) = 100
-∑
-j=1
-m
+∑ j=1 m
 (ηSS,i) j
-∑
-i=1
-n
+∑ i=1 n
 (ΣηSS,i)
 Eq. [203]
-Figure 11 (on page 55) shows the total relative sensitivity of each parameter α(x1) in diagram form in order to
-illustrate the 'major' variables.
+Figure 11 (on page 55) shows the total relative sensitivity of each parameter α(x1) in diagram form in order to illustrate the 'major' variables.
 Figure 11: Total relative sensitivity in diagram form
 Theory of sensitivity analysis & parameter variation
 Sensitivity analysis
 PLAXIS
-55
 Scientific Manual
 7.1.1 Definition of threshold value
-The benefit of such an analysis is twofold: firstly, the results are the basis for a decision-making in order to
-reduce the computational effort involved when utilizing a parameter variation, i.e. at this end a decision has to
-be made (definition of a threshold value), which variables (parameters) should be used in further calculations
-and which one can be treated as deterministic values as their influence on the result is not significant (Figure 11
-(on page 55)). Secondly, sensitivity analysis can be applied for example to design further investigation programs
-to receive additional information about parameters with high sensitivity in order to reduce the uncertainty of
-the system response, i.e. the result may act as a basis for the design of an investigation program (laboratory
-and/or in situ tests).
+The benefit of such an analysis is twofold: firstly, the results are the basis for a decision-making in order to reduce the computational effort involved when utilizing a parameter variation, i.e. at this end a decision has to be made (definition of a threshold value), which variables (parameters) should be used in further calculations and which one can be treated as deterministic values as their influence on the result is not significant (Figure 11
+(on page 55)). Secondly, sensitivity analysis can be applied for example to design further investigation programs to receive additional information about parameters with high sensitivity in order to reduce the uncertainty of the system response, i.e. the result may act as a basis for the design of an investigation program (laboratory and/or in situ tests).
 7.2 Theory of parameter variation
-The parameter variation used in the PLAXIS parameter variation module refer to classical set theory where
-uncertainty is represented in terms of closed intervals (bounds) assuming that the true value of the relevant
-unknown quantity is captured (X ∈xmin , xmax ). In general, an interval is defined as a pair of elements of
-some (at least partially) ordered sets (Kulpa (1997) (on page 58)). An interval is identified with the set of
-elements lying between the interval endpoints (including the endpoints) and using the set of real numbers as the
-underlying ordered set (real intervals). Hence, all intervals are closed sets. Thus, a (proper) real interval X is a
-subset of the set of real numbers R such that:
+The parameter variation used in the PLAXIS parameter variation module refer to classical set theory where uncertainty is represented in terms of closed intervals (bounds) assuming that the true value of the relevant unknown quantity is captured (X ∈xmin , xmax ). In general, an interval is defined as a pair of elements of some (at least partially) ordered sets (Kulpa (1997) (on page 58)). An interval is identified with the set of elements lying between the interval endpoints (including the endpoints) and using the set of real numbers as the underlying ordered set (real intervals). Hence, all intervals are closed sets. Thus, a (proper) real interval X is a subset of the set of real numbers R such that:
 X = xmin , xmax
 = {x ′ ∈R | xmin ≤x ′ ≤xmax }
- Eq. [204]
-where
-xmin
-=
-inf(X)
-xmax
-=
-sup(X)
-In general, x' denotes any element of the interval X. If the true values of the parameters of interest are bounded
-by intervals, this will always ensure a reliable estimate (worst/best-case analysis) based on the information
-available.
-For the parameter variation, the input parameters xi are treated as interval numbers (xi,min:xi,max) whose ranges
-contain the uncertainties in those parameters. The resulting computations, carried out entirely in interval form,
-would then literally carry the uncertainties associated with the data through the analysis. Likewise, the final
-outcome in interval form would contain all possible solutions due to the variations in input.
+Eq. [204] where xmin
+= inf(X) xmax
+= sup(X)
+In general, x' denotes any element of the interval X. If the true values of the parameters of interest are bounded by intervals, this will always ensure a reliable estimate (worst/best-case analysis) based on the information available.
+For the parameter variation, the input parameters xi are treated as interval numbers (xi,min:xi,max) whose ranges contain the uncertainties in those parameters. The resulting computations, carried out entirely in interval form, would then literally carry the uncertainties associated with the data through the analysis. Likewise, the final outcome in interval form would contain all possible solutions due to the variations in input.
 Figure 12: Range of parameter variation
 Theory of sensitivity analysis & parameter variation
 Theory of parameter variation
 PLAXIS
-56
 Scientific Manual
 7.2.1 Bounds on the system response
-Let X be a non-empty set containing all the possible values of a parameter x and y = f(x), f :X → Y be a real-valued
-function of x. The interval of the system response through f, can be calculated by means of a function used in set
-theory. In fact, if x belongs to set A, then the range of y is
-f (A) = { f (x) : x ∈A}
- Eq. [205]
-Here, the set A is called the focal element. The basic step is the calculation of the system response through
-function f which represents here a numerical model. In general, this involves two global optimisation problems
-which can be solved by applying twice the techniques of global optimisation (e.g. Ratschek & Rokne (1988) (on
-page 58), Tuy (1998) (on page 59)) to find the lower and upper bound, ymin and ymax, respectively, of the
-system response:
+Let X be a non-empty set containing all the possible values of a parameter x and y = f(x), f :X → Y be a real-valued function of x. The interval of the system response through f, can be calculated by means of a function used in set theory. In fact, if x belongs to set A, then the range of y is f (A) = { f (x) : x ∈A}
+Eq. [205]
+Here, the set A is called the focal element. The basic step is the calculation of the system response through function f which represents here a numerical model. In general, this involves two global optimisation problems which can be solved by applying twice the techniques of global optimisation (e.g. Ratschek & Rokne (1988) (on page 58), Tuy (1998) (on page 59)) to find the lower and upper bound, ymin and ymax, respectively, of the system response:
 f (A) = ymin , ymax
- Eq. [206]
-where:
-ymin = min
-x∈A
-f (x)
- Eq. [207]
-ymax = max
-x∈A
-f (x)
- Eq. [208]
-In the absence of any further information a so-called calculation matrix, can be constructed by assuming
-independence between parameters x. A is the Cartesian product of N finite intervals x1× ... × xN (calculation
-matrix), therefore it is a N-dimensional box (interval vector) whose 2N vertices are indicated as vk, k=1,...,2N, N
-being the number of parameters considered. The lower and upper bounds ymin and ymax of the system response
-can be obtained as follows:
-ymin = min
-k
+Eq. [206] where:
+ymin = min x∈A f (x)
+Eq. [207] ymax = max x∈A f (x)
+Eq. [208]
+In the absence of any further information a so-called calculation matrix, can be constructed by assuming independence between parameters x. A is the Cartesian product of N finite intervals x1× ... × xN (calculation matrix), therefore it is a N-dimensional box (interval vector) whose 2N vertices are indicated as vk, k=1,...,2N, N being the number of parameters considered. The lower and upper bounds ymin and ymax of the system response can be obtained as follows:
+ymin = min k
 { f (vk); k = 1, … , 2N}
- Eq. [209]
-ymax = max
-k
+Eq. [209] ymax = max k
 { f (vk); k = 1, … , 2N}
- Eq. [210]
-If f(A) has no extreme value in the interior of A, except at the vertices, Eq. [209] and Eq. [210] are correct in
-which case the methods of interval analysis are applicable, e.g. the Vertex method (Dong & Shah, 1987 (on page
-58)). If, on the other hand, f(A) has one or more extreme values in the interior of A, then Eq. [209] and Eq. [210]
-can be taken as approximations to the true global minimum and maximum value.
+Eq. [210]
+If f(A) has no extreme value in the interior of A, except at the vertices, Eq. [209] and Eq. [210] are correct in which case the methods of interval analysis are applicable, e.g. the Vertex method (Dong & Shah, 1987 (on page
+58)). If, on the other hand, f(A) has one or more extreme values in the interior of A, then Eq. [209] and Eq. [210] can be taken as approximations to the true global minimum and maximum value.
 Theory of sensitivity analysis & parameter variation
 Theory of parameter variation
 PLAXIS
-57
 Scientific Manual
- 8
 Reference
 1. (1999). TRIM, Total Risk Integrated Methodology. TRIM FATE Technical Support Document Volume I:
 Description of Module, EPA/43/D-99/002A. U.S. EPA: TRIM.
 2. Alefeld, G., Herzberger, J. (1983). Introduction to Interval Computations. Academic Press, New York.
-3. Basabe, J.D.D., Sen, M.K. (2007). Grid dispersion and stability criteria of some common finite-element
-methods for acoustic and elastic wave equations. Geophysics, 72(06), T81-T95.
+3. Basabe, J.D.D., Sen, M.K. (2007). Grid dispersion and stability criteria of some common finite-element methods for acoustic and elastic wave equations. Geophysics, 72(06), T81-T95.
 4. Bathe, K.J., Koshgoftaar, M.R. (1979). Finite element free surface seepage analysis without mesh iteration. Int.
 J. Num. An. Meth Geo, 3, 13-22.
 5. Biot, M.A. (1956). General solutions of the equations of elasticity and consolidation for porous material.
@@ -3524,8 +2248,7 @@ Journal of Applied Mechanics, 23(2).
 8. Dunavant, D.A. (1985). High degree efficient symmetrical gaussian quadrature rules for the triangle.
 International journal for numerical methods in engineering, 21, 1129-1148.
 9. Goos, G., Hartmanis, J. (eds.) (1985). Interval Mathematics 1985. Springer Verlag, Berlin.
-10. Haigh, S.K., Ghosh, B., Madabhushi, S.P.G. (2005). Importance of time step discretisation for nonlinear
-dynamic finite element analysis. Canadian Geotechnical Journal, 42, 957-963.
+10. Haigh, S.K., Ghosh, B., Madabhushi, S.P.G. (2005). Importance of time step discretisation for nonlinear dynamic finite element analysis. Canadian Geotechnical Journal, 42, 957-963.
 11. Hughes, T.J.R. (1987). The finite element method, linear static and dynamics analisis. Prencice Hall Int.
 12. Jaulin, L., Kieffer, M., Didrit, P., Walter, E. (2001). Applied Interval Analysis. Springer, London.
 13. Joyner, W.B., Chen, A.T.F. (1975). Calculation of non linear ground response in earthquake. Bulletin of
@@ -3543,12 +2266,10 @@ Reliable Computing, 3(3), 209-217.
 20. Moore, R.E. (1979). Methods and Applications of Interval Analysis. SIAM Studies in Applied Mathematics,
 Philadelphia.
 21. Neumaier, A. (1990). Interval Methods for Systems of Equations. Cambridge University Press, Cambridge.
-22. Pradhan, P., Baidya, D.K., Ghosh, D.P. (2004). Dynamic response of foundations resting on layered soil by cone
-model. Soil Dynamics and Earthquake Engineering, 24(06), 425-434.
+22. Pradhan, P., Baidya, D.K., Ghosh, D.P. (2004). Dynamic response of foundations resting on layered soil by cone model. Soil Dynamics and Earthquake Engineering, 24(06), 425-434.
 23. Ratschek, H., Rokne, J. (1988). New Computer Methods for Global Optimization. Ellis Horwood Limited,
 Chichester.
 PLAXIS
-58
 Scientific Manual
 24. Riks, E. (1979). An incremental approach to the solution of snapping and buckling problems. Int. J. Solids &
 Struct., 15, 529-551.
@@ -3573,29 +2294,22 @@ London, UK.
 Non-Linearity, volume 2. Mc Graw-Hill, U.K., 4 edition.
 Reference
 PLAXIS
-59
 Scientific Manual
 Appendices
 PLAXIS
-60
 Scientific Manual
- A
+A
 Symbols
 Symbol
-Name
-b
+Name b
 ¯
 Vector containing the body force
 B
 Strain interpolation matrix
 De
-Elastic material stiffness matrix representing Hooke's
-law
-f
-Yield function
-g
-Plastic potential function
-k
+Elastic material stiffness matrix representing Hooke's law f
+Yield function g
+Plastic potential function k
 Permeability matrix
 K
 Stiffness matrix
@@ -3604,48 +2318,34 @@ Differential operator
 M
 Material stiffness matrix
 N
-Matrix with shape functions
-p
-(Excess) pore pressure
-t
-Time
-t
+Matrix with shape functions p
+(Excess) pore pressure t
+Time t
 ¯
-Boundary tractions
-u
+Boundary tractions u
 ¯
-Vector with displacement components
-v
+Vector with displacement components v
 ¯
 Vector with nodal displacements
 V
-Volume
-w
-Weight factor
-γ
-Volumetric weight
-ε
+Volume w
+Weight factor γ
+Volumetric weight ε
 ¯
 Vector with strain components
 PLAXIS
-61
 Scientific Manual
 Symbol
-Name
-λ
-Plastic multiplier
-ξ, η, ζ
-Local coordinates
-σ
+Name λ
+Plastic multiplier ξ, η, ζ
+Local coordinates σ
 ¯
-Vector with stress components
-ω
+Vector with stress components ω
 Integration constant (explicit ω=0; implicit: ω=1.
 Symbols
 PLAXIS
-62
 Scientific Manual
- B
+B
 Calculation Process
 B.1 Finite element calculation process based on the elastic stiffness matrix
 Calculation Process
@@ -3653,46 +2353,35 @@ Formulation
 Read input data
 Form stiffness matrix
 K = ∫BT DeB d V
-New step
-i →i + 1
-Form new load vector
-f
-¯ ex
-i
+New step i →i + 1
+Form new load vector f
+¯ ex i
 = f
+¯ ex i−1 + Δ f
 ¯ ex
-i−1 + Δ f
-¯ ex
-Form reaction vector
-f
+Form reaction vector f
 ¯ in = ∫BT σ
-¯
-i−1 d V
+¯ i−1 d V
 Calculate unbalance
 Δ f
 ¯
 = f
-¯ ex
-i
+¯ ex i
 −f
 ¯ in
 Reset displacement increment
 Δv
 ¯
 = 0
-New iteration
-j →j + 1
-Solve displacements
-δv
+New iteration j →j + 1
+Solve displacements δv
 ¯
 = K−1Δ f
 ¯
 Update displacement increments
 Δv
-¯
-j = Δv
-¯
-j−1 + δv
+¯ j = Δv
+¯ j−1 + δv
 ¯
 Calculate strain increments
 Δε
@@ -3705,62 +2394,40 @@ Calculate strain increments
 ¯
 Calculate stresses:
 σ
-¯
-tr = σ
-¯ c
-i−1 + DeΔε
-¯
- σ
-¯
-eq = σ
-¯ c
-i, j−1 + Deδε
-¯
-σ
-¯ c
-i, j = σ
-¯
-tr −
-f (σ
-¯
-tr)
-d + h
+¯ tr = σ
+¯ c i−1 + DeΔε
+¯ σ
+¯ eq = σ
+¯ c i, j−1 + Deδε
+¯ σ
+¯ c i, j = σ
+¯ tr − f (σ
+¯ tr) d + h
 De ∂g
 ∂σ
 ¯
-Form reaction vector
-f
+Form reaction vector f
 ¯ in = ∫BT σ
-¯
-i, j d V
+¯ i, j d V
 Calculate unbalance
 Δ f
 ¯
 = f
-¯ ex
-i
+¯ ex i
 −f
 ¯ in
 PLAXIS
-63
 Scientific Manual
 Calculation Process
 Formulation
-Calculate error
-e =
+Calculate error e =
 Δ f
-¯
-f
-¯ ex
-i
-Accuracy check
-if e > etolerated→ new iteration
-Update displacements
-v
-¯
-i = Δv
-¯
-i−1 + Δv
+¯ f
+¯ ex i
+Accuracy check if e > etolerated→ new iteration
+Update displacements v
+¯ i = Δv
+¯ i−1 + Δv
 ¯
 Write output data (results)
 -
@@ -3770,5 +2437,4 @@ Finish
 -
 Calculation Process
 PLAXIS
-64
 Scientific Manual

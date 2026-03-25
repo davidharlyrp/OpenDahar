@@ -1,0 +1,333 @@
+Geologic provinces of the world (USGS)
+Shield
+Platform
+Orogen
+Basin
+Large igneous province
+Extended crust
+Oceanic crust:
+0–20 Ma
+20–65 Ma
+>65 Ma
+Igneous rock
+Igneous rock (igneous from
+Latin igneus
+'fiery'), or magmatic rock, is one of the three main rock types, the others being sedimentary and metamorphic. Igneous rocks are formed through the cooling and solidification of magma or lava.
+The magma can be derived from partial melts of existing rocks in a terrestrial planet's mantle or crust. Typically, the melting is caused by one or more of three processes: an increase in temperature, a decrease in pressure, or a change in composition.
+Solidification into rock occurs either below the surface as intrusive rocks or on the surface as extrusive rocks.
+Igneous rock may form with crystallization to form granular, crystalline rocks, or without crystallization to form natural glasses.
+Igneous rocks occur in a wide range of geological settings: shields, platforms, orogens, basins, large igneous provinces, extended crust and oceanic crust.
+Igneous and metamorphic rocks make up 90–95% of the top 16 kilometres (9.9 mi) of the Earth's crust by volume.[1] Igneous rocks form about 15% of the Earth's current land surface.[note 1] Most of the Earth's oceanic crust is made of igneous rock.
+Igneous rocks are also geologically important because:
+their minerals and global chemistry give information about the composition of the lower crust or upper mantle from which their parent magma was extracted, and the temperature and pressure conditions that allowed this extraction;[3]
+Geological significance
+Volcanic eruptions of lava are major sources of igneous rocks. (Mayon volcano in the Philippines, erupting in
+2009)
+Natural columns of igneous rock separated from each other by columnar joints, in Madeira
+Formation of igneous rock their absolute ages can be obtained from various forms of radiometric dating and can be compared to adjacent geological strata, thus permitting calibration of the geological time scale;[4] their features are usually characteristic of a specific tectonic environment, allowing tectonic reconstructions (see plate tectonics); in some special circumstances they host important mineral deposits (ores):
+for example, tungsten, tin,[5] and uranium[6] are commonly associated with granites and diorites, whereas ores of chromium and platinum are commonly associated with gabbros.[7]
+Igneous rocks can be either intrusive (plutonic and hypabyssal) or extrusive (volcanic).
+Intrusive igneous rocks make up the majority of igneous rocks and are formed from magma that cools and solidifies within the crust of a planet.
+Bodies of intrusive rock are known as intrusions and are surrounded by pre-existing rock (called country rock). The country rock is an excellent thermal insulator, so the magma cools slowly, and intrusive rocks are coarse- grained (phaneritic). The mineral grains in such rocks can generally be identified with the naked eye. Intrusions can be classified according to the shape and size of the intrusive body and its relation to the bedding of the country rock into which it intrudes. Typical intrusive bodies are batholiths, stocks, laccoliths, sills and dikes. Common intrusive rocks are granite, gabbro, or diorite.
+The central cores of major mountain ranges consist of intrusive igneous rocks. When exposed by erosion, these cores (called batholiths) may occupy huge areas of the Earth's surface.
+Intrusive igneous rocks that form at depth within the crust are termed plutonic (or abyssal) rocks and are usually coarse-grained. Intrusive igneous rocks that form near the surface are termed subvolcanic or hypabyssal rocks and they are usually much finer-grained, often resembling volcanic rock.[8] Hypabyssal
+Geological setting
+Intrusive
+Basic types of intrusions:
+1. Laccolith
+2. Small dike
+3. Batholith
+4. Dike
+5. Sill
+6. Volcanic neck, pipe
+7. Lopolith
+Extrusive igneous rock is made from lava released by volcanoes rocks are less common than plutonic or volcanic rocks and often form dikes, sills, laccoliths, lopoliths, or phacoliths.
+Extrusive igneous rock, also known as volcanic rock, is formed by the cooling of molten magma on the earth's surface. The magma, which is brought to the surface through fissures or volcanic eruptions, rapidly solidifies. Hence such rocks are fine-grained (aphanitic) or even glassy.
+Basalt is the most common extrusive igneous rock[9] and forms lava flows, lava sheets and lava plateaus. Some kinds of basalt solidify to form long polygonal columns. The Giant's Causeway in Antrim, Northern Ireland is an example.
+The molten rock, which typically contains suspended crystals and dissolved gases, is called magma.[10] It rises because it is less dense than the rock from which it was extracted.[11] When magma reaches the surface, it is called lava.[12]
+Eruptions of volcanoes into air are termed subaerial, whereas those occurring underneath the ocean are termed submarine. Black smokers and mid-ocean ridge basalt are examples of submarine volcanic activity.[13]
+The volume of extrusive rock erupted annually by volcanoes varies with tectonic setting. Extrusive rock is produced in the following proportions:[14] divergent boundary: 73% convergent boundary (subduction zone): 15% hotspot: 12%.
+The behaviour of lava depends upon its viscosity, which is determined by temperature, composition, and crystal content.
+High-temperature magma, most of which is basaltic in composition, behaves in a manner similar to thick oil and, as it cools, treacle. Long, thin basalt flows with pahoehoe surfaces are common. Intermediate composition magma, such as andesite, tends to form cinder cones of intermingled ash, tuff and lava, and may have a viscosity similar to thick, cold molasses or even rubber when erupted. Felsic magma, such as rhyolite, is usually erupted at low temperature and is up to 10,000 times as viscous as basalt. Volcanoes with rhyolitic magma commonly erupt explosively, and rhyolitic lava flows are typically of limited extent and have steep margins because the magma is so viscous.[15]
+Extrusive
+Sample of basalt (an extrusive igneous rock), found in Massachusetts
+Close-up of granite (an intrusive igneous rock)
+Felsic and intermediate magmas that erupt often do so violently, with explosions driven by the release of dissolved gases—typically water vapour, but also carbon dioxide.
+Explosively erupted pyroclastic material is called tephra and includes tuff, agglomerate and ignimbrite. Fine volcanic ash is also erupted and forms ash tuff deposits, which can often cover vast areas.[16]
+Because volcanic rocks are mostly fine-grained or glassy, it is much more difficult to distinguish between the different types of extrusive igneous rocks than between different types of intrusive igneous rocks. Generally, the mineral constituents of fine-grained extrusive igneous rocks can only be determined by examination of thin sections of the rock under a microscope, so only an approximate classification can usually be made in the field. Although classification by mineral makeup is preferred by the IUGS, this is often impractical, and chemical classification is done instead using the TAS classification.[17]
+Igneous rocks are classified according to mode of occurrence, texture, mineralogy, chemical composition, and the geometry of the igneous body.
+The classification of the many types of igneous rocks can provide important information about the conditions under which they formed. Two important variables used for the classification of igneous rocks are particle size, which largely depends on the cooling history, and the mineral composition of the rock. Feldspars, quartz or feldspathoids, olivines, pyroxenes, amphiboles, and micas are all important minerals in the formation of almost all igneous rocks, and they are basic to the classification of these rocks. All other minerals present are regarded as nonessential in almost all igneous rocks and are called accessory minerals. Types of igneous rocks with other essential minerals are very rare, but include carbonatites, which contain essential carbonates.[17]
+In a simplified compositional classification, igneous rock types are categorized into felsic or mafic based on the abundance of silicate minerals in the Bowen's Series. Rocks dominated by quartz, plagioclase, alkali feldspar and muscovite are felsic. Mafic rocks are primarily composed of biotite, hornblende, pyroxene and olivine. Generally, felsic rocks are light colored and mafic rocks are darker colored.[18]
+For textural classification, igneous rocks that have crystals large enough to be seen by the naked eye are called phaneritic; those with crystals too small to be seen are called aphanitic. Generally speaking, phaneritic implies an intrusive origin or plutonic, indicating slow cooling; aphanitic are extrusive or volcanic, indicating rapid cooling.[18]
+Classification
+Gabbro specimen showing phaneritic texture, from Rock Creek Canyon, eastern Sierra Nevada, California
+An igneous rock with larger, clearly discernible crystals embedded in a finer-grained matrix is termed porphyry. Porphyritic texture develops when the larger crystals, called phenocrysts, grow to considerable size before the main mass of the magma crystallizes as finer-grained, uniform material called groundmass. Grain size in igneous rocks results from cooling time so porphyritic rocks are created when the magma has two distinct phases of cooling.[18]
+Igneous rocks are classified on the basis of texture and composition. Texture refers to the size, shape, and arrangement of the mineral grains or crystals of which the rock is composed.
+Texture is an important criterion for the naming of volcanic rocks. The texture of volcanic rocks, including the size, shape, orientation, and distribution of mineral grains and the intergrain relationships, will determine whether the rock is termed a tuff, a pyroclastic lava or a simple lava. However, the texture is only a subordinate part of classifying volcanic rocks, as most often there needs to be chemical information gleaned from rocks with extremely fine-grained groundmass or from airfall tuffs, which may be formed from volcanic ash.
+Textural criteria are less critical in classifying intrusive rocks where the majority of minerals will be visible to the naked eye or at least using a hand lens, magnifying glass or microscope. Plutonic rocks also tend to be less texturally varied and less prone to showing distinctive structural fabrics. Textural terms can be used to differentiate different intrusive phases of large plutons, for instance porphyritic margins to large intrusive bodies, porphyry stocks and subvolcanic dikes. Mineralogical classification is most often used to classify plutonic rocks. Chemical classifications are preferred to classify volcanic rocks, with phenocryst species used as a prefix, e.g. "olivine-bearing picrite" or "orthoclase-phyric rhyolite".
+The IUGS recommends classifying igneous rocks by their mineral composition whenever possible. This is straightforward for coarse-grained intrusive igneous rock, but may require examination of thin sections under a microscope for fine-grained volcanic rock, and may be impossible for glassy volcanic rock. The rock must then be classified chemically.[19]
+Mineralogical classification of an intrusive rock begins by determining if the rock is ultramafic, a carbonatite, or a lamprophyre. An ultramafic rock contains more than 90% of iron- and magnesium-rich minerals such as hornblende, pyroxene, or olivine, and such rocks have their own classification scheme.
+Likewise, rocks containing more than 50% carbonate minerals are classified as carbonatites, while lamprophyres are rare ultrapotassic rocks. Both are further classified based on detailed mineralogy.[20]
+In the great majority of cases, the rock has a more typical mineral composition, with significant quartz, feldspars, or feldspathoids. Classification is based on the percentages of quartz, alkali feldspar, plagioclase, and feldspathoid out of the total fraction of the rock composed of these minerals, ignoring all
+Texture
+Mineralogical classification
+Basic classification scheme for igneous rocks based on their mineral composition. If the approximate volume fractions of minerals in the rock are known, the rock name and silica content can be read off the diagram.
+This is not an exact method, because the classification of igneous rocks also depends on other components, yet in most cases it is a good first guess.
+QAPF diagram other minerals present. These percentages place the rock somewhere on the QAPF diagram, which often immediately determines the rock type. In a few cases, such as the diorite-gabbro- anorthite field, additional mineralogical criteria must be applied to determine the final classification.[20]
+Where the mineralogy of a volcanic rock can be determined, it is classified using the same procedure, but with a modified QAPF diagram whose fields correspond to volcanic rock types.[20]
+When it is impractical to classify a volcanic rock by mineralogy, the rock must be classified chemically.
+There are relatively few minerals that are important in the formation of common igneous rocks, because the magma from which the minerals crystallize is rich in only certain elements: silicon, oxygen, aluminium, sodium, potassium, calcium, iron, and magnesium.
+These are the elements that combine to form the silicate minerals, which account for over ninety percent of all igneous rocks. The chemistry of igneous rocks is expressed differently for major and minor elements and for trace elements. Contents of major and minor elements are conventionally expressed as weight percent oxides (e.g., 51% SiO2, and 1.50%
+TiO2).
+Abundances of trace elements are conventionally expressed as parts per million by weight (e.g., 420 ppm Ni, and 5.1 ppm Sm). The term
+"trace element" is typically used for elements present in most rocks at abundances less than 100 ppm or so, but some trace elements may be present in some rocks at abundances exceeding 1,000 ppm. The diversity of rock compositions has been defined by a huge mass of analytical data—over 230,000 rock analyses can be accessed on the web through a site sponsored by the U. S. National Science Foundation (see the External Link to EarthChem).
+The single most important component is silica, SiO2, whether occurring as quartz or combined with other oxides as feldspars or other minerals. Both intrusive and volcanic rocks are grouped chemically by total silica content into broad categories.
+Chemical classification and petrology
+Total alkali versus silica classification scheme (TAS) as proposed in Le
+Maitre's 2002 Igneous Rocks – A classification and glossary of terms[21]
+Blue area is roughly where alkaline rocks plot; yellow area is where subalkaline rocks plot.
+Felsic rocks have the highest content of silica, and are predominantly composed of the felsic minerals quartz and feldspar. These rocks
+(granite, rhyolite) are usually light coloured, and have a relatively low density.
+Intermediate rocks have a moderate content of silica, and are predominantly composed of feldspars.
+These rocks (diorite, andesite) are typically darker in colour than felsic rocks and somewhat more dense.
+Mafic rocks have a relatively low silica content and are composed mostly of pyroxenes, olivines and calcic plagioclase. These rocks (basalt, gabbro) are usually dark coloured, and have a higher density than felsic rocks.
+Ultramafic rock is very low in silica, with more than 90% of mafic minerals (komatiite, dunite).
+This classification is summarized in the following table:
+Composition
+Mode of occurrence Felsic
+(>63% SiO2)
+Intermediate
+(52% to 63% SiO2)
+Mafic
+(45% to 52% SiO2)
+Ultramafic
+(<45% SiO2)
+Intrusive
+Granite
+Diorite
+Gabbro
+Peridotite
+Extrusive
+Rhyolite
+Andesite
+Basalt
+Komatiite
+The percentage of alkali metal oxides (Na2O plus K2O) is second only to silica in its importance for chemically classifying volcanic rock. The silica and alkali metal oxide percentages are used to place volcanic rock on the TAS diagram, which is sufficient to immediately classify most volcanic rocks. Rocks in some fields, such as the trachyandesite field, are further classified by the ratio of potassium to sodium
+(so that potassic trachyandesites are latites and sodic trachyandesites are benmoreites). Some of the more mafic fields are further subdivided or defined by normative mineralogy, in which an idealized mineral composition is calculated for the rock based on its chemical composition. For example, basanite is distinguished from tephrite by having a high normative olivine content.
+Other refinements to the basic TAS classification include:
+Ultrapotassic – rocks containing molar K2O/Na2O >3.
+Peralkaline – rocks containing molar (K2O + Na2O)/Al2O3 >1.[22]
+Peraluminous – rocks containing molar (K2O + Na2O + CaO)/Al2O3 <1.[22]
+AFM ternary diagram showing the relative proportions of Na2O + K2O (A for
+Alkali earth metals), FeO + Fe2O3 (F), and MgO (M) with arrows showing the path of chemical variation in tholeiitic and calc-alkaline series magmas
+In older terminology, silica oversaturated rocks were called silicic or acidic where the SiO2 was greater than 66% and the family term quartzolite was applied to the most silicic. A normative feldspathoid classifies a rock as silica-undersaturated; an example is nephelinite.
+Magmas are further divided into three series:
+The tholeiitic series – basaltic andesites and andesites.
+The calc-alkaline series – andesites.
+The alkaline series – subgroups of alkaline basalts and the rare, very high potassium-bearing (i.e.
+shoshonitic) lavas.
+The alkaline series is distinguishable from the other two on the TAS diagram, being higher in total alkali oxides for a given silica content, but the tholeiitic and calc-alkaline series occupy approximately the same part of the TAS diagram.
+They are distinguished by comparing total alkali with iron and magnesium content.[23]
+These three magma series occur in a range of plate tectonic settings. Tholeiitic magma series rocks are found, for example, at mid-ocean ridges, back-arc basins, oceanic islands formed by hotspots, island arcs and continental large igneous provinces.[24]
+All three series are found in relatively close proximity to each other at subduction zones where their distribution is related to depth and the age of the subduction zone. The tholeiitic magma series is well represented above young subduction zones formed by magma from relatively shallow depth. The calc- alkaline and alkaline series are seen in mature subduction zones, and are related to magma of greater depths. Andesite and basaltic andesite are the most abundant volcanic rock in island arc which is indicative of the calc-alkaline magmas. Some island arcs have distributed volcanic series as can be seen in the Japanese island arc system where the volcanic rocks change from tholeiite—calc-alkaline— alkaline with increasing distance from the trench.[25][26]
+Some igneous rock names date to before the modern era of geology. For example, basalt as a description of a particular composition of lava-derived rock dates to Georgius Agricola in 1546 in his work De
+Natura Fossilium.[27] The word granite goes back at least to the 1640s and is derived either from French granit or Italian granito, meaning simply "granulate rock".[28] The term rhyolite was introduced in 1860 by the German traveler and geologist Ferdinand von Richthofen[29][30][31] The naming of new rock types accelerated in the 19th century and peaked in the early 20th century.[32]
+Much of the early classification of igneous rocks was based on the geological age and occurrence of the rocks. However, in 1902, the American petrologists Charles Whitman Cross, Joseph P. Iddings, Louis V.
+Pirsson, and Henry Stephens Washington proposed that all existing classifications of igneous rocks should be discarded and replaced by a "quantitative" classification based on chemical analysis. They
+History of classification showed how vague, and often unscientific, much of the existing terminology was and argued that as the chemical composition of an igneous rock was its most fundamental characteristic, it should be elevated to prime position.[33][34]
+Geological occurrence, structure, mineralogical constitution—the hitherto accepted criteria for the discrimination of rock species—were relegated to the background. The completed rock analysis is first to be interpreted in terms of the rock-forming minerals which might be expected to be formed when the magma crystallizes, e.g., quartz feldspars, olivine, akermannite, Feldspathoids, magnetite, corundum, and so on, and the rocks are divided into groups strictly according to the relative proportion of these minerals to one another.[33] This new classification scheme created a sensation, but was criticized for its lack of utility in fieldwork, and the classification scheme was abandoned by the 1960s. However, the concept of normative mineralogy has endured, and the work of Cross and his coinvestigators inspired a flurry of new classification schemes.[35]
+Among these was the classification scheme of M.A. Peacock, which divided igneous rocks into four series: the alkalic, the alkali-calcic, the calc-alkali, and the calcic series.[36] His definition of the alkali series, and the term calc-alkali, continue in use as part of the widely used[37] Irvine-Barager classification,[38] along with W.Q. Kennedy's tholeiitic series.[39]
+By 1958, there were some 12 separate classification schemes and at least 1637 rock type names in use. In that year, Albert Streckeisen wrote a review article on igneous rock classification that ultimately led to the formation of the IUGG Subcommission of the Systematics of Igneous Rocks. By 1989 a single system of classification had been agreed upon, which was further revised in 2005. The number of recommended rock names was reduced to 316. These included a number of new names promulgated by the
+Subcommission.[32]
+The Earth's crust averages about 35 kilometres (22 mi) thick under the continents, but averages only some
+7–10 kilometres (4.3–6.2  mi) beneath the oceans. The continental crust is composed primarily of sedimentary rocks resting on a crystalline basement formed of a great variety of metamorphic and igneous rocks, including granulite and granite. Oceanic crust is composed primarily of basalt and gabbro.
+Both continental and oceanic crust rest on peridotite of the mantle.
+Rocks may melt in response to a decrease in pressure, to a change in composition (such as an addition of water), to an increase in temperature, or to a combination of these processes.
+Other mechanisms, such as melting from a meteorite impact, are less important today, but impacts during the accretion of the Earth led to extensive melting, and the outer several hundred kilometres of our early
+Earth was probably an ocean of magma. Impacts of large meteorites in the last few hundred million years have been proposed as one mechanism responsible for the extensive basalt magmatism of several large igneous provinces.
+Decompression melting occurs because of a decrease in pressure.[40]
+Origin of magmas
+Decompression
+The solidus temperatures of most rocks (the temperatures below which they are completely solid) increase with increasing pressure in the absence of water. Peridotite at depth in the Earth's mantle may be hotter than its solidus temperature at some shallower level. If such rock rises during the convection of solid mantle, it will cool slightly as it expands in an adiabatic process, but the cooling is only about
+0.3 °C per kilometre. Experimental studies of appropriate peridotite samples document that the solidus temperatures increase by 3 °C to 4 °C per kilometre. If the rock rises far enough, it will begin to melt.
+Melt droplets can coalesce into larger volumes and be intruded upwards. This process of melting from the upward movement of solid mantle is critical in the evolution of the Earth.
+Decompression melting creates the ocean crust at mid-ocean ridges. It also causes volcanism in intraplate regions, such as Europe, Africa and the Pacific sea floor. There, it is variously attributed either to the rise of mantle plumes (the "Plume hypothesis") or to intraplate extension (the "Plate hypothesis").[41]
+The change of rock composition most responsible for the creation of magma is the addition of water.
+Water lowers the solidus temperature of rocks at a given pressure. For example, at a depth of about 100 kilometres, peridotite begins to melt near 800 °C in the presence of excess water, but near or above about
+1,500 °C in the absence of water.[42] Water is driven out of the oceanic lithosphere in subduction zones, and it causes melting in the overlying mantle. Hydrous magmas composed of basalt and andesite are produced directly and indirectly as results of dehydration during the subduction process. Such magmas, and those derived from them, build up island arcs such as those in the Pacific Ring of Fire. These magmas form rocks of the calc-alkaline series, an important part of the continental crust.
+The addition of carbon dioxide is relatively a much less important cause of magma formation than the addition of water, but genesis of some silica-undersaturated magmas has been attributed to the dominance of carbon dioxide over water in their mantle source regions. In the presence of carbon dioxide, experiments document that the peridotite solidus temperature decreases by about 200  °C in a narrow pressure interval at pressures corresponding to a depth of about 70 km. At greater depths, carbon dioxide can have more effect: at depths to about 200  km, the temperatures of initial melting of a carbonated peridotite composition were determined to be 450 °C to 600 °C lower than for the same composition with no carbon dioxide.[43] Magmas of rock types such as nephelinite, carbonatite, and kimberlite are among those that may be generated following an influx of carbon dioxide into mantle at depths greater than about 70 km.
+Increase in temperature is the most typical mechanism for formation of magma within continental crust.
+Such temperature increases can occur because of the upward intrusion of magma from the mantle.
+Temperatures can also exceed the solidus of a crustal rock in continental crust thickened by compression at a plate boundary. The plate boundary between the Indian and Asian continental masses provides a well- studied example, as the Tibetan Plateau just north of the boundary has crust about 80 kilometres thick, roughly twice the thickness of normal continental crust. Studies of electrical resistivity deduced from magnetotelluric data have detected a layer that appears to contain silicate melt and that stretches for at least 1,000 kilometres within the middle crust along the southern margin of the Tibetan Plateau.[44]
+Effects of water and carbon dioxide
+Temperature increase
+Schematic diagrams showing the principles behind fractional crystallisation in a magma. While cooling, the magma evolves in composition because different minerals crystallize from the melt. 1: olivine crystallizes; 2: olivine and pyroxene crystallize; 3: pyroxene and plagioclase crystallize; 4:
+plagioclase crystallizes. At the bottom of the magma reservoir, a cumulate rock forms.
+Granite and rhyolite are types of igneous rock commonly interpreted as products of the melting of continental crust because of increases in temperature. Temperature increases also may contribute to the melting of lithosphere dragged down in a subduction zone.
+Most magmas are fully melted only for small parts of their histories. More typically, they are mixes of melt and crystals, and sometimes also of gas bubbles. Melt, crystals, and bubbles usually have different densities, and so they can separate as magmas evolve.
+As magma cools, minerals typically crystallize from the melt at different temperatures
+(fractional crystallization). As minerals crystallize, the composition of the residual melt typically changes. If crystals separate from the melt, then the residual melt will differ in composition from the parent magma. For instance, a magma of gabbroic composition can produce a residual melt of granitic composition if early formed crystals are separated from the magma. Gabbro may have a liquidus temperature near 1,200 °C, and the derivative granite-composition melt may have a liquidus temperature as low as about 700 °C. Incompatible elements are concentrated in the last residues of magma during fractional crystallization and in the first melts produced during partial melting: either process can form the magma that crystallizes to pegmatite, a rock type commonly enriched in incompatible elements.
+Bowen's reaction series is important for understanding the idealised sequence of fractional crystallisation of a magma. Clinopyroxene thermobarometry is used to determine temperature and pressure conditions at which magma differentiation occurred for specific igneous rocks.
+Magma composition can be determined by processes other than partial melting and fractional crystallization. For instance, magmas commonly interact with rocks they intrude, both by melting those rocks and by reacting with them. Magmas of different compositions can mix with one another. In rare cases, melts can separate into two immiscible melts of contrasting compositions.
+The word igneous means composed of fire and is derived from the Latin root words of igni-,[45] meaning fire, and -eous[46] meaning composed of.
+The term volcanic rock is derived from the Latin root words of Vulcan,[47] the Roman god of fire, and -ic,[48] meaning having some characteristics of.
+Magma evolution
+Etymology
+The term plutonic rock is derived from the Latin root words of Pluto,[49] the Roman god of the underworld, and -ic,[50] meaning having some characteristics of.
+Kanaga volcano in the
+Aleutian Islands with a
+1906 lava flow in the foreground
+
+A "skylight" hole, about
+6 m (20 ft) across, in a solidified lava crust reveals molten lava below
+(flowing towards the top right) in an eruption of
+Kīlauea in Hawaii
+
+Devils Tower, an eroded laccolith in the
+Black Hills of Wyoming
+A cascade of molten lava flowing into Aloi Crater during the 1969–1971
+Mauna Ulu eruption of
+Kilauea volcano
+
+Columnar jointing in the
+Alcantara Gorge, Sicily
+
+A laccolith of granite
+(light-coloured) that was intruded into older sedimentary rocks
+(dark-coloured) at
+Cuernos del Paine,
+Torres del Paine
+National Park, Chile
+
+An igneous intrusion cut by a pegmatite dike, which in turn is cut by a dolerite dike
+Geology portal
+List of rock types
+Metamorphic rock – Rock that was subjected to heat and pressure
+Migmatite – Mixture of metamorphic rock and igneous rock
+Petrology – Study of rocks in geology
+Sedimentary rock – Rock formed by the deposition and cementation of particles
+Gallery
+See also
+1. 15% is the arithmetic sum of the area for intrusive plutonic rock (7%) plus the area for extrusive volcanic rock (8%).[2]
+1. Prothero, Donald R.; Schwab, Fred (2004). Sedimentary geology : an introduction to sedimentary rocks and stratigraphy (https://archive.org/details/sedimentarygeolo0000prot_r
+6t3/page/12/mode/2up) (2nd ed.). New York: Freeman. p. 12. ISBN 978-0-7167-3905-0.
+2. Wilkinson, Bruce H.; McElroy, Brandon J.; Kesler, Stephen E.; Peters, Shanan E.; Rothman,
+Edward D. (2008). "Global geologic maps are tectonic speedometers—Rates of rock cycling from area-age frequencies" (http://gsabulletin.gsapubs.org/content/121/5-6/760.abstract).
+Geological Society of America Bulletin. 121 (5–6): 760–779.
+Bibcode:2009GSAB..121..760W (https://ui.adsabs.harvard.edu/abs/2009GSAB..121..760
+W). doi:10.1130/B26457.1 (https://doi.org/10.1130%2FB26457.1).
+3. Philpotts, Anthony R.; Ague, Jay J. (2009). Principles of igneous and metamorphic petrology
+(2nd ed.). Cambridge, UK: Cambridge University Press. pp. 356–361. ISBN 978-0-521-
+88006-0.
+4. Philpotts & Ague 2009, p. 295.
+5. Heinrich, Christoph A. (1 May 1990). "The chemistry of hydrothermal tin(-tungsten) ore deposition". Economic Geology. 85 (3): 457–481. Bibcode:1990EcGeo..85..457H (https://ui.
+adsabs.harvard.edu/abs/1990EcGeo..85..457H). doi:10.2113/gsecongeo.85.3.457 (https://d oi.org/10.2113%2Fgsecongeo.85.3.457).
+6. Plant, J.A.; Saunders, A.D. (1999). "Uranium ore deposits" (https://books.google.com/book s?id=CbB6DwAAQBAJ&q=uranium+ore+bodies&pg=PA255). Uranium: Mineralogy, geochemistry and the Environment. Vol. 38. Walter de Gruyter GmbH & Co KG. pp. 272–
+319. ISBN 978-1-5015-0919-3. Retrieved 13 February 2021.
+7. Philpotts & Ague 2009, p. 96, 387–388.
+8. Philpotts & Ague 2009, p. 139.
+9. Philpotts & Ague 2009, pp. 52–59.
+10. Philpotts & Ague 2009, pp. 19–26.
+11. Philpotts & Ague 2009, pp. 28–35.
+12. Schmincke, Hans-Ulrich (2003). Volcanism. Berlin: Springer. p. 295. doi:10.1007/978-3-642-
+18952-4 (https://doi.org/10.1007%2F978-3-642-18952-4). ISBN 978-3-540-43650-8.
+S2CID 220886233 (https://api.semanticscholar.org/CorpusID:220886233).
+13. Philpotts & Ague 2009, pp. 365–374.
+14. Fisher, Richard V.; Schmincke, H.-U. (1984). Pyroclastic rocks. Berlin: Springer-Verlag. p. 5.
+ISBN 3-540-12756-9.
+15. Philpotts & Ague 2009, pp. 23–26, 59–73.
+16. Philpotts & Ague 2009, pp. 73–77.
+17. Philpotts & Ague 2009, pp. 139–143.
+18. Winter, John D. (2001). An introduction to igneous and metamorphic petrology. Upper
+Saddle River, NJ: Prentice Hall. p. 17. ISBN 978-0-13-240342-9.
+Notes
+References
+19. Le Bas, M. J.; Streckeisen, A. L. (1991). "The IUGS systematics of igneous rocks". Journal of the Geological Society. 148 (5): 825–833. Bibcode:1991JGSoc.148..825L (https://ui.adsa bs.harvard.edu/abs/1991JGSoc.148..825L). CiteSeerX 10.1.1.692.4446 (https://citeseerx.is t.psu.edu/viewdoc/summary?doi=10.1.1.692.4446). doi:10.1144/gsjgs.148.5.0825 (https://do i.org/10.1144%2Fgsjgs.148.5.0825). S2CID 28548230 (https://api.semanticscholar.org/Corp usID:28548230).
+20. Le Bas & Streckeisen 1991.
+21. Shanks III, W.C. Pat; Koski, Randolph A.; Mosier, Dan L.; Schulz, Klaus J.; Morgan, Lisa A.;
+Slack, John F.; Ridley, W. Ian; Dusel-Bacon, Cynthia; Seal II, Robert R.; Piatak, Nadine M.
+(2012). Shanks, W.C. Pat; Thurston, Roland (eds.). "Volcanogenic massive sulfide occurrence model: Chapter C in Mineral deposit models for resource assessment" (https://d oi.org/10.3133%2Fsir20105070C). U.S. Geological Survey Scientific Investigations Report.
+Scientific Investigations Report. 2010-5070-C: 237. doi:10.3133/sir20105070C (https://doi.or g/10.3133%2Fsir20105070C).
+22. Blatt, Harvey; Tracy, Robert J. (1996). Petrology : igneous, sedimentary, and metamorphic
+(2nd ed.). New York: W.H. Freeman. p. 185. ISBN 0-7167-2438-3.
+23. Philpotts & Ague 2009, pp. 143–146.
+24. "Mafic magma types" (https://web.archive.org/web/20200801230945/http://courses.washingt on.edu/ess439/ESS%20439%20Lecture%2014%20slides.pdf) (PDF). University of
+Washington. Archived from the original (http://courses.washington.edu/ess439/ESS%2043
+9%20Lecture%2014%20slides.pdf) (PDF) on 1 August 2020. Retrieved 2 December 2020.
+25. Gill, J.B. (1982). "Andesites: Orogenic andesites and related rocks". Geochimica et
+Cosmochimica Acta. 46 (12): 2688. doi:10.1016/0016-7037(82)90392-1 (https://doi.org/10.1
+016%2F0016-7037%2882%2990392-1). ISSN 0016-7037 (https://search.worldcat.org/issn/0
+016-7037).
+26. Pearce, J; Peate, D (1995). "Tectonic Implications of the Composition of Volcanic ARC
+Magmas". Annual Review of Earth and Planetary Sciences. 23 (1): 251–285.
+Bibcode:1995AREPS..23..251P (https://ui.adsabs.harvard.edu/abs/1995AREPS..23..251P).
+doi:10.1146/annurev.ea.23.050195.001343 (https://doi.org/10.1146%2Fannurev.ea.23.0501
+95.001343).
+27. Tietz, Olaf; Büchner, Joerg (2018). "The origin of the term 'basalt' " (http://www.jgeosci.org/c ontent/jgeosci.273_tietz.pdf) (PDF). Journal of Geosciences. 63 (4): 295–298.
+doi:10.3190/jgeosci.273 (https://doi.org/10.3190%2Fjgeosci.273). Retrieved 19 August
+2020.
+28. Biek. "Granite" (https://www.etymonline.com/word/granite). Online Etymology Dictionary.
+Douglas Harper. Retrieved 2 December 2020.
+29. Richthofen, Ferdinand Freiherrn von (1860). "Studien aus den ungarisch-siebenbürgischen
+Trachytgebirgen" (https://babel.hathitrust.org/cgi/pt?id=uc1.c2537786;view=1up;seq=277)
+[Studies of the trachyte mountains of Hungarian Transylvania]. Jahrbuch der Kaiserlich-
+Königlichen Geologischen Reichsanstalt (Wein) [Annals of the Imperial-Royal Geological
+Institute of Vienna] (in German). 11: 153–273.
+30. Simpson, John A.; Weiner, Edmund S. C., eds. (1989). Oxford English Dictionary. Vol. 13
+(2nd ed.). Oxford: Oxford University Press. p. 873.
+31. Young, Davis A. (2003). Mind Over Magma: The Story of Igneous Petrology. Princeton
+University Press. p. 117. ISBN 0-691-10279-1.
+32. Le Maitre, R.W.; Streckeisen, A.; Zanettin, B.; Le Bas, M.J.; Bonin, B.; Bateman, P. (2005).
+Igneous Rocks: A Classification and Glossary of Terms. Cambridge University Press.
+pp. 46–48. ISBN 978-0-521-66215-4.
+33. One or more of the preceding sentences incorporates text from a publication now in the public domain: Flett, John Smith (1911). "Petrology". In Chisholm, Hugh (ed.).
+Encyclopædia Britannica. Vol. 21 (11th ed.). Cambridge University Press. p. 330.
+34. Cross, C.W.; Iddings, J.P.; Pirsson, L.V.; Washington, H.S. (1903). Quantitative
+Classification of Igneous Rocks. Chicago: University of Chicago Press.
+35. Oldroyd, David; Young, Davis (1 January 2012). "Of the American Quantitative Igneous
+Rock Classification: Part 5". Earth Sciences History. 31 (1): 1–41.
+Bibcode:2012ESHis..31....1Y (https://ui.adsabs.harvard.edu/abs/2012ESHis..31....1Y).
+doi:10.17704/eshi.31.1.17660412784m64r4 (https://doi.org/10.17704%2Feshi.31.1.1766041
+2784m64r4).
+36. Peacock, M. A. (1 January 1931). "Classification of Igneous Rock Series". The Journal of
+Geology. 39 (1): 54–67. Bibcode:1931JG.....39...54P (https://ui.adsabs.harvard.edu/abs/193
+1JG.....39...54P). doi:10.1086/623788 (https://doi.org/10.1086%2F623788).
+S2CID 140563237 (https://api.semanticscholar.org/CorpusID:140563237).
+37. Philpotts & Ague 2009, p. 143.
+38. Irvine, T. N.; Baragar, W. R. A. (6 February 2011). "A Guide to the Chemical Classification of the Common Volcanic Rocks". Canadian Journal of Earth Sciences. 8 (5): 523–548.
+Bibcode:1971CaJES...8..523I (https://ui.adsabs.harvard.edu/abs/1971CaJES...8..523I).
+doi:10.1139/e71-055 (https://doi.org/10.1139%2Fe71-055).
+39. Kennedy, W. Q. (1 March 1933). "Trends of differentiation in basaltic magmas". American
+Journal of Science. s5-25 (147): 239–256. Bibcode:1933AmJS...25..239K (https://ui.adsabs.
+harvard.edu/abs/1933AmJS...25..239K). doi:10.2475/ajs.s5-25.147.239 (https://doi.org/10.2
+475%2Fajs.s5-25.147.239).
+40. Geoff C. Brown; C. J. Hawkesworth; R. C. L. Wilson (1992). Understanding the Earth (http s://books.google.com/books?id=Kgk4AAAAIAAJ&pg=PA93) (2nd ed.). Cambridge University
+Press. p. 93. ISBN 0-521-42740-1.
+41. Foulger, G.R. (2010). Plates vs. Plumes: A Geological Controversy (https://web.archive.org/ web/20171125195240/http://www.wiley.com/WileyCDA/WileyTitle/productCd-1405161485.ht ml). Wiley-Blackwell. ISBN 978-1-4051-6148-0. Archived from the original (http://www.wiley.
+com/WileyCDA/WileyTitle/productCd-1405161485.html) on 25 November 2017. Retrieved
+7 February 2011.
+42. Grove, T. L.; Chatterjee, N.; Parman, S. W.; Medard, E. (2006). "The influence of H2O on mantle wedge melting". Earth and Planetary Science Letters. 249 (1–2): 74–89.
+Bibcode:2006E&PSL.249...74G (https://ui.adsabs.harvard.edu/abs/2006E&PSL.249...74G).
+doi:10.1016/j.epsl.2006.06.043 (https://doi.org/10.1016%2Fj.epsl.2006.06.043).
+43. Dasgupta, R.; Hirschmann, M. M. (2007). "Effect of variable carbonate concentration on the solidus of mantle peridotite". American Mineralogist. 92 (2–3): 370–379.
+Bibcode:2007AmMin..92..370D (https://ui.adsabs.harvard.edu/abs/2007AmMin..92..370D).
+doi:10.2138/am.2007.2201 (https://doi.org/10.2138%2Fam.2007.2201). S2CID 95932394 (h ttps://api.semanticscholar.org/CorpusID:95932394).
+44. Unsworth, M. J.; et al. (2005). "Crustal rheology of the Himalaya and Southern Tibet inferred from magnetotelluric data". Nature. 438 (7064): 78–81. Bibcode:2005Natur.438...78U (http s://ui.adsabs.harvard.edu/abs/2005Natur.438...78U). doi:10.1038/nature04154 (https://doi.or g/10.1038%2Fnature04154). PMID 16267552 (https://pubmed.ncbi.nlm.nih.gov/16267552).
+S2CID 4359642 (https://api.semanticscholar.org/CorpusID:4359642).
+45. "igneous" (https://www.dictionary.com/browse/igneous). Dictionary.com. Archived (https://we b.archive.org/web/20221015092537/https://www.dictionary.com/browse/igneous) from the original on 15 October 2022. Retrieved 15 October 2022.
+46. "-eous" (https://www.dictionary.com/browse/-eous). Dictionary.com. Archived (https://web.arc hive.org/web/20221015092751/https://www.dictionary.com/browse/-eous) from the original on 15 October 2022. Retrieved 15 October 2022.
+47. "Volvano" (https://www.dictionary.com/browse/volcano). Dictionary.com. Archived (https://we b.archive.org/web/20221015120740/https://www.dictionary.com/browse/volcano) from the original on 15 October 2022. Retrieved 15 October 2022.
+48. "ic" (https://www.dictionary.com/browse/ic). Dictionary.com. Archived (https://web.archive.or g/web/20221015094717/https://www.dictionary.com/browse/ic) from the original on 15
+October 2022. Retrieved 15 October 2022.
+49. "Pluto" (https://www.dictionary.com/browse/plutonic). Dictionary.com. Archived (https://web.a rchive.org/web/20221015095057/https://www.dictionary.com/browse/plutonic) from the original on 15 October 2022. Retrieved 15 October 2022.
+50. "ic" (https://www.dictionary.com/browse/ic). Dictionary.com. Archived (https://web.archive.or g/web/20221015094717/https://www.dictionary.com/browse/ic) from the original on 15
+October 2022. Retrieved 15 October 2022.
+USGS Igneous Rocks (https://vulcan.wr.usgs.gov/LivingWith/VolcanicPast/Notes/igneous_ro cks.html) Archived (https://web.archive.org/web/20130221075708/http://vulcan.wr.usgs.gov/
+LivingWith/VolcanicPast/Notes/igneous_rocks.html) 21 February 2013 at the Wayback
+Machine
+Igneous rock classification flowchart (https://web.archive.org/web/20080510070325/http://ge ol.lsu.edu/henry/Geology3041/lectures/02IgneousClassify/IUGS-IgneousClassFlowChart.ht m)
+Igneous Rocks Tour, an introduction to Igneous Rocks (https://web.archive.org/web/201201
+13152818/http://geology.cnsm.ad.csulb.edu/people/bperry/IgneousRocksTour/IntroToIgneou sRocks.html)
+The IUGS systematics of igneous rocks (https://web.archive.org/web/20130502230620/htt p://www.utdallas.edu/~aiken/SHAKEBAKE/rockclassification.pdf)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Igneous_rock&oldid=1338766221"
+External links

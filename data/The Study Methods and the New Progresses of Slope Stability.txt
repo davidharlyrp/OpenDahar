@@ -1,276 +1,75 @@
- 
-The Study Methods and the New Progresses of Slope Stability 
-Yongtao Zhang 
-The Southern Engineering of the Chinese Road Bridge, LTD, Beijing 101121, China 
-Keywords: Slope stability; The limit equilibrium theory; Numerical; Critical slip surface 
-Abstract. Systematically introduce the research situation and development trends of the analysis 
-method of slope stability at home and abroad, Focus on the two kinds of calculation methods and 
-critical slip surface searching method based on the limit equilibrium theory and numerical analysis, 
-And it also briefly discusses the main characteristics of these methods and their advantages and 
-disadvantages, introduces the dynamic 3D slope stability research, and the prospect of the research 
-direction in the future, providing the reference of the relevant personnel engaged in the slope study. 
-Introduction 
-Slope is an important part of the engineering construction. The problem of slope stability is 
-related to the human life and property safety and the safety and efficiency of engineering itself. A 
-comprehensive evaluation of its stability has an important theoretical and practical significance. 
-Analysis of slope stability has always been an important research contents in the field of 
-geotechnical engineering. It emerges in an endless stream in the analysis method currently, 
-However, different research methods can only be applied to different engineering geology 
-environment, Whether is the stability analysis reasonable or not directly affects the guidance for the 
-engineering construction. So how to effectively use the appropriate analysis method is particularly 
-important. This article tries to classify and explain the theory and method of analysis on slope 
-stability systematically and deeply probe the characteristics, advantages and disadvantages of the 
-major domestic and foreign research methods, aiming to help the readers have a better cognizance 
-hope that it can emerge the new methods and traditional ones can be improved and developed in the 
-field slope stability research. 
-Review a Slope Stability Analysis 
-The recognition of the slope stability of the tunnel originate from the tunnel entrance landslide 
-phenomenon Early research on slope mostly based on long-term data observations, describing it 
-qualitatively using the geological historical analysis method. On the early 1960s, it was recognized 
-that the geological analysis must be combined with the mechanical mechanism analysis about the 
-slope stability study During this period it mainly uses a rigid limit equilibrium method. Since 1980s. 
-Due to the development of computing technology, the series of numerical analysis methods has 
-developed. In recent years, some new theories have been introduced to the study of the slope. From 
-the different perspective, the structure and stability of the slope factors were analyzed, which 
-greatly promoted the study of slope stability. 
-Limit equilibrium method which takes the soil that has a sliding trend within the scope of the 
-slope along a slip surface into bar or oblique, established the whole sliding mass force or torque 
-balance equation based on the analysis of the strip and determine the safety factor of slope stability 
-on this basis These methods all assume that the soil mass slide rigid or rotate along a potential slip 
-surface. sliding soil mass is the ideal rigid-plastic body, don't consider the stress-strain relationship 
-of soil, and assume the strength level and the shear strength reduction factor of safety of every point 
-along the slip surfaces is similar its safety factor expression has nothings to do with the deformation 
-characteristics of the landslide, the landslides in vitro regional geological situation or the stress.  
-The finite element method, developed in recent years which based on the theory of limit 
-equilibrium, the condition of solving complex geotechnical slope of the stress and displacement 
-distribution, adopting all kinds of search technology to get the critical slip surface and the 
+The Study Methods and the New Progresses of Slope Stability
+Yongtao Zhang
+The Southern Engineering of the Chinese Road Bridge, LTD, Beijing 101121, China
+Keywords: Slope stability; The limit equilibrium theory; Numerical; Critical slip surface
+Abstract. Systematically introduce the research situation and development trends of the analysis method of slope stability at home and abroad, Focus on the two kinds of calculation methods and critical slip surface searching method based on the limit equilibrium theory and numerical analysis,
+And it also briefly discusses the main characteristics of these methods and their advantages and disadvantages, introduces the dynamic 3D slope stability research, and the prospect of the research direction in the future, providing the reference of the relevant personnel engaged in the slope study.
+Introduction
+Slope is an important part of the engineering construction. The problem of slope stability is related to the human life and property safety and the safety and efficiency of engineering itself. A comprehensive evaluation of its stability has an important theoretical and practical significance.
+Analysis of slope stability has always been an important research contents in the field of geotechnical engineering. It emerges in an endless stream in the analysis method currently,
+However, different research methods can only be applied to different engineering geology environment, Whether is the stability analysis reasonable or not directly affects the guidance for the engineering construction. So how to effectively use the appropriate analysis method is particularly important. This article tries to classify and explain the theory and method of analysis on slope stability systematically and deeply probe the characteristics, advantages and disadvantages of the major domestic and foreign research methods, aiming to help the readers have a better cognizance hope that it can emerge the new methods and traditional ones can be improved and developed in the field slope stability research.
+Review a Slope Stability Analysis
+The recognition of the slope stability of the tunnel originate from the tunnel entrance landslide phenomenon Early research on slope mostly based on long-term data observations, describing it qualitatively using the geological historical analysis method. On the early 1960s, it was recognized that the geological analysis must be combined with the mechanical mechanism analysis about the slope stability study During this period it mainly uses a rigid limit equilibrium method. Since 1980s.
+Due to the development of computing technology, the series of numerical analysis methods has developed. In recent years, some new theories have been introduced to the study of the slope. From the different perspective, the structure and stability of the slope factors were analyzed, which greatly promoted the study of slope stability.
+Limit equilibrium method which takes the soil that has a sliding trend within the scope of the slope along a slip surface into bar or oblique, established the whole sliding mass force or torque balance equation based on the analysis of the strip and determine the safety factor of slope stability on this basis These methods all assume that the soil mass slide rigid or rotate along a potential slip surface. sliding soil mass is the ideal rigid-plastic body, don't consider the stress-strain relationship of soil, and assume the strength level and the shear strength reduction factor of safety of every point along the slip surfaces is similar its safety factor expression has nothings to do with the deformation characteristics of the landslide, the landslides in vitro regional geological situation or the stress.
+The finite element method, developed in recent years which based on the theory of limit equilibrium, the condition of solving complex geotechnical slope of the stress and displacement distribution, adopting all kinds of search technology to get the critical slip surface and the
 2nd International Conference on Machinery, Materials Engineering, Chemical Engineering and Biotechnology (MMECEB 2015)
 © 2016. The authors - Published by Atlantis Press
-396
- 
-corresponding safety factor, to evaluate the stability of the slope. In recent years, there are still some 
-scholars committed to the research the Limit equilibrium method. However, there is no thorough 
-and recognized evaluation method. A variety of expression about the safety factor often does not 
-have explicit physical meaning. Therefore, considering the various assumptions in the calculation 
-under the limit equilibrium method, the search of the most dangerous slip surface and the 
-determination of the minimum safety factor still exist many difficulties. As the more rigorous 
-numerical analysis among the theory system have a large number of application in geotechnical 
-engineering, reducing the range of application of the limit equilibrium method in some degree.  
-Considering the limit equilibrium method using some simplified assumptions on mechanics, the 
-result is not the real system solutions even that it appears obvious error sometimes, at the same time 
-the calculation to the complex soil and geotechnical structure is very difficult. The limit on the 
-mechanics analysis method is introduced into the soil mechanics to make up for the deficiency of 
-the limit equilibrium method. Sloan introduced the variation theory which solve the extreme value 
-to seek for upper limit solution, Mr. Li, Jiangshen Zhu and others adopt the viewpoint of limit 
-analysis lower limit and introduce mathematical programming method to seek the lower bound 
-solutions of the problem. In recent years, with the rapid development of computing technology, the 
-application of numerical methods to solve the upper(lower) limit problem about the tunnel on the 
-slope stability has become a vigorous field, the finite element method, the limit solution and the 
-method of upper limit solution put forward by Sloan and others, slope analysis upper bound 
-solution put forward by Chen ZY are two kinds of relatively mature and practical methods. 
-Since the 1980's, with the development of computing technology, the slope stability of numerical 
-calculation method has made great progress. Among the numerical calculation method of the slope, 
-there are the following categories basically: 
-Finite element method is a kind of numerical analysis method, which is based on continuum 
-mechanics. It was divided the analysis domain into a finite number that only in the node phase 
-coupling subdomains, namely finite element, and then use low order polynomial interpolation in the 
-unit and set up the stiffness matrix Then reuse the energy variation theory to form the total stiffness 
-matrix, finally combined with the initial conditions and boundary conditions to solve the problem. 
-Finite element method can meet the static permission, strain compatibility and the constitutive 
-relationship between stress and strain, and can be not affected by the irregular of the slope geometry 
-shape and the limitation of material inhomogeneity, the finite element solution also provides all the 
-information about stress and deformation. All the above are the theory of limit equilibrium method 
-can't solve, so the finite element method (fem) is an ideal method for analysis of slope stability. The 
-main limitation is that the finite element method exist difficulties in some respect such as elastic 
-plastic constitutive relation and determining the slope initial stress state, It also can't do well in 
-solving problems such as large deformation and displacement of discontinuous, neither as solving 
-the infinite domain and stress concentration. In addition, how to combine finite element calculation 
-results with traditional criterion on the safety factor of slope, also needs to be further research. 
-In order to reduce the computing workload, someone combine the analytical method and 
-numerical method and develop many half analytical method, such as the finite layer method, the 
-finite element method and boundary element method, and the method of coupling application, such 
-as the finite element and boundary element coupling, boundary element and discrete element 
-coupling, etc. In addition, the application of all kinds of uncertain analysis method in slope analysis 
-is also very common, such as system analysis, reliability analysis, grey system theory, fuzzy 
-classification method, method of catastrophe theory, artificial neural network analysis method, the 
-genetic evolutionary algorithm, the fractal geometry technique theory of fracture mechanics, 
-damage, and the theory of bifurcation and chaos. With the development of computer technology, 
-multimedia and network technology, perturbation stochastic finite element method based on the 
-theory of probability, the computer simulation technology based on GPS and GIS are also play a 
-more and more important role in the assessment of slope stability.  
-397
- 
-Critical Slip Surface Search Method 
-Among the slope stability analysis, it generally consists of two steps: one is to figure out a crack 
-in landslide stability factor of safety at the surface, the other is to figure out the corresponding 
-minimum safety factor of the critical slip surface at all possible surface .Before the 1980’s, analysis 
-on the stability of the slope mainly concentrate on the first step and obtain so many widely 
-recognized safety coefficient calculation formula. In the past 20 years, the critical slip surface 
-search problems have got a lot of attention .Meanwhile it produces many search techniques and 
-methods. This article has simply discussed the analysis of several major search method and its 
-characteristics. 
-When utilizing the theory of limit equilibrium of the slope stability analysis and research, people 
-use the enumeration search Circle arc sliding surface firstly. The fundamental ideology of the 
-Enumeration method is according to the model and inspect the objective function of different 
-variables then screen to find the minimum value eventually. which is one of the most original and 
-most simple search method. The enumeration method search efficiency is relatively low, because of 
-this the development of the other 0.618 methods such as enumeration method, in a certain degree, 
-improve the efficiency of the search. 
-With the development of computer technology, the critical sliding surface search start to turn to 
-the numerical analysis method which is usually called the optimization method this approach can be 
-mainly divided into the following categories: 
-Pattern search method is according to the model and inspect the objective function between 
-different independent variables, then determine the optimal search direction finally found the 
-minimum value, later Haihong Mo come up with the improved pattern search method. Jianjing 
-Jiang was based on the simplified Bishop method and use dichotomy of elimination method in 
-calculation of critical slip surface. In addition, Giam and Donald proposed a finite element known 
-stress field to determine the critical slip surface of the pattern search method, which is based on the 
-stress calculated from the finite element field, starting from the point of high stress level, the 
-formation of a from top to bottom of the failure surface. This kind of method is generally used to 
-determine the arc sliding surface, and the search points are generated during the search process, the 
-local minimum easily trapped into safety coefficient. 
-Analysis of Newton system reference the thinking that consider the variational method in the 
-safety coefficient as the critical slip surface functional theory and then combine with the limit 
-equilibrium theory, using analytic methods to seek the extreme point which objective function of 
-the independent variable partial derivative is zero. The method is to use the derivation of the 
-objective function to determine the moving along the gradient direction so as to obtain the 
-minimum safety coefficient. Arai and Tagyo used the conjugate gradient method, Yan Zhonghua  
-used the golden section method, Wentong Zhou used Powell’s method, Sun Junshi adopted 
-complex method and so on. But as a result of these methods on the objective function derivation is 
-extremely complex when the number of degrees of freedom is too much (more than 7), practice 
-shows that the search results will become very rough, especially for complex soil condition, this 
-method is easy to fall into local extreme points. 
-The dynamic programming method regard the critical slip surface search as a multistage decision 
-process. Baker firstly adopt the dynamic programming method combined with the Spencer method 
-to determine the critical slip surface and the minimum safety factor of non arc. Cao Wengui and  
-Ronggui Yan combined with Janbu’s method using the similar search method, and satisfactory 
-results are obtained. This method is actually transformed a optimization problems with continuous 
-variables into a discrete variable optimization problem, but considering the the convergence and 
-accuracy of calculation it can not find the true global minimum value. Yamagami and Ueta, 
-HaT.V.Pham and D.G.Fredlund respectively, combine the dynamic programming and the finite 
-element analysis, the critical slip surface and safety factor showing great potential for development 
-and application. 
-398
- 
-In the process of the finite element analysis of slope stability, except the above optimization 
-methods, it also produced a number of special, completely out of the traditional sense of the critical 
-slip surface search methods, such as strength reduction finite element method, the critical sliding 
-surface of slope failure time can be got in the most intensive computing element of the incremental 
-displacement isoline. the finite element analysis of stress level method, it is analyzed by the 
-nonlinear finite element calculation and obtain the slope of soil at different points of the stress level, 
-drawing the contour map, the most dangerous sliding surface of slope can be determined. 
-It is necessary to point out that the slope critical slip surface searching area is experiencing a 
-stage of rapid development, new concepts and methods are constantly emerging. A noteworthy 
-trend is that optimization method has been transferring from the analytical method, numerical 
-method to the non classical numerical methods. Non numerical method utilize the advantage of 
-computer which has the large capacity and high speed to find the optimal value of the objective 
-function through a large number of random sampling The emergence of this field of simulated 
-annealing algorithm, genetic algorithm can be better than the traditional method in terms of 
-accuracy, the research method of neural network, ant colony algorithm and other aspects have also 
-been started. 
-Three Dimensional Slope Stability Research 
-At present, in the stability analysis of slope, it is still a commonly used method that the slope has 
-been simplified and appropriate treatment and carries on the analysis in the plane. But in many 
-cases the three-dimensional stability analysis has its unique and important significance, because the 
-landslide happened the nature mostly emerge in 3D, 3D slope stability analysis can reflect the actual 
-state of the slope, especially when the sliding surface has been determined, using dimensional 
-analysis method can properly consider the impact of the slope safety coefficient suffered that the 
-spatial variability made. Which belong to sliding body And in some cases it must use the 
-dimensional analysis, such as the excavation slope. The excavation only happen in a limited range, 
-if we use the two-dimensional analysis, excavation face is infinite, apparently it is different with the 
-actual situation. Therefore in the slope engineering design and safety assessment, considering three 
-dimensional stability analysis can get the analysis results more actual. 
-Numerous studies have been conducted by domestic and foreign scholars on the 
-three-dimensional stability of slope, which mainly concentrated on three dimensional limit 
-equilibrium method. Duncan made a comprehensive review of the various methods in the past 20 
-years about three-dimensional slope .then list the characteristics and limitations of these methods. In 
-recent years, the scholars in our country has achieved some results in the 3D slope stability analysis. 
-The 3D slope stability limit equilibrium analysis method proposed by Shuren Feng, the upper bound 
-theorem of plasticity based on three-dimensional slope stability analysis method and based on the 
-limit equilibrium theory the simplified analysis method by Zuyu Chen et al and put forward by  
-Guoxiang Zhang, the potential slip plane theory and its application in the analysis of the slope. 
-Three-dimensional Slope Analysis of the Existing Problems: 
-(1) In order to make the problem becomes indeterminate solution, on the application of a three 
-dimensional limit equilibrium analysis of slope column method, introduce a large number of 
-assumptions, and many assumed the shape of sliding surface, as is assumed to be symmetric, 
-ellipsoid and the logarithmic spiral surface, weakened the theoretical basis and the scope of 
-application of this method. 
-(2) In the stability analysis of three-dimensional slope, the sliding direction of 3D slope is 
-usually unknown. the process of the 3D slip surface corresponding to the minimum factor of safety 
-and the sliding direction are difficult. 
-(3) In the field of three-dimensional space stress analysis, nonlinear equations iterative operation 
-is a large scale and complex. convergence of numerical analysis method is a very difficult problem. 
-(4) To search the critical slip surface, the three-dimensional analysis, the increase of degree of 
-freedom, the optimization method is facing severe challenges. the current research work in this area 
-is relatively few, the research work can not guarantee that in any case, can successfully terminate at 
-399
- 
-the minimum. 
-(5) Most of the 3D slope stability analysis of the research work is limited to the academic field 
-and relatively rare in the practical application, the stability analysis method and program 
-development work is still far from the practical requirements. 
-Test results 
-Due to the three-dimensional slope stability research has important theoretical and practical 
-significance, and the utilization of three-dimensional limit equilibrium analysis method has some 
-obvious defects,the optimization method for solving 3D critical slip surface also face many 
-difficulties, using three dimensional finite element analysis for slope stability will become the main 
-research direction in the future. Analyzing three-dimensional slope by finite element analysis, 
-avoiding the traditional "column" idea, it can make the space of sliding body to meet all of the 
-equilibrium conditions and get the 3D safety factor of slope of the answer the in astrict sense The 
-main method can consider the prospect: 
-(1) Analysis model by using a column method put finite element calculation of the stress results 
-into the limit analysis framework. This method still need assume a shape of sliding surface, the 
-sliding surface of slope may be through the construction of any region of space, using the three 
-dimensional finite element stress field interpolation slip stress on the surface, and by using the finite 
-element method to calculate, combined with a variety of optimization method to search the critical 
-slip surface and got the minimum safety coefficient. 
-(2) Direct analysis by using three dimensional finite element strength reduction method. In the 
-definition of safety factor, with the reduction of soil strength parameters, Calculate in 3-D finite 
-element program, till the calculation does not converge, the reduction factor is the safety factor. At 
-the same time, the critical slip surface can be determined by the displacement increment of the most 
-intensive areas in the contour map. 
-(3) By using the three-dimensional finite element stress field, calculating the stress level of the 
-slope and drawing the contour map, 3D slope of the most dangerous slip surface can be determined, 
-the calculation of stress level along the critical slip surface got the average value, the minimum 
-safety factor can be obtained by the corresponding numerical. 
-(4) The use of the space of potential sliding surface theory can calculate the space in the middle 
-of the potential slip surface in principal stress space and potential slip lines, construct the space of 
-potential slip plane grid lines, form the space of potential sliding surface. Comparison of various 
-spatial potential slip surface average safety factor of stability, the smallest is the most dangerous slip 
-surface. 
-(5) Considering the use of the tetrahedron finite element stress field and the mesh has been split, 
-construct an auxiliary function that contains the safety factor, use dynamic programming, find the 
-minimum of the auxiliary function of sliding surface, and then calculate the safety factor of sliding 
-surface the safety factor by the definition of safety factor method, and compared with that, through 
-iterative calculation get slip surface and the minimum safety value of critical. 
-Conclusion 
-The analysis of slope stability in the landslide analysis and governance is a field which have a bit 
-difficult and the development is relatively mature. Although it can not solve all the problems of 
-landslide analysis and treatment, it still occupies a very important position in the slope design and 
-reinforcement. At present, various research methods continue to emerge, but the exact solution of 
-slope stability analysis is still one of the frontiers in the field of geotechnical engineering. With the 
-continuous efforts of engineering researchers and the progress of the scientific. we believe that the 
-study of slope stability in theory will be more and more mature and perfect so that more reasonable 
-analysis results of the slope engineering can be provided. 
-400
- 
-References 
-[1] Bishop A W.The use of slip circle in stability analysis of slopes.Geotechnique.1955,5(1):7-17. 
-[2] Spencer E. A method for analysis of the stability of embankments assuming parallel interslice 
-forces Geotechnique,1997,17(1):11-26. 
-[3] Chen Z Y.and Morgenstem N R.Extension to the generalized method of slices for stability 
-analysis ,Canadian Geotechnical Journal,2003,20(1):104-119 
-[4] Huang Y H.Stability analysis of earth slopes[M].Dept of Civil Engineering,The Univ.of 
-Califomia at Berkeley,2001. 
-[5] Haihong Mo, Chaohong Tang, Shaoyue Liu.Determination of most dangerous slip surface with 
-pattem search method[J].Chinese Journal of Geotechnical Engineering 2009,21(6):696-699. 
-[6] Maotian Luan, Li Yong,Yang Qing.Discontinuous deformation computational mechanics model 
-and its application in stability analysis of rock slop.Chinese Journal Rock Mechanics and 
-Engineering,2010,19(3):289-294. 
-[7] Ha.T.V.Pham,D.G.Fredlund.The application of dynamic programming to slop stability 
-analysis,Can.Geotech.J.2012,32:233-246. 
-[8] Zuyu Chen.Rock Slop Stability Analysis-Theory,Methods and Programs[M].Beijing,China 
-Water Power Press 2014. 
-[9] Shuren Feng, Dingxiang Feng，Xiurui Ge,etal.3D limit equilibrium method for slop stability 
-and its application[J].Chinese Journal of Geotechnical Engineering,2014,21(6):657-661. 
-401
+
+corresponding safety factor, to evaluate the stability of the slope. In recent years, there are still some scholars committed to the research the Limit equilibrium method. However, there is no thorough and recognized evaluation method. A variety of expression about the safety factor often does not have explicit physical meaning. Therefore, considering the various assumptions in the calculation under the limit equilibrium method, the search of the most dangerous slip surface and the determination of the minimum safety factor still exist many difficulties. As the more rigorous numerical analysis among the theory system have a large number of application in geotechnical engineering, reducing the range of application of the limit equilibrium method in some degree.
+Considering the limit equilibrium method using some simplified assumptions on mechanics, the result is not the real system solutions even that it appears obvious error sometimes, at the same time the calculation to the complex soil and geotechnical structure is very difficult. The limit on the mechanics analysis method is introduced into the soil mechanics to make up for the deficiency of the limit equilibrium method. Sloan introduced the variation theory which solve the extreme value to seek for upper limit solution, Mr. Li, Jiangshen Zhu and others adopt the viewpoint of limit analysis lower limit and introduce mathematical programming method to seek the lower bound solutions of the problem. In recent years, with the rapid development of computing technology, the application of numerical methods to solve the upper(lower) limit problem about the tunnel on the slope stability has become a vigorous field, the finite element method, the limit solution and the method of upper limit solution put forward by Sloan and others, slope analysis upper bound solution put forward by Chen ZY are two kinds of relatively mature and practical methods.
+Since the 1980's, with the development of computing technology, the slope stability of numerical calculation method has made great progress. Among the numerical calculation method of the slope, there are the following categories basically:
+Finite element method is a kind of numerical analysis method, which is based on continuum mechanics. It was divided the analysis domain into a finite number that only in the node phase coupling subdomains, namely finite element, and then use low order polynomial interpolation in the unit and set up the stiffness matrix Then reuse the energy variation theory to form the total stiffness matrix, finally combined with the initial conditions and boundary conditions to solve the problem.
+Finite element method can meet the static permission, strain compatibility and the constitutive relationship between stress and strain, and can be not affected by the irregular of the slope geometry shape and the limitation of material inhomogeneity, the finite element solution also provides all the information about stress and deformation. All the above are the theory of limit equilibrium method can't solve, so the finite element method (fem) is an ideal method for analysis of slope stability. The main limitation is that the finite element method exist difficulties in some respect such as elastic plastic constitutive relation and determining the slope initial stress state, It also can't do well in solving problems such as large deformation and displacement of discontinuous, neither as solving the infinite domain and stress concentration. In addition, how to combine finite element calculation results with traditional criterion on the safety factor of slope, also needs to be further research.
+In order to reduce the computing workload, someone combine the analytical method and numerical method and develop many half analytical method, such as the finite layer method, the finite element method and boundary element method, and the method of coupling application, such as the finite element and boundary element coupling, boundary element and discrete element coupling, etc. In addition, the application of all kinds of uncertain analysis method in slope analysis is also very common, such as system analysis, reliability analysis, grey system theory, fuzzy classification method, method of catastrophe theory, artificial neural network analysis method, the genetic evolutionary algorithm, the fractal geometry technique theory of fracture mechanics, damage, and the theory of bifurcation and chaos. With the development of computer technology, multimedia and network technology, perturbation stochastic finite element method based on the theory of probability, the computer simulation technology based on GPS and GIS are also play a more and more important role in the assessment of slope stability.
+
+Critical Slip Surface Search Method
+Among the slope stability analysis, it generally consists of two steps: one is to figure out a crack in landslide stability factor of safety at the surface, the other is to figure out the corresponding minimum safety factor of the critical slip surface at all possible surface .Before the 1980’s, analysis on the stability of the slope mainly concentrate on the first step and obtain so many widely recognized safety coefficient calculation formula. In the past 20 years, the critical slip surface search problems have got a lot of attention .Meanwhile it produces many search techniques and methods. This article has simply discussed the analysis of several major search method and its characteristics.
+When utilizing the theory of limit equilibrium of the slope stability analysis and research, people use the enumeration search Circle arc sliding surface firstly. The fundamental ideology of the
+Enumeration method is according to the model and inspect the objective function of different variables then screen to find the minimum value eventually. which is one of the most original and most simple search method. The enumeration method search efficiency is relatively low, because of this the development of the other 0.618 methods such as enumeration method, in a certain degree, improve the efficiency of the search.
+With the development of computer technology, the critical sliding surface search start to turn to the numerical analysis method which is usually called the optimization method this approach can be mainly divided into the following categories:
+Pattern search method is according to the model and inspect the objective function between different independent variables, then determine the optimal search direction finally found the minimum value, later Haihong Mo come up with the improved pattern search method. Jianjing
+Jiang was based on the simplified Bishop method and use dichotomy of elimination method in calculation of critical slip surface. In addition, Giam and Donald proposed a finite element known stress field to determine the critical slip surface of the pattern search method, which is based on the stress calculated from the finite element field, starting from the point of high stress level, the formation of a from top to bottom of the failure surface. This kind of method is generally used to determine the arc sliding surface, and the search points are generated during the search process, the local minimum easily trapped into safety coefficient.
+Analysis of Newton system reference the thinking that consider the variational method in the safety coefficient as the critical slip surface functional theory and then combine with the limit equilibrium theory, using analytic methods to seek the extreme point which objective function of the independent variable partial derivative is zero. The method is to use the derivation of the objective function to determine the moving along the gradient direction so as to obtain the minimum safety coefficient. Arai and Tagyo used the conjugate gradient method, Yan Zhonghua used the golden section method, Wentong Zhou used Powell’s method, Sun Junshi adopted complex method and so on. But as a result of these methods on the objective function derivation is extremely complex when the number of degrees of freedom is too much (more than 7), practice shows that the search results will become very rough, especially for complex soil condition, this method is easy to fall into local extreme points.
+The dynamic programming method regard the critical slip surface search as a multistage decision process. Baker firstly adopt the dynamic programming method combined with the Spencer method to determine the critical slip surface and the minimum safety factor of non arc. Cao Wengui and
+Ronggui Yan combined with Janbu’s method using the similar search method, and satisfactory results are obtained. This method is actually transformed a optimization problems with continuous variables into a discrete variable optimization problem, but considering the the convergence and accuracy of calculation it can not find the true global minimum value. Yamagami and Ueta,
+HaT.V.Pham and D.G.Fredlund respectively, combine the dynamic programming and the finite element analysis, the critical slip surface and safety factor showing great potential for development and application.
+
+In the process of the finite element analysis of slope stability, except the above optimization methods, it also produced a number of special, completely out of the traditional sense of the critical slip surface search methods, such as strength reduction finite element method, the critical sliding surface of slope failure time can be got in the most intensive computing element of the incremental displacement isoline. the finite element analysis of stress level method, it is analyzed by the nonlinear finite element calculation and obtain the slope of soil at different points of the stress level, drawing the contour map, the most dangerous sliding surface of slope can be determined.
+It is necessary to point out that the slope critical slip surface searching area is experiencing a stage of rapid development, new concepts and methods are constantly emerging. A noteworthy trend is that optimization method has been transferring from the analytical method, numerical method to the non classical numerical methods. Non numerical method utilize the advantage of computer which has the large capacity and high speed to find the optimal value of the objective function through a large number of random sampling The emergence of this field of simulated annealing algorithm, genetic algorithm can be better than the traditional method in terms of accuracy, the research method of neural network, ant colony algorithm and other aspects have also been started.
+Three Dimensional Slope Stability Research
+At present, in the stability analysis of slope, it is still a commonly used method that the slope has been simplified and appropriate treatment and carries on the analysis in the plane. But in many cases the three-dimensional stability analysis has its unique and important significance, because the landslide happened the nature mostly emerge in 3D, 3D slope stability analysis can reflect the actual state of the slope, especially when the sliding surface has been determined, using dimensional analysis method can properly consider the impact of the slope safety coefficient suffered that the spatial variability made. Which belong to sliding body And in some cases it must use the dimensional analysis, such as the excavation slope. The excavation only happen in a limited range, if we use the two-dimensional analysis, excavation face is infinite, apparently it is different with the actual situation. Therefore in the slope engineering design and safety assessment, considering three dimensional stability analysis can get the analysis results more actual.
+Numerous studies have been conducted by domestic and foreign scholars on the three-dimensional stability of slope, which mainly concentrated on three dimensional limit equilibrium method. Duncan made a comprehensive review of the various methods in the past 20 years about three-dimensional slope .then list the characteristics and limitations of these methods. In recent years, the scholars in our country has achieved some results in the 3D slope stability analysis.
+The 3D slope stability limit equilibrium analysis method proposed by Shuren Feng, the upper bound theorem of plasticity based on three-dimensional slope stability analysis method and based on the limit equilibrium theory the simplified analysis method by Zuyu Chen et al and put forward by
+Guoxiang Zhang, the potential slip plane theory and its application in the analysis of the slope.
+Three-dimensional Slope Analysis of the Existing Problems:
+(1) In order to make the problem becomes indeterminate solution, on the application of a three dimensional limit equilibrium analysis of slope column method, introduce a large number of assumptions, and many assumed the shape of sliding surface, as is assumed to be symmetric, ellipsoid and the logarithmic spiral surface, weakened the theoretical basis and the scope of application of this method.
+(2) In the stability analysis of three-dimensional slope, the sliding direction of 3D slope is usually unknown. the process of the 3D slip surface corresponding to the minimum factor of safety and the sliding direction are difficult.
+(3) In the field of three-dimensional space stress analysis, nonlinear equations iterative operation is a large scale and complex. convergence of numerical analysis method is a very difficult problem.
+(4) To search the critical slip surface, the three-dimensional analysis, the increase of degree of freedom, the optimization method is facing severe challenges. the current research work in this area is relatively few, the research work can not guarantee that in any case, can successfully terminate at
+
+the minimum.
+(5) Most of the 3D slope stability analysis of the research work is limited to the academic field and relatively rare in the practical application, the stability analysis method and program development work is still far from the practical requirements.
+Test results
+Due to the three-dimensional slope stability research has important theoretical and practical significance, and the utilization of three-dimensional limit equilibrium analysis method has some obvious defects,the optimization method for solving 3D critical slip surface also face many difficulties, using three dimensional finite element analysis for slope stability will become the main research direction in the future. Analyzing three-dimensional slope by finite element analysis, avoiding the traditional "column" idea, it can make the space of sliding body to meet all of the equilibrium conditions and get the 3D safety factor of slope of the answer the in astrict sense The main method can consider the prospect:
+(1) Analysis model by using a column method put finite element calculation of the stress results into the limit analysis framework. This method still need assume a shape of sliding surface, the sliding surface of slope may be through the construction of any region of space, using the three dimensional finite element stress field interpolation slip stress on the surface, and by using the finite element method to calculate, combined with a variety of optimization method to search the critical slip surface and got the minimum safety coefficient.
+(2) Direct analysis by using three dimensional finite element strength reduction method. In the definition of safety factor, with the reduction of soil strength parameters, Calculate in 3-D finite element program, till the calculation does not converge, the reduction factor is the safety factor. At the same time, the critical slip surface can be determined by the displacement increment of the most intensive areas in the contour map.
+(3) By using the three-dimensional finite element stress field, calculating the stress level of the slope and drawing the contour map, 3D slope of the most dangerous slip surface can be determined, the calculation of stress level along the critical slip surface got the average value, the minimum safety factor can be obtained by the corresponding numerical.
+(4) The use of the space of potential sliding surface theory can calculate the space in the middle of the potential slip surface in principal stress space and potential slip lines, construct the space of potential slip plane grid lines, form the space of potential sliding surface. Comparison of various spatial potential slip surface average safety factor of stability, the smallest is the most dangerous slip surface.
+(5) Considering the use of the tetrahedron finite element stress field and the mesh has been split, construct an auxiliary function that contains the safety factor, use dynamic programming, find the minimum of the auxiliary function of sliding surface, and then calculate the safety factor of sliding surface the safety factor by the definition of safety factor method, and compared with that, through iterative calculation get slip surface and the minimum safety value of critical.
+Conclusion
+The analysis of slope stability in the landslide analysis and governance is a field which have a bit difficult and the development is relatively mature. Although it can not solve all the problems of landslide analysis and treatment, it still occupies a very important position in the slope design and reinforcement. At present, various research methods continue to emerge, but the exact solution of slope stability analysis is still one of the frontiers in the field of geotechnical engineering. With the continuous efforts of engineering researchers and the progress of the scientific. we believe that the study of slope stability in theory will be more and more mature and perfect so that more reasonable analysis results of the slope engineering can be provided.
+
+References
+[1] Bishop A W.The use of slip circle in stability analysis of slopes.Geotechnique.1955,5(1):7-17.
+[2] Spencer E. A method for analysis of the stability of embankments assuming parallel interslice forces Geotechnique,1997,17(1):11-26.
+[3] Chen Z Y.and Morgenstem N R.Extension to the generalized method of slices for stability analysis ,Canadian Geotechnical Journal,2003,20(1):104-119
+[4] Huang Y H.Stability analysis of earth slopes[M].Dept of Civil Engineering,The Univ.of
+Califomia at Berkeley,2001.
+[5] Haihong Mo, Chaohong Tang, Shaoyue Liu.Determination of most dangerous slip surface with pattem search method[J].Chinese Journal of Geotechnical Engineering 2009,21(6):696-699.
+[6] Maotian Luan, Li Yong,Yang Qing.Discontinuous deformation computational mechanics model and its application in stability analysis of rock slop.Chinese Journal Rock Mechanics and
+Engineering,2010,19(3):289-294.
+[7] Ha.T.V.Pham,D.G.Fredlund.The application of dynamic programming to slop stability analysis,Can.Geotech.J.2012,32:233-246.
+[8] Zuyu Chen.Rock Slop Stability Analysis-Theory,Methods and Programs[M].Beijing,China
+Water Power Press 2014.
+[9] Shuren Feng, Dingxiang Feng，Xiurui Ge,etal.3D limit equilibrium method for slop stability and its application[J].Chinese Journal of Geotechnical Engineering,2014,21(6):657-661.

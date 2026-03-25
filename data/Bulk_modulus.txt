@@ -1,0 +1,373 @@
+Bulk modulus
+Common symbols
+K, B, k
+SI unit
+Pa
+Derivations from other quantities
+K = E / [3(1 - 2ν)]
+Illustration of uniform compression
+Bulk modulus
+The bulk modulus ( or or ) of a substance is a measure of the resistance of a substance to bulk compression. It is defined as the ratio of the infinitesimal pressure increase to the resulting relative decrease of the volume.[1]
+Other moduli describe the material's response (strain) to other kinds of stress: the shear modulus describes the response to shear stress, and Young's modulus describes the response to normal (lengthwise stretching) stress.
+For a fluid, only the bulk modulus is meaningful. For a complex anisotropic solid such as wood or paper, these three moduli do not contain enough information to describe its behaviour, and one must use the full generalized Hooke's law. The reciprocal of the bulk modulus at fixed temperature is called the isothermal compressibility.
+The bulk modulus
+(which is usually positive) can be formally defined by the equation where is pressure, is the initial volume of the substance, and denotes the derivative of pressure with respect to volume. Since the volume is inversely proportional to the density, it follows that where is the initial density and denotes the derivative of pressure with respect to density. The inverse of the bulk modulus gives a substance's compressibility. Generally the bulk modulus is defined at constant temperature as the isothermal bulk modulus, but can also be defined at constant entropy as the adiabatic bulk modulus.
+Strictly speaking, the bulk modulus is a thermodynamic quantity, and in order to specify a bulk modulus it is necessary to specify how the pressure varies during compression: constant-temperature (isothermal
+), constant-entropy (isentropic
+), and other variations are possible. Such distinctions are especially relevant for gases.
+For an ideal gas, an isentropic process has:
+where is the heat capacity ratio. Therefore, the isentropic bulk modulus is given by
+Similarly, an isothermal process of an ideal gas has:
+Therefore, the isothermal bulk modulus is given by
+.
+When the gas is not ideal, these equations give only an approximation of the bulk modulus. In a fluid, the bulk modulus and the density determine the speed of sound (pressure waves), according to the Newton-Laplace formula
+In solids, and have very similar values. Solids can also sustain transverse waves: for these materials one additional elastic modulus, for example the shear modulus, is needed to determine wave speeds.
+It is possible to measure the bulk modulus using powder diffraction under applied pressure. It is a property of a fluid which shows its ability to change its volume under its pressure.
+Definition
+Thermodynamic relation
+Measurement
+Influences of selected glass component additions on the bulk modulus of a specific base glass.[6]
+Interatomic potential and force
+Approximate bulk modulus (K) for common materials
+Material
+Bulk modulus in GPa
+Bulk modulus in Mpsi
+Diamond (at 4K) [2]
+Alumina (γ phase)[3]
+162 ± 14
+23.5
+Steel
+23.2
+Limestone
+9.4
+Granite
+7.3
+Glass (see also diagram below table)
+35 to 55
+5.8
+Graphite 2H (single crystal)[4]
+4.9
+Sodium chloride
+24.42
+3.542
+Shale
+1.5
+Chalk
+1.3
+Rubber[5]
+1.5 to 2
+0.22 to 0.29
+Sandstone
+0.7
+0.1
+A material with a bulk modulus of 35 GPa loses one percent of its volume when subjected to an external pressure of
+0.35 GPa (~3500 bar) (assumed constant or weakly pressure dependent bulk modulus).
+Approximate bulk modulus (K) for other substances β-Carbon nitride
+427 ± 15 GPa[7] (predicted)
+Water
+2.2 GPa (0.32 Mpsi) (value increases at higher pressures)
+Methanol
+823 MPa (at 20 °C and 1 Atm)
+Solid helium
+50 MPa (approximate)
+Air
+142 kPa (adiabatic bulk modulus [or isentropic bulk modulus])
+Air
+101 kPa (isothermal bulk modulus)
+Spacetime
+4.5 × 1031 Pa (for typical gravitational wave frequencies of 100Hz) [8]
+Since linear elasticity is a direct result of interatomic interaction, it is related to the extension/compression of bonds. It can then be derived from the interatomic potential for crystalline materials.[9] First, let us examine the potential energy of two interacting atoms. Starting from very far points, they will feel an attraction towards each other. As they approach each other, their potential energy will decrease. On the other hand, when two atoms are very close to each other, their total energy will be very high due to repulsive interaction. Together, these potentials guarantee an interatomic distance that achieves a minimal energy state. This occurs at some distance r0, where the total force is zero:
+Where U is interatomic potential and r is the interatomic distance. This means the atoms are in equilibrium.
+To extend the two atoms approach into solid, consider a simple model, say, a 1-D array of one element with interatomic distance of r, and the equilibrium distance is r0. Its potential energy-interatomic distance relationship has similar form as the two atoms case, which reaches minimal at r0, The Taylor expansion for this is:
+At equilibrium, the first derivative is 0, so the dominant term is the quadratic one. When displacement is small, the higher order terms should be omitted. The expression becomes:
+Selected values
+Microscopic origin
+Interatomic potential and linear elasticity
+Which is clearly linear elasticity.
+Note that the derivation is done considering two neighboring atoms, so the Hook's coefficient is:
+This form can be easily extended to 3-D case, with volume per atom(Ω) in place of interatomic distance.
+Elasticity tensor
+Volumetric strain
+1. "Bulk Elastic Properties" (http://hyperphysics.phy-astr.gsu.edu/hbase/permot3.html). hyperphysics. Georgia State University.
+2. Page 52 of "Introduction to Solid State Physics, 8th edition" by Charles Kittel, 2005, ISBN 0-471-41526-X
+3. Gallas, Marcia R.; Piermarini, Gasper J. (1994). "Bulk Modulus and Young's Modulus of Nanocrystalline γ-Alumina" (https://ceramics.onlinelibr ary.wiley.com/doi/abs/10.1111/j.1151-2916.1994.tb04524.x). Journal of the American Ceramic Society. 77 (11): 2917–2920.
+doi:10.1111/j.1151-2916.1994.tb04524.x (https://doi.org/10.1111%2Fj.1151-2916.1994.tb04524.x). ISSN 1551-2916 (https://search.worldcat.
+org/issn/1551-2916).
+4. "Graphite Properties Page by John A. Jaszczak" (https://pages.mtu.edu/~jaszczak/graphprop.html). pages.mtu.edu. Retrieved 2021-07-16.
+5. "Silicone Rubber" (https://www.azom.com/properties.aspx?ArticleID=920). AZO materials.
+6. Fluegel, Alexander. "Bulk modulus calculation of glasses" (http://www.glassproperties.com/bulk_modulus/). glassproperties.com.
+7. Liu, A. Y.; Cohen, M. L. (1989). "Prediction of New Low Compressibility Solids". Science. 245 (4920): 841–842.
+8. Beau, M. R. (2018). "On the nature of space-time, cosmological inflation, and expansion of the universe". Preprint.
+DOI:10.13140/RG.2.2.16796.95364
+9. H., Courtney, Thomas (2013). Mechanical Behavior of Materials (2nd ed. Reimp ed.). New Delhi: McGraw Hill Education (India). ISBN 978-
+1259027512. OCLC 929663641 (https://search.worldcat.org/oclc/929663641).
+De Jong, Maarten; Chen, Wei (2015). "Charting the complete elastic properties of inorganic crystalline compounds" (https://www.ncbi.nlm.nih.
+gov/pmc/articles/PMC4432655). Scientific Data. 2: 150009. Bibcode:2013NatSD...2E0009D (https://ui.adsabs.harvard.edu/abs/2013NatSD...
+2E0009D). doi:10.1038/sdata.2015.9 (https://doi.org/10.1038%2Fsdata.2015.9). PMC 4432655 (https://www.ncbi.nlm.nih.gov/pmc/articles/PM
+C4432655). PMID 25984348 (https://pubmed.ncbi.nlm.nih.gov/25984348).
+See also
+References
+Further reading
+Homogeneous isotropic linear elastic materials have their elastic properties uniquely determined by any two quantities among these; thus, given any two, any other of the elastic moduli can be calculated accord both for 3D materials (first part of the table) and for 2D materials (second part).
+3D Formulae
+Knowns
+Bulk modulus (K)
+Young's modulus (E)
+Lamé's first parameter (λ)
+Shear modulus (G)
+Poisson's ratio (ν)
+P-wave modulus (M)
+(K, E)
+3K(1 + ⁠ 6K
+E − 9K⁠)
+⁠
+E
+3 − ⁠E
+3K⁠⁠
+⁠1
+2⁠ − ⁠E
+6K⁠
+⁠
+3K + E
+3 − ⁠E
+3K⁠⁠
+(K, λ)
+9K(K − λ)
+3K − λ ⁠
+⁠3(K − λ)
+⁠
+⁠ λ
+3K − λ⁠
+3K − 2λ
+(K, G)
+⁠ 9KG
+3K + G⁠
+K − ⁠2G
+3 ⁠
+⁠3K − 2G
+6K + 2G⁠
+K + ⁠4G
+3 ⁠
+(K, ν)
+3K(1 − 2ν)
+⁠3Kν
+1 + ν⁠
+⁠3K(1 − 2ν)
+2(1 + ν) ⁠
+⁠3K(1 − ν)
+1 + ν
+(K, M)
+⁠9K(M − K)
+3K + M ⁠
+⁠3K − M
+⁠
+⁠3(M − K)
+⁠
+⁠3K − M
+3K + M⁠
+(E, λ)
+⁠E + 3λ + R
+⁠
+⁠E − 3λ + R
+⁠
+− ⁠E + R
+4λ ⁠ − ⁠1
+4⁠
+⁠E − λ + R
+⁠
+(E2
+(E, G)
+⁠
+EG
+3(3G − E)⁠
+⁠G(E − 2G)
+3G − E ⁠
+⁠E
+2G⁠ − 1
+⁠G(4G − E)
+3G − E ⁠
+(E, ν)
+⁠ E
+3 − 6ν⁠
+Eν
+(1 + ν)(1 − 2ν)⁠
+⁠
+E
+2(1 + ν)⁠
+⁠
+E(1 − ν)
+(1 + ν)(1 − 2ν)⁠
+(E, M)
+⁠3M − E + S
+⁠
+⁠M − E + S
+⁠
+⁠3M + E − S
+⁠
+⁠E + S
+4M ⁠ − ⁠1
+4⁠
+(E2 +
+(λ, G) λ + ⁠2G
+3 ⁠
+⁠G(3λ + 2G) λ + G
+⁠
+⁠ λ
+2(λ + G)⁠ λ + 2G
+(λ, ν)
+⁠λ
+3⁠(1 + ⁠1 ν⁠) λ(⁠1 ν⁠ − 2ν − 1) λ(⁠1
+2ν⁠ − 1) λ(⁠1 ν⁠ − 1)
+(λ, M)
+⁠M + 2λ
+⁠
+⁠(M − λ)(M+2λ)
+M + λ
+⁠
+⁠M − λ
+⁠
+⁠ λ
+M + λ⁠
+(G, ν)
+⁠2G(1 + ν)
+3 − 6ν ⁠
+2G(1 + ν)
+⁠2 G ν
+1 − 2ν⁠
+⁠2G(1 − ν)
+1 − 2ν ⁠
+(G, M)
+M − ⁠4G
+3 ⁠
+⁠G(3M − 4G)
+M − G
+⁠
+M − 2G
+M − 2G
+2M − 2G⁠
+(ν, M)
+⁠M(1 + ν)
+3(1 − ν) ⁠
+⁠M(1 + ν)(1 − 2ν)
+1 − ν
+⁠M ν
+1 − ν⁠
+⁠M(1 − 2ν)
+2(1 − ν) ⁠
+2D Formulae
+Knowns
+(K)
+(E)
+(λ)
+(G)
+(ν)
+(M)
+(K2D, E2D)
+⁠
+2K2D(2K2D − E2D)
+4K2D − E2D
+⁠ ⁠
+K2DE2D
+4K2D − E2D⁠
+⁠
+2K2D − E2D
+2K2D
+⁠
+⁠
+4K2D^2
+4K2D − E2D⁠
+(K2D, λ2D)
+⁠
+4K2D(K2D − λ2D)
+2K2D − λ2D
+⁠
+K2D − λ2D
+⁠ λ2D
+2K2D − λ2D⁠
+2K2D − λ2D
+(K2D, G2D)
+⁠
+4K2DG2D
+K2D + G2D⁠
+K2D − G2D
+⁠
+K2D − G2D
+K2D + G2D⁠
+K2D + G2D
+(K2D, ν2D)
+2K2D(1 − ν2D)
+⁠
+2K2Dν2D
+1 + ν2D ⁠
+⁠
+K2D(1 − ν2D)
+1 + ν2D
+⁠
+⁠
+2K2D
+1 + ν2D⁠
+(E2D, G2D)
+⁠
+E2DG2D
+4G2D − E2D⁠
+⁠
+2G2D(E2D − 2G2D)
+4G2D − E2D
+⁠
+⁠
+E2D
+2G2D⁠ − 1
+⁠
+4G2D^2
+4G2D − E2D⁠
+(E2D, ν2D)
+⁠
+E2D
+2(1 − ν2D)⁠
+⁠
+E2Dν2D
+(1 + ν2D)(1 − ν2D)⁠
+⁠
+E2D
+2(1 + ν2D)⁠
+⁠
+E2D
+(1 + ν2D)(1 − ν2D)⁠
+(λ2D, G2D) λ2D + G2D
+⁠
+4G2D(λ2D + G2D) λ2D + 2G2D
+⁠
+⁠ λ2D λ2D + 2G2D⁠ λ2D + 2G2D
+(λ2D, ν2D)
+⁠ λ2D(1 + ν2D)
+2ν2D
+⁠ ⁠ λ2D(1 + ν2D)(1 − ν2D) ν2D
+⁠
+⁠ λ2D(1 − ν2D)
+2ν2D
+⁠
+⁠ λ2D ν2D⁠
+(G2D, ν2D)
+⁠
+G2D(1 + ν2D)
+1 − ν2D
+⁠
+2G2D(1 + ν2D)
+⁠
+2 G2D ν2D
+1 − ν2D ⁠
+⁠
+2G2D
+1 − ν2D⁠
+(G2D, M2D)
+M2D − G2D
+⁠
+4G2D(M2D − G2D)
+M2D
+⁠
+M2D − 2G2D
+⁠
+M2D − 2G2D
+M2D
+⁠
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Bulk_modulus&oldid=1328018628"

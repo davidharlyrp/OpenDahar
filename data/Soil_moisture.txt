@@ -1,0 +1,342 @@
+A historic surface soil moisture change in the Horn of Africa from August 2020 -
+December 2022
+Soil moisture
+Soil moisture is the water content of the soil. It can be expressed in terms of volume or weight. Soil moisture measurement can be based on in situ probes (e.g., capacitance probes, neutron probes) or remote sensing methods.[1][2]
+Water that enters a field is removed from it by runoff, drainage, evaporation or transpiration.[3] Runoff is the water that flows on the surface to the edge of the field; drainage is the water that flows through the soil downward or toward the edge of the field underground; evaporative water loss from a field is that part of the water that evaporates into the atmosphere directly from the field's surface; transpiration is the loss of water from the field by its evaporation from the plant itself.
+Water affects soil formation, structure, stability and erosion but is of primary concern with respect to plant growth.[4] Water is essential to plants for four reasons:
+1. It constitutes 80–95% of the plant's protoplasm.
+2. It is essential for photosynthesis.
+3. It is the solvent in which nutrients are carried to, into and throughout the plant.
+4. It provides the turgidity by which the plant keeps itself in proper position.[5]
+In addition, water alters the soil profile by dissolving and re-depositing mineral and organic solutes and colloids, often at lower levels, a process called leaching. In a loam soil, solids constitute half the volume, gas one-quarter of the volume, and water one-quarter of the volume of which only half will be available to most plants, with a strong variation according to matric potential.[6]
+Water moves in soil under the influence of gravity, osmosis and capillarity.[7] When water enters the soil, it displaces air from interconnected macropores by buoyancy, and breaks aggregates into which air is entrapped, a process called slaking.[8]
+The rate at which a soil can absorb water depends on the soil and its other conditions. As a plant grows, its roots remove water from the largest pores (macropores) first. Soon the larger pores hold only air, and the remaining water is found only in the intermediate- and smallest-sized pores (micropores). The water in the smallest pores is so strongly held to particle surfaces that plant roots cannot pull it away.
+Consequently, not all soil water is available to plants, with a strong dependence on texture.[9] When saturated, the soil may lose nutrients as the water drains.[10] Water moves in a draining field under the influence of pressure where the soil is locally saturated and by capillarity pull to drier parts of the soil.[11]
+Most plant water needs are supplied from the suction caused by evaporation from plant leaves
+(transpiration) and a lower fraction is supplied by suction created by osmotic pressure differences between the plant interior and the soil solution.[12][13] Plant roots must seek out water and grow
+0:00
+A soil-air matrix exhibiting gravitational, capillary and hygroscopic water.
+ECMWF soil moisture forecast for the
+East Asia region, showing the key moisture levels and intermediate measurements preferentially in moister soil microsites,[14] but some parts of the root system are also able to remoisten dry parts of the soil.[15] Insufficient water will damage the yield of a crop.[16] Most of the available water is used in transpiration to pull nutrients into the plant.[17]
+Soil water is also important for climate modeling and numerical weather prediction. The Global Climate
+Observing System specified soil water as one of the 50 Essential Climate Variables (ECVs).[18] Soil water can be measured in situ with soil moisture sensors or can be estimated at various scales and resolution:
+from local or wifi measures via sensors in the soil to satellite imagery that combines data capture and hydrological models. Each method exhibits pros and cons, and hence, the integration of different techniques may decrease the drawbacks of a single given method.[19]
+Field capacity
+A flooded field will drain the gravitational water under the influence of gravity until water's adhesive and cohesive forces resist further drainage at which point it is said to have reached field capacity.[20] At that point, plants must apply suction to draw water from a soil. By convention it is defined at 0.33 bar suction.[20][21]
+Available water and unavailable water
+The water that plants may draw from the soil is called the available water.[20][22] Once the available water is used up the remaining moisture is called unavailable water as the plant cannot produce sufficient suction to draw that water in.
+Wilting point
+The wilting point is the minimum amount of water plants need to not wilt and approximates the boundary between available and unavailable water. By convention it is defined as 15 bar suction. At this point, seeds will not germinate,[23][20][24] plants begin to wilt and then die unless they are able to recover after water replenishment thanks to species-specific adaptations.[25]
+Water is retained in a soil when the adhesive force of attraction that water's hydrogen atoms have for the oxygen of soil particles is stronger than the cohesive forces that water's hydrogen feels for water oxygen atoms.[26] When a field is flooded, the soil pore space is completely filled by water. The field will drain under the force of gravity until it reaches what is called field capacity, at which point the smallest pores are filled with water and the largest with water and gases.[27] The total amount of water held when field capacity is reached is a function of the specific surface area of the soil particles.[28] As a result, high clay and high organic soils have higher field capacities.[29] The potential
+Moisture level concepts
+Water retention energy of water per unit volume relative to pure water in reference conditions is called water potential.
+Total water potential is a sum of matric potential which results from capillary action, osmotic potential for saline soil, and gravitational potential when dealing with downward water movement. Water potential in soil usually has negative values, and therefore it is also expressed in suction, which is defined as the minus of water potential. Suction has a positive value and can be regarded as the total force required to pull or push water out of soil. Water potential or suction is expressed in units of kPa (103 pascal), bar
+(100 kPa), or cm H2O (approximately 0.098 kPa). Common logarithm of suction in cm H2O is called pF.[30] Therefore, pF 3 = 1000 cm = 98 kPa = 0.98 bar.
+The forces with which water is held in soils determine its availability to plants. Forces of adhesion hold water strongly to mineral and humus surfaces and less strongly to itself by cohesive forces. A plant's root may penetrate a very small volume of water that is adhering to soil and be initially able to draw in water that is only lightly held by the cohesive forces. But as the droplet is drawn down, the forces of adhesion of the water for the soil particles produce increasingly higher suction, finally up to 1500  kPa (pF =
+4.2).[31] At 1500 kPa suction, the soil water amount is called wilting point. At that suction the plant cannot sustain its water needs as water is still being lost from the plant by transpiration, the plant's turgidity is lost, and it wilts, although stomatal closure may decrease transpiration and thus may retard wilting below the wilting point, in particular under adaptation or acclimatization to drought.[32] The next level, called air-dry, occurs at 100,000 kPa suction (pF = 6). Finally the oven dry condition is reached at
+1,000,000 kPa suction (pF = 7). All water below wilting point is called unavailable water.[33]
+When the soil moisture content is optimal for plant growth, the water in the large (macropores) and intermediate (mesopores) size pores can move about in the soil and be easily used by plants.[9] The amount of water remaining in a soil drained to field capacity and the amount that is available are functions of the soil texture. Sandy soil will retain very little water, while clay will hold the maximum amount.[29] The available water for the silt loam might be 20% whereas for the sand it might be only 6% by volume, as shown in this table.
+Wilting point, field capacity, and available water of various soil textures
+(unit: % by volume)[34]
+Soil Texture
+Wilting Point
+Field Capacity
+Available water
+Sand
+3.3
+9.1
+5.8
+Sandy loam
+9.5
+20.7
+11.2
+Loam
+11.7
+27.0
+15.3
+Silt loam
+13.3
+33.0
+19.7
+Clay loam
+19.7
+31.8
+12.1
+Clay
+27.2
+39.6
+12.4
+The above are average values for the soil textures.
+Water moves through soil due to the forces of gravity, osmosis and capillarity. At 0 to 33 kPa suction
+(field capacity), water is pushed through soil from the point of its application under the force of gravity and the pressure gradient created by differences in the pressure of water; this is called saturated flow. At
+Water flow higher suction, water movement is pulled by capillarity from wetter toward drier soil. This is caused by water's adhesion to soil solids, and is called unsaturated flow.[35][36]
+Water infiltration and movement in soil are controlled by six factors:
+1. Soil texture
+2. Soil structure. Fine-textured soils with granular structure are most favourable to infiltration of water.
+3. The amount of organic matter. Coarse matter is best and if on the surface helps prevent the destruction of soil structure and the creation of soil crusts.
+4. Depth of soil to impervious layers such as hardpans or bedrock
+5. The amount of water already in the soil
+6. Soil temperature. Warm soils take in water faster while frozen soils such as permafrost may not be able to absorb depending on the type of freezing.[37]
+Water infiltration rates range from 0.25 cm per hour for high clay soils to 2.5 cm per hour for sand and well stabilized and aggregated soil structures.[38] Water flows through the ground unevenly, in the form of so-called gravity fingers, because of the surface tension between water particles.[39][40]
+Tree roots, whether living or dead, create preferential channels for rainwater flow through soil,[41] magnifying infiltration rates of water up to 27 times.[42]
+Flooding temporarily increases soil permeability in river beds, helping to recharge aquifers.[43]
+Water applied to a soil is pushed by pressure gradients from the point of its application where it is saturated locally, to less saturated areas, such as the vadose zone.[44][45] Once soil is completely wetted, any more water will move downward (leaching), or percolate out of the range of plant roots, carrying with it clay, humus, nutrients, primarily cations, and various contaminants, including pesticides, pollutants, viruses and bacteria, potentially causing groundwater contamination.[46][47] In order of decreasing solubility, the leached nutrients are:
+Calcium
+Magnesium, Sulfur, Potassium; depending upon soil composition
+Nitrogen; usually little, unless nitrate fertiliser was applied recently
+Phosphorus; very little as its forms in soil are of low solubility.[48]
+Water that drains through the soil at macropores when it rains is called gravitational water.[49]
+In the United States percolation water due to rainfall ranges from almost zero centimeters just east of the
+Rocky Mountains to fifty or more centimeters per day in the Appalachian Mountains and the north coast of the Gulf of Mexico.[50]
+Water is pulled by capillary action due to the adhesion force of water to the soil solids, producing a suction gradient from wet towards drier soil[51] and from macropores to micropores.[52] The so-called
+Richards equation allows calculation of the time rate of change of moisture content in soils due to the movement of water in unsaturated soils.[53] Interestingly, this equation attributed to Lorenzo Richards was originally published by Lewis Richardson in 1922.[54] The soil moisture velocity equation,[55] which can be solved using the finite water-content vadose zone flow method,[56][57] describes the velocity of flowing water through an unsaturated soil in the vertical direction. The numerical solution of the
+Richardson/Richards equation allows calculation of unsaturated water flow and solute transport using software such as Hydrus,[58] by giving soil hydraulic parameters of hydraulic functions (water retention function and unsaturated hydraulic conductivity function) and initial and boundary conditions.
+Preferential flow occurs along interconnected macropores, crevices, root and worm channels, which drain water under gravity.[59][60]
+Many models based on soil physics now allow for some representation of preferential flow as a dual continuum, dual porosity or dual permeability options, but these have generally been "bolted on" to the
+Richards solution without any rigorous physical underpinning.[61]
+Of equal importance to the storage and movement of water in soil is the means by which plants acquire it and their nutrients. Most soil water is taken up by plants as passive absorption caused by the pulling force of water evaporating (transpiring) from the long column of water (xylem sap flow) that leads from the plant's roots to its leaves, according to the cohesion-tension theory.[62] The upward movement of water and solutes (hydraulic lift) is regulated in the roots by the endodermis[63] and in the plant foliage by stomatal conductance,[64] and can be interrupted in root and shoot xylem vessels by cavitation, also called xylem embolism.[65] In addition, the high concentration of salts within plant roots creates an osmotic pressure gradient that pushes soil water into the roots.[66] Osmotic absorption becomes more important during times of low water transpiration caused by lower temperatures (for example at night) or high humidity, and the reverse occurs under high temperature or low humidity. It is these processes that cause guttation and wilting, respectively.[67][68]
+Root extension is vital for plant survival. A study of a single winter rye plant grown for four months in one cubic foot (0.0283 cubic meters) of loam soil showed that the plant developed 13,800,000 roots, a total of 620 km in length with 237 square meters in surface area; and 14 billion root hairs of 10,620 km total length and 400 square meters total area; for a total surface area of 638 square meters. The total surface area of the loam soil was estimated to be 52,000 square meters.[69] In other words, the roots were in contact with only 1.2% of the soil volume. However, root extension should be viewed as a dynamic process, allowing new roots to explore a new volume of soil each day, increasing dramatically the total volume of soil explored over a given growth period, and thus the volume of water taken up by the root system over this period.[70] Root architecture, i.e. the spatial configuration of the root system, plays a prominent role in the adaptation of plants to soil water and nutrient availability, and thus in plant productivity.[71]
+Roots must seek out water as the unsaturated flow of water in soil can move only at a rate of up to 2.5 cm per day; as a result they are constantly dying and growing as they seek out high concentrations of soil moisture.[72] Insufficient soil moisture, to the point of causing wilting, will cause permanent damage and crop yields will suffer. When grain sorghum was exposed to soil suction as low as 1300 kPa during the seed head emergence through bloom and seed set stages of growth, its production was reduced by
+34%.[73]
+Water uptake by plants
+Only a small fraction (0.1% to 1%) of the water used by a plant is held within the plant. The majority is ultimately lost via transpiration. At the same time evaporation from the soil surface is also substantial, the transpiration:evaporation ratio (T/ET) varying according to vegetation type and climate, peaking in tropical rainforests and dipping in steppes and deserts.[74] Transpiration plus evaporative soil moisture loss is called evapotranspiration. Evapotranspiration plus water held in the plant totals to consumptive use, which is nearly identical to evapotranspiration.[73][75]
+The total water used in an agricultural field includes surface runoff, drainage and consumptive use. The use of loose mulches will reduce evaporative losses for a period after a field is irrigated, but in the end, the total evaporative loss (plant plus soil) will approach that of uncovered soil, while more water is immediately available for plant growth.[76] Water use efficiency is measured by the transpiration ratio, which is the ratio of the total water transpired by a plant to the dry weight of the harvested plant.
+Transpiration ratios for crops range from 300 to 700. For example, alfalfa may have a transpiration ratio of 500; as a result, 500 kilograms of water will produce one kilogram of dry alfalfa.[77]
+1. Zhang, Lijie; Zeng, Yijian; Zhuang, Ruodan; Szabó, Brigitta; Manfreda, Salvatore; Han,
+Qianqian; Su, Zhongbo (2 December 2021). "In situ observation-constrained global surface soil moisture using Random Forest model" (https://doi.org/10.3390%2Frs13234893).
+Remote Sensing. 13 (23): 4893. Bibcode:2021RemS...13.4893Z (https://ui.adsabs.harvard.e du/abs/2021RemS...13.4893Z). doi:10.3390/rs13234893 (https://doi.org/10.3390%2Frs1323
+4893). ISSN 2072-4292 (https://search.worldcat.org/issn/2072-4292).
+2. Albergel, Clement; de Rosnay, Patricia; Gruhier, Claire; Muñoz-Sabater, Joaquin;
+Hasenauer, Stefan; Isaksen, Lars; Kerr, Yann; Wagner, Wolfgang (15 March 2012).
+"Evaluation of remotely sensed and modelled soil moisture products using global ground- based in situ observations" (https://fr.1lib.sk/book/49439415/06c81f). Remote Sensing of
+Environment. 118: 215–26. Bibcode:2012RSEnv.118..215A (https://ui.adsabs.harvard.edu/a bs/2012RSEnv.118..215A). doi:10.1016/j.rse.2011.11.017 (https://doi.org/10.1016%2Fj.rse.
+2011.11.017). Retrieved 4 July 2025.
+3. Wallace, James S.; Batchelor, Charles H. (1997). "Managing water resources for crop production" (https://fr.1lib.sk/book/53408661/16f118). Philosophical Transactions of the
+Royal Society B: Biological Sciences. 352 (1356): 937–47. doi:10.1098/rstb.1997.0073 (http s://doi.org/10.1098%2Frstb.1997.0073). PMC 1691982 (https://www.ncbi.nlm.nih.gov/pmc/a rticles/PMC1691982). Archived (https://web.archive.org/web/20220814073218/https://art1li b.org/book/21197372/f63709) from the original on 14 August 2022. Retrieved 4 July 2025.
+4. Veihmeyer, Frank J.; Hendrickson, Arthur H. (1927). "Soil-moisture conditions in relation to plant growth" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC439946). Plant Physiology. 2
+(1): 71–82. Bibcode:1927PlanP...2...71V (https://ui.adsabs.harvard.edu/abs/1927PlanP...2...
+71V). doi:10.1104/pp.2.1.71 (https://doi.org/10.1104%2Fpp.2.1.71). PMC 439946 (https://w ww.ncbi.nlm.nih.gov/pmc/articles/PMC439946). PMID 16652508 (https://pubmed.ncbi.nlm.ni h.gov/16652508).
+5. Donahue, Miller & Shickluna 1977, p. 72.
+Consumptive use and water use efficiency
+References
+6. Ratliff, Larry F.; Ritchie, Jerry T.; Cassel, D. Keith (1983). "Field-measured limits of soil water availability as related to laboratory-measured properties" (https://www.researchgate.net/publ ication/250125818). Soil Science Society of America Journal. 47 (4): 770–75.
+Bibcode:1983SSASJ..47..770R (https://ui.adsabs.harvard.edu/abs/1983SSASJ..47..770R).
+doi:10.2136/sssaj1983.03615995004700040032x (https://doi.org/10.2136%2Fsssaj1983.03
+615995004700040032x). Retrieved 7 July 2025.
+7. "Water movement in soils" (http://www.soilphysics.okstate.edu/software/water/infil.html).
+Oklahoma State University, Department of Plant and Soil Sciences. Stillwater, Oklahoma.
+Retrieved 7 July 2025.
+8. Le Bissonnais, Yves (2016). "Aggregate stability and assessment of soil crustability and erodibility. I. Theory and methodology" (https://www.academia.edu/12789600). European
+Journal of Soil Science. 67 (1): 11–21. Bibcode:2016EuJSS..67...11L (https://ui.adsabs.harv ard.edu/abs/2016EuJSS..67...11L). doi:10.1111/ejss.4_12311 (https://doi.org/10.1111%2Fej ss.4_12311). S2CID 247704630 (https://api.semanticscholar.org/CorpusID:247704630).
+Retrieved 7 July 2025.
+9. Easton, Zachary M.; Bock, Emily (22 March 2016). "Soil and soil water relationships" (http s://vtechworks.lib.vt.edu/bitstream/handle/10919/75545/BSE-194.pdf) (PDF). Virginia Tech.
+hdl:10919/75545 (https://hdl.handle.net/10919%2F75545). Retrieved 7 July 2025.
+10. Sims, J. Thomas; Simard, Régis R.; Joern, Brad Christopher (1998). "Phosphorus loss in agricultural drainage: historical perspective and current research" (https://www.researchgat e.net/publication/247175178). Journal of Environmental Quality. 27 (2): 277–93.
+Bibcode:1998JEnvQ..27..277S (https://ui.adsabs.harvard.edu/abs/1998JEnvQ..27..277S).
+doi:10.2134/jeq1998.00472425002700020006x (https://doi.org/10.2134%2Fjeq1998.004724
+25002700020006x). Retrieved 7 July 2025.
+11. Brooks, Randall H.; Corey, Arthur T. (1964). Hydraulic properties of porous media (https://mo untainscholar.org/bitstream/handle/10217/61288/HydrologyPapers_n3.pdf) (PDF). Fort
+Collins, Colorado: Colorado State University. Retrieved 7 July 2025.
+12. McElrone, Andrew J.; Choat, Brendan; Gambetta, Greg A.; Brodersen, Craig R. "Water uptake and transport in vascular plants" (http://nnhsbergbio.pbworks.com/w/file/fetch/13124
+0283/READING_Water%20Uptake%20and%20Transport%20in%20Vascular%20Plants.pdf)
+(PDF). Retrieved 7 July 2025.
+13. Steudle, Ernst (2000). "Water uptake by plant roots: an integration of views" (https://www.es alq.usp.br/lepse/imgs/conteudo_thumb/mini/Water-uptake-by-plant-roots-an-integration-of-vi ews.pdf) (PDF). Plant and Soil. 226 (1): 45–56. Bibcode:2000PlSoi.226...45S (https://ui.ads abs.harvard.edu/abs/2000PlSoi.226...45S). doi:10.1023/A:1026439226716 (https://doi.org/1
+0.1023%2FA%3A1026439226716). S2CID 3338727 (https://api.semanticscholar.org/Corpus
+ID:3338727). Retrieved 7 July 2025.
+14. Wilcox, Carolyn S.; Ferguson, Joseph W.; Fernandez, George C.J.; Nowak, Robert S.
+(2004). "Fine root growth dynamics of four Mojave Desert shrubs as related to soil moisture and microsite" (https://fr.z-library.sk/book/49897579/0b61c8). Journal of Arid Environments.
+56 (1): 129–48. Bibcode:2004JArEn..56..129W (https://ui.adsabs.harvard.edu/abs/2004JArE n..56..129W). doi:10.1016/S0140-1963(02)00324-5 (https://doi.org/10.1016%2FS0140-196
+3%2802%2900324-5). Retrieved 7 July 2025.
+15. Hunter, Albert S.; Kelley, Omer J. (1946). "The extension of plant roots into dry soil" (https:// www.ncbi.nlm.nih.gov/pmc/articles/PMC437296). Plant Physiology. 21 (4): 445–51.
+Bibcode:1946PlanP..21..445H (https://ui.adsabs.harvard.edu/abs/1946PlanP..21..445H).
+doi:10.1104/pp.21.4.445 (https://doi.org/10.1104%2Fpp.21.4.445). PMC 437296 (https://ww w.ncbi.nlm.nih.gov/pmc/articles/PMC437296). PMID 16654059 (https://pubmed.ncbi.nlm.ni h.gov/16654059).
+16. Zhang, Yongqiang; Kendy, Eloise; Qiang, Yu; Liu, Changming; Shen, Yanjun; Sun,
+Hongyong (2004). "Effect of soil water deficit on evapotranspiration, crop yield, and water use efficiency in the North China Plain" (https://www.academia.edu/21970856). Agricultural
+Water Management. 64 (2): 107–22. Bibcode:2004AgWM...64..107Z (https://ui.adsabs.harv ard.edu/abs/2004AgWM...64..107Z). doi:10.1016/S0378-3774(03)00201-4 (https://doi.org/1
+0.1016%2FS0378-3774%2803%2900201-4). Retrieved 7 July 2025.
+17. Oyewole, Olusegun Ayodeji; Inselsbacher, Erich; Näsholm, Torgny (2014). "Direct estimation of mass flow and diffusion of nitrogen compounds in solution and soil" (https://doi.org/10.111
+1%2Fnph.12553). New Phytologist. 201 (3): 1056–64. Bibcode:2014NewPh.201.1056O (htt ps://ui.adsabs.harvard.edu/abs/2014NewPh.201.1056O). doi:10.1111/nph.12553 (https://do i.org/10.1111%2Fnph.12553). PMID 24134319 (https://pubmed.ncbi.nlm.nih.gov/24134319).
+18. "Essential Climate Variables" (https://gcos.wmo.int/en/essential-climate-variables). Global
+Climate Observing System. 2013. Retrieved 7 July 2025.
+19. Brocca, Luca; Hasenauer, Stefan; Lacava, Teodosio; Moramarco, Tommaso; Wagner,
+Wolfgang; Dorigo, Wouter; Matgen, Patrick; Martínez-Fernández, José; Llorens, Pilar;
+Latron, Jérôme; Martin, Claude; Bittelli, Marco (2011). "Soil moisture estimation through
+ASCAT and AMSR-E sensors: an intercomparison and validation study across Europe" (http s://www.academia.edu/82338226). Remote Sensing of Environment. 115 (12): 3390–408.
+Bibcode:2011RSEnv.115.3390B (https://ui.adsabs.harvard.edu/abs/2011RSEnv.115.3390
+B). doi:10.1016/j.rse.2011.08.003 (https://doi.org/10.1016%2Fj.rse.2011.08.003). Retrieved
+7 July 2025.
+20. Wadleigh 1957, p. 48.
+21. Richards & Richards 1957, p. 50.
+22. Richards & Richards 1957, p. 56.
+23. Wadleigh 1957, p. 39.
+24. Richards & Richards 1957, p. 52.
+25. Snyman, Henny A.; Venter, François W.D.; Van Rensburg, Walter L.J.; Opperman, D.P.J.
+(1987). "Ranking of grass species according to visible wilting order and rate of recovery in the Central Orange Free State" (https://www.researchgate.net/publication/232842548).
+Journal of the Grassland Society of Southern Africa. 4 (2): 78–81.
+doi:10.1080/02566702.1987.9648075 (https://doi.org/10.1080%2F02566702.1987.964807
+5). Retrieved 7 July 2025.
+26. Donahue, Miller & Shickluna 1977, pp. 72–74.
+27. "Soil and water" (https://www.fao.org/3/r4082e/r4082e03.htm). Food and Agriculture
+Organization of the United Nations. Retrieved 7 July 2025.
+28. Petersen, Lis Wollesen; Møldrup, Per; Jacobsen, Ole H.; Rolston, Dennis E. (1996).
+"Relations between specific surface area and soil physical and chemical properties" (https:// www.researchgate.net/publication/232162864). Soil Science. 161 (1): 9–21.
+Bibcode:1996SoilS.161....9P (https://ui.adsabs.harvard.edu/abs/1996SoilS.161....9P).
+doi:10.1097/00010694-199601000-00003 (https://doi.org/10.1097%2F00010694-199601000
+-00003). Retrieved 7 July 2025.
+29. Gupta, Satish C.; Larson, William E. (1979). "Estimating soil water retention characteristics from particle size distribution, organic matter percent, and bulk density" (https://www.researc hgate.net/publication/252286022). Water Resources Research. 15 (6): 1633–35.
+Bibcode:1979WRR....15.1633G (https://ui.adsabs.harvard.edu/abs/1979WRR....15.1633G).
+CiteSeerX 10.1.1.475.497 (https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.475.4
+97). doi:10.1029/WR015i006p01633 (https://doi.org/10.1029%2FWR015i006p01633).
+Retrieved 7 July 2025.
+30. Woodruff, Charles M. (1941). "Soil moisture and plant growth in relation to pF" (https://fr.z-lib rary.sk/book/55334513/986c11). Soil Science Society of America Proceedings. 5 (C): 36–
+41. Bibcode:1941SSASJ...5...36W (https://ui.adsabs.harvard.edu/abs/1941SSASJ...5...36
+W). doi:10.2136/sssaj1941.036159950005000C0006x (https://doi.org/10.2136%2Fsssaj194
+1.036159950005000C0006x). Retrieved 7 July 2025.
+31. Savage, Michael J.; Ritchie, Joe T.; Bland, William L.; Dugas, William A. (1996). "Lower limit of soil water availability" (https://www.researchgate.net/publication/309079210). Agronomy
+Journal. 88 (4): 644–51. Bibcode:1996AgrJ...88..644S (https://ui.adsabs.harvard.edu/abs/19
+96AgrJ...88..644S). doi:10.2134/agronj1996.00021962008800040024x (https://doi.org/10.21
+34%2Fagronj1996.00021962008800040024x). Retrieved 8 July 2025.
+32. Al-Ani, Tariq; Bierhuizen, Johan Frederik (1971). "Stomatal resistance, transpiration, and relative water content as influenced by soil moisture stress" (https://natuurtijdschriften.nl/pu b/539770/ABN1971020003008.pdf) (PDF). Acta Botanica Neerlandica. 20 (3): 318–26.
+Bibcode:1971AcBN...20..318A (https://ui.adsabs.harvard.edu/abs/1971AcBN...20..318A).
+doi:10.1111/j.1438-8677.1971.tb00715.x (https://doi.org/10.1111%2Fj.1438-8677.1971.tb00
+715.x). Retrieved 8 July 2025.
+33. Donahue, Miller & Shickluna 1977, pp. 75–76.
+34. Rawls, Walter J.; Brakensiek, Donald L.; Saxtonn, Keith E. (1982). "Estimation of soil water properties" (https://fr.1lib.sk/book/101138954/31140f). Transactions of the ASAE. 25 (5):
+1316–20. doi:10.13031/2013.33720 (https://doi.org/10.13031%2F2013.33720). Retrieved
+8 July 2025.
+35. Donahue, Miller & Shickluna 1977, p. 85.
+36. Arunkumar, Sharma (November 2021). "Soil water movement: saturated and unsaturated flow" (https://www.researchgate.net/publication/360426760). AgriCos E-Newsletter. 2 (11):
+29–33. ISSN 2582-7049 (https://search.worldcat.org/issn/2582-7049). Retrieved 8 July
+2025.
+37. Donahue, Miller & Shickluna 1977, p. 86.
+38. Donahue, Miller & Shickluna 1977, p. 88.
+39. Cueto-Felgueroso, Luis; Juanes, Ruben (2008). "Nonlocal interface dynamics and pattern formation in gravity-driven unsaturated flow through porous media" (https://fr.1lib.sk/book/65
+227052/eb6100). Physical Review Letters. 101 (24) 244504.
+Bibcode:2008PhRvL.101x4504C (https://ui.adsabs.harvard.edu/abs/2008PhRvL.101x4504
+C). doi:10.1103/PhysRevLett.101.244504 (https://doi.org/10.1103%2FPhysRevLett.101.244
+504). PMID 19113626 (https://pubmed.ncbi.nlm.nih.gov/19113626). S2CID 21874968 (http s://api.semanticscholar.org/CorpusID:21874968). Retrieved 8 July 2025.
+40. Liu, Yaping; Steenhuis, Tammo S.; Parlange, Jean-Yves (2008). "Nonlocal interface dynamics and pattern formation in gravity-driven unsaturated flow through porous media" (ht tps://www.academia.edu/11578788). Journal of Hydrology. 159 (1–4): 187–95.
+doi:10.1016/0022-1694(94)90255-0 (https://doi.org/10.1016%2F0022-1694%2894%299025
+5-0). Retrieved 8 July 2025.
+41. Ghestem, Murielle; Sidle, Roy C.; Stokes, Alexia (2011). "The influence of plant root systems on subsurface flow: implications for slope stability" (https://www.researchgate.net/p ublication/232693766). BioScience. 61 (11): 869–79. Bibcode:2011BiSci..61..869G (https://u i.adsabs.harvard.edu/abs/2011BiSci..61..869G). doi:10.1525/bio.2011.61.11.6 (https://doi.or g/10.1525%2Fbio.2011.61.11.6). Retrieved 8 July 2025.
+42. Bartens, Julia; Day, Susan D.; Harris, J. Roger; Dove, Joseph E.; Wynn, Theresa M. (2008).
+"Can urban tree roots improve infiltration through compacted subsoils for stormwater management?" (https://www.researchgate.net/publication/23411104). Journal of
+Environmental Quality. 37 (6): 2048–57. Bibcode:2008JEnvQ..37.2048B (https://ui.adsabs.h arvard.edu/abs/2008JEnvQ..37.2048B). doi:10.2134/jeq2008.0117 (https://doi.org/10.213
+4%2Fjeq2008.0117). PMID 18948457 (https://pubmed.ncbi.nlm.nih.gov/18948457).
+Retrieved 8 July 2025.
+43. Zhang, Guohua; Feng, Gary; Li, Xinhu; Xie, Congbao; P, Xiaoyu (2017). "Flood effect on groundwater recharge on a typical silt loam soil" (https://doi.org/10.3390%2Fw9070523).
+Water. 9 (7): 523. Bibcode:2017Water...9..523Z (https://ui.adsabs.harvard.edu/abs/2017Wat er...9..523Z). doi:10.3390/w9070523 (https://doi.org/10.3390%2Fw9070523).
+44. Nielsen, Donald R.; Biggar, James W.; Erh, Koon T. (1973). "Spatial variability of field- measured soil-water properties" (https://web.archive.org/web/20180720105724/http://hilgard ia.ucanr.edu/fileaccess.cfm?article=152767&p=EMWHPU). Hilgardia. 42 (7): 215–59.
+doi:10.3733/hilg.v42n07p215 (https://doi.org/10.3733%2Fhilg.v42n07p215). Archived from the original on 20 July 2018. Retrieved 8 July 2025.
+45. Rimon, Yaara; Dahan, Ofer; Nativ, Ronit; Geyer, Stefan (2007). "Water percolation through the deep vadose zone and groundwater recharge: preliminary results based on a new vadose zone monitoring system" (https://doi.org/10.1029%2F2006WR004855). Water
+Resources Research. 43 (5): W05402. Bibcode:2007WRR....43.5402R (https://ui.adsabs.ha rvard.edu/abs/2007WRR....43.5402R). doi:10.1029/2006WR004855 (https://doi.org/10.102
+9%2F2006WR004855).
+46. Weiss, Peter T.; LeFevre, Greg; Gulliver, John S. (2008). "Contamination of soil and groundwater due to stormwater infiltration practices: a literature review" (https://conservanc y.umn.edu/bitstream/handle/11299/115341/pr515.pdf) (PDF). Saint Anthony Falls
+Laboratory. CiteSeerX 10.1.1.410.5113 (https://citeseerx.ist.psu.edu/viewdoc/summary?doi
+=10.1.1.410.5113). Retrieved 8 July 2025.
+47. Hagedorn, Charles; Hansen, Debra T.; Simonson, Gerald H. (1978). "Survival and movement of fecal indicator bacteria in soil under conditions of saturated flow" (https://fr.1lib.
+sk/book/98434076/609f06). Journal of Environmental Quality. 7 (1): 55–9.
+Bibcode:1978JEnvQ...7...55H (https://ui.adsabs.harvard.edu/abs/1978JEnvQ...7...55H).
+doi:10.2134/jeq1978.00472425000700010011x (https://doi.org/10.2134%2Fjeq1978.004724
+25000700010011x). S2CID 774611 (https://api.semanticscholar.org/CorpusID:774611).
+Retrieved 8 July 2025.
+48. Donahue, Miller & Shickluna 1977, p. 90.
+49. Sela, Guy (2019-09-22). "Understanding Soil Water Dynamics| Guy Sela | Cropaia" (https://c ropaia.com/blog/soil-water-content/). Retrieved 2025-10-24.
+50. Donahue, Miller & Shickluna 1977, p. 80.
+51. Ng, Charles W.W.; Pang, Wenyan (2000). "Influence of stress state on soil-water characteristics and slope stability" (https://www.researchgate.net/publication/245293642).
+Journal of Geotechnical & Geoenvironmental Engineering. 126 (2): 157–66.
+Bibcode:2000JGGE..126..157N (https://ui.adsabs.harvard.edu/abs/2000JGGE..126..157N).
+doi:10.1061/(ASCE)1090-0241(2000)126:2(157) (https://doi.org/10.1061%2F%28ASCE%29
+1090-0241%282000%29126%3A2%28157%29). Retrieved 8 July 2025.
+52. Germann, Peter Fritz; Beven, Keith (2006). "Water flow in soil macropores. I. An experimental approach" (https://www.researchgate.net/publication/229674098). Journal of
+Soil Science. 32 (1): 1–13. doi:10.1111/j.1365-2389.1981.tb01681.x (https://doi.org/10.111
+1%2Fj.1365-2389.1981.tb01681.x). Retrieved 8 July 2025.
+53. Richards, Lorenzo A. (1931). "Capillary conduction of liquids through porous mediums" (http s://fr.1lib.sk/book/47761527/a62462). Physics. 1 (5): 318–33. Bibcode:1931Physi...1..318R
+(https://ui.adsabs.harvard.edu/abs/1931Physi...1..318R). doi:10.1063/1.1745010 (https://doi.
+org/10.1063%2F1.1745010). Retrieved 8 July 2025.
+54. Richardson, Lewis Fry (1922). Weather prediction by numerical process (https://archive.org/ details/weatherpredictio00richrich). Cambridge, United Kingdom: Cambridge University
+Press. p. 262. Retrieved 8 July 2025.
+55. Ogden, Fred L.; Allen, Myron B.; Lai, Wencong; Zhu, Julian; Douglas, Craig C.; Seo,
+Mookwon; Talbot, Cary A. (2017). "The soil moisture velocity equation" (https://doi.org/10.10
+02%2F2017MS000931). Journal of Advances in Modeling Earth Systems. 9 (2): 1473–87.
+Bibcode:2017JAMES...9.1473O (https://ui.adsabs.harvard.edu/abs/2017JAMES...9.1473O).
+doi:10.1002/2017MS000931 (https://doi.org/10.1002%2F2017MS000931).
+56. Talbot, Cary A.; Ogden, Fred L. (2008). "A method for computing infiltration and redistribution in a discretized moisture content domain" (https://doi.org/10.1029%2F2008WR
+006815). Water Resources Research. 44 (8): W08453. Bibcode:2008WRR....44.8453T (http s://ui.adsabs.harvard.edu/abs/2008WRR....44.8453T). doi:10.1029/2008WR006815 (https:// doi.org/10.1029%2F2008WR006815).
+57. Ogden, Fred L.; Lai, Wencong; Steinke, Robert C.; Zhu, Julian; Talbot, Cary A.; Wilson,
+John L. (2015). "A new general 1-D vadose zone solution method" (https://doi.org/10.1002%
+2F2015WR017126). Water Resources Research. 51 (6): 4282–300.
+Bibcode:2015WRR....51.4282O (https://ui.adsabs.harvard.edu/abs/2015WRR....51.4282O).
+doi:10.1002/2015WR017126 (https://doi.org/10.1002%2F2015WR017126).
+S2CID 119834716 (https://api.semanticscholar.org/CorpusID:119834716).
+58. Šimůnek, Jiri; Saito, Hirotaka; Sakai, Masaru; Van Genuchten, Martinus Th. (2013). "The
+HYDRUS-1D software package for simulating the one-dimensional movement of water, heat, and multiple solutes in variably-saturated media" (https://www.researchgate.net/public ation/271515313). Retrieved 8 July 2025.
+59. Bouma, Johan (1981). "Soil morphology and preferential flow along macropores" (https://ww w.researchgate.net/publication/223095848). Geoderma. 3 (4): 235–50.
+Bibcode:1981AgWM....3..235B (https://ui.adsabs.harvard.edu/abs/1981AgWM....3..235B).
+doi:10.1016/0378-3774(81)90009-3 (https://doi.org/10.1016%2F0378-3774%2881%299000
+9-3). Retrieved 8 July 2025.
+60. Luo, Lifang; Lin, Henry; Halleck, Phil (2008). "Quantifying soil structure and preferential flow in intact soil Using X-ray computed tomography" (https://fr.1lib.sk/book/95895727/844493).
+Soil Science Society of America Journal. 72 (4): 1058–69. Bibcode:2008SSASJ..72.1058L
+(https://ui.adsabs.harvard.edu/abs/2008SSASJ..72.1058L). CiteSeerX 10.1.1.455.2567 (http s://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.455.2567).
+doi:10.2136/sssaj2007.0179 (https://doi.org/10.2136%2Fsssaj2007.0179). Retrieved 8 July
+2025.
+61. Beven, Keith; Germann, Peter (2013). "Macropores and water flow in soils revisited" (https:// boris.unibe.ch/117045/7/Beven_et_al-2013-Water_Resources_Research.pdf) (PDF). Water
+Resources Research. 49 (6): 3071–92. Bibcode:2013WRR....49.3071B (https://ui.adsabs.ha rvard.edu/abs/2013WRR....49.3071B). doi:10.1002/wrcr.20156 (https://doi.org/10.1002%2F wrcr.20156). S2CID 53132908 (https://api.semanticscholar.org/CorpusID:53132908).
+Retrieved 8 July 2025.
+62. Aston, Mervyn J.; Lawlor, David W. (1979). "The relationship between transpiration, root water uptake, and leaf water potential" (https://www.researchgate.net/publication/26962449
+5). Journal of Experimental Botany. 30 (1): 169–81. doi:10.1093/jxb/30.1.169 (https://doi.or g/10.1093%2Fjxb%2F30.1.169). Retrieved 8 July 2025.
+63. Powell, D.B.B. (1978). "Regulation of plant water potential by membranes of the endodermis in young roots" (https://fr.1lib.sk/book/41304815/1e80ef). Plant, Cell and Environment. 1 (1):
+69–76. Bibcode:1978PCEnv...1...69P (https://ui.adsabs.harvard.edu/abs/1978PCEnv...1...69
+P). doi:10.1111/j.1365-3040.1978.tb00749.x (https://doi.org/10.1111%2Fj.1365-3040.1978.t b00749.x). Retrieved 8 July 2025.
+64. Irvine, James; Perks, Michael P.; Magnani, Federico; Grace, John (1998). "The response of
+Pinus sylvestris to drought: stomatal control of transpiration and hydraulic conductance" (htt ps://www.researchgate.net/publication/256472906). Tree Physiology. 18 (6): 393–402.
+doi:10.1093/treephys/18.6.393 (https://doi.org/10.1093%2Ftreephys%2F18.6.393).
+PMID 12651364 (https://pubmed.ncbi.nlm.nih.gov/12651364). Retrieved 8 July 2025.
+65. Jackson, Robert B.; Sperry, John S.; Dawson, Todd E. (2000). "Root water uptake and transport: using physiological processes in global predictions" (https://sperry.biology.utah.ed u/publications/Jackson_2000_Trends-in-Plant-Science.pdf) (PDF). Trends in Plant Science.
+5 (11): 482–88. Bibcode:2000TPS.....5..482J (https://ui.adsabs.harvard.edu/abs/2000TP
+S.....5..482J). doi:10.1016/S1360-1385(00)01766-0 (https://doi.org/10.1016%2FS1360-138
+5%2800%2901766-0). PMID 11077257 (https://pubmed.ncbi.nlm.nih.gov/11077257).
+S2CID 8311441 (https://api.semanticscholar.org/CorpusID:8311441). Retrieved 8 July 2025.
+66. Steudle, Ernst (2000). "Water uptake by plant roots: an integration of views" (https://archive.
+org/details/steudle-2000). Plant and Soil. 226 (1): 45–56. Bibcode:2000PlSoi.226...45S (http s://ui.adsabs.harvard.edu/abs/2000PlSoi.226...45S). doi:10.1023/A:1026439226716 (https:// doi.org/10.1023%2FA%3A1026439226716). S2CID 3338727 (https://api.semanticscholar.or g/CorpusID:3338727). Retrieved 8 July 2025.
+67. Donahue, Miller & Shickluna 1977, p. 92.
+68. Kaufmann, Merrill R.; Eckard, Alan N. (1971). "Evaluation of water stress control with polyethylene glycols by analysis of guttation" (https://fr.1lib.sk/book/72787131/a23603).
+Plant Physiology. 47 (4): 453–56. Bibcode:1971PlanP..47..453K (https://ui.adsabs.harvard.e du/abs/1971PlanP..47..453K). doi:10.1104/pp.47.4.453 (https://doi.org/10.1104%2Fpp.47.4.
+453). PMC 396708 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC396708).
+PMID 16657642 (https://pubmed.ncbi.nlm.nih.gov/16657642). Retrieved 8 July 2025.
+69. Wadleigh 1957, p. 46.
+70. Kramer, Paul J.; Coile, Theodore S. (1940). "An estimation of the volume of water made available by root extension" (https://fr.1lib.sk/book/78778885/777fbc). Plant Physiology. 15
+(4): 743–7. Bibcode:1940PlanP..15..743K (https://ui.adsabs.harvard.edu/abs/1940PlanP..1
+5..743K). doi:10.1104/pp.15.4.743 (https://doi.org/10.1104%2Fpp.15.4.743). PMC 437871
+(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC437871). PMID 16653671 (https://pubmed.n cbi.nlm.nih.gov/16653671). Retrieved 8 July 2025.
+71. Lynch, Jonathan (1995). "Root architecture and plant productivity" (https://fr.1lib.sk/book/815
+54637/f65c64). Plant Physiology. 109 (1): 7–13. doi:10.1104/pp.109.1.7 (https://doi.org/10.1
+104%2Fpp.109.1.7). PMC 157559 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC157559).
+PMID 12228579 (https://pubmed.ncbi.nlm.nih.gov/12228579). Retrieved 8 July 2025.
+72. Comas, Louise H.; Eissenstat, David M.; Lakso, Alan N. (2000). "Assessing root death and root system dynamics in a study of grape canopy pruning" (https://doi.org/10.1046%2Fj.146
+9-8137.2000.00679.x). New Phytologist. 147 (1): 171–78. Bibcode:2000NewPh.147..171C
+(https://ui.adsabs.harvard.edu/abs/2000NewPh.147..171C). doi:10.1046/j.1469-
+8137.2000.00679.x (https://doi.org/10.1046%2Fj.1469-8137.2000.00679.x).
+73. Donahue, Miller & Shickluna 1977, p. 94.
+74. Schlesinger, William H.; Jasechko, Scott (2014). "Transpiration in the global water cycle" (htt ps://fr.1lib.sk/book/55579646/5ecfd6). Agricultural and Forest Meteorology. 189/190: 115–
+17. Bibcode:2014AgFM..189..115S (https://ui.adsabs.harvard.edu/abs/2014AgFM..189..115
+S). doi:10.1016/j.agrformet.2014.01.011 (https://doi.org/10.1016%2Fj.agrformet.2014.01.01
+1). Retrieved 8 July 2025.
+75. Erie, Leonard J.; French, Orrin F.; Harris, Karl (1968). Consumptive use of water by crops in
+Arizona (https://repository.arizona.edu/bitstream/handle/10150/607084/TB169.pdf) (PDF).
+Tucson, Arizona: The University of Arizona. Retrieved 8 July 2025.
+76. Tolk, Judy A.; Howell, Terry A.; Evett, Steve R. (1999). "Effect of mulch, irrigation, and soil type on water use and yield of maize" (https://fr.1lib.sk/book/40810330/7884a2). Soil and
+Tillage Research. 50 (2): 137–47. Bibcode:1999STilR..50..137T (https://ui.adsabs.harvard.e du/abs/1999STilR..50..137T). doi:10.1016/S0167-1987(99)00011-2 (https://doi.org/10.101
+6%2FS0167-1987%2899%2900011-2). Retrieved 8 July 2025.
+77. Donahue, Miller & Shickluna 1977, pp. 97–99.
+Donahue, Roy Luther; Miller, Raymond W.; Shickluna, John C. (1977). Soils: An Introduction to Soils and Plant Growth (https://archive.org/details/soilsintroductio00dona). Prentice-Hall.
+ISBN 978-0-13-821918-5.
+Arizona Master Gardener (https://extension.arizona.edu/publication/arizona-master-gardene r-manual). Cooperative Extension, College of Agriculture, University of Arizona. May 2019.
+Retrieved 20 August 2025.
+Stefferud, Alfred, ed. (1957). Soil: The Yearbook of Agriculture 1957 (http://archive.org/strea m/yoa1957#page/n18/mode/1up). United States Department of Agriculture.
+OCLC 704186906 (https://search.worldcat.org/oclc/704186906).
+Richards & Richards. "Soil Moisture (https://archive.org/stream/yoa1957#page/n68/mod e/1up)". In Stefferud (1957).
+Wadleigh. "Growth of Plants (https://archive.org/stream/yoa1957#page/n57/mode/1up)".
+In Stefferud (1957).
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Soil_moisture&oldid=1338594106"
+Bibliography

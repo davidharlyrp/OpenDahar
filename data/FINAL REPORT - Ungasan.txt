@@ -1,0 +1,868 @@
+i
+
+P E N G A N T A R
+
+Laporan ini kami buat untuk memenuhi permintaan dari pihak perencana/ pemberi tugas untuk melakukan penyelidikan tanah pada proyek PERENCANAAN DED PEMELIHARAAN
+PSU PERUMAHAN DAN PEMUKIMAN DI KAB. BADUNG yang berlokasi di Jl. Nuansa
+Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali. Pelaksanaan fisik pengujian lapangan kami lakukan pada tanggal 6 - 7 Maret 2026 dan dilanjutkan dengan pengujian laboratorium serta analisis data dan penyelesaian pelaporannya.
+
+Demikianlah kami sampaikan laporan ini agar dapat diterima dengan baik, atas perhatian dan kerjasamanya kami mengucapkan terimakasih.
+
+Denpasar, 10 Maret 2026
+
+Penyusun,
+
+(Dewa Ketut Sadiadnya, ST)
+
+ii
+
+DAFTAR ISI
+I. PENDAHULUAN
+1.1. Maksud dan Tujuan
+1.2 Lingkup Pekerjaan
+1.2.1 Pekerjaan Lapangan
+1.2.2 Pekerjaan Laboratorium
+II. HASIL PENGUJIAN
+2.1 Pekerjaan Boring dan Tes SPT
+III. ANALISIS DATA
+3.1 Analisis Daya Dukung Tanah Dari Hasil SPT
+(Tabel.1) Hasil Analisa Daya Dukung Ijin Tanah Berdasarkan Tes SPT
+3.2 Analisis Daya Dukung Pondasi Tiang Tunggal Berdasarkan Data SPT
+(Tabel.2) Hasil Analisa Daya Dukung Tiang Aksial Berdasarkan Tes SPT
+3.3 Analisis Daya Dukung Tanah Berdasarkan Data Laboratorium
+(Tabel.3) Hasil Analisis Daya Dukung Ijin Tanah Berdasarkan Data Laboratorium
+IV. KESIMPULAN DAN SARAN
+V. PENUTUP
+
+I. PENDAHULUAN
+
+1.1. Maksud dan Tujuan
+
+Maksud dan tujuan mengadakan penyelidikan tanah ini adalah untuk mengidentifikasi, mengkaji dan memberikan pertimbangan pemecahan terhadap permasalahan tanah yang ada pada lokasi proyek.
+Dalam kaitan perencanaan pondasi bangunan tentu saja kita harus mengadakan penyelidikan tanah untuk mengetahui karakteristik tanah baik secara fisik maupun mekanis, dan dari hasil analisis data tanah yang didapatkan melalui pengujian laboratorium dan pengujian lapangan, dapat ditentukan nilai “daya dukung ijin tanah”, yaitu kemampuan tanah untuk dapat dengan aman mendukung beban konstruksi yang ada melalui pondasi bangunan. Dari nilai daya dukung ijin tanah inilah selanjutnya dapat dilakukan analisis untuk menentukan desain pondasi yaitu mengenai kriteria/jenis pondasi,ukuran/dimensi pondasi, serta kedalaman pondasi.
+1.2 Lingkup Pekerjaan
+1.2.1 Pekerjaan Lapangan
+Lingkup pekerjaan terdiri atas pengeboran sebanyak 1 titik dengan kedalaman 10 meter.
+Pengambilan sampel disturbed /undisturbed diambil pada saat pengeboran untuk keperluan penyelidikan laboratorium. Tes SPT (Standar Penetrasi Tes) dilakukan pada lubang bor interval
+2.0 meter atau random. Adapun titik lokasi pengujiannya dapat dilihat pada sket lay out pada lampiran.
+1.2.2 Pekerjaan Laboratorium
+Lingkup pekerjaan pengujian sampel di laboratorium meliputi :
+
+Kadar air (
+
+Berat isi (
+
+Berat Jenis (Gs)
+
+II. HASIL PENGUJIAN
+2.1 Pekerjaan Boring dan Tes SPT
+Pengeboran dilakukan menggunakan mesin (drilling machine) dengan metode sirkulasi air pembilas (wash boring) dikombinasikan dengan coring menerus. SPT digunakan untuk menghitung sifat dinamis tanah seperti sudut gesekan internal (ϕ), SPT dilakukan pada lubang bor dengan menggunakan pukulan berulang dari palu seberat 63.5kg. Menurut Terzaghi & Peck
+(1967) membagi hubungan antara nilai N SPT dengan relatif kepadatan tanah sebagai berikut :
+Terzhagi & Peck 1967
+For Sandy soil
+Relative
+N SPT
+Relative
+N SPT
+Consistency
+Density
+Very Soft
+< 2
+Very Loose
+< 4
+Soft
+2 - 4
+Loose
+4 - 10
+Medium
+4 - 8
+Medium
+10 - 30
+Stiff
+8 - 15
+Dense
+30 - 50
+Very Stiff
+15 - 30
+Very Dense
+> 50
+Hard
+> 30
+
+Untuk batuan atau tanah tak berkohesi pencatatan kepadatan relatif didasarkan pengujian
+SPT adalah sebagai berikut :
+Klasifikasi Kepadatan Relatif pada Batuan
+
+Nilai N SPT
+Kriteria
+< 4
+Sangat Urai
+4 - 10
+Urai
+10 - 30
+Agak padat
+30 - 50
+Padat
+> 50
+Sangat Padat
+
+(SNI 2436:2008)
+
+Pada titik uji B.1 :
+0.00 – 0.35 meter, Aspal dan material urugan
+0.35 – 7.00 meter, Batuan gamping/kapur, kepadatan urai - agak padat, warna putih kecoklatan,
+
+nilai uji SPT (N) : 8 - 23
+7.00 – 10.0 meter, Batuan gamping/kapur, sangat padat, warna putih kekuningan,
+
+nilai uji SPT (N) : > 50
+
+III. ANALISIS DATA
+3.1 Analisis Daya Dukung Tanah Dari Hasil SPT
+Dalam hal analisis daya dukung tanah, kami memakai rumus Meyerhof yang berlaku untuk pondasi dangkal / telapak dengan rumus sbb:
+
+a)  ijin = N/0,05 (1+0,33Df/B)........................................................(kN/m2 ) dengan ketentuan : B < = 1,20 meter , Df/B maksimum berharga = 1
+
+b)  ijin = N/0,08 (1+0,3/B)2.............................................................(kN/m2) dengan ketentuan : B > 1,20 meter dimana :
+ ijin : Daya dukung tanah yang diijinkan pada penurunan pondasi yang diijinkan sebesar
+1 inchi............................................................................................(kN/m2)
+N : Nilai Jumlah pukulan SPT
+B : Ukuran lebar dari pondasi............................................................(meter)
+Df : Kedalaman pondasi......................................................................(meter)
+Berikut adalah hasil analisis daya dukung ijin tanah dengan asumsi ukuran lebar pondasi sesuai dengan ketentuan rumus diatas :
+
+(Tabel.1) Hasil Analisa Daya Dukung Ijin Tanah Berdasarkan Tes SPT
+Proyek :
+PERENCANAAN DED PEMELIHARAAN PSU PERUMAHAN DAN PEMUKIMAN DI KAB. BADUNG
+Lokasi :
+Jl. Nuansa Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali
+Oleh :
+Dewa Ketut Sadiadnya, ST
+Tgl Tes :
+6 - 7 Maret 2026
+Tabel. 1
+Hasil Analisa Daya Dukung Ijin Tanah Berdasarkan Tes SPT
+Rumus dari Meyerhof, yaitu :
+A.
+.ijin = N/0,05.(1+0,33Df/B)
+Dimana B = < 1,20 meter
+= 26,6 .N (kN/m
+2)
+Df = kedalaman
+= 0,2712 .N (kg/cm
+2)
+B = lebar pondasi
+Df/B = koreksi kedalaman max = 1
+
+B.
+.ijin = N/0,08.(1+0,3/B)
+2 (kN/m
+2)
+Dimana B > 1,20 meter
+Misalnya untuk B = 1,4 meter
+N = Jumlah Pukulan (max = 50 pukulan)
+
+= 18,43112245 . N (kN/m
+2)
+B = Lebar pondasi ( meter )
+
+= 0,1879 . N (kg/cm
+2)
+1 kN/m
+2 = 98,0665 kg/cm
+2.
+B.1
+Kedalaman Nilai (N)
+(m) dihitung
+B=0,6 m B=0,8 m B=1,0m B=1,2 m B =1,4 m B =1,6 m B =1,8 m B =2,0 m B=2,2 m B=2,4 m B=2,6 m
+2.0
+2.17
+2.17
+2.17
+2.17
+1.50
+1.44
+1.39
+1.35
+1.32
+1.29
+1.27
+4.0
+2.44
+2.44
+2.44
+2.44
+1.69
+1.62
+1.56
+1.52
+1.48
+1.45
+1.43
+6.0
+6.24
+6.24
+6.24
+6.24
+4.32
+4.13
+3.99
+3.88
+3.79
+3.71
+3.65
+8.0
+13.56
+13.56
+13.56
+13.56
+9.40
+8.99
+8.68
+8.43
+8.23
+8.07
+7.93
+10.0
+13.56
+13.56
+13.56
+13.56
+9.40
+8.99
+8.68
+8.43
+8.23
+8.07
+7.93
+Daya Dukung Ijin Tanah σ = kPa/100 (kg/cm2)
+Untuk berbagai ukuran / lebar pondasi
+
+3.2 Analisis Daya Dukung Pondasi Tiang Tunggal Berdasarkan Data SPT
+Daya dukung untuk pondasi tiang tunggal di hitung berdasarkan daya dukung ujung tiang berdasarkan nilai (N) atau jumlah pukulan pada ujung tiang dengan nilai rata-rata (N) sepanjang tiang menggunakan rumus Wesley, yaitu :
+Q sp = (fb x Ab) / Fb + (fs x As) / Fs
+Qsp = Daya dukung vertikal yang diijinkan untuk sebuah tiang tunggal (kN) fb = Intensitas tahanan ujung tiang (kN/m2)
+Ab = Luas penampang ujung tiang
+
+(m2) fs = Intensitas tahanan geser tiang (kN/m2)
+As = Luas selimut tiang (m2)
+Fb = Faktor keamanan (diambil 3)
+Fs = Faktor keamanan (diambil 5)
+Intensitas tahanan ujung tiang :
+
+halus / sedang : fb = 40 N D/B < = 400 N (kN/m2)
+
+kasar : fb = 40 N D/B < = 300 N (kN/m2)
+
+tanah berbatu : fb = 12 N D/B < = 130 N (kN/m2)
+Intensitas tahanan geser tiang :
+Untuk tiang pancang :
+
+diameter besar : fs = 2 N
+
+diameter kecil : fs = N
+Untuk tiang bor : : fs = 0,67 N
+N = Nilai SPT ujung tiang yang tidak dikoreksi
+N‘ = Nilai SPT rata-rata sepanjang tiang yang tidak dikoreksi
+Df = Panjang tiang (m)
+Φ = Diameter tiang (m)
+
+(Tabel.2) Hasil Analisa Daya Dukung Tiang Aksial Berdasarkan Tes SPT
+Tabel. 2
+Daya Dukung Ijin Aksial Pondasi Tiang Tunggal dari Berbagai Ukuran Diameter Tiang
+Berdasarkan Data Pengujian SPT
+Proyek : PERENCANAAN DED PEMELIHARAAN PSU PERUMAHAN DAN PEMUKIMAN DI KAB. BADUNG
+Lokasi : Jl. Nuansa Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali
+Boring : B.1
+Jenis Tiang : Tiang Bor dari beton bertulang
+Rumus Wesley :
+Q sp = (fb x Ab) / Fb + ( fsx As ) / Fs
+Kedalaman Penetrasi Tiang ( Df ) =
+8.0 meter dari permukaan tanah asli
+Diameter tiang ( Φ ) meter
+0.3
+0.35
+0.4
+0.45
+0.5
+0.55
+0.6
+0.65
+0.07
+0.10
+0.13
+0.16
+0.20
+0.24
+0.28
+0.33
+
+7.54
+8.80
+10.06
+11.31
+12.57
+13.83
+15.09
+16.34
+22.5
+22.5
+22.5
+22.5
+22.5
+22.5
+22.5
+22.5
+15.075
+15.075
+15.075
+15.075
+15.075
+15.075
+15.075
+15.075
+Qsp (kN)
+Qsp (Ton)
+Qsp t (kN)
+Qsp t (Ton)
+Qsp
+= Daya dukung tekan vertikal tiang tunggal (kN)
+Qsp t
+= Daya dukung tarik vertikal tiang tunggal (kN) fb
+= Intensitas tahanan ujung tiang (kN/m
+2)
+Ab
+= Luas penampang ujung tiang (m
+2) fs
+= Intensitas tahanan geser tiang (kN/m
+2)
+As
+= Luas selimut tiang (m
+2)
+Fb
+= Faktor keamanan (3)
+Fs
+= Faktor keamanan (5)
+N
+= Nilai SPT ujung tiang yang tidak dikoreksi
+N"
+= Nilai SPT rata-rata sepanjang tiang yang tidak dikoreksi
+Daya Dukung Tarik fb fs
+Daya Dukung Tekan
+Luas penampang (Ab) m
+Luas selimut tiang (As) m
+N
+N"
+
+3.3 Analisis Daya Dukung Tanah Berdasarkan Data Laboratorium
+
+Dalam hal analisis daya dukung tanah berdasarkan sifat teknis tanah, kami membatasi tinjauan hanya untuk daya dukung jenis pondasi langsung yang relatif dangkal / pondasi telapak.
+Rumus yang kami pakai adalah rumus dari Terzaghi dengan memakai pola keruntuhan geser umum yang berlaku untuk tanah-tanah yang kondisinya padat / kenyal / kaku /kompak.
+Pola keruntuhan : geser umum
+Rumus Terzaghi :
+ ult. = C. Nc +  h .Nq + 0,5 . B .N
+ ijin = q ult. /3
+ ult. = Daya dukung ultimate tanah.......................................kPa/100 (kg/cm2)
+ ijin = Daya dukung ijin tanah...............................................kPa/100 (kg/cm2)
+C = Nilai kohesi tanah dari hasil pengujian geser........... ..kPa/100 (kg/cm2)
+= Berat volume tanah.rata-rata diatas telapak pondasi........... (kg/cm3)
+= Berat volume tanah dibawah / pada telapak....................... (kg/cm3) h = Kedalaman pondasi dari muka tanah./ kedalaman pengambilan sampel... (m)
+B = Lebar pondasi...................................................................... (m)
+Nc , Nq , N = Faktor daya dukung tanah dari Terzaghi yang besarnya tergantung dari sudut gesek tanah ()
+Pola keruntuhan : geser lokal
+Apabila tanahnya lunak / remah / lepas, dipakai pola keruntuhan geser lokal yang ketentuannya adalah :
+- nilai kohesi tanah C = 2/3 C
+- Faktor daya dukungnya adalah faktor daya dukung Terzaghi untuk pola keruntuhan geser lokal yaitu : Nc , Nq , N yang nilainya lebih kecil dari ketentuan keruntuhan pola geser umum sesuai dengan tabel faktor daya dukung dari Terzaghi
+Selanjutnya hasil daya dukung ijin tanah untuk setiap kedalaman sampling tertera pada tabel :
+
+(Tabel.3) Hasil Analisis Daya Dukung Ijin Tanah Berdasarkan Data Laboratorium
+Tabel. 3
+Hasil Analisis Daya Dukung Ijin Tanah (ijin ) Berdasarkan Data Lab
+Untuk Perencanaan Pondasi dangkal / Pondasi telapak.
+Proyek :
+PERENCANAAN DED PEMELIHARAAN PSU PERUMAHAN
+DAN PEMUKIMAN DI KAB. BADUNG
+Lokasi :
+Jl. Nuansa Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali
+Oleh :
+Dewa Ketut Sadiadnya, ST
+Tgl Uji :
+9 - 10 Maret 2026
+Rumus : Terzaghi
+Geser Umum
+.ult = C.Nc+ .Df. Nq+ 0,5.. B. N
+(Kg/cm
+2)
+Geser Lokal
+.ult = C'.Nc'+ .Df. Nq'+ 0,5.. B. N'
+(Kg/cm
+2)
+
+.ijin = .ult/3
+(Kg/cm
+2)
+Data Tanah
+B.1
+
+Kedalaman Sampel (m)
+2.00
+Kedalaman muka air tanah (m)
+-
+Berat Isi Tanah  (g/cm
+3)
+1.778
+Kohesi C atau Cu (kg/cm
+2)
+0.000
+Sudut Geser tanah  (derajat)
+24.70
+- Nc
+24.66
+- Nq
+12.38
+- N
+9.42
+B.1
+Df =
+2.00
+B
+.ijin
+( m ) kPa/100
+0.6
+1.64
+0.8
+1.69
+1.0
+1.75
+1.2
+1.80
+1.4
+1.86
+1.6
+1.91
+1.8
+1.97
+2.0
+2.03
+2.2
+2.08
+2.4
+2.14
+2.6
+2.19
+
+Dimana :
+.ult.
+: Daya dukung ultimate tanah ………………………………kPa/100
+[kg/cm
+2]
+.ijin
+: Daya dukung ijin tanah …………..…….…………..………kPa/100
+[kg/cm
+2]
+C
+: Nilai kohesi tanah dari hasil pengujian kuat geser ….…..kPa/100
+[kg/cm
+2]
+C' = 2/3.C : Nilai kohesi tanah untuk geser local……………………….kPa/100
+[kg/cm
+2]
+Cu
+: Nilai kohesi tanah dari hasil pengujian kuat tekan ……..kPa/100
+[kg/cm
+2]
+
+: Berat volume tanah ………………………………………..
+[g/cm
+3]
+Df
+: Kedalaman pondasi dari muka tanah …………………..
+[ m ]
+B
+: Lebar pondasi ……………………………………………..
+[ m ]
+Nc, Ng, N: Faktor daya dukung geser umum berdasarkan sudut gesek tanah
+( )
+Nc', Ng', N' : Faktor daya dukung geser lokal berdasarkan sudut gesek tanah
+( )
+
+IV. KESIMPULAN DAN SARAN
+Dari hasil penyelidikan tanah kami melakukan uji boring, SPT, dan analisis laboratorium, terkait dengan kedalaman pondasi yang akan direncanakan direkomendasikan sebagai berikut:
+
+A.) Jika Beban Struktur Relatif Ringan :
+Pondasi Telapak/ Footplate dari beton bertulang, dengan ketentuan :
+Kedalaman pondasi (Df ) : -2.0 meter dari permukaan tanah uji boring
+Tegangan Ijin tanah (σ) : 1.35 kg/cm2
+Lebar pondasi (B) : dihitung berdasarkan besarnya gaya gaya yang dipikul oleh pondasi.
+
+B.) Jika Beban Struktur Relatif Berat :
+Pondasi Tiang Bored/ Strauss Pile dari beton bertulang, dengan ketentuan :
+Kedalaman penetrasi tiang (Df) : - 8.0 meter dari permukaan tanah uji boring
+Jika diameter tiang ( Ø ) : 40 cm
+Daya Dukung Aksial Tiang Tungal (Qsp) : 67 ton (Tabel.4.a)
+Tegangan Ijin tanah (σ) : 7.93 kg/cm2
+Apabila menggunakan Pile Group /kelompok tiang maka jarak antar tiang dari As ke As minimal
+3x Diameter Tiang dan maximum 6 x Diameter Tiang.
+Permukaan air tanah (MAT) belum terdeteksi hingga kedalaman -10 meter.
+
+Denpasar, 10 Maret 2026
+
+Analyser,
+
+(Dewa Ketut Sadiadnya, ST)
+
+V. PENUTUP
+
+Demikianlah laporan hasil penyelidikan tanah ini kami buat. Kami bersedia memberikan tanggapan apabila dari pihak yang berkepentingan menganggap perlu untuk mendiskusikan isi laporan ini lebih lanjut.
+
+Sebagai akhir kata kami mengucapkan banyak terimakasih atas kepercayaan dan kesempatan yang telah diberikan kepada kami dalam ikut berpartisipasi pada kegiatan proyek ini.
+
+L A M P I R A N - L A M P I R A N
+- Resume
+- Bor Log
+- Data Laboratorium
+- Lay Out
+- Dokumentasi
+
+LABORATORIUM MEKANIKA TANAH
+PREMA DESAIN
+Proyek :
+PERENCANAAN DED PEMELIHARAAN PSU PERUMAHAN
+DAN PEMUKIMAN DI KAB. BADUNG
+Lokasi :
+Jl. Nuansa Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali
+Petugas :
+Made Indiana cs
+No.
+2.0 m
+8.0 m
+Kadar Air w
+(%)
+16.06
+7.68
+Berat Volume g
+(gr/cm3)
+1.778
+1.721
+
+Berat Jenis Gs
+2.825
+2.819
+
+Korelasi SPT Meyerhof (ϴ = √(12 x N) + 15) :
+- Sudut Geser ϴ
+(derajat)
+24.70
+39.50
+Denpasar, 10 Maret 2026
+Prema Desain Laboratory
+Analyser,
+Ir. AA Bayu Dharma Widnyana, MT, IPP
+STRI 1.015.22.1.2.00026402
+Jenis Pemeriksaan
+B.1
+
+PROJECT
+:
+PERENCANAAN DED PEMELIHARAAN PSU PERUMAHAN DAN PEMUKIMAN DI KAB. BADUNG
+LOCATION
+:
+Jl. Nuansa Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali
+PERFORMED BY :
+Ir. AA Bayu Dharma Widnyana, MT
+GROUND WATER LEVEL :
+Belum terdeteksi
+DATE
+:
+6 - 7 Maret 2026
+COORDINATE
+:
+-
+ELEVATION
+:
+-0.00 as jalan
+BORING NO.
+:
+B.1
+
+S
+STANDARD PENETRATION TEST
+D
+A
+D
+I
+S
+
+M
+E
+A
+Y
+P
+S
+N for S.P.T
+P
+G
+M
+L
+P
+S.P.T VALUE
+T
+R
+B
+DESCRIPTION
+I
+T
+H
+A
+O
+N cm
+M
+L
+G
+S.P.T CHART
+( m )
+( m )
+( m )
+I
+II
+III
+0.00
+Aspal dan material urugan
+
+-0.35
+(Asphalt + filling materials)
+
+-1.00
+Batuan gamping/kapur, kepadatan urai - agak padat, warna putih kecoklatan
+(Limestone, friable to medium soild, brownish white)
+-2.00
+-2.00
+-2.00
+-2.30
+-2.45
+-3.00
+-4.00
+-4.00
+-4.45
+-5.00
+-6.00
+-6.00
+-6.45
+-7.00
+-8.00
+Batuan gamping/kapur, sangat padat, warna putih kekuningan
+-8.00
+-8.00
+..
+(Limestone, very soild, yellowish white)
+-8.30
+-8.45 sisa 35 cm
+-9.00
+-10.00
+..
+-10.00
+END BORING
+-10.45 sisa 35 cm
+Undisturbed sample Disturbed sample SPT
+BORING PROFILE
+SNI 4153:2008
+0.0
+1.0
+2.0
+3.0
+4.0
+5.0
+6.0
+7.0
+8.0
+9.0
+10.0
+Proyek :
+PER. DED PEMELIHARAAN PSU PERUMAHAN DAN PEMUKIMAN DI KAB. BADUNG
+Lokasi :
+Jl. Nuansa Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali
+Lab. :
+Prema Desain
+Tanggal :
+9 - 10 Maret 2026
+Petugas :
+Made Indiana cs
+No.
+K e t e r a n g a n
+Berat container Wc (gr)
+9.10
+9.03
+Berat cont + sampel basah W1 (gr)
+33.12
+32.64
+Berat cont + sampel kering W2 (gr)
+30.05
+29.13
+Berat air W1-W2 (gr)
+3.07
+3.51
+Berat sampel kering W2-Wc (gr)
+20.95
+20.10
+Kadar air w = 4/5 x 100 %
+14.65
+17.46 w Rata-rata ( % )
+No.
+K e t e r a n g a n
+Berat container Wc (gr)
+8.61
+9.87
+Berat cont + sampel basah W1 (gr)
+38.08
+36.73
+Berat cont + sampel kering W2 (gr)
+36.70
+34.19
+Berat air W1-W2 (gr)
+1.38
+2.54
+Berat sampel kering W2-Wc (gr)
+28.09
+24.32
+Kadar air w = 4/5 x 100 %
+4.91
+10.44 w Rata-rata ( % )
+B.1
+No .
+K e t e r a n g a n
+
+2.0 m
+I
+II
+III
+Volume ring; f = 6,35 cm,t = 2 cm (cm3)
+63.34
+63.34
+63.34
+Berat mould W1 (gr)
+63.77
+65.14
+65.14
+Berat mould + sampel W2 (gr)
+177.00
+176.00
+179.00
+Berat sampel W2 - W1 (gr)
+113.23
+110.86
+113.86
+Berat Volume (gr/cm3)
+1.788
+
+1.750
+
+1.798
+
+Berat Volume rata-rata g (gr/cm3)
+
+1.778
+
+B.1
+No .
+K e t e r a n g a n
+
+8.0 m
+I
+II
+III
+Volume ring; f = 6,35 cm,t = 2 cm (cm3)
+63.34
+63.34
+63.34
+Berat mould W1 (gr)
+63.77
+65.14
+65.14
+Berat mould + sampel W2 (gr)
+172.00
+173.00
+176.00
+Berat sampel W2 - W1 (gr)
+108.23
+107.86
+110.86
+Berat Volume (gr/cm3)
+1.709
+
+1.703
+
+1.750
+
+Berat Volume rata-rata g (gr/cm3)
+
+1.721
+
+No.
+K e t e r a n g a n
+2.0 m
+8.0 m
+Berat Piknometer (gr)
+156.60
+166.50
+Berat Piknometer + sampel kering (gr)
+281.00
+266.00
+Piknometer + Air + Sampel W1 (gr)
+765.00
+763.80
+Berat Piknometer + Air W2 (gr)
+686.00
+701.00
+Temperatur oC
+28.00
+28.00
+Koreksi suhu k
+0.9980
+0.9980
+Berat sampel kering Ws (gr)
+124.40
+99.50
+Berat Jenis Gs = Ws/(W2.k-W1+Ws)
+2.825
+2.819
+PEMERIKSAAN BERAT JENIS
+SNI 1964:2008
+B.1
+PEMERIKSAAN BERAT VOLUME
+SNI 03-3637-1994
+7.68
+B.1
+8.0 m
+KADAR AIR
+SNI 1965:2008
+B.1
+2.0 m
+16.06
+
+LAYOUT TITIK PENGUJIAN
+PROYEK : PERENCANAAN DED PEMELIHARAAN PSU PERUMAHAN DAN
+PEMUKIMAN DI KABUPATEN BADUNG
+Lokasi : Jl. Nuansa Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali
+KETERANGAN :
+: Titik pengujian boring dan sampling
+UTARA
+B.1
+Sungai
+DOKUMENTASI
+PROYEK :
+PERENCANAAN DED PEMELIHARAAN PSU PERUMAHAN DAN
+PEMUKIMAN DI KABUPATEN BADUNG
+Lokasi :
+Jl. Nuansa Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali
+Pengujian boring meggunakan mesin pada titik B.1
+
+Pengujian SPT pada lubang pengeboran
+DOKUMENTASI
+PROYEK :
+PERENCANAAN DED PEMELIHARAAN PSU PERUMAHAN DAN
+PEMUKIMAN DI KABUPATEN BADUNG
+Lokasi :
+Jl. Nuansa Angkasa, Ungasan, Kec. Kuta Selatan, Kab. Badung, Bali
+Sampel pada tabung belah
+
+Sampel pada corebox

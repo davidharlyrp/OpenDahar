@@ -1,0 +1,42 @@
+A Franki pile
+Franki piling system
+The Franki piling system (also called pressure-injected footing) is a method used to drive expanded base cast-in-situ concrete (Franki) piles.[1] It was developed by Belgian
+Engineer Edgard Frankignoul in 1909.[2]
+This method can be applied to different site conditions and is still widely used[2][3][4] due to its high tensile load capacity, and relatively low noise and ground vibration levels.[3]
+Edgard Frankignoul applied for the production patent for the
+Franki pile in July 1909. He then co-founded the geotechnical company Frankipile (Société des Pieux Armés Frankignoul) with Liège aristocrat Edmond Baar with the goal of commercializing the Franki piling system. By 1929, the technique had been implemented by 34 international subsidiaries and license holders.[2]
+The Franki pile process has undergone several reformations since it was conceived. The dry concrete plug was not introduced to the design until 1926.[2] Before this innovation, the casing had to be top-driven and equipped with a lost bottom plate.[1] The Franki pile with vibrated shaft and hydraulic vibrating hammer were manufactured starting from 1960 and 1971 respectively.[2]
+Franki piles can be used as high-capacity deep foundation elements without the necessity of excavation or dewatering.[4] They are useful in conditions where a sufficient bearing soil can only be reached deeper in the ground,[5][6] and are best suited to granular soil where bearing is primarily achieved from the densification of the soil around the base.[4] They are not recommended for use in cohesive soils where compaction of the base is not possible.[4] The Franki piling system is the quietest of the driven cast-in- place systems, and so is used in conditions where high noise levels could cause environmental problems.[3]
+1. A charge of zero-slump concrete is poured into the bottom of a steel driving pipe that is placed vertically on the ground. A diesel-operated drop hammer is then driven on the concrete, forming a watertight concrete plug.[1][4][5][6]
+History
+Applications
+Installation of a Franki pile
+2. The concrete plug is driven into the ground by the drop hammer. The pipe is also dragged into the ground due to friction developed between the steel and the concrete.[1][4][5][6]
+3. When the desired depth is reached, the pipe is held in position by leads—structures which guide and align the pile and hammer.[7] The hammer is then applied to the concrete, driving it outwards through the bottom of the pile and forming a mushroom-shaped base.[1][4][5][6]
+4. At this point, a cylindrical rebar cage can be driven into the concrete if supplementary reinforcement is desired.[1][4][5][6]
+5. Additional charges of concrete are added and driven while the steel casing is simultaneously pulled up until the shaft of the pile is formed.[1][4][5][6]
+Small charges of concrete can be added while the base is being formed[6] to enlarge the base and improve the pile’s settlement performance.[3]
+Franki piles can be installed raked (or sloped) with a tilt of up to 4:1.[5] Raked Franki piles are always reinforced and are particularly suitable for structures subject to dynamic forces.[1]
+Driving methods such as open-ended coring, rock socketing, and composite shaft construction are occasionally used to overcome unique site problems.[3]
+1. Franki Pile (http://www.geoforum.com/info/pileinfo/view.asp?ID=15) Archived (https://web.ar chive.org/web/20110711085120/http://www.geoforum.com/info/pileinfo/view.asp?ID=15)
+2011-07-11 at the Wayback Machine GRV AB, Retrieved November 22, 2010
+2. History (http://www.franki-geotechnics.be/page.asp?q=history&id=501&title=History) Franki
+Foundations Group Belgium, Retrieved December 7, 2010
+3. Franki Piles (http://esvc000701.wic052u.server-web.com/PDF/Frank_Piles.pdf) Archived (htt ps://web.archive.org/web/20100806165406/http://esvc000701.wic052u.server-web.com/PD
+F/Frank_Piles.pdf) 2010-08-06 at the Wayback Machine Frankipile Australia, Retrieved
+December 8, 2010
+4. Shamsher Prakash, Hari D. Sharma (1990). Pile foundations in Engineering Practice, p. 60.
+Wiley-Interscience ISBN 0-471-61653-2.
+5. FRANKIPILE (http://www.franki.de/pdf_en/FRANKI_pile.pdf) FRANKI Grundbau, Retrieved
+December 7, 2010
+6. Dr. B.C. Punmia, Ashok Kumar Jain, B.C. Punmia, Arun Kr. Jain (2005). Soil Mechanics and
+Foundations, p. 763. Laxmi Publications (P) Ltd. ISBN 81-7008-081-9.
+7. "piledrivers.org PDF, Land Based Rigs" (https://web.archive.org/web/20150924073242/htt p://www.piledrivers.org/files/uploads/272D1300-0887-4849-BDB0-4044B9FF8859.pdf)
+(PDF). Archived from the original (http://www.piledrivers.org/files/uploads/272D1300-0887-4
+849-BDB0-4044B9FF8859.pdf) (PDF) on 2015-09-24. Retrieved 2013-10-05.
+[Pile driver Animation empirefoundationrepair.com [1] (http://www.empirefoundationrepair.co m/the-process) Archived (https://web.archive.org/web/20161127214951/http://www.empirefo undationrepair.com/the-process) 2016-11-27 at the Wayback Machine
+Variations
+References
+External links
+Franki Pile, Pile Info, geoforum.com (https://web.archive.org/web/20110711085120/http://w ww.geoforum.com/info/pileinfo/view.asp?ID=15) piledrivers.org (http://www.piledrivers.org/), Pile Driving Contractors Association
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Franki_piling_system&oldid=1336474856"

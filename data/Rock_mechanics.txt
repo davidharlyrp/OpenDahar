@@ -1,0 +1,54 @@
+Grus sand, and the granitoid from which it is derived.
+Rock bolting technique being used to reinforce a rock.
+Rock mechanics
+Rock mechanics is a theoretical and applied science of the mechanical behavior of rocks and rock masses.[1]
+Compared to geology, it is the branch of mechanics concerned with the response of rock and rock masses to the force fields of their physical environment.[1]
+Rock mechanics is part of a much broader subject of geomechanics, which is concerned with the mechanical responses of all geological materials, including soils.[1]
+Rock mechanics is concerned with the application of the principles of engineering mechanics to the design of structures built in or on rock.[1] The structure could include many objects such as a drilling well, a mine shaft, a tunnel, a reservoir dam, a repository component, or a building.[1] Rock mechanics is used in many engineering disciplines, but is primarily used in Mining, Civil, Geotechnical, Transportation, and Petroleum Engineering.[2][3]
+Rock mechanics answers questions such as, "is reinforcement necessary for a rock, or will it be able to handle whatever load it is faced with?" [4] It also includes the design of reinforcement systems, such as rock bolting patterns.[4]
+Before any work begins, the construction site must be investigated properly to inform of the geological conditions of the site.[5] Field observations, deep drilling, and geophysical surveys, can all give necessary information to develop a safe construction plan and create a site geological model.[5] The level of investigation conducted at this site depends on factors such as budget, time frame, and expected geological conditions. [5]
+The first step of the investigation is the collection of maps and aerial photos to analyze.[5] This can provide information about potential sinkholes, landslides, erosion, etc. Maps can provide information on the rock type of the site, geological structure, and boundaries between bedrock units.[5]
+Background
+Assessing the Project Site
+Reinforced Earth with gabions supporting a multilane roadway, Sveti Rok, Croatia.
+Illustration of borehole mining.
+Sandhogs in New York City's East Side
+Access
+Creating a borehole is a technique that consists of drilling through the ground in various areas at various depths, to get a better understanding of the sites geology.[5] Boreholes must be spaced properly from one another and drilled deep enough to provide accurate information for the geological model.[5]
+Samples from the borehole are investigated and factors such as rock type, degree of weathering, and types of discontinuities are all recorded. [5]
+Testing the properties of a rock is essential to understand how stable or unstable it is.[2] Rock mechanics involves 3 categories of testing methods: tests on intact rocks, discontinuities and rock masses.[6]
+Two direct methods of testing that can be done are laboratory tests and in-situ tests.[6] There are also indirect methods of testing which involve correlations and estimations that are obtained by analyzing field observations.[6] The data these testing methods provide are crucial for the design, structure and research of rock mechanics and rock engineering.[6]
+Intact rocks and discontinuities can be tested in the laboratory through running small-scale experiments to gather empirical data, however rock masses require some larger-scale field measurements rather than laboratory work due to their more complex nature.[6]
+Laboratory tests provide both classification and characterization of the rock as well as a determination of what rock properties will be used in the engineering design.[6]
+Examples of some of these laboratory tests include: sound velocity tests, hardness tests, creep tests and tensile strength tests.[6] In-situ tests, which is when the rock being studied is subjected to a heavy load and then being watched to see if it deforms, provides an insight into what impacts a rock masses' strength and stability.[6]
+Understanding the strength of a rock mass is difficult but necessary for ensuring the safety of anything built on or around it, and it all depends on different factors the rock mass faces, such as the environmental conditions, size of the mass, and how discontinued it might be.[7]
+Boreholes
+Methods
+Engineering geology
+Geotechnical engineering
+Rock mass classification
+Slope stability analysis
+Rock mass plasticity
+Slope mass rating
+1. Rock Mechanics for underground mining (http://link.springer.com/10.1007/978-1-4020-2116-
+9). Dordrecht: Springer Netherlands. 2004. doi:10.1007/978-1-4020-2116-9 (https://doi.org/1
+0.1007%2F978-1-4020-2116-9). ISBN 978-1-4020-2064-3.
+2. Gratchev, Ivan (2019-10-23). Rock Mechanics Through Project-Based Learning (https://ww w.taylorfrancis.com/books/9781000709230) (1 ed.). CRC Press.
+doi:10.1201/9780429278839 (https://doi.org/10.1201%2F9780429278839). ISBN 978-0-
+429-27883-9. S2CID 242572528 (https://api.semanticscholar.org/CorpusID:242572528).
+3. Harrison, John P.; Hudson, John (1997). Engineering rock mechanics an introduction to the principles (1st ed.). Oxford: Elsevier. pp. 1–9. ISBN 9786611058746.
+4. Rock Mechanics and Engineering Volume 4: Excavation, Support and Monitoring (https://ww w.taylorfrancis.com/books/9781315708126). CRC Press. 2017-05-18. doi:10.1201/b20406
+(https://doi.org/10.1201%2Fb20406). ISBN 978-1-315-70812-6.
+5. Gratchev, Ivan (2019-10-23). Rock Mechanics Through Project-Based Learning (https://ww w.taylorfrancis.com/books/9781000709230) (1 ed.). CRC Press.
+doi:10.1201/9780429278839 (https://doi.org/10.1201%2F9780429278839). ISBN 978-0-
+429-27883-9. S2CID 242572528 (https://api.semanticscholar.org/CorpusID:242572528).
+6. Feng, Xia-Ting (2017). Rock Mechanics and Engineering (2nd ed.). London: CRC Press.
+pp. 3–66. ISBN 9781315364254.
+7. Feng, Xia-Ting (2017). Rock Mechanics and Engineering (2nd ed.). London: CRC Press.
+pp. 367–393. ISBN 9781138027602.
+Jaeger, Cook, and Zimmerman (2008). Fundamentals of Rock Mechanics (http://bookshop.b lackwell.co.uk/jsp/id/Fundamentals_of_Rock_Mechanics/9780632057597). Blackwell
+Publishing. ISBN 9780632057597.
+Coates, D F. (1981) "Rock Mechanics Principles." Canada: Monograph 874.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Rock_mechanics&oldid=1188693588"
+See also
+References

@@ -3,6 +3,11 @@ import torch.nn as nn
 from torch.nn import functional as F
 import os
 import json
+try:
+    from safetensors.torch import save_file, load_file
+    HAS_SAFETENSORS = True
+except ImportError:
+    HAS_SAFETENSORS = False
 
 # ==========================================
 # 1. Konfigurasi Bobot (Hyperparameters)
@@ -35,9 +40,9 @@ for filename in os.listdir(data_dir):
             # Membaca isi file, membuang baris baru menjadi spasi
             content = f.read().replace('\n', ' ')
             text += content + " " # Tambahkan spasi antar-dokumen
-        print(f" - Membaca {filename} ({len(content)} karakter)")
+        # print(f" - Membaca {filename} ({len(content)} karakter)")
 
-print(f"Total Karakter Keseluruhan: {len(text)}\n")
+print(f"Total Karakter Keseluruhan: {len(text)/1e6:.2f} Juta ({len(text)})\n")
 
 # ==========================================
 # 3. Manual Tokenizer (Karakter-Level)
@@ -238,14 +243,18 @@ class PyTorchGenModel(nn.Module):
 model = PyTorchGenModel()
 
 # --- MODIFIKASI: Memuat Model Jika Sudah Ada ---
-model_path = "model_geoteknik.pth"
-if os.path.exists(model_path):
-    print(f"\n[Info] Ditemukan bobot model lama di '{model_path}'.")
+model_path_pth = "model_geoteknik.pth"
+model_path_safe = "model_geoteknik.safetensors"
+
+if HAS_SAFETENSORS and os.path.exists(model_path_safe):
+    print(f"\n[Info] Ditemukan bobot model safetensors di '{model_path_safe}'.")
+    model.load_state_dict(load_file(model_path_safe, device=device))
+elif os.path.exists(model_path_pth):
+    print(f"\n[Info] Ditemukan bobot model PyTorch lama di '{model_path_pth}'.")
     print("Memuat bobot untuk melanjutkan training (Fine-Tuning/Resume)...")
-    # map_location memastikan dapat di load ke GPU atau CPU
-    model.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
+    model.load_state_dict(torch.load(model_path_pth, map_location=device, weights_only=True))
 else:
-    print(f"\n[Info] Tidak ada file '{model_path}'. Memulai training dari awal (Scratch)...")
+    print(f"\n[Info] Tidak ada file model lama. Memulai training dari awal (Scratch)...")
 
 model = model.to(device)
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
@@ -284,10 +293,19 @@ if __name__ == "__main__":
         json.dump(chars, f)
     print(f"Vocabulary disimpan di '{vocab_path}'")
 
-    # Simpan state_dict model
-    model_path = "model_geoteknik.pth"
-    torch.save(model.state_dict(), model_path)
-    print(f"Bobot model disimpan di '{model_path}'")
+    # Simpan bobot model
+    model_path_pth = "model_geoteknik.pth"
+    model_path_safe = "model_geoteknik.safetensors"
+    
+    if HAS_SAFETENSORS:
+        save_file(model.state_dict(), model_path_safe)
+        print(f"Bobot model (safetensors) disimpan di '{model_path_safe}'")
+        # Hapus file .pth lama jika ada agar tidak membingungkan
+        if os.path.exists(model_path_pth):
+            os.remove(model_path_pth)
+    else:
+        torch.save(model.state_dict(), model_path_pth)
+        print(f"Bobot model (.pth) disimpan di '{model_path_pth}'")
     
     total_params_after = sum(p.numel() for p in model.parameters())
     print(f"\n[Info] Total Parameter Model setelah training: {total_params_after / 1e6:.2f} Juta ({total_params_after})")

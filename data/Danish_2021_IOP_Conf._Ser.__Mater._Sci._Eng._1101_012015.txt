@@ -1,284 +1,132 @@
 IOP Conference Series: Materials
 Science and Engineering
-     
+
 PAPER • OPEN ACCESS
-Numerical investigation on the performance of
-stone columns under raft foundation in soft clayey
-soils
+Numerical investigation on the performance of stone columns under raft foundation in soft clayey soils
 To cite this article: Ahmed Danish et al 2021 IOP Conf. Ser.: Mater. Sci. Eng. 1101 012015
- 
+
 View the article online for updates and enhancements.
 You may also like
-The 3D numerical model of the stone
-column in soft clay soils
+The 3D numerical model of the stone column in soft clay soils
 V V Znamenskii, O M Hegazy and D A
 Sayed
 -
-Comparison between Analytical Method
-and Numerical Model for Footings on Soft
+Comparison between Analytical Method and Numerical Model for Footings on Soft
 Clay Supported by Stone Columns
 V V Znamenskii and D A Sayed
 -
 Study of the Effect of Installation of Stone
-Columns on the Stability of Soil Slopes
-using Finite Element Method
+Columns on the Stability of Soil Slopes using Finite Element Method
 A Goswami and S Deka
 -
 This content was downloaded from IP address 180.245.164.212 on 25/02/2024 at 16:27
-Content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution
-of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI.
+Content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI.
 Published under licence by IOP Publishing Ltd
 The 13th International UNIMAS Engineering Conference 2020 (ENCON 2020)
 IOP Conf. Series: Materials Science and Engineering
-1101  (2021) 012015
-IOP Publishing
-doi:10.1088/1757-899X/1101/1/012015
-1
- 
- 
- 
- 
- 
- 
-Numerical investigation on the performance of stone columns 
-under raft foundation in soft clayey soils 
-Danish Ahmed1,2 Siti Noor Linda bt Taib1* Tahar Ayadat2 and Alsidqi Hasan1 
- 
-1 Faculty of Engineering, Universiti Malaysia Sarawak, Malaysia. 
-2 Engineering Department, Prince Mohammad bin Fahd University, Saudi Arabia. 
-*Corresponding author: tlinda@unimas.my 
-Abstract. Stone columns are the most common and effective technique used for enhancing the 
-overall strength and performance of soft soils. They are more effective for moderately 
-lightweight structures. This investigation presents a parametric study of stone columns 
-embedded in ground to strengthen the soft clayey soil under stiff raft foundation. This research 
-is based on a computational analysis by creating a foundation finite element model consisting of 
-a group of stone columns that are mounted under rafting using PLAXIS 3D. A certain range of 
-parameters (for example spacing, diameter and angle of friction of stone columns) is considered 
-and it is concluded that the increase in diameter and angle of friction of stone columns can 
-improve the ultimate load bearing capacity of the foundation system. Furthermore, the failure 
-mechanism of this foundation scheme is analysed and a semi-empirical model for the 
-determination of the bearing capacity ratio (BCR) is developed from the results of the parametric 
-analysis. 
-1. Introduction 
-Foundations for structures on soft soil usually involve excessive settlement and insufficient load bearing 
-capacity. Among all the soil improvement techniques, stone columns are treated as the most common 
-and economical practice. Granular material compacted and compressed in cylinder-shaped hole in the 
-ground to reinforce and enhance the behaviour of soft soils. Stone columns are very effective for 
-moderately lightweight constructions. It was introduced first in in 1830 in France as stated by Hanna et 
-al [1]. Hughes and Withers [2] are considered in the first few researchers who conducted the 
-experimental tests on the single granular columns their finding includes that the carrying capacity of a 
-group of stone columns can be considered as the sum of carrying capacity of individual column. They 
-also have concluded that the stone columns failure occurs separately by bulging. In addition, they 
-presented the concept of a unit cell system for estimating a stone column's carrying capacity.  
- 
-Since then, a lot of works have been carried out to examine the efficiency of stone columns under 
-raft base. Some of these investigations were based on laboratory experimental works [2-6]. Whereas, 
-others have investigated the performance of stone columns under raft using numerical and analytical 
-methods [7-20]. 
- 
-The principle objective of this work is to present a parametric study of stone columns embedded in 
-ground to strengthen the soft clayey soil under stiff raft foundation. This study is based on a numerical 
-investigation by developing a finite element model of the foundation system consists of a group of stone 
-columns installed under raft using PLAXIS 3D. A certain range of parameters (for example spacing, 
+1101 (2021) 012015
+IOP Publishing doi:10.1088/1757-899X/1101/1/012015
+
+Numerical investigation on the performance of stone columns under raft foundation in soft clayey soils
+Danish Ahmed1,2 Siti Noor Linda bt Taib1* Tahar Ayadat2 and Alsidqi Hasan1
+
+1 Faculty of Engineering, Universiti Malaysia Sarawak, Malaysia.
+2 Engineering Department, Prince Mohammad bin Fahd University, Saudi Arabia.
+*Corresponding author: tlinda@unimas.my
+Abstract. Stone columns are the most common and effective technique used for enhancing the overall strength and performance of soft soils. They are more effective for moderately lightweight structures. This investigation presents a parametric study of stone columns embedded in ground to strengthen the soft clayey soil under stiff raft foundation. This research is based on a computational analysis by creating a foundation finite element model consisting of a group of stone columns that are mounted under rafting using PLAXIS 3D. A certain range of parameters (for example spacing, diameter and angle of friction of stone columns) is considered and it is concluded that the increase in diameter and angle of friction of stone columns can improve the ultimate load bearing capacity of the foundation system. Furthermore, the failure mechanism of this foundation scheme is analysed and a semi-empirical model for the determination of the bearing capacity ratio (BCR) is developed from the results of the parametric analysis.
+1. Introduction
+Foundations for structures on soft soil usually involve excessive settlement and insufficient load bearing capacity. Among all the soil improvement techniques, stone columns are treated as the most common and economical practice. Granular material compacted and compressed in cylinder-shaped hole in the ground to reinforce and enhance the behaviour of soft soils. Stone columns are very effective for moderately lightweight constructions. It was introduced first in in 1830 in France as stated by Hanna et al [1]. Hughes and Withers [2] are considered in the first few researchers who conducted the experimental tests on the single granular columns their finding includes that the carrying capacity of a group of stone columns can be considered as the sum of carrying capacity of individual column. They also have concluded that the stone columns failure occurs separately by bulging. In addition, they presented the concept of a unit cell system for estimating a stone column's carrying capacity.
+
+Since then, a lot of works have been carried out to examine the efficiency of stone columns under raft base. Some of these investigations were based on laboratory experimental works [2-6]. Whereas, others have investigated the performance of stone columns under raft using numerical and analytical methods [7-20].
+
+The principle objective of this work is to present a parametric study of stone columns embedded in ground to strengthen the soft clayey soil under stiff raft foundation. This study is based on a numerical investigation by developing a finite element model of the foundation system consists of a group of stone columns installed under raft using PLAXIS 3D. A certain range of parameters (for example spacing,
 The 13th International UNIMAS Engineering Conference 2020 (ENCON 2020)
 IOP Conf. Series: Materials Science and Engineering
-1101  (2021) 012015
-IOP Publishing
-doi:10.1088/1757-899X/1101/1/012015
-2
- 
- 
- 
- 
- 
- 
-diameter and angle of friction of stone columns) is considered. The failure mechanism of this foundation 
-scheme is analysed.  Furthermore, from the results of the parametric study a semi-empirical model is 
-developed for the determination of bearing capacity ratio (BCR).  
- 
-2. Numerical Modeling 
-PLAXIS 3D Software has been used to simulate a finite element model for numerical study using 
-nonlinear elasto-plastic element to reflect the condition of assembly of stone columns under raft in soft 
-clayey soil. The model consists of 20 m square raft foundation either resting on the soft clay layer treated 
-with group of stone columns or resting on untreated layer of soft clay underlined by thick layer of sand. 
- 
-In the present study all the soil elements were modelled as 10-noded tetrahedral elements for 3D 
-meshing, globally medium mesh was used for all the soil domain including stone columns, whereas it 
-was refined to fine mesh and very fine mesh in the region where critical conditions (high stresses and 
-displacements) were expected.  In the model, soft soils were reinforced with stone columns and both 
-were modelled as the soil, separately with their material properties and there were no additional elements 
-provided as an interface between the soil and stone columns. For this reason, similar kind of settlements 
-were expected in both stone columns and soils in the surrounding region and therefore no differential 
-settlement was expected. Boundary conditions were selected for this model after many trials to eliminate 
-the effect of vertical and horizontal stresses due to confinement. Fixed supports were provided at the 
-base in figure 1 and figure 2 and roller supports were presumed on the model's sides (vertical 
-boundaries).  
- 
-For all the soil elements including soft clay, sand and stone columns were modelled with the elasto-
-plastic Mohr-Coulomb model which consists of five basic parameters, cohesion (c), friction angle (φ), 
-dilatancy angle (ψ), Young’s modulus (E), and Poisson’s ratio (ν). 
- 
-Experimental test results were used from the literature [5] to validate the present numerical model, 
-the experimental test setup consists of large test box (120 cm x 120 cm x 90 cm) carrying the bed of 
-clay in it with maximum depth of 500 mm and reinforced with a single stone column 200 mm in 
-diameter, also a stiff steel plate with 200 mm in diameter and 30 mm in thickness were used for loading 
-on the stone column. Figure 3 shows promising match between the results obtained from numerical 
-model and the experimental data. 
-Figure 1. Side view of the finite element model 
- 
+1101 (2021) 012015
+IOP Publishing doi:10.1088/1757-899X/1101/1/012015
+
+diameter and angle of friction of stone columns) is considered. The failure mechanism of this foundation scheme is analysed. Furthermore, from the results of the parametric study a semi-empirical model is developed for the determination of bearing capacity ratio (BCR).
+
+2. Numerical Modeling
+PLAXIS 3D Software has been used to simulate a finite element model for numerical study using nonlinear elasto-plastic element to reflect the condition of assembly of stone columns under raft in soft clayey soil. The model consists of 20 m square raft foundation either resting on the soft clay layer treated with group of stone columns or resting on untreated layer of soft clay underlined by thick layer of sand.
+
+In the present study all the soil elements were modelled as 10-noded tetrahedral elements for 3D meshing, globally medium mesh was used for all the soil domain including stone columns, whereas it was refined to fine mesh and very fine mesh in the region where critical conditions (high stresses and displacements) were expected. In the model, soft soils were reinforced with stone columns and both were modelled as the soil, separately with their material properties and there were no additional elements provided as an interface between the soil and stone columns. For this reason, similar kind of settlements were expected in both stone columns and soils in the surrounding region and therefore no differential settlement was expected. Boundary conditions were selected for this model after many trials to eliminate the effect of vertical and horizontal stresses due to confinement. Fixed supports were provided at the base in figure 1 and figure 2 and roller supports were presumed on the model's sides (vertical boundaries).
+
+For all the soil elements including soft clay, sand and stone columns were modelled with the elasto- plastic Mohr-Coulomb model which consists of five basic parameters, cohesion (c), friction angle (φ), dilatancy angle (ψ), Young’s modulus (E), and Poisson’s ratio (ν).
+
+Experimental test results were used from the literature [5] to validate the present numerical model, the experimental test setup consists of large test box (120 cm x 120 cm x 90 cm) carrying the bed of clay in it with maximum depth of 500 mm and reinforced with a single stone column 200 mm in diameter, also a stiff steel plate with 200 mm in diameter and 30 mm in thickness were used for loading on the stone column. Figure 3 shows promising match between the results obtained from numerical model and the experimental data.
+Figure 1. Side view of the finite element model
+
 The 13th International UNIMAS Engineering Conference 2020 (ENCON 2020)
 IOP Conf. Series: Materials Science and Engineering
-1101  (2021) 012015
-IOP Publishing
-doi:10.1088/1757-899X/1101/1/012015
-3
- 
- 
- 
- 
- 
- 
-Figure 2. Perspective of the finite element model. 
- 
- 
-Figure 3. Load vs settlement curves for validation of the present 
-numerical model 
- 
-0
-20
-40
-60
-80
-100
-120
-140
-160
-180
-0
-10
-20
-30
-40
-50
-60
+1101 (2021) 012015
+IOP Publishing doi:10.1088/1757-899X/1101/1/012015
+
+Figure 2. Perspective of the finite element model.
+
+Figure 3. Load vs settlement curves for validation of the present numerical model
+
 Load (kN/m2)
 Settlement (mm)
 Ghazavi et al (2013) Experimental Result
 Plaxis 3D Present Study
 The 13th International UNIMAS Engineering Conference 2020 (ENCON 2020)
 IOP Conf. Series: Materials Science and Engineering
-1101  (2021) 012015
-IOP Publishing
-doi:10.1088/1757-899X/1101/1/012015
-4
- 
- 
- 
- 
- 
- 
-3. Parametric Investigation 
-Parameters used in the present study are taken from the studies reported in literature ([1], [14], and [15]) 
-as presented in table 1. The numerical investigation has been conducted to investigate the effect of these 
-parameters on the load bearing capacity of raft foundation on untreated and treated soft soil 
-(strengthened with stone columns). Figure 4(a) shows stress strain relationship of raft foundation on 
-both untreated and treated soil with different spacing-diameter ratio (S/D) of the stone columns. It can 
-be observed that the raft on untreated soft soil has lowest load bearing capacity, whereas the load bearing 
-capacity of raft on treated soft soil is increasing with decrease in (S/D) of the stone columns. Since 
-stress-strain curves could not show any sign of failure, Chin's method [21] was applied to estimate the 
-ultimate load bearing capacity of the raft foundation under different conditions. In this method each 
-strain value first must be divided by its corresponding stress and the resulting values must be plotted 
-against the strains as shown in figure 4(b). When the plotted values fall in straight lines it indicates the 
-load approaches fault tension and the ultimate load efficiency (qu) can be determined by measuring the 
-reverse slope of this straight line. The obtained values of the ultimate load bearing capacity (qu) of raft 
-foundation system under various cases are plotted in figure 5 against spacing-diameter ratio (S/D) of the 
-stone columns. These curves clearly show the influence of (S/D) ratio on the ultimate load bearing 
-capacity of the foundation system, and it can be detected that (qu) increase with decrease in the ratio 
-(S/D). 
-Table 1. Material Properties (Parameters for Numerical Model). 
-Properties 
-Soft Clay 
-Sand 
-Stone Column 
-Raft 
-Unit weight, γunsat, γsat 
-17, 18 kN/m3 
-17.5, 19.5 kN/m3 
-19, 20 kN/m3 
-- 
-Young’s modulus, Es 
-4 MPa 
-28 MPa 
-80 MPa 
-27.8 GPa 
-Poisson’s ratio, νs 
-0.5 
-0.3 
-0.3 
-0.15 
-Angle of friction, φ 
-0° 
-42° 
-42°, 45°, 48° 
-- 
-Cohesion, c 
-25 kPa 
-0 
-0 
-- 
- 
-Figure 4. (a) Stress against Strain for the cased of φc = 42o & (b) Strain/Stress against Strain (Chin 
-[21]) for raft and stone columns plus raft foundation for the case of φc = 42o 
- 
+1101 (2021) 012015
+IOP Publishing doi:10.1088/1757-899X/1101/1/012015
+
+3. Parametric Investigation
+Parameters used in the present study are taken from the studies reported in literature ([1], [14], and [15]) as presented in table 1. The numerical investigation has been conducted to investigate the effect of these parameters on the load bearing capacity of raft foundation on untreated and treated soft soil
+(strengthened with stone columns). Figure 4(a) shows stress strain relationship of raft foundation on both untreated and treated soil with different spacing-diameter ratio (S/D) of the stone columns. It can be observed that the raft on untreated soft soil has lowest load bearing capacity, whereas the load bearing capacity of raft on treated soft soil is increasing with decrease in (S/D) of the stone columns. Since stress-strain curves could not show any sign of failure, Chin's method [21] was applied to estimate the ultimate load bearing capacity of the raft foundation under different conditions. In this method each strain value first must be divided by its corresponding stress and the resulting values must be plotted against the strains as shown in figure 4(b). When the plotted values fall in straight lines it indicates the load approaches fault tension and the ultimate load efficiency (qu) can be determined by measuring the reverse slope of this straight line. The obtained values of the ultimate load bearing capacity (qu) of raft foundation system under various cases are plotted in figure 5 against spacing-diameter ratio (S/D) of the stone columns. These curves clearly show the influence of (S/D) ratio on the ultimate load bearing capacity of the foundation system, and it can be detected that (qu) increase with decrease in the ratio
+(S/D).
+Table 1. Material Properties (Parameters for Numerical Model).
+Properties
+Soft Clay
+Sand
+Stone Column
+Raft
+Unit weight, γunsat, γsat
+17, 18 kN/m3
+17.5, 19.5 kN/m3
+19, 20 kN/m3
+-
+Young’s modulus, Es
+4 MPa
+28 MPa
+80 MPa
+27.8 GPa
+Poisson’s ratio, νs
+0.5
+0.3
+0.3
+0.15
+Angle of friction, φ
+0°
+42°
+42°, 45°, 48°
+-
+Cohesion, c
+25 kPa
+-
+
+Figure 4. (a) Stress against Strain for the cased of φc = 42o & (b) Strain/Stress against Strain (Chin
+[21]) for raft and stone columns plus raft foundation for the case of φc = 42o
+
 The 13th International UNIMAS Engineering Conference 2020 (ENCON 2020)
 IOP Conf. Series: Materials Science and Engineering
-1101  (2021) 012015
-IOP Publishing
-doi:10.1088/1757-899X/1101/1/012015
-5
- 
- 
- 
- 
- 
- 
-Figure 5. Change in ultimate load bearing capacity (qu) with the ration (S/D) 
- 
-The term bearing capacity ratio (BCR) was introduced to clearly understand the effect of ratio (S/D) 
-and angle of friction of stone columns (φc), bearing capacity ratio is described as the ratio between the 
-ultimate load bearing capacity of raft foundation on treated soft soil to that of raft foundation on 
-untreated soft soil. It can be observed from figure 6 that bearing capacity ratio (BCR) and ratio (S/D) 
-has linear relation. It is clearly indicating that the ratio (S/D) of stone columns have no influence on the 
-bearing capacity when (S/D) is greater than 7, whereas the bearing capacity ratio (BCR) can be improved 
-when the ratio (S/D) is 4 or less. Figure 6 also shows the positive influence of angle of friction (φc) on 
-the bearing capacity ratio (BCR), increase in the angle of friction of stone columns (φc) can increase the 
-ultimate load bearing capacity of the foundation system on treated soft clayey soil. This can be described 
-by the fact that the stone columns with higher angle of friction have good interlocking between their 
-granular particles and have good shear strength. 
-Figure 6. Change in the bearing capacity ratio (BCR) with the ration (S/D) 
-180
-190
-200
-210
-220
-230
-4
+1101 (2021) 012015
+IOP Publishing doi:10.1088/1757-899X/1101/1/012015
+
+Figure 5. Change in ultimate load bearing capacity (qu) with the ration (S/D)
+
+The term bearing capacity ratio (BCR) was introduced to clearly understand the effect of ratio (S/D) and angle of friction of stone columns (φc), bearing capacity ratio is described as the ratio between the ultimate load bearing capacity of raft foundation on treated soft soil to that of raft foundation on untreated soft soil. It can be observed from figure 6 that bearing capacity ratio (BCR) and ratio (S/D) has linear relation. It is clearly indicating that the ratio (S/D) of stone columns have no influence on the bearing capacity when (S/D) is greater than 7, whereas the bearing capacity ratio (BCR) can be improved when the ratio (S/D) is 4 or less. Figure 6 also shows the positive influence of angle of friction (φc) on the bearing capacity ratio (BCR), increase in the angle of friction of stone columns (φc) can increase the ultimate load bearing capacity of the foundation system on treated soft clayey soil. This can be described by the fact that the stone columns with higher angle of friction have good interlocking between their granular particles and have good shear strength.
+Figure 6. Change in the bearing capacity ratio (BCR) with the ration (S/D)
 4.5
-5
 5.5
-6
-6.5
-7
-qu (kN/m2)
-(S/D)
-φc = 42 degree
-φc  = 45 degree
-φc = 48 degree
-y = -0.033x + 1.4198
-R² = 0.7003
-y = -0.0515x + 1.566
-R² = 0.796
-y = -0.0623x + 1.6963
+6.5 qu (kN/m2)
+(S/D) φc = 42 degree φc = 45 degree φc = 48 degree y = -0.033x + 1.4198
+R² = 0.7003 y = -0.0515x + 1.566
+R² = 0.796 y = -0.0623x + 1.6963
 R² = 0.8033
 1.15
 1.2
@@ -294,151 +142,100 @@ R² = 0.8033
 6.5
 7.5
 (BCR)
-(S/D)
-φc = 42 degree
-φc = 45 degree
-φc = 48 degree
+(S/D) φc = 42 degree φc = 45 degree φc = 48 degree
 Linear (φc = 42 degree)
 Linear (φc = 45 degree)
 Linear (φc = 48 degree)
 The 13th International UNIMAS Engineering Conference 2020 (ENCON 2020)
 IOP Conf. Series: Materials Science and Engineering
-1101  (2021) 012015
-IOP Publishing
-doi:10.1088/1757-899X/1101/1/012015
-6
- 
- 
- 
- 
- 
- 
- 
-The outcomes of the present study (numerical model) was also utilized to observe the failure modes 
-of stone columns with raft foundation under loading. It was deduced that the foundation systems were 
-failed mostly because of shear both in columns and the soil in the surrounding regions, large shear failure 
-can be seen in figure 7. This findings concord well with the results reported by Hanna et al [1]. 
-Figure 7. Variation of the improvement factor (BCR) with the ratio (S/D) 
-As discussed earlier, the findings of this parametric study were also used to establish an empirical model 
-to estimate the of bearing capacity ratio (BCR) of the foundation system (stone columns under raft 
-foundation). Based on the results presented in figure 6 least square regression was used to establish 
-expression in equation (1) for estimating the bearing capacity ratio of such foundation system: 
+1101 (2021) 012015
+IOP Publishing doi:10.1088/1757-899X/1101/1/012015
+
+The outcomes of the present study (numerical model) was also utilized to observe the failure modes of stone columns with raft foundation under loading. It was deduced that the foundation systems were failed mostly because of shear both in columns and the soil in the surrounding regions, large shear failure can be seen in figure 7. This findings concord well with the results reported by Hanna et al [1].
+Figure 7. Variation of the improvement factor (BCR) with the ratio (S/D)
+As discussed earlier, the findings of this parametric study were also used to establish an empirical model to estimate the of bearing capacity ratio (BCR) of the foundation system (stone columns under raft foundation). Based on the results presented in figure 6 least square regression was used to establish expression in equation (1) for estimating the bearing capacity ratio of such foundation system:
 𝐵𝐵𝐵𝐵𝐵𝐵= (0.14 tan ∅𝑐𝑐 −0.1894) 𝑆𝑆𝐷𝐷
 ⁄
-−(1.3169 tan ∅𝑐𝑐−2.882)  
- 
-(1) 
-4. Conclusion 
-Parametric study was conducted by developing a finite element model to study the performance of 
-assembly of stone columns installed under a rigid raft foundation in soft clayey soil. In this parametric 
-investigation the effect of certain parameters on the behaviour of this foundation system was 
-investigated. 
- The main conclusions were drawn are summarized as follows: 
-• The ultimate load bearing capacity (qu) of the foundation system increases with the decrease in 
-ratio (S/D). 
-• The bearing capacity ratio (BCR) and the ratio (S/D) has linear relation, whereas the ratio (S/D) 
-of stone columns have no influence on the bearing capacity when (S/D) is greater than 7, on 
-the other hand the bearing capacity ratio (BCR) improves when the ratio (S/D) is 4 or less. 
-• The increase in the angle of friction of stone columns (φc) increases the ultimate load bearing 
-capacity (qu) of the foundation system on treated soft soil which also indicates that (BCR) is 
-higher for the higher angle of friction of stone columns. 
-• The assembly of stone columns installed under a rigid raft foundation in soft clayey soil were 
-failed mostly because of shear both in columns and the soil in the surrounding regions. 
+−(1.3169 tan ∅𝑐𝑐−2.882)
+
+(1)
+4. Conclusion
+Parametric study was conducted by developing a finite element model to study the performance of assembly of stone columns installed under a rigid raft foundation in soft clayey soil. In this parametric investigation the effect of certain parameters on the behaviour of this foundation system was investigated.
+The main conclusions were drawn are summarized as follows:
+• The ultimate load bearing capacity (qu) of the foundation system increases with the decrease in ratio (S/D).
+• The bearing capacity ratio (BCR) and the ratio (S/D) has linear relation, whereas the ratio (S/D) of stone columns have no influence on the bearing capacity when (S/D) is greater than 7, on the other hand the bearing capacity ratio (BCR) improves when the ratio (S/D) is 4 or less.
+• The increase in the angle of friction of stone columns (φc) increases the ultimate load bearing capacity (qu) of the foundation system on treated soft soil which also indicates that (BCR) is higher for the higher angle of friction of stone columns.
+• The assembly of stone columns installed under a rigid raft foundation in soft clayey soil were failed mostly because of shear both in columns and the soil in the surrounding regions.
 The 13th International UNIMAS Engineering Conference 2020 (ENCON 2020)
 IOP Conf. Series: Materials Science and Engineering
-1101  (2021) 012015
-IOP Publishing
-doi:10.1088/1757-899X/1101/1/012015
-7
- 
- 
- 
- 
- 
- 
-• A semi-empirical model was developed from the parametric study to estimate the ultimate load 
-bearing capacity of assembly of stone columns embedded in soft clayey soil under raft 
-foundation. 
-Acknowledgments 
-The authors would like to extend appreciation to Universiti Malaysia Sarawak (Grant: 
-F02/PGRG/1947/2020) and Prince Mohammad bin Fahd University. 
- 
-References 
-[1] 
-Hanna M, Etezad M, and Ayadat T 2013 Mode of failure of a group of stone columns in soft soil 
-Int. J. of Geomechanics 13 87-96 
-[2] 
-Hu W, Wood D M and Stewart W 1997 Ground improvement using stone column foundations: 
-result of model tests Int. Conf. on Ground Improvement Tech.247-256 
-[3] 
-Black J, Sivakumar V and Madhav M 2007 Reinforced stone columns in weak deposits: 
-laboratory model study J. Geotech. Geoenviron. Eng. ASCE 133 No 9 1154-1161 
-[4] 
-Black J, Sivakumar V and McKinley J 2007 Performance of clay samples reinforced with vertical 
-granular columns Can. Geotech. J. 44 No 1 89-95 
-[5] 
-Black J A, V Sivakumar and A Bell 2011 The Settlement Performance of Stone Column 
-Foundations Geotech. 61 (11) 909-922 
-[6] 
-Ghazavi M and Afshar J N 2013 Bearing capacity of geosynthetic encased stone columns 
-Geotextiles. and Geomembranes. 10 no 2 pp 47-53 
-[7] 
-Wehr W 1999 Schottersäulen das verhalten von einzelnen säulen und säulengruppen Geotech. 22 
-(1) 40-47   
-[8] 
-Wood D M, Hu W and Nash D F T 2000 Group effects in stone column foundations: model tests 
-Geotech.50 (6) 689-698 
-[9] 
-Bae W S, Bang W S and Byung C A 2002 Behavior of foundation system improved with stone 
-columns Proc. 12th Int. Offshore and Polar Eng. Conf. Kitakyushu Japan 675-678 
-[10] 
-Nazari Afshar J and Ghazavi M 2014 A simple analytical method for calculation of bearing 
-capacity of stone-column Int. J. of Civil Eng. 12 No 1  
-[11] 
-Ziaie Moayed R and Mohammadi Haji B 2016 Circular raft footings strengthened by stone 
-columns under static loads Int. J. of Civil Environ. Struct. Const. and Arch. Eng. 10 No 9  
-[12] 
-Fattah M Y, Al Neami M A and Al Suhaily A S 2017 Estimation of bearing capacity of floating 
-group of stone columns Eng. Science and Technology an Int. J. 20 1166-1172  
-[13] 
-Castro J 2014 Numerical modelling of stone columns beneath a rigid footing Journal paper 
-Computers and Geotech. 60 77–87  
-[14] 
-Killeen M M and McCabe B A 2014 Settlement performance of pad footings on soft clay 
-supported by stone columns: a numerical study Soils and Foundations 54 4 760 776 
-[15] 
-Elsawy M and El-Garhy B 2016 Behavior of raft foundation resting on improved soft soil with 
-conventional granular piles J. of Scientific and Eng. Research 3 4 428 434 
-[16] 
-Lajevardi S H, Shamsi H R, and Hamidi M, 2018 Numerical and Experimental Studies on Single 
-Stone Columns Soil Mech Found Eng 55 340 345. 
-[17] 
-Etezad M, Hanna A M, and Ayadat T 2015 Bearing Capacity of a Group of Stone Columns in 
-Soft Soil International Journal of Geomechanics  15 Issue 2. 
-[18] 
-Debnath P and Dey A K 2018 Prediction of Bearing Capacity of Geogrid-Reinforced Stone 
-Columns Using Support Vector Regression International Journal of Geomechanics 18 Issue 
-2. 
-[19] 
-Ong D E L, Sim Y S, and Leung C F 2018 Performance of Field and Numerical Back-Analysis 
-of Floating Stone Columns in Soft Clay Considering the Influence of Dilatancy International 
-Journal of Geomechanics 18 Issue 10. 
+1101 (2021) 012015
+IOP Publishing doi:10.1088/1757-899X/1101/1/012015
+
+• A semi-empirical model was developed from the parametric study to estimate the ultimate load bearing capacity of assembly of stone columns embedded in soft clayey soil under raft foundation.
+Acknowledgments
+The authors would like to extend appreciation to Universiti Malaysia Sarawak (Grant:
+F02/PGRG/1947/2020) and Prince Mohammad bin Fahd University.
+
+References
+[1]
+Hanna M, Etezad M, and Ayadat T 2013 Mode of failure of a group of stone columns in soft soil
+Int. J. of Geomechanics 13 87-96
+[2]
+Hu W, Wood D M and Stewart W 1997 Ground improvement using stone column foundations:
+result of model tests Int. Conf. on Ground Improvement Tech.247-256
+[3]
+Black J, Sivakumar V and Madhav M 2007 Reinforced stone columns in weak deposits:
+[4]
+Black J, Sivakumar V and McKinley J 2007 Performance of clay samples reinforced with vertical granular columns Can. Geotech. J. 44 No 1 89-95
+[5]
+Black J A, V Sivakumar and A Bell 2011 The Settlement Performance of Stone Column
+Foundations Geotech. 61 (11) 909-922
+[6]
+Ghazavi M and Afshar J N 2013 Bearing capacity of geosynthetic encased stone columns
+Geotextiles. and Geomembranes. 10 no 2 pp 47-53
+[7]
+Wehr W 1999 Schottersäulen das verhalten von einzelnen säulen und säulengruppen Geotech. 22
+(1) 40-47
+[8]
+Wood D M, Hu W and Nash D F T 2000 Group effects in stone column foundations: model tests
+Geotech.50 (6) 689-698
+[9]
+Bae W S, Bang W S and Byung C A 2002 Behavior of foundation system improved with stone columns Proc. 12th Int. Offshore and Polar Eng. Conf. Kitakyushu Japan 675-678
+[10]
+Nazari Afshar J and Ghazavi M 2014 A simple analytical method for calculation of bearing capacity of stone-column Int. J. of Civil Eng. 12 No 1
+[11]
+Ziaie Moayed R and Mohammadi Haji B 2016 Circular raft footings strengthened by stone columns under static loads Int. J. of Civil Environ. Struct. Const. and Arch. Eng. 10 No 9
+[12]
+Fattah M Y, Al Neami M A and Al Suhaily A S 2017 Estimation of bearing capacity of floating group of stone columns Eng. Science and Technology an Int. J. 20 1166-1172
+[13]
+Castro J 2014 Numerical modelling of stone columns beneath a rigid footing Journal paper
+Computers and Geotech. 60 77–87
+[14]
+Killeen M M and McCabe B A 2014 Settlement performance of pad footings on soft clay supported by stone columns: a numerical study Soils and Foundations 54 4 760 776
+[15]
+Elsawy M and El-Garhy B 2016 Behavior of raft foundation resting on improved soft soil with conventional granular piles J. of Scientific and Eng. Research 3 4 428 434
+[16]
+Lajevardi S H, Shamsi H R, and Hamidi M, 2018 Numerical and Experimental Studies on Single
+Stone Columns Soil Mech Found Eng 55 340 345.
+[17]
+Etezad M, Hanna A M, and Ayadat T 2015 Bearing Capacity of a Group of Stone Columns in
+Soft Soil International Journal of Geomechanics 15 Issue 2.
+[18]
+Debnath P and Dey A K 2018 Prediction of Bearing Capacity of Geogrid-Reinforced Stone
+Columns Using Support Vector Regression International Journal of Geomechanics 18 Issue
+2.
+[19]
+Ong D E L, Sim Y S, and Leung C F 2018 Performance of Field and Numerical Back-Analysis of Floating Stone Columns in Soft Clay Considering the Influence of Dilatancy International
+Journal of Geomechanics 18 Issue 10.
 The 13th International UNIMAS Engineering Conference 2020 (ENCON 2020)
 IOP Conf. Series: Materials Science and Engineering
-1101  (2021) 012015
-IOP Publishing
-doi:10.1088/1757-899X/1101/1/012015
-8
- 
- 
- 
- 
- 
- 
-[20] 
-Etezad M, Hanna A M, and Khalifa M 2018 Bearing Capacity of a Group of Stone Columns in 
-Soft Soil Subjected to Local or Punching Shear Failures International Journal of 
-Geomechanics 18 Issue 12. 
-[21] 
-Chin F K 1972 The inverse Slope as a Prediction of Ultimate Bearing Capacity of Piles Proc. 3rd 
-Southeast Asian Conf. on Soil Eng. Hong Kong pp 83-91 
+1101 (2021) 012015
+IOP Publishing doi:10.1088/1757-899X/1101/1/012015
+
+[20]
+Etezad M, Hanna A M, and Khalifa M 2018 Bearing Capacity of a Group of Stone Columns in
+Soft Soil Subjected to Local or Punching Shear Failures International Journal of
+Geomechanics 18 Issue 12.
+[21]
+Chin F K 1972 The inverse Slope as a Prediction of Ultimate Bearing Capacity of Piles Proc. 3rd
+Southeast Asian Conf. on Soil Eng. Hong Kong pp 83-91

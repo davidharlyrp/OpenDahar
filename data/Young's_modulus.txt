@@ -1,0 +1,818 @@
+Young's modulus
+The slope of the linear part of the stress–strain curve for a material under tension or compression.
+Common symbols
+E
+SI unit
+Pa
+Intensive?
+yes
+Derivations from other quantities
+G = σ / ε
+Dimension
+Young's modulus
+Young's modulus (or the Young modulus) is a mechanical property of solid materials that measures the tensile or compressive stiffness when the force is applied lengthwise. It is the elastic modulus for tension or axial compression. Young's modulus is defined as the quotient of the stress (force per unit area) applied to the object and the resulting axial strain (a dimensionless quantity that quantifies relative deformation) in the linear elastic region of the material. As such, Young's modulus is similar to and proportional to the spring constant in Hooke's law, but with dimensions of pressure instead of force per distance.
+Although Young's modulus is named after the 19th-century British scientist Thomas Young, the concept was developed in 1727 by Leonhard Euler. The first experiments that used the concept of Young's modulus in its modern form were performed by the Italian scientist Giordano Riccati in 1782, pre-dating Young's work by
+25 years.[1] The term modulus is derived from the Latin root term modus, which means measure.
+Young's modulus,
+, quantifies the relationship between tensile or compressive stress (force per unit area) and axial strain (proportional deformation) in the linear elastic region of a material:[2]
+Young's modulus is commonly measured in the International System of Units (SI) in multiples of the pascal
+(Pa) and common values are in the range of gigapascals (GPa).
+Examples:
+Rubber (increasing pressure: large length increase, meaning low
+)
+Aluminium (increasing pressure: small length increase, meaning high
+)
+A solid material undergoes elastic deformation when a small load is applied to it in compression or extension. Elastic deformation is reversible, meaning that the material returns to its original shape after the load is removed.
+At near-zero stress and strain, the stress–strain curve is linear, and the relationship between stress and strain is described by Hooke's law that states stress is proportional to strain. The coefficient of proportionality is Young's modulus. The higher the modulus, the more stress is needed to create the same amount of strain; an idealized rigid body would have an infinite Young's modulus. Conversely, a very soft material (such as a fluid) would deform without force, and would have zero Young's modulus.
+Material stiffness is a distinct property from the following:
+Strength: maximum amount of stress that material can withstand while staying in the elastic (reversible) deformation regime;
+Geometric stiffness: a global characteristic of the body that depends on its shape, and not only on the local properties of the material; for instance, an I-beam has a higher bending stiffness than a rod of the same material for a given mass per length;
+Hardness: relative resistance of the material's surface to penetration by a harder body;
+Toughness: amount of energy that a material can absorb before fracture.
+The point E is the elastic limit or the yield point of the material within which the stress is proportional to strain and the material regains its original shape after removal of the external force.
+Young's modulus enables the calculation of the change in the dimension of a bar made of an isotropic elastic material under tensile or compressive loads. For instance, it predicts how much a material sample extends under tension or shortens under compression. The Young's modulus directly applies to cases of uniaxial stress; that is, tensile or compressive stress in one direction and no stress in the other directions. Young's modulus is also used in order to predict the deflection that will occur in a statically determinate beam when a load is applied at a point in between the beam's supports.
+Other elastic calculations usually require the use of one additional elastic property, such as the shear modulus
+, bulk modulus
+, and Poisson's ratio . Any two of these parameters are sufficient to fully describe elasticity in an isotropic material. For example, calculating physical properties of cancerous skin tissue, has been measured and found to be a Poisson's ratio of 0.43±0.12 and an average Young's modulus of 52 KPa. Defining the elastic properties of skin may become the first step in turning elasticity into a clinical tool.[3] For homogeneous isotropic materials simple relations exist between elastic constants that allow calculating them all as long as two are known:
+Definition
+Linear elasticity
+Related but distinct properties
+Usage
+Young's modulus represents the factor of proportionality in Hooke's law, which relates the stress and the strain. However, Hooke's law is only valid under the assumption of an elastic and linear response. Any real material will eventually fail and break when stretched over a very large distance or with a very large force; however, all solid materials exhibit nearly Hookean behavior for small enough strains or stresses. If the range over which Hooke's law is valid is large enough compared to the typical stress that one expects to apply to the material, the material is said to be linear. Otherwise (if the typical stress one would apply is outside the linear range), the material is said to be non-linear.
+Steel, carbon fiber and glass among others are usually considered linear materials, while other materials such as rubber and soils are non-linear. However, this is not an absolute classification: if very small stresses or strains are applied to a non-linear material, the response will be linear, but if very high stress or strain is applied to a linear material, the linear theory will not be enough. For example, as the linear theory implies reversibility, it would be absurd to use the linear theory to describe the failure of a steel bridge under a high load; although steel is a linear material for most applications, it is not in such a case of catastrophic failure.
+In solid mechanics, the slope of the stress–strain curve at any point is called the tangent modulus. It can be experimentally determined from the slope of a stress–strain curve created during tensile tests conducted on a sample of the material.
+Young's modulus is not always the same in all orientations of a material. Most metals and ceramics, along with many other materials, are isotropic, and their mechanical properties are the same in all orientations. However, metals and ceramics can be treated with certain impurities, and metals can be mechanically worked to make their grain structures directional. These materials then become anisotropic, and Young's modulus will change depending on the direction of the force vector.[4] Anisotropy can be seen in many composites as well. For example, carbon fiber has a much higher Young's modulus (is much stiffer) when force is loaded parallel to the fibers (along the grain). Other such materials include wood and reinforced concrete. Engineers can use this directional phenomenon to their advantage in creating structures.
+The Young's modulus of metals varies with the temperature and can be realized through the change in the interatomic bonding of the atoms, and hence its change is found to be dependent on the change in the work function of the metal. Although classically, this change is predicted through fitting and without a clear underlying mechanism (for example, the Watchman's formula), the Rahemi-Li model[5] demonstrates how the change in the electron work function leads to change in the Young's modulus of metals and predicts this variation with calculable parameters, using the generalization of the Lennard-Jones potential to solids. In general, as the temperature increases, the Young's modulus decreases via where the electron work function varies with the temperature as and is a calculable material property which is dependent on the crystal structure (for example, BCC, FCC).
+is the electron work function at T=0 and is constant throughout the change. Additionally, the Rahemi–Li model links the temperature dependence of Young’s modulus in metals to changes in the electron work function, providing a theoretical basis using a generalized Lennard-Jones potential.
+Young's modulus is calculated by dividing the tensile stress,
+, by the engineering extensional strain, , in the elastic (initial, linear) portion of the physical stress–strain curve:
+where is the Young's modulus (modulus of elasticity); is the force exerted on an object under tension; is the actual cross-sectional area, which equals the area of the cross-section perpendicular to the applied force; is the amount by which the length of the object changes ( is positive if the material is stretched, and negative when the material is compressed); is the original length of the object.
+An equivalent definition of Young's modulus is where is material's energy.
+Linear versus non-linear
+Directional materials
+Temperature dependence
+Calculation
+Influences of selected glass component additions on
+Young's modulus of a specific base glass
+Young's modulus of a material can be used to calculate the force it exerts under specific strain.
+where is the force exerted by the material when contracted or stretched by
+.
+Hooke's law for a stretched wire can be derived from this formula:
+where it comes in saturation and
+Note that the elasticity of coiled springs comes from shear modulus, not Young's modulus. When a spring is stretched, its wire's length doesn't change, but its shape does. This is why only the shear modulus of elasticity is involved in the stretching of a spring.
+The elastic potential energy stored in a linear elastic material is given by the integral of the Hooke's law:
+now by explicating the intensive variables:
+This means that the elastic potential energy density (that is, per unit volume) is given by:
+or, in simple notation, for a linear elastic material:
+, since the strain is defined
+.
+In a nonlinear elastic material the Young's modulus is a function of the strain, so the second equivalence no longer holds, and the elastic energy is not a quadratic function of the strain:
+Young's modulus can vary somewhat due to differences in sample composition and test method. The rate of deformation has the greatest impact on the data collected, especially in polymers. The values here are approximate and only meant for relative comparison.
+Force exerted by stretched or contracted material
+Elastic potential energy
+Examples
+Approximate Young's modulus for various materials
+Material
+Young's modulus
+Ref.
+GPa psi
+Aluminium (13Al)
+9.9 ×106
+[6][7][8][9][10][11]
+Amino-acid molecular crystals
+21–44
+3.0 ×106–6.4 ×106
+[12]
+Aramid (for example, Kevlar)
+70.5–112.4
+10.23 ×106–16.30 ×106
+[13]
+Aromatic peptide-nanospheres
+230–275
+33.4 ×106–39.9 ×106
+[14]
+Aromatic peptide-nanotubes
+19–27
+2.8 ×106–3.9 ×106
+[15][16]
+Bacteriophage capsids
+1–3
+0.15 ×106–0.44 ×106
+[17]
+Beryllium (4Be)
+41.6 ×106
+[18]
+Bone, human cortical
+2.0 ×106
+[19]
+Brass
+15.4 ×106
+[20]
+Bronze
+16.2 ×106
+[21]
+Carbon nitride (CN2)
+119.2 ×106
+[22]
+Carbon-fiber-reinforced plastic (CFRP), 50/50 fibre/matrix, biaxial fabric
+30–50
+4.4 ×106–7.3 ×106
+[23]
+Carbon-fiber-reinforced plastic (CFRP), 70/30 fibre/matrix, unidirectional, along fibre
+26.3 ×106
+[24]
+Cobalt-chrome (CoCr)
+33 ×106
+[25]
+Copper (Cu), annealed
+16 ×106
+[26]
+Diamond (C), synthetic
+1,050–1,210
+152 ×106–175 ×106
+[27]
+Diatom frustules, largely silicic acid
+0.35–2.77
+0.051 ×106–0.402 ×106
+[28]
+Flax fiber
+8.4 ×106
+[29]
+Float glass
+47.7–83.6
+6.92 ×106–12.13 ×106
+[30]
+Glass-reinforced polyester (GRP)
+17.2
+2.49 ×106
+[31]
+Gold
+77.2
+11.20 ×106
+[32]
+Graphene
+1,050
+152 ×106
+[33]
+Hemp fiber
+5.1 ×106
+[34]
+High-density polyethylene (HDPE)
+0.97–1.38
+0.141 ×106–0.200 ×106
+[35]
+High-strength concrete
+4.4 ×106
+[36]
+Lead (82Pb), chemical
+1.9 ×106
+[11]
+Low-density polyethylene (LDPE), molded
+0.228
+0.0331 ×106
+[37]
+Magnesium alloy
+45.2
+6.56 ×106
+[38]
+Medium-density fiberboard (MDF)
+0.58 ×106
+[39]
+Molybdenum (Mo), annealed
+48 ×106
+[40][7][8][9][10][11]
+Monel
+26 ×106
+[11]
+Mother-of-pearl (largely calcium carbonate)
+10 ×106
+[41]
+Nickel (28Ni), commercial
+29 ×106
+[11]
+Nylon 66
+2.93
+0.425 ×106
+[42]
+Osmium (76Os)
+525–562
+76.1 ×106–81.5 ×106
+[43]
+Osmium nitride (OsN2)
+194.99–396.44
+28.281 ×106–57.499 ×106
+[44]
+Polycarbonate (PC)
+2.2
+0.32 ×106
+[45]
+Polyethylene terephthalate (PET), unreinforced
+3.14
+0.455 ×106
+[46]
+Polypropylene (PP), molded
+1.68
+0.244 ×106
+[47]
+Polystyrene, crystal
+2.5–3.5
+0.36 ×106–0.51 ×106
+[48]
+Polystyrene, foam
+0.0025–0.007
+0.00036 ×106–0.00102 ×106
+[49]
+Polytetrafluoroethylene (PTFE), molded
+0.564
+0.0818 ×106
+[50]
+Rubber, small strain
+0.01–0.1
+0.0015 ×106–0.0145 ×106
+[12]
+Silicon, single crystal, different directions
+130–185
+18.9 ×106–26.8 ×106
+[51]
+Silicon carbide (SiC)
+90–137
+13.1 ×106–19.9 ×106
+[52]
+Single-walled carbon nanotube
+1,000
+150 ×106
+[53][54]
+Steel, A36
+29 ×106
+[55]
+Stinging nettle fiber
+12.6 ×106
+[29]
+Titanium (22Ti)
+16.8 ×106
+[56][57][7][9][8][11][10]
+Titanium alloy, Grade 5
+16.5 ×106
+[58]
+Tooth enamel, largely calcium phosphate
+12.0 ×106
+[59]
+Tungsten carbide (WC)
+600–686
+87.0 ×106–99.5 ×106
+[60]
+Wood, American beech
+9.5–11.9
+1.38 ×106–1.73 ×106
+[61]
+Wood, black cherry
+9–10.3
+1.31 ×106–1.49 ×106
+[61]
+Wood, red maple
+9.6–11.3
+1.39 ×106–1.64 ×106
+[61]
+Wrought iron
+28.0 ×106
+[62]
+Yttrium iron garnet (YIG), polycrystalline
+28.0 ×106
+[63]
+Yttrium iron garnet (YIG), single-crystal
+29 ×106
+[64]
+Zinc (30Zn)
+15.7 ×106
+[65]
+Zirconium (40Zr), commercial
+13.8 ×106
+[11]
+Bending stiffness
+Deformation (engineering)
+Flexural modulus
+Impulse excitation technique
+List of materials properties
+Yield (engineering)
+1. The Rational mechanics of Flexible or Elastic Bodies, 1638–1788:
+Introduction to Leonhardi Euleri Opera Omnia, vol. X and XI, Seriei
+Secundae. Orell Fussli.
+2. Jastrzebski, D. (1959). Nature and Properties of Engineering
+Materials (Wiley International ed.). John Wiley & Sons, Inc.
+3. Tilleman, Tamara Raveh; Tilleman, Michael M.; Neumann, Martino
+H.A. (December 2004). "The Elastic Properties of Cancerous Skin:
+Poisson's Ratio and Young's Modulus" (https://www.ima.org.il/Files
+UploadPublic/IMAJ/0/52/26480.pdf) (PDF). Israel Medical
+Association Journal. 6 (12): 753–755. PMID 15609889 (https://pub med.ncbi.nlm.nih.gov/15609889).
+4. Gorodtsov, V.A.; Lisovenko, D.S. (2019). "Extreme values of
+Young's modulus and Poisson's ratio of hexagonal crystals".
+Mechanics of Materials. 134: 1–8. Bibcode:2019MechM.134....1G
+(https://ui.adsabs.harvard.edu/abs/2019MechM.134....1G).
+doi:10.1016/j.mechmat.2019.03.017 (https://doi.org/10.1016%2Fj.m echmat.2019.03.017). S2CID 140493258 (https://api.semanticschol ar.org/CorpusID:140493258).
+5. Rahemi, Reza; Li, Dongyang (April 2015). "Variation in electron work function with temperature and its effect on the Young's modulus of metals". Scripta Materialia. 99 (2015): 41–44.
+arXiv:1503.08250 (https://arxiv.org/abs/1503.08250).
+Bibcode:2015arXiv150308250R (https://ui.adsabs.harvard.edu/abs/
+2015arXiv150308250R). doi:10.1016/j.scriptamat.2014.11.022 (http s://doi.org/10.1016%2Fj.scriptamat.2014.11.022).
+S2CID 118420968 (https://api.semanticscholar.org/CorpusID:11842
+0968).
+6. "Aluminum, Al" (http://www.matweb.com/search/DataSheet.aspx?M atGUID=0cd1edf33ac145ee93a0aa6fc666c0e0). MatWeb.
+Retrieved May 7, 2021.
+7. Weast, Robert C. (1981). CRC Handbook of Chemistry and Physics
+(62nd ed.). Boca Raton, FL: CRC Press.
+doi:10.1002/jctb.280500215 (https://doi.org/10.1002%2Fjctb.28050
+0215). ISBN 978-0-84-930740-9.
+8. Ross, Robert B. (1992). Metallic Materials Specification Handbook
+(4th ed.). London: Chapman & Hall. doi:10.1007/978-1-4615-3482-
+2 (https://doi.org/10.1007%2F978-1-4615-3482-2). ISBN 978-0-
+412-36940-7.
+9. Nunes, Rafael; Adams, J. H.; Ammons, Mitchell; et al. (1990).
+Volume 2: Properties and Selection: Nonferrous Alloys and Special-
+Purpose Materials (http://sme.vimaru.edu.vn/sites/sme.vimaru.edu.
+vn/files/volume_2_-_properties_and_selection_nonf.pdf) (PDF).
+ASM Handbook (10th ed.). ASM International. ISBN 978-0-87170-
+378-1.
+10. Nayar, Alok (1997). The Metals Databook. New York, NY: McGraw-
+Hill. ISBN 978-0-07-462300-8.
+11. Lide, David R., ed. (1999). "Commercial Metals and Alloys". CRC
+Handbook of Chemistry and Physics (80th ed.). Boca Raton, FL:
+CRC Press. ISBN 978-0-84-930480-4.
+12. Azuri, Ido; Meirzadeh, Elena; Ehre, David; et al. (November 9,
+2015). "Unusually Large Young's Moduli of Amino Acid Molecular
+Crystals" (http://www.sas.upenn.edu/rappegroup/publications/Paper s/Azuri15p13566.pdf) (PDF). Angewandte Chemie. 54 (46)
+(International ed.). Wiley: 13566–13570.
+Bibcode:2015ACIE...5413566A (https://ui.adsabs.harvard.edu/abs/2
+015ACIE...5413566A). doi:10.1002/anie.201505813 (https://doi.org/
+10.1002%2Fanie.201505813). PMID 26373817 (https://pubmed.nc bi.nlm.nih.gov/26373817). S2CID 13717077 (https://api.semanticsc holar.org/CorpusID:13717077) – via PubMed.
+13. "Kevlar Aramid Fiber Technical Guide" (https://www.dupont.com/con tent/dam/dupont/amer/us/en/safety/public/documents/en/Kevlar_Te chnical_Guide_0319.pdf) (PDF). DuPont. 2017. Retrieved May 8,
+2021.
+14. Adler-Abramovich, Lihi; Kol, Nitzan; Yanai, Inbal; et al. (December
+17, 2010). "Self-Assembled Organic Nanostructures with Metallic-
+Like Stiffness". Angewandte Chemie. 49 (51) (International ed.).
+Wiley-VCH (published September 28, 2010): 9939–9942.
+doi:10.1002/anie.201002037 (https://doi.org/10.1002%2Fanie.2010
+02037). PMID 20878815 (https://pubmed.ncbi.nlm.nih.gov/2087881
+5). S2CID 44873277 (https://api.semanticscholar.org/CorpusID:448
+73277).
+15. Kol, Nitzan; Adler-Abramovich, Lihi; Barlam, David; et al. (June 8,
+2005). "Self-Assembled Peptide Nanotubes Are Uniquely Rigid
+Bioinspired Supramolecular Structures" (https://pubs.acs.org/doi/ful l/10.1021/nl0505896). Nano Letters. 5 (7). Israel: American
+Chemical Society: 1343–1346. Bibcode:2005NanoL...5.1343K (http s://ui.adsabs.harvard.edu/abs/2005NanoL...5.1343K).
+doi:10.1021/nl0505896 (https://doi.org/10.1021%2Fnl0505896).
+PMID 16178235 (https://pubmed.ncbi.nlm.nih.gov/16178235) – via
+ACS Publications.
+16. Niu, Lijiang; Chen, Xinyong; Allen, Stephanie; et al. (June 6, 2007).
+"Using the Bending Beam Model to Estimate the Elasticity of
+Diphenylalanine Nanotubes" (https://pubs.acs.org/doi/full/10.1021/l a7010106). Langmuir. 23 (14). American Chemical Society: 7443–
+7446. doi:10.1021/la7010106 (https://doi.org/10.1021%2Fla701010
+6). PMID 17550276 (https://pubmed.ncbi.nlm.nih.gov/17550276) – via ACS Publications.
+See also
+References
+17. Ivanovska, Irena L.; de Pablo, Pedro J.; Ibarra, Benjamin; et al.
+(May 7, 2004). Lubensky, Tom C. (ed.). "Bacteriophage capsids:
+Tough nanoshells with complex elastic properties" (https://www.ncb i.nlm.nih.gov/pmc/articles/PMC419652). Proceedings of the
+National Academy of Sciences of the United States of America. 101
+(20). The National Academy of Sciences: 7600–7605.
+Bibcode:2004PNAS..101.7600I (https://ui.adsabs.harvard.edu/abs/
+2004PNAS..101.7600I). doi:10.1073/pnas.0308198101 (https://doi.
+org/10.1073%2Fpnas.0308198101). PMC 419652 (https://www.ncb i.nlm.nih.gov/pmc/articles/PMC419652). PMID 15133147 (https://pu bmed.ncbi.nlm.nih.gov/15133147).
+18. Foley, James C.; Abeln, Stephen P.; Stanek, Paul W.; et al. (2010).
+"An Overview of Current Research and Industrial Practices of be
+Powder Metallurgy". In Marquis, Fernand D. S. (ed.). Powder
+Materials: Current Research and Industrial Practices III. Hoboken,
+NJ: John Wiley & Sons, Inc. p. 263.
+doi:10.1002/9781118984239.ch32 (https://doi.org/10.1002%2F9781
+118984239.ch32). ISBN 978-1-11-898423-9.
+19. Rho, Jae Young; Ashman, Richard B.; Turner, Charles H. (February
+1993). "Young's modulus of trabecular and cortical bone material:
+Ultrasonic and microtensile measurements" (https://www.sciencedir ect.com/science/article/abs/pii/002192909390042D). Journal of
+Biomechanics. 26 (2). Elsevier: 111–119.
+Bibcode:1993JBiom..26..111R (https://ui.adsabs.harvard.edu/abs/1
+993JBiom..26..111R). doi:10.1016/0021-9290(93)90042-d (https://d oi.org/10.1016%2F0021-9290%2893%2990042-d). PMID 8429054
+(https://pubmed.ncbi.nlm.nih.gov/8429054) – via Elsevier Science
+Direct.
+20. "Overview of materials for Brass" (http://www.matweb.com/search/
+DataSheet.aspx?MatGUID=d3bd4617903543ada92f4c101c2a20e
+5). MatWeb. Retrieved May 7, 2021.
+21. "Overview of materials for Bronze" (http://www.matweb.com/search/ datasheet.aspx?MatGUID=66575ff2cd5249c49d76df15b47dbca4).
+MatWeb. Retrieved May 7, 2021.
+22. Chowdhury, Shafiul; Laugier, Michael T.; Rahman, Ismet Zakia
+(April–August 2004). "Measurement of the mechanical properties of carbon nitride thin films from the nanoindentation loading curve".
+Diamond and Related Materials. 13 (4–8): 1543–1548.
+Bibcode:2004DRM....13.1543C (https://ui.adsabs.harvard.edu/abs/
+2004DRM....13.1543C). doi:10.1016/j.diamond.2003.11.063 (http s://doi.org/10.1016%2Fj.diamond.2003.11.063) – via Elsevier
+Science Direct.
+23. Summerscales, John (September 11, 2019). "Composites Design and Manufacture (Plymouth University teaching support materials)"
+(https://web.archive.org/web/20210509002135/https://www.fose1.pl ymouth.ac.uk/sme/MATS347/MATS347A2%20E-G-nu.htm#E).
+Advanced Composites Manufacturing Centre. University of
+Plymouth. Archived from the original (https://www.fose1.plymouth.a c.uk/sme/MATS347/MATS347A2%20E-G-nu.htm#E) on May 9,
+2021. Retrieved May 8, 2021.
+24. Kopeliovich, Dmitri (June 3, 2012). "Epoxy Matrix Composite reinforced by 70% carbon fibers" (http://www.substech.com/dokuwi ki/doku.php?id=epoxy_matrix_composite_reinforced_by_70_carbon
+_fibers). SubsTech. Retrieved May 8, 2021.
+25. Bose, Susmita; Banerjee, Dishary; Bandyopadhyay, Amit (2016).
+"Introduction to Biomaterials and Devices for Bone Disorders". In
+Bose, Susmita; Bandyopadhyay, Amit (eds.). Materials for Bone
+Disorders. Academic Press. pp. 1–27. doi:10.1016/B978-0-12-
+802792-9.00001-X (https://doi.org/10.1016%2FB978-0-12-802792-
+9.00001-X). ISBN 978-0-12-802792-9.
+26. "Copper, Cu; Annealed" (http://www.matweb.com/search/DataShee t.aspx?MatGUID=9aebe83845c04c1db5126fada6f76f7e). MatWeb.
+Retrieved May 9, 2021.
+27. Spear, Karl E.; Dismukes, John P., eds. (1994). Synthetic Diamond:
+Emerging CVD Science and Technology. Wiley. p. 315. ISBN 978-
+0-47-153589-8. ISSN 0275-0171 (https://search.worldcat.org/issn/0
+275-0171).
+28. Subhash, Ghatu; Yao, Shuhuai; Bellinger, Brent; Gretz, Michael R.
+(January 2005). "Investigation of mechanical properties of diatom frustules using nanoindentation". Journal of Nanoscience and
+Nanotechnology. 5 (1). American Scientific Publishers: 50–56.
+doi:10.1166/jnn.2005.006 (https://doi.org/10.1166%2Fjnn.2005.00
+6). PMID 15762160 (https://pubmed.ncbi.nlm.nih.gov/15762160) – via Ingenta Connect.
+29. Bodros, Edwin; Baley, Christophe (May 15, 2008). "Study of the tensile properties of stinging nettle fibres (Urtica dioica)". Materials
+Letters. 62 (14): 2143–2145. Bibcode:2008MatL...62.2143B (https:// ui.adsabs.harvard.edu/abs/2008MatL...62.2143B).
+CiteSeerX 10.1.1.299.6908 (https://citeseerx.ist.psu.edu/viewdoc/su mmary?doi=10.1.1.299.6908). doi:10.1016/j.matlet.2007.11.034 (htt ps://doi.org/10.1016%2Fj.matlet.2007.11.034) – via Elsevier
+Science Direct.
+30. "Float glass - Properties and Applications" (https://www.azom.com/p roperties.aspx?ArticleID=89). AZO Materials. February 16, 2001.
+Retrieved May 9, 2021.
+31. Kopeliovich, Dmitri (March 6, 2012). "Polyester Matrix Composite reinforced by glass fibers (Fiberglass)" (http://www.substech.com/d okuwiki/doku.php?id=polyester_matrix_composite_reinforced_by_gl ass_fibers_fiberglass). SubsTech. Retrieved May 7, 2021.
+32. "Gold material property data" (http://www.matweb.com/search/Data
+Sheet.aspx?MatGUID=d2a2119a08904a0fa706e9408cddb88e).
+MatWeb. Retrieved September 8, 2021.
+33. Liu, Fang; Ming, Pingbing; Li, Ju (August 28, 2007). "Ab initio calculation of ideal strength and phonon instability of graphene under tension" (http://li.mit.edu/A/Papers/07/Liu07.pdf) (PDF).
+Physical Review B. 76 (6) 064120. American Physical Society.
+Bibcode:2007PhRvB..76f4120L (https://ui.adsabs.harvard.edu/abs/
+2007PhRvB..76f4120L). doi:10.1103/PhysRevB.76.064120 (https:// doi.org/10.1103%2FPhysRevB.76.064120) – via APS Physics.
+34. Saheb, Nabi; Jog, Jyoti (October 15, 1999). "Natural fibre polymer composites: a review" (https://doi.org/10.1002%2F%28SICI%29109
+8-2329%28199924%2918%3A4%3C351%3A%3AAID-ADV6%3E3.
+0.CO%3B2-X). Advances in Polymer Technology. 18 (4). John
+Wiley & Sons, Inc.: 351–363. doi:10.1002/(SICI)1098-
+2329(199924)18:4<351::AID-ADV6>3.0.CO;2-X (https://doi.org/10.
+1002%2F%28SICI%291098-2329%28199924%2918%3A4%3C35
+1%3A%3AAID-ADV6%3E3.0.CO%3B2-X).
+35. "High-Density Polyethylene (HDPE)" (https://polymerdatabase.com/
+Commercial%20Polymers/HDPE.html). Polymer Database.
+Chemical Retrieval on the Web. Retrieved May 9, 2021.
+36. Cardarelli, François (2008). "Cements, Concrete, Building Stones, and Construction Materials". Materials Handbook: A Concise
+Desktop Reference (2nd ed.). London: Springer-Verlag. pp. 1421–
+1439. doi:10.1007/978-3-319-38925-7_15 (https://doi.org/10.1007%
+2F978-3-319-38925-7_15). ISBN 978-3-319-38923-3.
+37. "Overview of materials for Low Density Polyethylene (LDPE),
+Molded" (http://matweb.com/search/DataSheet.aspx?MatGUID=55
+7b96c10e0843dbb1e830ceedeb35b0). MatWeb. Retrieved May 7,
+2021.
+38. "Overview of materials for Magnesium Alloy" (http://www.matweb.co m/search/DataSheet.aspx?MatGUID=4e6a4852b14c4b12998acf2f
+8316c07c). MatWeb. Retrieved May 9, 2021.
+39. "Medium Density Fiberboard (MDF)" (http://www.makeitfrom.com/d ata/?material=MDF). MakeItFrom. May 30, 2020. Retrieved May 8,
+2021.
+40. "Molybdenum, Mo, Annealed" (http://www.matweb.com/search/data sheet.aspx?matguid=ef57c33963404798ad0301a05692312a).
+MatWeb. Retrieved May 9, 2021.
+41. Jackson, Andrew P.; Vincent, Julian F. V.; Turner, R. M. (September
+22, 1988). "The mechanical design of nacre". Proceedings of the
+Royal Society B. 234 (1277). Royal Society: 415–440.
+Bibcode:1988RSPSB.234..415J (https://ui.adsabs.harvard.edu/abs/
+1988RSPSB.234..415J). doi:10.1098/rspb.1988.0056 (https://doi.or g/10.1098%2Frspb.1988.0056). eISSN 2053-9193 (https://search.w orldcat.org/issn/2053-9193). ISSN 0080-4649 (https://search.worldc at.org/issn/0080-4649). S2CID 135544277 (https://api.semanticsch olar.org/CorpusID:135544277) – via The Royal Society Publishing.
+42. "Nylon® 6/6 (Polyamide)" (https://web.archive.org/web/2021050803
+2402/https://www.polytechindustrial.com/products/plastic-stock-sha pes/nylon-66). Poly-Tech Industrial, Inc. 2011. Archived from the original (https://www.polytechindustrial.com/products/plastic-stock-s hapes/nylon-66) on May 8, 2021. Retrieved May 9, 2021.
+43. Pandey, Dharmendra Kumar; Singh, Devraj; Yadawa, Pramod
+Kumar (April 2, 2009). "Ultrasonic Study of Osmium and
+Ruthenium" (https://web.archive.org/web/20200312123026/https:// www.technology.matthey.com/pdf/91-97-pmr-apr09.pdf) (PDF).
+Platinum Metals Review. 53 (4). Johnson Matthey: 91–97.
+doi:10.1595/147106709X430927 (https://doi.org/10.1595%2F14710
+6709X430927). Archived from the original (http://www.technology.m atthey.com/pdf/91-97-pmr-apr09.pdf) (PDF) on March 12, 2020.
+Retrieved May 7, 2021 – via Ingenta Connect.
+44. Gaillac, Romain; Coudert, François-Xavier (July 26, 2020). "ELATE:
+Elastic tensor analysis" (http://progs.coudert.name/elate/mp?query= mp-973935). ELATE. Retrieved May 9, 2021.
+45. "Polycarbonate" (https://designerdata.nl/materials/plastics/thermo-pl astics/polycarbonate). DesignerData. Retrieved May 9, 2021.
+46. "Overview of materials for Polyethylene Terephthalate (PET),
+Unreinforced" (http://www.matweb.com/search/DataSheet.aspx?Ma tGUID=a696bdcdff6f41dd98f8eec3599eaa20). MatWeb. Retrieved
+May 9, 2021.
+47. "Overview of Materials for Polypropylene, Molded" (http://www.mat web.com/search/DataSheet.aspx?MatGUID=08fb0f47ef7e454fbf70
+92517b2264b2). MatWeb. Retrieved May 9, 2021.
+48. "Young's Modulus: Tensile Elasticity Units, Factors & Material Table"
+(https://omnexus.specialchem.com/polymer-properties/properties/y oung-modulus). Omnexus. SpecialChem. Retrieved May 9, 2021.
+49. "Technical Data - Application Recommendations Dimensioning
+Aids" (https://www.styrodur.com/portal/streamer?fid=1225078).
+Stryodur. BASF. August 2019. Retrieved May 7, 2021.
+50. "Overview of materials for Polytetrafluoroethylene (PTFE), Molded"
+(http://www.matweb.com/search/datasheet_print.aspx?matguid=4d
+14eac958e5401a8fd152e1261b6843). MatWeb. Retrieved May 9,
+2021.
+51. Boyd, Euan J.; Uttamchandani, Deepak (2012). "Measurement of the Anisotropy of Young's Modulus in Single-Crystal Silicon".
+Journal of Microelectromechanical Systems. 21 (1). Institute of
+Electrical and Electronics Engineers: 243–249.
+Bibcode:2012JMemS..21..243B (https://ui.adsabs.harvard.edu/abs/
+2012JMemS..21..243B). doi:10.1109/JMEMS.2011.2174415 (http s://doi.org/10.1109%2FJMEMS.2011.2174415). eISSN 1941-0158
+(https://search.worldcat.org/issn/1941-0158). ISSN 1057-7157 (http s://search.worldcat.org/issn/1057-7157). S2CID 39025763 (https://a pi.semanticscholar.org/CorpusID:39025763) – via IEEE Xplore.
+52. "Silicon Carbide (SiC) Properties and Applications" (https://www.azo m.com/properties.aspx?ArticleID=42). AZO Materials. February 5,
+2001. Retrieved May 9, 2021.
+53. Forró, László; Salvetat, Jean-Paul; Bonard, Jean-Marc; et al.
+(January 2002). Thorpe, Michael F.; Tománek, David; Enbody,
+Richard J. (eds.). "Electronic and Mechanical Properties of Carbon
+Nanotubes" (https://www.researchgate.net/publication/226537355).
+Science and Application of Nanotubes. Fundamentals Materials
+Research. Boston, MA: Springer: 297–320. doi:10.1007/0-306-
+47098-5_22 (https://doi.org/10.1007%2F0-306-47098-5_22).
+ISBN 978-0-306-46372-3 – via ResearchGate.
+54. Yang, Yi-Hsuan; Li, Wenzhi (January 24, 2011). "Radial elasticity of single-walled carbon nanotube measured by atomic force microscopy". Applied Physics Letters. 98 (4). American Institute of
+Physics: 041901. Bibcode:2011ApPhL..98d1901Y (https://ui.adsab s.harvard.edu/abs/2011ApPhL..98d1901Y). doi:10.1063/1.3546170
+(https://doi.org/10.1063%2F1.3546170).
+55. "ASTM A36 Mild/Low Carbon Steel" (https://www.azom.com/article.
+aspx?ArticleID=6117). AZO Materials. July 5, 2012. Retrieved
+May 9, 2021.
+56. "Titanium, Ti" (http://www.matweb.com/search/datasheet.aspx?Mat
+GUID=66a15d609a3f4c829cb6ad08f0dafc01). MatWeb. Retrieved
+May 7, 2021.
+57. Boyer, Rodney; Welsch, Gerhard; Collings, Edward W., eds. (1994).
+Materials Properties Handbook: Titanium Alloys. Materials Park,
+OH: ASM International. ISBN 978-0-87-170481-8.
+58. U.S. Titanium Industry Inc. (July 30, 2002). "Titanium Alloys -
+Ti6Al4V Grade 5" (https://www.azom.com/article.aspx?ArticleID=15
+47). AZO Materials. Retrieved May 9, 2021.
+59. Staines, Michael; Robinson, W. H.; Hood, J. A. A. (September
+1981). "Spherical indentation of tooth enamel". Journal of Materials
+Science. 16 (9). Springer: 2551–2556.
+Bibcode:1981JMatS..16.2551S (https://ui.adsabs.harvard.edu/abs/1
+981JMatS..16.2551S). doi:10.1007/bf01113595 (https://doi.org/10.1
+007%2Fbf01113595). S2CID 137704231 (https://api.semanticschol ar.org/CorpusID:137704231) – via Springer Link.
+60. "Tungsten Carbide - An Overview" (https://www.azom.com/propertie s.aspx?ArticleID=1203). AZO Materials. January 21, 2002.
+Retrieved May 9, 2021.
+61. Green, David W.; Winandy, Jerrold E.; Kretschmann, David E.
+(1999). "Mechanical Properties of Wood". Wood Handbook: Wood as an Engineering Material (https://web.archive.org/web/201807201
+53345/https://www.fpl.fs.fed.us/documnts/fplgtr/fplgtr113/ch04.pdf)
+(PDF). Madison, WI: Forest Products Laboratory. pp. 4–8. Archived from the original (https://www.fpl.fs.fed.us/documnts/fplgtr/fplgtr113/ ch04.pdf) (PDF) on July 20, 2018.
+62. "Wrought Iron - Properties and Applications" (https://www.azom.co m/article.aspx?ArticleID=9555). AZO Materials. August 13, 2013.
+Retrieved May 9, 2021.
+63. Chou, Hung-Ming; Case, E. D. (November 1988). "Characterization of some mechanical properties of polycrystalline yttrium iron garnet
+(YIG) by non-destructive methods". Journal of Materials Science
+Letters. 7 (11): 1217–1220. doi:10.1007/BF00722341 (https://doi.or g/10.1007%2FBF00722341). S2CID 135957639 (https://api.semant icscholar.org/CorpusID:135957639) – via SpringerLink.
+64. "Yttrium Iron Garnet" (https://web.archive.org/web/2020110305010
+7/http://deltroniccrystalindustries.com/deltronic_crystal_products/yttr ium_iron_garnet). Deltronic Crystal Industries, Inc. December 28,
+2012. Archived from the original (http://deltroniccrystalindustries.co m/deltronic_crystal_products/yttrium_iron_garnet) on November 3,
+2020. Retrieved May 7, 2021.
+65. "An Introduction to Zinc" (https://www.azom.com/properties.aspx?Ar ticleID=602). AZO Materials. July 23, 2001. Retrieved May 9, 2021.
+ASTM E 111, "Standard Test Method for Young's Modulus, Tangent Modulus, and Chord Modulus" (http://www.astm.org/Standards/E111.htm)
+The ASM Handbook (various volumes) contains Young's Modulus for various materials and information on calculations. Online version (http s://products.asminternational.org/hbk/index.jsp) (subscription required)
+Matweb: free database of engineering properties for over 175,000 materials (http://www.matweb.com/)
+Young's Modulus for groups of materials, and their cost (http://www-materials.eng.cam.ac.uk/mpsite/interactive_charts/stiffness-cost/NS6Char t.html)
+Further reading
+External links
+Homogeneous isotropic linear elastic materials have their elastic properties uniquely determined by any two quantities among these; thus, given any two, any other of the elastic moduli can be calculated accord both for 3D materials (first part of the table) and for 2D materials (second part).
+3D Formulae
+Knowns
+Bulk modulus (K)
+Young's modulus (E)
+Lamé's first parameter (λ)
+Shear modulus (G)
+Poisson's ratio (ν)
+P-wave modulus (M)
+(K, E)
+3K(1 + ⁠ 6K
+E − 9K⁠)
+⁠
+E
+3 − ⁠E
+3K⁠⁠
+⁠1
+2⁠ − ⁠E
+6K⁠
+⁠
+3K + E
+3 − ⁠E
+3K⁠⁠
+(K, λ)
+9K(K − λ)
+3K − λ ⁠
+⁠3(K − λ)
+⁠
+⁠ λ
+3K − λ⁠
+3K − 2λ
+(K, G)
+⁠ 9KG
+3K + G⁠
+K − ⁠2G
+3 ⁠
+⁠3K − 2G
+6K + 2G⁠
+K + ⁠4G
+3 ⁠
+(K, ν)
+3K(1 − 2ν)
+⁠3Kν
+1 + ν⁠
+⁠3K(1 − 2ν)
+2(1 + ν) ⁠
+⁠3K(1 − ν)
+1 + ν
+(K, M)
+⁠9K(M − K)
+3K + M ⁠
+⁠3K − M
+⁠
+⁠3(M − K)
+⁠
+⁠3K − M
+3K + M⁠
+(E, λ)
+⁠E + 3λ + R
+⁠
+⁠E − 3λ + R
+⁠
+− ⁠E + R
+4λ ⁠ − ⁠1
+4⁠
+⁠E − λ + R
+⁠
+(E2
+(E, G)
+⁠
+EG
+3(3G − E)⁠
+⁠G(E − 2G)
+3G − E ⁠
+⁠E
+2G⁠ − 1
+⁠G(4G − E)
+3G − E ⁠
+(E, ν)
+⁠ E
+3 − 6ν⁠
+Eν
+(1 + ν)(1 − 2ν)⁠
+⁠
+E
+2(1 + ν)⁠
+⁠
+E(1 − ν)
+(1 + ν)(1 − 2ν)⁠
+(E, M)
+⁠3M − E + S
+⁠
+⁠M − E + S
+⁠
+⁠3M + E − S
+⁠
+⁠E + S
+4M ⁠ − ⁠1
+4⁠
+(E2 +
+(λ, G) λ + ⁠2G
+3 ⁠
+⁠G(3λ + 2G) λ + G
+⁠
+⁠ λ
+2(λ + G)⁠ λ + 2G
+(λ, ν)
+⁠λ
+3⁠(1 + ⁠1 ν⁠) λ(⁠1 ν⁠ − 2ν − 1) λ(⁠1
+2ν⁠ − 1) λ(⁠1 ν⁠ − 1)
+(λ, M)
+⁠M + 2λ
+⁠
+⁠(M − λ)(M+2λ)
+M + λ
+⁠
+⁠M − λ
+⁠
+⁠ λ
+M + λ⁠
+(G, ν)
+⁠2G(1 + ν)
+3 − 6ν ⁠
+2G(1 + ν)
+⁠2 G ν
+1 − 2ν⁠
+⁠2G(1 − ν)
+1 − 2ν ⁠
+(G, M)
+M − ⁠4G
+3 ⁠
+⁠G(3M − 4G)
+M − G
+⁠
+M − 2G
+M − 2G
+2M − 2G⁠
+(ν, M)
+⁠M(1 + ν)
+3(1 − ν) ⁠
+⁠M(1 + ν)(1 − 2ν)
+1 − ν
+⁠M ν
+1 − ν⁠
+⁠M(1 − 2ν)
+2(1 − ν) ⁠
+2D Formulae
+Knowns
+(K)
+(E)
+(λ)
+(G)
+(ν)
+(M)
+(K2D, E2D)
+⁠
+2K2D(2K2D − E2D)
+4K2D − E2D
+⁠ ⁠
+K2DE2D
+4K2D − E2D⁠
+⁠
+2K2D − E2D
+2K2D
+⁠
+⁠
+4K2D^2
+4K2D − E2D⁠
+(K2D, λ2D)
+⁠
+4K2D(K2D − λ2D)
+2K2D − λ2D
+⁠
+K2D − λ2D
+⁠ λ2D
+2K2D − λ2D⁠
+2K2D − λ2D
+(K2D, G2D)
+⁠
+4K2DG2D
+K2D + G2D⁠
+K2D − G2D
+⁠
+K2D − G2D
+K2D + G2D⁠
+K2D + G2D
+(K2D, ν2D)
+2K2D(1 − ν2D)
+⁠
+2K2Dν2D
+1 + ν2D ⁠
+⁠
+K2D(1 − ν2D)
+1 + ν2D
+⁠
+⁠
+2K2D
+1 + ν2D⁠
+(E2D, G2D)
+⁠
+E2DG2D
+4G2D − E2D⁠
+⁠
+2G2D(E2D − 2G2D)
+4G2D − E2D
+⁠
+⁠
+E2D
+2G2D⁠ − 1
+⁠
+4G2D^2
+4G2D − E2D⁠
+(E2D, ν2D)
+⁠
+E2D
+2(1 − ν2D)⁠
+⁠
+E2Dν2D
+(1 + ν2D)(1 − ν2D)⁠
+⁠
+E2D
+2(1 + ν2D)⁠
+⁠
+E2D
+(1 + ν2D)(1 − ν2D)⁠
+(λ2D, G2D) λ2D + G2D
+⁠
+4G2D(λ2D + G2D) λ2D + 2G2D
+⁠
+⁠ λ2D λ2D + 2G2D⁠ λ2D + 2G2D
+(λ2D, ν2D)
+⁠ λ2D(1 + ν2D)
+2ν2D
+⁠ ⁠ λ2D(1 + ν2D)(1 − ν2D) ν2D
+⁠
+⁠ λ2D(1 − ν2D)
+2ν2D
+⁠
+⁠ λ2D ν2D⁠
+(G2D, ν2D)
+⁠
+G2D(1 + ν2D)
+1 − ν2D
+⁠
+2G2D(1 + ν2D)
+⁠
+2 G2D ν2D
+1 − ν2D ⁠
+⁠
+2G2D
+1 − ν2D⁠
+(G2D, M2D)
+M2D − G2D
+⁠
+4G2D(M2D − G2D)
+M2D
+⁠
+M2D − 2G2D
+⁠
+M2D − 2G2D
+M2D
+⁠
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Young%27s_modulus&oldid=1339201217"

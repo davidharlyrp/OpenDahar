@@ -1,379 +1,169 @@
- 
- 
-Stability analysis and design of slope reinforcement 
-techniques for a Himalayan landslide 
- 
-Koushik Pandit, Shantanu Sarkar, Manojit Samanta and Mahesh Sharma 
-CSIR - Central Building Research Institute 
-Roorkee, India 
-koushik@cbri.res.in 
- 
- 
-Abstract—In the present study, slope stability analysis has 
-been carried out for Pakhi landslide, atPipalkoti, Uttarakhand 
+Stability analysis and design of slope reinforcement techniques for a Himalayan landslide
+
+Koushik Pandit, Shantanu Sarkar, Manojit Samanta and Mahesh Sharma
+CSIR - Central Building Research Institute
+Roorkee, India koushik@cbri.res.in
+
+Abstract—In the present study, slope stability analysis has been carried out for Pakhi landslide, atPipalkoti, Uttarakhand
 Himalaya, India. The site is situated alongside Chamoli-
-Badrinath 
-National 
-Highway 
-(NH-58) 
-in 
-the 
-Higher 
-Himalayas. This route has immense importance due to its 
-functional service for both the pilgrimage, and international 
-border security. Because of its activeness during the monsoon 
-season, Pakhi landslide poses recurring problems to the traffic. 
-Slope stability analyses are performed by limit equilibrium 
-and finite element method utilizing the engineering and 
-physical parameters determined in laboratory tests. The slope 
-is found to be just marginally stable, which calls for planning 
-and design of suitable control measures to minimize the 
-landslide activities. In view of this, further stability analyses 
-are performed using limit equilibrium and finite element tools 
-with single or composite scheme of control measures involving 
-the application of soil nails and/or pile reinforcement at critical 
-locations along the slope. The present paper also describes the 
-design methodology and the significance of pile reinforcements 
-as a novel technique for slope stabilization. 
-Keywords—Himalayan 
-landslide; 
-slope 
-stability; 
-limit 
-equilibrium analysis; finite element method; soil nailing; pile 
-reinforcement; CSIR 
-I. 
-INTRODUCTION  
-Landslides are one of the major natural hazards and very 
-common phenomena in the Himalayas. Soil/rock slide, rock 
-fall and debris slide are the most usual types of landslides 
-which very frequently occur along the hill roads, not only 
-disrupting the traffic but also causing immense loss of lives 
-and properties. Theoretically, landslides take place when a 
-mass of soil or rock slips down over an inclined slope as the 
-mobilized shear stress on it exceeds the shear strength at the 
-interface of the sliding mass and static mass. These become 
-evident primarily under the action of gravity, although there 
-are other contributing factors of natural or anthropologic 
-origin affecting the in-situ slope equilibrium.Landslide 
-becomes a complex geo-mechanical phenomenon due to the 
-intricacies involved in assessing the shear strength 
-parameters, locating the slip failure surface, and presenceof 
-water and weak layers like gauge material in a weathered 
-rock mass. Also, the natural as well as man-made factors, 
-which initiate landslide, hold multifaceted interactions. 
-Rainfall, earthquakes, weathering and other time dependent 
-phenomena continuously degrade the strength characteristics 
-of the rock or soil media in a slope. 
-Landslides may result in heavy casualties in terms of 
-death of humans and animals, as well as huge economic and 
-property loss. To mitigate such a hazard effectively, it is 
-essential to develop a proper understanding of the physical 
-mechanisms involved in a landslide.The main purpose of 
-landslide mitigation technique is to cease or reduce the 
-landslide movement so that the resulting damages can be 
-minimized. There are many approaches to mitigate a 
-landslide.These may include: 
- 
-Restrictions of development in landslide prone areas, 
- 
-Modifying geometry of slope, grading, landscaping, 
- 
-Landslide arresting works and 
- 
-Warning systems 
-Thelandslide arresting works include construction of 
-structural elements like soil nails, cables, anchors, rock 
-bolts, wire mesh, shotcreting, pile reinforcements and 
-retaining walls. 
-In the present study, anactive landslide area has been 
-chosen; then its stability is analyzed in detail by limit 
-equilibrium and two-dimensional finite element method for 
-suggesting the landslide mitigationworks; and finally, the 
-best possible control measure is proposed along with its 
-design methodology.If implemented, then this support 
-scheme will be able to minimize the landslide activities in 
-the study area. 
-II. 
-STUDY AREA 
-The chosen study area isknown as the Pakhi landslide.It 
-is located at 9 km upstream from Pipalkotiin Chamoli 
-district ofthe Garhwal Himalaya in Uttarakhand State. The 
-slide,about 1.8 km away from Pakhi village, occasionally 
-disrupts the Haridwar-Badrinath road (NH-58) which has 
-high importance for both strategic and tourism point of 
-view. It is basically a debris slide with shallow overburden 
-material resting on a steep slope. Since the area is falling 
-under the Lower and HigherHimalayan region, the 
-topography varies sharply, ranging from about 1000 m 
-around the river valleys toaround 4000 m, forming the peaks 
-[1]. The study area experiences subtropical climate with hot 
-dryseason around April-June, rainy season from July-
-September, and winter season from October-March.Snow 
+Badrinath
+National
+Highway
+(NH-58) in the
+Higher
+Himalayas. This route has immense importance due to its functional service for both the pilgrimage, and international border security. Because of its activeness during the monsoon season, Pakhi landslide poses recurring problems to the traffic.
+Slope stability analyses are performed by limit equilibrium and finite element method utilizing the engineering and physical parameters determined in laboratory tests. The slope is found to be just marginally stable, which calls for planning and design of suitable control measures to minimize the landslide activities. In view of this, further stability analyses are performed using limit equilibrium and finite element tools with single or composite scheme of control measures involving the application of soil nails and/or pile reinforcement at critical locations along the slope. The present paper also describes the design methodology and the significance of pile reinforcements as a novel technique for slope stabilization.
+Keywords—Himalayan landslide; slope stability; limit equilibrium analysis; finite element method; soil nailing; pile reinforcement; CSIR
+I.
+INTRODUCTION
+Landslides are one of the major natural hazards and very common phenomena in the Himalayas. Soil/rock slide, rock fall and debris slide are the most usual types of landslides which very frequently occur along the hill roads, not only disrupting the traffic but also causing immense loss of lives and properties. Theoretically, landslides take place when a mass of soil or rock slips down over an inclined slope as the mobilized shear stress on it exceeds the shear strength at the interface of the sliding mass and static mass. These become evident primarily under the action of gravity, although there are other contributing factors of natural or anthropologic origin affecting the in-situ slope equilibrium.Landslide becomes a complex geo-mechanical phenomenon due to the intricacies involved in assessing the shear strength parameters, locating the slip failure surface, and presenceof water and weak layers like gauge material in a weathered rock mass. Also, the natural as well as man-made factors, which initiate landslide, hold multifaceted interactions.
+Rainfall, earthquakes, weathering and other time dependent phenomena continuously degrade the strength characteristics of the rock or soil media in a slope.
+Landslides may result in heavy casualties in terms of death of humans and animals, as well as huge economic and property loss. To mitigate such a hazard effectively, it is essential to develop a proper understanding of the physical mechanisms involved in a landslide.The main purpose of landslide mitigation technique is to cease or reduce the landslide movement so that the resulting damages can be minimized. There are many approaches to mitigate a landslide.These may include:
+
+Restrictions of development in landslide prone areas,
+
+Modifying geometry of slope, grading, landscaping,
+
+Landslide arresting works and
+
+Warning systems
+Thelandslide arresting works include construction of structural elements like soil nails, cables, anchors, rock bolts, wire mesh, shotcreting, pile reinforcements and retaining walls.
+In the present study, anactive landslide area has been chosen; then its stability is analyzed in detail by limit equilibrium and two-dimensional finite element method for suggesting the landslide mitigationworks; and finally, the best possible control measure is proposed along with its design methodology.If implemented, then this support scheme will be able to minimize the landslide activities in the study area.
+II.
+STUDY AREA
+The chosen study area isknown as the Pakhi landslide.It is located at 9 km upstream from Pipalkotiin Chamoli district ofthe Garhwal Himalaya in Uttarakhand State. The slide,about 1.8 km away from Pakhi village, occasionally disrupts the Haridwar-Badrinath road (NH-58) which has high importance for both strategic and tourism point of view. It is basically a debris slide with shallow overburden material resting on a steep slope. Since the area is falling under the Lower and HigherHimalayan region, the topography varies sharply, ranging from about 1000 m around the river valleys toaround 4000 m, forming the peaks
+[1]. The study area experiences subtropical climate with hot dryseason around April-June, rainy season from July-
+September, and winter season from October-March.Snow
 Recent Advances in Rock Engineering (RARE 2016)
 © 2016. The authors - Published by Atlantis Press
-97
- 
- 
-fall during Jan-March is quite common in the arealying 
-above the altitude of 2100 m. However, even at thealtitude 
-around 1300 m, snow fall can be observed during these 
-months for short interval of time [2].The study area 
-experiences 
-heavy 
-rainfall 
-annually 
-during 
-the 
-monsoonseason. The average annual rainfall data of the 
-regionbetween the period 2008 and 2012 were 1797 mm 
-andthe average cumulative rainfall for the monsoon 
-period(June to September) for the same period is 1536mm 
-[3]. Therefore, the fragilemountainous area is highly 
-vulnerable to landslides and debris flow. Thus, the highway 
-isoften disrupted in winter due to heavy snowfall 
-andfrequent landslides occurring in the rainy season.A 
-panoramic view of the slide is presented in Fig.1. 
-Fig.1. A panoramic view of the landslide 
-III. 
-FIELD INVESTIGATIONS OF THE LANDSLIDE 
-Field investigation of the in-situ site conditions is very 
-essential for slope stability analysis and structural design of 
-mitigation measures.A brief description of topographical and 
-geological investigations carried out at the site isdiscussed 
-below. 
-A. Topography 
-Relief in the surrounding area of the chosen study slide is 
-highly variable, ranging from about 1000 m (near river 
-basin) to more than 5500 m. Differential weathering and 
-erosion of various rock types has resulted in such relief 
-variation. The low relief area is basically consisting of 
-weaker rocks like slate andphyllite, while quartzite, gneiss 
-and dolomitic limestonesgive rise to higher relief with sharp 
-crested ridge because of relatively resistant to weathering 
-and erosion. Presence of steep scarps, deep narrow valleys, 
-springs, straight course of river suggest that the study area is 
-still in its youthful stage of geomorphic cycle [1].The 
-topographical map of the landslide area was prepared on a 
-scale of 1:1000 and covers the slide zone and its adjoining 
-area.The landslide area modelled has been found to be 
-about6994sq.m. Topography of the hill i.e. whether steep 
-slope or isolated ridge, plays a significant role in stability of 
-a slope.Generally, the favorable orientation of the slope is 
-considered when the dip direction of rock joints differs from 
-the dip direction of the slope by 20o to 30o as well as the 
-joints dip within 20o to 30o for a planar failure [4]. The 
-gradient of the studied slope face up to its toe varies from 
-approximately 42o to 31o. The average slope angle of the 
-main slide, starting from the crest of the slope to the road-
-cut, is nearly 41o, while the average slope angle from the 
-edge of the road-cut to toe of the slope is about 35o. It is also 
-observed that locally the slope may be little higher than 47o 
-at some places in the initial part of the profile above the 
-road-cut which may cause local instability in the slope.The 
-profile of theslope along the centre line of the slide is 
-presented in Fig.2. 
- 
-Fig.2.Profile of the landslide along the centre line 
-B. Geology 
-The chosen landslide falls in the region belonging to 
-Garhwal Group, whichis separated in the north from Central 
-Crystalline Group of rocks by the Main Central Thrust 
-(MCT) line. The hill slopes in this region are formed of 
-frequent rock outcrops, free faces (rocky cliffs), and mantle 
-of colluviums and in places deposits of quaternary [2]. The 
-Pipalkoti Formation has alternate slate and dolostone units. 
-Slates are mainly graphitic and calcareous.The slope material 
-mainly consists of debriswhich is predominantly cobbles, 
-boulders, and pebbles.These rock fragments and boulders are 
-semi-rounded to round in shape and semi-consolidated in a 
-matrix of coarse sand. The direct effects of surfacedrainage 
-and associated landslides have given rise to a wide variety of 
-soil types. The soil on cliff and precipitous slopes are 
-excessively drained loamy skeletal soils with strong 
-stoniness and very severe erosion.The top portion near the 
-crest of the slope is predominantly soil material while the 
-underlying material across the slope length is consisted of 
-debris material underlain by less to moderately weathered 
-dolomite stone. 
-IV. 
-LABORATORY INVESTIGATIONS 
-Debris material was collected from different locations of 
-the slope above and below the road section for determining 
-its unit weight at different moisture contents, permeability, 
-liquid limit, plastic limit and grain size distribution in the 
-laboratory. The important engineering properties of the 
-slope materials were also determined which were then 
-utilized for stability analysis of the slope. The debris 
-material has been studied in details as it is the one which 
-will slide down during any landslide activity. The grain size 
-distribution curve results for the debris material are 
-represented in Fig.3. The curve of grain size distribution 
-98
- 
- 
-represents a hump from which it can be concluded that some 
-of the intermediate size particle is missing in the 
-debrismaterial. Such a soil material is called gap-graded or 
-skip-graded as per IS1498: 2007 [5]. The particle size 
-distribution curve i.e. soil classification also provides an 
-indicationabout many index and engineering properties 
-ofthe soil. Generally speaking, a gap-graded soil has 
-excellent drainage quality (permeability coefficient, K > 10-
-3 cm/sec.), good compaction characteristic, and good 
-bearing value [5].From Proctor tests [6] of debris material, 
-the maximum dry density (MDD) was achieved as 21.2 
-kN/m3 against an optimum moisture content (OMC) of 
-6.7%. A large size direct shear box of dimensions 0.3m 
-x0.3m x0.06 m[7] was used to compute shear strength 
-parameters (c´, φ´) at different water contents of the slide 
-material at normal stresses of 49.03, 98.07, 147.1 and 
-196.1kPa which approximately correspond to the anticipated 
-normal stress in the field.Significant test results are 
-presented in Tables I and II below. 
-TABLE I. PHYSICAL PROPERTIES OF THE DEBRIS MATERIAL 
-Properties 
-Debris Material (Sandy Gravel) 
-Liquid Limit (%) 
-Gravel 
-size (%) 
-Sand size 
-(%) 
-Fines 
-(%) 
-IS 
-Classificat
-ion [5]: 
-25.2 
-57 
-40 
-3 
-GP 
-Plastic Limit (%) 
-GP: Poorly graded gravels or gravel sand 
-mixtures; little or no fines 
-19.09 
-Water Content 
-(%) 
-0 
-5 
-6.7 
-8.8 
-Degree of 
-Saturation (%) 
-0 
-48.6 
-70.5 
-82.8 
-Max. Dry Density 
-(kN/m3) 
-20.9 
-21.0 
-21.2 
-20.7 
-Peak Internal 
-Friction Angle 
-(Deg) 
-45.3 
-45.3 
-42.3 
-40.4 
-Residual Internal 
-Friction Angle 
-(Deg) 
-42.6 
-38.8 
-41.9 
-38.4 
-V. 
-SLOPE STABILITY ANALYSIS AND INTERPRETATION 
-In the present study, the factors of safety and the 
-locations of critical failure surfaces have been obtained by 
-the limit equilibrium method and strength reduction method 
-combined with two-dimensional finite element method are 
-compared 
-for 
-the 
-chosen 
-slope 
-with 
-selective 
-supportsystems installed. 
-A. Limit equilibrium analysis 
-For slope stability analysis, the limit equilibrium method 
-(LEM) is widely used by engineers and researchers. 
-Although the LEM does not consider the stress–strain 
-relation of soil, it can provide an estimate of the factor of 
-safety of a slope without the knowledge of the initial 
-conditions. The LEM is well known to be a statically 
-indeterminate problem and assumptions on the distributions 
-of internal forces are required for the solution of the factor of 
-safety [8].In the present study, the limit equilibrium method 
-is considered using the simplified Bishop method [9] which 
-assumes zero Xi forces between slices. This method is based 
-on satisfying the moment equation of equilibrium and the 
-vertical force equation of equilibrium. The factor of safety, 
-FoS is found through a successive iteration of the following 
-expression: 
-TABLE II. ENGINEERING PROPERTIES OF THESLIDE MATERIALS 
-Engineering 
-Properties 
-Soil 
-(Sandy 
-Silt) 
-Debris 
-(Sandy 
-Gravel) 
-Weathered 
-Dolomite 
-Less 
-Weathered 
-Dolomite 
-Elastic 
-Modulus 
-(MPa) 
-14.0 
-43.79 
-71000 
-73000 
-Poisson’s 
-Ratio 
-0.35 
-0.30 
-0.30 
-0.27 
-Peak 
-Cohesion 
-(kPa) 
-12.0 
-0 
-118 
-150 
-Peak 
-Internal 
-Friction 
-Angle (Deg.) 
-26.5 
-Refer to 
-Table I 
-20 
-25 
-Tensile Str. 
-(MPa) 
-0 
-0 
-11.8 
-11.8 
-Unit Weight 
-(kN/m3) 
-18.0 
-Refer to 
-Table I 
-25.0 
-25.0 
- 
-Fig.3.Grain size distribution curve for the debris material (grain size 
-coarser than 75μm IS sieve) 
+
+fall during Jan-March is quite common in the arealying above the altitude of 2100 m. However, even at thealtitude around 1300 m, snow fall can be observed during these months for short interval of time [2].The study area experiences heavy rainfall annually during the monsoonseason. The average annual rainfall data of the regionbetween the period 2008 and 2012 were 1797 mm andthe average cumulative rainfall for the monsoon period(June to September) for the same period is 1536mm
+[3]. Therefore, the fragilemountainous area is highly vulnerable to landslides and debris flow. Thus, the highway isoften disrupted in winter due to heavy snowfall andfrequent landslides occurring in the rainy season.A panoramic view of the slide is presented in Fig.1.
+Fig.1. A panoramic view of the landslide
+III.
+FIELD INVESTIGATIONS OF THE LANDSLIDE
+Field investigation of the in-situ site conditions is very essential for slope stability analysis and structural design of mitigation measures.A brief description of topographical and geological investigations carried out at the site isdiscussed below.
+A. Topography
+Relief in the surrounding area of the chosen study slide is highly variable, ranging from about 1000 m (near river basin) to more than 5500 m. Differential weathering and erosion of various rock types has resulted in such relief variation. The low relief area is basically consisting of weaker rocks like slate andphyllite, while quartzite, gneiss and dolomitic limestonesgive rise to higher relief with sharp crested ridge because of relatively resistant to weathering and erosion. Presence of steep scarps, deep narrow valleys, springs, straight course of river suggest that the study area is still in its youthful stage of geomorphic cycle [1].The topographical map of the landslide area was prepared on a scale of 1:1000 and covers the slide zone and its adjoining area.The landslide area modelled has been found to be about6994sq.m. Topography of the hill i.e. whether steep slope or isolated ridge, plays a significant role in stability of a slope.Generally, the favorable orientation of the slope is considered when the dip direction of rock joints differs from the dip direction of the slope by 20o to 30o as well as the joints dip within 20o to 30o for a planar failure [4]. The gradient of the studied slope face up to its toe varies from approximately 42o to 31o. The average slope angle of the main slide, starting from the crest of the slope to the road- cut, is nearly 41o, while the average slope angle from the edge of the road-cut to toe of the slope is about 35o. It is also observed that locally the slope may be little higher than 47o at some places in the initial part of the profile above the road-cut which may cause local instability in the slope.The profile of theslope along the centre line of the slide is presented in Fig.2.
+
+Fig.2.Profile of the landslide along the centre line
+B. Geology
+The chosen landslide falls in the region belonging to
+Garhwal Group, whichis separated in the north from Central
+Crystalline Group of rocks by the Main Central Thrust
+(MCT) line. The hill slopes in this region are formed of frequent rock outcrops, free faces (rocky cliffs), and mantle of colluviums and in places deposits of quaternary [2]. The
+Pipalkoti Formation has alternate slate and dolostone units.
+Slates are mainly graphitic and calcareous.The slope material mainly consists of debriswhich is predominantly cobbles, boulders, and pebbles.These rock fragments and boulders are semi-rounded to round in shape and semi-consolidated in a matrix of coarse sand. The direct effects of surfacedrainage and associated landslides have given rise to a wide variety of soil types. The soil on cliff and precipitous slopes are excessively drained loamy skeletal soils with strong stoniness and very severe erosion.The top portion near the crest of the slope is predominantly soil material while the underlying material across the slope length is consisted of debris material underlain by less to moderately weathered dolomite stone.
+IV.
+LABORATORY INVESTIGATIONS
+Debris material was collected from different locations of the slope above and below the road section for determining its unit weight at different moisture contents, permeability, liquid limit, plastic limit and grain size distribution in the laboratory. The important engineering properties of the slope materials were also determined which were then utilized for stability analysis of the slope. The debris material has been studied in details as it is the one which will slide down during any landslide activity. The grain size distribution curve results for the debris material are represented in Fig.3. The curve of grain size distribution
+
+represents a hump from which it can be concluded that some of the intermediate size particle is missing in the debrismaterial. Such a soil material is called gap-graded or skip-graded as per IS1498: 2007 [5]. The particle size distribution curve i.e. soil classification also provides an indicationabout many index and engineering properties ofthe soil. Generally speaking, a gap-graded soil has excellent drainage quality (permeability coefficient, K > 10-
+3 cm/sec.), good compaction characteristic, and good bearing value [5].From Proctor tests [6] of debris material, the maximum dry density (MDD) was achieved as 21.2 kN/m3 against an optimum moisture content (OMC) of
+6.7%. A large size direct shear box of dimensions 0.3m x0.3m x0.06 m[7] was used to compute shear strength parameters (c´, φ´) at different water contents of the slide material at normal stresses of 49.03, 98.07, 147.1 and
+196.1kPa which approximately correspond to the anticipated normal stress in the field.Significant test results are presented in Tables I and II below.
+TABLE I. PHYSICAL PROPERTIES OF THE DEBRIS MATERIAL
+Properties
+Debris Material (Sandy Gravel)
+Liquid Limit (%)
+Gravel size (%)
+Sand size
+(%)
+Fines
+(%)
+IS
+Classificat ion [5]:
+25.2
+GP
+Plastic Limit (%)
+GP: Poorly graded gravels or gravel sand mixtures; little or no fines
+19.09
+Water Content
+(%)
+6.7
+8.8
+Degree of
+Saturation (%)
+48.6
+70.5
+82.8
+Max. Dry Density
+(kN/m3)
+20.9
+21.0
+21.2
+20.7
+Peak Internal
+Friction Angle
+(Deg)
+45.3
+45.3
+42.3
+40.4
+Residual Internal
+Friction Angle
+(Deg)
+42.6
+38.8
+41.9
+38.4
+V.
+SLOPE STABILITY ANALYSIS AND INTERPRETATION
+In the present study, the factors of safety and the locations of critical failure surfaces have been obtained by the limit equilibrium method and strength reduction method combined with two-dimensional finite element method are compared for the chosen slope with selective supportsystems installed.
+A. Limit equilibrium analysis
+For slope stability analysis, the limit equilibrium method
+(LEM) is widely used by engineers and researchers.
+Although the LEM does not consider the stress–strain relation of soil, it can provide an estimate of the factor of safety of a slope without the knowledge of the initial conditions. The LEM is well known to be a statically indeterminate problem and assumptions on the distributions of internal forces are required for the solution of the factor of safety [8].In the present study, the limit equilibrium method is considered using the simplified Bishop method [9] which assumes zero Xi forces between slices. This method is based on satisfying the moment equation of equilibrium and the vertical force equation of equilibrium. The factor of safety,
+FoS is found through a successive iteration of the following expression:
+TABLE II. ENGINEERING PROPERTIES OF THESLIDE MATERIALS
+Engineering
+Properties
+Soil
+(Sandy
+Silt)
+Debris
+(Sandy
+Gravel)
+Weathered
+Dolomite
+Less
+Weathered
+Dolomite
+Elastic
+Modulus
+(MPa)
+14.0
+43.79
+Poisson’s
+Ratio
+0.35
+0.30
+0.30
+0.27
+Peak
+Cohesion
+(kPa)
+12.0
+Peak
+Internal
+Friction
+Angle (Deg.)
+26.5
+Refer to
+Table I
+Tensile Str.
+(MPa)
+11.8
+11.8
+Unit Weight
+(kN/m3)
+18.0
+Refer to
+Table I
+25.0
+25.0
+
+Fig.3.Grain size distribution curve for the debris material (grain size coarser than 75μm IS sieve)
 ܨ݋ܵൌ
 ଵ
 ∑ௐ೔௦௜௡ఈ೔
@@ -382,345 +172,154 @@ coarser than 75μm IS sieve)
 ௖௢௦ఈ೔ା೟ೌ೙ക೔.ೞ೔೙ഀ೔
 ಷೄ
 ௜
-  
-(1) 
-Here, Wiand bi arethe weight and horizontal width of the 
-ith slice;ui = pore pressure within the slice; ci and φi are the 
-effective values of soil parameters; and αi = inclination of the 
-segment of the slip surface. 
-In present study, Slide 6.0 has been used for the limit 
-equilibrium analysis of untreated and treated slopes with soil 
-nails and/or pile reinforcements as the slide-arresting 
-remedial measures. Slide 6.0 is a 2D limit equilibrium slope 
-stability program for evaluating the safety factor and 
-probability of failure, of circular or non-circular failure 
-surfaces in soil or rock slopes [10]. Slide can analyze the 
-stability of slip surfaces using vertical slice or non-vertical 
-slice limit equilibrium methods.Different in-plane and out-
-of-the-plane spacing of the soil nails and/or piles have been 
-tried out (Fig.4) for different combinations of debris material 
-properties varying with water content in it as obtained from 
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
+
+(1)
+Here, Wiand bi arethe weight and horizontal width of the ith slice;ui = pore pressure within the slice; ci and φi are the effective values of soil parameters; and αi = inclination of the segment of the slip surface.
+In present study, Slide 6.0 has been used for the limit equilibrium analysis of untreated and treated slopes with soil nails and/or pile reinforcements as the slide-arresting remedial measures. Slide 6.0 is a 2D limit equilibrium slope stability program for evaluating the safety factor and probability of failure, of circular or non-circular failure surfaces in soil or rock slopes [10]. Slide can analyze the stability of slip surfaces using vertical slice or non-vertical slice limit equilibrium methods.Different in-plane and out- of-the-plane spacing of the soil nails and/or piles have been tried out (Fig.4) for different combinations of debris material properties varying with water content in it as obtained from
 0.01
 0.1
-1
-10
 Percentage Finer by Weight
 Grain Diameter (mm)
-99
- 
- 
-the Tables I and II. Table III shows material properties of 
-soil nails and piles modeled in this study for improving the 
-overall factor of safety of the slope section chosen for 
-analysis.The limit equilibrium analysis results in details are 
-presented in Table IV for the untreated slope section and 
-slope treated with soil nails at top of the road-cut. 
-TABLE III.  PROPERTIES OF SOIL NAILS AND PILES IMPLEMENTED IN THE 
-LEM/FEM 
-Properties 
-Reinforcing Scheme 
-Soil Nails 
-Piles 
-Diameter (mm) 
-25 
-300 
-Length (m) 
-10 
-20 
-Tensile Capacity 
-(kN) 
-122.72 
-- 
-Compressive Str. 
-(MPa) 
-- 
-30 
-Elastic Modulus 
-(kN/m2) 
-200e6 
-273.8e5 
-Poisson’s Ratio 
-0.29 
-0.20 
-Side Shear 
-Resistance (kN) 
-- 
-4193.5 
-Unit Weight 
-(kN/m3) 
-78.5 
-240 
-Modelled as 
-End-anchored soil 
-nails 
-Standard Bernoulli 
-beams 
- 
-As it can be well-understood that for a rainfall 
-occurrence, the water content in debris material will increase 
-which will result in decreased shear strength. Thus, rainfall 
-incidence can make the debris layer vulnerable for sliding, 
-leading to a minimum factor of safety of just 1.08, which 
-makes the top portion of the slope above the road-cut at 
-1283.87 m elevation just marginally stable against sliding. 
-Hence, soil nails have been attempted as a reinforcement 
-technique for stabilizing this top portion of slope. This in 
-turn will reduce the chances of any debris slide and blocking 
-the highway below. Two different in-plane and out-of-plane 
-spacing (1m x 1m, and 2m x 2m) have been incorporated in 
-the limit analysis of the slope section. A factor of safety of 
-1.60 has been chosen to be adequate to arrest any chances of 
-debris slide originating from the top slope part. From the 
-Table IV, it can be seen that soil nails installed at 1m x 1m 
-spacing satisfies the aforesaid condition. In the next stage, 
-the road-cut section is studied which has a minimum safety 
-factor of 1.18, which might not prove to be satisfactory in 
-case of a heavy rainfall event. Hence, the slope portion 
-slightly below the road-cut section is installed with concrete 
-piles of 20m length, with varying spacing (0.5, 1.0, 1.5, 2.0 
-times diameter of piles) which will act as a cantilever beam, 
-being fixed at the socketed end in the bedrock of dolomite. 
-Different spacing in between the piles has been tried for 
-different water contents in the debris material. Fig.5 shows 
-variation in the obtained FoS values of the road-cut when in 
-and out-of-plane spacing between pile varies as 0.5, 1.0, 1.5 
-and 2.0 times the pile diameter (D), where, D = 0.3 m has 
-been selected as it makes the piles to be classified as micro-
-piles as per the definition from literature [11], keepingin 
-mind the economy of construction cost of piles. 
-For the same water saturation level in the debris material 
-(here, degree of saturation = 48.6% case is presented in 
-Fig.6. 
-TABLE IV.  DETAILS OF FOS VALUES IN DIFFERENT COMBINATIONS BY 
-LEM 
-Set 
-Description 
-Saturation 
-(%) 
-Top of 
-Road-Cut 
-Road-Cut 
-1A 
-Untreated slope 
-0.0 
-1.18 
-1.40 
-1B 
-48.6 
-1.18 
-1.39 
-1C 
-70.5 
-1.08 
-1.25 
-1D 
-82.8 
-1.03 
-1.18 
-2A 
-Soil nails at top of 
-road-cut, in-plane 
-and out-of-plane 
-spacing of 1.0 m 
-0.0 
-1.78 
-1.40 
-2B 
-48.6 
-1.77 
-1.39 
-2C 
-70.5 
-1.65 
-1.25 
-2D 
-82.8 
-1.66 
-1.18 
-3A 
-Soil nails at top of 
-road-cut, in-plane 
-and out-of-plane 
-spacing of 2.0 m 
-0.0 
-1.58 
-1.40 
-3B 
-48.6 
-1.58 
-1.39 
-3C 
-70.5 
-1.42 
-1.25 
-3D 
-82.8 
-1.36 
-1.18 
- 
-Fig.4. A typical view of SLIDE 6.0 drawing interface for stability analysis 
-of the chosen slopesection with soil nails and pile arrangements 
- the FoS value of the road-cut section is found to be varying 
-linearly with the number of rows of piles installed in the 
-slope with 2D array spacing. Again, from Fig.7, it is 
-observed that the FoS of the piles against the shearing on 
-the slipping plane of the slope intersecting the array of piles 
-doesn’t change much for varying moisture content in the 
-debris material for the same spacing in between the installed 
-piles. This is an interesting finding because it emphasizes 
-that spacing between the piles is the most governing factor 
-rather than the variations in the shear strength parameters of 
-the debris material which surrounds the pile perimeter. This 
-might be because of the fact that the piles have large lengths 
-which extend well into the bedrock layer and as the rock 
-mass possesses very high shear strength than the loose 
-Soil Nails 
-Piles 
-100
- 
- 
-debris material. A further study on the variation of safety 
-factor of the piles against varying socket length to diameter 
-of piles for the same spacing will be able to reveal the actual 
-mechanism and can establish the hypothesis mentioned 
-above. 
-Fig.5. Variation in the FoS values of the road-cut for different spacing of 
-the pile reinforcement and different moisture contents in debris material 
-Fig.6. Variation in the FoS values of the road-cut for different number of 
-rows of the pile reinforcement with the same array spacing of 2.0 D 
-In this study, a safety factor of 2.5 for the road-cut has 
-been chosen to be adequate for a water saturation level of 
-48.6% in the debris material. From Fig.6, it can be 
-concluded that 2 rows of piles spaced at 2.0D installed 
-below the highway will satisfy the above said precondition 
-for the safe design of the slope section chosen here. Hence, 
-for an optimum, efficient, economic and safe design of slope 
-reinforcement scheme, it may be suggested to install: (i) soil 
-nails of 25 mm diameter and 10.0 m length at the array 
-spacing of 1.0 m in the upper slope portion along with (ii) 
-micro-piles of 300 mm diameter and 20.0 m length at the 
-array spacing of 2.0D or 600 mm, below the road-cut 
-section. This formulated optimum support scheme is further 
-studied by 2D finite element analysis. 
-B. Finite element analysis 
-The shear strengthalong the critical slip surface governs 
-the stability of the slope section. The mobilized shear 
-strength along any slip surface of a c-φ material can be 
-expressed by the Mohr-Coulomb (MC) failure criterion [12, 
-13]. It is basically a set of linear equations in principal stress 
-space describing the conditions for which an isotropic 
-material will fail. In this criterion, any effect from the 
-intermediate principal stress is neglected. MC failure 
-criterion can be written as a function of (i) major and minor 
-principal stresses, or (ii) normal stress, σn and shear stress, τ 
-on the failure plane 
-Fig.7. Variation in the FoSagainst shearing of the installed piles for 
-different spacing 
-[14]. When all the principal stresses are compressive, 
-experiments demonstrate that the criterion applies reasonably 
-well to rock, where the uniaxial compressive strength C0 is 
-much greater than the uniaxial tensile strength T, e.g. 
-C0/T > 10 [15].Again, when a soil sample fails, the shear 
-stress on the failure plane defines the shear strength of the 
-soil [16]. Thus, it can be said that the Mohr-Coulomb 
-criterion holds good for both rocks and soils under shearing 
-and compression. The shear strength of a soil or rock 
-interface may be defined by as: 
-߬ൌܿᇱ൅ ߪ௡tan ߮′ 
- 
- 
-(2) 
-Here,τ andߪ௡ are the shear strengthalong and the normal 
-stress on the failure surface respectively, at the time of 
-failure; while,ܿᇱand φ'are the effective cohesion and effective 
-internal angle of friction at drained condition. 
-Griffiths and Lane [17] have pointed out that the 
-widespread use of the Strength Reduction Method (SRM) 
-should be critically considered by geotechnical practitioners 
-as a powerful alternative to the traditional limit equilibrium 
-methods. Strength Reduction Method (SRM) is also called 
-Shear Strength Reduction (SSR) method by some 
-researchers [18]. One of the main disadvantages of the SRM 
-is the long solution time required to set up the computer 
-model and to perform the analysis. In present days, the SRM 
-can be performed within a reasonable time span suitable for 
-routine analysis and design because of the advancements in 
-computer 
-hardware 
-and 
-computational 
-power 
-of 
-commercially available softwares. Other limitations of the 
-SRM include the choice of an appropriate constitutive 
-model and parameters, boundary conditions and the 
-definition of the failure condition/failure surface which have 
-been considered in the present study.The basic concept of 
-the Shear Strength Reduction (SSR) method is as follows: 
-0
-2
-4
-6
-8
-10
-12
-14
-0
-50
-100
+
+the Tables I and II. Table III shows material properties of soil nails and piles modeled in this study for improving the overall factor of safety of the slope section chosen for analysis.The limit equilibrium analysis results in details are presented in Table IV for the untreated slope section and slope treated with soil nails at top of the road-cut.
+TABLE III. PROPERTIES OF SOIL NAILS AND PILES IMPLEMENTED IN THE
+LEM/FEM
+Properties
+Reinforcing Scheme
+Soil Nails
+Piles
+Diameter (mm)
+Length (m)
+Tensile Capacity
+(kN)
+122.72
+-
+Compressive Str.
+(MPa)
+-
+Elastic Modulus
+(kN/m2)
+200e6
+273.8e5
+Poisson’s Ratio
+0.29
+0.20
+Side Shear
+Resistance (kN)
+-
+4193.5
+Unit Weight
+(kN/m3)
+78.5
+Modelled as
+End-anchored soil nails
+Standard Bernoulli beams
+
+As it can be well-understood that for a rainfall occurrence, the water content in debris material will increase which will result in decreased shear strength. Thus, rainfall incidence can make the debris layer vulnerable for sliding, leading to a minimum factor of safety of just 1.08, which makes the top portion of the slope above the road-cut at
+1283.87 m elevation just marginally stable against sliding.
+Hence, soil nails have been attempted as a reinforcement technique for stabilizing this top portion of slope. This in turn will reduce the chances of any debris slide and blocking the highway below. Two different in-plane and out-of-plane spacing (1m x 1m, and 2m x 2m) have been incorporated in the limit analysis of the slope section. A factor of safety of
+1.60 has been chosen to be adequate to arrest any chances of debris slide originating from the top slope part. From the
+Table IV, it can be seen that soil nails installed at 1m x 1m spacing satisfies the aforesaid condition. In the next stage, the road-cut section is studied which has a minimum safety factor of 1.18, which might not prove to be satisfactory in case of a heavy rainfall event. Hence, the slope portion slightly below the road-cut section is installed with concrete piles of 20m length, with varying spacing (0.5, 1.0, 1.5, 2.0 times diameter of piles) which will act as a cantilever beam, being fixed at the socketed end in the bedrock of dolomite.
+Different spacing in between the piles has been tried for different water contents in the debris material. Fig.5 shows variation in the obtained FoS values of the road-cut when in and out-of-plane spacing between pile varies as 0.5, 1.0, 1.5 and 2.0 times the pile diameter (D), where, D = 0.3 m has been selected as it makes the piles to be classified as micro- piles as per the definition from literature [11], keepingin mind the economy of construction cost of piles.
+For the same water saturation level in the debris material
+(here, degree of saturation = 48.6% case is presented in
+Fig.6.
+TABLE IV. DETAILS OF FOS VALUES IN DIFFERENT COMBINATIONS BY
+LEM
+Set
+Description
+Saturation
+(%)
+Top of
+Road-Cut
+Road-Cut
+1A
+Untreated slope
+0.0
+1.18
+1.40
+1B
+48.6
+1.18
+1.39
+1C
+70.5
+1.08
+1.25
+1D
+82.8
+1.03
+1.18
+2A
+Soil nails at top of road-cut, in-plane and out-of-plane spacing of 1.0 m
+0.0
+1.78
+1.40
+2B
+48.6
+1.77
+1.39
+2C
+70.5
+1.65
+1.25
+2D
+82.8
+1.66
+1.18
+3A
+Soil nails at top of road-cut, in-plane and out-of-plane spacing of 2.0 m
+0.0
+1.58
+1.40
+3B
+48.6
+1.58
+1.39
+3C
+70.5
+1.42
+1.25
+3D
+82.8
+1.36
+1.18
+
+Fig.4. A typical view of SLIDE 6.0 drawing interface for stability analysis of the chosen slopesection with soil nails and pile arrangements the FoS value of the road-cut section is found to be varying linearly with the number of rows of piles installed in the slope with 2D array spacing. Again, from Fig.7, it is observed that the FoS of the piles against the shearing on the slipping plane of the slope intersecting the array of piles doesn’t change much for varying moisture content in the debris material for the same spacing in between the installed piles. This is an interesting finding because it emphasizes that spacing between the piles is the most governing factor rather than the variations in the shear strength parameters of the debris material which surrounds the pile perimeter. This might be because of the fact that the piles have large lengths which extend well into the bedrock layer and as the rock mass possesses very high shear strength than the loose
+Soil Nails
+Piles
+
+debris material. A further study on the variation of safety factor of the piles against varying socket length to diameter of piles for the same spacing will be able to reveal the actual mechanism and can establish the hypothesis mentioned above.
+Fig.5. Variation in the FoS values of the road-cut for different spacing of the pile reinforcement and different moisture contents in debris material
+Fig.6. Variation in the FoS values of the road-cut for different number of rows of the pile reinforcement with the same array spacing of 2.0 D
+In this study, a safety factor of 2.5 for the road-cut has been chosen to be adequate for a water saturation level of
+48.6% in the debris material. From Fig.6, it can be concluded that 2 rows of piles spaced at 2.0D installed below the highway will satisfy the above said precondition for the safe design of the slope section chosen here. Hence, for an optimum, efficient, economic and safe design of slope reinforcement scheme, it may be suggested to install: (i) soil nails of 25 mm diameter and 10.0 m length at the array spacing of 1.0 m in the upper slope portion along with (ii) micro-piles of 300 mm diameter and 20.0 m length at the array spacing of 2.0D or 600 mm, below the road-cut section. This formulated optimum support scheme is further studied by 2D finite element analysis.
+B. Finite element analysis
+The shear strengthalong the critical slip surface governs the stability of the slope section. The mobilized shear strength along any slip surface of a c-φ material can be expressed by the Mohr-Coulomb (MC) failure criterion [12,
+13]. It is basically a set of linear equations in principal stress space describing the conditions for which an isotropic material will fail. In this criterion, any effect from the intermediate principal stress is neglected. MC failure criterion can be written as a function of (i) major and minor principal stresses, or (ii) normal stress, σn and shear stress, τ on the failure plane
+Fig.7. Variation in the FoSagainst shearing of the installed piles for different spacing
+[14]. When all the principal stresses are compressive, experiments demonstrate that the criterion applies reasonably well to rock, where the uniaxial compressive strength C0 is much greater than the uniaxial tensile strength T, e.g.
+C0/T > 10 [15].Again, when a soil sample fails, the shear stress on the failure plane defines the shear strength of the soil [16]. Thus, it can be said that the Mohr-Coulomb criterion holds good for both rocks and soils under shearing and compression. The shear strength of a soil or rock interface may be defined by as:
+߬ൌܿᇱ൅ ߪ௡tan ߮′
+
+(2)
+Here,τ andߪ௡ are the shear strengthalong and the normal stress on the failure surface respectively, at the time of failure; while,ܿᇱand φ'are the effective cohesion and effective internal angle of friction at drained condition.
+Griffiths and Lane [17] have pointed out that the widespread use of the Strength Reduction Method (SRM) should be critically considered by geotechnical practitioners as a powerful alternative to the traditional limit equilibrium methods. Strength Reduction Method (SRM) is also called
+Shear Strength Reduction (SSR) method by some researchers [18]. One of the main disadvantages of the SRM is the long solution time required to set up the computer model and to perform the analysis. In present days, the SRM can be performed within a reasonable time span suitable for routine analysis and design because of the advancements in computer hardware and computational power of commercially available softwares. Other limitations of the
+SRM include the choice of an appropriate constitutive model and parameters, boundary conditions and the definition of the failure condition/failure surface which have been considered in the present study.The basic concept of the Shear Strength Reduction (SSR) method is as follows:
 FoS of Road Cut
-Degree of Saturation in Slope Material (%)
-untreated road cut
-pile spacing
-@0.5D
-pile spacing
-@1.0D
-pile spacing
-@1.5D
-pile spacing
+Degree of Saturation in Slope Material (%) untreated road cut pile spacing
+@0.5D pile spacing
+@1.0D pile spacing
+@1.5D pile spacing
 @2.0D
-0
 0.5
-1
 1.5
-2
 2.5
-3
 3.5
-4
 4.5
-5
-0
-1
-2
-3
-4
-5
-6
-FoS of Road-Cut at 5% moisture 
-content
+FoS of Road-Cut at 5% moisture content
 Rows of Piles @2.0D Spacing, D = 0.3 m
-0
-1
-2
-3
-4
-5
-6
-7
-8
-0
 0.1
 0.2
 0.3
@@ -730,446 +329,258 @@ Rows of Piles @2.0D Spacing, D = 0.3 m
 0.7
 FoS of Piles
 Spacing in between Installed Piles (m)
-101
- 
- 
-1) The strength parameters (c,φ) of a slope are reduced by 
-a certain factor (SRF), and the finite element stress 
-analysis is performed. 
-2) cr = c/ SRF; tan φr = tan φ/ SRF 
-3) This process is repeated for different values of strength 
-reduction factor (SRF); until the model becomes 
-unstable (the analysis results do not converge). 
-4) This determines the critical strength reduction factor 
-(critical SRF), or safety factor, of the slope. 
-For the present study, the slope stability analysis has 
-been performed in Phase2 8.0 which is a program for 2D 
-finite element analysis of geotechnical structures for civil 
-and mining applications. It is applicable for both rock and 
-soil [19].The Shear Strength Reduction option in Phase2 
-allows the user to automatically perform a finite element 
-slope stability analysis, and compute a critical strength 
-reduction factor for the model. The critical strength reduction 
-factor is equivalent to the "safety factor" of the slope. For the 
-slope model, rollar supports (free to rotate and translate 
-along the surface upon which the roller rests) are provided at 
-vertical side face, whereas hinged supports (allow the node 
-to rotate, but not to translate in any direction) are assigned at 
-the bottom of the slope geometry. The slope face has been 
-modelledas a free surface with 2 degrees of freedom 
-(translation in X and Y axes in the plane of the FEM 
-model).The debris material have been modelled as elasto-
-plastic material whereas top soil and the rock layers of 
-dolomite have been modelled as elastic-ideally plastic 
-material. Mohr-Coulomb slip criterion has been utilized for 
-the slip-surface stability analysis. A typical model of the 
-slope section with nailing and pile reinforcement have been 
-shown in the Fig.8. The entire domain is meshed uniformly 
-by 6-noded triangular elements which can effectively 
-incorporate the non-linear displacement variations within the 
-nodes of the each finite element as well as can capture local 
-plastic strains. By default, the SSR analysis in Phase2 
-considers the stability of the entire model when the analysis 
-is computed. However, there are circumstances when one 
-may wish to focus on the stability of a particular area of the 
-model. This can be accomplished with the SSR Search Area 
-option, which allows applying the SSR analysis to a 
-particular region of a model. In this study, the region near 
-toe of the slope has been excluded from the SSR analysis 
-with the SSR Exclusion Area option available in Phase2 in 
-library. 
-Absolute Energy Criterion has been implemented in the 
-finite element analysis as the stopping criterion of the 
-numerical convergence solution. Energy convergence is 
-satisfied when: 
+
+1) The strength parameters (c,φ) of a slope are reduced by a certain factor (SRF), and the finite element stress analysis is performed.
+2) cr = c/ SRF; tan φr = tan φ/ SRF
+3) This process is repeated for different values of strength reduction factor (SRF); until the model becomes unstable (the analysis results do not converge).
+4) This determines the critical strength reduction factor
+(critical SRF), or safety factor, of the slope.
+For the present study, the slope stability analysis has been performed in Phase2 8.0 which is a program for 2D finite element analysis of geotechnical structures for civil and mining applications. It is applicable for both rock and soil [19].The Shear Strength Reduction option in Phase2 allows the user to automatically perform a finite element slope stability analysis, and compute a critical strength reduction factor for the model. The critical strength reduction factor is equivalent to the "safety factor" of the slope. For the slope model, rollar supports (free to rotate and translate along the surface upon which the roller rests) are provided at vertical side face, whereas hinged supports (allow the node to rotate, but not to translate in any direction) are assigned at the bottom of the slope geometry. The slope face has been modelledas a free surface with 2 degrees of freedom
+(translation in X and Y axes in the plane of the FEM model).The debris material have been modelled as elasto- plastic material whereas top soil and the rock layers of dolomite have been modelled as elastic-ideally plastic material. Mohr-Coulomb slip criterion has been utilized for the slip-surface stability analysis. A typical model of the slope section with nailing and pile reinforcement have been shown in the Fig.8. The entire domain is meshed uniformly by 6-noded triangular elements which can effectively incorporate the non-linear displacement variations within the nodes of the each finite element as well as can capture local plastic strains. By default, the SSR analysis in Phase2 considers the stability of the entire model when the analysis is computed. However, there are circumstances when one may wish to focus on the stability of a particular area of the model. This can be accomplished with the SSR Search Area option, which allows applying the SSR analysis to a particular region of a model. In this study, the region near toe of the slope has been excluded from the SSR analysis with the SSR Exclusion Area option available in Phase2 in library.
+Absolute Energy Criterion has been implemented in the finite element analysis as the stopping criterion of the numerical convergence solution. Energy convergence is satisfied when:
 ฯ
 ∆௎ሺ೔ሻ
 ೅൫௉ሺ೙ሻିிሺ೔ሻ൯
 ∆௎ሺబሻ
-೅൫௉ሺ೙ሻିிሺబሻ൯ฯ൏0.007 ∗  
- 
-(4) 
-ሺ∗ݏ݌݂݁ܿ݅݅݁݀ ݁݊݁ݎ݃ݕ ݐ݋݈݁ݎܽ݊ܿ݁ሻ 
-Here, P represents the vector of applied loads, F is the 
-vector of internal forces, and ΔU is the vector of current 
-nodal displacements. In non-linear analysis, the load P is 
-applied in a series of load steps: P(1), P(2), etc and the Finite 
-element analysis is performed for solving the equation 
-above for ΔU. In present study, the critical SRF or global 
-minimum factor of safety for the slope section is obtained as 
-1.14 with a total displacement of 159.2 mm (Fig.9). Other 
-significant results 
- 
-Fig.8.A typical Phase2 meshed model for finite element analysis of slopes 
-are presented in Table V.For a plane strain analysis like 
-slope stability analysis, the maximum shear strain can be 
-defined as: 
+೅൫௉ሺ೙ሻିிሺబሻ൯ฯ൏0.007 ∗
+
+(4)
+ሺ∗ݏ݌݂݁ܿ݅݅݁݀ ݁݊݁ݎ݃ݕ ݐ݋݈݁ݎܽ݊ܿ݁ሻ
+Here, P represents the vector of applied loads, F is the vector of internal forces, and ΔU is the vector of current nodal displacements. In non-linear analysis, the load P is applied in a series of load steps: P(1), P(2), etc and the Finite element analysis is performed for solving the equation above for ΔU. In present study, the critical SRF or global minimum factor of safety for the slope section is obtained as
+1.14 with a total displacement of 159.2 mm (Fig.9). Other significant results
+
+Fig.8.A typical Phase2 meshed model for finite element analysis of slopes are presented in Table V.For a plane strain analysis like slope stability analysis, the maximum shear strain can be defined as:
 ߳௠௔௫ൌ
 ఢభିఢయ
 ଶ
- 
- 
- 
-(5) 
-where, ߳ଵand ߳ଷcorrespond to the major and minor principal 
-stress directions in the x-y plane, respectively. Maximum 
-shear strain gives a good indication of where slip is occuring 
-Fig.9. Convergence variation in stability analysis of the slope section 
- By cycling through the various SRF tabs available in 
-Phase2 (Fig.10), one can get a good indication of the 
-progression of failure through the slope as the shear strength 
-is reduced. 
-VI. 
-I.S. CODE DESIGN PROCEDURE OF PILE 
-REINFORCEMENTS 
-The Indian Standard IS 2911 (Part 1/Sec 1): 2010 [20] 
-stipulates the general guidelines about design and 
-construction of driven cast in-situconcrete pile foundations. 
-1
+
+(5) where, ߳ଵand ߳ଷcorrespond to the major and minor principal stress directions in the x-y plane, respectively. Maximum shear strain gives a good indication of where slip is occuring
+Fig.9. Convergence variation in stability analysis of the slope section
+By cycling through the various SRF tabs available in
+Phase2 (Fig.10), one can get a good indication of the progression of failure through the slope as the shear strength is reduced.
+VI.
+I.S. CODE DESIGN PROCEDURE OF PILE
+REINFORCEMENTS
+The Indian Standard IS 2911 (Part 1/Sec 1): 2010 [20] stipulates the general guidelines about design and construction of driven cast in-situconcrete pile foundations.
 1.1
 1.2
 1.3
 1.4
 1.5
 1.6
-0
 0.5
-1
 1.5
 Strength Reduction Factor
 Maximum Total Displacement (m)
-Critical SRF: 1.14 at Max. Total Disp.: 0.1592 m 
+Critical SRF: 1.14 at Max. Total Disp.: 0.1592 m
 Converged Solutions
 Non-Converged Solutions
-Soil Nails 
-Piles 
-102
- 
- 
-Lateral load capacity of a single pile depends not only on 
-the soil reaction (horizontal subgrade modulus of the 
-surrounding soil) developed but also, on the structural 
-capacity of the pile shaft under bending, consequent upon 
-application of the lateral load. In the present case, the piles 
-should have necessary structural strength to transmit the 
-lateral loads imposed on it by the movement of weak slope 
-layer, ultimately to the hard rock layers below. 
-Fig.10. Maximum shear strain contour profile of the slope model in Phase2 
-TABLE V. DETAILS OF FOS VALUES OBTAINED IN LEM AND (FEM+SSR) 
-ANALYSIS AT 5% WATER CONTENT IN SLOPE MATERIAL 
-Description 
-LEM 
-FEM+SSR 
-Remarks 
-Untreated 
-Slope 
-1.082 
-0.75 
-Global Minimum 
-Safety Factor 
-Nailed Slope 
-Portion 
-1.77 
-2.01 
-Spacing of Nails: 1m 
-X 1m, Nail Dia. = 25 
-mm, Length = 10.0 m 
-Pile Reinforced 
-Slope Portion 
-2.97 
-2.42 
-Spacing of Piles: 600 
-mm, Pile Dia. = 300 
-mm, Length = 20.0 m, 
-Rows= 2 
-Soil Nails  
-- 
-2.33 (min), 
-7.64 (max) 
-FoS in Tensile Pull-out 
-Pile 
-Reinforcements 
-1.67 
-Refer to 
-Sec-V 
-FoS in Shearing 
-As per the IS code provisions, the pile will behave either 
-as a short rigid unit or as an infinitely long flexible member, 
-depending upon the stiffness factor, R or T for the particular 
-combination of pile and soil. For piles in granular soils, sand 
-and normally loaded clays, stiffness factor (in m), 
+Soil Nails
+Piles
+
+Lateral load capacity of a single pile depends not only on the soil reaction (horizontal subgrade modulus of the surrounding soil) developed but also, on the structural capacity of the pile shaft under bending, consequent upon application of the lateral load. In the present case, the piles should have necessary structural strength to transmit the lateral loads imposed on it by the movement of weak slope layer, ultimately to the hard rock layers below.
+Fig.10. Maximum shear strain contour profile of the slope model in Phase2
+TABLE V. DETAILS OF FOS VALUES OBTAINED IN LEM AND (FEM+SSR)
+ANALYSIS AT 5% WATER CONTENT IN SLOPE MATERIAL
+Description
+LEM
+FEM+SSR
+Remarks
+Untreated
+Slope
+1.082
+0.75
+Global Minimum
+Safety Factor
+Nailed Slope
+Portion
+1.77
+2.01
+Spacing of Nails: 1m
+X 1m, Nail Dia. = 25 mm, Length = 10.0 m
+Pile Reinforced
+Slope Portion
+2.97
+2.42
+Spacing of Piles: 600 mm, Pile Dia. = 300 mm, Length = 20.0 m,
+Rows= 2
+Soil Nails
+-
+2.33 (min),
+7.64 (max)
+FoS in Tensile Pull-out
+Pile
+Reinforcements
+1.67
+Refer to
+Sec-V
+FoS in Shearing
+As per the IS code provisions, the pile will behave either as a short rigid unit or as an infinitely long flexible member, depending upon the stiffness factor, R or T for the particular combination of pile and soil. For piles in granular soils, sand and normally loaded clays, stiffness factor (in m),
 ܶൌට
 ாூ
 ఎ೓
 ఱ
- 
- 
- 
-(6) 
-E = Young’s modulus of pile material, in MN/m2; 
-I = moment of inertia of the pile cross section, in m4; and 
-ηh = modulus of subgrade reaction, in MN/m3(Table 3, [20]). 
-Equivalent cantilever approach gives a simple procedure 
-for obtaining the deflections and moments due to relatively 
-small lateral loads. This requires the determination of depth 
-of virtual fixity, zf where the piles are fixed without 
-movement under loads, thus, bending moment becomes 
-maximum at this point. This depth can be obtained from the 
-Fig.12. 
-For the free head pile, head deflection, y can be 
-computed using the following equation: 
+
+(6)
+E = Young’s modulus of pile material, in MN/m2;
+I = moment of inertia of the pile cross section, in m4; and ηh = modulus of subgrade reaction, in MN/m3(Table 3, [20]).
+Equivalent cantilever approach gives a simple procedure for obtaining the deflections and moments due to relatively small lateral loads. This requires the determination of depth of virtual fixity, zf where the piles are fixed without movement under loads, thus, bending moment becomes maximum at this point. This depth can be obtained from the
+Fig.12.
+For the free head pile, head deflection, y can be computed using the following equation:
 ݕൌ
 ுሺ௘ା௭೑ሻయ
 ଷாூ
-  
- 
-(7) 
-Where, H= lateral load, in kN; y = deflection of pile 
-head, in mm; E= Young’s modulus of pile material, in 
-kN/m2; I = moment of inertia of the pile cross-section, in m4; 
-zf = depth to point of fixity, in m; and e = cantilever length 
-above ground/bed to the point of load application, in m. 
-The fixed end moment of the free head pile for the 
-equivalent cantilever may be determined from the following 
-expressions: 
-ܯிൌܪሺ݁൅ݖ௙ሻ 
- 
- 
-(8) 
-For the present study, following parameters (Table VI) 
-have been obtained by using equations (6)-(8). 
-TABLE VI. DETAILS OF PILE PROPERTIES AND APPLIED LOADS 
-Item 
-E, MN/m2 
-I, m4 
-િܐ, MN/m3 
-T, m 
-Pile 
-material 
-27386 
-3.974e-4 
-20 
+
+(7)
+Where, H= lateral load, in kN; y = deflection of pile head, in mm; E= Young’s modulus of pile material, in kN/m2; I = moment of inertia of the pile cross-section, in m4; zf = depth to point of fixity, in m; and e = cantilever length above ground/bed to the point of load application, in m.
+The fixed end moment of the free head pile for the equivalent cantilever may be determined from the following expressions:
+ܯிൌܪሺ݁൅ݖ௙ሻ
+
+(8)
+For the present study, following parameters (Table VI) have been obtained by using equations (6)-(8).
+TABLE VI. DETAILS OF PILE PROPERTIES AND APPLIED LOADS
+Item
+E, MN/m2
+I, m4
+િܐ, MN/m3
+T, m
+Pile material
+3.974e-4
 0.885
-4 
-Equivalent 
-cantilever 
-e 
-zf, m 
-H, kN 
-MF, 
-kN-m 
-0 
-8.532 
-2.9421 
-25.1 
-The fixed end moment, MF of the equivalent cantilever is 
-higher than the actual maximum moment M in the pile. The 
-actual maximum moment may be obtained by multiplying 
-the fixed end moment of the equivalent cantilever by a 
-reduction factor, m, given in Fig.4 of IS 2911[20]. 
-Fig.11. Shear force variation along the pile length 
-Fig.12. Bending moment variation along the pile length 
-The variations in shear force and bending moment along 
-the depth of the pile for present study are shown in Fig. 11 
-0
-5
-10
-15
-20
-25
+Equivalent cantilever e zf, m
+H, kN
+MF, kN-m
+8.532
+2.9421
+25.1
+The fixed end moment, MF of the equivalent cantilever is higher than the actual maximum moment M in the pile. The actual maximum moment may be obtained by multiplying the fixed end moment of the equivalent cantilever by a reduction factor, m, given in Fig.4 of IS 2911[20].
+Fig.11. Shear force variation along the pile length
+Fig.12. Bending moment variation along the pile length
+The variations in shear force and bending moment along the depth of the pile for present study are shown in Fig. 11
 -200
 -100
-0
-100
-200
-Depth of Pile From Ground 
+Depth of Pile From Ground
 Surface or Slope Face (m)
 Shear Force (kN)
-0
-5
-10
-15
-20
-25
 -150
 -100
 -50
-0
-50
-Depth of Pile From Ground 
+Depth of Pile From Ground
 Surface or Slope Face (m)
 Bending Moment (kN-m)
-103
- 
- 
-and Fig. 12, respectively. These results are extracted from 
-the Phase2 interpretation platform. The design of piles 
-modeled in this study have been checked against the various 
-structural and serviceability performance criteria as per IS 
-2911[20] and described in Table VII. 
-TABLE VII. PERFORMANCE EVALUATION OF THE REINFORCED PILES 
-AS PER INDIAN STANDARDS 
-Item 
-IS 2911 (Part 
-1/Sec 1) : 
-2010 [20] 
-Present 
-Study 
-Performance 
-Minimum factor 
-of safetyagainst 
-moment 
-2.5 
-6.2 
-Satisfactory 
-Minimum grade 
-of concrete 
-M25 
-M30 
-Satisfactory 
-Spacing between 
-piles 
-Two times the 
-diameter of 
-piles, if piles 
-are resting on 
-rock 
-Two 
-times the 
-diameter 
-of piles 
-(2.0 D) 
-Satisfactory 
-Horizontal 
-displacement at 
-pile head (mm) 
-55.97 
-26.17 
-Satisfactory 
-VII. 
-CONCLUSIONS 
-Based on the present study, the following conclusions 
-are drawn: 
- On the basis of limit equilibrium and finite element 
-analysis coupled with shear stregth reduction method, it 
-can be concluded that the existing road-cut is marginally 
-stable and may undergo sliding in a rainfall event. 
- The stability of the selected slope section and the road-
-cut is of utmost importance which can be improved 
-largely by soil nailing in the top portion and pile 
-reinforcing the slope portion below road. 
- Factor of safety of the nailed slope portion increases 
-about 50% to 61% with respect to untreated slope with 
-increase in degree of saturation in slope materials from 
-0% to 82.8%. 
- The safety factor of the pile-reinforced slope portion 
-decreases non-linearly as spacing between the piles 
-increases for the same number of rows for a fixed 
-saturation, whereas the safety factor increases linearly 
-with increase in rows of piles for the same spacing 
-between piles and the same degree of saturation in the 
-slope materials. 
- 2D FEM analysis of slopes is not sufficient for deciding 
-the optimum and economic design of the reinforcement 
-support schemes presented here. Hence, a detailed 3D 
-analysis of the slope with nails and pile reinforcements 
-is essential. 
-ACKNOWLEGEMENT 
-The authors would like to express their gratitude to the 
-Director, CSIR-CBRI, Roorkee for his kind permission to 
-publish this paper. The authors would also like to show their 
-heart-felt thanks to Mr. Ajay Dwivedi, Mr. Bhagat Bisht, 
-Mr. Mohit Joshi and Mr. PankajUnniyal for their help in 
-performing the laboratory tests. 
-REFERENCES 
-[1] 
-D. Pathak, “Knowledge based landslide susceptibility mapping in the 
-Himalayas,” 
-Geoenvironmental 
-Disasters, 
-3:8, 
-2016. 
-doi: 
-10.1186/s40677-016-0042-0. 
-[2] 
-Final report on “Environmental Studies for Vishnugad Pipalkoti 
-Hydro-Electric Project,” Consolidated Environmental Assessment 
-(EA) by Consulting Engineering Services (India) Private Limited, 
-vol. 1and 2, November, 2009. 
-[3] 
-D.P. Kanungo and S. Sharma,“Rainfall thresholds for prediction of 
-shallowlandslides around Chamoli-Joshimath region, Garhwal 
-Himalayas, 
-India,” 
-Landslides, 
-11:629-638, 
-2014. 
-doi:10.1007/s10346-013-0438-9. 
-[4] 
-M. Romana, J.B. Serón, and E.Montalar, “SMR Geomechanics 
-classification: Application, experience and validation,” ISRM 2003-
-Technology Roadmap for Rock Mechanics, South African Institute of 
-Mining and Metallurgy, 2003. 
-[5] 
-IS 1498: 2007, “Classification and Identification of Soils 
-forGeneralEngineeringPurposes,” Bureau Of Indian Standards, 
-Manak Bhavan, Bahadur Shah Zafar  Marg, New Delhi-110002, 
-Eighth Reprint, June, 2000. 
-[6] 
-IS 2720 (PartVII):2011, “Methods of Test for Soils (Part VII) 
-Determination of Water Content-Dry Density Relation Using Light 
-Compaction,” Bureau Of Indian Standards, Manak Bhavan, Bahadur 
-Shah Zafar  Marg, New Delhi-110002. 
-[7] 
-IS 2720 (Part XXXIX/Sec. 2): 1979,“Indian Standard forMethods of 
-Test for Soils. Part XXXIX: Direct Shear Test for Soils,”Bureau Of 
-Indian Standards, Manak Bhavan, Bahadur Shah Zafar  Marg, New 
-Delhi-110002. 
-[8] 
-Y.M. Cheng, T. Lansivaara, and W.B. Wei, “Two-dimensional slope 
-stability analysis by limit equilibrium and strength reduction 
-methods,” Computers and Geotechnics, vol. 34 (3), pp. 137-150, 
-May, 2007. doi: 10.1016/j.compgeo.2006.10.011. 
-[9] 
-A.W. Bishop, "The Use of the Slip Circle in the Stability Analysis of 
-Slopes," Geotechnique, Great Britain, Vol. 5, No. 1, pp. 7-17, Mar., 
-1955. 
-[10] Slide 
-6.0 
-User’s 
-manual, 
-available 
-from 
-https://www.rocscience.com/help/slide/webhelp7/Slide.htm 
+
+and Fig. 12, respectively. These results are extracted from the Phase2 interpretation platform. The design of piles modeled in this study have been checked against the various structural and serviceability performance criteria as per IS
+2911[20] and described in Table VII.
+TABLE VII. PERFORMANCE EVALUATION OF THE REINFORCED PILES
+AS PER INDIAN STANDARDS
+Item
+IS 2911 (Part
+1/Sec 1) :
+2010 [20]
+Present
+Study
+Performance
+Minimum factor of safetyagainst moment
+2.5
+6.2
+Satisfactory
+Minimum grade of concrete
+M25
+M30
+Satisfactory
+Spacing between piles
+Two times the diameter of piles, if piles are resting on rock
+Two times the diameter of piles
+(2.0 D)
+Satisfactory
+Horizontal displacement at pile head (mm)
+55.97
+26.17
+Satisfactory
+VII.
+CONCLUSIONS
+Based on the present study, the following conclusions are drawn:
+ On the basis of limit equilibrium and finite element analysis coupled with shear stregth reduction method, it can be concluded that the existing road-cut is marginally stable and may undergo sliding in a rainfall event.
+ The stability of the selected slope section and the road- cut is of utmost importance which can be improved largely by soil nailing in the top portion and pile reinforcing the slope portion below road.
+ Factor of safety of the nailed slope portion increases about 50% to 61% with respect to untreated slope with increase in degree of saturation in slope materials from
+0% to 82.8%.
+ The safety factor of the pile-reinforced slope portion decreases non-linearly as spacing between the piles increases for the same number of rows for a fixed saturation, whereas the safety factor increases linearly with increase in rows of piles for the same spacing between piles and the same degree of saturation in the slope materials.
+ 2D FEM analysis of slopes is not sufficient for deciding the optimum and economic design of the reinforcement support schemes presented here. Hence, a detailed 3D analysis of the slope with nails and pile reinforcements is essential.
+ACKNOWLEGEMENT
+The authors would like to express their gratitude to the
+Director, CSIR-CBRI, Roorkee for his kind permission to publish this paper. The authors would also like to show their heart-felt thanks to Mr. Ajay Dwivedi, Mr. Bhagat Bisht,
+Mr. Mohit Joshi and Mr. PankajUnniyal for their help in performing the laboratory tests.
+REFERENCES
+[1]
+D. Pathak, “Knowledge based landslide susceptibility mapping in the
+Himalayas,”
+Geoenvironmental
+Disasters,
+3:8,
+2016.
+doi:
+10.1186/s40677-016-0042-0.
+[2]
+Final report on “Environmental Studies for Vishnugad Pipalkoti
+Hydro-Electric Project,” Consolidated Environmental Assessment
+(EA) by Consulting Engineering Services (India) Private Limited, vol. 1and 2, November, 2009.
+[3]
+D.P. Kanungo and S. Sharma,“Rainfall thresholds for prediction of shallowlandslides around Chamoli-Joshimath region, Garhwal
+Himalayas,
+India,”
+Landslides,
+11:629-638,
+2014.
+doi:10.1007/s10346-013-0438-9.
+[4]
+M. Romana, J.B. Serón, and E.Montalar, “SMR Geomechanics classification: Application, experience and validation,” ISRM 2003-
+Technology Roadmap for Rock Mechanics, South African Institute of
+Mining and Metallurgy, 2003.
+[5]
+IS 1498: 2007, “Classification and Identification of Soils forGeneralEngineeringPurposes,” Bureau Of Indian Standards,
+Manak Bhavan, Bahadur Shah Zafar Marg, New Delhi-110002,
+Eighth Reprint, June, 2000.
+[6]
+IS 2720 (PartVII):2011, “Methods of Test for Soils (Part VII)
+Determination of Water Content-Dry Density Relation Using Light
+Compaction,” Bureau Of Indian Standards, Manak Bhavan, Bahadur
+Shah Zafar Marg, New Delhi-110002.
+[7]
+IS 2720 (Part XXXIX/Sec. 2): 1979,“Indian Standard forMethods of
+Test for Soils. Part XXXIX: Direct Shear Test for Soils,”Bureau Of
+Indian Standards, Manak Bhavan, Bahadur Shah Zafar Marg, New
+Delhi-110002.
+[8]
+Y.M. Cheng, T. Lansivaara, and W.B. Wei, “Two-dimensional slope stability analysis by limit equilibrium and strength reduction methods,” Computers and Geotechnics, vol. 34 (3), pp. 137-150,
+May, 2007. doi: 10.1016/j.compgeo.2006.10.011.
+[9]
+A.W. Bishop, "The Use of the Slip Circle in the Stability Analysis of
+Slopes," Geotechnique, Great Britain, Vol. 5, No. 1, pp. 7-17, Mar.,
+1955.
+[10] Slide
+6.0
+User’s manual, available from https://www.rocscience.com/help/slide/webhelp7/Slide.htm
 [11] D.A. Bruce, I. Juran, “Drilled and Grouted Micropiles: State-of-
-Practice Review, Volume I: Background, Classifications, Cost,” 
-FHWA-RD-96-016, USA, 1997. 
-[12] C.A. Coulomb, “Sur une application des regles maximis et minimis a 
-quelques problems de statique, relatives a l’architecture,” Acad Sci 
-Paris Mem Math Phys, 7:343-382, 1776. 
-[13] O. Mohr, “Welche Umstände bedingen die Elastizitätsgrenze und den 
-Bruch eines Materials?,” Zeit des Ver Deut Ing, 44:1524-1530, 1900. 
-[14] J.C. Jaeger and N.G.W. Cook, “Fundamentals of Rock Mechanics,” 
-3rd edn. Chapman & Hall, London, 1979. 
-[15] J.F. Labuz and A. Zang, “Mohr-Coulomb Failure Criterion,” in ISRM 
-Suggested Method, Rock Mech Rock Eng, 45: 975, 2012. 
-doi:10.1007/s00603-012-0281-7 
-[16] D.C. Drucker and W. Prager, “Soil Mechanics and Plastic Analysis or 
-Limit Design,” Quarterly of Applied Mathematics, vol. 10, no. 2, pp. 
-157-165, July, 1952. 
-[17] D.V. Griffiths and P.A. Lane, “Slope stability analysis by finite 
-elements,” Geotechnique, 49 (3), pp. 387-403, 1999. 
-[18] Tamotsu Matsui and Ka-Ching San, “Finite element slope stability 
-analysis by shear strength reduction technique,” Soils and 
-Foundations, vol. 32, no. 1, 59-70, Mar., 1992. 
-[19] Phase2 
-8.0 
-User’s 
-manual, 
-available 
-from 
-https://www.rocscience.com/help/phase2/webhelp9/phase2.htm 
-IS 2911 (Part 1/Sec 1): 2010,“Design and Construction of Pile Foundations 
-- Code of Practice,” Bureau Of Indian Standards, Manak Bhavan, 
-Bahadur Shah Zafar  Marg, New Delhi 
-104
+Practice Review, Volume I: Background, Classifications, Cost,”
+FHWA-RD-96-016, USA, 1997.
+[12] C.A. Coulomb, “Sur une application des regles maximis et minimis a quelques problems de statique, relatives a l’architecture,” Acad Sci
+Paris Mem Math Phys, 7:343-382, 1776.
+[13] O. Mohr, “Welche Umstände bedingen die Elastizitätsgrenze und den
+Bruch eines Materials?,” Zeit des Ver Deut Ing, 44:1524-1530, 1900.
+[14] J.C. Jaeger and N.G.W. Cook, “Fundamentals of Rock Mechanics,”
+3rd edn. Chapman & Hall, London, 1979.
+[15] J.F. Labuz and A. Zang, “Mohr-Coulomb Failure Criterion,” in ISRM
+Suggested Method, Rock Mech Rock Eng, 45: 975, 2012.
+doi:10.1007/s00603-012-0281-7
+[16] D.C. Drucker and W. Prager, “Soil Mechanics and Plastic Analysis or
+Limit Design,” Quarterly of Applied Mathematics, vol. 10, no. 2, pp.
+157-165, July, 1952.
+[17] D.V. Griffiths and P.A. Lane, “Slope stability analysis by finite elements,” Geotechnique, 49 (3), pp. 387-403, 1999.
+[18] Tamotsu Matsui and Ka-Ching San, “Finite element slope stability analysis by shear strength reduction technique,” Soils and
+Foundations, vol. 32, no. 1, 59-70, Mar., 1992.
+[19] Phase2
+8.0
+User’s manual, available from https://www.rocscience.com/help/phase2/webhelp9/phase2.htm
+IS 2911 (Part 1/Sec 1): 2010,“Design and Construction of Pile Foundations
+- Code of Practice,” Bureau Of Indian Standards, Manak Bhavan,
+Bahadur Shah Zafar Marg, New Delhi

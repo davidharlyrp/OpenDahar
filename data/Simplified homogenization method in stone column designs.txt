@@ -1,442 +1,125 @@
-H O S T E D  B Y
+H O S T E D B Y
 Simpliﬁed homogenization method in stone column designs
-K.S. Nga,n, S.A. Tanb,1
-aFaculty of Civil Engineering, University Teknologi MARA, 40450 Shah Alam, Malaysia
-bDepartment of Civil and Environmental Engineering, University of Singapore, Singapore 119260, Singapore
+K.S. Nga,n, S.A. Tanb,1 aFaculty of Civil Engineering, University Teknologi MARA, 40450 Shah Alam, Malaysia bDepartment of Civil and Environmental Engineering, University of Singapore, Singapore 119260, Singapore
 Received 28 December 2013; received in revised form 29 September 2014; accepted 21 October 2014
 Available online 2 January 2015
 Abstract
-The homogenization technique has been developed to model stone column improved grounds by establishing the equivalent material properties
-for the composite ground. However, homogenization techniques based on the elasto-plastic behavior of the constituent materials found in
-literature require modiﬁcation in terms of the ﬁnite element constitutive models which are difﬁcult for practical engineers to apply. Therefore, a
-simple yet effective way of predicting the consolidation performance of stone column improved grounds has been invoked in this study. The
-method is called the equivalent column method (ECM). The new method provides not only equivalent stiffness for the composite material, but
-also equivalent permeability. The method is derived from an analysis using the unit cell model in a 2D ﬁnite element axisymmetrical model. The
-settlement is calculated and a correction factor is obtained via a comparison with the results calculated using a single averaging composite
-stiffness for the improved ground. Correlations are summarized in the form of design charts for the key parameters, such as the area replacement
-ratio, the loading intensity, and the friction angle of the column material. Through a series of tests for different area replacement ratios, the
-equivalent permeability is established and presented in a design chart for different permeability ratios. ECM shows a good agreement with the
-current design methods and ﬁeld results. The advantage of the proposed method over other homogenization techniques is the simplicity of its use
-which renders easy model set-up in the ﬁnite element program, especially for embankments and large tank problems, besides its extra ability to
-predict the consolidation time.
+The homogenization technique has been developed to model stone column improved grounds by establishing the equivalent material properties for the composite ground. However, homogenization techniques based on the elasto-plastic behavior of the constituent materials found in literature require modiﬁcation in terms of the ﬁnite element constitutive models which are difﬁcult for practical engineers to apply. Therefore, a simple yet effective way of predicting the consolidation performance of stone column improved grounds has been invoked in this study. The method is called the equivalent column method (ECM). The new method provides not only equivalent stiffness for the composite material, but also equivalent permeability. The method is derived from an analysis using the unit cell model in a 2D ﬁnite element axisymmetrical model. The settlement is calculated and a correction factor is obtained via a comparison with the results calculated using a single averaging composite stiffness for the improved ground. Correlations are summarized in the form of design charts for the key parameters, such as the area replacement ratio, the loading intensity, and the friction angle of the column material. Through a series of tests for different area replacement ratios, the equivalent permeability is established and presented in a design chart for different permeability ratios. ECM shows a good agreement with the current design methods and ﬁeld results. The advantage of the proposed method over other homogenization techniques is the simplicity of its use which renders easy model set-up in the ﬁnite element program, especially for embankments and large tank problems, besides its extra ability to predict the consolidation time.
 & 2014 The Japanese Geotechnical Society. Production and hosting by Elsevier B.V. All rights reserved.
 Keywords: Stone column; Equivalent stiffness; Equivalent permeability; Homogenization method; Finite element; Consolidation
 1. Introduction
-Stone column improved grounds are composite grounds
-made up of granular material and soft soil. The behavior of
-these composite grounds is not well understood because of
-their non-homogenous structural matrix. A lot of research has
-been carried out to study the performance of composite
-grounds (Maheshwari and Khatri, 2012; Babu et al., 2013;
-Ng and Tan, 2014a; Killeen and McCabe, 2014) and many of
-them have adopted the unit cell concept in their analysis. The
-unit cell concept is a clever simpliﬁcation for composite
-grounds used to model inﬁnite column grid conditions, but
-the assumptions may break down in some situations. For
-instance, Schweiger and Pande (1986) noted that assumptions
-made in the unit cell concept are valid only for rigid rafts and
-that the assumptions have severe weaknesses in regard to the
-boundary conditions. On the other hand, the homogenization
-methods were invoked in an era when computational capacity
-was limited in terms of modeling complicated numerical
-models (Lee and Pande, 1998; Wang et al., 2002; Vogler
-The Japanese Geotechnical Society
-www.sciencedirect.com
-journal homepage: www.elsevier.com/locate/sandf
-Soils and Foundations
-http://dx.doi.org/10.1016/j.sandf.2014.12.012
+Stone column improved grounds are composite grounds made up of granular material and soft soil. The behavior of these composite grounds is not well understood because of their non-homogenous structural matrix. A lot of research has been carried out to study the performance of composite grounds (Maheshwari and Khatri, 2012; Babu et al., 2013;
+Ng and Tan, 2014a; Killeen and McCabe, 2014) and many of them have adopted the unit cell concept in their analysis. The unit cell concept is a clever simpliﬁcation for composite grounds used to model inﬁnite column grid conditions, but the assumptions may break down in some situations. For instance, Schweiger and Pande (1986) noted that assumptions made in the unit cell concept are valid only for rigid rafts and that the assumptions have severe weaknesses in regard to the boundary conditions. On the other hand, the homogenization methods were invoked in an era when computational capacity was limited in terms of modeling complicated numerical models (Lee and Pande, 1998; Wang et al., 2002; Vogler
+The Japanese Geotechnical Society www.sciencedirect.com journal homepage: www.elsevier.com/locate/sandf
+Soils and Foundations http://dx.doi.org/10.1016/j.sandf.2014.12.012
 0038-0806/& 2014 The Japanese Geotechnical Society. Production and hosting by Elsevier B.V. All rights reserved.
 nCorresponding author. Tel.: þ60 127537936.
-E-mail addresses: ngkokshien@ppinang.uitm.edu.my (K.S. Ng),
-ceetansa@nus.edu.sg (S.A. Tan).
+E-mail addresses: ngkokshien@ppinang.uitm.edu.my (K.S. Ng), ceetansa@nus.edu.sg (S.A. Tan).
 1Tel.: þ65 65162278.
 Peer review under responsibility of The Japanese Geotechnical Society.
-Soils and Foundations 2015;55(1):154–165
-and Karstunen, 2008). The homogenization method assumes
-that the columns are distributed homogenously within the
-in situ soil. It allows for adopting non-linear constitutive
-models for both the columns and the soil. The equilibrium
-and the compatibility conditions have to be satisﬁed through a
-stress–strain redistribution. The theoretical development of a
-new stress–strain behavior for composite grounds is complex
-and tedious.
-Despite being an intuitive idea for solving the complex 3D
-problems of stone column improved grounds, the practical
-implementation of the homogenized constitutive law in the
-ﬁnite element code for composite grounds is still hardly
-compatible among design engineers albeit the ﬁnite element
-model set-up is simple, since the soil and the columns do not
-need to be discretized separately. Therefore, a simple homo-
-genization method is developed in this study to obtain the
-equivalent stiffness and the equivalent permeability for the
-composite material that can be easily applied in a numerical
-model, while still considering the yielding characteristic of the
-composite material. This method is called the equivalent
-column method (ECM).
+Soils and Foundations 2015;55(1):154–165 and Karstunen, 2008). The homogenization method assumes that the columns are distributed homogenously within the in situ soil. It allows for adopting non-linear constitutive models for both the columns and the soil. The equilibrium and the compatibility conditions have to be satisﬁed through a stress–strain redistribution. The theoretical development of a new stress–strain behavior for composite grounds is complex and tedious.
+Despite being an intuitive idea for solving the complex 3D problems of stone column improved grounds, the practical implementation of the homogenized constitutive law in the ﬁnite element code for composite grounds is still hardly compatible among design engineers albeit the ﬁnite element model set-up is simple, since the soil and the columns do not need to be discretized separately. Therefore, a simple homo- genization method is developed in this study to obtain the equivalent stiffness and the equivalent permeability for the composite material that can be easily applied in a numerical model, while still considering the yielding characteristic of the composite material. This method is called the equivalent column method (ECM).
 2. Review of related works
-A few researchers have proposed some simple formulations
-for the equivalent stiffness of the composite soil. Their
-methods are discussed brieﬂy in this section.
-Poorooshasb and Meyerhof (1997) examined the efﬁciency
-of end-bearing columns by developing an analytical model
-with assumptions of geometric linearity and the use of the
-small strain theory. The following governing equation is used
-for columns with linear elastic material:
-UDL
-δ=L ¼ A 1þBvc
-f
-g r2
-e r2
-c
-r2
-e
-þ Ec þ2vc ACð1þBvcÞþDvc
+A few researchers have proposed some simple formulations for the equivalent stiffness of the composite soil. Their methods are discussed brieﬂy in this section.
+Poorooshasb and Meyerhof (1997) examined the efﬁciency of end-bearing columns by developing an analytical model with assumptions of geometric linearity and the use of the small strain theory. The following governing equation is used for columns with linear elastic material:
+UDL δ=L _ A 1þBvc f g r2 e r2 c r2 e þ Ec þ2vc ACð1þBvcÞþDvc
 ½
-
-
- r2
-c
-r2
-e
-ð1Þ
-where UDL¼uniform distributed load carried by the stone
-column system; δ¼settlement of the foundation system;
-L¼length of the column; Ec¼Young's modulus of the column
-material;
-νc¼Poisson's
-ratio
-of
-the
-column
-material;
-Es¼Young's modulus of the in situ soil; ν¼Poisson's ratio
-of the in situ soil; rc¼radius of the column; re¼radius of the
-inﬂuence zone; and constants A, B, C, and D are given by
-A ¼
-ð1vÞ
-12v2 v Es
-B ¼
+
+
+ r2 c r2 e ð1Þ where UDL_uniform distributed load carried by the stone column system; δ_settlement of the foundation system;
+L_length of the column; Ec_Young's modulus of the column material; νc_Poisson's ratio of the column material;
+Es_Young's modulus of the in situ soil; ν_Poisson's ratio of the in situ soil; rc_radius of the column; re_radius of the inﬂuence zone; and constants A, B, C, and D are given by
+A _ ð1vÞ
+12v2 v Es
+B _
 2v
-1v
-r2
-c
-r2
-e rc2
-C ¼
-v
-1v
-D ¼ ð1þvÞr2
-c þð1vÞr2
-e
-ð1v2Þðr2
-e rc2Þ Es
-Omine et al. (1998) proposed a homogenization method to
-evaluate the stress–strain relationship of the two-phase mixture
-Nomenclature
-bc
-plain strain column width
-bs
-homogenized stress ratio
-bt
-stress distribution tensor
-cv
-coefﬁcient of consolidation in vertical direction
-d
-soft soil thickness
-dc
-diameter of column
-de
-equivalent inﬂuence of diameter
-ds
-diameter of smear zone
-fs
-volume fraction of inclusion in matrix
-fy
-correction factor
-k
-coefﬁcient of permeability
-m
-modular ratio
-mv
-coefﬁcient of volume compressibility
-n
-settlement improvement factor
-ns
-stress concentration ratio
-quh
-homogenized strength
-qult
-ultimate bearing capacity
-q0u
-macro stress failure
-rc
-radius of column
-re
-radius of inﬂuence area
-s
-spacing of columns
-t
-time
-A
-total inﬂuence area
-Ac
-area of stone column
-As
-area of soil
-Bp
-equivalent plain strain width
-Dc
-constraint modulus of column
-Ds
-constraint modulus of soil
-Dcomp
-constraint modulus of composite soil
+1v r2 c r2 e rc2
+C _ v
+1v
+D _ ð1þvÞr2 c þð1vÞr2 e ð1v2Þðr2 e rc2Þ Es
+Omine et al. (1998) proposed a homogenization method to evaluate the stress–strain relationship of the two-phase mixture
+Nomenclature bc plain strain column width bs homogenized stress ratio bt stress distribution tensor cv coefﬁcient of consolidation in vertical direction d soft soil thickness dc diameter of column de equivalent inﬂuence of diameter ds diameter of smear zone fs volume fraction of inclusion in matrix fy correction factor k coefﬁcient of permeability m modular ratio mv coefﬁcient of volume compressibility n settlement improvement factor ns stress concentration ratio quh homogenized strength qult ultimate bearing capacity q0u macro stress failure rc radius of column re radius of inﬂuence area s spacing of columns t time
+A total inﬂuence area
+Ac area of stone column
+As area of soil
+Bp equivalent plain strain width
+Dc constraint modulus of column
+Ds constraint modulus of soil
+Dcomp constraint modulus of composite soil
 E
 Young's modulus
 Ec
 Young's modulus of column
 Es
 Young's modulus of soil
-Eq
-equivalent stiffness
-Ecomp
-composite stiffness
-E50
-secant modulus
-Ko
-initial horizontal to vertical stress
-k
-coefﬁcient of permeability
-kcompositecomposite permeability
-keq
-equivalent permeability
-L
-length of stone column
-Ncorr
-correction factor
-N
-diameter ratio
-S
-diameter ratio of smeared zone to drain well
-Tv
-time factor in vertical ﬂow
-T0
-v
-modiﬁed time factor in vertical ﬂow
-U
-degree of consolidation
-Uv
-degree of consolidation for vertical ﬂow
-δ
-settlement
-α
-area replacement ratio
-β
-depth ratio
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-155
-model. In this model, the material consists of two phases: a
-matrix and an inclusion. In stone column improved grounds,
-the soil is the matrix, while the columns are the inclusion. Two
-assumptions are made in the model, namely, the inclusion is
-randomly distributed in the mixture and the strain energy per
-unit volume of the mixture is constant. For vertical inclusion
-with stress applied only in the vertical direction, the equivalent
-Young's modulus of the mixture based on this model can be
-estimated as follows:
-Eeq ¼
-ðbt 1Þf sþ1
-bt f s=Es
-
-
-þ ð1f sÞ=Ec
-
- Es
-ð2Þ
-bt ¼ Es
+Eq equivalent stiffness
+Ecomp composite stiffness
+E50 secant modulus
+Ko initial horizontal to vertical stress k coefﬁcient of permeability kcompositecomposite permeability keq equivalent permeability
+L length of stone column
+Ncorr correction factor
+N diameter ratio
+S diameter ratio of smeared zone to drain well
+Tv time factor in vertical ﬂow
+T0 v modiﬁed time factor in vertical ﬂow
+U degree of consolidation
+Uv degree of consolidation for vertical ﬂow δ settlement α area replacement ratio β depth ratio
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 model. In this model, the material consists of two phases: a matrix and an inclusion. In stone column improved grounds, the soil is the matrix, while the columns are the inclusion. Two assumptions are made in the model, namely, the inclusion is randomly distributed in the mixture and the strain energy per unit volume of the mixture is constant. For vertical inclusion with stress applied only in the vertical direction, the equivalent
+Young's modulus of the mixture based on this model can be estimated as follows:
+Eeq _ ðbt 1Þf sþ1 bt f s=Es
+
+ þ ð1f sÞ=Ec
+
+ Es ð2Þ bt _ Es
+Ec ð3Þ where fs is the volume fraction of the inclusion in the mixture and bt is the stress distribution tensor.
+Wang et al. (2002) developed a simpliﬁed homogenization method based on the assumption that the micro-stress/micro- strain is homogeneous in the matrix and the inclusion of a composite soil. This assumption leads to a closed-form solution of the stress/strain localization tensor. The composite soil system is considered as a unit composite cell consisting of the matrix material (termed m-phase) and the reinforcement material (termed f-phase). The homogenized stress ratio, bs, between the two materials is deﬁned as bs _ ﬃﬃﬃﬃﬃ
 Ec
-ð3Þ
-where fs is the volume fraction of the inclusion in the mixture
-and bt is the stress distribution tensor.
-Wang et al. (2002) developed a simpliﬁed homogenization
-method based on the assumption that the micro-stress/micro-
-strain is homogeneous in the matrix and the inclusion of a
-composite soil. This assumption leads to a closed-form
-solution of the stress/strain localization tensor. The composite
-soil system is considered as a unit composite cell consisting of
-the matrix material (termed m-phase) and the reinforcement
-material (termed f-phase). The homogenized stress ratio, bs,
-between the two materials is deﬁned as
-bs ¼
-ﬃﬃﬃﬃﬃ
-Ec
-Es
-r
-ð4Þ
-Since the micro-stress is assumed to be homogeneous in both
-the improved and the unimproved materials, and distributed
-according to the stress localization tensor, the micro-stress at
-failure should be
-q0
-uf ¼
-bs
-ðbs 1Þf s þ1 quf
-ð5Þ
-q0
-um ¼
-1
-ðbs 1Þf sþ1 qum
-ð6Þ
-where fs is the volume fraction of the inclusion, and q0
-uf and
-q0
-um are the macro-stress at failure for the reinforcement phase
-and the matrix phase, respectively. Finally, the homogenized
-strength, q0
-uh, is established as follows:
-q0
-uh ¼ f sq0
-uf þð1f sÞq0
-um ¼ bsf squf þð1f sÞqum
-ðbs 1Þf s þ1
-ð7Þ
-In view of the fact that the micro-strain in the vertical direction
-should be the same for each phase (equal to the macro-strain),
-the homogenized deformation modulus, Eh
-50, can be obtained
-by dividing Eq. (7) by the macro-strain as follows:
+Es r ð4Þ
+Since the micro-stress is assumed to be homogeneous in both the improved and the unimproved materials, and distributed according to the stress localization tensor, the micro-stress at failure should be q0 uf _ bs ðbs 1Þf s þ1 quf ð5Þ q0 um _ ðbs 1Þf sþ1 qum ð6Þ where fs is the volume fraction of the inclusion, and q0 uf and q0 um are the macro-stress at failure for the reinforcement phase and the matrix phase, respectively. Finally, the homogenized strength, q0 uh, is established as follows:
+q0 uh _ f sq0 uf þð1f sÞq0 um _ bsf squf þð1f sÞqum ðbs 1Þf s þ1 ð7Þ
+In view of the fact that the micro-strain in the vertical direction should be the same for each phase (equal to the macro-strain), the homogenized deformation modulus, Eh
+50, can be obtained by dividing Eq. (7) by the macro-strain as follows:
 Eh
-50 ¼ bsf sE50f þð1f sÞE50m
-ðbs 1Þf s þ1
+50 _ bsf sE50f þð1f sÞE50m ðbs 1Þf s þ1
 :
 ð8Þ
 3. Formulation of equivalent stiffness
-The equivalent column method (ECM) began with the
-formulation of the equivalent stiffness for the composite
-material (i.e., stone columns and the surrounding soil). Similar
-to the equivalent pier method (Poulos, 1993), used in predict-
-ing the settlement of pile groups, the average composite
-stiffness, Ecomposite, of stone column-reinforced grounds can
-be obtained as
-Ecomposite ¼ αEcþð1αÞEs
-ð9Þ
-where α¼area replacement ratio (α¼Ac/A; Ac¼area of the
-column, A¼total inﬂuence area), Ec¼stiffness of the column,
-and Es¼stiffness of the surrounding soil. However, the
-composite stiffness used in stone column designs seems to
-underestimate the amount of settlement whose results may err
-on the unsafe side. This is because the stone columns are not
-fully elastic material, but signiﬁcant yielding happens along
-the column0s length. As the loading increases, subsequent
-plastic straining will also occur in the surrounding soil (Ng and
-Tan, 2014b). Moreover, the formulation of this composite
-stiffness neglects the horizontal interaction between the
-columns and the soil. Therefore, the following section presents
-a correction factor for this so that the new composite stiffness
-value will correspond to the actual induced settlement obtained
-from the ﬁnite element results. Once again, the inclusion of
-this correction factor involves actually taking into account the
-yield of the column material, and to some extent a certain
-amount of yielding of the surrounding soil.
-The analysis was ﬁrst conducted to obtain the amount of
-settlement s for different area replacement ratios α, under
-various loading magnitude q and stone column friction angle
-ϕc0, using the reference model adopted from Tan et al. (2008),
-as shown in Fig. 1. In this ﬁnite element model, a unit cell was
-modeled as axisymmetric with instantaneous vertical loading
-of 100 kPa applied through a rigid plate. The stone column is
-of the end-bearing type with a length of 10 m. The unit cell
+The equivalent column method (ECM) began with the formulation of the equivalent stiffness for the composite material (i.e., stone columns and the surrounding soil). Similar to the equivalent pier method (Poulos, 1993), used in predict- ing the settlement of pile groups, the average composite stiffness, Ecomposite, of stone column-reinforced grounds can be obtained as
+Ecomposite _ αEcþð1αÞEs ð9Þ where α_area replacement ratio (α_Ac/A; Ac_area of the column, A_total inﬂuence area), Ec_stiffness of the column, and Es_stiffness of the surrounding soil. However, the composite stiffness used in stone column designs seems to underestimate the amount of settlement whose results may err on the unsafe side. This is because the stone columns are not fully elastic material, but signiﬁcant yielding happens along the column0s length. As the loading increases, subsequent plastic straining will also occur in the surrounding soil (Ng and
+Tan, 2014b). Moreover, the formulation of this composite stiffness neglects the horizontal interaction between the columns and the soil. Therefore, the following section presents a correction factor for this so that the new composite stiffness value will correspond to the actual induced settlement obtained from the ﬁnite element results. Once again, the inclusion of this correction factor involves actually taking into account the yield of the column material, and to some extent a certain amount of yielding of the surrounding soil.
+The analysis was ﬁrst conducted to obtain the amount of settlement s for different area replacement ratios α, under various loading magnitude q and stone column friction angle ϕc0, using the reference model adopted from Tan et al. (2008), as shown in Fig. 1. In this ﬁnite element model, a unit cell was modeled as axisymmetric with instantaneous vertical loading of 100 kPa applied through a rigid plate. The stone column is of the end-bearing type with a length of 10 m. The unit cell
 Fig. 1. Baseline case, Tan et al. (2008) model.
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-156
-model utilized an area replacement ratio α of 0.11 with a
-column radius rc of 0.425 m and an inﬂuence radius re of
-1.275 m. The material properties are shown in Table 1. An
-elastic perfectly plastic model, i.e., Mohr Coulomb (MC), was
-used as the constitutive model for both the stone column and
-the soft soil. The stiffness ratio of the stone column over the
-surrounding soil was ﬁxed at 10. The standard boundary
-conditions in the model were assumed such that the vertical
-boundaries were free vertically and constrained horizontally
-(ux¼0; uy¼free), while the bottom horizontal boundary was
-fully ﬁxed (ux&y¼0). The phreatic level was set at the top
-surface (representing the worst case scenario) and it also
-served as the solely pervious drainage boundary for the
-system. In this study, a coupled consolidation analysis was
-performed. Next, a series of parametric studies for the
-inﬂuencing parameters, that is, the area replacement ratio, the
-column0s friction angle, and the loading intensity, were carried
-out (Ng and Tan, 2011). These are the most important
-parameters in stone column designs. In addition, the previous
-study has also shown the negligible inﬂuence of the modular
-ratio (with different depth ratio, β¼L/d, where L¼column
-length and d¼soft soil thickness) to the settlement perfor-
-mance when the stiffness of the column is 20 times larger than
-the surrounding soil, as shown in Fig. 2. This is because the
-actual stiffness of the column is very dependent on the
-conﬁning stress provided by the surrounding soil. The load
-level applied during the investigation of the modular ratio
-effect is actually high, i.e., 100 kPa, and the results have
-shown that a lot of yielding occurred in the column and the
-surrounding soil. Poorooshasb and Meyerhof (1997) and
-Kamrat-Pietraszewska and Karstunen (2010) also gave similar
-conclusions. The numerical analysis in this study was con-
-ducted with the PLAXIS 2D ﬁnite element code (Brinkgreve
-et al., 2011).
-By adopting the elastic theory, constraint modulus Deq was
-back-calculated assuming a single type of soil (i.e., composite
-soil). Then, the Young0s modulus of the obtained settlement
-was calculated through the following relationship:
-E ¼ Deqð12vÞð1þvÞ
-ð1vÞ
-ð10Þ
-In this study, the values for Poisson0s ratio v for the soil, the
-column, and the composite material are all taken to be 0.3. The
-correction factor, Ncorr, was then taken as the ratio of the
-composite stiffness over the calculated stiffness, E:
-Ncorr ¼ Ecomposite
-E
-ð11Þ
-The results for correction factors under different conditions are
-shown in Figs. 3–5. The results in the ﬁgures have been
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 model utilized an area replacement ratio α of 0.11 with a column radius rc of 0.425 m and an inﬂuence radius re of
+1.275 m. The material properties are shown in Table 1. An elastic perfectly plastic model, i.e., Mohr Coulomb (MC), was used as the constitutive model for both the stone column and the soft soil. The stiffness ratio of the stone column over the surrounding soil was ﬁxed at 10. The standard boundary conditions in the model were assumed such that the vertical boundaries were free vertically and constrained horizontally
+(ux_0; uy_free), while the bottom horizontal boundary was fully ﬁxed (ux&y_0). The phreatic level was set at the top surface (representing the worst case scenario) and it also served as the solely pervious drainage boundary for the system. In this study, a coupled consolidation analysis was performed. Next, a series of parametric studies for the inﬂuencing parameters, that is, the area replacement ratio, the column0s friction angle, and the loading intensity, were carried out (Ng and Tan, 2011). These are the most important parameters in stone column designs. In addition, the previous study has also shown the negligible inﬂuence of the modular ratio (with different depth ratio, β_L/d, where L_column length and d_soft soil thickness) to the settlement perfor- mance when the stiffness of the column is 20 times larger than the surrounding soil, as shown in Fig. 2. This is because the actual stiffness of the column is very dependent on the conﬁning stress provided by the surrounding soil. The load level applied during the investigation of the modular ratio effect is actually high, i.e., 100 kPa, and the results have shown that a lot of yielding occurred in the column and the surrounding soil. Poorooshasb and Meyerhof (1997) and
+Kamrat-Pietraszewska and Karstunen (2010) also gave similar conclusions. The numerical analysis in this study was con- ducted with the PLAXIS 2D ﬁnite element code (Brinkgreve et al., 2011).
+By adopting the elastic theory, constraint modulus Deq was back-calculated assuming a single type of soil (i.e., composite soil). Then, the Young0s modulus of the obtained settlement was calculated through the following relationship:
+E _ Deqð12vÞð1þvÞ ð1vÞ ð10Þ
+In this study, the values for Poisson0s ratio v for the soil, the column, and the composite material are all taken to be 0.3. The correction factor, Ncorr, was then taken as the ratio of the composite stiffness over the calculated stiffness, E:
+Ncorr _ Ecomposite
+E ð11Þ
+The results for correction factors under different conditions are shown in Figs. 3–5. The results in the ﬁgures have been
 Table 1
 Material properties in reference case.
 ID
 Name
-Type
-γsat (kN/m3)
-kx (m/day)
-ky (m/day)
-v
-E0 (kN/m2)
-c0(kN/m2)
-ϕc0 (deg)
-1
+Type γsat (kN/m3) kx (m/day) ky (m/day) v
+E0 (kN/m2) c0(kN/m2) ϕc0 (deg)
 Soft soil
 Undrained
-15
 0.0003
 0.0001
 0.3
-3000
 0.1
-22
-2
 Stone column
 Drained
-15
-3
-1
 0.3
 30,000
-1
-40
 1.0
 1.1
 1.2
 1.3
 1.4
-0
 0.1
 0.2
 0.3
@@ -445,17 +128,8 @@ Drained
 0.6
 0.7
 0.8
-0.9
-1
-n
-m = 40
-m = 30
-m = 20
-m = 10
-m = 6.67
-α
-Fig. 2. Inﬂuence of modular ratio and column length on settlement improve-
-ment factors (Ng and Tan, 2011).
+0.9 n m = 40 m = 30 m = 20 m = 10 m = 6.67 α
+Fig. 2. Inﬂuence of modular ratio and column length on settlement improve- ment factors (Ng and Tan, 2011).
 1.0
 1.1
 1.2
@@ -480,9 +154,8 @@ Ncorr
 150 kPa
 200 kPa
 250 kPa
-400 kPa
-α
-Fig. 3. Ncorr for stone column friction angle, ϕ0c¼401.
+400 kPa α
+Fig. 3. Ncorr for stone column friction angle, ϕ0c_401.
 1.0
 1.1
 1.2
@@ -507,9 +180,8 @@ Ncorr
 150 kPa
 200 kPa
 250 kPa
-400 kPa
-α
-Fig. 4. Ncorr for stone column friction angle, ϕ0c¼451.
+400 kPa α
+Fig. 4. Ncorr for stone column friction angle, ϕ0c_451.
 1.0
 1.1
 1.2
@@ -531,105 +203,37 @@ Ncorr
 150 kPa
 200 kPa
 250 kPa
-400 kPa
-α
-Fig. 5. Ncorr for stone column friction angle, ϕ0c¼501.
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-157
-discussed in Ng and Tan (2012) and will not be repeated here.
-From the ﬁgures, it can be noted that even under a low applied
-load, e.g., 25 kPa, some yielding has already happened (as
-Ncorr 41), especially when the column0s friction angle is
-small. For ECM to be used correctly, the stone column
-stiffness has to always be ﬁxed at 10 times larger than the
-surrounding soil, i.e., Ec/Es¼10. Based on ﬁeld data, Han
+400 kPa α
+Fig. 5. Ncorr for stone column friction angle, ϕ0c_501.
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 discussed in Ng and Tan (2012) and will not be repeated here.
+From the ﬁgures, it can be noted that even under a low applied load, e.g., 25 kPa, some yielding has already happened (as
+Ncorr 41), especially when the column0s friction angle is small. For ECM to be used correctly, the stone column stiffness has to always be ﬁxed at 10 times larger than the surrounding soil, i.e., Ec/Es_10. Based on ﬁeld data, Han
 (2012) suggested the modular ratio should be limited to 20.
 Finally, equivalent stiffness Eeq can be expressed as
-Eeq ¼ Ecomposite
-Ncorr
-ð12Þ
-The results in Figs. 3–5 show that the larger the stone column0s
-friction angle ϕc0 is, the smaller the value of correction factor
-Ncorr. This is due to the higher friction angle being able to
-deter the forming of plastic points in the composite soil, hence,
-giving a stiffer response. Another interesting phenomenon is
-that the Ncorr seems to have an optimum value similar to the
-curve of the compaction results for obtaining the optimum dry
-density, even though it is an unfavorable way in which larger
-Ncorr values imply smaller equivalent stiffness. Moreover, the
-optimum value appears to shift to the left for higher friction
-angles. This phenomenon is due to the relationship of the
-plastic yielding for stone column grounds and the average
-composite stiffness. The plastic yielding of stone column
-grounds produces non-linear settlement behavior, whereas
-the average composite stiffness gives linear settlement beha-
-vior. However, this relationship does not have any actual
-implications for the real soil behavior or, in other words, the
-area replacement ratio with Nopt is not indicative of the
-unfavorable area replacement ratio to be adopted in the design.
-The equivalent stiffness of the composite ground calculated
-using Eq. (12) was compared with different approaches
+Eeq _ Ecomposite
+Ncorr ð12Þ
+The results in Figs. 3–5 show that the larger the stone column0s friction angle ϕc0 is, the smaller the value of correction factor
+Ncorr. This is due to the higher friction angle being able to deter the forming of plastic points in the composite soil, hence, giving a stiffer response. Another interesting phenomenon is that the Ncorr seems to have an optimum value similar to the curve of the compaction results for obtaining the optimum dry density, even though it is an unfavorable way in which larger
+Ncorr values imply smaller equivalent stiffness. Moreover, the optimum value appears to shift to the left for higher friction angles. This phenomenon is due to the relationship of the plastic yielding for stone column grounds and the average composite stiffness. The plastic yielding of stone column grounds produces non-linear settlement behavior, whereas the average composite stiffness gives linear settlement beha- vior. However, this relationship does not have any actual implications for the real soil behavior or, in other words, the area replacement ratio with Nopt is not indicative of the unfavorable area replacement ratio to be adopted in the design.
+The equivalent stiffness of the composite ground calculated using Eq. (12) was compared with different approaches
 (Poorooshasb and Meyerhof, 1997; Omine et al., 1998;
-Wang et al., 2002) and plotted for different area replacement
-ratios (vide Fig. 6). As expected, all the methods show that the
-equivalent stiffness increases with the increase in the area
-replacement ratio. The equivalent stiffness for all the other
-methods is truly elastic Young0s modulus, whilst the Young0s
-modulus for the ECM method has actually taken into account
-the yielding behavior, which means that the ECM is supposed
-to give a softer response compared to the other methods. This
-is true as compared with the other methods, except for that of
-Omine et al. (1998), whose results are lower than the currently
-proposed method. Additional information, like the loading
-intensity and the column friction angle, is required for the
-ECM. Meanwhile, the bt parameter, which depends on the type
-of mixtures, was assumed to be 1/3 by Omine et al. (1998) for
-the elastic material based on v¼0.3.
-Column length plays an important role in determining the
-settlement performance of an improved ground. The feasibility
-of ECM for use with ﬂoating columns is shown here. The
-results of a FEM analysis for ﬂoating columns, with 100 kPa
-of loading and a 401 friction angle, were used to compare the
-results with ECM. The calculation for ECM was done
-manually, using Eq. (9), but written in the form of constraint
-modulus D for easy hand calculation. A ﬂoating column-
-improved ground is a two-layer soil system consisting of an
-improved layer and an unimproved layer. For the improved
-layer, the Ncorr was used for the area replacement ratio,
-namely, α¼0.11, 0.15, 0.20, 0.25, 0.35, and 0.45 are 1.49,
+Wang et al., 2002) and plotted for different area replacement ratios (vide Fig. 6). As expected, all the methods show that the equivalent stiffness increases with the increase in the area replacement ratio. The equivalent stiffness for all the other methods is truly elastic Young0s modulus, whilst the Young0s modulus for the ECM method has actually taken into account the yielding behavior, which means that the ECM is supposed to give a softer response compared to the other methods. This is true as compared with the other methods, except for that of
+Omine et al. (1998), whose results are lower than the currently proposed method. Additional information, like the loading intensity and the column friction angle, is required for the
+ECM. Meanwhile, the bt parameter, which depends on the type of mixtures, was assumed to be 1/3 by Omine et al. (1998) for the elastic material based on v_0.3.
+Column length plays an important role in determining the settlement performance of an improved ground. The feasibility of ECM for use with ﬂoating columns is shown here. The results of a FEM analysis for ﬂoating columns, with 100 kPa of loading and a 401 friction angle, were used to compare the results with ECM. The calculation for ECM was done manually, using Eq. (9), but written in the form of constraint modulus D for easy hand calculation. A ﬂoating column- improved ground is a two-layer soil system consisting of an improved layer and an unimproved layer. For the improved layer, the Ncorr was used for the area replacement ratio, namely, α_0.11, 0.15, 0.20, 0.25, 0.35, and 0.45 are 1.49,
 1.57, 1.61, 1.63, 1.54, and 1.39 respectively, taken from Fig. 3.
 The stiffness values for the soil and the column are
-Es¼3000 kN/m2 and Ec¼30,000 kN/m2, respectively, the
-same parameters used in the reference model. A comparison
-of the results of ECM and FEM are given in Table 2. The
-agreement between the two sets results is very good in spite of
-the correction factors being the same for end bearing as those
-used for ﬂoating columns. This is not surprising as the unit cell
-concept adopts equal strain assumptions and the load is
-0
-5000
-10000
-15000
-20000
-25000
-0
+Es_3000 kN/m2 and Ec_30,000 kN/m2, respectively, the same parameters used in the reference model. A comparison of the results of ECM and FEM are given in Table 2. The agreement between the two sets results is very good in spite of the correction factors being the same for end bearing as those used for ﬂoating columns. This is not surprising as the unit cell concept adopts equal strain assumptions and the load is
 0.1
 0.2
 0.3
 0.4
 0.5
-Eeq(kPa)
-α
+Eeq(kPa) α
 Fig. 6. Comparison of different approaches for equivalent stiffness.
 Table 2
 Settlements results for ﬂoating columns.
-β
-α=0.11
-α=0.15
-α=0.20
-α=0.25
-α=0.35
-α=0.45
+β α=0.11 α=0.15 α=0.20 α=0.25 α=0.35 α=0.45
 FEM
 ECM
 FEM
@@ -643,263 +247,59 @@ ECM
 FEM
 ECM
 0.9
-195
-192
-177
-174
-157
-153
-140
-137
-111
-107
-89
-86
 0.8
-202
-198
-186
-182
-168
-163
-153
-149
-128
-123
-109
-104
 0.7
-209
-204
-195
-190
-180
-174
-165
-161
-144
-139
-128
-122
 0.6
-216
-210
-204
-198
-190
-184
-179
-174
-160
-154
-146
-140
 0.5
-222
-217
-213
-207
-201
-195
-192
-186
-176
-170
-164
-158
 0.4
-229
-223
-221
-215
-212
-206
-203
-198
-191
-185
-181
-176
 0.3
-234
-229
-228
-223
-221
-216
-216
-211
-207
-201
-199
-194
 0.2
-240
-235
-236
-231
-230
-227
-227
-223
-221
-216
-216
-212
 0.1
-246
-241
-244
-239
-241
-237
-240
-235
-236
-232
-233
-230
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-158
-uniformly applied. This means that the same correction factor,
-Ncorr, can be used for both end-bearing and ﬂoating columns to
-obtain the equivalent stiffness, as in Eq. (12), provided that the
-condition does not violate the assumptions of the unit cell
-concept.
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 uniformly applied. This means that the same correction factor,
+Ncorr, can be used for both end-bearing and ﬂoating columns to obtain the equivalent stiffness, as in Eq. (12), provided that the condition does not violate the assumptions of the unit cell concept.
 4. Formulation of equivalent permeability
-The second part of the ECM method is to establish the
-equivalent permeability (coefﬁcient of permeability), keq, for
-the composite ground. For stone columns formed from
-material that has very high permeability, the permeability ratio
-between the stone column and the surrounding soil can be in
-the order of 100,000 times depending on the material grading
-and the method of construction. Seed and Booker (1977)
-claimed that the permeability of stone columns should be at
-least 200 times larger than that of the surrounding soil to avoid
-the build-up of excess pore pressure within the columns during
-an earthquake event. Normally, stone columns formed with the
-wet vibroﬂotation method would provide a better drainage path
-compared to the dry vibroﬂotation method. The reason is that
-during the dry method process, the surrounding soil is
-displaced greatly (this is, in fact, a beneﬁcial effect in terms
-of producing larger lateral stress) and mixes profusely with the
-stone column material, thus, creating thicker smear zones. The
-degree of the disturbing effect due to the installation is smaller
-for the wet process. Moreover, the material used in the wet
-process normally contains larger-sized stones than the dry
-method. Apparently, the casing installation method can pro-
-vide the lowest effect of disturbance compared to the above
-two vibroﬂotation methods.
-Similarly, Barksdale and Bachus (1983) stated that the
-drainage ability of stone columns might be degraded due to
-the installation of the columns, causing disturbance to the
-surrounding soil (smear effect), and that ﬁne-grained soil could
-be mixed into the stone columns (well resistance). Han and
-Ye (2002) included these effects in their analytical solution to
-obtain the degree of consolidation for stone columns. The
-degree of consolidation due to the radial ﬂow is
-Ur ¼ 1exp ½8=F
-0
-mT
-0
-rm
-ð13Þ
-where
-T
-0
-rm ¼ c
-0
-rmt=d2
-e – modiﬁed time factor
-F
-0
-m ¼
+The second part of the ECM method is to establish the equivalent permeability (coefﬁcient of permeability), keq, for the composite ground. For stone columns formed from material that has very high permeability, the permeability ratio between the stone column and the surrounding soil can be in the order of 100,000 times depending on the material grading and the method of construction. Seed and Booker (1977) claimed that the permeability of stone columns should be at least 200 times larger than that of the surrounding soil to avoid the build-up of excess pore pressure within the columns during an earthquake event. Normally, stone columns formed with the wet vibroﬂotation method would provide a better drainage path compared to the dry vibroﬂotation method. The reason is that during the dry method process, the surrounding soil is displaced greatly (this is, in fact, a beneﬁcial effect in terms of producing larger lateral stress) and mixes profusely with the stone column material, thus, creating thicker smear zones. The degree of the disturbing effect due to the installation is smaller for the wet process. Moreover, the material used in the wet process normally contains larger-sized stones than the dry method. Apparently, the casing installation method can pro- vide the lowest effect of disturbance compared to the above two vibroﬂotation methods.
+Similarly, Barksdale and Bachus (1983) stated that the drainage ability of stone columns might be degraded due to the installation of the columns, causing disturbance to the surrounding soil (smear effect), and that ﬁne-grained soil could be mixed into the stone columns (well resistance). Han and
+Ye (2002) included these effects in their analytical solution to obtain the degree of consolidation for stone columns. The degree of consolidation due to the radial ﬂow is
+Ur _ 1exp ½8=F mT rm ð13Þ where
+T rm _ c rmt=d2 e – modiﬁed time factor
+F m _
 N2
-N2 1
-ln N
-S þ ks
-kw
-ln S3
-4
-
-
-þ
+N2 1 ln N
+S þ ks kw ln S3
+
+ þ
 S2
-N2 1 1 ks
-kw
-
-
-1 S2
+N2 1 1 ks kw
+
+
+1 S2
 4N2
-
-
-þ ks
-kw
-1
-N2 1
-1 S2
+
+ þ ks kw
+N2 1
+1 S2
 N2
-
-
-þ32
-π2
-ks
-kc
-H
-dc
-
-2
-kc – the permeability of the stone column;
-ks – the permeability of the surrounding soil;
-kw – the permeability of the smear zone;
-S¼ds/dc – the diameter ratio of the smeared zone to the
-drain well;
-N¼de/dc – the diameter ratio;
+
+ þ32 π2 ks kc
+H dc
+
+2 kc – the permeability of the stone column; ks – the permeability of the surrounding soil; kw – the permeability of the smear zone;
+S_ds/dc – the diameter ratio of the smeared zone to the drain well;
+N_de/dc – the diameter ratio;
 H – the longest drainage due to the vertical ﬂow.
-As part of achieving environmental sustainability in ground
-improvement, there is an increasing desire to use recycled and
-secondary material for stone column techniques (Serridge,
-2005). However, the characteristics (i.e., shape and grading) of
-these material sources will affect the shear strength of the
-column material as well as the drainage capacity. In addition,
-there is potential for the crushing of the aggregates (during
-installation or the loading stage) and for the existence of
-contaminants in the columns (e.g., silt, clay, slag, and dust)
-which will further reduce the permeability function of the
-column by a few orders compared to clean aggregates. In view
-of that, the effect of the low permeability of the column
-material on the composite ground was studied.
-The attempt to form the equivalent permeability for stone
-column-reinforced grounds may be the ﬁrst of its kind in
-determining the time-dependent consolidation behavior for the
-homogenization technique. It began with adopting the basic
-case, as described above, where a stone column improved
-ground received a 100 kPa of loading intensity. Firstly, the
-time for a 90% degree of consolidation was obtained from the
-consolidation results of FEM for different area replacement
-ratios and column permeability, kc. Assuming isotropic and
-homogeneous conditions, the coefﬁcient of consolidation for
-the improved ground, cv, was then calculated using Terzaghi0s
-time factor, Tv, of 0.848 (i.e., cv ¼ 0:848 d2=t90). Employing
-the elasticity theory, the composite permeability, kcomposite, was
-obtained as follows:
-kcomposite ¼ cvUγw
-Deq
-ð14Þ
-where Deq¼constraint modulus for the composite ground
-assuming a single type of soil; and γw¼unit weight of water,
+As part of achieving environmental sustainability in ground improvement, there is an increasing desire to use recycled and secondary material for stone column techniques (Serridge,
+2005). However, the characteristics (i.e., shape and grading) of these material sources will affect the shear strength of the column material as well as the drainage capacity. In addition, there is potential for the crushing of the aggregates (during installation or the loading stage) and for the existence of contaminants in the columns (e.g., silt, clay, slag, and dust) which will further reduce the permeability function of the column by a few orders compared to clean aggregates. In view of that, the effect of the low permeability of the column material on the composite ground was studied.
+The attempt to form the equivalent permeability for stone column-reinforced grounds may be the ﬁrst of its kind in determining the time-dependent consolidation behavior for the homogenization technique. It began with adopting the basic case, as described above, where a stone column improved ground received a 100 kPa of loading intensity. Firstly, the time for a 90% degree of consolidation was obtained from the consolidation results of FEM for different area replacement ratios and column permeability, kc. Assuming isotropic and homogeneous conditions, the coefﬁcient of consolidation for the improved ground, cv, was then calculated using Terzaghi0s time factor, Tv, of 0.848 (i.e., cv _ 0:848 d2=t90). Employing the elasticity theory, the composite permeability, kcomposite, was obtained as follows:
+kcomposite _ cvUγw
+Deq ð14Þ where Deq_constraint modulus for the composite ground assuming a single type of soil; and γw_unit weight of water,
 10 kN/m3.
-The permeability of the column material, kc, is varied each
-time and the soil permeability is kept constant at ks¼0.0001
-m/day. The relationship between composite permeability
-kcomposite and the permeability ratio, kc/ks (where kc¼perme-
-ability of the stone column and ks¼permeability of the
+The permeability of the column material, kc, is varied each time and the soil permeability is kept constant at ks_0.0001 m/day. The relationship between composite permeability kcomposite and the permeability ratio, kc/ks (where kc_perme- ability of the stone column and ks_permeability of the
 1E-05
 0.0001
 0.001
 0.01
 0.1
-1
 0.10
 0.15
 0.20
@@ -908,430 +308,139 @@ ability of the stone column and ks¼permeability of the
 0.35
 0.40
 0.45
-0.50
-kcomposite(m/day)
-100000
-1000
-500
-250
-100
-50
-25
-10
-1
-k /k
-10000
-α
-Fig. 7. Composite permeability, kcomposite, under inﬂuence of area replacement
-ratio and permeability ratio.
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-159
-surrounding soil), was developed for different area replace-
-ment ratios (i.e., 0.11, 0.15, 0.2, 0.25, 0.35, and 0.45), as
-designated in Fig. 7. The permeability ratio adopted in this
-study lies in the range of 1–100,000. As expected, a decrease
-in the permeability of the stone column, kc, causes a reduction
-in the permeability ratio, resulting in a decrease in the
-composite permeability. Conversely, an increase in the perme-
-ability ratio causes a rise in the composite permeability, but
-there is a diminishing return when the permeability ratio is
-above 10,000. From this, it can be deduced that there is an
-optimum permeability ratio, i.e., kc/ks¼10,000. This result
-also suggests that slight contamination (i.e., ﬁnes) inside clean
-uniform grading stones may have a minor effect on the overall
-consolidation function. In the same ﬁgure, interestingly, the
-composite permeability appears as a linear straight line on a
-semi-log graph. One possible inference is that the change in
-the composite permeability, due to a different area replacement
-ratio, is of an exponential function, thus highlighting the
-positive implication of having a larger area replacement ratio.
-The effect of the column0s friction angle and load level on the
-composite permeability was not investigated. In general,
-however, the column0s friction angle affects the yielding of
-the column, where a higher friction angle deters the develop-
-ment of plastic straining in the column and the surrounding
-soils (Ng and Tan, 2014b).
-The permeability of the surrounding soil for the basic case is
-ks¼0.0001 m/day, which is a constant throughout the study.
-Therefore, the equivalent permeability, keq, can be expressed as
-keq ¼ kcompositeUks
-1  104:
-ðm=dayÞ
-ð15Þ
-Composite permeability kcomposite and equivalent permeability
-keq both refer to the permeability of the composite ground, but
-the former refers to the permeability back calculated from the
-FEM study, while the latter refers to the permeability to be
-computed. One just needs to determine the kcomposite from
-Fig. 7 and then the permeability equivalent, keq, can be easily
-calculated from Eq. (15). The value of kcomposite is equal to keq
-only when the permeability of the soil, ks, is 0.0001 m/day, as
-adopted in the base reference case. Subsequently, the Terzaghi
-1-D consolidation analytical method can be adopted to
-estimate the degree of consolidation.
-The ECM results are compared with both FEM and the
-analytical solution provided by Han and Ye (2002), as shown
-in Fig. 8, for α¼0.25. Since ECM cannot consider the smear
-effect, S¼1 was input in Eq. (13). In an actual construction
-work, the thickness of the smear zone and its permeability are
-largely unknown. Good agreements are obtained for FEM and
-ECM with only some noticeable difference during the early
-consolidation. The discrepancy at the early consolidation is
-attributed to the use of Tv¼0.848 assumed for the 90% degree
-of consolidation in the ECM. The consequence of this is the
-underestimation of the consolidation rate at the early stage, as
-the assumption does not account for the progressive plastic
-straining with time in the composite soil, as opposed to the
-FEM results where the substantial amount of plastic straining
-occurred gradually during the early consolidation and then
-faster at later stages. This discrepancy at the early stage of
-consolidation is of little importance, since the consolidation
-process at the later stages (450%) has more practical
-signiﬁcance.
-The Han and Ye (2002) solution overestimates the con-
-solidation rate compared to FEM and ECM. The reason for the
-fast computed rate for the analytical solution is that the authors
-assumed linear elastic behavior for both the soil and the
-column. This inherent shortcoming of the Han and Ye (2002)
-solution was also pointed out by Castro and Sagaseta (2009).
-An additional assumption in the Han and Ye analytical
-solution is the value of the stress concentration ratio, ns (stress
-acting on the column/stress acting on soil), which was taken as
-4.0, similar to that in FEM for α¼0.25. None of the existing
-current analytical solutions considers both the permeability
-ratio and the plastic deformation of the composite ground.
-The proposed ECM method here is able to predict the
-permeability of composite grounds even for column material
-with low permeability. A wide range in permeability ratios
-covers almost all the possible conditions which may be
-encountered on site. However, the correct determination of
-the permeability of the stone column material still remains one
-of the most difﬁcult parameters to measure on site (Adalier and
+0.50 kcomposite(m/day) k /k α
+Fig. 7. Composite permeability, kcomposite, under inﬂuence of area replacement ratio and permeability ratio.
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 surrounding soil), was developed for different area replace- ment ratios (i.e., 0.11, 0.15, 0.2, 0.25, 0.35, and 0.45), as designated in Fig. 7. The permeability ratio adopted in this study lies in the range of 1–100,000. As expected, a decrease in the permeability of the stone column, kc, causes a reduction in the permeability ratio, resulting in a decrease in the composite permeability. Conversely, an increase in the perme- ability ratio causes a rise in the composite permeability, but there is a diminishing return when the permeability ratio is above 10,000. From this, it can be deduced that there is an optimum permeability ratio, i.e., kc/ks_10,000. This result also suggests that slight contamination (i.e., ﬁnes) inside clean uniform grading stones may have a minor effect on the overall consolidation function. In the same ﬁgure, interestingly, the composite permeability appears as a linear straight line on a semi-log graph. One possible inference is that the change in the composite permeability, due to a different area replacement ratio, is of an exponential function, thus highlighting the positive implication of having a larger area replacement ratio.
+The effect of the column0s friction angle and load level on the composite permeability was not investigated. In general, however, the column0s friction angle affects the yielding of the column, where a higher friction angle deters the develop- ment of plastic straining in the column and the surrounding soils (Ng and Tan, 2014b).
+The permeability of the surrounding soil for the basic case is ks_0.0001 m/day, which is a constant throughout the study.
+Therefore, the equivalent permeability, keq, can be expressed as keq _ kcompositeUks
+1  104:
+ðm=dayÞ ð15Þ
+Composite permeability kcomposite and equivalent permeability keq both refer to the permeability of the composite ground, but the former refers to the permeability back calculated from the
+FEM study, while the latter refers to the permeability to be computed. One just needs to determine the kcomposite from
+Fig. 7 and then the permeability equivalent, keq, can be easily calculated from Eq. (15). The value of kcomposite is equal to keq only when the permeability of the soil, ks, is 0.0001 m/day, as adopted in the base reference case. Subsequently, the Terzaghi
+1-D consolidation analytical method can be adopted to estimate the degree of consolidation.
+The ECM results are compared with both FEM and the analytical solution provided by Han and Ye (2002), as shown in Fig. 8, for α_0.25. Since ECM cannot consider the smear effect, S_1 was input in Eq. (13). In an actual construction work, the thickness of the smear zone and its permeability are largely unknown. Good agreements are obtained for FEM and
+ECM with only some noticeable difference during the early consolidation. The discrepancy at the early consolidation is attributed to the use of Tv_0.848 assumed for the 90% degree of consolidation in the ECM. The consequence of this is the underestimation of the consolidation rate at the early stage, as the assumption does not account for the progressive plastic straining with time in the composite soil, as opposed to the
+FEM results where the substantial amount of plastic straining occurred gradually during the early consolidation and then faster at later stages. This discrepancy at the early stage of consolidation is of little importance, since the consolidation process at the later stages (450%) has more practical signiﬁcance.
+The Han and Ye (2002) solution overestimates the con- solidation rate compared to FEM and ECM. The reason for the fast computed rate for the analytical solution is that the authors assumed linear elastic behavior for both the soil and the column. This inherent shortcoming of the Han and Ye (2002) solution was also pointed out by Castro and Sagaseta (2009).
+An additional assumption in the Han and Ye analytical solution is the value of the stress concentration ratio, ns (stress acting on the column/stress acting on soil), which was taken as
+4.0, similar to that in FEM for α_0.25. None of the existing current analytical solutions considers both the permeability ratio and the plastic deformation of the composite ground.
+The proposed ECM method here is able to predict the permeability of composite grounds even for column material with low permeability. A wide range in permeability ratios covers almost all the possible conditions which may be encountered on site. However, the correct determination of the permeability of the stone column material still remains one of the most difﬁcult parameters to measure on site (Adalier and
 Elgamal, 2004).
 5. Validation
-Two case studies were used to validate this simple homo-
-genization method. The ﬁrst case study focused on the
-comparison between two different numerical approaches, that
-is, the plane strain trench wall and the ECM. The advantage of
-the ECM over the plane strain trench wall method is that no
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
+Two case studies were used to validate this simple homo- genization method. The ﬁrst case study focused on the comparison between two different numerical approaches, that is, the plane strain trench wall and the ECM. The advantage of the ECM over the plane strain trench wall method is that no
 0.0001
 0.001
 0.01
 0.1
-1
-10
-100
-1000
 Average degree of consolidation,U (%)
 Time (day)
-= 0.25, k = 0.0001 m/day 
+= 0.25, k = 0.0001 m/day
 FEM
 ECM
-Han & Ye (2002)
-α
+Han & Ye (2002) α
 Fig. 8. Comparison of results with FEM and analytical solution.
 Table 3
 Material properties for hypothetical case.
 ID Name
-Depth
-γ⧸γsat
-[kN/m3]
-v0
+Depth γ⧸γsat
+[kN/m3] v0
 E0
-[kN/m2]
-c0
-[kN/m2]
-ϕ0 [deg]
-1
+[kN/m2] c0
+[kN/m2] ϕ0 [deg]
 Crust
 0–1 m
 19/20
 0.3 15,000
-1
-30
-2
 Soft soil
 1–20 m
 18/18
 0.3
-5000
-1
-25
-3
 Embankment ﬁll 4 m high
 20/20
 0.3 15,000
-1
-35
-4
 Stone column
 10 m long 19/20
 0.3 50,000
-1
-50
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-160
-individual column needs to be modeled, thus reducing the
-modeling effort signiﬁcantly. The second case study was an
-actual ﬁeld study with time-settlement measurement.
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 individual column needs to be modeled, thus reducing the modeling effort signiﬁcantly. The second case study was an actual ﬁeld study with time-settlement measurement.
 5.1. Case study 1: hypothetical case
-A hypothetical embankment problem was used to validate
-the ECM for ﬂoating stone columns. Stone columns, 10.0 m in
-length, were used to support a 4.0-m high embankment ﬁll
-constructed above 19.0 m of thick soft soil, underlain by a
-layer of crust with a thickness of 1.0 m. The top width of the
-embankment was 40.0 m and had a 1(V):2(H) slope gradient.
-The columns were 1.0 m in diameter and spaced at 2.0 m in
-square grid pattern (i.e., α¼0.2). The material properties are
-shown in Table 3.
-A plane strain (PS) half model was ﬁrst created in the ﬁnite
-element program PLAXIS 2D. The columns were modeled as
-an equivalent trench wall by adopting Tan et al.0s (2008)
-method 2 approach. In this method, the plane strain column
+A hypothetical embankment problem was used to validate the ECM for ﬂoating stone columns. Stone columns, 10.0 m in length, were used to support a 4.0-m high embankment ﬁll constructed above 19.0 m of thick soft soil, underlain by a layer of crust with a thickness of 1.0 m. The top width of the embankment was 40.0 m and had a 1(V):2(H) slope gradient.
+The columns were 1.0 m in diameter and spaced at 2.0 m in square grid pattern (i.e., α_0.2). The material properties are shown in Table 3.
+A plane strain (PS) half model was ﬁrst created in the ﬁnite element program PLAXIS 2D. The columns were modeled as an equivalent trench wall by adopting Tan et al.0s (2008) method 2 approach. In this method, the plane strain column
 Fig. 9. Plane strain trench wall model for hypothetical embankment problem.
 Fig. 10. Equivalent column method for hypothetical embankment problem.
 Table 4
 Equivalent material properties – Case study 1.
 ID
-Equivalent material
-v0
+Equivalent material v0
 Eeq [kN/m2]
-1
 SCþCrust
 0.3
 11,667
-2
 SCþSoft soil
 0.3
 18,333
-0
-50
-100
-150
-200
-0
-5
-10
-15
-20
-25
-30
-35
-40
-45
-Settlement  (mm)
-Horizotal distance  (m)
+Settlement (mm)
+Horizotal distance (m)
 PS
 ECM
 Fig. 11. Settlement plot for hypothetical problem – Case study 2.
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-161
-width, bc, is given by the following relationship:
-bc ¼ Br2
-c
-r2
-e
-ð16Þ
-where re is the tributary soil radius, B is the equivalent plane
-strain width for the tributary soil, and rc is the column radius.
-For a square pattern of columns, re¼1.13B is based on Barron
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 width, bc, is given by the following relationship:
+bc _ Br2 c r2 e ð16Þ where re is the tributary soil radius, B is the equivalent plane strain width for the tributary soil, and rc is the column radius.
+For a square pattern of columns, re_1.13B is based on Barron
 (1948). The plane strain trench wall was calculated as being
-0.4 m in thickness and no adjustments in the material proper-
-ties were needed. The plane strain trench wall model is shown
-in Fig. 9. Stone columns were modeled as wished-in-place in
-the model. The initial horizontal to vertical stress, Ko, for both
-the columns and soil is taken as 0.7, while the Ko for crust
-layer is 0.5. The ground water level is 1.0 m below the ground
-surface. Subsequently, the equivalent column method was
-adopted where the treated zone was replaced with material
-of equivalent stiffness, as shown in Fig. 10. The equivalent
-material properties are given in Table 4. From Fig. 5, the Ncorr
-was taken as 1.2 for the 4.0-m embankment ﬁll, which is of
+0.4 m in thickness and no adjustments in the material proper- ties were needed. The plane strain trench wall model is shown in Fig. 9. Stone columns were modeled as wished-in-place in the model. The initial horizontal to vertical stress, Ko, for both the columns and soil is taken as 0.7, while the Ko for crust layer is 0.5. The ground water level is 1.0 m below the ground surface. Subsequently, the equivalent column method was adopted where the treated zone was replaced with material of equivalent stiffness, as shown in Fig. 10. The equivalent material properties are given in Table 4. From Fig. 5, the Ncorr was taken as 1.2 for the 4.0-m embankment ﬁll, which is of
 80 kN/m2.
-In the ﬁrst part of this validation case, drained analyses were
-conducted for both the PS model and the ECM. Therefore, the
-effects of the time-dependent behavior due to consolidation are
-not considered at this stage. The settlement results are shown
-in Fig. 11. The results from the two methods agree very well,
-with the maximum settlement of around 175 mm occurring at
-the center of the embankment. Disk-shaped settlement proﬁles
-under the embankment were obtained for both methods. The
-constitutive soil model for the composite material is linear
-elastic; therefore, no shear strength parameters are required. No
-intention is given for a check of the slope stability as the ECM
-is derived from the unit cell concept. However, if this check is
-necessary, the weighted average shear strength parameters can
-be used (Barksdale and Bachus, 1983).
-The hypothetical problem was then analyzed using the
-coupled
-consolidation
-analysis.
-The
-embankment
-was
-constructed in four layers with each layer laid in t¼5 days.
-The permeability of the embankment, the soft clay, and the
-crust are k¼0.001 m/day, while that of the stone column
-material is of k¼1.0 m/day. Therefore, the ratio of the stone
-column to surrounding soil is a fourth order higher. From
-Fig. 7, the equivalent permeability for the composite material
-was taken as keq¼0.032 m/day.
-At the end of the embankment construction, t¼20 days, the
-excess pore pressure shading for the methods of the plane
-strain trench wall (PS) and equivalent column method (ECM)
-are shown in Fig. 12. The distribution patterns for the two
-methods are comparable, albeit a little higher for the plane
-strain trench wall model. This is probably due to the assump-
-tion in ECM where only the vertical ﬂow (one direction) is
-assumed compared to the PS model where both radial and
-vertical ﬂows (combined effect) are considered. The shadings
-in the untreated zone below the ﬂoating columns illustrate the
-remaining high excess pore pressure which may pose a long-
-term settlement issue. There is a dark zone in the PS model
-located at the column right below the embankment toe. This
-probably indicates the early dissipation of excess pore pressure
-from the surrounding soil towards the columns, in addition to
-low excess pore pressure generated near the embankment toe
-and high permeability of the column. However, this dark zone
-D 
+In the ﬁrst part of this validation case, drained analyses were conducted for both the PS model and the ECM. Therefore, the effects of the time-dependent behavior due to consolidation are not considered at this stage. The settlement results are shown in Fig. 11. The results from the two methods agree very well, with the maximum settlement of around 175 mm occurring at the center of the embankment. Disk-shaped settlement proﬁles under the embankment were obtained for both methods. The constitutive soil model for the composite material is linear elastic; therefore, no shear strength parameters are required. No intention is given for a check of the slope stability as the ECM is derived from the unit cell concept. However, if this check is necessary, the weighted average shear strength parameters can be used (Barksdale and Bachus, 1983).
+The hypothetical problem was then analyzed using the coupled consolidation analysis.
+The embankment was constructed in four layers with each layer laid in t_5 days.
+The permeability of the embankment, the soft clay, and the crust are k_0.001 m/day, while that of the stone column material is of k_1.0 m/day. Therefore, the ratio of the stone column to surrounding soil is a fourth order higher. From
+Fig. 7, the equivalent permeability for the composite material was taken as keq_0.032 m/day.
+At the end of the embankment construction, t_20 days, the excess pore pressure shading for the methods of the plane strain trench wall (PS) and equivalent column method (ECM) are shown in Fig. 12. The distribution patterns for the two methods are comparable, albeit a little higher for the plane strain trench wall model. This is probably due to the assump- tion in ECM where only the vertical ﬂow (one direction) is assumed compared to the PS model where both radial and vertical ﬂows (combined effect) are considered. The shadings in the untreated zone below the ﬂoating columns illustrate the remaining high excess pore pressure which may pose a long- term settlement issue. There is a dark zone in the PS model located at the column right below the embankment toe. This probably indicates the early dissipation of excess pore pressure from the surrounding soil towards the columns, in addition to low excess pore pressure generated near the embankment toe and high permeability of the column. However, this dark zone
+D
 •
-D 
+D
 •
-A 
+A
 •
-B 
+B
 •
-C 
+C
 •
-A 
+A
 •
-B 
+B
 •
-C 
+C
 •
 ECM
 Plane strain trench wall (PS)
 Fig. 12. Excess pore pressure shadings at end of construction.
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-162
-is not present in the ECM model where individual columns are
-not modeled.
-The settlement points, A, B, and C, are taken along the
-original ground surface 0 m, 5 m, and 10 m away from the
-center axis. The settlement distributions against time are
-plotted in Fig. 13 for the plane strain trench wall and the
-ECM for these few locations. For point A, right under the
-center of the embankment, the total settlement obtained for
-both methods is about the same, sE177 mm (also identical to
-the drained analysis). In addition, the consolidation curves
-appear to be parallel with each other. Settlement values at
-points B and C in the plane strain trench wall are larger
-compared to the point at the center of the axis, A. The
-settlement values are about the same for ECM. This is
-evidenced when the horizontal displacement of the vertical
-line at the toe of the embankment is compared, as shown in
-Fig. 14, where the PS model gives larger horizontal movement
-compared to the ECM model. From all the curves shown in
-Fig. 13, the consolidation rates for both methods are generally
-about the same judging from the gradient of the curves,
-although the consolidation period is slightly longer for the
-plane strain trench wall method.
-To further access the excess pore pressure dissipation over
-time in an untreated zone, a stress point D was taken at the
-bottom left corner. Fig. 15 shows that the dissipation curves
-for both methods are almost identical with the peak excess
-pore pressure around 73 kN/m2. After the construction period,
-the dissipation of excess pore pressure in the ECM dissipates
-slightly faster. The time required for the excess pore pressure
-to drop to Δu¼10 kN/m2 is about 1500 days and 2000 days
-for the ECM and PS models, respectively.
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 is not present in the ECM model where individual columns are not modeled.
+The settlement points, A, B, and C, are taken along the original ground surface 0 m, 5 m, and 10 m away from the center axis. The settlement distributions against time are plotted in Fig. 13 for the plane strain trench wall and the
+ECM for these few locations. For point A, right under the center of the embankment, the total settlement obtained for both methods is about the same, sE177 mm (also identical to the drained analysis). In addition, the consolidation curves appear to be parallel with each other. Settlement values at points B and C in the plane strain trench wall are larger compared to the point at the center of the axis, A. The settlement values are about the same for ECM. This is evidenced when the horizontal displacement of the vertical line at the toe of the embankment is compared, as shown in
+Fig. 14, where the PS model gives larger horizontal movement compared to the ECM model. From all the curves shown in
+Fig. 13, the consolidation rates for both methods are generally about the same judging from the gradient of the curves, although the consolidation period is slightly longer for the plane strain trench wall method.
+To further access the excess pore pressure dissipation over time in an untreated zone, a stress point D was taken at the bottom left corner. Fig. 15 shows that the dissipation curves for both methods are almost identical with the peak excess pore pressure around 73 kN/m2. After the construction period, the dissipation of excess pore pressure in the ECM dissipates slightly faster. The time required for the excess pore pressure to drop to Δu_10 kN/m2 is about 1500 days and 2000 days for the ECM and PS models, respectively.
 5.2. Case study 2: Shah Alam expressway – Kebun interchange
-Extensive ground treatment works using stone columns were
-carried out at the Shah Alam West (Kebun) Interchange for the
-Shah Alam Expressway, Malaysia. The project details have been
-published in Keller0s Technical Papers 12-64 E and 12-65 E. The
-embankment geometry and subsoil properties are shown in
-Fig. 16 together with the stone column layout. The embankment
-was 2.0 m in height with an additional preload of 1.0 m. The
-column was 12.0 m in length with a diameter of 1.1 m, and
-spacing of 2.2 m (i.e., α¼0.2). The treated soil was extremely
-soft with a modulus value of 500–1500 kPa or coefﬁcient of
-consolidation values, cv, ranging from 0.5 to 1.0 m2/year at a
-vertical stress of 100 kPa. Fig. 17 depicts Taylor0s square root of
-time ﬁtting method for the estimation of a 90% degree of
-consolidation. The construction sequence and the settlement
-versus time are plotted in Fig. 18. The preload was not removed
-during the ﬁeld measurements. It can be seen that only about 25%
-of the settlement had taken place during the embankment
-construction, while the remaining settlement occurred over a
-0
-2
-4
-6
-8
-10
-12
-14
-16
-18
-20
-0
-25
-50
-75
+Extensive ground treatment works using stone columns were carried out at the Shah Alam West (Kebun) Interchange for the
+Shah Alam Expressway, Malaysia. The project details have been published in Keller0s Technical Papers 12-64 E and 12-65 E. The embankment geometry and subsoil properties are shown in
+Fig. 16 together with the stone column layout. The embankment was 2.0 m in height with an additional preload of 1.0 m. The column was 12.0 m in length with a diameter of 1.1 m, and spacing of 2.2 m (i.e., α_0.2). The treated soil was extremely soft with a modulus value of 500–1500 kPa or coefﬁcient of consolidation values, cv, ranging from 0.5 to 1.0 m2/year at a vertical stress of 100 kPa. Fig. 17 depicts Taylor0s square root of time ﬁtting method for the estimation of a 90% degree of consolidation. The construction sequence and the settlement versus time are plotted in Fig. 18. The preload was not removed during the ﬁeld measurements. It can be seen that only about 25% of the settlement had taken place during the embankment construction, while the remaining settlement occurred over a
 Depth (m)
 Horizontal displacement (mm)
 ECM
 PS
 Fig. 14. Horizontal displacement below embankment toe.
-0
-10
-20
-30
-40
-50
-60
-70
-80
 0.1
-1
-10
-100
-1000
-10000
 Excess pore pressure (kN/m2)
 Time (days)
 PS
 ECM
 Fig. 15. Excess pore pressure distributions at point D.
-0
-25
-50
-75
-100
-125
-150
-175
-200
 0.1
-1
-10
-100
-1000
-10000
 Settlement (mm)
-Time  (days)
+Time (days)
 PS -A
 PS -B
 PS -C
@@ -1339,61 +448,29 @@ ECM -A
 ECM -B
 ECM -C
 Fig. 13. Settlement versus time plot for hypothetical problem.
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-163
-period of almost eight months thereafter. One peculiar thing is
-that was no settlement happened between day 30 and day 45.
-Referring to Fig. 17, the lower gradient at the beginning of the
-consolidation process may roughly explain why the phenomenon
-exists. It seems that the soil may experience some kind of over-
-consolidated behavior.
-The material properties input for the composite material are
-shown in Table 5. The stone column over the surrounding soil
-stiffness ratio, Ec/Es, was ﬁxed at 10 where the stiffness of the
-soil, Es, was taken as 500 kPa or the constraint modulus,
-Ds¼673 kPa. The friction angle of the columns was assumed
-to be 401. The coefﬁcient of permeability for marine clay is
-normally between the values of 109 to 1010 m/s. However,
-in this case, the average k was calculated using the average cv
-of 0.75 m2/year which gives the value of k¼3.53  1010 m/s.
-The secondary compression settlement was not considered
-here.
-The results are presented in Fig. 19. A good match was
-obtained compared to the ﬁeld measurements in terms of the
-time rate of consolidation and the ﬁnal settlement. The ﬁeld
-measurements showed a slower consolidation response at the
-12 m 
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 period of almost eight months thereafter. One peculiar thing is that was no settlement happened between day 30 and day 45.
+Referring to Fig. 17, the lower gradient at the beginning of the consolidation process may roughly explain why the phenomenon exists. It seems that the soil may experience some kind of over- consolidated behavior.
+The material properties input for the composite material are shown in Table 5. The stone column over the surrounding soil stiffness ratio, Ec/Es, was ﬁxed at 10 where the stiffness of the soil, Es, was taken as 500 kPa or the constraint modulus,
+Ds_673 kPa. The friction angle of the columns was assumed to be 401. The coefﬁcient of permeability for marine clay is normally between the values of 109 to 1010 m/s. However, in this case, the average k was calculated using the average cv of 0.75 m2/year which gives the value of k_3.53  1010 m/s.
+The secondary compression settlement was not considered here.
+The results are presented in Fig. 19. A good match was obtained compared to the ﬁeld measurements in terms of the time rate of consolidation and the ﬁnal settlement. The ﬁeld measurements showed a slower consolidation response at the
+12 m
 2.2
 2.2
 2.2
 Preload level
 Finish road level
-Working 
-platform
+Working platform
 Stone column
 Ø 1.1 m
 Firm to stiff layers
 Extremely very soft clay
-Compacted sand blanket
-qc = 0.1 – 0.3 MPa
-Es= 0.5 –1.5 MPa
-cu = 9 –15 kPa
+Compacted sand blanket qc = 0.1 – 0.3 MPa
+Es= 0.5 –1.5 MPa cu = 9 –15 kPa
 Fig. 16. Cross section of embankment and stone column layout (Keller Technical Paper, 1997a, 1997b).
-0
-10
-20
-30
-40
-50
-0
-5
-10
-15
-20
 Settlement (mm)
 √t (day)
-Fig. 17. Taylor's square root of time method for prediction of 90%
-consolidation time (Keller Technical Paper, 1997a, 1997b).
+Fig. 17. Taylor's square root of time method for prediction of 90% consolidation time (Keller Technical Paper, 1997a, 1997b).
 Fig. 18. Embankment height and settlement over time at CH 15.450 (Keller
 Technical Paper, 1997a, 1997b).
 Table 5
@@ -1402,131 +479,62 @@ ID
 Stiffness,
 E
 [kN/m2]
-Permeability,
-k
+Permeability, k
 [m/day]
 Eeq
-[kN/m2]
-kcomposite
-[m/day]
-keq
+[kN/m2] kcomposite
+[m/day] keq
 [m/day]
 Ncorr=1.3
-Compacted
-sand blanket
+Compacted sand blanket
 15,000
 0.864
 31,870
 0.0001
 0.864
-Very soft
-marine clay
-500
+Very soft marine clay
 0.0000305
-1138
 0.031
 0.00946
-Stone
-column
-Ec/Es=10
-kc/ks=10,000
-0
-5
-10
-15
-20
-25
-30
-35
-40
-45
-0
-50
-100
-150
-200
-250
-300
+Stone column
+Ec/Es=10 kc/ks=10,000
 Settlement (cm)
 Time (days)
 Field result
 ECM
 Fig. 19. Comparison of calculated results and measured ﬁeld results.
-K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-164
-early stage as no settlement was observed between day 30 and
-day 45. Over the consolidated behavior cannot be predicted by
-the ECM. However, beyond that, the ECM method gives a
-very good prediction for the rate of settlement (almost parallel
-lines for the ﬁeld and ECM results) as well as for the ﬁnal
-settlement.
+K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165 early stage as no settlement was observed between day 30 and day 45. Over the consolidated behavior cannot be predicted by the ECM. However, beyond that, the ECM method gives a very good prediction for the rate of settlement (almost parallel lines for the ﬁeld and ECM results) as well as for the ﬁnal settlement.
 6. Conclusion
-The objective of this study was to provide design engineers
-with a simple modeling technique for stone column-reinforced
-foundations based on the homogenization method. This semi-
-empirical homogenization method offers a quick solution for
-stone column-improved grounds (which can be carried out by
-hand calculations) to predict both the settlement and consoli-
-dation times. Moreover, it fulﬁlls all the design attributes of
-practical analysis and design methods suggested by Poulos
+The objective of this study was to provide design engineers with a simple modeling technique for stone column-reinforced foundations based on the homogenization method. This semi- empirical homogenization method offers a quick solution for stone column-improved grounds (which can be carried out by hand calculations) to predict both the settlement and consoli- dation times. Moreover, it fulﬁlls all the design attributes of practical analysis and design methods suggested by Poulos
 (2000).
-The proposal of equivalent stiffness in the design chart,
-accounting for different loading, the internal angle of friction
-for stone columns, and the area replacement ratios, facilitates
-users in selecting an optimum design scheme. On the other
-hand, the ECM allows different permeability ratios to be
-adopted by introducing an equivalent permeability value for
-the composite ground, an innovative solution that can be
-obtained without going through a long theoretical derivation
-which has had little success until today.
-The equivalent column method (ECM) proposed here is
-mainly based on the elastic-perfectly plastic theory. Despite
-being simple, the plastic straining under greater loading effects
-is taken into account, thus making this proposed method
-superior to the current design methods which are mainly based
-on the elastic theory and empirical approaches. This method
-has been validated through several case studies for end-bearing
-and ﬂoating columns. However, the changes in permeability
-and the coefﬁcient of consolidation during consolidation or
-loading intensity are not taken into account in this method.
-Care should be exercised when using this method outside of
-the parameter range and assumptions for which it was
-developed.
+The proposal of equivalent stiffness in the design chart, accounting for different loading, the internal angle of friction for stone columns, and the area replacement ratios, facilitates users in selecting an optimum design scheme. On the other hand, the ECM allows different permeability ratios to be adopted by introducing an equivalent permeability value for the composite ground, an innovative solution that can be obtained without going through a long theoretical derivation which has had little success until today.
+The equivalent column method (ECM) proposed here is mainly based on the elastic-perfectly plastic theory. Despite being simple, the plastic straining under greater loading effects is taken into account, thus making this proposed method superior to the current design methods which are mainly based on the elastic theory and empirical approaches. This method has been validated through several case studies for end-bearing and ﬂoating columns. However, the changes in permeability and the coefﬁcient of consolidation during consolidation or loading intensity are not taken into account in this method.
+Care should be exercised when using this method outside of the parameter range and assumptions for which it was developed.
 References
-Adalier, K., Elgamal, A., 2004. Mitigation of liquefaction and associated
-ground deformations by stone columns. Eng. Geol. 72 (3–4), 275–291.
-Babu, M.D., Nayak, S., Shivashankar, R., 2013. A critical review of
-construction, analysis and behaviour of stone columns. Geotech. Geol.
+Adalier, K., Elgamal, A., 2004. Mitigation of liquefaction and associated ground deformations by stone columns. Eng. Geol. 72 (3–4), 275–291.
+Babu, M.D., Nayak, S., Shivashankar, R., 2013. A critical review of construction, analysis and behaviour of stone columns. Geotech. Geol.
 Eng. 31 (1), 1–22.
-Barksdale, R.D., Bachus, R.C., 1983. Design and construction of stone
-columns. Federal Highway Administration Ofﬁce of Engineering and
+Barksdale, R.D., Bachus, R.C., 1983. Design and construction of stone columns. Federal Highway Administration Ofﬁce of Engineering and
 Highway Operations.
 Barron, R.A., 1948. Consolidation of ﬁne-grained soils by drain wells. Trans.
 ASCE 113, 718–742.
 Brinkgreve, R.B.J., Swolfs, W.M., Engin, E., 2011. PLAXIS 2D Reference
 Manual. Delft University of Technology and PLAXIS bv, The Netherlands.
-Castro, J., Sagaseta, C., 2009. Consolidation around stone columns. Inﬂuence
-of column deformation. Int. J. Numer. Anal. Methods Geomech. 33 (7),
+Castro, J., Sagaseta, C., 2009. Consolidation around stone columns. Inﬂuence of column deformation. Int. J. Numer. Anal. Methods Geomech. 33 (7),
 851–877.
-Han, J., 2012. Recent advances in columns technologies to improve soft
-foundations. In: Proceedings of the International Conference on Ground
+Han, J., 2012. Recent advances in columns technologies to improve soft foundations. In: Proceedings of the International Conference on Ground
 Improvement and Ground Control. Wollongong, Australia, pp. 99–113.
-Han, J., Ye, S.L., 2002. A theoretical solution for consolidation rates of stone
-column-reinforced foundations accounting for smear and well resistance
-effects. Int. J. Geomech. 2 (2), 135–151.
-Kamrat-Pietraszewska, D., Karstunen, M., 2010. Modelling embankments on
-ﬂoating stone columns. In: Proceedings of the Numerical Methods in
+Han, J., Ye, S.L., 2002. A theoretical solution for consolidation rates of stone column-reinforced foundations accounting for smear and well resistance effects. Int. J. Geomech. 2 (2), 135–151.
+Kamrat-Pietraszewska, D., Karstunen, M., 2010. Modelling embankments on ﬂoating stone columns. In: Proceedings of the Numerical Methods in
 Geotechnical
 Engineering
 (7th
 NUMGE).
 Trondheim,
-Norway,
-pp. 851–856.
+Norway, pp. 851–856.
 Keller Technical Paper 12-64 E, 1997a. The Behavior of Very Soft
 Soils
-Improved
-by
+Improved by
 Vibro
 Replacement.
 Keller
@@ -1536,50 +544,33 @@ Keller Technical Paper 12-65 E, 1997b. Vibro Replacement: A Technique for
 Extensive Ground Improvement Works in Very Soft Cohesive Soils at
 Shah Alam Expressway. Keller Graundbau GmbH, Kaiserleistr. 44, D-
 63067 Offenbach.
-Killeen, M.M., McCabe, B., 2014. Settlement performance of pad footings on
-soft clay supported by stone columns: a numerical study. Soils Found. 54 (4),
+Killeen, M.M., McCabe, B., 2014. Settlement performance of pad footings on soft clay supported by stone columns: a numerical study. Soils Found. 54 (4),
 760–776.
 Lee, J.S., Pande, G.N., 1998. Analysis of stone-column reinforced foundations.
 Int. J. Numer. Anal. Methods Geomech. 22 (12), 1001–1020.
-Maheshwari, P., Khatri, S., 2012. Nonlinear analysis of inﬁnite beams on
-granular bed-stone column-reinforced earth beds under moving loads. Soils
+Maheshwari, P., Khatri, S., 2012. Nonlinear analysis of inﬁnite beams on granular bed-stone column-reinforced earth beds under moving loads. Soils
 Found. 52 (1), 114–125.
-Ng, K.S., Tan, S.A., 2011. The modeling of ﬂoating stone column using unit
-cell concept. In: Proceedings of the International Conference on Geology,
+Ng, K.S., Tan, S.A., 2011. The modeling of ﬂoating stone column using unit cell concept. In: Proceedings of the International Conference on Geology,
 Geotechnology, and Mineral Resources of INDOCHINA. Khon Kaen,
 Thailand, pp. 152–160.
-Ng, K.S., Tan, S.A., 2012. Equivalent column method for stone column
-design. In: Proceedings of the International Conference on Ground
-Improvement and Ground Control, vol. 2011. Wollongong, Australia,
-pp. 665–670.
-Ng, K.S., Tan, S.A., 2014a. Nonlinear Behaviour of an embankment on
-ﬂoating stone columns. Geomech. Geoeng., 1–15 (ahead-of-print).
+Ng, K.S., Tan, S.A., 2012. Equivalent column method for stone column design. In: Proceedings of the International Conference on Ground
+Improvement and Ground Control, vol. 2011. Wollongong, Australia, pp. 665–670.
+Ng, K.S., Tan, S.A., 2014a. Nonlinear Behaviour of an embankment on ﬂoating stone columns. Geomech. Geoeng., 1–15 (ahead-of-print).
 Ng, K.S., Tan, S.A., 2014b. Floating stone column design and analyses. Soils
 Found. 54 (3), 478–487.
-Omine, K., Ochiai, H., Bolton, M., 1998. A generalized two-phase mixture
-model and its application to composite ground. Mem. – Faculty Eng.
+Omine, K., Ochiai, H., Bolton, M., 1998. A generalized two-phase mixture model and its application to composite ground. Mem. – Faculty Eng.
 Kyushu Univ. 58, 83–110.
-Poorooshasb, H.B., Meyerhof, G.G., 1997. Analysis of behavior of stone
-columns and lime columns. Comput. Geotech. 20 (1), 47–70.
-Poulos, H.G., 1993. Settlement prediction for bored pile groups. In: Proceed-
-ings of the 2nd Geotechnical Seminar on Deep Foundations on Bored and
+Poorooshasb, H.B., Meyerhof, G.G., 1997. Analysis of behavior of stone columns and lime columns. Comput. Geotech. 20 (1), 47–70.
+Poulos, H.G., 1993. Settlement prediction for bored pile groups. In: Proceed- ings of the 2nd Geotechnical Seminar on Deep Foundations on Bored and
 Auger Piles. Ghent, pp. 103–117.
 Poulos, H.G., 2000. Foundation settlement analysis – practice versus research.
 The Eighth Spencer J. Buchanan Lecture, Texas A & M University.
-Schweiger, H., Pande, G., 1986. Numerical analysis of stone column supported
-foundations. Comput. Geotech. 2 (6), 347–372.
-Seed, H.B., Booker, J.R., 1977. Stabilization of potentially liqueﬁable sand
-deposits using gravel drains. ASCE J. Geotech. Eng. Div. 103 (7),
+Schweiger, H., Pande, G., 1986. Numerical analysis of stone column supported foundations. Comput. Geotech. 2 (6), 347–372.
+Seed, H.B., Booker, J.R., 1977. Stabilization of potentially liqueﬁable sand deposits using gravel drains. ASCE J. Geotech. Eng. Div. 103 (7),
 757–768.
 Serridge, C., 2005. Achieving sustainability in vibro stone column techniques.
 Proc. Inst. Civ. Eng. Eng. Sustain. 158 (ES4), 211–222.
 Tan, S.A., Tjahyono, S., Oo, K.K., 2008. Simpliﬁed plane-strain modeling of
-stone-column reinforced ground. J. Geotech. Geoenviron. Eng. 134, 185.
-Vogler, U., Karstunen, M., 2008. Application of volume averaging technique
-in numerical modelling of deep mixing. In Geotechnics of Soft Soils: Focus
-on Ground Improvement. In: Proceedings of the 2nd International Work-
-shop held in Glasgow, Scotland, 3-5 September 2008, pp. 189–195.
-Wang, J.G., Leung, C.F., Ichikawa, Y., 2002. A simpliﬁed homogenisation
-method for composite soils. Comput. Geotech. 29 (6), 477–500.
+Vogler, U., Karstunen, M., 2008. Application of volume averaging technique in numerical modelling of deep mixing. In Geotechnics of Soft Soils: Focus on Ground Improvement. In: Proceedings of the 2nd International Work- shop held in Glasgow, Scotland, 3-5 September 2008, pp. 189–195.
+Wang, J.G., Leung, C.F., Ichikawa, Y., 2002. A simpliﬁed homogenisation method for composite soils. Comput. Geotech. 29 (6), 477–500.
 K.S. Ng, S.A. Tan / Soils and Foundations 55 (2015) 154–165
-165

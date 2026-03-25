@@ -1,0 +1,97 @@
+Elasticity (physics)
+In physics and materials science, elasticity is the ability of a body to resist a distorting influence and to return to its original size and shape when that influence or force is removed. Solid objects will deform when adequate loads are applied to them; if the material is elastic, the object will return to its initial shape and size after removal. This is in contrast to plasticity, in which the object fails to do so and instead remains in its deformed state.
+The physical reasons for elastic behavior can be quite different for different materials. In metals, the atomic lattice changes size and shape when forces are applied (energy is added to the system). When forces are removed, the lattice goes back to the original lower energy state. For rubbers and other polymers, elasticity is caused by the stretching of polymer chains when forces are applied.
+Hooke's law states that the force required to deform elastic objects should be directly proportional to the distance of deformation, regardless of how large that distance becomes. This is known as perfect elasticity, in which a given object will return to its original shape no matter how strongly it is deformed.
+This is an ideal concept only; most materials which possess elasticity in practice remain purely elastic only up to very small deformations, after which plastic (permanent) deformation occurs.
+In engineering, the elasticity of a material is quantified by the elastic modulus such as the Young's modulus, bulk modulus or shear modulus which measure the amount of stress needed to achieve a unit of strain; a higher modulus indicates that the material is harder to deform. The SI unit of this modulus is the pascal (Pa). The material's elastic limit or yield strength is the maximum stress that can arise before the onset of plastic deformation. Its SI unit is also the pascal (Pa).
+When an elastic material is deformed due to an external force, it experiences internal resistance to the deformation and restores it to its original state if the external force is no longer applied. There are various elastic moduli, such as Young's modulus, the shear modulus, and the bulk modulus,[1] all of which are measures of the inherent elastic properties of a material as a resistance to deformation under an applied load. The various moduli apply to different kinds of deformation. For instance, Young's modulus applies to extension/compression of a body, whereas the shear modulus applies to its shear.[2] Young's modulus and shear modulus are only for solids, whereas the bulk modulus is for solids, liquids, and gases.
+The elasticity of materials is described by a stress–strain curve, which shows the relation between stress
+(the average restorative internal force per unit area) and strain (the relative deformation).[3] The curve is generally nonlinear, but it can (by use of a Taylor series) be approximated as linear for sufficiently small deformations (in which higher-order terms are negligible). If the material is isotropic, the linearized stress–strain relationship is called Hooke's law,[4] which is often presumed to apply up to the elastic limit for most metals or crystalline materials whereas nonlinear elasticity is generally required to model large deformations of rubbery materials even in the elastic range. For even higher stresses, materials exhibit plastic behavior, that is, they deform irreversibly and do not return to their original shape after stress is no
+Overview longer applied.[5] For rubber-like materials such as elastomers, the slope of the stress–strain curve increases with stress, meaning that rubbers progressively become more difficult to stretch, while for most metals, the gradient decreases at very high stresses, meaning that they progressively become easier to stretch.[6] Elasticity is not exhibited only by solids; non-Newtonian fluids, such as viscoelastic fluids, will also exhibit elasticity in certain conditions quantified by the Deborah number. In response to a small, rapidly applied and removed strain, these fluids may deform and then return to their original shape. Under larger strains, or strains applied for longer periods of time, these fluids may start to flow like a viscous liquid.
+Because the elasticity of a material is described in terms of a stress–strain relation, it is essential that the terms stress and strain be defined without ambiguity. Typically, two types of relation are considered. The first type deals with materials that are elastic only for small strains. The second deals with materials that are not limited to small strains. Clearly, the second type of relation is more general in the sense that it must include the first type as a special case.
+For small strains, the measure of stress that is used is the Cauchy stress while the measure of strain that is used is the infinitesimal strain tensor; the resulting (predicted) material behavior is termed linear elasticity, which (for isotropic media) is called the generalized Hooke's law. Cauchy elastic materials and hypoelastic materials are models that extend Hooke's law to allow for the possibility of large rotations, large distortions, and intrinsic or induced anisotropy.
+For more general situations, any of a number of stress measures can be used, and it is generally desired
+(but not required) that the elastic stress–strain relation be phrased in terms of a finite strain measure that is work conjugate to the selected stress measure, i.e., the time integral of the inner product of the stress measure with the rate of the strain measure should be equal to the change in internal energy for any adiabatic process that remains below the elastic limit.
+The SI unit for elasticity and the elastic modulus is the pascal (Pa). This unit is defined as force per unit area, generally a measurement of pressure, which in mechanics corresponds to stress. The pascal and therefore elasticity have the dimension L−1⋅M⋅T−2.
+For most commonly used engineering materials, the elastic modulus is on the scale of gigapascals (GPa,
+109 Pa).
+As noted above, for small deformations, most elastic materials such as springs exhibit linear elasticity and can be described by a linear relation between the stress and strain. This relationship is known as Hooke's law. A geometry-dependent version of the idea[a] was first formulated by Robert Hooke in 1675 as a Latin
+Units
+International System
+Linear elasticity anagram, "ceiiinosssttuv". He published the answer in 1678: "Ut tensio, sic vis" meaning "As the extension, so the force",[7][8] a linear relationship commonly referred to as Hooke's law. This law can be stated as a relationship between tensile force F and corresponding extension displacement , where k is a constant known as the rate or spring constant. It can also be stated as a relationship between stress and strain :
+where E is known as the Young's modulus.[9]
+Although the general proportionality constant between stress and strain in three dimensions is a 4th-order tensor called stiffness, systems that exhibit symmetry, such as a one-dimensional rod, can often be reduced to applications of Hooke's law.
+The elastic behavior of objects that undergo finite deformations has been described using a number of models, such as Cauchy elastic material models, Hypoelastic material models, and Hyperelastic material models. The deformation gradient (F) is the primary deformation measure used in finite strain theory.
+A material is said to be Cauchy-elastic if the Cauchy stress tensor σ is a function of the deformation gradient F alone:
+It is generally incorrect to state that Cauchy stress is a function of merely a strain tensor, as such a model lacks crucial information about material rotation needed to produce correct results for an anisotropic medium subjected to vertical extension in comparison to the same extension applied horizontally and then subjected to a 90-degree rotation; both these deformations have the same spatial strain tensors yet must produce different values of the Cauchy stress tensor.
+Even though the stress in a Cauchy-elastic material depends only on the state of deformation, the work done by stresses might depend on the path of deformation. Therefore, Cauchy elasticity includes non- conservative "non-hyperelastic" models (in which work of deformation is path dependent) as well as conservative "hyperelastic material" models (for which stress can be derived from a scalar "elastic potential" function).
+A hypoelastic material can be rigorously defined as one that is modeled using a constitutive equation satisfying the following two criteria:[10]
+Finite elasticity
+Cauchy elastic materials
+Hypoelastic materials
+1. The Cauchy stress at time depends only on the order in which the body has occupied its past configurations, but not on the time rate at which these past configurations were traversed. As a special case, this criterion includes a Cauchy elastic material, for which the current stress depends only on the current configuration rather than the history of past configurations.
+2. There is a tensor-valued function such that in which is the material rate of the Cauchy stress tensor, and is the spatial velocity gradient tensor.
+If only these two original criteria are used to define hypoelasticity, then hyperelasticity would be included as a special case, which prompts some constitutive modelers to append a third criterion that specifically requires a hypoelastic model to not be hyperelastic (i.e., hypoelasticity implies that stress is not derivable from an energy potential). If this third criterion is adopted, it follows that a hypoelastic material might admit nonconservative adiabatic loading paths that start and end with the same deformation gradient but do not start and end at the same internal energy.
+Note that the second criterion requires only that the function exists. As detailed in the main hypoelastic material article, specific formulations of hypoelastic models typically employ so-called objective rates so that the function exists only implicitly and is typically needed explicitly only for numerical stress updates performed via direct integration of the actual (not objective) stress rate.
+Hyperelastic materials (also called Green elastic materials) are conservative models that are derived from a strain energy density function (W). A model is hyperelastic if and only if it is possible to express the
+Cauchy stress tensor as a function of the deformation gradient via a relationship of the form
+This formulation takes the energy potential (W) as a function of the deformation gradient (
+). By also requiring satisfaction of material objectivity, the energy potential may be alternatively regarded as a function of the Cauchy-Green deformation tensor (
+), in which case the hyperelastic model may be written alternatively as
+Linear elasticity is used widely in the design and analysis of structures such as beams, plates and shells, and sandwich composites. This theory is also the basis of much of fracture mechanics.
+Hyperelasticity is primarily used to determine the response of elastomer-based objects such as gaskets and of biological materials such as soft tissues and cell membranes.
+Hyperelastic materials
+Applications
+In a given isotropic solid, with known theoretical elasticity for the bulk material in terms of Young's modulus, the effective elasticity will be governed by porosity. Generally a more porous material will exhibit lower stiffness. More specifically, the fraction of pores, their distribution at different sizes and the nature of the fluid with which they are filled give rise to different elastic behaviours in solids.[11]
+For isotropic materials containing cracks, the presence of fractures affects the Young and the shear moduli perpendicular to the planes of the cracks, which decrease (Young's modulus faster than the shear modulus) as the fracture density increases,[12] indicating that the presence of cracks makes bodies brittler.
+Microscopically, the stress–strain relationship of materials is in general governed by the Helmholtz free energy, a thermodynamic quantity. Molecules settle in the configuration which minimizes the free energy, subject to constraints derived from their structure, and, depending on whether the energy or the entropy term dominates the free energy, materials can broadly be classified as energy-elastic and entropy-elastic.
+As such, microscopic factors affecting the free energy, such as the equilibrium distance between molecules, can affect the elasticity of materials: for instance, in inorganic materials, as the equilibrium distance between molecules at 0 K increases, the bulk modulus decreases.[13] The effect of temperature on elasticity is difficult to isolate, because there are numerous factors affecting it. For instance, the bulk modulus of a material is dependent on the form of its lattice, its behavior under expansion, as well as the vibrations of the molecules, all of which are dependent on temperature.[14]
+Elasticity tensor
+Elastography
+Tactile imaging
+Elastic modulus
+Linear elasticity
+Pseudoelasticity
+Resilience
+Rubber elasticity
+Stiffness
+Ductility
+Physical crystallography before X-rays a. Descriptions of material behavior should be independent of the geometry and shape of the object made of the material under consideration. The original version of Hooke's law involves a stiffness constant that depends on the initial size and shape of the object. The stiffness constant is therefore not strictly a material property.
+1. Phani, K. K.; Sanyal, Dipayan (25 August 2008). "The relations between the shear modulus, the bulk modulus and Young's modulus for porous isotropic ceramic materials". Materials
+Science and Engineering: A. 490 (1–2). Elsevier: 305–312. doi:10.1016/j.msea.2008.01.030
+(https://doi.org/10.1016%2Fj.msea.2008.01.030).
+2. Landau, L. D.; Lipshitz, E. M. (1970). Theory of Elasticity (3rd ed.). pp. 1–172.
+Factors affecting elasticity
+See also
+Notes
+References
+3. Treloar, L. R. G. (1975). The Physics of Rubber Elasticity. Oxford: Clarendon Press.
+ISBN 978-0-1985-1355-1.
+4. Westerhof, N.; Stergiopulos, N.; Noble, M. I. M.; Westerhof, B. E. (2019). "Elasticity".
+Snapshots of Hemodynamics. Springer, Cham. doi:10.1007/978-3-319-91932-4_10 (https:// doi.org/10.1007%2F978-3-319-91932-4_10). ISBN 978-3-319-91931-7.
+5. Sadd, Martin H. (2005). Elasticity: Theory, Applications, and Numerics. Oxford: Elsevier.
+ISBN 978-0-1237-4446-3.
+6. de With, Gijsbertus (2006). Structure, Deformation, and Integrity of Materials, Volume I:
+Fundamentals and Elasticity. Weinheim: Wiley VCH. p. 32. ISBN 978-3-527-31426-3.
+7. Atanackovic, Teodor M.; Guran, Ardéshir (2000). "Hooke's law". Theory of elasticity for scientists and engineers. Boston, Mass.: Birkhäuser. ISBN 978-0-8176-4072-9.
+8. "Strength and Design" (https://web.archive.org/web/20101113210736/http://www.lindahall.or g/events_exhib/exhibit/exhibits/civil/design.shtml). Centuries of Civil Engineering: A Rare
+Book Exhibition Celebrating the Heritage of Civil Engineering. Linda Hall Library of Science,
+Engineering & Technology. Archived from the original (http://www.lindahall.org/events_exhib/ exhibit/exhibits/civil/design.shtml) on 13 November 2010.
+9. Ibrahimbegovic, Adnan (2 June 2009). Nonlinear Solid Mechanics: Theoretical Formulations and Finite Element Solution Methods (https://books.google.com/books?id=z8oI0hCMt40C&d q=%22hooke%27&pg=PA20). Springer Science & Business Media. pp. 20–26. ISBN 978-
+90-481-2330-8. Archived (https://web.archive.org/web/20240528030534/https://books.googl e.com/books?id=z8oI0hCMt40C&dq=%22hooke%27&pg=PA20#v=onepage&q=%22hook e'&f=false) from the original on 28 May 2024. Retrieved 9 July 2023.
+10. Truesdell, Clifford; Noll, Walter (2004). The Non-linear Field Theories of Mechanics
+(3rd ed.). Berlin Heidelberg New York: Springer-Verlag. p. 401. ISBN 978-3-540-02779-9.
+11. Liu, Mingchao; Wu, Jian; Gan, Yixiang; Hanaor, Dorian AH; Chen, C.Q. (1 May 2019).
+"Multiscale modeling of the effective elastic properties of fluid-filled porous materials" (http s://unsworks.unsw.edu.au/bitstreams/1dd2eacb-33d5-41d6-9ff2-401e255cee3a/download).
+International Journal of Solids and Structures. 162: 36–44. doi:10.1016/j.ijsolstr.2018.11.028
+(https://doi.org/10.1016%2Fj.ijsolstr.2018.11.028). hdl:1959.4/unsworks_62323 (https://hdl.h andle.net/1959.4%2Funsworks_62323).
+12. Sadd, Martin H. (2005). Elasticity: Theory, Applications, and Numerics. Oxford: Elsevier.
+ISBN 978-0-1237-4446-3.
+13. Sadd, Martin H. (2005). Elasticity: Theory, Applications, and Numerics. Oxford: Elsevier.
+ISBN 978-0-1237-4446-3.
+14. Sadd, Martin H. (2005). Elasticity: Theory, Applications, and Numerics. Oxford: Elsevier.
+ISBN 978-0-1237-4446-3.
+The Feynman Lectures on Physics Vol. II Ch. 38: Elasticity (https://feynmanlectures.caltech.
+edu/II_38.html)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Elasticity_(physics)&oldid=1341570879"
+External links

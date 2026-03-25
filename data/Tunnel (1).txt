@@ -1,0 +1,697 @@
+Tunnel in Col du Galibier, France
+Tunnel in Fort de Mutzig, France
+Decorated portal to a road tunnel in
+Guanajuato, Mexico
+Tunnel
+A tunnel is an underground or undersea passageway. It is dug through surrounding soil, earth or rock, or laid under water, and is usually completely enclosed except for the two portals common at each end, though there may be access and ventilation openings at various points along the length. A pipeline differs significantly from a tunnel,[1] though some recent tunnels have used immersed tube construction techniques rather than traditional tunnel boring methods.[2]
+A tunnel may be for foot or vehicular road traffic, for rail traffic, or for a canal. The central portions of a rapid transit network are usually in the tunnel. Some tunnels are used as sewers or aqueducts to supply water for consumption or for hydroelectric stations. Utility tunnels are used for routing steam, chilled water, electrical power or telecommunication cables, as well as connecting buildings for convenient passage of people and equipment.[3]
+Secret tunnels are built for military purposes, or by civilians for smuggling of weapons, contraband, or people.[4] Special tunnels, such as wildlife crossings, are built to allow wildlife to cross human-made barriers safely.[5] Tunnels can be connected together in tunnel networks.
+A tunnel is relatively long and narrow; the length is often much greater than twice the diameter, although similar shorter excavations can be constructed, such as cross passages between tunnels. The definition of what constitutes a tunnel can vary widely from source to source. For example, in the
+United Kingdom, a road tunnel is defined as "a subsurface highway structure enclosed for a length of 150 metres (490 ft) or more."[6] In the United States, the NFPA definition of a tunnel is "An underground structure with a design length greater than 23 m (75 ft) and a diameter greater than 1,800 millimetres (5.9 ft)."[7]
+Utility tunnel for heating pipes between
+Rigshospitalet and Amagerværket in
+Copenhagen, Denmark
+Tunnel on the Taipei Metro in Taiwan
+Southern portal of the 421 m-long
+(1,381 ft) Chirk canal tunnel, Wales
+The word "tunnel" comes from the Middle English tonnelle, meaning "a net", derived from Old French tonnel, a diminutive of tonne ("cask"). The modern meaning, referring to an underground passageway, evolved in the 16th century as a metaphor for a narrow, confined space like the inside of a cask.[8][9][10]
+It's likely that the first tunneling was done by prehistoric people seeking to enlarge their caves.[2]
+It is believed that the first artificial tunnel was constructed in
+Babylon, in about 2200 B.C. This was built to join the temple of Belos with the palace with the aid of the cut and cover technique.[11]
+Some of the earliest tunnels used by humans were paleoburrows excavated by prehistoric mammals.[12]
+Much of the early technology of tunnelling evolved from mining and military engineering. The etymology of the terms
+"mining" (for mineral extraction or for siege attacks),
+"military engineering", and "civil engineering" reveals these deep historic connections.
+Predecessors of modern tunnels were adits that transported water for irrigation, drinking, or sewerage. The first qanats are known from before 2000 BC.
+The earliest tunnel known to have been excavated from both ends is the Siloam Tunnel, built in Jerusalem by the kings of
+Judah around the 8th century BC.[13] Another tunnel excavated from both ends, maybe the second known, is the Tunnel of Eupalinos, which is a tunnel aqueduct 1,036 m (3,400 ft) long running through Mount
+Kastro in Samos, Greece. It was built in the 6th century BC to serve as an aqueduct.
+In Pakistan, the mughal era tunnel has been restored in the Lahore.[14][15]
+In Ethiopia, the Siqurto foot tunnel, hand-hewn in the Middle Ages, crosses a mountain ridge.
+In the Gaza Strip, the network of tunnels was used by Jewish strategists as rock-cut shelters, in first links to Judean resistance against Roman rule in the Bar Kokhba revolt during the 2nd century AD.
+Etymology
+History
+Antiquity and early middle ages
+Victory Tunnel in Shimla, India was opened on 08 May 1945 after the Allied victory in World War II
+Atal Tunnel in Himachal Pradesh, India was opened on 4 October 2020 which connects Manali and Keylang, bypassing
+Rohtang Pass in high Himalayan terrain
+Salang Tunnel in Afghanistan
+A major tunnel project must start with a comprehensive investigation of ground conditions by collecting samples from boreholes and by other geophysical techniques.[16] An informed choice can then be made of machinery and methods for excavation and ground support, which will reduce the risk of encountering unforeseen ground conditions. In planning the route, the horizontal and vertical alignments can be selected to make use of the best ground and water conditions.
+It is common practice to locate a tunnel deeper than otherwise would be required, in order to excavate through solid rock or other material that is easier to support during construction.
+Conventional desk and preliminary site studies may yield insufficient information to assess such factors as the blocky nature of rocks, the exact location of fault zones, or the stand- up times of softer ground. This may be a particular concern in large-diameter tunnels. To give more information, a pilot tunnel (or "drift tunnel") may be driven ahead of the main excavation. This smaller tunnel is less likely to collapse catastrophically should unexpected conditions be met, and it can be incorporated into the final tunnel or used as a backup or emergency escape passage. Alternatively, horizontal boreholes may sometimes be drilled ahead of the advancing tunnel face.
+Other key geotechnical factors:
+Stand-up time is the amount of time a newly excavated cavity can support itself without any added structures. Knowing this parameter allows the engineers to determine how far an excavation can proceed before support is needed, which in turn affects the speed, efficiency, and cost of construction. Generally, certain configurations of rock and clay will have the greatest stand-up time, while sand and fine soils will have a much lower stand-up time.[17]
+Groundwater control is very important in tunnel construction. Water leaking into a tunnel or vertical shaft will greatly decrease stand-up time, causing the excavation to become unstable and risking collapse. The most common way to control groundwater is to install dewatering pipes into the ground and to simply pump the water out.[18] A very effective but expensive technology is ground freezing, using pipes which are inserted into the ground surrounding the excavation, which are then cooled with special refrigerant fluids. This freezes the ground around each
+Geotechnical investigation and design
+Joralemon Street Tunnel on 1913 postcard, part of the New York City
+Subway system
+Claremont Way Tunnel in Chatham, Kent,
+England
+The Harbor Tunnel in Baltimore, USA, which carries I-895, serves as an example of a water-crossing tunnel built instead of a bridge.
+pipe until the whole space is surrounded with frozen soil, keeping water out until a permanent structure can be built.
+Tunnel cross-sectional shape is also very important in determining stand-up time. If a tunnel excavation is wider than it is high, it will have a harder time supporting itself, decreasing its stand-up time. A square or rectangular excavation is more difficult to make self-supporting, because of a concentration of stress at the corners.[19]
+For water crossings, a tunnel is generally more costly to construct than a bridge.[20] However, both navigational and traffic considerations may limit the use of high bridges or drawbridges intersecting with shipping channels, necessitating a tunnel.
+Bridges usually require a larger footprint on each shore than tunnels. In areas with expensive real estate, such as
+Manhattan and urban Hong Kong, this is a strong factor in favor of a tunnel. Boston's Big Dig project replaced elevated roadways with a tunnel system to increase traffic capacity, hide traffic, reclaim land, redecorate, and reunite the city with the waterfront.[21]
+The 1934 Queensway Tunnel under the River Mersey at
+Liverpool was chosen over a massively high bridge partly for defence reasons; it was feared that aircraft could destroy a bridge in times of war, not merely impairing road traffic but blocking the river to navigation.[22] Maintenance costs of a massive bridge to allow the world's largest ships to navigate under were considered higher than for a tunnel. Similar conclusions were reached for the 1971 Kingsway Tunnel under the Mersey. In Hampton Roads, Virginia, tunnels were chosen over bridges for strategic considerations; in the event of damage, bridges might prevent US Navy vessels from leaving Naval Station Norfolk.
+Water-crossing tunnels built instead of bridges include the Seikan Tunnel in Japan; the Holland Tunnel and Lincoln Tunnel between New Jersey and Manhattan in New York City; the Queens-Midtown Tunnel between Manhattan and the borough of Queens on Long Island; the Detroit-Windsor Tunnel between
+Michigan and Ontario; and the Elizabeth River tunnels between Norfolk and Portsmouth, Virginia; the
+1934 River Mersey road Queensway Tunnel; the Western Scheldt Tunnel, Zeeland, Netherlands; and the
+North Shore Connector tunnel in Pittsburgh, Pennsylvania. The Sydney Harbour Tunnel was constructed to provide a second harbour crossing and to alleviate traffic congestion on the Sydney Harbour Bridge, without spoiling the iconic view.
+Choice of tunnels versus bridges
+Other reasons for choosing a tunnel instead of a bridge include avoiding difficulties with tides, weather, and shipping during construction (as in the 51.5-kilometre or 32.0-mile Channel Tunnel), aesthetic reasons (preserving the above-ground view, landscape, and scenery), and also for weight capacity reasons
+(it may be more feasible to build a tunnel than a sufficiently strong bridge).
+Some water crossings are a mixture of bridges and tunnels, such as the Denmark to Sweden link and the
+Chesapeake Bay Bridge-Tunnel in Virginia.
+There are particular hazards with tunnels, especially from vehicle fires when combustion gases can asphyxiate users, as happened at the Gotthard Road Tunnel in Switzerland in 2001. One of the worst railway disasters ever, the Balvano train disaster, was caused by a train stalling in the Armi tunnel in Italy in 1944, killing 426 passengers. Designers try to reduce these risks by installing emergency ventilation systems or isolated emergency escape tunnels parallel to the main passage.
+Government funds are often required for the creation of tunnels.[23] When a tunnel is being planned or constructed, economics and politics play a large factor in the decision making process. Civil engineers usually use project management techniques for developing a major structure. Understanding the amount of time the project requires, and the amount of labor and materials needed is a crucial part of project planning. The project duration must be identified using a work breakdown structure and critical path method. Also, the land needed for excavation and construction staging, and the proper machinery must be selected. Large infrastructure projects require millions or even billions of dollars, involving long-term financing, usually through issuance of bonds.
+The costs and benefits for an infrastructure such as a tunnel must be identified. Political disputes can occur, as in 2005 when the US House of Representatives approved a $100 million federal grant to build a tunnel under New York Harbor. However, the Port Authority of New York and New Jersey was not aware of this bill and had not asked for a grant for such a project.[24] Increased taxes to finance a large project may cause opposition.[25]
+Tunnels are dug in types of materials varying from soft clay to hard rock. The method of tunnel construction depends on such factors as the ground conditions, the groundwater conditions, the length and diameter of the tunnel drive, the depth of the tunnel, the logistics of supporting the tunnel excavation, the final use and the shape of the tunnel and appropriate risk management.
+There are three basic types of tunnel construction in common use. Cut-and-cover tunnels are constructed in a shallow trench and then covered over. Bored tunnels are constructed in situ, without removing the ground above. Finally, a tube can be sunk into a body of water, which is called an immersed tunnel.
+Cut-and-cover is a simple method of construction for shallow tunnels where a trench is excavated and roofed over with an overhead support system strong enough to carry the load of what is to be built above the tunnel.[26]
+Project planning and cost estimates
+Construction
+Cut-and-cover
+Cut-and-cover construction at Saint-
+Michel on Paris Métro Line 4 (c. 1910)
+There are two basic forms of cut-and-cover tunnelling:
+Bottom-up method: A trench is excavated, with ground support as necessary, and the tunnel is constructed in it. The tunnel may be of in situ concrete, precast concrete, precast arches, or corrugated steel arches; in early days brickwork was used. The trench is then carefully back-filled and the surface is reinstated.
+Top-down method: Side support walls and capping beams are constructed from ground level by such methods as slurry walling or contiguous bored piling.
+Only a shallow excavation is needed to construct the tunnel roof using precast beams or in situ concrete sitting on the walls. The surface is then reinstated except for access openings. This allows early reinstatement of roadways, services, and other surface features. Excavation then takes place under the permanent tunnel roof, and the base slab is constructed.
+Shallow tunnels are often of the cut-and-cover type (if under water, of the immersed-tube type), while deep tunnels are excavated, often using a tunnelling shield. For intermediate levels, both methods are possible.
+Large cut-and-cover boxes are often used for underground metro stations, such as Canary Wharf tube station in London. This construction form generally has two levels, which allows economical arrangements for ticket hall, station platforms, passenger access and emergency egress, ventilation and smoke control, staff rooms, and equipment rooms. The interior of Canary Wharf station has been likened to an underground cathedral, owing to the sheer size of the excavation. This contrasts with many traditional stations on London Underground, where bored tunnels were used for stations and passenger access. Nevertheless, the original parts of the London Underground network, the Metropolitan and
+District Railways, were constructed using cut-and-cover. These lines pre-dated electric traction and the proximity to the surface was useful to ventilate the inevitable smoke and steam.
+A major disadvantage of cut-and-cover is the widespread disruption generated at the surface level during construction.[27] This, and the availability of electric traction, brought about London Underground's switch to bored tunnels at a deeper level towards the end of the 19th century.
+Prior to the replacement of manual excavation by the use of boring machines, Victorian tunnel excavators developed a specialized method called clay-kicking for digging tunnels in clay-based soils. The clay- kicker lies on a plank at a 45-degree angle away from the working face and rather than a mattock with his hands, inserts with his feet a tool with a cup-like rounded end, then turns the tool with his hands to extract a section of soil, which is then placed on the waste extract. Clay-kicking is a specialized method developed in the United Kingdom of digging tunnels in strong clay-based soil structures. This method of cut and cover construction required relatively little disturbance of property during the renewal of the
+United Kingdom's then ancient sewerage systems. It was also used during the First World War by Royal
+Engineer tunnelling companies placing mines beneath German lines, because it was almost silent and so not susceptible to listening methods of detection.[28]
+A workman is dwarfed by the cutting end of a tunnel boring machine used to excavate the Gotthard Base Tunnel
+(Switzerland), the world's longest railway tunnel.
+Tunnel boring machines (TBMs) and associated back-up systems are used to highly automate the entire tunnelling process, reducing tunnelling costs. In certain predominantly urban applications, tunnel boring is viewed as a quick and cost-effective alternative to laying surface rails and roads.
+Expensive compulsory purchase of buildings and land, with potentially lengthy planning inquiries, is eliminated.
+Disadvantages of TBMs arise from their usually large size – the difficulty of transporting the large TBM to the site of tunnel construction, or (alternatively) the high cost of assembling the TBM on-site, often within the confines of the tunnel being constructed.
+There are a variety of TBM designs that can operate in a variety of conditions, from hard rock to soft water-bearing ground. Some TBMs, the bentonite slurry and earth-pressure balance types, have pressurized compartments at the front end, allowing them to be used in difficult conditions below the water table. This pressurizes the ground ahead of the TBM cutter head to balance the water pressure. The operators work in normal air pressure behind the pressurized compartment, but may occasionally have to enter that compartment to renew or repair the cutters. This requires special precautions, such as local ground treatment or halting the TBM at a position free from water. Despite these difficulties, TBMs are now preferred over the older method of tunnelling in compressed air, with an airlock/decompression chamber some way back from the TBM, which required operators to work in high pressure and go through decompression procedures at the end of their shifts, much like deep-sea divers.
+In February 2010, Aker Wirth delivered a TBM to Switzerland, for the expansion of the Linth–Limmern
+Power Stations located south of Linthal in the canton of Glarus. The borehole has a diameter of 8.03 metres (26  ft 4  in).[29] The four TBMs used for excavating the 57-kilometre (35  mi) Gotthard Base
+Tunnel, in Switzerland, had a diameter of about 8.8–9.6 metres (29–31 ft). A larger TBM was built to bore the Green Heart Tunnel (Dutch: Tunnel Groene Hart) as part of the HSL-Zuid in the Netherlands, with a diameter of 14.87 metres (48.8 ft).[30] This in turn was superseded by the Madrid M30 ringroad,
+Spain, and the Chong Ming tunnels in Shanghai, China. All of these machines were built at least partly by
+Herrenknecht. As of August  2013, the world's largest TBM was "Big Bertha", a 17.5-metre (57.5  ft) diameter machine built by Hitachi Zosen Corporation, which dug the Alaskan Way Viaduct replacement tunnel in Seattle, Washington (US).[31]
+A temporary access shaft is sometimes necessary during the excavation of a tunnel. They are usually circular and go straight down until they reach the level at which the tunnel is going to be built. A shaft normally has concrete walls and is usually built to be permanent. Once the access shafts are complete,
+TBMs are lowered to the bottom and excavation can start. Shafts are the main entrance in and out of the tunnel until the project is completed. If a tunnel is going to be long, multiple shafts at various locations may be bored so that entrance to the tunnel is closer to the unexcavated area.[19]
+Boring machines
+Shafts
+1886 illustration showing the ventilation and drainage system of the Mersey railway tunnel
+Illowra Battery utility tunnel, Port Kembla.
+One of many bunkers south of Sydney.
+Once construction is complete, construction access shafts are often used as ventilation shafts, and may also be used as emergency exits.
+The new Austrian tunnelling method (NATM)—also referred to as the Sequential Excavation Method (SEM)[32]—was developed in the 1960s. The main idea of this method is to use the geological stress of the surrounding rock mass to stabilize the tunnel, by allowing a measured relaxation and stress reassignment into the surrounding rock to prevent full loads becoming imposed on the supports. Based on geotechnical measurements, an optimal cross section is computed. The excavation is protected by a layer of sprayed concrete, commonly referred to as shotcrete. Other support measures can include steel arches, rock bolts, and mesh.
+Technological developments in sprayed concrete technology have resulted in steel and polypropylene fibers being added to the concrete mix to improve lining strength. This creates a natural load-bearing ring, which minimizes the rock's deformation.[32]
+By special monitoring the NATM method is flexible, even at surprising changes of the geomechanical rock consistency during the tunneling work. The measured rock properties lead to appropriate tools for tunnel strengthening.[32]
+In pipe jacking, hydraulic jacks are used to push specially made pipes through the ground behind a TBM or shield. This method is commonly used to create tunnels under existing structures, such as roads or railways. Tunnels constructed by pipe jacking are normally small diameter bores with a maximum size of around 3.2 metres (10 ft).
+Box jacking is similar to pipe jacking, but instead of jacking tubes, a box-shaped tunnel is used. Jacked boxes can be a much larger span than a pipe jack, with the span of some box jacks in excess of 20 metres
+(66 ft). A cutting head is normally used at the front of the box being jacked, and spoil removal is normally by excavator from within the box. Recent developments of the Jacked Arch and Jacked deck have enabled longer and larger structures to be installed to close accuracy.
+There are also several approaches to underwater tunnels, the two most common being bored tunnels or immersed tubes, examples are Bjørvika Tunnel and Marmaray. Submerged floating tunnels are a novel approach under consideration; however, no such tunnels have been constructed to date.
+Sprayed concrete techniques
+Pipe jacking
+Box jacking
+Underwater tunnels
+Shark tunnel at the Georgia Aquarium
+A utility tunnel in Prague
+During construction of a tunnel it is often convenient to install a temporary railway, particularly to remove excavated spoil, often narrow gauge so that it can be double track to allow the operation of empty and loaded trains at the same time. The temporary way is replaced by the permanent way at completion, thus explaining the term "Perway".
+The vehicles or traffic using a tunnel can outgrow it, requiring replacement or enlargement:
+The original single line Gib Tunnel near Mittagong was replaced with a double-track tunnel, with the original tunnel used for growing mushrooms.[33][34]
+The 1832 double-track 1.6-kilometre (1 mi)-long tunnel from Edge Hill to Lime Street in Liverpool was near totally removed, apart from a 50-metre (55 yd) section at Edge Hill and a section nearer to Lime
+Street, as four tracks were required. The tunnel was dug out into a very deep four-track cutting, with short tunnels in places along the cutting. Train services were not interrupted as the work progressed.[35][36]
+There are other occurrences of tunnels being replaced by open cuts, for example, the
+Auburn Tunnel.
+The Farnworth Tunnel in England was enlarged using a tunnel boring machine (TBM) in
+2015.[37] The Rhyndaston Tunnel was enlarged using a borrowed TBM so as to be able to take ISO containers.
+Tunnels can also be enlarged by lowering the floor.[38]
+An open building pit consists of a horizontal and a vertical boundary that keeps groundwater and soil out of the pit. There are several potential alternatives and combinations for (horizontal and vertical) building pit boundaries. The most important difference with cut-and-cover is that the open building pit is muted after tunnel construction; no roof is placed.
+Drilling and blasting
+Hydraulic splitter
+Slurry-shield machine
+Wall-cover construction method.
+Temporary way
+Enlargement
+Open building pit
+Other construction methods
+Tunnel excavated with drilling and blasting method
+The upper-level traffic lanes through
+Yerba Buena Island, part of the San
+Francisco–Oakland Bay Bridge
+Some tunnels are double-deck, for example, the two major segments of the San Francisco–Oakland Bay Bridge
+(completed in 1936) are linked by a 160-metre (540  ft) double-deck tunnel section through Yerba Buena Island, the largest-diameter bored tunnel in the world.[39] At construction this was a combination bidirectional rail and truck pathway on the lower deck with automobiles above, now converted to one-way road vehicle traffic on each deck.
+In Turkey, the Eurasia Tunnel under the Bosphorus, opened in
+2016, has at its core a 5.4  km (3.4 miles) two-deck road tunnel with two lanes on each deck.[40]
+Additionally, in 2015 the Turkish government announced that it will build three-level tunnel, also under the Bosporus.[41]
+The tunnel is intended to carry both the Istanbul metro and a two-level highway, over a length of 6.5 km (4.0 miles).
+The French A86 Duplex Tunnel in west Paris consists of two bored tunnel tubes, the eastern one of which has two levels for light motorized vehicles, over a length of 10 km (6.2 miles). Although each level offers a physical height of 2.54 m (8.3 ft), only traffic up to 2 m (6.6 ft) tall is allowed in this tunnel tube, and motorcyclists are directed to the other tube. Each level was built with a three-lane roadway, but only two lanes per level are used – the third serves as a hard shoulder within the tunnel. The A86 Duplex is
+Europe's longest double-deck tunnel.
+In Shanghai, China, a 2.8 km (1.7 miles) two-tube double-deck tunnel was built starting in 2002. In each tube of the Fuxing Road Tunnel both decks are for motor vehicles. In each direction, only cars and taxis travel on the 2.6 m (8.5 ft) high two-lane upper deck, and heavier vehicles, like trucks and buses, as well as cars, may use the 4.0 m (13 ft) high single-lane lower level.[42]
+In the Netherlands, a 2.3 km (1.4 miles) two-storey, eight-lane, cut-and-cover road tunnel under the city of Maastricht was opened in 2016.[43] Each level accommodates a full height, two by two-lane highway.
+The two lower tubes of the tunnel carry the A2 motorway, which originates in Amsterdam, through the city; and the two upper tubes take the N2 regional highway for local traffic.[44]
+The Alaskan Way Viaduct replacement tunnel, is a $3.3 billion 2.83-kilometre (1.76 mi), double-decker bored highway tunnel under Downtown Seattle. Construction began in July 2013 using "Bertha", at the time the world's largest earth pressure balance tunnel boring machine, with a 17.5-metre (57.5  ft) cutterhead diameter. After several delays, tunnel boring was completed in April 2017, and the tunnel opened to traffic on 4 February 2019.
+Variant tunnel types
+Double-deck and multipurpose tunnels
+New York City's 63rd Street Tunnel under the East River, between the boroughs of Manhattan and
+Queens, was intended to carry subway trains on the upper level and Long Island Rail Road commuter trains on the lower level. Construction started in 1969,[45] and the two sides of the tunnel were bored through in 1972.[46] The upper level, used by the IND 63rd Street Line (F and ​M trains) of the New York
+City Subway, was not opened for passenger service until 1989.[47] The lower level, intended for commuter rail, saw passenger service after completion of the East Side Access project, in late 2022.[48]
+In the UK, the 1934 Queensway Tunnel under the River Mersey between Liverpool and Birkenhead was originally to have road vehicles running on the upper deck and trams on the lower. During construction the tram usage was cancelled. The lower section is only used for cables, pipes and emergency accident refuge enclosures.
+Hong Kong's Lion Rock Tunnel, built in the mid 1960s, connecting New Kowloon and Sha Tin, carries a motorway but also serves as an aqueduct, featuring a gallery containing five water mains lines with diameters between 1.2 and 1.5 m (4 and 5 ft) below the road section of the tunnel.[49]
+Wuhan's Yangtze River Highway and Railway Tunnel is a 2.59 km (1.61 mi) two-tube double-deck tunnel under the Yangtze River completed in 2018. Each tube carries three lanes of local traffic on the top deck with one track Wuhan Metro Line 7 on the lower deck.[50][51][52]
+Mount Baker Tunnel has three levels. The bottom level is to be used by Sound Transit light rail. The middle level is used by car traffic, and the top layer is for bicycle and pedestrian access.
+Some tunnels have more than one purpose. The SMART Tunnel in Malaysia is the first multipurpose
+"Stormwater Management And Road Tunnel" in the world, created to convey both traffic and occasional flood waters in Kuala Lumpur. When necessary, floodwater is first diverted into a separate bypass tunnel located underneath the 4.0 km (2.5 miles) double-deck roadway tunnel. In this scenario, traffic continues normally. Only during heavy, prolonged rains when the threat of extreme flooding is high, the upper tunnel tube is closed off to vehicles and automated flood control gates are opened so that water can be diverted through both tunnels.[53]
+Over-bridges can sometimes be built by covering a road or river or railway with brick or steel arches, and then levelling the surface with earth. In railway parlance, a surface-level track which has been built or covered over is normally called a "covered way".
+Snow sheds are a kind of artificial tunnel built to protect a railway from avalanches of snow. Similarly the
+Stanwell Park, New South Wales "steel tunnel", on the Illawarra railway line, protects the line from rockfalls.
+An underpass is a road or railway or other passageway passing under another road or railway, under an overpass. This is not strictly a tunnel.
+Covered passageways
+Underpass
+The 19th-century Dark Gate in
+Esztergom, Hungary
+Underpass for cattle created in 1914 construction of what is now Historic
+Columbia River Highway
+The entrance to the Pont de l'Alma tunnel, the site where the car carrying
+Diana, Princess of Wales, hit a Fiat and then the wall. There was no proper barrier and this contributed to her death.
+A Utility Tunnel is built for the purpose of carrying one or more utilities in the same space, for this reason they are also referred to as
+Multi-Utility Tunnels or MUTs. Through co-location of different utilities in one tunnel, organizations are able to reduce the financial and environmental costs of building and maintaining utilities.[54] These tunnels can be used for many types of utilities, routing steam, chilled water, electrical power or telecommunication cables, as well as connecting buildings for convenient passage of people and equipment.[3]
+Owing to the enclosed space of a tunnel, fires can have very serious effects on users.
+The main dangers are gas and smoke production, with even low concentrations of carbon monoxide being highly toxic. Fires killed
+11 people in the
+Gotthard tunnel fire of 2001 for example, all of the victims succumbing to smoke and gas inhalation. Over 400 passengers died in the Balvano train disaster in Italy in 1944, when the locomotive halted in a long tunnel. Carbon monoxide poisoning was the main cause of death. In the Caldecott Tunnel fire of 1982, the majority of fatalities were caused by toxic smoke, rather than by the initial crash. Likewise 84 people were killed in the Paris Métro train fire of 1904.
+Motor vehicle tunnels usually require ventilation shafts and powered fans to remove toxic exhaust gases during routine operation.[55]
+Rail tunnels usually require fewer air changes per hour, but still may require forced-air ventilation. Both types of tunnels often have provisions to increase ventilation under emergency conditions, such as a fire.
+Although there is a risk of increasing the rate of combustion through increased airflow, the primary focus is on providing breathable air to persons trapped in the tunnel, as well as firefighters.
+The aerodynamic pressure wave produced by high speed trains entering a tunnel[56] reflect at its open ends and change sign (compression wavefront changes to rarefaction wavefront and vice versa). When two wavefronts of the same sign meet the train, significant and rapid air pressure[57] may cause ear
+Utility Tunnel
+Safety and security discomfort[58] for passengers and crew. When a high-speed train exits a tunnel, a loud "Tunnel boom" may occur, which can disturb residents near the mouth of the tunnel, and it is exacerbated in mountain valleys where the sound can echo.
+When there is a parallel, separate tunnel available, airtight but unlocked emergency doors are usually provided which allow trapped personnel to escape from a smoke-filled tunnel to the parallel tube.[59]
+Larger, heavily used tunnels, such as the Big Dig tunnel in Boston, Massachusetts, may have a dedicated
+24-hour staffed operations center which monitors and reports on traffic conditions, and responds to emergencies.[60] Video surveillance equipment is often used, and real-time pictures of traffic conditions for some highways may be viewable by the general public via the Internet.
+A database of seismic damage to underground structures using 217 case histories shows the following general observations can be made regarding the seismic performance of underground structures:
+Underground structures suffer appreciably less damage than surface structures.
+Reported damage decreases with increasing over burden depth. Deep tunnels seem to be safer and less vulnerable to earthquake shaking than are shallow tunnels.
+Underground facilities constructed in soils can be expected to suffer more damage compared to openings constructed in competent rock.
+Lined and grouted tunnels are safer than unlined tunnels in rock. Shaking damage can be reduced by stabilizing the ground around the tunnel and by improving the contact between the lining and the surrounding ground through grouting.
+Tunnels are more stable under a symmetric load, which improves ground-lining interaction.
+Improving the tunnel lining by placing thicker and stiffer sections without stabilizing surrounding poor ground may result in excess seismic forces in the lining. Backfilling with non-cyclically mobile material and rock-stabilizing measures may improve the safety and stability of shallow tunnels.
+Damage may be related to peak ground acceleration and velocity based on the magnitude and epicentral distance of the affected earthquake.
+Duration of strong-motion shaking during earthquakes is of utmost importance because it may cause fatigue failure and therefore, large deformations.
+High frequency motions may explain the local spalling of rock or concrete along planes of weakness. These frequencies, which rapidly attenuate with distance, may be expected mainly at small distances from the causative fault.
+Ground motion may be amplified upon incidence with a tunnel if wavelengths are between one and four times the tunnel diameter.
+Damage at and near tunnel portals may be significant due to slope instability.[61]
+Earthquakes are one of nature's most formidable threats. A magnitude 6.7 earthquake shook the San
+Fernando valley in Los Angeles in 1994. The earthquake caused extensive damage to various structures, including buildings, freeway overpasses and road systems throughout the area. The National Center for
+Environmental Information estimates total damages to be 40 billion dollars.[62] According to an article issued by Steve Hymon of TheSource – Transportation News and Views, there was no serious damage sustained by the LA subway system. Metro, the owner of the LA subway system, issued a statement through their engineering staff about the design and consideration that goes into a tunnel system.
+Engineers and architects perform extensive analysis as to how hard they expect earthquakes to hit that area. All of this goes into the overall design and flexibility of the tunnel.
+Southern portal of the 1791 Dudley Canal tunnel in England
+Thomas Talbot Bury's watercolour of the
+Liverpool Edge Hill tunnel portals
+This same trend of limited subway damage following an earthquake can be seen in many other places. In
+1985 a magnitude 8.1 earthquake shook Mexico City; there was no damage to the subway system, and in fact the subway systems served as a lifeline for emergency personnel and evacuations. A magnitude 7.2 ripped through Kobe Japan in 1995, leaving no damage to the tunnels themselves. Entry portals sustained minor damages, however these damages were attributed to inadequate earthquake design that originated from the original construction date of 1965. In 2010 a magnitude 8.8, massive by any scale, afflicted
+Chile. Entrance stations to subway systems suffered minor damages, and the subway system was down for the rest of the day. By the next afternoon, the subway system was operational again.[63]
+The history of ancient tunnels and tunneling in the world is reviewed in various sources which include many examples of these structures that were built for different purposes.[64][65]
+Some well known ancient and modern tunnels are briefly introduced below:
+The qanat or kareez of Persia are water management systems used to provide a reliable supply of water to human settlements or for irrigation in hot, arid and semi-arid climates. The deepest known qanat is in the Iranian city of Gonabad, which after 2700 years, still provides drinking and agricultural water to nearly 40,000 people. Its main well depth is more than 360 m (1,180 ft), and its length is 45 km (28 mi).[66]
+The Siloam Tunnel was built before 701 BC for a reliable supply of water, to withstand siege attacks.
+The Eupalinian aqueduct on the island of Samos
+(North Aegean, Greece) was built in 520 BC by the ancient Greek engineer Eupalinos of Megara under a contract with the local community. Eupalinos organised the work so that the tunnel was begun from both sides of Mount Kastro. The two teams advanced simultaneously and met in the middle with excellent accuracy, something that was extremely difficult in that time. The aqueduct was of utmost defensive importance, since it ran underground, and it was not easily found by an enemy who could otherwise cut off the water supply to Pythagoreion, the ancient capital of Samos. The tunnel's existence was recorded by Herodotus (as was the mole and harbour, and the third wonder of the island, the great temple to Hera, thought by many to be the largest in the
+Greek world). The precise location of the tunnel was only re-established in the 19th century by German archaeologists. The tunnel proper is 1,030 m long (3,380 ft) and visitors can still enter it.
+One of the first known drainage and sewage networks in form of tunnels was constructed at
+Persepolis in Iran at the same time as the construction of its foundation in 518 BC. In most
+Examples
+In history
+A short section remains of the 1832 Edge
+Hill to Lime Street tunnel in Liverpool.
+This and a short section of the original tunnel nearer to Lime Street are the oldest rail tunnels in the world still in active use.
+Liverpool Lime Street Approach. The original two-track tunnel was removed to create a deep cutting. Some of the road bridges seen across the cutting are solid rock and in effect are a series of short tunnels.
+places the network was dug in the sound rock of the mountain and then covered by large pieces of rock and stone followed by earth and piles of rubble to level the ground. During investigations and surveys, long sections of similar rock tunnels extending beneath the palace area were traced by Herzfeld and later by Schmidt and their archaeological teams.[67]
+The Via Flaminia, an important Roman road, penetrated the Furlo pass in the Apennines through a tunnel which emperor Vespasian had ordered built in 76–77 AD. A modern road, the SS 3 Flaminia, still uses this tunnel, which had a precursor dating back to the 3rd century BC, remnants of this earlier tunnel
+(one of the first road tunnels) are also still visible.
+The world's oldest tunnel traversing under a water body is claimed[68] to be the Terelek kaya tüneli under Kızıl River, a little south of the towns of
+Boyabat and Durağan in Turkey, just downstream from where Kizil River joins its tributary Gökırmak.
+The tunnel is presently under a narrow part of a lake formed by a dam some kilometres further downstream. Estimated to have been built more than 2,000 years ago, possibly by the same civilization that also built the royal tombs in a rock face nearby, it is assumed to have had a defensive purpose.
+Sapperton Canal Tunnel on the Thames and Severn
+Canal in England, dug through hills, which opened in
+1789, was 3.5 km (2.2 mi) long and allowed boat transport of coal and other goods. Above it the
+Sapperton Long Tunnel was constructed which carries the "Golden Valley" railway line between
+Swindon and Gloucester.
+The 1791 Dudley canal tunnel is on the Dudley
+Canal, in Dudley, England. The tunnel is 2.9 kilometres (1.83 mi) long. Closed in 1962 the tunnel was reopened in 1973. The series of tunnels was extended in 1984 and 1989.[69]
+Fritchley Tunnel, constructed in 1793 in Derbyshire by the Butterley Company to transport limestone to its ironworks factory. The Butterley company engineered and built its own railway. A victim of the depression the company closed after 219 years in 2009. The tunnel is the world's oldest railway tunnel traversed by rail wagons. Gravity and horse haulage was utilised. The railway was converted to steam locomotion in 1813 using a Steam Horse locomotive engineered and built by the Butterley company, however reverted to horses.
+Steam trains used the tunnel continuously from the 1840s when the railway was converted to a narrow gauge. The line closed in 1933. In the Second World War, the tunnel was used as an air raid shelter. Sealed up in 1977 it was rediscovered in 2013 and inspected. The tunnel was resealed to preserved the construction as it was designated an ancient monument.[70][71]
+The 1794 Butterley canal tunnel canal tunnel is 2,819 m (1.8 mi) in length on the Cromford
+Canal in Ripley, Derbyshire, England. The tunnel was built simultaneously with the 1793
+Fritchley railway tunnel. The tunnel partially collapsed in 1900 splitting the Cromford Canal,
+The three eastern portals of Liverpool
+Edge Hill tunnels, built into a hand-dug deep cutting. The left tunnel with tracks is the short 1846 second Crown Street
+Tunnel, still used for shunting. In the center, partially hidden by undergrowth, is the disused 2.03 km (1.26 mi) 1829
+Wapping Tunnel. On the right, hidden by undergrowth, is the disused original short
+1829 Crown Street Tunnel.
+The 1,659-foot (506 m) Donner Pass
+Summit Tunnel (#6) was in service from
+1868 to 1993.
+and has not been used since. The Friends of
+Cromford Canal, a group of volunteers, are working at fully restoring the Cromford Canal and the
+Butterley Tunnel.[72]
+The 1796 Stoddart Tunnel in Chapel-en-le-Frith in
+Derbyshire is reputed to be the oldest rail tunnel in the world. The rail wagons were originally horse- drawn.
+Derby Tunnels in Salem, Massachusetts, were built in 1801 to smuggle imports affected by President
+Thomas Jefferson's new customs duties. Jefferson had ordered local militias to help the Custom House in each port collect these dues, but the smugglers, led by Elias Derby, hired the Salem militia to dig the tunnels and hide the spoil.
+A tunnel was created for the first true steam locomotive, from Penydarren to Abercynon. The
+Penydarren locomotive was built by Richard
+Trevithick. The locomotive made the historic journey from Penydarren to Abercynon in 1804. Part of this tunnel can still be seen at Pentrebach, Merthyr
+Tydfil, Wales. This is arguably the oldest railway tunnel in the world, dedicated only to self-propelled steam engines on rails.
+The Montgomery Bell Tunnel in Tennessee, an
+88 m-long (289 ft) water diversion tunnel, 4.50 m
+× 2.45 m high (14.8 ft × 8.0 ft), to power a water wheel, was built by slave labour in 1819, being the first full-scale tunnel in North America.
+Bourne's Tunnel, Rainhill, near Liverpool, England. It is 32.1 m (105 ft) long. Built in the late 1820s, the exact date is unknown, however probably built in
+1828 or 1829. This is the first tunnel in the world constructed under a railway line. The construction of the Liverpool to Manchester Railway ran over a horse-drawn tramway that ran from the Sutton collieries to the Liverpool-Warrington turnpike road.
+A tunnel was bored under the railway for the tramway. As the railway was being constructed the tunnel was made operational, opening prior to the
+Liverpool tunnels on the Liverpool to Manchester line. The tunnel was made redundant in 1844 when the tramway was dismantled.[73]
+Crown Street station, Liverpool, England, 1829. Built by George Stephenson, a single-track railway tunnel, 266 m (873 ft) long, was bored from Edge Hill to Crown Street to serve the world's first intercity passenger railway terminus station. The station was abandoned in 1836 being too far from Liverpool city centre, with the area converted for freight use. Closed down in
+1972, the tunnel is disused. However it is the oldest passenger rail tunnel running under streets in the world.[74][75]
+The 1829 Wapping Tunnel in Liverpool, England, at 2.03 km (1.26 mi) long on a twin track railway, was the first rail tunnel bored under a metropolis. The tunnel's path is from Edge Hill in the east of the city to Wapping Dock in the south end Liverpool docks. The tunnel was
+A late-19th-century pneumatic rock- drilling machine, invented by Germain
+Sommeiller and used to drill the first large tunnels through the Alps
+Small operational brick tunnel in France used only for freight terminating at the Park Lane goods terminal. Currently disused since 1972, the tunnel was to be a part of the Merseyrail metro network, with work started and abandoned because of costs. The tunnel is in excellent condition and is still being considered for reuse by Merseyrail, maybe with an underground station cut into the tunnel for Liverpool university. The river portal is opposite the new King's Dock Liverpool Arena being an ideal location for a serving station. If reused the tunnel will be the oldest used underground rail tunnel in the world and oldest section of any underground metro system.[75][76][77]
+1832, Lime Street railway station tunnel, Liverpool. A two track rail tunnel, 1.811 km (1.125 mi) long was bored under the metropolis from Edge Hill in the east of the city to Lime Street in Liverpool's city centre. The tunnel was in use from 1832 being used to transport building materials to the new Lime St station while under construction. The station and tunnel was opened to passengers in 1836. In the
+1880s the tunnel was converted to a deep cutting, open to the atmosphere, being four tracks wide. This is the only occurrence of a major tunnel being removed. Two short sections of the original tunnel still exist at Edge Hill station and further towards
+Lime Street, giving the two tunnels the distinction of being the oldest rail tunnels in the world still in use, and the oldest in use under streets.[78]
+Over time a 525 m (0.326 mi) section of the deep cutting has been converted back into tunnel due to sections having buildings built over.
+Box Tunnel in England, which opened in 1841, was the longest railway tunnel in the world at the time of construction. It was dug by hand, and has a length of 2.9 km (1.8 mi).
+The 1.1 km (0.68 mi) 1842 Prince of Wales Tunnel, in Shildon near Darlington, England, is the oldest sizeable tunnel in the world still in use under a settlement.
+The Victoria Tunnel Newcastle opened in 1842, is a 3.9-kilometre (2.4 mi) subterranean wagonway with a maximum depth of 26 metres (85 ft) that drops 222 feet (68 m) from entrance to exit. The tunnel runs under Newcastle upon Tyne, England, and originally exited at the River Tyne. It remains largely intact. Originally designed to carry coal from Spital
+Tongues to the river, in WW2 part of the tunnel was used as a shelter. Under the management of a charitable foundation called the Ouseburn Trust it is currently used for heritage tours.
+The Thames Tunnel, built by Marc Isambard Brunel and his son Isambard Kingdom Brunel opened in 1843, was the first tunnel (after Terelek) traversing under a water body, and the first to be built using a tunnelling shield. Originally used as a foot-tunnel, the tunnel was converted to a railway tunnel in 1869 and was a part of the East London Line of the London
+Underground until 2007. It was the oldest section of the network, although not the oldest purpose built rail section. From 2010 the tunnel became a part of the London Overground network.
+The 3.34 km (2.08 mi) Victoria Tunnel/Waterloo Tunnel in Liverpool, England, was bored under a metropolis opening in 1848. The tunnel was initially used only for rail freight serving the Waterloo Freight terminal, and later freight and passengers serving the Liverpool ship liner terminal. The tunnel's path is from Edge Hill in the east of the city to the north end
+Liverpool docks at Waterloo Dock. The tunnel is split into two tunnels with a short open air cutting linking the two. The cutting is where the cable hauled trains from Edge Hill were hitched and unhitched. The two tunnels are effectively one on the same centre line and are regarded as one. However, as initially the 2,375 m (1.476 mi) long Victoria section was originally cable hauled and the shorter 862 m (943 yd) Waterloo section was locomotive hauled, two separate names were given, the short section was named the Waterloo Tunnel.
+In 1895 the two tunnels were converted to locomotive haulage. Used until 1972, the tunnel is still in excellent condition. A short section of the Victoria tunnel at Edge Hill is still used for shunting trains. The tunnel is being considered for reuse by the Merseyrail network. Stations cut into the tunnel are being considered and also reuse by a monorail system from the proposed Liverpool Waters redevelopment of Liverpool's Central Docks has been proposed.[79][80]
+The summit tunnel of the Semmering railway, the first Alpine tunnel, was opened in 1848 and was 1.431 km (0.889 mi) long. It connected rail traffic between Vienna, the capital of
+Austro-Hungarian Empire, and Trieste, its port.
+The Giovi Rail Tunnel through the Appennini Mounts opened in 1854, linking the capital city of the Kingdom of Sardinia, Turin, to its port, Genoa. The tunnel was 3.25 km (2.02 mi) long.
+The oldest underground sections of the London Underground were built using the cut-and- cover method in the 1860s, and opened in January 1863. What are now the Metropolitan,
+Hammersmith & City and Circle lines were the first to prove the success of a metro or subway system.
+On 18 June 1868, the Central Pacific Railroad's 506-metre (1,659 ft) Summit Tunnel (Tunnel
+#6) at Donner Pass in the California Sierra Nevada mountains was opened, permitting the establishment of the commercial mass transportation of passengers and freight over the
+Sierras for the first time. It remained in daily use until 1993, when the Southern Pacific
+Railroad closed it and transferred all rail traffic through the 3,146-metre (10,322 ft) long
+Tunnel #41 (a.k.a. "The Big Hole") built a mile to the south in 1925.
+In 1870, after fourteen years of works, the Fréjus Rail Tunnel was completed between
+France and Italy, being the second-oldest Alpine tunnel, 13.7 km (8.5 mi) long. At that time it was the longest in the world.
+The third Alpine tunnel, the Gotthard Rail Tunnel, between northern and southern
+Switzerland, opened in 1882 and was the longest rail tunnel in the world, measuring 15 km
+(9.3 mi).
+The 1882 Col de Tende Road Tunnel, at 3.182 km (1.977 mi) long, was one of the first long road tunnels under a pass, running between France and Italy.
+The Mersey Railway tunnel opened in 1886, running from Liverpool to Birkenhead under the
+River Mersey. The Mersey Railway was the world's first deep-level underground railway. By
+1892 the extensions on land from Birkenhead Park station to Liverpool Central Low level station gave a tunnel 5.02 km (3.12 mi) in length. The under river section is 1.21 km
+(0.75 mi) in length, and was the longest underwater tunnel in world in January 1886.[81][82]
+The rail Severn Tunnel was opened in late 1886, at 7.008 km (4.355 mi) long, although only
+3.62 km (2.25 mi) of the tunnel is actually under the River Severn. The tunnel replaced the
+Mersey Railway tunnel's longest under water record, which was held for less than a year.
+James Greathead, in constructing the City & South London Railway tunnel beneath the
+Thames, opened in 1890, brought together three key elements of tunnel construction under water:
+1. shield method of excavation;
+2. permanent cast iron tunnel lining;
+3. construction in a compressed air environment to inhibit water flowing through soft ground material into the tunnel heading.[83]
+Built in sections between 1890 and 1939, the section of London Underground's Northern line from Morden to East Finchley via Bank was the longest railway tunnel in the world at
+27.8 km (17.3 mi) in length.
+The Gotthard Base Tunnel is the first flat route through a major mountain range.
+St. Clair Tunnel, also opened later in 1890, linked the elements of the Greathead tunnels on a larger scale.[83]
+In 1906 the fourth Alpine tunnel opened, the Simplon Tunnel, between Switzerland and Italy.
+It is 19.8 km (12.3 mi) long, and was the longest tunnel in the world until 1982. It was also the deepest tunnel in the world, with a maximum rock overlay of approximately 2,150 m
+(7,050 ft).
+The 1927 Holland Tunnel was the first underwater tunnel designed for automobiles. The construction required a novel ventilation system.
+In 1945 the Delaware Aqueduct tunnel was completed, supplying water to New York City. At
+137 km (85 mi) it is the longest tunnel in the world.
+In 1988 the 53.850 km (33.461 mi) long Seikan Tunnel in Japan was completed under the
+Tsugaru Strait, linking the islands of Honshu and Hokkaido. It was the longest railway tunnel in the world at that time.
+Ryfast is the longest undersea road tunnel. It is 14.3 km (8.9 mi) in length.[84] The tunnel opened for use in 2020.
+The Thirlmere Aqueduct in North West England,
+United Kingdom is sometimes considered the longest tunnel, of any type, in the world at 154 km
+(96 mi), though the aqueduct's tunnel section is not continuous.
+The Dahuofang Water Tunnel in China, opened in
+2009, is the third longest water tunnel in the world at
+85.3 km (53.0 mi) length.
+The Gotthard Base Tunnel in Switzerland, opened in
+2016, is the longest and deepest railway tunnel in the world at 57.1 km (35.5 mi) length and 2,450 m
+(8,040 ft) maximum depth below the Gotthard
+Massif. It provides a flat transit route between the
+North and South of Europe under the Swiss Alps, at a maximum elevation of 549 m
+(1,801 ft).
+The Seikan Tunnel in Japan connects the main island of Honshu with the northern island of
+Hokkaido by rail. It is 53.9-kilometre (33.5 mi) long, of which 23.3 km (14.5 mi) are crossing the Tsugaru Strait undersea.
+The Channel Tunnel crosses the English Channel between France and the United Kingdom.
+It has a total length of 50 km (31 mi), of which 39 km (24 mi) are the world's longest undersea tunnel section.
+The Lötschberg Base Tunnel in Switzerland was the longest land rail tunnel, with a length of
+34.5 km (21.4 mi), from its inauguration in 2007 until the completion of the Gotthard Base
+Tunnel in 2016.
+The Lærdal Tunnel in Norway from Lærdal to Aurland is the world's longest road tunnel, intended for cars and similar vehicles, at 24.5 km (15.2 mi).
+The Zhongnanshan Tunnel in People's Republic of China opened in January 2007 is the world's second longest highway tunnel and the longest mountain road tunnel in Asia, at
+18 km (11 mi).
+The Ryfast road network connecting Stavanger and Strand, Norway, includes the tunnel
+Solbakktunnelen, which opened in 2015. This tunnel is 14 km (8.7 mi) long, making it both the world's longest underwater road tunnel and longest underwater highway tunnel. The tunnel has four driving lanes in total, and a speed limit of 90 km/h (56 mph).
+Longest
+The Big Dig road vehicle tunnel in
+Boston, U.S.
+The Gerrards Cross tunnel in England, completed in 2010. Looking west towards the station in March 2005, showing the extent of construction three months before a small section collapsed.
+The eastern portal of the abandoned
+Sideling Hill Tunnel, Pennsylvania, U.S., in 2009
+The longest canal tunnel is the Rove Tunnel in France, over 7.12 km (4.42 mi) long.
+The Moffat Tunnel, opened in 1928, passes under the Continental Divide of the Americas in Colorado.
+The tunnel is 10.0 km (6.2 mi) long and at an elevation of 2,816 m (9,239 ft) is the highest active railroad tunnel in the U.S. (The inactive Tennessee
+Pass Line and the historic Alpine Tunnel are higher.)
+Williamson's tunnels in Liverpool, from 1804 and completed around 1840 by a wealthy eccentric, are probably the largest underground folly in the world.
+The tunnels were built with no functional purpose.
+The Chicago freight tunnel network is the largest urban street tunnel network, comprising 97 km
+(60 mi) of tunnels beneath the majority of downtown
+Chicago streets. It operated between 1906 and 1956 as a freight network, connecting building basements and railway stations. Following a 1992 flood the network was sealed, although some parts still carry utility and communications infrastructure.
+The Pennsylvania Turnpike opened in 1940 with seven tunnels, most of which were bored as part of the stillborn South Pennsylvania Railroad and giving the highway the nickname "Tunnel Highway". Four of the tunnels (Allegheny Mountain, Tuscarora
+Mountain, Kittatinny Mountain, and Blue Mountain) remain in active use, while the other three (Laurel
+Hill, Rays Hill, and Sideling Hill) were bypassed in the 1960s; the latter two tunnels are on a bypassed section of the Turnpike now commonly known as the
+Abandoned Pennsylvania Turnpike.
+The Fredhälls road tunnel was opened in 1966, in
+Stockholm, Sweden, and the New Elbe road tunnel opened in 1975 in Hamburg, Germany. Both tunnels handle around 150,000 vehicles a day, making them two of the most trafficked tunnels in the world.
+The Honningsvåg Tunnel (4.443 km (2.76 mi) long) opened in 1999 on European route E69 in Norway as the world's northernmost road tunnel, except for mines (which exist on Svalbard).
+The Central Artery road tunnel in Boston,
+Massachusetts, is a part of the larger Big Dig completed around 2007, and carries approximately
+200,000 vehicles/day under the city along Interstate
+93, US Route 1, and Massachusetts Route 3, which share a concurrency through the tunnels. The Big Dig replaced Boston's old badly deteriorated I-93 elevated highway.
+The Stormwater Management And Road Tunnel or SMART Tunnel, is a combined storm drainage and road structure opened in 2007 in Kuala Lumpur, Malaysia. The 9.7 km (6.0 mi) tunnel is the longest stormwater drainage tunnel in South East Asia and second longest in
+Notable
+Tunnel formerly used for coal mining in
+New Taipei, Taiwan
+Asia. The facility can be operated as a simultaneous traffic and stormwater passage, or dedicated exclusively to stormwater when necessary.
+The Eiksund Tunnel[85] on national road Rv 653 in Norway is the world's deepest subsea road tunnel, measuring 7.776 km (4.832 mi) long, with deepest point at −287 m (−942 ft) below the sea level, opened in February 2008.
+Gerrards Cross railway tunnel, in England, opened in 2010, is notable in that it converted an existing railway cutting into a tunnel to create ground to build a supermarket over the tunnel.
+The railway in the cutting was first opened around 1906, stretching over 104 years to complete a railway tunnel. The tunnel was built using the cover method with craned in prefabricated forms in order to keep the busy railway operating. A branch of the Tesco supermarket chain occupies the newly created ground above the railway tunnel, with an adjacent existing railway station at the end of the tunnel. During construction, a portion of the tunnel collapsed when soil cover was added. The prefabricated forms were covered with a layer of reinforced concrete after the collapse.[86]
+The Fenghuoshan tunnel, completed in 2005 on the Qinghai-Tibet railway is the world's highest railway tunnel, about 4.905 km (3.05 mi) above sea level and 1,338 m (0.831 mi) long.
+The La Linea Tunnel in Colombia, 2016, is the longest, 8.58 km (5.33 mi), mountain tunnel in South America. It crosses beneath a mountain at 2,500 m (8,202.1 ft) above sea level with six traffic lanes, and it has a parallel emergency tunnel. The tunnel is subject to serious groundwater pressure. The tunnel will link Bogotá and its urban area with the coffee-growing region, and with the main port on the Colombian Pacific coast.
+The Chicago Deep Tunnel Project is a network of 175 km (109 mi) of drainage tunnels designed to reduce flooding in the Chicago area. Started in the mid-1970s, the project is due to be completed in 2029.
+New York City Water Tunnel No. 3, started in 1970, has an expected completion beyond
+2026,[87] and will measure more than 97 km (60 mi) long.[88]
+The use of tunnels for mining is called drift mining. Drift mining can help find coal, goal, iron, and other minerals, just like normal mining.
+Sub-surface mining consists of digging tunnels or shafts into the earth to reach buried ore deposits.
+Some tunnels are not for transport at all but rather, are fortifications, for example Mittelwerk and Cheyenne
+Mountain Complex. Excavation techniques, as well as the construction of underground bunkers and other habitable areas, are often associated with military use during armed conflict, or civilian responses to threat of attack. Another use for tunnels was for the storage of chemical weapons[89][90] [1] (https://www.mustardgas.org/).
+Mining
+Military use
+Door to a compartment where runaway slaves would sleep, on the Underground Railroad
+Secret tunnels have given entrance to or escape from an area, such as the Cu Chi Tunnels or the smuggling tunnels in the Gaza Strip which connect it to Egypt. Although the Underground Railroad network used to transport escaped slaves was "underground" mostly in the sense of secrecy, hidden tunnels were occasionally used. Secret tunnels were also used during the Cold War, under the Berlin Wall and elsewhere, to smuggle refugees, and for espionage.
+Smugglers use secret tunnels to transport or store contraband, such as illegal drugs and weapons. Elaborately engineered 300-metre (1,000 ft) tunnels built to smuggle drugs across the Mexico-US border were estimated to require up to 9 months to complete, and an expenditure of up to $1 million.[91] Some of these tunnels were equipped with lighting, ventilation, telephones, drainage pumps, hydraulic elevators, and in at least one instance, an electrified rail transport system.[91]
+Secret tunnels have also been used by thieves to break into bank vaults and retail stores after hours.[92][93] Several tunnels have been discovered by the Border Security Forces across the Line of Control along the India-Pakistan border, mainly to allow terrorists access to the
+Indian territory of Jammu and Kashmir.[94][95]
+Metro-2 is a clandestine deep underground metro system in the Moscow metropolitan area. It was designed to provide the Soviet leadership with secure wartime evacuation routes, communication hubs, and command posts, including a dedicated bunker for the national command authority.
+The actual usage of erdstall tunnels is unknown but theories connect it to a rebirth ritual.
+Lava tubes are emptied lava conduits, formed during volcanic eruptions by flowing and cooling lava.
+Natural Tunnel State Park (Virginia, US) features an 260-metre (850 ft) natural tunnel, really a limestone cave, that has been used as a railroad tunnel since 1890.
+Punarjani Guha in Kerala, India. Hindus believe that crawling through the tunnel (which they believe was created by a Hindu god) from one end to the other will wash away all of one's sins and thus allow one to attain rebirth. Only men are permitted to crawl through the tunnel.
+Torghatten, a Norwegian island with a hat-shaped silhouette, has a natural tunnel in the middle of the hat, letting light come through. The 160-metre (520 ft) long, 35-metre (115 ft) high, and 20-metre (66 ft) wide tunnel is said to be the hole made by an arrow of the angry troll Hestmannen, the hill being the hat of the troll-king of Sømna trying to save the beautiful
+Lekamøya. The tunnel is thought actually to be the work of ice. The sun shines through the tunnel during two few minutes long periods every year.[96]
+Secret tunnels
+Natural tunnels
+View through a natural tunnel in South Korea
+Clayton Tunnel rail crash (1861) – confusion about block signals leading to collision, 23 killed.
+Welwyn Tunnel rail crash (1866) – train failed in tunnel, guard did not protect train.
+Paris Métro train fire (1904) – train fire in Couronnes underground station, 84 killed by smoke and gases.
+Church Hill Tunnel collapse (1925) – tunnel collapse on a work train during renovation, killing four men and trapping a steam locomotive and ten flat cars.
+Balvano train disaster (1944) – asphyxiation of about 500
+"unofficial" passengers on freight train.
+Caldecott Tunnel fire (1982) – major motor vehicle tunnel crash and fire.
+Channel Tunnel fire (1996) – Train carrying Heavy Good
+Vehicles (HGV) caught on fire.
+Death of Diana, Princess of Wales (1997) – Car crash in Pont de l'Alma tunnel, Paris, which killed Diana, Princess of Wales.
+Mont Blanc Tunnel fire (1999) – Transport truck caught on fire and combusted inside tunnel.
+Big Dig Ceiling collapse (2006) – Concrete ceiling panel falls in Fort Point tunnel, Boston, which causes the Big Dig project to be closed for a year.
+Euphrates Tunnel
+Cattle creep
+Counter-beam lighting
+Culvert
+Hobby tunneling
+Megaproject
+Rapid transit
+Sequential Excavation Method
+Structure gauge – measure of maximum physical clearance in a tunnel
+Tree tunnel – tunnel-like effect from tree canopies above a road
+Tunnel tree – tunnel bored through the trunk of a tree
+Tunnels in popular culture
+Underground living
+1. Zhou, Man; Su, Xiaolong; Chen, Yaying; An, Lin (2 October 2022). "New Technologies and
+Challenges in the Construction of the Immersed Tube Tunnel of the Hong Kong-Zhuhai-
+Macao Link" (https://www.tandfonline.com/doi/full/10.1080/10168664.2021.1904487).
+Structural Engineering International. 32 (4): 455–464. doi:10.1080/10168664.2021.1904487
+Major accidents
+See also
+References
+(https://doi.org/10.1080%2F10168664.2021.1904487). ISSN 1016-8664 (https://search.worl dcat.org/issn/1016-8664).
+2. Takahashi, Yutaka (2009). Water Storage, Transport, and Distribution. EOLSS Publications.
+pp. 318–319. ISBN 9781848261761.
+3. Salazar, Waneta. Tunnels in Civil Engineering. Delhi, India : White Word Publications, 2012.
+4. Sorrensen, Cynthia (1 July 2014). "Making the Subterranean Visible: Security, Tunnels, and the United States–Mexico Border" (https://www.tandfonline.com/doi/full/10.1111/j.1931-084
+6.2014.12029.x). Geographical Review. 104 (3): 328–345. Bibcode:2014GeoRv.104..328S
+(https://ui.adsabs.harvard.edu/abs/2014GeoRv.104..328S). doi:10.1111/j.1931-
+0846.2014.12029.x (https://doi.org/10.1111%2Fj.1931-0846.2014.12029.x). ISSN 0016-
+7428 (https://search.worldcat.org/issn/0016-7428).
+5. Brodziewska, J. (2005). Wildlife tunnels and fauna bridges in Poland: past, present and future, 1997-2013. UC Davis: Road Ecology Center. Retrieved from https://escholarship.org/uc/item/4wd0j27j
+6. Highway Structures & Bridges Design CD 352, Design of road tunnels (formerly BD 78/99)
+(https://www.standardsforhighways.co.uk/tses/attachments/987a669b-13a1-40b9-94da-1ea
+4e4604fdd). The Department for Transport. 2020.
+7. NFPA Standard for Safeguarding Construction, Alteration, and Demolition Operations.
+National Fire Protection Association.
+8. "tunnel, n." (https://oed.com/dictionary/tunnel_n), Oxford English Dictionary (3 ed.), Oxford
+University Press, 2 March 2023, doi:10.1093/oed/1137765320 (https://doi.org/10.1093%2Fo ed%2F1137765320), retrieved 1 September 2024
+9. "Mahabharat" Escape from Lakshagraha (TV Episode 1989) - Plot (https://www.imdb.com/tit le/tt4175506/plotsummary/). IMDb. Retrieved 7 December 2024.
+10. Sengar, Resham. "Remember the Lakh Ka Ghar of Mahabharata? ASI will begin excavating the site in Dec" (https://timesofindia.indiatimes.com/travel/destinations/remember-the-lakh-k a-ghar-of-mahabharata-asi-will-begin-excavating-the-site-in-dec/articleshow/61487314.cm s). The Times of India. ISSN 0971-8257 (https://search.worldcat.org/issn/0971-8257).
+Retrieved 7 December 2024.
+11. "Ancient Period - About Tunnelling - ITA-AITES" (https://tunnel.ita-aites.org/en/cases-historie s/history/ancient-period). tunnel.ita-aites.org. Retrieved 7 December 2024.
+12. Frank, de Carvalho Buchmann, Gonçalves de Lima, Caron, Lopes & Fornari (2011).
+"KARSTIC FEATURES GENERATED FROM LARGE PALAEOVERTEBRATE TUNNELS IN
+SOUTHERN BRAZIL" (https://www.ufrgs.br/paleotocas/Frank_et_al_2011b.pdf) (PDF).
+Espeleo-Tema. 22 (1).
+13. gzichnalis (15 January 2022). "Eupalinos Tunnel – First Tunnel to be excavated simultaneously from both ends in the 6th centurty B.C." (https://wtc2023.gr/eupalinos-tunnel- first-tunnel-to-be-excavated-simultaneously-from-both-ends-in-the-6th-centurty-b-c/)
+WTC2023. Retrieved 26 September 2024.
+14. Mehmood, Asif (18 March 2021). "400-year-old tunnel discovered in Shahi Qila" (https://tribu ne.com.pk/story/2290002/400-year-old-tunnel-discovered-in-shahi-qila). The Express
+Tribune. Retrieved 16 December 2024.
+15. Omer, Shahab (9 October 2018). "Mughal-era tunnel, underground chambers discovered at
+Lahore Fort | Pakistan Today" (https://archive.pakistantoday.com.pk/2018/10/09/mughal-era- tunnel-underground-chambers-discovered-at-lahore-fort/#:~:text=LAHORE:%20A%20tunne l,%20structures%20with,age%20to%20the%20Mughal%20Era.). Retrieved 16 December
+2024.
+16. "Guide for tunnelling work" (https://web.archive.org/web/20180408083316/https://www.safe workaustralia.gov.au/system/files/documents/1702/guide-tunnelling.pdf) (PDF). Archived from the original (https://www.safeworkaustralia.gov.au/system/files/documents/1702/guide-t unnelling.pdf) (PDF) on 8 April 2018.
+17. Sutcliffe, Harry (2004). "Tunnel Boring Machines" (https://books.google.com/books?id=59V5
+BgAAQBAJ&pg=PA210). In Bickel, John O.; Kuesel, Thomas R.; King, Elwyn H. (eds.).
+Tunnel Engineering Handbook (2nd ed.). Kluwer Academic Publishers. p. 210. ISBN 978-1-
+4613-8053-5.
+18. Powers, P.J. (2007). Construction dewatering and groundwater control. Hoboken, NJ: John
+Wiley & Sons Inc.
+19. United States Army Corps of Engineers. (1978). Tunnels and shafts in rock. Washington,
+DC: Department of the Army.
+20. "Tunnels - an environmentally attractive option?" (https://www.worldhighways.com/wh10/feat ure/tunnels-environmentally-attractive-option). World Highways. Retrieved 8 October 2024.
+21. "FHWA - Center for Innovative Finance Support - Project Profiles" (https://www.fhwa.dot.go v/ipd/project_profiles/ma_boston_central_artery.aspx). www.fhwa.dot.gov. Retrieved
+8 November 2024.
+22. "Queensway Tunnel which links Liverpool to Birkenhead marks 90th anniversary" (https://w ww.bbc.com/news/articles/c7283vplp56o). www.bbc.com. 20 July 2024. Retrieved 8 October
+2024.
+23. "Capital Projects Funds" (https://web.archive.org/web/20111217080357/http://www.cord.ed u/faculty/bfoss/ADVC20.htm). Cord.edu. Archived from the original (http://www.cord.edu/fac ulty/bfoss/ADVC20.htm) on 17 December 2011. Retrieved 19 April 2013.
+24. Chan, Sewell (3 August 2005). "$100 Million for a Tunnel. What Tunnel?" (https://www.nytim es.com/2005/08/03/nyregion/03rail.html?_r=0). The New York Times.
+25. "Encouraging U.S. Infrastructure Investment – Council on Foreign Relations" (https://web.ar chive.org/web/20130523092826/http://www.cfr.org/infrastructure/encouraging-us-infrastructu re-investment/p27771). Cfr.org. Archived from the original (http://www.cfr.org/infrastructure/e ncouraging-us-infrastructure-investment/p27771) on 23 May 2013. Retrieved 19 April 2013.
+26. Ellis 2015, p. 118.
+27. Konyukhov, D. S. (12 April 2022). "Analysis of mechanized tunneling parameters to determine the overcutting characteristics" (https://mst.misis.ru/jour/article/view/330). Gornye
+Nauki I Tekhnologii = Mining Science and Technology (Russia). 7 (1): 49–56.
+doi:10.17073/2500-0632-2022-1-49-56 (https://doi.org/10.17073%2F2500-0632-2022-1-49-
+56). ISSN 2500-0632 (https://search.worldcat.org/issn/2500-0632). S2CID 248136002 (http s://api.semanticscholar.org/CorpusID:248136002).
+28. "Tunnelling" (https://web.archive.org/web/20100823081917/http://tunnellersmemorial.com/T unnelling.htm). The Tunneller's Memorial, Givenchy. 2009. Archived from the original (http://t unnellersmemorial.com/Tunnelling.htm) on 23 August 2010. Retrieved 20 June 2010.
+29. "Tunnels & Tunnelling International" (https://web.archive.org/web/20120316162001/http://w ww.tunnelsonline.info/story.asp?sectioncode=1&storycode=61846). Tunnelsonline.info.
+Archived from the original (http://www.tunnelsonline.info/story.asp?sectioncode=1&storycod e=61846) on 16 March 2012. Retrieved 19 April 2013.
+30. "The Groene Hart Tunnel" (https://web.archive.org/web/20090925160241/http://www.hslzui d.nl/hsl/uk/bouw/ment/Bored_Tunnel_Groene_Hart/index.jsp). Hslzuid.nl. Archived from the original (http://www.hslzuid.nl/hsl/uk/bouw/ment/Bored_Tunnel_Groene_Hart/index.jsp) on
+25 September 2009. Retrieved 19 April 2013.
+31. Johnson, Kirk (5 December 2012). "Engineering Projects Will Transform Seattle, All Along the Waterfront" (https://www.nytimes.com/2012/12/05/us/projects-to-transform-seattle-all-alo ng-the-waterfront.html). The New York Times. Retrieved 23 January 2024.
+32. "Understanding the New Austrian Tunnel Method (NATM)" (https://tunnelingonline.com/unde rstanding-the-new-austrian-tunnel-method-natm/). Tunnel Business Magazine. Benjamin
+Media. 5 December 2018. Retrieved 27 December 2018.
+33. Sun, Li. "Mushrooms and Tours | Li-Sun Exotic Mushrooms" (https://web.archive.org/web/20
+180316053305/http://www.li-sunexoticmushrooms.com.au/). www.li- sunexoticmushrooms.com.au. Archived from the original (http://www.li-sunexoticmushroom s.com.au/) on 16 March 2018. Retrieved 23 January 2024.
+34. Biscoe, Emma (15 May 2014). "Mittagong mushroom business will close down" (https://ww w.illawarramercury.com.au/story/2284594/mittagong-mushroom-business-will-close-down/).
+Illawarra Mercury.
+35. "National Railway Museum / Science & Society image # 10445941" (https://www.scienceand society.co.uk/results.asp?image=10445941). Science & Society Picture Library. 1881.
+Archived (https://web.archive.org/web/20160304114308/http://i34.tinypic.com/23ixthy.jpg) from the original on 4 March 2016. Retrieved 23 January 2024.
+36. "National Railway Museum / Science & Society image # 10445944: "Building a railway bridge in Liverpool, 1881" " (https://www.scienceandsociety.co.uk/results.asp?image=10445
+944). Science & Society Picture Library. 1881. Archived (https://web.archive.org/web/20160
+304185533/http://i36.tinypic.com/16k1ahx.jpg) from the original on 4 March 2016. Retrieved
+24 January 2023.
+37. "UK's biggest TBM rebores Farnworth Tunnel" (https://www.railwaygazette.com/uks-biggest- tbm-rebores-farnworth-tunnel/41248.article). Railway Gazette International. 12 August 2015.
+Retrieved 23 January 2024.
+38. "Report on Redeveloping Railway Tunnels" (https://www.tunnel-online.info/en/artikel/tunnel_
+2012-04_Report_on_Redeveloping_Railway_Tunnels_1433844.html). www.tunnel- online.info.
+39. "San Francisco-Oakland Bay Bridge" (https://web.archive.org/web/20161107072916/http://m tc.ca.gov/about-mtc/what-mtc/bay-area-toll-authority/san-francisco-oakland-bay-bridge). Bay
+Area Toll Authority. 4 November 2015. Archived from the original (http://mtc.ca.gov/about-mt c/what-mtc/bay-area-toll-authority/san-francisco-oakland-bay-bridge) on 7 November 2016.
+Retrieved 23 January 2024.
+40. "Eurasia Tunnel Project" (https://web.archive.org/web/20160120170635/http://events.unicre dit-cib.eu/uploads/media/Presentation_Basar_Arioglu_Yapi_Merkezi_Insaat.pdf) (PDF).
+Unicredit – Yapı Merkezi, SK EC Joint Venture. Archived from the original on 20 January
+2016. Retrieved 13 April 2014.
+41. "Istanbul's mega-project: World's first three-level tunnel to be built under the Bosporus –
+Daily Sabah" (https://www.dailysabah.com/business/2015/02/27/istanbuls-megaproject-worl ds-first-threelevel-tunnel-to-be-built-under-the-bosporus). Daily Sabah. 27 February 2015.
+Archived (https://web.archive.org/web/20170219015521/https://www.dailysabah.com/busine ss/2015/02/27/istanbuls-megaproject-worlds-first-threelevel-tunnel-to-be-built-under-the-bos porus) from the original on 19 February 2017. Retrieved 23 January 2024.
+42. "Shanghai to Dig Double-deck Tunnel" (http://www.china.org.cn/english/China/47409.htm).
+China Facts and Figures 2002. 1 November 2002. Archived (https://web.archive.org/web/20
+060515033120/http://www.china.org.cn/english/China/47409.htm) from the original on 15
+May 2006. Retrieved 23 January 2024.
+43. Kalus, Ruben (22 December 2016). "Maastricht's new highway tunnel: a role model for
+Europe" (https://www.dw.com/en/maastrichts-new-highway-tunnel-a-role-model-for-europe/a v-36867098). DW.COM. Retrieved 23 January 2024.
+44. "Unique stacked tunnel under Maastricht - Division Traffic & Infra" (https://web.archive.org/w eb/20150817110627/http://imtech.com/EN/traffic-infra/Traffic-Infra-Newsroom/Divisie-Imtech
+-Traffic-Infra-Homepage-Newsroom-Highlights/Unique-stacked-tunnel-under-Maastricht.htm l). Imtech. 17 August 2015. Archived from the original (http://imtech.com/EN/traffic-infra/Traffi c-Infra-Newsroom/Divisie-Imtech-Traffic-Infra-Homepage-Newsroom-Highlights/Unique-stac ked-tunnel-under-Maastricht.html) on 17 August 2015. Retrieved 23 January 2024.
+45. "To Break Ground For 63rd St., East River Tunnel" (http://fultonhistory.com/highlighter/highli ght-for-xml?altUrl=http%3A%2F%2Ffultonhistory.com%2FNewspapers%252023%2FFores t%2520Parkway%2520NY%2520Leader%2520Observer%2FForest%2520Parkway%2520
+NY%2520Leader%2520Observer%25201969-1971%2FForest%2520Parkway%2520NY%2
+520Leader%2520Observer%25201969-1971%2520-%25200628.pdf&highlightsFile=http%3
+A%2F%2Ffultonhistory.com%2Fhighlighter%2Fhits%2F816c7feba198b14dee5deb0dc12d1
+34f#page=1). New York Leader-Observer. 20 November 1969. p. 8. Retrieved 29 July 2016
+– via Old Fulton New York Postcards.
+46. "Governor Rockefeller and Mayor Lindsay Attend 'Holing Through' of 63d St. Tunnel" (http s://www.nytimes.com/1972/10/11/archives/governor-rockefeller-and-mayor-lindsay-attend-h oling-through-of-63d.html). The New York Times. 11 October 1972. p. 47. ISSN 0362-4331
+(https://search.worldcat.org/issn/0362-4331). Retrieved 3 February 2018.
+47. Lorch, Donatella (29 October 1989). "The 'Subway to Nowhere' Now Goes Somewhere" (htt ps://www.nytimes.com/1989/10/29/nyregion/the-subway-to-nowhere-now-goes-somewhere.
+html). The New York Times. p. 1.37. Retrieved 20 October 2011.
+48. "East Side Access" (https://new.mta.info/project/east-side-access). MTA. 5 October 2023.
+Retrieved 23 January 2024.
+49. "Black & Veatch uses trenchless technology for water main rehabilitation in Hong Kong –
+WaterWorld" (https://www.waterworld.com/technologies/pipes/article/16216777/black-veatch
+-uses-trenchless-technology-for-water-main-rehabilitation-in-hong-kong). 5 June 2017.
+Archived (https://web.archive.org/web/20170605114200/http://www.waterworld.com/articles/
+2009/08/black--veatch-uses.html) from the original on 5 June 2017.
+50. "新闻分析：这条隧道藏了多少科技秘密——揭秘"万里长江公铁第一隧"-新华网" (https://web.
+archive.org/web/20190716063606/http://www.xinhuanet.com/2018-10/01/c_129964700.ht m). www.xinhuanet.com. Archived from the original (http://www.xinhuanet.com/2018-10/01/c
+_129964700.htm) on 16 July 2019. Retrieved 7 June 2020.
+51. 汉网 (27 September 2018). "揭秘武汉长江公铁第一隧"尖板眼" 68个通道可供江底逃生" (http s://news.sina.com.cn/o/2018-09-27/doc-ifxeuwwr8734437.shtml). news.sina.com.cn.
+Retrieved 7 June 2020.
+52. "武汉长江公铁隧道工程打造全球"超级工程"样板-新华网" (http://m.xinhuanet.com/hb/2018-0
+9/19/c_1123450459.htm). m.xinhuanet.com. Retrieved 7 June 2020.
+53. "Drive through these 10 tremendous tunnels" (https://www.mnn.com/green-tech/transportati on/stories/drive-through-these-10-tremendous-tunnels).
+54. Hunt, D. V. L.; Nash, D.; Rogers, C. D. F. (1 January 2014). "Sustainable utility placement via Multi-Utility Tunnels" (https://doi.org/10.1016%2Fj.tust.2012.02.001). Tunnelling and
+Underground Space Technology. Underground Infrastructure Research 2012. 39: 15–26.
+Bibcode:2014TUSTI..39...15H (https://ui.adsabs.harvard.edu/abs/2014TUSTI..39...15H).
+doi:10.1016/j.tust.2012.02.001 (https://doi.org/10.1016%2Fj.tust.2012.02.001). ISSN 0886-
+7798 (https://search.worldcat.org/issn/0886-7798).
+55. Mishra, V K; Aggarwal, M L; Berghmans, P; Frijns, E; Int Panis, L; Chacko, K M (2015).
+"Dynamics of ultrafine particles inside a roadway tunnel" (https://www.researchgate.net/publi cation/284172320). Environmental Monitoring and Assessment. 187 (12): 756.
+Bibcode:2015EMnAs.187..756M (https://ui.adsabs.harvard.edu/abs/2015EMnAs.187..756
+M). doi:10.1007/s10661-015-4948-x (https://doi.org/10.1007%2Fs10661-015-4948-x).
+PMID 26577216 (https://pubmed.ncbi.nlm.nih.gov/26577216). S2CID 207140116 (https://ap i.semanticscholar.org/CorpusID:207140116).
+56. Kim, Joon-Hyung; Rho, Joo-Hyun (1 March 2018). "Pressure wave characteristics of a high- speed train in a tunnel according to the operating conditions". Proceedings of the Institution of Mechanical Engineers, Part F: Journal of Rail and Rapid Transit. 232 (3): 928–935.
+doi:10.1177/0954409717702015 (https://doi.org/10.1177%2F0954409717702015).
+ISSN 0954-4097 (https://search.worldcat.org/issn/0954-4097). S2CID 125620030 (https://ap i.semanticscholar.org/CorpusID:125620030).
+57. Niu, Jiqiang; Zhou, Dan; Liu, Feng; Yuan, Yanping (1 October 2018). "Effect of train length on fluctuating aerodynamic pressure wave in tunnels and method for determining the amplitude of pressure wave on trains". Tunnelling and Underground Space Technology. 80:
+277–289. Bibcode:2018TUSTI..80..277N (https://ui.adsabs.harvard.edu/abs/2018TUSTI..8
+0..277N). doi:10.1016/j.tust.2018.07.031 (https://doi.org/10.1016%2Fj.tust.2018.07.031).
+ISSN 0886-7798 (https://search.worldcat.org/issn/0886-7798). S2CID 116606435 (https://ap i.semanticscholar.org/CorpusID:116606435).
+58. Xie, Pengpeng; Peng, Yong; Wang, Tiantian; Zhang, Honghao (April 2019). "Risks of Ear
+Complaints of Passengers and Drivers While Trains Are Passing Through Tunnels at High
+Speed: A Numerical Simulation and Experimental Study" (https://www.ncbi.nlm.nih.gov/pmc/ articles/PMC6480231). International Journal of Environmental Research and Public Health.
+16 (7): 1283. doi:10.3390/ijerph16071283 (https://doi.org/10.3390%2Fijerph16071283).
+ISSN 1661-7827 (https://search.worldcat.org/issn/1661-7827). PMC 6480231 (https://www.n cbi.nlm.nih.gov/pmc/articles/PMC6480231). PMID 30974822 (https://pubmed.ncbi.nlm.nih.g ov/30974822).
+59. Fridolf, K.; Ronchi, E.; Nilsson, D.; Frantzich, H. (2013). "Movement speed and exit choice in smoke-filled rail tunnels". Fire Safety Journal. 59: 8–21. Bibcode:2013FirSJ..59....8F (https:// ui.adsabs.harvard.edu/abs/2013FirSJ..59....8F). doi:10.1016/j.firesaf.2013.03.007 (https://do i.org/10.1016%2Fj.firesaf.2013.03.007).
+60. Johnson, Christine M.; Edward L. Thomas (October 1999). "A Case Study Boston Central
+Artery/Tunnel Integrated Project Control System, Responding to incidents Rapidly and
+Effectively" (https://web.archive.org/web/20130309164537/http://ntl.bts.gov/lib/jpodocs/repts
+_te/11063.pdf) (PDF). Metropolitan Transportation Management Center: 12. Archived from the original (http://ntl.bts.gov/lib/jpodocs/repts_te/11063.pdf) (PDF) on 9 March 2013.
+Retrieved 4 April 2014.
+61. Hashash, Youssef M.A.; Hook, Jeffrey J.; Schmidt, Birger; Yao, John I-Chiang (2001).
+"Seismic design and analysis of underground structures" (https://www.sciencedirect.com/sci ence/article/abs/pii/S0886779801000517). Tunnelling and Underground Space Technology.
+16 (4): 247–293. Bibcode:2001TUSTI..16..247H (https://ui.adsabs.harvard.edu/abs/2001TU
+STI..16..247H). doi:10.1016/S0886-7798(01)00051-7 (https://doi.org/10.1016%2FS0886-77
+98%2801%2900051-7). S2CID 108456041 (https://api.semanticscholar.org/CorpusID:10845
+6041) – via Science Direct.
+62. National Geophysical Data Center / World Data Service (NGDC/WDS): NCEI/WDS Global
+Significant Earthquake Database. NOAA National Centers for Environmental Information
+(1972). "Significant Earthquake Information" (https://www.ngdc.noaa.gov/hazel/view/hazard s/earthquake/event-more-info/5372). NOAA National Centers for Environmental Information.
+doi:10.7289/V5TD9V7K (https://doi.org/10.7289%2FV5TD9V7K).
+63. Hymon, Steve. "Designing A Subway to Withstand an Earthquake." The Source. N.p., 2017.
+Web. 11 November 2017. http://thesource.metro.net/2012/08/10/designing-a-subway-to- withstand-an-earthquake/ Archived (https://web.archive.org/web/20240221224328/https://th esource.metro.net/2012/08/10/designing-a-subway-to-withstand-an-earthquake/) 21
+February 2024 at the Wayback Machine
+64. Klaus Grewe, 1998, Licht am Ende des Tunnels – Planung und Trassierung im antiken
+Tunnelbau, Verlag Philipp von Zabern, Mainz am Rhein.
+65. Siamak Hashemi, 2013, The Magnificence of Civilization in Depths of Ground (A Review of
+Underground Structures in Iran – Past to Present), Shadrang Printing and Publishing Co.,
+Tehran.
+66. UNESCO World Heritage Centre – World Heritage List: Qanats of Gonabad, Date of
+Inscription 2007, Reference No. 5207, At: "Qanats of Gonabad – UNESCO World Heritage
+Centre" (https://whc.unesco.org/fr/listesindicatives/5207). Archived (https://web.archive.org/ web/20160329120845/https://whc.unesco.org/fr/listesindicatives/5207) from the original on
+29 March 2016. Retrieved 14 December 2013.
+67. Schmidt, E.F., 1953, Persepolis I – Structures, Reliefs, Inscriptions; The University of
+Chicago Oriental Institute Publications, Volume LXVIII, The University of Chicago Press.
+68. Blogcu "TERELEK KAYA TÜNELİ – terelek" (http://terelek.blogcu.com/terelek-kaya-tuneli/31
+9497). Blogcu. Archived (https://web.archive.org/web/20160327222549/http://terelek.blogcu.
+com/terelek-kaya-tuneli/319497) from the original on 27 March 2016. Retrieved 17 July
+2014.
+69. Map of Dudley Canals | Discover Black Country Canals (http://www.dudleycanaltrust.org.uk/i nteractive-tour-map/) Archived (https://web.archive.org/web/20150409192053/http://www.du dleycanaltrust.org.uk/interactive-tour-map/) 9 April 2015 at the Wayback Machine
+70. Historic England. "Fritchley Tunnel, Butterley Gangroad (1422984)" (https://HistoricEngland.
+org.uk/listing/the-list/list-entry/1422984?section=official-list-entry). National Heritage List for
+England. Retrieved 19 March 2015.
+71. "Archaeologists find 'world's oldest railway tunnel' in Derbyshire" (https://www.bbc.co.uk/new s/uk-england-derbyshire-22342239). BBC News. 1 May 2013.
+72. Friends of the Cromford Canal – HOME (http://www.cromfordcanal.info)Archived (https://we b.archive.org/web/20161023115647/http://www.cromfordcanal.info/) 23 October 2016 at the
+Wayback Machine
+73. "Bourne's Tunnel at Sj5033491804 – Saint Helens – St Helens – England" (http://www.britis hlistedbuildings.co.uk/en-507533-bourne-s-tunnel-at-sj5033491804-). British Listed
+Buildings. Retrieved 30 September 2014.
+74. "Liverpool's Historic Rail Tunnels" (https://web.archive.org/web/20090517123220/http://ww w.liverpoolwiki.org/Liverpool%27s_Historic_Rail_Tunnels). The Liverpool Wiki. 22 February
+1999. Archived from the original (http://www.liverpoolwiki.org/Liverpool%27s_Historic_Rail_
+Tunnels) on 17 May 2009. Retrieved 19 April 2013.
+75. "Subterranea Britannica: Sites" (https://www.subbrit.org.uk/sb-sites/sites/l/liverpool_edge_hil l_cutting/index3.shtml). Retrieved 30 September 2014.
+76. "Wapping Tunnel" (https://web.archive.org/web/20210512103820/http://forgottenrelics.co.uk/ tunnels/gallery/wapping.html). Archived from the original (http://www.forgottenrelics.co.uk/tu nnels/gallery/wapping.html) on 12 May 2021. Retrieved 30 September 2014.
+77. Maund, T.B. (2001). Merseyrail electrics: the inside story. Sheffield: NBC Books.
+OCLC 655126526 (https://search.worldcat.org/oclc/655126526).
+78. Liverpool Lime St (http://www.hows.org.uk/personal/rail/incline/lls.htm) Archived (https://web.
+archive.org/web/20160304031133/http://www.hows.org.uk/personal/rail/incline/lls.htm) 4
+March 2016 at the Wayback Machine
+79. "Victoria Tunnel" (http://www.forgottenrelics.co.uk/tunnels/gallery/victoria.html). Retrieved
+30 September 2014.
+80. "Waterloo Tunnel" (http://www.forgottenrelics.co.uk/tunnels/gallery/waterloo.html). Retrieved
+30 September 2014.
+81. "Mersey Railway Tunnel" (https://web.archive.org/web/20130529074903/http://www.upton-w irral.co.uk/wir2.php). Archived from the original (http://www.upton-wirral.co.uk/wir2.php) on
+29 May 2013. Retrieved 30 September 2014.
+82. Engineering Timelines – Mersey Railway (http://www.engineering-timelines.com/scripts/engi neeringItem.asp?id=1151) Archived (https://web.archive.org/web/20120322113859/http://ww w.engineering-timelines.com/scripts/engineeringItem.asp?id=1151) 22 March 2012 at the
+Wayback Machine
+83. Lange, Robie S. (February 1993). "National Register of Historic Places Inventory-
+Nomination: St. Clair River Tunnel / St. Clair Railroad Tunnel" (https://npgallery.nps.gov/NR
+HP/GetAsset/NHLS/70000684_text). National Park Service. Retrieved 23 January 2024.
+84. "Nå er siste fjellrest sprengt vekk i verdens lengste undersjøiske veitunnel" (https://www.tu.n o/artikler/i-dag-sprenges-siste-fjellrest-vekk-i-verdens-lengste-undersjoiske-veitunnel/41053
+8). 26 October 2017.
+85. "Safety: World's Deepest Subsea Tunnel Opens in Norway" (https://web.archive.org/web/20
+120317104705/http://www.tunnelintelligence.com/safety-in-detail-106.html).
+www.tunnelintelligence.com. 2 March 2008. Archived from the original on 17 March 2012.
+Retrieved 23 January 2024.
+86. "Costain finishes Gerrards Cross tunnel rebuild" (http://www.nce.co.uk/news/transport/costai n-finishes-gerrards-cross-tunnel-rebuild/5218141.article). 19 May 2010. Retrieved
+30 September 2014.
+87. Kensinger, Nathan (22 April 2021). "NYC's Giant Water Tunnel Begins Work On Final
+Shafts, Following 50 Years Of Construction" (https://gothamist.com/news/nycs-giant-water-t unnel-begins-work-on-final-shafts-following-50-years-of-construction). Gothamist. Retrieved
+15 September 2022. "These last two shafts are now expected to be done by 2026, according to the DEP, but the tunnel still won't be complete. The original plans called for one more extension—a 14-mile conduit between Yonkers, the Bronx and Queens."
+88. "City Water Tunnel No. 3" (https://web.archive.org/web/20070621120811/http://www.nyc.go v/html/dep/html/news/3rdtunnel.html). Archived from the original (http://www.nyc.gov/html/de p/html/news/3rdtunnel.html) on 21 June 2007. Retrieved 19 April 2013.
+89. "Glenbrook Tunnel – Alcatraz Down Under – History Channel" (https://web.archive.org/web/
+20110517201322/http://www.youtube.com/watch?v=kp1EFlngjKQ). Youtube.com. Archived from the original (https://www.youtube.com/watch?v=kp1EFlngjKQ) on 17 May 2011.
+Retrieved 19 April 2013.
+90. Author lifts lid on chemical wartime history – Local News – News – General – Blue
+Mountains Gazette (http://bluemountains.yourguide.com.au/news/local/news/general/author
+-lifts-lid-on-chemical-wartime-history/307763.aspx) Archived (https://web.archive.org/web/20
+090109001520/http://bluemountains.yourguide.com.au/news/local/news/general/author-lifts- lid-on-chemical-wartime-history/307763.aspx) 9 January 2009 at the Wayback Machine
+91. Audi, Tamara (31 January 2013). "Drug Tunnels Have Feds Digging for Answers" (https://onl ine.wsj.com/news/articles/SB10001424127887323854904578264382749570570). The Wall
+Street Journal. Retrieved 4 October 2014.
+92. Colchester, Max (31 March 2010). "Thieves Drill Into Paris Bank Vault" (https://online.wsj.co m/articles/SB10001424052702304739104575153530631794248). The Wall Street Journal.
+Retrieved 4 October 2014.
+93. Evans, Peter (3 October 2014). "Where 'Criminal Underworld' Is More Than a Euphemism"
+(https://online.wsj.com/articles/where-criminal-underworld-is-more-than-a-euphemism-1412
+383000). The Wall Street Journal. Retrieved 4 October 2014.
+94. Khajuria, Ravi Krishnan. "Day after India-Pakistan flag meet, BSF detects trans-border tunnel in Jammu's Arnia sub-sector" (https://www.hindustantimes.com/india-news/under-con struction-tunnel-being-dug-from-pakistan-side-unearthed-by-bsf-in-jammu/story-B1qgulsJC
+MQ8FOxWs3LYyO.html). Hindustan Times. 1 October 2017. Retrieved 10 December 2017.
+95. Iqbal, Sheikh Zaffar (14 February 2017). "20-Foot Tunnel From Pakistan Found By BSF At
+Sambha, Jammu and Kashmir" (https://www.ndtv.com/india-news/20-foot-tunnel-from-pakist an-found-by-bsf-at-sambha-jammu-and-kashmir-1659393). NDTV. Retrieved 10 December
+2017.
+96. Warholm, Harald (10 November 2014). "Hobbyfotografen har ventet tre år på dette sjeldne blinkskuddet" (https://www.nrk.no/nordland/jubler-over-sjeldent-blinkskudd-av-fjellet-torghatt en-1.12034377) [The hobby photographer has waited three years for this rare shot]. nrk.no
+(in Norwegian). Retrieved 13 November 2014.
+Ellis, Iain W (2015). Ellis' British Railway Engineering Encyclopaedia (3rd Revised ed.).
+Lulu.com. ISBN 978-1-326-01063-8.
+Bibliography
+Railway Tunnels in Queensland by Brian Webber, 1997, ISBN 0-909937-33-8.
+Sullivan, Walter. Progress In Technology Revives Interest In Great Tunnels (https://www.nyti mes.com/1986/06/24/science/progress-in-technology-revives-interest-in-great-tunnels.html?
+&pagewanted=all), The New York Times, 24 June 1986. Retrieved 15 August 2010.
+ITA-AITES International Tunnelling Association (https://www.ita-aites.org/)
+Tunnels & Tunnelling International magazine (http://www.tunnelsonline.info/)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Tunnel&oldid=1342214981"
+External links

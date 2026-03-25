@@ -1,254 +1,61 @@
-Response of stone column-improved ground under c-/
-soil embankment
-Amit Kumar Das a,b, Kousik Deb b
-a Department of Civil Engineering, National Institute of Technology Silchar, Silchar 788010, Assam, India
-b Department of Civil Engineering, Indian Institute of Technology Kharagpur, Kharagpur 721302, India
+Response of stone column-improved ground under c-/ soil embankment
+Amit Kumar Das a,b, Kousik Deb b a Department of Civil Engineering, National Institute of Technology Silchar, Silchar 788010, Assam, India b Department of Civil Engineering, Indian Institute of Technology Kharagpur, Kharagpur 721302, India
 Received 18 August 2017; received in revised form 3 January 2019; accepted 22 January 2019
 Available online 13 March 2019
 Abstract
-Problems with stone column-supported embankments are often addressed considering the pure granular soil properties of the
-embankment material. In practice, however, the embankment material may contain a certain percentage of ﬁnes which makes the mate-
-rial c-/ in nature. In the present paper, experimental and 3D numerical studies are conducted to investigate the eﬀect of the ﬁnes content
-present in the embankment soil on the response of a stone column-improved ground. The numerical study is carried out using the ﬁnite
-diﬀerence software package FLAC3D. The time-dependent behavior of the improved soil is modeled. It is observed that an increase in the
-ﬁnes content in the embankment soil brings about a decrease in the stress concentration ratio and an increase in the vertical displacement
-and the pore pressure in the soft soil. However, the vertical displacement of the soft soil does not change signiﬁcantly above a ﬁnes con-
-tent of 20%. The lateral displacement of the stone column increases at the top with an increase in the ﬁnes content and the point of the
-maximum lateral displacement shifts in the downward direction. It is also observed that the diﬀerential settlement increases at the ground
-level as well as at the embankment top with an increase in the quantity of ﬁnes in the embankment soil. Thus, the critical height of the
-embankment (a height where no diﬀerential settlement occurs on the embankment surface) increases due to the increase in the ﬁnes
-content.
- 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society.
-Keywords: Fines content; FLAC3D; Laboratory experiments; Numerical modeling; Soft soil; Stone column-supported c-/ embankment; Time-dependent
-response
+Problems with stone column-supported embankments are often addressed considering the pure granular soil properties of the embankment material. In practice, however, the embankment material may contain a certain percentage of ﬁnes which makes the mate- rial c-/ in nature. In the present paper, experimental and 3D numerical studies are conducted to investigate the eﬀect of the ﬁnes content present in the embankment soil on the response of a stone column-improved ground. The numerical study is carried out using the ﬁnite diﬀerence software package FLAC3D. The time-dependent behavior of the improved soil is modeled. It is observed that an increase in the ﬁnes content in the embankment soil brings about a decrease in the stress concentration ratio and an increase in the vertical displacement and the pore pressure in the soft soil. However, the vertical displacement of the soft soil does not change signiﬁcantly above a ﬁnes con- tent of 20%. The lateral displacement of the stone column increases at the top with an increase in the ﬁnes content and the point of the maximum lateral displacement shifts in the downward direction. It is also observed that the diﬀerential settlement increases at the ground level as well as at the embankment top with an increase in the quantity of ﬁnes in the embankment soil. Thus, the critical height of the embankment (a height where no diﬀerential settlement occurs on the embankment surface) increases due to the increase in the ﬁnes content.
+ 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society.
+Keywords: Fines content; FLAC3D; Laboratory experiments; Numerical modeling; Soft soil; Stone column-supported c-/ embankment; Time-dependent response
 1. Introduction
-Embankments required for road and railways experi-
-ence very high settlement when they are constructed on
-highly compressible clay. Therefore, ground improvement
-is an obvious choice to increase the strength of the founda-
-tion soil. The installation of stone columns is a well-
-practiced method for constructing embankments on weak
-soil deposits. Surcharge loads can be allowed immediately
-over embankments that rest on stone column-improved
-soft soil. In addition, the stress on the soft soil is reduced
-by transferring it from the soft soil to the columns due to
-the diﬀerence in stiﬀness between them (Han and Ye,
-2001; Deb, 2010). The installation of stone columns in soft
-soil also expedites the consolidation process, reduces the
-settlement and increases the bearing capacity of the com-
-posite ground (Mitchell and Huber, 1985; Priebe, 1995;
+Embankments required for road and railways experi- ence very high settlement when they are constructed on highly compressible clay. Therefore, ground improvement is an obvious choice to increase the strength of the founda- tion soil. The installation of stone columns is a well- practiced method for constructing embankments on weak soil deposits. Surcharge loads can be allowed immediately over embankments that rest on stone column-improved soft soil. In addition, the stress on the soft soil is reduced by transferring it from the soft soil to the columns due to the diﬀerence in stiﬀness between them (Han and Ye,
+2001; Deb, 2010). The installation of stone columns in soft soil also expedites the consolidation process, reduces the settlement and increases the bearing capacity of the com- posite ground (Mitchell and Huber, 1985; Priebe, 1995;
 Shahu et al., 2000; Deb and Dhar, 2011; Das and Deb,
 2014; Ng and Tan, 2014; Das and Deb, 2017a, b;
-Bhattacharya and Kumar, 2017). Oh et al. (2007) reported
-a case study of a trial embankment constructed on estuar-
-ine clay in South-east Queensland, Australia. The authors
-presented
-measurements
-of
-the
-vertical
-and
-lateral
-https://doi.org/10.1016/j.sandf.2019.01.003
-0038-0806/ 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society.
+Bhattacharya and Kumar, 2017). Oh et al. (2007) reported a case study of a trial embankment constructed on estuar- ine clay in South-east Queensland, Australia. The authors presented measurements of the vertical and lateral https://doi.org/10.1016/j.sandf.2019.01.003
+0038-0806/ 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society.
 Peer review under responsibility of The Japanese Geotechnical Society.
-E-mail address: kousik@civil.iitkgp.ac.in (K. Deb)
-www.elsevier.com/locate/sandf
+E-mail address: kousik@civil.iitkgp.ac.in (K. Deb) www.elsevier.com/locate/sandf
 Available online at www.sciencedirect.com
 ScienceDirect
 Soils and Foundations 59 (2019) 617–632
-H O S T E D  B Y
- 
+H O S T E D B Y
+
 This is an open access article under CC BY-NC-ND license. (http://creativecommons.org/licenses/by-nc-nd/4.0/)
- 
+
 This is an open access article under CC BY-NC-ND license. (http://creativecommons.org/licenses/by-nc-nd/4.0/)
-Technical Paper
-settlements below the embankment. Tan et al. (2008)
-selected a case study of an embankment resting on stone
-column-improved soil to check the accuracy of two simpli-
-ﬁed methods for converting the unit cell model to the
-equivalent
-plane-strain
-model
-for
-a
-stone
-column-
-improved ground. In the ﬁrst method, the width of the
-stone columns was kept equal to the original column diam-
-eter and the soil permeability was modiﬁed, whereas in the
-second method, the total cross-sectional area of the stone
-columns and the soil permeability were kept unchanged.
-It is observed that the second conversion method predicts
-better results than the ﬁrst method. Borges et al. (2009)
-conducted a ﬁnite element analysis of an embankment rest-
-ing on stone column-improved soft soil. They proposed a
-new design method based on the improvement factor calcu-
-lated from the area replacement ratio and the deformability
-ratio. Yoo and Kim (2009) selected three types of modeling
-approaches
-to
-analyze
-a
-geo-synthetic-encased
-stone
-column-supported embankment. The authors developed
-an axi-symmetric unit cell model, single column 3D model
-and full 3D model for the embankment-foundation system
-to ﬁnd the diﬀerences among the results in terms of diﬀer-
-ent aspects. The ﬁnite element package ABAQUS was used
-to carry out the numerical simulations. It was observed
-that the single column 3D model could predict exactly
-the same results as the full 3D model, but that the axi-
-symmetric unit cell model predicted 10–20% higher values.
-Yoo (2010) conducted a numerical study on embankments
-resting on geo-synthetic-encased stone column-improved
-soft soil. Numerical models of a single 3D column under
-the center of the embankment and a 3D strip model of
-the embankment were developed with the ﬁnite element
-package ABAQUS. The diﬀerence in performance between
-conventional stone columns and encased stone columns
-was also investigated. Indraratna et al. (2013) conducted
-a numerical analysis of a stone column-supported embank-
-ment assuming the free strain condition. The study was car-
-ried out with the unit cell concept and by incorporating the
-eﬀects of soil arching as well as clogging in the stone col-
-umns and the smear zone. It was observed that the vertical
-stress distribution and the settlement were greatly inﬂu-
-enced by the relative stiﬀness of the columns and the soil,
-the radius of the stone columns and the spacing between
-them. Ng and Tan (2015) compared the response of an
-embankment resting on ﬂoating stone columns by using
-diﬀerent constitutive models. Advanced soil models were
-suggested for the analysis as the results obtained with such
-models show a better agreement with the ﬁeld results.
-Fattah et al. (2016) conducted an experimental study on
-a stone column-supported embankment to quantify the
-improvement with encased stone columns over ordinary
-stone columns. Basack et al. (2016) studied the eﬀect of
-the cyclic load on a stone column-supported embankment.
-They observed that the excess pore pressure increases with
-the increase in the number of cycles and gradually becomes
-stable. Borges and Gonc¸alves (2016) conducted a ﬁnite ele-
-ment analysis on geo-synthetic-reinforced load transfer
-platforms over column-reinforced soft soil. Das and Deb
-(2017b) proposed an elastic model for a stone column-
-supported circular embankment. Basack et al. (2017)
-conducted a numerical study to show the time-dependent
-column deformation of a stone column-supported embank-
-ment. Nonaka et al. (2017) presented a case study on a
-liquefaction countermeasure with vertical drains under an
-embankment. Studies have also been conducted on stone
-column-supported embankments with basal reinforcement
-placed at the base of the embankments or within the gran-
-ular layer for a better load transfer from the soft soil to the
-stone columns (Munfakh et al., 1983; Deb, 2010; Deb and
+Technical Paper settlements below the embankment. Tan et al. (2008) selected a case study of an embankment resting on stone column-improved soil to check the accuracy of two simpli- ﬁed methods for converting the unit cell model to the equivalent plane-strain model for a stone column- improved ground. In the ﬁrst method, the width of the stone columns was kept equal to the original column diam- eter and the soil permeability was modiﬁed, whereas in the second method, the total cross-sectional area of the stone columns and the soil permeability were kept unchanged.
+It is observed that the second conversion method predicts better results than the ﬁrst method. Borges et al. (2009) conducted a ﬁnite element analysis of an embankment rest- ing on stone column-improved soft soil. They proposed a new design method based on the improvement factor calcu- lated from the area replacement ratio and the deformability ratio. Yoo and Kim (2009) selected three types of modeling approaches to analyze a geo-synthetic-encased stone column-supported embankment. The authors developed an axi-symmetric unit cell model, single column 3D model and full 3D model for the embankment-foundation system to ﬁnd the diﬀerences among the results in terms of diﬀer- ent aspects. The ﬁnite element package ABAQUS was used to carry out the numerical simulations. It was observed that the single column 3D model could predict exactly the same results as the full 3D model, but that the axi- symmetric unit cell model predicted 10–20% higher values.
+Yoo (2010) conducted a numerical study on embankments resting on geo-synthetic-encased stone column-improved soft soil. Numerical models of a single 3D column under the center of the embankment and a 3D strip model of the embankment were developed with the ﬁnite element package ABAQUS. The diﬀerence in performance between conventional stone columns and encased stone columns was also investigated. Indraratna et al. (2013) conducted a numerical analysis of a stone column-supported embank- ment assuming the free strain condition. The study was car- ried out with the unit cell concept and by incorporating the eﬀects of soil arching as well as clogging in the stone col- umns and the smear zone. It was observed that the vertical stress distribution and the settlement were greatly inﬂu- enced by the relative stiﬀness of the columns and the soil, the radius of the stone columns and the spacing between them. Ng and Tan (2015) compared the response of an embankment resting on ﬂoating stone columns by using diﬀerent constitutive models. Advanced soil models were suggested for the analysis as the results obtained with such models show a better agreement with the ﬁeld results.
+Fattah et al. (2016) conducted an experimental study on a stone column-supported embankment to quantify the improvement with encased stone columns over ordinary stone columns. Basack et al. (2016) studied the eﬀect of the cyclic load on a stone column-supported embankment.
+They observed that the excess pore pressure increases with the increase in the number of cycles and gradually becomes stable. Borges and Gonc¸alves (2016) conducted a ﬁnite ele- ment analysis on geo-synthetic-reinforced load transfer platforms over column-reinforced soft soil. Das and Deb
+(2017b) proposed an elastic model for a stone column- supported circular embankment. Basack et al. (2017) conducted a numerical study to show the time-dependent column deformation of a stone column-supported embank- ment. Nonaka et al. (2017) presented a case study on a liquefaction countermeasure with vertical drains under an embankment. Studies have also been conducted on stone column-supported embankments with basal reinforcement placed at the base of the embankments or within the gran- ular layer for a better load transfer from the soft soil to the stone columns (Munfakh et al., 1983; Deb, 2010; Deb and
 Mohapatra, 2013).
-It is seen that many studies are available on stone
-column-supported embankments resting on soft soil. How-
-ever, the eﬀect of the ﬁnes present in the embankment soil
-on the response of these stone column-supported embank-
-ments has not been addressed in the available studies. In
-practice, the soil used in the ﬁeld as embankment material
-may contain a signiﬁcant amount of ﬁnes (e.g., clay).
-Chowdhury et al. (2016) showed that the presence of ﬁnes
-in the backﬁll of a braced excavation inﬂuences the design
-parameters signiﬁcantly. Therefore, a systematic study is
-required to show the eﬀect of diﬀerent amounts of ﬁnes
-contents present in the embankment soil on the response
-of stone column-supported c-/ embankments. In the pre-
-sent study, laboratory experiments and a 3D numerical
-modeling
-have
-been
-conducted
-to
-show
-the
-time-
-dependent response of a stone column-improved ground
-due to the presence of the ﬁnes content in the embankment
-soil.
+It is seen that many studies are available on stone column-supported embankments resting on soft soil. How- ever, the eﬀect of the ﬁnes present in the embankment soil on the response of these stone column-supported embank- ments has not been addressed in the available studies. In practice, the soil used in the ﬁeld as embankment material may contain a signiﬁcant amount of ﬁnes (e.g., clay).
+Chowdhury et al. (2016) showed that the presence of ﬁnes in the backﬁll of a braced excavation inﬂuences the design parameters signiﬁcantly. Therefore, a systematic study is required to show the eﬀect of diﬀerent amounts of ﬁnes contents present in the embankment soil on the response of stone column-supported c-/ embankments. In the pre- sent study, laboratory experiments and a 3D numerical modeling have been conducted to show the time- dependent response of a stone column-improved ground due to the presence of the ﬁnes content in the embankment soil.
 2. Experimental program
-Laboratory model tests were performed on stone
-column-supported
-embankments.
-In
-the
-experimental
-study, a clay bed, with a thickness of 600 mm, was rein-
-forced with nine end-bearing stone columns having a diam-
-eter of 75 mm and arranged in a square pattern. Sand with
-or without a ﬁnes content was laid over the stone column-
-improved clay bed as the embankment. The models were
-prepared in a prefabricated steel tank. Table 1 presents a
-summary of the performed laboratory model experiments.
+Laboratory model tests were performed on stone column-supported embankments.
+In the experimental study, a clay bed, with a thickness of 600 mm, was rein- forced with nine end-bearing stone columns having a diam- eter of 75 mm and arranged in a square pattern. Sand with or without a ﬁnes content was laid over the stone column- improved clay bed as the embankment. The models were prepared in a prefabricated steel tank. Table 1 presents a summary of the performed laboratory model experiments.
 2.1. Setup
-Each experiment was conducted in the prefabricated
-steel tank with a square cross section having the dimensions
-of 3S  3S (where S is the spacing between the stone col-
-umns). In the present model test, the spacing between the
-stone columns was taken as 225 mm. The tank had a height
-of 1200 mm and consisted of two detachable halves. The
-lower half of the tank was used to prepare the stone
-column-improved clay bed, while the upper half was ﬁlled
-with sand mixed with or without ﬁnes as the embankment.
-The lower half of the tank was made of steel plates, whereas
-the upper half was an assembly of three plate segments on
-618
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-three sides and a Perspex sheet on one side. Once the stone
-column-improved clay bed was prepared in the lower half,
-the upper half of the tank was ﬁxed to the lower half before
-starting the sand ﬁlling. Both the thickness of the clay bed
+Each experiment was conducted in the prefabricated steel tank with a square cross section having the dimensions of 3S  3S (where S is the spacing between the stone col- umns). In the present model test, the spacing between the stone columns was taken as 225 mm. The tank had a height of 1200 mm and consisted of two detachable halves. The lower half of the tank was used to prepare the stone column-improved clay bed, while the upper half was ﬁlled with sand mixed with or without ﬁnes as the embankment.
+The lower half of the tank was made of steel plates, whereas the upper half was an assembly of three plate segments on
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 three sides and a Perspex sheet on one side. Once the stone column-improved clay bed was prepared in the lower half, the upper half of the tank was ﬁxed to the lower half before starting the sand ﬁlling. Both the thickness of the clay bed
 (Hc) and the height of the embankment (He) were
-600 mm. Fig. 1 shows the typical experimental setup with
-the general arrangement and instrumentation.
+600 mm. Fig. 1 shows the typical experimental setup with the general arrangement and instrumentation.
 2.2. Materials
-Three diﬀerent materials were used in the model tests,
-namely, clay, stone aggregates and sand. The clay used in
-the model tests is classiﬁed as CH as per IS: 1498 (BIS
-(Bureau of Indian Standards), (1970)). The physical prop-
-erties of the clay obtained from the laboratory experiments
-are summarized in Table 2. Poorly graded stones passing
-through a 10-mm sieve, but retained in an 8-mm sieve, were
-ﬁlled in the boreholes to construct the stone columns. The
-unit weight of the stone aggregates was 18 kN/m3. The
-material properties of the stone aggregates obtained from
-the consolidated drained triaxial tests (with a sample diam-
-eter of 75 mm and a height of 150 mm) are presented in
-Table 3. Kansai River sand, mixed with or without a cer-
-tain percentage of clay, was used as the embankment mate-
-rial. As per IS: 1498 (1970), the stone aggregates (Cu = 1.1,
+Three diﬀerent materials were used in the model tests, namely, clay, stone aggregates and sand. The clay used in the model tests is classiﬁed as CH as per IS: 1498 (BIS
+(Bureau of Indian Standards), (1970)). The physical prop- erties of the clay obtained from the laboratory experiments are summarized in Table 2. Poorly graded stones passing through a 10-mm sieve, but retained in an 8-mm sieve, were ﬁlled in the boreholes to construct the stone columns. The unit weight of the stone aggregates was 18 kN/m3. The material properties of the stone aggregates obtained from the consolidated drained triaxial tests (with a sample diam- eter of 75 mm and a height of 150 mm) are presented in
+Table 3. Kansai River sand, mixed with or without a cer- tain percentage of clay, was used as the embankment mate- rial. As per IS: 1498 (1970), the stone aggregates (Cu = 1.1,
 Cc = 1) and the sand (Cu = 2.5, Cc = 0.9) are categorized as
-GP and SP, respectively. The required percentage (by
-weight) of clay was mixed with sand to increase the ﬁnes
-content in the embankment material. The same clay was
-used to prepare the soft bed as was used as the ﬁnes content
-for the embankment soil. The shear strength properties of
-the sand with diﬀerent ﬁnes contents were obtained from
-unconsolidated undrained triaxial tests. Cylindrical speci-
-mens, 38 mm in diameter and 76 mm in height, were used
-for the triaxial testing of sand with or without a ﬁnes con-
-tent. The triaxial samples were prepared in the cylindrical
-mold at the target density by compaction in three layers.
+GP and SP, respectively. The required percentage (by weight) of clay was mixed with sand to increase the ﬁnes content in the embankment material. The same clay was used to prepare the soft bed as was used as the ﬁnes content for the embankment soil. The shear strength properties of the sand with diﬀerent ﬁnes contents were obtained from unconsolidated undrained triaxial tests. Cylindrical speci- mens, 38 mm in diameter and 76 mm in height, were used for the triaxial testing of sand with or without a ﬁnes con- tent. The triaxial samples were prepared in the cylindrical mold at the target density by compaction in three layers.
 Table 1
 Details of model tests.
 Sl. No.
 Fines content (%)
-Non-dimensional height
-of embankment (He/S)
+Non-dimensional height of embankment (He/S)
 S/dc
-1
-0
 2.7
-3
-2
-10
 2.7
-3
-Fig. 1. Laboratory model test setup for stone column-reinforced soft soil under c-U embankment: (a) upper half of setup, (b) lower half of setup, (c) top
-view and (d) sectional elevation.
+Fig. 1. Laboratory model test setup for stone column-reinforced soft soil under c-U embankment: (a) upper half of setup, (b) lower half of setup, (c) top view and (d) sectional elevation.
 Table 2
 Laboratory test results for clay used in model tests.
 Parameter
@@ -260,626 +67,151 @@ Liquid limit (LL)
 Plastic limit (PL)
 19%
 Plasticity index (PI)
-32
 Moisture content (%)
 44 ± 1
 Vertical permeability of clay (kv) in m/s
-1012
+1012
 Degree of saturation (%)
 98.5 ± 1
 A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-619
-However, the compaction eﬀort was not the same for each
-soil with diﬀerent ﬁnes contents. In the present study, the
-maximum dry unit weight of the sand increases due to
-the addition of ﬁnes up to 20%, and it reaches a value of
-19.6 kN/m3 at a water content of 11%. The addition of
-ﬁnes beyond 20% again decreases the maximum dry unit
-weight. This is due to the fact that the voids in the sand
-are being occupied by ﬁnes and this increases the density.
-However, the addition of ﬁnes beyond a certain value
-replaces the sand particles with ﬁnes. Thus, the density of
-the sand is further decreased as the maximum dry density
-of the sand is more than the maximum dry density of the
-ﬁnes (Deb and Konai, 2014; Deb et al., 2010). The opti-
-mum water content increases due to the addition of ﬁnes;
-it is increased from 11% to 13.5% due to the addition of
-ﬁnes from 10% to 50%. In the present study, the model
-embankment soil and the triaxial samples were not fully
-saturated. 10% water was added to the sand to prepare
-the triaxial samples with the required percentage of ﬁnes
-in order to achieve a common bulk unit weight of 16 kN/
-m3 for each soil sample. Thus, to achieve the same unit
-weight, diﬀerent compaction eﬀorts were applied for each
-soil with diﬀerent ﬁnes contents. The compaction eﬀort
-was determined based on a series of trials to achieve a com-
-mon density for all the samples. However, the exact com-
-paction energy was not measured for each sample. The
-mechanical properties of the soil samples diﬀered signiﬁ-
-cantly depending on the ﬁnes content. However, not all
-the mechanical properties were measured for all the sam-
-ples with diﬀerent ﬁnes contents. The maximum dry density
-and the optimum moisture content were measured for each
-sample. The strength parameters and the required model
-parameters were also determined for each sample (as
-shown in Table 4). The same moisture content and density
-were maintained in the triaxial or element tests and the
-model tests. Similar parameters were also reported by
-Chowdhury et al. (2016) to study the eﬀect of ﬁnes on
-the behavior of a braced excavation. According to the Uni-
-ﬁed Soil Classiﬁcation System, if the percentage of ﬁnes is
-more than 12%, the sandy soil can be designated as clayey
-sand (SC). With a percentage of ﬁnes between 5% and 12%,
-a dual symbol (SP-SC) is used. In the case of a percentage
-of ﬁnes of 50%, the soil can be classiﬁed based on its liquid
-limit and plasticity index. The original ﬁnes and sand (less
-than 5% ﬁnes) are classiﬁed as CH and SP, respectively.
+However, the compaction eﬀort was not the same for each soil with diﬀerent ﬁnes contents. In the present study, the maximum dry unit weight of the sand increases due to the addition of ﬁnes up to 20%, and it reaches a value of
+19.6 kN/m3 at a water content of 11%. The addition of ﬁnes beyond 20% again decreases the maximum dry unit weight. This is due to the fact that the voids in the sand are being occupied by ﬁnes and this increases the density.
+However, the addition of ﬁnes beyond a certain value replaces the sand particles with ﬁnes. Thus, the density of the sand is further decreased as the maximum dry density of the sand is more than the maximum dry density of the ﬁnes (Deb and Konai, 2014; Deb et al., 2010). The opti- mum water content increases due to the addition of ﬁnes; it is increased from 11% to 13.5% due to the addition of ﬁnes from 10% to 50%. In the present study, the model embankment soil and the triaxial samples were not fully saturated. 10% water was added to the sand to prepare the triaxial samples with the required percentage of ﬁnes in order to achieve a common bulk unit weight of 16 kN/ m3 for each soil sample. Thus, to achieve the same unit weight, diﬀerent compaction eﬀorts were applied for each soil with diﬀerent ﬁnes contents. The compaction eﬀort was determined based on a series of trials to achieve a com- mon density for all the samples. However, the exact com- paction energy was not measured for each sample. The mechanical properties of the soil samples diﬀered signiﬁ- cantly depending on the ﬁnes content. However, not all the mechanical properties were measured for all the sam- ples with diﬀerent ﬁnes contents. The maximum dry density and the optimum moisture content were measured for each sample. The strength parameters and the required model parameters were also determined for each sample (as shown in Table 4). The same moisture content and density were maintained in the triaxial or element tests and the model tests. Similar parameters were also reported by
+Chowdhury et al. (2016) to study the eﬀect of ﬁnes on the behavior of a braced excavation. According to the Uni- ﬁed Soil Classiﬁcation System, if the percentage of ﬁnes is more than 12%, the sandy soil can be designated as clayey sand (SC). With a percentage of ﬁnes between 5% and 12%, a dual symbol (SP-SC) is used. In the case of a percentage of ﬁnes of 50%, the soil can be classiﬁed based on its liquid limit and plasticity index. The original ﬁnes and sand (less than 5% ﬁnes) are classiﬁed as CH and SP, respectively.
 2.3. Formation of stone-column supported embankment
-A clay bed was prepared inside the lower half of the
-model test tank. Before preparing the clay bed, all the inner
-side walls of the model tank were lubricated with silicon
-emulsion to reduce the frictional resistance between the
-clay and the tank wall and the loss of water. The clay
-bed was prepared in six layers to make the bed homoge-
-neous. Through a series of trials, the amount of water,
-the height of the fall and the number of rammer blows
-required to prepare the soft clay bed were determined.
+A clay bed was prepared inside the lower half of the model test tank. Before preparing the clay bed, all the inner side walls of the model tank were lubricated with silicon emulsion to reduce the frictional resistance between the clay and the tank wall and the loss of water. The clay bed was prepared in six layers to make the bed homoge- neous. Through a series of trials, the amount of water, the height of the fall and the number of rammer blows required to prepare the soft clay bed were determined.
 Based on the trials, the water content and the unit weight
 (saturated) were selected as 44% and 17.2 kN/m3
-, respec-
-tively, to prepare a saturated soft clay bed (the clay bed
-was almost fully saturated with a degree of saturation of
-around 98.5% ± 1%). The degree of saturation was calcu-
-lated from the measured unit weight of the test bed at a
-water content of 44% and speciﬁc gravity of the clay (by
-applying the soil-phase relationship). Soil with this range
-in the degree of saturation can be treated as near saturated
-soil without inﬂuencing the test results for the soft clay bed.
-The dry clay was mixed with water at the required percent-
-age (by weight) and kept in an airtight condition for two
-weeks to achieve a uniform water content. The required
-weight of the clay for each layer was calculated based on
-the saturated unit weight of 17.2 kN/m3. For each layer,
-the required amount of soil to achieve the desired saturated
-density was placed in the test tank. The clay was com-
-pacted inside the tank using a rammer with the dimensions
-of 150 mm  150 mm. The soil samples were collected from
-various positions to check the moisture content. Uncon-
-ﬁned compressive strength (UCS) tests were also conducted
-on the collected samples from diﬀerent layers for cross
-checking. In the present study, the diﬀerence in moisture
-content of the clayey soil between the model test condition
-and the liquid limit was 7% (=51%  44%). The average
+, respec- tively, to prepare a saturated soft clay bed (the clay bed was almost fully saturated with a degree of saturation of around 98.5% ± 1%). The degree of saturation was calcu- lated from the measured unit weight of the test bed at a water content of 44% and speciﬁc gravity of the clay (by applying the soil-phase relationship). Soil with this range in the degree of saturation can be treated as near saturated soil without inﬂuencing the test results for the soft clay bed.
+The dry clay was mixed with water at the required percent- age (by weight) and kept in an airtight condition for two weeks to achieve a uniform water content. The required weight of the clay for each layer was calculated based on the saturated unit weight of 17.2 kN/m3. For each layer, the required amount of soil to achieve the desired saturated density was placed in the test tank. The clay was com- pacted inside the tank using a rammer with the dimensions of 150 mm  150 mm. The soil samples were collected from various positions to check the moisture content. Uncon- ﬁned compressive strength (UCS) tests were also conducted on the collected samples from diﬀerent layers for cross checking. In the present study, the diﬀerence in moisture content of the clayey soil between the model test condition and the liquid limit was 7% (=51%  44%). The average
 UCS value at a moisture content of 44% was found to be
 20 kPa, i.e., the undrained cohesion (cu) was 10 kPa.
 Table 3
-Selected
-parameters
-for
-sand
-and
-stone
-column
-(crushed
-stone
-aggregates).
+Selected parameters for sand and stone column
+(crushed stone aggregates).
 Parameter
 Validation
 (Oh et al., 2007)
-Model test and
-numerical study
-Stone
-column
+Model test and numerical study
+Stone column
 Embankment
 Stone column
 Cohesion in kPa
 0a
 0a
-0
 Internal angle of friction
-45a
-32a
-45
+45a
+32a
+45
 Poisson’s ratio
 0.3b
 0.3b
 0.3
-Vertical permeability (kv)
-in m/s
-104a
+Vertical permeability (kv) in m/s
+104a
 –
-104
+104
 Height in m
-16
-4
 –
 Spacing to diameter ratio
 (S/dc)
-3
 –
-–
-a Assumed for the present study.
+– a Assumed for the present study.
 b Bowles (1997).
 Table 4
 Properties of sand with ﬁnes contents.
-Fines (%)
-c (kPa)
-/ ()
-m
-K
-n
-0
-0
-32
+Fines (%) c (kPa)
+/ () m
+K n
 0.30
 133.55
 0.45
-10
 22.6
-24
 0.36
 106.46
 0.52
-20
 33.2
-20
 0.39
 82.92
 0.55
-40
 49.4
-12
 0.44
 53.12
 0.70
-50
 51.0
-10
 0.45
 47.07
-0.74
-c = cohesion,
-/ = internal
-angle
-of
-friction,
-m = Poisson’s
-ratio,
+0.74 c = cohesion,
+/ = internal angle of friction, m = Poisson’s ratio,
 K = modulus number, n = exponent.
-620
 A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
 Similar to the present study, Das et al. (1993), Shin et al.
-(1993) and Dash and Bora (2013) also applied uniform
-compaction on soft clay layers with a cu value of 7.0 kPa
-(or less) and a water content close to the liquid limit (the
-diﬀerence in the water content of the clay at the liquid limit
-and the model test is less than 8%). The compaction energy
-may be diﬀerent for diﬀerent studies, but compaction was
-applied. The method used to prepare the soft clay bed in
-the present study is also similar to that in a number of pre-
-vious studies (Das et al., 1993; Shin et al., 1993; Ambily
-and Gandhi, 2007; Deb et al., 2011; Dash and Bora,
+(1993) and Dash and Bora (2013) also applied uniform compaction on soft clay layers with a cu value of 7.0 kPa
+(or less) and a water content close to the liquid limit (the diﬀerence in the water content of the clay at the liquid limit and the model test is less than 8%). The compaction energy may be diﬀerent for diﬀerent studies, but compaction was applied. The method used to prepare the soft clay bed in the present study is also similar to that in a number of pre- vious studies (Das et al., 1993; Shin et al., 1993; Ambily and Gandhi, 2007; Deb et al., 2011; Dash and Bora,
 2013; Saha Roy and Deb, 2017a, b, 2018, 2019).
-After completing the clay bed, hand augers were used to
-make boreholes for the stone columns. Each borehole was
-ﬁlled with crushed stone aggregates and compacted in three
-layers of 200 mm each. In each layer, the stone aggregates
-were compacted six times with a hammer, 2 kg in weight,
-falling from a height of 300 mm to form a stone column.
-The stone columns were constructed by keeping the
-weight-volume relationship consistent to maintain the
-shape, i.e., the required weight of the stone for each layer
-was calculated based on the known volume and the unit
-weight of 18 kN/m3. A cross check was also made after
-the completion of the each test while emptying the lower
-tank. All nine stone columns were formed and the pressure
-transducers were placed at the ground level, as shown in
-Fig. 1. Four pressure transducers were used in the experi-
-mental set up. Two transducers were placed on two stone
-columns (C1 and C2) and two more transducers were
-placed in the soft soil (S1 and S2), as shown in Fig. 2c.
-The measurements obtained from C2 were not included
-in the results due to the possible interaction between the
-soft soil and the test tank wall (as it was placed close to
-the wall), although lubricant was applied on the tank wall
-before starting each experiment. On the other hand, the
-results obtained from S1 and S2 were almost the same.
-Therefore, the vertical stress obtained from C1 and S1
-has been presented in the results. The pressure transducers
-were 50 mm in diameter and 10 mm in thickness. Clayton
-and Bica (1993) suggested that the ﬂexibility ratio (F)
-should be less than 0.25 for a stress measurement having
-no eﬀect of stiﬀness of the pressure transducers. Stiﬀness
-factor (F) is expressed as F = (Esoil  R3)/(Ecell  t3), where
-Esoil and Ecell are the moduli of elasticity of the soil and the
-diaphragm material of the pressure transducers, respec-
-tively. R and t are the radius and the thickness of the
-diaphragms, respectively. The pressure transducers used
-in the present study have diaphragms made of steel
-(Ecell = 200 GPa) with a radius of 15 mm and a thickness
-of 1.5 mm. Considering the maximum modulus of elasticity
-of soil or stone as 40 MPa, the stiﬀness factor is 0.2. There-
-fore, the stress measurements are not expected to be
-Fig. 2. Steps of model laboratory tests: (a) preparation of clay bed, (b) formation of stone column, (c) instrumentation with stress transducer and (d)
-placing of c-/ soil above clay bed.
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-621
-aﬀected by the stiﬀness of the pressure transducers. The
-upper half of the tank was attached to the lower half for
-sand ﬁlling after instrumentation.
-The sand was thoroughly mixed with 10% water in the
-case of the experiment for no ﬁnes content (otherwise
-10% water along with the required quantity of clay). The
-sand was placed inside the tank with a hopper in 200-mm
-layers to achieve the target density. For all the model tests,
-the bulk unit weight of the soil was kept at 16 kN/m3. For
-each layer, the required amount of sand (with or without a
-ﬁnes content) to achieve the desired unit weight was placed
-in the upper half of the tank and compacted. The com-
-paction was done by tamping with a light wooden block
-(250 gm) having dimensions of 100  100 mm. The com-
-paction eﬀort was diﬀerent for each sample with diﬀerent
-ﬁnes contents. The required compaction eﬀort for each
-sample to achieve the desired unit weight was also decided
-based on trial tests. Very little eﬀort was applied to
-compact the sand, which is not expected to aﬀect the soft
-soil. A similar weight-volume method has also been used
-by various researchers to prepare homogeneous sand beds
+After completing the clay bed, hand augers were used to make boreholes for the stone columns. Each borehole was ﬁlled with crushed stone aggregates and compacted in three layers of 200 mm each. In each layer, the stone aggregates were compacted six times with a hammer, 2 kg in weight, falling from a height of 300 mm to form a stone column.
+The stone columns were constructed by keeping the weight-volume relationship consistent to maintain the shape, i.e., the required weight of the stone for each layer was calculated based on the known volume and the unit weight of 18 kN/m3. A cross check was also made after the completion of the each test while emptying the lower tank. All nine stone columns were formed and the pressure transducers were placed at the ground level, as shown in
+Fig. 1. Four pressure transducers were used in the experi- mental set up. Two transducers were placed on two stone columns (C1 and C2) and two more transducers were placed in the soft soil (S1 and S2), as shown in Fig. 2c.
+The measurements obtained from C2 were not included in the results due to the possible interaction between the soft soil and the test tank wall (as it was placed close to the wall), although lubricant was applied on the tank wall before starting each experiment. On the other hand, the results obtained from S1 and S2 were almost the same.
+Therefore, the vertical stress obtained from C1 and S1 has been presented in the results. The pressure transducers were 50 mm in diameter and 10 mm in thickness. Clayton and Bica (1993) suggested that the ﬂexibility ratio (F) should be less than 0.25 for a stress measurement having no eﬀect of stiﬀness of the pressure transducers. Stiﬀness factor (F) is expressed as F = (Esoil  R3)/(Ecell  t3), where
+Esoil and Ecell are the moduli of elasticity of the soil and the diaphragm material of the pressure transducers, respec- tively. R and t are the radius and the thickness of the diaphragms, respectively. The pressure transducers used in the present study have diaphragms made of steel
+(Ecell = 200 GPa) with a radius of 15 mm and a thickness of 1.5 mm. Considering the maximum modulus of elasticity of soil or stone as 40 MPa, the stiﬀness factor is 0.2. There- fore, the stress measurements are not expected to be
+Fig. 2. Steps of model laboratory tests: (a) preparation of clay bed, (b) formation of stone column, (c) instrumentation with stress transducer and (d) placing of c-/ soil above clay bed.
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 aﬀected by the stiﬀness of the pressure transducers. The upper half of the tank was attached to the lower half for sand ﬁlling after instrumentation.
+The sand was thoroughly mixed with 10% water in the case of the experiment for no ﬁnes content (otherwise
+10% water along with the required quantity of clay). The sand was placed inside the tank with a hopper in 200-mm layers to achieve the target density. For all the model tests, the bulk unit weight of the soil was kept at 16 kN/m3. For each layer, the required amount of sand (with or without a ﬁnes content) to achieve the desired unit weight was placed in the upper half of the tank and compacted. The com- paction was done by tamping with a light wooden block
+(250 gm) having dimensions of 100  100 mm. The com- paction eﬀort was diﬀerent for each sample with diﬀerent ﬁnes contents. The required compaction eﬀort for each sample to achieve the desired unit weight was also decided based on trial tests. Very little eﬀort was applied to compact the sand, which is not expected to aﬀect the soft soil. A similar weight-volume method has also been used by various researchers to prepare homogeneous sand beds
 (Shin and Das, 2000; Lavasan and Ghazavi, 2012; Abu-
-Farsakh et al., 2013) and sand beds over soft clay (Deb
-et al., 2011; Debnath and Dey, 2017, Saha Roy and Deb,
-2017a, b, 2018, 2019). However, the required compaction
-energy was diﬀerent according to the density of the sand
-bed of the respective studies. The vertical stress measure-
-ment was done through the computerized data logger
-system after the completion of the embankment. The rate
-of change in the vertical stress was initially high and
-reached a steady state after a certain period of time. The
-stress recording was stopped once the rate of change in ver-
-tical stress became very low. Drainage was allowed only
-from the top surface of the stone column-improved clay
-bed, i.e., at the clay-embankment level. Each experiment
-was continued for a minimum duration of three days and
-a maximum duration of ﬁve days. An observation was
-made on the rate of change in stress during the model
-experiments to decide when to stop the experiment. The
-experiment was stopped when the rate of change in stress
-was observed to be insigniﬁcant for a long duration. This
-was used as an indication of the completion of the major
-part of the soft soil consolidation. The experimental results
-were used to validate the numerical model for a reasonable
-time period; completing the consolidation was not the goal.
-In the parametric study using the numerical model, com-
-plete consolidation was achieved from the observations
-on the changes in settlement and pore pressure. The numer-
-ical modeling was stopped when no further changes in
-settlement or pore pressure were observed after a long
-duration. After the completion of the test, the sand and
-the clay were removed from the tank. Fig. 2 shows the dif-
-ferent steps involved in the laboratory model experiments.
-Each test was repeated to ensure the reproducibility. It was
-observed that the test results are reproducible with a
-maximum variation of ±6%.
+Farsakh et al., 2013) and sand beds over soft clay (Deb et al., 2011; Debnath and Dey, 2017, Saha Roy and Deb,
+2017a, b, 2018, 2019). However, the required compaction energy was diﬀerent according to the density of the sand bed of the respective studies. The vertical stress measure- ment was done through the computerized data logger system after the completion of the embankment. The rate of change in the vertical stress was initially high and reached a steady state after a certain period of time. The stress recording was stopped once the rate of change in ver- tical stress became very low. Drainage was allowed only from the top surface of the stone column-improved clay bed, i.e., at the clay-embankment level. Each experiment was continued for a minimum duration of three days and a maximum duration of ﬁve days. An observation was made on the rate of change in stress during the model experiments to decide when to stop the experiment. The experiment was stopped when the rate of change in stress was observed to be insigniﬁcant for a long duration. This was used as an indication of the completion of the major part of the soft soil consolidation. The experimental results were used to validate the numerical model for a reasonable time period; completing the consolidation was not the goal.
+In the parametric study using the numerical model, com- plete consolidation was achieved from the observations on the changes in settlement and pore pressure. The numer- ical modeling was stopped when no further changes in settlement or pore pressure were observed after a long duration. After the completion of the test, the sand and the clay were removed from the tank. Fig. 2 shows the dif- ferent steps involved in the laboratory model experiments.
+Each test was repeated to ensure the reproducibility. It was observed that the test results are reproducible with a maximum variation of ±6%.
 3. Numerical model
-The numerical analysis is carried out using ﬁnite
-diﬀerence software package FLAC3D. FLAC3D is specially
-developed to analyze problems related to geotechnical
-and geological engineering. In the present study, models
-with appropriate boundary conditions are developed to
-show the response of stone column-improved soft soil sub-
-jected to c-/ embankment loading. The properties of the
-embankment soil vary depending on the ﬁnes content pre-
-sent in the embankment material. Both undrained and
-drained analyses are performed for saturated soft soil in
-the numerical simulation under the ‘conﬁg ﬂuid’ mode
-(Itasca, 2009). However, only an undrained analysis was
-performed for the embankment soil. In the present study,
-the construction time of the embankment is not taken into
-account. It has been observed that the ﬁnal load and the
-time required to attain the ﬁnal settlement are the same
-whether stage construction is considered or not (Zhu and
-Yin, 2004; Xie et al., 2009). However, the initial settlement
-rate may change due to the consideration of the construc-
-tion loading. Studies have been done by various researchers
-with and without giving consideration to the construction
-process in the analysis (Han et al., 2007; Yoo, 2010; Ng
-and Tan, 2015). Thus, before starting the drained analysis
-in the stone column-improved ground, equilibrium is
-achieved under the undrained condition immediately after
-the application of gravity loading in the form of the
-embankment. In the drained analysis, the soft soil is
-subjected to three-dimensional consolidations, whereas
-only vertical drainage is allowed in the stone columns. A
-coupled ﬂuid-mechanical analysis is done to simulate the
-consolidation process. In the present study, the pore ﬂuid
-ﬂow is modeled both in horizontal and vertical directions
-during consolidation of the soft soil. In the case of soft soil,
-it is assumed that the permeability in both horizontal and
-vertical directions (x and y directions) is equal. However,
-the permeability of the soft soil in the horizontal direction
-is considered to be three times that in the vertical direction,
-as suggested by Ng and Tan (2015). An anisotropic ﬂuid
-ﬂow condition is assigned to simulate diﬀerent permeabili-
-ties in diﬀerent directions. Thus, the numerical model is
-able to simulate the time-dependent responses along with
-the changes due to the change in the ﬁnes content of the
-embankment soil.
-In the present study, the stone columns are arranged in a
-square pattern. It is assumed that the pore water ﬂow to
-each stone column occurs from a square cross-sectional
-area. The area of the square cross section is called the inﬂu-
-ence zone of the stone column; it is positioned at the center
-of the inﬂuence zone. The vertical walls of each inﬂuence
-zone are assumed to be impervious. Due to symmetry, only
-a quarter of the inﬂuence zone is modeled in the numerical
-analysis. All the models are developed with radial brick ele-
-ments (as shown in Fig. 3). At ﬁrst, the geometry of the
-model is generated up to the ground level by maintaining
-622
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-the radius of the circular zone equal to the radius of the
-stone column. The zones of the soft soil and the stone col-
-umns are deﬁned at this stage with proper dimensions and
-material properties. The initial equilibrium and stress states
-are reached before the generation of the embankment
-geometry. In the next stage, the embankment geometry is
-generated and appropriate constitutive model and proper-
-ties are assigned. The boundary conditions are deﬁned after
-each stage of geometry generation. On all the vertical
-planes of the model, the displacement in the orthogonal
-direction is restricted to zero. All the points are assumed
-to be ﬁxed in any direction at the bottom of the model as
-the stone columns are of the end-bearing type. The bound-
-ary conditions are selected appropriately, such that the
-quarter symmetry model becomes a part of the soft soil
-improved by the group of stone columns. Thus, the eﬀect
-of arching is taken into consideration in the numerical
-model developed in the present study. The initial pore pres-
-sure is deﬁned as zero at the ground level (i.e., at the inter-
-face between the stone column-improved ground and the
-embankment) as drainage is allowed at the interface
-between the base of the embankment and the stone
-column-improved ground. Drainage is also allowed at the
-interface between the stone columns and the soft soil.
-The numerical model is conﬁgured for ﬂuid ﬂow only in
-the stone columns and the soft soil. The embankment is
-not conﬁgured for ﬂuid ﬂow as the embankment is not
-expected to be aﬀected by the soft soil moisture, except
-for a small thickness near the ground-embankment inter-
-face. Thus, it is assumed that free drainage will occur at
-the embankment-improved ground interface and that the
-embankment soil will not aﬀect the drainage as, in practice,
-a small layer of sand without a ﬁnes content may be used
-for the drainage layer between the embankment and the
-improved ground. However, this layer is not considered
-in the present model as it will not signiﬁcantly aﬀect the
-outcome of the present study. In the present study, the
-water table position is considered at the embankment-
-improved ground interface. Thus, only the ﬂuid ﬂow of
-the improved ground is considered. Under this condition,
-the permeability of the embankment has a negligible eﬀect
-on the consolidation of the improved ground. However,
-ﬂuid ﬂow in the embankment may also occur due to rain-
-fall inﬁltration. However, this is not considered in the pre-
-sent study and may be thought of as a limitation of the
-present study. No interface element is used between the soft
-soil and the stone columns as no signiﬁcant shearing occurs
-in that zone (Ambily and Gandhi, 2007). A convergence
-study is done for all the models by changing the number
-of zones in diﬀerent directions. The smear eﬀect of the
-stone columns is not considered in order to keep the anal-
-ysis simple.
-FALC3D provides many advanced constitutive models,
-which can be assigned to model diﬀerent materials. The
-Modiﬁed Cam-Clay (MCC) model is considered for the
-soft soil and the Mohr-Coulomb (MC) model is considered
-for the granular materials (crushed stone and sand with
-ﬁnes) as the constitutive models. The input parameters
-for the MCC model are determined from consolidated
-drained (CD) triaxial tests (for slope (M) of the critical
-state line in the p0 - q space) and from the sv-lnp0 curve plot-
-ted using the isotropic consolidation test data conducted in
-a triaxial test apparatus with loading-unloading-reloading
-cycles (where sv is the speciﬁc volume and p0 is the normal
-consolidation pressure). The curves in the sv-lnp0 space can
-be expressed by the following equations:
-sv ¼ svk  kln p
-p1
-ð1Þ
-sv ¼ svj  jln p
-p1
-ð2Þ
-where svk and svj are the speciﬁc volumes at the reference
-pressure (p1) on the normal consolidation line and the elas-
-tic swelling line, respectively. Eqs. (1) and (2) represent the
-normal consolidation line and the elastic swelling line,
-respectively. The properties required to deﬁne the MC
-models are obtained from the triaxial tests.
+The numerical analysis is carried out using ﬁnite diﬀerence software package FLAC3D. FLAC3D is specially developed to analyze problems related to geotechnical and geological engineering. In the present study, models with appropriate boundary conditions are developed to show the response of stone column-improved soft soil sub- jected to c-/ embankment loading. The properties of the embankment soil vary depending on the ﬁnes content pre- sent in the embankment material. Both undrained and drained analyses are performed for saturated soft soil in the numerical simulation under the ‘conﬁg ﬂuid’ mode
+(Itasca, 2009). However, only an undrained analysis was performed for the embankment soil. In the present study, the construction time of the embankment is not taken into account. It has been observed that the ﬁnal load and the time required to attain the ﬁnal settlement are the same whether stage construction is considered or not (Zhu and
+Yin, 2004; Xie et al., 2009). However, the initial settlement rate may change due to the consideration of the construc- tion loading. Studies have been done by various researchers with and without giving consideration to the construction process in the analysis (Han et al., 2007; Yoo, 2010; Ng and Tan, 2015). Thus, before starting the drained analysis in the stone column-improved ground, equilibrium is achieved under the undrained condition immediately after the application of gravity loading in the form of the embankment. In the drained analysis, the soft soil is subjected to three-dimensional consolidations, whereas only vertical drainage is allowed in the stone columns. A coupled ﬂuid-mechanical analysis is done to simulate the consolidation process. In the present study, the pore ﬂuid ﬂow is modeled both in horizontal and vertical directions during consolidation of the soft soil. In the case of soft soil, it is assumed that the permeability in both horizontal and vertical directions (x and y directions) is equal. However, the permeability of the soft soil in the horizontal direction is considered to be three times that in the vertical direction, as suggested by Ng and Tan (2015). An anisotropic ﬂuid ﬂow condition is assigned to simulate diﬀerent permeabili- ties in diﬀerent directions. Thus, the numerical model is able to simulate the time-dependent responses along with the changes due to the change in the ﬁnes content of the embankment soil.
+In the present study, the stone columns are arranged in a square pattern. It is assumed that the pore water ﬂow to each stone column occurs from a square cross-sectional area. The area of the square cross section is called the inﬂu- ence zone of the stone column; it is positioned at the center of the inﬂuence zone. The vertical walls of each inﬂuence zone are assumed to be impervious. Due to symmetry, only a quarter of the inﬂuence zone is modeled in the numerical analysis. All the models are developed with radial brick ele- ments (as shown in Fig. 3). At ﬁrst, the geometry of the model is generated up to the ground level by maintaining
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 the radius of the circular zone equal to the radius of the stone column. The zones of the soft soil and the stone col- umns are deﬁned at this stage with proper dimensions and material properties. The initial equilibrium and stress states are reached before the generation of the embankment geometry. In the next stage, the embankment geometry is generated and appropriate constitutive model and proper- ties are assigned. The boundary conditions are deﬁned after each stage of geometry generation. On all the vertical planes of the model, the displacement in the orthogonal direction is restricted to zero. All the points are assumed to be ﬁxed in any direction at the bottom of the model as the stone columns are of the end-bearing type. The bound- ary conditions are selected appropriately, such that the quarter symmetry model becomes a part of the soft soil improved by the group of stone columns. Thus, the eﬀect of arching is taken into consideration in the numerical model developed in the present study. The initial pore pres- sure is deﬁned as zero at the ground level (i.e., at the inter- face between the stone column-improved ground and the embankment) as drainage is allowed at the interface between the base of the embankment and the stone column-improved ground. Drainage is also allowed at the interface between the stone columns and the soft soil.
+The numerical model is conﬁgured for ﬂuid ﬂow only in the stone columns and the soft soil. The embankment is not conﬁgured for ﬂuid ﬂow as the embankment is not expected to be aﬀected by the soft soil moisture, except for a small thickness near the ground-embankment inter- face. Thus, it is assumed that free drainage will occur at the embankment-improved ground interface and that the embankment soil will not aﬀect the drainage as, in practice, a small layer of sand without a ﬁnes content may be used for the drainage layer between the embankment and the improved ground. However, this layer is not considered in the present model as it will not signiﬁcantly aﬀect the outcome of the present study. In the present study, the water table position is considered at the embankment- improved ground interface. Thus, only the ﬂuid ﬂow of the improved ground is considered. Under this condition, the permeability of the embankment has a negligible eﬀect on the consolidation of the improved ground. However, ﬂuid ﬂow in the embankment may also occur due to rain- fall inﬁltration. However, this is not considered in the pre- sent study and may be thought of as a limitation of the present study. No interface element is used between the soft soil and the stone columns as no signiﬁcant shearing occurs in that zone (Ambily and Gandhi, 2007). A convergence study is done for all the models by changing the number of zones in diﬀerent directions. The smear eﬀect of the stone columns is not considered in order to keep the anal- ysis simple.
+FALC3D provides many advanced constitutive models, which can be assigned to model diﬀerent materials. The
+Modiﬁed Cam-Clay (MCC) model is considered for the soft soil and the Mohr-Coulomb (MC) model is considered for the granular materials (crushed stone and sand with ﬁnes) as the constitutive models. The input parameters for the MCC model are determined from consolidated drained (CD) triaxial tests (for slope (M) of the critical state line in the p0 - q space) and from the sv-lnp0 curve plot- ted using the isotropic consolidation test data conducted in a triaxial test apparatus with loading-unloading-reloading cycles (where sv is the speciﬁc volume and p0 is the normal consolidation pressure). The curves in the sv-lnp0 space can be expressed by the following equations:
+sv _ svk  kln p p1 ð1Þ sv _ svj  jln p p1 ð2Þ where svk and svj are the speciﬁc volumes at the reference pressure (p1) on the normal consolidation line and the elas- tic swelling line, respectively. Eqs. (1) and (2) represent the normal consolidation line and the elastic swelling line, respectively. The properties required to deﬁne the MC models are obtained from the triaxial tests.
 3.1. Coupled ﬂuid-mechanical analysis
-The present numerical study is performed on a stone
-column-improved soft soil where three-dimensional consol-
-idation is predominant. Three-dimensional consolidation
-in FLAC3D is governed by Biot’s theory. In FLAC3D, con-
-solidation or a drained analysis can be simulated with two
+The present numerical study is performed on a stone column-improved soft soil where three-dimensional consol- idation is predominant. Three-dimensional consolidation in FLAC3D is governed by Biot’s theory. In FLAC3D, con- solidation or a drained analysis can be simulated with two
 Fig. 3. Geometry and boundary conditions of model simulated in
-FLAC3D for numerical analysis: (a) model with embankment, (b) model
-without embankment and (c) top view of model.
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-623
-methods, either a coupled analysis or an uncoupled analy-
-sis. In a coupled ﬂuid-mechanical analysis, the excess pore
-water pressure dissipates either by means of a horizontal
-pore ﬂuid ﬂow from the soft soil into the stone column
-or by a vertical ﬂuid ﬂow. Volumetric changes in the soft
-soil take place simultaneously; this changes the stress and
-displacement with time. The occurrence of the ﬂuid ﬂow
-followed by volumetric changes in the soft soil is a contin-
-uous process in the coupled analysis until it reaches the pre-
-deﬁned time. In the total coupled analysis, the ﬂuid ﬂow is
-kept ‘on’ along with the ‘mechanical cycle’ (volumetric
-changes). The two processes continue simultaneously
-depending on the given number of steps deﬁned for each
-process in each cycle (100 steps for the ﬂuid ﬂow and 10
-steps for the mechanical cycle are considered in the present
-study) and for a predeﬁned limit of unbalanced force (105
-in the present study). The numbers of steps for the ﬂuid
-ﬂow and the mechanical cycle are ﬁxed by trials following
-the FLAC3D manual guidelines (Itasca, 2009). After per-
-forming the given number of ﬂuid ﬂow steps, the mechan-
-ical cycles are run for the given number of steps or until the
-unbalanced force limit is reached, whichever happens
-sooner. The time step is explicitly determined by the
-FLAC3D depending on the geometry of the model. On
-the other hand, in the uncoupled analysis, the mechanical
-cycle is kept ‘oﬀ’ when the ﬂuid ﬂow steps are performed
-and the ﬂuid ﬂow is kept ‘oﬀ’ when the mechanical cycles
-are running. In the present study, a coupled analysis is per-
-formed as the expected time for the ﬁnal consolidation is
-long and the time required to reach the ultimate settlement
-is unknown. In each analysis, the time limit for the drained
-analysis is kept longer and the analysis is interrupted once
-it reaches the ultimate settlement (which is decided by
-observing the time-settlement plot).
+FLAC3D for numerical analysis: (a) model with embankment, (b) model without embankment and (c) top view of model.
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 methods, either a coupled analysis or an uncoupled analy- sis. In a coupled ﬂuid-mechanical analysis, the excess pore water pressure dissipates either by means of a horizontal pore ﬂuid ﬂow from the soft soil into the stone column or by a vertical ﬂuid ﬂow. Volumetric changes in the soft soil take place simultaneously; this changes the stress and displacement with time. The occurrence of the ﬂuid ﬂow followed by volumetric changes in the soft soil is a contin- uous process in the coupled analysis until it reaches the pre- deﬁned time. In the total coupled analysis, the ﬂuid ﬂow is kept ‘on’ along with the ‘mechanical cycle’ (volumetric changes). The two processes continue simultaneously depending on the given number of steps deﬁned for each process in each cycle (100 steps for the ﬂuid ﬂow and 10 steps for the mechanical cycle are considered in the present study) and for a predeﬁned limit of unbalanced force (105 in the present study). The numbers of steps for the ﬂuid ﬂow and the mechanical cycle are ﬁxed by trials following the FLAC3D manual guidelines (Itasca, 2009). After per- forming the given number of ﬂuid ﬂow steps, the mechan- ical cycles are run for the given number of steps or until the unbalanced force limit is reached, whichever happens sooner. The time step is explicitly determined by the
+FLAC3D depending on the geometry of the model. On the other hand, in the uncoupled analysis, the mechanical cycle is kept ‘oﬀ’ when the ﬂuid ﬂow steps are performed and the ﬂuid ﬂow is kept ‘oﬀ’ when the mechanical cycles are running. In the present study, a coupled analysis is per- formed as the expected time for the ﬁnal consolidation is long and the time required to reach the ultimate settlement is unknown. In each analysis, the time limit for the drained analysis is kept longer and the analysis is interrupted once it reaches the ultimate settlement (which is decided by observing the time-settlement plot).
 4. Validation of numerical model with experimental data
-The developed numerical models are validated with the
-laboratory model test data. The elastic modulus of the sand
-with ﬁnes and stone aggregates is scaled with respect to the
-average conﬁning pressure for the numerical models used
-in the comparative study. The average conﬁning pressure
-is calculated based on the coeﬃcient of earth pressure at
-rest (K0 = 1 – sin /0). The scaled elastic modulus is calcu-
-lated based on the elastic modulus obtained from the triax-
-ial tests for three diﬀerent conﬁning pressures (r3) and
-using the correlation proposed by Janbu (1963) as follows:
-Ei ¼ Kpa
-r3
-pa
-
-n
-ð3Þ
-where Ei is the elastic modulus at any conﬁning pressure, pa
-is the atmospheric pressure (101.325 kPa), K is the modulus
-number and n is the exponent. In the present study, the
-modulus number (K) and exponent (n) are obtained as
+The developed numerical models are validated with the laboratory model test data. The elastic modulus of the sand with ﬁnes and stone aggregates is scaled with respect to the average conﬁning pressure for the numerical models used in the comparative study. The average conﬁning pressure is calculated based on the coeﬃcient of earth pressure at rest (K0 = 1 – sin /0). The scaled elastic modulus is calcu- lated based on the elastic modulus obtained from the triax- ial tests for three diﬀerent conﬁning pressures (r3) and using the correlation proposed by Janbu (1963) as follows:
+Ei _ Kpa r3 pa
+
+n ð3Þ where Ei is the elastic modulus at any conﬁning pressure, pa is the atmospheric pressure (101.325 kPa), K is the modulus number and n is the exponent. In the present study, the modulus number (K) and exponent (n) are obtained as
 1471.06 and 1.55, respectively, for the stone aggregates.
-The same parameters for the sand (with or without ﬁnes)
-are summarized in Table 4. The elastic modulus of the
-embankment soil was measured from the initial straight
-portion of the stress-strain curve obtained from triaxial
-tests. Duncan and Chang (1970) demonstrated from
-reported cases in literature that the relationship shown in
-Eq. (3) is valid for a wide range of soil, for example, from
-rockﬁll material to silt. Fig. 4 shows a comparison of the
-vertical stress (termed as contact stress) acting on stone col-
-umns and soft soil at the interface between a stone column-
-improved ground and an embankment obtained from the
-experimental and numerical studies for zero and 10% ﬁnes
-content in the embankment soil. The contact stress does
-not start from zero as the measurement of contact stress
-was started after the completion of the embankment con-
-struction. It is also observed that after a certain time, the
-change in contact stress with time becomes insigniﬁcant.
-The contact stress on the soft soil is not the same through-
-out the embankment loading. However, the change in con-
-tact stress on the soft soil is small compared to the change
-in contact stress on the stone columns. It is observed in
-Fig. 4 that the rate of change in contact stress is very high
-on the stone columns from the very beginning compared to
-the soft soil due to the arching. However, the steady state
-condition is reached at the same time on the soft soil and
-the stone columns. This arching eﬀect is reduced due to
-the increase in the ﬁnes content which causes the increase
-in contact stress on the soft soil and the decrease in contact
-stress on the stone columns. Once again, the reduction of
-contact stress on the stone columns due to the addition
-of ﬁnes is more compared to the increase in contact stress
-on the soft soil. A good agreement is observed between
-the contact stresses obtained from the experimental and
-the numerical models with a maximum variation of 10%.
-All the input parameters used in the constitutive models
-are tabulated in Tables 3–5.
+The same parameters for the sand (with or without ﬁnes) are summarized in Table 4. The elastic modulus of the embankment soil was measured from the initial straight portion of the stress-strain curve obtained from triaxial tests. Duncan and Chang (1970) demonstrated from reported cases in literature that the relationship shown in
+Eq. (3) is valid for a wide range of soil, for example, from rockﬁll material to silt. Fig. 4 shows a comparison of the vertical stress (termed as contact stress) acting on stone col- umns and soft soil at the interface between a stone column- improved ground and an embankment obtained from the experimental and numerical studies for zero and 10% ﬁnes content in the embankment soil. The contact stress does not start from zero as the measurement of contact stress was started after the completion of the embankment con- struction. It is also observed that after a certain time, the change in contact stress with time becomes insigniﬁcant.
+The contact stress on the soft soil is not the same through- out the embankment loading. However, the change in con- tact stress on the soft soil is small compared to the change in contact stress on the stone columns. It is observed in
+Fig. 4 that the rate of change in contact stress is very high on the stone columns from the very beginning compared to the soft soil due to the arching. However, the steady state condition is reached at the same time on the soft soil and the stone columns. This arching eﬀect is reduced due to the increase in the ﬁnes content which causes the increase in contact stress on the soft soil and the decrease in contact stress on the stone columns. Once again, the reduction of contact stress on the stone columns due to the addition of ﬁnes is more compared to the increase in contact stress on the soft soil. A good agreement is observed between the contact stresses obtained from the experimental and the numerical models with a maximum variation of 10%.
+All the input parameters used in the constitutive models are tabulated in Tables 3–5.
 5. Comparison with case study
-The deformation was very small in the model experi-
-ment due to the small thickness of both the clay layer
-Fig. 4. Comparison of numerical results with laboratory model test
-results.
-624
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-and the embankment loading compared to that of the pro-
-totype model. Adequate technology was not available to
-measure such small deformation at the embankment-soft
-soil interface without aﬀecting the ground response. Even
-the selected embankment height was greater than the criti-
-cal height (the height at which no diﬀerential settlement is
-observed on the embankment surface or the height of the
-equal settlement plane) and no diﬀerential settlement was
-observed on the embankment surface. Thus, the vertical
-settlement obtained from the numerical model is also com-
-pared with a case study of a trial embankment constructed
-on estuarine clay in South-east Queensland, Australia (Oh
-et al., 2007). The test embankment was constructed over a
-ground of three segments with diﬀerent conditions. Among
-the three segments, one segment was a natural deposit of
-soft soil and the other two segments were improved with
-stone columns with the spacing of 2 m and 3 m. The
-required parameters (k and j) for the soft soil (MCC
-model) were calculated from the oedometer test data pro-
-vided for diﬀerent depths and boreholes using the following
-correlations (Wood, 1990; Bowles, 1997):
-k ¼ Cc=ln10
-ð4Þ
-j ¼ Cs=ln10
-ð5Þ
-where k and j are the slope of the normal consolidation
-line and the slope of the elastic swelling line, respectively.
-Cc and Cs are the compression index and the swelling index
-of the soft soil, respectively. Tables 3 and 5 present the
-input parameters used for the numerical simulation of the
-untreated and treated (stone columns with the 3-m spacing)
-segments of the embankment. Fig. 5 shows a comparison
-between the rates of settlement of the untreated and the
-stone column-treated (with the 3-m spacing) segments mea-
-sured in the ﬁeld and obtained from the numerical model.
-The results obtained from the present numerical model
-show a good agreement with the results obtained from
-the ﬁeld measurements and the laboratory model tests.
+The deformation was very small in the model experi- ment due to the small thickness of both the clay layer
+Fig. 4. Comparison of numerical results with laboratory model test results.
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 and the embankment loading compared to that of the pro- totype model. Adequate technology was not available to measure such small deformation at the embankment-soft soil interface without aﬀecting the ground response. Even the selected embankment height was greater than the criti- cal height (the height at which no diﬀerential settlement is observed on the embankment surface or the height of the equal settlement plane) and no diﬀerential settlement was observed on the embankment surface. Thus, the vertical settlement obtained from the numerical model is also com- pared with a case study of a trial embankment constructed on estuarine clay in South-east Queensland, Australia (Oh et al., 2007). The test embankment was constructed over a ground of three segments with diﬀerent conditions. Among the three segments, one segment was a natural deposit of soft soil and the other two segments were improved with stone columns with the spacing of 2 m and 3 m. The required parameters (k and j) for the soft soil (MCC model) were calculated from the oedometer test data pro- vided for diﬀerent depths and boreholes using the following correlations (Wood, 1990; Bowles, 1997):
+k _ Cc=ln10 ð4Þ j _ Cs=ln10 ð5Þ where k and j are the slope of the normal consolidation line and the slope of the elastic swelling line, respectively.
+Cc and Cs are the compression index and the swelling index of the soft soil, respectively. Tables 3 and 5 present the input parameters used for the numerical simulation of the untreated and treated (stone columns with the 3-m spacing) segments of the embankment. Fig. 5 shows a comparison between the rates of settlement of the untreated and the stone column-treated (with the 3-m spacing) segments mea- sured in the ﬁeld and obtained from the numerical model.
+The results obtained from the present numerical model show a good agreement with the results obtained from the ﬁeld measurements and the laboratory model tests.
 6. Results and discussion
-Parametric studies are conducted with the validated
-numerical model with prototype dimensions to show the
-eﬀect of the ﬁnes content, the modular ratio, the spacing
-to diameter ratio and the height of the embankment on
-the arching ratio, the stress concentration ratio, the vertical
-and horizontal displacements, the diﬀerential settlement
-and the pore pressure. The material properties used for
-the prototype model are presented in Tables 2–5. In the
-present study, the model tests are conducted for 0% and
-10% ﬁnes contents. However, the parametric studies are
-conducted for 0%, 20%, 40% and 50% ﬁnes contents based
-on the obtained model parameters. The experimental stud-
-ies were carried out for a maximum ﬁnes content of 10% in
-embankment soil as diﬃculties were involved in sampling
-embankment soil with a higher ﬁnes content (FC). The
-studies involved uncertainty over the homogeneity of a
-large quantity of embankment soil with higher ﬁnes con-
-tents. Therefore, further studies with higher ﬁnes contents
-are conducted through numerical models.
+Parametric studies are conducted with the validated numerical model with prototype dimensions to show the eﬀect of the ﬁnes content, the modular ratio, the spacing to diameter ratio and the height of the embankment on the arching ratio, the stress concentration ratio, the vertical and horizontal displacements, the diﬀerential settlement and the pore pressure. The material properties used for the prototype model are presented in Tables 2–5. In the present study, the model tests are conducted for 0% and
+10% ﬁnes contents. However, the parametric studies are conducted for 0%, 20%, 40% and 50% ﬁnes contents based on the obtained model parameters. The experimental stud- ies were carried out for a maximum ﬁnes content of 10% in embankment soil as diﬃculties were involved in sampling embankment soil with a higher ﬁnes content (FC). The studies involved uncertainty over the homogeneity of a large quantity of embankment soil with higher ﬁnes con- tents. Therefore, further studies with higher ﬁnes contents are conducted through numerical models.
 6.1. Arching ratio
-In the stone column-improved soft soil, the diﬀerence in
-stiﬀness between the stone column and the soft soil inﬂu-
-ences the vertical stress distribution from the embankment
-to the sub-soil. The shear strength properties of the
-embankment soil also play an important role in this regard.
-It is often observed that due to soil arching, the vertical
-stress acting on the soft soil in a stone column-supported
-embankment is lower than the gravity load applied by
-the self-weight of the embankment at that point. The
+In the stone column-improved soft soil, the diﬀerence in stiﬀness between the stone column and the soft soil inﬂu- ences the vertical stress distribution from the embankment to the sub-soil. The shear strength properties of the embankment soil also play an important role in this regard.
+It is often observed that due to soil arching, the vertical stress acting on the soft soil in a stone column-supported embankment is lower than the gravity load applied by the self-weight of the embankment at that point. The
 Table 5
 Selected parameters of soft soil used in numerical analysis.
 Parameter
 Validation
 (Oh et al., 2007)
-Comparison and
-parametric study
+Comparison and parametric study
 Porosity (g)
 0.50b
 0.50
@@ -889,542 +221,186 @@ Poisson’s ratio (m0)
 Frictional constant, M
 0.80b
 0.80
-Slope of normal
-consolidation line, k
+Slope of normal consolidation line, k
 0.20
 0.18
-Slope of elastic swelling
-line, j
+Slope of elastic swelling line, j
 0.04
 0.04
-Reference pressure (p1)
-in kPa
+Reference pressure (p1) in kPa
 1.0
 1.0
-Speciﬁc volume at
-reference pressure (sv)
+Speciﬁc volume at reference pressure (sv)
 2.5b
 2.5
-Pre-consolidation
-pressure (pc) in kPa
-100
-100
+Pre-consolidation pressure (pc) in kPa
 Horizontal permeability
 (kh) in m/s
-1.6  109 a
-3  1012
-Vertical permeability (kv)
-in m/s
-0.5  109
-1012
+1.6  109 a
+3  1012
+Vertical permeability (kv) in m/s
+0.5  109
+1012
 Thickness of soft soil
-(Hc) in m
-16
-6
-a After Indraratna et al. (2013).
+(Hc) in m a After Indraratna et al. (2013).
 b Assumed for the present study.
 c Bowles (1997).
-Fig. 5. Comparison of numerical results with case study for rate of
-settlement.
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-625
-arching is expressed in terms of an arching ratio (ratio of
-the vertical stress acting on the soft soil to the gravity load
-or the self-weight of the embankment including the sur-
-charge). Thus, the value of the arching ratio varies from
-0 to 1. A value of zero for the arching ratio means full arch-
-ing and a value of 1 means no arching. Fig. 6 shows the
-eﬀect of the ﬁnes content in the embankment material on
-the arching ratio for spacing to diameter ratios (S/dc) of
-two, three and four. It is observed that the arching ratio
-increases with the increase in ﬁnes content which means a
-reduction in the arching eﬀect. The arching ratio increases
-by 14.75% due to the increase in the ﬁnes content from zero
-to 50% at the modular ratio of 40 with a non-dimensional
-height of the embankment (He/dc) of 5.33. It is also
-observed that with the increase in the spacing to diameter
-ratio (S/dc), the arching ratio also increases. The arching
-ratio increases by 46.9% due to the increase in the spacing
-to diameter ratio (S/dc) from two to four at the modular
-ratio of 40 with a non-dimensional height of the embank-
-ment (He/dc) of 5.33 for a 20% ﬁnes content. It is also
-observed that no arching takes place for higher spacing
-to diameter ratios when the amount of ﬁnes increases in
-the embankment soil.
+Fig. 5. Comparison of numerical results with case study for rate of settlement.
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 arching is expressed in terms of an arching ratio (ratio of the vertical stress acting on the soft soil to the gravity load or the self-weight of the embankment including the sur- charge). Thus, the value of the arching ratio varies from
+0 to 1. A value of zero for the arching ratio means full arch- ing and a value of 1 means no arching. Fig. 6 shows the eﬀect of the ﬁnes content in the embankment material on the arching ratio for spacing to diameter ratios (S/dc) of two, three and four. It is observed that the arching ratio increases with the increase in ﬁnes content which means a reduction in the arching eﬀect. The arching ratio increases by 14.75% due to the increase in the ﬁnes content from zero to 50% at the modular ratio of 40 with a non-dimensional height of the embankment (He/dc) of 5.33. It is also observed that with the increase in the spacing to diameter ratio (S/dc), the arching ratio also increases. The arching ratio increases by 46.9% due to the increase in the spacing to diameter ratio (S/dc) from two to four at the modular ratio of 40 with a non-dimensional height of the embank- ment (He/dc) of 5.33 for a 20% ﬁnes content. It is also observed that no arching takes place for higher spacing to diameter ratios when the amount of ﬁnes increases in the embankment soil.
 6.2. Stress concentration ratio (SCR)
-Arching in embankment soil transfers the vertical stress
-from the lower stiﬀness zone (soft soil) to the higher stiﬀ-
-ness zone (stone column) which causes a higher concentra-
-tion of stress on the stone column. The stress concentration
-is quantiﬁed as the stress concentration ratio (SCR) which
-is an important factor in the design of stone columns. The
-available studies on stone column-supported embankments
-have mainly been conducted to show the eﬀect of the
-embankment height, the spacing to diameter ratio and
-the modular ratio (ratio of elastic modulus of stone aggre-
-gates to soft soil, Ec/Es) on the stress concentration ratio.
-However, Fig. 7 shows the change in the maximum stress
-concentration ratio with the ﬁnes content present in the
-embankment soil at diﬀerent modular ratios for the spacing
-to diameter ratio (S/dc) of two and the non-dimensional
-height of the embankment (He/dc) of 5.33. It is observed
-that the maximum stress concentration ratio decreases with
-an increase in the ﬁnes content. An increase in the ﬁnes
-content in the embankment soil decreases the shear modu-
-lus of the soil (as shown in Table 4). Soil arching in the
+Arching in embankment soil transfers the vertical stress from the lower stiﬀness zone (soft soil) to the higher stiﬀ- ness zone (stone column) which causes a higher concentra- tion of stress on the stone column. The stress concentration is quantiﬁed as the stress concentration ratio (SCR) which is an important factor in the design of stone columns. The available studies on stone column-supported embankments have mainly been conducted to show the eﬀect of the embankment height, the spacing to diameter ratio and the modular ratio (ratio of elastic modulus of stone aggre- gates to soft soil, Ec/Es) on the stress concentration ratio.
+However, Fig. 7 shows the change in the maximum stress concentration ratio with the ﬁnes content present in the embankment soil at diﬀerent modular ratios for the spacing to diameter ratio (S/dc) of two and the non-dimensional height of the embankment (He/dc) of 5.33. It is observed that the maximum stress concentration ratio decreases with an increase in the ﬁnes content. An increase in the ﬁnes content in the embankment soil decreases the shear modu- lus of the soil (as shown in Table 4). Soil arching in the
 Fig. 6. Eﬀect of ﬁnes content in embankment soil on arching ratio for (a)
 S/dc = 2, (b) S/dc = 3 and (c) S/dc = 4.
-Fig. 7. Eﬀect of ﬁnes content in embankment soil on maximum stress
-concentration ratio.
-626
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-embankment soil also decreases with the reduction in shear
-modulus which causes a lower stress concentration ratio.
+Fig. 7. Eﬀect of ﬁnes content in embankment soil on maximum stress concentration ratio.
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 embankment soil also decreases with the reduction in shear modulus which causes a lower stress concentration ratio.
 The maximum stress concentration ratio decreases by
 21.6% for an increase in ﬁnes content between zero and
-50% at the modular ratio of 40 and the spacing to diameter
-ratio of two.
-Fig. 8 shows the variation in the stress concentration
-ratio with time for diﬀerent ﬁnes contents at the spacing
-to diameter ratio (S/dc) of three, the modular ratio of 40
-and the non-dimensional height of the embankment (He/
-dc) of 5.33. It is observed that the stress concentration ratio
-initially increases with time and then gradually becomes
-steady. The steady state stress concentration ratio is mar-
-ginally lower than the maximum stress concentration ratio.
-The decrease in the stress concentration ratio after reaching
-the peak indicates a loss in maximum arching after a cer-
-tain time period. Studies on pile-supported embankments
-(van Eekelen et al., 2010; Chen et al., 2008) and trapdoor
-experiments (Iglesia et al., 2011) have also revealed similar
-ﬁndings.
-The
-maximum
-stress
-concentration
-ratio
-decreases with the increase in the ﬁnes content, but the
-peak is attained at a faster rate. It is also observed that
-the diﬀerence between the maximum and the steady state
-stress concentration ratio increases with the increase in
-the ﬁnes content.
+50% at the modular ratio of 40 and the spacing to diameter ratio of two.
+Fig. 8 shows the variation in the stress concentration ratio with time for diﬀerent ﬁnes contents at the spacing to diameter ratio (S/dc) of three, the modular ratio of 40 and the non-dimensional height of the embankment (He/ dc) of 5.33. It is observed that the stress concentration ratio initially increases with time and then gradually becomes steady. The steady state stress concentration ratio is mar- ginally lower than the maximum stress concentration ratio.
+The decrease in the stress concentration ratio after reaching the peak indicates a loss in maximum arching after a cer- tain time period. Studies on pile-supported embankments
+(van Eekelen et al., 2010; Chen et al., 2008) and trapdoor experiments (Iglesia et al., 2011) have also revealed similar ﬁndings.
+The maximum stress concentration ratio decreases with the increase in the ﬁnes content, but the peak is attained at a faster rate. It is also observed that the diﬀerence between the maximum and the steady state stress concentration ratio increases with the increase in the ﬁnes content.
 6.3. Displacement
-Fig. 9 shows the vertical displacement of the soft soil
-with time for diﬀerent ﬁnes contents at the spacing to diam-
-eter ratio of three, the modular ratio of 40 and the non-
-dimensional embankment height of 5.33. It is observed that
-the vertical displacement of the soft soil increases with the
-increase in the ﬁnes content and that the change is not sig-
-niﬁcant beyond the ﬁnes content of 20%. In addition, the
-time required for the ﬁnal settlement is also extended with
-the increase in the ﬁnes content. Increases in the ﬁnes con-
-tent cause a reduction in the stress concentration ratio
-which ensures more vertical stress on the soft soil as
-compared to the cases of zero or lower ﬁnes contents.
-Therefore, more vertical displacement is experienced by
-the soft soil. Due to the higher vertical displacement, more
-time is required for consolidation and for attaining the ﬁnal
-settlement of the soft soil. In the case of a zero ﬁnes con-
-tent, the ﬁnal vertical displacement is attained in almost
-40 days, whereas it takes nearly 60 days for the ﬁnal verti-
-cal displacement in the case of the embankment soil having
-a ﬁnes content of 20% or more. The increase in the ﬁnal
-vertical displacement is 5.3% with the increase in the ﬁnes
-content from zero to 20%, whereas it is only 1.5% when
-the ﬁnes content increases from 20% to 50%.
-In the present study, it is assumed that the horizontal
-displacement is symmetric due to the symmetric loading.
-The symmetry quarter model represents only a quarter of
-the inﬂuence zone (square in the present study) of the stone
-column. Therefore, no horizontal displacement is expected
-at its vertical boundaries. However, horizontal displace-
-ment at the periphery of the stone column is observed
-due to the bulging of stone columns under the action of
-vertical load exerted by the embankment, while soft soil
-undergoes consolidation. Fig. 10 shows the ﬁnal horizontal
-displacement of the stone column for diﬀerent ﬁnes con-
-tents, whereas Fig. 11 shows the time-dependent change
-in the horizontal displacement of the stone column for
-20% (Fig. 11(a)) and 40% (Fig. 11(b)) ﬁnes contents present
-in the embankment soil at the spacing to diameter ratio of
-three, the modular ratio of 40 and the non-dimensional
-embankment height of 5.33. It is observed that the quantity
-of the ﬁnes present in the embankment soil causes changes
-in the amount of horizontal displacement sustained by the
-stone column at the top and the point of maximum hori-
-zontal displacement in the stone column. The stone column
-experiences higher horizontal displacement at the top with
-the increase in the ﬁnes content. This is due to the fact that
-the
-frictional
-resistance
-at
-the
-embankment-ground
-interface decreases due to the increase in the ﬁnes content
-which allows for more lateral deformation at the top of
-the stone column. The point of occurrence of the maximum
-Fig. 8. Change in stress concentration ratio with time for diﬀerent ﬁnes
-contents in embankment soil.
-Fig. 9. Change in vertical displacement with time for diﬀerent ﬁnes
-contents in embankment soil.
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-627
-horizontal displacement moves in the downward direction
-with the increase in the ﬁnes content in the embankment
-material. However, the maximum horizontal deformation
-and the time required to attain that is almost the same
-for all the cases. The maximum horizontal deformation
-occurs at a depth 2.5 times the diameter of the stone col-
-umn from the top when there is no ﬁnes content present
-in the embankment soil, but it occurs at a depth four times
-the diameter of the stone column when the amount of ﬁnes
-content is 40% or more. An increase in the ﬁnes content
-increases the vertical stress on the soil and reduces the ver-
-tical stress on the stone column at the ground level which
-increases the passive pressure on the stone column. Thus,
-the point of maximum horizontal displacement shifts in
-the downward direction as the amount of ﬁnes increases
-in the embankment material. It is also observed that most
-of the ﬁnal horizontal displacement (95% or more) occurs
-almost in 50% of the time required to attain the ﬁnal hor-
-izontal settlement.
+Fig. 9 shows the vertical displacement of the soft soil with time for diﬀerent ﬁnes contents at the spacing to diam- eter ratio of three, the modular ratio of 40 and the non- dimensional embankment height of 5.33. It is observed that the vertical displacement of the soft soil increases with the increase in the ﬁnes content and that the change is not sig- niﬁcant beyond the ﬁnes content of 20%. In addition, the time required for the ﬁnal settlement is also extended with the increase in the ﬁnes content. Increases in the ﬁnes con- tent cause a reduction in the stress concentration ratio which ensures more vertical stress on the soft soil as compared to the cases of zero or lower ﬁnes contents.
+Therefore, more vertical displacement is experienced by the soft soil. Due to the higher vertical displacement, more time is required for consolidation and for attaining the ﬁnal settlement of the soft soil. In the case of a zero ﬁnes con- tent, the ﬁnal vertical displacement is attained in almost
+40 days, whereas it takes nearly 60 days for the ﬁnal verti- cal displacement in the case of the embankment soil having a ﬁnes content of 20% or more. The increase in the ﬁnal vertical displacement is 5.3% with the increase in the ﬁnes content from zero to 20%, whereas it is only 1.5% when the ﬁnes content increases from 20% to 50%.
+In the present study, it is assumed that the horizontal displacement is symmetric due to the symmetric loading.
+The symmetry quarter model represents only a quarter of the inﬂuence zone (square in the present study) of the stone column. Therefore, no horizontal displacement is expected at its vertical boundaries. However, horizontal displace- ment at the periphery of the stone column is observed due to the bulging of stone columns under the action of vertical load exerted by the embankment, while soft soil undergoes consolidation. Fig. 10 shows the ﬁnal horizontal displacement of the stone column for diﬀerent ﬁnes con- tents, whereas Fig. 11 shows the time-dependent change in the horizontal displacement of the stone column for
+20% (Fig. 11(a)) and 40% (Fig. 11(b)) ﬁnes contents present in the embankment soil at the spacing to diameter ratio of three, the modular ratio of 40 and the non-dimensional embankment height of 5.33. It is observed that the quantity of the ﬁnes present in the embankment soil causes changes in the amount of horizontal displacement sustained by the stone column at the top and the point of maximum hori- zontal displacement in the stone column. The stone column experiences higher horizontal displacement at the top with the increase in the ﬁnes content. This is due to the fact that the frictional resistance at the embankment-ground interface decreases due to the increase in the ﬁnes content which allows for more lateral deformation at the top of the stone column. The point of occurrence of the maximum
+Fig. 8. Change in stress concentration ratio with time for diﬀerent ﬁnes contents in embankment soil.
+Fig. 9. Change in vertical displacement with time for diﬀerent ﬁnes contents in embankment soil.
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 horizontal displacement moves in the downward direction with the increase in the ﬁnes content in the embankment material. However, the maximum horizontal deformation and the time required to attain that is almost the same for all the cases. The maximum horizontal deformation occurs at a depth 2.5 times the diameter of the stone col- umn from the top when there is no ﬁnes content present in the embankment soil, but it occurs at a depth four times the diameter of the stone column when the amount of ﬁnes content is 40% or more. An increase in the ﬁnes content increases the vertical stress on the soil and reduces the ver- tical stress on the stone column at the ground level which increases the passive pressure on the stone column. Thus, the point of maximum horizontal displacement shifts in the downward direction as the amount of ﬁnes increases in the embankment material. It is also observed that most of the ﬁnal horizontal displacement (95% or more) occurs almost in 50% of the time required to attain the ﬁnal hor- izontal settlement.
 6.4. Diﬀerential settlement
 Fig. 12 shows the change in the diﬀerential settlement
-(diﬀerence in vertical settlement between the stone column
-and
-the
-soft
-soil)
-with
-time
-at
-the
-ground
-level
-(embankment-ground interface) for diﬀerent percentages
-of ﬁnes contents at the spacing to diameter ratio of three,
-the modular ratio of 40 and the non-dimensional embank-
-ment height of 5.33. It is observed that the diﬀerential set-
-tlement initially increases with time and then gradually
-becomes constant. It increases with an increase in the quan-
-tity of the ﬁnes in the embankment soil. It is also observed
-that the diﬀerential settlement becomes constant within the
-Fig. 10. Eﬀect of ﬁnes content in embankment soil on horizontal
-displacement of stone column.
+(diﬀerence in vertical settlement between the stone column and the soft soil) with time at the ground level
+(embankment-ground interface) for diﬀerent percentages of ﬁnes contents at the spacing to diameter ratio of three, the modular ratio of 40 and the non-dimensional embank- ment height of 5.33. It is observed that the diﬀerential set- tlement initially increases with time and then gradually becomes constant. It increases with an increase in the quan- tity of the ﬁnes in the embankment soil. It is also observed that the diﬀerential settlement becomes constant within the
+Fig. 10. Eﬀect of ﬁnes content in embankment soil on horizontal displacement of stone column.
 Fig. 11. Change in horizontal displacement with time for diﬀerent ﬁnes contents in embankment soil: (a) 20% ﬁnes content and (b) 40% ﬁnes content.
-628
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-short time period of 10–15 days. The time required to
-attain the constant diﬀerential settlement increases margin-
-ally with the increase in the ﬁnes content. In the case of a
-ﬁnes content of zero, the diﬀerential settlement becomes
-constant after 10 days, but it will take 15 days to become
-constant if the ﬁnes content is 50%. Thus, the vertical dis-
-placement takes more time to become stable, but the diﬀer-
-ential settlement reaches a constant value within a much
-shorter period.
-Similar to that at the ground level, the diﬀerential settle-
-ment at the top or the surface of the embankment is also
-important. Fig. 13 shows the non-dimensional diﬀerential
-settlement (wc/ws, where wc and ws are the embankment
-surface settlement above the stone column and in between
-the two stone columns, respectively) as a function of the
-modular ratio and the non-dimensional embankment
-height (He/S0), where S0 = S  dc and dc is the diameter
-of the stone column. In the ﬁgure, the values are plotted
-for diﬀerent spacing to diameter ratios along with the var-
-ious modular ratios. In all the cases, a critical height of the
-embankment is observed beyond which no diﬀerential set-
-tlement occurs at the top of the embankment. In each ﬁg-
-ure (Fig. 13(a)–(d)), the range in critical embankment
-height is marked for particular ﬁnes contents. It is observed
-that the critical height is 1.4–2.0 times the clear spacing
-between the stone columns when no ﬁnes are present in
-the embankment soil. However, a higher range (1.8–2.6)
-is observed due to the presence of ﬁnes in the embankment
-soil. Thus, no diﬀerential settlement can be observed on the
-embankment surface under any modular ratio and spacing
-to diameter ratio if the embankment height is more than 2
-times the clear spacing between the stone columns for
-embankment soil without any ﬁnes. And the value is
-increased to 2.6 times the clear spacing when ﬁnes are
-present in the embankment soil.
-Surcharge is not considered in the present study,
-but surcharge has no signiﬁcant eﬀect on the stress
-Fig. 12. Change in diﬀerential settlement with time for diﬀerent ﬁnes
-contents in embankment soil at ground level.
-Fig. 13. Change in diﬀerential settlement with time at embankment surface: (a) 0% ﬁnes content, (b) 20% ﬁnes content, (c) 40% ﬁnes content and (d) 50%
-ﬁnes content.
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-629
-concentration ratio (SCR) when the surcharge is applied on
-the embankment where the height of embankment is more
-than the critical height. However, the eﬀect of the sur-
-charge is expected to be more if it is applied on an embank-
-ment whose height is less than the critical height. However,
-the maximum stress concentration ratio will follow the
-same trend corresponding to the equivalent height of the
-embankment.
-In
-such
-cases,
-the
-equivalent
-height
-(corresponding to the surcharge) can be added to the
-embankment height to determine the maximum stress con-
-centration ratio (Das and Deb, 2018). It is also expected
-that full arching is accrued or arching is fully mobilized
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 short time period of 10–15 days. The time required to attain the constant diﬀerential settlement increases margin- ally with the increase in the ﬁnes content. In the case of a ﬁnes content of zero, the diﬀerential settlement becomes constant after 10 days, but it will take 15 days to become constant if the ﬁnes content is 50%. Thus, the vertical dis- placement takes more time to become stable, but the diﬀer- ential settlement reaches a constant value within a much shorter period.
+Similar to that at the ground level, the diﬀerential settle- ment at the top or the surface of the embankment is also important. Fig. 13 shows the non-dimensional diﬀerential settlement (wc/ws, where wc and ws are the embankment surface settlement above the stone column and in between the two stone columns, respectively) as a function of the modular ratio and the non-dimensional embankment height (He/S0), where S0 = S  dc and dc is the diameter of the stone column. In the ﬁgure, the values are plotted for diﬀerent spacing to diameter ratios along with the var- ious modular ratios. In all the cases, a critical height of the embankment is observed beyond which no diﬀerential set- tlement occurs at the top of the embankment. In each ﬁg- ure (Fig. 13(a)–(d)), the range in critical embankment height is marked for particular ﬁnes contents. It is observed that the critical height is 1.4–2.0 times the clear spacing between the stone columns when no ﬁnes are present in the embankment soil. However, a higher range (1.8–2.6) is observed due to the presence of ﬁnes in the embankment soil. Thus, no diﬀerential settlement can be observed on the embankment surface under any modular ratio and spacing to diameter ratio if the embankment height is more than 2 times the clear spacing between the stone columns for embankment soil without any ﬁnes. And the value is increased to 2.6 times the clear spacing when ﬁnes are present in the embankment soil.
+Surcharge is not considered in the present study, but surcharge has no signiﬁcant eﬀect on the stress
+Fig. 12. Change in diﬀerential settlement with time for diﬀerent ﬁnes contents in embankment soil at ground level.
+Fig. 13. Change in diﬀerential settlement with time at embankment surface: (a) 0% ﬁnes content, (b) 20% ﬁnes content, (c) 40% ﬁnes content and (d) 50% ﬁnes content.
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 concentration ratio (SCR) when the surcharge is applied on the embankment where the height of embankment is more than the critical height. However, the eﬀect of the sur- charge is expected to be more if it is applied on an embank- ment whose height is less than the critical height. However, the maximum stress concentration ratio will follow the same trend corresponding to the equivalent height of the embankment.
+In such cases, the equivalent height
+(corresponding to the surcharge) can be added to the embankment height to determine the maximum stress con- centration ratio (Das and Deb, 2018). It is also expected that full arching is accrued or arching is fully mobilized
 Fig. 14. Pore pressure at diﬀerent times for (a) 0% ﬁnes content and (b) 40% ﬁnes content in the embankment soil.
-630
-A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-when the height of the embankment is more than the crit-
-ical height.
+A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632 when the height of the embankment is more than the crit- ical height.
 6.5. Pore water pressure
-Fig. 14 shows the pore water pressure contour of stone
-column-improved soil at diﬀerent time periods for a spac-
-ing to diameter ratio of three, a modular ratio of 40 and
-a non-dimensional embankment height of 5.33 with zero
-(Fig. 14(a)) and 40% (Fig. 14(b)) ﬁnes contents. After the
-same time period, higher pore pressure is observed for
-the 40% ﬁnes which indicates the requirement of a longer
-time period to attain the ﬁnal settlement of the soil. How-
-ever, at the steady state condition (120 days), both cases
-show almost the same pore pressure distribution along
-the depth of the stone column-improved soil as the ﬁnal
-settlement is achieved within 40 days and 60 days when
-zero and 20% (or more) ﬁnes, respectively, are present in
-the embankment soil.
+Fig. 14 shows the pore water pressure contour of stone column-improved soil at diﬀerent time periods for a spac- ing to diameter ratio of three, a modular ratio of 40 and a non-dimensional embankment height of 5.33 with zero
+(Fig. 14(a)) and 40% (Fig. 14(b)) ﬁnes contents. After the same time period, higher pore pressure is observed for the 40% ﬁnes which indicates the requirement of a longer time period to attain the ﬁnal settlement of the soil. How- ever, at the steady state condition (120 days), both cases show almost the same pore pressure distribution along the depth of the stone column-improved soil as the ﬁnal settlement is achieved within 40 days and 60 days when zero and 20% (or more) ﬁnes, respectively, are present in the embankment soil.
 7. Conclusions
-The present study has shown that the presence of a ﬁnes
-content in embankment soil causes signiﬁcant changes in
-the response of stone column-supported embankments. It
-is observed that the arching ratio increases and the stress
-concentration ratio decreases with the increase in the ﬁnes
-content in the embankment soil. Thus, a reduction in soil
-arching increases the stress, the vertical displacement and
-the pore pressure in the soft soil. The stress concentration
-ratio initially increases with time and gradually becomes
-steady after reaching a peak value. The peak is attained
-at a faster rate with an increase in the ﬁnes content. The
-vertical displacement of the soft soil does not change signif-
-icantly above a ﬁnes content of 20%. The time required for
-the ﬁnal settlement is also extended with the increase in the
-ﬁnes content in the embankment material. In the case of a
-ﬁnes content of zero, the ﬁnal vertical displacement is
-attained in almost 40 days, whereas it takes nearly 60 days
-when the embankment soil has a ﬁnes content of 20% or
-more. It is also observed that the lateral displacement of
-the stone columns increases at the top with an increase in
-the ﬁnes content and the point of the maximum lateral dis-
-placement shifts in the downward direction. However, the
-maximum lateral displacement remains almost the same
-due to the change in the ﬁnes content. The maximum hor-
-izontal displacement occurs at a depth 2.5 times the diam-
-eter of each stone column from the top when there is no
-ﬁnes content present in the embankment soil, but it occurs
-at a depth 4 times the diameter of the stone column when
-the ﬁnes content is 40% or more. The diﬀerential settlement
-increases at the ground level as well as at the embankment
-top with the increase in the quantity of ﬁnes in the embank-
-ment soil. The time required to attain the constant diﬀeren-
-tial settlement increases marginally with an increase in the
-ﬁnes content in the embankment soil. The vertical displace-
-ment takes more time to become stable as compared to the
-diﬀerential settlement. No diﬀerential settlement can be
-observed on the embankment surface if the embankment
-height is more than 2 times the clear spacing between the
-stone columns for the embankment soil without any ﬁnes
-and the value increases to 2.6 when ﬁnes are present in
-the embankment soil. The presence of a ﬁnes content
-causes an increase in the pore pressure which increases
-the time required for ﬁnal consolidation. Therefore, it is
-highly recommended to keep the ﬁnes content in the
-embankment soil as low as possible. However, if it is not
-possible to avoid the ﬁnes content in the embankment
-material, the required modiﬁcation in the design should
-be made prior to the construction.
+The present study has shown that the presence of a ﬁnes content in embankment soil causes signiﬁcant changes in the response of stone column-supported embankments. It is observed that the arching ratio increases and the stress concentration ratio decreases with the increase in the ﬁnes content in the embankment soil. Thus, a reduction in soil arching increases the stress, the vertical displacement and the pore pressure in the soft soil. The stress concentration ratio initially increases with time and gradually becomes steady after reaching a peak value. The peak is attained at a faster rate with an increase in the ﬁnes content. The vertical displacement of the soft soil does not change signif- icantly above a ﬁnes content of 20%. The time required for the ﬁnal settlement is also extended with the increase in the ﬁnes content in the embankment material. In the case of a ﬁnes content of zero, the ﬁnal vertical displacement is attained in almost 40 days, whereas it takes nearly 60 days when the embankment soil has a ﬁnes content of 20% or more. It is also observed that the lateral displacement of the stone columns increases at the top with an increase in the ﬁnes content and the point of the maximum lateral dis- placement shifts in the downward direction. However, the maximum lateral displacement remains almost the same due to the change in the ﬁnes content. The maximum hor- izontal displacement occurs at a depth 2.5 times the diam- eter of each stone column from the top when there is no ﬁnes content present in the embankment soil, but it occurs at a depth 4 times the diameter of the stone column when the ﬁnes content is 40% or more. The diﬀerential settlement increases at the ground level as well as at the embankment top with the increase in the quantity of ﬁnes in the embank- ment soil. The time required to attain the constant diﬀeren- tial settlement increases marginally with an increase in the ﬁnes content in the embankment soil. The vertical displace- ment takes more time to become stable as compared to the diﬀerential settlement. No diﬀerential settlement can be observed on the embankment surface if the embankment height is more than 2 times the clear spacing between the stone columns for the embankment soil without any ﬁnes and the value increases to 2.6 when ﬁnes are present in the embankment soil. The presence of a ﬁnes content causes an increase in the pore pressure which increases the time required for ﬁnal consolidation. Therefore, it is highly recommended to keep the ﬁnes content in the embankment soil as low as possible. However, if it is not possible to avoid the ﬁnes content in the embankment material, the required modiﬁcation in the design should be made prior to the construction.
 Acknowledgements
-The authors sincerely appreciate the ﬁnancial support
-provided by SERB, Department of Science and Technol-
-ogy, Government of India for this research work.
+The authors sincerely appreciate the ﬁnancial support provided by SERB, Department of Science and Technol- ogy, Government of India for this research work.
 References
-Abu-Farsakh, M., Chen, Q., Sharma, R., 2013. An experimental
-evaluation of the behavior of footings on geosynthetic-reinforced
-sand. Soils Found. 53 (2), 335–348.
+Abu-Farsakh, M., Chen, Q., Sharma, R., 2013. An experimental evaluation of the behavior of footings on geosynthetic-reinforced sand. Soils Found. 53 (2), 335–348.
 Ambily, A.P., Gandhi, S.R., 2007. Behavior of stone column based on
-experimental and FEM analysis. J. Geotech. Geoenviron. Eng.
 (ASCE) 133 (4), 405–415.
-Basack, S., Indraratna, B., Rujikiatkamjorn, C., 2016. Modeling the
-performance of stone column–reinforced soft ground under static and
-cyclic loads. J. Geotech. Geoenviron. Eng. (ASCE) 142 (3). https://doi.
-org/10.1061/(ASCE)GT.1943-5606.0001378.
+Basack, S., Indraratna, B., Rujikiatkamjorn, C., 2016. Modeling the performance of stone column–reinforced soft ground under static and org/10.1061/(ASCE)GT.1943-5606.0001378.
 Basack, S., Indraratna, B., Rujikiatkamjorn, C., Siahaan, F., 2017.
 Modeling the stone column behavior in soft ground with special
-emphasis on lateral deformation. J. Geotech. Geoenviron. Eng.
 (ASCE)
-143
 (6).
 https://doi.org/10.1061/(ASCE)GT.1943-
 5606.0001652.
-Bhattacharya, P., Kumar, J., 2017. Bearing capacity of foundations on
-soft clays with granular column and trench. Soils Found. 57 (3), 488–
+Bhattacharya, P., Kumar, J., 2017. Bearing capacity of foundations on soft clays with granular column and trench. Soils Found. 57 (3), 488–
 495.
-BIS (Bureau of Indian Standards), 1970. Classiﬁcation and identiﬁcation
-of soil for general engineering purposes. IS: 1498, New Delhi, India.
-Borges, J.L., Domingues, T.S., Cardoso, A.S., 2009. Embankments on
-soft soil reinforced with stone columns: numerical analysis and
-proposal of a new design method. Geotech. Geol. Eng. 27 (6), 667–679.
-Borges, J.L., Gonc¸alves, M.S., 2016. Jet-grout column-reinforced soft soils
-incorporating
-multilayer
-geosynthetic-reinforced
-platforms.
+BIS (Bureau of Indian Standards), 1970. Classiﬁcation and identiﬁcation of soil for general engineering purposes. IS: 1498, New Delhi, India.
+Borges, J.L., Domingues, T.S., Cardoso, A.S., 2009. Embankments on soft soil reinforced with stone columns: numerical analysis and proposal of a new design method. Geotech. Geol. Eng. 27 (6), 667–679.
+Borges, J.L., Gonc¸alves, M.S., 2016. Jet-grout column-reinforced soft soils incorporating multilayer geosynthetic-reinforced platforms.
 Soils
 Found. 56 (1), 57–72.
 Bowles, J.E., 1997. Foundation analysis and design, Fifth Ed. McGraw-
 Hill, Singapore.
-Chen, Y.M., Cao, W.P., Chen, R.P., 2008. An experimental investigation
-of soil arching within basal reinforced and unreinforced piled
-embankments. Geotextiles Geomembr. 26 (2), 164–174.
-Chowdhury, S.S., Deb, K., Sengupta, A., 2016. Eﬀect of ﬁnes on behavior
-of braced excavation in sand: experimental and numerical Study. Int.
+Chen, Y.M., Cao, W.P., Chen, R.P., 2008. An experimental investigation of soil arching within basal reinforced and unreinforced piled embankments. Geotextiles Geomembr. 26 (2), 164–174.
+Chowdhury, S.S., Deb, K., Sengupta, A., 2016. Eﬀect of ﬁnes on behavior of braced excavation in sand: experimental and numerical Study. Int.
 J. Geomech. (ASCE) 16 (1). https://doi.org/10.1061/(ASCE)GM.1943-
 5622.0000487.
-Clayton, C.R.I., Bica, A.V.D., 1993. The design of diaphragm type
-boundary total stress cells. Ge´otechnique 43 (4), 523–535.
-Das, A.K., Deb, K., 2014. Modeling of uniformly loaded circular raft
-resting on stone column-improved ground. Soils Found. 54 (6), 1212–
+Clayton, C.R.I., Bica, A.V.D., 1993. The design of diaphragm type boundary total stress cells. Ge´otechnique 43 (4), 523–535.
+Das, A.K., Deb, K., 2014. Modeling of uniformly loaded circular raft resting on stone column-improved ground. Soils Found. 54 (6), 1212–
 1224.
-Das, A.K., Deb, K., 2017a. Response of cylindrical storage tank
-foundation resting on tensionless stone column-improved soil. Int. J.
+Das, A.K., Deb, K., 2017a. Response of cylindrical storage tank foundation resting on tensionless stone column-improved soil. Int. J.
 A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632
-631
 Geomech. (ASCE) 17 (1). https://doi.org/10.1061/(ASCE)GM.1943-
 5622.0000697.
-Das, A.K., Deb, K., 2017b. Modeling of stone column-supported
-embankment under axi-symmetric condition. Geotech. Geol. Eng. 35
+Das, A.K., Deb, K., 2017b. Modeling of stone column-supported embankment under axi-symmetric condition. Geotech. Geol. Eng. 35
 (2), 707–730.
-Das, A.K., Deb, K., 2018. Experimental and 3D numerical study on time-
-dependent behavior of stone column-supported embankments. Int. J.
+Das, A.K., Deb, K., 2018. Experimental and 3D numerical study on time- dependent behavior of stone column-supported embankments. Int. J.
 Geomech., ASCE 18 (4), 1–16.
-Das, B.M., Puri, V.K., Neo, B.K., 1993. Interference eﬀects between two
-surface footings on layered soil. Transport. Res. Record, Transport.
+Das, B.M., Puri, V.K., Neo, B.K., 1993. Interference eﬀects between two surface footings on layered soil. Transport. Res. Record, Transport.
 Res. Board Washington, D.C. 1406, 34–40.
-Dash, S.K., Bora, M.C., 2013. Inﬂuence of geosynthetic encasement on
-the performance of stone columns ﬂoating in soft clay. Can. Geotech.
+Dash, S.K., Bora, M.C., 2013. Inﬂuence of geosynthetic encasement on the performance of stone columns ﬂoating in soft clay. Can. Geotech.
 J. 50 (7), 754–765.
-Deb, K., 2010. A mathematical model to study the soil arching eﬀect in
-stone column-supported embankment resting on soft soil. Appl. Math.
+Deb, K., 2010. A mathematical model to study the soil arching eﬀect in stone column-supported embankment resting on soft soil. Appl. Math.
 Model. 34 (12), 3871–3883.
-Deb, K., Sawant, V.A., Kiran, A.S., 2010. Eﬀects of ﬁnes on compaction
-characteristics of poorly graded sands. Int. J. Geotech. Eng. 4 (2), 299–
+Deb, K., Sawant, V.A., Kiran, A.S., 2010. Eﬀects of ﬁnes on compaction characteristics of poorly graded sands. Int. J. Geotech. Eng. 4 (2), 299–
 304.
-Deb, K., Dhar, A., 2011. Optimum design of stone column-improved soft
-soil using multi objective optimization technique. Comp. Geotechnics.
+Deb, K., Dhar, A., 2011. Optimum design of stone column-improved soft soil using multi objective optimization technique. Comp. Geotechnics.
 38 (1), 50–57.
-Deb, K., Samadhiya, N.K., Namdeo, J.B., 2011. Laboratory model
-studies on unreinforced and geogrid-reinforced sand bed over stone
-column-improved soft clay. Geotextiles Geomembr. 29 (2), 190–196.
-Deb, K., Mohapatra, S.R., 2013. Analysis of stone column-supported
-geosynthetic-reinforced embankments. Appl. Math. Model. 37 (5),
+Deb, K., Samadhiya, N.K., Namdeo, J.B., 2011. Laboratory model studies on unreinforced and geogrid-reinforced sand bed over stone column-improved soft clay. Geotextiles Geomembr. 29 (2), 190–196.
+Deb, K., Mohapatra, S.R., 2013. Analysis of stone column-supported geosynthetic-reinforced embankments. Appl. Math. Model. 37 (5),
 2943–2960.
-Deb, K., Konai, S., 2014. Bearing capacity of geotextile-reinforced sand
-with varying ﬁne fraction. Geomech. Eng.: Int. J. 6 (1), 33–45.
-Debnath, P., Dey, A.K., 2017. Bearing capacity of reinforced and
-unreinforced sand beds over stone columns in soft clay. Geosynth.
+Deb, K., Konai, S., 2014. Bearing capacity of geotextile-reinforced sand with varying ﬁne fraction. Geomech. Eng.: Int. J. 6 (1), 33–45.
+Debnath, P., Dey, A.K., 2017. Bearing capacity of reinforced and unreinforced sand beds over stone columns in soft clay. Geosynth.
 Int. 24 (6), 575–589.
-Duncan, J.M., Chang, C.Y., 1970. Nonlinear analysis of stress and strain
-in soils. J. Soil Mech. Found. Div. Proc. Am. Soc. Civ. Eng. 96 (SM5),
+Duncan, J.M., Chang, C.Y., 1970. Nonlinear analysis of stress and strain in soils. J. Soil Mech. Found. Div. Proc. Am. Soc. Civ. Eng. 96 (SM5),
 1629–1653.
-Fattah, M.Y., Zabar, B.S., Hassan, H.A., 2016. Experimental analysis of
-embankment on ordinary and encased on stone columns. Int. J.
+Fattah, M.Y., Zabar, B.S., Hassan, H.A., 2016. Experimental analysis of embankment on ordinary and encased on stone columns. Int. J.
 Geomech. (ASCE) 16 (4). https://doi.org/10.1061/(ASCE)GM.1943-
 5622.0000579.
-Han, J., Oztoprak, S., Parsons, R.L., Huang, J., 2007. Numerical analysis
-of foundation columns to support widening of embankments. Comp.
+Han, J., Oztoprak, S., Parsons, R.L., Huang, J., 2007. Numerical analysis of foundation columns to support widening of embankments. Comp.
 Geotech. 34 (6), 534–548.
 Han, J., Ye, S.L., 2001. Simpliﬁed method for consolidation rate of stone
-column reinforced foundations. J. Geotech. Geoenviron. Eng. (ASCE)
 127 (7), 597–603.
-Iglesia, G.R., Einstein, H.H., Whitman, R.V., 2011. Validation of
-centrifuge model scaling for soil systems via trapdoor tests. J. Geotech.
+Iglesia, G.R., Einstein, H.H., Whitman, R.V., 2011. Validation of centrifuge model scaling for soil systems via trapdoor tests. J. Geotech.
 Geoenviron. Eng. (ASCE) 137 (11), 1075–1089.
-Indraratna, B., Basack, S., Rujikiyatkamjorn, C.A., 2013. Numerical
-solution of stone column improved soft soil considering arching,
-clogging and smear eﬀects. J. Geotech. Geoenviron. Eng. (ASCE) 139
+Indraratna, B., Basack, S., Rujikiyatkamjorn, C.A., 2013. Numerical solution of stone column improved soft soil considering arching,
 (3), 377–394.
 Itasca, 2009. Fast lagrangian analysis of continua (FLAC3D 4.00). Itasca
 Consulting Group Inc., Minneapolis, USA.
-Janbu, N., 1963. Soil compressibility as determined by odometer and
-triaxial tests. Proceedings of European Conference on Soil Mechanics
-and Foundation Engineering, Wiesbaden, Germany.
-Lavasan, A.A., Ghazavi, M., 2012. Behaviour of closely spaced square
-and circular footings on reinforced sand. Soils Found. 52 (1), 160–167.
-Mitchell, J.K., Huber, T.R., 1985. Performance of a stone column
-foundation. J. Geotech. Eng. (ASCE) 111 (2), 205–223.
-Munfakh, G.A., Sarkar, S.K., Castelli, R.J., 1983. Performance of a test
-embankment founded on stone columns. Proceedings of the Interna-
-tional Conference on Advances in Piling and Ground Treatment for
+Janbu, N., 1963. Soil compressibility as determined by odometer and triaxial tests. Proceedings of European Conference on Soil Mechanics and Foundation Engineering, Wiesbaden, Germany.
+Lavasan, A.A., Ghazavi, M., 2012. Behaviour of closely spaced square and circular footings on reinforced sand. Soils Found. 52 (1), 160–167.
+Mitchell, J.K., Huber, T.R., 1985. Performance of a stone column foundation. J. Geotech. Eng. (ASCE) 111 (2), 205–223.
+Munfakh, G.A., Sarkar, S.K., Castelli, R.J., 1983. Performance of a test embankment founded on stone columns. Proceedings of the Interna- tional Conference on Advances in Piling and Ground Treatment for
 Foundations. Thomas Telford, London.
 Ng, K.S., Tan, S.A., 2014. Design and analyses of ﬂoating stone columns.
 Soils Found. 54 (3), 478–487.
-Ng, K.S., Tan, S.A., 2015. Nonlinear behaviour of an embankment on
-ﬂoating stone columns. Geomech. Geoeng.: Int. J. 10 (1), 30–44.
-Nonaka, T., Yamada, S., Noda, T., 2017. Veriﬁcation of a macro-element
-method in the numerical simulation of the pore water pressure
-dissipation method – a case study on a liquefaction countermeasure
-with vertical drains under an embankment. Soils Found. 57 (3), 472–
+Ng, K.S., Tan, S.A., 2015. Nonlinear behaviour of an embankment on ﬂoating stone columns. Geomech. Geoeng.: Int. J. 10 (1), 30–44.
+Nonaka, T., Yamada, S., Noda, T., 2017. Veriﬁcation of a macro-element method in the numerical simulation of the pore water pressure dissipation method – a case study on a liquefaction countermeasure with vertical drains under an embankment. Soils Found. 57 (3), 472–
 487.
 Oh, E.Y.N., Balasubramaniam, A.S., Surarak, C., Bolton, M., Chai, G.
-W.K., Huang, M., Braund, M., 2007. Behaviour of a highway
-embankment on stone column improved estuarine clay. Proceedings
-of the 16th Southeast Asian Geotechnical Conference, Bangkok.
+W.K., Huang, M., Braund, M., 2007. Behaviour of a highway embankment on stone column improved estuarine clay. Proceedings of the 16th Southeast Asian Geotechnical Conference, Bangkok.
 Southeast Asian Geotechnical Society, Thailand.
 Priebe, H.J., 1995. The design of vibroreplacement. Ground Eng., 31–37
-Saha Roy, S., Deb, K., 2017a. Eﬀects of aspect ratio of footings on
-bearing capacity for geogrid-reinforced sand over soft soil. Geosynth.
+Saha Roy, S., Deb, K., 2017a. Eﬀects of aspect ratio of footings on bearing capacity for geogrid-reinforced sand over soft soil. Geosynth.
 Int. 24 (4), 362–382.
-Saha Roy, S., Deb, K., 2017b. Bearing capacity of rectangular footings on
-multilayer geosynthetic-reinforced granular ﬁll over soft soil 04017069.
+Saha Roy, S., Deb, K., 2017b. Bearing capacity of rectangular footings on multilayer geosynthetic-reinforced granular ﬁll over soft soil 04017069.
 Int. J. Geomech., ASCE 17 (9), 1–17.
-Saha Roy, S., Deb, K., 2018. Closely spaced footings on sand underlain by
-soft clay with geogrid at the interface. Geosynth. Int. 25 (4), 412–426.
-Saha Roy, S., Deb, K., 2019. Interference eﬀect of closely spaced footings
-resting on granular ﬁll over soft clay. Int. J. Geomech. 19 (1), 1–17,
+Saha Roy, S., Deb, K., 2018. Closely spaced footings on sand underlain by soft clay with geogrid at the interface. Geosynth. Int. 25 (4), 412–426.
+Saha Roy, S., Deb, K., 2019. Interference eﬀect of closely spaced footings resting on granular ﬁll over soft clay. Int. J. Geomech. 19 (1), 1–17,
 04018181.
-Shahu, J.T., Madhav, M.R., Hayashi, S., 2000. Analysis of soft ground-
-granular pile-granular mat system. Comp. Geotech. 27 (1), 45–62.
-Shin, E.C., Das, B.M., Puri, V.K., Yen, S.C., Cook, E.E., 1993. Bearing
-capacity of strip foundation on geogrid-reinforced clay. Geotech. Test.
+Shahu, J.T., Madhav, M.R., Hayashi, S., 2000. Analysis of soft ground- granular pile-granular mat system. Comp. Geotech. 27 (1), 45–62.
+Shin, E.C., Das, B.M., Puri, V.K., Yen, S.C., Cook, E.E., 1993. Bearing capacity of strip foundation on geogrid-reinforced clay. Geotech. Test.
 J. 16 (4), 534–541.
-Shin, E.C., Das, B.M., 2000. Experimental study of bearing capacity of a
-strip foundation on geogrid-reinforced sand. Geosynth. Int. 7 (1), 59–
+Shin, E.C., Das, B.M., 2000. Experimental study of bearing capacity of a strip foundation on geogrid-reinforced sand. Geosynth. Int. 7 (1), 59–
 71.
 Tan, S.A., Tjahyono, S., Oo, K.K., 2008. Simpliﬁed plane-strain modeling
-of stone-column reinforced ground. J. Geotech. Geoenviron. Eng.
 (ASCE) 134 (2), 185–194.
-van Eekelen, S.J.M., Bezuijen, A., Alexiew, D., 2010. The kyoto road piled
-embankment: 3½ years of measurements. Proceeding of the 9th
+van Eekelen, S.J.M., Bezuijen, A., Alexiew, D., 2010. The kyoto road piled embankment: 3½ years of measurements. Proceeding of the 9th
 International Conference on Geosynthetics, Brazil.
 Wood, D.M., 1990. Soil behavior and critical state soil mechanics.
 Cambridge University, London.
-Xie, K.H., Lu, M.M., Hu, A.F., Chen, G.H., 2009. A general theoretical
-solution for the consolidation of a composite foundation. Comp.
+Xie, K.H., Lu, M.M., Hu, A.F., Chen, G.H., 2009. A general theoretical solution for the consolidation of a composite foundation. Comp.
 Geotech. 36 (1–2), 24–30.
-Yoo, C., 2010. Performance of geosynthetic-encased stone columns in
-embankment
-construction:
-numerical
-investigation.
+Yoo, C., 2010. Performance of geosynthetic-encased stone columns in embankment construction:
+numerical investigation.
 J.
 Geotech.
 Geoenviron. Eng. (ASCE) 136 (8), 1148–1160.
-Yoo, C., Kim, S.B., 2009. Numerical modeling of geosynthetic-encased
-stone column-improved ground. Geosynth. Int. 16 (3), 116–126.
-Zhu, G., Yin, J.H., 2004. Consolidation analysis of soil with vertical and
-horizontal drainage under ramp loading considering smear eﬀects.
+Yoo, C., Kim, S.B., 2009. Numerical modeling of geosynthetic-encased stone column-improved ground. Geosynth. Int. 16 (3), 116–126.
+Zhu, G., Yin, J.H., 2004. Consolidation analysis of soil with vertical and horizontal drainage under ramp loading considering smear eﬀects.
 Geotextiles Geomembr. 22 (1–2), 63–74.
-632
 A. K. Das, K. Deb / Soils and Foundations 59 (2019) 617–632

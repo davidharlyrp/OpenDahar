@@ -1,0 +1,16 @@
+Formwork (shuttering) for a pile cap
+Pile cap
+A pile cap is a thick concrete mat that rests on concrete or timber piles that have been driven into soft or unstable ground to provide a suitable stable foundation. It usually forms part of the deep foundation of a building, typically a multi-story building, structure or support base for heavy equipment, or of a bridge. The cast concrete pile cap distributes the load of the building into the piles. A similar structure to a pile cap is a
+"raft", which is a concrete foundation floor resting directly onto soft soil which may be liable to subsidence.[1]
+The mat is made of concrete which is an aggregate of small rocks and cement. This mixture has to be supported by a framework to avoid sagging and fracture while setting. This process is known as shuttering and reinforcing. The materials used are long steel bars with longitudinal protrusions between the piles held in shape by thinner tie wires. Once this steel mat is laid, timber is attached around the perimeter to contain the wet concrete mixture. Once poured, (usually as a series of small loads), the concrete is stirred to remove any air pockets that might weaken the structure when set. The concrete undergoes a chemical change as it hardens and this produces a lot of heat. Sometimes, if the mass of concrete is very large, pipes carrying refrigerant coolant are used in the mass to assist the setting process to prevent the concrete from cracking.[2]
+Foundation (engineering)
+Underpinning
+1. "PILE INSTALLATION METHODS" (http://www.sbe.napier.ac.uk/projects/piledesign/guide/ch apter8.htm). School of the Built Environment, Napier University, Edinburgh 15 November
+2005. Retrieved 15 February 2011.
+2. "EXECUTION OF WORK" (https://web.archive.org/web/20101126052555/http://mahapwd.c om/training/traininghandbook/4.htm). Public works department - various dates. Archived
+Design
+Construction
+See also
+References from the original (http://www.mahapwd.com/training/traininghandbook/4.htm) on 26
+November 2010. Retrieved 15 February 2011.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Pile_cap&oldid=1340585904"

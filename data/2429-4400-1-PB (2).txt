@@ -1,727 +1,410 @@
-Seminar Nasional Teknik Sipil Politeknik Negeri Jakarta, 2019 
-1 
- 
-PERHITUNGAN ULANG DAYA DUKUNG STONE COLUMN PADA 
-PROYEK RUNWAY 3 SECTION 2 BANDARA SOEKARNO-HATTA 
- 
-Katherine Maulidina,  Tita Andienti, Andikanoza Pradiptiya 
-Konstruksi Sipil , Teknik Sipil, Politeknik Negeri Jakarta, Jl. Prof. Dr. G.A Siwabessy, Kampus Baru UI 
-Depok, 16424 
-e-mail : katherinemaulidina@gmail.com, Tandienti@gmail.com, andika.noza@ymail.com 
- 
-ABSTRACT 
-Soft soil has small soil shear properties, large compressibility, small permeability coefficient, and low 
-soil carrying capacity. So that soft soil can be used as the basis of a structure or construction, then soil 
-repairs are needed. One of soil improvement method is stone column which is vertical columns of 
-crushed stone. This method was chosen in construction of Infrastructure Runway 3 Section 2 Soekarno-
-Hatta Airport. The purpose of this Final Project is to calculate the stress that occurs in unit cells due to 
-external loads used FHWA method (Federal Highway Administration Office of Engineering and 
-Highway Operations Research and Development Washington, DC), by varying the diameter and distance 
-of the stone column, it can be concluded how the relation between two things to the stress that will occur 
-in the stone column and the soil around the stone column in the unit cell. In addition, the next purpose 
-is to calculate the carrying capacity of a single stone column with the theory of Cavity Expansion based 
-on Hughes and Withers with soil parameters and stone column dimensions based on Data from Runway 
-3 Section 2 Soekarno-Hatta Airport. 
-Key words : stone column, unit cell, stress, carrying capacity 
- 
-ABSTRAK 
-Tanah lunak memiliki sifat gaya geser tanah yang kecil, kompresibilitas yang besar, koefisien 
-permeabilitas yang kecil, dan daya dukung tanah yang rendah. Supaya tanah lunak dapat digunakan 
-sebagai dasar dari suatu struktur atau konstruksi, maka diperlukan perbaikan tanah. Salah satu metode 
-perbaikan tanah lempung yaitu stone column yang merupakan kolom-kolom vertikal dari material batu 
-pecah (crushed stone). Metode ini dipilih pada pembangunan Infrasutruktur Runway 3 Section 2 
-Bandara Soekarno – Hatta. Tujuan dalam Proyek Akhir ini adalah menghitung tegangan yang terjadi 
-dalam unit-cell akibat beban luar dengan metode FHWA (Federal Highway Administration Office of 
-Engineering and Highway Operations Research and Development Washington, D.C.), dengan 
-memvariasikan diameter dan jarak stone column tersebut, setelah itu dapat disimpulkan bagaimana 
-hubungan antara kedua hal tersebut terhadap tegangan yang akan terjadi pada stone column dan tanah 
-Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column 
-2 
- 
-di sekitar stone column dalam unit cell. Selain itu, tujuan selanjutnya adalah menghitung daya dukung 
-stone column tunggal dengan teori Cavity Expansion berdasarkan Huges and Withers dengan 
-parameter tanah dan dimensi stone column berdasarkan data Proyek Runway 3 Section 2 Bandara 
-Soekarno – Hatta. 
-Kata kunci  : stone column, unit cell, tegangan, daya dukung 
-PENDAHULUAN 
- 
-Latar Belakang 
-Stone column merupakan kolom-kolom 
-vertikal 
-dari 
-material 
-batu 
-pecah 
-(crushed stone) yang dipadatkan, batuan 
-tersebut umumnya batuan lepas dan 
-tidak diikat oleh bahan pengikat semen 
-atau lainnya. Berfungsi sebagai salah 
-satu alternatif dalam perbaikan tanah 
-kohesif lunak untuk menaikan daya 
-dukung tanah. Teknik perbaikan tanah 
-dengan menggunakan stone column ini 
-sangat baik untuk digunakan pada 
-struktur yang memiliki area yang luas 
-seperti bandar udara.  Dengan adanya 
-stone column maka tegangan yang 
-terjadi akibat beban luar pada bandara 
-tersebut akan ditanggung oleh stone 
-column dan tanah di sekitar stone 
-column. Selain itu, pemasangan stone 
-column 
-juga 
-akan 
-meningkatkan 
-kapasitas daya dukung tanah.  Dalam 
-Tugas 
-Akhir 
-ini, 
-penulis 
-akan 
-memperhitungkan besar tegangan yang 
-terjadi pada stone column dan tanah di 
-sekitar stone column dalam unit cell 
-dengan melakukan kombinasi diameter 
-dan jarak antar stone column, serta 
-memperhitungkan 
-kapasitas 
-daya 
-dukung 
-stone 
-column 
-tunggal.  
-Parameter tanah yang diperhitungkan 
-dalam 
-Tugas 
-Akhir 
-ini 
-adalah 
-berdasarkan data Standard Penetration 
-Test (SPT) pada Proyek Runway 3 
-Section 2  Bandara Soekarno – Hatta, 
-dan digunakan metode FHWA (Federal 
-Highway 
-Administration 
-Office 
-of 
-Engineering and Highway Operations 
-Research and Development Washington, 
-D.C.) 
-digunakan 
-sebagai 
-pedoman 
-perhitungan besar tegangan yang terjadi 
-dalam unit cell. Dalam perhitungan 
-kapasitas daya dukung stone column 
-tunggal adalah berdasarkan Hughes and 
-Withers, 1974. 
- 
-Tujuan Penulisan 
- 1. Menghitung tegangan yang terjadi 
-pada stone column berdasarkan jarak 
-stone column.  
-2. Menghitung tegangan yang terjadi 
-pada tanah disekitar stone column  
-berdasarkan jarak stone column.  
-3. Menghitungan kapasitas daya dukung 
-stone column tunggal. 
- 4. Mengetahui dimensi stone column 
-yang mampu memikul beban.  
- 
-Manfaat Penulisan 
-Manfaat penulisan Tugas Akhir ini 
-adalah sebagai dasar dari perhitungan 
-tegangan yang terjadi pada stone column 
-dan tanah di sekitar stone column, serta 
-sebagai 
-pengetahuan 
-bagaimana 
-hubungan antara diameter dan jarak 
-dengan tegangan tersebut. Selain itu 
-sebagai dasar perhitungan kapasitas daya 
-dukung stone column tunggal.  
- 
-Batasan Masalah 
-Untuk 
-menghindari 
-meluasnya 
-permasalahan yang akan dibahas dalam 
-analisis ini, maka dilakukan pembatasan 
-masalah sebagai berikut :  
-1. Tidak membahas tentang metode 
-pelaksanaan.  
-Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column 
- 
-3 
- 
-2. Hanya memperhitungkan tegangan 
-menggunakan metode FHWA (Federal 
-Highway 
-Administration 
-Office 
-of 
-Engineering and Highway Operations 
-Research and Development Washington, 
-D.C.). 
- 3. 
-Hanya 
-memperhitungkan 
-daya 
-dukung 
-stone 
-column 
-tunggal 
-berdasarkan Hughes dan Withers, 1974 
-dengan 
-pola 
-bujur 
-sangkar.  
- 
-4. Tegangan yang diterima stone column 
-dan  tanah di sekitar stone column dalam 
-unit cell diperhitungkan berdasarkan 
-pola bujur sangkar. 
- 
-Teori 
-Stone column merupakan merupakan 
-kolom-kolom vertikal dari material batu 
-pecah (crushed stone) yang dipadatkan, 
-kriteria batu pecah yang digunakan harus 
-keras, bersih, dan tidak terganggu dari 
-material organik, sampah, kotoran atau 
-material lain yang bersifat merusak. 
-Batuan tersebut umumnya batuan lepas 
-dan tidak diikat oleh bahan pengikat 
-semen atau lainnya.  Kolom batu tersebut 
-dipasang di dalam tanah dengan cara 
-membuat lubang dalam tanah dan 
-kemudian 
-lubang 
-itu 
-diisi 
-batu. 
-Pembuatan lubang dilakukan dengan 
-cara membenamkan alat berupa tiang 
-yang bergetar atau lebih dikenal dengan 
-nama tiang vibroflot, kedalaman tanah 
-sedemikian rupa sehingga getaran tiang 
-tersebut dapat menyibak tanah – tanah 
-yang lembek ke samping, sebagai 
-hasilnya 
-terbentuk 
-lubang 
-dengan 
-diameter tertentu. 
- 
- 
- 
- 
-METODE PENELITIAN 
-1. Bagan alir dari perhitungan kapasitas 
-daya dukung stone column tunggal:  
-Berikut merupakan gambar 1.1 bagan 
-alir perhitungan daya dukung stone 
-column tunggal. 
-Gambar 1.1 Bagan alir perhitungan daya 
-dukung stone column tunggal 
- 
- 
- 
- 
- 
- 
-Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column 
-4 
- 
-2. Bagan alir dari perhitungan tegangan 
-yang terjadi akibat beban luar: 
-Berikut merupakan gambar 1.2 bagan 
-alir perhitungan tegangan yang terjadi 
-akibat beban luar  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Gambar 1.2 Bagan alir perhitungan 
-tegangan yang terjadi akibat beban luar  
- 
-HASIL dan PEMBAHASAN  
-Data dan parameter yang digunakan 
-Data pembebanan desain area taxiway: 
-Tabel 1.1 Data Pembebanan Desain 
-Area Taxiway 
-Item 
-Unit 
-Weight 
-KN/𝒎𝟑 
-Height 
-m 
-Load 
-kPa 
-Aircraft 
-Load 
-- 
-- 
-15 
-Asphalt 
-23 
-0,15 
-3,45 
-CTBC 
-24 
-0,30 
-7,2 
-Subbase 
-20 
-0,42 
-8,4 
-Total 
-Actual  Load 
-34,05 
- 
-Parameter 
-stone 
-column 
-terhadap 
-tegangan: 
-Tabel 1.2 Parameter Stone column 
-terhadap Tegangan 
-Variasi Diameter 
-Variasi Jarak 
-1 m 
-1,5 m 
-1,2 m 
-1,7 m 
-1,4 m 
-1, 9 m 
-1,5 m 
-2,1 m 
- 
-Parameter tanah terhadap daya dukung 
-stone column tunggal: 
-Tabel 1.3 Parameter Tanah terhadap 
-Daya Dukung Stone column Tunggal 
-Parameter 
-Tanah 
-Lapis 1 
-Lapis 2 
-Nilai N-SPT 
-8 
-15 
-H 
-2 m 
-3 m 
-Jenis Tanah 
-Clay 
-Silt 
-𝜸 𝐭𝐚𝐧𝐚𝐡 
-16,5 
-KN/𝑚3 
-18 KN/𝑚3 
-Ec 
-23 
-20 
-Cu 
-25 KN/𝑚2 
-50 KN/𝑚2 
-ν 
-0,25 
-0,3 
-Parameter 
-Stone column 
-H  
-5 m 
-∅𝒔 
-40˚ 
-Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column 
- 
-5 
- 
-Analisis perhitungan stone column 
-1. Dengan pemasangan pola bujur 
-sangkar, rumus diameter ekuivalen 
-sebagai berikut: 
-De = 1,13 x S 
-Dimana De = diameter ekuivalen dan  
-S = jarak spasi antar stone column. 
-Perhitungan diameter ekuivalen : 
-Dengan jarak spasi antar stone column 
-(S) = 1,5 m 
-De = 1,13 x 1,5 = 1,695 m 
-2. Perhitungan luas penampang stone 
-column dengan rumus: 
-As =  
-𝟏
-𝟒𝝅(𝑫)𝟐 
-Dimana As = luas penampang stone 
-column, dan D = diameter stone column. 
- 
-Dengan diameter 1 m 
-As =  
-1
-4 𝜋(1)2 = 0,785 𝑚2 
-3. Perhitungan luas penampang unit cell 
-dengan rumus : 
-A =  
-𝟏
-𝟒𝝅(𝑫𝒆)𝟐 
-Dimana A = total luas pengaruh unit cell 
-dan De = diameter ekuivalen. 
- 
-Dengan De = 1,695 m 
-A = 
-1
-4 𝜋(1,695)2 = 2,3 𝑚2 
-4. Perhitungan luas penampang tanah 
-dalam unit cell dengan rumus : 
-Ac = A - As 
-Dimana Ac = luas penampang tanah 
-sekitar stone column, A = total luas 
-pengaruh unit cell, dan As = luas 
-penampang stone column. 
- 
-Dengan A = 2,3 𝑚2 dan As = 0.785 𝑚2 
-Ac = 2,3 – 0,785 = 1,471 𝑚2 
-5. Perhitungan area replacement ratio 
-stone column dengan rumus :  
-as = 
+Seminar Nasional Teknik Sipil Politeknik Negeri Jakarta, 2019
+
+PERHITUNGAN ULANG DAYA DUKUNG STONE COLUMN PADA
+PROYEK RUNWAY 3 SECTION 2 BANDARA SOEKARNO-HATTA
+
+Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya
+Konstruksi Sipil , Teknik Sipil, Politeknik Negeri Jakarta, Jl. Prof. Dr. G.A Siwabessy, Kampus Baru UI
+Depok, 16424 e-mail : katherinemaulidina@gmail.com, Tandienti@gmail.com, andika.noza@ymail.com
+
+ABSTRACT
+Soft soil has small soil shear properties, large compressibility, small permeability coefficient, and low soil carrying capacity. So that soft soil can be used as the basis of a structure or construction, then soil repairs are needed. One of soil improvement method is stone column which is vertical columns of crushed stone. This method was chosen in construction of Infrastructure Runway 3 Section 2 Soekarno-
+Hatta Airport. The purpose of this Final Project is to calculate the stress that occurs in unit cells due to external loads used FHWA method (Federal Highway Administration Office of Engineering and
+Highway Operations Research and Development Washington, DC), by varying the diameter and distance of the stone column, it can be concluded how the relation between two things to the stress that will occur in the stone column and the soil around the stone column in the unit cell. In addition, the next purpose is to calculate the carrying capacity of a single stone column with the theory of Cavity Expansion based on Hughes and Withers with soil parameters and stone column dimensions based on Data from Runway
+3 Section 2 Soekarno-Hatta Airport.
+Key words : stone column, unit cell, stress, carrying capacity
+
+ABSTRAK
+Tanah lunak memiliki sifat gaya geser tanah yang kecil, kompresibilitas yang besar, koefisien permeabilitas yang kecil, dan daya dukung tanah yang rendah. Supaya tanah lunak dapat digunakan sebagai dasar dari suatu struktur atau konstruksi, maka diperlukan perbaikan tanah. Salah satu metode perbaikan tanah lempung yaitu stone column yang merupakan kolom-kolom vertikal dari material batu pecah (crushed stone). Metode ini dipilih pada pembangunan Infrasutruktur Runway 3 Section 2
+Bandara Soekarno – Hatta. Tujuan dalam Proyek Akhir ini adalah menghitung tegangan yang terjadi dalam unit-cell akibat beban luar dengan metode FHWA (Federal Highway Administration Office of
+Engineering and Highway Operations Research and Development Washington, D.C.), dengan memvariasikan diameter dan jarak stone column tersebut, setelah itu dapat disimpulkan bagaimana hubungan antara kedua hal tersebut terhadap tegangan yang akan terjadi pada stone column dan tanah
+Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column
+
+di sekitar stone column dalam unit cell. Selain itu, tujuan selanjutnya adalah menghitung daya dukung stone column tunggal dengan teori Cavity Expansion berdasarkan Huges and Withers dengan parameter tanah dan dimensi stone column berdasarkan data Proyek Runway 3 Section 2 Bandara
+Soekarno – Hatta.
+Kata kunci : stone column, unit cell, tegangan, daya dukung
+PENDAHULUAN
+
+Latar Belakang
+Stone column merupakan kolom-kolom vertikal dari material batu pecah
+(crushed stone) yang dipadatkan, batuan tersebut umumnya batuan lepas dan tidak diikat oleh bahan pengikat semen atau lainnya. Berfungsi sebagai salah satu alternatif dalam perbaikan tanah kohesif lunak untuk menaikan daya dukung tanah. Teknik perbaikan tanah dengan menggunakan stone column ini sangat baik untuk digunakan pada struktur yang memiliki area yang luas seperti bandar udara. Dengan adanya stone column maka tegangan yang terjadi akibat beban luar pada bandara tersebut akan ditanggung oleh stone column dan tanah di sekitar stone column. Selain itu, pemasangan stone column juga akan meningkatkan kapasitas daya dukung tanah. Dalam
+Tugas
+Akhir ini, penulis akan memperhitungkan besar tegangan yang terjadi pada stone column dan tanah di sekitar stone column dalam unit cell dengan melakukan kombinasi diameter dan jarak antar stone column, serta memperhitungkan kapasitas daya dukung stone column tunggal.
+Parameter tanah yang diperhitungkan dalam
+Tugas
+Akhir ini adalah berdasarkan data Standard Penetration
+Test (SPT) pada Proyek Runway 3
+Section 2 Bandara Soekarno – Hatta, dan digunakan metode FHWA (Federal
+Highway
+Administration
+Office of
+Engineering and Highway Operations
+Research and Development Washington,
+D.C.) digunakan sebagai pedoman perhitungan besar tegangan yang terjadi dalam unit cell. Dalam perhitungan kapasitas daya dukung stone column tunggal adalah berdasarkan Hughes and
+Withers, 1974.
+
+Tujuan Penulisan
+1. Menghitung tegangan yang terjadi pada stone column berdasarkan jarak stone column.
+2. Menghitung tegangan yang terjadi pada tanah disekitar stone column berdasarkan jarak stone column.
+3. Menghitungan kapasitas daya dukung stone column tunggal.
+4. Mengetahui dimensi stone column yang mampu memikul beban.
+
+Manfaat Penulisan
+Manfaat penulisan Tugas Akhir ini adalah sebagai dasar dari perhitungan tegangan yang terjadi pada stone column dan tanah di sekitar stone column, serta sebagai pengetahuan bagaimana hubungan antara diameter dan jarak dengan tegangan tersebut. Selain itu sebagai dasar perhitungan kapasitas daya dukung stone column tunggal.
+
+Batasan Masalah
+Untuk menghindari meluasnya permasalahan yang akan dibahas dalam analisis ini, maka dilakukan pembatasan masalah sebagai berikut :
+1. Tidak membahas tentang metode pelaksanaan.
+Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column
+
+2. Hanya memperhitungkan tegangan menggunakan metode FHWA (Federal
+Highway
+Administration
+Office of
+Engineering and Highway Operations
+Research and Development Washington,
+D.C.).
+3.
+Hanya memperhitungkan daya dukung stone column tunggal berdasarkan Hughes dan Withers, 1974 dengan pola bujur sangkar.
+
+4. Tegangan yang diterima stone column dan tanah di sekitar stone column dalam unit cell diperhitungkan berdasarkan pola bujur sangkar.
+
+Teori
+Stone column merupakan merupakan kolom-kolom vertikal dari material batu pecah (crushed stone) yang dipadatkan, kriteria batu pecah yang digunakan harus keras, bersih, dan tidak terganggu dari material organik, sampah, kotoran atau material lain yang bersifat merusak.
+Batuan tersebut umumnya batuan lepas dan tidak diikat oleh bahan pengikat semen atau lainnya. Kolom batu tersebut dipasang di dalam tanah dengan cara membuat lubang dalam tanah dan kemudian lubang itu diisi batu.
+Pembuatan lubang dilakukan dengan cara membenamkan alat berupa tiang yang bergetar atau lebih dikenal dengan nama tiang vibroflot, kedalaman tanah sedemikian rupa sehingga getaran tiang tersebut dapat menyibak tanah – tanah yang lembek ke samping, sebagai hasilnya terbentuk lubang dengan diameter tertentu.
+
+METODE PENELITIAN
+1. Bagan alir dari perhitungan kapasitas daya dukung stone column tunggal:
+Berikut merupakan gambar 1.1 bagan alir perhitungan daya dukung stone column tunggal.
+Gambar 1.1 Bagan alir perhitungan daya dukung stone column tunggal
+
+Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column
+
+2. Bagan alir dari perhitungan tegangan yang terjadi akibat beban luar:
+Berikut merupakan gambar 1.2 bagan alir perhitungan tegangan yang terjadi akibat beban luar
+
+Gambar 1.2 Bagan alir perhitungan tegangan yang terjadi akibat beban luar
+
+HASIL dan PEMBAHASAN
+Data dan parameter yang digunakan
+Data pembebanan desain area taxiway:
+Tabel 1.1 Data Pembebanan Desain
+Area Taxiway
+Item
+Unit
+Weight
+KN/𝒎𝟑
+Height m
+Load kPa
+Aircraft
+Load
+-
+-
+Asphalt
+0,15
+3,45
+CTBC
+0,30
+7,2
+Subbase
+0,42
+8,4
+Total
+Actual Load
+34,05
+
+Parameter stone column terhadap tegangan:
+Tabel 1.2 Parameter Stone column terhadap Tegangan
+Variasi Diameter
+Variasi Jarak
+1 m
+1,5 m
+1,2 m
+1,7 m
+1,4 m
+1, 9 m
+1,5 m
+2,1 m
+
+Parameter tanah terhadap daya dukung stone column tunggal:
+Tabel 1.3 Parameter Tanah terhadap
+Daya Dukung Stone column Tunggal
+Parameter
+Tanah
+Lapis 1
+Lapis 2
+Nilai N-SPT
+H
+2 m
+3 m
+Jenis Tanah
+Clay
+Silt 𝜸 𝐭𝐚𝐧𝐚𝐡
+16,5
+KN/𝑚3
+18 KN/𝑚3
+Ec
+Cu
+25 KN/𝑚2
+50 KN/𝑚2 ν
+0,25
+0,3
+Parameter
+Stone column
+H
+5 m
+∅𝒔
+40˚
+Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column
+
+Analisis perhitungan stone column
+1. Dengan pemasangan pola bujur sangkar, rumus diameter ekuivalen sebagai berikut:
+De = 1,13 x S
+Dimana De = diameter ekuivalen dan
+S = jarak spasi antar stone column.
+Perhitungan diameter ekuivalen :
+Dengan jarak spasi antar stone column
+(S) = 1,5 m
+De = 1,13 x 1,5 = 1,695 m
+2. Perhitungan luas penampang stone column dengan rumus:
+As =
+𝟒𝝅(𝑫)𝟐
+Dimana As = luas penampang stone column, dan D = diameter stone column.
+
+Dengan diameter 1 m
+As =
+4 𝜋(1)2 = 0,785 𝑚2
+3. Perhitungan luas penampang unit cell dengan rumus :
+A =
+𝟒𝝅(𝑫𝒆)𝟐
+Dimana A = total luas pengaruh unit cell dan De = diameter ekuivalen.
+
+Dengan De = 1,695 m
+A =
+4 𝜋(1,695)2 = 2,3 𝑚2
+4. Perhitungan luas penampang tanah dalam unit cell dengan rumus :
+Ac = A - As
+Dimana Ac = luas penampang tanah sekitar stone column, A = total luas pengaruh unit cell, dan As = luas penampang stone column.
+
+Dengan A = 2,3 𝑚2 dan As = 0.785 𝑚2
+Ac = 2,3 – 0,785 = 1,471 𝑚2
+5. Perhitungan area replacement ratio stone column dengan rumus :
+as =
 𝑨𝒔
-𝑨 
-Dimana as = area replacement ratio 
-stone column, A = total luas pengaruh 
-unit cell, dan As = luas penampang stone 
-column. 
- 
-Dengan A = 2,3 𝑚2 dan As = 0.785 𝑚2 
-as = 
+𝑨
+Dimana as = area replacement ratio stone column, A = total luas pengaruh unit cell, dan As = luas penampang stone column.
+
+Dengan A = 2,3 𝑚2 dan As = 0.785 𝑚2 as =
 0,785
-2,3  = 0,348 
-6. Perhitungan area replacement ratio 
-tanah dengan rumus :  
+2,3 = 0,348
+6. Perhitungan area replacement ratio tanah dengan rumus :
 𝒂𝒄= 𝑨𝒄
 𝑨= 𝑨−𝑨𝒔
 𝑨
-= 𝟏−𝒂𝒔  
- 
-Dimana ac = area replacement ratio 
-tanah dan as = area replacement ratio 
-stone column. 
- 
-Dengan as = 0,348 
-ac = 1 - 0,348 = 0,652 
-7. Perhitungan  rasio tegangan pada 
-stone column dengan rumus :  
-𝝁𝒔=
-𝒏
-(𝟏+ (𝒏−𝟏) 𝒙 𝒂𝒔) 
- 
-Dimana 𝜇𝑠=
-𝑟𝑎𝑠𝑖𝑜 𝑡𝑒𝑔𝑎𝑛𝑔𝑎𝑛 𝑝𝑎𝑑𝑎 𝑠𝑡𝑜𝑛𝑒 𝑐𝑜𝑙𝑢𝑚𝑛, 
-n = faktor penumpukan tegangan, dan 
-as = area replacement ratio stone 
-column. 
- 
-Dengan n = 3 dan as = 0,348 
-𝜇𝑠=
-3
-(1+(3−1) 𝑥 0,348) = 1,769 
-8. Perhitungan rasio tegangan pada tanah 
-disekitar stone column dengan rumus :  
-Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column 
-6 
- 
+= 𝟏−𝒂𝒔
+
+Dimana ac = area replacement ratio tanah dan as = area replacement ratio stone column.
+
+Dengan as = 0,348 ac = 1 - 0,348 = 0,652
+7. Perhitungan rasio tegangan pada stone column dengan rumus :
+𝝁𝒔= 𝒏
+(𝟏+ (𝒏−𝟏) 𝒙 𝒂𝒔)
+
+Dimana 𝜇𝑠= 𝑟𝑎𝑠𝑖𝑜 𝑡𝑒𝑔𝑎𝑛𝑔𝑎𝑛 𝑝𝑎𝑑𝑎 𝑠𝑡𝑜𝑛𝑒 𝑐𝑜𝑙𝑢𝑚𝑛, n = faktor penumpukan tegangan, dan as = area replacement ratio stone column.
+
+Dengan n = 3 dan as = 0,348 𝜇𝑠=
+(1+(3−1) 𝑥 0,348) = 1,769
+8. Perhitungan rasio tegangan pada tanah disekitar stone column dengan rumus :
+Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column
+
 𝝁𝒄=
-𝟏
-(𝟏+ (𝒏−𝟏) 𝒙 𝒂𝒄) 
- 
-Dimana 𝜇𝑐=
-𝑟𝑎𝑠𝑖𝑜 𝑡𝑒𝑔𝑎𝑛𝑔𝑎𝑛 𝑝𝑎𝑑𝑎 tanah sekitar 𝑠𝑡𝑜𝑛𝑒 𝑐𝑜𝑙𝑢𝑚𝑛 
-, n = faktor penumpukan tegangan, dan 
-ac = area replacement ratio pada tanah. 
-Dengan n = 3 dan ac = 0,652 
-𝜇𝑐=
-1
-(1+(3−1) 𝑥 0,652) = 0,434 
-9. Perhitungan tegangan yang terjadi 
-pada stone column dengan rumus :  
-𝝈𝒔=  𝝁𝒔 𝒙 𝝈 
-Dimana, 𝜎𝑠 = tegangan yang terjadi pada 
-stone column , 𝜇𝑠 = rasio tegangan stone 
-column, dan 𝝈 = beban timbunan atau 
-beban struktur yang diterima unit cell. 
- 
-Dengan 𝜇𝑠= 1,769 dan 𝝈 = 34,05 
-KN/𝑚2 
-𝜎𝑠 = 1,769 x 34,05 = 60,225 KN/𝑚2 
-10. Perhitungan tegangan yang terjadi 
-pada tanah disekitar stone column 
-dengan rumus :  
- 
-𝝈𝒄=  𝝁𝒄 𝒙 𝝈 
- 
-Dimana, 𝜎𝑐 = tegangan yang terjadi pada 
-tanah di sekitar stone column dalan unit 
-cell, 𝜇𝑐 = rasio tegangan tanah di sekitar 
-stone column, dan 𝝈 = beban timbunan 
-atau beban struktur yang diterima unit 
-cell. 
- 
-Dengan 𝜇𝑐= 0,434 dan 𝝈 = 34,05 
-KN/𝑚2 
-𝜎𝑐 = 0,434 x 34,05 = 14,779 KN/𝑚2 
-11. Perhitungan perlawanan pasif dari 
-tanah disekeliling stone column dapat 
-dirumuskan sebagai berikut (menurut 
-Hughes dan Withers, 1974): 
-𝜎3 =  𝜎𝑟𝑜+ 𝐶𝑢 (1 + 𝑙𝑛
+(𝟏+ (𝒏−𝟏) 𝒙 𝒂𝒄)
+
+Dimana 𝜇𝑐= 𝑟𝑎𝑠𝑖𝑜 𝑡𝑒𝑔𝑎𝑛𝑔𝑎𝑛 𝑝𝑎𝑑𝑎 tanah sekitar 𝑠𝑡𝑜𝑛𝑒 𝑐𝑜𝑙𝑢𝑚𝑛
+, n = faktor penumpukan tegangan, dan ac = area replacement ratio pada tanah.
+Dengan n = 3 dan ac = 0,652 𝜇𝑐=
+(1+(3−1) 𝑥 0,652) = 0,434
+9. Perhitungan tegangan yang terjadi pada stone column dengan rumus :
+𝝈𝒔= 𝝁𝒔 𝒙 𝝈
+Dimana, 𝜎𝑠 = tegangan yang terjadi pada stone column , 𝜇𝑠 = rasio tegangan stone column, dan 𝝈 = beban timbunan atau beban struktur yang diterima unit cell.
+
+Dengan 𝜇𝑠= 1,769 dan 𝝈 = 34,05
+KN/𝑚2 𝜎𝑠 = 1,769 x 34,05 = 60,225 KN/𝑚2
+10. Perhitungan tegangan yang terjadi pada tanah disekitar stone column dengan rumus :
+
+𝝈𝒄= 𝝁𝒄 𝒙 𝝈
+
+Dimana, 𝜎𝑐 = tegangan yang terjadi pada tanah di sekitar stone column dalan unit cell, 𝜇𝑐 = rasio tegangan tanah di sekitar stone column, dan 𝝈 = beban timbunan atau beban struktur yang diterima unit cell.
+
+Dengan 𝜇𝑐= 0,434 dan 𝝈 = 34,05
+KN/𝑚2 𝜎𝑐 = 0,434 x 34,05 = 14,779 KN/𝑚2
+11. Perhitungan perlawanan pasif dari tanah disekeliling stone column dapat dirumuskan sebagai berikut (menurut
+Hughes dan Withers, 1974):
+𝜎3 = 𝜎𝑟𝑜+ 𝐶𝑢 (1 + 𝑙𝑛
 𝐸𝑐
-2𝐶𝑢 (1 + 𝑣) ) 
-Dimana: 
-𝜎3 
-= Tegangan 
-Perlawanan Pasif 
-𝜎𝑟𝑜 = Total tegangan horizontal 
-lapangan (awal) = Ko x 𝜎𝑣  
-𝜎𝑣  = 𝛾𝑐 𝑥 𝑧 
-Ec 
-= Modulus Elastisitas tanah 
-Cu 
-= Kekuatan Geser      
-Undrained, Undrained 
-Shear Strength 
-v 
-= Angka Poison Tanah 
-Ko 
-= Koefisien Tegangan 
-Horisontal “at rest” 
-𝛾𝑐 
- = Berat Volume Tanah  
-Lunak 
-z 
-= Kedalaman Tanah Lunak 
-yang Ditinjau. 
-Berikut 
-perhitungan 
-tegangan 
-perlawanan pasif (𝜎3): 
-a. 
-Pada tanah lapis 1 
-Ko = (1 – sin (Φ)) = 1 – sin (0) = 1  
-𝜎𝑣 kedalaman 0−1,5 m = 𝛾𝑐 𝑥 𝑧 = 16,5 x 
-1,5 = 24,75 KN/𝑚2  
-𝜎𝑣 kedalaman 1,5−2 m = 𝛾𝑠𝑎𝑡 𝑥 𝑧 = 
-(16,5 - 9,8) x 0,5 = 3,35 KN/𝑚2  
-𝜎𝑣 𝑘𝑒𝑑𝑎𝑙𝑎𝑚𝑎𝑛 2 𝑚 = 24,75 + 3,35 = 
-28,1 KN/𝑚2  
-𝜎𝑟𝑜 = Ko x 𝜎𝑣 = 1 x 28,1 = 28,1 KN/𝑚2 
-𝜎3 = 28,1 + 25 (1 + 𝑙𝑛 2300 2𝑥25 
-(1+0,25) )  
-𝜎3 = 139,887 KN/𝑚2  
- 
-b. Pada tanah lapis 2 
-Ko = (1 – sin (Φ)) = 1 – sin (0) = 1  
-𝜎𝑣 𝑘𝑒𝑑𝑎𝑙𝑎𝑚𝑎𝑛 2− 5 𝑚 = 𝛾𝑠𝑎𝑡 𝑥 𝑧 =  
-(18 - 9,8 ) x 3 = 24,6 KN/𝑚2  
-Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column 
- 
-7 
- 
-𝜎𝑣 𝑘𝑒𝑑𝑎𝑙𝑎𝑚𝑎𝑛 5 𝑚 = 28,1 + 24,6 = 52,7 
-KN/𝑚2  
-𝜎𝑟𝑜 = Ko x 𝜎𝑣 = 1 x 52,7 = 52,7 KN/𝑚2 
-𝜎3 = 52,7 + 50 (1 + 𝑙𝑛 2000 2𝑥50 
-(1+0,3))  
-𝜎3 = 239, 368 KN/𝑚2 
-12. Untuk dapat menghitung kapasitas 
-daya dukung stone column, kita perlu 
-menghitung koefisien tekanan pasif 
-tanah pada stone column (Kp). 
-Berikut perhitungan koefisien tekanan 
-pasif tanah pada stone column : 
-Kp 
-=  
+2𝐶𝑢 (1 + 𝑣) )
+Dimana:
+𝜎3
+= Tegangan
+Perlawanan Pasif 𝜎𝑟𝑜 = Total tegangan horizontal lapangan (awal) = Ko x 𝜎𝑣 𝜎𝑣 = 𝛾𝑐 𝑥 𝑧
+Ec
+= Modulus Elastisitas tanah
+Cu
+= Kekuatan Geser
+Undrained, Undrained
+Shear Strength v
+= Angka Poison Tanah
+Ko
+= Koefisien Tegangan
+Horisontal “at rest” 𝛾𝑐
+= Berat Volume Tanah
+Lunak z
+= Kedalaman Tanah Lunak yang Ditinjau.
+Berikut perhitungan tegangan perlawanan pasif (𝜎3):
+a.
+Pada tanah lapis 1
+Ko = (1 – sin (Φ)) = 1 – sin (0) = 1 𝜎𝑣 kedalaman 0−1,5 m = 𝛾𝑐 𝑥 𝑧 = 16,5 x
+1,5 = 24,75 KN/𝑚2 𝜎𝑣 kedalaman 1,5−2 m = 𝛾𝑠𝑎𝑡 𝑥 𝑧 =
+(16,5 - 9,8) x 0,5 = 3,35 KN/𝑚2 𝜎𝑣 𝑘𝑒𝑑𝑎𝑙𝑎𝑚𝑎𝑛 2 𝑚 = 24,75 + 3,35 =
+28,1 KN/𝑚2 𝜎𝑟𝑜 = Ko x 𝜎𝑣 = 1 x 28,1 = 28,1 KN/𝑚2 𝜎3 = 28,1 + 25 (1 + 𝑙𝑛 2300 2𝑥25
+(1+0,25) ) 𝜎3 = 139,887 KN/𝑚2
+
+b. Pada tanah lapis 2
+Ko = (1 – sin (Φ)) = 1 – sin (0) = 1 𝜎𝑣 𝑘𝑒𝑑𝑎𝑙𝑎𝑚𝑎𝑛 2− 5 𝑚 = 𝛾𝑠𝑎𝑡 𝑥 𝑧 =
+(18 - 9,8 ) x 3 = 24,6 KN/𝑚2
+Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column
+
+𝜎𝑣 𝑘𝑒𝑑𝑎𝑙𝑎𝑚𝑎𝑛 5 𝑚 = 28,1 + 24,6 = 52,7
+KN/𝑚2 𝜎𝑟𝑜 = Ko x 𝜎𝑣 = 1 x 52,7 = 52,7 KN/𝑚2 𝜎3 = 52,7 + 50 (1 + 𝑙𝑛 2000 2𝑥50
+(1+0,3)) 𝜎3 = 239, 368 KN/𝑚2
+12. Untuk dapat menghitung kapasitas daya dukung stone column, kita perlu menghitung koefisien tekanan pasif tanah pada stone column (Kp).
+Berikut perhitungan koefisien tekanan pasif tanah pada stone column :
+Kp
+=
 1 + 𝑠𝑖𝑛𝛷𝑠
-1− 𝑠𝑖𝑛𝛷𝑠 
- 
-=  
+1− 𝑠𝑖𝑛𝛷𝑠
+
+=
 1 + sin (40)
-1− 𝑠𝑖𝑛 (40) = 4,599 
-Maka kapasitas daya dukung stone 
-column tunggal dapat dihitung dengan 
-rumus: 
-Qult = 𝜎3 𝑥 𝐾𝑝  
-Pada tanah lapis 2 kedalaman 5 m  
-Qult = 239,368 x 4,599  
-Qult = 1100,834 KN/𝑚2  
-Daya Dukung Ijin = 𝑄𝑢𝑙𝑡/𝑠𝑓 = 
-1100,834/2 = 550,417 KN/m2 
-KESIMPULAN 
-1. Tegangan yang diterima oleh stone 
-column 
-akibat 
-beban 
-luar 
-adalah 
-berbanding 
-lurus 
-dengan 
-jarak 
-pemasangan stone column, semakin 
-besar jarak antar stone column maka 
-tegangan yang terjadi pada stone column 
-akan semakin besar. Tegangan terbesar 
-yang terjadi pada stone column adalah 
-75,378 KN/m2.   
-2. Tegangan yang diterima oleh tanah di 
-sekitar stone column akibat beban luar 
-adalah berbanding terbalik dengan jarak 
-pemasangan stone column, semakin 
-besar jarak antar stone column maka 
-tegangan yang terjadi pada tanah di 
-sekitar stone column akan semakin kecil. 
-Tegangan terkecil yang terjadi pada 
-tanah di sekitar stone column adalah 
-12,874 KN/m2.   
-3. Berdasarkan hasil perhitungan analisis 
-kapasitas daya dukung stone column 
-tunggal untuk pembangunan Proyek 
-Runway 3 Section 2 – Bandara 
-Soekarno-Hatta 
-pada 
-titik 
-DB43 
-menurut 
-Cavity 
-Expansion 
-Theory 
-berdasarkan 
-Huges 
-and 
-Withers 
-didapatkan kapasitas daya dukung stone 
-column tunggal adalah 1100,834 KN/𝑚2 
-dengan daya dukung ijin yang diberikan 
-stone column sebesar 550,417 KN/𝑚2.   
-4. 
-Berdasarkan 
-perhitungan, 
-daya 
-dukung ijin stone column tunggal dengan 
-kedalaman  5 m adalah sebesar 550,417 
-KN/𝑚2. Maka dengan dimensi tersebut, 
-dapat disimpulkan bahwa stone column 
-aman dalam menahan beban struktur.  
- 
-Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column 
-8 
- 
-DAFTAR PUSTAKA 
-[1] Bahri, 
-Syarifudin. 
-2017. 
-Studi 
-Perencanaan 
-Perbaikan 
-Tanah 
-Dengan Stone column Pada Stock 
-Pile Batu Bara Rencana PLTU 
-Sorong (4x7 MW), Jurusan Teknik 
-Pengairan 
-Fakultas 
-Teknik 
-Universitas Brawijaya, Malang.  
-[2] Desiana 
-Vidayanti, 
-Pintor 
-T 
-Simatupang, Sido Silalahi. 2013. 
-Korelasi 
-Nilai 
-N-SPT 
-Dengan 
-Parameter Kuat Geser Tanah Untuk 
-Wilayah Jakarta Dan Sekitarnya, 
-Program Studi  Teknik Sipil, FTPD, 
-Universitas Mercu Buana.  
-[3] Gowri Siva, Satyanarayana. 2016. 
-Improvement 
-of 
-Soft 
-Soil 
-Performance Using Stone Columns 
-Improved With Circular Geogrid 
-Discs. 
-[4] Hepma Sihol Mardame Sihombing, 
-Immanuel. 2017. Study Parameters 
-Design Stone column For Improving  
-Bearing Capacity and Settlement on 
-Clay Soil, Program Studi Teknik 
-Sipil, Fakultas Teknik Sipil dan 
-Lingkungan ITB, Bandung. 
-[5] International Journal of Emerging 
-Technologies 
-and 
-Innovative 
-Research. 
-2015. 
-Ground 
-Improvement 
-By 
-Using 
-Stone 
-Column. 
-[6] Prasetyo, 
-Budi. 2017. Evaluasi 
-perbandingan 
-Hasil 
-Analisis 
-Perbaikan Tanah Lunak Dengan 
-Metode 
-Prefabricated 
-Vertical 
-Drain Dan Stone Column Di Bawah 
-Tibunan, Program Studi Teknik Sipil 
-Fakultas 
-Teknik 
-Sipil 
-dan 
-Lingkungan 
-Institut 
-Teknologi 
-Bandung. 
-[7] Prof. Ir. Indrasurya B. Mochtar, Msc, 
-Ph.D. 
-1994. 
-Rekayasa 
-Penanggulangan 
-Masalah 
-Pembangunan Pada Tanah-Tanah 
-yang Sulit. 
-[8] Rani Sandhya, Praveen Suresh. 
-2016. A Study of Behaviour on Stone 
-Column in Homogenous Soil. 
-[9] Schmermann. 1970. Korelasi Nilai 
-N-SPT. 
-[10] Terzaghi and Peck. 1967. Korelasi 
-N-SPT ke Cu (Undrained) pada 
-Lempung. 
-[11] Union Syindicale Geotechnique 
-and Comite Francis de Mecanique 
-des Sols. 2011. Recomendations For 
-The 
-Design, 
-Calculation, 
-Construction And Quality Control Of 
-Stone Columns Under Buildings And 
-Sensitive Structures Version No.2. 
- 
- 
+1− 𝑠𝑖𝑛 (40) = 4,599
+Maka kapasitas daya dukung stone column tunggal dapat dihitung dengan rumus:
+Qult = 𝜎3 𝑥 𝐾𝑝
+Pada tanah lapis 2 kedalaman 5 m
+Qult = 239,368 x 4,599
+Qult = 1100,834 KN/𝑚2
+Daya Dukung Ijin = 𝑄𝑢𝑙𝑡/𝑠𝑓 =
+1100,834/2 = 550,417 KN/m2
+KESIMPULAN
+1. Tegangan yang diterima oleh stone column akibat beban luar adalah berbanding lurus dengan jarak pemasangan stone column, semakin besar jarak antar stone column maka tegangan yang terjadi pada stone column akan semakin besar. Tegangan terbesar yang terjadi pada stone column adalah
+75,378 KN/m2.
+2. Tegangan yang diterima oleh tanah di sekitar stone column akibat beban luar adalah berbanding terbalik dengan jarak pemasangan stone column, semakin besar jarak antar stone column maka tegangan yang terjadi pada tanah di sekitar stone column akan semakin kecil.
+Tegangan terkecil yang terjadi pada tanah di sekitar stone column adalah
+12,874 KN/m2.
+3. Berdasarkan hasil perhitungan analisis kapasitas daya dukung stone column tunggal untuk pembangunan Proyek
+Runway 3 Section 2 – Bandara
+Soekarno-Hatta pada titik
+DB43 menurut
+Cavity
+Expansion
+Theory berdasarkan
+Huges and
+Withers didapatkan kapasitas daya dukung stone column tunggal adalah 1100,834 KN/𝑚2 dengan daya dukung ijin yang diberikan stone column sebesar 550,417 KN/𝑚2.
+4.
+Berdasarkan perhitungan, daya dukung ijin stone column tunggal dengan kedalaman 5 m adalah sebesar 550,417
+KN/𝑚2. Maka dengan dimensi tersebut, dapat disimpulkan bahwa stone column aman dalam menahan beban struktur.
+
+Katherine Maulidina, Tita Andienti, Andikanoza Pradiptiya, Perhitungan Stone column
+
+DAFTAR PUSTAKA
+[1] Bahri,
+Syarifudin.
+2017.
+Studi
+Perencanaan
+Perbaikan
+Tanah
+Dengan Stone column Pada Stock
+Pile Batu Bara Rencana PLTU
+Sorong (4x7 MW), Jurusan Teknik
+Pengairan
+Fakultas
+Teknik
+Universitas Brawijaya, Malang.
+[2] Desiana
+Vidayanti,
+Pintor
+T
+Simatupang, Sido Silalahi. 2013.
+Korelasi
+Nilai
+N-SPT
+Dengan
+Parameter Kuat Geser Tanah Untuk
+Wilayah Jakarta Dan Sekitarnya,
+Program Studi Teknik Sipil, FTPD,
+Universitas Mercu Buana.
+[3] Gowri Siva, Satyanarayana. 2016.
+Improvement of
+Soft
+Soil
+Performance Using Stone Columns
+Improved With Circular Geogrid
+Discs.
+[4] Hepma Sihol Mardame Sihombing,
+Immanuel. 2017. Study Parameters
+Design Stone column For Improving
+Bearing Capacity and Settlement on
+Clay Soil, Program Studi Teknik
+Sipil, Fakultas Teknik Sipil dan
+Lingkungan ITB, Bandung.
+[5] International Journal of Emerging
+Technologies and
+Innovative
+Research.
+2015.
+Ground
+Improvement
+By
+Using
+Stone
+Column.
+[6] Prasetyo,
+Budi. 2017. Evaluasi perbandingan
+Hasil
+Analisis
+Perbaikan Tanah Lunak Dengan
+Metode
+Prefabricated
+Vertical
+Drain Dan Stone Column Di Bawah
+Tibunan, Program Studi Teknik Sipil
+Fakultas
+Teknik
+Sipil dan
+Lingkungan
+Institut
+Teknologi
+Bandung.
+[7] Prof. Ir. Indrasurya B. Mochtar, Msc,
+Ph.D.
+1994.
+Rekayasa
+Penanggulangan
+Masalah
+Pembangunan Pada Tanah-Tanah yang Sulit.
+[8] Rani Sandhya, Praveen Suresh.
+2016. A Study of Behaviour on Stone
+Column in Homogenous Soil.
+[9] Schmermann. 1970. Korelasi Nilai
+N-SPT.
+[10] Terzaghi and Peck. 1967. Korelasi
+N-SPT ke Cu (Undrained) pada
+Lempung.
+[11] Union Syindicale Geotechnique and Comite Francis de Mecanique des Sols. 2011. Recomendations For
+The
+Design,
+Calculation,
+Construction And Quality Control Of
+Stone Columns Under Buildings And
+Sensitive Structures Version No.2.

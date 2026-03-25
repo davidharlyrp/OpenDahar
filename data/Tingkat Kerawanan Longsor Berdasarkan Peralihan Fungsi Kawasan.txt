@@ -1,354 +1,204 @@
-Prosiding Nasional RekayasaTeknologi Industri danInformasi XV Tahun 2018 (ReTII) 
-Oktober 2020, pp. 162~169 
-ISSN: 1907-5995 
- 
-162 
- 
- 
- 
-Prosiding homepage: http://journalsttnas.ac.id/online/index.php/ReTII 
-Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi 
-Kawasan: Studi Kasus Kecamatan Samigaluh, Kabupatern 
-Kulonprogo, D.I. Yogyakarta 
-Bayurohman Pangacella Putra1, Ani Apriani2 
-1Program Studi Teknik Pertambangan, Institut Teknologi Nasional Yogyakarta 
-2 Program Studi Teknik Geologi, Institut Teknologi Nasional Yogyakarta 
-Korespondensi :bayurohman@itny.ac.id, aniapriani@itny.ac.id 
- 
-ABSTRAK 
-Seringnya terjadi kejadian tanah longsor di Kabupaten Kulonprogo dalam beberapa tahun terakhir menunjukkan 
-diperlukannya suatu kajian mengenai kerawanan tanah longsor di kabupaten tersebut. Faktor alami maupun 
-keterlibatan manusia menjadi parameter yang perlu dilihat dalam kajian ini. Karaketistik lereng seperti kemiringan 
-lereng, jenis tanah menjadi faktor alami yang mempengaruhi tingkat rawan longsor, sedangkan pemanfaatan fungsi 
-lahan yang termasuk dalam kategori pengaruh manusia. Pengamatan dilakukan terhadap kondisi lapangan dan melihat 
-peta kontur kecamatan Samigaluh. Kondisi lapangan yang diamati diantaranya adalah kemiringan lereng, jarak lereng 
-dari jalan, dan jenis tanah atau batuan yang membentuk lereng. Hasil ini kemudian dikombinasikan dengan fungsi 
-kawasan kecamatan menghasilkan peta dan luasan kawasan berdasarkan fungsi lahan terhadap tingkat kerawanan 
-longsor. Hasil perhitungan menyatakan bahwa luasan kawasan lindung dengan kerawanan longsor sedang sebesar 
-1.818,65 Ha, dengan kerawanan longsor tinggi sebesar 2.562,509 Ha, dan dengan kerawanan longsor rendah sebesar 
-16,24 Ha. Sedangkan untuk kawasan penyangga, luasan kawasan penyangga dengan kerawanan longsor sedang 
-sebesar 1.294,201 Ha, dengan kerawanan longsor tinggi sebesar 777,284 Ha, dan tidak ada kawasan penyangga 
-dengan kerawanan longsor rendah. Untuk kawasan budidaya tanaman musiman dengan kerawanan longsor rendah 
-sebesar 73,86 Ha, dengan kerawanan longsor sedang sebesar 156,767 Ha, dan dengan kerawanan longsor tinggi 
-sebesar 22,967 Ha.  
-Kata Kunci: tanah longsor, fungsi lahan, tingkat rawan longsor 
- 
- 
-ABSTRACT 
-The frequent occurrence of landslides in Kulonprogo Regency in the last few years shows the need for a study on the 
-vulnerability of landslides in the district. Natural factors and human involvement are parameters that need to be seen 
-in this study. Slope characteristics such as slope slope, soil type are natural factors that affect the level of landslide 
-prone, while land use functions are included in the category of human influence. Observations were made on field 
-conditions and looked at the contour map of the Samigaluh district. Field conditions observed include the slope of the 
-slope, distance of the slope from the road, and the type of soil or rock forming a slope. These results are then combined 
-with the function of the sub-district area to produce a map and the area of the area based on the land function of the 
-landslide hazard level. The calculation results show that the area of the protected area with moderate landslide prone 
-is 1,818.65 Ha, with high landslide hazard of 2,562,509 Ha, and with low landslide hazard of 16.24 Ha. As for the 
-buffer zone, the area of the buffer zone with moderate landslide prone is 1,294.201 Ha, with a high landslide hazard 
-of 777,284 Ha, and there is no buffer zone with low landslide hazard. For the area of seasonal plant cultivation with 
-low landslide susceptibility of 73.86 Ha, with moderate landslide susceptibility of 156.767 Ha, and with high landslide 
-susceptibility of 22.967 Ha. 
-Keywords: landslides, land function, landslide prone levels 
- 
- 
-1. 
-PENDAHULUAN  
-Seringnya terjadi kejadian tanah longsor di Kabupaten Kulonprogo dalam beberapa tahun terakhir 
-menunjukkan diperlukannya suatu kajian mengenai kerawanan tanah longsor di kabupaten tersebut. Penelitian 
-mengenai bencana alam yang dihubungkan dengan alih fungsi lahan yang sudah dimulai dari beberapa tahun yang 
-lalu. Seperti contohnya, pada tahun 2004, Widianto, dkk menyatakan bahwa penebangan hutan alam meningkatkaan 
-limpasan permukaan dan erosi [5]. Hubungan alih fungsi lahan ini dengan kebencanaan ditegaskan oleh penelitian 
-yang menghasilkan bahwa area berkembang Kecamatan Gunungpati mengalami konversi lahan menjadi lahan 
-terbangun sebesar 28,02 Ha, atau bertambah 39,5% dalam 11 tahun terakhir. Pengaaruhnya terhadap lahan yaitu 
-terjadinya longsor di permukiman warga. Berdasarkan hasil overlay peta kesesuaian lahan dengan lahan terbangun, 
-sekitar 129 Ha (24%) lahan pemukiman berada di Kawasan penyangga [6]. 
-ReTII 
-ISSN: 1907-5995 
- 
- 
- 
-Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi Kawasan (Bayurohman Pangacella Putra) 
- 
-163
-Hasil penelitian terakhir menyatakan bahwa alih fungsi penggunaan lahan lindung menjadi fungsi 
-pemukiman dan budidaya tanaman mencapai 39% di Kecamatan Samigaluh dan 33% di Kecamatan Kalibawang. 
-Sedangkan Kawasan penyangga beralih fungsi menjadi kawasan budidaya tanaman dan pemukiman sebesar 62% di 
-Kecamatan Samigaluh dan sebesar 20% di Kecamatan Kalibawang (Gambar 1)[4].  
-Diperlukan suatu penelitian yang menyatakan bahwa ketidaksesuaian ini memiliki hubungan dengan 
-kejadian tanah longsor yang terjadi di daerah Kulon Progo yang mencapai 25 kasus di tahun 2017 menurut BPS Kulon 
-Progo tahun 2017. Korelasi antara alih fungsi lahan dengan kejadian longsor perlu ditinjau kembali karena berdasarkan 
-T. Subarna (2011), terdapat hubungan yang nyata antara luas garapan di lahan hutan lindung dengan tenurial 
-(keinginan untuk memiliki lahan kehutanan [7]. 
-Perubahan fungsi lahan pertanian terus meningkat dari tahun ke tahun. Sebagian besar lahan tersebut 
-dijadikan pemukiman dan kawasan industry [8]. Oleh karena itu perlu juga untuk diketahui perubahan nilai alih fungsi 
-lahan dari tahun yang berbeda. Sampel-sampel dari data lapangan tahun 2017 akan dibandingkan dengan data pada 
-tahun 2007 untuk melihat pengaruh perubahan nilai ketidaksesuaian fungsi lahan. 
-Perbedaan penelitian ini dengan penelitian yang dilakukan sebelumnya yaitu penelitian ini mengkaji alih 
-fungsi lahan dan hubungannya dengan peristiwa longsor di Kecamatan Samigaluh dan Kalibawang, Kabupaten Kulon 
-Progo. 
- 
- 
-Gambar 1. Peta zonasi fungsi kawasan di Kabupaten Samigaluh [4] 
- 
-2. 
-METODE PENELITIAN  
-Skema bagan alir dalam tahapan penelitian kajian tentang pengaruh alih fungsi lahan terhadap tanah longsor 
-ditampilkan dalam Gambar 2. 
- 
- 
- 
-ISSN:1907-5995 
- 
-ReTII November2018 :162-169 
- 
-164
- 
-Gambar 2. Alur penelitian 
- 
-Pendekatan penelitan dilakukan dengan pendekatan kuantitatif dengan mengunakan uji deskriptif dan uji 
-regresi. Deskripsi data untuk mengkategorikan alih fungsi lahan dari hasil survey lapangan. Hasil diuji statistik regresi 
-untuk melihat pengaruh alih fungsi lahan terhadap kejadian tanah longsor. Hasil yang didapatkan akan dianalisa dan 
-disimpulkan sehingga dapat memberikan gambaran mengenai terdapat atau tidaknya pengaruh alih fugsi lahan teradap 
-kejadian tanah longsor di Kecamatan Samigaluh. 
-Populasi penelitian adalah semua lahan di daerah Kecamatan Samigaluh Kabupaten Kulon Progo. Dengan 
-banyaknya populasi yang sangat besar dan tidak diketahui, maka penetuan sampel dapat ditentukan dengan 
-mempertimbangkan tingkat signifikansi tertentu. Sampel yang diteliti yaitu 128 pengamatan untuk alih fungsi lahan 
-di Kecamatan Samigaluh. Penentuan posisi titik sampel dipengaruhi oleh jenis tanah dan kemiringan lahan sedemikian 
-rupa sehingga mencakup variasi nilai-nilai jenis tanah dan kemiringan lahan. 
-Penelitian ini dilakukan di Kecamatan yang berada di Kabupaten Kulon Progo Provinsi Daerah Istimewa 
-Yogyakarta, yaitu Kecamatan Samigaluh yang terdiri dari 7 desa yaitu Desa Kebonharjo, Banjarsari, Pagerharjo, 
-Ngargosari, Gerbosari, Sidoharjo dan Desa Purwoharjo. Secara astronomis Kecamatan Samigaluh terletak antara 
-7°38’42’’- 7°59’3’’ lintang selatan dan antara 110°1’37’’ – 110°16’26’’ bujur timur. 
-Sumber data dalam penelitian ini dibagi menjadi dua yaitu data primer dan data sekunder. Metode 
-pengumpulan data primer dengan melakukan survey lapangan untuk melihat alih fungsi lahannya. Sedangkan data 
-sekunder merupakan data pendukung hasil penelitian berupa literatur dan yang bersumber dari pemerintah daerah 
-setempat untuk data kejadian longsor yang kemudian di dukung oleh survey lapangan. 
-Analisis yang digunakan dalam perhitungan ini terdiri dari dua bagian. Bagian pertama merupakan analisa 
-data yang sifatnya deskriptif yang bertujuan untuk mendeskripsikan tingkat alih fungsi lahan di masing-masing desa 
-di Kecamatan Samigaluh. Analisa kedua adalah analisa data yang sifatnya inferensi yang mana analisa ini 
-dipergunakan untuk menguji hipotesa yaitu analisis Regresi Linier. 
-ReTII 
-ISSN: 1907-5995 
- 
- 
- 
-Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi Kawasan (Bayurohman Pangacella Putra) 
- 
-165
-Observasi lapangan dilakukan untuk melihat penggunaan lahan, jenis tanah atau batuan penyusun lereng, 
-kemiringan lereng, dan jarak lereng dari jalan. Pengamatan disebar pada seluruh kecamatan dengan mengambil titik-
-titik pengamatan dilakukan di seluruh wilayah kabupaten dengan mengambil beberapa titik pengamatan. Titik 
-pengamatan ditentukan untuk mewakili ketiga fungsi kawasan yang diamati yaitu fungsi kawasan lindung, penyangga, 
-dan budidaya tanaman semusim masing-masing. 
-Data observasi lapangan dan data peta kawasan wilayah Kabupaten Samigaluh dikombinasikan untuk analisis 
-selanjutnya. Peta mengenai kemiringan jalan, jenis tanah dan batuan, curah hujan, dan jarak lereng dari jalan masing-
-masing diberikan nilai untuk tingkat pengaruhnya kepada kerawanan longsor (Tabel 1). Peta-peta tersebut kemudian 
-di-overlay beserta dengan peta fungsi kawasan dan nilai yang berada pada zona yang bertumpuk dijumlahkan. Dengan 
-demikian, didapatkan zona-zona baru dengan nilai hasil penjumlahan semua parameter yang dikombinasikan. Zona-
-zona tersebut kemudian dikategorikan berdasarkan nilai totalnya menajdi daerah yang memiliki potensi kerawanan 
-rendah, sedang, dan tinggi. 
- 
-3. 
-HASIL DAN ANALISIS 
-Hasil pengkategorian potensi kerawanan longsor pada kawasan lindung, penyangga, dan budidaya tanaman 
-semusim dapat dilihat pada Gambar 3 – 5. Warna merah menunjukkan daerah dengan potensi kerawanan longsor 
-tinggi yang terlihat pada ketiga peta fungsi kawasan. Potensi kerawanan longsor tinggi ini tersebar pada berbagai 
-fungsi kawasan. Jika dibandingkan, terlihat bahwa warna merah dominan berada pada fungsi kawasan lindung. Fungsi 
-kawasan penyangga lebih didominasi oleh potensi kerawanan longsor sedang yang terlihat berwarna oranye di peta. 
- 
-Tabel 1. Bobot dan Skor Bahaya Longsor [14] 
- 
- 
- 
- 
- 
-ISSN:1907-5995 
- 
-ReTII November2018 :162-169 
- 
-166
- 
-Gambar 3. Zona potensi kerawanan longsor pada lahan dengan fungsi kawasan lindung 
- 
- 
- 
-Gambar 4. Zona potensi kerawanan longsor pada lahan dengan fungsi kawasan penyangga 
-ReTII 
-ISSN: 1907-5995 
- 
- 
- 
-Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi Kawasan (Bayurohman Pangacella Putra) 
- 
-167
- 
-Gambar 5. Zona potensi kerawanan longsor pada lahan dengan fungsi kawasan budidaya tanaman semusim 
-Hasil perhitungan menyatakan bahwa luasan kawasan lindung dengan kerawanan longsor sedang sebesar 
-1.818,65 Ha, dengan kerawanan longsor tinggi sebesar 2.562,509 Ha, dan dengan kerawanan longsor rendah sebesar 
-16,24 Ha. Sedangkan untuk kawasan penyangga, luasan kawasan penyangga dengan kerawanan longsor sedang 
-sebesar 1.294,201 Ha, dengan kerawanan longsor tinggi sebesar 777,284 Ha, dan tidak ada kawasan penyangga 
-dengan kerawanan longsor rendah. Untuk kawasan budidaya tanaman musiman dengan kerawanan longsor rendah 
-sebesar 73,86 Ha, dengan kerawanan longsor sedang sebesar 156,767 Ha, dan dengan kerawanan longsor tinggi 
-sebesar 22,967 Ha.  
-Pada daerah kawasan lindung diambil 72 buah titik pengamatan. Dari sejumlah sampel tersebut didapati 
-bahwa 28 titik, atau sekitar 38,9%, diantaranya tidak sesuai peruntukan berdasarkan fungsi kawasannya. Sejumlah 41 
-titik, atau sekitar 56,9% pada kawasan lindung berada dalam zona potensi kerawanan longsor yang tinggi. Pada daerah 
-kawasan penyangga, diambil 46 buah titik pengamatan. Dari sejumlah sampel tersebut didapati bahwa 27 titik, atau 
-sekitar 38,9%, diantaranya tidak sesuai peruntukan berdasarkan fungsi kawasannya. Sejumlah 16 titik, atau sekitar 
-34,8% pada kawasan penyangga berada dalam zona potensi kerawanan longsor yang tinggi. Pada daerah kawasan 
-budidaya tanaman semusim, diambil 10 buah titik pengamatan. Dari sejumlah sampel tersebut didapati bahwa 3 titik, 
-atau sebesar 30%, diantaranya tidak sesuai peruntukan berdasarkan fungsi kawasannya (Tabel 2). Pada kawasan 
-budidaya tanaman semusim tidak ditemui potensi tingkat rawan longsor yang tinggi. 
-Ketidaksesuaian ini didominasi oleh adanya pemukiman penduduk pada kawasan lindung dan penyangga. 
-Hal ini perlu diperhatikan, terutama pada zona dengan tingkat kerawanan longsor tinggi, karena berhubungan dengan 
-besarnya potensi longsoran tanah yang terjadi dan upaya mitigas bencana. Sedangkan potensi kerawanan longsor 
-tinggi disebabkan terjalnya lereng dan dekatnya lereng dari jalan yang dilalui oleh kendaraan (Gambar 6). 
-Jika difokuskan lagi kepada zona yang memiliki tingkat potensi kerawanan longsor tinggi, maka dari 41 titik 
-sampel pengamatan fungsi kawasan lindung, 20 diantaranya tidak sesuai peruntukan. Sedangkan untuk fungsi kawsan 
-penyangga, 11 dari 16 titik pengamatan tidak sesuai peruntukannya. Dengan kata lain, 48,8% sampel pada kawasan 
-lindung dan 68,8%  sampel pada kawasan pengangga yang pada kondisi aktual tidak sesuai peruntukannya memiliki 
-potensi kerawanan longsor tinggi (Tabel 3). 
- 
- 
- 
- 
- 
- 
-ISSN:1907-5995 
- 
-ReTII November2018 :162-169 
- 
-168
-Tabel 2. Potensi kerawanan longsor berdasarkan kategori fungsi kawsan  
-Kategori Fungsi 
-Kawasan 
-Banyak 
-Titik 
-Sampel 
-Fungsi Aktual 
-% Tidak 
-Sesuai 
-Potensi Kerawanan Longsor 
-% Potensi 
-Kerawanan 
-Tinggi 
-Sesuai 
-Tidak 
-Sesuai 
-Rendah 
-Sedang 
-Tinggi 
-Lindung 
-72 
-44 
-28 
-58 
-0 
-31 
-41 
-56,9 
-Penyangga 
-46 
-19 
-27 
-38,9 
-0 
-30 
-16 
-34,8 
-Budidaya Tanaman 
-Semusim 
-10 
-7 
-3 
-10 
-3 
-7 
-0 
-0 
- 
-Tabel 3. Persentasi ketidaksesuaian fungsi kawasan pada zona potensi longsoran tinggi 
-Kategori Fungsi 
-Kawasan 
-Banyak Titik 
-Sampel 
-Fungsi Aktual 
-% Tidak 
-sesuai 
-Sesuai 
-Tidak Sesuai 
-Lindung 
-41 
-21 
-20 
-48,8 
-Penyangga 
-16 
-5 
-11 
-68,8 
- 
- 
+Prosiding Nasional RekayasaTeknologi Industri danInformasi XV Tahun 2018 (ReTII)
+Oktober 2020, pp. 162~169
+ISSN: 1907-5995
+
+
+Prosiding homepage: http://journalsttnas.ac.id/online/index.php/ReTII
+Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi
+Kawasan: Studi Kasus Kecamatan Samigaluh, Kabupatern
+Kulonprogo, D.I. Yogyakarta
+Bayurohman Pangacella Putra1, Ani Apriani2
+1Program Studi Teknik Pertambangan, Institut Teknologi Nasional Yogyakarta
+2 Program Studi Teknik Geologi, Institut Teknologi Nasional Yogyakarta
+Korespondensi :bayurohman@itny.ac.id, aniapriani@itny.ac.id
+
+ABSTRAK
+Seringnya terjadi kejadian tanah longsor di Kabupaten Kulonprogo dalam beberapa tahun terakhir menunjukkan diperlukannya suatu kajian mengenai kerawanan tanah longsor di kabupaten tersebut. Faktor alami maupun keterlibatan manusia menjadi parameter yang perlu dilihat dalam kajian ini. Karaketistik lereng seperti kemiringan lereng, jenis tanah menjadi faktor alami yang mempengaruhi tingkat rawan longsor, sedangkan pemanfaatan fungsi lahan yang termasuk dalam kategori pengaruh manusia. Pengamatan dilakukan terhadap kondisi lapangan dan melihat peta kontur kecamatan Samigaluh. Kondisi lapangan yang diamati diantaranya adalah kemiringan lereng, jarak lereng dari jalan, dan jenis tanah atau batuan yang membentuk lereng. Hasil ini kemudian dikombinasikan dengan fungsi kawasan kecamatan menghasilkan peta dan luasan kawasan berdasarkan fungsi lahan terhadap tingkat kerawanan longsor. Hasil perhitungan menyatakan bahwa luasan kawasan lindung dengan kerawanan longsor sedang sebesar
+1.818,65 Ha, dengan kerawanan longsor tinggi sebesar 2.562,509 Ha, dan dengan kerawanan longsor rendah sebesar
+16,24 Ha. Sedangkan untuk kawasan penyangga, luasan kawasan penyangga dengan kerawanan longsor sedang sebesar 1.294,201 Ha, dengan kerawanan longsor tinggi sebesar 777,284 Ha, dan tidak ada kawasan penyangga dengan kerawanan longsor rendah. Untuk kawasan budidaya tanaman musiman dengan kerawanan longsor rendah sebesar 73,86 Ha, dengan kerawanan longsor sedang sebesar 156,767 Ha, dan dengan kerawanan longsor tinggi sebesar 22,967 Ha.
+Kata Kunci: tanah longsor, fungsi lahan, tingkat rawan longsor
+
+ABSTRACT
+The frequent occurrence of landslides in Kulonprogo Regency in the last few years shows the need for a study on the vulnerability of landslides in the district. Natural factors and human involvement are parameters that need to be seen in this study. Slope characteristics such as slope slope, soil type are natural factors that affect the level of landslide prone, while land use functions are included in the category of human influence. Observations were made on field conditions and looked at the contour map of the Samigaluh district. Field conditions observed include the slope of the slope, distance of the slope from the road, and the type of soil or rock forming a slope. These results are then combined with the function of the sub-district area to produce a map and the area of the area based on the land function of the landslide hazard level. The calculation results show that the area of the protected area with moderate landslide prone is 1,818.65 Ha, with high landslide hazard of 2,562,509 Ha, and with low landslide hazard of 16.24 Ha. As for the buffer zone, the area of the buffer zone with moderate landslide prone is 1,294.201 Ha, with a high landslide hazard of 777,284 Ha, and there is no buffer zone with low landslide hazard. For the area of seasonal plant cultivation with low landslide susceptibility of 73.86 Ha, with moderate landslide susceptibility of 156.767 Ha, and with high landslide susceptibility of 22.967 Ha.
+Keywords: landslides, land function, landslide prone levels
+
+1.
+PENDAHULUAN
+Seringnya terjadi kejadian tanah longsor di Kabupaten Kulonprogo dalam beberapa tahun terakhir menunjukkan diperlukannya suatu kajian mengenai kerawanan tanah longsor di kabupaten tersebut. Penelitian mengenai bencana alam yang dihubungkan dengan alih fungsi lahan yang sudah dimulai dari beberapa tahun yang lalu. Seperti contohnya, pada tahun 2004, Widianto, dkk menyatakan bahwa penebangan hutan alam meningkatkaan limpasan permukaan dan erosi [5]. Hubungan alih fungsi lahan ini dengan kebencanaan ditegaskan oleh penelitian yang menghasilkan bahwa area berkembang Kecamatan Gunungpati mengalami konversi lahan menjadi lahan terbangun sebesar 28,02 Ha, atau bertambah 39,5% dalam 11 tahun terakhir. Pengaaruhnya terhadap lahan yaitu terjadinya longsor di permukiman warga. Berdasarkan hasil overlay peta kesesuaian lahan dengan lahan terbangun, sekitar 129 Ha (24%) lahan pemukiman berada di Kawasan penyangga [6].
+ReTII
+ISSN: 1907-5995
+
+
+Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi Kawasan (Bayurohman Pangacella Putra)
+
+Hasil penelitian terakhir menyatakan bahwa alih fungsi penggunaan lahan lindung menjadi fungsi pemukiman dan budidaya tanaman mencapai 39% di Kecamatan Samigaluh dan 33% di Kecamatan Kalibawang.
+Sedangkan Kawasan penyangga beralih fungsi menjadi kawasan budidaya tanaman dan pemukiman sebesar 62% di
+Kecamatan Samigaluh dan sebesar 20% di Kecamatan Kalibawang (Gambar 1)[4].
+Diperlukan suatu penelitian yang menyatakan bahwa ketidaksesuaian ini memiliki hubungan dengan kejadian tanah longsor yang terjadi di daerah Kulon Progo yang mencapai 25 kasus di tahun 2017 menurut BPS Kulon
+Progo tahun 2017. Korelasi antara alih fungsi lahan dengan kejadian longsor perlu ditinjau kembali karena berdasarkan
+T. Subarna (2011), terdapat hubungan yang nyata antara luas garapan di lahan hutan lindung dengan tenurial
+(keinginan untuk memiliki lahan kehutanan [7].
+Perubahan fungsi lahan pertanian terus meningkat dari tahun ke tahun. Sebagian besar lahan tersebut dijadikan pemukiman dan kawasan industry [8]. Oleh karena itu perlu juga untuk diketahui perubahan nilai alih fungsi lahan dari tahun yang berbeda. Sampel-sampel dari data lapangan tahun 2017 akan dibandingkan dengan data pada tahun 2007 untuk melihat pengaruh perubahan nilai ketidaksesuaian fungsi lahan.
+Perbedaan penelitian ini dengan penelitian yang dilakukan sebelumnya yaitu penelitian ini mengkaji alih fungsi lahan dan hubungannya dengan peristiwa longsor di Kecamatan Samigaluh dan Kalibawang, Kabupaten Kulon
+Progo.
+
+Gambar 1. Peta zonasi fungsi kawasan di Kabupaten Samigaluh [4]
+
+2.
+METODE PENELITIAN
+Skema bagan alir dalam tahapan penelitian kajian tentang pengaruh alih fungsi lahan terhadap tanah longsor ditampilkan dalam Gambar 2.
+
+
+
+ISSN:1907-5995
+
+ReTII November2018 :162-169
+
+Gambar 2. Alur penelitian
+
+Pendekatan penelitan dilakukan dengan pendekatan kuantitatif dengan mengunakan uji deskriptif dan uji regresi. Deskripsi data untuk mengkategorikan alih fungsi lahan dari hasil survey lapangan. Hasil diuji statistik regresi untuk melihat pengaruh alih fungsi lahan terhadap kejadian tanah longsor. Hasil yang didapatkan akan dianalisa dan disimpulkan sehingga dapat memberikan gambaran mengenai terdapat atau tidaknya pengaruh alih fugsi lahan teradap kejadian tanah longsor di Kecamatan Samigaluh.
+Populasi penelitian adalah semua lahan di daerah Kecamatan Samigaluh Kabupaten Kulon Progo. Dengan banyaknya populasi yang sangat besar dan tidak diketahui, maka penetuan sampel dapat ditentukan dengan mempertimbangkan tingkat signifikansi tertentu. Sampel yang diteliti yaitu 128 pengamatan untuk alih fungsi lahan di Kecamatan Samigaluh. Penentuan posisi titik sampel dipengaruhi oleh jenis tanah dan kemiringan lahan sedemikian rupa sehingga mencakup variasi nilai-nilai jenis tanah dan kemiringan lahan.
+Penelitian ini dilakukan di Kecamatan yang berada di Kabupaten Kulon Progo Provinsi Daerah Istimewa
+Yogyakarta, yaitu Kecamatan Samigaluh yang terdiri dari 7 desa yaitu Desa Kebonharjo, Banjarsari, Pagerharjo,
+Ngargosari, Gerbosari, Sidoharjo dan Desa Purwoharjo. Secara astronomis Kecamatan Samigaluh terletak antara
+7°38’42’’- 7°59’3’’ lintang selatan dan antara 110°1’37’’ – 110°16’26’’ bujur timur.
+Sumber data dalam penelitian ini dibagi menjadi dua yaitu data primer dan data sekunder. Metode pengumpulan data primer dengan melakukan survey lapangan untuk melihat alih fungsi lahannya. Sedangkan data sekunder merupakan data pendukung hasil penelitian berupa literatur dan yang bersumber dari pemerintah daerah setempat untuk data kejadian longsor yang kemudian di dukung oleh survey lapangan.
+Analisis yang digunakan dalam perhitungan ini terdiri dari dua bagian. Bagian pertama merupakan analisa data yang sifatnya deskriptif yang bertujuan untuk mendeskripsikan tingkat alih fungsi lahan di masing-masing desa di Kecamatan Samigaluh. Analisa kedua adalah analisa data yang sifatnya inferensi yang mana analisa ini dipergunakan untuk menguji hipotesa yaitu analisis Regresi Linier.
+ReTII
+ISSN: 1907-5995
+
+
+Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi Kawasan (Bayurohman Pangacella Putra)
+
+Observasi lapangan dilakukan untuk melihat penggunaan lahan, jenis tanah atau batuan penyusun lereng, kemiringan lereng, dan jarak lereng dari jalan. Pengamatan disebar pada seluruh kecamatan dengan mengambil titik- titik pengamatan dilakukan di seluruh wilayah kabupaten dengan mengambil beberapa titik pengamatan. Titik pengamatan ditentukan untuk mewakili ketiga fungsi kawasan yang diamati yaitu fungsi kawasan lindung, penyangga, dan budidaya tanaman semusim masing-masing.
+Data observasi lapangan dan data peta kawasan wilayah Kabupaten Samigaluh dikombinasikan untuk analisis selanjutnya. Peta mengenai kemiringan jalan, jenis tanah dan batuan, curah hujan, dan jarak lereng dari jalan masing- masing diberikan nilai untuk tingkat pengaruhnya kepada kerawanan longsor (Tabel 1). Peta-peta tersebut kemudian di-overlay beserta dengan peta fungsi kawasan dan nilai yang berada pada zona yang bertumpuk dijumlahkan. Dengan demikian, didapatkan zona-zona baru dengan nilai hasil penjumlahan semua parameter yang dikombinasikan. Zona- zona tersebut kemudian dikategorikan berdasarkan nilai totalnya menajdi daerah yang memiliki potensi kerawanan rendah, sedang, dan tinggi.
+
+3.
+HASIL DAN ANALISIS
+Hasil pengkategorian potensi kerawanan longsor pada kawasan lindung, penyangga, dan budidaya tanaman semusim dapat dilihat pada Gambar 3 – 5. Warna merah menunjukkan daerah dengan potensi kerawanan longsor tinggi yang terlihat pada ketiga peta fungsi kawasan. Potensi kerawanan longsor tinggi ini tersebar pada berbagai fungsi kawasan. Jika dibandingkan, terlihat bahwa warna merah dominan berada pada fungsi kawasan lindung. Fungsi kawasan penyangga lebih didominasi oleh potensi kerawanan longsor sedang yang terlihat berwarna oranye di peta.
+
+Tabel 1. Bobot dan Skor Bahaya Longsor [14]
+
+
+
+ISSN:1907-5995
+
+ReTII November2018 :162-169
+
+Gambar 3. Zona potensi kerawanan longsor pada lahan dengan fungsi kawasan lindung
+
+Gambar 4. Zona potensi kerawanan longsor pada lahan dengan fungsi kawasan penyangga
+ReTII
+ISSN: 1907-5995
+
+
+Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi Kawasan (Bayurohman Pangacella Putra)
+
+Gambar 5. Zona potensi kerawanan longsor pada lahan dengan fungsi kawasan budidaya tanaman semusim
+Hasil perhitungan menyatakan bahwa luasan kawasan lindung dengan kerawanan longsor sedang sebesar
+1.818,65 Ha, dengan kerawanan longsor tinggi sebesar 2.562,509 Ha, dan dengan kerawanan longsor rendah sebesar
+16,24 Ha. Sedangkan untuk kawasan penyangga, luasan kawasan penyangga dengan kerawanan longsor sedang sebesar 1.294,201 Ha, dengan kerawanan longsor tinggi sebesar 777,284 Ha, dan tidak ada kawasan penyangga dengan kerawanan longsor rendah. Untuk kawasan budidaya tanaman musiman dengan kerawanan longsor rendah sebesar 73,86 Ha, dengan kerawanan longsor sedang sebesar 156,767 Ha, dan dengan kerawanan longsor tinggi sebesar 22,967 Ha.
+Pada daerah kawasan lindung diambil 72 buah titik pengamatan. Dari sejumlah sampel tersebut didapati bahwa 28 titik, atau sekitar 38,9%, diantaranya tidak sesuai peruntukan berdasarkan fungsi kawasannya. Sejumlah 41 titik, atau sekitar 56,9% pada kawasan lindung berada dalam zona potensi kerawanan longsor yang tinggi. Pada daerah kawasan penyangga, diambil 46 buah titik pengamatan. Dari sejumlah sampel tersebut didapati bahwa 27 titik, atau sekitar 38,9%, diantaranya tidak sesuai peruntukan berdasarkan fungsi kawasannya. Sejumlah 16 titik, atau sekitar
+34,8% pada kawasan penyangga berada dalam zona potensi kerawanan longsor yang tinggi. Pada daerah kawasan budidaya tanaman semusim, diambil 10 buah titik pengamatan. Dari sejumlah sampel tersebut didapati bahwa 3 titik, atau sebesar 30%, diantaranya tidak sesuai peruntukan berdasarkan fungsi kawasannya (Tabel 2). Pada kawasan budidaya tanaman semusim tidak ditemui potensi tingkat rawan longsor yang tinggi.
+Ketidaksesuaian ini didominasi oleh adanya pemukiman penduduk pada kawasan lindung dan penyangga.
+Hal ini perlu diperhatikan, terutama pada zona dengan tingkat kerawanan longsor tinggi, karena berhubungan dengan besarnya potensi longsoran tanah yang terjadi dan upaya mitigas bencana. Sedangkan potensi kerawanan longsor tinggi disebabkan terjalnya lereng dan dekatnya lereng dari jalan yang dilalui oleh kendaraan (Gambar 6).
+Jika difokuskan lagi kepada zona yang memiliki tingkat potensi kerawanan longsor tinggi, maka dari 41 titik sampel pengamatan fungsi kawasan lindung, 20 diantaranya tidak sesuai peruntukan. Sedangkan untuk fungsi kawsan penyangga, 11 dari 16 titik pengamatan tidak sesuai peruntukannya. Dengan kata lain, 48,8% sampel pada kawasan lindung dan 68,8% sampel pada kawasan pengangga yang pada kondisi aktual tidak sesuai peruntukannya memiliki potensi kerawanan longsor tinggi (Tabel 3).
+
+
+
+ISSN:1907-5995
+
+ReTII November2018 :162-169
+
+Tabel 2. Potensi kerawanan longsor berdasarkan kategori fungsi kawsan
+Kategori Fungsi
+Kawasan
+Banyak
+Titik
+Sampel
+Fungsi Aktual
+% Tidak
+Sesuai
+Potensi Kerawanan Longsor
+% Potensi
+Kerawanan
+Tinggi
+Sesuai
+Tidak
+Sesuai
+Rendah
+Sedang
+Tinggi
+Lindung
+56,9
+Penyangga
+38,9
+34,8
+Budidaya Tanaman
+Semusim
+
+Tabel 3. Persentasi ketidaksesuaian fungsi kawasan pada zona potensi longsoran tinggi
+Kategori Fungsi
+Kawasan
+Banyak Titik
+Sampel
+Fungsi Aktual
+% Tidak sesuai
+Sesuai
+Tidak Sesuai
+Lindung
+48,8
+Penyangga
+68,8
+
 .
- 
-Gambar 6 Dokumentasi lapangan untuk zona potensi kerawaan longsor tinggi dengan fungsi kawasan yang tidak 
-sesuai peruntukan. Lereng curam dijadikan pemukiman oleh warga dan dekat dengan jalan  
- 
-4. 
-KESIMPULAN 
-Berdasarkan hasil penelitian yang telah dilakukan sampai pada laporan kemajuan ini terdapat beberapa 
-kesimpulan berikut. 
-1. 
-Dilihat dari luasan zona potensi kerawanan longsor, wilayah Kecamatan Samigaluh didominasi oleh lahan yang 
-diklasifikasikan memiliki potensi kerawanaan longsor tinggi pada urutan pertama dan potenasi kerawanan 
-longsoran sedang pada urutan kedua.  
-2. 
-Pada zona potensi kerawanan longsor tinggi didapati hampir setengah jari jumlah sampel penelitian mengalami 
-perubahan fungsi lahan. Sedangkan pada zona kerawanan longsor sedang lebih dari setengahnya didapati 
-mengalami perubahan fungsi lahan. Pada aktualnya, kedua zona tersebut digunakan sebagai pemukiman warga. 
- 
-UCAPAN TERIMAKASIH 
-Terima kasih diucapkan kepada Kemenristek Dikti yang membiayai penelitian ini dalam skema Penelitian 
-Dosen Pemula tahun anggaran 2018. Selain itu, terima kasih juga diucapkan kepada para mahasiswa Teknik Geologi 
-ITNY yang telah membantu mengambil dan mengolah data dalam penelitian ini. 
- 
-DAFTAR PUSTAKA 
-[1]  BNPB, “Info bencana,” pp. 1–4, 2016. 
-[2]  P. P. D. I. Yogyakarta, “Peraturan Daerah Provinsi Daerah Istimewa Yogyakarta Nomor 8 Tahun 2020,” no. 2005, pp. 1–12, 
-2010. 
-[3]  Badan Pusat Statistik Provinsi D.I. Yogyakarta, “Provinsi Daerah Istimewa Yogyakarta dalam Angka,” pp. 1–510, 2017, doi: 
-10.1159/000159850. 
-[4]  B. P. Putra and A. Apriani, “Fungsi Kawasan Berdasarkan Kelerengan Di Kecamatan Samigaluh, Kabupaten Kulonprogo,” 
-ReTII, pp. 23–29, 2018. 
-[5]  D. Suprayogo et al., “Degradasi sifat fisik tanah sebagai akibat alih guna lahan hutan menjadi sistem kopi monokultur: kajian 
-perubahan makroporositas tanah,” Agrivita, vol. 26, pp. 60–68, 2004. 
-ReTII 
-ISSN: 1907-5995 
- 
- 
- 
-Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi Kawasan (Bayurohman Pangacella Putra) 
- 
-169
-[6]  N. K. Dewi and I. Rudiarto, “Pengaruh Konversi Lahan terhadap Kondisi Lingkungan di Wilayah Peri-urban Kota Semarang  
-(Studi  Kasus:  Area Berkembang Kecamatan Gunungpati),” J. Pembang. Wil. Kota, vol. 10, no. 2, 115, 2014, doi: 
-10.14710/pwk.v10i2.7641. 
-[7]  T. Subarna, “FAKTOR YANG MEMPENGARUHI MASYARAKAT MENGGARAP LAHAN DI HUTAN LINDUNG : 
-Studi Kasus di Kabupaten Garut Jawa Barat (Study on Influenced of Community to Cultivate Land of Protected Forest : Case 
-Studies in Garut Regency of West Java),” vol. 8 No.4, 265–275, 2011. 
-[8]  Z. Mustopa and P. B. Santosa, “Analisis Faktor-Faktor Yang Mempengaruhi Alih Fungsi Lahan Pertanian Di Kabupaten 
-Demak,” Undergrad. Thesis Univ. Diponegoro, pp. 1–29, 2011. 
-[9]  E. Firianingsih, “Tinjauan Terhadap Alih Fungsi Tanah Pertanian Ke Non Pertanian (Permukiman),” Skripsi Univ. 
-Hasanuddin, 2017. 
-[10]  N. Dinaryanti, “Faktor-Faktor yang Mempengaruhi Alih Fungsi Lahan Pertanian di Daerah Sepanjang Irigasi Bendung Colo 
-Kabupaten Sukoharjo,” Undergrad. thesis, Fak. Ekon. dan Bisnis. Univ. Diponegoro, pp. 1–73, 2014. 
-[11]  I. Iswanto, N. M. Raharja, and A. Subardono, “Sistem Peringatan Dini Tanah Longsor Berbasis Atmega8535,” Semin. Nas. 
-Inform. 2009 (semnasIF 2009), vol. 2009, no. semnasIF, pp. 53–57, 2009. 
-[12]  N. Destriani and A. Pamungkas, “Identifikasi daerah kawasan rentan tanah longsor dalam KSN Gunung Merapi di Kabupaten 
-Sleman [Identification of landslide-prone areas in Mount Merapi KSN of Sleman District],” J. Tek. POMITS, vol. 2, no. 2, 
-pp. C134–C138, 2013. 
-[13]  H. C. Hardiyatmo, “Mekanika Tanah I Jilid III,” Gadjah Mada Univ. Press, p. 1, 2002. 
-[14]  Permadi, M. G., dkk. ,“Identifikasi Daerah Resiko Bencana Longsor di Kota Bogor”. Jurnal Ilmu Tanah dan Lingkungan, vol. 
-20, no. 2, hal 86 – 94, 2018. 
- 
- 
+
+Gambar 6 Dokumentasi lapangan untuk zona potensi kerawaan longsor tinggi dengan fungsi kawasan yang tidak sesuai peruntukan. Lereng curam dijadikan pemukiman oleh warga dan dekat dengan jalan
+
+4.
+KESIMPULAN
+Berdasarkan hasil penelitian yang telah dilakukan sampai pada laporan kemajuan ini terdapat beberapa kesimpulan berikut.
+1.
+Dilihat dari luasan zona potensi kerawanan longsor, wilayah Kecamatan Samigaluh didominasi oleh lahan yang diklasifikasikan memiliki potensi kerawanaan longsor tinggi pada urutan pertama dan potenasi kerawanan longsoran sedang pada urutan kedua.
+2.
+Pada zona potensi kerawanan longsor tinggi didapati hampir setengah jari jumlah sampel penelitian mengalami perubahan fungsi lahan. Sedangkan pada zona kerawanan longsor sedang lebih dari setengahnya didapati mengalami perubahan fungsi lahan. Pada aktualnya, kedua zona tersebut digunakan sebagai pemukiman warga.
+
+UCAPAN TERIMAKASIH
+Terima kasih diucapkan kepada Kemenristek Dikti yang membiayai penelitian ini dalam skema Penelitian
+Dosen Pemula tahun anggaran 2018. Selain itu, terima kasih juga diucapkan kepada para mahasiswa Teknik Geologi
+ITNY yang telah membantu mengambil dan mengolah data dalam penelitian ini.
+
+DAFTAR PUSTAKA
+[1] BNPB, “Info bencana,” pp. 1–4, 2016.
+[2] P. P. D. I. Yogyakarta, “Peraturan Daerah Provinsi Daerah Istimewa Yogyakarta Nomor 8 Tahun 2020,” no. 2005, pp. 1–12,
+2010.
+[3] Badan Pusat Statistik Provinsi D.I. Yogyakarta, “Provinsi Daerah Istimewa Yogyakarta dalam Angka,” pp. 1–510, 2017, doi:
+10.1159/000159850.
+[4] B. P. Putra and A. Apriani, “Fungsi Kawasan Berdasarkan Kelerengan Di Kecamatan Samigaluh, Kabupaten Kulonprogo,”
+ReTII, pp. 23–29, 2018.
+[5] D. Suprayogo et al., “Degradasi sifat fisik tanah sebagai akibat alih guna lahan hutan menjadi sistem kopi monokultur: kajian perubahan makroporositas tanah,” Agrivita, vol. 26, pp. 60–68, 2004.
+ReTII
+ISSN: 1907-5995
+
+
+Tingkat Kerawanan Longsor Berdasarkan Peralihan Fungsi Kawasan (Bayurohman Pangacella Putra)
+
+[6] N. K. Dewi and I. Rudiarto, “Pengaruh Konversi Lahan terhadap Kondisi Lingkungan di Wilayah Peri-urban Kota Semarang
+(Studi Kasus: Area Berkembang Kecamatan Gunungpati),” J. Pembang. Wil. Kota, vol. 10, no. 2, 115, 2014, doi:
+10.14710/pwk.v10i2.7641.
+[7] T. Subarna, “FAKTOR YANG MEMPENGARUHI MASYARAKAT MENGGARAP LAHAN DI HUTAN LINDUNG :
+Studi Kasus di Kabupaten Garut Jawa Barat (Study on Influenced of Community to Cultivate Land of Protected Forest : Case
+Studies in Garut Regency of West Java),” vol. 8 No.4, 265–275, 2011.
+[8] Z. Mustopa and P. B. Santosa, “Analisis Faktor-Faktor Yang Mempengaruhi Alih Fungsi Lahan Pertanian Di Kabupaten
+Demak,” Undergrad. Thesis Univ. Diponegoro, pp. 1–29, 2011.
+[9] E. Firianingsih, “Tinjauan Terhadap Alih Fungsi Tanah Pertanian Ke Non Pertanian (Permukiman),” Skripsi Univ.
+Hasanuddin, 2017.
+[10] N. Dinaryanti, “Faktor-Faktor yang Mempengaruhi Alih Fungsi Lahan Pertanian di Daerah Sepanjang Irigasi Bendung Colo
+Kabupaten Sukoharjo,” Undergrad. thesis, Fak. Ekon. dan Bisnis. Univ. Diponegoro, pp. 1–73, 2014.
+[11] I. Iswanto, N. M. Raharja, and A. Subardono, “Sistem Peringatan Dini Tanah Longsor Berbasis Atmega8535,” Semin. Nas.
+Inform. 2009 (semnasIF 2009), vol. 2009, no. semnasIF, pp. 53–57, 2009.
+[12] N. Destriani and A. Pamungkas, “Identifikasi daerah kawasan rentan tanah longsor dalam KSN Gunung Merapi di Kabupaten
+Sleman [Identification of landslide-prone areas in Mount Merapi KSN of Sleman District],” J. Tek. POMITS, vol. 2, no. 2, pp. C134–C138, 2013.
+[13] H. C. Hardiyatmo, “Mekanika Tanah I Jilid III,” Gadjah Mada Univ. Press, p. 1, 2002.
+[14] Permadi, M. G., dkk. ,“Identifikasi Daerah Resiko Bencana Longsor di Kota Bogor”. Jurnal Ilmu Tanah dan Lingkungan, vol.
+20, no. 2, hal 86 – 94, 2018.

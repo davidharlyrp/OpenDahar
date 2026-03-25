@@ -1,824 +1,387 @@
- 
-New techniques for characterising damage in rock slopes: 
-implications for engineered slopes and open pit mines 
-D Donati  Simon Fraser University, Canada 
-D Stead  Simon Fraser University, Canada 
-D Elmo  University of British Columbia, Canada 
-E Onsel  Simon Fraser University, Canada 
- 
-Abstract 
-The stability of high rock slopes is becoming an increasingly important concern in the fields of mining and civil 
-engineering. The need for mineral resources due to the exponential world population growth is driving the 
-excavation of deeper and steeper open pit mines. Today, large open pit mines can reach depths in excess of 
-1 km. Maintaining and monitoring the stability of the excavation is of paramount importance to ensure the 
-safety of miners, equipment, and mining operations, as well as the profitability of the mine. Despite safe, 
-state-of-the-art mining practices being followed, pit slope deformations occur, usually controlled by 
-geological factors and driven by the progressive accumulation of stress within the pit walls. The deformation 
-of high engineered rock slopes is inevitably associated with the formation of slope damage features, such as 
-rock mass dilation and bulging, brittle fracture and rockfalls. The progressive accumulation of slope damage 
-can reduce the slope rock mass and discontinuity strength causing a decrease in stability, potentially resulting 
-in slope failure. Blast damage, localised at the pit wall surface, may also promote rockfalls and increase the 
-risk of slope instability. 
-In this paper, we present the results of recent slope damage research undertaken in the Engineering Geology 
-and Resource Geotechnics Group at Simon Fraser University. The focus of this ongoing research program 
-includes the definition and characterisation of slope damage, modelling, monitoring and visualisation of slope 
-damage. The factors and mechanisms that can promote and/or induce the accumulation of slope damage 
-within engineered slopes are discussed. The role of engineering geological factors, including geological 
-structures, rock mass quality, lithology, intact rock strength, stress magnitude and groundwater, are 
-addressed and a preliminary rock slope damage interaction matrix approach is presented. Examples of the 
-characterisation of damage using field mapping and remote sensing are presented. New methods of 
-quantifying slope damage are also described. 
-The range of numerical modelling techniques we have used in the investigation of rock slopes is outlined, with 
-a focus on the explicit simulation of rock slope damage accumulation. The critical inter-relationship between 
-slope damage and fracture connectivity is discussed with implications for pit slope design. The importance of 
-continuous monitoring of slope deformation (damage) is highlighted both for the purposes of early warning 
-systems, and as a means to constrain numerical simulations. Finally, a brief discussion on the potential 
-applications of innovative, immersive geo-visualisation methods, such as mixed and virtual reality, in the 
-interpretation of slope damage mechanisms in engineered slopes is provided. 
-Keywords: slope damage, brittle fracture, fracture connectivity, remote sensing, numerical modelling 
-1 
-Introduction 
-During the past few decades, the stability of high rock slopes has become an increasingly important focus of 
-geoscientists and engineers in natural slopes, engineered rock cuts and in large open pits. The excavation of 
-steeper and deeper large open pit mines allows reduction in the waste rock (stripping ratio) and maximises 
-ore recovery (Obregon & Mitri 2019). In turn, this can result in a decrease in open pit slope. An additional 
+New techniques for characterising damage in rock slopes:
+implications for engineered slopes and open pit mines
+D Donati Simon Fraser University, Canada
+D Stead Simon Fraser University, Canada
+D Elmo University of British Columbia, Canada
+E Onsel Simon Fraser University, Canada
+
+Abstract
+The stability of high rock slopes is becoming an increasingly important concern in the fields of mining and civil engineering. The need for mineral resources due to the exponential world population growth is driving the excavation of deeper and steeper open pit mines. Today, large open pit mines can reach depths in excess of
+1 km. Maintaining and monitoring the stability of the excavation is of paramount importance to ensure the safety of miners, equipment, and mining operations, as well as the profitability of the mine. Despite safe, state-of-the-art mining practices being followed, pit slope deformations occur, usually controlled by geological factors and driven by the progressive accumulation of stress within the pit walls. The deformation of high engineered rock slopes is inevitably associated with the formation of slope damage features, such as rock mass dilation and bulging, brittle fracture and rockfalls. The progressive accumulation of slope damage can reduce the slope rock mass and discontinuity strength causing a decrease in stability, potentially resulting in slope failure. Blast damage, localised at the pit wall surface, may also promote rockfalls and increase the risk of slope instability.
+In this paper, we present the results of recent slope damage research undertaken in the Engineering Geology and Resource Geotechnics Group at Simon Fraser University. The focus of this ongoing research program includes the definition and characterisation of slope damage, modelling, monitoring and visualisation of slope damage. The factors and mechanisms that can promote and/or induce the accumulation of slope damage within engineered slopes are discussed. The role of engineering geological factors, including geological structures, rock mass quality, lithology, intact rock strength, stress magnitude and groundwater, are addressed and a preliminary rock slope damage interaction matrix approach is presented. Examples of the characterisation of damage using field mapping and remote sensing are presented. New methods of quantifying slope damage are also described.
+The range of numerical modelling techniques we have used in the investigation of rock slopes is outlined, with a focus on the explicit simulation of rock slope damage accumulation. The critical inter-relationship between slope damage and fracture connectivity is discussed with implications for pit slope design. The importance of continuous monitoring of slope deformation (damage) is highlighted both for the purposes of early warning systems, and as a means to constrain numerical simulations. Finally, a brief discussion on the potential applications of innovative, immersive geo-visualisation methods, such as mixed and virtual reality, in the interpretation of slope damage mechanisms in engineered slopes is provided.
+Keywords: slope damage, brittle fracture, fracture connectivity, remote sensing, numerical modelling
+Introduction
+During the past few decades, the stability of high rock slopes has become an increasingly important focus of geoscientists and engineers in natural slopes, engineered rock cuts and in large open pits. The excavation of steeper and deeper large open pit mines allows reduction in the waste rock (stripping ratio) and maximises ore recovery (Obregon & Mitri 2019). In turn, this can result in a decrease in open pit slope. An additional
 Slope Stability 2020 - PM Dight (ed.)
 © Australian Centre for Geomechanics, Perth, ISBN 978-0-9876389-7-7
-Slope Stability 2020
-129
-doi:10.36487/ACG_repo/2025_03
- 
-factor which must increasingly be considered when assessing the role of damage on pit stability is the 
-proximity of underground workings to the open pit slopes and influence of open pit underground interaction. 
-As any interruption in the mining activity can be extremely costly, ensuring the stability of the open pit slopes 
-is a key aspect in mining operations. The characterisation and monitoring of slope deformation is critical to 
-identify potential instabilities within the open pit area. In general, the deformation of natural and engineered 
-rock slopes is associated with the formation of slope damage, which has important implications on the 
-behaviour and displacement of rock slopes (Donati 2019). 
-In this paper, we briefly review the factors controlling the formation of damage in rock slopes, and the effects 
-on rock slope stability. We then summarize field, remote sensing, and numerical modelling methods and 
-techniques developed by our research group to characterise the spatial distribution of rock slope damage, 
-and its evolution with time. The effects of slope damage on fracture connectivity are also highlighted, in 
-terms of changes in rock mass quality and slope kinematics. 
-2 
-Slope damage: mechanisms, effects, characterisation 
-The stability of high rock slopes is controlled by several geological factors. Lithological and structural features, 
-such as bedding, faults, folds, joints, and foliation can provide kinematic freedom to potentially unstable 
-slopes and define the location, volume, and potential displacement and failure mechanisms of the instability 
-(Stead & Wolter 2015). The action of so-called endogenic and exogenic factors also contribute to the 
-evolution of the stability conditions of the slope, by decreasing the mechanical properties of the rock mass 
-or changing the stress conditions of the slope (Whalley 1974). Endogenic processes act from within the slope 
-and include ground shaking (e.g. earthquakes), isostasy, and volcanism. Exogenic processes occur at the 
-ground surface and can include rainfall and snowmelt, slope steepening, alteration, and weathering. These 
-processes reduce the stability of rock slopes, promoting deformation and inducing landsliding through 
-progressive failure mechanisms (Eberhardt et al. 2001). Additionally, anthropic activity may cause effects 
-similar to long-term exogenic and endogenic processes to occur in a short, engineering time (Table 1). 
-Table 1 
-Analogy between short-term anthropic activities and long-term geological processes, and effects 
-on slope stability 
-Process 
-Typical slope processes and time 
-frame 
-Effects on slope stability 
-Effects on slope 
-damage 
-Exhumation 
-and 
-unloading 
+Slope Stability 2020 doi:10.36487/ACG_repo/2025_03
+
+factor which must increasingly be considered when assessing the role of damage on pit stability is the proximity of underground workings to the open pit slopes and influence of open pit underground interaction.
+As any interruption in the mining activity can be extremely costly, ensuring the stability of the open pit slopes is a key aspect in mining operations. The characterisation and monitoring of slope deformation is critical to identify potential instabilities within the open pit area. In general, the deformation of natural and engineered rock slopes is associated with the formation of slope damage, which has important implications on the behaviour and displacement of rock slopes (Donati 2019).
+In this paper, we briefly review the factors controlling the formation of damage in rock slopes, and the effects on rock slope stability. We then summarize field, remote sensing, and numerical modelling methods and techniques developed by our research group to characterise the spatial distribution of rock slope damage, and its evolution with time. The effects of slope damage on fracture connectivity are also highlighted, in terms of changes in rock mass quality and slope kinematics.
+Slope damage: mechanisms, effects, characterisation
+The stability of high rock slopes is controlled by several geological factors. Lithological and structural features, such as bedding, faults, folds, joints, and foliation can provide kinematic freedom to potentially unstable slopes and define the location, volume, and potential displacement and failure mechanisms of the instability
+(Stead & Wolter 2015). The action of so-called endogenic and exogenic factors also contribute to the evolution of the stability conditions of the slope, by decreasing the mechanical properties of the rock mass or changing the stress conditions of the slope (Whalley 1974). Endogenic processes act from within the slope and include ground shaking (e.g. earthquakes), isostasy, and volcanism. Exogenic processes occur at the ground surface and can include rainfall and snowmelt, slope steepening, alteration, and weathering. These processes reduce the stability of rock slopes, promoting deformation and inducing landsliding through progressive failure mechanisms (Eberhardt et al. 2001). Additionally, anthropic activity may cause effects similar to long-term exogenic and endogenic processes to occur in a short, engineering time (Table 1).
+Table 1
+Analogy between short-term anthropic activities and long-term geological processes, and effects on slope stability
+Process
+Typical slope processes and time frame
+Effects on slope stability
+Effects on slope damage
+Exhumation and unloading
 Engineered slopes:
-Open pit excavation, roadcut 
-(days to years) 
-Slope debuttressing and 
-unloading, steepening, stress 
-concentration and 
-redistribution, enhanced 
-kinematic freedom, initiation of 
-creep, development of deep-
-seated gravitational slope 
-displacements, structurally 
-controlled failures 
-Spalling due to lower 
-confining stress, rock 
-mass dilation, 
-fracture propagation, 
-formation of tension 
-cracks, rockfall 
-Natural slopes: 
-stream/glacial erosion (thousands 
-to million years) 
-Dynamic 
-loading 
-Engineered slopes:
-Blasting(high frequency, focused 
-at slope surface) 
-Decreased rock mass quality, 
-slope failure through rock mass, 
-rockfall, formation of fully 
-persistent release surfaces, 
-structurally controlled 
-instabilities 
-Brittle fracture 
-propagation, rock 
-bridge failure, rock 
-mass dilation, 
-shearing of asperities 
-along discontinuity 
-planes 
-Natural and engineered slopes: 
-Earthquakes (low frequency, 
-regional scale) 
-Submersion 
-Engineered slopes:
-Reservoir impoundment (weeks 
-to months) 
-Increased watertable, reduced 
-effective stresses along 
-discontinuities, sliding along 
-discontinuity planes 
-Displacement causes 
-shearing of asperities 
-along discontinuity 
-planes 
+Open pit excavation, roadcut
+(days to years)
+Slope debuttressing and unloading, steepening, stress concentration and redistribution, enhanced kinematic freedom, initiation of creep, development of deep- seated gravitational slope displacements, structurally controlled failures
+Spalling due to lower confining stress, rock mass dilation, fracture propagation, formation of tension cracks, rockfall
 Natural slopes:
-Lake formation (years) 
-New techniques for characterising damage in rock slopes: implications
-for engineered slopes and open pit mines
+stream/glacial erosion (thousands to million years)
+Dynamic loading
+Engineered slopes:
+Blasting(high frequency, focused at slope surface)
+Decreased rock mass quality, slope failure through rock mass, rockfall, formation of fully persistent release surfaces, structurally controlled instabilities
+Brittle fracture propagation, rock bridge failure, rock mass dilation, shearing of asperities along discontinuity planes
+Natural and engineered slopes:
+Earthquakes (low frequency, regional scale)
+Submersion
+Engineered slopes:
+Reservoir impoundment (weeks to months)
+Increased watertable, reduced effective stresses along discontinuities, sliding along discontinuity planes
+Displacement causes shearing of asperities along discontinuity planes
+Natural slopes:
+Lake formation (years)
+New techniques for characterising damage in rock slopes: implications for engineered slopes and open pit mines
 D Donati et al.
-130
 Slope Stability 2020
- 
-The deformation of rock slopes, both in the long-term and short-term, is inherently associated with the 
-formation of slope damage features, which may range in scale from microcracks and joint asperity damage 
-to visible intact rock fracture, tension cracks, rock mass and joint dilation, slope bulging and slumping, and 
-increased rockfall activity. Slope damage can have important impacts on the stability of rock slopes, and in 
-some cases the formation and accumulation of damage is an essential kinematic requirement for the 
-development of slope instabilities. Single slope damage features (e.g. tension cracks) may act as rear release 
-surfaces for unstable volumes of rock mass, actively promoting the displacement of blocks at various scales 
-(Figure 1a). The brittle propagation of fractures may also cause the formation of fully persistent basal sliding 
-or lateral release surfaces, effectively changing the kinematic conditions of rock slopes (Donati et al. 2019; 
-Havaej et al. 2012) (Figure 1b). It has been noted that the investigation of spatial distribution and temporal 
-evolution of slope damage can provide important insights on the mechanisms and factors underlying the 
-deformation and failure of rock slopes. Thus, slope damage characterisation should be considered as a 
-standard procedure in comprehensive slope stability assessment (Donati 2019). 
- 
-(a) 
-(b) 
-Figure 1 
-Potential effects of slope damage features on slope kinematics: (a) Tension crack at the crest of 
-the Aknes Slide (Norway), acting as rear release surface for the sliding mass; (b) Small-scale 
-brittle fracturing at a roadcut (Canada) affected by flexural toppling instability 
-To effectively characterise and classify slope damage features, a reliable set of descriptors must be 
-developed. Slope damage features may be classified based on their location, spatial distribution, and origin. 
-Stead & Eberhardt (2013) suggested that slope damage could be referred to as internal and external, 
-depending on the visibility of the features at the slope surface. While external slope damage features can be 
-characterised using remote sensing and traditional field techniques, internal slope damage requires the use 
-of sub-surface datasets, such as borehole core logs or geophysical analyses. Slope damage may also be 
-classified based on the distribution of features as focused or distributed (damage accumulating in localised 
-or large volumes of rock mass, respectively). Finally, slope damage may be distinguished between tensile and 
-shear, depending on the mechanism of failure of the rock mass. 
-2.1 
-Remote sensing characterisation of slope damage 
-A strong relationship exists between rock mass quality, failure mechanism, and slope damage (i.e. type, 
-location, size, and distribution of damage features). Thus, the characterisation and interpretation of slope 
-damage must carefully consider the characteristics of the slope rock mass and geological structures therein. 
-Prior to the open pit slope excavation, the collection of geological and structural data largely rely on 
-sub-surface investigation, including borehole core logging and televiewer, and geophysical methods 
-(e.g. seismic tomography). Traditional field methods are essential to collect important geomechanical 
-information, such as uniaxial compressive strength (UCS) of the intact rock, discontinuity characteristics (joint 
-waviness, joint roughness and joint condition) and geological strength index (GSI) (Cai et al. 2004; Hoek & 
-Brown 2019). Remote sensing techniques, however, are critical for collecting data from parts of the slope 
-that are inaccessible, and are often the only available method to collect the required discontinuity data across 
-open pit mine slopes and high natural rock slopes. Remote sensing techniques are also important for 
+
+The deformation of rock slopes, both in the long-term and short-term, is inherently associated with the formation of slope damage features, which may range in scale from microcracks and joint asperity damage to visible intact rock fracture, tension cracks, rock mass and joint dilation, slope bulging and slumping, and increased rockfall activity. Slope damage can have important impacts on the stability of rock slopes, and in some cases the formation and accumulation of damage is an essential kinematic requirement for the development of slope instabilities. Single slope damage features (e.g. tension cracks) may act as rear release surfaces for unstable volumes of rock mass, actively promoting the displacement of blocks at various scales
+(Figure 1a). The brittle propagation of fractures may also cause the formation of fully persistent basal sliding or lateral release surfaces, effectively changing the kinematic conditions of rock slopes (Donati et al. 2019;
+Havaej et al. 2012) (Figure 1b). It has been noted that the investigation of spatial distribution and temporal evolution of slope damage can provide important insights on the mechanisms and factors underlying the deformation and failure of rock slopes. Thus, slope damage characterisation should be considered as a standard procedure in comprehensive slope stability assessment (Donati 2019).
+
+(a)
+(b)
+Figure 1
+Potential effects of slope damage features on slope kinematics: (a) Tension crack at the crest of the Aknes Slide (Norway), acting as rear release surface for the sliding mass; (b) Small-scale brittle fracturing at a roadcut (Canada) affected by flexural toppling instability
+To effectively characterise and classify slope damage features, a reliable set of descriptors must be developed. Slope damage features may be classified based on their location, spatial distribution, and origin.
+Stead & Eberhardt (2013) suggested that slope damage could be referred to as internal and external, depending on the visibility of the features at the slope surface. While external slope damage features can be characterised using remote sensing and traditional field techniques, internal slope damage requires the use of sub-surface datasets, such as borehole core logs or geophysical analyses. Slope damage may also be classified based on the distribution of features as focused or distributed (damage accumulating in localised or large volumes of rock mass, respectively). Finally, slope damage may be distinguished between tensile and shear, depending on the mechanism of failure of the rock mass.
+2.1
+Remote sensing characterisation of slope damage
+A strong relationship exists between rock mass quality, failure mechanism, and slope damage (i.e. type, location, size, and distribution of damage features). Thus, the characterisation and interpretation of slope damage must carefully consider the characteristics of the slope rock mass and geological structures therein.
+Prior to the open pit slope excavation, the collection of geological and structural data largely rely on sub-surface investigation, including borehole core logging and televiewer, and geophysical methods
+(e.g. seismic tomography). Traditional field methods are essential to collect important geomechanical information, such as uniaxial compressive strength (UCS) of the intact rock, discontinuity characteristics (joint waviness, joint roughness and joint condition) and geological strength index (GSI) (Cai et al. 2004; Hoek &
+Brown 2019). Remote sensing techniques, however, are critical for collecting data from parts of the slope that are inaccessible, and are often the only available method to collect the required discontinuity data across open pit mine slopes and high natural rock slopes. Remote sensing techniques are also important for
 Safety and risk management
 Slope Stability 2020
-131
- 
-characterising rock mass parameters that are critical for the construction, validation, and analysis of 
-sophisticated numerical models, but seldom collected during slope investigation, such as fracture intensity, 
-connectivity, and termination, block size and shape, and joint offset (Donati et al. 2017). 
-Terrestrial laser scanning (TLS) and photogrammetric techniques, such as terrestrial digital photogrammetry 
-and structure-from-motion (SfM), are routinely employed to obtain high-resolution 3D models of the 
-investigated rock slope. Unmanned aerial vehicles (UAVs) are also being increasingly used to characterise the 
-rock mass in open pit slopes (e.g. UAV-SfM), as the advantageous point of view limit obstructions and the 
-consequent bias, enhancing model and data quality. 3D models can be used to collect orientation, spacing, 
-and persistence data of discontinuities (Stead et al. 2019), as well as to perform change detection analyses 
-for assessing displacements and rockfall rates (Kromer et al. 2017). The same 3D models can also be used to 
-map and characterise slope damage features, such as tension cracks (Donati 2019) and brittle fractures 
-(Sampaleanu et al. 2017). 2D datasets, such as high-resolution photographs (HRP), can also be employed to 
-identify, map, and quantitatively assess the distribution and intensity of brittle damage (de Vilder et al. 2017; 
-Sampaleanu et al. 2017), blast damage characteristics, blast damage intensity and pit slope seepage intensity 
-(Lupogo 2017; Tuckey & Stead 2016; Vivas et al. 2015). Thermal imagery, also referred to as infrared 
-thermography (IRT), has been employed to identify seepage (Sampaleanu 2017; Vivas et al. 2015), as well as 
-voids and cavities across snow-covered rock slopes (Baroň et al. 2014). Ground-based hyperspectral imaging 
-techniques (HSI) has also been introduced to investigate lithological changes in rock slopes (Kurz et al. 2012). 
-In general, the integrated use of 3D and 2D methods shows significant potential in the characterisation and 
-interpretation of slope damage. A coupled TLS-IRT approach can be used to identify and map open fractures 
-potentially controlling the stability of rock slopes (Teza et al. 2015). Draping HRP onto TLS datasets has also 
-proved effective in quantifying the percentage of rock bridges along rockfall scars (Figure 2). Coupled TLS-HSI 
-datasets have been employed to characterise the infrared response of rock within a referenced model, 
-allowing for detailed measurements to be undertaken (Kurz et al. 2012). It is evident that the development 
-of multi-sensor remote sensing approaches (MSRS) may allow comprehensive rock slope datasets (such as 
-TLS-HRP-IRT-HIS integrated datasets) to be collected and examined to identify correlations between rock 
-mass quality, groundwater, slope damage, and slope deformation mechanism. 
- 
-Figure 2 
-Potential application of an integrated TLS-HRP approach for the estimation of rock bridge 
-percentages along rockfall scars in 2D and 3D (modified from Donati & Stead 2019) 
-2.2 
-The role of stress on slope damage and rock slope stability 
-The morphology of the slope and the mechanical characteristics of the rock mass are among the most 
-important factors controlling the accumulation of slope damage, and the subsequent effects on slope 
-stability (Sjöberg 1996). Tectonic environment, slope geometry, along with material density and existing 
-stress or blast induced damage and deformation are the key factors defining the stress magnitude within 
-natural and engineered rock slopes. The presence of slope breaks and steps (e.g. benches) can also influence 
-New techniques for characterising damage in rock slopes: implications
-for engineered slopes and open pit mines
+
+characterising rock mass parameters that are critical for the construction, validation, and analysis of sophisticated numerical models, but seldom collected during slope investigation, such as fracture intensity, connectivity, and termination, block size and shape, and joint offset (Donati et al. 2017).
+Terrestrial laser scanning (TLS) and photogrammetric techniques, such as terrestrial digital photogrammetry and structure-from-motion (SfM), are routinely employed to obtain high-resolution 3D models of the investigated rock slope. Unmanned aerial vehicles (UAVs) are also being increasingly used to characterise the rock mass in open pit slopes (e.g. UAV-SfM), as the advantageous point of view limit obstructions and the consequent bias, enhancing model and data quality. 3D models can be used to collect orientation, spacing, and persistence data of discontinuities (Stead et al. 2019), as well as to perform change detection analyses for assessing displacements and rockfall rates (Kromer et al. 2017). The same 3D models can also be used to map and characterise slope damage features, such as tension cracks (Donati 2019) and brittle fractures
+(Sampaleanu et al. 2017). 2D datasets, such as high-resolution photographs (HRP), can also be employed to identify, map, and quantitatively assess the distribution and intensity of brittle damage (de Vilder et al. 2017;
+Sampaleanu et al. 2017), blast damage characteristics, blast damage intensity and pit slope seepage intensity
+(Lupogo 2017; Tuckey & Stead 2016; Vivas et al. 2015). Thermal imagery, also referred to as infrared thermography (IRT), has been employed to identify seepage (Sampaleanu 2017; Vivas et al. 2015), as well as voids and cavities across snow-covered rock slopes (Baroň et al. 2014). Ground-based hyperspectral imaging techniques (HSI) has also been introduced to investigate lithological changes in rock slopes (Kurz et al. 2012).
+In general, the integrated use of 3D and 2D methods shows significant potential in the characterisation and interpretation of slope damage. A coupled TLS-IRT approach can be used to identify and map open fractures potentially controlling the stability of rock slopes (Teza et al. 2015). Draping HRP onto TLS datasets has also proved effective in quantifying the percentage of rock bridges along rockfall scars (Figure 2). Coupled TLS-HSI datasets have been employed to characterise the infrared response of rock within a referenced model, allowing for detailed measurements to be undertaken (Kurz et al. 2012). It is evident that the development of multi-sensor remote sensing approaches (MSRS) may allow comprehensive rock slope datasets (such as
+TLS-HRP-IRT-HIS integrated datasets) to be collected and examined to identify correlations between rock mass quality, groundwater, slope damage, and slope deformation mechanism.
+
+Figure 2
+Potential application of an integrated TLS-HRP approach for the estimation of rock bridge percentages along rockfall scars in 2D and 3D (modified from Donati & Stead 2019)
+2.2
+The role of stress on slope damage and rock slope stability
+The morphology of the slope and the mechanical characteristics of the rock mass are among the most important factors controlling the accumulation of slope damage, and the subsequent effects on slope stability (Sjöberg 1996). Tectonic environment, slope geometry, along with material density and existing stress or blast induced damage and deformation are the key factors defining the stress magnitude within natural and engineered rock slopes. The presence of slope breaks and steps (e.g. benches) can also influence
+New techniques for characterising damage in rock slopes: implications for engineered slopes and open pit mines
 D Donati et al.
-132
 Slope Stability 2020
- 
-the distribution and concentration of stresses, which may be important for rock bridge failure and 
-toe-breakout phenomena (Havaej et al. 2014a; Styles et al. 2011). The location of geological structures within 
-a slope has a critical role on stress concentrations encountered during slope excavation. Key factors 
-determining in the influence of structures on stress distribution within a rock slope include fault persistence, 
-fold type (antiform or synform, fold plunge, fold interlimb angle, fold axial cleavage) and the structure 
-locations with respect to the slope geometry. In turn, both the structures and rock mass quality (pre-existing 
-and damaged) has an important effect on the measured displacement of the slope at varied stress 
-magnitudes and confinement conditions. Table 2 qualitatively describes the variation of rock slope stress 
-magnitude (as a function of scale) and how rock mass quality can affect slope kinematics and slope stability. 
-Table 2 
-Qualitative analysis of the role of stress and rock mass quality on slope stability and slope 
-kinematics (modified from Donati 2019) 
- 
- 
-Rock mass quality 
- 
- 
-Low 
-Medium 
-High 
-Stress 
-High 
-(Pit slope-scale) 
-• 
-Kinematics and rock 
-mass strength control 
-stability 
-• 
-Roto-translational 
-failure possible 
-• 
-Very high slope 
-damage intensity 
-• 
-Significant rock mass 
-dilation and slope 
-bulging 
-• 
-High rockfall frequency 
-(possibly localised near 
-geological structures) 
-• 
-Kinematics and intact rock 
-strength control stability 
-• 
-Intersecting discontinuities 
-and intact rock fracturing 
-may form step-path 
-release surfaces 
-• 
-Kinematics and intact rock 
-strength control stability 
-• 
-Shear and tensile brittle 
-damage may form along 
-potential rupture surface 
-• 
-Brittle damage may cause 
-failure of kinematically 
-stable blocks (e.g. 
-non-daylighting 
-wedges/toe-breakout) 
-• 
-Debuttressing causes 
-propagation of exfoliation 
-and stress relief joints 
-Medium 
-(Multi-Bench scale) 
-• 
-Kinematics and rock 
-mass strength control 
-stability 
-• 
-Local stress 
-concentration may 
-cause brittle damage 
-• 
-High slope damage 
-intensity 
-• 
-Kinematics and intact rock 
-strength control stability 
-• 
-Intersecting discontinuities 
-may form step-path 
-release surfaces 
-• 
-Brittle damage due to 
-tensile stress 
-concentration along 
-rupture surfaces 
-• 
-Kinematics control 
-stability 
-• 
-Persistent discontinuities 
-may increase kinematic 
-freedom 
-• 
-Low brittle damage 
-intensity 
-Low 
-(Bench scale) 
-• 
-Kinematics control 
-stability 
-• 
-Local stress 
-concentration may 
-cause brittle damage 
-• 
-Kinematics control 
-stability 
-• 
-Low brittle damage 
-intensity 
-• 
-Kinematics control 
-stability 
-• 
-Negligible brittle damage–
-limited to shear-induced 
-on failure surfaces 
-In high quality rock masses, slope instability is generally associated with varied amounts of brittle fracturing, 
-which can result in the failure of non-daylighting wedges, and the detachment of blocks along stepped rupture 
-surfaces (Cai et al. 2004; Havaej et al. 2014a; Leith 2012; Elmo et al. 2018). At the slope surface, fracturing 
-occurs due to de-stressing and may result in spalling (Sampaleanu et al. 2017) and the formation of stress relief 
-and exfoliation joints in natural slopes, generally subparallel to the surface (Leith 2012). With increase in 
+
+the distribution and concentration of stresses, which may be important for rock bridge failure and toe-breakout phenomena (Havaej et al. 2014a; Styles et al. 2011). The location of geological structures within a slope has a critical role on stress concentrations encountered during slope excavation. Key factors determining in the influence of structures on stress distribution within a rock slope include fault persistence, fold type (antiform or synform, fold plunge, fold interlimb angle, fold axial cleavage) and the structure locations with respect to the slope geometry. In turn, both the structures and rock mass quality (pre-existing and damaged) has an important effect on the measured displacement of the slope at varied stress magnitudes and confinement conditions. Table 2 qualitatively describes the variation of rock slope stress magnitude (as a function of scale) and how rock mass quality can affect slope kinematics and slope stability.
+Table 2
+Qualitative analysis of the role of stress and rock mass quality on slope stability and slope kinematics (modified from Donati 2019)
+
+Rock mass quality
+
+Low
+Medium
+High
+Stress
+High
+(Pit slope-scale)
+•
+Kinematics and rock mass strength control stability
+•
+Roto-translational failure possible
+•
+Very high slope damage intensity
+•
+Significant rock mass dilation and slope bulging
+•
+High rockfall frequency
+(possibly localised near geological structures)
+•
+Kinematics and intact rock strength control stability
+•
+Intersecting discontinuities and intact rock fracturing may form step-path release surfaces
+•
+Kinematics and intact rock strength control stability
+•
+Shear and tensile brittle damage may form along potential rupture surface
+•
+Brittle damage may cause failure of kinematically stable blocks (e.g.
+non-daylighting wedges/toe-breakout)
+•
+Debuttressing causes propagation of exfoliation and stress relief joints
+Medium
+(Multi-Bench scale)
+•
+Kinematics and rock mass strength control stability
+•
+Local stress concentration may cause brittle damage
+•
+High slope damage intensity
+•
+Kinematics and intact rock strength control stability
+•
+Intersecting discontinuities may form step-path release surfaces
+•
+Brittle damage due to tensile stress concentration along rupture surfaces
+•
+Kinematics control stability
+•
+Persistent discontinuities may increase kinematic freedom
+•
+Low brittle damage intensity
+Low
+(Bench scale)
+•
+Kinematics control stability
+•
+Local stress concentration may cause brittle damage
+•
+Kinematics control stability
+•
+Low brittle damage intensity
+•
+Kinematics control stability
+•
+Negligible brittle damage– limited to shear-induced on failure surfaces
+In high quality rock masses, slope instability is generally associated with varied amounts of brittle fracturing, which can result in the failure of non-daylighting wedges, and the detachment of blocks along stepped rupture surfaces (Cai et al. 2004; Havaej et al. 2014a; Leith 2012; Elmo et al. 2018). At the slope surface, fracturing occurs due to de-stressing and may result in spalling (Sampaleanu et al. 2017) and the formation of stress relief and exfoliation joints in natural slopes, generally subparallel to the surface (Leith 2012). With increase in
 Safety and risk management
 Slope Stability 2020
-133
- 
-confinement stress, brittle fracturing occurs when the microcrack initiation threshold is exceeded. A further 
-increase in stress can then cause brittle cracks to coalesce promoting the formation of through-going shear 
-surfaces as intact rock bridges are failed (Diederichs 2007). In low quality (weathered/altered) rock masses, 
-tensile failure such as localised cracking, spalling, ravelling, and small-scale, structurally controlled instabilities 
-may occur under very low stresses encountered near the slope surface (Stead & Eberhardt 2013), and can be 
-associated with rock mass and joint dilation. Brittle fracturing and tensile failure of rock bridges can also control 
-the detachment of small-scale blocks. Conversely, with increase in confinement stress at depth within the slope, 
-slope damage accumulates due to a combination of rock mass failure in shear (e.g. sliding along discontinuities, 
-shearing of asperities, intact rock failure due to localised microcrack coalescence, etc.). In open pits and 
-engineered slopes, the situation can be complex due to the combination of slope induced gravitational stresses 
-with blast damage and underground-open pit interaction. The influence of groundwater on both changing 
-stress distribution and slope failure is inherently linked to slope damages and changes in fracture connectivity. 
-The role of such damage induced fracture connectivity on secondary permeability, porewater pressures and 
-shear resistance along failure surfaces is critical. 
-The distribution of slope damage is strictly related to the areas of stress concentration, with respect to local 
-rock mass structure and strength. In turn, areas of stress concentration are a function of the excavation 
-geometry and methods, and geomorphic processes (either man-made or natural) that are active at the site. 
-Stress relief due to excavation (i.e. excavation damage, blast damage) or exhumation (i.e. stream and glacial 
-incision, glacial retreat; Leith 2012) results in accumulation of damage near the slope surface, due to a 
-decrease in confining stress. These processes can induce the formation of a ‘damage skin’ that may extend 
-up to 20–40 m behind the slope face, as a function of stress ratio, lithology, discontinuity orientation, 
-excavation geometry, and blasting technique (Hoek & Brown 2019; Lu et al. 2013; Lupogo 2017; Martino 
-& Chandler 2004). 
-The slope failure mechanism also affects the importance and distribution of slope damage. In simple 
-kinematic failure mechanisms (planar, wedge sliding) the accumulation of stress-induced damage along the 
-sliding surface results from shearing of asperities and may be a critical factor in slope stability along with near 
-surface disturbance due to blasting (Lupogo 2017). The failure of intact rock bridges increases connectivity 
-and may cause the formation of fully persistent, planar or stepped rupture surfaces (Elmo et al. 2018). Near 
-surface brittle damage may result in the failure of non-daylighting wedges by toe-breakout posing an 
-unforeseen hazard for safe mining operations (Havaej et al. 2012). The concentration of stresses within an 
-unstable compound slide may also cause damage within the transition zone, enhancing the kinematic 
-freedom of the unstable footwall and mountain slope (Havaej et al. 2014a; Kvapil & Clews 1979). Higher and 
-steeper rock slopes increase the likelihood of geological structures and rupture surfaces daylighting or failing 
-by toe-breakout. Deformation and failures may occur at various scales, from small-scale kinematically 
-controlled removable blocks, to slope-scale, deep-seated instabilities (Clayton et al. 2017). 
-2.3 
-The role of fracture intensity and connectivity 
-Fracture intensity and density (also referred to as P21 and P32, respectively) are parameters routinely 
-employed for the construction of discrete fracture networks (DFNs). Fracture intensity is defined as the ratio 
-of the total length of fractures per unit area (Dershowitz et al. 2000), whereas fracture density represents 
-the ratio of fracture area per unit volume. P21 and P32 therefore provides a preliminary indication on the 
-amount of fracturing that characterises a rock mass: low fracture density values may represent massive rock 
-masses, whereas high fracture density are typical of blocky rock masses. Although fracture intensity is a key 
-parameter in DFN engineering, it is recognised that it cannot adequately describe the connectivity of the 
-fracture network (Karimi Sharif et al. 2018), which strongly controls both the shear strength of a fractured 
-rock mass and potential rock slope instability (Poulsen et al. 2015). 
-The formation and accumulation of brittle fractures within the slope (i.e. brittle slope damage) result in an 
-increase in fracture intensity, fracture density, and fracture connectivity. Such an increase is likely more 
-significant in high quality rock masses, inherently characterised by a lower fracture connectivity, as their 
-deformation is necessarily associated with the propagation of brittle fractures (Cai et al. 2004). Conversely, 
-New techniques for characterising damage in rock slopes: implications
-for engineered slopes and open pit mines
+
+confinement stress, brittle fracturing occurs when the microcrack initiation threshold is exceeded. A further increase in stress can then cause brittle cracks to coalesce promoting the formation of through-going shear surfaces as intact rock bridges are failed (Diederichs 2007). In low quality (weathered/altered) rock masses, tensile failure such as localised cracking, spalling, ravelling, and small-scale, structurally controlled instabilities may occur under very low stresses encountered near the slope surface (Stead & Eberhardt 2013), and can be associated with rock mass and joint dilation. Brittle fracturing and tensile failure of rock bridges can also control the detachment of small-scale blocks. Conversely, with increase in confinement stress at depth within the slope, slope damage accumulates due to a combination of rock mass failure in shear (e.g. sliding along discontinuities, shearing of asperities, intact rock failure due to localised microcrack coalescence, etc.). In open pits and engineered slopes, the situation can be complex due to the combination of slope induced gravitational stresses with blast damage and underground-open pit interaction. The influence of groundwater on both changing stress distribution and slope failure is inherently linked to slope damages and changes in fracture connectivity.
+The role of such damage induced fracture connectivity on secondary permeability, porewater pressures and shear resistance along failure surfaces is critical.
+The distribution of slope damage is strictly related to the areas of stress concentration, with respect to local rock mass structure and strength. In turn, areas of stress concentration are a function of the excavation geometry and methods, and geomorphic processes (either man-made or natural) that are active at the site.
+Stress relief due to excavation (i.e. excavation damage, blast damage) or exhumation (i.e. stream and glacial incision, glacial retreat; Leith 2012) results in accumulation of damage near the slope surface, due to a decrease in confining stress. These processes can induce the formation of a ‘damage skin’ that may extend up to 20–40 m behind the slope face, as a function of stress ratio, lithology, discontinuity orientation, excavation geometry, and blasting technique (Hoek & Brown 2019; Lu et al. 2013; Lupogo 2017; Martino
+& Chandler 2004).
+The slope failure mechanism also affects the importance and distribution of slope damage. In simple kinematic failure mechanisms (planar, wedge sliding) the accumulation of stress-induced damage along the sliding surface results from shearing of asperities and may be a critical factor in slope stability along with near surface disturbance due to blasting (Lupogo 2017). The failure of intact rock bridges increases connectivity and may cause the formation of fully persistent, planar or stepped rupture surfaces (Elmo et al. 2018). Near surface brittle damage may result in the failure of non-daylighting wedges by toe-breakout posing an unforeseen hazard for safe mining operations (Havaej et al. 2012). The concentration of stresses within an unstable compound slide may also cause damage within the transition zone, enhancing the kinematic freedom of the unstable footwall and mountain slope (Havaej et al. 2014a; Kvapil & Clews 1979). Higher and steeper rock slopes increase the likelihood of geological structures and rupture surfaces daylighting or failing by toe-breakout. Deformation and failures may occur at various scales, from small-scale kinematically controlled removable blocks, to slope-scale, deep-seated instabilities (Clayton et al. 2017).
+2.3
+The role of fracture intensity and connectivity
+Fracture intensity and density (also referred to as P21 and P32, respectively) are parameters routinely employed for the construction of discrete fracture networks (DFNs). Fracture intensity is defined as the ratio of the total length of fractures per unit area (Dershowitz et al. 2000), whereas fracture density represents the ratio of fracture area per unit volume. P21 and P32 therefore provides a preliminary indication on the amount of fracturing that characterises a rock mass: low fracture density values may represent massive rock masses, whereas high fracture density are typical of blocky rock masses. Although fracture intensity is a key parameter in DFN engineering, it is recognised that it cannot adequately describe the connectivity of the fracture network (Karimi Sharif et al. 2018), which strongly controls both the shear strength of a fractured rock mass and potential rock slope instability (Poulsen et al. 2015).
+The formation and accumulation of brittle fractures within the slope (i.e. brittle slope damage) result in an increase in fracture intensity, fracture density, and fracture connectivity. Such an increase is likely more significant in high quality rock masses, inherently characterised by a lower fracture connectivity, as their deformation is necessarily associated with the propagation of brittle fractures (Cai et al. 2004). Conversely,
+New techniques for characterising damage in rock slopes: implications for engineered slopes and open pit mines
 D Donati et al.
-134
 Slope Stability 2020
- 
-the deformation of lower quality rock masses, characterised by a highly interconnected network of 
-discontinuities, can occur with limited fracturing through intact rock, and slope damage forms due to rock 
-mass and joint dilation, and shearing along pre-existing discontinuities. Thus, an increase in fracture porosity, 
-P33, defined as the ratio of the total volume of fractures per unit volume, may be observed. 
-An increase in fracture connectivity within high quality rock masses can enhance kinematic freedom, when 
-fully persistent release surfaces result from the brittle propagation of fractures (Elmo et al. 2018). Important 
-factors that may cause increases in fracture density and fracture connectivity include blast damage, which 
-can promote ravelling and local kinematically controlled instabilities (Lupogo 2017), and stress concentration 
-along potential rupture surfaces, due to excavation, steepening, and undermining, that may promote sudden 
-or long-term propagation of tectonic fractures (Figure 3). 
- 
-(a) 
-(b) 
-Figure 3 
-Fracture connectivity in rock slopes: (a) Effects of blasting on fracture connectivity and rock mass 
-quality. Note the pervasive blasting-induced fracturing observed in the slope of an open pit mine 
-(Tuckey 2012); (b) Potentially unstable knob in high quality rock mass at the Whitemans Pond 
-reservoir (Canmore, Canada). Brittle damage enhances fracture connectivity along the incipient 
-rupture surface 
-The interaction of large open pit and underground excavation (e.g. due the change from open pit to block 
-caving mining) may cause stress concentration within the pit slope, resulting in both new cracking and joint 
-dilation, increased fracture connectivity, reduction of shear strength on major structures, increase in 
-dilational damage (fracture porosity), spatial changes in rock mass permeability. The reduced kinematic 
-constrain may ultimately result in major rock slope failures (Vyazmensky et al. 2010). 
-2.4 
-A qualitative slope damage interaction matrix 
-The use of interaction matrices for engineering problems was introduced by Hudson (1992) to describe the 
-complex interaction between multiple controlling factors. An interaction matrix is a schematic tool that is 
-capable of describing the behaviour of complex systems, in which project-specific leading elements (forming 
-the diagonal of the matrix) interact with each other following a ‘cause-process-effect’ scheme. 
-Based on field, remote sensing, and numerical modelling analyses and observations, Donati (2019) 
-summarised an interaction matrix describing the factors controlling and driving the accumulation of slope 
-damage in rock slopes. The diagonal of the matrix includes geological factors that were noted to play a major 
-role in the formation and evolution of slope damage features. Conversely, the out-of-diagonal cells describe 
-the processes and features resulting from each interaction (Figure 4). This slope damage interaction matrix 
-was based largely in natural rock slope failures, but the authors suggest could be a useful method for 
-understanding surface mine slope damage, the emphasis on geomorphic processes being replaced by mine 
-operational characteristics such as mining method, open pit underground interaction, blast damage, bull 
-nose geometries, location of mine dumps, etc. 
+
+the deformation of lower quality rock masses, characterised by a highly interconnected network of discontinuities, can occur with limited fracturing through intact rock, and slope damage forms due to rock mass and joint dilation, and shearing along pre-existing discontinuities. Thus, an increase in fracture porosity,
+P33, defined as the ratio of the total volume of fractures per unit volume, may be observed.
+An increase in fracture connectivity within high quality rock masses can enhance kinematic freedom, when fully persistent release surfaces result from the brittle propagation of fractures (Elmo et al. 2018). Important factors that may cause increases in fracture density and fracture connectivity include blast damage, which can promote ravelling and local kinematically controlled instabilities (Lupogo 2017), and stress concentration along potential rupture surfaces, due to excavation, steepening, and undermining, that may promote sudden or long-term propagation of tectonic fractures (Figure 3).
+
+(a)
+(b)
+Figure 3
+Fracture connectivity in rock slopes: (a) Effects of blasting on fracture connectivity and rock mass quality. Note the pervasive blasting-induced fracturing observed in the slope of an open pit mine
+(Tuckey 2012); (b) Potentially unstable knob in high quality rock mass at the Whitemans Pond reservoir (Canmore, Canada). Brittle damage enhances fracture connectivity along the incipient rupture surface
+The interaction of large open pit and underground excavation (e.g. due the change from open pit to block caving mining) may cause stress concentration within the pit slope, resulting in both new cracking and joint dilation, increased fracture connectivity, reduction of shear strength on major structures, increase in dilational damage (fracture porosity), spatial changes in rock mass permeability. The reduced kinematic constrain may ultimately result in major rock slope failures (Vyazmensky et al. 2010).
+2.4
+A qualitative slope damage interaction matrix
+The use of interaction matrices for engineering problems was introduced by Hudson (1992) to describe the complex interaction between multiple controlling factors. An interaction matrix is a schematic tool that is capable of describing the behaviour of complex systems, in which project-specific leading elements (forming the diagonal of the matrix) interact with each other following a ‘cause-process-effect’ scheme.
+Based on field, remote sensing, and numerical modelling analyses and observations, Donati (2019) summarised an interaction matrix describing the factors controlling and driving the accumulation of slope damage in rock slopes. The diagonal of the matrix includes geological factors that were noted to play a major role in the formation and evolution of slope damage features. Conversely, the out-of-diagonal cells describe the processes and features resulting from each interaction (Figure 4). This slope damage interaction matrix was based largely in natural rock slope failures, but the authors suggest could be a useful method for understanding surface mine slope damage, the emphasis on geomorphic processes being replaced by mine operational characteristics such as mining method, open pit underground interaction, blast damage, bull nose geometries, location of mine dumps, etc.
 Safety and risk management
 Slope Stability 2020
-135
- 
- 
-Figure 4 
-Natural slope damage interaction matrix (modified from Donati 2019) 
-3 
-Spatio-temporal evolution of damage 
-The progressive accumulation of slope damage is a direct consequence of slope deformation. Investigating 
-how the distribution and intensity of slope damage varies spatially and with time can provide important 
-insights on the mechanisms underlying the slope instability. Using a set of historical aerial photographs, 
-Clayton et al. (2017) investigated the slope damage that formed and accumulated within the southern slope 
-of the Mitchell Creek, in northern British Columbia, Canada. Slope damage features developed prior to the 
-2010 Mount Meager rock avalanche have been described by Roberti et al. (2018). They tracked and observed 
-the geometrical evolution of tension cracks and scarps that would form the headscarp of the landslide. In 
-both these events, the progressive slope deformation and the subsequent evolution of slope damage was 
-noted to have been caused by the progressive glacial retreat at the base of the unstable slope. 
-3.1 
-Remote sensing displacement and slope damage monitoring 
-Monitoring the displacement of rock slopes in engineered slopes is critical to ensure the safety of the 
-workers, mining operations, and infrastructures. Depending on the rates of displacement and the risk 
-associated to potential failures, periodical survey can be performed in quasi-real time or with longer time 
-span between consecutive surveys (e.g. daily, monthly or yearly survey). 
-New techniques for characterising damage in rock slopes: implications
-for engineered slopes and open pit mines
+
+Figure 4
+Natural slope damage interaction matrix (modified from Donati 2019)
+Spatio-temporal evolution of damage
+The progressive accumulation of slope damage is a direct consequence of slope deformation. Investigating how the distribution and intensity of slope damage varies spatially and with time can provide important insights on the mechanisms underlying the slope instability. Using a set of historical aerial photographs,
+Clayton et al. (2017) investigated the slope damage that formed and accumulated within the southern slope of the Mitchell Creek, in northern British Columbia, Canada. Slope damage features developed prior to the
+2010 Mount Meager rock avalanche have been described by Roberti et al. (2018). They tracked and observed the geometrical evolution of tension cracks and scarps that would form the headscarp of the landslide. In both these events, the progressive slope deformation and the subsequent evolution of slope damage was noted to have been caused by the progressive glacial retreat at the base of the unstable slope.
+3.1
+Remote sensing displacement and slope damage monitoring
+Monitoring the displacement of rock slopes in engineered slopes is critical to ensure the safety of the workers, mining operations, and infrastructures. Depending on the rates of displacement and the risk associated to potential failures, periodical survey can be performed in quasi-real time or with longer time span between consecutive surveys (e.g. daily, monthly or yearly survey).
+New techniques for characterising damage in rock slopes: implications for engineered slopes and open pit mines
 D Donati et al.
-136
 Slope Stability 2020
- 
-Ground-based radar techniques, such as real aperture radar and interferometric synthetic aperture radar 
-(GB-InSAR), allows for relative displacement (i.e. between repeat surveys) in the line-of-sight of the 
-instrument to be mapped with a sub-millimetre accuracy. Therefore, they are routinely employed to monitor 
-open pit slope displacements (Bellet et al. 2015). These techniques are critical to characterise the 
-deformation rate evolution of the slope after blasting. Velocity curves can be interpolated using empirical 
-and rheological models, potentially allowing for predictive analyses to be undertaken (Danielson 2018). 
-Satellite-based InSAR can also be employed to monitor subsidence of sublevel and block caving mines 
-(Woo et al. 2013). Displacement monitoring has been successfully employed to forecast significant slope 
-failures, such as the 2013 Bingham Canyon copper mine rockslide (Pankow et al. 2014; Styles et al. 2011), 
-allowing to minimise the financial loss and disturbance to mining activity. Periodical TLS survey can also be 
-performed to characterise displacement within engineered slopes. Change detection analyses can be 
-undertaken by comparing datasets collected at different times. TLS monitoring is routinely used to monitor 
-unstable slopes across open pit mines (Sampaleanu et al. 2016), and along infrastructure corridors 
-(Kromer et al. 2015). 
-Early warning systems (EWS) are among the most important application of slope displacement monitoring, 
-and they largely rely on the comparison of displacement rates with site-specific velocity thresholds (Thiebes 
-& Glade 2016). GB-InSAR is widely employed in EWS due to its high accuracy, the ability of processing data 
-through automated and semi-automated procedures, and the high-frequency survey capability (up to 90 s; 
-Thiebes & Glade 2016). Its use is widespread for the monitoring of both engineered and natural slopes (Crosta 
-et al. 2017; Intrieri et al. 2012). The application of the inverse-velocity method (Fukuzono 1985) has also 
-proved to be very effective in forecasting the time of failure of unstable slopes, thus allowing for a timely 
-evacuation of the site, or the installation of remedial measurements (Atzeni et al. 2015; Rose & Hungr 2007). 
-The use of acoustic emission (AE) and micro-seismicity (MS) monitoring for EWS in rock slopes has also 
-recently been proposed, however, research is needed to better constrain AE and MS rate thresholds to the 
-slope deformation process and evolution (Dixon et al. 2015). 
-3.2 
-Spatio-temporal slope damage plots 
-Characterising the spatial and temporal distribution of slope damage in 2D and 3D datasets can provide useful 
-insights on the factors driving the slope deformation. The Ten Mile slide, in British Columbia, Canada, is an 
-excellent example of how airborne laser scanning (ALS) can be used to characterise the progressive formation 
-and accumulation of slope damage features within an unstable, engineered slope. Since 2006, monitoring at 
-this site includes the periodic collection of high-resolution ALS dataset. In order to quantitatively assess the 
-evolution of slope damage across the slide area, Donati (2019) proposed the use of a slope damage intensity 
-parameter, SD21, defined as the total length of slope damage features per unit area, as a method to track the 
-changes in slope damage distribution. The slide area was subdivided into a square grid, and SD21 computed 
-for each cell. An indexed table was then created, comprising the SD21 value of all cells from each of the 17 ALS 
-datasets investigated. Interrogating the table using a Python script allowed for slope damage time plots to 
-be produced (Figure 5). Using this approach, areas where significant slope damage can be identified, 
-potentially allowing focused analyses to be undertaken, in order to optimise monitoring efforts, resources, 
-and planning. Such a method could be used to track spatio-temporal damage associated with 
-ground/UAV-based photogrammetry or laser scanning of pit slope failures with constraint against  
-ground-radar data, providing important information on both the spatio-temporal development of the failure 
-and structural or rock mass controls on the failure mechanism. 
+
+Ground-based radar techniques, such as real aperture radar and interferometric synthetic aperture radar
+(GB-InSAR), allows for relative displacement (i.e. between repeat surveys) in the line-of-sight of the instrument to be mapped with a sub-millimetre accuracy. Therefore, they are routinely employed to monitor open pit slope displacements (Bellet et al. 2015). These techniques are critical to characterise the deformation rate evolution of the slope after blasting. Velocity curves can be interpolated using empirical and rheological models, potentially allowing for predictive analyses to be undertaken (Danielson 2018).
+Satellite-based InSAR can also be employed to monitor subsidence of sublevel and block caving mines
+(Woo et al. 2013). Displacement monitoring has been successfully employed to forecast significant slope failures, such as the 2013 Bingham Canyon copper mine rockslide (Pankow et al. 2014; Styles et al. 2011), allowing to minimise the financial loss and disturbance to mining activity. Periodical TLS survey can also be performed to characterise displacement within engineered slopes. Change detection analyses can be undertaken by comparing datasets collected at different times. TLS monitoring is routinely used to monitor unstable slopes across open pit mines (Sampaleanu et al. 2016), and along infrastructure corridors
+(Kromer et al. 2015).
+Early warning systems (EWS) are among the most important application of slope displacement monitoring, and they largely rely on the comparison of displacement rates with site-specific velocity thresholds (Thiebes
+& Glade 2016). GB-InSAR is widely employed in EWS due to its high accuracy, the ability of processing data through automated and semi-automated procedures, and the high-frequency survey capability (up to 90 s;
+Thiebes & Glade 2016). Its use is widespread for the monitoring of both engineered and natural slopes (Crosta et al. 2017; Intrieri et al. 2012). The application of the inverse-velocity method (Fukuzono 1985) has also proved to be very effective in forecasting the time of failure of unstable slopes, thus allowing for a timely evacuation of the site, or the installation of remedial measurements (Atzeni et al. 2015; Rose & Hungr 2007).
+The use of acoustic emission (AE) and micro-seismicity (MS) monitoring for EWS in rock slopes has also recently been proposed, however, research is needed to better constrain AE and MS rate thresholds to the slope deformation process and evolution (Dixon et al. 2015).
+3.2
+Spatio-temporal slope damage plots
+Characterising the spatial and temporal distribution of slope damage in 2D and 3D datasets can provide useful insights on the factors driving the slope deformation. The Ten Mile slide, in British Columbia, Canada, is an excellent example of how airborne laser scanning (ALS) can be used to characterise the progressive formation and accumulation of slope damage features within an unstable, engineered slope. Since 2006, monitoring at this site includes the periodic collection of high-resolution ALS dataset. In order to quantitatively assess the evolution of slope damage across the slide area, Donati (2019) proposed the use of a slope damage intensity parameter, SD21, defined as the total length of slope damage features per unit area, as a method to track the changes in slope damage distribution. The slide area was subdivided into a square grid, and SD21 computed for each cell. An indexed table was then created, comprising the SD21 value of all cells from each of the 17 ALS datasets investigated. Interrogating the table using a Python script allowed for slope damage time plots to be produced (Figure 5). Using this approach, areas where significant slope damage can be identified, potentially allowing focused analyses to be undertaken, in order to optimise monitoring efforts, resources, and planning. Such a method could be used to track spatio-temporal damage associated with ground/UAV-based photogrammetry or laser scanning of pit slope failures with constraint against ground-radar data, providing important information on both the spatio-temporal development of the failure and structural or rock mass controls on the failure mechanism.
 Safety and risk management
 Slope Stability 2020
-137
- 
- 
-(a) 
-(b) 
-Figure 5 
-Examples of slope damage intensity temporal plot obtained from the analysis of the Ten Mile 
-Slide: (a) Location of the investigated points in the ALS hillshade map; (b) Slope damage temporal 
-plots for points 588, 1017, 912, and 1150 
-4 
-Numerical modelling of slope damage 
-The use of numerical modelling techniques in the investigation of landslides and potentially unstable slopes can 
-provide important insight on the damage mechanisms associated with active or potential slope instability. 
-The characterisation of slope damage in numerical analyses can be used to validate the numerical results and 
-to investigate the role of slope damage (and its evolution) on the slope failure mechanism. 
-Donati (2019) performed a numerical investigation of the Downie Slide a massive, extremely slowly moving 
-rockslide located British Columbia, Canada. By using a Mohr–Coulomb strain softening approach, he was able 
-to reproduce in a 3D, distinct element numerical model the slope damage features that can be observed at 
-the site. A strong correlation was shown to exist between the orientation, size, and type of slope damage 
-features and the morphology of the deep-seated sliding surface of the rockslide (Figure 6). Modelling was 
-constrained against both surface monitoring and borehole inclinometer data. 
- 
-(a) 
-(b) 
-Figure 6 
-Overview of the numerical modelling of the Downie Slide: (a) ALS hillshade map; (b) Simulated 
-volumetric strain plot. Note the agreement between the observed external damage and the 
-simulated slope damage features, represented by zones of dilation in the numerical model 
-Brittle fracturing of intact rock can have an important role in defining and changing the kinematics of rock 
-slopes. This process can be effectively characterised using a set of numerical modelling methods, including 
-New techniques for characterising damage in rock slopes: implications
-for engineered slopes and open pit mines
+
+(a)
+(b)
+Figure 5
+Examples of slope damage intensity temporal plot obtained from the analysis of the Ten Mile
+Slide: (a) Location of the investigated points in the ALS hillshade map; (b) Slope damage temporal plots for points 588, 1017, 912, and 1150
+Numerical modelling of slope damage
+The use of numerical modelling techniques in the investigation of landslides and potentially unstable slopes can provide important insight on the damage mechanisms associated with active or potential slope instability.
+The characterisation of slope damage in numerical analyses can be used to validate the numerical results and to investigate the role of slope damage (and its evolution) on the slope failure mechanism.
+Donati (2019) performed a numerical investigation of the Downie Slide a massive, extremely slowly moving rockslide located British Columbia, Canada. By using a Mohr–Coulomb strain softening approach, he was able to reproduce in a 3D, distinct element numerical model the slope damage features that can be observed at the site. A strong correlation was shown to exist between the orientation, size, and type of slope damage features and the morphology of the deep-seated sliding surface of the rockslide (Figure 6). Modelling was constrained against both surface monitoring and borehole inclinometer data.
+
+(a)
+(b)
+Figure 6
+Overview of the numerical modelling of the Downie Slide: (a) ALS hillshade map; (b) Simulated volumetric strain plot. Note the agreement between the observed external damage and the simulated slope damage features, represented by zones of dilation in the numerical model
+Brittle fracturing of intact rock can have an important role in defining and changing the kinematics of rock slopes. This process can be effectively characterised using a set of numerical modelling methods, including
+New techniques for characterising damage in rock slopes: implications for engineered slopes and open pit mines
 D Donati et al.
-138
 Slope Stability 2020
- 
-distinct element (DEM), hybrid finite-distinct element (FDEM), and lattice spring methods (Lisjak & 
-Grasselli 2014; Donati et al. 2018). Havaej et al. (2014b) introduced the concept of ellipsoid of damage as a 
-method to describe the intensity and distribution of brittle damage within simulated rock slopes, as a 
-function of the sliding surface morphology. Donati et al. (2019) used 2D and 3D hybrid and lattice scheme 
-numerical modelling methods to investigate the failure of the 2014 San Leo landslide (Italy), highlighting the 
-key role of long-term fracture propagation on the stability of the slope (Figure 7). The progressive increase 
-in fracture connectivity due to time-dependent fracture propagation was also identified as a controlling 
-factor of the 1965 Hope Slide (Donati 2019). In this case, the progressive accumulation of internal slope 
-damage initiated in the aftermath of a prehistoric landslide, causing a critical stress redistribution within the 
-slope that ultimately resulted in the catastrophic 1965 failure. 
- 
-(a) 
-(b) 
-Figure 7 
-Numerical modelling of the San Leo landslide: (a) Orthophoto of the post-failure slope; 
-(b) Simulation results after 20 and 60 seconds of numerical time. Note the progressive 
-accumulation of microcracks in the model (modified from Donati et al. 2019) 
-The introduction of a numerical inverse-velocity (NIV) approach allowed for an enhanced comparison and 
-constrain between the observed and modelled displacement rates. Hamdi et al. (2018) used a DFN approach 
-to investigate the deformation occurring at the LKAB sublevel cave mine (Sweden). The NIV plots were used 
-to identify and characterise the regressive, progressive, and steady state phases of the hanging wall 
-deformation. A NIV approach was also employed by Havaej et al. (2015) to investigate the effects of 
-groundwater level, shear strength of the sliding surface, number of composing blocks, and brittle fracturing 
-on the failure of the 1963 Vajont Slide. In particular, the analysis of NIV plots allowed the onset of failure, 
-defined as the limit between the regressive and progressive state of the slide, to be identified for each 
-simulated scenario. It is suggested that a similar approach to analysis of pit slope modelling results 
-constrained by ground-InSAR/RADAR monitoring data would allow improved understanding of large open pit 
-failures particularly if constrained by borehole and microseismic monitoring of internal slope damage. 
-5 
-Advanced geovisualisation techniques 
-During the past two decades, advances in remote sensing techniques have significantly enhanced the detail 
-and resolution of 2D and 3D datasets that are available for rock mass and slope characterisation. Likewise, 
-the computational power available with modern workstations allows for more sophisticated and complex 
-numerical models to be examined. The effective visualisation and manipulation of these large ‘big datasets’ 
-is one of the great challenges encountered by geoscientists and engineers in their interpretation. 
-The application of advanced mixed and virtual reality systems (MR and VR) can provide an immersive 
-engineering experience and an enhanced interpretation of 3D remote sensing and numerical modelling 
-datasets. To date, MR and VR have been largely employed for communication and public relation purposes. 
-Research and development conducted by the Engineering Geology and Resource Geotechnics Research 
-Group allowed for innovative applications of VR and MR to rock engineering, for the purpose of data 
+
+distinct element (DEM), hybrid finite-distinct element (FDEM), and lattice spring methods (Lisjak &
+Grasselli 2014; Donati et al. 2018). Havaej et al. (2014b) introduced the concept of ellipsoid of damage as a method to describe the intensity and distribution of brittle damage within simulated rock slopes, as a function of the sliding surface morphology. Donati et al. (2019) used 2D and 3D hybrid and lattice scheme numerical modelling methods to investigate the failure of the 2014 San Leo landslide (Italy), highlighting the key role of long-term fracture propagation on the stability of the slope (Figure 7). The progressive increase in fracture connectivity due to time-dependent fracture propagation was also identified as a controlling factor of the 1965 Hope Slide (Donati 2019). In this case, the progressive accumulation of internal slope damage initiated in the aftermath of a prehistoric landslide, causing a critical stress redistribution within the slope that ultimately resulted in the catastrophic 1965 failure.
+
+(a)
+(b)
+Figure 7
+Numerical modelling of the San Leo landslide: (a) Orthophoto of the post-failure slope;
+(b) Simulation results after 20 and 60 seconds of numerical time. Note the progressive accumulation of microcracks in the model (modified from Donati et al. 2019)
+The introduction of a numerical inverse-velocity (NIV) approach allowed for an enhanced comparison and constrain between the observed and modelled displacement rates. Hamdi et al. (2018) used a DFN approach to investigate the deformation occurring at the LKAB sublevel cave mine (Sweden). The NIV plots were used to identify and characterise the regressive, progressive, and steady state phases of the hanging wall deformation. A NIV approach was also employed by Havaej et al. (2015) to investigate the effects of groundwater level, shear strength of the sliding surface, number of composing blocks, and brittle fracturing on the failure of the 1963 Vajont Slide. In particular, the analysis of NIV plots allowed the onset of failure, defined as the limit between the regressive and progressive state of the slide, to be identified for each simulated scenario. It is suggested that a similar approach to analysis of pit slope modelling results constrained by ground-InSAR/RADAR monitoring data would allow improved understanding of large open pit failures particularly if constrained by borehole and microseismic monitoring of internal slope damage.
+Advanced geovisualisation techniques
+During the past two decades, advances in remote sensing techniques have significantly enhanced the detail and resolution of 2D and 3D datasets that are available for rock mass and slope characterisation. Likewise, the computational power available with modern workstations allows for more sophisticated and complex numerical models to be examined. The effective visualisation and manipulation of these large ‘big datasets’ is one of the great challenges encountered by geoscientists and engineers in their interpretation.
+The application of advanced mixed and virtual reality systems (MR and VR) can provide an immersive engineering experience and an enhanced interpretation of 3D remote sensing and numerical modelling datasets. To date, MR and VR have been largely employed for communication and public relation purposes.
+Research and development conducted by the Engineering Geology and Resource Geotechnics Research
+Group allowed for innovative applications of VR and MR to rock engineering, for the purpose of data
 Safety and risk management
 Slope Stability 2020
-139
- 
-collection and interpretation (Onsel et al. 2018). The software EasyMap MR (EMMR, developed in 
-collaboration with SRK Consulting) has been developed to allow rock mass characterisation to be performed 
-using MR. EMMR exploits the Microsoft HoloLens and its inbuilt scanner to create in real time a 
-georeferenced 3D model of the rock outcrop. The software allows discontinuity and geological mapping to 
-be undertaken directly onsite, automatically storing geological data collected by the user in the form of 
-points, polylines, polygons, and annotations. The 3D model and the data are saved, allowing them to be 
-reviewed and shared, enhancing interpretation and quality control (Onsel et al. 2019). This method of 
-holographic mapping is being extended to allow holographic mapping of slope damage features both in the 
-field and on remote sensing data in the office. Microsoft HoloLens applications have also been developed to 
-display 3D numerical modelling of open pit-underground interaction, to measure joint surface roughness, to 
-visualise 3D models of rock slope remote sensing data, and to visualise 3D virtual models of rock cores for 
-logging, rock mass classification, and quality control (Onsel et al. 2019). Mysiorek et al. (2019) presented an 
-innovative application of VR and MR techniques, allowing holographic visualisation of numerical simulation 
-of rockfall, to be performed using Unity software (www.unity.com), based on 3D data collected in the field 
-using remote sensing techniques (i.e. TLS and SfM). 
-6 
-Summary and conclusion 
-The progressive deformation of rock slopes results in the formation and accumulation of slope damage. The 
-type, orientation, size, and spatial distribution of slope damage features is strictly related to the slope failure 
-mechanism, rock mass quality, location and morphology of the rupture surface. Thus, we suggest that slope 
-damage assessments should be considered as a critical procedure in slope stability investigations. In 
-particular, as large open pits become deeper and open pit-underground interaction more common the role 
-of stress-induced damage must be considered. 
-This paper summarises the factors and mechanisms controlling the formation and accumulation of slope 
-damage in natural, and engineered slopes, including open pits. It demonstrates the use of state-of-the-art 
-remote sensing methods and approaches that have been employed to map, describe, and classify rock slope 
-damage features. Remote sensing data, when coupled with traditional field data, allows for an enhanced 
-interpretation of the mechanisms underlying the instability and deformation behaviour of rock slopes. The 
-data collected can be used as input for numerical modelling analyses, from simple kinematic analyses to more 
-sophisticated methods, including hybrid and lattice scheme software for the analysis of brittle fracturing of 
-intact rock. Finally, the use of innovative geo-visualisation techniques, such as MR and VR, provides the 
-engineer with an immersive experience, allowing for both enhanced data interpretation and analysis. 
-Acknowledgement 
-The methods summarised in this paper are built on the research undertaken in the past 15 years by many 
-former and present members of the Engineering Geology and Resource Geotechnics Research Group at 
-Simon Fraser University. Their contribution is acknowledged. The authors would like to thank Dr Loren Lorig 
-and Dr John Read of CSIRO, Australia, for their assistance in the provision of the Slope Model code. 
-References 
-Atzeni, C, Barla, M, Pieraccini, M & Antolini, F 2015, ‘Early warning monitoring of natural and engineered slopes with ground-based 
-synthetic-aperture radar’, Rock Mechanics and Rock Engineering, vol. 48, no. 1, pp. 235–246. 
-Baroň, I, Bečkovský, D & Míča, L 2014, ‘Application of infrared thermography for mapping open fractures in deep-seated rockslides 
-and unstable cliffs’, Landslides, vol. 11, no. 1, pp. 15–27. 
-Bellet, P, Noon, D, Leva, D & Rivolta, C 2015, ‘3D and 2D radars for open-pit slope monitoring’, in SAIMM & SANIRE (eds), Proceedings 
-of the 2015 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, Camera Press, Johannesburg, 
-pp. 591–606. 
-Cai, M, Kaiser, PK, Uno, H, Tasaka, Y & Minami, M 2004, ‘Estimation of rock mass deformation modulus and strength of jointed hard 
-rock masses using the GSI system’, International Journal of Rock Mechanics and Mining Sciences, vol. 41, no. 1, pp. 3–19. 
-Clayton, A, Stead, D, Kinakin, D & Wolter, A 2017, ‘Engineering geomorphological interpretation of the Mitchell Creek Landslide, 
-British Columbia, Canada’, Landslides, vol. 14, no. 5, p. 1655–1675. 
-New techniques for characterising damage in rock slopes: implications
-for engineered slopes and open pit mines
+
+collection and interpretation (Onsel et al. 2018). The software EasyMap MR (EMMR, developed in collaboration with SRK Consulting) has been developed to allow rock mass characterisation to be performed using MR. EMMR exploits the Microsoft HoloLens and its inbuilt scanner to create in real time a georeferenced 3D model of the rock outcrop. The software allows discontinuity and geological mapping to be undertaken directly onsite, automatically storing geological data collected by the user in the form of points, polylines, polygons, and annotations. The 3D model and the data are saved, allowing them to be reviewed and shared, enhancing interpretation and quality control (Onsel et al. 2019). This method of holographic mapping is being extended to allow holographic mapping of slope damage features both in the field and on remote sensing data in the office. Microsoft HoloLens applications have also been developed to display 3D numerical modelling of open pit-underground interaction, to measure joint surface roughness, to visualise 3D models of rock slope remote sensing data, and to visualise 3D virtual models of rock cores for logging, rock mass classification, and quality control (Onsel et al. 2019). Mysiorek et al. (2019) presented an innovative application of VR and MR techniques, allowing holographic visualisation of numerical simulation of rockfall, to be performed using Unity software (www.unity.com), based on 3D data collected in the field using remote sensing techniques (i.e. TLS and SfM).
+Summary and conclusion
+The progressive deformation of rock slopes results in the formation and accumulation of slope damage. The type, orientation, size, and spatial distribution of slope damage features is strictly related to the slope failure mechanism, rock mass quality, location and morphology of the rupture surface. Thus, we suggest that slope damage assessments should be considered as a critical procedure in slope stability investigations. In particular, as large open pits become deeper and open pit-underground interaction more common the role of stress-induced damage must be considered.
+This paper summarises the factors and mechanisms controlling the formation and accumulation of slope damage in natural, and engineered slopes, including open pits. It demonstrates the use of state-of-the-art remote sensing methods and approaches that have been employed to map, describe, and classify rock slope damage features. Remote sensing data, when coupled with traditional field data, allows for an enhanced interpretation of the mechanisms underlying the instability and deformation behaviour of rock slopes. The data collected can be used as input for numerical modelling analyses, from simple kinematic analyses to more sophisticated methods, including hybrid and lattice scheme software for the analysis of brittle fracturing of intact rock. Finally, the use of innovative geo-visualisation techniques, such as MR and VR, provides the engineer with an immersive experience, allowing for both enhanced data interpretation and analysis.
+Acknowledgement
+The methods summarised in this paper are built on the research undertaken in the past 15 years by many former and present members of the Engineering Geology and Resource Geotechnics Research Group at
+Simon Fraser University. Their contribution is acknowledged. The authors would like to thank Dr Loren Lorig and Dr John Read of CSIRO, Australia, for their assistance in the provision of the Slope Model code.
+References
+Atzeni, C, Barla, M, Pieraccini, M & Antolini, F 2015, ‘Early warning monitoring of natural and engineered slopes with ground-based synthetic-aperture radar’, Rock Mechanics and Rock Engineering, vol. 48, no. 1, pp. 235–246.
+Baroň, I, Bečkovský, D & Míča, L 2014, ‘Application of infrared thermography for mapping open fractures in deep-seated rockslides and unstable cliffs’, Landslides, vol. 11, no. 1, pp. 15–27.
+Bellet, P, Noon, D, Leva, D & Rivolta, C 2015, ‘3D and 2D radars for open-pit slope monitoring’, in SAIMM & SANIRE (eds), Proceedings of the 2015 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, Camera Press, Johannesburg, pp. 591–606.
+Cai, M, Kaiser, PK, Uno, H, Tasaka, Y & Minami, M 2004, ‘Estimation of rock mass deformation modulus and strength of jointed hard rock masses using the GSI system’, International Journal of Rock Mechanics and Mining Sciences, vol. 41, no. 1, pp. 3–19.
+Clayton, A, Stead, D, Kinakin, D & Wolter, A 2017, ‘Engineering geomorphological interpretation of the Mitchell Creek Landslide,
+British Columbia, Canada’, Landslides, vol. 14, no. 5, p. 1655–1675.
+New techniques for characterising damage in rock slopes: implications for engineered slopes and open pit mines
 D Donati et al.
-140
 Slope Stability 2020
- 
-Crosta, GB, Agliardi, F, Rivolta, C, Alberti, S & Dei Cas, L 2017, ‘Long-term evolution and early warning strategies for complex rockslides 
-by real-time monitoring’, Landslides, vol. 14, no. 5, pp. 1615–1632. 
-Danielson, J 2018, An investigation into the time dependent deformation behavior of open pit slopes at Gibraltar Mine, BC, Canada, 
-MSc Thesis, Simon Fraser University, Burnaby. 
-de Vilder, SJ, Rosser, NJ & Brain, MJ 2017, ‘Forensic analysis of rockfall scars’, Geomorphology, vol. 295, pp. 202–214. 
-Dershowitz, W, Hermanson, J, Follin, S & Mauldon, M 2000, ‘Fracture intensity measures in 1-D, 2-D, and 3-D at Aspo, Sweden’, 
-Proceedings of the 4th North American Rock Mechanics Symposium, American Rock Mechanics Association, Alexandria, 
-pp. 849–853. 
-Diederichs, MS 2007, ‘The 2003 Canadian Geotechnical Colloquium: Mechanistic interpretation and practical application of damage 
-and spalling prediction criteria for deep tunnelling’, Canadian Geotechnical Journal, vol. 44, no. 9, pp. 1082–1116. 
-Dixon, N, Codeglia, D, Smith, A, Fowmes, GJ & Meldrum, P 2015, ‘An acoustic emission slope displacement rate sensor — case studies’, 
-in PM Dight (ed.), Proceedings of the Ninth International Symposium on Field Measurements in Geomechanics, Australian 
-Centre for Geomechanics, Perth, pp. 743–756. 
-Donati, D 2019, The characterization of slope damage using an integrated remote sensing-numerical modelling approach, PhD Thesis, 
-Simon Fraser University, Burnaby. 
-Donati, D & Stead, D 2019, ‘Potential applications of multi-sensor remote sensing in rock mass characterization’, in SAB Fontoura, 
-RJ Rocca & JF Pavon Mendoza (eds), Proceedings of the 14th International Congress of Rock Mechanics, International Society 
-for Rock Mechanics Lisbon, pp. 536–543. 
-Donati, D, Stead, D, Brideau, MA & Ghirotti, M 2017, ‘A remote sensing approach for the derivation of numerical modelling input 
-data: insights from the Hope Slide, Canada’, Proceedings of the ISRM International Symposium AfriRock Conference, Southern 
-African Institute of Mining and Metallurgy, Cape Town. 
-Donati, D, Stead, D, Elmo, D & Borgatti, L 2019, ‘A preliminary investigation on the role of brittle fracture in the kinematics of the 
-2014 San Leo landslide’, Geosciences, vol. 9, no. 6, p. 256. 
-Donati, D, Stead, D, Elmo, D, Karimi Sharif, L, Gao, F, Borgatti, L & Spreafico, MC 2018, ‘Experience gained in modelling brittle fracture 
-in rock’, Proceedings of the 52nd US Rock Mechanics/Geomechanics Symposium, American Rock Mechanics Association, 
-Alexandria. 
-Eberhardt, E, Willenberg, H, Loew, S & Maurer, H 2001, ‘Active rockslides in Switzerland - Understanding mechanisms and processes’, 
-in M Kühne, HH Einstein, E Krauter, H Klapperich & R Pöttler (eds), UEF International Conference on Landslides - Causes, 
-Impacts and Countermeasures, Verlag Glückauf GmbH, Essen, pp. 25–34. 
-Elmo, D, Donati, D & Stead, D 2018, ‘Challenges in the characterisation of intact rock bridges in rock slopes’, Engineering Geology, 
-vol. 245, pp. 81–96. 
-Fukuzono, T 1985, ‘A new method for predicting the failure time of a slope’, Proceedings of the 4th International Conference and 
-Field Workshop on Landslides, Japan Landslide Society Committee for International Exchange of Landslide Technique, Tokyo, 
-pp. 145–150. 
-Hamdi, P, Stead, D, Elmo, D & Töyrä, J 2018, ‘Use of an integrated finite/discrete element method-discrete fracture network approach 
-to characterize surface subsidence associated with sub-level caving’, International Journal of Rock Mechanics and Mining 
-Sciences, vol. 103, no. ii, pp. 55–67. 
-Havaej, M, Stead, D, Lorig, L & Vivas, J 2012, ‘Modelling rock bridge failure and brittle fracturing in large open pit rock slopes’, 
-in A Bobet (ed.), Proceedings of the 46th US Rock Mechanics/Geomechanics Symposium, American Rock Mechanics 
-Association, Alexandria. 
-Havaej, M, Stead, D, Eberhardt, E & Fisher, BR 2014a, ‘Characterization of bi-planar and ploughing failure mechanisms in footwall 
-slopes using numerical modelling’, Engineering Geology, vol. 178, pp. 109–120. 
-Havaej, M, Stead, D, Meyer, J & Wolter, A 2014b, ‘Modelling the relation between failure kinematics and slope damage in high rock 
-slopes using a lattice scheme approach’, Proceedings of the 48th U.S. Rock Mechanics/Geomechanics Symposium, American 
-Rock Mechanics Association, Alexandria. 
-Havaej, M, Wolter, A & Stead, D 2015, ‘The possible role of brittle rock fracture in the 1963 Vajont Slide, Italy’, International Journal 
-of Rock Mechanics and Mining Sciences, vol. 78, pp. 319–330. 
-Hoek, E & Brown, ET 2019, ‘The Hoek–Brown failure criterion and GSI–2018 edition’, Journal of Rock Mechanics and Geotechnical 
-Engineering, vol. 11, no. 3, pp. 445–463. 
-Hudson, JA 1992, Rock Engineering Systems. Theory and Practice, Ellis Horwood Ltd, Hemel Hempstead, 185 pp. 
-Intrieri, E, Gigli, G, Mugnai, F, Fanti, R & Casagli, N 2012, ‘Design and implementation of a landslide early warning system’, Engineering 
-Geology, vol. 147–148, pp. 124–136. 
-Karimi Sharif, L, Elmo, D & Stead, D 2018, ‘DFNAnalyzer : A web-based application for discrete fracture network analysis’, Proceedings 
-of the 2nd International Discrete Fracture Network Engineering Conference, American Rock Mechanics Association, 
-Alexandria. 
-Kromer, RA, Abellán, A, Hutchinson, DJ, Lato, M, Chanut, MA, Dubois, L & Jaboyedoff, M 2017, ‘Automated terrestrial laser scanning 
-with near-real-time change detection - monitoring of the Séchilienne landslide’, Earth Surface Dynamics, vol. 5, no. 2,  
-pp. 293–310. 
-Kromer, RA, Hutchinson, DJ, Lato, MJ, Gauthier, D & Edwards, T 2015, ‘Identifying rock slope failure precursors using LiDAR for 
-transportation corridor hazard management’, Engineering Geology, vol. 195, pp. 93–103. 
+
+Crosta, GB, Agliardi, F, Rivolta, C, Alberti, S & Dei Cas, L 2017, ‘Long-term evolution and early warning strategies for complex rockslides by real-time monitoring’, Landslides, vol. 14, no. 5, pp. 1615–1632.
+Danielson, J 2018, An investigation into the time dependent deformation behavior of open pit slopes at Gibraltar Mine, BC, Canada,
+MSc Thesis, Simon Fraser University, Burnaby.
+de Vilder, SJ, Rosser, NJ & Brain, MJ 2017, ‘Forensic analysis of rockfall scars’, Geomorphology, vol. 295, pp. 202–214.
+Dershowitz, W, Hermanson, J, Follin, S & Mauldon, M 2000, ‘Fracture intensity measures in 1-D, 2-D, and 3-D at Aspo, Sweden’,
+Proceedings of the 4th North American Rock Mechanics Symposium, American Rock Mechanics Association, Alexandria, pp. 849–853.
+Diederichs, MS 2007, ‘The 2003 Canadian Geotechnical Colloquium: Mechanistic interpretation and practical application of damage and spalling prediction criteria for deep tunnelling’, Canadian Geotechnical Journal, vol. 44, no. 9, pp. 1082–1116.
+Dixon, N, Codeglia, D, Smith, A, Fowmes, GJ & Meldrum, P 2015, ‘An acoustic emission slope displacement rate sensor — case studies’, in PM Dight (ed.), Proceedings of the Ninth International Symposium on Field Measurements in Geomechanics, Australian
+Centre for Geomechanics, Perth, pp. 743–756.
+Donati, D 2019, The characterization of slope damage using an integrated remote sensing-numerical modelling approach, PhD Thesis,
+Simon Fraser University, Burnaby.
+Donati, D & Stead, D 2019, ‘Potential applications of multi-sensor remote sensing in rock mass characterization’, in SAB Fontoura,
+RJ Rocca & JF Pavon Mendoza (eds), Proceedings of the 14th International Congress of Rock Mechanics, International Society for Rock Mechanics Lisbon, pp. 536–543.
+Donati, D, Stead, D, Brideau, MA & Ghirotti, M 2017, ‘A remote sensing approach for the derivation of numerical modelling input data: insights from the Hope Slide, Canada’, Proceedings of the ISRM International Symposium AfriRock Conference, Southern
+African Institute of Mining and Metallurgy, Cape Town.
+Donati, D, Stead, D, Elmo, D & Borgatti, L 2019, ‘A preliminary investigation on the role of brittle fracture in the kinematics of the
+2014 San Leo landslide’, Geosciences, vol. 9, no. 6, p. 256.
+Donati, D, Stead, D, Elmo, D, Karimi Sharif, L, Gao, F, Borgatti, L & Spreafico, MC 2018, ‘Experience gained in modelling brittle fracture in rock’, Proceedings of the 52nd US Rock Mechanics/Geomechanics Symposium, American Rock Mechanics Association,
+Alexandria.
+Eberhardt, E, Willenberg, H, Loew, S & Maurer, H 2001, ‘Active rockslides in Switzerland - Understanding mechanisms and processes’, in M Kühne, HH Einstein, E Krauter, H Klapperich & R Pöttler (eds), UEF International Conference on Landslides - Causes,
+Impacts and Countermeasures, Verlag Glückauf GmbH, Essen, pp. 25–34.
+Elmo, D, Donati, D & Stead, D 2018, ‘Challenges in the characterisation of intact rock bridges in rock slopes’, Engineering Geology, vol. 245, pp. 81–96.
+Fukuzono, T 1985, ‘A new method for predicting the failure time of a slope’, Proceedings of the 4th International Conference and
+Field Workshop on Landslides, Japan Landslide Society Committee for International Exchange of Landslide Technique, Tokyo, pp. 145–150.
+Hamdi, P, Stead, D, Elmo, D & Töyrä, J 2018, ‘Use of an integrated finite/discrete element method-discrete fracture network approach to characterize surface subsidence associated with sub-level caving’, International Journal of Rock Mechanics and Mining
+Sciences, vol. 103, no. ii, pp. 55–67.
+Havaej, M, Stead, D, Lorig, L & Vivas, J 2012, ‘Modelling rock bridge failure and brittle fracturing in large open pit rock slopes’, in A Bobet (ed.), Proceedings of the 46th US Rock Mechanics/Geomechanics Symposium, American Rock Mechanics
+Association, Alexandria.
+Havaej, M, Stead, D, Eberhardt, E & Fisher, BR 2014a, ‘Characterization of bi-planar and ploughing failure mechanisms in footwall slopes using numerical modelling’, Engineering Geology, vol. 178, pp. 109–120.
+Havaej, M, Stead, D, Meyer, J & Wolter, A 2014b, ‘Modelling the relation between failure kinematics and slope damage in high rock slopes using a lattice scheme approach’, Proceedings of the 48th U.S. Rock Mechanics/Geomechanics Symposium, American
+Rock Mechanics Association, Alexandria.
+Havaej, M, Wolter, A & Stead, D 2015, ‘The possible role of brittle rock fracture in the 1963 Vajont Slide, Italy’, International Journal of Rock Mechanics and Mining Sciences, vol. 78, pp. 319–330.
+Hoek, E & Brown, ET 2019, ‘The Hoek–Brown failure criterion and GSI–2018 edition’, Journal of Rock Mechanics and Geotechnical
+Engineering, vol. 11, no. 3, pp. 445–463.
+Hudson, JA 1992, Rock Engineering Systems. Theory and Practice, Ellis Horwood Ltd, Hemel Hempstead, 185 pp.
+Intrieri, E, Gigli, G, Mugnai, F, Fanti, R & Casagli, N 2012, ‘Design and implementation of a landslide early warning system’, Engineering
+Geology, vol. 147–148, pp. 124–136.
+Karimi Sharif, L, Elmo, D & Stead, D 2018, ‘DFNAnalyzer : A web-based application for discrete fracture network analysis’, Proceedings of the 2nd International Discrete Fracture Network Engineering Conference, American Rock Mechanics Association,
+Alexandria.
+Kromer, RA, Abellán, A, Hutchinson, DJ, Lato, M, Chanut, MA, Dubois, L & Jaboyedoff, M 2017, ‘Automated terrestrial laser scanning with near-real-time change detection - monitoring of the Séchilienne landslide’, Earth Surface Dynamics, vol. 5, no. 2, pp. 293–310.
+Kromer, RA, Hutchinson, DJ, Lato, MJ, Gauthier, D & Edwards, T 2015, ‘Identifying rock slope failure precursors using LiDAR for transportation corridor hazard management’, Engineering Geology, vol. 195, pp. 93–103.
 Safety and risk management
 Slope Stability 2020
-141
- 
-Kurz, T, Buckley, S & Howell, J 2012, ‘Close range hyperspectral imaging integrated with terrestrial LiDAR scanning applied to rock 
-characterisation at centimetre scale’, ISPRS-International Archives of the Photogrammetry, Remote Sensing and Spatial 
-Information Sciences, vol. XXXIX-B5, pp. 417–422. 
-Kvapil, R & Clews, M 1979, ‘An examination of the Prandtl mechanism in large dimension slope failures’, Transactions of the Institution 
-of Mining and Metallurgy: Section A, vol. 88, pp. A1–A5. 
-Leith, KJ 2012, Stress development and geomechanical controls on the geomorphic evolution of alpine valleys, PhD Thesis, ETH, Zurich. 
-Lisjak, A & Grasselli, G 2014, ‘A review of discrete modeling techniques for fracturing processes in discontinuous rock masses’, Journal 
-of Rock Mechanics and Geotechnical Engineering, vol. 6, no. 4, pp. 301–314. 
-Lu, WB, Hu, YG, Yang, JH, Chen, M & Yan, P 2013, ‘Spatial distribution of excavation induced damage zone of high rock slope’, 
-International Journal of Rock Mechanics and Mining Sciences, vol. 64, pp. 181–191. 
-Lupogo, K 2017, Characterization of blast damage in rock slopes: an integrated field-numerical modelling approach, PhD Thesis, Simon 
-Fraser University, Burnaby. 
-Martino, JB & Chandler, NA 2004, ‘Excavation-induced damage studies at the Underground Research Laboratory’, International 
-Journal of Rock Mechanics and Mining Sciences, vol. 41, no. 8, pp. 1413–1426. 
-Mysiorek, J, Onsel, E, Stead, D & Rosser, NJ 2019, ‘Engineering geological characterization of the 2014 Jure Landslide, Nepal: an 
-interactive mixed-reality approach to slope characterization’, Proceedings of the 72nd Canadian Geotechnical Conference, 
-The Geotechnical Society of St John’s and Canadian Geotechnical Society, St John’s.  
-Obregon, C & Mitri, H 2019, ‘Probabilistic approach for open pit bench slope stability analysis – a mine case study’, International 
-Journal of Mining Science and Technology, vol. 29, no. 4, pp. 629–640. 
-Onsel, E, Chang, O, Mysiorek, J, Donati, D, Stead, D, Barnett, W & Zorzi, L 2019, ‘Applications of mixed and virtual reality techniques 
-in site characterization’, Proceedings of the 26th Vancouver Geotechnical Society Symposium, Vancouver Geotechnical 
-Society, Vancouver. 
-Onsel, E, Donati, D, Stead, D & Chang, O 2018, ‘Applications of virtual and mixed reality in rock engineering’, Proceedings of the 52nd 
-US Rock Mechanics/Geomechanics Symposium, American Rock Mechanics Association, Alexandria. 
-Pankow, KL, Moore, JR, Mark Hale, J, Koper, KD, Kubacki, T…& McCarter, MK 2014, ‘Massive landslide at Utah copper mine generates 
-wealth of geophysical data’, GSA Today, vol. 24, no. 1, pp. 4–9. 
-Poulsen, BA, Adhikary, DP, Elmouttie, MK & Wilkins, A 2015, ‘Convergence of synthetic rock mass modelling and the Hoek-Brown 
-strength criterion’, International Journal of Rock Mechanics and Mining Sciences, vol. 80, pp. 171–180. 
-Roberti, G, Ward, B, van Wyk de Vries, B, Friele, P, Perotti, L…& Giardino, M, 2018, ‘Precursory slope distress prior to the 2010 Mount 
-Meager landslide, British Columbia’, Landslides, vol. 15, no. 4, pp. 637–647. 
-Rose, ND & Hungr, O 2007, ‘Forecasting potential rock slope failure in open pit mines using the inverse-velocity method’, International 
-Journal of Rock Mechanics and Mining Sciences, vol. 44, no. 2, pp. 308–320. 
-Sampaleanu, C 2017, The role of intact rock fracture in rockfall initiation, MSc Thesis, Simon Fraser University, Burnaby. 
-Sampaleanu, C, Stead, D, Donati, D, Griffiths, C, D’Ambra, S & LeBreton, R 2017, ‘Characterizing brittle fracture induced rockfall in an 
-open sub-level retreat excavation’, Proceedings of the 51st US Rock Mechanics/Geomechanics Symposium, American Rock 
-Mechanics Association, Alexandria. 
-Sampaleanu, C, Stead, D & Preston, R 2016, ‘Application of Laser Scanning Monitoring Methods At Jane Basin , Britannia Creek , BC’, 
-Proceedings of the 69th Annual Canadian Geotechnical Conference, Vancouver Geotechnical Society and Canadian 
-Geotechnical Society, Vancouver. 
-Sjöberg, J 1996, Large scale slope instability in open pit mining - a review, Luleå University of Technology, Luleå. 
-Stead, D, Donati, D, Wolter, A & Sturzenegger, M 2019, ‘Application of remote sensing to the investigation of rock slopes: experience 
-gained and lessons learned’, ISPRS International Journal of Geo-Information, vol. 8, no. 7, p. 296. 
-Stead, D & Eberhardt, E 2013, ‘Understanding the mechanics of large landslides’, Italian Journal of Engineering Geology and 
-Environment - Book Series, no. 6, pp. 85–112. 
-Stead, D & Wolter, A 2015, ‘A critical review of rock slope failure mechanisms: the importance of structural geology’, Journal of 
-Structural Geology, vol. 74, pp. 1–23. 
-Styles, T, Stead, D, Eberhardt, E, Rabus, B, Gaida, M & Bloom, J 2011, ‘Integrated Numerical Modelling and InSAR Monitoring of a 
-Slow Moving Slope Instability at Bingham Canyon Mine’, in E Eberhardt & D Stead (eds), Proceedings of the International 
-Symposium on Rock Slope Stability in Open Pit Mining and Civil Engineering, Canadian Rock Mechanics Association. 
-Teza, G, Marcato, G, Pasuto, A & Galgaro, A 2015, ‘Integration of laser scanning and thermal imaging in monitoring optimization and 
-assessment of rockfall hazard: a case history in the Carnic Alps (Northeastern Italy)’, Natural Hazards, vol. 76, pp. 1535–1549. 
-Thiebes, B & Glade, T 2016, ‘Landslide early warning systems - fundamental concepts and innovative applications’, in S Aversa, 
-L Cascini, L Picarelli & C Scavia (eds.), Landslides and Engineered Slopes. Experience, Theory and Practice, pp. 1903–1911. 
-Tuckey, Z & Stead, D 2016, ‘Improvements to field and remote sensing methods for mapping discontinuity persistence and intact 
-rock bridges in rock slopes’, Engineering Geology, vol. 208, pp. 136–153. 
-Tuckey, Z 2012, An integrated field mapping-numerical modelling approach to characterising discontinuity persistence and intact rock 
-bridges in large open pit slopes, MSc Thesis, Simon Fraser University, Burnaby. 
-Vivas, J, Stead, D, Elmo, D & Hunt, C 2015, ‘Simulating the interaction between groundwater and brittle failure in open pit slopes’, 
-International Journal of Geological and Environmental Engineering, vol. 9, no. 12, pp. 1295–1303. 
-Vyazmensky, A, Stead, D, Elmo, D & Moss, A 2010, ‘Numerical analysis of block caving-induced instability in large open pit slopes: 
-a finite element/discrete element approach’, Rock Mechanics and Rock Engineering, vol. 43, no. 1, pp. 21–39. 
-New techniques for characterising damage in rock slopes: implications
-for engineered slopes and open pit mines
+
+Kurz, T, Buckley, S & Howell, J 2012, ‘Close range hyperspectral imaging integrated with terrestrial LiDAR scanning applied to rock characterisation at centimetre scale’, ISPRS-International Archives of the Photogrammetry, Remote Sensing and Spatial
+Information Sciences, vol. XXXIX-B5, pp. 417–422.
+Kvapil, R & Clews, M 1979, ‘An examination of the Prandtl mechanism in large dimension slope failures’, Transactions of the Institution of Mining and Metallurgy: Section A, vol. 88, pp. A1–A5.
+Leith, KJ 2012, Stress development and geomechanical controls on the geomorphic evolution of alpine valleys, PhD Thesis, ETH, Zurich.
+Lisjak, A & Grasselli, G 2014, ‘A review of discrete modeling techniques for fracturing processes in discontinuous rock masses’, Journal of Rock Mechanics and Geotechnical Engineering, vol. 6, no. 4, pp. 301–314.
+Lu, WB, Hu, YG, Yang, JH, Chen, M & Yan, P 2013, ‘Spatial distribution of excavation induced damage zone of high rock slope’,
+International Journal of Rock Mechanics and Mining Sciences, vol. 64, pp. 181–191.
+Lupogo, K 2017, Characterization of blast damage in rock slopes: an integrated field-numerical modelling approach, PhD Thesis, Simon
+Fraser University, Burnaby.
+Martino, JB & Chandler, NA 2004, ‘Excavation-induced damage studies at the Underground Research Laboratory’, International
+Journal of Rock Mechanics and Mining Sciences, vol. 41, no. 8, pp. 1413–1426.
+Mysiorek, J, Onsel, E, Stead, D & Rosser, NJ 2019, ‘Engineering geological characterization of the 2014 Jure Landslide, Nepal: an interactive mixed-reality approach to slope characterization’, Proceedings of the 72nd Canadian Geotechnical Conference,
+The Geotechnical Society of St John’s and Canadian Geotechnical Society, St John’s.
+Obregon, C & Mitri, H 2019, ‘Probabilistic approach for open pit bench slope stability analysis – a mine case study’, International
+Journal of Mining Science and Technology, vol. 29, no. 4, pp. 629–640.
+Onsel, E, Chang, O, Mysiorek, J, Donati, D, Stead, D, Barnett, W & Zorzi, L 2019, ‘Applications of mixed and virtual reality techniques in site characterization’, Proceedings of the 26th Vancouver Geotechnical Society Symposium, Vancouver Geotechnical
+Society, Vancouver.
+Onsel, E, Donati, D, Stead, D & Chang, O 2018, ‘Applications of virtual and mixed reality in rock engineering’, Proceedings of the 52nd
+US Rock Mechanics/Geomechanics Symposium, American Rock Mechanics Association, Alexandria.
+Pankow, KL, Moore, JR, Mark Hale, J, Koper, KD, Kubacki, T…& McCarter, MK 2014, ‘Massive landslide at Utah copper mine generates wealth of geophysical data’, GSA Today, vol. 24, no. 1, pp. 4–9.
+Poulsen, BA, Adhikary, DP, Elmouttie, MK & Wilkins, A 2015, ‘Convergence of synthetic rock mass modelling and the Hoek-Brown strength criterion’, International Journal of Rock Mechanics and Mining Sciences, vol. 80, pp. 171–180.
+Roberti, G, Ward, B, van Wyk de Vries, B, Friele, P, Perotti, L…& Giardino, M, 2018, ‘Precursory slope distress prior to the 2010 Mount
+Meager landslide, British Columbia’, Landslides, vol. 15, no. 4, pp. 637–647.
+Rose, ND & Hungr, O 2007, ‘Forecasting potential rock slope failure in open pit mines using the inverse-velocity method’, International
+Journal of Rock Mechanics and Mining Sciences, vol. 44, no. 2, pp. 308–320.
+Sampaleanu, C 2017, The role of intact rock fracture in rockfall initiation, MSc Thesis, Simon Fraser University, Burnaby.
+Sampaleanu, C, Stead, D, Donati, D, Griffiths, C, D’Ambra, S & LeBreton, R 2017, ‘Characterizing brittle fracture induced rockfall in an open sub-level retreat excavation’, Proceedings of the 51st US Rock Mechanics/Geomechanics Symposium, American Rock
+Mechanics Association, Alexandria.
+Sampaleanu, C, Stead, D & Preston, R 2016, ‘Application of Laser Scanning Monitoring Methods At Jane Basin , Britannia Creek , BC’,
+Proceedings of the 69th Annual Canadian Geotechnical Conference, Vancouver Geotechnical Society and Canadian
+Geotechnical Society, Vancouver.
+Sjöberg, J 1996, Large scale slope instability in open pit mining - a review, Luleå University of Technology, Luleå.
+Stead, D, Donati, D, Wolter, A & Sturzenegger, M 2019, ‘Application of remote sensing to the investigation of rock slopes: experience gained and lessons learned’, ISPRS International Journal of Geo-Information, vol. 8, no. 7, p. 296.
+Stead, D & Eberhardt, E 2013, ‘Understanding the mechanics of large landslides’, Italian Journal of Engineering Geology and
+Environment - Book Series, no. 6, pp. 85–112.
+Stead, D & Wolter, A 2015, ‘A critical review of rock slope failure mechanisms: the importance of structural geology’, Journal of
+Structural Geology, vol. 74, pp. 1–23.
+Styles, T, Stead, D, Eberhardt, E, Rabus, B, Gaida, M & Bloom, J 2011, ‘Integrated Numerical Modelling and InSAR Monitoring of a
+Slow Moving Slope Instability at Bingham Canyon Mine’, in E Eberhardt & D Stead (eds), Proceedings of the International
+Symposium on Rock Slope Stability in Open Pit Mining and Civil Engineering, Canadian Rock Mechanics Association.
+Teza, G, Marcato, G, Pasuto, A & Galgaro, A 2015, ‘Integration of laser scanning and thermal imaging in monitoring optimization and assessment of rockfall hazard: a case history in the Carnic Alps (Northeastern Italy)’, Natural Hazards, vol. 76, pp. 1535–1549.
+Thiebes, B & Glade, T 2016, ‘Landslide early warning systems - fundamental concepts and innovative applications’, in S Aversa,
+L Cascini, L Picarelli & C Scavia (eds.), Landslides and Engineered Slopes. Experience, Theory and Practice, pp. 1903–1911.
+Tuckey, Z & Stead, D 2016, ‘Improvements to field and remote sensing methods for mapping discontinuity persistence and intact rock bridges in rock slopes’, Engineering Geology, vol. 208, pp. 136–153.
+Tuckey, Z 2012, An integrated field mapping-numerical modelling approach to characterising discontinuity persistence and intact rock bridges in large open pit slopes, MSc Thesis, Simon Fraser University, Burnaby.
+Vivas, J, Stead, D, Elmo, D & Hunt, C 2015, ‘Simulating the interaction between groundwater and brittle failure in open pit slopes’,
+International Journal of Geological and Environmental Engineering, vol. 9, no. 12, pp. 1295–1303.
+Vyazmensky, A, Stead, D, Elmo, D & Moss, A 2010, ‘Numerical analysis of block caving-induced instability in large open pit slopes:
+a finite element/discrete element approach’, Rock Mechanics and Rock Engineering, vol. 43, no. 1, pp. 21–39.
+New techniques for characterising damage in rock slopes: implications for engineered slopes and open pit mines
 D Donati et al.
-142
 Slope Stability 2020
- 
-Whalley, WB 1974, ‘The mechanics of high-magnitude, low-frequency rock failure and its importance in a mountainous area’, Reading 
-Geographical Papers, vol. 27. 
-Woo, KS, Eberhardt, E, Elmo, D & Stead, D 2013, ‘Empirical investigation and characterization of surface subsidence related to block 
-cave mining’, International Journal of Rock Mechanics and Mining Sciences, vol. 61, pp. 31–42. 
- 
- 
- 
+
+Whalley, WB 1974, ‘The mechanics of high-magnitude, low-frequency rock failure and its importance in a mountainous area’, Reading
+Geographical Papers, vol. 27.
+Woo, KS, Eberhardt, E, Elmo, D & Stead, D 2013, ‘Empirical investigation and characterization of surface subsidence related to block cave mining’, International Journal of Rock Mechanics and Mining Sciences, vol. 61, pp. 31–42.
+
 Safety and risk management
 Slope Stability 2020
-143
- 
- 
-New techniques for characterising damage in rock slopes: implications
-for engineered slopes and open pit mines
+
+New techniques for characterising damage in rock slopes: implications for engineered slopes and open pit mines
 D Donati et al.
-144
 Slope Stability 2020

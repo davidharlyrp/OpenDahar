@@ -1,0 +1,77 @@
+Erg Chebbi, Morocco
+Effective stress
+Effective stress is a fundamental concept in soil mechanics and geotechnical engineering that describes the portion of total stress in a soil mass that is carried by the solid soil skeleton, rather than the pore water. This concept applies broadly to granular media like sand, silt, and clay, as well as to porous materials such as rock, concrete, metal powders and biological tissues. It is crucial for understanding the mechanical behaviour of porous media, as effective stress governs both their strength and volume change
+(deformation).[1]
+More formally, effective stress is defined as the stress that, for any given pore pressure
+, produces the same strain or strength response in a porous material (such as soil or rock) as would be observed in a dry sample where
+. In other words, it is the stress that controls the mechanical behaviour of a porous body regardless of pore pressure present.[2]
+Karl von Terzaghi first proposed the relationship for effective stress in 1925.[3][4][5] For him, the term
+"effective" meant the calculated stress that was effective in moving soil, or causing displacements. It has been often interpreted as the average stress carried by the soil skeleton.[6] Afterwards, different formulations have been proposed for the effective stress. Maurice Biot fully developed the three- dimensional soil consolidation theory, extending the one-dimensional model previously developed by
+Terzaghi to more general hypotheses and introducing the set of basic equations of Poroelasticity. Alec
+Skempton in his work in 1960,[6] has carried out an extensive review of available formulations and experimental data in literature about effective stress valid in soil, concrete and rock, in order to reject some of these expressions, as well as clarify what expression was appropriate according to several work hypotheses, such as stress–strain or strength behaviour, saturated or nonsaturated media, rock/concrete or soil behaviour, etc.
+In 1962, work by Jeremiah Jennings and John Burland examined the applicability of Terzaghi’s effective stress principle to partly saturated soils.[7] Through a series of experiments undertaken at the University of the Witwatersrand, including oedometer and compression tests on various soil types, they showed that behaviours such as volume changes and shear strength in partly saturated soils do not align with predictions based on effective stress changes alone. Their findings showed that the structural changes due to pressure deficiencies behave differently from changes due to applied stress.[8][9][10][7]
+History
+Arrangement of Spheres showing contacts
+Spheres immersed in water, reducing effective stress
+The effective stress (
+) acting on a soil is calculated from the total normal stress ( ) and pore water pressure ( ) according to:
+This equation is fundamental in understanding the strength of soils under drained conditions, which applies to coarse-grained soils (sand, silt) and fine-grained soils (clay) over the long-term. This is because soil strength is due primarily to interparticle friction,[11] which - similar to the concept of a block sliding on a table - is proportional to the normal stress. The pore water pressure reduces the normal stress and thus reduces the soil strength.
+Much like the concept of stress itself, the formula is a construct, for the easier visualization of forces acting on a soil mass, especially simple analysis models for slope stability, involving a slip plane.[12]
+With these models, it is important to know the total weight of the soil above (including water), and the pore water pressure within the slip plane, assuming it is acting as a confined layer.
+However, the formula becomes confusing when considering the true behaviour of the soil particles under different measurable conditions, since none of the parameters are actually independent actors on the particles.
+Consider a grouping of round quartz sand grains, piled loosely, in a classic "cannonball" arrangement. As can be seen, there is a contact stress where the spheres actually touch. Pile on more spheres and the contact stresses increase, to the point of causing frictional instability
+(dynamic friction), and perhaps failure. The independent parameter affecting the contacts (both normal and shear) is the force of the spheres above. This can be calculated by using the overall average density of the spheres and the height of spheres above.
+If we then have these spheres in a beaker and add some water, they will begin to float a little depending on their density (buoyancy). With natural soil materials, the effect can be significant, as anyone who has lifted a large rock out of a lake can attest. The contact stress on the spheres decreases as the beaker is filled to the top of the spheres, but then nothing changes if more water is added. Although the water pressure between the spheres (pore water pressure) is increasing, the effective stress remains the same, because the concept of "total stress" includes the weight of all the water above. This is where the equation can become confusing, and the effective stress can be calculated using the buoyant density of the spheres (soil), and the height of the soil above.
+Description
+Spheres being injected with water, reducing effective stress
+The concept of effective stress truly becomes interesting when dealing with non-hydrostatic pore water pressure. Under the conditions of a pore pressure gradient, the ground water flows, according to the permeability equation (Darcy's law). Using our spheres as a model, this is the same as injecting (or withdrawing) water between the spheres. If water is being injected, the seepage force acts to separate the spheres and reduces the effective stress.
+Thus, the soil mass becomes weaker. If water is being withdrawn, the spheres are forced together and the effective stress increases.[13]
+Two extremes of this effect are quicksand, where the groundwater gradient and seepage force act against gravity; and the "sandcastle effect",[14] where the water drainage and capillary action act to strengthen the sand. As well, effective stress plays an important role in slope stability, and other geotechnical engineering and engineering geology problems, such as groundwater-related subsidence.
+1. Powrie, William (2014). Soil Mechanics Concepts and Applications (3rd ed.). Taylor and
+Francis Group. pp. 22–23. ISBN 978-1-4665-5248-7.
+2. Guerriero, V; Mazzoli, S. (2021). "Theory of Effective Stress in Soil and Rock and
+Implications for Fracturing Processes: A Review" (https://doi.org/10.3390%2Fgeosciences11
+030119). Geosciences. 11 (3): 119. Bibcode:2021Geosc..11..119G (https://ui.adsabs.harvar d.edu/abs/2021Geosc..11..119G). doi:10.3390/geosciences11030119 (https://doi.org/10.33
+90%2Fgeosciences11030119).
+3. Terzaghi, Karl (1925). Erdbaumechanik auf Bodenphysikalischer Grundlage. F. Deuticke.
+4. Terzaghi, Karl (1936). "Relation Between Soil Mechanics and Foundation Engineering:
+Presidential Address". Proceedings, First International Conference on Soil Mechanics and
+Foundation Engineering, Boston. 3, 13–18.
+5. "Vertical stress in the ground" (https://web.archive.org/web/20060618044805/http://fbe.uwe.
+ac.uk/public/geocal/SoilMech/stresses/stresses.htm). fbe.uwe.ac.uk. Archived from the original (http://fbe.uwe.ac.uk/public/geocal/SoilMech/stresses/stresses.htm) on June 18,
+2006.
+6. Skempton, A. W. (1984-01-01), "Effective Stress in Soils, Concrete and Rocks" (https://www.
+icevirtuallibrary.com/doi/10.1680/sposm.02050.0014), SELECTED PAPERS ON SOIL
+MECHANICS, Thomas Telford Publishing, pp. 106–118, doi:10.1680/sposm.02050.0014 (htt ps://doi.org/10.1680%2Fsposm.02050.0014), ISBN 978-0-7277-3982-7, retrieved
+2023-04-11
+7. Jennings, J. E. B.; Burland, J. B. (1962). "Limitations to the Use of Effective Stresses in
+Partly Saturated Soils" (https://www.icevirtuallibrary.com/doi/10.1680/geot.1962.12.2.125).
+Géotechnique. 12 (2): 125–144. doi:10.1680/geot.1962.12.2.125 (https://doi.org/10.1680%2
+Fgeot.1962.12.2.125). ISSN 0016-8505 (https://search.worldcat.org/issn/0016-8505).
+Retrieved 12 April 2024 – via Institution of Civil Engineers Virtual Library.
+8. Escario, V.; Sáez, J. (1986). "The shear strength of partly saturated soils" (https://www.icevir tuallibrary.com/doi/10.1680/geot.1986.36.3.453). Géotechnique. 36 (3): 453–456.
+doi:10.1680/geot.1986.36.3.453 (https://doi.org/10.1680%2Fgeot.1986.36.3.453).
+ISSN 0016-8505 (https://search.worldcat.org/issn/0016-8505). Retrieved 12 April 2024 – via
+Institution of Civil Engineers Virtual Library.
+References
+9. Bishop, A. W.; Blight, G. E. (1963). "Some Aspects of Effective Stress in Saturated and
+Partly Saturated Soils" (https://www.icevirtuallibrary.com/doi/10.1680/geot.1963.13.3.177).
+Géotechnique. 13 (3): 177–197. doi:10.1680/geot.1963.13.3.177 (https://doi.org/10.1680%2
+Fgeot.1963.13.3.177). ISSN 0016-8505 (https://search.worldcat.org/issn/0016-8505).
+Retrieved 12 April 2024 – via Institution of Civil Engineers Virtual Library.
+10. Sridharan, A.; Rao, G. Venkatappa; Pandian, R. Samudra (1973). "Volume Change
+Behaviour of Partly Saturated Clays During Soaking and the Role of Effective Stress
+Concept" (https://linkinghub.elsevier.com/retrieve/pii/S0038080620326731). Soils and
+Foundations. 13 (3): 1–15. doi:10.3208/sandf1972.13.3_1 (https://doi.org/10.3208%2Fsandf
+1972.13.3_1). Retrieved 12 April 2024 – via Science Direct.
+11. Powrie, William (2014). Soil Mechanics Concepts and Applications (3rd ed.). Taylor and
+Francis. p. 59. ISBN 978-1-4665-5248-7.
+12. "Geo-Engineering at Durham University" (http://www.dur.ac.uk/~des0www4/cal/slopes/page
+4.htm).
+13. "Groundwater" (https://web.archive.org/web/20060902060122/http://fbe.uwe.ac.uk/public/ge ocal/SoilMech/water/water.htm). fbe.uwe.ac.uk. Archived from the original (http://fbe.uwe.ac.
+uk/public/geocal/SoilMech/water/water.htm) on September 2, 2006.
+14. "Capillary Aging of the Contacts between Glass Spheres and a Quartz Resonator Surface"
+(https://web.archive.org/web/20080530000118/http://home.tu-clausthal.de/~pcdj/publ/PRL96
+_058301.pdf) (PDF). home.tu-clausthal.de. Archived from the original (http://home.tu-clausth al.de/~pcdj/publ/PRL96_058301.pdf) (PDF) on May 30, 2008.
+Terzaghi, K. (1925). Principles of Soil Mechanics. Engineering News-Record, 95(19-27).
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Effective_stress&oldid=1340240227"

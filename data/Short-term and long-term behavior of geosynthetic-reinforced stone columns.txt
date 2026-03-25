@@ -1,396 +1,140 @@
-Short-term and long-term behavior of geosynthetic-reinforced
-stone columns
+Short-term and long-term behavior of geosynthetic-reinforced stone columns
 Ahad Ehsaniyamchi ⇑, Mahmoud Ghazavi
 Civil Engineering Department, K.N. Toosi University of Technology, Tehran, Iran
 Received 28 December 2018; received in revised form 10 May 2019; accepted 31 July 2019
 Available online 14 September 2019
 Abstract
-Stone columns are often used to improve the load-carrying characteristics of weak soils. In very soft soils, however, the bearing capac-
-ity of stone columns may not signiﬁcantly improve the load-carrying characteristics due to the very low conﬁnement of the surrounding
-soil. In such cases, encased stone columns (ESCs) or horizontally reinforced stone columns (HRSCs) may be used. Although ESCs have
-been studied extensively, few studies have been done on HRSCs. In addition, very limited studies are available on ESCs and HRSCs
-under the same conditions. Moreover, no studies have been carried out to compare the long-term and short-term behavior of HRSCs
-with that of ESCs. In this research, therefore, numerical analyses are performed on various types of reinforced end-bearing stone
-columns to compare their behavior under both long-term and short-term conditions under various loading conditions. The Advanced
-Modiﬁed Cam-clay model for clay and the Hardening Soil model for stone column materials are used. The results show that with proper
-reinforcing stone columns, in addition to a considerable reduction in settlement, the consolidation time can be greatly decreased and
-most of the settlement will occur during the loading period. Also, the consolidation settlement rate may be increased by using a smaller
-column diameter and a larger area replacement ratio for the unit cell, stiﬀer geosynthetic reinforcements, and greater values for the
-internal friction angle of the stone column materials.
- 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society. This is an open access article under the CC BY-
+Stone columns are often used to improve the load-carrying characteristics of weak soils. In very soft soils, however, the bearing capac- ity of stone columns may not signiﬁcantly improve the load-carrying characteristics due to the very low conﬁnement of the surrounding soil. In such cases, encased stone columns (ESCs) or horizontally reinforced stone columns (HRSCs) may be used. Although ESCs have been studied extensively, few studies have been done on HRSCs. In addition, very limited studies are available on ESCs and HRSCs under the same conditions. Moreover, no studies have been carried out to compare the long-term and short-term behavior of HRSCs with that of ESCs. In this research, therefore, numerical analyses are performed on various types of reinforced end-bearing stone columns to compare their behavior under both long-term and short-term conditions under various loading conditions. The Advanced
+Modiﬁed Cam-clay model for clay and the Hardening Soil model for stone column materials are used. The results show that with proper reinforcing stone columns, in addition to a considerable reduction in settlement, the consolidation time can be greatly decreased and most of the settlement will occur during the loading period. Also, the consolidation settlement rate may be increased by using a smaller column diameter and a larger area replacement ratio for the unit cell, stiﬀer geosynthetic reinforcements, and greater values for the internal friction angle of the stone column materials.
+ 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society. This is an open access article under the CC BY-
 NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
 Keywords: Geosynthetics; Reinforced stone columns; Numerical analysis; Short-term and long-term behavior; Consolidation settlement
 1. Introduction
-Stone columns are often used as a ground-improvement
-method to improve the bearing capacity, to reduce the set-
-tlement of saturated clayey soil, to increase the consolida-
-tion rate of ﬁne soils, and to decrease the liquefaction
-potential. In very soft soils, however, the bearing capacity
-of ordinary stone columns (OSCs) is small due to the very
-low lateral conﬁnement of the surrounding soil that leads
-to bulging failure at a depth of D-2.5D (Nazariafshar
-and
+Stone columns are often used as a ground-improvement method to improve the bearing capacity, to reduce the set- tlement of saturated clayey soil, to increase the consolida- tion rate of ﬁne soils, and to decrease the liquefaction potential. In very soft soils, however, the bearing capacity of ordinary stone columns (OSCs) is small due to the very low lateral conﬁnement of the surrounding soil that leads to bulging failure at a depth of D-2.5D (Nazariafshar and
 Ghazavi,
 2014).
-In
-such
-situations,
-the
-load-
-settlement behavior of the stone columns can be improved
-by geosynthetic reinforcements. Fig. 1 shows two main
-reinforcing methods of stone columns. As seen in the ﬁg-
-ure, a stone column may be reinforced by an encasement,
-called an encased stone column (ESC), wrapped with a
-geosynthetic like a wick drain, or by placing horizontal
-sheets of a geosynthetic within the column body at regular
-intervals, called a horizontally reinforced stone column
-(HRSC). The encasement may be wrapped around the
-whole length of the stone column (Le = L), called a full-
-length ESC, or just wrapped around the upper portion of
-the stone column, for example, the half-length of the col-
-umn (Le = 0.5L), where Le is the encased length of the
+In such situations, the load- settlement behavior of the stone columns can be improved by geosynthetic reinforcements. Fig. 1 shows two main reinforcing methods of stone columns. As seen in the ﬁg- ure, a stone column may be reinforced by an encasement, called an encased stone column (ESC), wrapped with a geosynthetic like a wick drain, or by placing horizontal sheets of a geosynthetic within the column body at regular intervals, called a horizontally reinforced stone column
+(HRSC). The encasement may be wrapped around the whole length of the stone column (Le = L), called a full- length ESC, or just wrapped around the upper portion of the stone column, for example, the half-length of the col- umn (Le = 0.5L), where Le is the encased length of the
 ESC.
 https://doi.org/10.1016/j.sandf.2019.07.007
-0038-0806/ 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society.
+0038-0806/ 2019 Production and hosting by Elsevier B.V. on behalf of The Japanese Geotechnical Society.
 This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
 Peer review under responsibility of The Japanese Geotechnical Society.
 ⇑Corresponding author.
-E-mail
-addresses:
+E-mail addresses:
 aehsani@mail.kntu.ac.ir
 (A.
-Ehsaniyamchi),
-ghazavi_ma@kntu.ac.ir (M. Ghazavi).
+Ehsaniyamchi), ghazavi_ma@kntu.ac.ir (M. Ghazavi).
 www.elsevier.com/locate/sandf
 Available online at www.sciencedirect.com
 ScienceDirect
 Soils and Foundations 59 (2019) 1579–1590
-H O S T E D  B Y
+H O S T E D B Y
 Technical Paper
-The encasing of stone columns has been studied using
-analytical solutions (Pulko et al., 2011; Zhang and Zhao,
-2015), experiments (Gniel and Bouazza, 2009; Murugesan
-and Rajagopal, 2010; Ghazavi and Nazariafshar, 2013;
+The encasing of stone columns has been studied using analytical solutions (Pulko et al., 2011; Zhang and Zhao,
+2015), experiments (Gniel and Bouazza, 2009; Murugesan and Rajagopal, 2010; Ghazavi and Nazariafshar, 2013;
 Ali et al., 2012, 2014; Miranda and Da Costa, 2016;
-Hong et al., 2016), and numerical methods (Murugesan
-and
+Hong et al., 2016), and numerical methods (Murugesan and
 Rajagopal,
 2006;
-Khabbazian
-et
-al.,
+Khabbazian et al.,
 2010;
-Keykhosropur et al., 2012; Elsawy, 2013; Hosseinpour
-et al., 2014; Yu et al., 2016). Most of the analytical and
-numerical studies used the unit cell concept, assuming an
-inﬁnitely wide loaded area with end-bearing stone columns
-having a constant diameter and spacing, where the stone
-column and the surrounding soil were treated as axisym-
-metric
-forms
-(Pulko
-et
-al.,
+Keykhosropur et al., 2012; Elsawy, 2013; Hosseinpour et al., 2014; Yu et al., 2016). Most of the analytical and numerical studies used the unit cell concept, assuming an inﬁnitely wide loaded area with end-bearing stone columns having a constant diameter and spacing, where the stone column and the surrounding soil were treated as axisym- metric forms
+(Pulko et al.,
 2011).
-Murugesan
-and
-Rajagopal (2006) and Khabbazian et al. (2010) reported
-that encasing the top portion of ESCs may be suﬃcient
-for preventing bulging failure and enhancing the bearing
-capacity.
+Murugesan and
+Rajagopal (2006) and Khabbazian et al. (2010) reported that encasing the top portion of ESCs may be suﬃcient for preventing bulging failure and enhancing the bearing capacity.
 However,
-Gniel
-and
+Gniel and
 Bouazza
-(2009)
-and
-Ghazavi and Nazariafshar (2013) reported that, in very
-soft soils, reinforcing the upper half part of ESCs may lead
-to the relocation of the bulging failure to the lower un-
-encased parts of the columns; and thus, it may be more use-
-ful to encase the full length of the ESCs.
-HRSCs have been studied by Sharma et al. (2004), Wu
-and Hong (2008), Ali et al. (2012, 2014), Nazariafshar and
-Ghazavi (2014), Hosseinpour et al. (2014) and Ghazavi
-et al. (2018). Their results showed that the beneﬁcial eﬀect
-of HRSCs mainly depends on the vertical spacing between
-the horizontal reinforcing sheets and that the bearing
-capacity of HRSCs increases with a decrease in the spacing
-between the reinforcing layers (Ghazavi et al., 2018).
-Although various studies have been conducted on ESCs
-and HRSCs, only a very limited number of studies have
-compared the two methods under the same conditions
-(Ali et al., 2012, 2014; Hosseinpour et al., 2014). Moreover,
-although several studies have been conducted on the con-
-solidation of OSCs (Wang, 2009; Cimentada et al., 2011;
+(2009) and
+Ghazavi and Nazariafshar (2013) reported that, in very soft soils, reinforcing the upper half part of ESCs may lead to the relocation of the bulging failure to the lower un- encased parts of the columns; and thus, it may be more use- ful to encase the full length of the ESCs.
+HRSCs have been studied by Sharma et al. (2004), Wu and Hong (2008), Ali et al. (2012, 2014), Nazariafshar and
+Ghazavi (2014), Hosseinpour et al. (2014) and Ghazavi et al. (2018). Their results showed that the beneﬁcial eﬀect of HRSCs mainly depends on the vertical spacing between the horizontal reinforcing sheets and that the bearing capacity of HRSCs increases with a decrease in the spacing between the reinforcing layers (Ghazavi et al., 2018).
+Although various studies have been conducted on ESCs and HRSCs, only a very limited number of studies have compared the two methods under the same conditions
+(Ali et al., 2012, 2014; Hosseinpour et al., 2014). Moreover, although several studies have been conducted on the con- solidation of OSCs (Wang, 2009; Cimentada et al., 2011;
 Ng and Tan, 2014; Lu et al., 2017; Deb and Behera,
-2017), most of the studies on ESCs have been focused on
-either the short-term or the long-term behavior and only
-a few studies investigated the consolidation of ESCs
-(Castro and Sagaseta, 2011; Zhang et al., 2012; Castro
-et al., 2013; Pulko and Logar, 2017). Castro and Sagaseta
-(2011) presented an advanced analytical method for pre-
-dicting the consolidation settlement of ESCs based on Bar-
-ron’s solution. Pulko and Logar (2017) used Biot’s theory
-and presented a fully coupled semi-analytical solution in
-order to account for the consolidation settlement of ESCs.
-In addition, to the best knowledge of the authors, there
-have been no studies that compared the long-term behavior
-and the consolidation settlement of HRSCs with those of
+2017), most of the studies on ESCs have been focused on either the short-term or the long-term behavior and only a few studies investigated the consolidation of ESCs
+(Castro and Sagaseta, 2011; Zhang et al., 2012; Castro et al., 2013; Pulko and Logar, 2017). Castro and Sagaseta
+(2011) presented an advanced analytical method for pre- dicting the consolidation settlement of ESCs based on Bar- ron’s solution. Pulko and Logar (2017) used Biot’s theory and presented a fully coupled semi-analytical solution in order to account for the consolidation settlement of ESCs.
+In addition, to the best knowledge of the authors, there have been no studies that compared the long-term behavior and the consolidation settlement of HRSCs with those of
 ESCs.
-Although the behavior of the granular aggregates and
-geosynthetic reinforcements of stone columns is almost
-independent of the loading speed, due to the presence of
-soft compressible clay around columns with very low per-
-meability, after applying the initial loading on the stone
-columns and the surrounding soil, horizontal and vertical
-consolidation deformation is generated in the soil around
-the stone columns. This will cause additional deformation
-and the regeneration of stress in both the stone columns
-and the reinforcements. Therefore, the eﬀects of consolida-
-tion on the soft clay surrounding the columns should be
-taken into account when calculating the stress and defor-
-mation of the various elements of the stone columns. This
-paper performs numerical analyses to compare both the
-long-term and short-term behavior and the consolidation
-settlements of end-bearing ESCs and HRSCs. To this
-aim, advanced constitutive models are used to compare
-the long-term and short-term behavior of ESCs and
-HRSCs. The present results may assist practicing engineers
-in choosing the best reinforcement method for stone
- (a)
+Although the behavior of the granular aggregates and geosynthetic reinforcements of stone columns is almost independent of the loading speed, due to the presence of soft compressible clay around columns with very low per- meability, after applying the initial loading on the stone columns and the surrounding soil, horizontal and vertical consolidation deformation is generated in the soil around the stone columns. This will cause additional deformation and the regeneration of stress in both the stone columns and the reinforcements. Therefore, the eﬀects of consolida- tion on the soft clay surrounding the columns should be taken into account when calculating the stress and defor- mation of the various elements of the stone columns. This paper performs numerical analyses to compare both the long-term and short-term behavior and the consolidation settlements of end-bearing ESCs and HRSCs. To this aim, advanced constitutive models are used to compare the long-term and short-term behavior of ESCs and
+HRSCs. The present results may assist practicing engineers in choosing the best reinforcement method for stone
+(a)
 (b)
 (c)
 (d)
 (e)
-Stone column 
-Soft soil 
-Soft soil 
-Le=L 
-Le=0.5L 
+Stone column
+Soft soil
+Soft soil
+Le=L
+Le=0.5L
 Sr
-Applied pressure 
-Geosynthetic encasement 
-Horizontal 
-reinforcing layers 
+Applied pressure
+Geosynthetic encasement
+Horizontal reinforcing layers
 Fig. 1. Examples of various models used in numerical analyses. Unit cell models of: (a) OSC, (b) full-length ESC, (c) half-length ESC, (d) HRSC with
 Sr = 0.5D, and (e) single HRSC with Sr = 0.25D.
-1580
-A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
-columns with respect to the site, the loading conditions, the
-available materials, and the soil-improvement target.
+A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590 columns with respect to the site, the loading conditions, the available materials, and the soil-improvement target.
 2. Finite element analyses
 2.1. Model description and boundary conditions
 Finite element analyses were performed using PLAXIS
-2D in an axisymmetric condition. In the numerical analy-
-ses, two conﬁgurations of full-length ESCs and half-
-length ESCs were adopted, and their characteristics were
-compared with HRSCs with Sr = 0.25D and Sr = 0.5D,
-where Sr is the spacing of the horizontal reinforcing strips
-(Fig. 1d) and D denotes the stone column diameter. The
-reinforcing material used for the two cases of full-length
-ESC and HRSC with Sr = 0.25D was the same and equal
-to p.D.L, where L is the column length. In the same way,
-the area of the reinforcing material used for the two cases
-of half-length ESC and HRSC with Sr = 0.5D was equal
-to p.D.L/2. This facilitated a comparison between ESCs
-and HRSCs in terms of the consumption of the reinforcing
-material. Two types of stone column conﬁgurations for a
-single column and the unit cell concept, representing the
-stone column group, were studied by means of various
-numerical parametric analyses (Fig. 1). The length of all
-the stone columns was assumed to be 5 m. All the stone
-columns were located on a rigid stratum.
-Fig. 1 also shows some examples of the geometric mod-
-els adopted for various types of stone columns with various
-loading conditions. Fig. 1a to 1d show the conﬁgurations
-of the unit cell conditions for the interior column condi-
-tions in the group of stone columns supporting a rigid
-spread footing. Fig. 1e shows a single HRSC supporting
-a rigid footing. In all the numerical analyses, the initial
-in-situ stress levels were predicted by considering a value
-of 0.5 for the at-rest pressure coeﬃcient. Then, the analyses
-were carried out by removing the hole, replacing the col-
-umn materials, and applying vertical pressure on the top
-of the rigid footing or adopting a prescribed displacement
-on the top of the model to simulate the rigid footing con-
-dition on the top of the stone column and the tributary
-area. To remove the eﬀects of the element size, a ﬁne mesh
-discretization was considered for all the models. As seen in
-Fig. 1, the boundary conditions in modeling single stone
-column loading were suﬃciently extended. However, the
-boundary conditions of the unit cell models were adopted
-according to three assumed area replacement ratios,
-namely, 0.15, 0.25, and 0.35, which are the ratios normally
-used in practice.
-The soft soil and stone column materials were modeled
-using 15-noded triangular elements, and the geosynthetic
-reinforcements were simulated using 5-noded geogrid-
-type elements. The Modiﬁed Cam-Clay (MCC) model
-and the Hardening Soil (HS) model were used for the clay
-and stone column materials, respectively. Moreover, a
-linear-elastic behavior was used for reinforcing the material
-simulation. To allow the mobilization between the rein-
-forcement and the soil materials, interface elements were
-used by applying a strength reduction factor of 0.67, as
-suggested
-by
-the
-PLAXIS
-manual
-and
-used
-by
+2D in an axisymmetric condition. In the numerical analy- ses, two conﬁgurations of full-length ESCs and half- length ESCs were adopted, and their characteristics were compared with HRSCs with Sr = 0.25D and Sr = 0.5D, where Sr is the spacing of the horizontal reinforcing strips
+(Fig. 1d) and D denotes the stone column diameter. The reinforcing material used for the two cases of full-length
+ESC and HRSC with Sr = 0.25D was the same and equal to p.D.L, where L is the column length. In the same way, the area of the reinforcing material used for the two cases of half-length ESC and HRSC with Sr = 0.5D was equal to p.D.L/2. This facilitated a comparison between ESCs and HRSCs in terms of the consumption of the reinforcing material. Two types of stone column conﬁgurations for a single column and the unit cell concept, representing the stone column group, were studied by means of various numerical parametric analyses (Fig. 1). The length of all the stone columns was assumed to be 5 m. All the stone columns were located on a rigid stratum.
+Fig. 1 also shows some examples of the geometric mod- els adopted for various types of stone columns with various loading conditions. Fig. 1a to 1d show the conﬁgurations of the unit cell conditions for the interior column condi- tions in the group of stone columns supporting a rigid spread footing. Fig. 1e shows a single HRSC supporting a rigid footing. In all the numerical analyses, the initial in-situ stress levels were predicted by considering a value of 0.5 for the at-rest pressure coeﬃcient. Then, the analyses were carried out by removing the hole, replacing the col- umn materials, and applying vertical pressure on the top of the rigid footing or adopting a prescribed displacement on the top of the model to simulate the rigid footing con- dition on the top of the stone column and the tributary area. To remove the eﬀects of the element size, a ﬁne mesh discretization was considered for all the models. As seen in
+Fig. 1, the boundary conditions in modeling single stone column loading were suﬃciently extended. However, the boundary conditions of the unit cell models were adopted according to three assumed area replacement ratios, namely, 0.15, 0.25, and 0.35, which are the ratios normally used in practice.
+The soft soil and stone column materials were modeled using 15-noded triangular elements, and the geosynthetic reinforcements were simulated using 5-noded geogrid- type elements. The Modiﬁed Cam-Clay (MCC) model and the Hardening Soil (HS) model were used for the clay and stone column materials, respectively. Moreover, a linear-elastic behavior was used for reinforcing the material simulation. To allow the mobilization between the rein- forcement and the soil materials, interface elements were used by applying a strength reduction factor of 0.67, as suggested by the
+PLAXIS manual and used by
 Khabbazian et al. (2010).
 2.2. Numerical analysis validation
-The ﬁnite element model was veriﬁed for both reinforc-
-ing methods using data reported by others in the literature
-(Figs. 2 and 3). The predicted ESC data were veriﬁed by the
-data reported by Khabbazian et al. (2010) for an OSC and
-a full-length ESC, both with a diameter of 80 cm and a
-length of 5 m. The predicted HRSC data were veriﬁed by
-the experimental data reported by Ghazavi et al. (2018)
-for an OSC and an HRSC, both with a diameter of
-10 cm and a length of 50 cm. As seen in Fig. 3, there is a
-good agreement between the test data and the simulations.
-Therefore, the adopted numerical analysis methods can be
-used to further discover the behavior of HRSCs and ESCs.
+The ﬁnite element model was veriﬁed for both reinforc- ing methods using data reported by others in the literature
+(Figs. 2 and 3). The predicted ESC data were veriﬁed by the data reported by Khabbazian et al. (2010) for an OSC and a full-length ESC, both with a diameter of 80 cm and a length of 5 m. The predicted HRSC data were veriﬁed by the experimental data reported by Ghazavi et al. (2018) for an OSC and an HRSC, both with a diameter of
+10 cm and a length of 50 cm. As seen in Fig. 3, there is a good agreement between the test data and the simulations.
+Therefore, the adopted numerical analysis methods can be used to further discover the behavior of HRSCs and ESCs.
 Fig. 2. Validation of numerical analysis for ESCs.
-0
-10
-20
-30
-40
-50
-0
-100
-200
-300
-400
-500
-600
-700
-800
-900
 Settlement (mm)
-Vertical  stress (kPa)
+Vertical stress (kPa)
 PLAXIS, OSC, D=100 mm
-PLAXIS, HRSC, D=100 mm, 
+PLAXIS, HRSC, D=100 mm,
 S =D
 Experiment by Ghazavi et al.
 (2018), OSC, D=100 mm
-Experiment by Ghazavi et al. 
+Experiment by Ghazavi et al.
 (2018), HRSC, D=100 mm, S =D
 Fig. 3. Validation of numerical analysis for HRSCs.
 A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
-1581
 3. Numerical results
-In the literature, most of the tests performed on ordi-
-nary or reinforced stone columns were under quick
-undrained loading conditions for soft clay materials. How-
-ever, the presence of a stone column causes the rapid dissi-
-pation of the excess pore pressure that is generated due to
-the undrained loading conditions. As a result, the insuﬃ-
-cient column-bearing capacity and the changes in settle-
-ment are due to the consolidation of the surrounding
-clay. In this research, the Advanced Modiﬁed Cam-Clay
-and Hardening Soil constitutive models for clay and stone
-column materials, respectively, were used in the numerical
-analyses to study the long-term and short-term behavior of
-both HRSCs and ESCs. Also, to consider the free drainage
-eﬀects of the stone column materials, a fully coupled ﬂow-
-deformation analysis was used to simulate quick loading
-conditions and free drainage was assumed for the geosyn-
-thetic reinforcements. The clay parameters in the numerical
-analyses were the same as those used by Khabbazian et al.
-(2010) for Bangkok clay. For the stone column material,
-typical values were used (Table 1). For the various types
-of reinforced stone columns in the unit cell, various series
-of numerical analyses were conducted, details of which
-are given Table 2. To assess the eﬀect of each parameter,
-all other parameters were kept constant according to the
-underlined values given in Table 2.
-Two diﬀerent series of numerical analyses were per-
-formed to study the short-term bearing capacity and the
-long-term consolidation settlement of various types of sin-
-gle stone columns. The ﬁrst series of analyses consisted of a
-short-term two-day coupled loading, performed by apply-
-ing a prescribed settlement of 20 cm. However, the second
-series of analyses included a short-term two-day coupled
-loading performed by applying vertical stress that caused
-a 20-cm settlement at the end of the two-day loading period
-determined from the ﬁrst series of analyses that was fol-
-lowed by a 100-day consolidation period. In all the analy-
-ses, constant values of 80 cm and 500 cm were considered
-for the diameter and the length of the stone columns,
-respectively. However, three diﬀerent ratios of footing
-diameter (D0) to stone column diameter (D), namely, D0/
+In the literature, most of the tests performed on ordi- nary or reinforced stone columns were under quick undrained loading conditions for soft clay materials. How- ever, the presence of a stone column causes the rapid dissi- pation of the excess pore pressure that is generated due to the undrained loading conditions. As a result, the insuﬃ- cient column-bearing capacity and the changes in settle- ment are due to the consolidation of the surrounding clay. In this research, the Advanced Modiﬁed Cam-Clay and Hardening Soil constitutive models for clay and stone column materials, respectively, were used in the numerical analyses to study the long-term and short-term behavior of both HRSCs and ESCs. Also, to consider the free drainage eﬀects of the stone column materials, a fully coupled ﬂow- deformation analysis was used to simulate quick loading conditions and free drainage was assumed for the geosyn- thetic reinforcements. The clay parameters in the numerical analyses were the same as those used by Khabbazian et al.
+(2010) for Bangkok clay. For the stone column material, typical values were used (Table 1). For the various types of reinforced stone columns in the unit cell, various series of numerical analyses were conducted, details of which are given Table 2. To assess the eﬀect of each parameter, all other parameters were kept constant according to the underlined values given in Table 2.
+Two diﬀerent series of numerical analyses were per- formed to study the short-term bearing capacity and the long-term consolidation settlement of various types of sin- gle stone columns. The ﬁrst series of analyses consisted of a short-term two-day coupled loading, performed by apply- ing a prescribed settlement of 20 cm. However, the second series of analyses included a short-term two-day coupled loading performed by applying vertical stress that caused a 20-cm settlement at the end of the two-day loading period determined from the ﬁrst series of analyses that was fol- lowed by a 100-day consolidation period. In all the analy- ses, constant values of 80 cm and 500 cm were considered for the diameter and the length of the stone columns, respectively. However, three diﬀerent ratios of footing diameter (D0) to stone column diameter (D), namely, D0/
 D = 1, 2, and 3, were adopted for the single stone columns.
-To determine the eﬃciency of the geosynthetic reinforce-
-ment on the load-bearing capacity of the stone columns,
-the bearing improvement factor (B.I.F.) is deﬁned as the
-ratio of the bearing capacity of a reinforced stone column
-to the bearing capacity of an ordinary stone column with
-the same conditions at the same settlement values. In addi-
-tion, to evaluate the settlement improvement of the rein-
-forcements, the settlement improvement factor (S.I.F.) is
-deﬁned as the ratio of the settlement caused by an ordinary
-stone column to the settlement caused by a reinforced stone
-column with the same conditions. The deﬁnition of both
-parameters, B.I.F. and S.I.F., are illustrated in Fig. 4.
-Moreover, as shown in Fig. 4b, parameter SEOL is deﬁned
-as the settlement value of a stone column at the end of the
-loading stage, while parameter SF is deﬁned as the ﬁnal set-
-tlement value of a stone column at end of the consolidation
-process.
+To determine the eﬃciency of the geosynthetic reinforce- ment on the load-bearing capacity of the stone columns, the bearing improvement factor (B.I.F.) is deﬁned as the ratio of the bearing capacity of a reinforced stone column to the bearing capacity of an ordinary stone column with the same conditions at the same settlement values. In addi- tion, to evaluate the settlement improvement of the rein- forcements, the settlement improvement factor (S.I.F.) is deﬁned as the ratio of the settlement caused by an ordinary stone column to the settlement caused by a reinforced stone column with the same conditions. The deﬁnition of both parameters, B.I.F. and S.I.F., are illustrated in Fig. 4.
+Moreover, as shown in Fig. 4b, parameter SEOL is deﬁned as the settlement value of a stone column at the end of the loading stage, while parameter SF is deﬁned as the ﬁnal set- tlement value of a stone column at end of the consolidation process.
 3.1. Unit cell modeling
 3.1.1. Inﬂuence of loading rate and consolidation time
-To study the behavior of various types of reinforced
-stone columns at various loading rates, 15 coupled numer-
-ical analyses were carried out using three loading dura-
-tions, namely, 2, 20, and 100 days, for applying 200 kPa
-of vertical stress on the top of the unit cell. These durations
-were selected to simulate rapid, medium, and slow loading
-rates, respectively. All analyses were followed by a consol-
-idation analysis until 200 days had passed from the start of
-the loading period, in order to assess and compare the
-long-term behavior of all the stone column types.
+To study the behavior of various types of reinforced stone columns at various loading rates, 15 coupled numer- ical analyses were carried out using three loading dura- tions, namely, 2, 20, and 100 days, for applying 200 kPa of vertical stress on the top of the unit cell. These durations were selected to simulate rapid, medium, and slow loading rates, respectively. All analyses were followed by a consol- idation analysis until 200 days had passed from the start of the loading period, in order to assess and compare the long-term behavior of all the stone column types.
 Table 1
 Material parameters for numerical models.
 Property name
 Soft soil
 Stone column
-Behavior
-undrained
-drained
+Behavior undrained drained
 Model
 MCC
-HS
-csat (kN/m3)
-20
-20
+HS csat (kN/m3)
 / (deg)
+– c (kPa)
+– w (deg)
 –
-40
-c (kPa)
+E50 ref (MPa)
 –
-1
-w (deg)
+Eoed ref (MPa)
 –
-0
-E50
-ref (MPa)
+Eur ref (MPa)
 –
-150
-Eoed
-ref (MPa)
-–
-150
-Eur
-ref (MPa)
-–
-450
 M
 1.00
 0.5
@@ -402,276 +146,88 @@ M
 –
 K
 0.5
-–
-eint
-2
-–
-kx (m/day)
+– eint
+– kx (m/day)
 0.0003
-3
 Ky (m/day)
 0.0001
-1
 Table 2
 Various numerical parametric analyses for unit cell concept of stone column.
-Series of parametric
-analyses
+Series of parametric analyses
 Parameter details
-1
-Loading duration and consolidation time = 2 days of loading + 198 days of consolidation, 20 days of loading + 180 days of
-consolidation, 100 days of loading + 100 days of consolidation
-2
+Loading duration and consolidation time = 2 days of loading + 198 days of consolidation, 20 days of loading + 180 days of consolidation, 100 days of loading + 100 days of consolidation
 Column diameter = 50, 80, and 110 cm
-3
 Area replacement ratio = 0.15, 0.25, and 0.35
-4
 Reinforcement stiﬀness = 1000, 3000, and 5000 kN/m
-5
-Internal friction angle of stone column materials = 35, 40, and 45
-1582
+Internal friction angle of stone column materials = 35, 40, and 45
 A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
-Fig. 5 shows the variation in the time-settlement behav-
-ior at the top of the unit cell in the OSC and various types
-of reinforced stone columns, while Fig. 6 compares the
-ﬁnal settlement (sF) and the S.I.F. values at the end of
-200 days. As seen in Figs. 5 and 6, all types of reinforce-
-ments were able to reduce the settlement of the OSC. The
-HRSC with Sr = 0.25D and the full-length ESC show the
-best reinforcement performances, providing high conﬁning
-eﬀects on the stone column materials. However, the half-
-length ESC and the HRSC with Sr = 0.5D show smaller
-improvement eﬀects with low conﬁning eﬀects on the stone
-column material. Also, as seen in Fig. 6, the ﬁnal long-term
-settlement of the OSC or the reinforced stone columns is
-independent of the column loading rate. In fact, the
-amount of ﬁnal settlement of the loaded stone columns is
-seen to depend on the soil and the stone column material
-properties, the reinforcement stiﬀness, and the geometric
-conditions, and it is independent of the loading rate.
-Fig. 7 shows the excess pore water pressure levels at the
-end of the 2-day loading duration. As seen in the ﬁgure, by
-reinforcing the columns, the excess pore pressure decreases
-and the greatest decreases in excess pore pressure occur for
-the full-length ESC and the HRSC with Sr = 0.25D. There-
-fore, due to the small excess pore pressure generation with
-these types of reinforcements, minimum consolidation set-
-tlement is expected. Fig. 8 shows the variation in the ratio
-of the settlement at the end of the loading time (sEOL) to
-the ﬁnal settlement at the end of consolidation (sF). As seen
-from Figs. 6 and 8, the loading rate has a very minimal
-eﬀect on the ﬁnal long-term settlements for all types of
-stone columns. However, the ratio of sEOL/sF varies greatly
+Fig. 5 shows the variation in the time-settlement behav- ior at the top of the unit cell in the OSC and various types of reinforced stone columns, while Fig. 6 compares the ﬁnal settlement (sF) and the S.I.F. values at the end of
+200 days. As seen in Figs. 5 and 6, all types of reinforce- ments were able to reduce the settlement of the OSC. The
+HRSC with Sr = 0.25D and the full-length ESC show the best reinforcement performances, providing high conﬁning eﬀects on the stone column materials. However, the half- length ESC and the HRSC with Sr = 0.5D show smaller improvement eﬀects with low conﬁning eﬀects on the stone column material. Also, as seen in Fig. 6, the ﬁnal long-term settlement of the OSC or the reinforced stone columns is independent of the column loading rate. In fact, the amount of ﬁnal settlement of the loaded stone columns is seen to depend on the soil and the stone column material properties, the reinforcement stiﬀness, and the geometric conditions, and it is independent of the loading rate.
+Fig. 7 shows the excess pore water pressure levels at the end of the 2-day loading duration. As seen in the ﬁgure, by reinforcing the columns, the excess pore pressure decreases and the greatest decreases in excess pore pressure occur for the full-length ESC and the HRSC with Sr = 0.25D. There- fore, due to the small excess pore pressure generation with these types of reinforcements, minimum consolidation set- tlement is expected. Fig. 8 shows the variation in the ratio of the settlement at the end of the loading time (sEOL) to the ﬁnal settlement at the end of consolidation (sF). As seen from Figs. 6 and 8, the loading rate has a very minimal eﬀect on the ﬁnal long-term settlements for all types of stone columns. However, the ratio of sEOL/sF varies greatly
 Fig. 4. Deﬁnition of reinforcement improvement parameters: (a) B.I.F.
 and (b) S.I.F.
 Fig. 5. Time-settlement behavior of various stone columns with diﬀerent loading rates.
-A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
-1583
-for the various types of stone columns and the various
-loading rates. For example, for the 2-day loading rate,
-the value of sEOL/sF for both the full-length ESC and the
-HRSC with Sr = 0.25D is about 0.66. This indicates that
-these reinforcing types can reduce the consolidation settle-
-ment to the minimum value, even with very rapid loading.
-It is also seen that, by using the moderate time of 20 days
-of loading, the value of sEOL/sF for both the full-length
+A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590 for the various types of stone columns and the various loading rates. For example, for the 2-day loading rate, the value of sEOL/sF for both the full-length ESC and the
+HRSC with Sr = 0.25D is about 0.66. This indicates that these reinforcing types can reduce the consolidation settle- ment to the minimum value, even with very rapid loading.
+It is also seen that, by using the moderate time of 20 days of loading, the value of sEOL/sF for both the full-length
 ESC and the HRSC with Sr = 0.25D is more than 0.93.
-This means that most of consolidation settlement occurs
-within the ﬁrst 20 days for these stone columns. However,
-the consolidation settlement rates for the half-length ESC
-and the HRSC with Sr = 0.5D are remarkably lower than
-those in the above cases, especially at rapid loading rates.
+This means that most of consolidation settlement occurs within the ﬁrst 20 days for these stone columns. However, the consolidation settlement rates for the half-length ESC and the HRSC with Sr = 0.5D are remarkably lower than those in the above cases, especially at rapid loading rates.
 3.1.2. Inﬂuence of stone column diameter
-Fig. 9 shows the time-settlement behavior of various
-diameters of 50, 80, and 110 cm for stone columns loaded
-up to 200 kPa of vertical stress in 2 days, followed by
-198 days of consolidation time. As seen in the ﬁgure, with
-an increase in the diameter of all types of stone columns in
-the unit cell with a constant area replacement ratio, the
-consolidation settlement rate decreases and more time is
-required to reach the ﬁnal settlement for larger diameters.
-The diﬀerence in the consolidation time for various diame-
-ters of the full-length ESC and the HRSC with Sr = 0.25D
-is very small, ranging from 2 days for D = 50 cm to 10 days
-for D = 110 cm. However, the consolidation time for the
-half-length ESC increases from 4 days for D = 50 cm to
+Fig. 9 shows the time-settlement behavior of various diameters of 50, 80, and 110 cm for stone columns loaded up to 200 kPa of vertical stress in 2 days, followed by
+198 days of consolidation time. As seen in the ﬁgure, with an increase in the diameter of all types of stone columns in the unit cell with a constant area replacement ratio, the consolidation settlement rate decreases and more time is required to reach the ﬁnal settlement for larger diameters.
+The diﬀerence in the consolidation time for various diame- ters of the full-length ESC and the HRSC with Sr = 0.25D is very small, ranging from 2 days for D = 50 cm to 10 days for D = 110 cm. However, the consolidation time for the half-length ESC increases from 4 days for D = 50 cm to
 20 days for D = 110 cm. Moreover, for the OSC and the
-HRSC with Sr = 0.5D, the consolidation time has the lar-
-gest increase from about 15 days for D = 50 cm to about
-60 days for D = 110 cm. In fact, the load-bearing behavior
-of the full-length ESC and the HRSC with Sr = 0.25D has
-minimum dependency on the surrounding clay behavior,
-and a minimum amount of excess pore pressure is gener-
-ated for these types of reinforced stone columns. As a
-result, they experience minimum consolidation settlements.
-Fig. 10 shows the variation in the S.I.F. versus the diam-
-eter of the stone columns for various reinforcement types.
+HRSC with Sr = 0.5D, the consolidation time has the lar- gest increase from about 15 days for D = 50 cm to about
+60 days for D = 110 cm. In fact, the load-bearing behavior of the full-length ESC and the HRSC with Sr = 0.25D has minimum dependency on the surrounding clay behavior, and a minimum amount of excess pore pressure is gener- ated for these types of reinforced stone columns. As a result, they experience minimum consolidation settlements.
+Fig. 10 shows the variation in the S.I.F. versus the diam- eter of the stone columns for various reinforcement types.
 Fig. 6. Variation in (a) ﬁnal settlement (sF) and (b) S.I.F. values at end consolidation vs loading duration.
 Fig. 7. Excess pore pressure generated in various stone columns at end of
 2-day loading duration: (a) OSC, (b) full-length ESC, (c) half-length ESC,
 (d) HRSC with Sr = 0.25D, and (e) HRSC with Sr = 0. 5D.
-Fig. 8. Variation in (sEOL/sF) vs loading duration for various stone
-columns.
-1584
+Fig. 8. Variation in (sEOL/sF) vs loading duration for various stone columns.
 A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
 As shown in the ﬁgure, for all reinforcement types, the S.I.
-F. value decreases with an increase in the stone column
-diameter. However, the rate of decrease is much larger
-for the full-length ESC than for the HRSCs. Murugesan
-and Rajagopal (2010) and Castro and Sagaseta (2011)
-reported the same results for ESCs and concluded that
-the beneﬁt of the encasement decreases with an increase
-in the diameter of these columns.
-It should be noted that, with an increase in the stone col-
-umn diameter from 50 to 80 and 110 cm, the area ratio of
-the reinforcing material to the volume for the unit cell
-decreases from 2 to 1.25 and 0.91, respectively. In other
-words, with an increase in the diameter of the full-length
-ESC and the HRSC with Sr = 0.25D from 50 to 110 cm,
-the use of reinforcement material brings about a two-fold
-decrease. However, the S.I.F. decreases just about 19%
-for the HRSC with Sr = 0.25D. Therefore, from the view-
-point of the amount of consumption of the reinforcing
-material, the best reinforcement type is the HRSC with
+F. value decreases with an increase in the stone column diameter. However, the rate of decrease is much larger for the full-length ESC than for the HRSCs. Murugesan and Rajagopal (2010) and Castro and Sagaseta (2011) reported the same results for ESCs and concluded that the beneﬁt of the encasement decreases with an increase in the diameter of these columns.
+It should be noted that, with an increase in the stone col- umn diameter from 50 to 80 and 110 cm, the area ratio of the reinforcing material to the volume for the unit cell decreases from 2 to 1.25 and 0.91, respectively. In other words, with an increase in the diameter of the full-length
+ESC and the HRSC with Sr = 0.25D from 50 to 110 cm, the use of reinforcement material brings about a two-fold decrease. However, the S.I.F. decreases just about 19% for the HRSC with Sr = 0.25D. Therefore, from the view- point of the amount of consumption of the reinforcing material, the best reinforcement type is the HRSC with
 Sr = 0.25D for larger stone column diameters.
 3.1.3. Inﬂuence of area reinforcement ratio
-Fig. 11 shows the time-settlement behavior of stone col-
-umns with various area replacement ratios. As seen in the
-ﬁgure, the rate of consolidation increases with an increase
-in the area replacement ratio for all types of stone columns.
-This is due to a reduction in the drainage path length and
-to bearing a larger part of the applied load by the stiﬀer
-stone column. In addition, the time it takes to reach the
-ﬁnal settlement for the full-length ESC and the HRSC with
+Fig. 11 shows the time-settlement behavior of stone col- umns with various area replacement ratios. As seen in the ﬁgure, the rate of consolidation increases with an increase in the area replacement ratio for all types of stone columns.
+This is due to a reduction in the drainage path length and to bearing a larger part of the applied load by the stiﬀer stone column. In addition, the time it takes to reach the ﬁnal settlement for the full-length ESC and the HRSC with
 Fig. 9. Time-settlement behavior of various stone columns with diﬀerent column diameters: (a) D = 50 cm, (b) D = 80 cm, and (c) D = 110 cm.
-Fig. 10. Variation in S.I.F. with column diameter for various stone
-columns.
+Fig. 10. Variation in S.I.F. with column diameter for various stone columns.
 Fig. 11. Time-settlement behavior of stone columns with diﬀerent area replacement ratios: (a) 0.15, (b) 0.25, and (c) 0.35.
 A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
-1585
-Sr = 0.25D is minimum. This is because their behavior has
-only minimum dependency on the surrounding clay.
-Fig. 12 shows the variation in the S.I.F. with the area
-replacement ratio for various reinforced stone columns.
-As seen in the ﬁgure, the S.I.F. increases with an increase
-in the area replacement ratio for all cases. However, the
-rate of increase in the S.I.F. decreases for larger area
-replacement ratios.
+Sr = 0.25D is minimum. This is because their behavior has only minimum dependency on the surrounding clay.
+Fig. 12 shows the variation in the S.I.F. with the area replacement ratio for various reinforced stone columns.
+As seen in the ﬁgure, the S.I.F. increases with an increase in the area replacement ratio for all cases. However, the rate of increase in the S.I.F. decreases for larger area replacement ratios.
 3.1.4. Inﬂuence of reinforcement stiﬀness
-Fig. 13 shows the time-settlement behavior of various
-stone columns with reinforcement stiﬀness. As seen in the
-ﬁgure, for the full-length ESC and the HRSC with
-Sr = 0.25D, the total consolidation time decreases from
-about 10 days for J = 1000 kN/m to about 3 days for
-J = 5000 kN/m. However, the variation in reinforcement
-stiﬀness has no sensitive eﬀect on the total consolidation
-time in the half-length ESC and or the HRSC with
-Sr = 0.5D. Fig. 14 shows the variation in the S.I.F. with
-reinforcement stiﬀness for various types of stone columns.
-As seen in the ﬁgure, the S.I.F. values increase with an
-increase in the reinforcement stiﬀness for all reinforcement
-types. However, the increases in the S.I.F. for the
-full-length ESC and the HRSC with Sr = 0.25D are much
-larger than those for the half-length ESC and the HRSC
-with Sr = 0.5D. In fact, the loading behavior of the full-
-length ESC and the HRSC with Sr = 0.25D has a strong
-dependency on the reinforcement material stiﬀness and
-has much less dependency on the properties of the
-surrounding clay. However, the loading behavior of the
-half-length ESC and the HRSC with Sr = 0.5D not only
-depends on the reinforcement material stiﬀness, but also
-on the properties of the surrounding clay. Moreover, for
-the half-length ESC and the HRSCs, the rates of increase
-in the S.I.F. decrease with an increase in the reinforcement
-stiﬀness. This is because, with these reinforcement types, a
-moderate level of reinforcement stiﬀness of about 3000 kN/
-m can produce a suﬃcient level of conﬁnement eﬀect on the
-column material in the reinforced parts of these columns
-and, by increasing the reinforcement stiﬀness from 3000
-kN/m to 5000 kN/m, the main eﬀective parameter on the
-behavior of stone columns is the bulging of the column
-materials at the unreinforced parts located between the
-horizontal layers of the HRSCs or at the lower unrein-
-forced part of the half-length ESC. Therefore, the use of
-high stiﬀness for the reinforcements cannot bring about
-Fig. 12. Variation in S.I.F. with area replacement ratio for various stone
-columns.
+Fig. 13 shows the time-settlement behavior of various stone columns with reinforcement stiﬀness. As seen in the ﬁgure, for the full-length ESC and the HRSC with
+Sr = 0.25D, the total consolidation time decreases from about 10 days for J = 1000 kN/m to about 3 days for
+J = 5000 kN/m. However, the variation in reinforcement stiﬀness has no sensitive eﬀect on the total consolidation time in the half-length ESC and or the HRSC with
+Sr = 0.5D. Fig. 14 shows the variation in the S.I.F. with reinforcement stiﬀness for various types of stone columns.
+As seen in the ﬁgure, the S.I.F. values increase with an increase in the reinforcement stiﬀness for all reinforcement types. However, the increases in the S.I.F. for the full-length ESC and the HRSC with Sr = 0.25D are much larger than those for the half-length ESC and the HRSC with Sr = 0.5D. In fact, the loading behavior of the full- length ESC and the HRSC with Sr = 0.25D has a strong dependency on the reinforcement material stiﬀness and has much less dependency on the properties of the surrounding clay. However, the loading behavior of the half-length ESC and the HRSC with Sr = 0.5D not only depends on the reinforcement material stiﬀness, but also on the properties of the surrounding clay. Moreover, for the half-length ESC and the HRSCs, the rates of increase in the S.I.F. decrease with an increase in the reinforcement stiﬀness. This is because, with these reinforcement types, a moderate level of reinforcement stiﬀness of about 3000 kN/ m can produce a suﬃcient level of conﬁnement eﬀect on the column material in the reinforced parts of these columns and, by increasing the reinforcement stiﬀness from 3000 kN/m to 5000 kN/m, the main eﬀective parameter on the behavior of stone columns is the bulging of the column materials at the unreinforced parts located between the horizontal layers of the HRSCs or at the lower unrein- forced part of the half-length ESC. Therefore, the use of high stiﬀness for the reinforcements cannot bring about
+Fig. 12. Variation in S.I.F. with area replacement ratio for various stone columns.
 Fig. 13. Time-settlement behavior of various stone columns with reinforcement stiﬀness: (a) J = 1000 kN/m, (b) J = 3000 kN/m, and (c) J = 5000 kN/m.
-Fig. 14. Variation in S.I.F. with reinforcement stiﬀness for various stone
-columns.
-1586
-A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
-greater improvement for either the half-length ESCs or the
-HRSC with Sr = 0.5D. However, in the cases of the full-
-length ESCs and the HRSC with Sr = 0.25D, due to the full
-conﬁnement of all parts of the columns, the horizontal dis-
-placements of the columns of all lengths were limited and
-the behavior of the stone columns was seen to mainly
-depend on the reinforcement stiﬀness. Therefore, with an
-increase in the stiﬀness of the reinforcements, even for high
-stiﬀness values, the S.I.F. value will increase.
-3.1.5. Inﬂuence of internal friction angle (/) of stone column
-materials
-Fig. 15 shows the time-settlement behavior of various
-stone columns with three values of 35, 40, and 45 for
-the internal friction angle of the stone column material.
-As seen in the ﬁgure, with an increasing /, the consolida-
-tion settlement rate increases slightly for all types of stone
-columns. In fact, by using a stronger material for the stone
-columns, a greater part of the load is tolerated by the col-
-umn material, leading to a lower generation of excess pore
-pressure in the surrounding clay, and thus, the occurrence
-of lower consolidation settlement.
-Fig. 16 shows the variation in the S.I.F. with the internal
-friction angle of the column material for various types of
-reinforced stone columns. As seen in the ﬁgure, the S.I.F.
-value for all the stone columns increases with an increase
-in the internal friction. However, the rate of increase for
-the HRSCs is greater than that for the ESCs. This is due
-to the interlocking eﬀect between the horizontal reinforce-
-ment layers and the column materials. In practice, this may
-help in choosing the type of reinforcement. Thus, HRSCs
-may be used when stronger column materials are available.
-Also, ESCs are preferable when poor materials are present
-in the stone columns.
+Fig. 14. Variation in S.I.F. with reinforcement stiﬀness for various stone columns.
+A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590 greater improvement for either the half-length ESCs or the
+HRSC with Sr = 0.5D. However, in the cases of the full- length ESCs and the HRSC with Sr = 0.25D, due to the full conﬁnement of all parts of the columns, the horizontal dis- placements of the columns of all lengths were limited and the behavior of the stone columns was seen to mainly depend on the reinforcement stiﬀness. Therefore, with an increase in the stiﬀness of the reinforcements, even for high stiﬀness values, the S.I.F. value will increase.
+3.1.5. Inﬂuence of internal friction angle (/) of stone column materials
+Fig. 15 shows the time-settlement behavior of various stone columns with three values of 35, 40, and 45 for the internal friction angle of the stone column material.
+As seen in the ﬁgure, with an increasing /, the consolida- tion settlement rate increases slightly for all types of stone columns. In fact, by using a stronger material for the stone columns, a greater part of the load is tolerated by the col- umn material, leading to a lower generation of excess pore pressure in the surrounding clay, and thus, the occurrence of lower consolidation settlement.
+Fig. 16 shows the variation in the S.I.F. with the internal friction angle of the column material for various types of reinforced stone columns. As seen in the ﬁgure, the S.I.F.
+value for all the stone columns increases with an increase in the internal friction. However, the rate of increase for the HRSCs is greater than that for the ESCs. This is due to the interlocking eﬀect between the horizontal reinforce- ment layers and the column materials. In practice, this may help in choosing the type of reinforcement. Thus, HRSCs may be used when stronger column materials are available.
+Also, ESCs are preferable when poor materials are present in the stone columns.
 3.2. Single stone column loading
 3.2.1. Short-term bearing capacity of single stone columns
-To study the short-term bearing capacity of single rein-
-forced stone columns and to predict the B.I.F. of various
-types of reinforcements, some coupled ﬂow-deformation
-analyses were performed by applying a prescribed settle-
-ment of 20 cm for the duration of one day. In these analy-
-ses,
-three
-ratios,
-namely,
+To study the short-term bearing capacity of single rein- forced stone columns and to predict the B.I.F. of various types of reinforcements, some coupled ﬂow-deformation analyses were performed by applying a prescribed settle- ment of 20 cm for the duration of one day. In these analy- ses, three ratios, namely,
 D0/D = 1,
-2,
-and
-3,
-and
-D = 80 cm, were considered for all cases. Figs. 17 and 18
-show
-the
-variations
-in
-the
-vertical
-stress-settlement
-behavior and the excess pore pressure generated under
-Fig. 15. Time-settlement behavior of various stone columns with internal friction angle for stone column material: (a) 35, (b) 40, and (c) 45.
-Fig. 16. Variation in S.I.F. with internal friction angle of column material
-for various stone columns.
-0
-40
-80
-120
-160
-200
-0
-50
-100
-150
-200
+2, and
+3, and
+D = 80 cm, were considered for all cases. Figs. 17 and 18 show the variations in the vertical stress-settlement behavior and the excess pore pressure generated under
+Fig. 15. Time-settlement behavior of various stone columns with internal friction angle for stone column material: (a) 35, (b) 40, and (c) 45.
+Fig. 16. Variation in S.I.F. with internal friction angle of column material for various stone columns.
 Settlement (mm)
 Vertical stress (kPa)
 OSC
@@ -679,58 +235,18 @@ HRSC, S =0.5D
 Half-length ESC
 Full-length ESC
 HRSC, S =0.25D
-Fig. 17. Variation in vertical stress-settlement behavior of various types of
-single stone columns.
-A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
-1587
-the footing area, respectively, of various types of stone col-
-umns for D0/D = 2. Table 3 presents the bearing capacity
-and the B.I.F. values at the end of 1 day of loading for var-
-ious cases. As seen in Fig. 17 and Table 3, for all the D0/D
-values, the HRSC with Sr = 0.25D and the full-length ESC
-have the best B.I.F., while the HRSC with Sr = 0.5D has
-the lowest B.I.F. value. In addition, the half-length ESC
-has a moderate eﬀect on the B.I.F. In fact, as shown in
-Fig. 18, using a full encasement along the column or hori-
-zontal reinforcing layers with a low interval spacing pro-
-vides a full conﬁning eﬀect on the stone column material.
-As a result, most of the applied load on the footing is tol-
-erated by the stone column and a minimum amount of ver-
-tical stress is transferred to the surrounding clay. Thus, low
-excess pore pressure is generated in the soft soil. However,
-for the cases of the half-length ESC and the HRSC with
-Sr = 0.5D, no suﬃcient conﬁnement is provided for the
-stone column materials. As a result, greater vertical stress
-is transferred to the surrounding clay; and thus, greater
-excess pore pressure is generated. This leads to an increase
-in the long-term consolidation settlement in such types of
-reinforced stone columns compared with the other cases.
-3.2.2. Long-term consolidation settlement of single stone
-columns
-To investigate the long-term behavior, various types of
-single reinforced stone columns were initially modeled
-using a rigid plate on the top of the stone columns with var-
-ious D0/D and applying the amount of vertical stress that
-would lead to the same 20-cm settlement for all cases,
-according to bearing capacity values mentioned in Table 3.
-The vertical stress is applied for 1 day with a coupled anal-
-ysis and, after that, a consolidation analysis is conducted to
-dissipate the excess pore pressure in the clay medium and
-to reach a steady state condition of the settlements.
-1. The results of the time-settlement analysis for D0/D = 2
-are shown in Fig. 19. As seen in the ﬁgure, a maximum
-settlement of 4 cm occurs during consolidation for the
-HRSC with Sr = 0.5D. This is approximately equal to
-the consolidation settlement of an OSC. However, for
-the full-length ESC and the HRSC with Sr = 0.25D,
-the minimum consolidation settlements of 0.4 cm and
-1.2 cm, respectively, occur. Therefore, by using full-
-length ESCs or HRSCs with Sr = 0.25D, the long-term
-settlement of single stone columns can be signiﬁcantly
-reduced, in addition to there being an improvement in
-the short-term load-bearing behavior.
-Fig. 18. Excess pore pressure under footing area for case of D0/D = 2, due to 20-cm settlement of footing for various stone columns: (a) OSC, (b) HRSC
-with Sr = 0.5D, (c) half-length ESC, (d) full-length ESC, and (e) HRSC with Sr = 0.25D.
+Fig. 17. Variation in vertical stress-settlement behavior of various types of single stone columns.
+A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590 the footing area, respectively, of various types of stone col- umns for D0/D = 2. Table 3 presents the bearing capacity and the B.I.F. values at the end of 1 day of loading for var- ious cases. As seen in Fig. 17 and Table 3, for all the D0/D values, the HRSC with Sr = 0.25D and the full-length ESC have the best B.I.F., while the HRSC with Sr = 0.5D has the lowest B.I.F. value. In addition, the half-length ESC has a moderate eﬀect on the B.I.F. In fact, as shown in
+Fig. 18, using a full encasement along the column or hori- zontal reinforcing layers with a low interval spacing pro- vides a full conﬁning eﬀect on the stone column material.
+As a result, most of the applied load on the footing is tol- erated by the stone column and a minimum amount of ver- tical stress is transferred to the surrounding clay. Thus, low excess pore pressure is generated in the soft soil. However, for the cases of the half-length ESC and the HRSC with
+Sr = 0.5D, no suﬃcient conﬁnement is provided for the stone column materials. As a result, greater vertical stress is transferred to the surrounding clay; and thus, greater excess pore pressure is generated. This leads to an increase in the long-term consolidation settlement in such types of reinforced stone columns compared with the other cases.
+3.2.2. Long-term consolidation settlement of single stone columns
+To investigate the long-term behavior, various types of single reinforced stone columns were initially modeled using a rigid plate on the top of the stone columns with var- ious D0/D and applying the amount of vertical stress that would lead to the same 20-cm settlement for all cases, according to bearing capacity values mentioned in Table 3.
+The vertical stress is applied for 1 day with a coupled anal- ysis and, after that, a consolidation analysis is conducted to dissipate the excess pore pressure in the clay medium and to reach a steady state condition of the settlements.
+1. The results of the time-settlement analysis for D0/D = 2 are shown in Fig. 19. As seen in the ﬁgure, a maximum settlement of 4 cm occurs during consolidation for the
+HRSC with Sr = 0.5D. This is approximately equal to the consolidation settlement of an OSC. However, for the full-length ESC and the HRSC with Sr = 0.25D, the minimum consolidation settlements of 0.4 cm and
+1.2 cm, respectively, occur. Therefore, by using full- length ESCs or HRSCs with Sr = 0.25D, the long-term settlement of single stone columns can be signiﬁcantly reduced, in addition to there being an improvement in the short-term load-bearing behavior.
+Fig. 18. Excess pore pressure under footing area for case of D0/D = 2, due to 20-cm settlement of footing for various stone columns: (a) OSC, (b) HRSC with Sr = 0.5D, (c) half-length ESC, (d) full-length ESC, and (e) HRSC with Sr = 0.25D.
 Table 3
 Bearing capacity and B.I.F. values at end of two days of loading for various single stone columns.
 D0/D (D = 80 cm)
@@ -744,170 +260,79 @@ B.I.F.
 B.I.F.
 B.I.F.
 B.I.F.
-1
 63.5
 2.87
 6.53
 10.74
 9.88
-2
 25.9
 2.97
 4.14
 6.8
 7.07
-3
 19.9
 2.4
 2.71
 4.34
 4.55
-Fig. 19. Time-settlement variations for various types of single-stone
-columns during short-term, 1-day of loading, and long-term consolidation
-time to 200 days.
-1588
+Fig. 19. Time-settlement variations for various types of single-stone columns during short-term, 1-day of loading, and long-term consolidation time to 200 days.
 A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
 4. Conclusions
-In
-this
-paper,
-various
-short-term
-coupled
-ﬂow-
-deformation analyses and long-term consolidation analyses
-have been performed to investigate the behavior of various
-types of reinforced stone columns. Based on the numerical
-analyses, the following concluding remarks can be made:
-2. All types of reinforcements can improve the short-term
-load-settlement behavior of OSCs and reduce their
-long-term consolidation settlement in both the unit cell
-conﬁguration and the single stone column conﬁguration.
-3. The ﬁnal long-term settlement of OSCs or reinforced
-stone columns is approximately independent of the col-
-umn loading rate. This means that for all types of stone
-columns under a constant vertical load, the ﬁnal long-
-term settlement will be equal for quick, medium, or slow
-loading rates.
-4. By considering the results of the parametric analyses
-under both short-term and long-term conditions, the
-HRSC with Sr = 0.25D is the most eﬃcient type of rein-
-forcement for stone columns with the greatest B.I.F. and
-S.I.F. The full-length ESC is the second most eﬃcient
-type, with a minimum diﬀerence between them.
+In this paper, various short-term coupled ﬂow- deformation analyses and long-term consolidation analyses have been performed to investigate the behavior of various types of reinforced stone columns. Based on the numerical analyses, the following concluding remarks can be made:
+2. All types of reinforcements can improve the short-term load-settlement behavior of OSCs and reduce their long-term consolidation settlement in both the unit cell conﬁguration and the single stone column conﬁguration.
+3. The ﬁnal long-term settlement of OSCs or reinforced stone columns is approximately independent of the col- umn loading rate. This means that for all types of stone columns under a constant vertical load, the ﬁnal long- term settlement will be equal for quick, medium, or slow loading rates.
+4. By considering the results of the parametric analyses under both short-term and long-term conditions, the
+HRSC with Sr = 0.25D is the most eﬃcient type of rein- forcement for stone columns with the greatest B.I.F. and
+S.I.F. The full-length ESC is the second most eﬃcient type, with a minimum diﬀerence between them.
 5. With proper reinforcements, such as full-length ESCs or
-HRSCs with Sr = 0.25D, in addition to a considerable
-reduction in the settlement of the OSCs, the consolida-
-tion time can be greatly decreased and most of the settle-
-ment will occur during the loading time.
-6. From the viewpoint of the amount of consumption of
-the reinforcing material, the best reinforcement type
-for stone columns is the HRSC with Sr = 0.25D.
-7. For the unit cell concept, the long-term consolidation
-settlement rate of stone columns may be increased by
-using stone columns with smaller diameters and a larger
-area replacement ratio for the unit cell, stiﬀer geosyn-
-thetics for the reinforcements, and a greater internal fric-
-tion angle for the stone column material.
-8. Due to the interlocking eﬀects between the reinforce-
-ment and the stone materials, the bearing capacity of
-HRSCs is more dependent on the internal friction angle
-of the stone column material than ESCs. This means
-that HRSCs are more eﬀective when using stone materi-
-als with higher internal friction angles. However, when
-only poor materials are available, the use of full-length
+HRSCs with Sr = 0.25D, in addition to a considerable reduction in the settlement of the OSCs, the consolida- tion time can be greatly decreased and most of the settle- ment will occur during the loading time.
+6. From the viewpoint of the amount of consumption of the reinforcing material, the best reinforcement type for stone columns is the HRSC with Sr = 0.25D.
+7. For the unit cell concept, the long-term consolidation settlement rate of stone columns may be increased by using stone columns with smaller diameters and a larger area replacement ratio for the unit cell, stiﬀer geosyn- thetics for the reinforcements, and a greater internal fric- tion angle for the stone column material.
+8. Due to the interlocking eﬀects between the reinforce- ment and the stone materials, the bearing capacity of
+HRSCs is more dependent on the internal friction angle of the stone column material than ESCs. This means that HRSCs are more eﬀective when using stone materi- als with higher internal friction angles. However, when only poor materials are available, the use of full-length
 ESCs is preferable.
-9. The bearing capacity of full-length ESCs and HRSCs
-with Sr = 0.25D is more dependent on the stiﬀness of
-the reinforcement material than the half-length ESCs
-and HRSCs with Sr = 0.5D.
-10.By using the proper type of reinforcement, such as full-
-length ESCs or HRSCs with Sr = 0.25D, the long-term
-settlement behavior of single stone columns will be
-decreased signiﬁcantly, in addition to there being an
-improvement in the short-term load-bearing behavior.
+9. The bearing capacity of full-length ESCs and HRSCs with Sr = 0.25D is more dependent on the stiﬀness of the reinforcement material than the half-length ESCs and HRSCs with Sr = 0.5D.
+10.By using the proper type of reinforcement, such as full- length ESCs or HRSCs with Sr = 0.25D, the long-term settlement behavior of single stone columns will be decreased signiﬁcantly, in addition to there being an improvement in the short-term load-bearing behavior.
 References
-Ali, K., Shahu, J.T., Sharma, K.G., 2012. Model tests on geosynthetic-
-reinforced stone columns: a comparative study. Geosynth. Int. 19 (4),
+Ali, K., Shahu, J.T., Sharma, K.G., 2012. Model tests on geosynthetic- reinforced stone columns: a comparative study. Geosynth. Int. 19 (4),
 292–305.
-Ali, K., Shahu, J.T., Sharma, K.G., 2014. Model tests on single and
-groups of stone columns with diﬀerent geosynthetic reinforcement
-arrangement. Geosynth. Int. 21 (2), 103–118.
-Castro, J., Sagaseta, C., 2011. Deformation and consolidation around
-encased stone columns. Geotext. Geomembranes 29, 268–276.
+Ali, K., Shahu, J.T., Sharma, K.G., 2014. Model tests on single and groups of stone columns with diﬀerent geosynthetic reinforcement arrangement. Geosynth. Int. 21 (2), 103–118.
+Castro, J., Sagaseta, C., 2011. Deformation and consolidation around encased stone columns. Geotext. Geomembranes 29, 268–276.
 Castro, J., Cimentada, A., Costa, A., Canizal, J., Sagaseta, C., 2013.
-Consolidation and deformation around stone columns: comparison of
-theoretical and laboratory results. Comput. Geotech. 49, 326–337.
-Cimentada, A., Costa, A.D., Izal, J.C., Sagaseta, C., 2011. Laboratory
-study on radial consolidation and deformation in clay reinforced with
-stone columns. Can. Geotech. J. 48 (1), 36–52.
-Deb, K., Behera, A., 2017. Rate of consolidation of stone column-
-improved ground considering change in permeability and compress-
-ibility during consolidation. Appl. Math. Model. 48, 548–566.
-Elsawy, M.B.D., 2013. Behavior of soft ground improved by conventional
-and geogrid-encased stone columns, based on FEM study. Geosynth.
+Consolidation and deformation around stone columns: comparison of theoretical and laboratory results. Comput. Geotech. 49, 326–337.
+Cimentada, A., Costa, A.D., Izal, J.C., Sagaseta, C., 2011. Laboratory study on radial consolidation and deformation in clay reinforced with stone columns. Can. Geotech. J. 48 (1), 36–52.
+Deb, K., Behera, A., 2017. Rate of consolidation of stone column- improved ground considering change in permeability and compress- ibility during consolidation. Appl. Math. Model. 48, 548–566.
+Elsawy, M.B.D., 2013. Behavior of soft ground improved by conventional and geogrid-encased stone columns, based on FEM study. Geosynth.
 Int. 20 (4), 276–285.
-Ghazavi, M., Ehsaniyamchi, A., Nazariafshar, J., 2018. Bearing capacity
-of horizontally layered geosynthetic reinforced stone columns. Geo-
-text. Geomembranes 46 (3), 312–318.
-Ghazavi, M., Nazariafshar, J., 2013. Bearing capacity of geosynthetic
-encased stone columns. Geotext. Geomembranes 38, 26–36.
-Gniel, J., Bouazza, A., 2009. Improvement of soft soils using geogrid
-encased stone columns. Geotext. Geomembranes 27 (3), 167–175.
-Hong, Y.S., Wu, C.S., Yu, Y.S., 2016. Model tests on geotextile-encased
-granular columns under 1-g and undrained conditions. Geotext.
+Ghazavi, M., Ehsaniyamchi, A., Nazariafshar, J., 2018. Bearing capacity of horizontally layered geosynthetic reinforced stone columns. Geo- text. Geomembranes 46 (3), 312–318.
+Ghazavi, M., Nazariafshar, J., 2013. Bearing capacity of geosynthetic encased stone columns. Geotext. Geomembranes 38, 26–36.
+Gniel, J., Bouazza, A., 2009. Improvement of soft soils using geogrid encased stone columns. Geotext. Geomembranes 27 (3), 167–175.
+Hong, Y.S., Wu, C.S., Yu, Y.S., 2016. Model tests on geotextile-encased granular columns under 1-g and undrained conditions. Geotext.
 Geomembranes 44, 13–27.
-Hosseinpour, I., Riccio, M., Almeida, M.S.S., 2014. Numerical evaluation
-of a granular column reinforced by geosynthetics using encasement
-and laminated disks. Geotext. Geomembranes 42 (4), 363–373.
-Keykhosropur, L., Soroush, A., Imam, R., 2012. 3D numerical analyses of
-geosynthetic encased stone columns. Geotext. Geomembranes 35, 61–
+Hosseinpour, I., Riccio, M., Almeida, M.S.S., 2014. Numerical evaluation of a granular column reinforced by geosynthetics using encasement and laminated disks. Geotext. Geomembranes 42 (4), 363–373.
+Keykhosropur, L., Soroush, A., Imam, R., 2012. 3D numerical analyses of geosynthetic encased stone columns. Geotext. Geomembranes 35, 61–
 68.
-Khabbazian, M., Kaliakin, V.N., Meehan, C.L., 2010. Numerical study of
-the eﬀect of geosynthetic encasement on the behavior of granular
-columns. Geosynth. Int. 17 (3), 132–143.
-Lu, M., Jing, H., Wang, B., Xie, K., 2017. Consolidation of composite
-ground improved by granular columns with medium and high
-replacement ratio. Soils. Founds. 57 (6), 1088–1095.
-Miranda, M., Da Costa, A., 2016. Laboratory analysis of encased stone
-columns. Geotext. Geomembranes 44 (3), 269–277.
+Khabbazian, M., Kaliakin, V.N., Meehan, C.L., 2010. Numerical study of the eﬀect of geosynthetic encasement on the behavior of granular columns. Geosynth. Int. 17 (3), 132–143.
+Lu, M., Jing, H., Wang, B., Xie, K., 2017. Consolidation of composite ground improved by granular columns with medium and high replacement ratio. Soils. Founds. 57 (6), 1088–1095.
+Miranda, M., Da Costa, A., 2016. Laboratory analysis of encased stone columns. Geotext. Geomembranes 44 (3), 269–277.
 Murugesan, S., Rajagopal, K., 2006. Geosynthetic-encased stone columns:
 numerical evaluation. Geotext. Geomembranes 24, 349–358.
-Murugesan, S., Rajagopal, K., 2010. Studies on the behavior of single and
-group of geosynthetic encased stone columns. J. Geotech. Geoenvi-
-ron., ASCE 136 (1), 129–139.
-Nazariafshar, J., Ghazavi, M., 2014. Experimental studies on bearing
-capacity of geosynthetic reinforced stone columns. Arab. J. Sci. Eng.
+Murugesan, S., Rajagopal, K., 2010. Studies on the behavior of single and group of geosynthetic encased stone columns. J. Geotech. Geoenvi- ron., ASCE 136 (1), 129–139.
+Nazariafshar, J., Ghazavi, M., 2014. Experimental studies on bearing capacity of geosynthetic reinforced stone columns. Arab. J. Sci. Eng.
 39, 1559–1571.
 Ng, K.S., Tan, S.A., 2014. Design and analyses of ﬂoating stone columns.
 Soils Founds 54 (3), 478–487.
-Pulko, B., Majes, B., Logar, J., 2011. Geosynthetic-encased stone
-columns: analytical calculation model. Geotext. Geomembranes 29
+Pulko, B., Majes, B., Logar, J., 2011. Geosynthetic-encased stone columns: analytical calculation model. Geotext. Geomembranes 29
 (1), 29–39.
-Pulko, B., Logar, J., 2017. Fully coupled solution for the consolidation of
-poroelastic soil around geosynthetic encased stone columns. Geotext.
+Pulko, B., Logar, J., 2017. Fully coupled solution for the consolidation of poroelastic soil around geosynthetic encased stone columns. Geotext.
 Geomembranes 45 (6), 616–626.
-Sharma, S.R., Kumar, B.R.P., Ngendra, G., 2004. Compressive load
-response of granular piles reinforced with geogrids. Can. Geotech. J.
+Sharma, S.R., Kumar, B.R.P., Ngendra, G., 2004. Compressive load response of granular piles reinforced with geogrids. Can. Geotech. J.
 41 (1), 187–192.
 A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590
-1589
-Wang, G., 2009. Consolidation of soft clay foundations reinforced by
-stone columns under time-dependent loadings. J, Geotech. Geoenvi-
-ron. Eng. ASCE 135 (12), 1922–1931.
-Wu, C.S., Hong, Y.S., 2008. The behaviour of a laminated reinforced
-granular column. Geotext. Geomembranes 26 (4), 302–316.
-Yu, Y., Bathurst, R.J., Damians, I.P., 2016. Modiﬁed unit cell approach
-for
-modeling
-geosynthetic-reinforced
-column-supported
-embank-
-ments. Geotext. Geomembranes 44 (3), 332–343.
-Zhang, L., Zhao, M., 2015. Deformation analysis of geotextile-encased
-stone columns. ASCE Int. J. Geomech. 15 (3), 04014053.
-Zhang, Y., Chan, D., Wang, Y., 2012. Consolidation of composite
-foundation improved by geosynthetic-encased stone columns. Geotext.
+Wang, G., 2009. Consolidation of soft clay foundations reinforced by stone columns under time-dependent loadings. J, Geotech. Geoenvi- ron. Eng. ASCE 135 (12), 1922–1931.
+Wu, C.S., Hong, Y.S., 2008. The behaviour of a laminated reinforced granular column. Geotext. Geomembranes 26 (4), 302–316.
+Yu, Y., Bathurst, R.J., Damians, I.P., 2016. Modiﬁed unit cell approach for modeling geosynthetic-reinforced column-supported embank- ments. Geotext. Geomembranes 44 (3), 332–343.
+Zhang, L., Zhao, M., 2015. Deformation analysis of geotextile-encased stone columns. ASCE Int. J. Geomech. 15 (3), 04014053.
+Zhang, Y., Chan, D., Wang, Y., 2012. Consolidation of composite foundation improved by geosynthetic-encased stone columns. Geotext.
 Geomembranes 32, 10–17.
-1590
 A. Ehsaniyamchi, M. Ghazavi / Soils and Foundations 59 (2019) 1579–1590

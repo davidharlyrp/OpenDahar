@@ -1,0 +1,57 @@
+Geotechnical engineers measuring bearing capacity
+Bearing capacity
+In geotechnical engineering, bearing capacity is the capacity of soil to support the loads applied to the ground. The bearing capacity of soil is the maximum average contact pressure between the foundation and the soil which should not produce shear failure in the soil. Ultimate bearing capacity is the theoretical maximum pressure which can be supported without failure; allowable bearing capacity is the ultimate bearing capacity divided by a factor of safety. Sometimes, on soft soil sites, large settlements may occur under loaded foundations without actual shear failure occurring; in such cases, the allowable bearing capacity is based on the maximum allowable settlement. The allowable bearing pressure is the maximum pressure that can be applied to the soil without causing failure. The ultimate bearing capacity, on the other hand, is the maximum pressure that can be applied to the soil before it fails.
+There are three modes of failure that limit bearing capacity: general shear failure, local shear failure, and punching shear failure. It depends upon the shear strength of soil as well as shape, size, depth and type of foundation.
+A foundation is the part of a structure which transmits the weight of the structure to the ground. All structures constructed on land are supported on foundations. A foundation is a connecting link between the structure proper and the ground which supports it. The bearing strength characteristics of foundation soil are a major design criterion for civil engineering structures. In nontechnical engineering, bearing capacity is the capacity of soil to support the loads applied to the ground. The bearing capacity of soil is the maximum average contact pressure between the foundation and the soil which should not produce shear failure in the soil. Ultimate bearing capacity is the theoretical maximum pressure which can be supported without failure; allowable bearing capacity is the ultimate bearing capacity divided by a factor of safety. Sometimes, on soft soil sites, large settlements may occur under loaded foundations without actual shear failure occurring; in such cases, the allowable bearing capacity is based on the maximum allowable settlement.[1]
+A general bearing failure occurs when the load on the footing causes large movement of the soil on a shear failure surface which extends away from the footing and up to the soil surface. Calculation of the capacity of the footing in general bearing is based on the size of the footing and the soil properties. The basic method was developed by Terzaghi, with modifications and additional factors by Meyerhof and
+Introduction
+General bearing failure
+Vesić. The general shear failure case is the one normally analyzed. Prevention against other failure modes is accounted for implicitly in settlement calculations.[2] Stress distribution in elastic soils under foundations was found in a closed form by Ludwig Föppl (1941) and Gerhard Schubert (1942).[3] There are many different methods for computing when this failure will occur.
+Karl von Terzaghi was the first to present a comprehensive theory for the evaluation of the ultimate bearing capacity of rough shallow foundations. This theory states that a foundation is shallow if its depth is less than or equal to its width.[4] Later investigations, however, have suggested that foundations with a depth, measured from the ground surface, equal to 3 to 4 times their width may be defined as shallow foundations.[4]
+Terzaghi developed a method for determining bearing capacity for the general shear failure case in 1943.
+The equations, which take into account soil cohesion, soil friction, embedment, surcharge, and self- weight, are given below.[4]
+For square foundations:
+For continuous foundations:
+For circular foundations:
+where for φ' = 0 [Note: 5.14 is Meyerhof's value -- see below. Terzaghi's value is 5.7.] for φ' > 0 [Note: As phi' goes to zero, N_c goes to 5.71...] c′ is the effective cohesion.
+σzD′ is the vertical effective stress at the depth the foundation is laid.
+γ′ is the effective unit weight when saturated or the total unit weight when not fully saturated.
+B is the width or the diameter of the foundation.
+φ′ is the effective internal angle of friction.
+Kpγ is obtained graphically. Simplifications have been made to eliminate the need for Kpγ.
+One such was done by Coduto, given below, and it is accurate to within 10%.[2]
+Terzaghi's Bearing Capacity Theory
+For foundations that exhibit the local shear failure mode in soils, Terzaghi suggested the following modifications to the previous equations.[5] The equations are given below.
+For square foundations:
+For continuous foundations:
+For circular foundations:
+, the modified bearing capacity factors, can be calculated by using the bearing capacity factors equations(for
+, respectively) by replacing the effective internal angle of friction by a value equal to
+[4]
+In 1951, Meyerhof published a bearing capacity theory which could be applied to rough shallow and deep foundations.[6] Meyerhof (1951, 1963) proposed a bearing-capacity equation similar to that of Terzaghi's but included a shape factor s-q with the depth term Nq. He also included depth factors and inclination factors. [Note: Meyerhof re-evaluated N_q based on a different assumption from Terzaghi and found N_q
+= ( 1 + sin phi) exp (pi tan phi ) / (1 - sin phi). Then N_c is the same equation as Terzaghi: N_c = (N_q -
+1) / tan phi. For phi = 0, Meyerhof's N_c converges to 2 + pi = 5.14.... Meyerhof also re-evaluated
+N_gamma and obtained N_gamma = (N_q - 1) tan(1.4 phi).]
+Calculating the gross allowable-load bearing capacity of shallow foundations requires the application of a factor of safety (FS) to the gross ultimate bearing capacity, or:
+[4]
+Soil mechanics
+Bearing capacity of Soil (https://civilplanets.com/depth-of-foundation-related-to-bearing-capa city-of-soil/)
+Meyerhof's Bearing Capacity theory
+Factor of safety
+See also
+1. "BHM Geotechnical" (https://web.archive.org/web/20201204030803/https://www.bhmgeo.co m.au/our-capabilities/1). www.bhmgeo.com.au. Archived from the original (https://www.bhm geo.com.au/our-capabilities/1) on 2020-12-04. Retrieved 2020-11-26.
+2. Coduto, Donald P. (2001). Foundation design: principles and practices (2nd ed.). Upper
+Saddle River, N.J.: Prentice Hall. ISBN 0-13-589706-8. OCLC 43864336 (https://search.worl dcat.org/oclc/43864336).
+3. Popova, Elena; Popov, Valentin L. (2020). "Ludwig Föppl and Gerhard Schubert: Unknown classics of contact mechanics" (https://doi.org/10.1002%2Fzamm.202000203). ZAMM -
+Journal of Applied Mathematics and Mechanics / Zeitschrift für Angewandte Mathematik und
+Mechanik. 100 (9) e202000203. Bibcode:2020ZaMM..100E0203P (https://ui.adsabs.harvar d.edu/abs/2020ZaMM..100E0203P). doi:10.1002/zamm.202000203 (https://doi.org/10.100
+2%2Fzamm.202000203).
+4. Das, Braja M (2007). Principles of foundation engineering (6th ed.). Toronto, Ontario,
+Canada: Thomson. ISBN 978-0-495-08246-0. OCLC 71226518 (https://search.worldcat.org/ oclc/71226518).
+5. "Civils.ai | Bearing Capacity" (https://civils.ai/1/2/free-bearing-capacity-calculator).
+www.civils.ai. Retrieved 2022-02-04.
+6. Das, Braja M (1999). Shallow foundations: bearing capacity and settlement. Boca Raton,
+FL: CRC Press. ISBN 0-8493-1135-7. OCLC 41137730 (https://search.worldcat.org/oclc/41
+137730).
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Bearing_capacity&oldid=1314174607"
+References

@@ -1,0 +1,125 @@
+Field equipment for soil description
+Soil morphology
+Soil morphology is the branch of soil science dedicated to the technical description of soil,[1] particularly physical properties including texture, color, structure, and consistence.
+Morphological evaluations of soil are typically performed in the field on a soil profile containing multiple horizons.[2]
+Along with soil formation and soil classification, soil morphology is considered part of pedology, one of the central disciplines of soil science.[3]
+Since the origin of agriculture, humans have understood that soils contain different properties which affect their ability to grow crops.[4] However, soil science did not become its own scientific discipline until the 19th century, and even then early soil scientists were broadly grouped as either "agro-chemists" or "agro-geologists" due to the enduring strong ties of soil to agriculture. These agro-geologists examined soils in natural settings and were the first to scientifically study soil morphology.[5]
+A team of Russian early soil scientists led by V.V. Dokuchaev observed soil profiles with similar horizons in areas with similar climate and vegetation, despite being hundreds of kilometers apart.[6] Dokuchaev's work, along with later contributions from K.D. Glinka, C.F. Marbut, and Hans Jenny, established soils as independent, natural bodies with unique properties caused by their equally unique combinations of climate, biological activity, relief, parent material, and time. Soil properties had previously been inferred from geological or environmental conditions alone, but with this new understanding, soil morphological properties were now used to evaluate the integrated influence of these factors.[7]
+Soil morphology became the basis for understanding observations, experiments, behavior, and practical uses of different soils.[7] To standardize morphological descriptions, official guidelines and handbooks for describing soil were first published in the 1930s by Charles Kellogg and the United States Department of
+Agriculture-Soil Conservation Service for the United States and by G.R. Clarke for the United Kingdom.
+Many other countries and national soil survey organizations have since developed their own guidelines.[5]
+Observations of soil morphology are typically performed in the field on soil profiles exposed by excavating a pit or extracting a core with a push tube (handheld or hydraulic) or auger.[8] A soil profile is one face of a pedon, or an imaginary three-dimensional unit of soil that would display the full range of properties characteristic of a particular soil. Pedons generally occupy between 1 and 10 m2 of surface land area and are the fundamental unit of field-based soil study.[9]
+Background
+Properties and procedure
+Standard field description sheet used by soil scientists in the United States
+Diagram of soil horizons
+Many soil scientists in the United States document soil morphological descriptions using the standard Pedon
+Description field sheet published by the USDA-NRCS. In addition to location, landscape, vegetation, topographic, and other site information, soil morphology descriptions generally include the following properties:
+Soil profiles contain multiple layers, known as horizons, that are generally parallel to the soil surface. These horizons are distinguishable from adjacent layers by their changes in morphological properties as the soil naturally forms. The same soil horizons may be named and labeled differently in various soil classification systems around the world, though most systems contain the following:
+Numerical prefix: indicates a lithologic discontinuity or change in parent material
+Capital letter: represents the master horizon, such as O, A, E, B, C, R, and others. Multiple capital letters may be used to describe transition horizons, which are layers with properties of multiple master horizons (such as AB or A/B horizons).
+Lowercase letter: horizon suffix or subordinate distinction, which add details of soil formation.
+Multiple suffixes may be used in combination, and some master horizons (including O, B, and L) must be described with a suffix.
+Numerical suffix: indicates subdivisions within a larger horizon. If there are layers distinct enough to be separate horizons, but similar enough to receive the same master and suffix letters, sequential numbers are added to the end of the designation to distinguish the horizons (such as A, Bt1, Bt2, Bt3,
+C).[7]
+In addition to the horizon name, the distinctness and topography of each horizon's lower boundary are described. Boundary distinctness is determined by how accurately the border between horizons can be identified and may be very abrupt, abrupt, clear, gradual, or diffuse. Boundary topography refers to the horizontal variation of the border, which is often not parallel to the soil surface and may even be discontinuous. Topography categories include smooth, wavy, irregular, and broken.[2]
+Soil color is quantitatively described using the Munsell color system, which was developed in the early
+20th century by Albert Munsell. Munsell was a painter and the system covers the entire range of colors, though the specially adapted Munsell soil color books commonly used in field description only include the most relevant colors for soil.[10]
+The Munsell color system includes the following three components:
+Horizonation
+Color
+10YR hue in the Munsell soil color book
+Soil texture-by-feel method
+Hue: indicates the dominant spectral (i.e., rainbow) color, which in soil is generally yellow and/or red.
+Each page of the Munsell soil color book displays a different hue. Examples include 10YR, 5YR, and
+2.5Y.
+Value: indicates lightness or darkness. Value increases from the bottom of each page to the top, with lower numbers representing darker color. Color with a value of 0 would be black.
+Chroma: indicates intensity or brightness. Chroma increases from left to right on each page, with higher numbers representing more vivid or saturated color.
+Color with a chroma of 0 would be neutral gray.
+Colors in soil can be quite diverse and result from organic matter content, mineralogy, and the presence and oxidation states of iron and manganese oxides. Organic-rich soils tend to be dark brown or even black due to organic matter accumulating on the mineral particles. Well-drained and highly weathered soils may be bright red or brown from oxidized iron, while reduced iron can impart gray or blue colors and indicate poor drainage. When soil is saturated for prolonged periods, oxygen availability is limited and iron may become a biological electron acceptor. Reduced iron is more soluble than oxidized iron and is easily leached from particle coatings, which exposes bare, light-colored silicate minerals and results in iron depletions. When iron reduction and/or depletion makes gray the dominant matrix color, the soil is said to be gleyed.[9]
+Soil color is also moisture dependent, specifically the color value. It is important to note the moisture status as "moist" when adding water does not change the soil color, or as "dry" when the soil is air dry.[11]
+The standard moisture status for describing soil in the field varies regionally; humid areas generally use the moist state while arid ones use the dry state. In detailed descriptions, both the moist and dry colors should be recorded.[7]
+Soil texture is the analysis and classification of the particle size distribution in soil. The relative amounts of sand, silt, and clay particles determine a soil's texture, which affects the appearance, feel and chemical properties of the soil.[12]
+To estimate by hand in the field, soil scientists take a handful of sifted soil and moisten it with water until it holds together.
+The soil is then rolled into a ball nearing 1-2 inches in diameter and squeezed between the thumb and side of the index finger. Ribbons should be made as long as possible until it naturally breaks under its own weight. Longer ribbons indicate a higher clay percentage. The relative smoothness or grittiness indicates the sand percentage, and with practice, this technique can provide accurate textural class determinations.[9]
+Soil texture
+Field methods
+Soil texture triangle
+Map of global soil regions from the USDA
+An experienced soil scientist can determine soil texture in the field with decent accuracy, as described above. However, not all soils lend themselves to accurate field determinations of soil texture due to the presence of other particles that interfere with measuring the concentration of sand, silt and clay. The mineral texture can be obfuscated by high soil organic matter, iron oxides, amorphous or short-range-order aluminosilicates, and carbonates.
+In order to precisely determine the amount of clay, sand and silt in a soil, it must be taken to a laboratory for analysis. A strategy known as particle size analysis (PSA) is performed, beginning with the pretreatment of the soil in order to remove all other particles such as organic matter that may interfere with the classification. Pretreatment must leave the soil as strictly sand, silt and clay particles.
+Pretreatment may consist of processes such as the sieving of the soil to remove larger particles, thus allowing the soil to be dispersed properly.
+Hydrometer tests may then be used to calculate the amounts of sand, silt and clay present.
+This consists of mixing the pretreated soil with water and then allowing the mixture to settle, making note of the hydrometer reading. Sand particles are the largest, and thus will settle the quickest, followed by the silt particles, and lastly the clay particles. The sections are then dried and weighed. The three sections should add up to 100% in order for the test to be considered successful. Laser diffraction analysis can also be used as alternative to the sieving and hydrometer methods.[13]
+From here, the soil can be classified using a soil texture triangle, which labels the type of soil based on the percentages of each particle in the sample.
+Lab methods
+Strong medium angular blocky soil structure from Oklahoma, US
+Soil particles naturally aggregate together into larger units or shapes referred to as "peds". Peds have planes of weakness between them are generally identified by probing exposed soil profiles with a knife to pry out and gently break apart volumes of soil.[11]
+Morphological descriptions of soil structure contain assessments of shape, size, and grade. Structure shapes include granular, platy, blocky, prismatic, columnar, and others, including the "structureless" shapes of massive and single-grained. Size is classified as one of six categories ranging from "very fine" to "extremely coarse", with different size limits for the various shapes and measurements taken on the smallest ped dimension. Grade indicates the distinctness of peds, or how easily distinguishable they are from each other, and is described with the classes "weak", "moderate", and "strong".[7]
+Structure is often best evaluated while the soil is relatively dry, as peds may swell with moisture, press together and reduce the definition between each ped.[9]
+Porosity of topsoil is a measure of the pore space in soil which typically decreases as grain size increases.
+This is due to soil aggregate formation in finer textured surface soils when subject to soil biological processes. Aggregation involves particulate adhesion and higher resistance to compaction. Porosity of a soil is a function of the soil's bulk density, which is based on the composition of the soil. Sandy soils typically have higher bulk densities and lower porosity than silty or clayey soils. This is because finer grained particles have a larger amount of pore space than coarser grained particles. The table below displays the deal bulk densities that both allow and restrict root growth for the three main texture classifications. The porosity of a soil is an important factor that determines the amount of water a soil can hold, how much air it can hold, and subsequently how well plant roots can grow within the soil.[14]
+Soil porosity is complex. Traditional models regard porosity as continuous. This fails to account for anomalous features and produces only approximate results. Furthermore, it cannot help model the influence of environmental factors which affect pore geometry. A number of more complex models have been proposed, including fractals, bubble theory, cracking theory, Boolean grain process, packed sphere, and numerous other models.[15]
+Structure
+Porosity
+Soil micromorphology refers to the description, measurement, and interpretation of soil features that are too small to be observed by the unassisted eye.[11] While micromorphological descriptions may begin in the field with the use of a 10x hand lens, much more can be described using thin sections made of the soil with the aid of a petrographic polarizing light microscope. The soil can be impregnated with an epoxy resin, but more commonly with a polyester resin (crystic 17449) and sliced and ground to 0.03 millimeter thickness and examined by passing light through the thin soil plasma.
+Soil micromorphology has been a recognized technique in soil science for some 50 years and experience from pedogenic and paleosol studies first permitted its use in the investigation of archaeologically buried soils. More recently, the science has expanded to encompass the characterization of all archeological soils and sediments and has been successful in providing unique cultural and paleoenvironmental information from a whole range of archaeological sites.[16]
+Soils are formed from their respective parent material, which may or may not match the composition of the bedrock that they lie on top of. Through biological and chemical processes as well as natural processes such as wind and water erosion, parent material can be broken down. The chemical and physical properties of this parent material is reflected in the qualities of the resulting soil. Climate, topography, and biological organisms all have an impact on the formation of soils in various geographic locations.[17]
+A steep landform is going to see an increased amount of runoff when compared to a flat landform.
+Increased runoff can inhibit soil formation as the upper layers continue to get stripped off because they are not developed enough to support root growth. Root growth can help prevent erosion as the roots act to keep the soil in place. This phenomenon leads to soils on slopes being thinner and less developed than soils found on plains or plateaus.
+Varying levels of precipitation and wind have impacts on the formation of soils. Increased precipitation can lead to increased levels of runoff as previously described, but regular amounts of precipitation can encourage plant root growth which works to stop runoff. The growth of vegetation in a certain area can also work to increase the depth and nutrient quality of a topsoil, as decomposition of organic matter works to strengthen organic soil horizons.
+Micromorphology
+Micromorphology in archaeology
+Soil formation
+Form
+Topography
+Climate
+Varying levels of microbial activity can have a range of impacts on soil formation. Most often, biological processes work to disrupt existing soil formation which leads to chemical translocation. The movement of these chemicals can make nutrients available, which can increase plant root growth.
+Cutans
+1. Owens, P.R.; Rutledge, E.M. (2005). "Morphology". Encyclopedia of Soils in the
+Environment. pp. 511–520. doi:10.1016/b0-12-348530-4/00002-3 (https://doi.org/10.1016%
+2Fb0-12-348530-4%2F00002-3). ISBN 978-0-12-348530-4.
+2. Buol, Stanley W.; Southard, Randall J.; Graham, Robert A.; McDaniel, Paul A. (2003). Soil genesis and classification (5th ed.). Ames, Iowa: Iowa State Press. ISBN 0-8138-2873-2.
+OCLC 50034831 (https://search.worldcat.org/oclc/50034831).
+3. Arnold, Richard W. (2016). Perspectives About the National Cooperative Soil Survey.
+Advances in Agronomy. Vol. 136. pp. 1–26. doi:10.1016/bs.agron.2015.11.003 (https://doi.or g/10.1016%2Fbs.agron.2015.11.003). ISBN 978-0-12-804681-4.
+4. Brevik, Eric C.; Hartemink, Alfred E. (October 2010). "Early soil knowledge and the birth and development of soil science". CATENA. 83 (1): 23–33. Bibcode:2010Caten..83...23B (http s://ui.adsabs.harvard.edu/abs/2010Caten..83...23B). doi:10.1016/j.catena.2010.06.011 (http s://doi.org/10.1016%2Fj.catena.2010.06.011).
+5. Hartemink, Alfred E. (November 2009). "The depiction of soil profiles since the late 1700s".
+CATENA. 79 (2): 113–127. Bibcode:2009Caten..79..113H (https://ui.adsabs.harvard.edu/ab s/2009Caten..79..113H). doi:10.1016/j.catena.2009.06.002 (https://doi.org/10.1016%2Fj.cat ena.2009.06.002).
+6. Brady, Nyle C.; Weil, Raymond (2014). Elements of the Nature and Properties of Soils.
+Pearson. p. 54. ISBN 978-1-292-03929-9. OCLC 880670180 (https://search.worldcat.org/ocl c/880670180).
+7. Soil Science Division Staff. 2017. Soil and Soil Survey. In C. Ditzler, K. Scheffe, and H.C.
+Monger (eds.). Soil survey manual, USDA Handbook 18. Government Printing Office,
+Washington, D.C.
+8. Schonenberger, P.J., D.A. Wysocki, E.C. Benham, and Soil Survey Staff. 2012. Field book for describing and sampling soils, Version 3.0. Natural Resources Conservation Service,
+National Soil Survey Center, Lincoln, NE, USA.
+https://www.nrcs.usda.gov/sites/default/files/2022-09/field-book.pdf
+9. Brady, Nyle C.; Weil, Ray R. (2010). Elements of the nature and properties of soils (3rd ed.).
+Upper Saddle River, N.J.: Prentice Hall. ISBN 978-0-13-501433-2. OCLC 276340542 (http s://search.worldcat.org/oclc/276340542).
+10. "Munsell color chart". p. 514 in Owens, P.R.; Rutledge, E.M. (2005). "Morphology".
+Encyclopedia of Soils in the Environment. pp. 511–520. doi:10.1016/B0-12-348530-
+4/00002-3 (https://doi.org/10.1016%2FB0-12-348530-4%2F00002-3). ISBN 978-0-12-
+348530-4.
+11. Buol, Stanley W.; Southard, Randal J.; Graham, Robert C.; McDaniel, Paul A. (2011). Soil
+Genesis and Classification. John Wiley & Sons. ISBN 978-0-8138-0769-0.
+OCLC 747546196 (https://search.worldcat.org/oclc/747546196).
+Biological processes
+See also
+References
+12. Brown, Katharine. “Soil Texture – Measuring in the Field.” Measuring Soil Texture in the
+Field | Fact Sheets, 2020, soilquality.org.au/factsheets/soil-texture.
+13. Ryżak, Magdalena; Bieganowski, Andrzej (August 2011). "Methodological aspects of determining soil particle-size distribution using the laser diffraction method" (https://onlinelibr ary.wiley.com/doi/10.1002/jpln.201000255). Journal of Plant Nutrition and Soil Science. 174
+(4): 624–633. Bibcode:2011JPNSS.174..624R (https://ui.adsabs.harvard.edu/abs/2011JPN
+SS.174..624R). doi:10.1002/jpln.201000255 (https://doi.org/10.1002%2Fjpln.201000255).
+ISSN 1436-8730 (https://search.worldcat.org/issn/1436-8730).
+14. USDA Natural Resource Conservation Service. Soil Quality Indicators: Bulk Density [Fact sheet]. U.S Department of Agriculture. [1] (https://web.archive.org/web/20131214035843/htt p://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_053256.pdf)
+15. Horgan, Graham W. (1996). "A review of soil pore models" (https://web.archive.org/web/200
+50515041122/http://www.bioss.sari.ac.uk/~graham/sprev.pdf) (PDF). Archived from the original (http://www.bioss.sari.ac.uk/~graham/sprev.pdf) (PDF) on 2005-05-15. Retrieved
+2006-11-03.
+16. Macphail, Richard I; Courty, Marie-Agnès; Goldberg, Paul (January 1990). "Soil micromorphology in archaeology". Endeavour. 14 (4): 163–171. doi:10.1016/0160-
+9327(90)90039-t (https://doi.org/10.1016%2F0160-9327%2890%2990039-t). ISSN 0160-
+9327 (https://search.worldcat.org/issn/0160-9327).
+17. Queensland, c=AU; o=The State of. "How soils form | Soils explained" (https://www.qld.gov.
+au/environment/land/management/soil/soil-explained/forms). www.qld.gov.au. Retrieved
+2020-11-25.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Soil_morphology&oldid=1297850632"

@@ -1,7 +1,6 @@
 Research Article
 Stability Analysis of Rock Slope Based on Improved Principal
-Component Analysis Model: Taking Fuwushan Slope as
-an Example
+Component Analysis Model: Taking Fuwushan Slope as an Example
 Lihua Huang
 ,1 Liudan Mao,2 YiRong Zhu,3 and YuLing Wang1
 1School of Management Engineering, Zhejiang Guangsha Vocational and Technical University of Construction,
@@ -11,235 +10,64 @@ Dongyang 322100, China
 Correspondence should be addressed to Lihua Huang; 123564070@qq.com
 Received 28 June 2021; Accepted 16 August 2021; Published 30 August 2021
 Academic Editor: Xudong Zhang
-Copyright © 2021 Lihua Huang et al. This is an open access article distributed under the Creative Commons Attribution License,
-which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
-Aiming at the problems of low accuracy, low eﬃciency, and many parameters required in the current calculation of rock slope
-stability, a prediction model of rock slope stability is proposed, which combines principal component analysis (PCA) and
-relevance vector machine (RVM). In this model, PCA is used to reduce the dimension of several inﬂuencing factors, and four
-independent principal component variables are selected. With the help of RVM mapping the nonlinear relationship between
-the safety factor of slope stability and the principal component variables, the prediction model of rock slope stability based on
-PCA-RVM is established. The results show that under the same sample, the maximum relative error of the PCA-RVM model
-is only 1.26%, the average relative error is 0.95%, and the mean square error is 0.011, which is far lower than that of the RVM
-model and the GEP model. By comparing the results of traditional calculation method and PCA-RVM model, it can be
-concluded that the PCA-RVM model has the characteristics of high prediction accuracy, small discreteness, and high
-reliability, which provides reference value for accurately predicting the stability of rock slope.
+Copyright © 2021 Lihua Huang et al. This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+Aiming at the problems of low accuracy, low eﬃciency, and many parameters required in the current calculation of rock slope stability, a prediction model of rock slope stability is proposed, which combines principal component analysis (PCA) and relevance vector machine (RVM). In this model, PCA is used to reduce the dimension of several inﬂuencing factors, and four independent principal component variables are selected. With the help of RVM mapping the nonlinear relationship between the safety factor of slope stability and the principal component variables, the prediction model of rock slope stability based on
+PCA-RVM is established. The results show that under the same sample, the maximum relative error of the PCA-RVM model is only 1.26%, the average relative error is 0.95%, and the mean square error is 0.011, which is far lower than that of the RVM model and the GEP model. By comparing the results of traditional calculation method and PCA-RVM model, it can be concluded that the PCA-RVM model has the characteristics of high prediction accuracy, small discreteness, and high reliability, which provides reference value for accurately predicting the stability of rock slope.
 1. Introduction
-Slope sliding is a common geological disaster phenomenon,
-which has great harm. Once it occurs, it will seriously threaten
-people’s lives and property and various engineering safety,
-causing great losses [1, 2]. Some slope instability disasters,
-which are located in China, are shown in Figure1. In order
-to eﬀectively control the slope instability, researchers have
-carried out a lot of slope stability evaluation work, in order
-to reduce the loss caused by slope sliding and save the cost
-of disaster prevention and mitigation.
-Slope stability is aﬀected by many uncertain factors, such
-as natural and human factors, and there is a complex nonlin-
-ear relationship between them. How to establish an accurate
-rock slope stability evaluation model considering multiple
-factors has always been the focus of engineering [3–8]. At
-present, the research on slope stability mainly focuses on
-numerical simulation, theoretical analysis, and experimental
-research.
-Numerical research: Zhang et al. [9] established a three-
-dimensional geological model of a mining slope with the
-help of DIMINE simulation platform and DTM model,
-which can obtain the geological conditions of any section
-of the slope; Guo et al. [10] used UDEC to study the inﬂu-
-ence of dry wet cycle on slope stability. The results show that
-the cohesion is more aﬀected by dry wet cycle than internal
-friction angle; Wang et al. [11] based on Swedish slice
-method, combined with DEM data and GIS components,
-realized the search of slope sliding surface; Yang and Zhao
-[12] took a landslide in Sichuan Province as the research
-object, based on the simpliﬁed Bishop method and FLAC
-3D, and simulated the deformation and stress of the slope
-in the process of sliding; Xiao et al. [13], respectively, used
-the simpliﬁed Bishop method and Fellenius method to
+Slope sliding is a common geological disaster phenomenon, which has great harm. Once it occurs, it will seriously threaten people’s lives and property and various engineering safety, causing great losses [1, 2]. Some slope instability disasters, which are located in China, are shown in Figure1. In order to eﬀectively control the slope instability, researchers have carried out a lot of slope stability evaluation work, in order to reduce the loss caused by slope sliding and save the cost of disaster prevention and mitigation.
+Slope stability is aﬀected by many uncertain factors, such as natural and human factors, and there is a complex nonlin- ear relationship between them. How to establish an accurate rock slope stability evaluation model considering multiple factors has always been the focus of engineering [3–8]. At present, the research on slope stability mainly focuses on numerical simulation, theoretical analysis, and experimental research.
+Numerical research: Zhang et al. [9] established a three- dimensional geological model of a mining slope with the help of DIMINE simulation platform and DTM model, which can obtain the geological conditions of any section of the slope; Guo et al. [10] used UDEC to study the inﬂu- ence of dry wet cycle on slope stability. The results show that the cohesion is more aﬀected by dry wet cycle than internal friction angle; Wang et al. [11] based on Swedish slice method, combined with DEM data and GIS components, realized the search of slope sliding surface; Yang and Zhao
+[12] took a landslide in Sichuan Province as the research object, based on the simpliﬁed Bishop method and FLAC
+3D, and simulated the deformation and stress of the slope in the process of sliding; Xiao et al. [13], respectively, used the simpliﬁed Bishop method and Fellenius method to
 Hindawi
 Geoﬂuids
-Volume 2021, Article ID 9015065, 10 pages
-https://doi.org/10.1155/2021/9015065
-analyze the slope stability under earthquake action. The
-results show that the safety factor obtained by the Bishop
-method is 6% higher than that by the Fellenius method.
-Based on FLAC 3D platform, Xue et al. [14] developed local
-and overall strength reduction programs to evaluate the sta-
-bility of heterogeneous slope. Bo et al. [15] studied the stabil-
-ity and deformation of artiﬁcial mountain slope on soft soil
-foundation by using numerical analysis method, taking Dan-
-shan mountain piling project in Zhenjiang City as an exam-
-ple. However, numerical analysis method cannot solve the
-problem of random, variable, and fuzzy dynamic change of
-rock slope system and has some shortcomings, such as com-
-plex calculation process, large amount of calculation, and
-diﬃcult to guarantee calculation accuracy; the shortcomings
-of numerical analysis are also revealed.
+Volume 2021, Article ID 9015065, 10 pages https://doi.org/10.1155/2021/9015065 analyze the slope stability under earthquake action. The results show that the safety factor obtained by the Bishop method is 6% higher than that by the Fellenius method.
+Based on FLAC 3D platform, Xue et al. [14] developed local and overall strength reduction programs to evaluate the sta- bility of heterogeneous slope. Bo et al. [15] studied the stabil- ity and deformation of artiﬁcial mountain slope on soft soil foundation by using numerical analysis method, taking Dan- shan mountain piling project in Zhenjiang City as an exam- ple. However, numerical analysis method cannot solve the problem of random, variable, and fuzzy dynamic change of rock slope system and has some shortcomings, such as com- plex calculation process, large amount of calculation, and diﬃcult to guarantee calculation accuracy; the shortcomings of numerical analysis are also revealed.
 Theoretical research: Deng et al. [16] introduced the
-Hoek Brown criterion into the stability analysis of jointed
-slope and combined with interval theory to obtain the
-threshold value of safety factor; Lei and Zheng [17] deeply
-analyzed the concept of seepage force and eﬀective stress
-applied in Swedish slice method; Fang [18] discussed the
-law of the minimum solution of slice method by comparing
-the calculation results of various common slope safety fac-
-tors; Wang [19] introduced the tangential force and normal
-force between strips into the calculation of the Janbu
-method, modiﬁed the Janbu method, and improved the
-accuracy of the calculation results; Deng et al. [20] proposed
-a new slope sliding surface search method based on the
-Janbu method and random angle, which has the advantages
-of easy programming and wide simulation range. Yang et al.
-[21], based on the stress ﬁeld obtained by numerical calcula-
-tion, carried out the slope limit equilibrium ﬁnite element
-stability analysis and determined the most dangerous sliding
-surface position and safety factor of the slope, but the safety
-factor value calculated by the limit equilibrium method is
-lower than the actual value due to the limitation of factors
-and assumptions. The traditional numerical calculation
-and balance analysis method is diﬃcult to include the inﬂu-
-ence of many factors, and the result error is large and the
-calculation eﬃciency is low.
-In the aspect of experimental research, Liu et al. [22]
-showed that the slope deformation tended to be stable after
-2 months through ﬁeld monitoring of the slope in the earth-
-quake area, and the earthquake had a great impact on the
-horizontal deformation of the shallow rock mass on the
-slope; Huang et al. [23] modiﬁed the shear strength formula
-of expansive soil based on the in situ shear test and evaluated
-the slope stability with the modiﬁed formula; Wu et al. [24]
-designed an indoor model test based on the slope of a min-
-ing area and studied the dynamic change law of slope during
-excavation; Zhou et al. [25] explored the stability of under-
-water slope with the aid of centrifugal test, and the results
-showed that the limit slope angle of underwater ﬁne sand
-slope was smaller than that of silty slope.
-With the rapid development of computer technology,
-many scholars began to apply machine learning algorithm
-to rock slope stability prediction. Liu et al. [26] analyzed
-and predicted the slope of Chongqing Wanliang Expressway
-by using the mathematical model of grey correlation degree
-method, and the results have good applicability and credibil-
-ity. Although the predicted value of this method is accurate,
-the grey model has the disadvantages of complex calculation
-process and long calculation time; Jiang et al. [27] used BP
-neural network to learn and predict a large number of rock
-slope samples in Chongqing area. The research shows that
-the prediction results of this method have high accuracy
-and good adaptability. However, the neural network method
-has some problems, such as slow learning speed and
+Hoek Brown criterion into the stability analysis of jointed slope and combined with interval theory to obtain the threshold value of safety factor; Lei and Zheng [17] deeply analyzed the concept of seepage force and eﬀective stress applied in Swedish slice method; Fang [18] discussed the law of the minimum solution of slice method by comparing the calculation results of various common slope safety fac- tors; Wang [19] introduced the tangential force and normal force between strips into the calculation of the Janbu method, modiﬁed the Janbu method, and improved the accuracy of the calculation results; Deng et al. [20] proposed a new slope sliding surface search method based on the
+Janbu method and random angle, which has the advantages of easy programming and wide simulation range. Yang et al.
+[21], based on the stress ﬁeld obtained by numerical calcula- tion, carried out the slope limit equilibrium ﬁnite element stability analysis and determined the most dangerous sliding surface position and safety factor of the slope, but the safety factor value calculated by the limit equilibrium method is lower than the actual value due to the limitation of factors and assumptions. The traditional numerical calculation and balance analysis method is diﬃcult to include the inﬂu- ence of many factors, and the result error is large and the calculation eﬃciency is low.
+In the aspect of experimental research, Liu et al. [22] showed that the slope deformation tended to be stable after
+2 months through ﬁeld monitoring of the slope in the earth- quake area, and the earthquake had a great impact on the horizontal deformation of the shallow rock mass on the slope; Huang et al. [23] modiﬁed the shear strength formula of expansive soil based on the in situ shear test and evaluated the slope stability with the modiﬁed formula; Wu et al. [24] designed an indoor model test based on the slope of a min- ing area and studied the dynamic change law of slope during excavation; Zhou et al. [25] explored the stability of under- water slope with the aid of centrifugal test, and the results showed that the limit slope angle of underwater ﬁne sand slope was smaller than that of silty slope.
+With the rapid development of computer technology, many scholars began to apply machine learning algorithm to rock slope stability prediction. Liu et al. [26] analyzed and predicted the slope of Chongqing Wanliang Expressway by using the mathematical model of grey correlation degree method, and the results have good applicability and credibil- ity. Although the predicted value of this method is accurate, the grey model has the disadvantages of complex calculation process and long calculation time; Jiang et al. [27] used BP neural network to learn and predict a large number of rock slope samples in Chongqing area. The research shows that the prediction results of this method have high accuracy and good adaptability. However, the neural network method has some problems, such as slow learning speed and
 Figure 1: Slope instability disaster in China.
-2
-Geoﬂuids
-excessive dependence on learning samples. Li et al. [28]
-established the support vector machine (SVM) model for
-predicting the surface deformation of rock slope and used
-the model to predict the surface deformation of rock slope
-in Fushun. However, the model has some defects, such as
-low generalization ability of kernel function and diﬃcult to
-determine. Therefore, it is urgent to establish a more eﬃ-
-cient and reasonable machine learning model.
-Relevance vector machine (RVM) is a popular machine
-learning method in recent years. It has the advantages of
-high precision, high eﬃciency, and small sample size. How-
-ever, when the input sample dimension is large, it will
-reduce the learning eﬃciency of RVM and increase the cal-
-culation cost [29, 30]. Therefore, this paper uses the feature
-extraction ability of principal component analysis (PCA) to
-reduce the dimension of data and selects less and linearly
-independent inﬂuencing factors as new input variables for
-prediction [31]. The RVM model is used to learn the new
-input variables, and the rock slope stability prediction model
-based on PCA-RVM is established. The example of
-Fuwushan slope is used to verify the analysis, which provides
-a new way for rock slope stability prediction.
+Geoﬂuids excessive dependence on learning samples. Li et al. [28] established the support vector machine (SVM) model for predicting the surface deformation of rock slope and used the model to predict the surface deformation of rock slope in Fushun. However, the model has some defects, such as low generalization ability of kernel function and diﬃcult to determine. Therefore, it is urgent to establish a more eﬃ- cient and reasonable machine learning model.
+Relevance vector machine (RVM) is a popular machine learning method in recent years. It has the advantages of high precision, high eﬃciency, and small sample size. How- ever, when the input sample dimension is large, it will reduce the learning eﬃciency of RVM and increase the cal- culation cost [29, 30]. Therefore, this paper uses the feature extraction ability of principal component analysis (PCA) to reduce the dimension of data and selects less and linearly independent inﬂuencing factors as new input variables for prediction [31]. The RVM model is used to learn the new input variables, and the rock slope stability prediction model based on PCA-RVM is established. The example of
+Fuwushan slope is used to verify the analysis, which provides a new way for rock slope stability prediction.
 2. Method Principle
-2.1. Principal Component Analysis. Principal component
-analysis (PCA) uses the idea of dimensionality reduction;
-under the premise of little information loss, it recombines
-multiple indicators with certain correlation into a group of
-less comprehensive indicators so that a small number of
-simpliﬁed variables can reﬂect most of the information in
-the original variables [32]. PCA calculation steps are as
-follows:
-(1) Constructing m × n-order matrix is the number of
-samples; n is the number of inﬂuencing factors of
-each sample
-Xm×n =
-x11
-x12
-⋯
-x1n
-x21
-x22
-⋯
-x2n
+2.1. Principal Component Analysis. Principal component analysis (PCA) uses the idea of dimensionality reduction; under the premise of little information loss, it recombines multiple indicators with certain correlation into a group of less comprehensive indicators so that a small number of simpliﬁed variables can reﬂect most of the information in the original variables [32]. PCA calculation steps are as follows:
+(1) Constructing m × n-order matrix is the number of samples; n is the number of inﬂuencing factors of each sample
+Xm×n = x11 x12
+⋯ x1n x21 x22
+⋯ x2n
 ⋮
 ⋮
 ⋱
-⋮
-xm1
-xm2
-⋯
-xmn
-2
-666664
-3
-777775
+⋮ xm1 xm2
+⋯ xmn
 :
 ð1Þ
-The original data is standardized, and the standardized
-matrix is generated automatically.
-(2) The covariance matrix is established according to the
-standardized matrix R. The calculation formula is
+The original data is standardized, and the standardized matrix is generated automatically.
+(2) The covariance matrix is established according to the standardized matrix R. The calculation formula is
 Rij =
-∑n
-k=1 Xij −Xi
-
- Xkj −Xj
-
-
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-∑n
-k=1 Xkj −Xi
-
-2 Xkj −Xj
-
-2
-q
-,
-ð2Þ
-where Ri jði = 1, 2, ⋯, m, j = 1, 2, ⋯, pÞ is the correlation
-coeﬃcient of Xi and Xj.
-(3) Since R is a positive deﬁnite matrix, m nonnegative
-eigenvalues of characteristic equation ∣λE −R ∣= 0
-are obtained, that is, λ1 ≥λ2 ≥⋯≥λm ≥0. Under
-the premise of constant total variance, the contribu-
-tion rate of the i-th principal component zi is λ/
-∑n
-i=1λi. The cumulative contribution rate of the ﬁrst
-q principal components ∑q
-i=1zi is ∑q
-i=1λi/∑m
-i=1λi.
-According to literature [33], when the cumulative
-contribution rate of q principal components exceeds
-85%, it can be considered that these principal com-
-ponents can contain most of the total information.
-(4) After the principal component analysis, the relation-
-ship between the initial variable x1, x2, ⋯, xn and n
-comprehensive
-index
-factor
-y1, y2, ⋯, yn
-is
-as
-follows:
-y1 = c11x1 + c12x2+⋯+c1nxn,
-y2 = c21x1 + c22x2+⋯+c2nxn,
-⋮
-yn = cc1x1 + cc2x2+⋯+ccnxn:
-8
+∑n k=1 Xij −Xi
+
+ Xkj −Xj
+
+ ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+∑n k=1 Xkj −Xi
+
+2 Xkj −Xj
+
+2 q
+, ð2Þ where Ri jði = 1, 2, ⋯, m, j = 1, 2, ⋯, pÞ is the correlation coeﬃcient of Xi and Xj.
+(3) Since R is a positive deﬁnite matrix, m nonnegative eigenvalues of characteristic equation ∣λE −R ∣= 0 are obtained, that is, λ1 ≥λ2 ≥⋯≥λm ≥0. Under the premise of constant total variance, the contribu- tion rate of the i-th principal component zi is λ/
+∑n i=1λi. The cumulative contribution rate of the ﬁrst q principal components ∑q i=1zi is ∑q i=1λi/∑m i=1λi.
+According to literature [33], when the cumulative contribution rate of q principal components exceeds
+85%, it can be considered that these principal com- ponents can contain most of the total information.
+(4) After the principal component analysis, the relation- ship between the initial variable x1, x2, ⋯, xn and n comprehensive index factor y1, y2, ⋯, yn is as follows:
+y1 = c11x1 + c12x2+⋯+c1nxn, y2 = c21x1 + c22x2+⋯+c2nxn,
+⋮ yn = cc1x1 + cc2x2+⋯+ccnxn:
 >
 >
 >
@@ -253,586 +81,268 @@ yn = cc1x1 + cc2x2+⋯+ccnxn:
 >
 :
 ð3Þ
-In the formula, ci j and yi are not related to each other,
-and cin satisﬁes c2 i1 + c2 i2 + ⋯+c2 in = 1. Therefore, the num-
-ber of initial variables is reduced to achieve the purpose of
-dimension reduction.
-2.2. Correlation Vector Machine. Suppose that the training
-set is fxn, tngN
-n−1, where xn ∈Rd and tn ∈R are input vector
-values and output scalar values, respectively, and tn is dis-
-tributed independently. The relationship between the input
-value x and the target value t can be expressed as follows:
-tn = y xn ; ω
-ð
-Þ + ξn,
-ð4Þ
-where ω is the weight vector and ω = ½ω0, ω1, ⋯, ωNT and ζn
-is the additional Gaussian noise with zero mean, which is
-independent of each other, that is to say, it satisﬁes the fol-
-lowing Gaussian distribution:
+In the formula, ci j and yi are not related to each other, and cin satisﬁes c2 i1 + c2 i2 + ⋯+c2 in = 1. Therefore, the num- ber of initial variables is reduced to achieve the purpose of dimension reduction.
+2.2. Correlation Vector Machine. Suppose that the training set is fxn, tngN n−1, where xn ∈Rd and tn ∈R are input vector values and output scalar values, respectively, and tn is dis- tributed independently. The relationship between the input value x and the target value t can be expressed as follows:
+tn = y xn ; ω ð
+Þ + ξn, ð4Þ where ω is the weight vector and ω = ½ω0, ω1, ⋯, ωNT and ζn is the additional Gaussian noise with zero mean, which is independent of each other, that is to say, it satisﬁes the fol- lowing Gaussian distribution:
 ξn ∼N 0, σ2
-
-,
-ð5Þ
-where variance σ2 is unknown and needs to be obtained by
-iterative updating. Pðtn ∣xÞ = Nðtn ∣yðxnÞ, σ2Þ obeys Gauss-
-ian distribution. From equations (4) and (5), it can be con-
-cluded that
-p tjω, σ2
-
- = 2πσ2
-
-−N/2,
-exp
+
+, ð5Þ where variance σ2 is unknown and needs to be obtained by iterative updating. Pðtn ∣xÞ = Nðtn ∣yðxnÞ, σ2Þ obeys Gauss- ian distribution. From equations (4) and (5), it can be con- cluded that p tjω, σ2
+
+ = 2πσ2
+
+−N/2, exp
 −1
-2σ2 t −Φω
-k
-k2
-
-
-,
-ð6Þ
-where t = ðt1, ⋯, tNÞT, Φ is the structure matrix of order
+2σ2 t −Φω k k2
+
+
+, ð6Þ where t = ðt1, ⋯, tNÞT, Φ is the structure matrix of order
 N × ðN + 1Þ set in advance, and Φ = ½φðx1Þ, φðx2Þ, ⋯, φðxN
-ÞT, φðxnÞ = ½1, Kðxn, x1Þ, Kðxn, x2Þ, ⋯, Kðxn, xNÞT.
-3
+ÞT, φðxnÞ = ½1, Kðxn, x1Þ, Kðxn, x2Þ, ⋯, Kðxn, xNÞT.
 Geoﬂuids
-With a large number of parameters used, overadaptation
-may occur in the evaluation of MLE (maximum likelihood
-estimation) ω and σ2. In order to avoid similar phenome-
-non, some mandatory conditions can be added to the
-parameters. Suppose that the parameter ωi obeys the Gauss
-conditional probability distribution with mean value 0 and
-variance a−1
-i .
-p ω α
-j
-ð
+With a large number of parameters used, overadaptation may occur in the evaluation of MLE (maximum likelihood estimation) ω and σ2. In order to avoid similar phenome- non, some mandatory conditions can be added to the parameters. Suppose that the parameter ωi obeys the Gauss conditional probability distribution with mean value 0 and variance a−1 i .
+p ω α j ð
 Þ =
 Y
-N
-n=0
-N ωi 0, α−1
-i
-
-
-,
-ð7Þ
-where a = ða0, a1, ⋯, aNÞ is the N + 1-dimensional hyper-
-parametric vector. Suppose that super parameter a and noise
-parameter σ2 obey gamma prior probability distribution
-P α
-ð Þ =
+N n=0
+N ωi 0, α−1 i
+
+
+, ð7Þ where a = ða0, a1, ⋯, aNÞ is the N + 1-dimensional hyper- parametric vector. Suppose that super parameter a and noise parameter σ2 obey gamma prior probability distribution
+P α ð Þ =
 Y
-N
-n=0
-Gamma αn a, b
-j
-ð
+N n=0
+Gamma αn a, b j ð
 Þ,
 P σ2
-
- = Gamma c, d
-ð
-Þ,
-ð8Þ
-where Gammaða, bÞ = ΓðaÞ −1 ba aa −1 e −ba, ΓðaÞ = Ð ∞
-0 t
-a −1e −tdt, according to reference [32]; a = b = c = d = 0 is
-deﬁned.
-According to the Bayesian theory, the posterior proba-
-bility distribution of training sample set is as follows:
+
+ = Gamma c, d ð
+Þ, ð8Þ where Gammaða, bÞ = ΓðaÞ −1 ba aa −1 e −ba, ΓðaÞ = Ð ∞
+0 t a −1e −tdt, according to reference [32]; a = b = c = d = 0 is deﬁned.
+According to the Bayesian theory, the posterior proba- bility distribution of training sample set is as follows:
 P ω, α, σ2 tj
-
- = P t ω, α, σ2
-
-
-P ω, α, σ2
-
-
+
+ = P t ω, α, σ2
+
+
+P ω, α, σ2
+
+
 P tð Þ
-,
-ð9Þ
-where Pðω, a, σ2 ∣tÞ cannot be calculated directly by inte-
-gral, so it is decomposed into two parts:
+, ð9Þ where Pðω, a, σ2 ∣tÞ cannot be calculated directly by inte- gral, so it is decomposed into two parts:
 P ω, α, σ2 tj
-
- = P ω t, σ, σ2
-
-
-P α, σ2 tj
-
-:
+
+ = P ω t, σ, σ2
+
+
+P α, σ2 tj
+
+:
 ð10Þ
-The posterior distribution of weight vector ω can be
-obtained from the above formula:
+The posterior distribution of weight vector ω can be obtained from the above formula:
 P ω t, α, σ2
-
-
- = P t ω, σ2
-
-
-P ω α
-j
-ð
+
+
+ = P t ω, σ2
+
+
+P ω α j ð
 Þ
-P t α, σ2
-j
-ð
+P t α, σ2 j ð
 Þ
 = N μ,〠
-
-	
-,
-ð11Þ
-where
-posterior
-mean
-μ = σ−2∑ΦTt,
-covariance
-∑=
-ðσ−2ΦTΦ + AÞ
+
+
+, ð11Þ where posterior mean μ = σ−2∑ΦTt, covariance
+∑= ðσ−2ΦTΦ + AÞ
 −1, A is a diagonal matrix, A = diag ða0, a1,
-⋯, aNÞ. Because Pða, σ2 ∣tÞ cannot be calculated directly by
-decomposition, the Dirac delta function is introduced to
-do approximate calculation, which is expressed as
+⋯, aNÞ. Because Pða, σ2 ∣tÞ cannot be calculated directly by decomposition, the Dirac delta function is introduced to do approximate calculation, which is expressed as
 P α, σ2 tj
-
- ≈δ αMP, σ2
+
+ ≈δ αMP, σ2
 MP
-
-:
+
+:
 ð12Þ
 The optimal solution of Pða, σ2 ∣tÞ are aMP and σ2
 MP:
-αMP = arg max P α tj
-ð
-Þ
-f
-g,
-ð13Þ
-σ2
+αMP = arg max P α tj ð
+Þ f g, ð13Þ σ2
 MP = arg max
 P σ2 tj
-
-
-:
+
+
+
+:
 ð14Þ
-By solving equations (13) and (14), the following for-
-mula is obtained:
+By solving equations (13) and (14), the following for- mula is obtained:
 P a, σ2/t
-
- ∝P t/a, σ2
-
-P a
-ð ÞP σ2
-
-:
+
+ ∝P t/a, σ2
+
+P a ð ÞP σ2
+
+:
 ð15Þ
 The maximum estimates of Pða, σ2 ∣tÞ, Pðt ∣a, σ2Þ, and
 PðaÞ Pðσ2Þ in equation (15) are obtained:
 L = log P t log α, log σ2
-
-
-
- + 〠
-N
-n=0
-logP log αn
-ð
+
+
+
+ + 〠
+N n=0 logP log αn ð
 Þ + log P log σ2
-
-:
+
+:
 ð16Þ
 The deviation guide of formula (16) can be obtained:
 ∂L
 ∂log αn
 = −1
-2
-−αn〠
-nn
-+ 1 + αnμ2
-n + 2a −2bαn
- 
+−αn〠 nn
++ 1 + αnμ2 n + 2a −2bαn
+
 !
 :
 ð17Þ
 Let (17) be equal to 0 and rn = 1 −an∑nn:
-αnew
-n
-= rn + 2a
-μ2
-n + 2b :
+αnew n
+= rn + 2a μ2 n + 2b :
 ð18Þ
 The results are as follows:
 σ2
-
-new =
-t −Φμ
-k
-k2 + 2d
-N −∑N
-n=0rn + 2c
+
+new = t −Φμ k k2 + 2d
+N −∑N n=0rn + 2c
 :
 ð19Þ
-In the actual process, the super parameters an and σ2 are
-updated through equations (18) and (19) to complete the
-RVM learning. In the iterative process, most of an tends to
-inﬁnity, which can be obtained through formula μ = σ −2
-∑ΦTt, and the corresponding ω value tends to zero. Assum-
-ing that the sample to be predicted is x∗, the predicted value
-t∗can be obtained from
+In the actual process, the super parameters an and σ2 are updated through equations (18) and (19) to complete the
+RVM learning. In the iterative process, most of an tends to inﬁnity, which can be obtained through formula μ = σ −2
+∑ΦTt, and the corresponding ω value tends to zero. Assum- ing that the sample to be predicted is x∗, the predicted value t∗can be obtained from
 P t∗t, αMP, σ2
 MP
-
-
- =
-ð
+
+
+ = ð
 P t∗ω, σ2
 MP
-
-
-P ω t, αMP, σ2
+
+
+P ω t, αMP, σ2
 MP
-
-
-dω:
+
+
+dω:
 ð20Þ
 By simplifying equation (20), it can be concluded that
 P t∗t, αMP, σ2
 MP
-
-
- = N t∗y∗, σ2
+
+
+ = N t∗y∗, σ2
 ∗
-
-
-,
-ð21Þ
-where expected value y ∗= μTφðx ∗Þ, variance σ2∗= σ2
+
+
+, ð21Þ where expected value y ∗= μTφðx ∗Þ, variance σ2∗= σ2
 MP
-+ φðx∗ÞT∑φðx∗Þ, and the real value of t ∗is calculated by
-equation (21).
++ φðx∗ÞT∑φðx∗Þ, and the real value of t ∗is calculated by equation (21).
 3. PCA-RVM Model of Rock Slope Stability
-3.1. Sample Data. Scholars at home and abroad divide slope
-stability into two categories: failure slope and stability slope
-[4, 34, 35]. The factors that aﬀect the stability of rock slope
-are complex and various. This paper introduces the principal
-component analysis method to explore the relationship
-between the inﬂuencing factors and slope stability, analyzes
-4
-Geoﬂuids
-and reduces the dimension of each factor, and retains the
-main inﬂuencing factors and substitutes them into the
-RVM model for prediction. Select the rock weight (γ),
-cohesion (C), internal friction angle (φ), slope height (H),
-slope angle (α), and pore water pressure (γw). These six
-factors are the input factors of rock slope stability, and
-the safety factor (Fs) is the output factor. In this paper, 30
-groups of slope data in literature [29] are sorted out, and
-1~23 groups are used as learning samples and 24~30 groups
-are used as prediction samples (see Table 1) to make the pre-
-diction model. Finally, the third section of Fuwu mountain
-slope is taken as an example to verify the analysis.
-The 30 groups of data in Table 1 were standardized, and
-the Bartlett sphericity test value was 0.000, which was less
-than the signiﬁcance level of 0.05. The results showed that
-the sample data could be used for factor analysis. Principal
-component analysis is performed on the input variables in
-Table 1 to obtain the correlation coeﬃcient matrix among
-the variables (see Table 2).
-According to Table 2, γ, C, φ, and H have a strong linear
-correlation. For example: γ with C, φ, and H the correlation
-coeﬃcients were 0.469, 0.429, and 0.659, respectively; and
-with α, γ, the correlation coeﬃcients of γw were 0.382 and
--0.299. It has a good correlation with the ﬁrst three factors,
-but the correlation with the last two factors gradually
-decreases, which even shows a negative correlation. It can
-be preliminarily determined that γ has a good correlation
-with the ﬁrst three factors. In order to ensure that the
-selected variables can contain most of the information of
-the original data, it is necessary to obtain the actual contri-
-bution rate and cumulative contribution rate of each
-inﬂuencing factor to the slope stability, as shown in Table 3.
-It can be seen from Table 3 that the cumulative contribu-
-tion rate of the ﬁrst four principal components has reached
-88.47%, more than 85%, indicating that the ﬁrst four princi-
-pal components can eﬀectively replace the information con-
-tained in the original data. In order to intuitively compare
-the contribution rate of each factor, the actual contribution
-rate and cumulative contribution rate of each component
-are shown in Figure 2.
-The score coeﬃcient matrix obtained by the maximum
-diﬀerence method is shown in Table 4, so the comprehensive
-score of each principal component can be calculated, and the
-variable expressions of the four principal components are as
-follows:
-Therefore, γ, C, φ, and H four principal components h
-are used as input variables to establish the RVM prediction
-model, which not only reduces the dimension of variables
-but also improves the operation speed and ensures the min-
-imum loss of information carried by the initial variables.
-3.2. Establish Prediction Model. The PCA-RVM prediction
-model is established by using the data corresponding to the
-four principal components after dimension reduction as
-the input value and the safety factor (Fs) as the output value.
+3.1. Sample Data. Scholars at home and abroad divide slope stability into two categories: failure slope and stability slope
+[4, 34, 35]. The factors that aﬀect the stability of rock slope are complex and various. This paper introduces the principal component analysis method to explore the relationship between the inﬂuencing factors and slope stability, analyzes
+Geoﬂuids and reduces the dimension of each factor, and retains the main inﬂuencing factors and substitutes them into the
+RVM model for prediction. Select the rock weight (γ), cohesion (C), internal friction angle (φ), slope height (H), slope angle (α), and pore water pressure (γw). These six factors are the input factors of rock slope stability, and the safety factor (Fs) is the output factor. In this paper, 30 groups of slope data in literature [29] are sorted out, and
+1~23 groups are used as learning samples and 24~30 groups are used as prediction samples (see Table 1) to make the pre- diction model. Finally, the third section of Fuwu mountain slope is taken as an example to verify the analysis.
+The 30 groups of data in Table 1 were standardized, and the Bartlett sphericity test value was 0.000, which was less than the signiﬁcance level of 0.05. The results showed that the sample data could be used for factor analysis. Principal component analysis is performed on the input variables in
+Table 1 to obtain the correlation coeﬃcient matrix among the variables (see Table 2).
+According to Table 2, γ, C, φ, and H have a strong linear correlation. For example: γ with C, φ, and H the correlation coeﬃcients were 0.469, 0.429, and 0.659, respectively; and with α, γ, the correlation coeﬃcients of γw were 0.382 and
+-0.299. It has a good correlation with the ﬁrst three factors, but the correlation with the last two factors gradually decreases, which even shows a negative correlation. It can be preliminarily determined that γ has a good correlation with the ﬁrst three factors. In order to ensure that the selected variables can contain most of the information of the original data, it is necessary to obtain the actual contri- bution rate and cumulative contribution rate of each inﬂuencing factor to the slope stability, as shown in Table 3.
+It can be seen from Table 3 that the cumulative contribu- tion rate of the ﬁrst four principal components has reached
+88.47%, more than 85%, indicating that the ﬁrst four princi- pal components can eﬀectively replace the information con- tained in the original data. In order to intuitively compare the contribution rate of each factor, the actual contribution rate and cumulative contribution rate of each component are shown in Figure 2.
+The score coeﬃcient matrix obtained by the maximum diﬀerence method is shown in Table 4, so the comprehensive score of each principal component can be calculated, and the variable expressions of the four principal components are as follows:
+Therefore, γ, C, φ, and H four principal components h are used as input variables to establish the RVM prediction model, which not only reduces the dimension of variables but also improves the operation speed and ensures the min- imum loss of information carried by the initial variables.
+3.2. Establish Prediction Model. The PCA-RVM prediction model is established by using the data corresponding to the four principal components after dimension reduction as the input value and the safety factor (Fs) as the output value.
 In order to obtain a more accurate model, the Gauss kernel
 Table 1: Training and prediction samples [31].
-Serial
-number
-γ
-C
-φ
-H
-α
-γw
+Serial number γ
+C φ
+H α γw
 Fs
-1
 22.4
-10
-35
-10
-45
 0.4
 0.9
-2
-20
-20
-36
-50
-45
 0.5
 0.83
-3
-20
-0
-36
-50
-45
 0.25
 0.79
-4
-20
-0
-36
-50
-45
 0.5
 0.67
-5
-22
-0
-40
-8
-33
 0.35
 1.45
-6
-24
-0
-40
-8
-33
 0.3
 1.58
-7
-20
-5
 24.5
-8
-20
 0.35
 1.37
-8
-18
-10
-30
-8
-20
 0.3
 2.05
-9
-27
-50
-35
-420
-43
 0.25
 1.15
-10
-27
-35
-40
-407
-42
 0.25
 1.44
-11
-27
 37.5
-35
-359
-42
 0.25
 1.27
-12
 27.3
-26
-28
 90.5
-50
 0.25
 1.252
-13
 27.3
-10
-31
-92
-50
 0.25
 1.246
-14
 27.3
-10
-39
-511
-41
 0.25
 1.434
-15
 27.3
-46
-39
-470
-40
 0.25
 1.418
-16
-25
-46
-35
-443
-47
 0.25
 1.28
-17
-25
-46
-35
-435
-44
 0.25
 1.37
-18
-25
-150
-35
-432
-46
 0.25
 1.23
-19
-26
-25
-45
-200
-30
 0.25
 1.2
-20
 18.5
-12
-0
-6
-30
 0.25
 1.09
-21
 18.5
-10
-0
-6
-30
 0.25
 0.78
-22
 22.4
-10
-35
-10
-30
 0.25
-2
-23
 21.422
-20
 30.3
-20
-30
 0.25
 1.7
-24
-22
-0
-36
-50
-45
 0.25
 To be predicted
-25
-22
-0
-36
-50
-45
 0.25
 To be predicted
-26
-25
-48
-35
-393
-46
 0.25
 To be predicted
-27
-12
-0
-30
-8
-45
 0.25
 To be predicted
-28
 31.3
 68.6
-37
-305
-47
 0.25
 To be predicted
-29
-20
-40
-36
-50
-45
 0.25
 To be predicted
-30
 31.3
-68
-37
-213
-47
 0.25
-To be predicted
-y1 = 0:302x1 + 0:259x2 + 0:191x3 + 0:314x4 + 0:211x5 −0:149x6,
-y2 = 0:024x1 −0:223x2 + 0:539x3 −0:103x4 + 0:332x5 + 0:604x6,
-y3 = 0:167x1 + 0:348x2 + 0:376x3 + 0:181x4 −1:013x5 + 0:374x6,
-y4 = −0:287x1 + 0:786x2 −0:557x3 + 0:094x4 + 0:277x5 + 0:662x6:
-8
+To be predicted y1 = 0:302x1 + 0:259x2 + 0:191x3 + 0:314x4 + 0:211x5 −0:149x6, y2 = 0:024x1 −0:223x2 + 0:539x3 −0:103x4 + 0:332x5 + 0:604x6, y3 = 0:167x1 + 0:348x2 + 0:376x3 + 0:181x4 −1:013x5 + 0:374x6, y4 = −0:287x1 + 0:786x2 −0:557x3 + 0:094x4 + 0:277x5 + 0:662x6:
 >
 >
 >
@@ -846,85 +356,33 @@ y4 = −0:287x1 + 0:786x2 −0:557x3 + 0:094x4 + 0:277x5 + 0:662x6:
 >
 :
 ð22Þ
-5
-Geoﬂuids
-width needs to be optimized. After the model is adjusted, the
-error between the predicted results and the actual values is
-relatively small when the width of Gaussian core is between
-1.76 and 1.82. In order to further improve the model accu-
-racy, the kernel width interval is subdivided, and the kernel
-width is calculated as 1.76, 1.77, 1.78, 1.79, 1.80, 1.81, and
-1.82. The average relative error of predicted samples corre-
-sponding to diﬀerent kernel width values after subdivision
-is shown in Figure 3. From Figure 3, with the Gaussian ker-
-nel width σ, the average relative error of the prediction
-results is the smallest when the value is 1.78. So take σ =
+Geoﬂuids width needs to be optimized. After the model is adjusted, the error between the predicted results and the actual values is relatively small when the width of Gaussian core is between
+1.76 and 1.82. In order to further improve the model accu- racy, the kernel width interval is subdivided, and the kernel width is calculated as 1.76, 1.77, 1.78, 1.79, 1.80, 1.81, and
+1.82. The average relative error of predicted samples corre- sponding to diﬀerent kernel width values after subdivision is shown in Figure 3. From Figure 3, with the Gaussian ker- nel width σ, the average relative error of the prediction results is the smallest when the value is 1.78. So take σ =
 1:78, the number of iterations is 1000.
-Combined with the established model, 25~30 samples
-are calculated and analyzed. In order to verify the accuracy
-of the model and ensure the same sample conditions, the
-prediction results of the GEP prediction model and the
-RVM prediction model are analyzed and compared. It can
-be seen from Table 5 that the prediction results of the GEP
-model have the largest error, of which the maximum relative
-error is as high as 37.07%. The maximum relative error of
+Combined with the established model, 25~30 samples are calculated and analyzed. In order to verify the accuracy of the model and ensure the same sample conditions, the prediction results of the GEP prediction model and the
+RVM prediction model are analyzed and compared. It can be seen from Table 5 that the prediction results of the GEP model have the largest error, of which the maximum relative error is as high as 37.07%. The maximum relative error of
 RVM model is 8.14%. The maximum relative error of the
-PCA-RVM model is only 1.26%, and the error ﬂuctuation
-range of each sample point is small. Therefore, the predic-
-tion accuracy of the PCA-RVM model is much higher than
-that of the other two models.
-In order to compare the predicted results of the three
-models more intuitively, the predicted safety factors of each
-model are compared with the actual safety factors, as shown
-in Figure 4.
-It can be seen from Figure 3 that the predicted value of
-the GEP model deviates greatly from the actual value in gen-
-eral, and the deviation of samples 25 and 27 is obvious, and
-only a few sample points are close to the actual value. The
-predicted value of the RVM model is basically consistent
-with the actual value, and the error of no. 25 and no. 26 sam-
-ple points is large. The PCA-RVM model has the highest
-prediction accuracy, and the predicted values of each sample
-point almost coincide with the actual values. In order to
-compare the overall prediction accuracy and dispersion of
-the three models, the mean square error (FMSE) and average
-relative error (ARE) of the prediction results of each model
-are compared in Table 6. It can be seen from Table 6 that
-the PCA-RVM model is lower than the other two models
-in mean square error and mean relative error. In conclusion,
-compared with the GEP model and the RVM model, the
-PCA-RVM model has lower discreteness and higher overall
-accuracy.
+PCA-RVM model is only 1.26%, and the error ﬂuctuation range of each sample point is small. Therefore, the predic- tion accuracy of the PCA-RVM model is much higher than that of the other two models.
+In order to compare the predicted results of the three models more intuitively, the predicted safety factors of each model are compared with the actual safety factors, as shown in Figure 4.
+It can be seen from Figure 3 that the predicted value of the GEP model deviates greatly from the actual value in gen- eral, and the deviation of samples 25 and 27 is obvious, and only a few sample points are close to the actual value. The predicted value of the RVM model is basically consistent with the actual value, and the error of no. 25 and no. 26 sam- ple points is large. The PCA-RVM model has the highest prediction accuracy, and the predicted values of each sample point almost coincide with the actual values. In order to compare the overall prediction accuracy and dispersion of the three models, the mean square error (FMSE) and average relative error (ARE) of the prediction results of each model are compared in Table 6. It can be seen from Table 6 that the PCA-RVM model is lower than the other two models in mean square error and mean relative error. In conclusion, compared with the GEP model and the RVM model, the
+PCA-RVM model has lower discreteness and higher overall accuracy.
 4. Case Calculation
-Taking the Fuwu mountain slope of a project as an example,
-the prediction model is compared with the traditional calcu-
-lation formula.
+Taking the Fuwu mountain slope of a project as an example, the prediction model is compared with the traditional calcu- lation formula.
 Establish prediction model.
 4.1. Physical and Mechanical Parameters of Rock and Soil
-Mass of Slope. Plastic red clay (Q4
-el): γ = 16:5 kN/m3, φ =
-8:5°, and C = 30 kPa. According to the requirements of the
-code, the cohesion reduction factor is 0.5 and the internal
-friction angle reduction factor is 0.8 in the process of slope
-stability calculation φ = 6:8°, C = 15 kPa.
-Strongly weathered sandstone: γ = 23 kN/m3, φ = 22°,
-and C = 75 kPa; equivalent internal friction angle of slope
-rock mass φe = 46°.
+Mass of Slope. Plastic red clay (Q4 el): γ = 16:5 kN/m3, φ =
+8:5°, and C = 30 kPa. According to the requirements of the code, the cohesion reduction factor is 0.5 and the internal friction angle reduction factor is 0.8 in the process of slope stability calculation φ = 6:8°, C = 15 kPa.
+Strongly weathered sandstone: γ = 23 kN/m3, φ = 22°, and C = 75 kPa; equivalent internal friction angle of slope rock mass φe = 46°.
 Apoplectic sandstone: γ = 29:13 kN/m3, φ = 26:6°, C =
 1000 kPa,f a = 4000 kPa, f rbk = 1200 kPa, and φe = 56°.
 4.2. Failure Mode of Slope. The whole slope is divided into
 AB, BC, CD, DE, and EF.
-After the later excavation, the slope of section AB is
-composed of red clay and strong sandstone. The strongly
+After the later excavation, the slope of section AB is composed of red clay and strong sandstone. The strongly
 Table 2: Correlation matrix.
-Inﬂuence factor
-γ
-C
-φ
-H
-α
-γw
-γ
+Inﬂuence factor γ
+C φ
+H α γw γ
 1.000
 0.469
 0.429
@@ -937,8 +395,7 @@ C
 0.157
 0.615
 0.258
--0.273
-φ
+-0.273 φ
 0.429
 0.157
 1.000
@@ -951,15 +408,13 @@ H
 0.352
 1.000
 0.377
--0.356
-α
+-0.356 α
 0.382
 0.258
 0.346
 0.377
 1.000
--0.049
-γw
+-0.049 γw
 -0.299
 -0.273
 0.098
@@ -968,143 +423,53 @@ H
 1.000
 Table 3: Contribution rate.
 Component
-Characteristic
-root
-Contribution
-rate (%)
-Cumulative
-contribution
-rate (%)
-γ
+Characteristic root
+Contribution rate (%)
+Cumulative contribution rate (%) γ
 2.775
 46.256
 46.256
 C
 1.210
 20.168
-66.424
-φ
+66.424 φ
 0.671
 11.183
 77.607
 H
 0.652
 10.863
-88.47
-α
+88.47 α
 0.395
 6.59
-95.061
-γw
+95.061 γw
 0.296
 4.939
-100
-1
-2
-3
-4
-5
-6
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
 Principal component
 Contribution rate (%)
 Contribution rate of each component
 Cumulative contribution rate
-Figure 2: Actual contribution rate and cumulative contribution
-rate of each component.
-6
-Geoﬂuids
-weathered sandstone belongs to extremely broken rock
-mass, and the moderately weathered rock mass belongs to
-relatively broken rock mass, which can occur circular sliding
-of soil layer, sliding along the rock soil boundary, and sliding
-inside the rock weathering line.
-After the later excavation of the BC section, the slope is
-composed of a small amount of red clay and strongly weath-
-ered sandstone. The strongly weathered sandstone belongs
-to extremely broken rock mass, and the moderately weath-
-ered rock mass belongs to relatively broken rock mass,
-which can slide in circular arc shape, along the geotechnical
-boundary and inside the weathering line.
-After the later excavation, the slope of the CD section is
-composed of a small amount of red clay and strongly weath-
-ered sandstone. The strongly weathered sandstone belongs
-to extremely broken rock mass, and the moderately weath-
-ered rock mass belongs to relatively broken rock mass,
-which can slide in circular arc shape, along the geotechnical
-boundary and inside the weathering line.
-After the later excavation of the DE section, the slope is
-composed of red clay and strongly weathered sandstone. The
-strongly weathered sandstone belongs to extremely broken
-rock mass, and the moderately weathered rock mass belongs
-to relatively broken rock mass, which can slide in circular arc
-shape, along the geotechnical boundary and inside the
-weathering line.
-After the later excavation, the slope of the EF section is
-composed of miscellaneous ﬁll, red clay, and strongly weath-
-ered sandstone. The strongly weathered sandstone belongs
-to extremely broken rock mass and can slide in circular arc.
-4.3. Slope Stability Analysis. The slope length of AB section is
-about 20m, the slope height is about 17.38-36.5 m, and the
-slope aspect is 286°. The overburden of this section is resid-
-ual slope red clay and strongly weathered sandstone, and the
-underlying bedrock is moderately weathered sandstone. The
-rock mass is relatively broken, and the occurrence of the
-rock is 148° ∠53°. It is the reverse slope of rock. The occur-
-rence of rock joint 1 in the slope is 311° ∠76°. The occur-
-rence of joint 2 is 145° ∠80°. There is no external structural
-plane in the slope. The angle between joint 1 and slope is
-about 25 degrees, and the rock mass may be cut out along
-joint ﬁssure 1.
-The length of BC section is about 31m, the height of this
-section is about 36.5-40.7 m, and the aspect is 286°. The
-overburden of this section is residual slope red clay and
-strongly weathered sandstone, and the underlying bedrock
-is moderately weathered sandstone. The rock mass is rela-
-tively broken, and the occurrence of the rock is 148° ∠53°.
+Figure 2: Actual contribution rate and cumulative contribution rate of each component.
+Geoﬂuids weathered sandstone belongs to extremely broken rock mass, and the moderately weathered rock mass belongs to relatively broken rock mass, which can occur circular sliding of soil layer, sliding along the rock soil boundary, and sliding inside the rock weathering line.
+After the later excavation of the BC section, the slope is composed of a small amount of red clay and strongly weath- ered sandstone. The strongly weathered sandstone belongs to extremely broken rock mass, and the moderately weath- ered rock mass belongs to relatively broken rock mass, which can slide in circular arc shape, along the geotechnical boundary and inside the weathering line.
+After the later excavation, the slope of the CD section is composed of a small amount of red clay and strongly weath- ered sandstone. The strongly weathered sandstone belongs to extremely broken rock mass, and the moderately weath- ered rock mass belongs to relatively broken rock mass, which can slide in circular arc shape, along the geotechnical boundary and inside the weathering line.
+After the later excavation of the DE section, the slope is composed of red clay and strongly weathered sandstone. The strongly weathered sandstone belongs to extremely broken rock mass, and the moderately weathered rock mass belongs to relatively broken rock mass, which can slide in circular arc shape, along the geotechnical boundary and inside the weathering line.
+After the later excavation, the slope of the EF section is composed of miscellaneous ﬁll, red clay, and strongly weath- ered sandstone. The strongly weathered sandstone belongs to extremely broken rock mass and can slide in circular arc.
+4.3. Slope Stability Analysis. The slope length of AB section is about 20m, the slope height is about 17.38-36.5 m, and the slope aspect is 286°. The overburden of this section is resid- ual slope red clay and strongly weathered sandstone, and the underlying bedrock is moderately weathered sandstone. The rock mass is relatively broken, and the occurrence of the rock is 148° ∠53°. It is the reverse slope of rock. The occur- rence of rock joint 1 in the slope is 311° ∠76°. The occur- rence of joint 2 is 145° ∠80°. There is no external structural plane in the slope. The angle between joint 1 and slope is about 25 degrees, and the rock mass may be cut out along joint ﬁssure 1.
+The length of BC section is about 31m, the height of this section is about 36.5-40.7 m, and the aspect is 286°. The overburden of this section is residual slope red clay and strongly weathered sandstone, and the underlying bedrock is moderately weathered sandstone. The rock mass is rela- tively broken, and the occurrence of the rock is 148° ∠53°.
 It is the reverse slope of rock. The occurrence of rock joint
 1 in the slope is 311° ∠76°. The occurrence of joint 2 is
 145° ∠80°. There is no external structural plane in the slope.
-Joint 1 will have a tangential angle of about 25 degrees with
-an inclination of 76°> slope angle of foundation pit 63°.
-There is no free cutting surface, and there is no possibility
-of large-scale bedding cutting out of the rock mass, only
-the phenomenon of block falling caused by joint fracture
-cutting.
-The slope length of CD section is about 62 m, the maxi-
-mum height of vertical grading is about 33.8~40.6 m, and the
-slope aspect is 286°. The overburden of this section is resid-
-ual slope red clay and strongly weathered sandstone, and the
-underlying bedrock is moderately weathered sandstone. The
-rock mass is relatively broken, and the occurrence of the
-rock is 148° ∠53°. It is the reverse slope of rock. The occur-
-rence of rock joint 1 in the slope is 311° ∠76°. The occur-
-rence of joint 2 is 145° ∠80°. There is no external structural
-plane in the slope. Joint 1 will have a tangential angle of
-about 25 degrees with an inclination of 76°> slope angle of
-foundation pit 63°. There is no free cutting surface, and there
-is no possibility of large-scale bedding cutting out of the rock
-mass, only the phenomenon of block falling caused by joint
-fracture cutting.
-The slope length of DE section is about 43 m, the maxi-
-mum height of vertical grading is about 14.5-33.8 m, and the
+Joint 1 will have a tangential angle of about 25 degrees with an inclination of 76°> slope angle of foundation pit 63°.
+There is no free cutting surface, and there is no possibility of large-scale bedding cutting out of the rock mass, only the phenomenon of block falling caused by joint fracture cutting.
+The slope length of CD section is about 62 m, the maxi- mum height of vertical grading is about 33.8~40.6 m, and the slope aspect is 286°. The overburden of this section is resid- ual slope red clay and strongly weathered sandstone, and the underlying bedrock is moderately weathered sandstone. The rock mass is relatively broken, and the occurrence of the rock is 148° ∠53°. It is the reverse slope of rock. The occur- rence of rock joint 1 in the slope is 311° ∠76°. The occur- rence of joint 2 is 145° ∠80°. There is no external structural plane in the slope. Joint 1 will have a tangential angle of about 25 degrees with an inclination of 76°> slope angle of foundation pit 63°. There is no free cutting surface, and there is no possibility of large-scale bedding cutting out of the rock mass, only the phenomenon of block falling caused by joint fracture cutting.
+The slope length of DE section is about 43 m, the maxi- mum height of vertical grading is about 14.5-33.8 m, and the
 Table 4: Score coeﬃcient matrix.
 Proto component
 Principal component 1
 Principal component 2
 Principal component 3
-Principal component 4
-γ
+Principal component 4 γ
 0.302
 0.024
 0.167
@@ -1113,8 +478,7 @@ C
 0.259
 -0.223
 0.348
-0.786
-φ
+0.786 φ
 0.191
 0.539
 0.376
@@ -1123,13 +487,11 @@ H
 0.314
 -0.103
 0.181
-0.094
-α
+0.094 α
 0.211
 0.332
 -1.013
-0.277
-γw
+0.277 γw
 -0.149
 0.604
 0.374
@@ -1143,79 +505,31 @@ H
 1.1
 1.2
 1.3
-Gaussian kernel width 
+Gaussian kernel width
 Average relative error (%)
 Figure 3: Average relative error of diﬀerent core widths.
-7
-Geoﬂuids
-slope aspect is 286°. The overburden of this section is resid-
-ual slope red clay and strongly weathered sandstone, and the
-underlying bedrock is moderately weathered sandstone. The
-rock mass is relatively broken, and the occurrence of the
-rock is 148° ∠53°. It is the reverse slope of rock. The occur-
-rence of rock joint 1 in the slope is 311° ∠76°. The occur-
-rence of joint 2 is 145° ∠80°. There is no external structural
-plane in the slope. Joint 1 will have a tangential angle of
-about 25 degrees with an inclination of 76°> slope angle of
-foundation pit 73°. There is no free cutting surface, and there
-is no possibility of large-scale bedding cutting out of rock
-mass. It can only be cut by joints and ﬁssures to produce
-block falling phenomenon.
-The slope length of EF section is about 15 m, the max-
-imum height of the slope is 3.76~7.7 m, slope is rock soil
-mixed slope, and the slope direction is 21°. The occurrence
-of the strata is 148° ∠53°. It is tangential to the main slope
-of the slope. At present, the toe of the slope is a concrete
-rubble retaining wall. The construction period of the wall
-is more than 5 years, and the stability of the retaining wall
-is good.
-4.4. Slope Stability Calculation. The transfer coeﬃcient
-method is used to calculate the landslide thrust and the
-residual sliding force of lateral geotechnical pressure:
+Geoﬂuids slope aspect is 286°. The overburden of this section is resid- ual slope red clay and strongly weathered sandstone, and the underlying bedrock is moderately weathered sandstone. The rock mass is relatively broken, and the occurrence of the rock is 148° ∠53°. It is the reverse slope of rock. The occur- rence of rock joint 1 in the slope is 311° ∠76°. The occur- rence of joint 2 is 145° ∠80°. There is no external structural plane in the slope. Joint 1 will have a tangential angle of about 25 degrees with an inclination of 76°> slope angle of foundation pit 73°. There is no free cutting surface, and there is no possibility of large-scale bedding cutting out of rock mass. It can only be cut by joints and ﬁssures to produce block falling phenomenon.
+The slope length of EF section is about 15 m, the max- imum height of the slope is 3.76~7.7 m, slope is rock soil mixed slope, and the slope direction is 21°. The occurrence of the strata is 148° ∠53°. It is tangential to the main slope of the slope. At present, the toe of the slope is a concrete rubble retaining wall. The construction period of the wall is more than 5 years, and the stability of the retaining wall is good.
+4.4. Slope Stability Calculation. The transfer coeﬃcient method is used to calculate the landslide thrust and the residual sliding force of lateral geotechnical pressure:
 Pn = 0,
 Pi = Pi−1ψi−1 + Ti −Ri
 Fs
-,
-ψi−1 = cos θi−1 −θi
-ð
-Þ −sin θi−1 −θi
-ð
+, ψi−1 = cos θi−1 −θi ð
+Þ −sin θi−1 −θi ð
 Þ tan ϕi
 Fs
 ,
-Ti = Gi + Gbi
-ð
+Ti = Gi + Gbi ð
 Þ sin θi + Qi cos θi,
 Ri = cili +
-Gi + Gbi
-ð
+Gi + Gbi ð
 Þ cos θi −Qi sin θi −Ui
 ½
- tan ϕi,
-ð23Þ
-where Pn—residual sliding force per unit width of the Nth
-fast track (kN/m); Pi—the residual sliding force per unit
-width of the i and i + 1 calculation blocks (kN/m), when Pi
-< 0 (i < n) that Pi = 0; ci—the standard value of bond
-strength of rock and soil mass on sliding surface of block i
-is calculated (kPa); φi—the standard value of internal fric-
-tion angle of rock and soil mass on the sliding surface of
-block i is calculated (°); li—the length of slide surface of
-the i calculation block (m); ψi:1—transfer coeﬃcient of i:1
-calculation block to i calculation block; Ti—section i calcu-
-lates the sliding force caused by gravity and other external
-forces per unit width of the strip (kN/m); Ri—section i cal-
-culates the antisliding force caused by gravity and other
-external forces per unit width of the strip (kN/m); θi, θi−1
-—the inclination angle of sliding surface of i and i:1 is calcu-
-lated (°); Gbi—the vertical additional load per unit width
-(kN/m) of the i calculation strip; when the direction is
-downward, the value is positive; when the direction is
-inward, the value is negative; Gi—the weight per unit width
-of the i calculation block (kN/m); Qi—calculation of hori-
-zontal load per unit width of block i (kN/m).
-The failure mode of “sliding along circular arc inside soil
-layer” is selected for calculation, and the stability coeﬃcients
+ tan ϕi, ð23Þ where Pn—residual sliding force per unit width of the Nth fast track (kN/m); Pi—the residual sliding force per unit width of the i and i + 1 calculation blocks (kN/m), when Pi
+< 0 (i < n) that Pi = 0; ci—the standard value of bond strength of rock and soil mass on sliding surface of block i is calculated (kPa); φi—the standard value of internal fric- tion angle of rock and soil mass on the sliding surface of block i is calculated (°); li—the length of slide surface of the i calculation block (m); ψi:1—transfer coeﬃcient of i:1 calculation block to i calculation block; Ti—section i calcu- lates the sliding force caused by gravity and other external forces per unit width of the strip (kN/m); Ri—section i cal- culates the antisliding force caused by gravity and other external forces per unit width of the strip (kN/m); θi, θi−1
+—the inclination angle of sliding surface of i and i:1 is calcu- lated (°); Gbi—the vertical additional load per unit width
+(kN/m) of the i calculation strip; when the direction is downward, the value is positive; when the direction is inward, the value is negative; Gi—the weight per unit width of the i calculation block (kN/m); Qi—calculation of hori- zontal load per unit width of block i (kN/m).
+The failure mode of “sliding along circular arc inside soil layer” is selected for calculation, and the stability coeﬃcients
 Table 5: Prediction results of each prediction model.
 Sample number
 Actual value
@@ -1228,13 +542,11 @@ Estimate
 Relative error (%)
 Estimate
 Relative error (%)
-24
 1.02
 1.12
 9.8
 4.91
 1.02
-25
 0.89
 1.22
 37.07
@@ -1242,7 +554,6 @@ Relative error (%)
 8.14
 0.8821
 0.89
-26
 1.32
 1.26
 4.54
@@ -1250,7 +561,6 @@ Relative error (%)
 4.59
 1.3033
 1.26
-27
 0.8
 0.97
 21.25
@@ -1258,7 +568,6 @@ Relative error (%)
 1.98
 0.8052
 0.65
-28
 1.2
 1.21
 0.83
@@ -1266,7 +575,6 @@ Relative error (%)
 3.56
 1.2070
 0.58
-29
 0.96
 0.9
 6.25
@@ -1274,7 +582,6 @@ Relative error (%)
 2.53
 0.9712
 1.17
-30
 1.2
 1.18
 1.67
@@ -1282,13 +589,6 @@ Relative error (%)
 3.55
 1.2131
 1.09
-24
-25
-26
-27
-28
-29
-30
 0.8
 0.9
 1.0
@@ -1316,189 +616,86 @@ RVM
 PCA-RVM
 0.95
 0.011
-8
-Geoﬂuids
-are obtained as follows: FsAB = 0:539, FsBC = 0:961, FsCD =
+Geoﬂuids are obtained as follows: FsAB = 0:539, FsBC = 0:961, FsCD =
 1:005, FsDE = 0:419, and FsEF = 0:822.
 4.5. PCA-RVM Model Was Used to Predict the Model. The
-PCA-RVM model proposed and optimized in this paper is
-used to budget; FsAB = 0:511, FsBC = 0:925, FsCD = 0:998,
+PCA-RVM model proposed and optimized in this paper is used to budget; FsAB = 0:511, FsBC = 0:925, FsCD = 0:998,
 FsDE = 0:425, and FsEF = 0:905.
-The errors between the results and the traditional
-method are 5.2%, 3.7%, 0.7%, 1.5%, and 9.2%, respectively.
-The results show that the errors are conservative in design
-and calculation, which also veriﬁes the reliability of the
-model and provides reference value for subsequent calcula-
-tion and design.
+The errors between the results and the traditional method are 5.2%, 3.7%, 0.7%, 1.5%, and 9.2%, respectively.
+The results show that the errors are conservative in design and calculation, which also veriﬁes the reliability of the model and provides reference value for subsequent calcula- tion and design.
 5. Conclusion
-(1) In this paper, the PCA and RVM models are used to
-predict the stability of rock slope. PCA is used to
-process the original data, and the six inﬂuence fac-
-tors are reduced into four main inﬂuence factors,
-which reduce the complexity of the algorithm;
-RVM is applied to establish the mapping relation-
-ship between inﬂuence factors and slope stability
-after dimension reduction, so as to predict slope sta-
-bility. The PCA-RVM model simpliﬁes the complex
-problems and makes the prediction process more
-eﬃcient and concise
-(2) The results show that the PCA-RVM model is supe-
-rior to the GEP model and the RVM model in terms
-of mean square error and mean relative error in pre-
-dicting rock slope stability, with higher accuracy and
-lower discreteness. In the aspect of slope stability, the
-PCA-RVM model has high credibility, and the pre-
-dicted value is basically consistent with the actual
-value, which can provide reference for the preven-
-tion and control of slope disasters
-(3) Taking Fuwushan slope as an example, combined with
-the traditional slope stability calculation method,
-compared with the calculation results of the PCA-
-RVM model, the diﬀerence between the prediction
-results and the calculation results is small. However,
-because the model is based on a small amount of data,
-there is still a certain deviation between the predicted
-results and the actual value of the slope safety factor.
-Therefore, it is of great signiﬁcance to widely collect
-the engineering case data to improve the accuracy
-and practicability of the model
+(1) In this paper, the PCA and RVM models are used to predict the stability of rock slope. PCA is used to process the original data, and the six inﬂuence fac- tors are reduced into four main inﬂuence factors, which reduce the complexity of the algorithm;
+RVM is applied to establish the mapping relation- ship between inﬂuence factors and slope stability after dimension reduction, so as to predict slope sta- bility. The PCA-RVM model simpliﬁes the complex problems and makes the prediction process more eﬃcient and concise
+(2) The results show that the PCA-RVM model is supe- rior to the GEP model and the RVM model in terms of mean square error and mean relative error in pre- dicting rock slope stability, with higher accuracy and lower discreteness. In the aspect of slope stability, the
+PCA-RVM model has high credibility, and the pre- dicted value is basically consistent with the actual value, which can provide reference for the preven- tion and control of slope disasters
+(3) Taking Fuwushan slope as an example, combined with the traditional slope stability calculation method, compared with the calculation results of the PCA-
+RVM model, the diﬀerence between the prediction results and the calculation results is small. However, because the model is based on a small amount of data, there is still a certain deviation between the predicted results and the actual value of the slope safety factor.
+Therefore, it is of great signiﬁcance to widely collect the engineering case data to improve the accuracy and practicability of the model
 Data Availability
-The data used to support the ﬁndings of this study are
-included within the article.
+The data used to support the ﬁndings of this study are included within the article.
 Conflicts of Interest
-The authors declare that there is no conﬂict of interest
-regarding the publication of this paper.
+The authors declare that there is no conﬂict of interest regarding the publication of this paper.
 Acknowledgments
-The study was supported by the Project of Cooperative Edu-
-cation between Industry and Education of the Ministry of
+The study was supported by the Project of Cooperative Edu- cation between Industry and Education of the Ministry of
 Education (No. 202002113002).
 References
-[1] Y. S. Yang and H. F. Yeh, “Evaluate the probability of failure in
-rainfall-induced landslides using a fuzzy point estimate
-method,” Geoﬂuids, vol. 2019, Article ID 3587989, 15 pages,
+[1] Y. S. Yang and H. F. Yeh, “Evaluate the probability of failure in rainfall-induced landslides using a fuzzy point estimate method,” Geoﬂuids, vol. 2019, Article ID 3587989, 15 pages,
 2019.
-[2] X. Hu, C. He, C. Zhou et al., “Model test and numerical anal-
-ysis on the deformation and stability of a landslide subjected
-to reservoir ﬁlling,” Geoﬂuids, vol. 2019, Article ID 5924580,
+[2] X. Hu, C. He, C. Zhou et al., “Model test and numerical anal- ysis on the deformation and stability of a landslide subjected to reservoir ﬁlling,” Geoﬂuids, vol. 2019, Article ID 5924580,
 15 pages, 2019.
 [3] C. Y. Liu, Y. Wang, X. M. Hu, Y. L. Han, X. P. Zhang, and L. Z.
 Du, “Application of GA-BP neural network optimized by grey
-Verhulst model around settlement prediction of foundation
-pit,” Geoﬂuids, vol. 2021, Article ID 5595277, 16 pages, 2021.
-[4] X. Zhang, Y. Wu, E. Zhai, and P. Ye, “Coupling analysis of the
-heat-water dynamics and frozen depth in a seasonally frozen
-zone,” Journal of Hydrology, vol. 593, article 125603, 2021.
-[5] Y. Wu, E. Zhai, X. Zhang, G. Wang, and Y. Lu, “A study on
-frost heave and thaw settlement of soil subjected to cyclic
-freeze- thaw conditions based on hydro-thermal-mechanical
-coupling analysis,” Cold Regions Science and Technology,
-vol. 188, article 103296, 2021.
-[6] C. Liu, X. Hu, R. Yao et al., “Assessment of soil thermal con-
-ductivity based on BPNN optimized by genetic algorithm,”
+Verhulst model around settlement prediction of foundation pit,” Geoﬂuids, vol. 2021, Article ID 5595277, 16 pages, 2021.
+[4] X. Zhang, Y. Wu, E. Zhai, and P. Ye, “Coupling analysis of the heat-water dynamics and frozen depth in a seasonally frozen zone,” Journal of Hydrology, vol. 593, article 125603, 2021.
+[5] Y. Wu, E. Zhai, X. Zhang, G. Wang, and Y. Lu, “A study on frost heave and thaw settlement of soil subjected to cyclic freeze- thaw conditions based on hydro-thermal-mechanical coupling analysis,” Cold Regions Science and Technology, vol. 188, article 103296, 2021.
+[6] C. Liu, X. Hu, R. Yao et al., “Assessment of soil thermal con- ductivity based on BPNN optimized by genetic algorithm,”
 Advances in Civil Engineering, vol. 2020, Article ID 6631666,
 10 pages, 2020.
-[7] J. Du, G. Zheng, B. Liu, N. J. Jiang, and J. Hu, “Triaxial behav-
-ior of cement stabilized organic-matter-disseminated sand,”
+[7] J. Du, G. Zheng, B. Liu, N. J. Jiang, and J. Hu, “Triaxial behav- ior of cement stabilized organic-matter-disseminated sand,”
 Acta Geotechnica, vol. 16, pp. 211–220, 2021.
-[8] C. Liu, Y. Wang, X. Zhang, and L. Du, “Rock brittleness eval-
-uation method based on the complete stress-strain curve,”
+[8] C. Liu, Y. Wang, X. Zhang, and L. Du, “Rock brittleness eval- uation method based on the complete stress-strain curve,”
 Frattura ed Integrità Strutturale, vol. 13, no. 49, pp. 557–567,
 2019.
-[9] Z. Zhang, Y. Ren, and M. Yang, “3D complex geological
-modeling of slope and its stability analysis,” Highway Engi-
-neering, vol. 39, no. 3, pp. 34–37, 2014.
-[10] Y. Guo, C. Liu, and L. Guo, “Discrete element analysis of high-
-way slope stability subjected to wetting-drying cycles,” High-
-way Engineering, vol. 43, no. 1, pp. 226–228+290, 2018.
-[11] X. Wang, F. Dai, and Z. Huang, “Realization of automated
-searching by Gis for most dangerous slip surface of reservoir
-bank slope based on Swedish slice method,” Chinese Journal
-of Rock Mechanics and Engineering, vol. 33, Supplement 1,
-pp. 3129–3134, 2014.
-[12] M. Yang and H. Zhao, “The stability study and simulation of
-soil landslide based on Bishop method,” Journal of Physics:
+[9] Z. Zhang, Y. Ren, and M. Yang, “3D complex geological modeling of slope and its stability analysis,” Highway Engi- neering, vol. 39, no. 3, pp. 34–37, 2014.
+[10] Y. Guo, C. Liu, and L. Guo, “Discrete element analysis of high- way slope stability subjected to wetting-drying cycles,” High- way Engineering, vol. 43, no. 1, pp. 226–228+290, 2018.
+[11] X. Wang, F. Dai, and Z. Huang, “Realization of automated searching by Gis for most dangerous slip surface of reservoir bank slope based on Swedish slice method,” Chinese Journal of Rock Mechanics and Engineering, vol. 33, Supplement 1, pp. 3129–3134, 2014.
+[12] M. Yang and H. Zhao, “The stability study and simulation of soil landslide based on Bishop method,” Journal of Physics:
 Conference Series, vol. 1757, no. 1, article 012196, 2021.
-[13] S. Xiao, H. Liu, and X. Yu, “Analysis method of seismic overall
-stability of soil slopes retained by gravity walls anchored hori-
-zontally with ﬂexible reinforcements,” Rock and Soil Mechan-
-ics, vol. 41, no. 6, pp. 1836–1844, 2020.
-[14] L. Xue, Q. Sun, S. Q. Qin, H. D. Liu, and X. Huang, “Scope of
-strength reduction for inhomogeneous slopes,” Chinese Jour-
-nal of Geotechnical Engineering, vol. 33, no. 2, pp. 275–280,
+[13] S. Xiao, H. Liu, and X. Yu, “Analysis method of seismic overall stability of soil slopes retained by gravity walls anchored hori- zontally with ﬂexible reinforcements,” Rock and Soil Mechan- ics, vol. 41, no. 6, pp. 1836–1844, 2020.
+[14] L. Xue, Q. Sun, S. Q. Qin, H. D. Liu, and X. Huang, “Scope of strength reduction for inhomogeneous slopes,” Chinese Jour- nal of Geotechnical Engineering, vol. 33, no. 2, pp. 275–280,
 2011.
-9
 Geoﬂuids
 [15] Z. H. Bo, X. U. Baotian, Y. A. Changhong, and W. A. Wei,
-“Numerical analysis of slope stability for artiﬁcial land-scape
-hill,” Journal of Engineering Geology, vol. 19, no. 6, pp. 859–
+“Numerical analysis of slope stability for artiﬁcial land-scape hill,” Journal of Engineering Geology, vol. 19, no. 6, pp. 859–
 864, 2011.
-[16] X. Deng, H. Liu, and Y. Zhang, “The interval analysis for sta-
-bility of jointed soft rock slope based on Hoek-Brown crite-
-rion,” Highway Engineering, vol. 39, no. 5, pp. 21–24+30, 2014.
-[17] G. Lei and Q. Zheng, “Issues on concepts of eﬀective stress and
-seepage force arising from anatomizing Swedish slice method,”
-Chinese Journal of Geotechnical Engineering, vol. 34, no. 4,
-pp. 667–676, 2012.
-[18] Y. Fang, “The lowest solution of slice method for slope stability
-analysis,” Chinese Journal of Geotechnical Engineering, vol. 3,
-pp. 331–335, 2008.
-[19] J. Wang and J. Wang, “Reasonable modiﬁcation of Janbu
-method,” Journal of Jiangsu University of Science and Technol-
-ogy (Natural Science Edition), vol. 26, no. 4, pp. 332–336, 2012.
-[20] D. Deng, L. Li, and L. Zhao, “A new method of sliding surface
-searching for general stability of slope based on Janbu
-method,” Rock and Soil Mechanics, vol. 32, no. 3, pp. 891–
+[16] X. Deng, H. Liu, and Y. Zhang, “The interval analysis for sta- bility of jointed soft rock slope based on Hoek-Brown crite- rion,” Highway Engineering, vol. 39, no. 5, pp. 21–24+30, 2014.
+[17] G. Lei and Q. Zheng, “Issues on concepts of eﬀective stress and seepage force arising from anatomizing Swedish slice method,”
+Chinese Journal of Geotechnical Engineering, vol. 34, no. 4, pp. 667–676, 2012.
+[18] Y. Fang, “The lowest solution of slice method for slope stability analysis,” Chinese Journal of Geotechnical Engineering, vol. 3, pp. 331–335, 2008.
+[19] J. Wang and J. Wang, “Reasonable modiﬁcation of Janbu method,” Journal of Jiangsu University of Science and Technol- ogy (Natural Science Edition), vol. 26, no. 4, pp. 332–336, 2012.
+[20] D. Deng, L. Li, and L. Zhao, “A new method of sliding surface searching for general stability of slope based on Janbu method,” Rock and Soil Mechanics, vol. 32, no. 3, pp. 891–
 898, 2011.
 [21] H. Yang, W. Bai, and H. Zou, “Numerical limit equilibrium
-FEM analysis of slope stability,” Hydropower Generation,
-vol. 40, no. 5, pp. 24–26, 2014.
-[22] J. Liu, K. Fu, and K. Zhong, “Experiment of in-situ monitoring
-of rock slope stability in seismic area,” Journal of Highway and
-Transportation Research and Development, vol. 28, no. 7,
-pp. 35–41, 2011.
-[23] Z. Q. Huang, L. F. Wu, A. M. Wang, and T. Jiang, “Stability
-analysis of expansive soil slope based on in-situ shear test,”
+FEM analysis of slope stability,” Hydropower Generation, vol. 40, no. 5, pp. 24–26, 2014.
+[22] J. Liu, K. Fu, and K. Zhong, “Experiment of in-situ monitoring of rock slope stability in seismic area,” Journal of Highway and
+Transportation Research and Development, vol. 28, no. 7, pp. 35–41, 2011.
+[23] Z. Q. Huang, L. F. Wu, A. M. Wang, and T. Jiang, “Stability analysis of expansive soil slope based on in-situ shear test,”
 Rock and Soil Mechanics, vol. 7, pp. 1764–1768, 2008.
-[24] Y. Wu, H. Mou, and Q. Gong, “Three dimensional model test
-on stability of high and steep slope in Ekou Iron Mine,” Jour-
-nal of Engineering Geology, vol. 4, pp. 81–87, 1998.
-[25] S. Zhou, M. Shen, S. Chen, and R. Xiao, “Centrifugal simulat-
-ing test research on stability of underwater slope,” Journal of
-the China Railway Society, vol. 23, no. 1, pp. 76–79, 2001.
-[26] C. Liu, J. Du, and J. Wang, “Prediction of slope stability based
-on gray relational analysis theory,” Chinese Journal of Under-
-ground Space and Engineering, vol. 13, no. 5, pp. 1424–1430,
+[24] Y. Wu, H. Mou, and Q. Gong, “Three dimensional model test on stability of high and steep slope in Ekou Iron Mine,” Jour- nal of Engineering Geology, vol. 4, pp. 81–87, 1998.
+[25] S. Zhou, M. Shen, S. Chen, and R. Xiao, “Centrifugal simulat- ing test research on stability of underwater slope,” Journal of the China Railway Society, vol. 23, no. 1, pp. 76–79, 2001.
+[26] C. Liu, J. Du, and J. Wang, “Prediction of slope stability based on gray relational analysis theory,” Chinese Journal of Under- ground Space and Engineering, vol. 13, no. 5, pp. 1424–1430,
 2017.
-[27] D. Jiang, G. Li, S. Xie, and Z. Jiang, “Forecast of expressway
-slope stability in chongqing area based on the neural network,”
-Chinese Journal of Underground Space and Engineering, vol. 4,
-pp. 152–156, 2008.
-[28] F. Li, H. Li, and W. Sun, “Surface deformation prediction of
-open pit slope based on support vector machine,” Journal of
+[27] D. Jiang, G. Li, S. Xie, and Z. Jiang, “Forecast of expressway slope stability in chongqing area based on the neural network,”
+Chinese Journal of Underground Space and Engineering, vol. 4, pp. 152–156, 2008.
+[28] F. Li, H. Li, and W. Sun, “Surface deformation prediction of open pit slope based on support vector machine,” Journal of
 China Coal Industry, vol. 5, pp. 492–495, 2008.
-[29] C. Zhao and Y. Zhang, “Research progress and analysis on
-methods for classiﬁcation of RVM,” CAAI Transactions on
+[29] C. Zhao and Y. Zhang, “Research progress and analysis on methods for classiﬁcation of RVM,” CAAI Transactions on
 Intelligent Systems, vol. 7, no. 4, pp. 294–301, 2012.
-[30] M. Zhong, “A variational method for learning sparse Bayesian
-regression,” Neurocomputing, vol. 69, no. 16/18, pp. 2351–
+[30] M. Zhong, “A variational method for learning sparse Bayesian regression,” Neurocomputing, vol. 69, no. 16/18, pp. 2351–
 2355, 2006.
-[31] Y. Luo, H. Zhang, and L. Zhang, “Estimation of slope safety
-factor based on evolutionary correlation vector machine,” Yel-
-low River, vol. 38, no. 2, pp. 103–107, 2016.
-[32] C. Cho, D. D. Kim, J. Kim et al., “Decomposition and analysis
-of process variability using constrained principal component
-analysis,” IEEE Transactions on Semiconductor Manufactur-
-ing, vol. 21, no. 1, pp. 55–62, 2008.
-[33] C. Cho, D. D. Kim, J. Kim et al., “Decomposition and analysis
-of process variability using constrained principal component
-analysis,” IEEE Transactions on Semiconductor Manufactur-
-ing, vol. 21, no. 1, pp. 55–62, 2008.
-[34] H. Zhou and S. Xie, “Slope stability prediction of open pit mine
-based on GEP,” Mining Research and Development, vol. 36,
-no. 6, pp. 9–12, 2016.
-[35] Y. Xu, Y. Wu, X. Zhang, and G. Chen, “Eﬀects of freeze-thaw
-and chemical preconditioning on the consolidation properties
-and microstructure of landﬁll sludge,” Water Research,
-vol. 200, article 117249, 2021.
-10
+[31] Y. Luo, H. Zhang, and L. Zhang, “Estimation of slope safety factor based on evolutionary correlation vector machine,” Yel- low River, vol. 38, no. 2, pp. 103–107, 2016.
+[32] C. Cho, D. D. Kim, J. Kim et al., “Decomposition and analysis of process variability using constrained principal component analysis,” IEEE Transactions on Semiconductor Manufactur- ing, vol. 21, no. 1, pp. 55–62, 2008.
+[33] C. Cho, D. D. Kim, J. Kim et al., “Decomposition and analysis of process variability using constrained principal component analysis,” IEEE Transactions on Semiconductor Manufactur- ing, vol. 21, no. 1, pp. 55–62, 2008.
+[34] H. Zhou and S. Xie, “Slope stability prediction of open pit mine based on GEP,” Mining Research and Development, vol. 36, no. 6, pp. 9–12, 2016.
+[35] Y. Xu, Y. Wu, X. Zhang, and G. Chen, “Eﬀects of freeze-thaw and chemical preconditioning on the consolidation properties and microstructure of landﬁll sludge,” Water Research, vol. 200, article 117249, 2021.
 Geoﬂuids

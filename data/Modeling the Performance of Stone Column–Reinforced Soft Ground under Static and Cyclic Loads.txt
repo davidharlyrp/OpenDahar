@@ -1,618 +1,187 @@
 Modeling the Performance of Stone Column–Reinforced
 Soft Ground under Static and Cyclic Loads
-Sudip Basack, Ph.D., M.ASCE1; Buddhima Indraratna, Ph.D., F.ASCE2;
-and Cholachat Rujikiatkamjorn, Ph.D., M.ASCE3
-Abstract: Installing stone columns is a convenient method of soft ground improvement. Although several analytical and numerical solutions
-are available to predict the performance of stone column–improved soft ground, these models are incapable of capturing the influence of
-cyclic loading on transport corridors, such as highways and railways. The authors developed a novel finite-difference model adopting
-modified Cam clay theory to analyze the response of stone column–reinforced soft soil under static and cyclic loadings. Apart from predicting
-excess pore water pressure dissipation and the resulting settlement, the model also captures the effect of cyclic loading by considering
-yield surface contraction. The solutions developed were validated using available field observations and laboratory test results. The
-model was successfully applied to a selected case study at the Australian National Field Testing Facility at Ballina, New South Wales,
-Australia. The limitations of the proposed model are highlighted as well. DOI: 10.1061/(ASCE)GT.1943-5606.0001378. © 2015 American
+Sudip Basack, Ph.D., M.ASCE1; Buddhima Indraratna, Ph.D., F.ASCE2; and Cholachat Rujikiatkamjorn, Ph.D., M.ASCE3
+Abstract: Installing stone columns is a convenient method of soft ground improvement. Although several analytical and numerical solutions are available to predict the performance of stone column–improved soft ground, these models are incapable of capturing the influence of cyclic loading on transport corridors, such as highways and railways. The authors developed a novel finite-difference model adopting modified Cam clay theory to analyze the response of stone column–reinforced soft soil under static and cyclic loadings. Apart from predicting excess pore water pressure dissipation and the resulting settlement, the model also captures the effect of cyclic loading by considering yield surface contraction. The solutions developed were validated using available field observations and laboratory test results. The model was successfully applied to a selected case study at the Australian National Field Testing Facility at Ballina, New South Wales,
 Society of Civil Engineers.
 Author keywords: Finite-difference method; Foundation settlement; Constitutive models; Cyclic loads; Soft soils; Stone columns.
 Introduction
-Reducing the long-term settlement of infrastructure and providing
-cost-effective foundations with sufficient load-bearing capacities
-are essential requirements for infrastructure development in most
-countries (Black et al. 2007). In particular, soft soil foundations
-can cause excessive settlement, initiating undrained failure in the
-absence of effective ground improvement (Indraratna et al. 2013).
-Over several decades, different ground improvement techniques
-have been developed, including stone columns, preloading with
-vertical
-drains,
-piling,
-geogrids,
-and
-chemical
-stabilization
+Reducing the long-term settlement of infrastructure and providing cost-effective foundations with sufficient load-bearing capacities are essential requirements for infrastructure development in most countries (Black et al. 2007). In particular, soft soil foundations can cause excessive settlement, initiating undrained failure in the absence of effective ground improvement (Indraratna et al. 2013).
+Over several decades, different ground improvement techniques have been developed, including stone columns, preloading with vertical drains, piling, geogrids, and chemical stabilization
 (Sivakumar et al. 2004).
-Reinforcing soft ground by installing stone columns is a well-
-established technique practiced worldwide (Wang 2009). The
-concept involves partial replacement of weak soil with compacted
-vertical columns of stones that act as in situ reinforcement to the
-soft cohesive soil. Stone columns can be used to support embank-
-ments, bridge abutments, and tanks, as well as industrial, commer-
-cial, and marine structures (Townsend and Anderson 2004).
-The advantages of this method include increased bearing capacity,
-reduced postconstruction settlement and lateral movement of soil,
-improved slope stability, and liquefaction control (Guetif et al.
+Reinforcing soft ground by installing stone columns is a well- established technique practiced worldwide (Wang 2009). The concept involves partial replacement of weak soil with compacted vertical columns of stones that act as in situ reinforcement to the soft cohesive soil. Stone columns can be used to support embank- ments, bridge abutments, and tanks, as well as industrial, commer- cial, and marine structures (Townsend and Anderson 2004).
+The advantages of this method include increased bearing capacity, reduced postconstruction settlement and lateral movement of soil, improved slope stability, and liquefaction control (Guetif et al.
 2007; Bouassida and Hazzar 2012; Bouassida and Carter 2014).
-In the field, the stone columns are usually installed in a triangu-
-lar, square, or hexagonal pattern (Wang 2009). The equivalent
-diameter, de, of the influence zone and the column spacing, s,
-can be correlated by introducing a geometrical constant cg as
-(Balaam and Booker 1981)
-de ¼ cgs
-ð1Þ
-where cg is equal to 1.05, 1.13, and 1.29 for triangular, square, and
-hexagonal patterns, respectively.
-Owing to the flexibility of transport embankments, the adoption
-of a free-strain hypothesis is likely to better match the field condi-
-tions than an equal-strain approach, although an intermediate state
-between the free strain and equal strain conditions is observed in the
-field (Indraratna et al. 2013). Numerous analytical and numerical
-studies have been conducted to study stone column–reinforced soft
-ground performance under both free-strain (Alamgir et al. 1996;
+In the field, the stone columns are usually installed in a triangu- lar, square, or hexagonal pattern (Wang 2009). The equivalent diameter, de, of the influence zone and the column spacing, s, can be correlated by introducing a geometrical constant cg as
+(Balaam and Booker 1981) de _ cgs ð1Þ where cg is equal to 1.05, 1.13, and 1.29 for triangular, square, and hexagonal patterns, respectively.
+Owing to the flexibility of transport embankments, the adoption of a free-strain hypothesis is likely to better match the field condi- tions than an equal-strain approach, although an intermediate state between the free strain and equal strain conditions is observed in the field (Indraratna et al. 2013). Numerous analytical and numerical studies have been conducted to study stone column–reinforced soft ground performance under both free-strain (Alamgir et al. 1996;
 Indraratna et al. 2013) and equal-strain (Wang 2009; Han and Ye
-2001, 2002; Murugesan and Rajagopal 2010) conditions. Under
-free-strain conditions, the applied surcharge induces an equal distri-
-bution of surface load, resulting in uneven surface settlement
-(Barron 1947). The flexibility of the embankment essentially de-
-pends on its material density and thickness (Terzaghi 1943).
-While the unit cell analogy appears to successfully capture the
-behavior of soil improved by stone columns near the embankment
-centerline (Lorenzo and Bergado 2004; Murugesan and Rajagopal
-2010), this approach may not predict the true behavior at a signifi-
-cant distance from the centerline, for several reasons, including
-large strain conditions, column distortion, plastic deformation,
-and heaving at toe. Another shortcoming in the majority of existing
-solutions is the simplified assumption of a linear void ratio–
-effective stress correlation of soft soil, which necessitates the ap-
-propriate choice of the value of soil compressibility. While
-recent solutions are available for void ratio–dependent soil com-
-pressibility and radial consolidation facilitated by vertical drains
-1Research Academic (Australian Research Council), Centre for Geome-
-chanics and Railway Engineering, School of Civil, Mining and Environ-
-mental Engineering, Univ. of Wollongong, Wollongong, NSW 2522,
+2001, 2002; Murugesan and Rajagopal 2010) conditions. Under free-strain conditions, the applied surcharge induces an equal distri- bution of surface load, resulting in uneven surface settlement
+(Barron 1947). The flexibility of the embankment essentially de- pends on its material density and thickness (Terzaghi 1943).
+While the unit cell analogy appears to successfully capture the behavior of soil improved by stone columns near the embankment centerline (Lorenzo and Bergado 2004; Murugesan and Rajagopal
+2010), this approach may not predict the true behavior at a signifi- cant distance from the centerline, for several reasons, including large strain conditions, column distortion, plastic deformation, and heaving at toe. Another shortcoming in the majority of existing solutions is the simplified assumption of a linear void ratio– effective stress correlation of soft soil, which necessitates the ap- propriate choice of the value of soil compressibility. While recent solutions are available for void ratio–dependent soil com- pressibility and radial consolidation facilitated by vertical drains
+1Research Academic (Australian Research Council), Centre for Geome- chanics and Railway Engineering, School of Civil, Mining and Environ- mental Engineering, Univ. of Wollongong, Wollongong, NSW 2522,
 Australia. E-mail: sudip@uow.edu.au
 2Professor of Civil Engineering and Research Director, Centre for
-Geomechanics and Railway Engineering, Program Leader, ARC Centre
-of Excellence in Geotechnical Science and Engineering, Faculty of Engi-
-neering and Information Sciences, Univ. of Wollongong, Wollongong, NSW
+Geomechanics and Railway Engineering, Program Leader, ARC Centre of Excellence in Geotechnical Science and Engineering, Faculty of Engi- neering and Information Sciences, Univ. of Wollongong, Wollongong, NSW
 2522, Australia (corresponding author). E-mail: indra@uow.edu.au
-3Associate Professor, Centre for Geomechanics and Railway Engineer-
-ing, Univ. of Wollongong, Wollongong, NSW 2522, Australia. E-mail:
+3Associate Professor, Centre for Geomechanics and Railway Engineer- ing, Univ. of Wollongong, Wollongong, NSW 2522, Australia. E-mail:
 cholacha@uow.edu.au
 Note. This manuscript was submitted on October 15, 2014; approved on
-May 28, 2015; published online on July 29, 2015. Discussion period open
-until December 29, 2015; separate discussions must be submitted for in-
-dividual papers. This paper is part of the Journal of Geotechnical and
-Geoenvironmental Engineering, © ASCE, ISSN 1090-0241/04015067
+May 28, 2015; published online on July 29, 2015. Discussion period open until December 29, 2015; separate discussions must be submitted for in- dividual papers. This paper is part of the Journal of Geotechnical and
 (15)/$25.00.
-© ASCE
 04015067-1
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-(Walker et al. 2012), a similar solution is yet to be used in the case
-of stone columns.
-For a typical fill embankment, the high column-to-soil stiffness
-ratio initiates an arching effect of the surcharge fill over the stone
-columns (Deb 2010), resulting in an uneven distribution of vertical
-stress on the ground surface, even under free strain (Indraratna et al.
-2013). The installation of stone columns introduces significant dis-
-turbance in the soft soil surrounding the columns, referred to by
-many researchers as the smear zone (Han and Ye 2002; Walker
-and Indraratna 2006; Wang 2009). Centrifuge model tests con-
-firmed the existence of a zone of disturbance around the columns
-in several distinct sections (Weber et al. 2010). During consolida-
-tion, an excessive hydraulic gradient at the soil–column interface
-sets off the migration of clay particles to the column pores, initiat-
-ing clogging (Adalier and Elgamal 2004; Indraratna et al. 2013).
+(Walker et al. 2012), a similar solution is yet to be used in the case of stone columns.
+For a typical fill embankment, the high column-to-soil stiffness ratio initiates an arching effect of the surcharge fill over the stone columns (Deb 2010), resulting in an uneven distribution of vertical stress on the ground surface, even under free strain (Indraratna et al.
+2013). The installation of stone columns introduces significant dis- turbance in the soft soil surrounding the columns, referred to by many researchers as the smear zone (Han and Ye 2002; Walker and Indraratna 2006; Wang 2009). Centrifuge model tests con- firmed the existence of a zone of disturbance around the columns in several distinct sections (Weber et al. 2010). During consolida- tion, an excessive hydraulic gradient at the soil–column interface sets off the migration of clay particles to the column pores, initiat- ing clogging (Adalier and Elgamal 2004; Indraratna et al. 2013).
 Among various constitutive models (e.g., Duncan and Chang
-1970; Fahey and Carter 1993), the Cam clay models have been ef-
-fective and convenient at capturing the nonlinear behavior of soft
-clay (Mita et al. 2004). Specific application of a modified Cam clay
-(MCC) model (Roscoe and Burland 1968) not only quantifies the
-void ratio dependency of the soil compressibility, but has also been
-successful in capturing the cyclic loading–induced complex behav-
-ior of soft ground (Carter et al. 1982; Ni 2012; Ni et al. 2014).
-In this paper, the numerical model developed previously by the
-authors (Indraratna et al. 2013) is significantly extended to predict
-the behavior of stone column–reinforced soft clay under both static
-and cyclic loadings using the MCC theory.
+1970; Fahey and Carter 1993), the Cam clay models have been ef- fective and convenient at capturing the nonlinear behavior of soft clay (Mita et al. 2004). Specific application of a modified Cam clay
+(MCC) model (Roscoe and Burland 1968) not only quantifies the void ratio dependency of the soil compressibility, but has also been successful in capturing the cyclic loading–induced complex behav- ior of soft ground (Carter et al. 1982; Ni 2012; Ni et al. 2014).
+In this paper, the numerical model developed previously by the authors (Indraratna et al. 2013) is significantly extended to predict the behavior of stone column–reinforced soft clay under both static and cyclic loadings using the MCC theory.
 Numerical Modeling
 Problem Identification
-A soft clay layer of thickness H overlies an impervious rigid boun-
-dary and supports an embankment (height = He, unit weight = γe).
-The soft soil is improved by a group of stone columns; the radii
-of the column and the unit cell are rc and re, respectively. Consid-
-ering the phenomena of smear and clogging, the cross section of the
-entire unit cell has four distinct zones [for more details see
-Indraratna et al. (2013)]: unclogged column zone, clogged column
-zone, smear zone, and the outer undisturbed soil zone. With steady
-and uniform load intensity (ws) imposed on the ground surface, the
-average load intensity on the ground surface can be expressed
-as w0 ¼ ws þ γeHe.
-For finite-difference analysis, the soil mass within the unit cell is
-divided both radially and vertically into a large number of equal
-divisions nr and nz, respectively. The total computational time tt
-is equally discretized into nt divisions. The separators are called
-nodes, and the soil elements are understandably ring-shaped.
-The specific time, tt, is the desired computational time, to be
-chosen arbitrarily. Hence, all radial, vertical, and time divisions
-(δr, δz, and δt, respectively) are given by
-δr ¼ re −rc
-nr −1
-ð2aÞ
-δz ¼
-H
-nz −1
-ð2bÞ
-δt ¼
-tt
-nt −1
-ð2cÞ
-The numerical analysis is based on the assumptions that the de-
-formations of the column and the soil are vertically downward and
-the pore water flow direction is horizontal toward the column.
-The stone column in the unclogged zone is assumed to be a freely
-draining material.
+A soft clay layer of thickness H overlies an impervious rigid boun- dary and supports an embankment (height = He, unit weight = γe).
+The soft soil is improved by a group of stone columns; the radii of the column and the unit cell are rc and re, respectively. Consid- ering the phenomena of smear and clogging, the cross section of the entire unit cell has four distinct zones [for more details see
+Indraratna et al. (2013)]: unclogged column zone, clogged column zone, smear zone, and the outer undisturbed soil zone. With steady and uniform load intensity (ws) imposed on the ground surface, the average load intensity on the ground surface can be expressed as w0 _ ws þ γeHe.
+For finite-difference analysis, the soil mass within the unit cell is divided both radially and vertically into a large number of equal divisions nr and nz, respectively. The total computational time tt is equally discretized into nt divisions. The separators are called nodes, and the soil elements are understandably ring-shaped.
+The specific time, tt, is the desired computational time, to be chosen arbitrarily. Hence, all radial, vertical, and time divisions
+(δr, δz, and δt, respectively) are given by δr _ re −rc nr −1 ð2aÞ δz _
+H nz −1 ð2bÞ δt _ tt nt −1 ð2cÞ
+The numerical analysis is based on the assumptions that the de- formations of the column and the soil are vertically downward and the pore water flow direction is horizontal toward the column.
+The stone column in the unclogged zone is assumed to be a freely draining material.
 Column-to-Soil Load-Transfer Mechanism
-The stone columns possess higher stiffness in comparison to the
-surrounding softer soil. As consolidation progresses, the surcharge
-fill arches over the reinforced ground surface because of significant
-column-to-soil stiffness ratio. When a steady state is achieved, this
-arching effect imposes an uneven load distribution on the surface.
-Following the previous analysis (Indraratna et al. 2013), the im-
-posed vertical load intensity on the column and the soil surface is
-given by
-wcol ¼ nswðrcÞ
-ð3aÞ
-wðrÞ ¼ wðreÞ þ ðN −r=rcÞ2FðN; nsÞ
-ð3bÞ
-where wcol = averagevertical loadintensityoncolumn;wðrÞ = vertical
-load intensity on soil surface at a radial distance of r from column
-center; N ¼ re=rc; and ns = steady-state stress concentration ratio
-between the soil and the column. The function FðN; nsÞ is given by
-FðN; nsÞ ¼ ðws þ γeHeÞN2 −qðreÞðN2 þ ns −1Þ
-ðNþ1ÞðN−1Þ3
-6
-þ nsðN −1Þ2
-ð4Þ
-The load intensity on the unit cell boundary is expressed as
-wðreÞ ¼ γerc
-ðN −1ÞðKp −1Þ
-Kp −2
-þ
-
-ws þ γeHe −γere
+The stone columns possess higher stiffness in comparison to the surrounding softer soil. As consolidation progresses, the surcharge fill arches over the reinforced ground surface because of significant column-to-soil stiffness ratio. When a steady state is achieved, this arching effect imposes an uneven load distribution on the surface.
+Following the previous analysis (Indraratna et al. 2013), the im- posed vertical load intensity on the column and the soil surface is given by wcol _ nswðrcÞ ð3aÞ wðrÞ _ wðreÞ þ ðN −r=rcÞ2FðN; nsÞ ð3bÞ where wcol = averagevertical loadintensityoncolumn;wðrÞ = vertical load intensity on soil surface at a radial distance of r from column center; N _ re=rc; and ns = steady-state stress concentration ratio between the soil and the column. The function FðN; nsÞ is given by
+FðN; nsÞ _ ðws þ γeHeÞN2 −qðreÞðN2 þ ns −1Þ ðNþ1ÞðN−1Þ3 þ nsðN −1Þ2 ð4Þ
+The load intensity on the unit cell boundary is expressed as wðreÞ _ γerc ðN −1ÞðKp −1Þ
+Kp −2 þ
+ ws þ γeHe −γere
 Kp −1
 Kp −2
-
-ð1 −1=NÞðKp−1Þ
-ð5Þ
-The typical value of the steady-state concentration ratio, ns,
-varies between 2 and 10 (Han and Ye 2002; Castro and Sagaseta
-2009; Indraratna et al. 2013). With the assumption of only vertical
-deformation of the unit cell, the parameter may be expressed in
-terms of elastic moduli and Poisson’s ratios of the column and
-the soil (Han and Ye 2001; Indraratna et al. 2013).
-The preceding Eq. (5) originates from the arching effect initiated
-by the significantly influential column-to-soil stiffness ratio, which
-produces a parabolic load distribution on the ground surface. While
-the details of Eq. (5), including the intervention of the passive earth
-pressure coefficient Kp, have already been derived and presented
-by the authors in a previous paper (Indraratna et al. 2013), a brief
-description is included in the appendix.
+ ð1 −1=NÞðKp−1Þ ð5Þ
+The typical value of the steady-state concentration ratio, ns, varies between 2 and 10 (Han and Ye 2002; Castro and Sagaseta
+2009; Indraratna et al. 2013). With the assumption of only vertical deformation of the unit cell, the parameter may be expressed in terms of elastic moduli and Poisson’s ratios of the column and the soil (Han and Ye 2001; Indraratna et al. 2013).
+The preceding Eq. (5) originates from the arching effect initiated by the significantly influential column-to-soil stiffness ratio, which produces a parabolic load distribution on the ground surface. While the details of Eq. (5), including the intervention of the passive earth pressure coefficient Kp, have already been derived and presented by the authors in a previous paper (Indraratna et al. 2013), a brief description is included in the appendix.
 Soft Soil Consolidation
-The stone columns dissipate excess pore water pressure at a faster
-rate compared to conventional prefabricated vertical drains (PVDs)
-owing to their larger diameter (Han and Ye 2002). Using the theory
-of radial consolidation (Barron 1947), the differential equation re-
-lated to the dissipation of excess pore water pressure is given as
+The stone columns dissipate excess pore water pressure at a faster rate compared to conventional prefabricated vertical drains (PVDs) owing to their larger diameter (Han and Ye 2002). Using the theory of radial consolidation (Barron 1947), the differential equation re- lated to the dissipation of excess pore water pressure is given as
 ∂urt
-∂t ¼
-kh
-mvγw
-1
-r
+∂t _ kh mvγw
+1 r
 ∂urt
 ∂r þ ∂2urt
 ∂r2
-
-ð6Þ
-where urt = excess pore water pressure at the ith radial node; t =
-time; kh = horizontal permeability of soft soil; mv = coefficient of
-volume compressibility of soil; and γw = unit weight of water.
-Expressing Eq. (6) in finite-difference form by applying forward,
-backward, and central difference techniques and adopting the
-appropriate boundary conditions makes it possible to evaluate
-© ASCE
+ ð6Þ where urt = excess pore water pressure at the ith radial node; t = time; kh = horizontal permeability of soft soil; mv = coefficient of volume compressibility of soil; and γw = unit weight of water.
+Expressing Eq. (6) in finite-difference form by applying forward, backward, and central difference techniques and adopting the appropriate boundary conditions makes it possible to evaluate
 04015067-2
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
 the unknown values of u for all radial nodes (Indraratna et al. 2013).
-The average excess pore water pressure at any time t is evaluated
-from the weighted average as
-uavt ¼
-2
-r2e −r2c
-Z re
-rc
-urtrdt
-ð7Þ
+The average excess pore water pressure at any time t is evaluated from the weighted average as uavt _ r2e −r2c
+Z re rc urtrdt ð7Þ
 Application of Modified Cam Clay Model
 In previous analyses (Han and Ye 2001, 2002; Wang 2009;
-Indraratna et al. 2013), the parameter mv was assumed to remain
-constant throughout the process of consolidation. In reality, soil
-compressibility is a function of the effective stress and void ratio
+Indraratna et al. 2013), the parameter mv was assumed to remain constant throughout the process of consolidation. In reality, soil compressibility is a function of the effective stress and void ratio
 (Britto and Gunn 1987).
-Assuming the soil within the unit cell behaves under the K0 con-
-dition, the mean effective stress p 0 at any point (r, z) in the soil is
-given by
-p 0 ¼ ½wðrÞ þ γ 0z −urt 1 þ 2K0
-3
-ð8Þ
-where γ 0 = effective unit weight of soil; and Ko = in situ earth
-pressure coefficient. In accordance with the MCC model, the void
-ratio e of normally consolidated clay decreases in a logarithmic
-manner with increasing mean effective stress p 0 in the soil, which
-implies the following:
-mvrt ¼ −
-3λp 00
-ð1 þ 2K0Þp 0½1 þ e0 −λ lnðp 0=p 00Þ
-ð9Þ
-where e0 = void ratio of soil corresponding to unit effective pres-
-sure p 0
-0. However, the dependency of p 0 on z implies a depthwise
-variation of the parameter mv initiating a vertical component of
-pore water flow, which deviates from the assumption for conven-
-tional radial consolidation. To remove this redundancy and simplify
-the analysis, the average value of the mean effective stress in the
-soil is considered in the model. From Eq. (9), the volumetric soil
-compressibility can be deduced as
-mvrt ¼ −
-λp 0
-0
+Assuming the soil within the unit cell behaves under the K0 con- dition, the mean effective stress p 0 at any point (r, z) in the soil is given by p 0 _ ½wðrÞ þ γ 0z −urt 1 þ 2K0 ð8Þ where γ 0 = effective unit weight of soil; and Ko = in situ earth pressure coefficient. In accordance with the MCC model, the void ratio e of normally consolidated clay decreases in a logarithmic manner with increasing mean effective stress p 0 in the soil, which implies the following:
+mvrt _ −
+3λp 00 ð1 þ 2K0Þp 0½1 þ e0 −λ lnðp 0=p 00Þ ð9Þ where e0 = void ratio of soil corresponding to unit effective pres- sure p 0
+0. However, the dependency of p 0 on z implies a depthwise variation of the parameter mv initiating a vertical component of pore water flow, which deviates from the assumption for conven- tional radial consolidation. To remove this redundancy and simplify the analysis, the average value of the mean effective stress in the soil is considered in the model. From Eq. (9), the volumetric soil compressibility can be deduced as mvrt _ − λp 0
 ½wðrÞ þ γ 0 1
 H
 R z
-0 p 0dz −urt½1 þ e0 −λ lnð 1
-p 0
+0 p 0dz −urt½1 þ e0 −λ lnð 1 p 0
 0 hwðrÞ þ γ 0 1
 H
 R z
-0 p 0dz −urtiÞ
-ð10Þ
-where mvrt = modified soil compressibility at a radial distance of r
-and time t.
-The expression for the mean effective stress (p 0) in Eq. (8) was
-used in Eq. (9) to deduce the value of volumetric compressibility of
-soft soil (mvrt) at the related node (r, t).
-The expression for the mean effective stress p 0 in the soft clay is
-given by Eq. (9). The average p 0 at any radial distance r and time
-instant t is obtained by integrating Eq. (9) with respect to the depth
-z (∫H
-0 p 0dz), from which the expression for the effective stress-
-dependent soil compressibility (mvrt) was derived in Eq. (10).
-The term H=2 in Eq. (11) was obtained by performing the afore-
-mentioned integration with the assumptions that the vertical stress
-distribution on the soft clay surface does not alter with time [i.e., a
-constant stress concentration ratio ns, which essentially implies that
-wðrÞ remains unaltered with time] and the nodal excess pore water
-pressure urt does not alter with depth (i.e., purely horizontal pore
-water flow).
-The incorporation of the MCC model is carried out by an iter-
-ative method. Starting with an initial value of mvrt, preferably the
-average values in the effective stress range, computations were
-made using a linear model [see Eq. (6) given earlier]. The
-values of the nodal excess pore water pressures obtained therein
-are then utilized to calculate the modified value of mv given by
-Eq. (10). The iteration procedure is then repeated until the de-
-sired convergence is achieved (chosen to be 1% in the present
-analysis).
+0 p 0dz −urtiÞ ð10Þ where mvrt = modified soil compressibility at a radial distance of r and time t.
+The expression for the mean effective stress (p 0) in Eq. (8) was used in Eq. (9) to deduce the value of volumetric compressibility of soft soil (mvrt) at the related node (r, t).
+The expression for the mean effective stress p 0 in the soft clay is given by Eq. (9). The average p 0 at any radial distance r and time instant t is obtained by integrating Eq. (9) with respect to the depth z (∫H
+0 p 0dz), from which the expression for the effective stress- dependent soil compressibility (mvrt) was derived in Eq. (10).
+The term H=2 in Eq. (11) was obtained by performing the afore- mentioned integration with the assumptions that the vertical stress distribution on the soft clay surface does not alter with time [i.e., a constant stress concentration ratio ns, which essentially implies that wðrÞ remains unaltered with time] and the nodal excess pore water pressure urt does not alter with depth (i.e., purely horizontal pore water flow).
+The incorporation of the MCC model is carried out by an iter- ative method. Starting with an initial value of mvrt, preferably the average values in the effective stress range, computations were made using a linear model [see Eq. (6) given earlier]. The values of the nodal excess pore water pressures obtained therein are then utilized to calculate the modified value of mv given by
+Eq. (10). The iteration procedure is then repeated until the de- sired convergence is achieved (chosen to be 1% in the present analysis).
 Ground Settlement
-Considering that the volumetric strain in the soil is proportional
-to the net volume of water expulsion (Indraratna et al. 2013),
-the displacement of the point Aðr; zÞ within the unit cell at time
-t is given as
-ρrzt ¼ −
+Considering that the volumetric strain in the soil is proportional to the net volume of water expulsion (Indraratna et al. 2013), the displacement of the point Aðr; zÞ within the unit cell at time t is given as ρrzt _ −
 Z t
-0
-Z H
-z
-mvrt
+Z H z mvrt
 ∂urt
 ∂t dzdt
-¼ −
+_ −
 Z t
-0
-Z H
-z
-λp 0
-0
-h
-wðrÞ þ γ 0 H
-2 −urt
-ih
+Z H z λp 0 h wðrÞ þ γ 0 H
+2 −urt ih
 1 þ e0 −λ ln wðrÞþγ 0H
-2−urt
-p 0
-0
-i
+2−urt p 0 i
 × ∂uðr; zÞ
-∂t
-dzdt
-ð11aÞ
-In the model, numerical integration is carried out to evaluate
-the values of ρrzt. The average ground settlement is given by
-(Indraratna et al. 2013)
-ρavt ¼
-2
-r2e −r2c
-Z re
-rc
-Z H
-0
-ρrztrdrdz
-ð11bÞ
+∂t dzdt ð11aÞ
+In the model, numerical integration is carried out to evaluate the values of ρrzt. The average ground settlement is given by
+(Indraratna et al. 2013) ρavt _ r2e −r2c
+Z re rc
+Z H ρrztrdrdz ð11bÞ
 Smear Zone Characteristics
-The installation of stone columns introduces significant disturbance
-in the soft soil around the columns, called the smear zone, whose
-features depend on the installation technique adopted in the field
-(Kirsch and Bell 2012). Han and Ye (2002) stated that for a typical
-stone column, rs=rc varies from 1.1 to 1.2, and kh=ks is usually on
-the order of 10, where rs is the radius of the smear zone, and ks is
-the horizontal permeability of soil in the smear zone. In the analysis
-of Wang (2009), the value of rs=rc was assumed to be in the range
-of 1–2 and kh=ks to be 10. As reported by Walker and Indraratna
-(2006), the ratio of rs=rc usually varies between 2 and 3, and the
-permeability of soil in the smear zone decreases in a parabolic pat-
-tern with radial distance. Weber et al. (2010) conducted centrifuge
-model tests for smear zone identification around stone columns.
+The installation of stone columns introduces significant disturbance in the soft soil around the columns, called the smear zone, whose features depend on the installation technique adopted in the field
+(Kirsch and Bell 2012). Han and Ye (2002) stated that for a typical stone column, rs=rc varies from 1.1 to 1.2, and kh=ks is usually on the order of 10, where rs is the radius of the smear zone, and ks is the horizontal permeability of soil in the smear zone. In the analysis of Wang (2009), the value of rs=rc was assumed to be in the range of 1–2 and kh=ks to be 10. As reported by Walker and Indraratna
+(2006), the ratio of rs=rc usually varies between 2 and 3, and the permeability of soil in the smear zone decreases in a parabolic pat- tern with radial distance. Weber et al. (2010) conducted centrifuge model tests for smear zone identification around stone columns.
 The test results confirmed the existence of three distinct sections
-© ASCE
 04015067-3
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-of the zone of disturbance: penetration zone, smear zone, and den-
-sification zone. This disturbed zone could extend to as high as 2.5
-times the column radius. To simplify the analysis, the smear zone
-radius is considered here to be 1.2 times the column radius and the
-horizontal permeability in the smear zone is taken to be 0.1 times
-that in the undisturbed zone. In finite-difference coding, the value
-of kh in Eq. (6) is replaced by ks within the smear zone.
+of the zone of disturbance: penetration zone, smear zone, and den- sification zone. This disturbed zone could extend to as high as 2.5 times the column radius. To simplify the analysis, the smear zone radius is considered here to be 1.2 times the column radius and the horizontal permeability in the smear zone is taken to be 0.1 times that in the undisturbed zone. In finite-difference coding, the value of kh in Eq. (6) is replaced by ks within the smear zone.
 Clogging of Columns
-The pore water flow through the columns is adversely affected by
-clogging because of a significant decrease in the column permeabil-
-ity near the interface. During column installation, the associated
-cavity expansion (Ghandeharioon et al. 2010) results in initial
-clogging. During consolidation of soft clay under sustained sur-
-charge loading, the significant hydraulic gradient at the column–
-soil interface produces clogging (Adalier and Elgamal 2004;
-Indraratna et al. 2013). The clogging initiates a reduction in the
-effective radius of the column in terms of drainage and reducing
-the permeability in the clogged zone.
-To simplify the analysis, the clogging parameters were assumed
-constant during consolidation, which can be expressed as follows
+The pore water flow through the columns is adversely affected by clogging because of a significant decrease in the column permeabil- ity near the interface. During column installation, the associated cavity expansion (Ghandeharioon et al. 2010) results in initial clogging. During consolidation of soft clay under sustained sur- charge loading, the significant hydraulic gradient at the column– soil interface produces clogging (Adalier and Elgamal 2004;
+Indraratna et al. 2013). The clogging initiates a reduction in the effective radius of the column in terms of drainage and reducing the permeability in the clogged zone.
+To simplify the analysis, the clogging parameters were assumed constant during consolidation, which can be expressed as follows
 (Basack 2010; Indraratna et al. 2013):
-r 0c ¼ αrc
-ð12aÞ
-kcl ¼ αkks
-ð12bÞ
-where r 0c = reduced radius of column in terms of drainage; α =
-nondimensional factor in range 0 < α ≤1; αk = nondimensional
-parameter representing the ratio of the horizontal permeability of
-the clogged column zone to that of the smear zone (kcl and ks, re-
-spectively) whose suggested range is 0 < αk < 1. Accordingly,
+r 0c _ αrc ð12aÞ kcl _ αkks ð12bÞ where r 0c = reduced radius of column in terms of drainage; α = nondimensional factor in range 0 < α ≤1; αk = nondimensional parameter representing the ratio of the horizontal permeability of the clogged column zone to that of the smear zone (kcl and ks, re- spectively) whose suggested range is 0 < αk < 1. Accordingly,
 Eqs. (2a) and (6) have been altered respectively as follows:
-δr ¼ re −αrc
-nr −1
-ð13aÞ
+δr _ re −αrc nr −1 ð13aÞ
 ∂urt
-∂t ¼ αkks
-mvγw
-1
-r
+∂t _ αkks mvγw
+1 r
 ∂urt
 ∂r þ ∂2urt
 ∂r2
-
-ð13bÞ
+ ð13bÞ
 Development of Computer Program
-The entire computation was performed using the finite-difference
-method adopting forward, backward, and central difference tech-
-niques. For this purpose, a user-friendly program, COLMCC,
-was written in Fortran 90. Analysis was performed for the 261 el-
-ements with 300 nodes in axisymmetric unit cell and 15,000 nodes
-in the space-time frame (nr ¼ 10, nz ¼ 30, and nt ¼ 50), which
-ensures a reasonable compromise between computational time
-and accuracy.
+The entire computation was performed using the finite-difference method adopting forward, backward, and central difference tech- niques. For this purpose, a user-friendly program, COLMCC, was written in Fortran 90. Analysis was performed for the 261 el- ements with 300 nodes in axisymmetric unit cell and 15,000 nodes in the space-time frame (nr _ 10, nz _ 30, and nt _ 50), which ensures a reasonable compromise between computational time and accuracy.
 Validation
-To validate the model developed, comparisons of the numerical re-
-sults obtained from the MCC model are made with the available
-field test results and existing numerical solutions. Oh et al. (2007)
-carried out field-based investigations in soft estuarine clays in
-Queensland, Australia, with a trial embankment incorporating three
-separate sections as follows: two sections with stone columns of 2
-and 3 m spacings (square pattern), plus a reference section with no
-stone columns. The numerical model is valid for a rigid and imper-
-vious unit cell base, which implies an end-bearing column. As re-
-ported by Oh et al. (2007), the trial embankment was built along the
-deepest section of the very soft to soft organic clay layer, which
-extended from the ground surface to a maximum depth of 13.5 m,
-overlying the older alluvium (stiff to hard, silty clay). The stone
-columns were embedded to a depth of 16 m below the ground
-surface. Hence, the installed stone columns are essentially end-
-bearing. A comparison of computed ground settlements with the
-field test results is presented in Fig. 1(a). The real time has been
-normalized as a modified time factor T 0rð¼ kht=mvγwH2Þ (Basack
+To validate the model developed, comparisons of the numerical re- sults obtained from the MCC model are made with the available field test results and existing numerical solutions. Oh et al. (2007) carried out field-based investigations in soft estuarine clays in
+Queensland, Australia, with a trial embankment incorporating three separate sections as follows: two sections with stone columns of 2 and 3 m spacings (square pattern), plus a reference section with no stone columns. The numerical model is valid for a rigid and imper- vious unit cell base, which implies an end-bearing column. As re- ported by Oh et al. (2007), the trial embankment was built along the deepest section of the very soft to soft organic clay layer, which extended from the ground surface to a maximum depth of 13.5 m, overlying the older alluvium (stiff to hard, silty clay). The stone columns were embedded to a depth of 16 m below the ground surface. Hence, the installed stone columns are essentially end- bearing. A comparison of computed ground settlements with the field test results is presented in Fig. 1(a). The real time has been normalized as a modified time factor T 0rð_ kht=mvγwH2Þ (Basack
 2010). The computational parameters used here were adopted from
-Oh et al. (2007) and are presented in Table 1. The average value of
-mv was adopted as the initial coefficient of volume compressibility,
-while the horizontal soil permeability kh was estimated from the
-average coefficient of consolidation and average mv. As reported
-by Oh et al. (2007), the trial embankment was constructed at Gold
-Coast, located in the southeast part of Queensland, Australia, which
-is approximately 114 km from the Ballina site. At the Queensland
-site, the soft estuarine clay was reported to exist up to a depth of
-10–13.5 m below the ground surface, while at Ballina, the soft
-marine clay was reported to exist up to 10 m below the ground
-surface. The shear strength, moisture content, and compression
-index of both soils varied in ranges of 5–20 kPa, 80–100%, and
-0.3–0.5, respectively (Oh et al. 2007; Indraratna 2010). Because
-of this similarity, the values of the MCC model parameters adopted
-for validation were chosen in ranges of 2.5 ≤e0 ≤3.5 and
-0.5 ≤λ ≤0.6; the values of the relevant soil parameters at the Bal-
-lina site were reported to be e0 ¼ 2.9 and λ ¼ 0.57 (Indraratna
+Oh et al. (2007) and are presented in Table 1. The average value of mv was adopted as the initial coefficient of volume compressibility, while the horizontal soil permeability kh was estimated from the average coefficient of consolidation and average mv. As reported by Oh et al. (2007), the trial embankment was constructed at Gold
+Coast, located in the southeast part of Queensland, Australia, which is approximately 114 km from the Ballina site. At the Queensland site, the soft estuarine clay was reported to exist up to a depth of
+10–13.5 m below the ground surface, while at Ballina, the soft marine clay was reported to exist up to 10 m below the ground surface. The shear strength, moisture content, and compression index of both soils varied in ranges of 5–20 kPa, 80–100%, and
+0.3–0.5, respectively (Oh et al. 2007; Indraratna 2010). Because of this similarity, the values of the MCC model parameters adopted for validation were chosen in ranges of 2.5 ≤e0 ≤3.5 and
+0.5 ≤λ ≤0.6; the values of the relevant soil parameters at the Bal- lina site were reported to be e0 _ 2.9 and λ _ 0.57 (Indraratna
 2010). In comparison with the previously developed linear model
-(Indraratna et al. 2013), the numerical results by the MCC model
-related to the soil parameters e0 ¼ 2.5 and λ ¼ 0.5 are observed to
-be close enough to the field data, particularly in the range of
+(Indraratna et al. 2013), the numerical results by the MCC model related to the soil parameters e0 _ 2.5 and λ _ 0.5 are observed to be close enough to the field data, particularly in the range of
 0.002 < T 0r < 0.006, with an average deviation of approximately
-5.7%. Thus, the current model provides better predictions in
-comparison to the previously developed linear model.
-The Malaysian Highway Authority constructed a number of test
-embankments on Muar Plain, Malaysia (Redana 1999), using dif-
-ferent ground improvement techniques, including sand compaction
-piles (SCPs). At the site, soft clay was reported to exist up to a
-depth of 20 m below the ground surface in three distinct layers
-of overlying dense, silty sand. The piles were placed in a square
-grid pattern at 2.2 m spacing. The embankment was constructed
-in three stages with rest periods [Fig. 1(b)], and the settlements
-were monitored and recorded for 550 days. Redana (1999) con-
-ducted a finite-element analysis for a single SCP to compare with
-the field settlements. The SCP, possessing greater stiffness com-
-pared to the surrounding soft soil, is likely to behave as stone col-
-umns from the viewpoint of a load transfer mechanism. Therefore,
-the field observations and the finite-element results are compared
-with the present MCC model, with the soil and pile parameters
-being estimated as the weighted average and ignoring the drainage
-through the base layer. The steady-state concentration ratio ns was
-taken to be 4.7 (Basack 2010). Analysis was carried out with and
-without clogging (for clogging, α ¼ 0.8 and αk ¼ 1.0). The input
-parameters chosen for computations taken from Redana (1999) are
-presented in Table 1. The average values of kh and mv used in the
-finite-element analysis by Redana (1999) were adopted in the
-present study. The comparison of time pattern of variation in
-ground settlement is portrayed in Fig. 1(b). Compared to the
-finite-element results (Redana 1999) and those obtained using
-the previously developed linear model (Indraratna et al. 2013),
-the MCC model is observed to be close to the field observations
-for time ranges of 0 ≤t ≤200 days and 300 ≤t ≤450 days.
-With the chosen clogging parameters, the predicted settlements
-are observed to be even closer to the field measurements compared
-to the linear model, with an average variation of approximately
+5.7%. Thus, the current model provides better predictions in comparison to the previously developed linear model.
+The Malaysian Highway Authority constructed a number of test embankments on Muar Plain, Malaysia (Redana 1999), using dif- ferent ground improvement techniques, including sand compaction piles (SCPs). At the site, soft clay was reported to exist up to a depth of 20 m below the ground surface in three distinct layers of overlying dense, silty sand. The piles were placed in a square grid pattern at 2.2 m spacing. The embankment was constructed in three stages with rest periods [Fig. 1(b)], and the settlements were monitored and recorded for 550 days. Redana (1999) con- ducted a finite-element analysis for a single SCP to compare with the field settlements. The SCP, possessing greater stiffness com- pared to the surrounding soft soil, is likely to behave as stone col- umns from the viewpoint of a load transfer mechanism. Therefore, the field observations and the finite-element results are compared with the present MCC model, with the soil and pile parameters being estimated as the weighted average and ignoring the drainage through the base layer. The steady-state concentration ratio ns was taken to be 4.7 (Basack 2010). Analysis was carried out with and without clogging (for clogging, α _ 0.8 and αk _ 1.0). The input parameters chosen for computations taken from Redana (1999) are presented in Table 1. The average values of kh and mv used in the finite-element analysis by Redana (1999) were adopted in the present study. The comparison of time pattern of variation in ground settlement is portrayed in Fig. 1(b). Compared to the finite-element results (Redana 1999) and those obtained using the previously developed linear model (Indraratna et al. 2013), the MCC model is observed to be close to the field observations for time ranges of 0 ≤t ≤200 days and 300 ≤t ≤450 days.
+With the chosen clogging parameters, the predicted settlements are observed to be even closer to the field measurements compared to the linear model, with an average variation of approximately
 10.3%. Deviations from the field observations were observed
-© ASCE
 04015067-4
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-particularly during the embankment filling in progress, which could
-be due to the dynamic disturbance effect during the filling operation
-and subsequent compaction (Eriksson et al. 2000). The assumed
-stepwise increase in the imposed load intensity during filling is
-also attributed to the discrepancy between the computed and field
-data.
+particularly during the embankment filling in progress, which could be due to the dynamic disturbance effect during the filling operation and subsequent compaction (Eriksson et al. 2000). The assumed stepwise increase in the imposed load intensity during filling is also attributed to the discrepancy between the computed and field data.
 Parametric Studies
-With the initiative of the Australian Research Council’s Centre
-of Excellence in Geotechnical Science and Engineering (CGSE),
-Australia’s first national geotechnical field testing facility was es-
-tablished at Ballina, New South Wales, in 2011. A group of test
-stone columns were installed at the Ballina field site (Fig. 2).
-Parametric studies were carried out using the field data presented
-in Table 2. To study the effect of the variation of these parameters
-on the consolidation and settlement characteristics, the values of
-these parameters were varied in ranges of 1.0 ≤e0 ≤3.0 and
+With the initiative of the Australian Research Council’s Centre of Excellence in Geotechnical Science and Engineering (CGSE),
+Australia’s first national geotechnical field testing facility was es- tablished at Ballina, New South Wales, in 2011. A group of test stone columns were installed at the Ballina field site (Fig. 2).
+Parametric studies were carried out using the field data presented in Table 2. To study the effect of the variation of these parameters on the consolidation and settlement characteristics, the values of these parameters were varied in ranges of 1.0 ≤e0 ≤3.0 and
 0.5 ≤λ ≤0.7.
-The stone column groups were recently installed at the Ballina
-site by Keller Ground Engineering. Currently, the authors are in-
-volved in embankment construction and loading on the test column
-Fig. 1. Comparison of numerical results from MCC model with (a) field observations of Oh et al. 2007; (b) field observations and finite-element
-analysis (data from Redana 1999)
-© ASCE
+The stone column groups were recently installed at the Ballina site by Keller Ground Engineering. Currently, the authors are in- volved in embankment construction and loading on the test column
+Fig. 1. Comparison of numerical results from MCC model with (a) field observations of Oh et al. 2007; (b) field observations and finite-element analysis (data from Redana 1999)
 04015067-5
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-group. Because the sustained loading needs to be monitored over a
-significant period (at least 1 year) to acquire realistic test data on
-excess pore water pressure dissipation and soft ground settlement,
-the authors are unable to include any field data from the Ballina
-study. However, the parametric studies included in the manuscript
-are based on actual soil properties at Ballina (Indraratna et al.
-2009b, 2014; Kelly 2014), which makes it possible to study rein-
-forced soft ground performance under static and cyclic loadings. In
-the future, the actual measurement data will be used to compare
-with the results obtained from these parametric studies.
-The time pattern of variation of the normalized average values of
-excess pore water pressure ðuav=γeHeÞ and ground settlement
-ðρav=HÞ obtained from the MCC and previously developed linear
-models are presented in Figs. 3(a and b), respectively. As is evident,
-both the consolidation and settlement characteristics of the rein-
-forced soft ground were significantly affected by the variation of
-the MCC model parameters. From Fig. 3(a), incorporation
-of the MCC model initiates a retarding effect on the dissipation
-of the excess pore water pressure compared to the conventional lin-
-ear model, with the deviation being as high as 40% at T 0r ¼ 0.002.
-This may be justified by the fact that the rate of decrease in the void
-ratio in the MCC model progressively decreases with increasing
-values of the mean effective stress. In the range of T 0r > 0.004,
-the curve related to the MCC model at e0 ¼ 1.0 and λ ¼ 0.6 almost
-coincides with the linear model. Also, the curves related to the
-MCC parameters e0 ¼ 1.0, λ ¼ 0.5 and e0 ¼ 1.5, λ ¼ 0.6 are
-observed to be in close agreement.
-Compared to the excess pore water pressure, the values of
-ground settlements were found to be more strongly affected by
-the variation in e0 and λ. The ground settlement, having a direct
-correlation with the parameter mv, is highly sensitive to the MCC
-parameters [Eq. (11)]. As observed from Fig. 3(b), the values of
-ground settlement are significantly affected by the MCC parame-
-ters, with the deviation up to as high as 30% compared to the linear
-model. A stabilizing tendency of the values of average ground set-
-tlement with time is noted, except for the initial portion of the
-curves in the range T 0r < 0.001, where a slight reverse curvature
-is found. For e0 ¼ 1.5 and λ ¼ 0.5, the curves related to the linear
-and MCC models are in close proximity in the range of T 0r > 0.005.
-It thus appears from these observations that accuracy of analysis
-based on the MCC model essentially depends on the appropriate
-choice of the parameters e0 and λ, a detailed analysis of which
-is presented below.
-The variation in the magnitudes of normalized average excess
-pore water pressure and ground settlement with an increasing
-initial void ratio e0 of the soft clay are presented in Figs. 4(a
-and b), respectively. As e0 increases, both the excess pore water
-pressure and settlement increases with ascending slopes. With
-regard to the increasing values of the parameter λ, the average
-excess pore water pressure and ground settlement are observed
-to decrease with an increasing slope [Figs. 4(c and d)]. In both
-cases, the rate of increase in the slopes of these curves are small
-for lower values of the time factor T 0r (= 0.002), and is progres-
-sively significant for higher magnitudes of T 0r (= 0.004 and
-0.006). These observations can be justified by the fact that the
-volumetric soil compressibility mvrt decreases following a hy-
-perbolic pattern with the MCC model parameters e0 and λ [see
-earlier Eq. (10)] which ultimately influences the Eqs. (6) and
-(11) related to the excess pore water pressure and ground settle-
-ment respectively.
-The observed deviation of the predicted results using linear
-and nonlinear models in Fig. 4 is mainly due to the variation in
-the values of MCC model parameters e0 and λ in the parametric
-studies and to the fact that the range of variation is quite broad
-(1 ≤e0 ≤3 and 0.5 ≤λ ≤0.7). As seen from Figs. 3 and 4, the
-predicted results change significantly with the variation in e0
-and λ, which directly affect the volumetric compressibility of
-the soft soil. In the case of validation with trial embankment per-
-formance in Queensland, Australia, and for the sand compaction
-piles tested at the Muar Plain in Malaysia, the values of the MCC
-model parameters were taken from the relevant literature (Redana
+group. Because the sustained loading needs to be monitored over a significant period (at least 1 year) to acquire realistic test data on excess pore water pressure dissipation and soft ground settlement, the authors are unable to include any field data from the Ballina study. However, the parametric studies included in the manuscript are based on actual soil properties at Ballina (Indraratna et al.
+2009b, 2014; Kelly 2014), which makes it possible to study rein- forced soft ground performance under static and cyclic loadings. In the future, the actual measurement data will be used to compare with the results obtained from these parametric studies.
+The time pattern of variation of the normalized average values of excess pore water pressure ðuav=γeHeÞ and ground settlement ðρav=HÞ obtained from the MCC and previously developed linear models are presented in Figs. 3(a and b), respectively. As is evident, both the consolidation and settlement characteristics of the rein- forced soft ground were significantly affected by the variation of the MCC model parameters. From Fig. 3(a), incorporation of the MCC model initiates a retarding effect on the dissipation of the excess pore water pressure compared to the conventional lin- ear model, with the deviation being as high as 40% at T 0r _ 0.002.
+This may be justified by the fact that the rate of decrease in the void ratio in the MCC model progressively decreases with increasing values of the mean effective stress. In the range of T 0r > 0.004, the curve related to the MCC model at e0 _ 1.0 and λ _ 0.6 almost coincides with the linear model. Also, the curves related to the
+MCC parameters e0 _ 1.0, λ _ 0.5 and e0 _ 1.5, λ _ 0.6 are observed to be in close agreement.
+Compared to the excess pore water pressure, the values of ground settlements were found to be more strongly affected by the variation in e0 and λ. The ground settlement, having a direct correlation with the parameter mv, is highly sensitive to the MCC parameters [Eq. (11)]. As observed from Fig. 3(b), the values of ground settlement are significantly affected by the MCC parame- ters, with the deviation up to as high as 30% compared to the linear model. A stabilizing tendency of the values of average ground set- tlement with time is noted, except for the initial portion of the curves in the range T 0r < 0.001, where a slight reverse curvature is found. For e0 _ 1.5 and λ _ 0.5, the curves related to the linear and MCC models are in close proximity in the range of T 0r > 0.005.
+It thus appears from these observations that accuracy of analysis based on the MCC model essentially depends on the appropriate choice of the parameters e0 and λ, a detailed analysis of which is presented below.
+The variation in the magnitudes of normalized average excess pore water pressure and ground settlement with an increasing initial void ratio e0 of the soft clay are presented in Figs. 4(a and b), respectively. As e0 increases, both the excess pore water pressure and settlement increases with ascending slopes. With regard to the increasing values of the parameter λ, the average excess pore water pressure and ground settlement are observed to decrease with an increasing slope [Figs. 4(c and d)]. In both cases, the rate of increase in the slopes of these curves are small for lower values of the time factor T 0r (= 0.002), and is progres- sively significant for higher magnitudes of T 0r (= 0.004 and
+0.006). These observations can be justified by the fact that the volumetric soil compressibility mvrt decreases following a hy- perbolic pattern with the MCC model parameters e0 and λ [see earlier Eq. (10)] which ultimately influences the Eqs. (6) and
+(11) related to the excess pore water pressure and ground settle- ment respectively.
+The observed deviation of the predicted results using linear and nonlinear models in Fig. 4 is mainly due to the variation in the values of MCC model parameters e0 and λ in the parametric studies and to the fact that the range of variation is quite broad
+(1 ≤e0 ≤3 and 0.5 ≤λ ≤0.7). As seen from Figs. 3 and 4, the predicted results change significantly with the variation in e0 and λ, which directly affect the volumetric compressibility of the soft soil. In the case of validation with trial embankment per- formance in Queensland, Australia, and for the sand compaction piles tested at the Muar Plain in Malaysia, the values of the MCC model parameters were taken from the relevant literature (Redana
 1999; Oh et al. 2007).
 Table 1. Input Parameters for Validation
 Material
@@ -653,8 +222,6 @@ Unit weight (γe)
 20 kN=m3
 20.5 kN=m3
 Imposed load intensity on embankment (qs)
-0
-0
 Passive earth pressure coefficient (Kp)
 3d
 3d
@@ -680,121 +247,53 @@ aAssumed value (Han and Ye 2002; Indraratna et al. 2013).
 bAssumed value (Hayashi et al. 2012; Tong et al. 2013).
 cAssumed after Indraratna et al. (2013).
 dAdopted after Redana (1999).
-© ASCE
 04015067-6
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
 Effect of Cyclic Loading
-The behavior of a stone column–reinforced soft ground under cyclic
-loading with specific frequency and amplitude is usually subject to
-partially drained conditions (Ni 2012). Though a few theoretical
-models exist to address this issue (e.g., Seed and Booker 1977;
-Blewett and Woodward 2001), application of the MCC theory has
-been found to be appropriate in predicting the reinforced soft soil
+The behavior of a stone column–reinforced soft ground under cyclic loading with specific frequency and amplitude is usually subject to partially drained conditions (Ni 2012). Though a few theoretical models exist to address this issue (e.g., Seed and Booker 1977;
+Blewett and Woodward 2001), application of the MCC theory has been found to be appropriate in predicting the reinforced soft soil
 (Carteretal. 1982;Ni2012;Nietal.2014) responseundercyclicload.
 Cyclic Model
-The previously developed model (Ni 2012; Ni et al. 2014) was
-modified to investigate the effect of sinusoidal cyclic stress with
-special reference to stone column–reinforced soft clay. The ground
-surface is subjected to a sinusoidal vertical stress with an amplitude
-and frequency of wc and f, respectively, apart from the static load
-intensity of w0, as shown in Fig. 5(a). The cyclic stress level (CSL)
-can be defined as the ratio wc=w0. At any time instant t, for the soil
-element at a polar coordinate of (r; z), the mean effective stress and
-deviatoric stress have been simplified to
-p 0 ¼ ðqrt −urtÞ 1 þ 2K0
-3
-ð14aÞ
-q ¼ ðqrt −urtÞð1 −K0Þ
-ð14bÞ
-where p 0 and q are depthwise average mean effective and devia-
-toric stresses at a radial distance of r and time t, respectively.
+The previously developed model (Ni 2012; Ni et al. 2014) was modified to investigate the effect of sinusoidal cyclic stress with special reference to stone column–reinforced soft clay. The ground surface is subjected to a sinusoidal vertical stress with an amplitude and frequency of wc and f, respectively, apart from the static load intensity of w0, as shown in Fig. 5(a). The cyclic stress level (CSL) can be defined as the ratio wc=w0. At any time instant t, for the soil element at a polar coordinate of (r; z), the mean effective stress and deviatoric stress have been simplified to p 0 _ ðqrt −urtÞ 1 þ 2K0 ð14aÞ q _ ðqrt −urtÞð1 −K0Þ ð14bÞ where p 0 and q are depthwise average mean effective and devia- toric stresses at a radial distance of r and time t, respectively.
 The cyclic stress path adopted in this model is presented in
-Fig. 5(b). During the loading part of the first cycle, the stress point
-in the p 0 −q space moves from A to B. Using the MCC model
-parameters, the mean effective stress at B may be obtained from
-the following correlation:
+Fig. 5(b). During the loading part of the first cycle, the stress point in the p 0 −q space moves from A to B. Using the MCC model parameters, the mean effective stress at B may be obtained from the following correlation:
 p 0
-B
-p 0
+B p 0
 A
-¼
-M2 þ ðqB=p 0
+_
+M2 þ ðqB=p 0
 BÞ2
 M2 þ ðqA=p 0
 AÞ2
-−ðλ−κ=λÞ
-ð15Þ
-where M is the slope of the critical straight line.
+−ðλ−κ=λÞ ð15Þ where M is the slope of the critical straight line.
 Commencing with the initially assumed values of p 0
-B and qB,
-the appropriate value of p 0
-B was obtained by iteration from the
-previously given Eqs. (14) and (15). Back-calculating this value
-of p 0
-B in the first expression of Eq. (14), the nodal excess pore water
-pressures at the end of the loading half of first cycle can be ob-
-tained. Taking these as the initial values, the nodal excess pore
-water pressures p 0
-U1 at the end of the unloading half of the first
-cycle [i.e., related to Point C in Fig. 5(b)] can be determined.
-For the loading increment related to the next cycle, initially
-the soil is elastically loaded with a linear stress path until the
+B and qB, the appropriate value of p 0
+B was obtained by iteration from the previously given Eqs. (14) and (15). Back-calculating this value of p 0
+B in the first expression of Eq. (14), the nodal excess pore water pressures at the end of the loading half of first cycle can be ob- tained. Taking these as the initial values, the nodal excess pore water pressures p 0
+U1 at the end of the unloading half of the first cycle [i.e., related to Point C in Fig. 5(b)] can be determined.
+For the loading increment related to the next cycle, initially the soil is elastically loaded with a linear stress path until the
 (a)
 (b)
 Fig. 2. Ballina field work: (a) plan of column installation (image courtesy of Keller Ground Engineering); (b) installed columns
-© ASCE
 04015067-7
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-yield stress is attained at D, where the deviatoric stress is
-given by
-qD ¼
-ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
-ðp 0
-y2 −p 0
+yield stress is attained at D, where the deviatoric stress is given by qD _ ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ ðp 0 y2 −p 0
 U1ÞM2p 0
-U1
-q
-ð16Þ
-where the stress p 0
-y2 is given as
-p 0
-y2 ¼ p 0
+U1 q ð16Þ where the stress p 0 y2 is given as p 0 y2 _ p 0
 L1
-p 0
-U1
 p 0
+U1 p 0
 L1
-θ
-ð17Þ
-In the foregoing expressions, the parameters are given as
-p 0
-y2 ¼ ðqB=MÞ2=p 0
+θ ð17Þ
+In the foregoing expressions, the parameters are given as p 0 y2 _ ðqB=MÞ2=p 0
 B þ p 0
 B : : :
-ð18aÞ
-θ ¼
-1
+ð18aÞ θ _
 F1ðNÞ þ F2ðfÞ : : :
 ð18bÞ
-F1ðNÞ ¼ aNN : : :
+F1ðNÞ _ aNN : : :
 ð18cÞ
-F2ðNÞ ¼ af þ bf lnðfÞ
-ð18dÞ
-where θ = cyclic degradation parameter; N = number of cycles; f =
-frequency; aN, af, and bf = constants whose values depend on the
-soil properties. Ni et al. (2014) demonstrated that the values of aN,
-af, and bf could be estimated from the appropriate laboratory test-
-ing (e.g., cyclic triaxial tests). It may further be observed that the
-cyclic loading frequency plays a vital role in predicting the gener-
-ation of cyclic excess pore water pressure, affecting first the param-
-eter θ as well as the unloading time for each cycle. For further
-loading, the stress path is followed up to Point E, where the mean
-effective stress can then be determined using an expression similar
-to Eq. (15). The procedure is then repeated until the desired number
+F2ðNÞ _ af þ bf lnðfÞ ð18dÞ where θ = cyclic degradation parameter; N = number of cycles; f = frequency; aN, af, and bf = constants whose values depend on the soil properties. Ni et al. (2014) demonstrated that the values of aN, af, and bf could be estimated from the appropriate laboratory test- ing (e.g., cyclic triaxial tests). It may further be observed that the cyclic loading frequency plays a vital role in predicting the gener- ation of cyclic excess pore water pressure, affecting first the param- eter θ as well as the unloading time for each cycle. For further loading, the stress path is followed up to Point E, where the mean effective stress can then be determined using an expression similar to Eq. (15). The procedure is then repeated until the desired number
 Table 2. Input Parameters for Parametric Studies at Ballina
 Material
 Parameter
@@ -822,7 +321,6 @@ Height (He)
 Unit weight (γe)
 20 kN=m3
 Imposed load intensity on embankment (qs)
-0
 Passive earth pressure coefficient (Kp)
 3c
 Stone column
@@ -836,98 +334,39 @@ Radius factor of clogging (α)
 1.0
 Permeability factor for clogging (αk)
 1.0
-Cyclic loading parameters
-aN
-0.28d
-af
-320.0d
-bf
-125.0d
-κ
+Cyclic loading parameters aN
+0.28d af
+320.0d bf
+125.0d κ
 0.06
 Note: SCP = sand compaction pile.
 aAssumed value (Han and Ye 2002; Indraratna et al. 2013).
 bAssumed value (Hayashi et al. 2012; Tong et al. 2013).
 cAssumed arbitrarily.
 dAdopted after Ni et al. (2014).
-Fig. 3. Variation of (a) normalized excess pore water pressure; (b) nor-
-malized average ground settlement
-© ASCE
+Fig. 3. Variation of (a) normalized excess pore water pressure; (b) nor- malized average ground settlement
 04015067-8
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-of cycles is attained or failure of the soil occurs, whichever
-happens first.
-The program COLMCC was modified to include the computa-
-tions for cyclic loading by incorporating separate subroutines for
-analyses under static and cyclic loads. The cyclic subroutine com-
-putes the excess pore water pressure generated at the end of the
-loading halves of each cycle. Regarding the unloading halves, com-
-putations are performed from the static subroutine program setting
-the dissipation time as 1=4f.
+of cycles is attained or failure of the soil occurs, whichever happens first.
+The program COLMCC was modified to include the computa- tions for cyclic loading by incorporating separate subroutines for analyses under static and cyclic loads. The cyclic subroutine com- putes the excess pore water pressure generated at the end of the loading halves of each cycle. Regarding the unloading halves, com- putations are performed from the static subroutine program setting the dissipation time as 1=4f.
 Cyclic Results and Interpretations
-The cyclic model described previously has been validated with
-available numerical and experimental results. Ni (2012) developed
-a numerical scheme to analyze the pore pressure buildup in soft
-clay for cyclic stress pulses using prefabricated vertical drains
+The cyclic model described previously has been validated with available numerical and experimental results. Ni (2012) developed a numerical scheme to analyze the pore pressure buildup in soft clay for cyclic stress pulses using prefabricated vertical drains
 (PVDs) and validated the same with laboratory test data of
-Indraratna et al. (2009a) (Table 3). The MCC model can be utilized
-for PVDs as well if the stress concentration ratio is set equal to
-unity (Indraratna et al. 2013). A comparison of the computed
-and experimental data is depicted in Fig. 6(a). As observed, the
-predicted values of excess pore water pressure obtained using
-the present model are closer to the experimental values compared
-to those obtained by the analysis of Ni (2012). The introduction
-of the in situ earth pressure coefficient K0 and the adoption of
-depthwise average values of effective stresses have improved the
-present numerical results.
-Raju et al. (2013) conducted a series of cyclic plate load tests on
-single end-bearing columns in black cotton soil at Karnataka, India.
-For each load cycle, the peak cyclic stress was applied and main-
-tained till the settlement plate was steady; the load was then fully
-released to study the rebound. The variation in the observed
-residual soft soil settlement against the applied peak load intensity
-was compared with those obtained using the present MCC model
-[Fig. 6(b)]. The peak stress was normalized by GγwH, while the
-residual settlemnt was nondimensionalized by H, where G is the
-specific gravity of soft soil particles and H is the initial height
-of the soft clay bed. To simulate the cyclic loading pattern in
-the numerical model, the applied vertical stress was increased step-
-wise at a rate of 10 kPa till the peak values were attained. Most of
-the input soil and column data were obtained from Raju et al. (2012,
-2013), with few assumed soil parameters (Table 3). The residual soil
-settlements were computed with values of e0, λ, and κ using the
-e −ln p 0 correlations. As observed, the residual settlement in-
-creased following a parabolic pattern with ascending slope. The
-average deviation between the computed results and test data was
-found to be less than 10%, which validates the proposed model.
-The cyclic model is utilized to carry out a typical case study
-using the Ballina field data. The parameters related to soft soil
-and embankments were adopted from Indraratna (2010), while the
-cyclic loading parameters from Ni et al. (2014) were used. Analysis
-was performed for cyclic loading being commenced at the comple-
-tion of 50 and 70% of primary consolidation, with CSL chosen as
+Indraratna et al. (2009a) (Table 3). The MCC model can be utilized for PVDs as well if the stress concentration ratio is set equal to unity (Indraratna et al. 2013). A comparison of the computed and experimental data is depicted in Fig. 6(a). As observed, the predicted values of excess pore water pressure obtained using the present model are closer to the experimental values compared to those obtained by the analysis of Ni (2012). The introduction of the in situ earth pressure coefficient K0 and the adoption of depthwise average values of effective stresses have improved the present numerical results.
+Raju et al. (2013) conducted a series of cyclic plate load tests on single end-bearing columns in black cotton soil at Karnataka, India.
+For each load cycle, the peak cyclic stress was applied and main- tained till the settlement plate was steady; the load was then fully released to study the rebound. The variation in the observed residual soft soil settlement against the applied peak load intensity was compared with those obtained using the present MCC model
+[Fig. 6(b)]. The peak stress was normalized by GγwH, while the residual settlemnt was nondimensionalized by H, where G is the specific gravity of soft soil particles and H is the initial height of the soft clay bed. To simulate the cyclic loading pattern in the numerical model, the applied vertical stress was increased step- wise at a rate of 10 kPa till the peak values were attained. Most of the input soil and column data were obtained from Raju et al. (2012,
+2013), with few assumed soil parameters (Table 3). The residual soil settlements were computed with values of e0, λ, and κ using the e −ln p 0 correlations. As observed, the residual settlement in- creased following a parabolic pattern with ascending slope. The average deviation between the computed results and test data was found to be less than 10%, which validates the proposed model.
+The cyclic model is utilized to carry out a typical case study using the Ballina field data. The parameters related to soft soil and embankments were adopted from Indraratna (2010), while the cyclic loading parameters from Ni et al. (2014) were used. Analysis was performed for cyclic loading being commenced at the comple- tion of 50 and 70% of primary consolidation, with CSL chosen as
 0.2 and 0.3. The frequencies of cyclic loading were taken to be 10
 Fig. 4. Influence of (a) e0 on excess pore water pressure; (b) e0 on ground settlement; (c) λ on excess pore water pressure; (d) λ on ground settlement
-© ASCE
 04015067-9
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-and 20 Hz, which are equivalent to typical train speeds of 73
-and 145 km=h, respectively, on standard Australian gauge track
-(Indraratna et al. 2010). In the absence of appropriate cyclic soil
-data related to the field, their values are assumed to be those of
+and 20 Hz, which are equivalent to typical train speeds of 73 and 145 km=h, respectively, on standard Australian gauge track
+(Indraratna et al. 2010). In the absence of appropriate cyclic soil data related to the field, their values are assumed to be those of
 Ni
-(2012),
-which
-are
-as
-follows:
-aN ¼ 2.75,
-af ¼ 320,
-and bf ¼ 125.
+(2012), which are as follows:
+aN _ 2.75, af _ 320, and bf _ 125.
 The numerical results related to cyclic loading are depicted in
 Fig. 7. As observed from Fig. 7(a), the average excess pore water
 (a)
@@ -949,11 +388,7 @@ Initial coefficient of volume compressibility (mv)
 Initial void ratio (e0)
 1.32
 1.55a
-Slope of e −ln p 0 curve
-λ ¼ 0.17
-λ ¼ 0.15a
-κ ¼ 0.04
-κ ¼ 0.05a
+Slope of e −ln p 0 curve λ _ 0.17 λ _ 0.15a κ _ 0.04 κ _ 0.05a
 Depth of soft clay (H)
 600 mm
 300 mm
@@ -962,14 +397,10 @@ In situ earth pressure coefficient (K0)
 0.8b
 Sustained loading
 Sustained static loading p 0
-0
 30 kPa
-0
 Initial excess pore water pressure
-3 kPa (at r=re ¼ 0.37)
-0
-4.5 kPa (at r=re ¼ 0.90)
-0
+3 kPa (at r=re _ 0.37)
+4.5 kPa (at r=re _ 0.90)
 PVD/stone column
 Radius of PVD/stone column (rc)
 0.005 m
@@ -986,8 +417,7 @@ Radius factor of clogging (α)
 Permeability factor for clogging (αk)
 1.0
 1.0
-Cyclic loading parameters
-θ
+Cyclic loading parameters θ
 0.00053d
 Not required
 Note: PVD = prefabricated vertical drain.
@@ -995,420 +425,179 @@ aAssumed after Indraratna and Bamunawita (2002).
 bAssumed value (Hayashi et al. 2012; Tong et al. 2013).
 cAssumed after Han and Ye (2002).
 dAdopted after Ni (2012).
-© ASCE
 04015067-10
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-pressure increases with the number of cycles, showing a gradual
-stabilizing tendency, with increasing effects by the change in fre-
-quency and CSL. The observations are in good agreement with
-those of previous studies (Ni 2012; Ni et al. 2014). The increase
-in both the amplitude and the frequency of cyclic loading produces
-an accelerating effect on the generation of excess pore water pres-
-sure. During computations, it is observed that the MCC model
-yields satisfactory results for lower values of the number of cycles,
-frequency, and CSL (N ≤1,000, f ≤20, CSL ≤0.3). At higher
-magnitudes, the model is unable to capture the true cyclic behavior.
-This can be explained by the fact that the free-strain hypothesis
-initiates a parabolic ground settlement profile within the unit cell
-(Indraratna et al. 2013), inducing vertical shear stress components
-of significant magnitudes on the soil elements at higher load
-levels. This produces gradual rotation of the principal stress axes
-(Timoshenko and Goodier 1970), subsequently altering the values
-of p 0 and q. However, for lower values of the cyclic loading param-
-eters, the model seems to provide satisfactory results.
-The role of column stiffness in cyclic pore pressure buildup was
-studied by gradually increasing the steady stress concentration ratio
-ns in a range of 1–10 [Fig. 7(b)]. As observed, the cyclic excess
-pore water pressure decreases with increasing values of ns in an
-asymptotic stabilizing tendency, the rate of reduction being rapid
-in a range of 1 < ns < 3. This can be explained by the fact that the
-increasing value of ns induces a higher stress in the column, thereby
-decreasing the stress transfer to the soil, which ultimately
-reduces the effective stress p 0. This observation implies that under
-identical cyclic loading parameters (amplitude, frequency, and
-Fig. 6. Comparison of present cyclic model results with available data
-of (a) Ni (2012); (b) Raju et al. (2013)
+pressure increases with the number of cycles, showing a gradual stabilizing tendency, with increasing effects by the change in fre- quency and CSL. The observations are in good agreement with those of previous studies (Ni 2012; Ni et al. 2014). The increase in both the amplitude and the frequency of cyclic loading produces an accelerating effect on the generation of excess pore water pres- sure. During computations, it is observed that the MCC model yields satisfactory results for lower values of the number of cycles, frequency, and CSL (N ≤1,000, f ≤20, CSL ≤0.3). At higher magnitudes, the model is unable to capture the true cyclic behavior.
+This can be explained by the fact that the free-strain hypothesis initiates a parabolic ground settlement profile within the unit cell
+(Indraratna et al. 2013), inducing vertical shear stress components of significant magnitudes on the soil elements at higher load levels. This produces gradual rotation of the principal stress axes
+(Timoshenko and Goodier 1970), subsequently altering the values of p 0 and q. However, for lower values of the cyclic loading param- eters, the model seems to provide satisfactory results.
+The role of column stiffness in cyclic pore pressure buildup was studied by gradually increasing the steady stress concentration ratio ns in a range of 1–10 [Fig. 7(b)]. As observed, the cyclic excess pore water pressure decreases with increasing values of ns in an asymptotic stabilizing tendency, the rate of reduction being rapid in a range of 1 < ns < 3. This can be explained by the fact that the increasing value of ns induces a higher stress in the column, thereby decreasing the stress transfer to the soil, which ultimately reduces the effective stress p 0. This observation implies that under identical cyclic loading parameters (amplitude, frequency, and
+Fig. 6. Comparison of present cyclic model results with available data of (a) Ni (2012); (b) Raju et al. (2013)
 Fig. 7. Variation in average excess pore water pressure with (a) number of cycles; (b) stress concentration ratio
-© ASCE
 04015067-11
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-number of cycles), the excess pore water pressures developed in the
-stone column–reinforced ground is significantly less compared to
-that with PVDs.
-The present model and the equations derived are based on the
-assumption that compressive strains within the soil mass and the
-stone column occur only in the vertical direction, which inevitably
-implies a K0-condition to be represented in the unit cell. This sim-
-plified assumption has been successfully applied to several existing
-solutions (Han and Ye 2001, 2002; Wang 2009; Indraratna et al.
-2013). The authors do agree that lateral deformation of columns
-under a high embankment load is obvious owing to the limited lat-
-eral confinement caused by the surrounding soft soil (Zhang et al.
-2013), which initiates a passive state of the soil in the unit cell. It
-is true that higher magnitudes of cyclic loading (amplitude, fre-
-quency, and number of cycles) are likely to induce a significant
-buildup of excess pore water pressure in soft clay, thereby substan-
-tially reducing the column lateral confinement. However, for lower
-magnitudes of cyclic loading, the assumed K0-condition in the unit
-cell does not seem to affect the numerical results significantly, for
-example, the validation (Fig. 7). The proposed model predictions
-are satisfactory for lower magnitudes of cyclic loading.
-It is true that the volumetric compressibility of soft soil varies
-nonlinearly with the void ratio. Although the linear model previ-
-ously developed by the authors (Indraratna et al. 2013) was rela-
-tively simpler, accurate prediction was possible only with an
-appropriate choice of the soft soil compressibility (Indraratna et al.
-2005). In the proposed MCC model, on the other hand, only two
-additional soft soil parameters, e0 and λ, are required for compu-
-tation, and they can be determined using conventional oedometer
-tests (Gasparre 2005).
-Another major shortcoming of the earlier linear model is its in-
-ability to capture the effect of cyclic load. It is already established
-that the MCC theory, compared to the other existing solutions, has
-been largely successful in predicting soft clay behavior under cyclic
-loading that is applicable to transport infrastructure (Carter et al.
-1982; Ni et al. 2014). In the proposed model, the yield surface
-contraction and resulting buildup of cyclic excess pore water pres-
-sure has been captured to provide more realistic predictions.
+number of cycles), the excess pore water pressures developed in the stone column–reinforced ground is significantly less compared to that with PVDs.
+The present model and the equations derived are based on the assumption that compressive strains within the soil mass and the stone column occur only in the vertical direction, which inevitably implies a K0-condition to be represented in the unit cell. This sim- plified assumption has been successfully applied to several existing solutions (Han and Ye 2001, 2002; Wang 2009; Indraratna et al.
+2013). The authors do agree that lateral deformation of columns under a high embankment load is obvious owing to the limited lat- eral confinement caused by the surrounding soft soil (Zhang et al.
+2013), which initiates a passive state of the soil in the unit cell. It is true that higher magnitudes of cyclic loading (amplitude, fre- quency, and number of cycles) are likely to induce a significant buildup of excess pore water pressure in soft clay, thereby substan- tially reducing the column lateral confinement. However, for lower magnitudes of cyclic loading, the assumed K0-condition in the unit cell does not seem to affect the numerical results significantly, for example, the validation (Fig. 7). The proposed model predictions are satisfactory for lower magnitudes of cyclic loading.
+It is true that the volumetric compressibility of soft soil varies nonlinearly with the void ratio. Although the linear model previ- ously developed by the authors (Indraratna et al. 2013) was rela- tively simpler, accurate prediction was possible only with an appropriate choice of the soft soil compressibility (Indraratna et al.
+2005). In the proposed MCC model, on the other hand, only two additional soft soil parameters, e0 and λ, are required for compu- tation, and they can be determined using conventional oedometer tests (Gasparre 2005).
+Another major shortcoming of the earlier linear model is its in- ability to capture the effect of cyclic load. It is already established that the MCC theory, compared to the other existing solutions, has been largely successful in predicting soft clay behavior under cyclic loading that is applicable to transport infrastructure (Carter et al.
+1982; Ni et al. 2014). In the proposed model, the yield surface contraction and resulting buildup of cyclic excess pore water pres- sure has been captured to provide more realistic predictions.
 Model Limitations
-Although the MCC model captures the performance of stone
-column–reinforced soft ground under static and cyclic loadings,
-the model is unable to capture the load-settlement characteristics
-of a partially penetrated column which produce a vertical compo-
-nent of pore water flow in the soft soil (Han and Ye 2001). Also, at
-higher magnitudes of loading (static and cyclic), the effect of ro-
-tation of the principal stress axes due to obvious shear stresses in-
-duced in the soil and the column–soil interface (Indraratna et al.
-2013) is not captured by the MCC model. The effect of degradation
-in soft soil strength and stiffness initiated by cyclic stress (Basack
-and Dey 2012) is not included in the proposed model.
+Although the MCC model captures the performance of stone column–reinforced soft ground under static and cyclic loadings, the model is unable to capture the load-settlement characteristics of a partially penetrated column which produce a vertical compo- nent of pore water flow in the soft soil (Han and Ye 2001). Also, at higher magnitudes of loading (static and cyclic), the effect of ro- tation of the principal stress axes due to obvious shear stresses in- duced in the soil and the column–soil interface (Indraratna et al.
+2013) is not captured by the MCC model. The effect of degradation in soft soil strength and stiffness initiated by cyclic stress (Basack and Dey 2012) is not included in the proposed model.
 Conclusions
-A numerical solution for predicting the performance of stone
-column–reinforced soft ground supporting transport infrastructures
-has been developed based on the MCC model. The solution adopts
-a free-strain hypothesis under unit cell conditions. A comparison of
-the numerical results with the available field data and previous
-theoretical studies validates the proposed model. It indicates that
-adoption of nonlinear variation of soft soil compressibility against
-its void ratio as per the MCC model initiates a retarding effect on
-the consolidation characteristics compared to the conventional lin-
-ear model, with the deviation being as high as 30–40%. Compared
-to the excess pore water pressure, the values of ground settlement
-were observed to be more affected by the variation in the model
-parameters e0 and λ. The ground settlement, having a direct cor-
-relation with the parameter mv, is highly sensitive to these param-
-eters. An asymptotic stabilizing tendency of the time pattern of
-variation in ground settlement was found, except for the initial time
-(T 0r < 0.001), where a slight reverse curvature is noted. With in-
-creasing values of the initial void ratio e0 of the soft clay, both
-the excess pore water pressure and settlement increase following
-a curvilinear pattern with ascending slopes. Conversely, increasing
-values of the slope λ of the e −ln p 0 curve produced a curvilinear
-decrease in the values of the average excess pore water pressure
-and ground settlement with descending slopes. The rate of change
-in the slope of these curves has been observed to increase with the
-value of T 0r.
-Under cyclic loading, the excess pore water pressure is observed
-to build up with the number of cycles, with a gradual stabilizing
-tendency. The increase in both the amplitude and the frequency
-of cyclic loading produces an accelerating effect on the generation
-of excess pore water pressure. However, for higher cyclic loads, the
-model is unable to capture the true response possibly owing to the
-rotation of the principal axes induced by the significant shear stress
-components. The generation of cyclic excess pore water pressure
-decreases asymptotically with increasing values of the steady-stress
-concentration ratio ns, the rate of reduction being quite sharp for
-1 < ns < 3. Under identical cyclic loading parameters, a smaller
-excess pore water pressure was developed for stone column–
-reinforced soft ground compared to PVDs.
-It is evident that in contrast to the possible convenience of
-the current nonlinear approach, the accuracy of the predicted
-consolidation and settlement characteristics of reinforced soft
-ground is possible only with an appropriate choice of MCC model
-parameters.
+A numerical solution for predicting the performance of stone column–reinforced soft ground supporting transport infrastructures has been developed based on the MCC model. The solution adopts a free-strain hypothesis under unit cell conditions. A comparison of the numerical results with the available field data and previous theoretical studies validates the proposed model. It indicates that adoption of nonlinear variation of soft soil compressibility against its void ratio as per the MCC model initiates a retarding effect on the consolidation characteristics compared to the conventional lin- ear model, with the deviation being as high as 30–40%. Compared to the excess pore water pressure, the values of ground settlement were observed to be more affected by the variation in the model parameters e0 and λ. The ground settlement, having a direct cor- relation with the parameter mv, is highly sensitive to these param- eters. An asymptotic stabilizing tendency of the time pattern of variation in ground settlement was found, except for the initial time
+(T 0r < 0.001), where a slight reverse curvature is noted. With in- creasing values of the initial void ratio e0 of the soft clay, both the excess pore water pressure and settlement increase following a curvilinear pattern with ascending slopes. Conversely, increasing values of the slope λ of the e −ln p 0 curve produced a curvilinear decrease in the values of the average excess pore water pressure and ground settlement with descending slopes. The rate of change in the slope of these curves has been observed to increase with the value of T 0r.
+Under cyclic loading, the excess pore water pressure is observed to build up with the number of cycles, with a gradual stabilizing tendency. The increase in both the amplitude and the frequency of cyclic loading produces an accelerating effect on the generation of excess pore water pressure. However, for higher cyclic loads, the model is unable to capture the true response possibly owing to the rotation of the principal axes induced by the significant shear stress components. The generation of cyclic excess pore water pressure decreases asymptotically with increasing values of the steady-stress concentration ratio ns, the rate of reduction being quite sharp for
+1 < ns < 3. Under identical cyclic loading parameters, a smaller excess pore water pressure was developed for stone column– reinforced soft ground compared to PVDs.
+It is evident that in contrast to the possible convenience of the current nonlinear approach, the accuracy of the predicted consolidation and settlement characteristics of reinforced soft ground is possible only with an appropriate choice of MCC model parameters.
 Fig. 8. Arching effect
-© ASCE
 04015067-12
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
 Appendix. Mathematical Derivations
-Referring to Fig. 8, the compatibility equation related to the
-element in the embankment material (Timoshenko and Goodier
+Referring to Fig. 8, the compatibility equation related to the element in the embankment material (Timoshenko and Goodier
 1970) is given by
 ∂σR
 ∂R þ σR −σθ
-R
-þ γe ¼ 0
-ð19Þ
-Following the limit state analysis of Low et al. (1994),
-σθ ¼ KpσR, where Kp is the passive earth pressure coefficient
-of the embankment material and σR and σθ are the normal stress
-components on the element in terms of the polar coordinates (R, θ).
-Solving the preceding differential equation and using the appropri-
-ate boundary condition regarding the stress at the inner crown B,
-where R ¼ re −rc, the following correlation is obtained (Low et al.
+R þ γe _ 0 ð19Þ
+Following the limit state analysis of Low et al. (1994), σθ _ KpσR, where Kp is the passive earth pressure coefficient of the embankment material and σR and σθ are the normal stress components on the element in terms of the polar coordinates (R, θ).
+Solving the preceding differential equation and using the appropri- ate boundary condition regarding the stress at the inner crown B, where R _ re −rc, the following correlation is obtained (Low et al.
 1994; Abusharar et al. 2009):
-σRB ¼ ðws þ γeHeÞ
-1 −1=N
-Kp −2
-re
-H
-þ ð1 −1=NÞKp−2
-
+σRB _ ðws þ γeHeÞ
+1 −1=N
+Kp −2 re
+H þ ð1 −1=NÞKp−2
+
 1 −Kp −1
-Kp −2
-re
+Kp −2 re
 H
-
-ð20Þ
-where σRB is normal stress at Point B.
-Using the preceding expression, the normal stress imposed on
-the soft clay surface at the unit cell boundary (Point A) has been
-derived, as given previously in Eq. (5). More details of this deri-
-vation have been published elsewhere (Indraratna et al. 2013).
+ ð20Þ where σRB is normal stress at Point B.
+Using the preceding expression, the normal stress imposed on the soft clay surface at the unit cell boundary (Point A) has been derived, as given previously in Eq. (5). More details of this deri- vation have been published elsewhere (Indraratna et al. 2013).
 Acknowledgments
-The authors gratefully acknowledge the financial support received
-from the Australian Research Council and industry partners,
-namely, Coffey Geotechnics and Keller Ground Engineering, in
-the form of an industry linkage project. The authors are grateful
-to Dr. Rohan Walker for editing the manuscript for better clarity.
+The authors gratefully acknowledge the financial support received from the Australian Research Council and industry partners, namely, Coffey Geotechnics and Keller Ground Engineering, in the form of an industry linkage project. The authors are grateful to Dr. Rohan Walker for editing the manuscript for better clarity.
 Supplemental Data
-More details of the numerical analysis used in this study are intro-
-duced in a supplemental appendix, which is available online in the
+More details of the numerical analysis used in this study are intro- duced in a supplemental appendix, which is available online in the
 ASCE Library (www.ascelibrary.org).
 Notation
 The following symbols are used in this paper:
-af, aN, bf = cyclic degradation constants;
-cg = geometrical constant;
-de = unit cell diameter;
-e = void ratio;
-e0 = initial void ratio;
-f = frequency;
+af, aN, bf = cyclic degradation constants; cg = geometrical constant; de = unit cell diameter; e = void ratio; e0 = initial void ratio; f = frequency;
 FðN; nsÞ = stress function;
 F1ðNÞ, F2ðfÞ = cyclic degradation functions;
 H = thickness of soft clay deposit;
 He = height of embankment;
-K0 = in situ earth pressure coefficient at rest;
-kh = horizontal soil permeability;
-ks = horizontal permeability of smear zone;
-kcl = horizontal permeability of clogged zone;
+K0 = in situ earth pressure coefficient at rest; kh = horizontal soil permeability; ks = horizontal permeability of smear zone; kcl = horizontal permeability of clogged zone;
 Kp = passive earth pressure coefficient of embankment;
-M = slope of critical state line;
-mv = soil volume compressibility;
-mvrt = nodal soil volumetric compressibility
-at point (r, t);
-N = re=rc;
-nr, nz, nt = number of divisions;
-ns = steady-state concentration ratio;
-p 0 = mean effective stress;
-p 0
+M = slope of critical state line; mv = soil volume compressibility; mvrt = nodal soil volumetric compressibility at point (r, t);
+N = re=rc; nr, nz, nt = number of divisions; ns = steady-state concentration ratio; p 0 = mean effective stress; p 0
 A, p 0
-B = mean effective stresses at Points A and B,
-respectively;
-p 0
-L1 = mean effective stress related to first loading cycle;
-p 0
-U1 = mean effective stress related to first unloading
-cycle;
-p 0
-U1 = mean effective stress related to first unloading
-cycle;
-p 0
-y2 = mean effective stress related to cyclic elastic limit;
-q = deviatoric stress;
-qA, qB, qD = deviatoric stresses at Points A, B, and D,
-respectively;
-r = radial coordinate of unit cell;
-rc = radius of stone column;
-r 0c = radius of stone column excluding clogged zone;
-re = radius of influence of one stone column;
-rs = radius of smear zone;
-s = column spacing;
-t = time coordinate;
-tt = total time of consolidation;
-T 0r = modified time factor;
-urt = excess pore water pressure;
-uavt = average excess pore water pressure;
-ws = surcharge load intensity on embankment surface;
-w0 = average vertical stress on unit cell upper boundary;
-wc = cyclic stress amplitude;
-wðrÞ = vertical stress on ground surface at radial distance
-of r;
-wcol = average vertical stress on top of column;
-z = depth coordinate;
-α = radius factor for clogging;
-αk = permeability factor for clogging;
-δr = length of an element on radial axis;
-δt = length of an element on time axis;
-δz = length of an element on depth axis;
-γ 0 = effective unit weight of soil;
-γe = unit weight of fill;
-γw = unit weight of water;
-λ = slope of e −ln p 0 curve;
-ρrzt = vertical displacement of a soil nodal point;
-ρavt = average ground settlement; and
-θ = cyclic degradation parameter.
+B = mean effective stresses at Points A and B, respectively; p 0
+L1 = mean effective stress related to first loading cycle; p 0
+U1 = mean effective stress related to first unloading cycle; p 0
+U1 = mean effective stress related to first unloading cycle; p 0 y2 = mean effective stress related to cyclic elastic limit; q = deviatoric stress; qA, qB, qD = deviatoric stresses at Points A, B, and D, respectively; r = radial coordinate of unit cell; rc = radius of stone column; r 0c = radius of stone column excluding clogged zone; re = radius of influence of one stone column; rs = radius of smear zone; s = column spacing; t = time coordinate; tt = total time of consolidation;
+T 0r = modified time factor; urt = excess pore water pressure; uavt = average excess pore water pressure; ws = surcharge load intensity on embankment surface; w0 = average vertical stress on unit cell upper boundary; wc = cyclic stress amplitude; wðrÞ = vertical stress on ground surface at radial distance of r; wcol = average vertical stress on top of column; z = depth coordinate; α = radius factor for clogging; αk = permeability factor for clogging; δr = length of an element on radial axis; δt = length of an element on time axis; δz = length of an element on depth axis; γ 0 = effective unit weight of soil; γe = unit weight of fill; γw = unit weight of water; λ = slope of e −ln p 0 curve; ρrzt = vertical displacement of a soil nodal point; ρavt = average ground settlement; and θ = cyclic degradation parameter.
 References
-Abusharar, S. W., Zheng, J. J., Chen, B. B., and Yin, J. H. (2009). “A
-simplified method for analysis of a piled embankment reinforced with
-geosynthetics.” Geotext. Geomembr., 27(1), 39–52.
-Adalier, K., and Elgamal, A. (2004). “Mitigation of liquefaction and asso-
-ciated ground deformations by stone columns.” Eng. Geol., 72(3–4),
+Abusharar, S. W., Zheng, J. J., Chen, B. B., and Yin, J. H. (2009). “A simplified method for analysis of a piled embankment reinforced with geosynthetics.” Geotext. Geomembr., 27(1), 39–52.
+Adalier, K., and Elgamal, A. (2004). “Mitigation of liquefaction and asso- ciated ground deformations by stone columns.” Eng. Geol., 72(3–4),
 275–291.
 Alamgir, M., Miura, N., Pooorooshasb, H. B., and Madhav, M. R. (1996).
-“Deformational analysis of soft ground reinforced by columnar inclu-
-sions.” Comput. Geotech., 18(4), 267–290.
-Balaam, N. P., and Booker, J. R. (1981). “Analysis of rigid rafts sup-
-ported by granular piles.” Int. J. Numer. Analyt. Meth. Geomech., 5(4),
+“Deformational analysis of soft ground reinforced by columnar inclu- sions.” Comput. Geotech., 18(4), 267–290.
+Balaam, N. P., and Booker, J. R. (1981). “Analysis of rigid rafts sup- ported by granular piles.” Int. J. Numer. Analyt. Meth. Geomech., 5(4),
 379–403.
 Barron, R. A. (1947). “Consolidation of fine-grained soils by drain wells.”
 Proc. ASCE, 73(6), 811–835.
-© ASCE
 04015067-13
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-Basack, S. (2010). “A study on effectiveness of vertical drains for improv-
-ing long term performance of soft clay deposits with particular reference
-to stone columns.” Final Tech. Rep., Endeavour Postdoctoral Research
-Fellowship 1524_2010, Centre for Geomechanics and Railway Engi-
-neering, Univ. of Wollongong, Wollongong, NSW, Australia.
-Basack, S., and Dey, S. (2012). “Influence of relative pile-soil stiffness and
-load eccentricity on single pile response in sand under lateral cyclic
-loading.” Geotech. Geol. Eng., 30(4), 737–751.
-Black, J., Sivakumar, V., Madhav, M., and Hamill, G. (2007). “Reinforced
-stone columns in weak deposits: Laboratory model study.” J. Geotech.
+Basack, S. (2010). “A study on effectiveness of vertical drains for improv- ing long term performance of soft clay deposits with particular reference to stone columns.” Final Tech. Rep., Endeavour Postdoctoral Research
+Fellowship 1524_2010, Centre for Geomechanics and Railway Engi- neering, Univ. of Wollongong, Wollongong, NSW, Australia.
+Basack, S., and Dey, S. (2012). “Influence of relative pile-soil stiffness and load eccentricity on single pile response in sand under lateral cyclic loading.” Geotech. Geol. Eng., 30(4), 737–751.
+Black, J., Sivakumar, V., Madhav, M., and Hamill, G. (2007). “Reinforced stone columns in weak deposits: Laboratory model study.” J. Geotech.
 Geoenviron.
 Eng.,
 10.1061/(ASCE)1090-0241(2007)133:9(1154),
 1154–1161.
-Blewett, J., and Woodward, P. K. (2001). “The dissipation of excess
-pore pressures in contractive vibro-columns at small strains.” Ground
+Blewett, J., and Woodward, P. K. (2001). “The dissipation of excess pore pressures in contractive vibro-columns at small strains.” Ground
 Improv., 5(2), 85–93.
-Bouassida, M., and Carter, J. (2014). “Optimization of design of column-
-reinforced foundations.” Int. J. Geomech., 10.1061/(ASCE)GM.1943-
+Bouassida, M., and Carter, J. (2014). “Optimization of design of column- reinforced foundations.” Int. J. Geomech., 10.1061/(ASCE)GM.1943-
 5622.0000384, 04014031.
-Bouassida, M., and Hazzar, L. (2012). “Novel tool for optimised design of
-reinforced soils by columns.” Ground Improv., 165(1), 31–40.
-Britto, A. M., and Gunn, M. J. (1987). Critical state soil mechanics via
-finite elements, Ellis Horwood, Chichester, U.K.
-Carter, J. P., Booker, J. R., and Wroth, C. P. (1982). “A critical state soil
-model for cyclic loading.” Soil mechanics-transient and cyclic loading,
+Bouassida, M., and Hazzar, L. (2012). “Novel tool for optimised design of reinforced soils by columns.” Ground Improv., 165(1), 31–40.
+Britto, A. M., and Gunn, M. J. (1987). Critical state soil mechanics via finite elements, Ellis Horwood, Chichester, U.K.
+Carter, J. P., Booker, J. R., and Wroth, C. P. (1982). “A critical state soil model for cyclic loading.” Soil mechanics-transient and cyclic loading,
 Wiley, Chichester, U.K., 219–252.
 Castro, J., and Sagaseta, C. (2009). “Consolidation around stone columns:
 Influence of column deformation.” Int. J. Numer. Anal. Methods
 Geomech., 33(7), 851–877.
-Deb, K. (2010). “A mathematical model to study the soil arching effect in
-stone column-supported embankment resting on soft foundation soil.”
+Deb, K. (2010). “A mathematical model to study the soil arching effect in stone column-supported embankment resting on soft foundation soil.”
 Appl. Math. Modell., 34(12), 3871–3883.
-Duncan, J. M., and Chang, C.-Y. (1970). “Nonlinear analysis of stress and
-strain of soil.” J. Soil Mech. Found. Div., 96(5), 1629–1653.
+Duncan, J. M., and Chang, C.-Y. (1970). “Nonlinear analysis of stress and strain of soil.” J. Soil Mech. Found. Div., 96(5), 1629–1653.
 Eriksson, U., Hansbo, S., and Torstensson,
-B. A. (2000). “Soil
-improvement at Stockholm-Arlande airport.” Ground Improv., 4(2),
+B. A. (2000). “Soil improvement at Stockholm-Arlande airport.” Ground Improv., 4(2),
 73–80.
-Fahey, M., and Carter, J. P. (1993). “A finite element study of the pressure-
-meter test in sand using a nonlinear elastic plastic model.” Can.
+Fahey, M., and Carter, J. P. (1993). “A finite element study of the pressure- meter test in sand using a nonlinear elastic plastic model.” Can.
 Geotech. J., 30(2), 348–362.
-Gasparre, A. (2005). “Advanced laboratory characterisation of London
-clay.” Ph.D. thesis, Dept. of Civil and Environmental Engineering,
+Gasparre, A. (2005). “Advanced laboratory characterisation of London clay.” Ph.D. thesis, Dept. of Civil and Environmental Engineering,
 Imperial College London.
 Ghandeharioon, A., Indraratna, B., and Rujikiatkamjorn, C. (2010).
-“Analysis of soil disturbance associated with mandrel-driven prefabri-
-cated vertical drains using an elliptical cavity expansion theory.” Int. J.
+“Analysis of soil disturbance associated with mandrel-driven prefabri- cated vertical drains using an elliptical cavity expansion theory.” Int. J.
 Geomech., 10.1061/(ASCE)GM.1943-5622.0000027, 53–64.
-Guetif, T., Bouassida, M., and Debats, J. M. (2007). “Improved soft clay
-characteristics due to stone column installation.” Comput. Geotech.,
+Guetif, T., Bouassida, M., and Debats, J. M. (2007). “Improved soft clay characteristics due to stone column installation.” Comput. Geotech.,
 34(2), 104–111.
 Han, J., and Ye, S. L. (2001). “Simplified method for consolidation rate of
-stone column reinforced foundations.” J. Geotech. Geoenviron. Eng.,
 10.1061/(ASCE)1090-0241(2001)127:7(597), 597–603.
-Han, J., and Ye, S. L. (2002). “A theoretical solution for consolidation rates
-for stone column reinforced foundations accounting for smear and well
-resistance effects.” Int. J. Geomech., 10.1061/(ASCE)1532-3641(2002)
+Han, J., and Ye, S. L. (2002). “A theoretical solution for consolidation rates for stone column reinforced foundations accounting for smear and well resistance effects.” Int. J. Geomech., 10.1061/(ASCE)1532-3641(2002)
 2:2(135), 135–151.
 Hayashi, H., Yamazoe, N., Mitachi, T., Tanaka, H., and Nishimoto, S.
-(2012). “Coefficient of earth pressure at rest for normally and over-
-consolidated peat ground in Hokkaido area.” Soils Found., 52(2),
+(2012). “Coefficient of earth pressure at rest for normally and over- consolidated peat ground in Hokkaido area.” Soils Found., 52(2),
 299–311.
 Kelly, R. (2014). “Field testing at Ballina 2014.” Annual Workshop of the
 Centre of Excellence in Geotechnical Science and Engineering, Port
 Stephens, NSW, Australia.
-Indraratna, B. (2010). “Recent advances in the application of vertical drains
-and vacuum preloading in soft soil stabilisation.” Aust. Geomech. J.,
+Indraratna, B. (2010). “Recent advances in the application of vertical drains and vacuum preloading in soft soil stabilisation.” Aust. Geomech. J.,
 45(2), 1–43.
-Indraratna, B., Attya, A., and Rujikiatkamjorn, C. (2009a). “Experimental
-investigation on effectiveness of a vertical drain under cyclic loads.” J.
+Indraratna, B., Attya, A., and Rujikiatkamjorn, C. (2009a). “Experimental investigation on effectiveness of a vertical drain under cyclic loads.” J.
 Geotech. Geoenviron. Eng., 10.1061/(ASCE)GT.1943-5606.0000006,
 835–839.
-Indraratna, B., and Bamunawita, C. I. (2002). “Soft clay stabilized by man-
-drel driven geosynthetic vertical drains.” Aust. Geomech., 37(5), 57–86.
-Indraratna, B., Basack, S., and Rujikiatkamjorn, C. (2013). “Numerical
-solution to stone column reinforced soft ground considering arching,
-clogging and smear effects.” J. Geotech. Geoenviron. Eng., 10.1061/
+Indraratna, B., and Bamunawita, C. I. (2002). “Soft clay stabilized by man- drel driven geosynthetic vertical drains.” Aust. Geomech., 37(5), 57–86.
+Indraratna, B., Basack, S., and Rujikiatkamjorn, C. (2013). “Numerical solution to stone column reinforced soft ground considering arching,
 (ASCE)GT.1943-5606.0000789, 377–394.
-Indraratna, B., Perera, D., Rujikiatkamjorn, C., and Kelly, R. (2014). “Soil
-disturbance analysis due to vertical drain installation.” Geotech. Eng.,
+Indraratna, B., Perera, D., Rujikiatkamjorn, C., and Kelly, R. (2014). “Soil disturbance analysis due to vertical drain installation.” Geotech. Eng.,
 167(GE1), 1–11.
-Indraratna, B., Rujikiatkamjorn, C., Kelly, R., and Buys, H. (2009b). “Soft
-soil foundation improved by vacuum and surcharge preloading at
+Indraratna, B., Rujikiatkamjorn, C., Kelly, R., and Buys, H. (2009b). “Soft soil foundation improved by vacuum and surcharge preloading at
 Ballina bypass, Australia.” Proc., Int. Symp. Ground Improvement
 Technologies and Case Histories (ISGI09), Geotechnical Society of
 Singapore, Singapore, 95–105.
-Indraratna, B., Rujikiatkamjorn, C., and Sathananthan, I. (2005). “Radial
-consolidation of clay using compressibility indices and varying
-horizontal permeability.” Can. Geotech. J., 42(5), 1330–1341.
-Indraratna, B., Thakur, P. K., and Vinod, J. S. (2010). “Experimental and
-numerical study of railway ballast behavior under cyclic loading.” Int. J.
+Indraratna, B., Rujikiatkamjorn, C., and Sathananthan, I. (2005). “Radial consolidation of clay using compressibility indices and varying horizontal permeability.” Can. Geotech. J., 42(5), 1330–1341.
+Indraratna, B., Thakur, P. K., and Vinod, J. S. (2010). “Experimental and numerical study of railway ballast behavior under cyclic loading.” Int. J.
 Geomech., 10.1061/(ASCE)GM.1943-5622.0000055, 136–144.
 Kirsch, K., and Bell, A. (2012). Ground improvement, 3rd Ed., CRC Press,
 Boca Raton, FL.
 Lorenzo, G., and Bergado, D. (2004). “Fundamental parameters of cement-
-admixed clay—New approach.” J. Geotech. Geoenviron. Eng., 10
 .1061/(ASCE)1090-0241(2004)130:10(1042), 1042–1050.
-Low, B. K., Tang, S. K., and Choa, V. (1994). “Arching in piled embank-
-ments.” J. Geotech. Eng., 10.1061/(ASCE)0733-9410(1994)120:11
+Low, B. K., Tang, S. K., and Choa, V. (1994). “Arching in piled embank- ments.” J. Geotech. Eng., 10.1061/(ASCE)0733-9410(1994)120:11
 (1917), 1917–1938.
-Mita, K. A., Dasari, G. R., and Lo, K. W. (2004). “Performance of a three-
-dimensional hvorslev-modified cam clay model for overconsolidated
-clay.” Int. J. Geomech., 10.1061/(ASCE)1532-3641(2004)4:4(296),
+Mita, K. A., Dasari, G. R., and Lo, K. W. (2004). “Performance of a three- dimensional hvorslev-modified cam clay model for overconsolidated clay.” Int. J. Geomech., 10.1061/(ASCE)1532-3641(2004)4:4(296),
 296–309.
-Murugesan, S., and Rajagopal, K. (2010). “Studies on the behavior
-of single and group of geosynthetic encased stone columns.” J. Geotech.
+Murugesan, S., and Rajagopal, K. (2010). “Studies on the behavior of single and group of geosynthetic encased stone columns.” J. Geotech.
 Geoenviron. Eng., 10.1061/(ASCE)GT.1943-5606.0000187, 129–139.
-Ni, J. (2012). “Application of geosynthetic vertical drains under cyclic
-loads in stabilizing track.” Ph.D. thesis, School of Civil, Mining and
+Ni, J. (2012). “Application of geosynthetic vertical drains under cyclic loads in stabilizing track.” Ph.D. thesis, School of Civil, Mining and
 Environmental Engineering, Univ. of Wollongong, Wollongong, NSW,
 Australia.
 Ni, J., Indraratna, B., Geng, X. Y., Carter, J. P., and Chen, Y. L. (2014).
 “Model of soft soils under cyclic loading.” Int. J. Geomech.,
 10.1061/(ASCE)GM.1943-5622.0000411, 04014067.
-Oh, E. Y. N., et al. (2007). “Behaviour of a highway embankment on
-stone column improved estuarine clay.” Proc., 16th Southeast Asian
+Oh, E. Y. N., et al. (2007). “Behaviour of a highway embankment on stone column improved estuarine clay.” Proc., 16th Southeast Asian
 Geotechnical Conf., Vol. 1, Southeast Asian Geotechnical Society,
 Asian Institute of Technology, Bangkok, Thailand, 567–572.
 Raju, K. V. S. B., Chandrasekhar, A. S., and Chidanand, N. G. (2012).
-“A comparative study of load-settlement response of black cotton
-soil using stone columns with and without encasement of geosyn-
-thetics.” Proc., Indian Geotechnical Conf., Vol. 1, Indian Institute of
+“A comparative study of load-settlement response of black cotton soil using stone columns with and without encasement of geosyn- thetics.” Proc., Indian Geotechnical Conf., Vol. 1, Indian Institute of
 Technology, Delhi, India, 400–403.
-Raju, K. V. S. B., Govindaraju, L., and Chandrasekhar, A. S. (2013). “Cyclic
-response of stone columns.” Int. J. Sci. Eng. Res., 4(5), 29–32.
-Redana, I. W. (1999). “Effectiveness of vertical drains in soft clay with
-special reference to smear effect.” Ph.D. thesis, School of Civil, Mining
-and Environmental Engineering, Univ. of Wollongong, Wollongong,
+Raju, K. V. S. B., Govindaraju, L., and Chandrasekhar, A. S. (2013). “Cyclic response of stone columns.” Int. J. Sci. Eng. Res., 4(5), 29–32.
+Redana, I. W. (1999). “Effectiveness of vertical drains in soft clay with special reference to smear effect.” Ph.D. thesis, School of Civil, Mining and Environmental Engineering, Univ. of Wollongong, Wollongong,
 NSW, Australia.
-Roscoe, K. H., and Burland, J. B. (1968). “On the generalised stress-
-strain behaviour of ‘wet’ clay.” Engineering plasticity, J. Heyman
-and F. A. Leckie, eds., Cambridge University Press, Cambridge,
+Roscoe, K. H., and Burland, J. B. (1968). “On the generalised stress- strain behaviour of ‘wet’ clay.” Engineering plasticity, J. Heyman and F. A. Leckie, eds., Cambridge University Press, Cambridge,
 U.K., 535–609.
-Seed, H. B., and Booker, J. R. (1977). “Stabilization of potentially liquefi-
-able sand deposits using gravel drains.” J. Geotech. Eng. Div., 103
+Seed, H. B., and Booker, J. R. (1977). “Stabilization of potentially liquefi- able sand deposits using gravel drains.” J. Geotech. Eng. Div., 103
 (GT7), 757–768.
 Sivakumar, V., McKelvey, D., Graham, J., and Hughes, D. (2004).
 “Triaxial tests on model sand columns in clay.” Can. Geotech. J.,
@@ -1416,35 +605,18 @@ Sivakumar, V., McKelvey, D., Graham, J., and Hughes, D. (2004).
 Terzaghi, K. (1943). Theoretical soil mechanics, Wiley, New York.
 Timoshenko, S. P., and Goodier, J. P. (1970). Theory of elasticity,
 McGraw-Hill, New York.
-© ASCE
 04015067-14
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.
-Tong, L., Liu, L., Cai, G., and Du, G. (2013). “Assessing the coefficient
-of the earth pressure at rest from shear wave velocity and electrical
-resistivity measurements.” Eng. Geol., 163(19), 122–131.
-Townsend, F. C., and Anderson, J. B. (2004). “A compendium of ground
-modification techniques.” Final Tech. Rep., Florida DOT, FL.
-Walker, R., and Indraratna, B. (2006). “Vertical drain consolidation with
-parabolic distribution of permeability in smear zone.” J. Geotech. Geo-
-environ. Eng., 10.1061/(ASCE)1090-0241(2006)132:7(937), 937–941.
-Walker, R., Indraratna, B., and Rujikiatkamjorn, C. (2012). “Vertical
-drain consolidation with non-darcian flow and void-ratio-dependent
-compressibility and permeability.” Geotech., 62(11), 985–997.
-Wang, G. (2009). “Consolidation of soft soil foundations reinforced by
-stone columns under time dependant loading.” J. Geotech. Geoenviron.
+Tong, L., Liu, L., Cai, G., and Du, G. (2013). “Assessing the coefficient of the earth pressure at rest from shear wave velocity and electrical resistivity measurements.” Eng. Geol., 163(19), 122–131.
+Townsend, F. C., and Anderson, J. B. (2004). “A compendium of ground modification techniques.” Final Tech. Rep., Florida DOT, FL.
+Walker, R., and Indraratna, B. (2006). “Vertical drain consolidation with parabolic distribution of permeability in smear zone.” J. Geotech. Geo- environ. Eng., 10.1061/(ASCE)1090-0241(2006)132:7(937), 937–941.
+Walker, R., Indraratna, B., and Rujikiatkamjorn, C. (2012). “Vertical drain consolidation with non-darcian flow and void-ratio-dependent compressibility and permeability.” Geotech., 62(11), 985–997.
+Wang, G. (2009). “Consolidation of soft soil foundations reinforced by stone columns under time dependant loading.” J. Geotech. Geoenviron.
 Eng., 10.1061/(ASCE)GT.1943-5606.0000178, 1922–1931.
 Weber, T. M., Plotze, M., Laue, J., Peschke, G., and Springman, S. M.
-(2010). “Smear zone identification and soil properties around stone
-columns constructed in-flight in centrifuge model tests.” Géotechnique,
+(2010). “Smear zone identification and soil properties around stone columns constructed in-flight in centrifuge model tests.” Géotechnique,
 60(3), 197–206.
-Zhang, L., Zhao, M., Shi, C., and Zhao, H. (2013). “Settlement
-calculation of composite foundation reinforced with stone col-
-umns.” Int. J. Geomech., 10.1061/(ASCE)GM.1943-5622.0000212,
+Zhang, L., Zhao, M., Shi, C., and Zhao, H. (2013). “Settlement calculation of composite foundation reinforced with stone col- umns.” Int. J. Geomech., 10.1061/(ASCE)GM.1943-5622.0000212,
 248–256.
-© ASCE
 04015067-15
-J. Geotech. Geoenviron. Eng.
-J. Geotech. Geoenviron. Eng. 
 Downloaded from ascelibrary.org by University of Exeter on 07/30/15. Copyright ASCE. For personal use only; all rights reserved.

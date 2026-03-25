@@ -1,0 +1,37 @@
+Soil physics
+Soil physics is the study of soil's physical properties and processes. It is applied to management and prediction under natural and managed ecosystems. Soil physics deals with the dynamics of physical soil components and their phases as solids, liquids, and gases. It draws on the principles of physics, physical chemistry, engineering, and meteorology. Soil physics applies these principles to address practical problems of agriculture, ecology, and engineering.[1]
+Edgar Buckingham (1867–1940)
+The theory of gas diffusion in soil and vadose zone water flow in soil.
+Willard Gardner (1883–1964)
+First to use porous cups and manometers for capillary potential measurements and accurately predicted the moisture distribution above a water table.[2]
+Lorenzo A. Richards (1904–1993)
+General transport of water in unsaturated soil, measurement of soil water potential using tensiometer.
+John R. Philip (1927–1999)
+Analytical solution to general soil water transport, Environmental Mechanics.
+Martinus Theodorus van Genuchten (1945-)
+Water retention and hydraulic conductivity functions.
+Agrophysics
+Bulk density
+Capacitance probe
+Frequency domain sensor
+Geotechnical engineering
+Irrigation
+Irrigation scheduling
+Neutron probe
+Soil mechanics
+Soil porosity
+Prominent soil physicists
+See also
+Soil thermal properties
+Time domain reflectometer
+Water content
+1. Lal, Rattan; Manoj Shukla (2004). Principles of Soil Physics (https://books.google.com/book s?id=3leGCMKvPZwC). CRC Press. p. 5. ISBN 0-8247-5324-0.
+2. Sterling A. Taylor: Willard Gardner, 1883-1964. Soil Science 100(2), 1965.
+Horton, Horn, Bachmann & Peth eds. 2016: Essential Soil Physics (http://schweizerbart.co m/9783510652884) Schweizerbart, ISBN 978-3-510-65288-4
+Encyclopedia of Soil Science, edts. Ward Chesworth, 2008, Uniw. of Guelph Canada, Publ.
+Springer, ISBN 978-1-4020-3994-2
+Media related to Soil physics at Wikimedia Commons
+SSSA Soil Physics Division (https://www.soils.org/membership/divisions/s01/)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Soil_physics&oldid=1339559575"
+Notes
+External links

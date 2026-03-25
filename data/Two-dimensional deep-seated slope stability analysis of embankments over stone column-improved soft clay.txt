@@ -1,24 +1,11 @@
-This article appeared in a journal published by Elsevier. The attached
-copy is furnished to the author for internal non-commercial research
-and education use, including for instruction at the authors institution
-and sharing with colleagues.
-Other uses, including reproduction and distribution, or selling or
-licensing copies, or posting to personal, institutional or third party
-websites are prohibited.
-In most cases authors are permitted to post their version of the
-article (e.g. in Word or Tex form) to their personal website or
-institutional repository. Authors requiring further information
-regarding Elsevier’s archiving and manuscript policies are
-encouraged to visit:
+This article appeared in a journal published by Elsevier. The attached copy is furnished to the author for internal non-commercial research and education use, including for instruction at the authors institution and sharing with colleagues.
+Other uses, including reproduction and distribution, or selling or licensing copies, or posting to personal, institutional or third party websites are prohibited.
+In most cases authors are permitted to post their version of the article (e.g. in Word or Tex form) to their personal website or institutional repository. Authors requiring further information regarding Elsevier’s archiving and manuscript policies are encouraged to visit:
 http://www.elsevier.com/copyright
 Author's personal copy
-Two-dimensional deep-seated slope stability analysis of embankments over stone
-column-improved soft clay
+Two-dimensional deep-seated slope stability analysis of embankments over stone column-improved soft clay
 Sari W. Abusharar, Jie Han ⁎
-Dept. of Civil, Environmental, and Architectural Engineering (CEAE), the University of Kansas, 1530 West 15th St., Lawrence, Kansas 66049–7609, USA
-a b s t r a c t
-a r t i c l e
-i n f o
+Dept. of Civil, Environmental, and Architectural Engineering (CEAE), the University of Kansas, 1530 West 15th St., Lawrence, Kansas 66049–7609, USA a b s t r a c t a r t i c l e i n f o
 Article history:
 Received 5 July 2010
 Received in revised form 26 March 2011
@@ -32,154 +19,39 @@ Slope stability
 Soft clay
 Stone column
 A two-dimensional (2D) ﬁnite difference method was adopted in this study to estimate the factor of safety
-(FS) against deep-seated failure of embankments over stone column-improved soft clay based on individual
-column and equivalent area models. In the equivalent area model, the equivalent parameters (unit weight,
-cohesion, and friction angle) for the improved area were estimated based on the area average of the
-parameters from stone columns and soft clay. The factors inﬂuencing the FS against deep-seated failure of
-embankments over stone column-improved soft clay were investigated including the spacing, size, and
-friction angle of stone columns, cohesion of soft clay, friction angle and height of embankment ﬁll, and
-existence of ground water. Based on the numerical results, a reduction factor was proposed to account for the
-difference in the FS when the individual column model is converted to the equivalent area model. The effects
-of the inﬂuence factors on the reduction factor were also investigated. The comparative study shows that the
-FS values obtained by the equivalent area model are higher than those by the individual column model. The
-results of these analyses are summarized into a series of design charts, which can be used in engineering
-practice. A reduction factor for FS of 0.90 is appropriate to convert the calculated FS by the equivalent area
-model to that by the individual column model based on the current study. Furthermore, the existence of the
-water table results in lower FS values than the cases without considering a water table because the
-groundwater reduces the shear strength of the improved foundation.
+(FS) against deep-seated failure of embankments over stone column-improved soft clay based on individual column and equivalent area models. In the equivalent area model, the equivalent parameters (unit weight, cohesion, and friction angle) for the improved area were estimated based on the area average of the parameters from stone columns and soft clay. The factors inﬂuencing the FS against deep-seated failure of embankments over stone column-improved soft clay were investigated including the spacing, size, and friction angle of stone columns, cohesion of soft clay, friction angle and height of embankment ﬁll, and existence of ground water. Based on the numerical results, a reduction factor was proposed to account for the difference in the FS when the individual column model is converted to the equivalent area model. The effects of the inﬂuence factors on the reduction factor were also investigated. The comparative study shows that the
+FS values obtained by the equivalent area model are higher than those by the individual column model. The results of these analyses are summarized into a series of design charts, which can be used in engineering practice. A reduction factor for FS of 0.90 is appropriate to convert the calculated FS by the equivalent area model to that by the individual column model based on the current study. Furthermore, the existence of the water table results in lower FS values than the cases without considering a water table because the groundwater reduces the shear strength of the improved foundation.
 © 2011 Elsevier B.V. All rights reserved.
 1. Introduction
-Problems of slope instability present design and research challenges
-to geotechnical engineers. Slope stability analysis can be carried out by
-the limit equilibrium method (LEM), the limit analysis method (LAM),
-the ﬁnite element method (FEM), and the ﬁnite difference method
+Problems of slope instability present design and research challenges to geotechnical engineers. Slope stability analysis can be carried out by the limit equilibrium method (LEM), the limit analysis method (LAM), the ﬁnite element method (FEM), and the ﬁnite difference method
 (FDM) (Han and Leshchinsky, 2006; Cheng and Lau, 2008).
-In recent years, ﬁnite difference method has been widely used for
-analyzing slope stability including the computation of its factor of safety
+In recent years, ﬁnite difference method has been widely used for analyzing slope stability including the computation of its factor of safety
 (FS) (for example, Dawson et al., 1999; Cala and Flisiak, 2001; Han et al.,
 2002; Cala and Flisiak, 2003a,b; Shukha and Baker, 2003; Han and
-Leshchinsky, 2004; Han et al., 2004; Richards and Reddy, 2005; Apuani
-et al., 2005; Han et al., 2005; Won et al.;, 2005; Cheng et al., 2007; Han et
-al., 2008; Sun et al., 2008; Srivastava and Sivakumar Babu, 2009).
-Dawson et al. (1999) indicated that the FS values of unreinforced slopes
-obtained using theﬁnite difference method in the FLAC software were in
-good agreement with those using the limit equilibrium method with a
-log-spiral slip surface. Han et al. (2002) used the same ﬁnite difference
-software (FLAC) to obtain the identical corresponding FS values of
-unreinforced and geosynthetic-reinforced slopes as the Bishop's
-simpliﬁed method. Han and Leshchinsky (2004) obtained similar
-results for mechanically stabilized earth (MSE) walls using the ﬁnite
-difference method and Bishop's simpliﬁed method incorporated in the
+Leshchinsky, 2004; Han et al., 2004; Richards and Reddy, 2005; Apuani et al., 2005; Han et al., 2005; Won et al.;, 2005; Cheng et al., 2007; Han et al., 2008; Sun et al., 2008; Srivastava and Sivakumar Babu, 2009).
+Dawson et al. (1999) indicated that the FS values of unreinforced slopes obtained using theﬁnite difference method in the FLAC software were in good agreement with those using the limit equilibrium method with a log-spiral slip surface. Han et al. (2002) used the same ﬁnite difference software (FLAC) to obtain the identical corresponding FS values of unreinforced and geosynthetic-reinforced slopes as the Bishop's simpliﬁed method. Han and Leshchinsky (2004) obtained similar results for mechanically stabilized earth (MSE) walls using the ﬁnite difference method and Bishop's simpliﬁed method incorporated in the
 ReSSA software.
-The ﬁnite difference method is perhaps one of the oldest numerical
-techniques used for solving sets of differential equations. In the ﬁnite
-difference method, every derivative in the set of governing equations
-is replaced directly by an algebraic expression written in terms of
-the ﬁeld variables at discrete points in space; these variables are
-undeﬁned within elements (Itasca Consulting Group, Inc., 2006). As
-compared with limit equilibrium methods, ﬁnite difference methods
-have the following advantages for calculating the factor of safety of
-slope stability (Dawson and Roth, 1999; Cala and Flisiak, 2001): (1) no
-need to deﬁne a range of trial surfaces and possible failure modes or
-critical slip zones determined from the numerical results (e.g., strain
-rate, plasticity); (2) no need to assume any functions for inter-slice
-force; (3) different failure surfaces possibly occurring at the same
-time; (4) structural elements used to better simulate inclusions (e.g.,
-rock bolt, soil nail or geogrid) instead of equivalent forces; and (5) the
-solution consisting of kinematically feasible mechanisms.
-The slope instability of embankments may develop locally, near
-the facing, within the embankment, or through the foundation soil as
-local, surﬁcial, general, or deep-seated failure, as shown in Fig. 1. The
-deep-seated slope failure is also referred to as a global slope failure,
+The ﬁnite difference method is perhaps one of the oldest numerical techniques used for solving sets of differential equations. In the ﬁnite difference method, every derivative in the set of governing equations is replaced directly by an algebraic expression written in terms of the ﬁeld variables at discrete points in space; these variables are undeﬁned within elements (Itasca Consulting Group, Inc., 2006). As compared with limit equilibrium methods, ﬁnite difference methods have the following advantages for calculating the factor of safety of slope stability (Dawson and Roth, 1999; Cala and Flisiak, 2001): (1) no need to deﬁne a range of trial surfaces and possible failure modes or critical slip zones determined from the numerical results (e.g., strain rate, plasticity); (2) no need to assume any functions for inter-slice force; (3) different failure surfaces possibly occurring at the same time; (4) structural elements used to better simulate inclusions (e.g., rock bolt, soil nail or geogrid) instead of equivalent forces; and (5) the solution consisting of kinematically feasible mechanisms.
+The slope instability of embankments may develop locally, near the facing, within the embankment, or through the foundation soil as local, surﬁcial, general, or deep-seated failure, as shown in Fig. 1. The deep-seated slope failure is also referred to as a global slope failure,
 Engineering Geology 120 (2011) 103–110
 ⁎ Corresponding author. Tel.: +1 785 864 3714; fax: +1 864 5631.
 E-mail addresses: engsariw@hotmail.com (S.W. Abusharar), jiehan@ku.edu (J. Han).
 0013-7952/$ – see front matter © 2011 Elsevier B.V. All rights reserved.
 doi:10.1016/j.enggeo.2011.04.002
 Contents lists available at ScienceDirect
-Engineering Geology
-journal homepage: www.elsevier.com/locate/enggeo
-Author's personal copy
-mainly induced by a weak foundation existing under the embank-
-ment. Local and surﬁcial failures develop at a shallow depth (mostly
-less than 1.2 m) due to low overburden stress, low density, low
-strength, and seepage force when the slope becomes saturated after
-rain. The general slope failure typically occurs through the toe of the
-slope (Han et al., 2004).
-A number of ground improvement techniques have been success-
-fully adopted to prevent deep-seated slope failure, such as sand
-compaction piles, stone columns, and deep mixed columns. Stone
-columns have been commonly used as an alternative to solve deep-
-seated slope stability problems (Hughes et al., 1975; McKenna et al.,
+Engineering Geology journal homepage: www.elsevier.com/locate/enggeo
+Author's personal copy mainly induced by a weak foundation existing under the embank- ment. Local and surﬁcial failures develop at a shallow depth (mostly less than 1.2 m) due to low overburden stress, low density, low strength, and seepage force when the slope becomes saturated after rain. The general slope failure typically occurs through the toe of the slope (Han et al., 2004).
+A number of ground improvement techniques have been success- fully adopted to prevent deep-seated slope failure, such as sand compaction piles, stone columns, and deep mixed columns. Stone columns have been commonly used as an alternative to solve deep- seated slope stability problems (Hughes et al., 1975; McKenna et al.,
 1975; Rathgeb and Kutzner, 1975; Aboshi et al., 1979; Datye and
-Nagaraju, 1981; Bergado et al., 1988; Bergado et al., 1990; Christoulas
-et al., 1997; Cooper and Rose, 1999). The stone column technique was
-adopted in European countries in the early 1960s and thereafter it has
-been used successfully worldwide to increase bearing capacity, reduce
-settlement, and accelerate consolidation (Hughes et al., 1975; Priebe,
-1995; Han and Ye, 2001). Stone columns can be installed using a wet
-or dry method. The wet method employs a vibrating probe with
-jetting water to form holes to be backﬁlled with stones from a ground
-surface while the dry method uses a vibrating probe with jetting air
-down to a depth and a feed pipe to supply stone to the bottom of the
-probe. The stone columns improve the ground mainly due to their
-higher strength and stiffness compared to the soil. Stone columns
-have higher strength and stiffness than sand compaction piles because
-of the quality difference between stone and sand. Different from deep
-mixed columns, the strength of stone columns depends on the friction
-angle of the stones and the conﬁning stress in the ﬁeld. The deep-
-seated slope stability of embankments over deep-mixed columns was
-investigated by Han et al. (2005). Ambily and Gandhi (2007)
-considered that the most critical factor which controls the design of
-the stone column-improved ground is the stiffness of the column and
-load sharing between column and soil. Christoulas et al. (1997)
-investigated the stability of embankments over stone columns using a
-limit equilibrium method with a slip circle, in which individual stone
-column and equivalent area models were analyzed. They concluded
-that the computed factor of safety from the individual column method
-was greater than that from the equivalent area method. Han et al.
-(2005, 2008) found that the slip surfaces for the improved foundation
-with individual deep mixed columns are not continuous and non-
-circular. Therefore, whether the limit equilibrium method with slip
-circles is suitable for analyzing the stability of embankments over
-individual stone columns is questionable.
-This paper presents a series of two-dimensional (2D) ﬁnite difference
-analyses to investigate the factors inﬂuencing the FS against deep-seated
-failure of embankments over stone column-improved soft clay. Theﬁnite
-difference method incorporated in thesoftware – FLAC/Slope Version 5.0
-is designed speciﬁcally to perform factor of safety calculations for slope
-stability analysis. The parameters investigated are the spacing, size, and
-friction angle of stone columns, the cohesion of soft clay, and the friction
-angle and height of embankment ﬁll. The effect of the water table on the
-stability of the slope was also evaluated. The results of these analyses are
-summarized into a series of design charts, which can be used in
-engineering practice. Based on the numerical results, a reduction factor
-was proposed to account for the difference in the FS when the individual
-column model is converted to the equivalent area model.
+Nagaraju, 1981; Bergado et al., 1988; Bergado et al., 1990; Christoulas et al., 1997; Cooper and Rose, 1999). The stone column technique was adopted in European countries in the early 1960s and thereafter it has been used successfully worldwide to increase bearing capacity, reduce settlement, and accelerate consolidation (Hughes et al., 1975; Priebe,
+1995; Han and Ye, 2001). Stone columns can be installed using a wet or dry method. The wet method employs a vibrating probe with jetting water to form holes to be backﬁlled with stones from a ground surface while the dry method uses a vibrating probe with jetting air down to a depth and a feed pipe to supply stone to the bottom of the probe. The stone columns improve the ground mainly due to their higher strength and stiffness compared to the soil. Stone columns have higher strength and stiffness than sand compaction piles because of the quality difference between stone and sand. Different from deep mixed columns, the strength of stone columns depends on the friction angle of the stones and the conﬁning stress in the ﬁeld. The deep- seated slope stability of embankments over deep-mixed columns was investigated by Han et al. (2005). Ambily and Gandhi (2007) considered that the most critical factor which controls the design of the stone column-improved ground is the stiffness of the column and load sharing between column and soil. Christoulas et al. (1997) investigated the stability of embankments over stone columns using a limit equilibrium method with a slip circle, in which individual stone column and equivalent area models were analyzed. They concluded that the computed factor of safety from the individual column method was greater than that from the equivalent area method. Han et al.
+(2005, 2008) found that the slip surfaces for the improved foundation with individual deep mixed columns are not continuous and non- circular. Therefore, whether the limit equilibrium method with slip circles is suitable for analyzing the stability of embankments over individual stone columns is questionable.
+This paper presents a series of two-dimensional (2D) ﬁnite difference analyses to investigate the factors inﬂuencing the FS against deep-seated failure of embankments over stone column-improved soft clay. Theﬁnite difference method incorporated in thesoftware – FLAC/Slope Version 5.0 is designed speciﬁcally to perform factor of safety calculations for slope stability analysis. The parameters investigated are the spacing, size, and friction angle of stone columns, the cohesion of soft clay, and the friction angle and height of embankment ﬁll. The effect of the water table on the stability of the slope was also evaluated. The results of these analyses are summarized into a series of design charts, which can be used in engineering practice. Based on the numerical results, a reduction factor was proposed to account for the difference in the FS when the individual column model is converted to the equivalent area model.
 2. Two-dimensional ﬁnite difference analysis
 2.1. Problem dimensions
-Fig. 2 shows that the model considered here consists of an
-embankment supported by stone columns in soft clay under a two-
-dimensional (2D) plane strain condition. The foundation soil consists
-of 10 m thick clay overlying 2 m thick sand. Due to the symmetry of
-the model, half of the cross-section was analyzed using the software
-FLAC/Slope Version 5.0 developed by Itasca Consulting Group, Inc. The
-stone columns were modeled as continuous walls parallel to the
-centerline of the embankment as shown in Fig. 2a. The dimensions
-and spacing of stone columns and the overall embankment and
-foundation dimensions were selected based on a common practice in
-the ﬁeld. Similar dimensions were used by Han et al. (2007) in
-another study. These parameters of the baseline case are provided as
-follows: width of columns=0.8 m, length of columns=10 m; crest
-width of embankment=20 m (half width is shown in Fig. 2), height
-of embankment=5 m, angle of side slope=2 H:1 V. The clear spacing
-between adjacent columns was set at 3.2 m. The groundwater table
-was at the ground surface. An “Exclude” function included in the
-FLAC/Slope software was adopted to prevent the potential failure
-surface from entering a 0.5 m thick surﬁcial soil layer on the slope. In
-other words, any failure above the foundation was prevented. The
-above values were used throughout this study unless otherwise
-speciﬁed.
+Fig. 2 shows that the model considered here consists of an embankment supported by stone columns in soft clay under a two- dimensional (2D) plane strain condition. The foundation soil consists of 10 m thick clay overlying 2 m thick sand. Due to the symmetry of the model, half of the cross-section was analyzed using the software
+FLAC/Slope Version 5.0 developed by Itasca Consulting Group, Inc. The stone columns were modeled as continuous walls parallel to the centerline of the embankment as shown in Fig. 2a. The dimensions and spacing of stone columns and the overall embankment and foundation dimensions were selected based on a common practice in the ﬁeld. Similar dimensions were used by Han et al. (2007) in another study. These parameters of the baseline case are provided as follows: width of columns=0.8 m, length of columns=10 m; crest width of embankment=20 m (half width is shown in Fig. 2), height of embankment=5 m, angle of side slope=2 H:1 V. The clear spacing between adjacent columns was set at 3.2 m. The groundwater table was at the ground surface. An “Exclude” function included in the
+FLAC/Slope software was adopted to prevent the potential failure surface from entering a 0.5 m thick surﬁcial soil layer on the slope. In other words, any failure above the foundation was prevented. The above values were used throughout this study unless otherwise speciﬁed.
 Deep seated failure
 Local failure
 Surficial failure
@@ -187,174 +59,61 @@ General slope failure
 Fig. 1. Potential slope stability failures (Han et al., 2004).
 Sand
 Backfill
-Stone columns
-water level
-Clay
-a
+Stone columns water level
+Clay a
 Backfill
 Equivalent area
-Sand
-water level
-Clay
-b
-10
-10
-20
-10
-10
-20
-10
-5
-2
+Sand water level
+Clay b
 Fig. 2. Cross sections of calculation models for the ﬁnite difference analysis of
 (a) individual columns and (b) an equivalent area (all dimensions in meters).
-104
 S.W. Abusharar, J. Han / Engineering Geology 120 (2011) 103–110
 Author's personal copy
-In practice, the stone column-improved zone is often converted to
-an equivalent area with weighted average properties as shown in
-Fig. 2b. The determination of these equivalent properties will be
-discussed later.
+In practice, the stone column-improved zone is often converted to an equivalent area with weighted average properties as shown in
+Fig. 2b. The determination of these equivalent properties will be discussed later.
 2.2. Model size
-The sizes of the model and mesh were determined on the basis of
-several trials, during which the mesh was progressively reﬁned to
-0.25 m and its horizontal boundary was extended such that zones did
-not inﬂuence the development of the failure surface. The size of the
-mesh is presented in Fig. 3 for the individual column and equivalent
-area cases. Results from these trials showed that the side boundary on
-the right should be extended to 20 m beyond the toe of the
-embankment.
+The sizes of the model and mesh were determined on the basis of several trials, during which the mesh was progressively reﬁned to
+0.25 m and its horizontal boundary was extended such that zones did not inﬂuence the development of the failure surface. The size of the mesh is presented in Fig. 3 for the individual column and equivalent area cases. Results from these trials showed that the side boundary on the right should be extended to 20 m beyond the toe of the embankment.
 2.3. Boundary conditions
-It was assumed that the sand was underlain by a rigid and ﬁrm soil
-or bedrock and the contribution of the ﬁrm layer was considered to be
-negligible for the instability of the embankment. Thus, the bottom
-boundary was set at this depth. Nodes on the two vertical boundaries
-were ﬁxed against horizontal movement but allowed to move freely
-in the vertical direction.
+It was assumed that the sand was underlain by a rigid and ﬁrm soil or bedrock and the contribution of the ﬁrm layer was considered to be negligible for the instability of the embankment. Thus, the bottom boundary was set at this depth. Nodes on the two vertical boundaries were ﬁxed against horizontal movement but allowed to move freely in the vertical direction.
 2.4. Material model and parameters
-The embankment ﬁll, the foundation soils, and the columns were
-modeled as linearly elastic-perfectly plastic materials with Mohr–
-Coulomb failure criteria. The elastic properties have an insigniﬁcant
-effect on the factor of safety calculation and, therefore, these properties
-are not required by the FLAC/Slope software (Dawson and Roth, 1999).
-The equivalent parameters for the improved area were estimated based
-on the area average of these parameters from stone columns and the soft
-clay (Terashi et al., 1991; Cooper and Rose, 1999; Han et al., 2005;
+The embankment ﬁll, the foundation soils, and the columns were modeled as linearly elastic-perfectly plastic materials with Mohr–
+Coulomb failure criteria. The elastic properties have an insigniﬁcant effect on the factor of safety calculation and, therefore, these properties are not required by the FLAC/Slope software (Dawson and Roth, 1999).
+The equivalent parameters for the improved area were estimated based on the area average of these parameters from stone columns and the soft clay (Terashi et al., 1991; Cooper and Rose, 1999; Han et al., 2005;
 Madhyannapu et al., 2006) as follow:
-ceq = cc:as + cs 1−as
-ð
-Þ
-ð1Þ
-ϕeq = tan−1 astanϕc + 1−as
-ð
-Þtanϕs
-ð
-Þ
-ð2Þ
-γeq = γcas + γs 1−as
-ð
-Þ
-ð3Þ
-where as is the area replacement ratio by the stone columns over the
-overall soft soil area; ceq, cc, and cs are the equivalent cohesion and the
-cohesions of the column and the soft soil, respectively; ϕeq, ϕc, and ϕs
-are the equivalent friction angle and the friction angles of the column
-and the soft soil, respectively; and γeq, γc, and γs are the equivalent
-unit weight and the unit weights of the column and the soft soil,
-respectively. In Eq. (2), no stress concentration on the stone columns
-is considered. A stress concentration ratio (i.e., the ratio of the stress
-on the columns to that on the soft soil) of 2.0 to 4.0 has been
-commonly used for a stone column-treated ground under a rigid
-foundation (Han and Ye, 2001). Under an embankment (close to a
-ﬂexible foundation), however, the stress concentration ratio of 1.0 is
-reasonable and conservative.
-Since soft clay is mostly normally or under-consolidated, it is more
-critical for an embankment over the soft clay under an undrained
-condition than under a drained condition. Therefore, undrained
-cohesion was assumed for the soft clay in this study. The installation
-of stone columns may change the properties of the soft clay; however,
-ﬁeld studies have shown that such property changes are minimum,
-especially when a wet method is used to install stone columns.
+ceq = cc:as + cs 1−as ð
+Þ ð1Þ ϕeq = tan−1 astanϕc + 1−as ð
+Þtanϕs ð
+Þ ð2Þ γeq = γcas + γs 1−as ð
+Þ ð3Þ where as is the area replacement ratio by the stone columns over the overall soft soil area; ceq, cc, and cs are the equivalent cohesion and the cohesions of the column and the soft soil, respectively; ϕeq, ϕc, and ϕs are the equivalent friction angle and the friction angles of the column and the soft soil, respectively; and γeq, γc, and γs are the equivalent unit weight and the unit weights of the column and the soft soil, respectively. In Eq. (2), no stress concentration on the stone columns is considered. A stress concentration ratio (i.e., the ratio of the stress on the columns to that on the soft soil) of 2.0 to 4.0 has been commonly used for a stone column-treated ground under a rigid foundation (Han and Ye, 2001). Under an embankment (close to a ﬂexible foundation), however, the stress concentration ratio of 1.0 is reasonable and conservative.
+Since soft clay is mostly normally or under-consolidated, it is more critical for an embankment over the soft clay under an undrained condition than under a drained condition. Therefore, undrained cohesion was assumed for the soft clay in this study. The installation of stone columns may change the properties of the soft clay; however, ﬁeld studies have shown that such property changes are minimum, especially when a wet method is used to install stone columns.
 Therefore, the change of the properties of soft clay is ignored in this
 Fig. 3. Finite difference meshes of an embankment supported by (a) individual columns and (b) an equivalent area (all dimensions in meters).
-105
 S.W. Abusharar, J. Han / Engineering Geology 120 (2011) 103–110
-Author's personal copy
-study. Consideringstonecolumnsare formed by a cohesionless material,
-they have zero cohesion and their shear resistance is inﬂuenced by pore
-water pressure. The effect of the ground water on the stability was
-evaluated in this study. The FLAC software has the option to activate or
-de-activate the water table. When the water table option is not selected,
-only the unsaturated unit weight is assigned. When the water table
-option is selected, however, either unsaturated unit weight and porosity
-or saturated unit weight must be input. The saturated unit weight of soil
-can be calculated as follows (Itasca Consulting Group, Inc., 2006):
-γsat = γunsat + n ⋅γw
-ð4Þ
-where γsat, γunsat, and γw are saturated, unsaturated soil, and water
-unit weights, respectively. For the case with a ground water table, the
-soil above the water table was assigned an unsaturated unit weight.
+Author's personal copy study. Consideringstonecolumnsare formed by a cohesionless material, they have zero cohesion and their shear resistance is inﬂuenced by pore water pressure. The effect of the ground water on the stability was evaluated in this study. The FLAC software has the option to activate or de-activate the water table. When the water table option is not selected, only the unsaturated unit weight is assigned. When the water table option is selected, however, either unsaturated unit weight and porosity or saturated unit weight must be input. The saturated unit weight of soil can be calculated as follows (Itasca Consulting Group, Inc., 2006):
+γsat = γunsat + n ⋅γw ð4Þ where γsat, γunsat, and γw are saturated, unsaturated soil, and water unit weights, respectively. For the case with a ground water table, the soil above the water table was assigned an unsaturated unit weight.
 The material properties used in the baseline case are shown in Table 1.
 Some of these properties were deviated during the parametric study.
 2.5. Computation of factor of safety
-In the ﬁnite difference program, a shear strength reduction
-technique was adopted to solve for the factor of safety (FS) value of
-slope stability. Dawson et al. (1999) exhibited the use of the shear
-strength reduction technique in this ﬁnite difference program. In this
-technique, a series of trial FS values are used to adjust the cohesion, c,
-and the friction angle, ϕ, of soil as follows:
-ctrial = c= FStrial
-ð5Þ
-ϕtrial = arctan tanϕ = FStrial
-ð
-Þ
-ð6Þ
-For each trial analysis by FLAC, the same FS value is applied to the
-strength parameters of soil and columns in the individual columns
-method or the composite in the equivalent area method. Adjusted
-cohesion and friction angle of soil layers are used in the model for
-equilibrium analysis. The factor of safety is determined by adjusting the
-cohesion and friction angle to make the slope become unstable from a
-verge stable condition or verge stable from an unstable condition.
+In the ﬁnite difference program, a shear strength reduction technique was adopted to solve for the factor of safety (FS) value of slope stability. Dawson et al. (1999) exhibited the use of the shear strength reduction technique in this ﬁnite difference program. In this technique, a series of trial FS values are used to adjust the cohesion, c, and the friction angle, ϕ, of soil as follows:
+ctrial = c= FStrial ð5Þ ϕtrial = arctan tanϕ = FStrial ð
+Þ ð6Þ
+For each trial analysis by FLAC, the same FS value is applied to the strength parameters of soil and columns in the individual columns method or the composite in the equivalent area method. Adjusted cohesion and friction angle of soil layers are used in the model for equilibrium analysis. The factor of safety is determined by adjusting the cohesion and friction angle to make the slope become unstable from a verge stable condition or verge stable from an unstable condition.
 3. Analysis of results
-A number of factors inﬂuencing the factor of safety against deep-
-seated failure of embankments over stone column-improved soft clay
-were investigated in this study, including the spacing, size, and friction
-angle of stone columns, the cohesion of soft clay, and the friction angle
-and height of embankment ﬁll. The inﬂuence of each factor on the FS is
-presented below. The results from both individual column and
-equivalent area models are compared.
+A number of factors inﬂuencing the factor of safety against deep- seated failure of embankments over stone column-improved soft clay were investigated in this study, including the spacing, size, and friction angle of stone columns, the cohesion of soft clay, and the friction angle and height of embankment ﬁll. The inﬂuence of each factor on the FS is presented below. The results from both individual column and equivalent area models are compared.
 3.1. Critical slip surface
-Fig. 4 shows the maximum shear strain rates (i.e., the shaded dark
-regions for the individual column model only) and the factors of safety
-for the embankment over the area improved by individual columns
-and the equivalent area. The critical slip surface for the equivalent
+Fig. 4 shows the maximum shear strain rates (i.e., the shaded dark regions for the individual column model only) and the factors of safety for the embankment over the area improved by individual columns and the equivalent area. The critical slip surface for the equivalent
 Table 1
 Material properties of the embankment, subsoil, stone column, and equivalent area.
 Parameter
 Unit
-Embankment
-ﬁll
+Embankment ﬁll
 Clay
 Sand
-Stone
-column
-Equivalent
-area
-Thickness
-m
-5
-10
-2
-10
-10
-Unsaturated Unit
-weight
-kN/m3
-18
-16
-18
-17
+Stone column
+Equivalent area
+Thickness m
+Unsaturated Unit weight kN/m3
 16.2
 Porosity
 –
@@ -363,182 +122,56 @@ Porosity
 0.25
 0.25
 0.25
-Cohesion
-kPa
-0
-20
-0
-0
-16
-Friction angle
-o
-32
-0
-30
-38
+Cohesion kPa
+Friction angle o
 8.9
 Fig. 4. Stability of the embankment over stone columns (a) with considering the water table and (b) without considering the water table.
-106
 S.W. Abusharar, J. Han / Engineering Geology 120 (2011) 103–110
-Author's personal copy
-area model was plotted based on the maximum shear strain rates. It is
-shown that the equivalent area model had typical continuous circular
-slip surfaces. The critical slip surface and the minimum factor of safety
-from the equivalent area model do not match well with those from the
-individual column model, in which there was no continuous and
-circular slip surface. The equivalent area model resulted in a higher
-factor of safety than the individual column model. This result is
-opposite to that obtained by Christoulas et al. (1997). This difference
-may result from the assumption of a slip circle by Christoulas et al.
-(1997) in their analysis of the individual column model. Fig. 4 also
-shows that the factors of safety decreased from 1.69 to 1.60 for the
-equivalent area model and from 1.53 to 1.49 for the individual column
-model when the ground water was considered. This comparison
-demonstrates the importance of including the water table in the
-stability analysis of the embankment over the stone column-improved
-foundation.
+Author's personal copy area model was plotted based on the maximum shear strain rates. It is shown that the equivalent area model had typical continuous circular slip surfaces. The critical slip surface and the minimum factor of safety from the equivalent area model do not match well with those from the individual column model, in which there was no continuous and circular slip surface. The equivalent area model resulted in a higher factor of safety than the individual column model. This result is opposite to that obtained by Christoulas et al. (1997). This difference may result from the assumption of a slip circle by Christoulas et al.
+(1997) in their analysis of the individual column model. Fig. 4 also shows that the factors of safety decreased from 1.69 to 1.60 for the equivalent area model and from 1.53 to 1.49 for the individual column model when the ground water was considered. This comparison demonstrates the importance of including the water table in the stability analysis of the embankment over the stone column-improved foundation.
 3.2. Friction angle of stone column
-The stone column was modelled as a cohesionless material, which
-only has a friction angle. The inﬂuence of the friction angle of the
-stone column material on the factor of safety of the embankment over
-stone column-improved soft clay is shown in Fig. 5. The results show
-that a better quality stone column material yielded a higher factor of
-safety for the embankment system. In addition, the equivalent area
-model yielded higher FS values than the individual column model.
+The stone column was modelled as a cohesionless material, which only has a friction angle. The inﬂuence of the friction angle of the stone column material on the factor of safety of the embankment over stone column-improved soft clay is shown in Fig. 5. The results show that a better quality stone column material yielded a higher factor of safety for the embankment system. In addition, the equivalent area model yielded higher FS values than the individual column model.
 Furthermore, the consideration of the ground water resulted in lower
-FS values than that without a water table, because water pressure
-reduced the shear strength of the stone columns.
+FS values than that without a water table, because water pressure reduced the shear strength of the stone columns.
 3.3. Size of stone column
-The inﬂuence of the thickness of stone column walls on the factor
-of safety is shown in Fig. 6. It is shown that an increase of the thickness
-of the stone column walls increased the FS value of the embankment
-system. The thickness of the stone column walls ranging from 0.4 to
-1.2 m corresponds to the area replacement ratio of 10% to 30%, which
-is commonly used in practice. The results from the equivalent area
-model had the similar trend as those from the individual column
-model; however, the FS values calculated by the equivalent area
-model were higher than those by the individual column model.
-Furthermore, the consideration of the water table resulted in lower FS
-values than that without a water table.
+The inﬂuence of the thickness of stone column walls on the factor of safety is shown in Fig. 6. It is shown that an increase of the thickness of the stone column walls increased the FS value of the embankment system. The thickness of the stone column walls ranging from 0.4 to
+1.2 m corresponds to the area replacement ratio of 10% to 30%, which is commonly used in practice. The results from the equivalent area model had the similar trend as those from the individual column model; however, the FS values calculated by the equivalent area model were higher than those by the individual column model.
+Furthermore, the consideration of the water table resulted in lower FS values than that without a water table.
 3.4. Spacing of stone column
-The inﬂuence of the spacing of stone columns on FS values is
-shown in Fig. 7. It is shown that an increase of the stone column
-spacing reduced the FS value. The investigated center-to-center
-spacing of stone columns ranging from 2.67 to 8 m represents the
-area replacement ratio of 30% to 10%, which is typically used in
-practice. The results from the equivalent area model had the similar
-trend as those from the individual column model; however, the FS
-values calculated by the equivalent area model were higher than
-those by the individual column model. Furthermore, the consider-
-ation of the water table resulted in lower FS values than that without a
-water table.
+The inﬂuence of the spacing of stone columns on FS values is shown in Fig. 7. It is shown that an increase of the stone column spacing reduced the FS value. The investigated center-to-center spacing of stone columns ranging from 2.67 to 8 m represents the area replacement ratio of 30% to 10%, which is typically used in practice. The results from the equivalent area model had the similar trend as those from the individual column model; however, the FS values calculated by the equivalent area model were higher than those by the individual column model. Furthermore, the consider- ation of the water table resulted in lower FS values than that without a water table.
 3.5. Cohesion of soft soil
-The inﬂuence of the undrained cohesion of the soft clay on the
-factors of safety is shown in Fig. 8. An increase of the undrained
-cohesion of the soft clay increased the FS value of the embankment
-over stone columns. The equivalent area model yielded higher FS
-values than the individual column model. Their difference became
-larger when the undrained cohesion of the soft clay increased. It is
-shown that the beneﬁt of the undrained cohesion of the soft clay
-became less signiﬁcant when the cohesion was higher than 25 kPa,
-because the slip surface developed was shallower in the improved
-foundation and the contribution of the foundation became less
+The inﬂuence of the undrained cohesion of the soft clay on the factors of safety is shown in Fig. 8. An increase of the undrained cohesion of the soft clay increased the FS value of the embankment over stone columns. The equivalent area model yielded higher FS values than the individual column model. Their difference became larger when the undrained cohesion of the soft clay increased. It is shown that the beneﬁt of the undrained cohesion of the soft clay became less signiﬁcant when the cohesion was higher than 25 kPa, because the slip surface developed was shallower in the improved foundation and the contribution of the foundation became less
 Fig. 5. Inﬂuence of friction angle of stone column.
 Fig. 6. Inﬂuence of size of stone column.
 Fig. 7. Inﬂuence of spacing of stone column.
-107
 S.W. Abusharar, J. Han / Engineering Geology 120 (2011) 103–110
-Author's personal copy
-important. In addition, the inﬂuence of the ground water is not that
-signiﬁcant as that in the cases discussed earlier because undrained
-cohesion is not inﬂuenced by pore water pressure.
+Author's personal copy important. In addition, the inﬂuence of the ground water is not that signiﬁcant as that in the cases discussed earlier because undrained cohesion is not inﬂuenced by pore water pressure.
 3.6. Friction angle of embankment ﬁll
-The embankment ﬁll was modelled as a cohesionless ﬁll. The
-inﬂuence of the friction angle of the embankment ﬁll on the factor of
-safety of the embankment over stone columns is shown in Fig. 9. The
-results show that a better quality embankment ﬁll yielded a higher
-factor of safety for the embankment system. It is shown that the
-beneﬁt of the friction angle of the embankment ﬁll became less
-signiﬁcant when the friction angle was higher than 30o, because the
-slip surface developed was deeper in the improved foundation and
-the contribution of the foundation became more important. In
-addition, the equivalent area model resulted in higher FS values
-than the individual column model. Furthermore, the consideration of
-the ground water resulted in lower FS values than that without
-ground water.
+The embankment ﬁll was modelled as a cohesionless ﬁll. The inﬂuence of the friction angle of the embankment ﬁll on the factor of safety of the embankment over stone columns is shown in Fig. 9. The results show that a better quality embankment ﬁll yielded a higher factor of safety for the embankment system. It is shown that the beneﬁt of the friction angle of the embankment ﬁll became less signiﬁcant when the friction angle was higher than 30o, because the slip surface developed was deeper in the improved foundation and the contribution of the foundation became more important. In addition, the equivalent area model resulted in higher FS values than the individual column model. Furthermore, the consideration of the ground water resulted in lower FS values than that without ground water.
 3.7. Height of embankment ﬁll
-The inﬂuence of the height of the embankment on the factor of
-safety is shown in Fig. 10. It is intuitively correct that the factor of
-safety decreased with an increase of the height of the embankment.
-The factors of safety computed by the equivalent area model were
-higher than those by the individual column model. Their difference
-became larger when the height of the embankment increased.
+The inﬂuence of the height of the embankment on the factor of safety is shown in Fig. 10. It is intuitively correct that the factor of safety decreased with an increase of the height of the embankment.
+The factors of safety computed by the equivalent area model were higher than those by the individual column model. Their difference became larger when the height of the embankment increased.
 3.8. Reduction factor for FS
-Modeling individual columns in a design is a tedious task when the
-number of columns becomes large. Therefore, the equivalent area
-method is more commonly used than the individual column method.
-As presented above, the equivalent area method resulted in a higher
-factor of safety than the individual column method. In other words,
-the equivalent area method is not conservative. To rectify this
-problem, a reduction factor is proposed herein. The reduction factor,
-β, is deﬁned as the ratio of FS of the individual column model to that of
-the equivalent area model. Fig. 11 presents the inﬂuence of the factors
-on the reduction factor for FS, against deep-seated failure of
-embankments over stone columns-improved foundations. The results
-show that the FS reduction factor varies between 0.86 and 0.96. The
-reduction factor considering groundwater is slightly higher than that
-without considering groundwater. The average reduction factor
-considering groundwater is 0.92 while that without considering
-groundwater is 0.90. Hence, the following equation should be used to
-modify the FS value calculated by the equivalent area model to obtain
-the FS value for the individual column model:
-FSid = β ⋅FSeq
-ð3Þ
-where FSid and FSeq are the factors of safety against the deep-seated
-failure of the embankment over stone column-improved foundations
-based on the individual column model and the equivalent area model,
-respectively; and β is the reduction factor.
+Modeling individual columns in a design is a tedious task when the number of columns becomes large. Therefore, the equivalent area method is more commonly used than the individual column method.
+As presented above, the equivalent area method resulted in a higher factor of safety than the individual column method. In other words, the equivalent area method is not conservative. To rectify this problem, a reduction factor is proposed herein. The reduction factor, β, is deﬁned as the ratio of FS of the individual column model to that of the equivalent area model. Fig. 11 presents the inﬂuence of the factors on the reduction factor for FS, against deep-seated failure of embankments over stone columns-improved foundations. The results show that the FS reduction factor varies between 0.86 and 0.96. The reduction factor considering groundwater is slightly higher than that without considering groundwater. The average reduction factor considering groundwater is 0.92 while that without considering groundwater is 0.90. Hence, the following equation should be used to modify the FS value calculated by the equivalent area model to obtain the FS value for the individual column model:
+FSid = β ⋅FSeq ð3Þ where FSid and FSeq are the factors of safety against the deep-seated failure of the embankment over stone column-improved foundations based on the individual column model and the equivalent area model, respectively; and β is the reduction factor.
 4. Summary and conclusions
-In this study, two-dimensional ﬁnite difference analyses were
-conducted to evaluate the factor of safety (FS) against deep-seated
-failure of embankments over stone columns based on the individual
-column model and the equivalent area model. In the equivalent area
-model, the equivalent parameters for the improved area were estimated
-based on the area average of these parameters from stone columns and
-soft soil. Based on the numerical results, the following conclusions can be
-drawn:
-1. The strength, spacing, and size of stone columns, the cohesion and
-thickness of soft soil, and the friction angle and height of
-embankment ﬁll all affected the FS values against deep-seated
-failure of the embankment.
+In this study, two-dimensional ﬁnite difference analyses were conducted to evaluate the factor of safety (FS) against deep-seated failure of embankments over stone columns based on the individual column model and the equivalent area model. In the equivalent area model, the equivalent parameters for the improved area were estimated based on the area average of these parameters from stone columns and soft soil. Based on the numerical results, the following conclusions can be drawn:
+1. The strength, spacing, and size of stone columns, the cohesion and thickness of soft soil, and the friction angle and height of embankment ﬁll all affected the FS values against deep-seated failure of the embankment.
 Fig. 8. Inﬂuence of cohesion of soft soil.
 Fig. 9. Inﬂuence of friction angle of embankment ﬁll.
 Fig. 10. Inﬂuence of height of embankment ﬁll.
-108
 S.W. Abusharar, J. Han / Engineering Geology 120 (2011) 103–110
 Author's personal copy
-2. The calculated factors of safety using the equivalent area model
-were higher than those calculated using the individual column
-model.
-3. The consideration of ground water resulted in lower FS values than
-that without ground water because pore water pressure reduced
-the frictional shear strength of the improved foundation.
-4. A reduction factor of 0.90 is suggested to modify the FS value
-calculated based on the equivalent area method used in practice.
-The above conclusions are only applicable to a two-dimensional
-stability analysis of embankments over stone-column-improved soft
-clay due to deep-seated failure, in which stone columns are considered
-Fig. 11. Inﬂuence of factors on the FS reduction factor: (a) friction angle of stone column material;(b) size of stone column; (c) spacing of stone column; (d) cohesion of soft soil; (e) friction
-angle of embankment ﬁll; and (f) height of embankment ﬁll.
-109
+2. The calculated factors of safety using the equivalent area model were higher than those calculated using the individual column model.
+3. The consideration of ground water resulted in lower FS values than that without ground water because pore water pressure reduced the frictional shear strength of the improved foundation.
+4. A reduction factor of 0.90 is suggested to modify the FS value calculated based on the equivalent area method used in practice.
+The above conclusions are only applicable to a two-dimensional stability analysis of embankments over stone-column-improved soft clay due to deep-seated failure, in which stone columns are considered
+Fig. 11. Inﬂuence of factors on the FS reduction factor: (a) friction angle of stone column material;(b) size of stone column; (c) spacing of stone column; (d) cohesion of soft soil; (e) friction angle of embankment ﬁll; and (f) height of embankment ﬁll.
 S.W. Abusharar, J. Han / Engineering Geology 120 (2011) 103–110
-Author's personal copy
-as walls in the individual column model. Further research is needed to
-evaluate the effect of three-dimensional conﬁgurations of stone
-columns used in ﬁeld.
+Author's personal copy as walls in the individual column model. Further research is needed to evaluate the effect of three-dimensional conﬁgurations of stone columns used in ﬁeld.
 References
-Aboshi, H., Ichimoto, E., Harada, Y., Enoki, M., 1979. The compozer, a method to improve
-characteristics of soft clays by inclusion of large diameter sand columns. Proc. of 1st
+Aboshi, H., Ichimoto, E., Harada, Y., Enoki, M., 1979. The compozer, a method to improve characteristics of soft clays by inclusion of large diameter sand columns. Proc. of 1st
 Int. Conf. on Soil Reinforcement, Paris, 1, pp. 211–216.
 Ambily, A.P., Gandhi, S.R., 2007. Behavior of stone columns based on experimental and
 FEM analysis. Journal of Geotechnical and Geoenvironmental Engineering 133 (4),
@@ -550,27 +183,18 @@ Bergado, D.T., Panichayatum, B., Sampaco, C.L., Miura, N., 1988. Reinforcement o
 Bangkok clay using granular piles. Int. Geotech. Symp. on Theory and Practice of
 Earth Reinforcement, Kyushu, Japan, In. 179–184.
 Bergado, D.T., Singh, N., Sim, S.H., Panichayatum, B., Sampaco, C.L., Balasubramaniam,
-A.S., 1990. Improvement of soft Bangkok clay using vertical geotextile band drains
-compared with granular piles. Geotextiles and Geomembranes 9 (3), 203–231.
-Cala, M., Flisiak, J., 2001. Slope stability analysis with FLAC and limit equilibrium
-methods. In: Bilaux, Rachez, Detournay, Hart (Eds.), FLAC and Numerical Modelling
-in Geomechanics. A.A. Balkema Publishers, pp. 111–114.
-Cala, M., Flisiak, J., 2003a. Complex geology slope stability analysis by shear strength
-reduction. In: Brummer, Andrieux, Detournay, Hart (Eds.), FLAC and Numerical
+A.S., 1990. Improvement of soft Bangkok clay using vertical geotextile band drains compared with granular piles. Geotextiles and Geomembranes 9 (3), 203–231.
+Cala, M., Flisiak, J., 2001. Slope stability analysis with FLAC and limit equilibrium methods. In: Bilaux, Rachez, Detournay, Hart (Eds.), FLAC and Numerical Modelling in Geomechanics. A.A. Balkema Publishers, pp. 111–114.
+Cala, M., Flisiak, J., 2003a. Complex geology slope stability analysis by shear strength reduction. In: Brummer, Andrieux, Detournay, Hart (Eds.), FLAC and Numerical
 Modelling in Geomechanics. A.A. Balkema Publishers, pp. 99–102.
-Cala, M., Flisiak, J., 2003b. Slope stability analysis with numerical and limit equilibrium
-methods. In: Burczynski, Fedelinski, Majchrzak (Eds.), Computer Methods in
+Cala, M., Flisiak, J., 2003b. Slope stability analysis with numerical and limit equilibrium methods. In: Burczynski, Fedelinski, Majchrzak (Eds.), Computer Methods in
 Mechanics. CMM-2003.
-Cheng, Y.M., Lau, C.K., 2008. Slope Stability Analysis and Stabilization: New Methods
-and Insight. Routledge, UK.
-Cheng, Y.M., Lansivaara, T., Wei, W.B., 2007. Two-dimensional slope stability analysis by
-limit equilibrium and strength reduction methods. Computers and Geotechnics 34
+Cheng, Y.M., Lau, C.K., 2008. Slope Stability Analysis and Stabilization: New Methods and Insight. Routledge, UK.
+Cheng, Y.M., Lansivaara, T., Wei, W.B., 2007. Two-dimensional slope stability analysis by limit equilibrium and strength reduction methods. Computers and Geotechnics 34
 (3), 137–150.
-Christoulas, S., Giannaros, C., Tsiambaos, G., 1997. Stabilization of embankment
-foundations by using stone columns. Geotechnical and Geological Engineering 15
+Christoulas, S., Giannaros, C., Tsiambaos, G., 1997. Stabilization of embankment foundations by using stone columns. Geotechnical and Geological Engineering 15
 (3), 247–258.
-Cooper, M.R., Rose, A.N., 1999. Stone column support for an embankment on deep
-alluvial soils. Proceedings of the Institution of Civil Engineers, Geotechnical
+Cooper, M.R., Rose, A.N., 1999. Stone column support for an embankment on deep alluvial soils. Proceedings of the Institution of Civil Engineers, Geotechnical
 Engineering 37 (1), 15–25.
 Datye, K.R., Nagaraju, S.S., 1981. Design approach and ﬁeld control for stone columns.
 Proc. of 10th Int. Conf. on SMFE, Stockholm, 3, pp. 637–640.
@@ -578,62 +202,41 @@ Dawson, E.M., Roth, W.H., 1999. Slope Stability Analysis with FLAC. In FLAC and 
 Modeling in Geomechanics. In: Detournay, C., Hart, R. (Eds.), Proceedings of the
 International FLACSymposium on Numerical Modeling inGeomechanics,Minneapolis,
 Minnesota, September 1999. A. A. Balkema, Rotterdam, pp. 3–9.
-Dawson, E.M., Roth, W.H., Drescher, A., 1999. Slope stability analysis by strength
-reduction. Geotechnique 49 (6), 835–840.
-Han, J., Leshchinsky, D., 2004. Limit equilibrium and continuum mechanics-based
-numerical methods for analyzing stability of MSE walls. Proceedings of the 17th
+Dawson, E.M., Roth, W.H., Drescher, A., 1999. Slope stability analysis by strength reduction. Geotechnique 49 (6), 835–840.
+Han, J., Leshchinsky, D., 2004. Limit equilibrium and continuum mechanics-based numerical methods for analyzing stability of MSE walls. Proceedings of the 17th
 Engineering Mechanics Conference, ASCE, University of Delaware, Newark,
 Delaware, USA, June 13–16.
-Han, J., Leshchinsky, D., 2006. Stability analyses of geosynthetic-reinforced earth
-structures using limit equilibrium and numerical methods. Proceedings of the 8th
-International Geosynthetics Conference, 18–22 September, Yokohama, Japan,
-pp. 1347–1350.
-Han, J., Ye, S.L., 2001. A simpliﬁed method for computing consolidation rate of stone
-column reinforced foundations. Journal of Geotechnical and Geoenvironmental
+Han, J., Leshchinsky, D., 2006. Stability analyses of geosynthetic-reinforced earth structures using limit equilibrium and numerical methods. Proceedings of the 8th
+International Geosynthetics Conference, 18–22 September, Yokohama, Japan, pp. 1347–1350.
+Han, J., Ye, S.L., 2001. A simpliﬁed method for computing consolidation rate of stone column reinforced foundations. Journal of Geotechnical and Geoenvironmental
 Engineering, ASCE 127 (7), 597–603.
-Han, J., Leshchinsky, D., Shao, Y., 2002. Inﬂuence of tensile stiffness of geosynthetic
-reinforcements on performance of reinforced slopes. In: Delmas, Gourc, Girard (Eds.),
+Han, J., Leshchinsky, D., Shao, Y., 2002. Inﬂuence of tensile stiffness of geosynthetic reinforcements on performance of reinforced slopes. In: Delmas, Gourc, Girard (Eds.),
 Proceedings of Geosynthetics – 7th ICG. Swets & Zeitlinger, Lisse, pp. 197–200.
-Han, J., Sheth, A.R., Porbaha, A., Shen, S.L., 2004. Numerical analysis of embankment
-stability over deep mixed foundations. ASCE Geotechnical Special Publication No.
+Han, J., Sheth, A.R., Porbaha, A., Shen, S.L., 2004. Numerical analysis of embankment stability over deep mixed foundations. ASCE Geotechnical Special Publication No.
 126: Geotechnical Engineering for Transportation Projects, GeoTrans 2004, ASCE,
 Los Angles, California, USA, July 26–31, pp. 1385–1394.
-Han, J., Parsons, R.J., Sheth, A.R., Huang, J., 2005. Factors of safety against deep-seated
-failure of embankments over deep mixed columns. Proceedings of Deep Mixing
+Han, J., Parsons, R.J., Sheth, A.R., Huang, J., 2005. Factors of safety against deep-seated failure of embankments over deep mixed columns. Proceedings of Deep Mixing
 2005 Conference, Sweden, Vol. 1.2, pp. 231–236. May 23–25.
-Han, J., Oztoprak, S., Parsons, R.L., Huang, J., 2007. Numerical analysis of foundation
-columns to support widening of embankments. Computers and Geotechnics 34,
+Han, J., Oztoprak, S., Parsons, R.L., Huang, J., 2007. Numerical analysis of foundation columns to support widening of embankments. Computers and Geotechnics 34,
 435–448.
-Han, J., Hong, Z.S., Shen, S.L., 2008. Stability of levees over soft soil improved by deep
-mixing technology. GeoCongress 2008: Geosustainability and Geohazard Mitiga-
-tion, ASCE, pp. 716–723.
-Hughes, J.M.O., Withers, N.J., Greenwood, D.A., 1975. A ﬁeld trial of the reinforcing effect
-of a stone column in soil. Geotechnique 25 (1), 31–44.
+Han, J., Hong, Z.S., Shen, S.L., 2008. Stability of levees over soft soil improved by deep mixing technology. GeoCongress 2008: Geosustainability and Geohazard Mitiga- tion, ASCE, pp. 716–723.
+Hughes, J.M.O., Withers, N.J., Greenwood, D.A., 1975. A ﬁeld trial of the reinforcing effect of a stone column in soil. Geotechnique 25 (1), 31–44.
 Itasca Consulting Group, Inc., 2006. FLAC/Slope User's Guide, Version 5.0. 84p.
-Madhyannapu, R.S., Puppala, A.J., Hossain, S., Han, J., Porbaha, A., 2006. Analysis of
-geotextile reinforced embankment over deep mixed soil columns: using numerical
-and analytical tools. Proceedings of the ASCE GeoCongress 2006, Atlanta, GA.
-McKenna, J.M., Eyre, W.A., Wolstenholme, D.R., 1975. Performance of an embankment
-supported by stone columns in soft ground. Geotechnique 25 (1), 51–59.
+Madhyannapu, R.S., Puppala, A.J., Hossain, S., Han, J., Porbaha, A., 2006. Analysis of geotextile reinforced embankment over deep mixed soil columns: using numerical and analytical tools. Proceedings of the ASCE GeoCongress 2006, Atlanta, GA.
+McKenna, J.M., Eyre, W.A., Wolstenholme, D.R., 1975. Performance of an embankment supported by stone columns in soft ground. Geotechnique 25 (1), 51–59.
 Priebe, H.J., 1995. The design of vibro replacement. Ground Engineering 28 (12), 31–37.
 Rathgeb, E., Kutzner, C., 1975. Some applications of the vibro-replacement process.
 Geotechnique 25 (1), 45–50.
-Richards, K.S., Reddy, K.R., 2005. Slope failure of embankment dam under extreme
-ﬂooding conditions: comparison of limit equilibrium and continuum models.
+Richards, K.S., Reddy, K.R., 2005. Slope failure of embankment dam under extreme ﬂooding conditions: comparison of limit equilibrium and continuum models.
 Proceedings of the Geo-Frontiers 2005 Conference, ASCE, Austin, Texas.
-Shukha, R., Baker, R., 2003. Mesh geometry effects on slope stability calculation by FLAC
-strength reduction method – linear and non-linear failure criteria. In: Brummer,
+Shukha, R., Baker, R., 2003. Mesh geometry effects on slope stability calculation by FLAC strength reduction method – linear and non-linear failure criteria. In: Brummer,
 Andrieux, Detournay, Hart (Eds.), FLAC and Numerical Modelling in Geomechanics.
 A.A. Balkema Publishers, pp. 109–116.
-Srivastava, A., Sivakumar Babu, G.L., 2009. Effect of soil variability on the bearing
-capacity of clay and in slope stability problems. Engineering Geology 108 (1–2),
+Srivastava, A., Sivakumar Babu, G.L., 2009. Effect of soil variability on the bearing capacity of clay and in slope stability problems. Engineering Geology 108 (1–2),
 142–152.
 Sun, J., Tian, X., Guan, X., Yu, Y., Yang, X., 2008. Stability analysis for loosened rock slope of
 Jinyang Grand Buddha in Taiyuan, China. Earth Science Frontiers 15 (4), 227–238.
-Terashi, M., Kitazume, M., Minagawa, S., 1991. Bearing capacity of improved ground by
-compaction piles. In ASTM Special Technical Publication 1089, Deep Foundation
+Terashi, M., Kitazume, M., Minagawa, S., 1991. Bearing capacity of improved ground by compaction piles. In ASTM Special Technical Publication 1089, Deep Foundation
 Improvement: Construction and testing, pp. 47–61.
-Won, J., You, K., Jeong, S., Kim, S., 2005. Coupled effects in stability analysis of pile–slope
-systems. Computers and Geotechnics 32 (4), 304–315.
-110
+Won, J., You, K., Jeong, S., Kim, S., 2005. Coupled effects in stability analysis of pile–slope systems. Computers and Geotechnics 32 (4), 304–315.
 S.W. Abusharar, J. Han / Engineering Geology 120 (2011) 103–110

@@ -1,0 +1,571 @@
+Poisson's ratio of a material defines the ratio of transverse strain (x direction) to the axial strain (y direction).
+Poisson's ratio
+In materials science and solid mechanics, Poisson's ratio (symbol: ν (nu)) is a measure of the Poisson effect, the deformation (expansion or contraction) of a material in directions perpendicular to the specific direction of loading.
+The value of Poisson's ratio is the negative of the ratio of transverse strain to axial strain. For small values of these changes, ν is the amount of transversal elongation divided by the amount of axial compression.
+Most materials have Poisson's ratio values ranging between 0.0 and 0.5. For soft materials,[1] such as rubber, where the bulk modulus is much higher than the shear modulus, Poisson's ratio is near 0.5. For open-cell polymer foams,
+Poisson's ratio is near zero, since the cells tend to collapse in compression. Many typical solids have Poisson's ratios in the range of 0.2 to 0.3.
+The ratio is named after the French mathematician and physicist Siméon Poisson.
+Assuming that the material is stretched or compressed in only one direction (the x or y axis in the diagram):
+where ν is the resulting Poisson's ratio, εtrans is transverse strain εaxial is axial strain and positive strain indicates extension and negative strain indicates contraction.
+Poisson's ratio is a measure of the Poisson effect, the phenomenon in which a material tends to expand in directions perpendicular to the direction of compression. Conversely, if the material is stretched rather than compressed, it usually tends to contract in the directions transverse to the direction of stretching. It is a common observation when a rubber band is stretched, it becomes noticeably thinner. Again, the Poisson ratio will be the ratio of relative contraction to relative expansion and will have the same value as above. In certain rare cases,[2] a material will actually shrink in the transverse direction when compressed (or expand when stretched), which will yield a negative value of the Poisson ratio.
+The Poisson's ratio of a stable, isotropic, linear elastic material must be between −1.0 and +0.5 because of the requirement for Young's modulus, the shear modulus and bulk modulus to have positive values.[3] Most materials have Poisson's ratio values ranging between 0.0 and 0.5. A perfectly incompressible isotropic material deformed elastically at small strains would have a Poisson's ratio of exactly 0.5. Most steels and rigid polymers when used within their design limits (before yield) exhibit values of about 0.3, increasing to 0.5 for post-yield deformation which occurs largely at constant volume.[4] Rubber has a Poisson ratio of nearly 0.5. Cork's Poisson ratio is close to 0, showing very little lateral expansion when compressed. Glass is between 0.18 and 0.30. Some materials, e.g. some polymer foams, origami folds,[5][6] and certain cells can exhibit negative Poisson's ratio, and are referred to as auxetic materials. If these auxetic materials are stretched in one direction, they become thicker in the perpendicular direction. In contrast, some anisotropic materials, such as carbon nanotubes, zigzag-based folded sheet materials,[7][8] and honeycomb auxetic metamaterials[9] to name a few, can exhibit one or more Poisson's ratios above 0.5 in certain directions.
+For a cube stretched in the x-direction (see Figure 1) with a length increase of ΔL in the x-direction, and a length decrease of ΔL′ in the y- and z-directions, the infinitesimal diagonal strains are given by
+If Poisson's ratio is constant through deformation, integrating these expressions and using the definition of Poisson's ratio gives
+Solving and exponentiating, the relationship between ΔL and ΔL′ is then
+Definition
+Origin
+Poisson's ratio from geometry changes
+Length change
+Figure 1: A cube with sides of length L of an isotropic linearly elastic material subject to tension along the x axis, with a Poisson's ratio of 0.5. The green cube is unstrained, the red is expanded in the x-direction by ΔL due to tension, and contracted in the y- and z-directions by ΔL′.
+Figure 2: The blue slope represents a simplified formula
+(the top one in the legend) that works well for modest deformations, ∆L, up to about ±3. The green curve represents a formula better suited for larger deformations.
+For very small values of ΔL and ΔL′, the first-order approximation yields:
+The relative change of volume ⁠ΔV
+V ⁠ of a cube due to the stretch of the material can now be calculated. Since
+V = L3 and one can derive
+Using the above derived relationship between ΔL and ΔL′:
+and for very small values of ΔL and ΔL′, the first-order approximation yields:
+For isotropic materials we can use Lamé's relation[10] where K is bulk modulus and E is Young's modulus.
+If a rod with diameter (or width, or thickness) d and length L is subject to tension so that its length will change by ΔL then its diameter d will change by:
+The above formula is true only in the case of small deformations; if deformations are large then the following (more precise) formula can be used:
+where d is original diameter
+Δd is rod diameter change ν is Poisson's ratio
+L is original length, before stretch
+ΔL is the change of length.
+The value is negative because it decreases with increase of length
+For a linear isotropic material subjected only to compressive (i.e. normal) forces, the deformation of a material in the direction of one axis will produce a deformation of the material along the other axis in three dimensions. Thus it is possible to generalize Hooke's law (for compressive forces) into three dimensions:
+Volumetric change
+Width change
+Characteristic materials
+Isotropic where:
+εxx, εyy, and εzz are strain in the direction of x, y and z σxx, σyy, and σzz are stress in the direction of x, y and z
+E is Young's modulus (the same in all directions for isotropic materials) ν is Poisson's ratio (the same in all directions for isotropic materials) these equations can be all synthesized in the following:
+In the most general case, also shear stresses will hold as well as normal stresses, and the full generalization of Hooke's law is given by:
+where δij is the Kronecker delta. The Einstein notation is usually adopted:
+to write the equation simply as:
+For anisotropic materials, the Poisson ratio depends on the direction of extension and transverse deformation
+Here ν is Poisson's ratio, E is Young's modulus, n is a unit vector directed along the direction of extension, m is a unit vector directed perpendicular to the direction of extension. Poisson's ratio has a different number of special directions depending on the type of anisotropy.[11][12]
+Orthotropic materials have three mutually perpendicular planes of symmetry in their material properties. An example is wood, which is most stiff (and strong) along the grain, and less so in the other directions.
+Then Hooke's law can be expressed in matrix form as[13][14] where
+Ei is the Young's modulus along axis i
+Gij is the shear modulus in direction j on the plane whose normal is in direction i νij is the Poisson ratio that corresponds to a contraction in direction j when an extension is applied in direction i.
+The Poisson ratio of an orthotropic material is different in each direction (x, y and z). However, the symmetry of the stress and strain tensors implies that not all the six Poisson's ratios in the equation are independent. There are only nine independent material properties: three elastic moduli, three shear moduli, and three
+Poisson's ratios. The remaining three Poisson's ratios can be obtained from the relations
+Anisotropic
+Orthotropic
+Influences of selected glass component additions on Poisson's ratio of a specific base glass.[16]
+Material
+Poisson's ratio rubber
+0.4999[17] gold
+0.42-0.44 (0.43) saturated clay
+0.40-0.49 (0.45) magnesium
+0.252-0.289 (0.271) titanium
+0.265-0.34 (0.303) copper
+0.33 aluminium alloy
+0.32 clay
+0.30-0.45 (0.38) stainless steel
+0.30-0.31 (0.31) steel
+0.27-0.30 (0.29) cast iron
+0.21-0.26 (0.24) sand
+0.20-0.455 (0.328) concrete
+0.1-0.2 (0.2) glass
+0.18-0.3 (0.24) metallic glasses
+0.276-0.409 (0.343)[18] foam
+0.10-0.50 (0.3) cork
+0.0
+From the above relations we can see that if Ex > Ey then νxy > νyx. The larger ratio (in this case νxy) is called the major Poisson ratio while the smaller one
+(in this case νyx) is called the minor Poisson ratio. We can find similar relations between the other Poisson ratios.
+Transversely isotropic materials have a plane of isotropy in which the elastic properties are isotropic. If we assume that this plane of isotropy is the yz-plane, then Hooke's law takes the form[15] where we have used the yz-plane of isotropy to reduce the number of constants, that is,
+.
+The symmetry of the stress and strain tensors implies that
+This leaves us with six independent constants Ex, Ey, Gxy, Gyz, νxy, νyz. However, transverse isotropy gives rise to a further constraint between Gyz and Ey, νyz which is
+Therefore, there are five independent elastic material properties, two of which are Poisson's ratios. For the assumed plane of symmetry, the larger of νxy and νyx is the major Poisson ratio. The other major and minor Poisson ratios are equal.
+Material
+Plane of symmetry νxy νyx νyz νzy νzx νxz
+Nomex honeycomb core xy, ribbon in x direction
+0.49
+0.69
+0.01
+2.75
+3.88
+0.01 glass fiber epoxy resin xy
+0.29
+0.32
+0.06
+0.06
+0.32
+Transversely isotropic
+Poisson's ratio values for different materials
+Poisson's Ratio of Elastically Isotropic Elements[19]
+Material
+Poisson's ratio aluminium
+0.35 beryllium
+0.032 bismuth
+0.33 cadmium
+0.30 calcium
+0.31 cerium
+0.24 chromium
+0.21 cobalt
+0.31 copper
+0.34 dysprosium
+0.25 erbium
+0.24 europium
+0.15 gadolinium
+0.26 gold
+0.44 hafnium
+0.37 holmium
+0.23 iridium
+0.26 iron
+0.29 lanthanum
+0.28 lead
+0.44 lutetium
+0.26 magnesium
+0.29 molybdenum
+0.31 neodymium
+0.28 nickel
+0.31 niobium
+0.40 osmium
+0.25 palladium
+0.39 platinum
+0.38 plutonium
+0.21 praseodymium
+0.28 promethium
+0.28 rhenium
+0.30 rhodium
+0.26 ruthenium
+0.30 samarium
+0.27 scandium
+0.28 selenium
+0.33 silver
+0.37 strontium
+0.28 tantalum
+0.34 terbium
+0.26 thallium
+0.45 thorium
+0.27 thulium
+0.21 tin
+0.36 titanium
+0.32 tungsten
+0.28 uranium
+0.23 vanadium
+0.37 ytterbium
+0.21 yttrium
+0.24 zinc
+0.25 zirconium
+0.34
+Some materials, known as auxetic, display a negative Poisson's ratio. When subjected to positive strain in a longitudinal axis, the transverse strain in the material will actually be positive (i.e. it will increase the cross sectional area). For these materials, it is usually due to uniquely oriented, hinged molecular bonds. In order for these bonds to stretch in the longitudinal direction, the hinges must 'open' in the transverse direction, effectively exhibiting a positive strain.[20] This can also be done in a structured way and lead to new aspects in material design, such as for mechanical metamaterials.
+Studies have shown that certain solid wood types display negative Poisson's ratio exclusively during a compression creep test.[21][22] Initially, the compression creep test shows positive Poisson's ratios, but gradually decreases until it reaches negative values. Consequently, this also shows that Poisson's ratio for wood is time-dependent during constant loading, meaning that the strain in the axial and transverse direction do not increase in the same rate.
+Media with engineered microstructure may exhibit negative Poisson's ratio. In a simple case auxeticity is obtained removing material and creating a periodic porous media.[23] Lattices can reach lower values of Poisson's ratio,[24] which can be indefinitely close to the limiting value −1 in the isotropic case.[25]
+More than three hundred crystalline materials have negative Poisson's ratio.[26][27][28] For example, Li, Na, K, Cu, Rb, Ag, Fe, Ni, Co, Cs, Au, Be, Ca, Zn Sr,
+Sb, MoS2 and others.
+At finite strains, the relationship between the transverse and axial strains εtrans and εaxial is typically not well described by the Poisson ratio. In fact, the
+Poisson ratio is often considered a function of the applied strain in the large strain regime. In such instances, the Poisson ratio is replaced by the Poisson function, for which there are several competing definitions.[29] Defining the transverse stretch λtrans = εtrans + 1 and axial stretch λaxial = εaxial + 1, where the transverse stretch is a function of the axial stretch, the most common are the Hencky, Biot, Green, and Almansi functions:
+One area in which Poisson's effect has a considerable influence is in pressurized pipe flow. When the air or liquid inside a pipe is highly pressurized it exerts a uniform force on the inside of the pipe, resulting in a hoop stress within the pipe material. Due to Poisson's effect, this hoop stress will cause the pipe to increase in diameter and slightly decrease in length. The decrease in length, in particular, can have a noticeable effect upon the pipe joints, as the effect will accumulate for each section of pipe joined in series. A restrained joint may be pulled apart or otherwise prone to failure.
+Another area of application for Poisson's effect is in the realm of structural geology. Rocks, like most materials, are subject to Poisson's effect while under stress. In a geological timescale, excessive erosion or sedimentation of Earth's crust can either create or remove large vertical stresses upon the underlying rock.
+This rock will expand or contract in the vertical direction as a direct result of the applied stress, and it will also deform in the horizontal direction as a result of
+Poisson's effect. This change in strain in the horizontal direction can affect or form joints and dormant stresses in the rock.[30]
+Although cork was historically chosen to seal wine bottles for other reasons (including its inert nature, impermeability, flexibility, sealing ability, and resilience),[31] cork's Poisson's ratio of zero provides another advantage. As the cork is inserted into the bottle, the upper part which is not yet inserted does not expand in diameter as it is compressed axially. The force needed to insert a cork into a bottle arises only from the friction between the cork and the bottle due to the radial compression of the cork. If the stopper were made of rubber, for example, with a Poisson's ratio of about 0.5, there would be a relatively large additional force required to overcome the radial expansion of the upper part of the rubber stopper.
+Most car mechanics are aware that it is hard to pull a rubber hose (such as a coolant hose) off a metal pipe stub, as the tension of pulling causes the diameter of the hose to shrink, gripping the stub tightly. (This is the same effect as shown in a Chinese finger trap.) Hoses can more easily be pushed off stubs instead using a wide flat blade.
+Linear elasticity
+Hooke's law
+Impulse excitation technique
+Orthotropic material
+Shear modulus
+Squash and stretch
+Young's modulus
+Coefficient of thermal expansion
+Negative Poisson's ratio materials
+Poisson function
+Applications of Poisson's effect
+See also
+1. For soft materials, the bulk modulus (K) is typically large compared to the shear modulus (G) so that they can be regarded as incompressible, since it is easier to change shape than to compress. This results in the Young's modulus (E) being E = 3G and hence ν = 0.5.Jastrzebski, D. (1959). Nature and Properties of
+Engineering Materials (Wiley International ed.). John Wiley & Sons,
+Inc.
+2. Lakes, R.; Wojciechowski, K. W. (2008). "Negative compressibility, negative Poisson's ratio, and stability". Physica Status Solidi B. 245
+(3): 545–551. Bibcode:2008PSSBR.245..545L (https://ui.adsabs.ha rvard.edu/abs/2008PSSBR.245..545L).
+doi:10.1002/pssb.200777708 (https://doi.org/10.1002%2Fpssb.200
+777708).
+3. Gercek, H. (January 2007). "Poisson's ratio values for rocks".
+International Journal of Rock Mechanics and Mining Sciences. 44
+(1): 1–13. Bibcode:2007IJRMM..44....1G (https://ui.adsabs.harvard.
+edu/abs/2007IJRMM..44....1G). doi:10.1016/j.ijrmms.2006.04.011
+(https://doi.org/10.1016%2Fj.ijrmms.2006.04.011).
+4. Park, R. J. T. Seismic Performance of Steel-Encased Concrete
+Piles.
+5. Mark, Schenk (2011). Folded Shell Structures, PhD Thesis (http://w ww.markschenk.com/research/files/PhD%20thesis%20-%20Mark%
+20Schenk.pdf) (PDF). University of Cambridge, Clare College.
+6. Wei, Z. Y.; Guo, Z. V.; Dudte, L.; Liang, H. Y.; Mahadevan, L. (2013-
+05-21). "Geometric Mechanics of Periodic Pleated Origami" (https:// www.seas.harvard.edu/softmat/downloads/2013-09.pdf) (PDF).
+Physical Review Letters. 110 (21) 215501. arXiv:1211.6396 (https:// arxiv.org/abs/1211.6396). Bibcode:2013PhRvL.110u5501W (https:// ui.adsabs.harvard.edu/abs/2013PhRvL.110u5501W).
+doi:10.1103/PhysRevLett.110.215501 (https://doi.org/10.1103%2FP hysRevLett.110.215501). PMID 23745895 (https://pubmed.ncbi.nl m.nih.gov/23745895). S2CID 9145953 (https://api.semanticscholar.
+org/CorpusID:9145953).
+7. Eidini, Maryam; Paulino, Glaucio H. (2015). "Unraveling metamaterial properties in zigzag-base folded sheets" (https://www.
+ncbi.nlm.nih.gov/pmc/articles/PMC4643767). Science Advances. 1
+(8) e1500224. arXiv:1502.05977 (https://arxiv.org/abs/1502.05977).
+Bibcode:2015SciA....1E0224E (https://ui.adsabs.harvard.edu/abs/2
+015SciA....1E0224E). doi:10.1126/sciadv.1500224 (https://doi.org/1
+0.1126%2Fsciadv.1500224). ISSN 2375-2548 (https://search.world cat.org/issn/2375-2548). PMC 4643767 (https://www.ncbi.nlm.nih.g ov/pmc/articles/PMC4643767). PMID 26601253 (https://pubmed.nc bi.nlm.nih.gov/26601253).
+8. Eidini, Maryam (2016). "Zigzag-base folded sheet cellular mechanical metamaterials". Extreme Mechanics Letters. 6: 96–102.
+arXiv:1509.08104 (https://arxiv.org/abs/1509.08104).
+Bibcode:2016ExML....6...96E (https://ui.adsabs.harvard.edu/abs/20
+16ExML....6...96E). doi:10.1016/j.eml.2015.12.006 (https://doi.org/1
+0.1016%2Fj.eml.2015.12.006). S2CID 118424595 (https://api.sema nticscholar.org/CorpusID:118424595).
+9. Mousanezhad, Davood; Babaee, Sahab; Ebrahimi, Hamid; Ghosh,
+Ranajay; Hamouda, Abdelmagid Salem; Bertoldi, Katia; Vaziri,
+Ashkan (2015-12-16). "Hierarchical honeycomb auxetic metamaterials" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC468
+0941). Scientific Reports. 5 18306. Bibcode:2015NatSR...518306M
+(https://ui.adsabs.harvard.edu/abs/2015NatSR...518306M).
+doi:10.1038/srep18306 (https://doi.org/10.1038%2Fsrep18306).
+ISSN 2045-2322 (https://search.worldcat.org/issn/2045-2322).
+PMC 4680941 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4680
+941). PMID 26670417 (https://pubmed.ncbi.nlm.nih.gov/26670417).
+10. Mott, P. H.; Roland, C. M. (3 April 2012). "Limits to Poisson's ratio in isotropic materials—general result for arbitrary deformation".
+Physica Scripta. 87 (5) 055404. Chemistry Division, Naval
+Research Laboratory. arXiv:1204.3859 (https://arxiv.org/abs/1204.3
+859). doi:10.1088/0031-8949/87/05/055404 (https://doi.org/10.108
+8%2F0031-8949%2F87%2F05%2F055404). S2CID 55920779 (http s://api.semanticscholar.org/CorpusID:55920779).
+11. Epishin, A. I.; Lisovenko, D. S. (2016). "Extreme values of Poisson's ratio of cubic crystals". Technical Physics. 61 (10): 1516–1524.
+Bibcode:2016JTePh..61.1516E (https://ui.adsabs.harvard.edu/abs/2
+016JTePh..61.1516E). doi:10.1016/j.mechmat.2019.03.017 (https:// doi.org/10.1016%2Fj.mechmat.2019.03.017). S2CID 140493258 (ht tps://api.semanticscholar.org/CorpusID:140493258).
+12. Gorodtsov, V.A.; Lisovenko, D.S. (2019). "Extreme values of
+Young's modulus and Poisson's ratio of hexagonal crystals".
+Mechanics of Materials. 134: 1–8. Bibcode:2019MechM.134....1G
+(https://ui.adsabs.harvard.edu/abs/2019MechM.134....1G).
+doi:10.1016/j.mechmat.2019.03.017 (https://doi.org/10.1016%2Fj.m echmat.2019.03.017). S2CID 140493258 (https://api.semanticschol ar.org/CorpusID:140493258).
+13. Boresi, A. P; Schmidt, R. J.; Sidebottom, O. M. (1993). Advanced
+Mechanics of Materials. Wiley.
+14. Lekhnitskii, S. G. (1981). Theory of elasticity of an anisotropic elastic body (https://archive.org/details/lekhnitskii-theory-of-elasticit y-of-an-anisotropic-body-mir-1981/page/36/mode/2up). Mir
+Publishing. p. 36.
+15. Tan, S. C. (1994). Stress Concentrations in Laminated Composites.
+Lancaster, PA: Technomic Publishing Company.
+16. Fluegel, Alexander. "Poisson's Ratio Calculation for Glasses" (htt p://www.glassproperties.com/poisson_ratio/).
+www.glassproperties.com. Archived (https://web.archive.org/web/20
+171023140523/http://glassproperties.com/poisson_ratio/) from the original on 23 October 2017. Retrieved 28 April 2018.
+17. P. H. Mott; C. M. Roland (20 October 2009). "Limits to Poisson's ratio in isotropic materials" (http://polymerphysics.net/pdf/PhysRevB
+_80_132104_09.pdf) (PDF). Physical Review B. 80 (13) 132104.
+arXiv:0909.4697 (https://arxiv.org/abs/0909.4697).
+Bibcode:2009PhRvB..80m2104M (https://ui.adsabs.harvard.edu/ab s/2009PhRvB..80m2104M). doi:10.1103/PhysRevB.80.132104 (http s://doi.org/10.1103%2FPhysRevB.80.132104). Archived (https://we b.archive.org/web/20141031190845/http://polymerphysics.net/pdf/P hysRevB_80_132104_09.pdf) (PDF) from the original on 2014-10-
+31. Retrieved 2014-09-24.
+18. Journal of Applied Physics 110, 053521 (2011)
+19. "Wolfram Cloud ElementData" (https://www.wolframcloud.com).
+ElementData function. Retrieved January 21, 2026.
+20. Lakes, Rod. "Negative Poisson's ratio" (http://silver.neep.wisc.edu/~ lakes/Poisson.html). silver.neep.wisc.edu. Archived (https://web.arc hive.org/web/20180216025122/http://silver.neep.wisc.edu/~lakes/P oisson.html) from the original on 16 February 2018. Retrieved
+28 April 2018.
+21. Ozyhar, Tomasz; Hering, Stefan; Niemz, Peter (March 2013).
+"Viscoelastic characterization of wood: Time dependence of the orthotropic compliance in tension and compression" (https://doi.org/
+10.1122%2F1.4790170). Journal of Rheology. 57 (2): 699–717.
+Bibcode:2013JRheo..57..699O (https://ui.adsabs.harvard.edu/abs/2
+013JRheo..57..699O). doi:10.1122/1.4790170 (https://doi.org/10.11
+22%2F1.4790170). ISSN 0148-6055 (https://search.worldcat.org/iss n/0148-6055).
+22. Jiang, Jiali; Erik Valentine, Bachtiar; Lu, Jianxiong; Niemz, Peter
+(2016-11-01). "Time dependence of the orthotropic compression
+Young's moduli and Poisson's ratios of Chinese fir wood" (http://do c.rero.ch/record/324934/files/hf-2016-0001.pdf) (PDF).
+Holzforschung. 70 (11): 1093–1101. doi:10.1515/hf-2016-0001 (http s://doi.org/10.1515%2Fhf-2016-0001). hdl:20.500.11850/122097 (ht tps://hdl.handle.net/20.500.11850%2F122097). ISSN 1437-434X (h ttps://search.worldcat.org/issn/1437-434X). S2CID 137799672 (http s://api.semanticscholar.org/CorpusID:137799672).
+23. Carta, Giorgio; Brun, Michele; Baldi, Antonio (2016). "Design of a porous material with isotropic negative Poisson's ratio". Mechanics of Materials. 97: 67–75. Bibcode:2016MechM..97...67C (https://ui.a dsabs.harvard.edu/abs/2016MechM..97...67C).
+doi:10.1016/j.mechmat.2016.02.012 (https://doi.org/10.1016%2Fj.m echmat.2016.02.012).
+References
+24. Cabras, Luigi; Brun, Michele (2016). "A class of auxetic three- dimensional lattices" (https://id.elsevier.com/as/authorization.oauth
+2?platSite=SD%2Fscience&scope=openid+email+profile+els_auth_ info+urn%3Acom%3Aelsevier%3Aidp%3Apolicy%3Aproduct%3Ain st_assoc&response_type=code&redirect_uri=https%3A%2F%2Fww w.sciencedirect.com%2Fuser%2Fidentity%2Flanding&authType=SI
+NGLE_SIGN_IN&prompt=none&client_id=SDFE-v3&state=retryCo unter%3D0%26csrfToken%3D9d114051-9af7-432d-99c4-8f6c9367
+6c1b%26idpPolicy%3Durn%253Acom%253Aelsevier%253Aidp%2
+53Apolicy%253Aproduct%253Ainst_assoc%26returnUrl%3D%252
+Fscience%252Farticle%252Fpii%252FS0022509616301314%26pr ompt%3Dnone%26cid%3Darp-7372d8ce-0555-4781-b645-5c2ec19
+32a00). Journal of the Mechanics and Physics of Solids. 91: 56–72.
+arXiv:1506.04919 (https://arxiv.org/abs/1506.04919).
+Bibcode:2016JMPSo..91...56C (https://ui.adsabs.harvard.edu/abs/2
+016JMPSo..91...56C). doi:10.1016/j.jmps.2016.02.010 (https://doi.o rg/10.1016%2Fj.jmps.2016.02.010). S2CID 85547530 (https://api.s emanticscholar.org/CorpusID:85547530).
+25. Cabras, Luigi; Brun, Michele (2014). "Auxetic two-dimensional lattices with Poisson's ratio arbitrarily close to -1". Proceedings of the Royal Society A. 470 (2172) 20140538. arXiv:1407.5679 (http s://arxiv.org/abs/1407.5679). Bibcode:2014RSPSA.47040538C (htt ps://ui.adsabs.harvard.edu/abs/2014RSPSA.47040538C).
+doi:10.1098/rspa.2014.0538 (https://doi.org/10.1098%2Frspa.2014.
+0538). S2CID 119321604 (https://api.semanticscholar.org/CorpusI
+D:119321604).
+26. Goldstein, R.V.; Gorodtsov, V.A.; Lisovenko, D.S. (2013).
+"Classification of cubic auxetics". Physica Status Solidi B. 250 (10):
+2038–2043. Bibcode:2013PSSBR.250.2038G (https://ui.adsabs.har vard.edu/abs/2013PSSBR.250.2038G).
+doi:10.1002/pssb.201384233 (https://doi.org/10.1002%2Fpssb.201
+384233). S2CID 117802510 (https://api.semanticscholar.org/Corpu sID:117802510).
+27. Goldstein, R.V.; Gorodtsov, V.A.; Lisovenko, D.S. (2011). "Variability of elastic properties of hexagonal auxetics". Doklady Physics. 56
+(12): 602–605. Bibcode:2011DokPh..56..602G (https://ui.adsabs.ha rvard.edu/abs/2011DokPh..56..602G).
+doi:10.1134/S1028335811120019 (https://doi.org/10.1134%2FS102
+8335811120019). S2CID 120998323 (https://api.semanticscholar.or g/CorpusID:120998323).
+28. Goldstein, R.V.; Gorodtsov, V.A.; Lisovenko, D.S.; Volkov, M.A.
+(2015). "Auxetics among 6-constant tetragonal crystals" (https://doi.
+org/10.22226%2F2410-3535-2015-4-409-413). Letters on
+Materials. 5 (4): 409–413. doi:10.22226/2410-3535-2015-4-409-413
+(https://doi.org/10.22226%2F2410-3535-2015-4-409-413).
+29. Mihai, L. A.; Goriely, A. (2017-11-03). "How to characterize a nonlinear elastic material? A review on nonlinear constitutive parameters in isotropic finite elasticity" (https://www.ncbi.nlm.nih.go v/pmc/articles/PMC5719638). Proceedings of the Royal Society A.
+473 (2207) 20170607. Bibcode:2017RSPSA.47370607M (https://ui.
+adsabs.harvard.edu/abs/2017RSPSA.47370607M).
+doi:10.1098/rspa.2017.0607 (https://doi.org/10.1098%2Frspa.2017.
+0607). PMC 5719638 (https://www.ncbi.nlm.nih.gov/pmc/articles/P
+MC5719638). PMID 29225507 (https://pubmed.ncbi.nlm.nih.gov/29
+225507).
+30. "Lecture Notes in Structural Geology – Effective Stress" (http://www
+3.geosc.psu.edu/~jte2/geosc465/lect18.rtf). Retrieved 2019-07-03.
+31. Silva, et al. "Cork: properties, capabilities and applications" (https://t hematking.com/business_industry/we-aint-just-mats/cork-products/i nt-materials-review-2005.pdf) Archived (https://web.archive.org/we b/20170809095822/http://thematking.com/business_industry/we-ain t-just-mats/cork-products/int-materials-review-2005.pdf) 2017-08-09 at the Wayback Machine, Retrieved May 4, 2017
+Meaning of Poisson's ratio (http://silver.neep.wisc.edu/~lakes/PoissonIntro.html)
+Negative Poisson's ratio materials (http://silver.neep.wisc.edu/~lakes/Poisson.html)
+More on negative Poisson's ratio materials (auxetic) (http://home.um.edu.mt/auxetic) Archived (https://web.archive.org/web/20180208003939/ http://home.um.edu.mt/auxetic) 2018-02-08 at the Wayback Machine
+External links
+Homogeneous isotropic linear elastic materials have their elastic properties uniquely determined by any two quantities among these; thus, given any two, any other of the elastic moduli can be calculated accord both for 3D materials (first part of the table) and for 2D materials (second part).
+3D Formulae
+Knowns
+Bulk modulus (K)
+Young's modulus (E)
+Lamé's first parameter (λ)
+Shear modulus (G)
+Poisson's ratio (ν)
+P-wave modulus (M)
+(K, E)
+3K(1 + ⁠ 6K
+E − 9K⁠)
+⁠
+E
+3 − ⁠E
+3K⁠⁠
+⁠1
+2⁠ − ⁠E
+6K⁠
+⁠
+3K + E
+3 − ⁠E
+3K⁠⁠
+(K, λ)
+9K(K − λ)
+3K − λ ⁠
+⁠3(K − λ)
+⁠
+⁠ λ
+3K − λ⁠
+3K − 2λ
+(K, G)
+⁠ 9KG
+3K + G⁠
+K − ⁠2G
+3 ⁠
+⁠3K − 2G
+6K + 2G⁠
+K + ⁠4G
+3 ⁠
+(K, ν)
+3K(1 − 2ν)
+⁠3Kν
+1 + ν⁠
+⁠3K(1 − 2ν)
+2(1 + ν) ⁠
+⁠3K(1 − ν)
+1 + ν
+(K, M)
+⁠9K(M − K)
+3K + M ⁠
+⁠3K − M
+⁠
+⁠3(M − K)
+⁠
+⁠3K − M
+3K + M⁠
+(E, λ)
+⁠E + 3λ + R
+⁠
+⁠E − 3λ + R
+⁠
+− ⁠E + R
+4λ ⁠ − ⁠1
+4⁠
+⁠E − λ + R
+⁠
+(E2
+(E, G)
+⁠
+EG
+3(3G − E)⁠
+⁠G(E − 2G)
+3G − E ⁠
+⁠E
+2G⁠ − 1
+⁠G(4G − E)
+3G − E ⁠
+(E, ν)
+⁠ E
+3 − 6ν⁠
+Eν
+(1 + ν)(1 − 2ν)⁠
+⁠
+E
+2(1 + ν)⁠
+⁠
+E(1 − ν)
+(1 + ν)(1 − 2ν)⁠
+(E, M)
+⁠3M − E + S
+⁠
+⁠M − E + S
+⁠
+⁠3M + E − S
+⁠
+⁠E + S
+4M ⁠ − ⁠1
+4⁠
+(E2 +
+(λ, G) λ + ⁠2G
+3 ⁠
+⁠G(3λ + 2G) λ + G
+⁠
+⁠ λ
+2(λ + G)⁠ λ + 2G
+(λ, ν)
+⁠λ
+3⁠(1 + ⁠1 ν⁠) λ(⁠1 ν⁠ − 2ν − 1) λ(⁠1
+2ν⁠ − 1) λ(⁠1 ν⁠ − 1)
+(λ, M)
+⁠M + 2λ
+⁠
+⁠(M − λ)(M+2λ)
+M + λ
+⁠
+⁠M − λ
+⁠
+⁠ λ
+M + λ⁠
+(G, ν)
+⁠2G(1 + ν)
+3 − 6ν ⁠
+2G(1 + ν)
+⁠2 G ν
+1 − 2ν⁠
+⁠2G(1 − ν)
+1 − 2ν ⁠
+(G, M)
+M − ⁠4G
+3 ⁠
+⁠G(3M − 4G)
+M − G
+⁠
+M − 2G
+M − 2G
+2M − 2G⁠
+(ν, M)
+⁠M(1 + ν)
+3(1 − ν) ⁠
+⁠M(1 + ν)(1 − 2ν)
+1 − ν
+⁠M ν
+1 − ν⁠
+⁠M(1 − 2ν)
+2(1 − ν) ⁠
+2D Formulae
+Knowns
+(K)
+(E)
+(λ)
+(G)
+(ν)
+(M)
+(K2D, E2D)
+⁠
+2K2D(2K2D − E2D)
+4K2D − E2D
+⁠ ⁠
+K2DE2D
+4K2D − E2D⁠
+⁠
+2K2D − E2D
+2K2D
+⁠
+⁠
+4K2D^2
+4K2D − E2D⁠
+(K2D, λ2D)
+⁠
+4K2D(K2D − λ2D)
+2K2D − λ2D
+⁠
+K2D − λ2D
+⁠ λ2D
+2K2D − λ2D⁠
+2K2D − λ2D
+(K2D, G2D)
+⁠
+4K2DG2D
+K2D + G2D⁠
+K2D − G2D
+⁠
+K2D − G2D
+K2D + G2D⁠
+K2D + G2D
+(K2D, ν2D)
+2K2D(1 − ν2D)
+⁠
+2K2Dν2D
+1 + ν2D ⁠
+⁠
+K2D(1 − ν2D)
+1 + ν2D
+⁠
+⁠
+2K2D
+1 + ν2D⁠
+(E2D, G2D)
+⁠
+E2DG2D
+4G2D − E2D⁠
+⁠
+2G2D(E2D − 2G2D)
+4G2D − E2D
+⁠
+⁠
+E2D
+2G2D⁠ − 1
+⁠
+4G2D^2
+4G2D − E2D⁠
+(E2D, ν2D)
+⁠
+E2D
+2(1 − ν2D)⁠
+⁠
+E2Dν2D
+(1 + ν2D)(1 − ν2D)⁠
+⁠
+E2D
+2(1 + ν2D)⁠
+⁠
+E2D
+(1 + ν2D)(1 − ν2D)⁠
+(λ2D, G2D) λ2D + G2D
+⁠
+4G2D(λ2D + G2D) λ2D + 2G2D
+⁠
+⁠ λ2D λ2D + 2G2D⁠ λ2D + 2G2D
+(λ2D, ν2D)
+⁠ λ2D(1 + ν2D)
+2ν2D
+⁠ ⁠ λ2D(1 + ν2D)(1 − ν2D) ν2D
+⁠
+⁠ λ2D(1 − ν2D)
+2ν2D
+⁠
+⁠ λ2D ν2D⁠
+(G2D, ν2D)
+⁠
+G2D(1 + ν2D)
+1 − ν2D
+⁠
+2G2D(1 + ν2D)
+⁠
+2 G2D ν2D
+1 − ν2D ⁠
+⁠
+2G2D
+1 − ν2D⁠
+(G2D, M2D)
+M2D − G2D
+⁠
+4G2D(M2D − G2D)
+M2D
+⁠
+M2D − 2G2D
+⁠
+M2D − 2G2D
+M2D
+⁠
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Poisson%27s_ratio&oldid=1334114027"

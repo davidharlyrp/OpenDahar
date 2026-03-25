@@ -1,449 +1,222 @@
- 
-A methodology for assessing rainfall-induced pore pressure 
-changes in open pit slopes 
-J Bellin  SRK Consulting (UK) Ltd, UK 
-M Raynor  SRK Consulting (UK) Ltd, UK 
-R Kettle  SRK Consulting (UK) Ltd, UK 
-K Tasoren  IAMGOLD, Suriname 
- 
-Abstract 
-Rainfall-induced pore pressure responses are a well-known, yet mainly poorly understood, driver for slope 
-instability. This knowledge gap is particularly relevant at shallow depths where slopes are more sensitive to 
-changes in pore pressures. 
-The goal of this paper is to increase the industry’s understanding of the controls on rainfall-driven pore 
-pressure fluctuations through in-depth data analysis of measured pore pressure responses at an operational 
-mine site using a suite of semi-automated tools. A methodology is presented for analysis and correlation of 
-rainfall data with observed pore pressure response using Python. Empirical relationships are presented 
-between extreme rainfall events and the magnitude and lag time of the resultant pore pressure response. The 
-impact of short-term extreme events is compared with longer-term interannual variations in rainfall and 
-measured pore pressure for the example site. 
-Pore pressure trends are compared with the historical failure database in an attempt to reconcile the timing 
-of slope failures with rainfall events and observed pore pressure responses. The paper provides a valuable 
-methodology for those seeking to incorporate extreme events and climatic variability into a risk-based slope 
-design process. The implications of the review for groundwater management plans and rainfall trigger-action-
-response-plans (TARPs) are also discussed. 
-Keywords: vibrating wire piezometer, pore pressure, extreme rainfall, Python, data management 
-1 
-Introduction 
-The widespread adoption of vibrating wire piezometer (VWP) installations across the mining industry has 
-resulted in a large increase in pore pressure data at open pit mine sites. VWP installations typically include a 
-datalogger recording at sub-daily intervals and sub-hourly in some cases. The datasets cannot be efficiently 
-stored or analysed using traditional spreadsheet methods and databases are used to store and quality control 
-the VWP data. Many databases lack integrated data analysis capability so spreadsheets are used for analysis 
-despite their inability to handle large datasets. 
-This paper presents a methodology for evaluating rainfall-induced pore pressure responses in VWP data. 
-Python ‘tools’ are used to efficiently process and display large datasets for subsequent interpretation with 
-very little manual user intervention required. Each ‘tool’ comprises a block of Python code that reads and 
-plots output from a VWP database. The tools are applied to a dataset from the Rosebel Gold Mine (RGM) in 
-Suriname to evaluate pore pressure responses to rainfall across five operational open pits. The tools are 
-equally applicable to any high-frequency pore pressure dataset and can be used to inform slope stability 
-analysis, to prioritise controls such as surface water management and active slope depressurisation, and to 
-provide a sounder basis for a definition of site-specific rainfall TARPs. 
+A methodology for assessing rainfall-induced pore pressure changes in open pit slopes
+J Bellin SRK Consulting (UK) Ltd, UK
+M Raynor SRK Consulting (UK) Ltd, UK
+R Kettle SRK Consulting (UK) Ltd, UK
+K Tasoren IAMGOLD, Suriname
+
+Abstract
+Rainfall-induced pore pressure responses are a well-known, yet mainly poorly understood, driver for slope instability. This knowledge gap is particularly relevant at shallow depths where slopes are more sensitive to changes in pore pressures.
+The goal of this paper is to increase the industry’s understanding of the controls on rainfall-driven pore pressure fluctuations through in-depth data analysis of measured pore pressure responses at an operational mine site using a suite of semi-automated tools. A methodology is presented for analysis and correlation of rainfall data with observed pore pressure response using Python. Empirical relationships are presented between extreme rainfall events and the magnitude and lag time of the resultant pore pressure response. The impact of short-term extreme events is compared with longer-term interannual variations in rainfall and measured pore pressure for the example site.
+Pore pressure trends are compared with the historical failure database in an attempt to reconcile the timing of slope failures with rainfall events and observed pore pressure responses. The paper provides a valuable methodology for those seeking to incorporate extreme events and climatic variability into a risk-based slope design process. The implications of the review for groundwater management plans and rainfall trigger-action- response-plans (TARPs) are also discussed.
+Keywords: vibrating wire piezometer, pore pressure, extreme rainfall, Python, data management
+Introduction
+The widespread adoption of vibrating wire piezometer (VWP) installations across the mining industry has resulted in a large increase in pore pressure data at open pit mine sites. VWP installations typically include a datalogger recording at sub-daily intervals and sub-hourly in some cases. The datasets cannot be efficiently stored or analysed using traditional spreadsheet methods and databases are used to store and quality control the VWP data. Many databases lack integrated data analysis capability so spreadsheets are used for analysis despite their inability to handle large datasets.
+This paper presents a methodology for evaluating rainfall-induced pore pressure responses in VWP data.
+Python ‘tools’ are used to efficiently process and display large datasets for subsequent interpretation with very little manual user intervention required. Each ‘tool’ comprises a block of Python code that reads and plots output from a VWP database. The tools are applied to a dataset from the Rosebel Gold Mine (RGM) in
+Suriname to evaluate pore pressure responses to rainfall across five operational open pits. The tools are equally applicable to any high-frequency pore pressure dataset and can be used to inform slope stability analysis, to prioritise controls such as surface water management and active slope depressurisation, and to provide a sounder basis for a definition of site-specific rainfall TARPs.
 Slope Stability 2020 - PM Dight (ed.)
 © Australian Centre for Geomechanics, Perth, ISBN 978-0-9876389-7-7
-Slope Stability 2020
-1305
-doi:10.36487/ACG_repo/2025_89
- 
-2 
-Previous work 
-2.1 
-Water level responses to rainfall 
-Historically, analysis of water level responses to rainfall has been constrained by the paucity of data. The 
-practicalities of manual water level monitoring have usually limited water level measurement to a weekly, 
-often sporadic recording frequency. Standpipe piezometers typically only provided average porewater 
-pressures across large intervals, limited information on vertical gradients, and the lag times associated with 
-volume of water in the standpipe itself limited their ability to measure short-term pore pressure response in 
-low permeability formations (McKenna 1995). Consequently, analysis was usually limited to longer-term, 
-seasonal analysis for the watertable and ability to analyse event-based pore pressure responses was limited, 
-despite the correlations between slope stability and extreme rainfall being widely recognised within the 
-geotechnical industry. 
-With the widespread adoption across the industry of VWPs recording sub-daily pore pressure readings, 
-response to rainfall can be evaluated across the full geological sequence of interest. VWPs have also 
-improved understanding of pore pressure changes within the unsaturated zone where transient pore 
-pressure responses to infiltration and recharge can be quantified. These data have provided new insights into 
-pit slope porewater pressures but also demands new data management and analysis approaches. 
-Simple charts of porewater pressure (line) and rainfall (bar) over time can yield useful results. However, 
-analysis relies on reviewing the results from each VWP sensor in turn. With large quantities of VWP sensors 
-installed at many mine sites, each producing large quantities of porewater pressure data, this task can quickly 
-become unmanageable in terms of the time taken to plot the data in an appropriate format as well the time 
-taken to review the data. Invariably, some trends or responses can be missed. Furthermore, correlating 
-individual responses together into a coherent general wider pit or site-wide trends can be more difficult. This 
-problem is only likely to get worse as the installation of automatically logged VWPs become more widespread 
-across the industry and the risk of data overload becomes more prevalent. A better understanding of typical 
-pore pressure trends across a given site (and between sites) can also be used to evaluate likely pore pressure 
-trends in areas of data scarcity, a critical consideration given that even the most heavily instrumented sites 
-in the world will not have pore pressure data in the exact areas of interest. This is particularly true in active 
-failures where instrumentation is often destroyed. 
-However, establishing meaningful automated correlation of complex interdependent time series data can be 
-challenging. Direct correlation analysis, e.g. Pearson correlation, of timeseries data considers global 
-synchrony and therefore reduces the relationship between two timeseries to a single correlation value. In 
-data where the response in one timeseries due to the other timeseries might not be expected to be 
-instantaneous, e.g. water level responses to rainfall, this approach is of limited value. 
-Time-lagged, cross-correlation is a technique that can be used to evaluate the statistical correlations between 
-two timeseries datasets, investigating this correlation at different time lags. A cross-correlation of daily 
-rainfall and change in groundwater level can allow the time taken for the water level to first respond (‘lag 
-time’) to be calculated as well as revealing the statistical significance of any response in water level after a 
-certain time lag in terms of its correlation with rainfall (Lee et al. 2006). 
-Cross-correlation is typically calculated using the following equation (after Lee et al. 2006): 
- 
- = 
-∑[(	
- )(	
- )]
-
- 
-(1) 
-where: 
-() = cross-correlation coefficient at time lag . 
- 
-= 0, + 1, + 2 … +n time lag between the two timeseries (days). 
- 
-= rainfall observed at time t. 
+Slope Stability 2020 doi:10.36487/ACG_repo/2025_89
+
+Previous work
+2.1
+Water level responses to rainfall
+Historically, analysis of water level responses to rainfall has been constrained by the paucity of data. The practicalities of manual water level monitoring have usually limited water level measurement to a weekly, often sporadic recording frequency. Standpipe piezometers typically only provided average porewater pressures across large intervals, limited information on vertical gradients, and the lag times associated with volume of water in the standpipe itself limited their ability to measure short-term pore pressure response in low permeability formations (McKenna 1995). Consequently, analysis was usually limited to longer-term, seasonal analysis for the watertable and ability to analyse event-based pore pressure responses was limited, despite the correlations between slope stability and extreme rainfall being widely recognised within the geotechnical industry.
+With the widespread adoption across the industry of VWPs recording sub-daily pore pressure readings, response to rainfall can be evaluated across the full geological sequence of interest. VWPs have also improved understanding of pore pressure changes within the unsaturated zone where transient pore pressure responses to infiltration and recharge can be quantified. These data have provided new insights into pit slope porewater pressures but also demands new data management and analysis approaches.
+Simple charts of porewater pressure (line) and rainfall (bar) over time can yield useful results. However, analysis relies on reviewing the results from each VWP sensor in turn. With large quantities of VWP sensors installed at many mine sites, each producing large quantities of porewater pressure data, this task can quickly become unmanageable in terms of the time taken to plot the data in an appropriate format as well the time taken to review the data. Invariably, some trends or responses can be missed. Furthermore, correlating individual responses together into a coherent general wider pit or site-wide trends can be more difficult. This problem is only likely to get worse as the installation of automatically logged VWPs become more widespread across the industry and the risk of data overload becomes more prevalent. A better understanding of typical pore pressure trends across a given site (and between sites) can also be used to evaluate likely pore pressure trends in areas of data scarcity, a critical consideration given that even the most heavily instrumented sites in the world will not have pore pressure data in the exact areas of interest. This is particularly true in active failures where instrumentation is often destroyed.
+However, establishing meaningful automated correlation of complex interdependent time series data can be challenging. Direct correlation analysis, e.g. Pearson correlation, of timeseries data considers global synchrony and therefore reduces the relationship between two timeseries to a single correlation value. In data where the response in one timeseries due to the other timeseries might not be expected to be instantaneous, e.g. water level responses to rainfall, this approach is of limited value.
+Time-lagged, cross-correlation is a technique that can be used to evaluate the statistical correlations between two timeseries datasets, investigating this correlation at different time lags. A cross-correlation of daily rainfall and change in groundwater level can allow the time taken for the water level to first respond (‘lag time’) to be calculated as well as revealing the statistical significance of any response in water level after a certain time lag in terms of its correlation with rainfall (Lee et al. 2006).
+Cross-correlation is typically calculated using the following equation (after Lee et al. 2006):
+
+ =
+∑[(
+
+)(	
+
+)]
+
+
+
+(1) where:
+() = cross-correlation coefficient at time lag .
+
+= 0, + 1, + 2 … +n time lag between the two timeseries (days).
+
+= rainfall observed at time t.
 A methodology for assessing rainfall-induced pore pressure changes in open pit slopes
 J Bellin et al.
-1306
 Slope Stability 2020
- 
- 
-= water level observed at time t. 
- 
-= mean of rainfall. 
- 
-= mean of water level. 
- 
-= standard deviation of rainfall. 
- 
-= standard deviation of water level. 
-A 95% confidence interval is typically taken as the threshold significance level and can be calculated as the 
-standard error (Diggle 1990): 
- 
- = 
+
+
+= water level observed at time t.
+
+= mean of rainfall.
+
+= mean of water level.
+_
+= standard deviation of rainfall.
+_
+= standard deviation of water level.
+A 95% confidence interval is typically taken as the threshold significance level and can be calculated as the standard error (Diggle 1990):
+
+ =
 
-√ 
-(2) 
-where: 
-N 
-= the number of values in the dataset. 
-In hydrogeology, cross-correlation has been used to look at rainfall recharge processes. Lee et al. (2006) 
-employed cross-correlation analysis to examine variations in water level response times using sub-daily water 
-level monitoring at six sites in the chalk aquifer of southern England. They were able to derive lag times 
-between water levels and rainfall with the results showing a significant primary response in all holes, with a 
-lag time of typically less than two days, corresponding to recharge via fractures and fissures. In some holes, 
-a delayed secondary response was also observed at later lag times corresponding to matrix flow. They were 
-able to successfully correlate the type of response with physical factors such as thickness of unsaturated zone 
-and antecedent rainfall. McCoy & Blanchard (2008) applied this same cross-correlation analysis to hourly 
-groundwater level data collected in a structurally complex geological sequence in the Sandia Mountains, New 
-Mexico. They found that a regional fault was controlling water level responses to rainfall recharge with the 
-lag time largest nearer the faults indicating its potential role as a groundwater and recharge barrier. More 
-recently, Cai & Ofterdinger (2016) used cross-correlation to analyse groundwater level lag times in response 
-to rainfall at several fractured hard rock boreholes in west and northwest Ireland. Their work concluded that 
-very limited direct rainfall recharge (no statistically significant correlation) was occurring on hillslope 
-locations, whilst a lag time of less than two hours could be observed at the base of the hillslopes. The analysis 
-was taken further to derive an estimate of recharge at the base of the hillslopes using the watertable 
-fluctuation (WTF) method (Crosbie et al. 2005). 
-2.2 
-Role of rainfall on slope stability 
-Rainfall-induced pore pressure responses are a well-known driver for slope instability, generally believed to 
-be due to (Fourie 1996; Fourie et al. 2014; Lorig 2015): 
-• Slope erosion (rilling and gullying). 
-• A reduction in soil matric suction and a consequent reduction in apparent cohesion. 
-• Elevated transient pore pressures within the unsaturated zone creating an increase in the driving 
-forces of slope failure. 
-• Transient unsaturated zone pore pressures and rises in groundwater levels in response to rainfall 
-creating a reduction in effective stress. 
-Slope erosion can often be mitigated to some extent by implementation of surface water management 
-controls, for example ex-pit diversions and in-pit measures such as toe to crest grading of benches to 
-minimise ponding, steeper batter angles, progressive rehabilitation, and lined lateral bench ditches in the 
-most extreme cases (Beale & Read 2013). 
-Below the surface, both hydrological processes and soil properties play an important role in rainfall-induced 
-failures. There is evidence to suggest that rainfall-induced slope failures are more prevalent at shallower depths. 
+√
+
+(2) where:
+N
+= the number of values in the dataset.
+In hydrogeology, cross-correlation has been used to look at rainfall recharge processes. Lee et al. (2006) employed cross-correlation analysis to examine variations in water level response times using sub-daily water level monitoring at six sites in the chalk aquifer of southern England. They were able to derive lag times between water levels and rainfall with the results showing a significant primary response in all holes, with a lag time of typically less than two days, corresponding to recharge via fractures and fissures. In some holes, a delayed secondary response was also observed at later lag times corresponding to matrix flow. They were able to successfully correlate the type of response with physical factors such as thickness of unsaturated zone and antecedent rainfall. McCoy & Blanchard (2008) applied this same cross-correlation analysis to hourly groundwater level data collected in a structurally complex geological sequence in the Sandia Mountains, New
+Mexico. They found that a regional fault was controlling water level responses to rainfall recharge with the lag time largest nearer the faults indicating its potential role as a groundwater and recharge barrier. More recently, Cai & Ofterdinger (2016) used cross-correlation to analyse groundwater level lag times in response to rainfall at several fractured hard rock boreholes in west and northwest Ireland. Their work concluded that very limited direct rainfall recharge (no statistically significant correlation) was occurring on hillslope locations, whilst a lag time of less than two hours could be observed at the base of the hillslopes. The analysis was taken further to derive an estimate of recharge at the base of the hillslopes using the watertable fluctuation (WTF) method (Crosbie et al. 2005).
+2.2
+Role of rainfall on slope stability
+Rainfall-induced pore pressure responses are a well-known driver for slope instability, generally believed to be due to (Fourie 1996; Fourie et al. 2014; Lorig 2015):
+• Slope erosion (rilling and gullying).
+• A reduction in soil matric suction and a consequent reduction in apparent cohesion.
+• Elevated transient pore pressures within the unsaturated zone creating an increase in the driving forces of slope failure.
+• Transient unsaturated zone pore pressures and rises in groundwater levels in response to rainfall creating a reduction in effective stress.
+Slope erosion can often be mitigated to some extent by implementation of surface water management controls, for example ex-pit diversions and in-pit measures such as toe to crest grading of benches to minimise ponding, steeper batter angles, progressive rehabilitation, and lined lateral bench ditches in the most extreme cases (Beale & Read 2013).
+Below the surface, both hydrological processes and soil properties play an important role in rainfall-induced failures. There is evidence to suggest that rainfall-induced slope failures are more prevalent at shallower depths.
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1307
- 
-For example, O’Neill (2018) found that 60% of failures from a database of over 200 published case studies were 
-due to a precipitation-related event and of these failures, 60% occurred in the upper half of the slope. 
-Fourie (1996) and Fourie et al. (2014) propose reduction in soil suction as the key trigger mechanism for 
-shallow landslides. This suggests a critical threshold moisture content which could potentially be predicted 
-through empirical relationships and modelling. Fourie et al. (2014) outlines a risk-based design approach 
-where risk level is adjusted according to a critical intensity and duration calculated based on the slope 
-stability modelling. Rainfall events above the critical threshold are deemed to have a high risk of causing 
-failure and appropriate risk mitigation actions are triggered. O’Neill (2018), however, suggests a more 
-complex failure model including reduction in friction angle for weak rocks and progressive degradation of 
-cohesion for brittle failures. Importantly, this latter process may mean that a direct and immediate 
-relationship between rainfall, porewater pressure changes and slope failures may not exist. 
-3 
-Study site 
-The RGM is located approximately 80 km south of Paramaribo in Suriname. The site comprises eight open 
-pits through saprolite and transition zones in excess of 70 m and several hundred metres into the fresh rock 
-below. Around 200 Kt of material is moved per day by way of a conventional truck and shovel operation. The 
-site has a range of active and decommissioned pit slopes in saprolite, transition and fresh rock material. 
-The climate at RGM is tropical and is characterised by consistently warm temperatures and high humidity 
-with little seasonal variation. Annual rainfall is high, around 2,200 mm per year, with an average monthly 
-rainfall greater than 60 mm in the driest months. Rainfall events are typically intense, the 1-in-2-year  
-24-hour event is 95 mm, for example. 
-Weather is dictated by the inter-tropical convergence zone, which passes over Suriname twice a year and 
-results in two wetter and two drier seasons: 
-• Late February to late April, a short dry season. 
-• Late April to mid-August, a long rainy season (long, wet season). 
-• Mid-August to early December, a long dry season. 
-• Early December to late February, a short rainy season (short, wet season). 
-Elevated pore pressures due to rainfall events have been proposed as a key driver for slope failures at the 
-site (Tasoren & Sattan 2018). Pore pressures are also controlled to some degree by mining progression, with 
-a strong depressurisation response typically seen as mining progresses through the transition and fresh rock 
-and the saprolite is underdrained. 
-From 2013 onwards, a program of VWP installation was commissioned in order to investigate and monitor 
-pore pressures in and around the pits and waste dumps, specifically with regards to: 
-• Depressurisation due to under-drainage of saprolite as the underlying transition rock is opened up. 
-• Seepage from the ex-pit water storage and diversion channels behind the pit crests leading to 
-locally increased porewater pressures. 
-• Rainfall infiltration. 
-The locations of the individual VWPs were also chosen to provide a good spatial coverage with consideration 
-of the pit design as well as to increase understanding of lithological, weathering and structural controls on 
-groundwater flow. A total of 105 active VWP sensors installed in 30 boreholes are now established at six  
-pits: J-Zone, Mayo, Pay Caro, Rosebel, and Royal Hill. Each VWP string typically has four or five sensors 
-connected to dataloggers recording at a 4-hour frequency. 
-In 2017, a Microsoft Access database was introduced for storage, quality control and basic graphing of the 
-monitoring data. The database also stores rainfall and pit floor elevations over time. Recently, master data 
+
+For example, O’Neill (2018) found that 60% of failures from a database of over 200 published case studies were due to a precipitation-related event and of these failures, 60% occurred in the upper half of the slope.
+Fourie (1996) and Fourie et al. (2014) propose reduction in soil suction as the key trigger mechanism for shallow landslides. This suggests a critical threshold moisture content which could potentially be predicted through empirical relationships and modelling. Fourie et al. (2014) outlines a risk-based design approach where risk level is adjusted according to a critical intensity and duration calculated based on the slope stability modelling. Rainfall events above the critical threshold are deemed to have a high risk of causing failure and appropriate risk mitigation actions are triggered. O’Neill (2018), however, suggests a more complex failure model including reduction in friction angle for weak rocks and progressive degradation of cohesion for brittle failures. Importantly, this latter process may mean that a direct and immediate relationship between rainfall, porewater pressure changes and slope failures may not exist.
+Study site
+The RGM is located approximately 80 km south of Paramaribo in Suriname. The site comprises eight open pits through saprolite and transition zones in excess of 70 m and several hundred metres into the fresh rock below. Around 200 Kt of material is moved per day by way of a conventional truck and shovel operation. The site has a range of active and decommissioned pit slopes in saprolite, transition and fresh rock material.
+The climate at RGM is tropical and is characterised by consistently warm temperatures and high humidity with little seasonal variation. Annual rainfall is high, around 2,200 mm per year, with an average monthly rainfall greater than 60 mm in the driest months. Rainfall events are typically intense, the 1-in-2-year
+24-hour event is 95 mm, for example.
+Weather is dictated by the inter-tropical convergence zone, which passes over Suriname twice a year and results in two wetter and two drier seasons:
+• Late February to late April, a short dry season.
+• Late April to mid-August, a long rainy season (long, wet season).
+• Mid-August to early December, a long dry season.
+• Early December to late February, a short rainy season (short, wet season).
+Elevated pore pressures due to rainfall events have been proposed as a key driver for slope failures at the site (Tasoren & Sattan 2018). Pore pressures are also controlled to some degree by mining progression, with a strong depressurisation response typically seen as mining progresses through the transition and fresh rock and the saprolite is underdrained.
+From 2013 onwards, a program of VWP installation was commissioned in order to investigate and monitor pore pressures in and around the pits and waste dumps, specifically with regards to:
+• Depressurisation due to under-drainage of saprolite as the underlying transition rock is opened up.
+• Seepage from the ex-pit water storage and diversion channels behind the pit crests leading to locally increased porewater pressures.
+• Rainfall infiltration.
+The locations of the individual VWPs were also chosen to provide a good spatial coverage with consideration of the pit design as well as to increase understanding of lithological, weathering and structural controls on groundwater flow. A total of 105 active VWP sensors installed in 30 boreholes are now established at six pits: J-Zone, Mayo, Pay Caro, Rosebel, and Royal Hill. Each VWP string typically has four or five sensors connected to dataloggers recording at a 4-hour frequency.
+In 2017, a Microsoft Access database was introduced for storage, quality control and basic graphing of the monitoring data. The database also stores rainfall and pit floor elevations over time. Recently, master data
 A methodology for assessing rainfall-induced pore pressure changes in open pit slopes
 J Bellin et al.
-1308
 Slope Stability 2020
- 
-on sensor location, elevation, depth, weathering, lithology and minimum distance to closest pit wall was 
-added. These master data have been integral in allowing more advanced selective interrogation of the 
-database as discussed in the following sections. Currently, around 785,000 water pressure readings are 
-stored in the database with up to around 22,000 readings per sensor. 
-4 
-Methodology 
-4.1 
-Overview 
-Figure 1 outlines the hierarchy of tools developed. These are outlined in more detail in the following sections. 
- 
-Figure 1 
-Hierarchy of data analysis tools 
-4.2 
-Grouping and filtering 
-Depending on the analysis being performed, data can be filtered and grouped based on the VWP attribute 
-master file. For example, data for a particular pit might be selected to be plotted and then results grouped 
-by colour based on weathering profile, e.g. saprolite, transition or fresh rock. 
-4.3 
-Interactive graphing 
-After pre-processing, water pressures are typically first outputted as a series of interactive graphs using the 
-Plotly graphing library for Python (https://plot.ly). This open-source graphing library allows rapid plotting of 
-a large range of pre-defined plots. A powerful aspect of this tool is that it outputs interactive graphs where 
-the user can zoom in on areas of interest, with the scaling adjusting dynamically, allowing quick interrogation 
-of key areas of interest without losing context within the overall dataset. 
-Figure 2 shows an example of water pressure graphs produced for J-Zone and Mayo pits. The graphs also plot 
-sensor elevation to show which sensors are dry. 
-A clear trend of response to rainfall is evident across the pits at RGM with shallower sensors generally 
-exhibiting more muted responses to rainfall than deeper sensors. In general, most sensors show a seasonal, 
-cyclical increase and decrease in water pressure corresponding to the wet and dry seasons, respectively. 
-Sensors at J-Zone appear to be more responsive to rainfall than other pits with some sensors responding to 
-heavy rainfall in April 2018 by up to 8 m in less than a month. Some of this might be explained by the presence 
+
+on sensor location, elevation, depth, weathering, lithology and minimum distance to closest pit wall was added. These master data have been integral in allowing more advanced selective interrogation of the database as discussed in the following sections. Currently, around 785,000 water pressure readings are stored in the database with up to around 22,000 readings per sensor.
+Methodology
+4.1
+Overview
+Figure 1 outlines the hierarchy of tools developed. These are outlined in more detail in the following sections.
+
+Figure 1
+Hierarchy of data analysis tools
+4.2
+Grouping and filtering
+Depending on the analysis being performed, data can be filtered and grouped based on the VWP attribute master file. For example, data for a particular pit might be selected to be plotted and then results grouped by colour based on weathering profile, e.g. saprolite, transition or fresh rock.
+4.3
+Interactive graphing
+After pre-processing, water pressures are typically first outputted as a series of interactive graphs using the
+Plotly graphing library for Python (https://plot.ly). This open-source graphing library allows rapid plotting of a large range of pre-defined plots. A powerful aspect of this tool is that it outputs interactive graphs where the user can zoom in on areas of interest, with the scaling adjusting dynamically, allowing quick interrogation of key areas of interest without losing context within the overall dataset.
+Figure 2 shows an example of water pressure graphs produced for J-Zone and Mayo pits. The graphs also plot sensor elevation to show which sensors are dry.
+A clear trend of response to rainfall is evident across the pits at RGM with shallower sensors generally exhibiting more muted responses to rainfall than deeper sensors. In general, most sensors show a seasonal, cyclical increase and decrease in water pressure corresponding to the wet and dry seasons, respectively.
+Sensors at J-Zone appear to be more responsive to rainfall than other pits with some sensors responding to heavy rainfall in April 2018 by up to 8 m in less than a month. Some of this might be explained by the presence
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1309
- 
-of surface water ponding near the pit rim. Depressurisation responses to nearby mining can be seen in some 
-of the deeper sensors at Mayo, as well as at J-Zone during its active mining in 2016. 
-Although these plots are useful for general observations and interrogation of obvious areas of interest, 
-advancing to a more detailed analysis of rainfall responses to individual events and correlating responses 
-across locations requires a great deal of manual effort. Typically, a great deal of time would be spent 
-reviewing each sensor dataset and looking for specific and/or common trends against rainfall. This is still a 
-relevant and useful exercise. However, a number of simple plots can help to focus the detailed review effort 
-on key target areas as well as helping to quantify the relationships with rainfall. 
- 
-(a) 
- 
-(b) 
-Figure 2 
-Interactive graphs for the full vibrating wire piezometer dataset at (a) J-Zone; and (b) Pay Caro 
-pits. The ability to zoom in on areas of interest with dynamic scaling allows the user to very 
-quickly interrogate the data for key responses within the context of the overall dataset 
-4.4 
-Recurrent change 
-VWP’s at RGM are mostly set to log at 4-hourly intervals and the recording times are not always coordinated 
-between sensors. Before plotting, therefore, data is resampled or summarised with an average value per day 
-which is executed extremely quickly, even for large datasets, using the Pandas data management library for 
-Python (McKinney 2010). Resampling can also be done on other time periods such as weekly or monthly. 
+
+of surface water ponding near the pit rim. Depressurisation responses to nearby mining can be seen in some of the deeper sensors at Mayo, as well as at J-Zone during its active mining in 2016.
+Although these plots are useful for general observations and interrogation of obvious areas of interest, advancing to a more detailed analysis of rainfall responses to individual events and correlating responses across locations requires a great deal of manual effort. Typically, a great deal of time would be spent reviewing each sensor dataset and looking for specific and/or common trends against rainfall. This is still a relevant and useful exercise. However, a number of simple plots can help to focus the detailed review effort on key target areas as well as helping to quantify the relationships with rainfall.
+
+(a)
+
+(b)
+Figure 2
+Interactive graphs for the full vibrating wire piezometer dataset at (a) J-Zone; and (b) Pay Caro pits. The ability to zoom in on areas of interest with dynamic scaling allows the user to very quickly interrogate the data for key responses within the context of the overall dataset
+4.4
+Recurrent change
+VWP’s at RGM are mostly set to log at 4-hourly intervals and the recording times are not always coordinated between sensors. Before plotting, therefore, data is resampled or summarised with an average value per day which is executed extremely quickly, even for large datasets, using the Pandas data management library for
+Python (McKinney 2010). Resampling can also be done on other time periods such as weekly or monthly.
 A methodology for assessing rainfall-induced pore pressure changes in open pit slopes
 J Bellin et al.
-1310
 Slope Stability 2020
- 
-From the resampled daily data, daily change in water pressure can easily be calculated. Although this is an 
-essential precursor for further analysis, such as cross-correlation (Lee et al. 2006), it can itself produce useful 
-insights. 
-Figure 3 shows a box and whisper plot of daily water pressure change for April 2018 to January 2019, shown 
-with daily rainfall. It shows that: 
- Daily water pressure changes observed in the fresh rock are much greater than those observed in 
-the saprolite, with the transition zone sitting somewhere between the two. 
- A higher range of day-on-day water pressure changes during the wet seasons in all units. 
- Fresh rock sensors show significant daily changes in both the positive and negative directions 
-suggesting rapid rises and falls in pore pressure whereas saprolite sensors show rapid increases in 
-pore pressure and a more subdued rate of decline. 
-This is attributed to the lower storage properties of the fresh rock compared to the saprolite and the presence 
-of preferential recharge pathways between the surface and the fresh rock, bypassing the saprolite. 
- 
-Figure 3 
-Box and whisker plot of average daily water pressure change for all vibrating wire piezometer 
-sensor data grouped by saprolite (blue), transition zone (red) and fresh rock (green). Daily rainfall 
-is shown along the bottom 
-Simple line plots of average water pressure change on a daily, weekly, monthly basis can also reveal useful 
-insights. Figure 4 shows average daily water pressure change for three sensors in hole JZ17-01 at J-Zone pit. 
-Sensors 1 and 2 are installed in the transition zone and sensor 3 is installed in the underlying fresh rock. 
-Again, daily changes in water pressure are much greater in the fresh rock (<0.5 m/day) than in the overlying 
-transition. Comparison with Figure 3 shows that this type of variation in response with depth is not 
-uncommon. 
-Figure 5 shows average water pressure change for all VWP sensors at Pay Caro pit on a monthly basis. 
-A seasonal response to the long, wet season (April to August) of up to around 2 m per month can be observed. 
-The short, wet season (December to February) produces a slightly lesser response of up to around 1.2 m per 
-month. The figure also allows rapid identification of outliers, such PC-17-05_03 which shows a rising trend at 
-the end of the dry season (March 2018) and PC-17-05_04 which shows a declining trend through the short. 
-wet season. 
+
+From the resampled daily data, daily change in water pressure can easily be calculated. Although this is an essential precursor for further analysis, such as cross-correlation (Lee et al. 2006), it can itself produce useful insights.
+Figure 3 shows a box and whisper plot of daily water pressure change for April 2018 to January 2019, shown with daily rainfall. It shows that:
+Daily water pressure changes observed in the fresh rock are much greater than those observed in the saprolite, with the transition zone sitting somewhere between the two.
+A higher range of day-on-day water pressure changes during the wet seasons in all units.
+Fresh rock sensors show significant daily changes in both the positive and negative directions suggesting rapid rises and falls in pore pressure whereas saprolite sensors show rapid increases in pore pressure and a more subdued rate of decline.
+This is attributed to the lower storage properties of the fresh rock compared to the saprolite and the presence of preferential recharge pathways between the surface and the fresh rock, bypassing the saprolite.
+
+Figure 3
+Box and whisker plot of average daily water pressure change for all vibrating wire piezometer sensor data grouped by saprolite (blue), transition zone (red) and fresh rock (green). Daily rainfall is shown along the bottom
+Simple line plots of average water pressure change on a daily, weekly, monthly basis can also reveal useful insights. Figure 4 shows average daily water pressure change for three sensors in hole JZ17-01 at J-Zone pit.
+Sensors 1 and 2 are installed in the transition zone and sensor 3 is installed in the underlying fresh rock.
+Again, daily changes in water pressure are much greater in the fresh rock (<0.5 m/day) than in the overlying transition. Comparison with Figure 3 shows that this type of variation in response with depth is not uncommon.
+Figure 5 shows average water pressure change for all VWP sensors at Pay Caro pit on a monthly basis.
+A seasonal response to the long, wet season (April to August) of up to around 2 m per month can be observed.
+The short, wet season (December to February) produces a slightly lesser response of up to around 1.2 m per month. The figure also allows rapid identification of outliers, such PC-17-05_03 which shows a rising trend at the end of the dry season (March 2018) and PC-17-05_04 which shows a declining trend through the short.
+wet season.
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1311
- 
- 
-Figure 4 
-Average daily water pressure change for three sensors in hole JZ17-01 at J-Zone pit. Sensors 1 
-and 2 are installed in the transition zone and sensor 3 is installed in the underlying fresh rock 
- 
-Figure 5 
-Average monthly water pressure change for all vibrating wire piezometer sensors at Pay Caro 
-pit. A seasonal response to the long, wet season (April to August) and short, wet season 
-(December to February) can be clearly observed 
-4.5 
-Normalised cumulative change 
-Normalisation of time series data is an effective way of analysing the response of a large number of sensors 
-to specific extreme events or clusters of extreme events. A Python tool was implemented which normalises 
-each timeseries at a specified event date to zero and then plots the cumulative change from this point 
-forwards. This plot shows the maximum relative water level response to any given event within a defined 
-period as well as showing the evolution of this response within this period. 
-Figure 6 shows the normalised cumulative water pressure change for an event on 6 April 2018, when 
-101.2 mm of rainfall fell in 24 hours, corresponding to between a 1-in-2-year and 1-in-5-year event. Sensors 
-in the fresh rock are shown separately to sensors in the saprolite and transition zone. Lines are colour-coded 
-by pit. 
-Again, it is clear from the plot that the fresh rock sensors typically demonstrate a greater magnitude of 
-response to rainfall than the transition and saprolite sensors. The maximum response in the fresh rock is 
-typically seen around 7 to 8 April, corresponding to a lag time of around one to two days. The biggest 
+
+Figure 4
+Average daily water pressure change for three sensors in hole JZ17-01 at J-Zone pit. Sensors 1 and 2 are installed in the transition zone and sensor 3 is installed in the underlying fresh rock
+
+Figure 5
+Average monthly water pressure change for all vibrating wire piezometer sensors at Pay Caro pit. A seasonal response to the long, wet season (April to August) and short, wet season
+(December to February) can be clearly observed
+4.5
+Normalised cumulative change
+Normalisation of time series data is an effective way of analysing the response of a large number of sensors to specific extreme events or clusters of extreme events. A Python tool was implemented which normalises each timeseries at a specified event date to zero and then plots the cumulative change from this point forwards. This plot shows the maximum relative water level response to any given event within a defined period as well as showing the evolution of this response within this period.
+Figure 6 shows the normalised cumulative water pressure change for an event on 6 April 2018, when
+101.2 mm of rainfall fell in 24 hours, corresponding to between a 1-in-2-year and 1-in-5-year event. Sensors in the fresh rock are shown separately to sensors in the saprolite and transition zone. Lines are colour-coded by pit.
+Again, it is clear from the plot that the fresh rock sensors typically demonstrate a greater magnitude of response to rainfall than the transition and saprolite sensors. The maximum response in the fresh rock is typically seen around 7 to 8 April, corresponding to a lag time of around one to two days. The biggest
 A methodology for assessing rainfall-induced pore pressure changes in open pit slopes
 J Bellin et al.
-1312
 Slope Stability 2020
- 
-responses are seen in sensors at J-Zone, Mayo and Rosebel pits. Sensor 1 in JZ-RC-14 at J-Zone shows a 1.44 m 
-response within two days. 
-The sensors that show the fastest and largest magnitude response to rainfall also recover fastest towards 
-their baseline condition whereas the sensors that are slower to respond are also slower to recover. For this 
-reason, it is difficult to define an event-specific maximum response or lag time in the saprolite and transition 
-rock, where the water level response is more gradual but more consistent. The maximum response in the 
-saprolite or transition to the 6 April rainfall event, as well as subsequent small events on 8 and 12 April, was 
-0.74 m in seven days at RH-17—03_1. Most sensors in the saprolite and transition show less than a 0.5 m 
-response during this period. 
-In the case of RGM, there are no obvious spatial controls on sensors that are more sensitive to rainfall, and 
-responses appear to be governed primarily by local scale variability in recharge and structurally-controlled 
-groundwater flow pathways. The presence of old exploration holes may also have an influence on the 
-recharge pathways. 
- 
-(a) 
- 
-(b) 
-Figure 6 
-Cumulative water pressure change from following 4 April 2018 (101.2 mm rainfall in 24 hours) 
-shown for (a) saprolite and transition sensors; (b) fresh rock sensors 
- 
+
+responses are seen in sensors at J-Zone, Mayo and Rosebel pits. Sensor 1 in JZ-RC-14 at J-Zone shows a 1.44 m response within two days.
+The sensors that show the fastest and largest magnitude response to rainfall also recover fastest towards their baseline condition whereas the sensors that are slower to respond are also slower to recover. For this reason, it is difficult to define an event-specific maximum response or lag time in the saprolite and transition rock, where the water level response is more gradual but more consistent. The maximum response in the saprolite or transition to the 6 April rainfall event, as well as subsequent small events on 8 and 12 April, was
+0.74 m in seven days at RH-17—03_1. Most sensors in the saprolite and transition show less than a 0.5 m response during this period.
+In the case of RGM, there are no obvious spatial controls on sensors that are more sensitive to rainfall, and responses appear to be governed primarily by local scale variability in recharge and structurally-controlled groundwater flow pathways. The presence of old exploration holes may also have an influence on the recharge pathways.
+
+(a)
+
+(b)
+Figure 6
+Cumulative water pressure change from following 4 April 2018 (101.2 mm rainfall in 24 hours) shown for (a) saprolite and transition sensors; (b) fresh rock sensors
+
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1313
- 
-4.6 
-Cross-correlation 
-A Python tool was developed to undertake cross-correlation analysis of rainfall and water pressure for 
-selected sensor groupings using the methodology presented in Lee et al. (2006). The cross-correlation 
-function returns the daily change in water level and the peak value corresponds to the mean response time 
-of the VWP to rainfall.  
-Cross-correlation plots for rainfall and daily water pressure change in the saprolite and transition, and fresh 
-rock are shown in Figure 7. A number of sensors show no significant correlation to rainfall, i.e. all points lie 
-below the 95% significance level. The cross-correlation method is a valuable screening tool for rapidly 
-identifying sensors that correlate with rainfall and the lag times between rainfall events and pore pressure 
-response in those sensors. 
-Lag time to peak water pressure change for those sensors that do show a correlation with rainfall typically 
-occurs between one and three days after rainfall (see Box A). In general, this is true of sensors in the saprolite, 
-transition and fresh rock. However, several sensors show much slower responses and more extended lag 
-times, some examples of which are highlighted in Box B. These more delayed responses are distributed across 
-various pits, weathering types, and geology and a single determining factor is difficult to establish. 
- 
-(a) 
- 
-(b) 
-Figure 7 
-Cross-correlation plots for rainfall and daily water pressure change in the (a) saprolite and 
-transition; (b) fresh rock. 95% significance level is marked with a purple dashed line 
-A 
-B 
-A 
-B 
+
+4.6
+Cross-correlation
+A Python tool was developed to undertake cross-correlation analysis of rainfall and water pressure for selected sensor groupings using the methodology presented in Lee et al. (2006). The cross-correlation function returns the daily change in water level and the peak value corresponds to the mean response time of the VWP to rainfall.
+Cross-correlation plots for rainfall and daily water pressure change in the saprolite and transition, and fresh rock are shown in Figure 7. A number of sensors show no significant correlation to rainfall, i.e. all points lie below the 95% significance level. The cross-correlation method is a valuable screening tool for rapidly identifying sensors that correlate with rainfall and the lag times between rainfall events and pore pressure response in those sensors.
+Lag time to peak water pressure change for those sensors that do show a correlation with rainfall typically occurs between one and three days after rainfall (see Box A). In general, this is true of sensors in the saprolite, transition and fresh rock. However, several sensors show much slower responses and more extended lag times, some examples of which are highlighted in Box B. These more delayed responses are distributed across various pits, weathering types, and geology and a single determining factor is difficult to establish.
+
+(a)
+
+(b)
+Figure 7
+Cross-correlation plots for rainfall and daily water pressure change in the (a) saprolite and transition; (b) fresh rock. 95% significance level is marked with a purple dashed line
+A
+B
+A
+B
 A methodology for assessing rainfall-induced pore pressure changes in open pit slopes
 J Bellin et al.
-1314
 Slope Stability 2020
- 
-It is important to emphasise that cross-correlation analysis merely seeks to establish a relationship between 
-variations in rainfall and changes in water pressures at each sensor. It does not provide any insight into the 
-mechanism for any pressure correlations. Furthermore, its reliability relies on the length of the dataset and 
-the analysis is undertaken on all inputted datasets, regardless of length. The presence of a correlation does 
-not necessarily mean that rainfall is the only critical factor controlling water pressure response. Furthermore, 
-an absence of a correlation with rainfall does not necessarily exclude the possibility of the sensor responding 
-to rainfall in some instances. These limitations must be considered during the analysis. 
-5 
-Relationship with failures 
-The relationship between rainfall, elevated porewater pressures and shallow slope failures has been widely 
-demonstrated with respect to both natural landslides (e.g. Fourie 1996; Fourie et al. 2014; Eberhardt et 
-al. 2016; Hencher & Lee 2010; Brand et al. 1984) and open pit mining operations (e.g. O’Neill 2018; 
-Lorig 2015; Sullivan 2007). Figure 8 shows a plot of cumulative rainfall versus cumulative water-related 
-failures recorded in the RGM failure database. The term ‘failure’ in the context of RGM is used to describe 
-mainly shallow, bench-scale slope failures. 
-The wet and dry seasons can be seen in the cumulative precipitation line as steepening and flattening of the 
-gradient, respectively. A similar trend is observed in the cumulative failure line until early 2016. The absence 
-of recorded failures in early 2016 may be due to staff shortages within the geotechnical team and it is possible 
-that minor failures went unrecorded during this period. However, the proportion of saprolite mining also 
-reduced significantly around 2016 as several pits advanced into the transition and fresh rock. Interception of 
-the more permeable transition and upper fresh rock has been shown to promote underdrainage and 
-depressurisation of the overlying saprolite (Abrahams et al. 2015) and this is a likely cause of reduced 
-seasonality in failure frequency. As mining continued into the fresh rock, the seasonality of failures is less 
-evident than during mining of the saprolite and transition, as evidenced by the relatively linear cumulative 
-failure curve from mid-2017 onwards. 
- 
-Figure 8 
-Cumulative precipitation and cumulative water-related failures at RGM 
-Figure 9 shows probability of rainfall exceedance based purely on the historical rainfall record from April 
-2014 to April 2019 (solid blue line). The distribution of rainfall on days with recorded failures is also plotted 
-to evaluate the degree of correlation between daily rainfall intensity and slope failures. Saprolite and fresh 
-rock show no significant divergence from the overall rainfall trend, suggesting little or no correlation between 
-daily rainfall intensity and failure frequency for these units. In contrast, the transition zone shows a notable 
-skew towards higher rainfall (seen as an upward shift on the graph) indicating that there is a significantly 
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
-0
-2000
-4000
-6000
-8000
-10000
-12000
+
+It is important to emphasise that cross-correlation analysis merely seeks to establish a relationship between variations in rainfall and changes in water pressures at each sensor. It does not provide any insight into the mechanism for any pressure correlations. Furthermore, its reliability relies on the length of the dataset and the analysis is undertaken on all inputted datasets, regardless of length. The presence of a correlation does not necessarily mean that rainfall is the only critical factor controlling water pressure response. Furthermore, an absence of a correlation with rainfall does not necessarily exclude the possibility of the sensor responding to rainfall in some instances. These limitations must be considered during the analysis.
+Relationship with failures
+The relationship between rainfall, elevated porewater pressures and shallow slope failures has been widely demonstrated with respect to both natural landslides (e.g. Fourie 1996; Fourie et al. 2014; Eberhardt et al. 2016; Hencher & Lee 2010; Brand et al. 1984) and open pit mining operations (e.g. O’Neill 2018;
+Lorig 2015; Sullivan 2007). Figure 8 shows a plot of cumulative rainfall versus cumulative water-related failures recorded in the RGM failure database. The term ‘failure’ in the context of RGM is used to describe mainly shallow, bench-scale slope failures.
+The wet and dry seasons can be seen in the cumulative precipitation line as steepening and flattening of the gradient, respectively. A similar trend is observed in the cumulative failure line until early 2016. The absence of recorded failures in early 2016 may be due to staff shortages within the geotechnical team and it is possible that minor failures went unrecorded during this period. However, the proportion of saprolite mining also reduced significantly around 2016 as several pits advanced into the transition and fresh rock. Interception of the more permeable transition and upper fresh rock has been shown to promote underdrainage and depressurisation of the overlying saprolite (Abrahams et al. 2015) and this is a likely cause of reduced seasonality in failure frequency. As mining continued into the fresh rock, the seasonality of failures is less evident than during mining of the saprolite and transition, as evidenced by the relatively linear cumulative failure curve from mid-2017 onwards.
+
+Figure 8
+Cumulative precipitation and cumulative water-related failures at RGM
+Figure 9 shows probability of rainfall exceedance based purely on the historical rainfall record from April
+2014 to April 2019 (solid blue line). The distribution of rainfall on days with recorded failures is also plotted to evaluate the degree of correlation between daily rainfall intensity and slope failures. Saprolite and fresh rock show no significant divergence from the overall rainfall trend, suggesting little or no correlation between daily rainfall intensity and failure frequency for these units. In contrast, the transition zone shows a notable skew towards higher rainfall (seen as an upward shift on the graph) indicating that there is a significantly
 Apr 14
 Jun 14
 Sep 14
@@ -472,144 +245,75 @@ Precipitation (mm)
 Cumulative Failures (no.)
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1315
- 
-higher probability of transition zone failures occurring on days with higher rainfall. On a seasonal scale, the 
-inset on Figure 9 shows the average number of failures per month for each weathering type. Saprolite and 
-transition failures show a correlation with the wet and dry seasons, with the greatest number of failures 
-occurring towards the end of wet season in July, which also corresponds with the timing of peak groundwater 
-levels on a typical annual cycle. Failures in the fresh rock do not show this correlation suggesting transient 
-pore pressure due to rainfall is not a primary driver of failures in the fresh rock. 
- 
-Figure 9 
-Rainfall exceedance probability for all days versus days with failures (2014 to present).  
-Inset: average numbers of failures per month (2014 to present) 
-6 
-Discussions and implications for ground control management 
-The greater sensitivity of weak rock and soil strength material to pore pressure is well understood and may 
-explain the reduction in seasonality of failures at RGM after mining into the fresh rock. Whilst pore pressures 
-are a more significant driver for slope failure in the saprolite and transition than in the fresh rock,  
-rainfall-induced pore pressure spikes within the fresh rock are likely to be of greater magnitude and occur 
-with a shorter lag time (24 to 72 hours) than those observed in the saprolite and transition. These findings 
-have implications for evaluating the risk of structurally-controlled failures if spikes in pore pressure are a 
-potential trigger for failure. However, the magnitude of response must be considered in the context of the 
-slope sensitivity to pore pressure and analysis of the failures database does not show a correlation between 
-failure frequency in fresh rock and transient pore pressure due to rainfall. 
-The cross-correlation analysis shows lag times to a single event ranging from a few days up to 15 days across 
-the site. In terms of geotechnical risk, this would translate to a heightened risk of failures up to 15 days or 
-potentially longer after extreme rainfall events. However, when combined with the normalised cumulative 
-change plots, the longer response times typically correspond to smaller absolute water pressure responses. 
-In most cases the cumulative porewater pressure response over a wet season is much greater than the 
-response to any individual event, and the increased frequency of failures in both saprolite and transition 
-towards the end of the long, wet season is telling in this regard. However, both the periodic seasonal changes 
+
+higher probability of transition zone failures occurring on days with higher rainfall. On a seasonal scale, the inset on Figure 9 shows the average number of failures per month for each weathering type. Saprolite and transition failures show a correlation with the wet and dry seasons, with the greatest number of failures occurring towards the end of wet season in July, which also corresponds with the timing of peak groundwater levels on a typical annual cycle. Failures in the fresh rock do not show this correlation suggesting transient pore pressure due to rainfall is not a primary driver of failures in the fresh rock.
+
+Figure 9
+Rainfall exceedance probability for all days versus days with failures (2014 to present).
+Inset: average numbers of failures per month (2014 to present)
+Discussions and implications for ground control management
+The greater sensitivity of weak rock and soil strength material to pore pressure is well understood and may explain the reduction in seasonality of failures at RGM after mining into the fresh rock. Whilst pore pressures are a more significant driver for slope failure in the saprolite and transition than in the fresh rock, rainfall-induced pore pressure spikes within the fresh rock are likely to be of greater magnitude and occur with a shorter lag time (24 to 72 hours) than those observed in the saprolite and transition. These findings have implications for evaluating the risk of structurally-controlled failures if spikes in pore pressure are a potential trigger for failure. However, the magnitude of response must be considered in the context of the slope sensitivity to pore pressure and analysis of the failures database does not show a correlation between failure frequency in fresh rock and transient pore pressure due to rainfall.
+The cross-correlation analysis shows lag times to a single event ranging from a few days up to 15 days across the site. In terms of geotechnical risk, this would translate to a heightened risk of failures up to 15 days or potentially longer after extreme rainfall events. However, when combined with the normalised cumulative change plots, the longer response times typically correspond to smaller absolute water pressure responses.
+In most cases the cumulative porewater pressure response over a wet season is much greater than the response to any individual event, and the increased frequency of failures in both saprolite and transition towards the end of the long, wet season is telling in this regard. However, both the periodic seasonal changes
 A methodology for assessing rainfall-induced pore pressure changes in open pit slopes
 J Bellin et al.
-1316
 Slope Stability 2020
- 
-in pore pressures and the short-term, event-based responses must be considered in slope stability analysis. 
-For example, the occurrence of a 1-in-10-year rainfall event at the end of the long, wet season could result 
-in pore pressures significantly higher than what has been observed in the historical record. 
-Using these tools and subsequent manual analysis, a range of water pressure responses have been developed 
-for key lithological units across each pit, distilling the results down to a set of potential critical conditions. 
-This forms an essential input into slope stability analysis, sensitivity analysis, and the derivation of 
-appropriate management controls. Operational ground control management at RGM focusses on good 
-surface water management and ensuring that these critical conditions remain valid, through a periodic and 
-thorough review and interpretation of the latest monitoring data. These screening tools can make this 
-process more efficient. 
-Adjustments have been made to the ground control management plans at RGM to reflect this analysis. The 
-analysis clearly reflects the need to consider a multitude of factors when considering geotechnical risk in 
-response to rainfall. Both temporal (e.g. lag time from extreme events and seasonal effects) and spatial  
-(e.g. weathering and geology) factors, as well as the interactions between factors, need to be accounted for in 
-management plans. Rainfall TARPs need to consider the extended lag times observed in the transition and 
-saprolite and the seasonal trends need to be considered in the development of pore pressure TARPs. 
-Furthermore, any rainfall event based risk should be superimposed on top of the seasonal trend in risk 
-associated with the wet seasons. For example, the geotechnical risk in saprolite and transition slopes might be 
-high for 15 days or more after a large rainfall event during the wet season but the risk in the fresh rock may 
-only need to be elevated to moderate for three to four days after an extreme rainfall event in the dry season. 
-7 
-Conclusion 
-Automated logging of porewater pressures across a site-wide VWP network can result in very large datasets 
-that are time-consuming to fully interrogate. Python data screening ‘tools’ have been developed to efficiently 
-process and analyse pore pressure response to rainfall in a large VWP dataset at RGM in Suriname. The tools 
-are designed to help focus further analysis in key areas and reduce the risk of missing important trends. 
-The tools include: 
-• Interactive graphing that allows the user to interrogate the full dataset in an extremely efficient 
-manner by zooming in on areas of interest, with the scaling adjusting dynamically. 
-• Line graphs and box and whisker plots of daily, weekly or monthly change in pore pressure, grouped 
-according to key master data such as weathering type or pit, have shown that pore pressures in the 
-fresh rock, in general, respond more rapidly and to a greater extent than those in the saprolite at 
-RGM. This is attributed to the lower storage properties of the fresh rock, and the presence of 
-preferential recharge pathways. 
-• Normalised response to a 1-in-2 year+ extreme event across all VWPs at RGM showed that the 
-majority of sensors in the saprolite and transition show a maximum pressure response after around 
-five days of less than 0.5 m. However, sensors in the fresh rock typically respond quicker (<2–3 days) 
-and by a greater amount (<1.44 m). There are no obvious spatial controls on sensors that are more 
-sensitive to rainfall and responses appear to be governed primarily by local scale variability in 
-recharge and structurally controlled groundwater flow pathways. 
-• Cross-correlation analysis was used as a screening tool to highlight sensors which show no 
-significant correlation to rainfall and to identify lag times to peak pore pressure change for those 
-sensors that do show a significant correlation. Lag times at RGM are typically around one to three 
-days although a number of sensors, across various pits, weathering types, and geology show much 
-slower responses and more extended lag times. 
+
+in pore pressures and the short-term, event-based responses must be considered in slope stability analysis.
+For example, the occurrence of a 1-in-10-year rainfall event at the end of the long, wet season could result in pore pressures significantly higher than what has been observed in the historical record.
+Using these tools and subsequent manual analysis, a range of water pressure responses have been developed for key lithological units across each pit, distilling the results down to a set of potential critical conditions.
+This forms an essential input into slope stability analysis, sensitivity analysis, and the derivation of appropriate management controls. Operational ground control management at RGM focusses on good surface water management and ensuring that these critical conditions remain valid, through a periodic and thorough review and interpretation of the latest monitoring data. These screening tools can make this process more efficient.
+Adjustments have been made to the ground control management plans at RGM to reflect this analysis. The analysis clearly reflects the need to consider a multitude of factors when considering geotechnical risk in response to rainfall. Both temporal (e.g. lag time from extreme events and seasonal effects) and spatial
+(e.g. weathering and geology) factors, as well as the interactions between factors, need to be accounted for in management plans. Rainfall TARPs need to consider the extended lag times observed in the transition and saprolite and the seasonal trends need to be considered in the development of pore pressure TARPs.
+Furthermore, any rainfall event based risk should be superimposed on top of the seasonal trend in risk associated with the wet seasons. For example, the geotechnical risk in saprolite and transition slopes might be high for 15 days or more after a large rainfall event during the wet season but the risk in the fresh rock may only need to be elevated to moderate for three to four days after an extreme rainfall event in the dry season.
+Conclusion
+Automated logging of porewater pressures across a site-wide VWP network can result in very large datasets that are time-consuming to fully interrogate. Python data screening ‘tools’ have been developed to efficiently process and analyse pore pressure response to rainfall in a large VWP dataset at RGM in Suriname. The tools are designed to help focus further analysis in key areas and reduce the risk of missing important trends.
+The tools include:
+• Interactive graphing that allows the user to interrogate the full dataset in an extremely efficient manner by zooming in on areas of interest, with the scaling adjusting dynamically.
+• Line graphs and box and whisker plots of daily, weekly or monthly change in pore pressure, grouped according to key master data such as weathering type or pit, have shown that pore pressures in the fresh rock, in general, respond more rapidly and to a greater extent than those in the saprolite at
+RGM. This is attributed to the lower storage properties of the fresh rock, and the presence of preferential recharge pathways.
+• Normalised response to a 1-in-2 year+ extreme event across all VWPs at RGM showed that the majority of sensors in the saprolite and transition show a maximum pressure response after around five days of less than 0.5 m. However, sensors in the fresh rock typically respond quicker (<2–3 days) and by a greater amount (<1.44 m). There are no obvious spatial controls on sensors that are more sensitive to rainfall and responses appear to be governed primarily by local scale variability in recharge and structurally controlled groundwater flow pathways.
+• Cross-correlation analysis was used as a screening tool to highlight sensors which show no significant correlation to rainfall and to identify lag times to peak pore pressure change for those sensors that do show a significant correlation. Lag times at RGM are typically around one to three days although a number of sensors, across various pits, weathering types, and geology show much slower responses and more extended lag times.
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1317
- 
-• A clear relationship between rainfall, elevated porewater pressures and slope failures is evident up 
-until early 2016 when most of the mining was taking place in saprolite and transition. Slope failures 
-have shown a weaker correlation as mining has advanced into the fresh rock. 
-• A range of water pressure responses were developed incorporating both periodic seasonal changes 
-and the short-term, event-based responses. These findings will be used in future slope stability 
-analysis and to prioritise controls such as surface water management and active slope 
-depressurisation, and to provide a sounder basis for the definition of site-specific rainfall and pore 
-pressure TARPs. The tools outlined in this paper will be used in the future review and interpretation 
-of monitoring data at RGM and other sites to evaluate pore pressure response to rainfall in a 
-comprehensive and efficient manner. 
-Acknowledgement 
-The authors thank IAMGOLD Corporation for permission to share the data upon which this work was based 
-and Andrew LeRiche and Ed Saunders of SRK Vancouver for their assistance in populating the VWP master 
-data and discussions regarding the geotechnical implications of this work. 
-References 
-Abrahams, G, Raynor, M & Mandisodza, K 2015, ‘Saprolite slope design at Rosebel Gold Mine’, Proceedings of the 2015 Symposium 
-on Slope Stability in Open Pit Mining and Civil Engineering, The Southern African Institute of Mining and Metallurgy, 
-Johannesburg, pp. 753–767. 
-Beale, G & Read, J 2013, Guidelines for evaluating water in pit slope stability, CSIRO Publishing, Collingwood. 
-Brand, EW, Premchitt, J & Phillipson, HB 1984, ‘Relationship between rainfall and landslides in Hong Kong’, Proceedings of the 
-4th International Symposium on Landslides, Canadian Geotechnical Society, Toronto, pp.276–284. 
-Cai, Z & Ofterdinger, U 2016, ‘Analysis of groundwater-level response to rainfall and estimation of annual recharge in fractured hard 
-rock aquifers, NW Ireland’, Journal of Hydrology, vol. 535, pp. 71–84. 
-Crosbie, RS, Binning, P & Kalma, JD 2005, ‘A time series approach to inferring groundwater recharge using the water table fluctuation 
-method’, Water Resources Research, vol. 41, issue 1, https://doi.org/10.1029/2004WR003077 
-Diggle, PJ 1990, Time series: a biostatistical introduction, Oxford University Press, Oxford. 
-Eberhardt, E, Preisig, G & Gischig, V 2016, ‘Progressive failure in deep-seated rockslides due to seasonal fluctuations in pore pressures 
-and rock mass fatigue’, in S Aversa, L Cascini, L Picarelli & C Scavia (eds), Proceedings of the 12th International Symposium on 
-Landslides, Associazione Geotecnica Italiana, Rome. 
-Fourie, AB 1996, ‘Predicting rainfall-induced slope instability’, Proceedings of the Institution of Civil Engineers, Geotechnical 
-Engineering, vol. 119, pp. 211–218. 
-Fourie, AB, Suradi, M, Beckett, C & Buzzi, O 2014, ‘Rainfall-induced landslides: development of a simple screening tool based on 
-rainfall data and unsaturated soil mechanics principles’, in N Khalili, AR Russell & A Khoshghalb (eds), Proceedings of the Sixth 
-International Conference on Unsaturated Soils, CRC Press, Sydney, pp. 1459–1465. 
-Hencher, SR & Lee, SG 2010, ‘Landslide mechanisms in Hong Kong’, Geological Society Engineering Geology Special Publications, 
-Geological Society, London, vol. 23, pp.77–103. 
-Lee, LJE, Lawrence, DSL & Price, M 2006, ‘Analysis of water-level response to rainfall and implications for recharge pathways in the 
-Chalk aquifer, SE England’, Journal of Hydrology, vol. 330, pp. 604–620. 
-Lorig, L 2015, ‘Designing for extreme events in open pit slope stability’, Proceedings of the 2015 International Symposium on Slope 
-Stability in Open Pit Mining and Civil Engineering, The Southern African Institute of Mining and Metallurgy, Johannesburg. 
-McCoy, KJ & Blanchard, PJ 2008, ‘Precipitation, groundwater hydrology, and recharge along the eastern slopes of the Sandia 
-Mountains, Bernalillo County, New Mexico’, USGS Scientific Investigations Report 2008-5179, https://doi.org/ 
-10.3133/sir20085179 
-McKenna, GT 1995, ‘Grouted-in installation of piezometers in boreholes’, Canadian Geotechnical Journal, vol. 32, pp. 355–363. 
-McKinney, W 2010, ‘Data Structures for Statistical Computing in Python’, in S van der Walt & H Millman (eds), Proceedings of the 
-9th Python in Science Conference, pp.51–56. 
-O’Neill, S 2018, ‘Water triggered, upper to mid-slope, multilevel slope failures in large open pits’, Proceedings of the International 
-Symposium on Slope Stability in Open Pit Mining and Civil Engineering, Asociacion Nacional de Ingenieros de Minas, Seville. 
-Sullivan, TD 2007, ‘Hydromechanical coupling and pit slope movements’, in Y Potvin (ed.), Proceedings of the 2007 International 
-Symposium on Slope Stability in Open Pit Mining and Civil Engineering, Australian Centre for Geomechanics, Perth, pp. 3–43. 
-Tasoren, K & Sattan, K 2018, ‘An empirical approach to define suitable slope design parameters for saprolite and transition material’, 
-Proceedings of the International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, Asociacion Nacional 
-de Ingenieros de Minas, Seville. 
+
+• A clear relationship between rainfall, elevated porewater pressures and slope failures is evident up until early 2016 when most of the mining was taking place in saprolite and transition. Slope failures have shown a weaker correlation as mining has advanced into the fresh rock.
+• A range of water pressure responses were developed incorporating both periodic seasonal changes and the short-term, event-based responses. These findings will be used in future slope stability analysis and to prioritise controls such as surface water management and active slope depressurisation, and to provide a sounder basis for the definition of site-specific rainfall and pore pressure TARPs. The tools outlined in this paper will be used in the future review and interpretation of monitoring data at RGM and other sites to evaluate pore pressure response to rainfall in a comprehensive and efficient manner.
+Acknowledgement
+The authors thank IAMGOLD Corporation for permission to share the data upon which this work was based and Andrew LeRiche and Ed Saunders of SRK Vancouver for their assistance in populating the VWP master data and discussions regarding the geotechnical implications of this work.
+References
+Abrahams, G, Raynor, M & Mandisodza, K 2015, ‘Saprolite slope design at Rosebel Gold Mine’, Proceedings of the 2015 Symposium on Slope Stability in Open Pit Mining and Civil Engineering, The Southern African Institute of Mining and Metallurgy,
+Johannesburg, pp. 753–767.
+Beale, G & Read, J 2013, Guidelines for evaluating water in pit slope stability, CSIRO Publishing, Collingwood.
+Brand, EW, Premchitt, J & Phillipson, HB 1984, ‘Relationship between rainfall and landslides in Hong Kong’, Proceedings of the
+4th International Symposium on Landslides, Canadian Geotechnical Society, Toronto, pp.276–284.
+Cai, Z & Ofterdinger, U 2016, ‘Analysis of groundwater-level response to rainfall and estimation of annual recharge in fractured hard rock aquifers, NW Ireland’, Journal of Hydrology, vol. 535, pp. 71–84.
+Crosbie, RS, Binning, P & Kalma, JD 2005, ‘A time series approach to inferring groundwater recharge using the water table fluctuation method’, Water Resources Research, vol. 41, issue 1, https://doi.org/10.1029/2004WR003077
+Diggle, PJ 1990, Time series: a biostatistical introduction, Oxford University Press, Oxford.
+Eberhardt, E, Preisig, G & Gischig, V 2016, ‘Progressive failure in deep-seated rockslides due to seasonal fluctuations in pore pressures and rock mass fatigue’, in S Aversa, L Cascini, L Picarelli & C Scavia (eds), Proceedings of the 12th International Symposium on
+Landslides, Associazione Geotecnica Italiana, Rome.
+Fourie, AB 1996, ‘Predicting rainfall-induced slope instability’, Proceedings of the Institution of Civil Engineers, Geotechnical
+Engineering, vol. 119, pp. 211–218.
+Fourie, AB, Suradi, M, Beckett, C & Buzzi, O 2014, ‘Rainfall-induced landslides: development of a simple screening tool based on rainfall data and unsaturated soil mechanics principles’, in N Khalili, AR Russell & A Khoshghalb (eds), Proceedings of the Sixth
+International Conference on Unsaturated Soils, CRC Press, Sydney, pp. 1459–1465.
+Hencher, SR & Lee, SG 2010, ‘Landslide mechanisms in Hong Kong’, Geological Society Engineering Geology Special Publications,
+Geological Society, London, vol. 23, pp.77–103.
+Lee, LJE, Lawrence, DSL & Price, M 2006, ‘Analysis of water-level response to rainfall and implications for recharge pathways in the
+Chalk aquifer, SE England’, Journal of Hydrology, vol. 330, pp. 604–620.
+Lorig, L 2015, ‘Designing for extreme events in open pit slope stability’, Proceedings of the 2015 International Symposium on Slope
+Stability in Open Pit Mining and Civil Engineering, The Southern African Institute of Mining and Metallurgy, Johannesburg.
+McCoy, KJ & Blanchard, PJ 2008, ‘Precipitation, groundwater hydrology, and recharge along the eastern slopes of the Sandia
+Mountains, Bernalillo County, New Mexico’, USGS Scientific Investigations Report 2008-5179, https://doi.org/
+10.3133/sir20085179
+McKenna, GT 1995, ‘Grouted-in installation of piezometers in boreholes’, Canadian Geotechnical Journal, vol. 32, pp. 355–363.
+McKinney, W 2010, ‘Data Structures for Statistical Computing in Python’, in S van der Walt & H Millman (eds), Proceedings of the
+9th Python in Science Conference, pp.51–56.
+O’Neill, S 2018, ‘Water triggered, upper to mid-slope, multilevel slope failures in large open pits’, Proceedings of the International
+Symposium on Slope Stability in Open Pit Mining and Civil Engineering, Asociacion Nacional de Ingenieros de Minas, Seville.
+Sullivan, TD 2007, ‘Hydromechanical coupling and pit slope movements’, in Y Potvin (ed.), Proceedings of the 2007 International
+Symposium on Slope Stability in Open Pit Mining and Civil Engineering, Australian Centre for Geomechanics, Perth, pp. 3–43.
+Tasoren, K & Sattan, K 2018, ‘An empirical approach to define suitable slope design parameters for saprolite and transition material’,
+Proceedings of the International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, Asociacion Nacional de Ingenieros de Minas, Seville.
 A methodology for assessing rainfall-induced pore pressure changes in open pit slopes
 J Bellin et al.
-1318
 Slope Stability 2020

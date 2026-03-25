@@ -1,0 +1,673 @@
+Soil created on a no-till farm in South
+Dakota, United States
+Soil formation
+Soil formation, also known as pedogenesis, is the process of soil genesis as regulated by the effects of place, environment, and history. Biogeochemical processes act to both create and destroy order (anisotropy) within soils. These alterations lead to the development of layers, termed soil horizons, distinguished by differences in color, structure, texture, and chemistry. These features occur in patterns of soil type distribution, forming in response to differences in soil forming factors.[1]
+Pedogenesis is studied as a branch of pedology, the study of soil in its natural environment. Other branches of pedology are the study of soil morphology and soil classification. The study of pedogenesis is important to understanding soil distribution patterns in current
+(soil geography) and past (paleopedology) geologic periods.
+Soil develops through a series of changes.[2] The starting point is weathering of freshly accumulated parent material. A variety of soil microbes (bacteria, archaea, fungi) feed on simple compounds
+(nutrients) released by weathering and produce organic acids and specialized proteins which contribute in turn to mineral weathering. They also leave behind organic residues which contribute to humus formation.[3] Plant roots with their symbiotic mycorrhizal fungi are also able to extract nutrients from rocks.[4]
+New soils increase in depth by a combination of weathering and further deposition. In Sicily under
+Mediterranean climate the soil production rate due to weathering is approximately 1/10 mm per year.[5]
+New soils can also deepen from dust deposition. Gradually soil is able to support higher forms of plants and animals, starting with pioneer species and proceeding along ecological succession to more complex plant and animal communities.[6] Topsoils deepen with the accumulation of humus originating from dead remains of higher plants and soil microbes.[7] They also deepen through mixing of organic matter with weathered minerals.[8] As soils mature, they develop soil horizons as organic matter accumulates and mineral weathering and leaching take place.
+Soil formation is influenced by at least five classic factors that are intertwined in the evolution of a soil.
+They are: parent material, climate, topography (relief), soil organisms, and time.[2] When reordered to climate, organisms, relief, parent material, and time, they form the acronym CLORPT.[9]
+Overview
+Factors
+Soil, on an agricultural field in Germany, which has formed on loess parent material
+The mineral material from which a soil forms is called parent material. Rock, whether its origin is igneous, sedimentary, or metamorphic, is the source of all soil mineral materials and the origin of all plant nutrients with the exceptions of nitrogen, hydrogen and carbon. As the parent rock is chemically and physically weathered, transported, deposited and precipitated, it is transformed into a soil.[10]
+Typical soil parent mineral materials are:[11]
+Quartz: SiO2
+Calcite: CaCO3
+Feldspar: KAlSi3O8
+Mica (biotite): K(Mg,Fe)3(AlSi3O10)(F,OH)2
+Parent materials are classified according to how they came to be deposited. Residual materials are mineral materials that have weathered in place from primary bedrock. Transported materials are those that have been deposited by water, wind, ice or gravity. Cumulose material is organic matter that has grown and accumulates in place.[12]
+Residual soils are soils that develop from their underlying parent rocks and have the same general chemistry as those rocks.[13] Residual soils can be found on mesas[14] and volcanoes.[15] In the United States as little as three percent of the soils are residual.[16]
+Most soils derive from transported materials that have been moved many miles by wind, water, ice and gravity:
+Aeolian processes (movement by wind) are capable of moving silt and fine sand many hundreds of miles, forming loess soils (60–90 percent silt),[17] common in the Midwestern
+United States and Canada, north-western Europe, Argentina and Central Asia. Clay is seldom moved by wind as it forms stable aggregates.[18]
+Water-transported materials are classed as either alluvial, lacustrine, or marine. Alluvial materials are those moved and deposited by flowing water. Sedimentary deposits settled in lakes are called lacustrine. Lake Bonneville and many soils around the Great Lakes are examples.[19] Marine deposits, such as soils along the Gulf Coast and in the Imperial Valley of California are the beds of ancient seas that have been revealed as the land uplifted.[20]
+Ice moves parent material and makes deposits in the form of terminal and lateral moraines in the case of stationary glaciers. Retreating glaciers leave smoother ground moraines, and in all cases outwash plains are left as alluvial deposits are moved downstream from the glacier.[21]
+Parent material moved by gravity is obvious at the base of steep slopes as talus cones and is called colluvial material.[22]
+Cumulose parent material is not moved but originates from deposited organic material. This includes peat and muck soils and results from preservation of plant residues by the low oxygen content of a high water table. While peat may form sterile soils,[23] muck soils may be very fertile.[24]
+Parent material
+The weathering of parent material takes the form of physical weathering (disintegration), chemical weathering (decomposition) and chemical transformation. Weathering is usually confined to the top few meters of geologic material, because physical, chemical, and biological stresses and fluctuations generally decrease with depth.[25] Physical disintegration begins as rocks that have solidified deep in the
+Earth are exposed to lower pressure near the surface and swell and become mechanically unstable.[26]
+Chemical decomposition is a function of mineral solubility, the rate of which doubles with each 10 °C rise in temperature but is strongly dependent on water to effect chemical changes.[27] Rocks that will decompose in a few years in tropical climates will remain unaltered for millennia in deserts.[28] Structural changes are the result of hydration, oxidation, and reduction. Chemical weathering mainly results from the excretion of organic acids and chelating compounds by bacteria[29] and fungi,[30] and is thought to increase under greenhouse effect.[31]
+Physical disintegration is the first stage in the transformation of parent material into soil.
+Temperature fluctuations cause expansion and contraction of the rock, splitting it along lines of weakness.[32] Water may then enter the cracks and freeze and cause the physical splitting of material along a path toward the center of the rock,[33] while temperature gradients within the rock can cause exfoliation of "shells".[34] Cycles of wetting and drying cause soil particles to be abraded to a finer size, as does the physical rubbing of material as it is moved by wind, water, and gravity.[35] Organisms may reduce parent material size and create crevices and pores through the mechanical action of plant roots and the digging activity of animals.[36][37]
+Chemical decomposition and structural changes result when minerals are made soluble by water or are changed in structure. The first three of the following list are solubility changes, and the last three are structural changes.[38]
+1. The solution of salts in water results from the action of bipolar water molecules on ionic salt compounds producing a solution of ions and water, removing those minerals and reducing the rock's integrity, at a rate depending on water flow and pore channels.[39]
+2. Hydrolysis is the transformation of minerals into polar molecules by the splitting of intervening water. This results in soluble acid-base pairs. For example, the hydrolysis of orthoclase-feldspar transforms it to acid silicate clay and basic potassium hydroxide, both of which are more soluble.[40]
+3. In carbonation, the solution of carbon dioxide in water forms carbonic acid. Carbonic acid will transform calcite into more soluble calcium bicarbonate.[41]
+4. Hydration is the inclusion of water in a mineral structure, causing it to swell and leaving it stressed and easily decomposed.[42]
+5. Oxidation of a mineral compound is the inclusion of oxygen in a mineral, causing it to increase its oxidation number and swell due to the relatively large size of oxygen, leaving it stressed and more easily attacked by water (hydrolysis) or carbonic acid (carbonation).[43]
+6. Reduction, the opposite of oxidation, means the removal of oxygen, hence the oxidation number of some part of the mineral is reduced, which occurs when oxygen is scarce. The reduction of minerals leaves them electrically unstable, more soluble and internally stressed and easily decomposed. It mainly occurs in waterlogged conditions.[44]
+Of the above, hydrolysis and carbonation are the most effective, in particular in regions of high rainfall, temperature and physical erosion.[45] Chemical weathering becomes more effective as the surface area of the rock increases, thus is favoured by physical disintegration.[46] This stems in latitudinal and altitudinal climate gradients in regolith formation.[47][48]
+Weathering
+Saprolite is a particular example of a residual soil formed from the transformation of granite, metamorphic and other types of bedrock into clay minerals. Often called weathered granite, saprolite is the result of weathering processes that include: hydrolysis, chelation from organic compounds, hydration and physical processes that include freezing and thawing. The mineralogical and chemical composition of the primary bedrock material, its physical features (including grain size and degree of consolidation), and the rate and type of weathering transforms the parent material into a different mineral. The texture, pH and mineral constituents of saprolite are inherited from its parent material. This process is also called arenization, resulting in the formation of sandy soils, thanks to the much higher resistance of quartz compared to other mineral components of granite (e.g., mica, amphibole, feldspar).[49]
+The principal climatic variables influencing soil formation are effective precipitation (i.e., precipitation minus evapotranspiration) and temperature, both of which affect the rates of chemical, physical, and biological processes.[50] Temperature and moisture both influence the organic matter content of soil through their effects on the balance between primary production and decomposition: the colder or drier the climate the lesser atmospheric carbon is fixed as organic matter while the lesser organic matter is decomposed.[51] Climate also indirectly influences soil formation through the effects of vegetation cover and biological activity, which modify the rates of chemical reactions in the soil.[52]
+Climate is the dominant factor in soil formation, and soils show the distinctive characteristics of the climate zones in which they form, with a feedback to climate through transfer of carbon stocked in soil horizons back to the atmosphere.[53] If warm temperatures and abundant water are present in the profile at the same time, the processes of weathering, leaching, and plant growth will be maximized. According to the climatic determination of biomes, humid climates favor the growth of trees. In contrast, grasses are the dominant native vegetation in subhumid and semiarid regions, while shrubs and brush of various kinds dominate in arid areas.[54]
+Water is essential for all the major chemical weathering reactions. To be effective in soil formation, water must penetrate the regolith. The seasonal rainfall distribution, evaporative losses, site topography, and soil permeability interact to determine how effectively precipitation can influence soil formation. The greater the depth of water penetration, the greater the depth of weathering of the soil and its development.[55]
+Surplus water percolating through the soil profile transports soluble and suspended materials from the upper layers (eluviation) to the lower layers (illuviation), including clay particles[56] and dissolved organic matter.[57] It may also carry away soluble materials in the surface drainage waters. Thus, percolating water stimulates weathering reactions and helps differentiate soil horizons.
+Likewise, a deficiency of water is a major factor in determining the characteristics of soils of dry regions.
+Soluble salts are not leached from these soils, and in some cases they build up to levels that curtail plant[58] and microbial growth.[59] Soil profiles in arid and semi-arid regions are also apt to accumulate carbonates and certain types of expansive clays (calcrete or caliche horizons).[60][61] In tropical soils, when the soil has been deprived of vegetation (e.g. by deforestation) and thereby is submitted to intense evaporation, the upward capillary movement of water, which has dissolved iron and aluminium salts, is responsible for the formation of a superficial hardpan of laterite or bauxite, respectively, which is improper for cultivation, a known case of irreversible soil degradation.[62]
+The direct influences of climate include:[63]
+Climate
+A shallow accumulation of lime in low rainfall areas as caliche
+Formation of acid soils in humid areas
+Erosion of soils on steep hillsides
+Deposition of eroded materials downstream
+Very intense chemical weathering, leaching, and erosion in warm and humid regions where soil does not freeze
+Climate directly affects the rate of weathering and leaching. Wind moves sand and smaller particles
+(dust), especially in arid regions where there is little plant cover, depositing it close to[64] or far from the entrainment source.[65] The type and amount of precipitation influence soil formation by affecting the movement of ions and particles through the soil, and aid in the development of different soil profiles. Soil profiles are more distinct in wet and cool climates, where organic materials may accumulate, than in wet and warm climates, where organic materials are rapidly consumed.[66] The effectiveness of water in weathering parent rock material depends on seasonal and daily temperature fluctuations, which favour tensile stresses in rock minerals, and thus their mechanical disaggregation, a process called thermal fatigue.[67] By the same process freeze-thaw cycles are an effective mechanism which breaks up rocks and other consolidated materials.[68]
+The topography, or relief, is characterized by the inclination (slope), elevation, and orientation of the terrain (aspect). Topography determines the rate of precipitation or runoff and the rate of formation or erosion of the surface soil profile. The topographical setting may either hasten or retard the work of climatic forces.[69]
+Steep slopes encourage rapid soil loss by erosion and allow less rainfall to enter the soil before running off and hence, little mineral deposition in lower profiles (illuviation). In semiarid regions, the lower effective rainfall on steeper slopes also results in less complete vegetative cover, so there is less plant contribution to soil formation.[70] For all of these reasons, steep slopes prevent the formation of soil from getting very far ahead of soil destruction. Therefore, soils on steep terrain tend to have rather shallow, poorly developed profiles in comparison to soils on nearby, more level sites.[71]
+Topography determines exposure to weather, fire, and other forces of man and nature. Mineral accumulations, plant nutrients, type of vegetation, vegetation growth, erosion, and water drainage are dependent on topographic relief.[72] Soils at the bottom of a hill will get more water than soils on the slopes, and soils on the slopes that face the sun's path (south aspect) will be drier than soils on slopes that do not.[73]
+In swales and depressions where runoff water tends to concentrate, the regolith is usually more deeply weathered, and soil profile development is more advanced.[74] However, in the lowest landscape positions, water may saturate the regolith to such a degree that drainage and aeration are restricted. Here, the weathering of some minerals and the decomposition of organic matter are retarded, while the loss of iron and manganese is accelerated. In such low-lying topography, special profile features characteristic of wetland soils may develop. Depressions allow the accumulation of water, minerals and organic matter, and in the extreme, the resulting soils will be saline marshes or peat bogs.[75]
+Topography
+Recurring patterns of topography result in toposequences or soil catenas. These patterns emerge from topographic differences in erosion, deposition, fertility, soil moisture, plant cover, soil biology, fire history, and exposure to the elements. Gravity transports water downslope, together with mineral and organic solutes and colloids, increasing particulate and base content at the foot of hills and mountains.[76]
+However, many other factors like drainage and erosion interact with slope position, blurring its expected influence on crop yield.[77]
+Each soil has a unique combination of microbial, plant, animal and human influences acting upon it.
+Microorganisms are particularly influential in the mineral transformations critical to the soil forming process. Additionally, some bacteria can fix atmospheric nitrogen, and some fungi are efficient at extracting deep soil phosphorus and increasing soil carbon levels in the form of glomalin.[78] Plants hold soil against erosion,[79] and accumulated plant material build soil humus levels.[80] Plant root exudation supports microbial activity.[81] Animals serve to decompose plant materials and mix soil through bioturbation.[82]
+Soil is the most speciose (species-rich) ecosystem on Earth, but the vast majority of organisms in soil are microbes, a great many of which have not been described so far.[83][84] There may be a microbial population limit of around one billion cells per gram of soil, but estimates of the number of species vary widely from 50,000 per gram to over a million per gram of soil.[85][86] The number of organisms and species can vary widely according to soil type, location, and depth.[84][86]
+Plants, animals, fungi, bacteria and humans affect soil formation (see soil biomantle and stonelayer). Soil animals, including soil macrofauna (e.g. earthworms, termites, tenebrionids, gophers, moles) and mesofauna (e.g. enchytraeids, springtails, mites), mix soils as they form burrows and pores, allowing moisture and gases to move about, a process called bioturbation.[87] In the same way, plant roots penetrate soil horizons and open channels upon decomposition.[88] Plants with deep taproots can penetrate many metres through the different soil layers to bring up nutrients from deeper in the profile.[89]
+Plants have fine roots that excrete organic compounds (sugars, organic acids, mucilage), slough off cells
+(in particular at their tip), and are easily decomposed, adding organic matter to soil, a process called rhizodeposition.[90]
+Microorganisms, including fungi and bacteria, effect chemical exchanges between roots and soil and act as a reserve of nutrients in a soil biological hotspot called rhizosphere.[91] The growth of roots through the soil stimulates microbial populations, stimulating in turn the activity of their predators (notably amoeba and free-living nematodes), thereby increasing the mineralization rate, and in last turn root growth, a positive feedback called the soil microbial loop.[92] Out of root influence, in the bulk soil most bacteria are in a quiescent stage, forming micro-aggregates, i.e. mucilaginous colonies to which clay particles are glued, offering them a protection against desiccation and predation by soil microfauna
+(bacteriophagous protozoa and nematodes).[93] Microaggregates (20–250 μm) are ingested by soil fauna, and bacterial bodies are partly or totally digested in their guts.[94]
+Humans impact soil formation by removing vegetation cover through tillage, application of herbicides, fire, deforestation, and leaving soils bare. This can lead to erosion, waterlogging, lateritization or podzolization (according to climate and topography).[95] Tillage mixes the different soil layers, restarting
+Organisms the soil formation process as less weathered material is mixed with the more developed upper layers, resulting in net increased rate of mineral weathering.[96]
+Earthworms, ants, termites, moles, gophers, as well as some millipedes and tenebrionid beetles, mix the soil as they burrow, significantly affecting soil formation.[97] Earthworms ingest soil particles and organic residues, enhancing the availability of plant nutrients in the material that passes through their bodies.[98]
+They aerate and stir the soil and create stable soil aggregates, after having disrupted links between soil particles during the intestinal transit of ingested soil,[99] thereby assuring ready infiltration of water.[100]
+As ants and termites build mounds, earthworms transport soil materials from one horizon to another.[101]
+Other important functions are fulfilled by earthworms in the soil ecosystem, in particular their intense mucus production, both within the intestine and as a lining in their galleries (burrows),[102] exert a priming effect on soil microflora,[103] giving them the status of ecosystem engineers, which they share with ants and termites.[104]
+In general, the mixing of the soil by the activities of animals, sometimes called pedoturbation, tends to undo or counteract the tendency of other soil-forming processes that create distinct horizons.[105]
+Termites and ants may also retard soil profile development by denuding large areas of soil around their nests, leading to increased loss of soil by erosion,[106] the same for the deposition of casts at the soil surface by earthworms.[107] Large animals such as gophers, moles, and prairie dogs bore into the lower soil horizons, bringing materials to the surface.[108] Their tunnels are often open to the surface, encouraging the movement of water and air into the subsurface layers. In localized areas, they enhance mixing of the lower and upper horizons by creating and later refilling the tunnels. Old animal burrows in the lower horizons often become filled with soil material from the overlying A horizon, creating profile features known as crotovinas or krotovinas.[109]
+Vegetation impacts soils in numerous ways. It can prevent erosion caused by excessive rain that might result from surface runoff.[110] Plants shade soils, keeping them cooler[111] and slowing evaporation of soil moisture.[112] Conversely, by way of transpiration, plants can cause soils to lose moisture, resulting in complex and highly variable relationships between leaf area index (measuring light interception) and moisture loss: more generally plants prevent soil from desiccation during driest months while they dry it during moister months, thereby acting as a buffer against strong moisture variation.[113] Plants can form new chemicals that can break down minerals, both directly[114] and indirectly through mycorrhizal fungi[30] and rhizosphere bacteria,[115] and improve the soil structure.[116] The type and amount of vegetation depend on climate, topography, soil characteristics and biological factors, mediated or not by human activities.[117][118] Soil factors such as density, depth, chemistry, pH, temperature and moisture greatly affect the type of plants that can grow in a given location.[119] Dead plants and fallen leaves and stems begin their decomposition on the soil surface. There, organisms feed on them and mix the organic material with the upper soil layers; these added organic compounds become part of the soil formation process.[120]
+The influence of humans, and by association, fire, are state factors placed within the organisms state factor.[121] Humans can import or extract nutrients and energy in ways that dramatically change soil formation. Accelerated soil erosion from overgrazing, and Pre-Columbian terraforming in the Amazon basin resulting in terra preta are two examples of the effects of human management.[122][123]
+It is believed that Native Americans regularly set fires to maintain several large areas of prairie grasslands in Indiana and Michigan, although climate and mammalian grazers (e.g. bisons) are also advocated to explain the maintenance of the Great Plains of North America.[124] In more recent times, human destruction of natural vegetation and subsequent tillage of the soil for crop production has abruptly modified soil formation.[125] Likewise, irrigating soil in an arid region drastically influences soil-forming factors,[126] as does adding fertilizer and lime to soils of low fertility.[127]
+Distinct ecosystems produce distinct soils, sometimes in easily observable ways. For example, three species of land snails in the genus Euchondrus in the Negev desert are noted for eating lichens growing under the surface limestone rocks and slabs (endolithic lichens). The grazing activity of these ecosystem engineers disrupts the limestone, resulting in the weathering and the subsequent formation of soil.[128]
+They have a significant effect on the region: the population of snails is estimated to process between 0.7 and 1.1 metric ton per hectare per year of limestone in the Negev desert.[128]
+The effects of ancient ecosystems are not as easily observed, and this challenges the understanding of soil formation. For example, the chernozems of the North American tallgrass prairie have a humus fraction nearly half of which is charcoal. This outcome was not anticipated because the antecedent prairie fires capable of producing these distinct deep rich black soils are not easily observed.[129] It is now accepted that Neolithic human-caused wildfires enriched soils in charcoal (also called black carbon) and played a prominent role in the formation of the fertile chernozems and terra preta, actively used for the sake of agriculture.[130][131]
+It has been questioned whether soil formation can take place in the absence of organisms. Some researchers considered that life was not a prerequisite, taking as an example Martian soils,[132] while others considered that these 'soils' were in fact regoliths.[133]
+Time is a factor in the interactions of all the above.[2] While a mixture of sand, silt and clay constitute the texture of a soil and the aggregation of those components produces peds, the development of a distinct B horizon marks the development of a soil or pedogenesis.[134] With time, soils will evolve features that depend on the interplay of the prior listed soil-forming factors.[2] It takes decades[135] to several thousand years for a soil to develop a profile,[136] although the notion of soil development has been criticized, soil being in a constant state-of-change under the influence of fluctuating soil-forming factors.[137] That time period depends strongly on climate, parent material, relief, and biotic activity.[138][139] For example, recently deposited material from a flood exhibits no soil development as there has not been enough time for the material to form a structure that further defines soil.[140] The original soil surface is buried, and the formation process must begin anew for this deposit. Over time the soil will develop a profile that depends on the intensities of biota and climate. While a soil can achieve relative stability of its properties for extended periods,[136] the soil life cycle ultimately ends in soil conditions that leave it vulnerable to erosion.[141] Despite the inevitability of soil retrogression and degradation, most soil cycles are long.[136]
+Soil-forming factors continue to affect soils during their existence, even on stable landscapes that are long-enduring, some for millions of years.[136] Materials are deposited on top[142] or are blown or washed from the surface.[143] With additions, removals and alterations, soils are always subject to new conditions. Whether these are slow or rapid changes depends on climate, topography and biological activity.[144]
+Time
+Five factors of soil formation
+Time as a soil-forming factor may be investigated by studying soil chronosequences, in which soils of different ages but with minor differences in other soil-forming factors can be compared.[137] Paleosols are soils formed during previous soil-forming conditions which can be deduced from comparisons with present-day soil development.[145]
+Russian geologist Vasily Dokuchaev, commonly regarded as the father of pedology, determined in 1883[146] that soil formation occurs over time under the influence of climate, vegetation, topography, and parent material. He demonstrated this in 1898 using the soil forming equation:[147] soil = f(cl, o, p) tr
+(where cl or c = climate, o = biological processes, p = parent material) tr = relative time (young, mature, old)
+American soil scientist Hans Jenny published in 1941[2] a state equation for the factors influencing soil formation:
+S = f(cl, o, r, p, t, ...)
+S soil formation cl (sometimes c) climate o organisms (soil microbiology, soil mesofauna, soil biology) r relief p parent material t time
+This is often remembered with the mnemonic Clorpt.
+Jenny's state equation in Factors of Soil Formation differs from Vasily Dokuchaev's equation, treating time (t) as a factor, adding topographic relief (r), and pointedly leaving the ellipsis open for more factors
+(state variables) to be added as our understanding becomes more refined.
+There are two principal methods by which the state equation may be solved: first in a theoretical or conceptual manner by logical deductions from certain premises, and second empirically by experimentation or field observation. The empirical method is still mostly employed today, and soil
+History of research
+Dokuchaev's equation
+Hans Jenny's state equation formation can be defined by varying a single factor and keeping the other factors constant. This had led to the development of empirical models to describe pedogenesis, such as climofunctions, biofunctions, topofunctions, lithofunctions, and chronofunctions. Since Jenny published his formulation in 1941, it has been used by innumerable soil surveyors all over the world as a qualitative list for understanding the factors that may be important for producing the soil pattern within a region.[148]
+An example of the evolution of soils in prehistoric lake beds is in the Makgadikgadi Pans of the Kalahari
+Desert, where a change in an ancient river course led to millennia of salinity buildup and formation of calcretes and silcretes.[149]
+1. Buol, Stanley W.; Southard, Randal J.; Graham, Robert C.; McDaniel, Paul A. (2011). Soil genesis and classification (https://z-library.ec/book/2156097/49988b) (sixth ed.). Hoboken,
+New Jersey: Wiley-Blackwell. ISBN 978-0-813-80769-0. Retrieved 8 January 2026.
+2. Jenny, Hans (1941). Factors of soil formation: a system of quantitative pedology (https://soil andhealth.org/wp-content/uploads/01aglibrary/010159.Jenny.pdf) (PDF) (1st ed.). New York,
+New York: McGraw-Hill. ISBN 978-0-486-68128-3. Retrieved 15 January 2026.
+3. Samuels, Toby; Bryce, Casey; Landenmark, Hanna; Marie-Loudon, Claire; Nicholson,
+Natasha; Stevens, Adam H.; Cockell, Charles (2020). "Microbial weathering of minerals and rocks in natural environments" (https://www.researchgate.net/publication/334319081). In
+Dontsova, Katerina; Balogh-Brunstad, Zsuzsanna; Le Roux, Gaël (eds.). Biogeochemical cycles: ecological drivers and environmental impact. Hoboken, New Jersey: Wiley-
+Blackwell. pp. 59–79. doi:10.1002/9781119413332.ch3 (https://doi.org/10.1002%2F978111
+9413332.ch3). ISBN 978-1-119-41331-8. S2CID 216360850 (https://api.semanticscholar.or g/CorpusID:216360850). Retrieved 8 January 2026.
+4. Augusto, Laurent; Fanin, Nicolas; Bakker, Mark R. (May 2019). "When plants eat rocks:
+functional adaptation of roots on rock outcrops" (https://www.researchgate.net/publication/33
+2964580). Functional Ecology. 33 (5): 760‒1. Bibcode:2019FuEco..33..760A (https://ui.adsa bs.harvard.edu/abs/2019FuEco..33..760A). doi:10.1111/1365-2435.13325 (https://doi.org/1
+0.1111%2F1365-2435.13325). S2CID 164450031 (https://api.semanticscholar.org/CorpusI
+D:164450031). Retrieved 8 January 2026.
+5. Scalenghe, Riccardo; Territo, Claudio; Petit, Sabine; Terribile, Fabio; Righi, Dominique
+(March 2016). "The role of pedogenic overprinting in the obliteration of parent material in some polygenetic landscapes of Sicily (Italy)" (https://z-library.ec/book/86511583/6cab37).
+Geoderma Regional. 7 (1): 49–58. Bibcode:2016GeodR...7...49S (https://ui.adsabs.harvard.
+edu/abs/2016GeodR...7...49S). doi:10.1016/j.geodrs.2016.01.003 (https://doi.org/10.1016%
+2Fj.geodrs.2016.01.003). Retrieved 9 January 2026.
+6. Mirsky, Arthur (1966). Soil development and ecological succession in a deglaciated area of
+Muir Inlet, Southeast Alaska (https://kb.osu.edu/bitstream/handle/1811/38513/IPS_Report_2
+0_%20p_i-xxi_1-18.pdf) (PDF). Columbus, Ohio: Ohio State University Research
+Foundation. Retrieved 9 January 2026.
+Example
+Notes
+7. Lisetskii, Fedor N.; Ergina, Elena I. (27 June 2010). "Soil development on the Crimean
+Peninsula in the Late Holocene" (https://www.researchgate.net/publication/227297100).
+Eurasian Soil Science. 43 (6): 601–13. Bibcode:2010EurSS..43..601L (https://ui.adsabs.har vard.edu/abs/2010EurSS..43..601L). doi:10.1134/S1064229310060013 (https://doi.org/10.1
+134%2FS1064229310060013). S2CID 128834822 (https://api.semanticscholar.org/CorpusI
+D:128834822). Retrieved 9 January 2026.
+8. Wilkinson, Marshall T.; Humphreys, Geoff S. (September 2005). "Exploring pedogenesis via nuclide-based soil production rates and OSL-based bioturbation rates" (https://www.researc hgate.net/publication/228618457). Australian Journal of Soil Research. 43 (6): 767–79.
+Bibcode:2005SoilR..43..767W (https://ui.adsabs.harvard.edu/abs/2005SoilR..43..767W).
+doi:10.1071/SR04158 (https://doi.org/10.1071%2FSR04158). Retrieved 9 January 2026.
+9. Johnson, Donald Lee; Domier, Jane E. J.; Johnson, Diana N. (March 2005). "Reflections on the nature of soil and its biomantle" (https://z-library.ec/book/41541153/b1eae0). Annals of the Association of American Geographers. 95 (1): 11–31. doi:10.1111/j.1467-
+8306.2005.00448.x (https://doi.org/10.1111%2Fj.1467-8306.2005.00448.x).
+S2CID 73651791 (https://api.semanticscholar.org/CorpusID:73651791). Retrieved
+12 January 2026.
+10. Brady, Nyle C. (1984). The nature and properties of soils (https://z-library.ec/book/1200546
+4/e3c2c3) (ninth ed.). London, United Kingdom: Macmillan. ISBN 978-0-02-946030-6.
+Retrieved 12 January 2026.
+11. Donahue, Miller & Shickluna 1977, pp. 20–21.
+12. "Organic environment" (https://landscape.soilweb.ca/organic-environment/). University of
+British Columbia and Agriculture and Agri-Food Canada. Retrieved 12 January 2026.
+13. Rahardjo, Harianto; Aung, Kyaw Kyaw; Leong, Eng Choon; Rezaur, R. Bhuiyan (May 2004).
+"Characteristics of residual soils in Singapore as formed by weathering" (https://www.acade mia.edu/25563851). Engineering Geology. 73 (1): 157–69. Bibcode:2004EngGe..73..157R
+(https://ui.adsabs.harvard.edu/abs/2004EngGe..73..157R).
+doi:10.1016/j.enggeo.2004.01.002 (https://doi.org/10.1016%2Fj.enggeo.2004.01.002).
+Retrieved 12 January 2026.
+14. Erdman, James A. (1970). "Pinyon-juniper succession after natural fires on residual soils of
+Mesa Verde, Colorado" (https://scholarsarchive.byu.edu/byuscib/vol11/iss2/1/). Brigham
+Young University Science Bulletin, Biological Series. 11 (2) 1. Retrieved 12 January 2026.
+15. Hürlimann, Marcel; Ledesma, Alberto; Martı́, Joan (January 2001). "Characterisation of a volcanic residual soil and its implications for large landslide phenomena: application to
+Tenerife, Canary Islands" (https://z-library.ec/book/35619422/68d72a). Engineering
+Geology. 59 (1–2): 115–32. doi:10.1016/S0013-7952(00)00069-7 (https://doi.org/10.1016%
+2FS0013-7952%2800%2900069-7). Retrieved 12 January 2026.
+16. Donahue, Miller & Shickluna 1977, p. 21.
+17. Donahue, Miller & Shickluna 1977, p. 24.
+18. Shahabinejad, Nader; Mahmoodabadi, Majid; Jalalian, Ahmad; Chavoshi, Elham (15
+December 2019). "The fractionation of soil aggregates associated with primary particles influencing wind erosion rates in arid to semiarid environments" (https://z-library.ec/book/107
+867946/76a990). Geoderma. 356 113936. Bibcode:2019Geode.35613936S (https://ui.adsa bs.harvard.edu/abs/2019Geode.35613936S). doi:10.1016/j.geoderma.2019.113936 (https:// doi.org/10.1016%2Fj.geoderma.2019.113936). S2CID 202908885 (https://api.semanticschol ar.org/CorpusID:202908885). Retrieved 12 January 2026.
+19. Bockheim, James G. (2020). "Soil-forming factors of the Great Lakes coastal zone" (https:// www.academia.edu/122234142). In Bockheim, James G. (ed.). Soils of the Laurentian Great
+Lakes, USA and Canada. Cham, Switzerland: Springer Nature. pp. 17–34. doi:10.1007/978-
+3-030-52425-8_2 (https://doi.org/10.1007%2F978-3-030-52425-8_2). ISBN 978-3-030-
+52425-8. Retrieved 12 January 2026.
+20. Merritts, Dorothy J.; Chadwick, Oliver A.; Hendricks, David M. (November 1991). "Rates and processes of soil evolution on uplifted marine terraces, northern California" (https://z-library.
+ec/book/48381708/cf7edc). Geoderma. 51 (1–4): 241–75. Bibcode:1991Geode..51..241M (h ttps://ui.adsabs.harvard.edu/abs/1991Geode..51..241M). doi:10.1016/0016-7061(91)90073-
+3 (https://doi.org/10.1016%2F0016-7061%2891%2990073-3). Retrieved 12 January 2026.
+21. Luehmann, Michael D.; Peter, Brad G.; Connallon, Christopher B.; Schaetz, Randall J.;
+Smidt, Samuel J.; Liu, Wei; Kincare, Kevin A.; Walkowiak, Toni A.; Thorlund, Elin; Holler,
+Marie S. (29 January 2016). "Loamy, two-storied soils on the outwash plains of southwestern lower Michigan: pedoturbation of loess with the underlying sand" (https://peopl e.geo.msu.edu/schaetzl/PDFs/Luehmann%20et%20al.%202016.pdf) (PDF). Annals of the
+American Association of Geographers. 106 (3): 551–72. Bibcode:2016AAAG..106..551L (htt ps://ui.adsabs.harvard.edu/abs/2016AAAG..106..551L).
+doi:10.1080/00045608.2015.1115388 (https://doi.org/10.1080%2F00045608.2015.111538
+8). S2CID 131571035 (https://api.semanticscholar.org/CorpusID:131571035). Retrieved
+12 January 2026.
+22. Zádorová, Tereza; Penížek, Vit (July 2018). "Formation, morphology and classification of colluvial soils: a review" (https://z-library.ec/book/102111475/193944). European Journal of
+Soil Science. 69 (4): 577–91. Bibcode:2018EuJSS..69..577Z (https://ui.adsabs.harvard.edu/ abs/2018EuJSS..69..577Z). doi:10.1111/ejss.12673 (https://doi.org/10.1111%2Fejss.1267
+3). S2CID 102565037 (https://api.semanticscholar.org/CorpusID:102565037). Retrieved
+12 January 2026.
+23. Ambak, Kamarudin; Tadano, Toshiaki (4 January 2012). "Effect of micronutrient application on the growth and occurrence of sterility in barley and rice in a Malaysian deep peat soil" (ht tps://z-library.ec/book/62710898/cd8f60). Soil Science and Plant Nutrition. 37 (4): 715–24.
+doi:10.1080/00380768.1991.10416940 (https://doi.org/10.1080%2F00380768.1991.104169
+40). Retrieved 12 January 2026.
+24. Shutt, Frank T.; Wright, L. E. (1933). Peat muck and mud deposits: their nature, composition and agricultural uses (https://atrium.lib.uoguelph.ca/xmlui/bitstream/handle/10214/15157/FD
+MR_peat_muck_mud_deposits_1933.pdf) (PDF). Ottawa, Ontario, Canada: Dominion of
+Canada, Department of Agriculture. Retrieved 12 January 2026.
+25. "Weathering" (https://uregina.ca/~sauchyn/geog323/weather.html). University of Regina.
+Retrieved 12 January 2026.
+26. Shemyakin, E. I.; Kurlenya, M. V.; Oparin, V. N.; Reva, V. N.; Glishikhin, F. P.; Rozenbaum,
+M. A.; Tropp, É. A. (July 1989). "Zonal disintegration of rocks around underground workings.
+IV. Practical applications" (https://z-library.ec/book/38778245/c69dbb). Soviet Mining. 25 (4):
+297–302. doi:10.1007/BF02528546 (https://doi.org/10.1007%2FBF02528546). Retrieved
+12 January 2026.
+27. Branner, John C. (1895). "Decomposition of rocks in Brazil" (https://z-library.ec/book/744772
+02/5506b5). GSA Bulletin. 7 (1): 255–314. doi:10.1130/GSAB-7-255 (https://doi.org/10.113
+0%2FGSAB-7-255). Retrieved 12 January 2026.
+28. Gilluly, James; Waters, Aaron Clement; Woodford, Alfred Oswald (1975). Principles of geology (https://z-library.ec/book/121853862/dbd34d) (fourth ed.). San Francisco, California:
+W.H. Freeman. Retrieved 12 January 2026.
+29. Uroz, Stéphane; Calvaruso, Christophe; Turpault, Marie-Pierre; Frey-Klett, Pascale (August
+2009). "Mineral weathering by bacteria: ecology, actors and mechanisms" (https://www.acad emia.edu/103413378). Trends in Microbiology. 17 (8): 378–87.
+doi:10.1016/j.tim.2009.05.004 (https://doi.org/10.1016%2Fj.tim.2009.05.004).
+PMID 19660952 (https://pubmed.ncbi.nlm.nih.gov/19660952). Retrieved 12 January 2026.
+30. Landeweert, Renske; Hoffland, Ellis; Finlay, Roger D.; Kuyper, Thom W.; Van Breemen,
+Nico (1 May 2001). "Linking plants to rocks: ectomycorrhizal fungi mobilize nutrients from minerals" (https://www.academia.edu/13679137). Trends in Ecology and Evolution. 16 (5):
+248–54. doi:10.1016/S0169-5347(01)02122-X (https://doi.org/10.1016%2FS0169-5347%28
+01%2902122-X). PMID 11301154 (https://pubmed.ncbi.nlm.nih.gov/11301154). Retrieved
+12 January 2026.
+31. Andrews, Jeffrey A.; Schlesinger, William H. (March 2001). "Soil CO2 dynamics, acidification, and chemical weathering in a temperate forest with experimental CO2 enrichment" (https://doi.org/10.1029%2F2000GB001278). Global Biogeochemical Cycles.
+15 (1): 149–62. Bibcode:2001GBioC..15..149A (https://ui.adsabs.harvard.edu/abs/2001GBio
+C..15..149A). doi:10.1029/2000GB001278 (https://doi.org/10.1029%2F2000GB001278).
+S2CID 128612522 (https://api.semanticscholar.org/CorpusID:128612522).
+32. Halsey, Dave P.; Mitchell, David J.; Dews, S. J. (November 1998). "Influence of climatically induced cycles in physical weathering" (https://z-library.ec/book/67707312/48ae7c).
+Quarterly Journal of Engineering Geology & Hydrogeology. 31 (4): 359–67.
+Bibcode:1998QJEGH..31..359H (https://ui.adsabs.harvard.edu/abs/1998QJEGH..31..359H).
+doi:10.1144/GSL.QJEG.1998.031.P4.09 (https://doi.org/10.1144%2FGSL.QJEG.1998.031.
+P4.09). S2CID 128917530 (https://api.semanticscholar.org/CorpusID:128917530). Retrieved
+12 January 2026.
+33. Saad, Alice; Guédon, Sylvine; Martineau, François (19 March 2010). "Microstructural weathering of sedimentary rocks by freeze–thaw cycles: experimental study of state and transfer parameters" (https://www.academia.edu/21051171). Comptes Rendus Geoscience.
+342 (3): 197–203. doi:10.1016/j.crte.2009.12.009 (https://doi.org/10.1016%2Fj.crte.2009.12.
+009). Retrieved 12 January 2026.
+34. Collins, Brian D.; Stock, Greg M.; Eppes, Martha-Cary; Lewis, Scott W.; Corbett, Skye C.;
+Smith, Joel B. (22 February 2018). "Thermal influences on spontaneous rock dome exfoliation" (https://doi.org/10.1038%2Fs41467-017-02728-1). Nature Communications. 9
+762. doi:10.1038/s41467-017-02728-1 (https://doi.org/10.1038%2Fs41467-017-02728-1).
+35. Zhou, Wei; Cheng, Jialin; Zhang, Guike; Li, Hongbi; Cheng, Yonggang; Ma, Gang; Ji, Xiang
+(23 August 2021). "Effects of wetting-drying cycles on the breakage characteristics of slate rock grains" (https://archive.org/details/zhou-et-al.-2021). Rock Mechanics and Rock
+Engineering. 54 (1–4): 6323–37. doi:10.1007/s00603-021-02618-5 (https://doi.org/10.100
+7%2Fs00603-021-02618-5). Retrieved 12 January 2026.
+36. Ruiz, Siul; Or, Dani; Schymanski, Stanislaus J. (18 June 2015). "Soil penetration by earthworms and plant roots: mechanical energetics of bioturbation of compacted soils" (http s://doi.org/10.1371%2Fjournal.pone.0136225). PLOS One. 10 (9) e0136225.
+doi:10.1371/journal.pone.0136225 (https://doi.org/10.1371%2Fjournal.pone.0136225).
+37. Donahue, Miller & Shickluna 1977, pp. 28–31.
+38. Donahue, Miller & Shickluna 1977, pp. 31–33.
+39. Li, Li; Steefel, Carl I.; Yang, Li (15 January 2008). "Scale dependence of mineral dissolution rates within single pores and fractures" (https://www.researchgate.net/publication/22383569
+7). Geochimica et Cosmochimica Acta. 72 (2): 360–77. Bibcode:2008GeCoA..72..360L (http s://ui.adsabs.harvard.edu/abs/2008GeCoA..72..360L). doi:10.1016/j.gca.2007.10.027 (http s://doi.org/10.1016%2Fj.gca.2007.10.027). Archived (https://web.archive.org/web/20151101
+231923/http://lili.ems.psu.edu/publication/liligca08.pdf) (PDF) from the original on 1
+November 2015. Retrieved 12 January 2026.
+40. Oelkers, Eric H.; Schott, Jacques (December 1995). "Experimental study of anorthite dissolution and the relative mechanism of feldspar hydrolysis" (https://www.academia.edu/8
+8321736). Geochimica et Cosmochimica Acta. 59 (24): 5039–53.
+Bibcode:1995GeCoA..59.5039O (https://ui.adsabs.harvard.edu/abs/1995GeCoA..59.5039
+O). doi:10.1016/0016-7037(95)00326-6 (https://doi.org/10.1016%2F0016-7037%2895%290
+0326-6). Retrieved 12 January 2026.
+41. Al-Hosney, Hashim; Grassian, Vicki H. (11 June 2004). "Carbonic acid: an important intermediate in the surface chemistry of calcium carbonate" (https://z-library.ec/book/509852
+44/3bcbca). Journal of the American Chemical Society. 126 (26): 8068–9.
+Bibcode:2004JAChS.126.8068A (https://ui.adsabs.harvard.edu/abs/2004JAChS.126.8068
+A). doi:10.1021/ja0490774 (https://doi.org/10.1021%2Fja0490774). PMID 15225019 (https:// pubmed.ncbi.nlm.nih.gov/15225019). Retrieved 12 January 2026.
+42. Jiménez-González, Inmaculada; Rodríguez-Navarro, Carlos; Scherer, George W. (June
+2008). "Role of clay minerals in the physicomechanical deterioration of sandstone" (https://d oi.org/10.1029%2F2007JF000845). Journal of Geophysical Research. 113 (F02021): 1–17.
+Bibcode:2008JGRF..113.2021J (https://ui.adsabs.harvard.edu/abs/2008JGRF..113.2021J).
+doi:10.1029/2007JF000845 (https://doi.org/10.1029%2F2007JF000845).
+43. Mylvaganam, Kausala; Zhang, Liangchi (11 September 2002). "Effect of oxygen penetration in silicon due to nano-indentation" (https://www.researchgate.net/publication/230680185).
+Nanotechnology. 13 (5): 623–6. Bibcode:2002Nanot..13..623M (https://ui.adsabs.harvard.ed u/abs/2002Nanot..13..623M). doi:10.1088/0957-4484/13/5/316 (https://doi.org/10.1088%2F
+0957-4484%2F13%2F5%2F316). S2CID 250738729 (https://api.semanticscholar.org/Corpu sID:250738729). Retrieved 13 January 2026.
+44. Favre, Fabienne; Tessier, Daniel; Abdelmoula, Mustapha; Génin, Jean-Marie; Gates, Will P.;
+Boivin, Pascal (June 2002). "Iron reduction and changes in cation exchange capacity in intermittently waterlogged soil" (https://z-library.ec/book/36692671/7566d0). European
+Journal of Soil Science. 53 (2): 175–83. Bibcode:2002EuJSS..53..175F (https://ui.adsabs.ha rvard.edu/abs/2002EuJSS..53..175F). doi:10.1046/j.1365-2389.2002.00423.x (https://doi.or g/10.1046%2Fj.1365-2389.2002.00423.x). S2CID 98436639 (https://api.semanticscholar.or g/CorpusID:98436639). Retrieved 13 January 2026.
+45. Riebe, Clifford S.; Kirchner, James W.; Finkel, Robert C. (15 August 2004). "Erosional and climatic effects on long-term chemical weathering rates in granitic landscapes spanning diverse climate regimes" (https://z-library.ec/book/48947650/f58ba4). Earth and Planetary
+Science Letters. 224 (3–4): 547–62. Bibcode:2004E&PSL.224..547R (https://ui.adsabs.harv ard.edu/abs/2004E&PSL.224..547R). doi:10.1016/j.epsl.2004.05.019 (https://doi.org/10.101
+6%2Fj.epsl.2004.05.019). Retrieved 13 January 2026.
+46. "Rates of weathering" (https://web.archive.org/web/20130613022251/http://midwaymsscienc e.weebly.com/uploads/8/2/9/8/8298729/section_2_-_rates_of_weathering.pdf) (PDF).
+Archived from the original (http://midwaymsscience.weebly.com/uploads/8/2/9/8/8298729/se ction_2_-_rates_of_weathering.pdf) (PDF) on 13 June 2013. Retrieved 21 November 2021.
+47. Dere, Ashlee L.; White, Timothy S.; April, Richard H.; Reynolds, Bryan; Miller, Thomas E.;
+Knapp, Elizabeth P.; McKay, Larry D.; Brantley, Susan L. (1 December 2013). "Climate dependence of feldspar weathering in shale soils along a latitudinal gradient" (https://www.a cademia.edu/96678835). Geochimica et Cosmochimica Acta. 122: 101–26.
+Bibcode:2013GeCoA.122..101D (https://ui.adsabs.harvard.edu/abs/2013GeCoA.122..101
+D). doi:10.1016/j.gca.2013.08.001 (https://doi.org/10.1016%2Fj.gca.2013.08.001). Retrieved
+13 January 2026.
+48. Kitayama, Kanehiro; Majalap-Lee, Noreen; Aiba, Shin-ichiro (May 2000). "Soil phosphorus fractionation and phosphorus-use efficiencies of tropical rainforests along altitudinal gradients of Mount Kinabalu, Borneo" (https://z-library.ec/book/39493370/2c59a1).
+Oecologia. 123 (3): 342–9. Bibcode:2000Oecol.123..342K (https://ui.adsabs.harvard.edu/ab s/2000Oecol.123..342K). doi:10.1007/s004420051020 (https://doi.org/10.1007%2Fs004420
+051020). PMID 28308588 (https://pubmed.ncbi.nlm.nih.gov/28308588). S2CID 20660989 (h ttps://api.semanticscholar.org/CorpusID:20660989). Retrieved 13 January 2026.
+49. Sequeira Braga, Maria Amália; Paquet, Hélène; Begonha, Arlindo (31 August 2002).
+"Weathering of granites in a temperate climate (NW Portugal): granitic saprolites and arenization" (https://home.uevora.pt/~lopes/Artigos/23.PDF) (PDF). Catena. 49 (1–2): 41–
+56. Bibcode:2002Caten..49...41S (https://ui.adsabs.harvard.edu/abs/2002Caten..49...41S).
+doi:10.1016/S0341-8162(02)00017-6 (https://doi.org/10.1016%2FS0341-8162%2802%2900
+017-6). Retrieved 13 January 2026.
+50. Mosier, Arvin R. (July 1998). "Soil processes and global change" (https://z-library.ec/book/39
+393026/6f7350). Biology and Fertility of Soils. 27 (3): 221–9. Bibcode:1998BioFS..27..221M
+(https://ui.adsabs.harvard.edu/abs/1998BioFS..27..221M). doi:10.1007/s003740050424 (htt ps://doi.org/10.1007%2Fs003740050424). S2CID 44244791 (https://api.semanticscholar.or g/CorpusID:44244791). Retrieved 13 January 2026.
+51. Epstein, Howard E.; Burke, Ingrid C.; Lauenroth, William K. (1 February 2002). "Regional patterns of decomposition and primary production rates in the U.S. Great Plains" (https://ww w.researchgate.net/publication/233379719). Ecology. 83 (2): 320–7. doi:10.2307/2680016
+(https://doi.org/10.2307%2F2680016). JSTOR 2680016 (https://www.jstor.org/stable/268001
+6). Retrieved 13 January 2026.
+52. Lucas, Yves (2001). "The role of plants in controlling rates and products of weathering:
+importance of biological pumping" (https://www.researchgate.net/publication/228608786).
+Annual Review of Earth and Planetary Sciences. 29: 135–63.
+Bibcode:2001AREPS..29..135L (https://ui.adsabs.harvard.edu/abs/2001AREPS..29..135L).
+doi:10.1146/annurev.earth.29.1.135 (https://doi.org/10.1146%2Fannurev.earth.29.1.135).
+Retrieved 13 January 2026.
+53. Davidson, Eric A.; Janssens, Ivan A. (9 March 2006). "Temperature sensitivity of soil carbon decomposition and feedbacks to climate change" (https://www.researchgate.net/publication/
+7253750). Nature. 440 (7081): 165‒73. Bibcode:2006Natur.440..165D (https://ui.adsabs.har vard.edu/abs/2006Natur.440..165D). doi:10.1038/nature04514 (https://doi.org/10.1038%2Fn ature04514). PMID 16525463 (https://pubmed.ncbi.nlm.nih.gov/16525463). S2CID 4404915
+(https://api.semanticscholar.org/CorpusID:4404915). Retrieved 13 January 2026.
+54. Woodward, F. Ian; Lomas, Mark R.; Kelly, Colleen K. (29 October 2004). "Global climate and the distribution of plant biomes" (https://www.researchgate.net/publication/8200458).
+Philosophical Transactions of the Royal Society of London, Series B. 359 (1450): 1465–76.
+doi:10.1098/rstb.2004.1525 (https://doi.org/10.1098%2Frstb.2004.1525). PMC 1693431 (htt ps://www.ncbi.nlm.nih.gov/pmc/articles/PMC1693431). PMID 15519965 (https://pubmed.ncb i.nlm.nih.gov/15519965). Retrieved 13 January 2026.
+55. Graham, Robert C.; Rossi, Ann M.; Hubbert, Kenneth R. (2010). "Rock to regolith conversion: producing hospitable substrates for terrestrial ecosystems" (https://rock.geosoci ety.org/net/gsatoday/archive/20/2/pdf/i1052-5173-20-2-4.pdf) (PDF). GSA Today. 20 (2): 4–
+9. doi:10.1130/GSAT57A.1 (https://doi.org/10.1130%2FGSAT57A.1). Retrieved 13 January
+2026.
+56. Fedoroff, Nicolas (1997). "Clay illuviation in Red Mediterranean soils" (https://z-library.ec/bo ok/50141066/f13a4f). Catena. 28 (3–4): 171–89. Bibcode:1997Caten..28..171F (https://ui.ad sabs.harvard.edu/abs/1997Caten..28..171F). doi:10.1016/S0341-8162(96)00036-7 (https://d oi.org/10.1016%2FS0341-8162%2896%2900036-7). Retrieved 13 January 2026.
+57. Michalzik, Beate; Kalbitz, Karsten; Park, Ji-Hyung; Solinger, Stephan; Matzner, Egbert
+(January 2001). "Fluxes and concentrations of dissolved organic carbon and nitrogen: a synthesis for temperate forests" (https://www.researchgate.net/publication/226356840).
+Biogeochemistry. 52 (2): 173–205. Bibcode:2001Biogc..52..173M (https://ui.adsabs.harvard.
+edu/abs/2001Biogc..52..173M). doi:10.1023/A:1006441620810 (https://doi.org/10.1023%2F
+A%3A1006441620810). S2CID 97298438 (https://api.semanticscholar.org/CorpusID:972984
+38). Retrieved 13 January 2026.
+58. Bernstein, Leon (September 1975). "Effects of salinity and sodicity on plant growth" (https:// z-library.ec/book/47778554/ebd323). Annual Review of Phytopathology. 13 (1): 295–312.
+Bibcode:1975AnRvP..13..295B (https://ui.adsabs.harvard.edu/abs/1975AnRvP..13..295B).
+doi:10.1146/annurev.py.13.090175.001455 (https://doi.org/10.1146%2Fannurev.py.13.09017
+5.001455). Retrieved 13 January 2026.
+59. Yuan, Bing-Cheng; Li, Zi-Zhen; Liu, Hua; Gao, Meng; Zhang, Yan-Yu (January 2026).
+"Microbial biomass and activity in salt affected soils under arid conditions" (https://z-library.e c/book/48705974/a8e04c). Applied Soil Ecology. 35 (2): 319–28.
+Bibcode:2007AppSE..35..319Y (https://ui.adsabs.harvard.edu/abs/2007AppSE..35..319Y).
+doi:10.1016/j.apsoil.2006.07.004 (https://doi.org/10.1016%2Fj.apsoil.2006.07.004).
+Retrieved 13 January 2026.
+60. Schlesinger, William H. (April 1982). "Carbon storage in the caliche of arid soils: a case study from Arizona" (https://www.researchgate.net/publication/249345714). Soil Science.
+133 (4): 247–55. Bibcode:1982SoilS.133..247S (https://ui.adsabs.harvard.edu/abs/1982Soil
+S.133..247S). doi:10.1097/00010694-198204000-00008 (https://doi.org/10.1097%2F000106
+94-198204000-00008). S2CID 97632160 (https://api.semanticscholar.org/CorpusID:976321
+60). Archived (https://web.archive.org/web/20180304054729/http://alliance.la.asu.edu/tempo rary/students/Phil/ArizonaCarbonStorage.pdf) (PDF) from the original on 4 March 2018.
+Retrieved 13 January 2026.
+61. Nalbantoglu, Zalihe; Gucbilmez, Emin (April 2001). "Improvement of calcareous expansive soils in semi-arid environments" (https://www.academia.edu/63404175). Journal of Arid
+Environments. 47 (4): 453–63. Bibcode:2001JArEn..47..453N (https://ui.adsabs.harvard.ed u/abs/2001JArEn..47..453N). doi:10.1006/jare.2000.0726 (https://doi.org/10.1006%2Fjare.2
+000.0726). Retrieved 13 January 2026.
+62. Retallack, Gregory J. (1 May 2010). "Lateritization and bauxitization events" (https://www.re searchgate.net/publication/247864948). Economic Geology. 105 (3): 655–67.
+Bibcode:2010EcGeo.105..655R (https://ui.adsabs.harvard.edu/abs/2010EcGeo.105..655R).
+doi:10.2113/gsecongeo.105.3.655 (https://doi.org/10.2113%2Fgsecongeo.105.3.655).
+Retrieved 13 January 2026.
+63. Donahue, Miller & Shickluna 1977, p. 35.
+64. Pye, Kenneth; Tsoar, Haim (1987). "The mechanics and geological implications of dust transport and deposition in deserts with particular reference to loess formation and dune sand diagenesis in the northern Negev, Israel" (https://www.researchgate.net/publication/23
+8424245). In Frostick, Lynne; Reid, Ian (eds.). Desert sediments: ancient and modern.
+pp. 139–56. Bibcode:1987GSLSP..35..139P (https://ui.adsabs.harvard.edu/abs/1987GSLS
+P..35..139P). doi:10.1144/GSL.SP.1987.035.01.10 (https://doi.org/10.1144%2FGSL.SP.198
+7.035.01.10). ISBN 978-0-632-01905-2. S2CID 128746705 (https://api.semanticscholar.org/
+CorpusID:128746705). Retrieved 13 January 2026.
+65. Prospero, Joseph M. (30 March 1999). "Long-range transport of mineral dust in the global atmosphere: impact of African dust on the environment of the southeastern United States"
+(https://www.researchgate.net/publication/13194251). Proceedings of the National Academy of Sciences of the United States of America. 96 (7): 3396–403.
+Bibcode:1999PNAS...96.3396P (https://ui.adsabs.harvard.edu/abs/1999PNAS...96.3396P).
+doi:10.1073/pnas.96.7.3396 (https://doi.org/10.1073%2Fpnas.96.7.3396). PMC 34280 (http s://www.ncbi.nlm.nih.gov/pmc/articles/PMC34280). PMID 10097049 (https://pubmed.ncbi.nl m.nih.gov/10097049). Retrieved 13 January 2026.
+66. Post, Wilfred M.; Emanuel, William R.; Zinke, Paul J.; Stangerberger, Alan G. (8 July 1982).
+"Soil carbon pools and world life zones" (https://z-library.ec/book/42586803/74d76f). Nature.
+298 (5870): 156–9. Bibcode:1982Natur.298..156P (https://ui.adsabs.harvard.edu/abs/1982N atur.298..156P). doi:10.1038/298156a0 (https://doi.org/10.1038%2F298156a0).
+S2CID 4311653 (https://api.semanticscholar.org/CorpusID:4311653). Retrieved 13 January
+2026.
+67. Gómez-Heras, Miguel; Smith, Bernard J.; Fort, Rafael (30 August 2006). "Surface temperature differences between minerals in crystalline rocks: implications for granular disaggregation of granites through thermal fatigue" (https://www.academia.edu/1209637).
+Geomorphology. 78 (3–4): 236–49. Bibcode:2006Geomo..78..236G (https://ui.adsabs.harva rd.edu/abs/2006Geomo..78..236G). doi:10.1016/j.geomorph.2005.12.013 (https://doi.org/10.
+1016%2Fj.geomorph.2005.12.013). Retrieved 13 January 2026.
+68. Nicholson, Dawn T.; Nicholson, Frank H. (November 2000). "Physical deterioration of sedimentary rocks subjected to experimental freeze–thaw weathering" (https://z-library.ec/b ook/31382952/2e4055). Earth Surface Processes and Landforms. 25 (12): 1295–307.
+Bibcode:2000ESPL...25.1295N (https://ui.adsabs.harvard.edu/abs/2000ESPL...25.1295N).
+doi:10.1002/1096-9837(200011)25:12<1295::AID-ESP138>3.0.CO;2-E (https://doi.org/10.1
+002%2F1096-9837%28200011%2925%3A12%3C1295%3A%3AAID-ESP138%3E3.0.CO%
+3B2-E). Retrieved 13 January 2026.
+69. Griffiths, Robert P.; Madritch, Michael D.; Swanson, Alan K. (20 January 2009). "The effects of topography on forest soil characteristics in the Oregon Cascade Mountains (USA):
+implications for the effects of climate change on soil properties" (https://z-library.ec/book/489
+94186/48156c). Forest Ecology and Management. 257 (1): 1–7.
+Bibcode:2009ForEM.257....1G (https://ui.adsabs.harvard.edu/abs/2009ForEM.257....1G).
+doi:10.1016/j.foreco.2008.08.010 (https://doi.org/10.1016%2Fj.foreco.2008.08.010).
+Retrieved 13 January 2026.
+70. Wilcox, Bradford P.; Wood, M. Karl; Tromble, John M. (May 1988). "Factors influencing infiltrability of semiarid mountain slopes" (https://repository.arizona.edu/bitstream/handle/101
+50/645177/8240-8121-2-PB.pdf) (PDF). Journal of Range Management. 41 (3): 197–206.
+doi:10.2307/3899167 (https://doi.org/10.2307%2F3899167). hdl:10150/645177 (https://hdl.h andle.net/10150%2F645177). JSTOR 3899167 (https://www.jstor.org/stable/3899167).
+Retrieved 13 January 2026.
+71. Liu, Baoyuan; Nearing, Mark A.; Risse, L. Mark (1994). "Slope gradient effects on soil loss for steep slopes" (https://www.researchgate.net/publication/270613706). Transactions of the
+American Society of Agricultural and Biological Engineers. 37 (6): 1835–40.
+doi:10.13031/2013.28273 (https://doi.org/10.13031%2F2013.28273). Retrieved 13 January
+2026.
+72. Chen, Zueng-Sang; Hsieh, Chang-Fu; Jiang, Feei-Yu; Hsieh, Tsung-Hsin; Sun, I-Fang
+(October 1997). "Relations of soil properties to topography and vegetation in a subtropical rain forest in southern Taiwan" (https://www.researchgate.net/publication/227052359). Plant
+Ecology. 132 (2): 229–41. Bibcode:1997PlEco.132..229C (https://ui.adsabs.harvard.edu/ab s/1997PlEco.132..229C). doi:10.1023/A:1009762704553 (https://doi.org/10.1023%2FA%3A
+1009762704553). S2CID 2838442 (https://api.semanticscholar.org/CorpusID:2838442).
+Retrieved 14 January 2026.
+73. Hanna, Abdulaziz Yalda; Harlan, Phillip W.; Lewis, David T. (1 November 1982). "Soil available water as influenced by landscape position and aspect" (https://z-library.ec/book/10
+4993342/abd9a6). Agronomy Journal. 74 (6): 999–1004.
+doi:10.2134/agronj1982.00021962007400060016x (https://doi.org/10.2134%2Fagronj1982.
+00021962007400060016x). Retrieved 14 January 2026.
+74. Graham, Robert C.; Daniels, Raymond B.; Buol, Stanley W. (1 September 1990). "Soil- geomorphic relations on the Blue Ridge Front. I. Regolith types and slope processes" (http s://z-library.ec/book/55341306/51f2a1). Soil Science Society of America Journal. 54 (5):
+1362–7. Bibcode:1990SSASJ..54.1362G (https://ui.adsabs.harvard.edu/abs/1990SSASJ..5
+4.1362G). doi:10.2136/sssaj1990.03615995005400050027x (https://doi.org/10.2136%2Fsss aj1990.03615995005400050027x). Retrieved 14 January 2026.
+75. Brinson, Mark M. (August 1993). A hydrogeomorphic classification for wetlands (https://erdc- library.erdc.dren.mil/jspui/bitstream/11681/6483/1/TR-WRP-DE-4.pdf) (PDF). Washington,
+DC: US Army Corps of Engineers, Waterways Experiment Station. Retrieved 14 January
+2026.
+76. Jiang, Pingping; Thelen, Kurt D. (1 January 2004). "Effect of soil and topographic properties on crop yield in a North-Central corn–soybean cropping system" (https://z-library.ec/book/10
+3190344/4542ae). Agronomy Journal. 96 (1): 252–8. Bibcode:2004AgrJ...96..252J (https://u i.adsabs.harvard.edu/abs/2004AgrJ...96..252J). doi:10.2134/agronj2004.0252 (https://doi.or g/10.2134%2Fagronj2004.0252). Retrieved 14 January 2026.
+77. Thelemann, Ryan; Johnson, Gregg; Sheaffer, Craig; Banerjee, Sudipto; Cai, Haowen;
+Wyse, Donald (1 March 2010). "The effect of landscape position on biomass crop yield" (htt ps://www.researchgate.net/publication/240783650). Agronomy Journal. 102 (2): 513–22.
+Bibcode:2010AgrJ..102..513T (https://ui.adsabs.harvard.edu/abs/2010AgrJ..102..513T).
+doi:10.2134/agronj2009.0058 (https://doi.org/10.2134%2Fagronj2009.0058). Retrieved
+13 January 2026.
+78. Wang, Wenjie; Zhong, Zhaoliang; Wang, Qiong; Wang, Humei; Fu, Yujie; He, Xingyuan (11
+October 2017). "Glomalin contributed more to carbon, nutrients in deeper soils, and differently associated with climates and soil properties in vertical profiles" (https://www.ncbi.
+nlm.nih.gov/pmc/articles/PMC5636888). Scientific Reports. 7 13003.
+Bibcode:2017NatSR...713003W (https://ui.adsabs.harvard.edu/abs/2017NatSR...713003W).
+doi:10.1038/s41598-017-12731-7 (https://doi.org/10.1038%2Fs41598-017-12731-7).
+PMC 5636888 (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5636888). PMID 29021579
+(https://pubmed.ncbi.nlm.nih.gov/29021579).
+79. Durán Zuazo, Vı́ctor Hugo; Rodríguez Pleguezuelo, Carmen Rocı́o (March 2008). "Soil- erosion and runoff prevention by plant covers: a review" (https://www.researchgate.net/publi cation/43410360). Agronomy for Sustainable Development. 28 (1): 65–86.
+doi:10.1051/agro:2007062 (https://doi.org/10.1051%2Fagro%3A2007062). Retrieved
+13 January 2026.
+80. Pshenichnikov, B. F.; Pshenichnikova, E. F. (15 April 2015). "The impact of vegetation on humus formation and morphology of brown forest soils in coastal areas of the southeastern part of Russian far east" (https://z-library.ec/book/71431134/0aa061). Eurasian Soil Science.
+48 (4): 337–46. doi:10.1134/S1064229315040080 (https://doi.org/10.1134%2FS106422931
+5040080). Retrieved 14 January 2026.
+81. Huang, Xing-Feng; Chaparro, Jacqueline M.; Reardon, Kenneth F.; Zhang, Ruifu; Shen,
+Oirong; Vivanco, Jorge M. (26 February 2014). "Rhizosphere interactions: root exudates, microbes, and microbial communities" (https://www.researchgate.net/publication/26376474
+3). Botany. 92 (4): 267–75. doi:10.1139/cjb-2013-0225 (https://doi.org/10.1139%2Fcjb-2013
+-0225). Retrieved 14 January 2026.
+82. Scheu, Stefan; Wolters, Volkmar (1991). "Influence of fragmentation and bioturbation on the decomposition of 14C-labelled beech leaf litter" (https://z-library.ec/book/51956708/1cf38d).
+Soil Biology and Biochemistry. 23 (11): 1029–34. doi:10.1016/0038-0717(91)90039-M (http s://doi.org/10.1016%2F0038-0717%2891%2990039-M). Retrieved 14 January 2026.
+83. Wall, Diana H.; Adams, Gina; Parsons, Andrew N. (2001). "Soil biodiversity". In Chapin, F.
+Stuart III; Sala, Osvaldo E.; Huber-Sannwald, Elisabeth (eds.). Global biodiversity in a changing environment: scenarios for the 21st century (https://archive.org/details/wall-et-al.-2
+001). Ecological studies. Vol. 152. New York, New York: Springer. doi:10.1007/978-1-4613-
+0157-8 (https://doi.org/10.1007%2F978-1-4613-0157-8). ISBN 978-0-387-95286-4.
+S2CID 45261145 (https://api.semanticscholar.org/CorpusID:45261145). Retrieved
+14 January 2026.
+84. Dance, Amber (9 October 2008). "What lies beneath" (https://www.nature.com/news/2008/0
+81008/pdf/455724a.pdf) (PDF). Nature. 455 (7214): 724–25. doi:10.1038/455724a (https://d oi.org/10.1038%2F455724a). PMID 18843336 (https://pubmed.ncbi.nlm.nih.gov/18843336).
+S2CID 30863755 (https://api.semanticscholar.org/CorpusID:30863755). Retrieved
+14 January 2026.
+85. Gans, Jason; Wolinsky, Murray; Dunbar, John (26 August 2005). "Computational improvements reveal great bacterial diversity and high metal toxicity in soil" (https://www.res earchgate.net/publication/7637990). Science. 309 (5739): 1387–90.
+Bibcode:2005Sci...309.1387G (https://ui.adsabs.harvard.edu/abs/2005Sci...309.1387G).
+doi:10.1126/science.1112665 (https://doi.org/10.1126%2Fscience.1112665).
+PMID 16123304 (https://pubmed.ncbi.nlm.nih.gov/16123304). S2CID 130269020 (https://ap i.semanticscholar.org/CorpusID:130269020). Retrieved 14 January 2026.
+86. Roesch, Luiz F.W.; Fulthorpe, Roberta R.; Riva, Alberto; Casella, George; Hadwin, Alison
+K.M.; Kent, Angela D.; Daroub, Samira H.; Camargo, Flavio A.O.; Farmerie, William G.;
+Triplett, Eric W. (5 July 2007). "Pyrosequencing enumerates and contrasts soil microbial diversity" (https://www.academia.edu/94942780). The ISME Journal. 1 (4): 283–90.
+Bibcode:2007ISMEJ...1..283R (https://ui.adsabs.harvard.edu/abs/2007ISMEJ...1..283R).
+doi:10.1038/ismej.2007.53 (https://doi.org/10.1038%2Fismej.2007.53). PMC 2970868 (http s://www.ncbi.nlm.nih.gov/pmc/articles/PMC2970868). PMID 18043639 (https://pubmed.ncbi.
+nlm.nih.gov/18043639). Retrieved 14 January 2026.
+87. Meysman, Filip J.R.; Middelburg, Jack J.; Heip, Carlo H.R. (December 2006). "Bioturbation:
+a fresh look at Darwin's last idea" (https://www.academia.edu/13631880). Trends in Ecology and Evolution. 21 (12): 688–95. Bibcode:2006TEcoE..21..688M (https://ui.adsabs.harvard.e du/abs/2006TEcoE..21..688M). doi:10.1016/j.tree.2006.08.002 (https://doi.org/10.1016%2Fj.
+tree.2006.08.002). PMID 16901581 (https://pubmed.ncbi.nlm.nih.gov/16901581). Retrieved
+14 January 2026.
+88. Williams, Stacey M.; Weil, Ray R. (1 July 2004). "Crop cover root channels may alleviate soil compaction effects on soybean crop" (https://www.researchgate.net/publication/240789
+602). Soil Science Society of America Journal. 68 (4): 1403–9.
+Bibcode:2004SSASJ..68.1403W (https://ui.adsabs.harvard.edu/abs/2004SSASJ..68.1403
+W). doi:10.2136/sssaj2004.1403 (https://doi.org/10.2136%2Fsssaj2004.1403). Retrieved
+14 January 2026.
+89. Lynch, Jonathan (September 1995). "Root architecture and plant productivity" (https://z-libra ry.ec/book/81554637/4e1a74). Plant Physiology. 109 (1): 7–13. doi:10.1104/pp.109.1.7 (http s://doi.org/10.1104%2Fpp.109.1.7). PMC 157559 (https://www.ncbi.nlm.nih.gov/pmc/article s/PMC157559). PMID 12228579 (https://pubmed.ncbi.nlm.nih.gov/12228579). Retrieved
+14 January 2026.
+90. Nguyen, Christophe (2003). "Rhizodeposition of organic C by plants: mechanisms and controls" (https://hal.archives-ouvertes.fr/file/index/docid/886190/filename/hal-00886190.pdf)
+(PDF). Agronomie. 23 (5–6): 375–96. Bibcode:2003AgSD...23..375N (https://ui.adsabs.harv ard.edu/abs/2003AgSD...23..375N). doi:10.1051/agro:2003011 (https://doi.org/10.1051%2F agro%3A2003011). S2CID 55101606 (https://api.semanticscholar.org/CorpusID:55101606).
+Retrieved 14 January 2026.
+91. Bundt, Maya; Widmer, Franco; Pesaro, Manuel; Zeyer, Josef; Blaser, Peter (May 2001).
+"Preferential flow paths: biological 'hot spots' in soils" (https://z-library.ec/book/49826581/c9
+78c7). Soil Biology and Biochemistry. 33 (6): 729–38. doi:10.1016/S0038-0717(00)00218-2
+(https://doi.org/10.1016%2FS0038-0717%2800%2900218-2). Retrieved 14 January 2026.
+92. Bonkowski, Michael (13 April 2004). "Protozoa and plant growth: the microbial loop in soil revisited" (https://doi.org/10.1111%2Fj.1469-8137.2004.01066.x). New Phytologist. 162 (3):
+617–31. Bibcode:2004NewPh.162..617B (https://ui.adsabs.harvard.edu/abs/2004NewPh.16
+2..617B). doi:10.1111/j.1469-8137.2004.01066.x (https://doi.org/10.1111%2Fj.1469-8137.20
+04.01066.x). PMID 33873756 (https://pubmed.ncbi.nlm.nih.gov/33873756).
+93. Six, Johan; Bossuyt, Heleen; De Gryze, Steven; Denef, Karolien (September 2004). "A history of research on the link between (micro)aggregates, soil biota, and soil organic matter dynamics" (https://www.researchgate.net/publication/222426695). Soil and Tillage
+Research. 79 (1): 7–31. Bibcode:2004STilR..79....7S (https://ui.adsabs.harvard.edu/abs/200
+4STilR..79....7S). doi:10.1016/j.still.2004.03.008 (https://doi.org/10.1016%2Fj.still.2004.03.0
+08). Retrieved 14 January 2026.
+94. Saur, Étienne; Ponge, Jean-François (September 1988). "Alimentary studies on the collembolan Paratullbergia callipygos using transmission electron microscopy" (https://www.
+academia.edu/52490540). Pedobiologia. 31 (5–6): 355–79. Bibcode:1988Pedob..31..355S
+(https://ui.adsabs.harvard.edu/abs/1988Pedob..31..355S). doi:10.1016/S0031-
+4056(23)02274-6 (https://doi.org/10.1016%2FS0031-4056%2823%2902274-6). Retrieved
+14 January 2026.
+95. Oldeman, L. Roel (1992). "Global extent of soil degradation" (https://library.wur.nl/WebQuer y/wurpubs/fulltext/299739). ISRIC Bi-Annual Report 1991–1992. Wageningen, The
+Netherlands: ISRIC. pp. 19–36. Retrieved 14 January 2026.
+96. Karathanasis, Anastasios D.; Wells, Kenneth L. (1 March 1989). "A comparison of mineral weathering trends between two management systems on a catena of loess-derived soils" (ht tps://z-library.ec/book/55340885/5b9fdb). Soil Science Society of America Journal. 53 (2):
+582–8. Bibcode:1989SSASJ..53..582K (https://ui.adsabs.harvard.edu/abs/1989SSASJ..53..
+582K). doi:10.2136/sssaj1989.03615995005300020047x (https://doi.org/10.2136%2Fsssaj1
+989.03615995005300020047x). Retrieved 14 January 2026.
+97. Lee, Kenneth Ernest; Foster, Ralph C. (1 December 1991). "Soil fauna and soil structure" (h ttps://www.academia.edu/102507924). Australian Journal of Soil Research. 29 (6): 745–75.
+doi:10.1071/SR9910745 (https://doi.org/10.1071%2FSR9910745). Retrieved 14 January
+2026.
+98. Scheu, Stefan (2003). "Effects of earthworms on plant growth: patterns and perspectives" (h ttps://z-library.ec/book/50527858/9040d3). Pedobiologia. 47 (5–6): 846–56.
+doi:10.1078/0031-4056-00270 (https://doi.org/10.1078%2F0031-4056-00270). Retrieved
+14 January 2026.
+99. Zhang, Haiquan; Schrader, Stefan (March 1993). "Earthworm effects on selected physical and chemical properties of soil aggregates" (https://z-library.ec/book/37642844/464680).
+Biology and Fertility of Soils. 15 (3): 229–34. Bibcode:1993BioFS..15..229Z (https://ui.adsab s.harvard.edu/abs/1993BioFS..15..229Z). doi:10.1007/BF00361617 (https://doi.org/10.100
+7%2FBF00361617). S2CID 24151632 (https://api.semanticscholar.org/CorpusID:2415163
+2). Retrieved 14 January 2026.
+100. Bouché, Marcel B.; Al-Addan, Fathel (March–April 1997). "Earthworms, water infiltration and soil stability: some new assessments" (https://z-library.ec/book/49827228/3359ce). Soil
+Biology and Biochemistry. 29 (3–4): 441–52. Bibcode:1997SBiBi..29..441B (https://ui.adsab s.harvard.edu/abs/1997SBiBi..29..441B). doi:10.1016/S0038-0717(96)00272-6 (https://doi.o rg/10.1016%2FS0038-0717%2896%2900272-6). Retrieved 14 January 2026.
+101. Bernier, Nicolas (1998). "Earthworm feeding activity and development of the humus profile"
+(https://www.academia.edu/34816078). Biology and Fertility of Soils. 26 (3): 215–23.
+Bibcode:1998BioFS..26..215B (https://ui.adsabs.harvard.edu/abs/1998BioFS..26..215B).
+doi:10.1007/s003740050370 (https://doi.org/10.1007%2Fs003740050370).
+S2CID 40478203 (https://api.semanticscholar.org/CorpusID:40478203). Retrieved
+14 January 2026.
+102. Scheu, Stefan (December 1991). "Mucus excretion and carbon turnover of endogeic earthworms" (https://www.researchgate.net/publication/226748808). Biology and Fertility of
+Soils. 12 (3): 217–20. Bibcode:1991BioFS..12..217S (https://ui.adsabs.harvard.edu/abs/199
+1BioFS..12..217S). doi:10.1007/BF00337206 (https://doi.org/10.1007%2FBF00337206).
+S2CID 21931989 (https://api.semanticscholar.org/CorpusID:21931989). Retrieved
+14 January 2026.
+103. Brown, George G. (March 1995). "How do earthworms affect microfloral and faunal community diversity?" (https://z-library.ec/book/38617204/d33839). Plant and Soil. 170 (1):
+209–31. Bibcode:1995PlSoi.170..209B (https://ui.adsabs.harvard.edu/abs/1995PlSoi.170..2
+09B). doi:10.1007/BF02183068 (https://doi.org/10.1007%2FBF02183068). S2CID 10254688
+(https://api.semanticscholar.org/CorpusID:10254688). Retrieved 14 January 2026.
+104. Jouquet, Pascal; Dauber, Jens; Lagerlöf, Jan; Lavelle, Patrick; Lepage, Michel (June 2006).
+"Soil invertebrates as ecosystem engineers: intended and accidental effects on soil and feedback loops" (https://www.academia.edu/50439505). Applied Soil Ecology. 32 (2): 153–
+64. Bibcode:2006AppSE..32..153J (https://ui.adsabs.harvard.edu/abs/2006AppSE..32..153
+J). doi:10.1016/j.apsoil.2005.07.004 (https://doi.org/10.1016%2Fj.apsoil.2005.07.004).
+Retrieved 14 January 2026.
+105. Bohlen, Patrick J.; Scheu, Stefan; Hale, Cindy M.; McLean, Mary Ann; Migge, Sonja;
+Groffman, Peter M.; Parkinson, Dennis (1 October 2004). "Non-native invasive earthworms as agents of change in northern temperate forests" (https://www.researchgate.net/publicatio n/289148663). Frontiers in Ecology and the Environment. 2 (8): 427–35.
+doi:10.2307/3868431 (https://doi.org/10.2307%2F3868431). JSTOR 3868431 (https://www.j stor.org/stable/3868431). Retrieved 14 January 2026.
+106. De Bruyn, Lisa Lobry; Conacher, Arthur J. (1990). "The role of termites and ants in soil modification: a review" (https://www.researchgate.net/publication/248884324). Australian
+Journal of Soil Research. 28 (1): 55–93. Bibcode:1990SoilR..28...55D (https://ui.adsabs.har vard.edu/abs/1990SoilR..28...55D). doi:10.1071/SR9900055 (https://doi.org/10.1071%2FSR
+9900055). Retrieved 14 January 2026.
+107. Le Bayon, Renée-Claire; Binet, Françoise (2001). "Earthworm surface casts affect soil erosion by runoff water and phosphorus transfer in a temperate maize crop" (https://www.re searchgate.net/publication/248907085). Pedobiologia. 45 (5): 430–42. doi:10.1078/0031-
+4056-00097 (https://doi.org/10.1078%2F0031-4056-00097). Retrieved 14 January 2026.
+108. Kinlaw, Alton Emory (2006). "Burrows of semi-fossorial vertebrates in upland communities of
+Central Florida: their architecture, dispersion and ecological consequences" (https://ufdc.ufl.
+edu/UFE0017403/00001/pdf). pp. 19–45. Retrieved 14 January 2026.
+109. Zhang, Aimin; Long, Hao; Yang, Fei; Zhang, Jingran; Peng, Jun; Gong, Keyang; Hong,
+Yunpeng; Shi, Yonghui; Zhou, Shengfang; Shao, Zhudong; Yang, Na; Huang, Xiaoling;
+Huang, Xiaoling; Luo, Xi; Zhang, Ganlin (January 2025). "Revisiting krotovina formation using luminescence dating: a case study from NE China" (https://www.researchgate.net/publ ication/386505967). Catena. 248 108554. doi:10.1016/j.catena.2024.108554 (https://doi.org/
+10.1016%2Fj.catena.2024.108554). Retrieved 14 January 2026.
+110. Gyssels, Gwendolyn; Poesen, Jean; Bochet, Esther; Li, Yong (June 2005). "Impact of plant roots on the resistance of soils to erosion by water: a review" (https://z-library.ec/book/55546
+991/5b785e). Progress in Physical Geography. 29 (2): 189–217.
+Bibcode:2005PrPG...29..189G (https://ui.adsabs.harvard.edu/abs/2005PrPG...29..189G).
+doi:10.1191/0309133305pp443ra (https://doi.org/10.1191%2F0309133305pp443ra).
+S2CID 55243167 (https://api.semanticscholar.org/CorpusID:55243167). Retrieved
+14 January 2026.
+111. Balisky, Allen C.; Burton, Philip J. (November 1993). "Distinction of soil thermal regimes under various experimental vegetation covers" (https://doi.org/10.4141%2Fcjss93-043).
+Canadian Journal of Soil Science. 73 (4): 411–20. Bibcode:1993CaJSS..73..411B (https://ui.
+adsabs.harvard.edu/abs/1993CaJSS..73..411B). doi:10.4141/cjss93-043 (https://doi.org/10.
+4141%2Fcjss93-043).
+112. Marrou, Hélène; Dufour, Lydie; Wery, Jacques (October 2013). "How does a shelter of solar panels influence water flows in a soil-crop system?" (https://z-library.ec/book/57283986/27b
+4c7). European Journal of Agronomy. 50: 38–51. Bibcode:2013EuJAg..50...38M (https://ui.a dsabs.harvard.edu/abs/2013EuJAg..50...38M). doi:10.1016/j.eja.2013.05.004 (https://doi.or g/10.1016%2Fj.eja.2013.05.004). Retrieved 15 January 2026.
+113. Heck, Pamela; Lüthi, Daniel; Schär, Christoph (1999). "The influence of vegetation on the summertime evolution of European soil moisture" (https://z-library.ec/book/46599036/091b0
+8). Physics and Chemistry of the Earth, Part B, Hydrology, Oceans and Atmosphere. 24 (6):
+609–14. Bibcode:1999PCEB...24..609H (https://ui.adsabs.harvard.edu/abs/1999PCEB...24..
+609H). doi:10.1016/S1464-1909(99)00052-0 (https://doi.org/10.1016%2FS1464-1909%289
+9%2900052-0). Retrieved 15 January 2026.
+114. Jones, David L. (August 1998). "Organic acids in the rhizospere: a critical review" (https://z-li brary.ec/book/43162129/2dcd5b). Plant and Soil. 205 (1): 25–44.
+Bibcode:1998PlSoi.205...25J (https://ui.adsabs.harvard.edu/abs/1998PlSoi.205...25J).
+doi:10.1023/A:1004356007312 (https://doi.org/10.1023%2FA%3A1004356007312).
+S2CID 26813067 (https://api.semanticscholar.org/CorpusID:26813067). Retrieved
+15 January 2026.
+115. Calvaruso, Christophe; Turpault, Marie-Pierre; Frey-Klett, Pascal (1 February 2006). "Root- associated bacteria contribute to mineral weathering and to mineral nutrition in trees: a budgeting analysis" (https://www.researchgate.net/publication/7312017). Applied and
+Environmental Microbiology. 72 (2): 1258–66. Bibcode:2006ApEnM..72.1258C (https://ui.ad sabs.harvard.edu/abs/2006ApEnM..72.1258C). doi:10.1128/AEM.72.2.1258-1266.2006 (htt ps://doi.org/10.1128%2FAEM.72.2.1258-1266.2006). PMC 1392890 (https://www.ncbi.nlm.n ih.gov/pmc/articles/PMC1392890). PMID 16461674 (https://pubmed.ncbi.nlm.nih.gov/16461
+674). Retrieved 15 January 2026.
+116. Angers, Denis A.; Caron, Jean (August 1998). "Plant-induced changes in soil structure:
+processes and feedbacks" (https://www.researchgate.net/publication/226938344).
+Biogeochemistry. 42 (1): 55–72. Bibcode:1998Biogc..42...55A (https://ui.adsabs.harvard.ed u/abs/1998Biogc..42...55A). doi:10.1023/A:1005944025343 (https://doi.org/10.1023%2FA%
+3A1005944025343). S2CID 94249645 (https://api.semanticscholar.org/CorpusID:9424964
+5). Retrieved 15 January 2026.
+117. Dai, Shengpei; Zhang, Bo; Wang, Haijun; Wang, Yamin; Guo, Lingxia; Wang, Xingmei; Li,
+Dan (January 2011). "Vegetation cover change and the driving factors over northwest
+China" (https://www.researchgate.net/publication/228841309). Journal of Arid Land. 3 (1):
+25–33. Bibcode:2011JArL....3...25S (https://ui.adsabs.harvard.edu/abs/2011JArL....3...25S).
+doi:10.3724/SP.J.1227.2011.00025 (https://doi.org/10.3724%2FSP.J.1227.2011.00025)
+(inactive 12 July 2025). Retrieved 15 January 2026.
+118. Vogiatzakis, Ioannis; Griffiths, Geoffrey H.; Mannion, Antoinette M. (7 March 2003).
+"Environmental factors and vegetation composition, Lefka Ori Massif, Crete, S. Aegean" (htt ps://z-library.ec/book/36804776/96afac). Global Ecology and Biogeography. 12 (2): 131–46.
+Bibcode:2003GloEB..12..131V (https://ui.adsabs.harvard.edu/abs/2003GloEB..12..131V).
+doi:10.1046/j.1466-822X.2003.00021.x (https://doi.org/10.1046%2Fj.1466-822X.2003.0002
+1.x). Retrieved 15 January 2026.
+119. Liu, Shiliang; Hou, Xiaoyun; Yang, Min; Cheng, Fangyan; Coxixo, Ana; Wu, Xue; Zhang,
+Yueqiu (June 2018). "Factors driving the relationships between vegetation and soil properties in the Yellow River Delta, China" (https://z-library.ec/book/100005303/8a541f).
+Catena. 165: 279–85. doi:10.1016/j.catena.2018.02.004 (https://doi.org/10.1016%2Fj.caten a.2018.02.004). Retrieved 15 January 2026.
+120. Brêthes, Alain; Brun, Jean-Jacques; Jabiol, Bernard; Ponge, Jean-François; Toutain,
+François (1995). "Classification of forest humus forms: a French proposal" (https://doi.org/1
+0.1051%2Fforest%3A19950602). Annales des Sciences Forestières. 52 (6): 535–46.
+doi:10.1051/forest:19950602 (https://doi.org/10.1051%2Fforest%3A19950602).
+121. Amundson, Ronald; Jenny, Hans (January 1991). "The place of humans in the state factor theory of ecosystems and their soils" (https://z-library.ec/book/90067118/13b0ec). Soil
+Science. 151 (1): 99–109. Bibcode:1991SoilS.151...99A (https://ui.adsabs.harvard.edu/abs/
+1991SoilS.151...99A). doi:10.1097/00010694-199101000-00012 (https://doi.org/10.1097%2
+F00010694-199101000-00012). S2CID 95061311 (https://api.semanticscholar.org/CorpusI
+D:95061311). Retrieved 15 January 2026.
+122. Evans, Robert (June 1977). "Overgrazing and soil erosion on hill pastures with particular reference to the Peak District" (https://z-library.ec/book/41196548/ed40a1). Grass and
+Forage Science. 32 (2): 65–76. doi:10.1111/j.1365-2494.1977.tb01415.x (https://doi.org/10.
+1111%2Fj.1365-2494.1977.tb01415.x). Retrieved 15 January 2026.
+123. Ponge, Jean-François; Topoliantz, Stéphanie (2005). "Charcoal consumption and casting activity by Pontoscolex corethurus (Glossoscolecidae)" (https://www.academia.edu/4509259
+5). Applied Soil Ecology. 28 (3): 217–24. Bibcode:2005AppSE..28..217T (https://ui.adsabs.h arvard.edu/abs/2005AppSE..28..217T). doi:10.1016/j.apsoil.2004.08.003 (https://doi.org/10.
+1016%2Fj.apsoil.2004.08.003). Retrieved 15 January 2026.
+124. Anderson, Roger C. (1 October 2006). "Evolution and origin of the Central Grassland of
+North America: climate, fire, and mammalian grazers" (https://doi.org/10.3159%2F1095-567
+4%282006%29133%5B626%3AEAOOTC%5D2.0.CO%3B2). Journal of the Torrey
+Botanical Society. 133 (4): 626–47. doi:10.3159/1095-
+5674(2006)133[626:EAOOTC]2.0.CO;2 (https://doi.org/10.3159%2F1095-5674%282006%2
+9133%5B626%3AEAOOTC%5D2.0.CO%3B2). S2CID 13709954 (https://api.semanticschol ar.org/CorpusID:13709954).
+125. Burke, Ingrid C.; Yonker, Caroline M.; Parton, William J.; Cole, C. Vernon; Flach, Klaus;
+Schimel, David S. (1 May 1989). "Texture, climate, and cultivation effects on soil organic matter content in U.S. grassland soils" (https://www.researchgate.net/publication/23320985
+6). Soil Science Society of America Journal. 53 (3): 800–5. Bibcode:1989SSASJ..53..800B
+(https://ui.adsabs.harvard.edu/abs/1989SSASJ..53..800B).
+doi:10.2136/sssaj1989.03615995005300030029x (https://doi.org/10.2136%2Fsssaj1989.03
+615995005300030029x). Retrieved 15 January 2026.
+126. Lisetskii, Fedor N.; Pichura, Vitalii I. (19 May 2016). "Assessment and forecast of soil formation under irrigation in the steppe zone of Ukraine" (https://www.researchgate.net/publi cation/303355634). Russian Agricultural Sciences. 42 (2): 155–9.
+Bibcode:2016RuAgS..42..155L (https://ui.adsabs.harvard.edu/abs/2016RuAgS..42..155L).
+doi:10.3103/S1068367416020075 (https://doi.org/10.3103%2FS1068367416020075).
+S2CID 43356998 (https://api.semanticscholar.org/CorpusID:43356998). Retrieved
+15 January 2026.
+127. Schön, Martina (2011). "Impact of N fertilization on subsoil properties: soil organic matter and aggregate stability" (https://stud.epsilon.slu.se/3263/1/schon_m_110919.pdf) (PDF).
+Retrieved 15 January 2026.
+128. Odling-Smee, F. John; Laland, Kevin N.; Feldman, Marcus W. (2003). "Introduction" (https:// z-library.ec/book/110223859/38acb7). Niche construction: the neglected process in evolution. Princeton, New Jersey: Princeton University Press. pp. 7–8.
+doi:10.1515/9781400847266 (https://doi.org/10.1515%2F9781400847266). ISBN 978-0-
+691-04437-8. Retrieved 15 January 2026.
+129. Ponomarenko, Elena V.; Anderson, Darwin W. (August 2001). "Importance of charred organic matter in Black Chernozem soils of Saskatchewan" (https://doi.org/10.4141%2FS00
+-075). Canadian Journal of Soil Science. 81 (3): 285–97. Bibcode:2001CaJSS..81..285P (htt ps://ui.adsabs.harvard.edu/abs/2001CaJSS..81..285P). doi:10.4141/S00-075 (https://doi.or g/10.4141%2FS00-075).
+130. Holmer, Anna S.; Bösze, Ildikó; Mossbauer, Günther; Lindauer, Susanne; Völkel, Jörg
+(January 2025). "Neolithic formation of chernozem in south-eastern Germany?" (https://ww w.researchgate.net/publication/386044440). Catena. 248 108543.
+doi:10.1016/j.catena.2024.108543 (https://doi.org/10.1016%2Fj.catena.2024.108543).
+Retrieved 15 January 2026.
+131. Rodrigues, Aline Furtado; Novotny, Etelvino Henrique; Knicker, Heike; de Oliveira, Rogério
+Ribeiro (17 October 2018). "Humic acid composition and soil fertility of soils near an ancient charcoal kiln: are they similar to Terra Preta de Índios soils?" (https://www.researchgate.net/ publication/328345136). Journal of Soils and Sediments. 19 (3): 1374–81.
+doi:10.1007/s11368-018-2162-5 (https://doi.org/10.1007%2Fs11368-018-2162-5). Retrieved
+15 January 2026.
+132. Certini, Giacomo; Karunatillake, Suniti; Zhao, Yu-Yan Sara; Meslin, Pierre-Yves; Cousin,
+Agnès; Hood, Donald R.; Scalenghe, Riccardo (July 2020). "Disambiguating the soils of
+Mars" (https://z-library.ec/book/111971528/fd32f6). Planetary and Space Science. 186
+104922. doi:10.1016/j.pss.2020.104922 (https://doi.org/10.1016%2Fj.pss.2020.104922).
+Retrieved 15 January 2026.
+133. Targulian, Viktor O.; Mergelov, Nikita S.; Goryachkin, Sergey V. (7 March 2017). "Soil-like bodies on Mars" (https://z-library.ec/book/96056296/5afb90). Eurasian Soil Science. 50 (2):
+185–197. doi:10.1134/S1064229317020120 (https://doi.org/10.1134%2FS10642293170201
+20). Retrieved 15 January 2026.
+134. Bormann, Bernard T.; Spaltenstein, Henri; McClellan, Michael H.; Ugolini, Fiorenzo C.;
+Cromack, Kermit Jr; Nay, Stephan M. (October 1995). "Rapid soil development after windthrow disturbance in pristine forests" (https://www.fsl.orst.edu/ltep/Reprints_files/Borma nn%20JE1995%20windthrow%20chrono.pdf) (PDF). Journal of Ecology. 83 (5): 747–57.
+Bibcode:1995JEcol..83..747B (https://ui.adsabs.harvard.edu/abs/1995JEcol..83..747B).
+doi:10.2307/2261411 (https://doi.org/10.2307%2F2261411). JSTOR 2261411 (https://www.j stor.org/stable/2261411). S2CID 85818050 (https://api.semanticscholar.org/CorpusID:85818
+050). Retrieved 15 January 2026.
+135. Crocker, Robert L.; Major, Jack (July 1955). "Soil development in relation to vegetation and surface age at Glacier Bay, Alaska" (https://z-library.ec/book/78321353/bdc3d7). Journal of
+Ecology. 43 (2): 427–48. Bibcode:1955JEcol..43..427C (https://ui.adsabs.harvard.edu/abs/1
+955JEcol..43..427C). doi:10.2307/2257005 (https://doi.org/10.2307%2F2257005).
+JSTOR 2257005 (https://www.jstor.org/stable/2257005). Retrieved 15 January 2026.
+136. Crews, Timothy E.; Kitayama, Kanehiro; Fownes, James H.; Riley, Ralph H.; Herbert, Darrell
+A.; Mueller-Dombois, Dieter; Vitousek, Peter M. (July 1995). "Changes in soil phosphorus and ecosystem dynamics along a long term chronosequence in Hawaii" (https://www.resear chgate.net/publication/259671947). Ecology. 76 (5): 1407–24. doi:10.2307/1938144 (https:// doi.org/10.2307%2F1938144). JSTOR 1938144 (https://www.jstor.org/stable/1938144).
+Retrieved 15 January 2026.
+137. Huggett, Richard J. (June 1998). "Soil chronosequences, soil development, and soil evolution: a critical review" (https://www.academia.edu/2116704). Catena. 32 (3–4): 155–72.
+Bibcode:1998Caten..32..155H (https://ui.adsabs.harvard.edu/abs/1998Caten..32..155H).
+doi:10.1016/S0341-8162(98)00053-8 (https://doi.org/10.1016%2FS0341-8162%2898%2900
+053-8). Retrieved 15 January 2026.
+138. Simonson 1957, pp. 20–21.
+139. Donahue, Miller & Shickluna 1977, p. 26.
+140. Craft, Christopher; Broome, Stephen; Campbell, Carlton (June 2002). "Fifteen years of vegetation and soil development after brackish-water marsh creation" (https://z-library.ec/bo ok/36845957/f34319). Restoration Ecology. 10 (2): 248–58. Bibcode:2002ResEc..10..248C
+(https://ui.adsabs.harvard.edu/abs/2002ResEc..10..248C). doi:10.1046/j.1526-
+100X.2002.01020.x (https://doi.org/10.1046%2Fj.1526-100X.2002.01020.x).
+S2CID 55198244 (https://api.semanticscholar.org/CorpusID:55198244). Retrieved
+15 January 2026.
+141. Shipitalo, Martin J.; Le Bayon, Renée-Claire (2004). "Quantifying the effects of earthworms on soil aggregation and porosity" (https://www.researchgate.net/publication/41844767). In
+Edwards, Clive A. (ed.). Earthworm ecology (2nd ed.). Boca Raton, Florida: CRC Press.
+pp. 183–200. doi:10.1201/9781420039719 (https://doi.org/10.1201%2F9781420039719).
+ISBN 978-1-4200-3971-9. Retrieved 15 January 2026.
+142. He, Changling; Breuning-Madsen, Henrik; Awadzi, Theodore W. (2007). "Mineralogy of dust deposited during the Harmattan season in Ghana" (https://www.researchgate.net/publicatio n/258240253). Geografisk Tidsskrift. 107 (1): 9–15. Bibcode:2007GeTid.107....9H (https://ui.
+adsabs.harvard.edu/abs/2007GeTid.107....9H). doi:10.1080/00167223.2007.10801371 (http s://doi.org/10.1080%2F00167223.2007.10801371). S2CID 128479624 (https://api.semantic scholar.org/CorpusID:128479624). Retrieved 15 January 2026.
+143. Pimentel, David; Harvey, Celia; Resosudarmo, Pradnja; Sinclair, Kevin; Kurz, D.; McNair,
+M.; Crist, S.; Shpritz, Lisa; Fitton, L.; Saffouri, R.; Blair, R. (24 February 1995).
+"Environmental and economic cost of soil erosion and conservation benefits" (https://www.a cademia.edu/9512072). Science. 267 (5201): 1117–23. Bibcode:1995Sci...267.1117P (http s://ui.adsabs.harvard.edu/abs/1995Sci...267.1117P). doi:10.1126/science.267.5201.1117 (h ttps://doi.org/10.1126%2Fscience.267.5201.1117). PMID 17789193 (https://pubmed.ncbi.nl m.nih.gov/17789193). S2CID 11936877 (https://api.semanticscholar.org/CorpusID:1193687
+7). Archived (https://web.archive.org/web/20161213065558/http://www.rachel.org/files/docu ment/Environmental_and_Economic_Costs_of_Soil_Erosi.pdf) (PDF) from the original on 13
+December 2016. Retrieved 15 January 2026.
+144. Wakatsuki, Toshiyuki; Rasyidin, Azwar (March 1992). "Rates of weathering and soil formation" (http://kinki-ecotech.jp/download/WakatsukiRasydin1992Geoderma.pdf) (PDF).
+Geoderma. 52 (3–4): 251–63. Bibcode:1992Geode..52..251W (https://ui.adsabs.harvard.ed u/abs/1992Geode..52..251W). doi:10.1016/0016-7061(92)90040-E (https://doi.org/10.101
+6%2F0016-7061%2892%2990040-E). Retrieved 15 January 2026.
+145. Kemp, Rob A. (June 2001). "Pedogenic modification of loess: significance for palaeoclimatic reconstructions" (https://z-library.ec/book/46172916/4d8b52). Earth-Science Reviews. 54
+(1–3): 145–56. Bibcode:1992Geode..52..251W (https://ui.adsabs.harvard.edu/abs/1992Geo de..52..251W). doi:10.1016/0016-7061(92)90040-E (https://doi.org/10.1016%2F0016-706
+1%2892%2990040-E). Retrieved 15 January 2026.
+146. Dokuchaev, Vasily Vasilyevich (1967). Russian chernozem (1883). Selected works of V.V.
+Dokuchaev, translated in English by the Israel Program for Scientific Translations (https://fr.s cribd.com/doc/206859253/Russian-Chernozem). Jerusalem, Israel: Israel Program for
+Scientific Translations. Retrieved 15 January 2026.
+147. Jenny, Hans (1980). The soil resource: origin and behavior (https://archive.org/details/soilres ourceorig0000jenn/page/202/mode/2up). Ecological studies. Vol. 37. New York, New York:
+Springer-Verlag. p. 203. ISBN 978-1-4612-6114-8. Retrieved 15 January 2026.
+148. Johnson, Donald L.; Domier, Jane E. J.; Johnson, Diana N. (2005). "Reflections on the nature of soil and its biomantle" (https://z-library.ec/book/41541153/b1eae0). Annals of the
+Association of American Geographers. 95: 11–31. doi:10.1111/j.1467-8306.2005.00448.x (h ttps://doi.org/10.1111%2Fj.1467-8306.2005.00448.x). S2CID 73651791 (https://api.semanti cscholar.org/CorpusID:73651791). Retrieved 15 January 2026.
+149. Hogan, C. Michael (2008). "Makgadikgadi: ancient Village or settlement in Botswana" (http s://www.megalithic.co.uk/article.php?sid=22373). The Megalithic Portal. Retrieved
+15 January 2026.
+Stanley W. Buol, F.D. Hole and R.W. McCracken. 1997. Soil Genesis and Classification, 4th ed. Iowa State Univ. Press, Ames ISBN 0-8138-2873-2
+C. Michael Hogan. 2008. Makgadikgadi, The Megalithic Portal, ed. A. Burnham [1] (http://ww w.megalithic.co.uk/article.php?sid=22373&mode=&order=0)
+Francis D. Hole and J.B. Campbell. 1985. Soil landscape analysis. Totowa Rowman &
+Allanheld, 214 p. ISBN 0-86598-140-X
+Hans Jenny. 1994. Factors of Soil Formation. (https://web.archive.org/web/2013022505083
+8/http://soilandhealth.org/01aglibrary/010159.Jenny.pdf) A System of Quantitative Pedology.
+New York: Dover Press. (Reprint, with foreword by R. Amundson, of the 1941 McGraw-Hill publication). pdf file format.
+Ben van der Pluijm et al. 2005. Soils, Weathering, and Nutrients (http://www.globalchange.u mich.edu/globalchange1/current/lectures/soils/soils.html) from the Global Change 1
+Lectures. University of Michigan. Url last accessed on 2007-03-31
+References
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Soil_formation&oldid=1333083673"

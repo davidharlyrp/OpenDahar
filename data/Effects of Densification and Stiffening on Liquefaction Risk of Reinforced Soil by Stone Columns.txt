@@ -2,123 +2,61 @@ Technical Note
 Effects of Densification and Stiffening on Liquefaction
 Risk of Reinforced Soil by Stone Columns
 Zeineb Ben Salem, Ph.D.1; Wissem Frikha2; and Mounir Bouassida3
-Abstract: The installation of stone columns is widely adopted to prevent liquefaction. The main improvement mechanisms of stone columns
-as a liquefaction countermeasure are drainage, stiffening, and densification. This paper investigates the effectiveness of stone columns as a
-liquefaction remediation. Twenty-four case studies, in which SPT and CPT tests are performed before and after stone column reinforcement,
-are used as a basis of the research. Densification and stiffening mechanisms are investigated and their individual and combined effects
-are analyzed. Comparative results indicate that considering the densification and stiffening effects considerably improve the assessment
-of liquefaction potential of reinforced soil by stone columns. DOI: 10.1061/(ASCE)GT.1943-5606.0001773. © 2017 American Society
-of Civil Engineers.
+Abstract: The installation of stone columns is widely adopted to prevent liquefaction. The main improvement mechanisms of stone columns as a liquefaction countermeasure are drainage, stiffening, and densification. This paper investigates the effectiveness of stone columns as a liquefaction remediation. Twenty-four case studies, in which SPT and CPT tests are performed before and after stone column reinforcement, are used as a basis of the research. Densification and stiffening mechanisms are investigated and their individual and combined effects are analyzed. Comparative results indicate that considering the densification and stiffening effects considerably improve the assessment of Civil Engineers.
 Author keywords: Liquefaction; Stone columns; Densification; Stiffening.
 Introduction
-Liquefaction has been responsible for tremendous amounts of dam-
-age in historical earthquakes around the world. The liquefaction
-occurs when excess pore pressure increases to the point where
-the effective stress and shear resistance of the soil become very
-low, leading to severe loss of strength and stiffness (Marcuson
-1978). Several approaches have been developed over the years
-to evaluate the liquefaction potential. Seed and Idriss (1971) ini-
-tially proposed a procedure known as the simplified procedure.
-This procedure compares the cyclic shear stress ratio (CSR) caused
-by the design earthquake with soil’s liquefaction resistance ex-
-pressed in terms of cyclic resistance ratio (CRR). This procedure
-has been modified and improved, e.g., by Cetin et al. (2004) and
-Idriss and Boulanger (2008) based on several field test results in-
-cluding the standard penetration test (SPT) and the cone penetration
-test (CPT). To reduce the risk of liquefaction potential and its as-
-sociated damages, various ground improvement methods are used,
-including densification, reinforcement, grouting/mixing and drain-
-age. Reinforcement with granular columns is the most widely
-adopted method to mitigate liquefaction (Mitchell and Wentz
-1991). Extensive research has been conducted to assess the effec-
-tiveness of stone columns in mitigating liquefaction (Boulanger
-et al. 1998; Adalier et al. 2003; Rollins et al. 2009). This reinforce-
-ment can mitigate the risk of liquefaction through several mecha-
-nisms by (1) providing drainage which dissipates the induced
-excess pore-water pressure almost as fast as it is generated;
-(2) introducing stiff elements which potentially can carry higher
-stress levels, causing a reduction in the stress levels in the surround-
-ing soil; and (3) increasing the soil density during installation pro-
-cess of stone columns (Ben Salem et al. 2016).
-This paper assesses the effectiveness of stone columns as a
-liquefaction countermeasure, focusing on densification and stiffen-
-ing mechanisms. The analysis is performed using a database col-
-lected from 24 cases studies in which SPTs and CPTs were
-undertaken before and after stone column installation.
+Liquefaction has been responsible for tremendous amounts of dam- age in historical earthquakes around the world. The liquefaction occurs when excess pore pressure increases to the point where the effective stress and shear resistance of the soil become very low, leading to severe loss of strength and stiffness (Marcuson
+1978). Several approaches have been developed over the years to evaluate the liquefaction potential. Seed and Idriss (1971) ini- tially proposed a procedure known as the simplified procedure.
+This procedure compares the cyclic shear stress ratio (CSR) caused by the design earthquake with soil’s liquefaction resistance ex- pressed in terms of cyclic resistance ratio (CRR). This procedure has been modified and improved, e.g., by Cetin et al. (2004) and
+Idriss and Boulanger (2008) based on several field test results in- cluding the standard penetration test (SPT) and the cone penetration test (CPT). To reduce the risk of liquefaction potential and its as- sociated damages, various ground improvement methods are used, including densification, reinforcement, grouting/mixing and drain- age. Reinforcement with granular columns is the most widely adopted method to mitigate liquefaction (Mitchell and Wentz
+1991). Extensive research has been conducted to assess the effec- tiveness of stone columns in mitigating liquefaction (Boulanger et al. 1998; Adalier et al. 2003; Rollins et al. 2009). This reinforce- ment can mitigate the risk of liquefaction through several mecha- nisms by (1) providing drainage which dissipates the induced excess pore-water pressure almost as fast as it is generated;
+(2) introducing stiff elements which potentially can carry higher stress levels, causing a reduction in the stress levels in the surround- ing soil; and (3) increasing the soil density during installation pro- cess of stone columns (Ben Salem et al. 2016).
+This paper assesses the effectiveness of stone columns as a liquefaction countermeasure, focusing on densification and stiffen- ing mechanisms. The analysis is performed using a database col- lected from 24 cases studies in which SPTs and CPTs were undertaken before and after stone column installation.
 Liquefaction Evaluation
-This paper focuses on the procedure of Idriss and Boulanger (2008)
-for evaluating liquefaction in terms of a safety factor defined as
-FS ¼ CRR
-CSR
-ð1Þ
-It is argued that a FS less than 1.0 means that liquefaction is
-expected to be triggered.
+This paper focuses on the procedure of Idriss and Boulanger (2008) for evaluating liquefaction in terms of a safety factor defined as
+FS _ CRR
+CSR ð1Þ
+It is argued that a FS less than 1.0 means that liquefaction is expected to be triggered.
 The CSR was defined using the procedure of Seed and Idriss
-(1971) and was calculated as a function of the peak horizontal ac-
-celeration at ground surface generated by the earthquake, amax, the
-total and the effective vertical overburden stresses, and the shear
-stress reduction factor. The CRR is defined as a function of the
-magnitude scaling factor, the overburden correction factor, and
-the corrected SPT and CPT penetration resistances, denoted as
-Ncorrected and qcorrected, respectively. The penetration resistance val-
-ues were corrected for field procedures, overburden, and fines con-
-tent (Idriss and Boulanger 2008).
+(1971) and was calculated as a function of the peak horizontal ac- celeration at ground surface generated by the earthquake, amax, the total and the effective vertical overburden stresses, and the shear stress reduction factor. The CRR is defined as a function of the magnitude scaling factor, the overburden correction factor, and the corrected SPT and CPT penetration resistances, denoted as
+Ncorrected and qcorrected, respectively. The penetration resistance val- ues were corrected for field procedures, overburden, and fines con- tent (Idriss and Boulanger 2008).
 Case Studies of Ground Improvement Using Stone
 Columns
-In order to study the liquefaction potential of reinforced soil with
-stone columns, 24 case studies using project data located in seven
-countries were considered. Each project adopted different design
-parameters of stone columns, e.g., triangular or square grid pattern,
-spacing, diameter, area replacement ratio, and treatment depth
-(Table 1). Stone columns were installed by vibro replacement,
-which involves the use of hollow depth vibrators that are vibrated
-1Assistant Professor, Université de Tunis El Manar—Ecole Nationale
-d’Ingénieurs de Tunis, LR14ES03-Ingénierie Géotechnique, BP 37 Le
+In order to study the liquefaction potential of reinforced soil with stone columns, 24 case studies using project data located in seven countries were considered. Each project adopted different design parameters of stone columns, e.g., triangular or square grid pattern, spacing, diameter, area replacement ratio, and treatment depth
+(Table 1). Stone columns were installed by vibro replacement, which involves the use of hollow depth vibrators that are vibrated
+1Assistant Professor, Université de Tunis El Manar—Ecole Nationale d’Ingénieurs de Tunis, LR14ES03-Ingénierie Géotechnique, BP 37 Le
 Belvédère, 1002 Tunis, Tunisia. E-mail: Zeineb.bensalem@gmail.com
-2Associate Professor, Université de Tunis El Manar—Ecole Nationale
-d’Ingénieurs de Tunis, LR14ES03-Ingénierie Géotechnique, BP 37 Le
+2Associate Professor, Université de Tunis El Manar—Ecole Nationale d’Ingénieurs de Tunis, LR14ES03-Ingénierie Géotechnique, BP 37 Le
 Belvédère, 1002 Tunis, Tunisia (corresponding author). E-mail: wissem.
 frikha@enit.utm.tn
-3Professor, Université de Tunis El Manar—Ecole Nationale d’Ingén-
-ieurs de Tunis, LR14ES03-Ingénierie Géotechnique, BP 37 Le Belvédère,
+3Professor, Université de Tunis El Manar—Ecole Nationale d’Ingén- ieurs de Tunis, LR14ES03-Ingénierie Géotechnique, BP 37 Le Belvédère,
 1002 Tunis, Tunisia. E-mail: Mounir.bouassida@fulbrightmail.org
 Note. This manuscript was submitted on June 24, 2016; approved on
-April 26, 2017; published online on July 27, 2017. Discussion period open
-until December 27, 2017; separate discussions must be submitted for in-
-dividual papers. This technical note is part of the Journal of Geotechnical
-and Geoenvironmental Engineering, © ASCE, ISSN 1090-0241.
-© ASCE
+April 26, 2017; published online on July 27, 2017. Discussion period open until December 27, 2017; separate discussions must be submitted for in- dividual papers. This technical note is part of the Journal of Geotechnical
 06017014-1
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2017, 143(10): 06017014 
 Downloaded from ascelibrary.org by Newcastle University on 07/27/17. Copyright ASCE. For personal use only; all rights reserved.
 Table 1. Case Histories of Stone Columns Reinforcement
 Project
 Soil site
-Groundwater
-table depth
+Groundwater table depth
 (m)
-Treated
-depth
+Treated depth
 (m)
 Grid
 Spacing
 (m)
 Diameter
-(m)
-η
+(m) η
 (%)
 Field test
 Source
 Christchurch, New Zealand
-Loose to medium dense
-sandy and silty-sand
+Loose to medium dense sandy and silty-sand
 1.5–1.8
 10.5
 Triangular
 1.65
 0.6
-12
 CPT
 Mahoney and Kupec (2014)
 Hinckley Drive, Utah, U.S.
@@ -128,7 +66,6 @@ Interbedded silts and sands
 Triangular
 2.44
 0.91
-14
 CPT
 Rollins et al. (2012)
 Twin bridges over Weaver, U.S.
@@ -148,21 +85,17 @@ Silty sand
 Triangular
 —
 1.125
-23
 SPT
 Thiriot (2010)
 0.9
-31
 Debottlenecking project,
 New Delhi, India
-Silty fine sand–silty
-clay deposits
+Silty fine sand–silty clay deposits
 2.8
 7–8
 Triangular
 1.8–2.5
 0.8–0.85
-25
 SPT
 Basarkar et al. (2009)
 Northwest detention
@@ -182,9 +115,7 @@ Silty sand and sandy silt
 —
 7.5
 Triangular
-2
 1.1
-27
 SPT
 Rollins et al. (2006)
 Marina Del Rey, California
@@ -194,29 +125,24 @@ Inter-bedded silty soil
 —
 2.4
 0.9
-11
 CPT
 Shenthan (2005)
 Webster Street tube,
 California, U.S.
 Loose fine sand
 ∼0
-15
 Triangular
 2.4
 0.57
 ∼16
 SPT
 Lee et al. (2005)
-Earth embankment project,
-western Washington
+Earth embankment project, western Washington
 Silty sand
 ∼2.25
 5.1–5.7
 Triangular
 2.4
-1
-17
 CPT
 Chen and Bailey (2004)
 Full-scale lateral load tests,
@@ -227,23 +153,18 @@ Loose sand
 Square
 2.4
 0.9
-11
 CPT
 Weaver et al. (2004)
 Steel oil storage tanks, Georgia.
 Silty sand
 1.5
-15
 Square
 2.2–2.5
-1
 12.5–16.5
 SPT
 Duzceer (2003)
 Office building, U.S.
 —
-3
-12
 —
 2.1
 2.7
@@ -264,7 +185,6 @@ Treasure Island liquefaction test,
 San Francisco, U.S.
 Loose sand with silt
 1.5
-6
 Square
 2.4
 0.9
@@ -274,28 +194,22 @@ Ashford et al. (2000)
 Pavement construction, Germany
 —
 —
-8
 Triangular
-2
 0.7
 11.11
 CPT
 Sondermann (1997)
-Borcelik Gemlik cold steel
-rolling mill, Turkey
+Borcelik Gemlik cold steel rolling mill, Turkey
 Loose medium dense sand
 ∼0
-12
 Triangular
 1.5
 0.5
-10
 CPT
 Durgunoglu et al. (1995)
 Oxnard, California
 Silty and sandy alluvium
 2.74
-6
 Square
 2.74
 0.9
@@ -318,7 +232,6 @@ Very loose silty sand
 0.8–1
 6.5
 Triangular
-2
 1.2
 33.3
 CPT
@@ -365,207 +278,76 @@ Richmond, British Columbia
 —
 SPT and CPT
 Unpublished data
-© ASCE
 06017014-2
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2017, 143(10): 06017014 
 Downloaded from ascelibrary.org by Newcastle University on 07/27/17. Copyright ASCE. For personal use only; all rights reserved.
-by air or water to form a cylindrical cavity in the ground. Stone
-column reinforcement is used primarily for improving bearing
-capacity, reducing settlement, and liquefaction mitigation. To es-
-tablish the effectiveness of stone column reinforcement, in situ
-tests, including 31 SPTs and 33 CPTs, were performed before
-and after stone column reinforcement.
+by air or water to form a cylindrical cavity in the ground. Stone column reinforcement is used primarily for improving bearing capacity, reducing settlement, and liquefaction mitigation. To es- tablish the effectiveness of stone column reinforcement, in situ tests, including 31 SPTs and 33 CPTs, were performed before and after stone column reinforcement.
 Analysis of Liquefaction Potential of Reinforced Soil
-To analyze the liquefaction potential of reinforced soil, the densi-
-fication improvement was evaluated using SPTs and CPTs
-performed before and after stone column installation. The stiffening
-effects were analyzed through several approaches from the
-literature.
+To analyze the liquefaction potential of reinforced soil, the densi- fication improvement was evaluated using SPTs and CPTs performed before and after stone column installation. The stiffening effects were analyzed through several approaches from the literature.
 Densification Effect
-The SPT and CPT results were corrected. Figs. 1(a and b) report
-comparative results of initial and final penetration resistance
-Ncorrected and qcorrected values, respectively, recorded before and after
-stone columns installation. Penetration resistance greatly increased
-after stone column installation. Significant ground densification
-was achieved in clean to slightly silty sands, whereas densification
-of the silt soils was very limited. In sensitive clay layers, penetra-
-tion resistance decreased. The increase in the penetration resistan-
-ces Ncorrected and qcorrected ranged from 31.13 to 69.29% and from
-57.10 to 318.28%, respectively. The amount of improvement can be
-attributed to the installation of the stone columns.
-Factors which influence the effectiveness of the soil densifica-
-tion after stone column installation include the soil type, predensi-
-fication relative density, vibratory type, area replacement ratio, and
-spacing between stone columns.
+The SPT and CPT results were corrected. Figs. 1(a and b) report comparative results of initial and final penetration resistance
+Ncorrected and qcorrected values, respectively, recorded before and after stone columns installation. Penetration resistance greatly increased after stone column installation. Significant ground densification was achieved in clean to slightly silty sands, whereas densification of the silt soils was very limited. In sensitive clay layers, penetra- tion resistance decreased. The increase in the penetration resistan- ces Ncorrected and qcorrected ranged from 31.13 to 69.29% and from
+57.10 to 318.28%, respectively. The amount of improvement can be attributed to the installation of the stone columns.
+Factors which influence the effectiveness of the soil densifica- tion after stone column installation include the soil type, predensi- fication relative density, vibratory type, area replacement ratio, and spacing between stone columns.
 Stiffening Effect
-It has been suggested that stone columns, which have high shear
-modulus relative to the surrounding soils, potentially can carry
-higher shear stress levels. Thus stone columns provide shear
-reinforcement and decrease the CSR to which the treated soils
-would be subjected during an earthquake (Rayamajhi et al.
-2014). This stiffening mechanism is considered to be more effective
-for silt and clayey layers in which densification and drainage are
-difficult to achieve. This is based on the assumption that stiff col-
-umns deform compatibly in shear with the surrounding soil, as re-
-ported by Baez and Martin (1993) and Priebe (1998). However,
-other studies have concluded that stone columns may deform in
-both flexure and shear such that they are less effective in reducing
-shear stresses than the assumption of shear strain compatibility im-
-plies (Goughnour and Pestana 1998; Green et al. 2008; Olgun and
-Martin 2008; Rayamajhi et al. 2014). Assuming shear strain com-
-patibility, the benefits of reducing shear stress in reinforced soil are
-overestimated (Rayamajhi et al. 2014). In order to quantify the level
-of shear stress reduction in reinforced soil, several expressions have
-been developed to estimate the shear stress reduction factor KG,
-defined as
-KG ¼ CSRR
-CSRI
-ð2Þ
-where CSRI and CSRR = CSR of initial and reinforced soil, respec-
-tively. The CSRI was calculated using the procedure of Seed and
+It has been suggested that stone columns, which have high shear modulus relative to the surrounding soils, potentially can carry higher shear stress levels. Thus stone columns provide shear reinforcement and decrease the CSR to which the treated soils would be subjected during an earthquake (Rayamajhi et al.
+2014). This stiffening mechanism is considered to be more effective for silt and clayey layers in which densification and drainage are difficult to achieve. This is based on the assumption that stiff col- umns deform compatibly in shear with the surrounding soil, as re- ported by Baez and Martin (1993) and Priebe (1998). However, other studies have concluded that stone columns may deform in both flexure and shear such that they are less effective in reducing shear stresses than the assumption of shear strain compatibility im- plies (Goughnour and Pestana 1998; Green et al. 2008; Olgun and
+Martin 2008; Rayamajhi et al. 2014). Assuming shear strain com- patibility, the benefits of reducing shear stress in reinforced soil are overestimated (Rayamajhi et al. 2014). In order to quantify the level of shear stress reduction in reinforced soil, several expressions have been developed to estimate the shear stress reduction factor KG, defined as
+KG _ CSRR
+CSRI ð2Þ where CSRI and CSRR = CSR of initial and reinforced soil, respec- tively. The CSRI was calculated using the procedure of Seed and
 Idriss (1971).
 The shear stress reduction factor KG was calculated according to
 Priebe (1998), Baez and Martin (1993), Goughnour and Pestana
-(1998), and Rayamajhi et al. (2014), and mainly depends on
-the area replacement ratio η and the shear modulus ratio Gr.
-(i.e., Gr is defined as the ratio of shear modulus of the stone column
-and that of the initial soil). It has been concluded that KG is
-inversely proportional to η and Gr. As the area replacement ratio
-increases, spacing between stone columns decreases. As such,
-stone columns provide more shear strength and decrease the shear
-stress in the reinforced soil. Moreover, after stone column
-reinforcement the shear modulus of reinforced soil is improved,
-and consequently the shear stress in the reinforced soil is decreased.
-For a given value of CSR of initial soil, CSRI, the CSR of re-
-inforced soil, CSRR, was calculated by different approaches, as
-plotted in Fig. 2, adopting η ¼ 20% and Gr ¼ 5. The obtained
+(1998), and Rayamajhi et al. (2014), and mainly depends on the area replacement ratio η and the shear modulus ratio Gr.
+(i.e., Gr is defined as the ratio of shear modulus of the stone column and that of the initial soil). It has been concluded that KG is inversely proportional to η and Gr. As the area replacement ratio increases, spacing between stone columns decreases. As such, stone columns provide more shear strength and decrease the shear stress in the reinforced soil. Moreover, after stone column reinforcement the shear modulus of reinforced soil is improved, and consequently the shear stress in the reinforced soil is decreased.
+For a given value of CSR of initial soil, CSRI, the CSR of re- inforced soil, CSRR, was calculated by different approaches, as plotted in Fig. 2, adopting η _ 20% and Gr _ 5. The obtained
 KG was 0.55, 0.58, 0.86, and 0.88, according to Baez and Martin
 (1993), Priebe (1998), Goughnour and Pestana (1998), and
 Rayamajhi et al. (2014) respectively. The greatest values of the
 CSRR were predicted using the approach of Rayamajhi et al.
-(2014), which accounts for the effects of flexure and shear
-strain incompatibility between the columns and the initial soil.
-The lowest values were obtained using the approach of Baez
-and Martin (1993), based on the assumption of shear strain
-compatibility.
+(2014), which accounts for the effects of flexure and shear strain incompatibility between the columns and the initial soil.
+The lowest values were obtained using the approach of Baez and Martin (1993), based on the assumption of shear strain compatibility.
 Safety Factor
-In order to study the effectiveness of stone columns to mitigate
-liquefaction, the design parameters chosen for this analysis
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
+In order to study the effectiveness of stone columns to mitigate liquefaction, the design parameters chosen for this analysis
 Final Ncorrected
 Initial Ncorrected
-          
-          Type of soil
-  -Clean sand
-          -Loose to dense sand
-          -Slightly silty sand
-          -Slightly clayey sand 
- -Silt 
-         -Clayey silt
-         -Sandy silt
-         -Soft Clay
-0
-200
-400
-600
-800
-1000
-1200
-0
-200
-400
-600
-800
-1000
-1200
-Type of Soil
- -Clean sand
-          -Loose to dense sand
-          -Slightly silty sand
-          -Slightly clayey sand
+
+Type of soil
+-Clean sand
+-Loose to dense sand
+-Slightly silty sand
+-Slightly clayey sand
 -Silt
-         -Clayey silt
-         -Sandy silt
-         -Soft Clay
+-Clayey silt
+-Sandy silt
+-Soft Clay
+Type of Soil
+-Clean sand
+-Loose to dense sand
+-Slightly silty sand
+-Slightly clayey sand
+-Silt
+-Clayey silt
+-Sandy silt
+-Soft Clay
 Final q corrected
 Initial q corrected
 (a)
 (b)
 Fig. 1. Variation of initial and final values of (a) Ncorrected; (b) qcorrected
-© ASCE
 06017014-3
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2017, 143(10): 06017014 
 Downloaded from ascelibrary.org by Newcastle University on 07/27/17. Copyright ASCE. For personal use only; all rights reserved.
-included an earthquake magnitude M of 7 and amax of 0.2 g. The
-majority of site projects are characterized by high seismic activities
-with magnitude ranging from 6.2 to 7.5 and peak ground acceler-
-ation ranging from 0.1 to 0.44 g.
-The analysis primarily was concerned with estimating the
-liquefaction potential of unreinforced soil, and secondarily with ex-
-amining densification and stiffness effects in the assessment of
-liquefaction potential of reinforced soil. The safety factor FS of
-unreinforced soil is calculated via Eq. (1) in which the CRR
-was evaluated from SPT and CPT data recorded prior to stone col-
-umn installation and the CSR was estimated using the procedure of
-Seed and Idriss (1971). Fig. 3 plots the variation of the FS of un-
-reinforced soil versus the corresponding initial penetration resistan-
-ces Ncorrected and qcorrected. Approximately 50 and 36.48% of FS
-values obtained prior to stone column installation were smaller than
-1 when the CRR calculation was based on SPT and CPT data,
-respectively.
-The analysis of liquefaction susceptibility of reinforced soil
-focused on soils which were identified as being potentially lique-
-fiable prior to stone column installation. Furthermore, different
-cases were developed to investigate the benefits of densification
-and stiffness mechanisms in reducing liquefaction.
-Considering the densification effect, the safety factor of rein-
-forced soil, FSDens, was calculated with the CRR values based
-on SPT and CPT data measured after stone column installation
+included an earthquake magnitude M of 7 and amax of 0.2 g. The majority of site projects are characterized by high seismic activities with magnitude ranging from 6.2 to 7.5 and peak ground acceler- ation ranging from 0.1 to 0.44 g.
+The analysis primarily was concerned with estimating the liquefaction potential of unreinforced soil, and secondarily with ex- amining densification and stiffness effects in the assessment of liquefaction potential of reinforced soil. The safety factor FS of unreinforced soil is calculated via Eq. (1) in which the CRR was evaluated from SPT and CPT data recorded prior to stone col- umn installation and the CSR was estimated using the procedure of
+Seed and Idriss (1971). Fig. 3 plots the variation of the FS of un- reinforced soil versus the corresponding initial penetration resistan- ces Ncorrected and qcorrected. Approximately 50 and 36.48% of FS values obtained prior to stone column installation were smaller than
+1 when the CRR calculation was based on SPT and CPT data, respectively.
+The analysis of liquefaction susceptibility of reinforced soil focused on soils which were identified as being potentially lique- fiable prior to stone column installation. Furthermore, different cases were developed to investigate the benefits of densification and stiffness mechanisms in reducing liquefaction.
+Considering the densification effect, the safety factor of rein- forced soil, FSDens, was calculated with the CRR values based on SPT and CPT data measured after stone column installation
 (i.e., final Ncorrected and qcorrected values). Fig. 4 plots calculated
-FSDens as a function of the average rate of densification, which
-is defined as the variation rate of penetration resistance Ncorrected
-and qcorrected after stone column installation compared with initial
-values. The FSDens increased with increasing penetration resistance.
-Approximately 83.87 and 32.22% of FSDens values were greater
-than 1 when CRR was calculated based on SPT and CPT data, re-
-spectively. These results confirm the effectiveness of densification
-mechanism in reducing the potential for liquefaction of rein-
-forced soil.
-In order to analyze the stiffening effect, the safety factor of
-reinforced soil, FSStiff, was calculated using the reduced CSRR,
-and the CRR was calculated based on CPT and SPT data measured
-before stone column installation. The reduced CSRR was calculated
-using KG and the assumption of shear strain compatibility. As an
-example, KG was calculated using the approach proposed by
-Baez and Martin (1993), which gave lowest values of KG and
-consequently led to the lowest value of CSRR. Thus the maximum
-benefit of stiffening [KG ¼ KGðGr; ηÞ<1] was compared with the
-lowest benefit, KG ¼ 1 (CSRI ¼ CSRR). Fig. 5 plots calculated
-FSStiff as a function of corresponding KG. The safety factor
-after stone column reinforcement increased as KG decreased.
+FSDens as a function of the average rate of densification, which is defined as the variation rate of penetration resistance Ncorrected and qcorrected after stone column installation compared with initial values. The FSDens increased with increasing penetration resistance.
+Approximately 83.87 and 32.22% of FSDens values were greater than 1 when CRR was calculated based on SPT and CPT data, re- spectively. These results confirm the effectiveness of densification mechanism in reducing the potential for liquefaction of rein- forced soil.
+In order to analyze the stiffening effect, the safety factor of reinforced soil, FSStiff, was calculated using the reduced CSRR, and the CRR was calculated based on CPT and SPT data measured before stone column installation. The reduced CSRR was calculated using KG and the assumption of shear strain compatibility. As an example, KG was calculated using the approach proposed by
+Baez and Martin (1993), which gave lowest values of KG and consequently led to the lowest value of CSRR. Thus the maximum benefit of stiffening [KG _ KGðGr; ηÞ<1] was compared with the lowest benefit, KG _ 1 (CSRI _ CSRR). Fig. 5 plots calculated
+FSStiff as a function of corresponding KG. The safety factor after stone column reinforcement increased as KG decreased.
 0.6
 0.8
 0.7
@@ -597,42 +379,19 @@ Baez and Martin (1993)
 0.7
 0.8
 Fig. 2. Reduced CSR after reinforcement by stone columns
-0
-100
-200
-300
-1
-10
-100
 Initial N corrected
 CPT data
-40
-0
-20
 Initial q corrected
-M=7
-amax=0.2g
+M=7 amax=0.2g
 SPT data
 FS
-Fig. 3. Variation of the safety factor FS versus initial Ncorrected and
-qcorrected before reinforcement by stone columns
+Fig. 3. Variation of the safety factor FS versus initial Ncorrected and qcorrected before reinforcement by stone columns
 -50
-0
-50
-100
-150
-200
-250
-300
-1
-10
-100
- CPT data
+CPT data
 FS Dens.
 Densification Improvement
-M=7
-amax=0.2g
- SPT data
+M=7 amax=0.2g
+SPT data
 Average rate of Densification (%)
 Fig. 4. Variation of FSDens versus the average rate of densification
 2.5
@@ -649,78 +408,32 @@ Fig. 4. Variation of FSDens versus the average rate of densification
 0.5
 SPT data
 CPT data
-M=7
-amax=0.2g
+M=7 amax=0.2g
 Stiffening Improvement
 FSStiff.
 KG
 0.3
 Fig. 5. Variation of FSStiff versus KG
-© ASCE
 06017014-4
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2017, 143(10): 06017014 
 Downloaded from ascelibrary.org by Newcastle University on 07/27/17. Copyright ASCE. For personal use only; all rights reserved.
 Less improvement was achieved when KG was greater than 0.7.
-According to Fig. 5, approximately 83.87 and 22.44% of FSStiff
-values were greater than 1 when the CSRR calculation was based
-on SPT and CPT data, respectively. Results confirm the ability of
-stiffening mechanism to reduce liquefaction susceptibility.
-Considering the combination of densification and stiffness
-effects, the safety factor of reinforced soil, FSDensþStiff, was calcu-
-lated by considering the combination of densification and stiffness
-effects. In this case, the CRR was calculated based on final
-penetration resistance measured after stone column installation,
-and reduced CSRR was considered. Fig. 6 plots the obtained
+According to Fig. 5, approximately 83.87 and 22.44% of FSStiff values were greater than 1 when the CSRR calculation was based on SPT and CPT data, respectively. Results confirm the ability of stiffening mechanism to reduce liquefaction susceptibility.
+Considering the combination of densification and stiffness effects, the safety factor of reinforced soil, FSDensþStiff, was calcu- lated by considering the combination of densification and stiffness effects. In this case, the CRR was calculated based on final penetration resistance measured after stone column installation, and reduced CSRR was considered. Fig. 6 plots the obtained
 FSDensþStiff as a function of the average rate of densification and
-KG. The safety factor FSDensþStiff increased with increasing pen-
-etration resistance and decreasing shear stress level. It should be
-noted that the safety factor FSDensþStiff is much greater than
-FSDens and FSStiff. In fact, approximately 93.54 and 42.22% of
-safety factor FSDensþStiff values were greater than 1 when SPT
-and CPT data were used, respectively. The improvement in lique-
-faction resistance was achieved as a result of a combination of den-
-sification and stiffening.
+KG. The safety factor FSDensþStiff increased with increasing pen- etration resistance and decreasing shear stress level. It should be noted that the safety factor FSDensþStiff is much greater than
+FSDens and FSStiff. In fact, approximately 93.54 and 42.22% of safety factor FSDensþStiff values were greater than 1 when SPT and CPT data were used, respectively. The improvement in lique- faction resistance was achieved as a result of a combination of den- sification and stiffening.
 Conclusions
-This paper assessed the effectiveness of stone columns in reducing
-liquefaction potential based on collected data derived from 24 case
-histories. The assessment focused on the mechanism of densifica-
-tion and stiffening. Their individual and combined effects were in-
-vestigated. The liquefaction potential was evaluated in terms of a
-safety factor. The evaluation of densification improvement was
-made using field tests, and the stiffening effects were analyzed
-through several approaches. Based on this liquefaction analysis,
-the following conclusions are drawn:
+This paper assessed the effectiveness of stone columns in reducing liquefaction potential based on collected data derived from 24 case histories. The assessment focused on the mechanism of densifica- tion and stiffening. Their individual and combined effects were in- vestigated. The liquefaction potential was evaluated in terms of a safety factor. The evaluation of densification improvement was made using field tests, and the stiffening effects were analyzed through several approaches. Based on this liquefaction analysis, the following conclusions are drawn:
 •
-The installation of stone columns significantly increased soil
-density. Significant ground densification was achieved in clean
-to slightly silt sands, whereas densification of silt and clayey
-soils was very limited.
+The installation of stone columns significantly increased soil density. Significant ground densification was achieved in clean to slightly silt sands, whereas densification of silt and clayey soils was very limited.
 •
-Varied assessments of the stiffening improvement of stone
-columns were developed. Comparative results showed that
-the assumption of shear strain compatibility gave the greatest
-shear stress reduction benefits. Approaches which account for
-the effects of bending and shear strain incompatibility between
-the columns and the initial soil provided less stiffening improve-
-ment. Further study investigating the factors affecting the
-amount of shear stress reduction may be beneficial. For future
-research, extensive experimental and numerical studies are
-required to assess the appropriate approach for evaluating the
-stiffening effect.
+Varied assessments of the stiffening improvement of stone columns were developed. Comparative results showed that the assumption of shear strain compatibility gave the greatest shear stress reduction benefits. Approaches which account for the effects of bending and shear strain incompatibility between the columns and the initial soil provided less stiffening improve- ment. Further study investigating the factors affecting the amount of shear stress reduction may be beneficial. For future research, extensive experimental and numerical studies are required to assess the appropriate approach for evaluating the stiffening effect.
 •
-Densification and stiffening effects considerably improved the
-assessment of liquefaction potential of soil reinforced by stone
-columns. Liquefaction analysis that accounts for the combina-
-tion of densification and stiffening effects provides less potential
-risk of liquefaction than that obtained with individual effects.
-Further study analyzing the stiffening effect by taking into
-account the real behavior of soil reinforced by stone columns
-under seismic loading appears to be warranted.
+Densification and stiffening effects considerably improved the assessment of liquefaction potential of soil reinforced by stone columns. Liquefaction analysis that accounts for the combina- tion of densification and stiffening effects provides less potential risk of liquefaction than that obtained with individual effects.
+Further study analyzing the stiffening effect by taking into account the real behavior of soil reinforced by stone columns under seismic loading appears to be warranted.
 Notation
 The following symbols are used in this paper:
-amax = peak horizontal acceleration at ground surface
-generated by the earthquake;
+amax = peak horizontal acceleration at ground surface generated by the earthquake;
 CRR = cyclic resistance ratio;
 CSR = cyclic shear stress ratio;
 CSRI = cyclic shear stress ratio of initial soil;
@@ -728,48 +441,28 @@ CSRR = cyclic shear stress ratio of reinforced soil;
 FS = safety factor;
 FSDens = safety factor including densification effect;
 FSStiff = safety factor including stiffening effect;
-FSDensþStiff = factor safety including densification and stiffening
-effects;
+FSDensþStiff = factor safety including densification and stiffening effects;
 Gr = shear modulus ratio;
 KG = shear stress reduction factor;
 M = earthquake magnitude;
-Ncorrected = corrected SPT penetration resistance;
-qcorrected = corrected CPT penetration resistance; and
-η = area replacement ratio.
+Ncorrected = corrected SPT penetration resistance; qcorrected = corrected CPT penetration resistance; and η = area replacement ratio.
 References
-Adalier, K., Elgamal, A., Meneses, J. F., and Baez, J. I. (2003). “Stone
-columns as liquefaction counter-measure in non-plastic silty soils.”
+Adalier, K., Elgamal, A., Meneses, J. F., and Baez, J. I. (2003). “Stone columns as liquefaction counter-measure in non-plastic silty soils.”
 J. Soil Dyn. Earthquake Eng., 23(7), 571–584.
 Ashford, S. A., Rollins, K. M., Bradford, S. C., Weaver, T. J., and Baez, J. I.
-(2000). “Liquefaction mitigation using stone columns around deep
-foundation: Full scale test results.” Transp. Res. Rec., 1736, 110–118.
-Baez, J. I., and Martin, G. (1992). “Liquefaction observation during instal-
-lation of stone columns using the vibro-replacement technique.”
+(2000). “Liquefaction mitigation using stone columns around deep foundation: Full scale test results.” Transp. Res. Rec., 1736, 110–118.
+Baez, J. I., and Martin, G. (1992). “Liquefaction observation during instal- lation of stone columns using the vibro-replacement technique.”
 Geotech. News, 10(3), 41–44.
-Baez, J. I., and Martin, G. R. (1993). “Advances in the design of vibro
-systems for the improvement of liquefaction resistance.” Proc., Symp.
+Baez, J. I., and Martin, G. R. (1993). “Advances in the design of vibro systems for the improvement of liquefaction resistance.” Proc., Symp.
 of Ground Improvement, Vancouver Geotechnical Society, Vancouver,
 BC, Canada.
-Basarkar, S. S., Panse, V., and Wankhade, R. (2009). “Ground strengthen-
-ing by vibro-stone columns—A case study.” Indian Geotechnical
+Basarkar, S. S., Panse, V., and Wankhade, R. (2009). “Ground strengthen- ing by vibro-stone columns—A case study.” Indian Geotechnical
 Conf. IGC, Allied Publishers Pvt. Ltd., Guntur, India.
-Bell, A., Kirkland, D., and Sinclair, A. (1986). “Vibro-replacement ground
-improvement at General Terminus Quay, Glasgow.” Symp. on Building
-on Marginal and Derelict Land, Institution of Civil Engineers, London.
-Ben Salem, Z., Frikha, W., and Bouassida, M. (2016). “Effect of granular-
-column installation on excess pore pressure variation during soil lique-
-faction.” Int. J. Geomech., 10.1061/(ASCE)GM.1943-5622.0000516,
+Bell, A., Kirkland, D., and Sinclair, A. (1986). “Vibro-replacement ground improvement at General Terminus Quay, Glasgow.” Symp. on Building on Marginal and Derelict Land, Institution of Civil Engineers, London.
+Ben Salem, Z., Frikha, W., and Bouassida, M. (2016). “Effect of granular- column installation on excess pore pressure variation during soil lique- faction.” Int. J. Geomech., 10.1061/(ASCE)GM.1943-5622.0000516,
 04015046.
-Blanchard, J. D., and Clements, K. (1993). “Site improvements with stone
-columns in stratified silty soils.” 3rd Int. Conf. on Case Histories in
-0
-100
-200
-300
-100
-10
+Blanchard, J. D., and Clements, K. (1993). “Site improvements with stone columns in stratified silty soils.” 3rd Int. Conf. on Case Histories in
 0.1
-1
 1.0
 0.8
 0.6
@@ -777,122 +470,72 @@ columns in stratified silty soils.” 3rd Int. Conf. on Case Histories in
 CPT data
 KG
 Rate of densification(%)
-M=7
-amax=0.2g
+M=7 amax=0.2g
 SPT data
 FSDen.+Stiff.
-Fig. 6. Variation of FSDensþStiff versus the average rate of densification
-and KG
-© ASCE
+Fig. 6. Variation of FSDensþStiff versus the average rate of densification and KG
 06017014-5
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2017, 143(10): 06017014 
 Downloaded from ascelibrary.org by Newcastle University on 07/27/17. Copyright ASCE. For personal use only; all rights reserved.
 Geotechnical Engineering, Missouri Univ. of Science and Technology,
 St. Louis, MI.
 Boulanger, R., Idriss, I., Stewart, D., Hashash, Y., and Schmidt, B. (1998).
-“Drainage capacity of stone columns or gravel drains for mitigating
-liquefaction.” Geotechnical earthquake engineering and soil dynamics
+“Drainage capacity of stone columns or gravel drains for mitigating liquefaction.” Geotechnical earthquake engineering and soil dynamics
 III, P. Dakoulas, M. Yegian, and R. D. Holtz, eds., ASCE, Reston, VA,
 678–690.
-Cetin, K. O., et al. (2004). “Standard penetration test-based probabilistic
-and deterministic assessment of seismic soil liquefaction potential.”
-J. Geotech. Geoenviron. Eng., 130(12), 1314–1340.
-Chambosse, G. (1983). “Liquefaction problems in the Fraser Delta
-and protection of a LNG tank.” Celebration publication for the 70th
-birthday of Prof. Herbert Breth, Darmstadt, Germany, 105–112.
-Chen, B. S., and Bailey, M. J. (2004). “Lessons learned from a stone col-
-umn test program in glacial deposits.” GeoSupport 2004: Drilled shafts,
-micropiling, deep mixing, remedial methods, and specialty foundation
-systems, J. P. Turner and P. W. Mayne, eds., ASCE, Reston, VA,
+Cetin, K. O., et al. (2004). “Standard penetration test-based probabilistic and deterministic assessment of seismic soil liquefaction potential.”
+Chambosse, G. (1983). “Liquefaction problems in the Fraser Delta and protection of a LNG tank.” Celebration publication for the 70th birthday of Prof. Herbert Breth, Darmstadt, Germany, 105–112.
+Chen, B. S., and Bailey, M. J. (2004). “Lessons learned from a stone col- umn test program in glacial deposits.” GeoSupport 2004: Drilled shafts, micropiling, deep mixing, remedial methods, and specialty foundation systems, J. P. Turner and P. W. Mayne, eds., ASCE, Reston, VA,
 508–519.
 Durgunoglu, H. T., Kulac, H., Nur, O., Ikiz, S., Akbal, O., and Olgun, C.
-(1995). “A case study on determination of soil improvement realization
-using CPT.” Proc., Int. Symp. on Cone Penetration Testings, Swedish
+(1995). “A case study on determination of soil improvement realization using CPT.” Proc., Int. Symp. on Cone Penetration Testings, Swedish
 Geotechnical Society, Linköping, Sweden.
-Duzceer, R. (2003). “Ground improvement of oil storage tanks using stone
-columns.” Proc., 12th PanAmerican Conf. in Soil Mechanics and Foun-
-dation Engineering, Essen: Verlag Glückauf GMBH, Cambridge, MA.
-Gambin, M. P. (1992). “Reducing liquefaction potential by deep soil im-
-provement.” Chapter II–4, Recent advances in earthquake engineering
-and structural dynamics, Ouest Editions, Nantes, France.
-Goughnour, R. R., and Pestana, J. M. (1998). “Mechanical behavior of
-stone columns under seismic loading.” 2nd Int. Conf. on Ground
+Duzceer, R. (2003). “Ground improvement of oil storage tanks using stone columns.” Proc., 12th PanAmerican Conf. in Soil Mechanics and Foun- dation Engineering, Essen: Verlag Glückauf GMBH, Cambridge, MA.
+Gambin, M. P. (1992). “Reducing liquefaction potential by deep soil im- provement.” Chapter II–4, Recent advances in earthquake engineering and structural dynamics, Ouest Editions, Nantes, France.
+Goughnour, R. R., and Pestana, J. M. (1998). “Mechanical behavior of stone columns under seismic loading.” 2nd Int. Conf. on Ground
 Improvement Techniques, Ci-Premier Pte Ltd., Singapore.
-Green, R., Olgun, C., and Wissmann, K. (2008). “Shear stress redistribution
-as a mechanism to mitigate the risk of liquefaction.” Geotechnical
-earthquake engineering and soil dynamics IV, D. Zeng, M. T.
+Green, R., Olgun, C., and Wissmann, K. (2008). “Shear stress redistribution as a mechanism to mitigate the risk of liquefaction.” Geotechnical earthquake engineering and soil dynamics IV, D. Zeng, M. T.
 Manzari, and D. R. Hiltunen, eds., ASCE, Reston, VA.
-Hayward Baker Geotechnical Construction Keller. (2009). Project sum-
-mary: Soil mixing and vibro replacement liquefaction mitigation and
-foundation support, Hayward Baker, Inc., Hanover, MD.
-Idriss, I. M., and Boulanger, R. W. (2008). Soil liquefaction during earth-
-quakes, Earthquake Engineering Research Institute, Oakland, CA, 261.
-Keller, T. O., Castro, G., and Rogers, J. H. (1987). “Steel creek dam foun-
-dation densification.” Soil improvement—A ten year update, ASCE,
+Hayward Baker Geotechnical Construction Keller. (2009). Project sum- mary: Soil mixing and vibro replacement liquefaction mitigation and foundation support, Hayward Baker, Inc., Hanover, MD.
+Idriss, I. M., and Boulanger, R. W. (2008). Soil liquefaction during earth- quakes, Earthquake Engineering Research Institute, Oakland, CA, 261.
+Keller, T. O., Castro, G., and Rogers, J. H. (1987). “Steel creek dam foun- dation densification.” Soil improvement—A ten year update, ASCE,
 New York, 136–166.
-Kumar, S., and Puri, V. K. (2001). “Soil improvement using heavy
-tamping—A case history.” ISET J. Earthquake Technol., 38(2–4),
+Kumar, S., and Puri, V. K. (2001). “Soil improvement using heavy tamping—A case history.” ISET J. Earthquake Technol., 38(2–4),
 123–133.
 Lee, T. S., Dash, U., and Anderson, R. (2005). “Pipe pile stone columns at
-Webster Street tube, Oakland, California.” Innovations in grouting and
-soil improvement, R. S. Vernon, A. B. Donald, and J. B. Michael, eds.,
+Webster Street tube, Oakland, California.” Innovations in grouting and soil improvement, R. S. Vernon, A. B. Donald, and J. B. Michael, eds.,
 ASCE, Reston, VA, 1–15.
-Lyle Simonton, W. (2012). Vibro ground improvement for design-build and
-other transportation projects.
-Mahoney, D. P., and Kupec, J. (2014). “Stone column ground improvement
-field trial: A Christchurch case study.” New Zealand Society for Earth-
-quake Engineering Annual Technical Conf., Aotea Centre, Auckland,
+Lyle Simonton, W. (2012). Vibro ground improvement for design-build and other transportation projects.
+Mahoney, D. P., and Kupec, J. (2014). “Stone column ground improvement field trial: A Christchurch case study.” New Zealand Society for Earth- quake Engineering Annual Technical Conf., Aotea Centre, Auckland,
 New Zealand.
 Marcuson, W. F. (1978). “Definition of terms related to liquefaction.”
 J. Geotech. Eng. Div., 104(9), 1197–1200.
-Mitchell, J. K., and Wentz, F. K. (1991). “Performance of improved ground
-during the Loma Prieta earthquake.” Rep. No. EERC91/12, Earthquake
+Mitchell, J. K., and Wentz, F. K. (1991). “Performance of improved ground during the Loma Prieta earthquake.” Rep. No. EERC91/12, Earthquake
 Engineering Research Center, Univ. of California, Berkeley, CA.
-Olgun, C. G., and Martin, J. R. (2008). “Numerical modeling of the seismic
-response of columnar reinforced ground.” Geotechnical earthquake
-engineering and soil dynamics IV, D. Zeng, T. Manzari, and D. R.
+Olgun, C. G., and Martin, J. R. (2008). “Numerical modeling of the seismic response of columnar reinforced ground.” Geotechnical earthquake engineering and soil dynamics IV, D. Zeng, T. Manzari, and D. R.
 Hiltunen, eds., ASCE, Reston, VA, 1–11.
-Priebe, H. J. (1998). “Vibro replacement to prevent earthquake induced
-liquefaction.” Ground Eng., 31(9), 30–33.
+Priebe, H. J. (1998). “Vibro replacement to prevent earthquake induced liquefaction.” Ground Eng., 31(9), 30–33.
 Rayamajhi, D., et al. (2014). “Numerical study of shear stress distribution
-for discrete columns in liquefiable soils.” J. Geotech. Geoenviron. Eng.,
 10.1061/(ASCE)GT.1943-5606.0000970, 04013034.
-Rollins, K., Price, B. E., Dibb, E., and Higbee, J. B. (2006). “Liquefaction
-mitigation of silty sands in Utah using stone columns with wick drains.”
+Rollins, K., Price, B. E., Dibb, E., and Higbee, J. B. (2006). “Liquefaction mitigation of silty sands in Utah using stone columns with wick drains.”
 Proc., GeoShanghai Int. Conf. on Geotechnical Special Publication
 152, Ground Modification and Seismic Mitigation, A. Porbaha, S.-L.
 Shen, J. Wartman, and J.-C. Chai, eds., ASCE, Reston, VA.
 Rollins, K., Wright, A., Sjoblom, D., White, N., and Lange, C. (2012).
-“Evaluation of liquefaction mitigation with stone columns in inter-
-bedded silts and sands.” Proc., 4th Int. Conf. on Geotechnical and Geo-
-physical Site Characterization, R. Q. Coutinho and P. W. Mayne, eds.,
+“Evaluation of liquefaction mitigation with stone columns in inter- bedded silts and sands.” Proc., 4th Int. Conf. on Geotechnical and Geo- physical Site Characterization, R. Q. Coutinho and P. W. Mayne, eds.,
 Taylor and Francis Group, London.
-Rollins, K. M., Quimby, M., Johnson, S. R., and Price, B. (2009). “Effec-
-tiveness of stone columns for liquefaction mitigation of silty sands with
-and without wick drains.” Proc., US-China Workshop on Ground
+Rollins, K. M., Quimby, M., Johnson, S. R., and Price, B. (2009). “Effec- tiveness of stone columns for liquefaction mitigation of silty sands with and without wick drains.” Proc., US-China Workshop on Ground
 Improvement Technologies, J. Han, G. Zheng, V. R. Schaefer, and
 M. Huang, eds., ASCE, Reston, VA, 160–169.
-Seed, H. B., and Idriss, I. M. (1971). “Simplified procedure for evaluating
-soil liquefaction potential.” Soil Mech. Found. Div., 97(9), 1249–1273.
-Shenthan, T. (2005). “Liquefaction mitigation in silty soils using composite
-stone column.” Ph.D. dissertation, Univ. at Buffalo, Buffalo, NY.
-Slocombe, B. C., Bell, A. L., and Baez, J. I. (2000). “The densification of
-granular soil using vibro methods.” Geotechnique, 50(6), 715–725.
-Sondermann, W. (1997). “Soil improvement by vibro replacement for rigid
-pavement construction to the high speed railway system.” Ground im-
-provement geosystmes: Densification and reinforcement, M. C. R.
+Seed, H. B., and Idriss, I. M. (1971). “Simplified procedure for evaluating soil liquefaction potential.” Soil Mech. Found. Div., 97(9), 1249–1273.
+Shenthan, T. (2005). “Liquefaction mitigation in silty soils using composite stone column.” Ph.D. dissertation, Univ. at Buffalo, Buffalo, NY.
+Slocombe, B. C., Bell, A. L., and Baez, J. I. (2000). “The densification of granular soil using vibro methods.” Geotechnique, 50(6), 715–725.
+Sondermann, W. (1997). “Soil improvement by vibro replacement for rigid pavement construction to the high speed railway system.” Ground im- provement geosystmes: Densification and reinforcement, M. C. R.
 Davies and F. Schlosser, eds., ASCE, Reston, VA, 181–190.
 Thiriot, E. D. (2010). “Liquefaction mitigation in silty sands at Salmon
 Lake Dam using stone columns and wick drains.” M.S. thesis, Dept.
 of Civil and Environmental Engineering, Brigham Young Univ., Provo,
 Utah.
-Weaver, T., Ashford, S., and Rollins, K. (2004). “Performance and analysis
-of a laterally loaded pile in stone column improved ground.” 13th World
-Conf. on Earthquake Engineering, Canadian Association for Earth-
-quake Engineering, Vancouver, BC, Canada.
-© ASCE
+Weaver, T., Ashford, S., and Rollins, K. (2004). “Performance and analysis of a laterally loaded pile in stone column improved ground.” 13th World
+Conf. on Earthquake Engineering, Canadian Association for Earth- quake Engineering, Vancouver, BC, Canada.
 06017014-6
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2017, 143(10): 06017014 
 Downloaded from ascelibrary.org by Newcastle University on 07/27/17. Copyright ASCE. For personal use only; all rights reserved.

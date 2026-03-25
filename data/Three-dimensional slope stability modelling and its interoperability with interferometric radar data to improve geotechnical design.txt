@@ -1,306 +1,168 @@
-Three-dimensional slope stability modelling and its 
-interoperability with interferometric radar data to improve 
-geotechnical design 
-A McQuillan  Rocscience Inc., Australia 
-T Yacoub  Rocscience Inc., Canada 
-N Bar  Gecko Geotechnics Pty Ltd, Australia 
-N Coli  IDS Georadar, Italy 
-L Leoni  IDS Georadar, Italy 
-S Rea  Newcrest Mining Limited, Papua New Guinea 
-J Bu  Newcrest Mining Limited, Papua New Guinea 
- 
-Abstract 
-Commercial 3D limit equilibrium and 3D finite element analysis software has been available to geotechnical 
-engineers for nearly a decade. Current 3D modelling software allows the direct importation of as-built designs 
-to back-analyse slope stability. The same 3D modelling software allows the direct importation of deformation 
-data recorded by slope stability radars. This interoperability between modelling software and monitoring data 
-provides geotechnical engineers an invaluable method to back-analyse material properties and refine slope 
-stability models. This paper presents a case study showing the integration of 3D limit equilibrium, 3D finite 
-element and synthetic aperture radar monitoring data to determine suitable remediation actions to stabilise 
-an identified deforming section of slope in an open cut gold mine. 
-Keywords: 3D, slope stability, radar interoperability 
-1 
-Introduction 
-Commercial 3D limit equilibrium and 3D finite element analysis software has been available to geotechnical 
-engineers for nearly a decade. Yet it is still commonplace for slope stability modelling to be completed in 2D, 
-even when ground conditions are highly anisotropic. Bar & McQuillan (2018) show case studies from highly 
-anisotropic coal and iron ore mines, where analysis using 3D limit equilibrium methods has provided superior 
-predictions of slope behaviour compared to Factors of Safety (FS) and predictions of critical failure surfaces 
-calculated using 2D limit equilibrium methods. 
-Current 3D slope stability modelling software allows the direct importation of 3D wireframes, representing 
-surveyed topography, geological surfaces, modelled faults, etc. to be directly imported into 3D limit 
-equilibrium and 3D finite element software. This allows the geotechnical engineer to build and compute 3D 
-models within an incredibly short time frame (Bar et al. 2019), to calculate a 3D FS or 3D strength reduction 
-factor (SRF) in less than one day to large open pit slopes. 
-The same 3D modelling software allows the direct importation of deformation data recorded by slope 
-monitoring radar as well as satellite imagery. This interoperability between modelling software and 
-monitoring data provides geotechnical engineers an opportunity to back-analyse material properties and 
-refine slope stability models for pit optimisation. This paper presents a case study showing the integration of 
-3D limit equilibrium and 3D finite element modelling using Rocscience Inc.’s Slide3 (Rocscience Inc. 2019a) 
-and RS3 (Rocscience Inc. 2019b) software with synthetic aperture radar (SAR) monitoring data recorded by 
+Three-dimensional slope stability modelling and its interoperability with interferometric radar data to improve geotechnical design
+A McQuillan Rocscience Inc., Australia
+T Yacoub Rocscience Inc., Canada
+N Bar Gecko Geotechnics Pty Ltd, Australia
+N Coli IDS Georadar, Italy
+L Leoni IDS Georadar, Italy
+S Rea Newcrest Mining Limited, Papua New Guinea
+J Bu Newcrest Mining Limited, Papua New Guinea
+
+Abstract
+Commercial 3D limit equilibrium and 3D finite element analysis software has been available to geotechnical engineers for nearly a decade. Current 3D modelling software allows the direct importation of as-built designs to back-analyse slope stability. The same 3D modelling software allows the direct importation of deformation data recorded by slope stability radars. This interoperability between modelling software and monitoring data provides geotechnical engineers an invaluable method to back-analyse material properties and refine slope stability models. This paper presents a case study showing the integration of 3D limit equilibrium, 3D finite element and synthetic aperture radar monitoring data to determine suitable remediation actions to stabilise an identified deforming section of slope in an open cut gold mine.
+Keywords: 3D, slope stability, radar interoperability
+Introduction
+Commercial 3D limit equilibrium and 3D finite element analysis software has been available to geotechnical engineers for nearly a decade. Yet it is still commonplace for slope stability modelling to be completed in 2D, even when ground conditions are highly anisotropic. Bar & McQuillan (2018) show case studies from highly anisotropic coal and iron ore mines, where analysis using 3D limit equilibrium methods has provided superior predictions of slope behaviour compared to Factors of Safety (FS) and predictions of critical failure surfaces calculated using 2D limit equilibrium methods.
+Current 3D slope stability modelling software allows the direct importation of 3D wireframes, representing surveyed topography, geological surfaces, modelled faults, etc. to be directly imported into 3D limit equilibrium and 3D finite element software. This allows the geotechnical engineer to build and compute 3D models within an incredibly short time frame (Bar et al. 2019), to calculate a 3D FS or 3D strength reduction factor (SRF) in less than one day to large open pit slopes.
+The same 3D modelling software allows the direct importation of deformation data recorded by slope monitoring radar as well as satellite imagery. This interoperability between modelling software and monitoring data provides geotechnical engineers an opportunity to back-analyse material properties and refine slope stability models for pit optimisation. This paper presents a case study showing the integration of
+3D limit equilibrium and 3D finite element modelling using Rocscience Inc.’s Slide3 (Rocscience Inc. 2019a) and RS3 (Rocscience Inc. 2019b) software with synthetic aperture radar (SAR) monitoring data recorded by
 Slope Stability 2020 - PM Dight (ed.)
 © Australian Centre for Geomechanics, Perth, ISBN 978-0-9876389-7-7
-Slope Stability 2020
-1349
-doi:10.36487/ACG_repo/2025_92
- 
-IDS GeoRadar’s IBIS slope monitoring radar to determine suitable remediation actions to stabilise an 
-identified deforming section of slope in an open cut gold mine. 
-2 
-Limit equilibrium modelling 
-Limit equilibrium modelling is one of the most common methods of assessing slope stability, in both civil and 
-mining applications. Its widespread application is attributed to its ease of use, relatively fast calculation time 
-and calibration from years of application and observation (McQuillan et al. 2018). The limit equilibrium 
-method is based on the principle of statics, where the summation of forces acting on a slip surface 
-(i.e. mobilised stress) are compared with the sum of the forces available to resist failure (i.e. available shear 
-resistance). The ratio between these two sums is defined as the FS. If FS is greater than 1, the slope is assumed 
-to be stable. Geotechnical engineers frequently, however, set design acceptance criteria (DAC) at values 
-much higher than FS = 1 when determining a stable slope design (i.e. FS of 1.2, 1.3, 1.5, etc. are required for 
-varying slope configurations with varying required serviceability) (Kirsten 1983; Priest & Brown 1983; 
-Pothitos & Li 2007; Gibson 2011). 
-Limit equilibrium analysis can be completed in both two and three dimensions using Rocscience Inc.’s Slide2 
-(Rocscience 2019c) and Slide3 software. 2D analysis is based on the method of slices (Duncan & Wright 1980; 
-Krahn 2007; Read & Stacey 2008) and 3D analysis is based on the method of columns (Cheng & Yip 2007), In 
-3D limit equilibrium analysis, the sliding mass in the form of part of a sphere, ellipsoid or complex surface, is 
-discretised into vertical columns as shown in Figure 1 (Cheng & Yip 2007). Forces are analogous to the vertical 
-slice method used in 2D. In 3D, each column has a share cross-section, and forces and moments are solved 
-in two orthogonal directions. Vertical forces determine the normal and shear force acting on the base of each 
-column (McQuillan et al. 2018). 
- 
-Figure 1 
-Forces acting on an individual 3D column as per Slide3 limit equilibrium method of columns 
-(Cheng & Yip 2007) 
-3 
-Finite element modelling 
-Finite element models can enhance the modelling process by allowing the geotechnical engineer to calculate 
-stresses, displacements and pore pressures using a variety of linear and non-linear constitutive relationships. 
-An advantage of finite element models is that they do not require an assumption to be made in advance 
-about the shape or location of the slip surface. In this method, the rock mass is divided up into a finite number 
-of elements. Each element is assigned an idealised stress–strain relation and properties that describe 
-Three-dimensional slope stability modelling and its interoperability
-with interferometric radar data to improve geotechnical design
+Slope Stability 2020 doi:10.36487/ACG_repo/2025_92
+
+IDS GeoRadar’s IBIS slope monitoring radar to determine suitable remediation actions to stabilise an identified deforming section of slope in an open cut gold mine.
+Limit equilibrium modelling
+Limit equilibrium modelling is one of the most common methods of assessing slope stability, in both civil and mining applications. Its widespread application is attributed to its ease of use, relatively fast calculation time and calibration from years of application and observation (McQuillan et al. 2018). The limit equilibrium method is based on the principle of statics, where the summation of forces acting on a slip surface
+(i.e. mobilised stress) are compared with the sum of the forces available to resist failure (i.e. available shear resistance). The ratio between these two sums is defined as the FS. If FS is greater than 1, the slope is assumed to be stable. Geotechnical engineers frequently, however, set design acceptance criteria (DAC) at values much higher than FS = 1 when determining a stable slope design (i.e. FS of 1.2, 1.3, 1.5, etc. are required for varying slope configurations with varying required serviceability) (Kirsten 1983; Priest & Brown 1983;
+Pothitos & Li 2007; Gibson 2011).
+Limit equilibrium analysis can be completed in both two and three dimensions using Rocscience Inc.’s Slide2
+(Rocscience 2019c) and Slide3 software. 2D analysis is based on the method of slices (Duncan & Wright 1980;
+Krahn 2007; Read & Stacey 2008) and 3D analysis is based on the method of columns (Cheng & Yip 2007), In
+3D limit equilibrium analysis, the sliding mass in the form of part of a sphere, ellipsoid or complex surface, is discretised into vertical columns as shown in Figure 1 (Cheng & Yip 2007). Forces are analogous to the vertical slice method used in 2D. In 3D, each column has a share cross-section, and forces and moments are solved in two orthogonal directions. Vertical forces determine the normal and shear force acting on the base of each column (McQuillan et al. 2018).
+
+Figure 1
+Forces acting on an individual 3D column as per Slide3 limit equilibrium method of columns
+(Cheng & Yip 2007)
+Finite element modelling
+Finite element models can enhance the modelling process by allowing the geotechnical engineer to calculate stresses, displacements and pore pressures using a variety of linear and non-linear constitutive relationships.
+An advantage of finite element models is that they do not require an assumption to be made in advance about the shape or location of the slip surface. In this method, the rock mass is divided up into a finite number of elements. Each element is assigned an idealised stress–strain relation and properties that describe
+Three-dimensional slope stability modelling and its interoperability with interferometric radar data to improve geotechnical design
 A McQuillan et al.
-1350
 Slope Stability 2020
- 
-material behaviour. The elements are then connected in a continuum model which assumes material behaves 
-isotropically and as a continuous body. Large-scale structures, such as faults, can be explicitly modelled as 
-interfaces, and smaller-scale structures, such as joints, can be implicitly modelled within the rock matrix or 
-using an ubiquitous joint model. Finite element modelling is useful for estimating both the location and shape 
-of potential slip surfaces, as predicted by the concentration of shear strain in the model. 
-The results of finite element analysis, in particular the SRF calculated by this method, are frequently used to 
-validate both the FS and critical slip surfaces calculated by limit equilibrium modelling. 
-Finite element modelling can be completed in both two and three dimensions using Rocscience Inc.’s RS2 
-(Rocscience Inc. 2019d) and RS3 software. These codes are based on 2D and 3D continuum modelling 
-principles. 
-4 
-Design review considerations 
-The decision to complete 3D slope stability modelling, as part of the geotechnical design review process, 
-should factor the benefit of 3D modelling on the decision-making process. For example, slopes with relatively 
-homogeneous rock masses and structures intersecting at obtuse angles to the excavation may not warrant 
-3D analysis. However, highly anisotropic rock masses and structures trending near-parallel to the excavation 
-should utilise 3D analysis in the design process.  
-Similarly, the geotechnical engineer should determine whether the progression from limit equilibrium 
-modelling to finite element modelling will result in additional benefit to the geotechnical design. For example, 
-slopes with relatively homogeneous rock masses and minimal intersecting large structure may be sufficient 
-to model in limit equilibrium software. However, slope designs with multiple weak structures and/or multiple 
-material properties of varying strength may benefit from additional finite element analysis. 
-5 
-Radar monitoring 
-The SAR technique uses a broad fan-beam to illuminate the same target multiple times within the same scan. 
-For each pixel of a SAR image, a phase value is measured along the line-of-sight by the radar. By comparing 
-phase differences of subsequent scans, it is possible to detect small variations that relate to sub-millimetre 
-deformations of the slope under observation. This technology is useful for both broad scale strategic 
-monitoring and tactical-focus monitoring of excavated and dumped slopes to determine progressive 
-(accelerating) slope movement which may be indicative of impending slope failure. 
-The high resolution capability of SAR facilitates long-range monitoring up to 5 km from the slope under 
-observation, while maintaining the ability to detect sub-bench scale failures and a constant scan time. 
-Long-range semi-permanent SARs (IBIS-FM) are typically installed on the crests of open pits, which generally 
-allow them to monitor deformation of almost half of the entire open pit. Mobile SAR systems like the 
-IBIS-ArcSAR provide 360° coverage and flexibility to be installed everywhere to maximise coverage and 
-resolution. SARs are used for safety-critical monitoring in mining through the provision of real-time multiple 
-alarm criteria based on user-defined deformation and/or velocity inputs (Coli et al. 2018; Farina et al. 2013; 
-Sakari et al. 2016, 2018). 
-SAR technology integrates critical monitoring capabilities with other monitoring instrumentation and 
-advanced capabilities for geotechnical analysis. The continuous data storage can be utilised for long-term 
-deformation tracking and the back-analysis or review of slope failure events (Ramsden et al. 2015; Vorster et 
-al. 2015; Bar et al. 2016). 
-6 
-Case study 
-The open pit gold mine discussed in this paper is located in Papua New Guinea. Initial slope stability of the 
-cutback was calculated to have an FS of approximately 1.49 (Figure 2). 
+
+material behaviour. The elements are then connected in a continuum model which assumes material behaves isotropically and as a continuous body. Large-scale structures, such as faults, can be explicitly modelled as interfaces, and smaller-scale structures, such as joints, can be implicitly modelled within the rock matrix or using an ubiquitous joint model. Finite element modelling is useful for estimating both the location and shape of potential slip surfaces, as predicted by the concentration of shear strain in the model.
+The results of finite element analysis, in particular the SRF calculated by this method, are frequently used to validate both the FS and critical slip surfaces calculated by limit equilibrium modelling.
+Finite element modelling can be completed in both two and three dimensions using Rocscience Inc.’s RS2
+(Rocscience Inc. 2019d) and RS3 software. These codes are based on 2D and 3D continuum modelling principles.
+Design review considerations
+The decision to complete 3D slope stability modelling, as part of the geotechnical design review process, should factor the benefit of 3D modelling on the decision-making process. For example, slopes with relatively homogeneous rock masses and structures intersecting at obtuse angles to the excavation may not warrant
+3D analysis. However, highly anisotropic rock masses and structures trending near-parallel to the excavation should utilise 3D analysis in the design process.
+Similarly, the geotechnical engineer should determine whether the progression from limit equilibrium modelling to finite element modelling will result in additional benefit to the geotechnical design. For example, slopes with relatively homogeneous rock masses and minimal intersecting large structure may be sufficient to model in limit equilibrium software. However, slope designs with multiple weak structures and/or multiple material properties of varying strength may benefit from additional finite element analysis.
+Radar monitoring
+The SAR technique uses a broad fan-beam to illuminate the same target multiple times within the same scan.
+For each pixel of a SAR image, a phase value is measured along the line-of-sight by the radar. By comparing phase differences of subsequent scans, it is possible to detect small variations that relate to sub-millimetre deformations of the slope under observation. This technology is useful for both broad scale strategic monitoring and tactical-focus monitoring of excavated and dumped slopes to determine progressive
+(accelerating) slope movement which may be indicative of impending slope failure.
+The high resolution capability of SAR facilitates long-range monitoring up to 5 km from the slope under observation, while maintaining the ability to detect sub-bench scale failures and a constant scan time.
+Long-range semi-permanent SARs (IBIS-FM) are typically installed on the crests of open pits, which generally allow them to monitor deformation of almost half of the entire open pit. Mobile SAR systems like the
+IBIS-ArcSAR provide 360° coverage and flexibility to be installed everywhere to maximise coverage and resolution. SARs are used for safety-critical monitoring in mining through the provision of real-time multiple alarm criteria based on user-defined deformation and/or velocity inputs (Coli et al. 2018; Farina et al. 2013;
+Sakari et al. 2016, 2018).
+SAR technology integrates critical monitoring capabilities with other monitoring instrumentation and advanced capabilities for geotechnical analysis. The continuous data storage can be utilised for long-term deformation tracking and the back-analysis or review of slope failure events (Ramsden et al. 2015; Vorster et al. 2015; Bar et al. 2016).
+Case study
+The open pit gold mine discussed in this paper is located in Papua New Guinea. Initial slope stability of the cutback was calculated to have an FS of approximately 1.49 (Figure 2).
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1351
- 
- 
-Figure 2 
-Initial 3D limit equilibrium analysis results, critical FS ~ 1.49 
-Slope deformation in the upper benches was identified by an IBIS-FM radar monitoring the +250 m high 
-cutback (Figure 3). Deformation was initiated by several days of heavy rainfall. Levels of movement recorded 
-by the IBIS-FM were observed to fluctuate with rainfall events. Deformation rates periodically increased with 
-high intensity and prolonged rainfall events, and subsequently decreased when rain subsided. 
- 
-Figure 3 
-IBIS-FM monitoring data showing movement in the upper benches of a +250 m deep open pit 
-gold mine 
-Visual inspections on foot and remotely using an unmanned aerial vehicle (UAV) revealed the backscarp of 
-the slope failure, where 20 to 50 cm wide cracks were observed at the crest of the failure zone. Further 
-investigation established that the failure mechanism was related to a low-angle, in-pit dipping relic fault 
-within the argillic-altered rock mass overlain by colluvium. Pore pressures recorded in a nearby vibrating 
-wireline piezometer indicated that the slope was likely to be fully saturated. 
-Slope stability models were subsequently updated to reflect these conditions, and a reduced FS of 1.03 was 
-calculated (Figure 4) and SRF of 0.92 (Figure 5). 
-Three-dimensional slope stability modelling and its interoperability
-with interferometric radar data to improve geotechnical design
+
+Figure 2
+Initial 3D limit equilibrium analysis results, critical FS ~ 1.49
+Slope deformation in the upper benches was identified by an IBIS-FM radar monitoring the +250 m high cutback (Figure 3). Deformation was initiated by several days of heavy rainfall. Levels of movement recorded by the IBIS-FM were observed to fluctuate with rainfall events. Deformation rates periodically increased with high intensity and prolonged rainfall events, and subsequently decreased when rain subsided.
+
+Figure 3
+IBIS-FM monitoring data showing movement in the upper benches of a +250 m deep open pit gold mine
+Visual inspections on foot and remotely using an unmanned aerial vehicle (UAV) revealed the backscarp of the slope failure, where 20 to 50 cm wide cracks were observed at the crest of the failure zone. Further investigation established that the failure mechanism was related to a low-angle, in-pit dipping relic fault within the argillic-altered rock mass overlain by colluvium. Pore pressures recorded in a nearby vibrating wireline piezometer indicated that the slope was likely to be fully saturated.
+Slope stability models were subsequently updated to reflect these conditions, and a reduced FS of 1.03 was calculated (Figure 4) and SRF of 0.92 (Figure 5).
+Three-dimensional slope stability modelling and its interoperability with interferometric radar data to improve geotechnical design
 A McQuillan et al.
-1352
 Slope Stability 2020
- 
- 
-(a) 
- 
-(b) 
- 
-(c) 
-Figure 4 
-(a) Back-analysed 3D limit equilibrium analysis results, critical FS = 1.03; (b) Back-analysed 
-3D limit equilibrium analysis results showing sliding along the sub-horizontal fault plane; 
-(c) IBIS-FM radar monitoring data overlain on excavated slope surface showing good correlation 
-between modelled critical slip surface and maximum measured deformation 
+
+(a)
+
+(b)
+
+(c)
+Figure 4
+(a) Back-analysed 3D limit equilibrium analysis results, critical FS = 1.03; (b) Back-analysed
+3D limit equilibrium analysis results showing sliding along the sub-horizontal fault plane;
+(c) IBIS-FM radar monitoring data overlain on excavated slope surface showing good correlation between modelled critical slip surface and maximum measured deformation
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1353
- 
- 
-(a) 
- 
-(b) 
- 
-(c) 
-Figure 5 
-(a) Back-analysed 3D finite element analysis results showing maximum strain concentration 
-along the fault; (b) Back-analysed 3D finite element analysis results showing maximum total 
-displacement; (c) IBIS-FM radar monitoring data overlain on excavated slope surface showing 
-good correlation between maximum measured deformation and maximum modelled 
-displacement 
-Three-dimensional slope stability modelling and its interoperability
-with interferometric radar data to improve geotechnical design
+
+(a)
+
+(b)
+
+(c)
+Figure 5
+(a) Back-analysed 3D finite element analysis results showing maximum strain concentration along the fault; (b) Back-analysed 3D finite element analysis results showing maximum total displacement; (c) IBIS-FM radar monitoring data overlain on excavated slope surface showing good correlation between maximum measured deformation and maximum modelled displacement
+Three-dimensional slope stability modelling and its interoperability with interferometric radar data to improve geotechnical design
 A McQuillan et al.
-1354
 Slope Stability 2020
- 
-Monitoring data recorded was superimposed on 3D limit equilibrium analysis and 3D finite element analysis 
-model results. Good correlation was observed between predicted slip surface locations and actual slope 
-movement (Figures 4c and 5c). 
-Remediation options were then determined by running a series of additional slope stability models that 
-assessed various unloading, buttressing and depressurisation options. Models simulating deep horizontal 
-drains and unloading indicated the FS could be improved by 15–30% using these stabilisation techniques. 
-Over 50 horizontal drains, 150 m deep, spaced 3 to 5 m apart were subsequently drilled from the cutback 
-floor into the slope to depressurise the rock mass and fault. Slope movement was observed to subside 
-significantly after the first series of horizontal drains were drilled directly targeting the low-angle fault 
-(Figure 6). Slope unloading was achieved by excavating an additional 12 m high bench of colluvium from the 
-top of the slope. Surface water was further diverted above the pit crest to minimise surface water seeping 
-back into the colluvium and potentially reinitiating failure. 
- 
-(a) 
- 
-(b) 
-Figure 6 
-(a) Failing section of slope in which horizontal depressurisation holes were drilled into; (b) Graph 
-of average slope deformation recorded by the IBIS-FM radar before and after depressurisation 
-drilling 
-7 
-Conclusion 
-Modelling in 3D can provide geotechnical engineers a superior prediction of slope behaviour compared to 
-traditional 2D analysis. The benefits of modelling in 3D are accentuated where the rock mass under 
-investigation is highly anisotropic or includes structure intersecting the slope face at acute angles. 
+
+Monitoring data recorded was superimposed on 3D limit equilibrium analysis and 3D finite element analysis model results. Good correlation was observed between predicted slip surface locations and actual slope movement (Figures 4c and 5c).
+Remediation options were then determined by running a series of additional slope stability models that assessed various unloading, buttressing and depressurisation options. Models simulating deep horizontal drains and unloading indicated the FS could be improved by 15–30% using these stabilisation techniques.
+Over 50 horizontal drains, 150 m deep, spaced 3 to 5 m apart were subsequently drilled from the cutback floor into the slope to depressurise the rock mass and fault. Slope movement was observed to subside significantly after the first series of horizontal drains were drilled directly targeting the low-angle fault
+(Figure 6). Slope unloading was achieved by excavating an additional 12 m high bench of colluvium from the top of the slope. Surface water was further diverted above the pit crest to minimise surface water seeping back into the colluvium and potentially reinitiating failure.
+
+(a)
+
+(b)
+Figure 6
+(a) Failing section of slope in which horizontal depressurisation holes were drilled into; (b) Graph of average slope deformation recorded by the IBIS-FM radar before and after depressurisation drilling
+Conclusion
+Modelling in 3D can provide geotechnical engineers a superior prediction of slope behaviour compared to traditional 2D analysis. The benefits of modelling in 3D are accentuated where the rock mass under investigation is highly anisotropic or includes structure intersecting the slope face at acute angles.
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1355
- 
-Limit equilibrium modelling provides an indication of the critical slip surface within a slope but does not 
-model slope deformation. Finite element analysis can analyse both the stress and deformation of materials 
-within a slope, as well as distribution of pore pressure. 
-The interoperability of 3D modelling results with monitoring data provides geotechnical engineers an 
-invaluable resource to back-analyse material properties and refine slope stability models. 
-This paper has outlined a case study showing the integration of 3D limit equilibrium and finite element 
-modelling using Rocscience Inc’s Slide3 and RS3 software with IDS GeoRadar’s IBIS-FM SAR slope monitoring 
-system. This combination of software was used to determine suitable remediation actions to stabilise an 
-identified deforming section of slope in an open cut gold mine. Rocscience Inc.’s Slide3 and RS3 were used 
-to model the stability of the upper benches of a +250 m high cutback slope. Monitoring data recorded by an 
-IBIS-FM radar was then overlain on 3D model results to validate material strengths and failure mechanisms. 
-Appropriate remediation actions, including slope unloading, depressurisation and surface water drainage, 
-were then determined on the basis of additional 3D slope stability modelling. 
-Acknowledgement 
-The authors acknowledge the efforts of Sam Nicoll, Kaipale Pano, Chris Alickson, Paul Kuira, Geyson Akore 
-and Mark Reynolds for their efforts in monitoring slopes and managing geotechnical hazards. 
-References 
-Bar, N & McQuillan, A 2018, ‘3D limit equilibrium slope stability analysis for anisotropic and faulted rock masses in Australian coal 
-and iron ore mines’, Proceedings of the 10th Asian Rock Mechanics Symposium, ISRM NG Singapore, Singapore. 
-Bar, N, Parker, R & Thomas, SJ 2016, ‘Managing landslide risks associated with erosion-driven slope instabilities using near real-time 
-deformation monitoring systems’, in R Ulusay, O Aydan, H Gerçek, MA Hindistan & E Tuncay (eds), Rock Mechanics and Rock 
-Engineering: From the Past to the Future; Proceedings of the 2016 International Rock Mechanics Symposium: Eurock 2016, 
-Taylor & Francis Group, Milton Park. 
-Bar, N, Yacoub, T & McQuillan, A 2019, ‘Analysis of a large open pit mine in Western Australia using finite element and limit 
-equilibrium methods’, Proceedings the 53rd US Rock Mechanics/Geomechanics Symposium, American Rock Mechanics 
-Association, Alexandria, paper ARMA 19–A-30. 
+
+Limit equilibrium modelling provides an indication of the critical slip surface within a slope but does not model slope deformation. Finite element analysis can analyse both the stress and deformation of materials within a slope, as well as distribution of pore pressure.
+The interoperability of 3D modelling results with monitoring data provides geotechnical engineers an invaluable resource to back-analyse material properties and refine slope stability models.
+This paper has outlined a case study showing the integration of 3D limit equilibrium and finite element modelling using Rocscience Inc’s Slide3 and RS3 software with IDS GeoRadar’s IBIS-FM SAR slope monitoring system. This combination of software was used to determine suitable remediation actions to stabilise an identified deforming section of slope in an open cut gold mine. Rocscience Inc.’s Slide3 and RS3 were used to model the stability of the upper benches of a +250 m high cutback slope. Monitoring data recorded by an
+IBIS-FM radar was then overlain on 3D model results to validate material strengths and failure mechanisms.
+Appropriate remediation actions, including slope unloading, depressurisation and surface water drainage, were then determined on the basis of additional 3D slope stability modelling.
+Acknowledgement
+The authors acknowledge the efforts of Sam Nicoll, Kaipale Pano, Chris Alickson, Paul Kuira, Geyson Akore and Mark Reynolds for their efforts in monitoring slopes and managing geotechnical hazards.
+References
+Bar, N & McQuillan, A 2018, ‘3D limit equilibrium slope stability analysis for anisotropic and faulted rock masses in Australian coal and iron ore mines’, Proceedings of the 10th Asian Rock Mechanics Symposium, ISRM NG Singapore, Singapore.
+Bar, N, Parker, R & Thomas, SJ 2016, ‘Managing landslide risks associated with erosion-driven slope instabilities using near real-time deformation monitoring systems’, in R Ulusay, O Aydan, H Gerçek, MA Hindistan & E Tuncay (eds), Rock Mechanics and Rock
+Engineering: From the Past to the Future; Proceedings of the 2016 International Rock Mechanics Symposium: Eurock 2016,
+Taylor & Francis Group, Milton Park.
+Bar, N, Yacoub, T & McQuillan, A 2019, ‘Analysis of a large open pit mine in Western Australia using finite element and limit equilibrium methods’, Proceedings the 53rd US Rock Mechanics/Geomechanics Symposium, American Rock Mechanics
+Association, Alexandria, paper ARMA 19–A-30.
 Cheng, Y & Yip, C 2007, ‘Three-dimensional asymmetrical slope stability analysis extension of Bishop’s, Janbu’s, and Morgenstern-
-Price’s Techniques’, Journal of Geotechnical and Geoenvironmental Engineering, vol. 133, no. 12, pp. 1544–1555. 
-Coli, N, Leoni, L, Coppi, F & Preston, C 2018, ‘Evolution of synthetic aperture radar technology for safety-critical monitoring in open 
-pit mines’, Proceedings of the 2018 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, 
-BCO Congresos, Barcelona. 
-Duncan, J & Wright, S 1980, ‘The accuracy of equilibrium methods of slope stability analysis’, Engineering Geology, vol. 6, pp. 5–17. 
-Farina, P, Coli, N, Yon, R, Eken, G & Ketizman, H 2013, ‘Efficient real time stability monitoring of mine walls: the Cöllolar Mine case 
-study’, in I Bengu & M Gulsun (eds), Proceedings of the 23rd International Mining Congress & Exhibition of Turkey, Chamber 
-of Mining Engineers of Turkey, Ankara. 
-Gibson, W 2011, ‘Probabilistic methods for slope analysis and design’, Australian Geomechanics Journal, vol. 46, no. 3, pp. 29–39. 
-Krahn, J 2007, ‘Limited equilibrium, strength summation and strength reduction methods for assessing slope stability’, in E Eberhardt, 
-D Stead & T Morrison (eds), Proceedings of the 1st Canada-US Rock Mechanics Symposium, Taylor & Francis Group, Milton 
-Park, pp. 311–318. 
-Kristen, H 1983, ‘Significance of the probability of failure in slope engineering’, The Civil Engineer in South Africa, vol. 25, no. 1,  
-pp. 17–27. 
-McQuillan, A, Canbulat, I, Oh, J, Gale, S & Yacoub, T 2018, ‘Geotechnical review of an open cut coal mine slope using 3D LEM and new 
-empirical run out chart predictions’, Proceedings of the 2018 International Symposium on Slope Stability in Open Pit Mining 
-and Civil Engineering, BCO Congresos, Barcelona. 
-Pothitos, F & Li, T 2007, ‘Slope design criteria for large open pits: case study’, Proceedings of the 2007 International Symposium on 
-Rock Slope Stability in Open Pit Mining and Civil Engineering, in Y Potvin (ed.), Australian Centre for Geomechanics, Perth 
-pp. 341–352. 
-Priest, S & Brown, E 1983, ‘Probabilistic stability analysis of variable rock slopes’, Institution of Mining and Metallurgy Transactions, 
-vol. 92, pp. A1–A12. 
-Ramsden, F, Coli, N, Benedetti, A, Falomi, A, Leoni, L & Michelini, A 2015, ‘Effective use of slope monitoring radar to predict a slope 
-failure at Jwaneng Mine, Botswana’, Proceedings of the 2015 International Symposium on Slope Stability in Open Pit Mining 
-and Civil Engineering, The Southern African Institute of Mining and Metallurgy, Cape Town, pp. 825–840. 
-Read, J & Stacey, P 2008, ‘Guidelines for Open Pit Slope Design’, CSIRO Publishing, Victoria. 
-Rocscience Inc. 2019a, Slide3, computer software, Rocscience Inc., Toronto, https://www.rocscience.com/software/slide3 
-Three-dimensional slope stability modelling and its interoperability
-with interferometric radar data to improve geotechnical design
+Price’s Techniques’, Journal of Geotechnical and Geoenvironmental Engineering, vol. 133, no. 12, pp. 1544–1555.
+Coli, N, Leoni, L, Coppi, F & Preston, C 2018, ‘Evolution of synthetic aperture radar technology for safety-critical monitoring in open pit mines’, Proceedings of the 2018 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering,
+BCO Congresos, Barcelona.
+Duncan, J & Wright, S 1980, ‘The accuracy of equilibrium methods of slope stability analysis’, Engineering Geology, vol. 6, pp. 5–17.
+Farina, P, Coli, N, Yon, R, Eken, G & Ketizman, H 2013, ‘Efficient real time stability monitoring of mine walls: the Cöllolar Mine case study’, in I Bengu & M Gulsun (eds), Proceedings of the 23rd International Mining Congress & Exhibition of Turkey, Chamber of Mining Engineers of Turkey, Ankara.
+Gibson, W 2011, ‘Probabilistic methods for slope analysis and design’, Australian Geomechanics Journal, vol. 46, no. 3, pp. 29–39.
+Krahn, J 2007, ‘Limited equilibrium, strength summation and strength reduction methods for assessing slope stability’, in E Eberhardt,
+D Stead & T Morrison (eds), Proceedings of the 1st Canada-US Rock Mechanics Symposium, Taylor & Francis Group, Milton
+Park, pp. 311–318.
+Kristen, H 1983, ‘Significance of the probability of failure in slope engineering’, The Civil Engineer in South Africa, vol. 25, no. 1, pp. 17–27.
+McQuillan, A, Canbulat, I, Oh, J, Gale, S & Yacoub, T 2018, ‘Geotechnical review of an open cut coal mine slope using 3D LEM and new empirical run out chart predictions’, Proceedings of the 2018 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, BCO Congresos, Barcelona.
+Pothitos, F & Li, T 2007, ‘Slope design criteria for large open pits: case study’, Proceedings of the 2007 International Symposium on
+Rock Slope Stability in Open Pit Mining and Civil Engineering, in Y Potvin (ed.), Australian Centre for Geomechanics, Perth pp. 341–352.
+Priest, S & Brown, E 1983, ‘Probabilistic stability analysis of variable rock slopes’, Institution of Mining and Metallurgy Transactions, vol. 92, pp. A1–A12.
+Ramsden, F, Coli, N, Benedetti, A, Falomi, A, Leoni, L & Michelini, A 2015, ‘Effective use of slope monitoring radar to predict a slope failure at Jwaneng Mine, Botswana’, Proceedings of the 2015 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, The Southern African Institute of Mining and Metallurgy, Cape Town, pp. 825–840.
+Read, J & Stacey, P 2008, ‘Guidelines for Open Pit Slope Design’, CSIRO Publishing, Victoria.
+Rocscience Inc. 2019a, Slide3, computer software, Rocscience Inc., Toronto, https://www.rocscience.com/software/slide3
+Three-dimensional slope stability modelling and its interoperability with interferometric radar data to improve geotechnical design
 A McQuillan et al.
-1356
 Slope Stability 2020
- 
-Rocscience Inc. 2019b, RS3, computer software, Rocscience Inc., Toronto, https://www.rocscience.com/software/rs3 
-Rocscience Inc. 2019c, Slide2, computer software, Rocscience Inc., Toronto, https://www.rocscience.com/software/slide2 
-Rocscience Inc. 2019c, RS2, computer software, Rocscience Inc., Toronto, https://www.rocscience.com/software/rs2 
-Sakari, M, Suikkanen, M, Coli, N & Meloni, F 2018, ‘Use of radar system for real-time safety-critical slope monitoring at Yara Siilinjarvi 
-mine, Finland’, Proceedings of the 2018 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, 
-BCO Congresos, Barcelona. 
-Sakari, M, Suikkanen, M, Coli, N, Funaioli, G & Meloni, F 2016, ‘Critical real time radar monitoring of sub-bench failures at Yara Suomi 
-Oy Siilinjärvi open pit mine (Finland)’, in R Ulusay, O Aydan, H Gerçek, MA Hindistan & E Tuncay (eds), Rock Mechanics and 
-Rock Engineering: From the Past to the Future; Proceedings of the 2016 International Rock Mechanics Symposium: Eurock 
-2016, Taylor & Francis Group, Milton Park. 
-Vorster, J, Seidu, M, Coli, N & Funaioli, F 2015, ‘Using radar technology to assess the effect of dewatering on slope stability’, 
-Proceedings of the 2015 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, The Southern 
-African Institute of Mining and Metallurgy, Cape Town, pp. 125–138. 
- 
- 
+
+Rocscience Inc. 2019b, RS3, computer software, Rocscience Inc., Toronto, https://www.rocscience.com/software/rs3
+Rocscience Inc. 2019c, Slide2, computer software, Rocscience Inc., Toronto, https://www.rocscience.com/software/slide2
+Rocscience Inc. 2019c, RS2, computer software, Rocscience Inc., Toronto, https://www.rocscience.com/software/rs2
+Sakari, M, Suikkanen, M, Coli, N & Meloni, F 2018, ‘Use of radar system for real-time safety-critical slope monitoring at Yara Siilinjarvi mine, Finland’, Proceedings of the 2018 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering,
+BCO Congresos, Barcelona.
+Sakari, M, Suikkanen, M, Coli, N, Funaioli, G & Meloni, F 2016, ‘Critical real time radar monitoring of sub-bench failures at Yara Suomi
+Oy Siilinjärvi open pit mine (Finland)’, in R Ulusay, O Aydan, H Gerçek, MA Hindistan & E Tuncay (eds), Rock Mechanics and
+Rock Engineering: From the Past to the Future; Proceedings of the 2016 International Rock Mechanics Symposium: Eurock
+2016, Taylor & Francis Group, Milton Park.
+Vorster, J, Seidu, M, Coli, N & Funaioli, F 2015, ‘Using radar technology to assess the effect of dewatering on slope stability’,
+Proceedings of the 2015 International Symposium on Slope Stability in Open Pit Mining and Civil Engineering, The Southern
+African Institute of Mining and Metallurgy, Cape Town, pp. 125–138.
+
 Surface water and groundwater management, depressurisation, monitoring and remediation
 Slope Stability 2020
-1357
- 
- 
-Three-dimensional slope stability modelling and its interoperability
-with interferometric radar data to improve geotechnical design
+
+Three-dimensional slope stability modelling and its interoperability with interferometric radar data to improve geotechnical design
 A McQuillan et al.
-1358
 Slope Stability 2020

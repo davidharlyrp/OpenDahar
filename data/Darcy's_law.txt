@@ -1,0 +1,145 @@
+Henry Darcy
+Darcy's law
+Darcy's law is an equation that describes the flow of a fluid through a porous medium and through a
+Hele-Shaw cell. The law was formulated by Henry Darcy based on results of experiments[1] on the flow of water through beds of sand, forming the basis of hydrogeology, a branch of earth sciences. It is analogous to Ohm's law in electrostatics, linearly relating the volume flow rate of the fluid to the hydraulic head difference (which is often just proportional to the pressure difference) via the hydraulic conductivity. In fact, the Darcy's law is a special case of the Stokes equation for the momentum flux, in turn deriving from the momentum Navier–Stokes equation.
+Darcy's law was first determined experimentally by Darcy, but has since been derived from the Navier–Stokes equations via homogenization methods.[2][3] It is analogous to Fourier's law in the field of heat conduction, Ohm's law in the field of electrical networks, and Fick's law in diffusion theory.
+One application of Darcy's law is in the analysis of water flow through an aquifer; Darcy's law along with the equation of conservation of mass simplifies to the groundwater flow equation, one of the basic relationships of hydrogeology.
+Morris Muskat first[4] refined Darcy's equation for a single- phase flow by including viscosity in the single (fluid) phase equation of Darcy. It can be understood that viscous fluids have more difficulty permeating through a porous medium than less viscous fluids. This change made it suitable for researchers in the petroleum industry. Based on experimental results by his colleagues Wyckoff and Botset, Muskat and
+Meres also generalized Darcy's law to cover a multiphase flow of water, oil and gas in the porous medium of a petroleum reservoir. The generalized multiphase flow equations by Muskat and others provide the analytical foundation for reservoir engineering that exists to this day.
+In the integral form, Darcy's law, as refined by Morris Muskat, in the absence of gravitational forces and in a homogeneously permeable medium, is given by a simple proportionality relationship between the volumetric flow rate
+, and the pressure drop through a porous medium. The proportionality constant is linked to the permeability of the medium, the dynamic viscosity of the fluid , the given distance over which the pressure drop is computed, and the cross-sectional area , in the form:
+Background
+Description
+Diagram showing definitions and directions for
+Darcy's law. A is the cross sectional area (m2) of the cylinder. Q is the flow rate (m3/s) of the fluid flowing through the area A. The flux of fluid through A is q = Q/A. L is the length of the cylinder. Δp = poutlet - pinlet = pb - pa.
+= Δp/L = hydraulic gradient applied between the points a and b.
+The ratio:
+can also be defined as the Darcy's law hydraulic resistance.
+The Darcy's law can be generalised to a local form:
+Darcy's constitutive equation (isotropicporous media) where is the hydraulic gradient and is the volumetric flux which here is called also superficial velocity. Note that the ratio:
+can be thought as the Darcy's law hydraulic conductivity.
+In the (less general) integral form, the volumetric flux and the pressure gradient correspond to the ratios:
+.
+In case of an anisotropic porous media, the permeability is a second order tensor, and in tensor notation one can write the more general law:
+Darcy's constitutive equation (anisotropicporous media)
+Notice that the quantity , often referred to as the Darcy flux or Darcy velocity, is not the velocity at which the fluid is travelling through the pores. It is the volumetric flux, or flow rate per unit area (See
+Flux Flummoxed, Ground Water. 44 (2): 125–128, 2006). The flow velocity (u) is related to the flux (q) by the porosity (φ) with the following equation:
+The Darcy's constitutive equation, for single phase (fluid) flow, is the defining equation for absolute permeability (single phase permeability).
+With reference to the diagram to the right, the flow velocity is in SI units
+, and since the porosity φ is a nondimensional number, the Darcy flux , or discharge per unit area, is also defined in units
+; the permeability in units
+, the dynamic viscosity in units and the hydraulic gradient is in units
+.
+In the integral form, the total pressure drop is in units
+, and is the length of the sample in units
+, the Darcy's volumetric flow rate
+, or discharge, is also defined in units and the cross-sectional area in units
+. A number of these parameters are used in alternative definitions below. A negative sign is used in the definition of the flux following the standard physics convention that fluids flow from regions of high pressure to regions of low pressure. Note that the elevation head must be taken into account if the inlet and outlet are at different elevations. If the change in pressure is negative, then the flow will be in the positive x direction. There have been several proposals for a constitutive equation for absolute permeability, and the most famous one is probably the Kozeny equation (also called
+Kozeny–Carman equation).
+By considering the relation for static fluid pressure (Stevin's law):
+one can decline the integral form also into the equation:
+where ν is the kinematic viscosity. The corresponding hydraulic conductivity is therefore:
+Darcy's law is a simple mathematical statement which neatly summarizes several familiar properties that groundwater flowing in aquifers exhibits, including:
+if there is no pressure gradient over a distance, no flow occurs (these are hydrostatic conditions), if there is a pressure gradient, flow will occur from high pressure towards low pressure
+(opposite the direction of increasing gradient — hence the negative sign in Darcy's law), the greater the pressure gradient (through the same formation material), the greater the discharge rate, and the discharge rate of fluid will often be different — through different formation materials (or even through the same material, in a different direction) — even if the same pressure gradient exists in both cases.
+A graphical illustration of the use of the steady-state groundwater flow equation (based on Darcy's law and the conservation of mass) is in the construction of flow nets, to quantify the amount of groundwater flowing under a dam.
+Darcy's law is only valid for slow, viscous flow; however, most groundwater flow cases fall in this category. Typically any flow with a Reynolds number less than one is clearly laminar, and it would be valid to apply Darcy's law. Experimental tests have shown that flow regimes with Reynolds numbers up to 10 may still be Darcian, as in the case of groundwater flow. The Reynolds number (a dimensionless parameter) for porous media flow is typically expressed as where ν is the kinematic viscosity of water, q is the specific discharge (not the pore velocity — with units of length per time), d is a representative grain diameter for the porous media (the standard choice is math|d30, which is the 30% passing size from a grain size analysis using sieves — with units of length).
+For stationary, creeping, incompressible flow, i.e. ⁠
+D(ρui)
+Dt ⁠ ≈ 0, the Navier–Stokes equation simplifies to the Stokes equation, which by neglecting the bulk term is:
+where μ is the viscosity, ui is the velocity in the i direction, and p is the pressure. Assuming the viscous resisting force is linear with the velocity we may write:
+where φ is the porosity, and kij is the second order permeability tensor. This gives the velocity in the n direction, which gives Darcy's law for the volumetric flux density in the n direction,
+In isotropic porous media the off-diagonal elements in the permeability tensor are zero, kij = 0 for i ≠ j and the diagonal elements are identical, kii = k, and the common form is obtained as below, which enables the determination of the liquid flow velocity by solving a set of equations in a given region.[5]
+The above equation is a governing equation for single-phase fluid flow in a porous medium.
+Derivation
+Another derivation of Darcy's law is used extensively in petroleum engineering to determine the flow through permeable media — the most simple of which is for a one-dimensional, homogeneous rock formation with a single fluid phase and constant fluid viscosity.
+Almost all oil reservoirs have a water zone below the oil leg, and some also have a gas cap above the oil leg. When the reservoir pressure drops due to oil production, water flows into the oil zone from below, and gas flows into the oil zone from above (if the gas cap exists), and we get a simultaneous flow and immiscible mixing of all fluid phases in the oil zone. The oil field operator may also inject water (or gas) to improve oil production. The petroleum industry is, therefore, using a generalized Darcy equation for multiphase flow developed by Muskat et alios. Because Darcy's name is so widespread and strongly associated with flow in porous media, the multiphase equation is denoted Darcy's law for multiphase flow or generalized Darcy equation (or law) or simply Darcy's equation (or law) or flow equation if the context says that the text is discussing the multiphase equation of Muskat. Multiphase flow in oil and gas reservoirs is a comprehensive topic, and one of many articles about this topic is Darcy's law for multiphase flow.
+A number of papers have utilized Darcy's law to model the physics of brewing in a moka pot, specifically how the hot water percolates through the coffee grinds under pressure, starting with a 2001 paper by
+Varlamov and Balestrino,[6] and continuing with a 2007 paper by Gianino,[7] a 2008 paper by Navarini et al.,[8] and a 2008 paper by W. King.[9] The papers will either take the coffee permeability to be constant as a simplification or will measure change through the brewing process.
+Darcy's law can be expressed very generally as:
+where q is the volume flux vector of the fluid at a particular point in the medium, h is the total hydraulic head, and K is the hydraulic conductivity tensor, at that point. The hydraulic conductivity can often be approximated as a scalar. (Note the analogy to Ohm's law in electrostatics. The flux vector is analogous to the current density, head is analogous to voltage, and hydraulic conductivity is analogous to electrical conductivity.)
+Use in petroleum engineering
+Use in coffee brewing
+Additional forms
+Differential expression
+For flows in porous media with Reynolds numbers greater than about 1 to 10, inertial effects can also become significant. Usually, an inertial term is added to the Darcy's equation, known as Forchheimer term. This term is able to account for the non-linear behavior of the pressure difference vs flow data.[10][11] where the additional term k1 is known as inertial permeability, in units of length
+.
+When the Reynolds number is greater than 1, the onset of inertial flow regime is observed after a transition from Darcy's regime. The Darcy's law is no longer valid and the non-linear, inertial, correction is added. The origin of this behavior is a result of the change in the shape of the flow streamlines at the pore scale. This change is induced by the recirculation zones that play an important role in the variation of the flow structure.[11]
+The flow in the middle of a sandstone reservoir is so slow that Forchheimer's equation is usually not needed, but the gas flow into a gas production well may be high enough to justify using it. In this case, the inflow performance calculations for the well, not the grid cell of the 3D model, are based on the
+Forchheimer equation. The effect of this is that an additional rate-dependent skin appears in the inflow performance formula.
+Some carbonate reservoirs have many fractures, and Darcy's equation for multiphase flow is generalized in order to govern both flow in fractures and flow in the matrix (i.e. the traditional porous rock). The irregular surface of the fracture walls and high flow rate in the fractures may justify the use of
+Forchheimer's equation.
+For gas flow in small characteristic dimensions (e.g., very fine sand, nanoporous structures etc.), the particle-wall interactions become more frequent, giving rise to additional wall friction (Knudsen friction).
+For a flow in this region, where both viscous and Knudsen friction are present, a new formulation needs to be used. Knudsen presented a semi-empirical model for flow in transition regime based on his experiments on small capillaries.[12][13] For a porous medium, the Knudsen equation can be given as[13] where N is the molar flux, R is the gas constant, T is the temperature, D eff
+K is the effective Knudsen diffusivity of the porous media. The model can also be derived from the first-principle-based binary friction model (BFM).[14][15] The differential equation of transition flow in porous media based on BFM is given as[14]
+Quadratic law
+Correction for gases in fine media (Knudsen diffusion or Klinkenberg effect)
+This equation is valid for capillaries as well as porous media. The terminology of the Knudsen effect and
+Knudsen diffusivity is more common in mechanical and chemical engineering. In geological and petrochemical engineering, this effect is known as the Klinkenberg effect. Using the definition of molar flux, the above equation can be rewritten as
+This equation can be rearranged into the following equation
+Comparing this equation with conventional Darcy's law, a new formulation can be given as where
+This is equivalent to the effective permeability formulation proposed by Klinkenberg:[16] where b is known as the Klinkenberg parameter, which depends on the gas and the porous medium structure. This is quite evident if we compare the above formulations. The Klinkenberg parameter b is dependent on permeability, Knudsen diffusivity and viscosity (i.e., both gas and porous medium properties).
+For very short time scales, a time derivative of flux may be added to Darcy's law, which results in valid solutions at very small times (in heat transfer, this is called the modified form of Fourier's law), where τ is a very small time constant which causes this equation to reduce to the normal form of Darcy's law at "normal" times (> nanoseconds). The main reason for doing this is that the regular groundwater flow equation (diffusion equation) leads to singularities at constant head boundaries at very small times.
+This form is more mathematically rigorous but leads to a hyperbolic groundwater flow equation, which is more difficult to solve and is only useful at very small times, typically out of the realm of practical use.
+Darcy's law for short time scales
+Another extension to the traditional form of Darcy's law is the Brinkman term, which is used to account for transitional flow between boundaries (introduced by Brinkman in 1949[17]), where β is an effective viscosity term. This correction term accounts for flow through medium where the grains of the media are porous themselves, but is difficult to use, and is typically neglected.
+Darcy's law is valid for laminar flow through sediments. In fine-grained sediments, the dimensions of interstices are small; thus, the flow is laminar. Coarse-grained sediments also behave similarly, but in very coarse-grained sediments, the flow may be turbulent.[18] Hence Darcy's law is not always valid in such sediments. For flow through commercial circular pipes, the flow is laminar when the Reynolds number is less than 2000 and turbulent when it is more than 4000, but in some sediments, it has been found that flow is laminar when the value of the Reynolds number is less than 1.[19]
+The darcy, a unit of fluid permeability
+Hydrogeology
+Groundwater flow equation
+Mathematical model
+Black-oil equations
+Fick's law
+Ergun equation
+1. Darcy, H. (1856). Les fontaines publiques de la ville de Dijon. Paris: Dalmont.
+2. Whitaker, S. (1986). "Flow in porous media I: A theoretical derivation of Darcy's law".
+Transport in Porous Media. 1 (1): 3–25. Bibcode:1986TPMed...1....3W (https://ui.adsabs.har vard.edu/abs/1986TPMed...1....3W). doi:10.1007/BF01036523 (https://doi.org/10.1007%2F
+BF01036523). S2CID 121904058 (https://api.semanticscholar.org/CorpusID:121904058).
+3. Brown, G. O. (2002). "Henry Darcy and the making of a law" (https://agupubs.onlinelibrary.w iley.com/doi/10.1029/2001WR000727). Water Resources Research. 38 (7): 1106.
+Bibcode:2002WRR....38.1106B (https://ui.adsabs.harvard.edu/abs/2002WRR....38.1106B).
+doi:10.1029/2001WR000727 (https://doi.org/10.1029%2F2001WR000727). ISSN 0043-
+1397 (https://search.worldcat.org/issn/0043-1397).
+4. Read "Memorial Tributes: Volume 14" at NAP.edu (https://www.nap.edu/read/12884/chapter/
+42). 2011. doi:10.17226/12884 (https://doi.org/10.17226%2F12884). ISBN 978-0-309-
+15218-1.
+Brinkman form of Darcy's law
+Validity of Darcy's law
+See also
+References
+5. Tailoring Porous Media For Controllable Capillary Flow (https://imechanica.org/files/JCIS-20
+19-Tailoring%20porous%20media%20for%20controllable%20capillary%20flow_0.pdf#page=
+4) Journal of Colloid and Interface Science 539 (2019) 379–387
+6. A. Varlamov and G. Balestrino, "La fisica di un buon caffè," Il Nuovo Saggiatore 17 3-4􏰀, 59–
+66  2001􏰀.
+7. Gianino, Concetto. Experimental analysis of the Italian coffee pot "moka". American Journal of Physics (2007)
+8. "Experimental investigation of steam pressure coffee extraction in a stove-top coffee maker"
+L. Navarini, E. Nobile, F. Pinto, A. Scheri, F. Suggi-Liverani
+9. King, Warren. "The physics of a stove-top espresso machine". American Journal of Physics
+(2008)
+10. Bejan, A. (1984). Convection Heat Transfer. John Wiley & Sons.
+11. Agnaou, Mehrez; Lasseux, Didier; Ahmadi, Azita (2017). "Origin of the inertial deviation from
+Darcy's law: An investigation from a microscopic flow analysis on two-dimensional model structures" (https://link.aps.org/doi/10.1103/PhysRevE.96.043105). Physical Review E. 96
+(4) 043105. American Physical Society. Bibcode:2017PhRvE..96d3105A (https://ui.adsabs.h arvard.edu/abs/2017PhRvE..96d3105A). doi:10.1103/PhysRevE.96.043105 (https://doi.org/
+10.1103%2FPhysRevE.96.043105). hdl:10985/12154 (https://hdl.handle.net/10985%2F121
+54). PMID 29347623 (https://pubmed.ncbi.nlm.nih.gov/29347623).
+12. Cunningham, R. E.; Williams, R. J. J. (1980). Diffusion in Gases and Porous Media. New
+York: Plenum Press.
+13. Carrigy, N.; Pant, L. M.; Mitra, S. K.; Secanell, M. (2013). "Knudsen diffusivity and permeability of pemfc microporous coated gas diffusion layers for different polytetrafluoroethylene loadings" (https://zenodo.org/record/895693). Journal of the
+Electrochemical Society. 160 (2): F81–89. doi:10.1149/2.036302jes (https://doi.org/10.114
+9%2F2.036302jes).
+14. Pant, L. M.; Mitra, S. K.; Secanell, M. (2012). "Absolute permeability and Knudsen diffusivity measurements in PEMFC gas diffusion layers and micro porous layers". Journal of Power
+Sources. 206: 153–160. Bibcode:2012JPS...206..153P (https://ui.adsabs.harvard.edu/abs/2
+012JPS...206..153P). doi:10.1016/j.jpowsour.2012.01.099 (https://doi.org/10.1016%2Fj.jpow sour.2012.01.099).
+15. Kerkhof, P. (1996). "A modified Maxwell–Stefan model for transport through inert membranes: The binary friction model" (https://research.tue.nl/nl/publications/a-modified-ma xwellstefan-model-for-transport-through-inert-membranes--the-binary-friction-model(6a85d5
+0a-d4e3-454f-bb83-f60770375bc0).html). Chemical Engineering Journal and the
+Biochemical Engineering Journal. 64 (3): 319–343. doi:10.1016/S0923-0467(96)03134-X (ht tps://doi.org/10.1016%2FS0923-0467%2896%2903134-X).
+16. Klinkenberg, L. J. (1941). "The permeability of porous media to liquids and gases". Drilling and Production Practice. American Petroleum Institute. pp. 200–213.
+17. Brinkman, H. C. (1949). "A calculation of the viscous force exerted by a flowing fluid on a dense swarm of particles". Applied Scientific Research. 1 (1) 27: 27–34.
+Bibcode:1949FTC.....1...27B (https://ui.adsabs.harvard.edu/abs/1949FTC.....1...27B).
+CiteSeerX 10.1.1.454.3769 (https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.454.
+3769). doi:10.1007/BF02120313 (https://doi.org/10.1007%2FBF02120313).
+18. Jin, Y.; Uth, M.-F.; Kuznetsov, A. V.; Herwig, H. (2 February 2015). "Numerical investigation of the possibility of macroscopic turbulence in porous media: a direct numerical simulation study". Journal of Fluid Mechanics. 766: 76–103. Bibcode:2015JFM...766...76J (https://ui.ad sabs.harvard.edu/abs/2015JFM...766...76J). doi:10.1017/jfm.2015.9 (https://doi.org/10.101
+7%2Fjfm.2015.9). S2CID 119946306 (https://api.semanticscholar.org/CorpusID:11994630
+6).
+19. Arora, K. R. (1989). Soil Mechanics and Foundation Engineering. Standard Publishers.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Darcy%27s_law&oldid=1343287344"

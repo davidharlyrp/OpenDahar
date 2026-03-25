@@ -1,10 +1,9 @@
-113
 Risk Assessment of Open Pit Slope Design at PT Adaro Indonesia, M.A. Azizi et. al
-Received : 12 March 2014,  first revision : 16 July 2014,  second revision : 15 September 2014,  accepted : October 2014
-Indonesian Mining Journal  Vol. 17, No. 3, October 2014 : 113 - 121
-RISK ASSESSMENT OF OPEN PIT SLOPE DESIGN 
+Received : 12 March 2014, first revision : 16 July 2014, second revision : 15 September 2014, accepted : October 2014
+Indonesian Mining Journal Vol. 17, No. 3, October 2014 : 113 - 121
+RISK ASSESSMENT OF OPEN PIT SLOPE DESIGN
 AT PT ADARO INDONESIA
-PENILAIAN RISIKO KESTABILAN LERENG TUNGGAL TAMBANG 
+PENILAIAN RISIKO KESTABILAN LERENG TUNGGAL TAMBANG
 TERBUKA DI PT ADARO INDONESIA
 M. A. AZIZI1,3, S. KRAMADIBRATA1, R.K. WATTIMENA1 and I.D. SIDI2
 1 Mining Engineering Department, Institut Teknologi Bandung, Indonesia
@@ -13,291 +12,98 @@ Jalan Ganesha No. 10, Bandung 40132
 Telp. / Fax. (62-22)-2500935
 3 Mining Engineering Department, Trisakti University, Indonesia
 Jl. Kyai Tapa No.1, Grogol Jakarta 11440
-Telp. (62-21) 5663232
-e-mail: masagus.azizi@gmail.com
+Telp. (62-21) 5663232 e-mail: masagus.azizi@gmail.com
 ABSTRACT
-Risk assessment of open pit slope stability is an important aspect to be considered in a decision making of slope 
-design. The risk of slope failure that occurred on the slopes of the mine affect two factors namely the failure 
-probability (FP), and consequences (C) of slope failure. FP is obtained from the collection of the value of Safety 
-Factor (SF) < 1 compared to the total value of SF, while the consequences is estimated from the sectional area 
-multiplied by the width of slope failure. Physical and mechanical properties of sandstone was collected from PT 
-Adaro Indonesia, and tested by “Kolmogorov-Smirnov (K-S)” fitting method to obtain an assumed theoretical 
-distribution that be sued with the character of the original distribution data. “Monte Carlo (MC)” and “Latin Hy­
-percube (LH)” sampling method is used as a tool to generate sample data, and both methods were compared. 
+Risk assessment of open pit slope stability is an important aspect to be considered in a decision making of slope design. The risk of slope failure that occurred on the slopes of the mine affect two factors namely the failure probability (FP), and consequences (C) of slope failure. FP is obtained from the collection of the value of Safety
+Factor (SF) < 1 compared to the total value of SF, while the consequences is estimated from the sectional area multiplied by the width of slope failure. Physical and mechanical properties of sandstone was collected from PT
+Adaro Indonesia, and tested by “Kolmogorov-Smirnov (K-S)” fitting method to obtain an assumed theoretical distribution that be sued with the character of the original distribution data. “Monte Carlo (MC)” and “Latin Hy­ percube (LH)” sampling method is used as a tool to generate sample data, and both methods were compared.
 Finally Validation is conducted in order to propose an acceptable criteria of FP for single slope of sandstone.
 Keywords: risk, open pit, failure probability, slope stability
 SARI
-Penilaian risiko kestabilan lereng tambang terbuka merupakan aspek penting yang perlu dipertimbangkan da­
-lam pengambilan keputusan suatu disain lereng. Risiko longsor yang terjadi pada lereng tambang dipengaruhi 
-2 faktor, yakni probabilitas kelongsoran (PK) lereng tersebut akan longsor, dan seberapa besar dampak yang 
-ditimbulkan bila lereng tersebut benar-benar longsor. Probabilitas Kelongsoran (PK) diperoleh dari kumpulan 
-nilai FK <1 dibandingkan dengan total nilai FK, sedangkan dampak kelongsoran ditentukan dari estimasi luas 
-penampang disain lereng dikalikan dengan lebar pengaruh longsoran. Penelitian ini menggunakan data sifat 
-fisik dan mekanik batu pasir yang berasal dari PT Adaro Indonesia. Uji suai (fitting test) terhadap data sifat fisik 
-dan mekanik menggunakan metode Kolmogorov-Smirnov (K-S) guna memperoleh distribusi yang paling cocok 
-dengan karakter data aslinya. Untuk memperbanyak data hasil uji suai digunakan 2 metode sampling, yakni 
-metode Monte Carlo (MC) dan metode Latin Hypercube (LH). Hasil dari kedua metode tersebut dibandingkan. 
+Penilaian risiko kestabilan lereng tambang terbuka merupakan aspek penting yang perlu dipertimbangkan da­ lam pengambilan keputusan suatu disain lereng. Risiko longsor yang terjadi pada lereng tambang dipengaruhi
+2 faktor, yakni probabilitas kelongsoran (PK) lereng tersebut akan longsor, dan seberapa besar dampak yang ditimbulkan bila lereng tersebut benar-benar longsor. Probabilitas Kelongsoran (PK) diperoleh dari kumpulan nilai FK <1 dibandingkan dengan total nilai FK, sedangkan dampak kelongsoran ditentukan dari estimasi luas penampang disain lereng dikalikan dengan lebar pengaruh longsoran. Penelitian ini menggunakan data sifat fisik dan mekanik batu pasir yang berasal dari PT Adaro Indonesia. Uji suai (fitting test) terhadap data sifat fisik dan mekanik menggunakan metode Kolmogorov-Smirnov (K-S) guna memperoleh distribusi yang paling cocok dengan karakter data aslinya. Untuk memperbanyak data hasil uji suai digunakan 2 metode sampling, yakni metode Monte Carlo (MC) dan metode Latin Hypercube (LH). Hasil dari kedua metode tersebut dibandingkan.
 Validasi dilakukan guna mengusulkan ambang batas PK yang aman untuk lereng tunggal batu pasir.
 Kata kunci: risiko, tambang terbuka, probabilitas kelongsoran, stabilitas lereng
-114
-Indonesian Mining Journal  Vol. 17, No. 3, October 2014 : 113 - 121
+Indonesian Mining Journal Vol. 17, No. 3, October 2014 : 113 - 121
 INTRODUCTION
-For the last three decades the Indonesian coal 
-production tends to be increased up to the level of 
-above 400 million tons in 2013 (ESDM, 2014). That 
-is due to the increasing needs of the world’s coal and 
-coal prices are quite favorable. As a result, most of 
-the domestic coal mines are competing to raise their 
-production level, which indirectly increase the dimen­
-sions of excavation, the use of heavy equipment with 
-large capacity, as well as the frequency and amount 
-of explosives used in rock destruction. This of course 
-increases the potential risk of slope failure. On the 
-other hand, high rainfall in Indonesia also affect the 
-detoriation of rock strength in slope.
-When the above factors are not well managed, 
-then it raises the potential risk of overall slope 
-failure. Some events of slope failure have often 
-occurred on the smallest scale (single slope) up 
-to the large-scale (overall slope), that are caused 
-by one or more of these factors.
-Risk of slope failure is the result of the multiplica­
-tion of the failure probability (FP) or (Likelihood) 
-and the consequences of slope failure (C). FP 
-is the chance that caused slope failure due to 
-one or more factors affect the slope stability. C 
-is impacted due to slope failure that can be fatal 
-and/or injury, loss and/or damage of property 
-and mine infrastructure, loss of potential reserve, 
-loss of revenue, rehabilitation cost, as well as the 
-environmental impact.
-Based on these facts, the research related to risk 
-assessment of open pit mine slope design may 
-become a very important problem to be solved. 
-Research on consequences analysis of slope failure 
-has been performed by several researchers (Ter­
-brugge et al, 2006; Steffen et al, 2008; Chiwaye, 
-2010) which includes safety and economic impact 
-analysis. Case studies on the consequences analy­
-sis of Batu Hijau mine has proven slope failure that 
-occurred at a pre-estimated, so that production 
-operations are not conducted in the span of the 
-potential failure (S.Kramadibrata et al, 2012).
+For the last three decades the Indonesian coal production tends to be increased up to the level of above 400 million tons in 2013 (ESDM, 2014). That is due to the increasing needs of the world’s coal and coal prices are quite favorable. As a result, most of the domestic coal mines are competing to raise their production level, which indirectly increase the dimen­ sions of excavation, the use of heavy equipment with large capacity, as well as the frequency and amount of explosives used in rock destruction. This of course increases the potential risk of slope failure. On the other hand, high rainfall in Indonesia also affect the detoriation of rock strength in slope.
+When the above factors are not well managed, then it raises the potential risk of overall slope failure. Some events of slope failure have often occurred on the smallest scale (single slope) up to the large-scale (overall slope), that are caused by one or more of these factors.
+Risk of slope failure is the result of the multiplica­ tion of the failure probability (FP) or (Likelihood) and the consequences of slope failure (C). FP is the chance that caused slope failure due to one or more factors affect the slope stability. C is impacted due to slope failure that can be fatal and/or injury, loss and/or damage of property and mine infrastructure, loss of potential reserve, loss of revenue, rehabilitation cost, as well as the environmental impact.
+Based on these facts, the research related to risk assessment of open pit mine slope design may become a very important problem to be solved.
+Research on consequences analysis of slope failure has been performed by several researchers (Ter­ brugge et al, 2006; Steffen et al, 2008; Chiwaye,
+2010) which includes safety and economic impact analysis. Case studies on the consequences analy­ sis of Batu Hijau mine has proven slope failure that occurred at a pre-estimated, so that production operations are not conducted in the span of the potential failure (S.Kramadibrata et al, 2012).
 METHODOLOGY
 Fitting Test
-If a theoretical distribution has been assumed, 
-then the validity of the assumed distribution could 
-be confirmed or refuted by a statistical test with 
-goodness of fit. There are several methods to test 
-the goodness of fit of some assumed distribution 
-functions, i.e. Chi Square method, Kolmogrov-
-Smirnov (K-S) method, and Anderson-Darling 
-method. This paper only discusses the K-S 
-method. The basic procedure of this method in­
-cludes a comparison between experimental and 
-theoretical cumulative frequency distribution of 
-the types of assumed distributions. If the differ­
-ence of both frequencies is higher than those of 
-a certain sample size, the assumed theoretical 
-distribution will be rejected. We used cumulative 
-distribution function as input parameter for get­
-ting F^* (x) theoretical distribution function. The 
-equation of this cumulative distribution function 
-is as follows:
-S (x) =
-n
-k
-n x = x < x
-n
-k+1
-0  x < x1
-1  x = xn
-..................................[1]
-x1,x2,....,xn  are the values of the sample data that 
-is already set, and n is the sample size.
-In the K-S test, to examine if the data support 
-the null hypothesis, we compared F* (x) against 
-the experimental distribution function F(x). The 
-maximum difference of both distributions can be 
-written as follows:
+If a theoretical distribution has been assumed, then the validity of the assumed distribution could be confirmed or refuted by a statistical test with goodness of fit. There are several methods to test the goodness of fit of some assumed distribution functions, i.e. Chi Square method, Kolmogrov-
+Smirnov (K-S) method, and Anderson-Darling method. This paper only discusses the K-S method. The basic procedure of this method in­ cludes a comparison between experimental and theoretical cumulative frequency distribution of the types of assumed distributions. If the differ­ ence of both frequencies is higher than those of a certain sample size, the assumed theoretical distribution will be rejected. We used cumulative distribution function as input parameter for get­ ting F^* (x) theoretical distribution function. The equation of this cumulative distribution function is as follows:
+S (x) = n k n x = x < x n k+1
+0 x < x1
+1 x = xn
+..................................[1] x1,x2,....,xn are the values of the sample data that is already set, and n is the sample size.
+In the K-S test, to examine if the data support the null hypothesis, we compared F* (x) against the experimental distribution function F(x). The maximum difference of both distributions can be written as follows:
 Dn = maxx |F(x) - F*(x)|....................................[2]
-Theoretically Dn is a random variable where the 
-distribution depends on n. To a certain significance 
-level α, the K-S test compares the maximum dif­
-ference of the observations in the above equation 
-with the critical value 
-α
-n
-D . Thus with a significance 
-level α, the null hypothesis is rejected if Dn is 
-higher than the critical value.
-When two non-nested models are compared, 
-the larger model with more parameters have the 
-advantage of being able to fit the in-sample data 
-with more flexible function and thus possibly a 
-larger log-likelihood. To compare models on more 
-equal terms, penalized log-likelihood may be 
-adopted. The Akaike information criterion (Tse, 
-2009), denoted by AIC, proposes to penalize large 
-models by subtracting the number of parameters 
-in the model from its log-likelihood. Thus, AIC is 
-defined as:
+Theoretically Dn is a random variable where the distribution depends on n. To a certain significance level α, the K-S test compares the maximum dif­ ference of the observations in the above equation with the critical value α n
+D . Thus with a significance level α, the null hypothesis is rejected if Dn is higher than the critical value.
+When two non-nested models are compared, the larger model with more parameters have the advantage of being able to fit the in-sample data with more flexible function and thus possibly a larger log-likelihood. To compare models on more equal terms, penalized log-likelihood may be adopted. The Akaike information criterion (Tse,
+2009), denoted by AIC, proposes to penalize large models by subtracting the number of parameters in the model from its log-likelihood. Thus, AIC is defined as:
 AIC = log L ( ;x) - p
 <
 ...................................[3]
-115
 Risk Assessment of Open Pit Slope Design at PT Adaro Indonesia, M.A. Azizi et. al
-Where  log L(
+Where log L(
 <
-;x) is the log-likelihood evaluated 
-at the MLE 
-<
- and p is the number of estimated 
-parameters in the model. Based on this approach 
-the model with the largest AIC is selected.
-The above problem of the AIC can be corrected by 
-imposing a different penalty on the log-likelihood. 
-The Schwarz information criterion (Tse, 2009), 
-also called the Bayesian information criterion, 
-denoted by BIC, is defined as:
+;x) is the log-likelihood evaluated at the MLE
+< and p is the number of estimated parameters in the model. Based on this approach the model with the largest AIC is selected.
+The above problem of the AIC can be corrected by imposing a different penalty on the log-likelihood.
+The Schwarz information criterion (Tse, 2009), also called the Bayesian information criterion, denoted by BIC, is defined as:
 BIC = log L ( ;x) -
-<
-p
+< p
 2 log n..........................[4]
-The details of these methods can be seen in 
-Tse (2009); Azizi (2013) and Pramuditya et al 
+The details of these methods can be seen in
+Tse (2009); Azizi (2013) and Pramuditya et al
 (2013).
 Using Sampling Method
-The fact that the SF depends upon a number of 
-random variables such as the unit weight (g), the 
-cohesion (c) and the internal friction angle (f). The 
-values of these variables are distributed about 
-their means in a manner which can be described 
-by one of the assumed theoritical distribution 
-functions such as normal, lognormal, beta, and 
-gamma. The question is how to use this informa­
-tion to determine the distribution of SF values 
-and the FP.
-The Monte Carlo method (Abramson et al, 2000; 
-Baecher et al, 2003; Hoek, 2007) used random or 
-pseudo-random numbers to sample from probabil­
-ity distributions and, if sufficiently large numbers of 
-samples are generated and used in a calculation 
-such as that for a safety factor, a distribution of 
-values for the end product will be generated. The 
-Latin Hypercube sampling technique (Imam et 
-al, 1980 & Startzman and Watterbarger, 1985 in 
-Hoek, 2007; Abramson et al, 2000) was relatively 
-recent development which gives comparable 
-results to the Monte Carlo technique with few 
-samples. The method was based upon stratified 
-sampling with random selection within each stra­
-tum. Typically an analysis using 1000 samples 
-obtained by the Latin Hypercube technique would 
-produce comparable results to an analysis using 
-5000 samples that was obtained using the Monte 
-Carlo method. Both techniques were incorporated 
-in the program Slide version 6.
-Both the Monte Carlo and the Latin Hypercube 
-techniques require that the distribution of all the 
-input variables should either be known or that they 
-should be assumed. When no information on the 
-distribution is available it is usual to assume a 
-normal or a truncated normal distribution.
+The fact that the SF depends upon a number of random variables such as the unit weight (g), the cohesion (c) and the internal friction angle (f). The values of these variables are distributed about their means in a manner which can be described by one of the assumed theoritical distribution functions such as normal, lognormal, beta, and gamma. The question is how to use this informa­ tion to determine the distribution of SF values and the FP.
+The Monte Carlo method (Abramson et al, 2000;
+Baecher et al, 2003; Hoek, 2007) used random or pseudo-random numbers to sample from probabil­ ity distributions and, if sufficiently large numbers of samples are generated and used in a calculation such as that for a safety factor, a distribution of values for the end product will be generated. The
+Latin Hypercube sampling technique (Imam et al, 1980 & Startzman and Watterbarger, 1985 in
+Hoek, 2007; Abramson et al, 2000) was relatively recent development which gives comparable results to the Monte Carlo technique with few samples. The method was based upon stratified sampling with random selection within each stra­ tum. Typically an analysis using 1000 samples obtained by the Latin Hypercube technique would produce comparable results to an analysis using
+5000 samples that was obtained using the Monte
+Carlo method. Both techniques were incorporated in the program Slide version 6.
+Both the Monte Carlo and the Latin Hypercube techniques require that the distribution of all the input variables should either be known or that they should be assumed. When no information on the distribution is available it is usual to assume a normal or a truncated normal distribution.
 Determine Failure Probability (FP)
-In recent years probabilistic methods have been 
-more frequent to be used in slope design. These 
-methods are based on the calculation of FP of 
-the slope. A probabilistic approach requires a 
-deterministic model exists. In this case the input 
-parameters are described as probability distribu­
-tions rather than point estimates of the values. 
-By combining these distributions within the de­
-terministic model used to calculate the SF, the 
-probability of failure of the slope can be estimated 
+In recent years probabilistic methods have been more frequent to be used in slope design. These methods are based on the calculation of FP of the slope. A probabilistic approach requires a deterministic model exists. In this case the input parameters are described as probability distribu­ tions rather than point estimates of the values.
+By combining these distributions within the de­ terministic model used to calculate the SF, the probability of failure of the slope can be estimated
 (Steffen et.al., 2008).
-Figure 1 describes a Probability Density Func­
-tion (PDF) and Cumulative Distribution Function 
-(CDF). Probability density functions explains 
-area in which the relative probability of a random 
-number can be assumed to be a unique value 
-compared to the other values. Failure probability 
-(FP) is determined from the distribution of the 
-safety factor. The area under the curve (FK <1) 
-is defined as a failure probability value.
-In this research, the function of FP depends on 
-cohesion (c) and internal friction angle (f), and 
-SF was determined by “Bishop” limit equilibrium 
-method using Slide program (rocscience).
-FP 
+Figure 1 describes a Probability Density Func­ tion (PDF) and Cumulative Distribution Function
+(CDF). Probability density functions explains area in which the relative probability of a random number can be assumed to be a unique value compared to the other values. Failure probability
+(FP) is determined from the distribution of the safety factor. The area under the curve (FK <1) is defined as a failure probability value.
+In this research, the function of FP depends on cohesion (c) and internal friction angle (f), and
+SF was determined by “Bishop” limit equilibrium method using Slide program (rocscience).
+FP
 (%)
 F(x)
-Safety Factor
-f(x)
-1
+Safety Factor f(x)
 Probability Density Function (PDF)
 Cumulative Density Function (CDF)
 Figure 1.	 Failure Probability Concept
 Experimentation
-Generally rainfall has a contribution to decrease 
-the rock strength, especially in Indonesia. Two 
-experiments had been conducted in relation to 
-116
-Indonesian Mining Journal  Vol. 17, No. 3, October 2014 : 113 - 121
-rainfall effect,i.e: induction of sandstone under 
-rainfall and direct shear test based on the first 
-experiment.
-There were three sandstone samples placed in an 
-open space on a rainy day, the first sample was 
-taken at 15 minutes, the second sample taken at 
-20 minutes and the last sample was taken at the 
-time after raining cease over. Then each sample 
-was determined using the highest water levels 
-induced by the difference in weight before and 
-after induced by rain. Induction time with the high­
-est water content will be used as a reference in 
-the direct shear test. Sandstone samples with a 
-20-minute induction has the highest water content 
-on 14 mm.
-The second experiment was the direct shear test 
-in two conditions namely natural and saturated 
-conditions. the natural condition is the condition 
-of the actual sample, while the saturated condition 
-is the condition of the samples immersed for 20 
-minutes based on the first experiment.
-Based on direct shear test concluded that the 
-cohesion of sandstone decreased about 7.1% in 
-peak condition, and 9.5% in the residual condi­
-tion, while the internal friction angle decreased 
-about 7.4% in peak condition, and 14.4% in re­
-sidual condition. Consider the induction test was 
-conducted in Bandung, the realistic application of 
-which can be done in the same way at the mine 
-site PT Adaro Indonesia.
+Generally rainfall has a contribution to decrease the rock strength, especially in Indonesia. Two experiments had been conducted in relation to
+Indonesian Mining Journal Vol. 17, No. 3, October 2014 : 113 - 121 rainfall effect,i.e: induction of sandstone under rainfall and direct shear test based on the first experiment.
+There were three sandstone samples placed in an open space on a rainy day, the first sample was taken at 15 minutes, the second sample taken at
+20 minutes and the last sample was taken at the time after raining cease over. Then each sample was determined using the highest water levels induced by the difference in weight before and after induced by rain. Induction time with the high­ est water content will be used as a reference in the direct shear test. Sandstone samples with a
+20-minute induction has the highest water content on 14 mm.
+The second experiment was the direct shear test in two conditions namely natural and saturated conditions. the natural condition is the condition of the actual sample, while the saturated condition is the condition of the samples immersed for 20 minutes based on the first experiment.
+Based on direct shear test concluded that the cohesion of sandstone decreased about 7.1% in peak condition, and 9.5% in the residual condi­ tion, while the internal friction angle decreased about 7.4% in peak condition, and 14.4% in re­ sidual condition. Consider the induction test was conducted in Bandung, the realistic application of which can be done in the same way at the mine site PT Adaro Indonesia.
 RESULT AND DISCUSSION
 The Results of Fitting Test and Experiments
-Table 1 is a fitting test result that indicates the use 
-of custom parameters, and provides the cohesion 
-as a lognormal distribution (Lnormal) to both peak 
-and residual conditions, the internal friction angle 
-has a normal distribution in both the peak and 
-residual conditions. Table 2 shows the input pa­
-rameters of the physical and mechanical proper­
-ties of sandstone. The parameters without rainfall 
-was obtained from fitting test results, while input 
-parameter under rainfall was obtained from the 
-experimentations. By considering that unit weight 
-have uniform distribution with a single value.
+Table 1 is a fitting test result that indicates the use of custom parameters, and provides the cohesion as a lognormal distribution (Lnormal) to both peak and residual conditions, the internal friction angle has a normal distribution in both the peak and residual conditions. Table 2 shows the input pa­ rameters of the physical and mechanical proper­ ties of sandstone. The parameters without rainfall was obtained from fitting test results, while input parameter under rainfall was obtained from the experimentations. By considering that unit weight have uniform distribution with a single value.
 Table 1.	 Fitting Test Results of Mechanical Properties of Sandstone
 Parameter
 Peak
-Residual
-cohesion
-Internal friction
-angle
-cohesion
-Internal friction
-angle
+Residual cohesion
+Internal friction angle cohesion
+Internal friction angle
 Dnmax
 0.018
 0.097
@@ -329,43 +135,29 @@ Normal
 Lnormal
 Normal
 Table 2.	 Input Parameter of Physical and Mechanical Properties of Sandstone
-Statistical 
-parameter
+Statistical parameter
 Unit weight
 (kN/m3)
-No rainfall
-rainfall
-cohesion 
-(kPa)
-ϕ
-(0)
-cohesion 
-(kPa)
-ϕ
+No rainfall rainfall cohesion
+(kPa) ϕ
+(0) cohesion
+(kPa) ϕ
 (0)
 Mean
 20.5
-106
 18.8
-96
 16.1
 Std.Deviation
 -
-57
 5.7
-52
 4.9
 Minimum
 -
-77
 13.1
-70
 11.2
 Maximum
 -
-134
 24.5
-121
 21.0
 Distribution
 -
@@ -373,456 +165,237 @@ L-normal
 Normal
 Lnormal
 Normal
-117
 Risk Assessment of Open Pit Slope Design at PT Adaro Indonesia, M.A. Azizi et. al
-Relationships Between Slope Angle vs. 
+Relationships Between Slope Angle vs.
 Safety Factor
-Figure 2 shows the results of SF calculations 
-obtained from “MC” sampling method is rela­
-tively the same as a “LH” sampling method of 
-both SFdet and SFr. From the calculation results 
-it can be concluded that the higher slope angle 
-would provide the value of SF decreases. These 
-fact reinforces the concept that the higher slope 
-angle, the lower the slope safety factordue to the 
-smaller load detained in geometry.
-Relationships Between Slope Angle vs. Fail­
-ure Probability
-Figure 3 presents the results of the FP calcula­
-tion at 16 meters and 24 meters in height using 
-“MC” and “LH” sampling method. FP results of 
-“MC” sampling methods are found relatively 
-similar to“LH” sampling method. The figure also 
-concluded that the higher slope angle causes the 
+Figure 2 shows the results of SF calculations obtained from “MC” sampling method is rela­ tively the same as a “LH” sampling method of both SFdet and SFr. From the calculation results it can be concluded that the higher slope angle would provide the value of SF decreases. These fact reinforces the concept that the higher slope angle, the lower the slope safety factordue to the smaller load detained in geometry.
+Relationships Between Slope Angle vs. Fail­ ure Probability
+Figure 3 presents the results of the FP calcula­ tion at 16 meters and 24 meters in height using
+“MC” and “LH” sampling method. FP results of
+“MC” sampling methods are found relatively similar to“LH” sampling method. The figure also concluded that the higher slope angle causes the
 FP value increases.
-These fact reinforces the concept that the higher 
-is the slope angle, the higher the failure probability 
-Figure 2.	 Relationships between  angle of slope versus SF of single of slope 
+These fact reinforces the concept that the higher is the slope angle, the higher the failure probability
+Figure 2.	 Relationships between angle of slope versus SF of single of slope
 (sandstone with 16 meter in height)
-Figure 3.	 Relationships between angle of slope versus FP of single slope 
-of sandstone
-118
-Indonesian Mining Journal  Vol. 17, No. 3, October 2014 : 113 - 121
-of slope because of the greater load detained in 
-geometry.
-As an example from the graph above, i.e. the 
-slope angle with 700 and a 16 meters in height is 
-stable, while the slopes with 24 meters in height is 
-unstable (based on FP Acceptable criteria in Read 
-& Stacey, 2009). Hence the acceptable maximum 
-FP value is 25% for low risk consequences and 
+Figure 3.	 Relationships between angle of slope versus FP of single slope of sandstone
+Indonesian Mining Journal Vol. 17, No. 3, October 2014 : 113 - 121 of slope because of the greater load detained in geometry.
+As an example from the graph above, i.e. the slope angle with 700 and a 16 meters in height is stable, while the slopes with 24 meters in height is unstable (based on FP Acceptable criteria in Read
+& Stacey, 2009). Hence the acceptable maximum
+FP value is 25% for low risk consequences and
 50% for high risk consequences.
 Slope Design Graphics
-Figure 4 describes a stability line of sandstone 
-single slope with Acceptable FP= 25% (green 
-line) and FP = 50% (brown line) using “MC” and 
-“LH” sampling method. The difference between 
-stability line of “MC” and “LH” sampling method is 
-about 0.7% (FP Acceptable = 25%) and is about 
-0.9% (FP Acceptable = 50%). Furthermore, the 
-stability line of FP acceptable = 25% is more pes­
-simistic FP acceptable = 50%. As an example for 
-a 16 meter in height, the maximum slope angle 
-is about 750 (FP acceptable = 25%) and is about 
+Figure 4 describes a stability line of sandstone single slope with Acceptable FP= 25% (green line) and FP = 50% (brown line) using “MC” and
+“LH” sampling method. The difference between stability line of “MC” and “LH” sampling method is about 0.7% (FP Acceptable = 25%) and is about
+0.9% (FP Acceptable = 50%). Furthermore, the stability line of FP acceptable = 25% is more pes­ simistic FP acceptable = 50%. As an example for a 16 meter in height, the maximum slope angle is about 750 (FP acceptable = 25%) and is about
 790 (FP acceptable = 50%).
-Figure 5 describes a comparison of single slope 
-design of sandstone single without rainfall (yellow 
-line) and due to rainfall (blue line) with FP accept­
-able about 25% using “MC” sampling method. 
-On the other hand, the figure also indicates the 
-stability line with FP accepts about 25% is more 
-pessimistic than FP acceptable about 50%. As an 
-example for a 16 meter in height, the maximum 
-slope angle is about 700 (without rainfall) and is 
-about 750 (due to rainfall).
-Figure 5.	 Comparison of sandstone single slope design without (TH) 
-and due to (PH) rainfall
-Figure 4.	 Relationships between slope angle versus height of 
-sandstone without Rainfall
-119
+Figure 5 describes a comparison of single slope design of sandstone single without rainfall (yellow line) and due to rainfall (blue line) with FP accept­ able about 25% using “MC” sampling method.
+On the other hand, the figure also indicates the stability line with FP accepts about 25% is more pessimistic than FP acceptable about 50%. As an example for a 16 meter in height, the maximum slope angle is about 700 (without rainfall) and is about 750 (due to rainfall).
+Figure 5.	 Comparison of sandstone single slope design without (TH) and due to (PH) rainfall
+Figure 4.	 Relationships between slope angle versus height of sandstone without Rainfall
 Risk Assessment of Open Pit Slope Design at PT Adaro Indonesia, M.A. Azizi et. al
-Relationships between SF and FP vs. 
+Relationships between SF and FP vs.
 Volume of Failure Material
-Volume of failure material is estimated by multi­
-plying between the area of failure (design) and 
-width of failure based on historical data, i.e. 15 
-meters in width.
-Figure 6 describes higher SF would increase the 
-volumes until SF=1.16 which yield the volumes 
-about 2321 m3 (“MC” sampling method), then the 
-more higher SF will decrease the volumes.
-Figure 7 shows higher FP, increase volumes 
-until FP=27.4 which yield volumes about 2320 
-m3 (“MC” sampling method), then higher FP de­
-crease volumes.
-This is caused by a volume of failure will increase 
-inline with an increase in the dimensions of the 
-slope untill optimal condition which is an indication 
-of the amount of the biggest failures.
+Volume of failure material is estimated by multi­ plying between the area of failure (design) and width of failure based on historical data, i.e. 15 meters in width.
+Figure 6 describes higher SF would increase the volumes until SF=1.16 which yield the volumes about 2321 m3 (“MC” sampling method), then the more higher SF will decrease the volumes.
+Figure 7 shows higher FP, increase volumes until FP=27.4 which yield volumes about 2320 m3 (“MC” sampling method), then higher FP de­ crease volumes.
+This is caused by a volume of failure will increase inline with an increase in the dimensions of the slope untill optimal condition which is an indication of the amount of the biggest failures.
 Validation
-Monitoring data of 4 failed sandstone slope move­
-ment shows the displacement range from 0.03 to 
-0.77 meters at a distance of tension crack to crest 
-about 11-20 meters (Saptono, 2012), thus back 
-analysis was conducted using the limit equilibrium 
-method in which result cohesion and internal fric­
-tion angle under the critical limit (Table 3).
+Monitoring data of 4 failed sandstone slope move­ ment shows the displacement range from 0.03 to
+0.77 meters at a distance of tension crack to crest about 11-20 meters (Saptono, 2012), thus back analysis was conducted using the limit equilibrium method in which result cohesion and internal fric­ tion angle under the critical limit (Table 3).
 Figure 7.	 Relationship of FP versus volume of failure sandstone
 Figure 6.	 Relationships between SF versus volume of failure sandstone
-120
-Indonesian Mining Journal  Vol. 17, No. 3, October 2014 : 113 - 121
-Based on back analysis show deterioration of 
-cohesion and internal friction angle about 60.4% 
-and 14.9% respectively, so to determine the long 
-term strength of slope using this analysis (Table 
-4). Long term slope stability of sandstone gives 
-all slopes stable, except 2 failed slopes give FP 
-greater than 45% (Table 5). According to Read & 
-Stacey (2009), the acceptable criteria for single 
-slope was about 25-50%.
+Indonesian Mining Journal Vol. 17, No. 3, October 2014 : 113 - 121
+Based on back analysis show deterioration of cohesion and internal friction angle about 60.4% and 14.9% respectively, so to determine the long term strength of slope using this analysis (Table
+4). Long term slope stability of sandstone gives all slopes stable, except 2 failed slopes give FP greater than 45% (Table 5). According to Read &
+Stacey (2009), the acceptable criteria for single slope was about 25-50%.
 CONCLUSIONS
-Some of the conclusions that can be gleaned from 
-this paper is as follows:
-a.	 Characterization data is an important process 
-that used in open pit slope design, and it can 
-explain the level of uncertainty of the input 
-parameter data.
+Some of the conclusions that can be gleaned from this paper is as follows:
+a.	 Characterization data is an important process that used in open pit slope design, and it can explain the level of uncertainty of the input parameter data.
 Table 3.	 Monitoring data of sandstone single slope failure (Saptono, 2012)
 No
 Unit
 Monitoring
-Height 
+Height
 (meter)
-Slope Angle 
+Slope Angle
 (0)
 Displacement
 (m)
-Distance Crest 
-to Tension Crack
+Distance Crest to Tension Crack
 (m)
-1
 PRA 52
-30
-34
 0.53
-11
-2
 PRA 123
-30
-50
 0.48
-20
-3
 PRN 17
-35
-35
 0.03
-20
-4
 PRA 136
-17
-30
 0.77
-12
-Table 4.	 The results of back analysis for sandstone 
-single slope
-Statistical
-parameter
+Table 4.	 The results of back analysis for sandstone single slope
+Statistical parameter
 Design
 Back analysis
-C kPa)
-f (°)
-C (kPa)
-f (°)
+C kPa) f (°)
+C (kPa) f (°)
 Mean
-106
 18.8
-42
-16
 Std.deviation
-57
 5.7
-4
-2
 Table 5.	 Deteroriation of SF for Longterm Single Slope of Sandstone
 Section
 Dimension
 SF Design
 SF Longterm
-FP 
-design
-FP
-long term
+FP design
+FP long term
 Time
 (days)
 Condition
-H (m)
-b (0)
+H (m) b (0)
 Det.
 Mean
 Det.
 Mean
-1
-12
-30
 2.94
 2.86
 1.54
 1.54
-0
-0
-90
 Stable
-2
-12
-40
 2.67
 2.59
 1.34
 1.34
-0
-0
-90
 Stable
-3
-12
-40
 2.67
 2.59
 1.34
 1.34
-0
-0
-90
 Stable
-4
-12
-56
 2.2
 2.13
 1.05
 1.05
-0
 8.2
-90
 Stable
-5
-12
-40
 2.67
 2.59
 1.34
 1.34
-0
-0
-90
 Stable
-6
-12
-50
 2.38
 2.31
 1.17
 1.17
-0
-0
-90
 Stable
-7
-12
-40
 2.67
 2.59
 1.34
 1.34
-0
-0
-90
 Stable
-8
-12
-37
 2.74
 2.65
 1.38
 1.38
-0
-0
-90
 Stable
-9
-12
-42
 2.59
 2.51
 1.29
 1.29
-0
-0
-90
 Stable
-10
-24
-25
 1.87
 1.83
 1.06
 1.06
-0
 5.4
-90
 Stable
-11
-12
-35
 2.81
 2.73
 1.43
 1.43
-0
-0
-90
 Stable
-12
-12
-40
 2.67
 2.59
 1.34
 1.34
-0
-0
-90
 Stable
-13
-12
-38
 2.71
 2.63
 1.37
 1.37
-0
-0
-90
 Stable
-14
-12
-45
 2.51
 2.43
 1.25
 1.25
-0
-0
-90
 Stable
-15
-12
-43
 2.55
 2.47
 1.27
 1.27
-0
-0
-90
 Stable
-16
-24
-55
 1.18
 1.15
 0.59
 0.59
 25.8
-100
-90
 Failed
-17
-24
-50
 1.29
 1.25
 0.67
 0.67
 6.7
-100
-90
 Failed
-121
-Risk Assessment of Open Pit Slope Design at PT Adaro Indonesia, M.A. Azizi et. al
-b.	 The results of fitting test using the Kolmogo­
-rov-Smirnov method as follows:
--	
-Cohesion has a lognormal distribution 
-either peak or residual condition.
--	
-The internal friction angle has normal dis­
-tribution either peak or residual condition.
-c.	 Based on direct shear test concluded that the 
-cohesion of sandstone decreases about 7.1% 
-in peak condition and 9.5% in the residual 
-condition, while the internal friction angle 
-decreases about 7.4% in peak condition and 
+Risk Assessment of Open Pit Slope Design at PT Adaro Indonesia, M.A. Azizi et. al b.	 The results of fitting test using the Kolmogo­ rov-Smirnov method as follows:
+-
+Cohesion has a lognormal distribution either peak or residual condition.
+-
+The internal friction angle has normal dis­ tribution either peak or residual condition.
+c.	 Based on direct shear test concluded that the cohesion of sandstone decreases about 7.1% in peak condition and 9.5% in the residual condition, while the internal friction angle decreases about 7.4% in peak condition and
 14.4% in the residual condition.
-d.	 Failure probability can be an alternative in 
-assessing the open pit slope stability, and be­
-come an important tool in decision making.
-e.	 Long term slope stability of sandstone gives 
-all slopes stable, except twofailed slopes give 
+d.	 Failure probability can be an alternative in assessing the open pit slope stability, and be­ come an important tool in decision making.
+e.	 Long term slope stability of sandstone gives all slopes stable, except twofailed slopes give
 FP greater than 45%
 ACKNOWLEDGEMENT
-The authors would like to give thanks to all 
-those who helped to make this paper could be 
-published.
+The authors would like to give thanks to all those who helped to make this paper could be published.
 REFFERENCES
-Abramson, L.W., Lee, T.S., Sharma, S., and Boyce, 
-G.M., 2000. Slope Stability and Stabilization Meth­
-ods, John Wiley & Sons Inc., p.420-455
-Baecher, G.B., and Christian, J.T., 2003. Reliability 
-and statistics in geotechnical engineering. Wiley, 
+Abramson, L.W., Lee, T.S., Sharma, S., and Boyce,
+G.M., 2000. Slope Stability and Stabilization Meth­ ods, John Wiley & Sons Inc., p.420-455
+Baecher, G.B., and Christian, J.T., 2003. Reliability and statistics in geotechnical engineering. Wiley,
 Chichester, U.K., pp. 399-430.
-Hoek E., 2007, Practical Rock Engineering, Evert Hoek 
+Hoek E., 2007, Practical Rock Engineering, Evert Hoek
 Consulting Engineer Inc., p.128-140.
-M.A. Azizi, S.Kramadibrata, R.K.Wattimena, I.D. Sidi, 
-2013, Characterization of Physical & Mechanical 
-Properties Distribution of Indonesian Coal; ISRM 
-International Symposium, EUROCK 2013, 21-26 
-September 2013, Wroclaw, Poland. 
-Read J., Stacey P., 2009. Guidelines For Open Pit 
+M.A. Azizi, S.Kramadibrata, R.K.Wattimena, I.D. Sidi,
+2013, Characterization of Physical & Mechanical
+Properties Distribution of Indonesian Coal; ISRM
+International Symposium, EUROCK 2013, 21-26
+September 2013, Wroclaw, Poland.
+Read J., Stacey P., 2009. Guidelines For Open Pit
 Slope Design, CSIRO Publishing, p.221-235.
-R.K. Wattimena, S. Kramadibrata, I.D. Sidi, and M.A. 
-Azizi, 2012. Probabilistic Analysis of Single Bench 
-Using New Slope Stability Curves, Prosiding 7th 
-Asian Rock Mechanics Symposium (ARMS7), 
+R.K. Wattimena, S. Kramadibrata, I.D. Sidi, and M.A.
+Azizi, 2012. Probabilistic Analysis of Single Bench
+Using New Slope Stability Curves, Prosiding 7th
+Asian Rock Mechanics Symposium (ARMS7),
 South Korean.
-Saptono, S., 2012. Pengembangan Metode Analisis 
-Stabilitas Lereng Berdasarkan Karakterisasi 
-Batuan Di Tambang Terbuka Batubara, Penelitian 
+Saptono, S., 2012. Pengembangan Metode Analisis
+Stabilitas Lereng Berdasarkan Karakterisasi
+Batuan Di Tambang Terbuka Batubara, Penelitian
 Disertasi ITB, p.197-205.
-Steffen, O.K.H., Contreras L.F., Terbrugge P.J., and 
-Venter J., 2008. A risk evaluation approach for 
-pit slope design, The 42nd US Rock Mechanics 
-Symposium and 2nd U.S.-Canada Rock Mechan­
-ics Symposium, held in San Francisco, June 
+Steffen, O.K.H., Contreras L.F., Terbrugge P.J., and
+Venter J., 2008. A risk evaluation approach for pit slope design, The 42nd US Rock Mechanics
+Symposium and 2nd U.S.-Canada Rock Mechan­ ics Symposium, held in San Francisco, June
 29-July 2.
-S. Kramadibrata, R.K. Wattimena, I.D. Sidi, M.A. Azizi, 
-and Y. Adriansyah, 2012. Open Pit Mine Slope 
-Stability and Uncertainty; Prosiding 7th Asian Rock 
+S. Kramadibrata, R.K. Wattimena, I.D. Sidi, M.A. Azizi, and Y. Adriansyah, 2012. Open Pit Mine Slope
+Stability and Uncertainty; Prosiding 7th Asian Rock
 Mechanics Symposium (ARMS7), South Korean.
-S.A.Pramuditya, M.A.Azizi, S.Kramadibrata, 
-R.K.Wattimena, and I.D. Sidi, 2013, Application 
-of Fitting & Probabilistic Method to Characterize 
-Physical & Mechanical Rock Properties Distribu­
-tion; Proceeding South East Asian Conference on 
-Mathematics and Its Application, SEACMA 2013, 
-Organized by Institut Teknologi Sepuluh Nopember 
+S.A.Pramuditya, M.A.Azizi, S.Kramadibrata,
+R.K.Wattimena, and I.D. Sidi, 2013, Application of Fitting & Probabilistic Method to Characterize
+Physical & Mechanical Rock Properties Distribu­ tion; Proceeding South East Asian Conference on
+Mathematics and Its Application, SEACMA 2013,
+Organized by Institut Teknologi Sepuluh Nopember
 Surabaya.
-Terbrugge, P.J., Wesseloo, J., Venter, J., and Steffen, 
-O.K.H., 2006. A risk consequence approach to 
-open pit slope design, The Journal of The South 
-African Institute of Mining and Metallurgy, Vol.106, 
-p.503-514.
-Tse, Y.K., 2009. Nonlife Actuarial Models, Theory, 
-Methods and Evaluation, Cambridge University 
+Terbrugge, P.J., Wesseloo, J., Venter, J., and Steffen,
+O.K.H., 2006. A risk consequence approach to open pit slope design, The Journal of The South
+African Institute of Mining and Metallurgy, Vol.106, p.503-514.
+Tse, Y.K., 2009. Nonlife Actuarial Models, Theory,
+Methods and Evaluation, Cambridge University
 Press, pp.380-394.

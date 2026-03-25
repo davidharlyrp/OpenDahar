@@ -3,6 +3,11 @@ import torch.nn as nn
 from torch.nn import functional as F
 import os
 import json
+try:
+    from safetensors.torch import load_file
+    HAS_SAFETENSORS = True
+except ImportError:
+    HAS_SAFETENSORS = False
 
 # ==========================================
 # 1. Konfigurasi Bobot (Hyperparameters)
@@ -148,9 +153,18 @@ class PyTorchGenModel(nn.Module):
 print(f"Membangun model dan memuat bobot ke '{device}'...")
 model = PyTorchGenModel()
 
-model_path = "model_geoteknik.pth"
-# map_location=device dipakai agar bobot bisa dimuat sesuai hardware saat ini (GPU/CPU) walau saat disave pakai hardware berbeda
-model.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
+model_path_pth = "model_geoteknik.pth"
+model_path_safe = "model_geoteknik.safetensors"
+
+if HAS_SAFETENSORS and os.path.exists(model_path_safe):
+    print(f"Memuat bobot model dari '{model_path_safe}' (Safetensors)...")
+    model.load_state_dict(load_file(model_path_safe, device=device))
+elif os.path.exists(model_path_pth):
+    print(f"Memuat bobot model dari '{model_path_pth}' (PyTorch legacy)...")
+    model.load_state_dict(torch.load(model_path_pth, map_location=device, weights_only=True))
+else:
+    print(f"[Error] File model tidak ditemukan di '{model_path_safe}' maupun '{model_path_pth}'.")
+    exit(1)
 model = model.to(device)
 model.eval() # Set mode evaluasi agar dropout dimatikan saat inference
 

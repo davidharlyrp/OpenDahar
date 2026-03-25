@@ -1,194 +1,76 @@
-Effect of Vibro Stone-Column Installation
-on the Performance of Reinforced Soil
+Effect of Vibro Stone-Column Installation on the Performance of Reinforced Soil
 Kareem Al Ammari, Ph.D.1; and Barry G Clarke, Ph.D., C.Eng.2
-Abstract: Empirical design methods for stone-column foundations are often on single stone columns or as a homogeneous medium of soil
-and column. These methods underestimate the capacity of the composite system because they do not take into account the increased confining
-stress acting on the stone column or the increased stiffness of the soil. This study used PLAXIS 2D to study the effect of the installation
-method on the confining pressure and soil stiffness around a single column by assuming the installation of the column could be modeled as an
-expanding cavity followed by consolidation of the surrounding soil. The mean stress and stiffness generated during installation between two
-adjacent columns was used in PLAXIS 3D to compare the settlement of circular foundations on estuarine deposits reinforced by stone
-columns at a site in Santa Barbara, California. Good agreement was found between the predicted and actual settlement of the trial foundations
-on three column arrangements. The predictions gave a better estimate of the settlement compared with those using a unit cell or homogeneous
-medium, showing that improvements to the soil should be taken into account when assessing stone-column performance. DOI: 10.1061/
+Abstract: Empirical design methods for stone-column foundations are often on single stone columns or as a homogeneous medium of soil and column. These methods underestimate the capacity of the composite system because they do not take into account the increased confining stress acting on the stone column or the increased stiffness of the soil. This study used PLAXIS 2D to study the effect of the installation method on the confining pressure and soil stiffness around a single column by assuming the installation of the column could be modeled as an expanding cavity followed by consolidation of the surrounding soil. The mean stress and stiffness generated during installation between two adjacent columns was used in PLAXIS 3D to compare the settlement of circular foundations on estuarine deposits reinforced by stone columns at a site in Santa Barbara, California. Good agreement was found between the predicted and actual settlement of the trial foundations on three column arrangements. The predictions gave a better estimate of the settlement compared with those using a unit cell or homogeneous medium, showing that improvements to the soil should be taken into account when assessing stone-column performance. DOI: 10.1061/
 (ASCE)GT.1943-5606.0001914. © 2018 American Society of Civil Engineers.
 Author keywords: Bearing capacity; Design; Installation; Numerical analysis; Settlement; Stone column.
 Introduction
 The majority of methods to design stone columns, according to
-Sexton and McCabe (2012), are based on a unit cell (e.g., Aboshi
-et al. 1979; Balaam and Booker 1985; Hu 1995; Priebe 1995;
-McKelvey et al. 2004) in which a settlement improvement factor
-is related to the area replacement ratio of the cell. This was shown
-by McCabe et al. (2009), using case studies, to be an acceptable
-method. However, a method to install a stone column, the bottom-
-feed method, expands the stone column, increasing the confining
-stress on the stone column, and, because of the increase in stress
-in the surrounding soil, increases the stiffness of the soil. Kirsch
-(2006) showed that, in sandy soils, the increase in stiffness was
-permanent to a distance of four to eight times the column diameter,
-which exceeds typical column arrangements; that is, the stiffness of
-the composite system of soil and stone columns exceeds that of the
-unit cell. Al Ammari and Clarke (2016) showed that the settlement
-of a rigid foundation on a unit cell (single column) was reduced by
-55% if the increases in soil stiffness and confining stress due to the
-expanding stone column (Hughes and Withers 1974) were taken
-into account. The increase in stiffness is due to the dissipation of
-excess pore pressures generated during installation (e.g., Castro and
+Sexton and McCabe (2012), are based on a unit cell (e.g., Aboshi et al. 1979; Balaam and Booker 1985; Hu 1995; Priebe 1995;
+McKelvey et al. 2004) in which a settlement improvement factor is related to the area replacement ratio of the cell. This was shown by McCabe et al. (2009), using case studies, to be an acceptable method. However, a method to install a stone column, the bottom- feed method, expands the stone column, increasing the confining stress on the stone column, and, because of the increase in stress in the surrounding soil, increases the stiffness of the soil. Kirsch
+(2006) showed that, in sandy soils, the increase in stiffness was permanent to a distance of four to eight times the column diameter, which exceeds typical column arrangements; that is, the stiffness of the composite system of soil and stone columns exceeds that of the unit cell. Al Ammari and Clarke (2016) showed that the settlement of a rigid foundation on a unit cell (single column) was reduced by
+55% if the increases in soil stiffness and confining stress due to the expanding stone column (Hughes and Withers 1974) were taken into account. The increase in stiffness is due to the dissipation of excess pore pressures generated during installation (e.g., Castro and
 Sagaseta 2009; Debats et al. 2003; Gab et al. 2007; Guetif et al.
-2007; Kirsch 2006). Killeen and McCabe (2014) suggested that
-the increase in stiffness is offset by the remolding of the soil around
-the column, though Kirsch (2006) suggested that the increase in
-stiffness would be permanent.
-Therefore, rather than model a stone column as an independent
-unit, it would be better to model the stone columns and surrounding
-soil as a system to take into account the increase in confining stress
-on the columns and the increase in stiffness of the soil. Sexton and
-McCabe (2015) suggested that most numerical studies of stone-
-column capacity were based on full replacement columns with an
-arbitrarily assigned value of confining stress. Kirsch (2006) and
-Sexton and McCabe (2015) modeled displacement columns by
-starting with a full replacement column to represent the probe to
-determine the increase in confining stress in a unit cell analysis
-using cavity expansion.
-In this study, the installation of the stone columns started with a
-full replacement column to model the probe. This was converted to
-a displacement column to model the installation of the stone col-
-umn using cavity expansion to estimate the improvement in the
-stiffness of the soil, which, together with the stone column, created
-a composite system. The increase in stiffness of the surrounding
-soil due to the installation of a stone column was modeled using
-PLAXIS 2D and the stiffness of the composite system was modeled
-using PLAXIS 3D.
+2007; Kirsch 2006). Killeen and McCabe (2014) suggested that the increase in stiffness is offset by the remolding of the soil around the column, though Kirsch (2006) suggested that the increase in stiffness would be permanent.
+Therefore, rather than model a stone column as an independent unit, it would be better to model the stone columns and surrounding soil as a system to take into account the increase in confining stress on the columns and the increase in stiffness of the soil. Sexton and
+McCabe (2015) suggested that most numerical studies of stone- column capacity were based on full replacement columns with an arbitrarily assigned value of confining stress. Kirsch (2006) and
+Sexton and McCabe (2015) modeled displacement columns by starting with a full replacement column to represent the probe to determine the increase in confining stress in a unit cell analysis using cavity expansion.
+In this study, the installation of the stone columns started with a full replacement column to model the probe. This was converted to a displacement column to model the installation of the stone col- umn using cavity expansion to estimate the improvement in the stiffness of the soil, which, together with the stone column, created a composite system. The increase in stiffness of the surrounding soil due to the installation of a stone column was modeled using
+PLAXIS 2D and the stiffness of the composite system was modeled using PLAXIS 3D.
 Field Case: Santa Barbara Waste Treatment Plant
-The field case selected to validate the results of the numerical
-model was a wastewater treatment plant in Santa Barbara, Califor-
-nia (Fig. 1), which had been studied by Mitchell and Huber (1985),
+The field case selected to validate the results of the numerical model was a wastewater treatment plant in Santa Barbara, Califor- nia (Fig. 1), which had been studied by Mitchell and Huber (1985),
 Elshazly et al. (2006, 2007, 2008), and Killeen (2012). The Santa
 Barbara wastewater treatment site is about 2.5 m above sea level.
 The site stratigraphy (Fig. 2) is formed of
 •
-1–3 m of recent fill formed of clayey sand containing a mixture
-of anthropogenic wastes including asphalt, masonry, wood,
-glass, and metals.
+1–3 m of recent fill formed of clayey sand containing a mixture of anthropogenic wastes including asphalt, masonry, wood, glass, and metals.
 •
-5–16 m of estuarine deposits that increase in thickness from
-northeast to southwest across the site. They consist of layers of
-silty and sandy to clayey and silty sand, with some local lenses
-of sand or gravel.
+5–16 m of estuarine deposits that increase in thickness from northeast to southwest across the site. They consist of layers of silty and sandy to clayey and silty sand, with some local lenses of sand or gravel.
 1Formerly, Ph.D. Student, School of Civil Engineering, Univ. of Leeds,
 Leeds LS2 9JT, UK.
 2Professor, School of Civil Engineering, Univ. of Leeds, Leeds LS2 9JT,
-UK (corresponding author). ORCID: https://orcid.org/0000-0001-9493-9200.
 Email: b.g.clarke@leeds.ac.uk
 Note. This manuscript was submitted on January 27, 2017; approved on
-February 1, 2018; published online on June 21, 2018. Discussion period
-open until November 21, 2018; separate discussions must be submitted
-for individual papers. This paper is part of the Journal of Geotechnical
-and Geoenvironmental Engineering, © ASCE, ISSN 1090-0241.
-© ASCE
+February 1, 2018; published online on June 21, 2018. Discussion period open until November 21, 2018; separate discussions must be submitted for individual papers. This paper is part of the Journal of Geotechnical
 04018056-1
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.
 •
-Older marine deposits that extended up to 19.4 m beneath the
-ground surface comprising cohesive and cohesionless layers of
-clayey sand, silty sand, and lesser amount of sandy clay and
-sandy silt.
+Older marine deposits that extended up to 19.4 m beneath the ground surface comprising cohesive and cohesionless layers of clayey sand, silty sand, and lesser amount of sandy clay and sandy silt.
 •
 Ground water level at 1.5 m below the ground surface.
-Stone columns were chosen by the design engineers because the
-site preparation time was limited to 6 months to avoid any damages
-that might occur to the adjacent light industrial structures if the
-ground water table was lowered to form conventional foundations
-and to prevent liquefaction in this seismically active area (Mitchell
-and Huber 1985). More than 6,500 stone columns were constructed
-using the top feed installation method in which a current of
-water is jetted from the nose of the vibrator to aid the penetration
-into the soft soil, creating 0.50- to 0.75-m-diameter boreholes.
+Stone columns were chosen by the design engineers because the site preparation time was limited to 6 months to avoid any damages that might occur to the adjacent light industrial structures if the ground water table was lowered to form conventional foundations and to prevent liquefaction in this seismically active area (Mitchell and Huber 1985). More than 6,500 stone columns were constructed using the top feed installation method in which a current of water is jetted from the nose of the vibrator to aid the penetration into the soft soil, creating 0.50- to 0.75-m-diameter boreholes.
 When the vibrator reached the desired depth, well-graded gravel
-(12–100 mm) was introduced into the annular space between
-the probe and the borehole wall and was pushed down the borehole
-by the action of the probe. The probe was moved up and down in
-the borehole to compact the gravel, thus expanding the walls of the
-borehole. The final diameter of the stone columns varied between
-0.81 and 1.22 m (Mitchell and Huber 1985). Three different stone
-column arrangements were used: 1.2 × 1.5 m for a bearing pres-
-sure of 145 kPa, limiting the settlement to 6 mm; 1.75 × 1.75 m
-for medium loads; and 2.10 × 2.10 m for a bearing pressure of
-60 kPa. The stone columns were founded in the older marine de-
-posits resulting in 9–15 m long stone columns in the overlying
-estuarine deposits (Mitchell and Huber 1985).
+(12–100 mm) was introduced into the annular space between the probe and the borehole wall and was pushed down the borehole by the action of the probe. The probe was moved up and down in the borehole to compact the gravel, thus expanding the walls of the borehole. The final diameter of the stone columns varied between
+0.81 and 1.22 m (Mitchell and Huber 1985). Three different stone column arrangements were used: 1.2 × 1.5 m for a bearing pres- sure of 145 kPa, limiting the settlement to 6 mm; 1.75 × 1.75 m for medium loads; and 2.10 × 2.10 m for a bearing pressure of
+60 kPa. The stone columns were founded in the older marine de- posits resulting in 9–15 m long stone columns in the overlying estuarine deposits (Mitchell and Huber 1985).
 Twenty-eight field loading tests were performed with 1-, 2-, and
-2.2-m-diameter, 1.2-m-deep concrete footings centered on the col-
-umns that corresponded to the three cases of stone column arrange-
-ments. Load increments of 45 kN were applied up to a maximum
-load of 350–400 kN, maintaining each increment for 6 h until the
-settlement was less than 0.25 mm=h to produce the settlement
-Fig. 1. Site plan of Santa Barbara wastewater treatment plant. (Reprinted from Mitchell and Huber 1985, © ASCE.)
+2.2-m-diameter, 1.2-m-deep concrete footings centered on the col- umns that corresponded to the three cases of stone column arrange- ments. Load increments of 45 kN were applied up to a maximum load of 350–400 kN, maintaining each increment for 6 h until the settlement was less than 0.25 mm=h to produce the settlement
 Fig. 2. Soil stratigraphy and engineering classification for Santa
 Barbara wastewater treatment plant. (Reprinted from Mitchell and
-Huber 1985, © ASCE.)
-© ASCE
 04018056-2
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.
-curves shown in Fig. 3. The average time between the installation
-of the stone columns and the load tests was 18 days.
+curves shown in Fig. 3. The average time between the installation of the stone columns and the load tests was 18 days.
 Modeling Framework
 Stone columns have been analyzed as either
 •
-A uniform layer of a soil with a stiffness equivalent to the
-volumetric stiffness of the composite system (homogenized
-model); or
+A uniform layer of a soil with a stiffness equivalent to the volumetric stiffness of the composite system (homogenized model); or
 •
-As axisymmetric studies of a single column surrounded by soil
-with adjacent columns modeled as a thin cylinder of stone
+As axisymmetric studies of a single column surrounded by soil with adjacent columns modeled as a thin cylinder of stone
 (unit cell model).
-Neither of these methods take into account the increase in
-stiffness of the surrounding soil, nor do they model the arrangement
-of the columns. A three-dimensional (3D) analysis, in this case
-PLAXIS 3D, can model the stone columns, but is unable to model
-the undrained cavity expansion and large strains associated with
-that expansion (McCabe et al. 2009). Therefore, PLAXIS 2D was
-used as a first step to estimate the improvement in both the coef-
-ficient of lateral earth pressure and stiffness of the different estua-
-rine soil layers using an axisymmetric model of a single column.
+Neither of these methods take into account the increase in stiffness of the surrounding soil, nor do they model the arrangement of the columns. A three-dimensional (3D) analysis, in this case
+PLAXIS 3D, can model the stone columns, but is unable to model the undrained cavity expansion and large strains associated with that expansion (McCabe et al. 2009). Therefore, PLAXIS 2D was used as a first step to estimate the improvement in both the coef- ficient of lateral earth pressure and stiffness of the different estua- rine soil layers using an axisymmetric model of a single column.
 The process was as follows:
-1. The installation of a single stone column was asymmetrically
-modeled in PLAXIS 2D as a displacement column using the
-principle of cavity expansion (Clarke 1994) similar to Stage 1
-of the numerical modeling used by Sexton and McCabe (2015).
-This produces a variation in stress and stiffness in the surround-
-ing soil for a single column.
-2. The installation of the adjacent columns also increases the stress
-and stiffness of the surrounding soil. This was modeled in
-PLAXIS 2D by installing a second column in a soil with the
-mean stress and stiffness produced from the first stage.
+1. The installation of a single stone column was asymmetrically modeled in PLAXIS 2D as a displacement column using the principle of cavity expansion (Clarke 1994) similar to Stage 1 of the numerical modeling used by Sexton and McCabe (2015).
+This produces a variation in stress and stiffness in the surround- ing soil for a single column.
+2. The installation of the adjacent columns also increases the stress and stiffness of the surrounding soil. This was modeled in
+PLAXIS 2D by installing a second column in a soil with the mean stress and stiffness produced from the first stage.
 3. The mean stress and stiffness from the second stage was used in
 PLAXIS 3D to model the stone column arrangements at Santa
-Barbara, California, comparing the predicted settlements with
-those observed in the field tests.
-The hardening soil model was considered the most appropriate
-model for simulating the relevant features of the fine- and coarse-
-grained soils because it takes into account the stress dependency of
-stiffness moduli and accounts for shear and volumetric hardening.
-The properties of the four main groups of soils, stone column
-materials and test foundation are given in Tables 1 and 2.
+Barbara, California, comparing the predicted settlements with those observed in the field tests.
+The hardening soil model was considered the most appropriate model for simulating the relevant features of the fine- and coarse- grained soils because it takes into account the stress dependency of stiffness moduli and accounts for shear and volumetric hardening.
+The properties of the four main groups of soils, stone column materials and test foundation are given in Tables 1 and 2.
 Stage 1: Axisymmetric Analysis of a Single Column
-A dummy elastic, low-stiffness material was used to form a replace-
-ment column [Fig. 4(a)]; that is, the creation of the borehole using a
-vibroflot. This column was then expanded to model a displacement
-stone column [Fig. 4(b)]; that is, the compaction of the stone to
-create the stone column. The axisymmetric model used for the first
-stage had a 30-m-diameter boundary, which proved sufficient to
-reduce boundary effects to a minimum. Six- and 15-node triangular
-elements were used with a local fineness factor of 0.5. The final
-diameter of the stone column was assumed to be 1.06 m based on
-field observations of Mitchell and Huber (1985). Strictly speaking,
-Fig. 3. Ranges of load-settlement curves for different stone column
-patterns. (Reprinted by permission from: Springer Nature, Geotechnical
-and Geological Engineering, “Effect of Inter-Column Spacing on Soil
+A dummy elastic, low-stiffness material was used to form a replace- ment column [Fig. 4(a)]; that is, the creation of the borehole using a vibroflot. This column was then expanded to model a displacement stone column [Fig. 4(b)]; that is, the compaction of the stone to create the stone column. The axisymmetric model used for the first stage had a 30-m-diameter boundary, which proved sufficient to reduce boundary effects to a minimum. Six- and 15-node triangular elements were used with a local fineness factor of 0.5. The final diameter of the stone column was assumed to be 1.06 m based on field observations of Mitchell and Huber (1985). Strictly speaking,
+Fig. 3. Ranges of load-settlement curves for different stone column patterns. (Reprinted by permission from: Springer Nature, Geotechnical and Geological Engineering, “Effect of Inter-Column Spacing on Soil
 Stresses due to Vibro-Installed Stone Columns: Interesting Findings,”
 Hesham Elshazly, Mohamed Elkasabgy, Azza Elleboudy, © 2018.)
 Table 1. Properties of the soils and stone columns used in the analysis
@@ -198,16 +80,11 @@ Estuarine cohesive
 Estuarine cohesionless
 Marine cohesive
 Marine cohesionless
-Hardening
-soil model
-Hardening
-soil model
-Hardening
-soil model
-Hardening
-soil model
-Hardening
-soil model
+Hardening soil model
+Hardening soil model
+Hardening soil model
+Hardening soil model
+Hardening soil model
 Type of material behavior
 Drained
 Undrained
@@ -216,16 +93,8 @@ Undrained
 Drained
 Dry unit weight, γ (kN=m3)
 18.6
-15
-15
-17
-17
 Saturated unit weight, γsat (kN=m3)
 21.6
-19
-19
-20
-20
 Permeability, kh (m=day)
 2 × 10−5
 2 × 10−8
@@ -251,22 +120,8 @@ Poisson’s ratio, ν
 0.2
 0.2
 Cohesion, c 0 (kPa)
-0
-0
-0
-0
-0
 Friction angle, Φ 0 (degrees)
-41
-34
-38
-34
-37
 Dilatancy angle, Ψ (degrees)
-0
-0
-0
-0
 -
 Initial voids ratio, e0
 0.5
@@ -275,18 +130,12 @@ Initial voids ratio, e0
 0.5
 0.5
 Reference pressure, pref (kPa)
-100
-100
-100
-100
-100
 Lateral earth coefficient, K0
 0.5
 0.5
 0.5
 0.5
-0.5
-m
+0.5 m
 0.65
 0.69
 0.65
@@ -294,421 +143,198 @@ m
 0.59
 Eref
 50 (MPa)
-29
 8.5
-17
 8.7
 12.6
-Eref
-oed (MPa)
-29
+Eref oed (MPa)
 8.5
-17
 8.7
 12.6
-Eref
-ur (MPa)
-14
+Eref ur (MPa)
 42.5
-85
 43.5
-63
-© ASCE
 04018056-3
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.
-creating the stone column is an infinite expansion. This implies the
-soil around the probe is at the limit state. Observations (e.g., Kirsch
-2006) show that this is not the case since the increase in stress and
-stiffness reduces with distance from the stone column. Therefore, it
-was assumed that a stone column could be modeled as the expan-
-sion of a cylindrical cavity though the initial diameter is unknown.
-Kirsch (2006) used a 0.6-m-diameter dummy material to model the
-probe; Sexton and McCabe (2012) a 0.5-m-diameter dummy
-material. Cavity diameters from 0.56 to 0.96 m were considered
-in this analysis by applying five prescribed displacements
-(Δr ¼ 0.05, 0.10, 0.15, 0.20, and 0.25 m) to study the effects
-of cavity expansion on the settlement of the composite system.
-The mesh was updated to account for the change in soil stiffness
-matrix.
-The dummy material was then replaced with stone [Fig. 4(c)] to
-allow the soil to consolidate for 18 days, the average time between
-installation and load tests on site. The increase in stress, expressed
-as the coefficient of lateral pressure, K, for the five prescribed dis-
-placements for the top coarse-grained and bottom fine-grained
-layers are shown in Fig. 5 with respect to the distance from the
-column axis expressed as a ratio of the final diameter (Dc ¼
-1.06 m). They show that an increase in displacement increases
-the confining stress acting on the stone column and the increase
-extends to at least six times the column diameter, which exceeds
-the distance between adjacent columns. Thus, the stresses within
-the soil between two columns will be affected by both columns.
-Fig. 6 shows the increase in stress at 1 m from the axis of
-the column for all eight soil layers for a column spacing of 2.1 m.
-Fig. 6 shows that the confining pressure acting on the column
-increases as the expansion increases, though there is a limit
-(see, theory of expanding cavities) and, in general, the increase in
-confining pressure is greater for the coarse-grained soils than the
-fine-grained soils. The initial, in situ coefficient of lateral earth
-pressure was assumed to be 0.5, representing the lightly overcon-
-solidated estuarine deposits.
-An increase in lateral stress, after consolidation, leads to an
-increase in stiffness because stiffness is a function of the effective
-stress. Janbu (1963) and others suggest that the soil stiffness, E, is
-related to the mean effective stress, p 0, by
+creating the stone column is an infinite expansion. This implies the soil around the probe is at the limit state. Observations (e.g., Kirsch
+2006) show that this is not the case since the increase in stress and stiffness reduces with distance from the stone column. Therefore, it was assumed that a stone column could be modeled as the expan- sion of a cylindrical cavity though the initial diameter is unknown.
+Kirsch (2006) used a 0.6-m-diameter dummy material to model the probe; Sexton and McCabe (2012) a 0.5-m-diameter dummy material. Cavity diameters from 0.56 to 0.96 m were considered in this analysis by applying five prescribed displacements
+(Δr _ 0.05, 0.10, 0.15, 0.20, and 0.25 m) to study the effects of cavity expansion on the settlement of the composite system.
+The mesh was updated to account for the change in soil stiffness matrix.
+The dummy material was then replaced with stone [Fig. 4(c)] to allow the soil to consolidate for 18 days, the average time between installation and load tests on site. The increase in stress, expressed as the coefficient of lateral pressure, K, for the five prescribed dis- placements for the top coarse-grained and bottom fine-grained layers are shown in Fig. 5 with respect to the distance from the column axis expressed as a ratio of the final diameter (Dc _
+1.06 m). They show that an increase in displacement increases the confining stress acting on the stone column and the increase extends to at least six times the column diameter, which exceeds the distance between adjacent columns. Thus, the stresses within the soil between two columns will be affected by both columns.
+Fig. 6 shows the increase in stress at 1 m from the axis of the column for all eight soil layers for a column spacing of 2.1 m.
+Fig. 6 shows that the confining pressure acting on the column increases as the expansion increases, though there is a limit
+(see, theory of expanding cavities) and, in general, the increase in confining pressure is greater for the coarse-grained soils than the fine-grained soils. The initial, in situ coefficient of lateral earth pressure was assumed to be 0.5, representing the lightly overcon- solidated estuarine deposits.
+An increase in lateral stress, after consolidation, leads to an increase in stiffness because stiffness is a function of the effective stress. Janbu (1963) and others suggest that the soil stiffness, E, is related to the mean effective stress, p 0, by
 E1
 E0
-¼
-P 0
+_
 P 0
-0
-m
-ð1Þ
-p 0 ¼ ðσ 0r þ σ 0
-θ þ σ 0zÞ=3
-ð2Þ
-where the subscript 0 indicates the initial state and 1 the current
-state. Brinkgreve and Broere (2011) suggested a value of m of 1
-for soft soils and Brinkgreve and Vermeer (1998) recommended
-that E50 should be used as a reference value for the modulus of
-elasticity. Fig. 7 shows that the increase in stiffness due to instal-
-lation of a stone column extends to five to six diameters, which is
-consistent with the observations of Kirsch (2006). Thus, a column
-expansion impacts the soil surrounding adjacent columns. Fig. 8
-shows that the stiffnesses of the coarse- and fine-grained layers in-
-crease with degree of expansion, with the increase being greatest
-toward the top of the column.
+P 0
+m ð1Þ p 0 _ ðσ 0r þ σ 0 θ þ σ 0zÞ=3 ð2Þ where the subscript 0 indicates the initial state and 1 the current state. Brinkgreve and Broere (2011) suggested a value of m of 1 for soft soils and Brinkgreve and Vermeer (1998) recommended that E50 should be used as a reference value for the modulus of elasticity. Fig. 7 shows that the increase in stiffness due to instal- lation of a stone column extends to five to six diameters, which is consistent with the observations of Kirsch (2006). Thus, a column expansion impacts the soil surrounding adjacent columns. Fig. 8 shows that the stiffnesses of the coarse- and fine-grained layers in- crease with degree of expansion, with the increase being greatest toward the top of the column.
 Effect of Two Columns
-Figs. 5 and 7 show that the stress and stiffness reduce with distance
-from the axis of the stone column and the value at any radius de-
-pends on the level of expansion. The ratio of column spacing to
-column diameter varied between 1.1 and 2. Therefore, depending
-on the soil type and degree of expansion according to Fig. 5, the
-increase in stress varied between 1.5 and 3.5, and the increase in
-stiffness according to Fig. 7 varied between 1.5 and 2. Given the
-distance between the columns, it was assumed that the mean stress
-and stiffness were a reasonably accurate assessment of the mobi-
-lized stress and stiffness. Fig. 9 shows the method used to deter-
-mine the mean stress and stiffness for the 3D analysis.
+Figs. 5 and 7 show that the stress and stiffness reduce with distance from the axis of the stone column and the value at any radius de- pends on the level of expansion. The ratio of column spacing to column diameter varied between 1.1 and 2. Therefore, depending on the soil type and degree of expansion according to Fig. 5, the increase in stress varied between 1.5 and 3.5, and the increase in stiffness according to Fig. 7 varied between 1.5 and 2. Given the distance between the columns, it was assumed that the mean stress and stiffness were a reasonably accurate assessment of the mobi- lized stress and stiffness. Fig. 9 shows the method used to deter- mine the mean stress and stiffness for the 3D analysis.
 Table 2. Properties of the foundation used in the analysis
 Footing
 Footing (concrete)
 Fill
-Elastic-perfectly
-plastic
-Elastic-perfectly
-plastic
+Elastic-perfectly plastic
+Elastic-perfectly plastic
 Dry unit weight, γ (kN=m3)
-25
-16
-Saturated unit weight,
-γsat (kN=m3)
+Saturated unit weight, γsat (kN=m3)
 —
-19
 Cohesion, c 0 (kN=m2)
 4,000
-0
 Friction angle, Φ 0 (degrees)
-40
-30
 Poisson’s ratio, ν
 0.15
 0.33
 E (MPa)
 2 × 104
-10
 Permeability, kh (m=day)
-0
 2 × 10−6
 Permeability, kv (m=day)
-0
 1 × 10−6
 Fig. 4. Principle of stone column expansion using the dummy material and modeling phases.
-© ASCE
 04018056-4
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.
 •
-The variation in lateral stress and stiffness were calculated for a
-single column using a two-dimensional (2D) axisymmetric
-model [Fig. 9(a)].
+The variation in lateral stress and stiffness were calculated for a single column using a two-dimensional (2D) axisymmetric model [Fig. 9(a)].
 •
-The mean stress and stiffness between the existing column and
-the proposed second column were found from the area under
-the graph.
+The mean stress and stiffness between the existing column and the proposed second column were found from the area under the graph.
 •
-A second stone column, modeling an adjacent column, was in-
-serted into a soil with the mean stress and stiffness derived from
-the expansion of the first column. The second column was
-expanded to give the variation in stress and stiffness from the
-axis of the second column [Fig. 9(b)].
+A second stone column, modeling an adjacent column, was in- serted into a soil with the mean stress and stiffness derived from the expansion of the first column. The second column was expanded to give the variation in stress and stiffness from the axis of the second column [Fig. 9(b)].
 •
-The mean stress and stiffness between the two columns were
-derived [Fig. 9(c)] and used in the 3D analysis.
-This was undertaken for all layers for the three column configu-
-rations. Fig. 10 shows the effect of installing one and then two col-
-umns in the top coarse-grained layer and the bottom fine-grained
+The mean stress and stiffness between the two columns were derived [Fig. 9(c)] and used in the 3D analysis.
+This was undertaken for all layers for the three column configu- rations. Fig. 10 shows the effect of installing one and then two col- umns in the top coarse-grained layer and the bottom fine-grained
 (a)
 (b)
-Fig. 5. Variation of coefficient of lateral earth pressure of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits with
-distance from the stone column axis for different degrees of cavity expansion.
-Fig. 6. Variation of coefficient of lateral earth pressure of estuarine deposits in Santa Barbara treatment plant with different degrees of cavity
-expansion at 1-m distance from the stone column axis.
-Fig. 7. Variation of normalized stiffness modulus of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits with distance
-from the column axis for different degrees of cavity expansion.
-© ASCE
+Fig. 5. Variation of coefficient of lateral earth pressure of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits with distance from the stone column axis for different degrees of cavity expansion.
+Fig. 6. Variation of coefficient of lateral earth pressure of estuarine deposits in Santa Barbara treatment plant with different degrees of cavity expansion at 1-m distance from the stone column axis.
+Fig. 7. Variation of normalized stiffness modulus of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits with distance from the column axis for different degrees of cavity expansion.
 04018056-5
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.
 layer for a column spacing of 1.5 m. It shows that the mean stress
-(expressed as the coefficient of lateral pressure) increases after the
-first column is installed. The installation of the second column re-
-duces the mean stress within the top layer and increases the stress in
-the bottom layer.
-Fig. 11 shows the effect of the installation of one and two col-
-umns on the stiffness of those two layers. The reduction in stress
-and stiffness in the top layer when the second column was installed
-is attributed to heave in the upper layers. The increase in stress and
-stiffness was noted in all the other layers for the three column
-arrangements, with the maximum increase associated with the
-smallest column spacing as shown in Figs. 12 and 13, which show
-the effects of column spacing on the lateral pressure coefficient and
-stiffness for the top coarse-grained and bottom fine-grained layers.
-They show that increasing the spacing, as expected, generally
-reduces the effect, though, given the assumptions only general ob-
-servations can be made. The coefficient of lateral earth pressure
-increased in depth from between 1.3 and 2.6 in the upper coarse-
-grained layer to between 2.5 and 3.3 in the lowest fine-grained
-layer, and the stiffness increased from between 1.5 and 2.2 in
+(expressed as the coefficient of lateral pressure) increases after the first column is installed. The installation of the second column re- duces the mean stress within the top layer and increases the stress in the bottom layer.
+Fig. 11 shows the effect of the installation of one and two col- umns on the stiffness of those two layers. The reduction in stress and stiffness in the top layer when the second column was installed is attributed to heave in the upper layers. The increase in stress and stiffness was noted in all the other layers for the three column arrangements, with the maximum increase associated with the smallest column spacing as shown in Figs. 12 and 13, which show the effects of column spacing on the lateral pressure coefficient and stiffness for the top coarse-grained and bottom fine-grained layers.
+They show that increasing the spacing, as expected, generally reduces the effect, though, given the assumptions only general ob- servations can be made. The coefficient of lateral earth pressure increased in depth from between 1.3 and 2.6 in the upper coarse- grained layer to between 2.5 and 3.3 in the lowest fine-grained layer, and the stiffness increased from between 1.5 and 2.2 in
 Fig. 8. Cavity expansion degree effect on the stiffness secant modulus of estuarine deposits around the stone column after primary consolidation at
 1-m distance from the stone column axis.
-Fig. 9. Conceptual method used in accumulating the effect on installing a second stone column at a distance (S) from the axis of the first column in the
-soft soil properties between them.
-© ASCE
+Fig. 9. Conceptual method used in accumulating the effect on installing a second stone column at a distance (S) from the axis of the first column in the soft soil properties between them.
 04018056-6
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.
-the upper fine-grained layer to between 1.5 and 3 in the lowest
-fine-grained layer. The increases in the top layers were less sensi-
-tive to the degree of expansion, possibly due to heave occurring in
-those layers. As the overburden pressure increased, the increase in
-lateral pressure coefficient increased with degree of expansion.
+the upper fine-grained layer to between 1.5 and 3 in the lowest fine-grained layer. The increases in the top layers were less sensi- tive to the degree of expansion, possibly due to heave occurring in those layers. As the overburden pressure increased, the increase in lateral pressure coefficient increased with degree of expansion.
 Numerical Analysis of the Santa Barbara Site
-PLAXIS 3D AE Version 01 was used to simulate the stone columns
-at the Santa Barbara site using the stress and stiffness derived from
-the axisymmetric model. The parameters given in Table 1, modified
-to take into account the effect of installation on the column con-
-fining stress and soil stiffness, were used in the 3D analysis; the
-other parameters, including the hydraulic conductivity, were kept
-constant. The 3D composite model for the 2.1 by 2.1 m column
-spacing is shown in Fig. 14 with the test footing at the center
-of the cross section. A sensitivity analysis showed that the vertical
-boundaries had to be at least 11 m from the footing axis; 13 m was
-chosen. The base of the model was taken as the base of the marine
-soils. The global coarseness of the finite-element mesh was taken to
+PLAXIS 3D AE Version 01 was used to simulate the stone columns at the Santa Barbara site using the stress and stiffness derived from the axisymmetric model. The parameters given in Table 1, modified to take into account the effect of installation on the column con- fining stress and soil stiffness, were used in the 3D analysis; the other parameters, including the hydraulic conductivity, were kept constant. The 3D composite model for the 2.1 by 2.1 m column spacing is shown in Fig. 14 with the test footing at the center of the cross section. A sensitivity analysis showed that the vertical boundaries had to be at least 11 m from the footing axis; 13 m was chosen. The base of the model was taken as the base of the marine soils. The global coarseness of the finite-element mesh was taken to
 (a)
 (b)
-Fig. 10. Improvement in lateral pressure coefficient of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits due to
-second column installation with different expansion degrees of stone column installation and for the columns spacing (S ¼ 1.50 m).
+Fig. 10. Improvement in lateral pressure coefficient of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits due to second column installation with different expansion degrees of stone column installation and for the columns spacing (S _ 1.50 m).
 (a)
 (b)
-Fig. 11. Improvement in normalized secant stiffness modulus of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits
-due to second column installation with different expansion degrees of stone column installation and for the columns spacing (S ¼ 1.50 m).
+Fig. 11. Improvement in normalized secant stiffness modulus of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits due to second column installation with different expansion degrees of stone column installation and for the columns spacing (S _ 1.50 m).
 (a)
 (b)
-Fig. 12. Effect of stone column spacing in improving the lateral pressure coefficient of (a) top coarse-grained layer; and (b) bottom fine-grained layer
-of estuarine deposits due to different expansion degrees of stone column installation.
-© ASCE
+Fig. 12. Effect of stone column spacing in improving the lateral pressure coefficient of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits due to different expansion degrees of stone column installation.
 04018056-7
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.
-be fine and the local fineness factor was 0.5 to have sufficient
-accuracy.
-Fig. 15 shows a comparison between the settlement of the foot-
-ing for the three arrangements of stone columns and different
-degrees of compaction, expressed as an increase in radius, Δr.
-It shows the dramatic effect of stone columns on the settlement
-of the footings by comparing the settlement for no ground improve-
-ment, for replacement stone columns, and for displacement stone
-columns with different degrees of expansion. The settlement im-
-provement factor for a contact pressure of 40 kPa varied from about
-5 to 12. The ranges of observed settlements from the field trials are
-also shown in Fig. 15. They indicate that the radial expansion has to
-be at least 0.15 m for the 1.5 by 1.2 m spacing to 0.1 m for the 1.75
-and 2.1 m spacing if the settlement is to be modeled, suggesting
-that the smaller the spacing the greater the expansion.
+be fine and the local fineness factor was 0.5 to have sufficient accuracy.
+Fig. 15 shows a comparison between the settlement of the foot- ing for the three arrangements of stone columns and different degrees of compaction, expressed as an increase in radius, Δr.
+It shows the dramatic effect of stone columns on the settlement of the footings by comparing the settlement for no ground improve- ment, for replacement stone columns, and for displacement stone columns with different degrees of expansion. The settlement im- provement factor for a contact pressure of 40 kPa varied from about
+5 to 12. The ranges of observed settlements from the field trials are also shown in Fig. 15. They indicate that the radial expansion has to be at least 0.15 m for the 1.5 by 1.2 m spacing to 0.1 m for the 1.75 and 2.1 m spacing if the settlement is to be modeled, suggesting that the smaller the spacing the greater the expansion.
 The final diameter of the actual stone columns varied between
-0.81 and 1.22 m; the average of 1.06 was chosen to model the
-installation. The borehole created by the probe varied between
-0.5 and 0.75 m. Thus, the increase in radius due to the installation
-compaction could be between 0.03 and 0.36 m with an average of
-0.2 m. The predicted settlement of the trial foundations taking into
-account the increase in stiffness and confining stress for appropriate
-expansions based on the field observations were compared with the
-results of Mitchell and Huber (1985), Elshazly et al. (2008), and
-Killeen (2012). Mitchell and Huber (1985) used a homogenization
-method with a K value of 1 and no increase in soil stiffness.
-Elshazly et al. (2008) used the same homogenization method but
-increased the K value to 1.7, 1.2, and 0.85 for the fine-grained soils
-and used the hardening soil model. Killeen (2012) undertook a 3D
-analysis using the hardening soil model with a K value of 1 but
-did not take into account the increase in soil stiffness. Fig. 16
-shows that taking into account the characteristics of the composite
+0.81 and 1.22 m; the average of 1.06 was chosen to model the installation. The borehole created by the probe varied between
+0.5 and 0.75 m. Thus, the increase in radius due to the installation compaction could be between 0.03 and 0.36 m with an average of
+0.2 m. The predicted settlement of the trial foundations taking into account the increase in stiffness and confining stress for appropriate expansions based on the field observations were compared with the results of Mitchell and Huber (1985), Elshazly et al. (2008), and
+Killeen (2012). Mitchell and Huber (1985) used a homogenization method with a K value of 1 and no increase in soil stiffness.
+Elshazly et al. (2008) used the same homogenization method but increased the K value to 1.7, 1.2, and 0.85 for the fine-grained soils and used the hardening soil model. Killeen (2012) undertook a 3D analysis using the hardening soil model with a K value of 1 but did not take into account the increase in soil stiffness. Fig. 16 shows that taking into account the characteristics of the composite
 (a)
 (b)
-Fig. 13. Effect of stone column spacing in improving the secant stiffness modulus of (a) top coarse-grained layer; and (b) bottom fine-grained layer of
-estuarine deposits due to different expansion degrees of stone column installation.
-Fig. 14. 3D model geometry and finite-element mesh of the estuarine
-and marine deposits of the Santa Barbara treatment plant case for the
-spacing S ¼ 2.10 × 2.10 m.
+Fig. 13. Effect of stone column spacing in improving the secant stiffness modulus of (a) top coarse-grained layer; and (b) bottom fine-grained layer of estuarine deposits due to different expansion degrees of stone column installation.
+Fig. 14. 3D model geometry and finite-element mesh of the estuarine and marine deposits of the Santa Barbara treatment plant case for the spacing S _ 2.10 × 2.10 m.
 (a)
 (b)
 (c)
-Fig. 15. Comparison of the field load-settlement data with 3D numerical analysis results for the stone column spacings of (a) S ¼ 1.5 × 1.2 m;
-(b) S ¼ 1.75 × 1.75 m; and (c) S ¼ 2.10 × 2.10 m.
-© ASCE
+Fig. 15. Comparison of the field load-settlement data with 3D numerical analysis results for the stone column spacings of (a) S _ 1.5 × 1.2 m;
+(b) S _ 1.75 × 1.75 m; and (c) S _ 2.10 × 2.10 m.
 04018056-8
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.
-foundation produces a better prediction of the performance of the
-stone columns when compared to those models that only take into
-account the characteristics of the stone columns and increase in
-confining stress.
+foundation produces a better prediction of the performance of the stone columns when compared to those models that only take into account the characteristics of the stone columns and increase in confining stress.
 Conclusions
-Empirical design of stone column installations is based on the
-concept of compacted columns restrained by the lateral pressure in
-the surrounding soil. Stone columns also improve the stiffness of
-the soil creating a composite foundation, which is stiffer than the
-stone columns on their own. It is possible to model this composite
-foundation by producing a homogeneous system with a stiffness
-equal to the combined stiffness of the soil and columns based on
-their volumes. This paper developed that concept by analyzing the
-composite system in which the installation of the stone columns
-increases the lateral stress and stiffness of the surrounding soil and
-the increased stiffness of the surrounding soil was used in the
-numerical analysis. This approach was compared with those based
-on the single column and homogenized methods and validated
-against a case study by comparing the predicted settlement with
-that observed in field tests using a circular foundation. It is con-
-cluded that
+Empirical design of stone column installations is based on the concept of compacted columns restrained by the lateral pressure in the surrounding soil. Stone columns also improve the stiffness of the soil creating a composite foundation, which is stiffer than the stone columns on their own. It is possible to model this composite foundation by producing a homogeneous system with a stiffness equal to the combined stiffness of the soil and columns based on their volumes. This paper developed that concept by analyzing the composite system in which the installation of the stone columns increases the lateral stress and stiffness of the surrounding soil and the increased stiffness of the surrounding soil was used in the numerical analysis. This approach was compared with those based on the single column and homogenized methods and validated against a case study by comparing the predicted settlement with that observed in field tests using a circular foundation. It is con- cluded that
 •
-This approach to a composite foundation predicted less settle-
-ment than those based on the single column and homogenized
-methods;
+This approach to a composite foundation predicted less settle- ment than those based on the single column and homogenized methods;
 •
-This approach predicted similar settlements to those of the trial
-foundations on stone columns installed at different centers in
-estuarine deposits; and
+This approach predicted similar settlements to those of the trial foundations on stone columns installed at different centers in estuarine deposits; and
 •
-The design of vibro stone column foundations should take into
-account the increase in lateral stress within the surrounding soil
-and the increased stiffness of those soils.
+The design of vibro stone column foundations should take into account the increase in lateral stress within the surrounding soil and the increased stiffness of those soils.
 References
 Aboshi, H., E. Ichimoto, M. Enoki, and K. Harada. 1979. “The composer:
-A method to improve characteristics of soft clays by inclusion of large
-diameter sand columns.” In Proc., Int. Conf. on Soil Reinforcement:
-Reinforced Earth and Other Techniques, 211–216. Paris: Champs-
-sur-Marne.
-Al Ammari, K., and B. G. Clarke. 2016. “Predicting the effect of vibro
-stone column installation on performance of reinforced foundations.”
+A method to improve characteristics of soft clays by inclusion of large diameter sand columns.” In Proc., Int. Conf. on Soil Reinforcement:
+Reinforced Earth and Other Techniques, 211–216. Paris: Champs- sur-Marne.
+Al Ammari, K., and B. G. Clarke. 2016. “Predicting the effect of vibro stone column installation on performance of reinforced foundations.”
 Int. J. Civ. Environ. Struct. Constr. Archit. Eng. 10 (2): 111–117.
-Balaam, N., and J. Booker. 1985. “Effect of stone column yield on
-settlement of rigid foundations in stabilized clay.” Int. J. Numer. Anal.
+Balaam, N., and J. Booker. 1985. “Effect of stone column yield on settlement of rigid foundations in stabilized clay.” Int. J. Numer. Anal.
 Methods
 Geomech.
-9
 (4):
 331–351.
 https://doi.org/10.1002/nag
 .1610090404.
-Brinkgreve, R. B. J., and W. Broere. 2011. PLAXIS 3D foundation manual
-version 2. Delft, Netherlands: Plaxis BV.
-Brinkgreve, R. B. J., and P. A. Vermeer. 1998. PLAXIS: Finite element code
-for soil and rock analysis: Version 7. Delft, Netherlands: Plaxis BV.
+Brinkgreve, R. B. J., and W. Broere. 2011. PLAXIS 3D foundation manual version 2. Delft, Netherlands: Plaxis BV.
+Brinkgreve, R. B. J., and P. A. Vermeer. 1998. PLAXIS: Finite element code for soil and rock analysis: Version 7. Delft, Netherlands: Plaxis BV.
 Castro, J., and C. Sagaseta. 2009. “Consolidation around stone columns:
 Influence of column deformation.” Int. J. Numer. Anal. Methods
 Geomech. 33 (7): 851–877. https://doi.org/10.1002/nag.745.
 Clarke, B. G. 1994. Pressuremeters in geotechnical design. Boca Raton,
 FL: CRC Press.
-Debats, J. M., Z. Guetif, and M. Bouassida. 2003. “Soft soil improvement
-due to vibro-compacted columns installation.” In Proc., Int. Workshop
-on Geotechnics of Soft Soils: Theory and Practice, 551–556. Essen,
+Debats, J. M., Z. Guetif, and M. Bouassida. 2003. “Soft soil improvement due to vibro-compacted columns installation.” In Proc., Int. Workshop on Geotechnics of Soft Soils: Theory and Practice, 551–556. Essen,
 Germany: Gluckauf.
-Elshazly, H., M. Elkasabgy, and A. Elleboudy. 2008. “Effect of inter-
-column spacing on soil stresses due to vibro-installed stone columns:
+Elshazly, H., M. Elkasabgy, and A. Elleboudy. 2008. “Effect of inter- column spacing on soil stresses due to vibro-installed stone columns:
 Interesting findings.” Geotech. Geol. Eng. 26 (2): 225–236. https://doi
 .org/10.1007/s10706-007-9159-y.
-Elshazly, H., D. Hafez, and M. Mossaad. 2006. “Back-calculating vibro-
-installation stresses in stone-column-reinforced soils.” Proc. Inst. Civ.
+Elshazly, H., D. Hafez, and M. Mossaad. 2006. “Back-calculating vibro- installation stresses in stone-column-reinforced soils.” Proc. Inst. Civ.
 Eng. Ground Improv. 10 (2): 47–53. https://doi.org/10.1680/grim.2006
 .10.2.47.
-Elshazly, H., D. Hafez, and M. Mossaad. 2007. “Settlement of circular
-foundations on stone-column-reinforced grounds.” Proc. Inst. Civ.
+Elshazly, H., D. Hafez, and M. Mossaad. 2007. “Settlement of circular foundations on stone-column-reinforced grounds.” Proc. Inst. Civ.
 Eng. Ground Improv. 11 (3): 163–170. https://doi.org/10.1680/grim
 .2007.11.3.163.
-Gab, M., H. F. Schweiger, R. Thurner, and D. Adam. 2007. “Field trial to
-investigate the performance of floating stone columns.” In Proc., 14th
+Gab, M., H. F. Schweiger, R. Thurner, and D. Adam. 2007. “Field trial to investigate the performance of floating stone columns.” In Proc., 14th
 European Conf. on Soil Mechanics and Geotechnical Engineering,
 1311–1316. Amsterdam, Netherlands: IOS Press.
-Guetif, Z., M. Bouassida, and J. M. Debats. 2007. “Improved soft clay
-characteristics due to stone column installation.” Comput. Geotech.
+Guetif, Z., M. Bouassida, and J. M. Debats. 2007. “Improved soft clay characteristics due to stone column installation.” Comput. Geotech.
 34 (2): 104–111. https://doi.org/10.1016/j.compgeo.2006.09.008.
-Hu, W. 1995. “Physical modelling of group behaviour of stone column
-foundations.” Ph.D. thesis, Univ. of Glasgow. http://theses.gla.ac.uk
+Hu, W. 1995. “Physical modelling of group behaviour of stone column foundations.” Ph.D. thesis, Univ. of Glasgow. http://theses.gla.ac.uk
 /817.
-Hughes, J. M. O., and N. J. Withers. 1974. “Reinforcing of soft cohesive
-soils with stone columns.” Ground Eng. 7 (3): 42–49.
-Janbu, N. 1963. “Soil compressibility as determined by oedometer and tri-
-axial tests.” In Vol. 1 of Proc., European Conf. on Soil Mechanics and
+Hughes, J. M. O., and N. J. Withers. 1974. “Reinforcing of soft cohesive soils with stone columns.” Ground Eng. 7 (3): 42–49.
+Janbu, N. 1963. “Soil compressibility as determined by oedometer and tri- axial tests.” In Vol. 1 of Proc., European Conf. on Soil Mechanics and
 Foundation Engineering, 19–25. Wiesbaden, Germany.
-Killeen, M. M. 2012. “Numerical modelling of small groups of stone col-
-umns.” Ph.D. thesis, National Univ. of Ireland. http://hdl.handle.net
+Killeen, M. M. 2012. “Numerical modelling of small groups of stone col- umns.” Ph.D. thesis, National Univ. of Ireland. http://hdl.handle.net
 /10379/3464.
-Killeen, M. M., and B. A. McCabe. 2014. “Settlement performance of pad
-footings on soft clay supported by stone columns: A numerical study.”
+Killeen, M. M., and B. A. McCabe. 2014. “Settlement performance of pad footings on soft clay supported by stone columns: A numerical study.”
 Soils Found. 54 (4): 760–776. https://doi.org/10.1016/j.sandf.2014.06
 .011.
 (a)
 (b)
 (c)
-Fig. 16. Comparison of the 3D numerical analysis results with previous research works for the stone column spacings of (a) S ¼ 1.5 × 1.2 m;
-(b) S ¼ 1.75 × 1.75 m; and (c) S ¼ 2.10 × 2.10 m.
-© ASCE
+Fig. 16. Comparison of the 3D numerical analysis results with previous research works for the stone column spacings of (a) S _ 1.5 × 1.2 m;
+(b) S _ 1.75 × 1.75 m; and (c) S _ 2.10 × 2.10 m.
 04018056-9
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.
-Kirsch, F. 2006. “Vibro stone column installation and its effect on ground
-improvement.” In Proc., Int. Conf. on Numerical Modelling of
-Construction Processes in Geotechnical Engineering for Urban Envi-
-ronment, 115–124. London: CRC Press.
-McCabe, B. A., G. J. Nimmons, and D. Egan. 2009. “A review of field
-performance of stone columns in soft soils.” Proc. Inst. Civ. Eng.
+Kirsch, F. 2006. “Vibro stone column installation and its effect on ground improvement.” In Proc., Int. Conf. on Numerical Modelling of
+Construction Processes in Geotechnical Engineering for Urban Envi- ronment, 115–124. London: CRC Press.
+McCabe, B. A., G. J. Nimmons, and D. Egan. 2009. “A review of field performance of stone columns in soft soils.” Proc. Inst. Civ. Eng.
 Geotech. Eng. 162 (6): 323–334. https://doi.org/10.1680/geng.2009
 .162.6.323.
-McKelvey, D., V. Sivakumar, A. Bell, and J. Graham. 2004. “A laboratory
-model study of the performance of vibrated stone columns in soft clay.”
+McKelvey, D., V. Sivakumar, A. Bell, and J. Graham. 2004. “A laboratory model study of the performance of vibrated stone columns in soft clay.”
 J. Geotech. Eng. 157: 137–149.
-Mitchell, J. K., and T. R. Huber. 1985. “Performance of a stone column
-foundation.” J. Geotech. Eng. 111 (2): 205–223. https://doi.org/10
+Mitchell, J. K., and T. R. Huber. 1985. “Performance of a stone column foundation.” J. Geotech. Eng. 111 (2): 205–223. https://doi.org/10
 .1061/(ASCE)0733-9410(1985)111:2(205).
 Priebe, H. J. 1995. “The design of vibro replacement.” Ground Eng.
 28 (10): 31.
-Sexton, B. G., and B. A. McCabe. 2012. “A preliminary numerical study of
-the improvement to secondary settlement offered by granular columns.”
+Sexton, B. G., and B. A. McCabe. 2012. “A preliminary numerical study of the improvement to secondary settlement offered by granular columns.”
 In Vol. 1 of Proc., Int. Conf. on Ground Improvement and Ground
 Control (ICGI 2012), 685–690. India: Research Publishing Services.
-Sexton, B. G., and B. A. McCabe. 2015. “Modelling stone column
-installation in an elasto-viscoplastic soil.” Int. J. Geotech. Eng. 9 (5):
+Sexton, B. G., and B. A. McCabe. 2015. “Modelling stone column installation in an elasto-viscoplastic soil.” Int. J. Geotech. Eng. 9 (5):
 500–512. https://doi.org/10.1179/1939787914Y.0000000090.
-© ASCE
 04018056-10
-J. Geotech. Geoenviron. Eng.
- J. Geotech. Geoenviron. Eng., 2018, 144(9): 04018056 
 Downloaded from ascelibrary.org by Nagoya University on 06/21/18. Copyright ASCE. For personal use only; all rights reserved.

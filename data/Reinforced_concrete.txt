@@ -1,0 +1,355 @@
+Reinforced concrete
+A heavy, reinforced concrete column, seen before and after the concrete has been cast in place around its rebar frame
+Material type
+Composite material
+Mechanical properties
+Tensile strength (σt)
+Stronger than concrete
+The novel shape of the Philips Pavilion built in Brussels for Expo 58 was achieved using reinforced concrete
+Reinforced concrete
+Reinforced concrete, also called ferroconcrete or ferro-concrete, is a composite material in which concrete's relatively low tensile strength and ductility are compensated for by the inclusion of reinforcement having higher tensile strength or ductility. The reinforcement is usually, though not necessarily, steel reinforcing bars (known as rebar) and is usually embedded passively in the concrete before the concrete sets. However, post-tensioning is also employed as a technique to reinforce the concrete. In terms of volume used annually, it is one of the most common engineering materials.[1][2]
+In corrosion engineering terms, when designed correctly, the alkalinity of the concrete protects the steel rebar from corrosion.[3]
+Reinforcing schemes are generally designed to resist tensile stresses in particular regions of the concrete that might cause unacceptable cracking and/or structural failure.
+Modern reinforced concrete can contain varied reinforcing materials made of steel, polymers or alternate composite material in conjunction with rebar or not. Reinforced concrete may also be permanently stressed (concrete in compression, reinforcement in tension), so as to improve the behavior of the final structure under working loads. In the United States, the most common methods of doing this are known as pre- tensioning and post-tensioning.
+For a strong, ductile and durable construction the reinforcement needs to have the following properties at least:
+High relative strength
+High toleration of tensile strain
+Good bond to the concrete, irrespective of pH, moisture, and similar factors
+Thermal compatibility, not causing unacceptable stresses (such as expansion or contraction) in response to changing temperatures.
+Description
+François Coignet House at 72 rue
+Charles-Michels, Saint Denis
+House built by Coignet for his factory workers at 59-61 rue Charles-Michels,
+Saint Denis
+Durability in the concrete environment, irrespective of corrosion or sustained stress for example.
+The early development of reinforced concrete took place in parallel in England and France during the mid-19th century.[4]
+French builder François Coignet was the first to use iron- reinforced concrete as a building technique.[5] In 1853-55,
+Coignet built for himself the first iron reinforced concrete structure, a four-story house at 72 rue Charles Michels in the suburbs of Paris known as the François Coignet House.[6]
+Coignet's descriptions of reinforcing concrete suggests that he did not do it for means of adding strength to the concrete but for keeping walls in monolithic construction from overturning.[7] The 1872–73 Pippen Building in Brooklyn, although not designed by Coignet, stands as a testament to his technique.
+In 1854, English builder William B. Wilkinson reinforced the concrete roof and floors in the two-story house he was constructing.
+His positioning of the reinforcement demonstrated that, unlike his predecessors, he had knowledge of tensile stresses.[8][9][10] Between 1869 and 1870, Henry
+Eton would design, and Messrs W & T Phillips of London construct the wrought iron reinforced Homersfield Bridge, with a 50' (15.25 meter) span, over the river Waveney, between the English counties of Norfolk and Suffolk.[11]
+Joseph Monier, a 19th-century French gardener, was a pioneer in the development of structural, prefabricated and reinforced concrete, having been dissatisfied with the existing materials available for making durable flowerpots.[12] He was granted a patent for reinforcing concrete flowerpots by means of mixing a wire mesh and a mortar shell in 1867.[13]
+In 1877, Monier was granted another patent for a more advanced technique of reinforcing concrete columns and girders, using iron rods placed in a grid pattern. Though Monier undoubtedly knew that reinforcing concrete would improve its inner cohesion, it is not clear whether he even knew how much the tensile strength of concrete was improved by the reinforcing.[14]
+In 1877, Thaddeus Hyatt published a report entitled An Account of Some Experiments with Portland-
+Cement-Concrete Combined with Iron as a Building Material, with Reference to Economy of Metal in
+Construction and for Security against Fire in the Making of Roofs, Floors, and Walking Surfaces,[15] in which he reported his experiments on the behaviour of reinforced concrete. His work played a major role in the evolution of concrete construction as a proven and studied science. Without Hyatt's work, more dangerous trial and error methods might have been depended on for the advancement in the technology.[7][16]
+History
+Before the 1870s, the use of concrete construction was not yet a scientifically proven technology, though dating back to the Roman Empire, and having been reintroduced in the early 19th century. [17].
+Ernest L. Ransome, an English-born engineer, was an early innovator of reinforced concrete techniques at the end of the 19th century. Using the knowledge of reinforced concrete developed during the previous 50 years, Ransome improved nearly all the styles and techniques of the earlier inventors of reinforced concrete. Ransome's key innovation was to twist the reinforcing steel bar, thereby improving its bond with the concrete.[18][19] Gaining increasing fame from his concrete constructed buildings, Ransome was able to build in 1886–1889 two of the first reinforced concrete bridges in North America.[18] One of his bridges still stands on Shelter Island in New York's East End.
+One of the first concrete buildings constructed in the United States was a private home designed by
+William Ward, completed in 1876. The home was particularly designed to be fireproof.
+G. A. Wayss was a German civil engineer and a pioneer of the iron and steel concrete construction. In
+1879, Wayss bought the German rights to Monier's patents and, in 1884, his firm, Wayss & Freytag, made the first commercial use of reinforced concrete. Up until the 1890s, Wayss and his firm greatly contributed to the advancement of Monier's system of reinforcing, establishing it as a well-developed scientific technology.[14]
+The Lamington Bridge was Australia's first large reinforced concrete road bridge. It was designed by
+Alfred Barton Brady, who was the Queensland Government Architect at the time of the bridge's construction in 1896.[20] It has eleven 15.2-metre (50 ft) spans and a total length of 187-metre (614 ft), larger than any known comparable bridge in the world at that time.[21]
+One of the first skyscrapers made with reinforced concrete was the 16-story Ingalls Building in
+Cincinnati, constructed in 1904.[10]
+The first reinforced concrete building in Southern California was the Laughlin Annex in downtown Los
+Angeles, constructed in 1905.[22][23] In 1906, 16 building permits were reportedly issued for reinforced concrete buildings in the City of Los Angeles, including the Temple Auditorium and 8-story Hayward
+Hotel.[24][25]
+In 1906, a partial collapse of the Bixby Hotel in Long Beach killed 10 workers during construction when shoring was removed prematurely. That event spurred a scrutiny of concrete erection practices and building inspections. The structure was constructed of reinforced concrete frames with hollow clay tile ribbed flooring and hollow clay tile infill walls. That practice was strongly questioned by experts and recommendations for "pure" concrete construction were made, using reinforced concrete for the floors and walls as well as the frames.[26]
+In April 1904, Julia Morgan, an American architect and engineer, who pioneered the aesthetic use of reinforced concrete, completed her first reinforced concrete structure, El Campanil, a 72-foot (22 m) bell tower at Mills College,[27] which is located across the bay from San Francisco. Two years later, El
+Campanil survived the 1906 San Francisco earthquake without any damage,[28] which helped build her reputation and launch her prolific career.[29] The 1906 earthquake also changed the public's initial resistance to reinforced concrete as a building material, which had been criticized for its perceived dullness. In 1908, the San Francisco Board of Supervisors changed the city's building codes to allow wider use of reinforced concrete.[30]
+Rebars of Sagrada Família's roof in construction (2009)
+Christ the Redeemer statue in Rio de
+Janeiro, Brazil. The monument is made of reinforced concrete clad in a mosaic of thousands of triangular soapstone tiles.[33]
+In 1906, the National Association of Cement Users (NACU) published Standard No. 1[31] and, in 1910, the Standard Building Regulations for the Use of Reinforced Concrete.[32]
+Many different types of structures and components of structures can be built using reinforced concrete elements including slabs, walls, beams, columns, foundations, frames and more.
+Reinforced concrete can be classified as precast or cast-in-place concrete.
+Designing and implementing the most efficient floor system is key to creating optimal building structures.
+Small changes in the design of a floor system can have significant impact on material costs, construction schedule, ultimate strength, operating costs, occupancy levels and end use of a building.
+Without reinforcement, constructing modern structures with concrete material would not be possible.
+When reinforced concrete elements are used in construction, these reinforced concrete elements exhibit basic behavior when subjected to external loads. Reinforced concrete elements may be subject to tension, compression, bending, shear, and/or torsion.[34]
+Concrete is a mixture of coarse (stone or brick chips) and fine
+(generally sand and/or crushed stone) aggregates with a paste of binder material (usually Portland cement) and water. When cement is mixed with a small amount of water, it hydrates to form microscopic opaque crystal lattices encapsulating and locking the aggregate into a rigid shape.[35][36] The aggregates used for making concrete should be free from harmful substances like organic impurities, silt, clay, lignite, etc. Typical concrete mixes have high resistance to
+Use in construction
+Reinforced concrete elements
+Behavior
+Materials compressive stresses (about 4,000 psi (28 MPa)); however, any appreciable tension (e.g., due to bending) will break the microscopic rigid lattice, resulting in cracking and separation of the concrete. For this reason, typical non-reinforced concrete must be well supported to prevent the development of tension.
+If a material with high strength in tension, such as steel, is placed in concrete, then the composite material, reinforced concrete, resists not only compression but also bending and other direct tensile actions. A composite section where the concrete resists compression and reinforcement "rebar" resists tension can be made into almost any shape and size for the construction industry.
+Three physical characteristics give reinforced concrete its special properties:
+1. The coefficient of thermal expansion of concrete is similar to that of steel, eliminating large internal stresses due to differences in thermal expansion or contraction.
+2. When the cement paste within the concrete hardens, this conforms to the surface details of the steel, permitting any stress to be transmitted efficiently between the different materials.
+Usually steel bars are roughened or corrugated to further improve the bond or cohesion between the concrete and steel.
+3. The alkaline chemical environment provided by the alkali reserve (KOH, NaOH) and the portlandite (calcium hydroxide) contained in the hardened cement paste causes a passivating film to form on the surface of the steel, making it much more resistant to corrosion than it would be in neutral or acidic conditions. When the cement paste is exposed to the air and meteoric water reacts with atmospheric CO2, carbonic acid is formed.
+Carbonic acid then reacts with the portlandite and calcium silicate hydrate (CSH) of the hardened cement paste to progressively carbonate them, gradually reducing the high pH from 13.5 – 12.5 to 8.5, the pH of water in equilibrium with calcite (calcium carbonate) and the steel is no longer passivated.
+As a rule of thumb, only to give an idea on orders of magnitude, steel is protected at pH above ~11 but starts to corrode below ~10 depending on steel characteristics and local physico-chemical conditions when concrete becomes carbonated. Carbonation of concrete along with chloride ingress are amongst the chief reasons for the failure of reinforcement bars in concrete.
+The relative cross-sectional area of steel required for typical reinforced concrete is usually quite small and varies from 1% for most beams and slabs to 6% for some columns. Reinforcing bars are normally round in cross-section and vary in diameter. Reinforced concrete structures sometimes have provisions such as ventilated hollow cores to control their moisture & humidity.
+Distribution of concrete (in spite of reinforcement) strength characteristics along the cross-section of vertical reinforced concrete elements is inhomogeneous.[37]
+The reinforcement in an RC structure, such as a steel bar, has to undergo the same strain or deformation as the surrounding concrete in order to prevent discontinuity, slip, or separation of the two materials under load. Maintaining composite action requires the transfer of load between the concrete and steel.
+The direct stress is transferred from the concrete to the bar interface so as to change the tensile stress in the reinforcing bar along its length. This load transfer is achieved by means of bond (anchorage) and is idealized as a continuous stress field that develops in the vicinity of the steel-concrete interface. The
+Key characteristics
+Mechanism of composite action of reinforcement and concrete reasons that the two different material components, concrete and steel, can work together are as follows:
+(1) Reinforcement can be well bonded to the concrete, thus they can jointly resist external loads and deform. (2) The thermal expansion coefficients of concrete and steel are so close (1.0 ×10−5 to 1.5 ×10−5 for concrete and 1.2 ×10−5 for steel) that the thermal stress-induced damage to the bond between the two components can be prevented. (3) Concrete can protect the embedded steel from corrosion and high- temperature-induced softening.
+Because the actual bond stress varies along the length of a bar anchored in a zone of tension, current international codes of specifications use the concept of development length rather than bond stress. The main requirement for safety against bond failure is to provide a sufficient extension of the length of the bar beyond the point where the steel is required to develop its yield stress, and this length must be at least equal to its development length. However, if the actual available length is inadequate for full development, special anchorages must be provided, such as cogs, hooks or mechanical end plates. The same concept applies to lap splice length [38] mentioned in the codes where splices (overlapping) provided between two adjacent bars in order to maintain the required continuity of stress in the splice zone.
+In wet and cold climates, reinforced concrete for roads, bridges, parking structures, and other structures that may be exposed to deicing salt may benefit from the use of corrosion-resistant reinforcement such as uncoated, low carbon/chromium (micro composite), epoxy-coated, hot dip galvanized or stainless steel rebar. Good design and a well-chosen concrete mix will provide additional protection for many applications.
+Uncoated, low carbon/chromium rebar looks similar to standard carbon steel rebar due to its lack of a coating; its highly corrosion-resistant features are inherent in the steel microstructure. It can be identified by the unique ASTM specified mill marking on its smooth, dark charcoal finish. Epoxy-coated rebar can easily be identified by the light green color of its epoxy coating. Hot dip galvanized rebar may be bright or dull gray depending on length of exposure, and stainless rebar exhibits a typical white metallic sheen that is readily distinguishable from carbon steel reinforcing bar. Reference ASTM standard specifications
+A1035/A1035M Standard Specification for Deformed and Plain Low-carbon, Chromium, Steel Bars for
+Concrete Reinforcement, A767 Standard Specification for Hot Dip Galvanized Reinforcing Bars, A775
+Standard Specification for Epoxy Coated Steel Reinforcing Bars and A955 Standard Specification for
+Deformed and Plain Stainless Bars for Concrete Reinforcement.
+Another, cheaper way of protecting rebars is coating them with zinc phosphate.[39] Zinc phosphate slowly reacts with calcium cations and the hydroxyl anions present in the cement pore water and forms a stable hydroxyapatite layer.
+Penetrating sealants typically must be applied some time after curing. Sealants include paint, plastic foams, films and aluminum foil, felts or fabric mats sealed with tar, and layers of bentonite clay, sometimes used to seal roadbeds.
+Anchorage (bond) in concrete: Codes of specifications
+Anticorrosion measures
+Two intersecting beams integral to parking garage slab that will contain both reinforcing steel and the wiring, junction boxes and other electrical components necessary to install the overhead lighting for the garage level beneath it.
+A short video of the last beam being placed on a raised road, part of a new road near Cardiff Bay, Wales
+Corrosion inhibitors, such as calcium nitrite [Ca(NO2)2], can also be added to the water mix before pouring concrete. Generally, 1–2 wt. % of [Ca(NO2)2] with respect to cement weight is needed to prevent corrosion of the rebars. The nitrite anion is a mild oxidizer that oxidizes the soluble and mobile ferrous ions (Fe2+) present at the surface of the corroding steel and causes them to precipitate as an insoluble ferric hydroxide (Fe(OH)3). This causes the passivation of steel at the anodic oxidation sites. Nitrite is a much more active corrosion inhibitor than nitrate, which is a less powerful oxidizer of the divalent iron.
+A beam bends under bending moment, resulting in a small curvature. At the outer face (tensile face) of the curvature the concrete experiences tensile stress, while at the inner face
+(compressive face) it experiences compressive stress.
+A singly reinforced beam is one in which the concrete element is only reinforced near the tensile face and the reinforcement, called tension steel, is designed to resist the tension.
+A doubly reinforced beam is the section in which besides the tensile reinforcement the concrete element is also reinforced near the compressive face to help the concrete resist compression and take stresses. The latter reinforcement is called compression steel. When the compression zone of a concrete is inadequate to resist the compressive moment
+(positive moment), extra reinforcement has to be provided if the architect limits the dimensions of the section.
+An under-reinforced beam is one in which the tension capacity of the tensile reinforcement is smaller than the combined compression capacity of the concrete and the compression steel (under-reinforced at tensile face). When the reinforced concrete element is subject to increasing bending moment, the tension steel yields while the concrete does not reach its ultimate failure condition. As the tension steel yields and stretches, an "under-reinforced" concrete also yields in a ductile manner, exhibiting a large deformation and warning before its ultimate failure. In this case the yield stress of the steel governs the design.
+An over-reinforced beam is one in which the tension capacity of the tension steel is greater than the combined compression capacity of the concrete and the compression steel (over-reinforced at tensile face). So the "over-reinforced concrete" beam fails by crushing of the compressive-zone concrete and before the tension zone steel yields, which does not provide any warning before failure as the failure is instantaneous.
+Reinforcement and terminology of beams
+0:00
+A balanced-reinforced beam is one in which both the compressive and tensile zones reach yielding at the same imposed load on the beam, and the concrete will crush and the tensile steel will yield at the same time. This design criterion is however as risky as over-reinforced concrete, because failure is sudden as the concrete crushes at the same time of the tensile steel yields, which gives a very little warning of distress in tension failure.[40]
+Steel-reinforced concrete moment-carrying elements should normally be designed to be under-reinforced so that users of the structure will receive warning of impending collapse.
+The characteristic strength is the strength of a material where less than 5% of the specimen shows lower strength.
+The design strength or nominal strength is the strength of a material, including a material-safety factor.
+The value of the safety factor generally ranges from 0.75 to 0.85 in Permissible stress design.
+The ultimate limit state is the theoretical failure point with a certain probability. It is stated under factored loads and factored resistances.
+Reinforced concrete structures are normally designed according to rules and regulations or recommendation of a code such as ACI-318, CEB, Eurocode 2 or the like. WSD, USD or LRFD methods are used in design of RC structural members. Analysis and design of RC members can be carried out by using linear or non-linear approaches. When applying safety factors, building codes normally propose linear approaches, but for some cases non-linear approaches. To see the examples of a non-linear numerical simulation and calculation visit the references:[41][42]
+Prestressing concrete is a technique that greatly increases the load-bearing strength of concrete beams.
+The reinforcing steel in the bottom part of the beam, which will be subjected to tensile forces when in service, is placed in tension before the concrete is poured around it. Once the concrete has hardened, the tension on the reinforcing steel is released, placing a built-in compressive force on the concrete. When loads are applied, the reinforcing steel takes on more stress and the compressive force in the concrete is reduced, but does not become a tensile force. Since the concrete is always under compression, it is less subject to cracking and failure.[43]
+Reinforced concrete can fail due to inadequate strength, leading to mechanical failure, or due to a reduction in its durability. Corrosion and freeze/thaw cycles may damage poorly designed or constructed reinforced concrete. When rebar corrodes, the oxidation products (rust) expand and tends to flake, cracking the concrete and unbonding the rebar from the concrete. Typical mechanisms leading to durability problems are discussed below.
+Prestressed concrete
+Common failure modes of steel reinforced concrete
+Concrete spalling from the ceiling of an office unit (interior) in Singapore, possibly due to rebar corrosion.
+Concrete wall cracking as steel reinforcing corrodes and swells. Rust has a lower density than metal, so it expands as it forms, cracking the decorative cladding off the wall as well as damaging the structural concrete. The breakage of material from a surface is called spalling.
+Cracking of the concrete section is nearly impossible to prevent; however, the size and location of cracks can be limited and controlled by appropriate reinforcement, control joints, curing methodology and concrete mix design. Cracking can allow moisture to penetrate and corrode the reinforcement. This is a serviceability failure in limit state design. Cracking is normally the result of an inadequate quantity of rebar or rebar spaced at too great a distance. The concrete cracks either under excess loading or due to internal effects such as early thermal shrinkage while it cures.
+Ultimate failure leading to collapse can be caused by crushing the concrete, which occurs when compressive stresses exceed its strength, by yielding or failure of the rebar when bending or shear stresses exceed the strength of the reinforcement, or by bond failure between the concrete and the rebar.[44]
+Carbonation, or neutralisation, is a chemical reaction between carbon dioxide in the air and calcium hydroxide and hydrated calcium silicate in the concrete.
+When a concrete structure is designed, it is usual to specify the concrete cover for the rebar (the depth of the rebar within the object). The minimum concrete cover is normally regulated by design or building codes. If the reinforcement is too close to the surface, early failure due to corrosion may occur. The concrete cover depth can be measured with a cover meter. However, carbonated concrete incurs a durability problem only when there is also sufficient moisture and oxygen to cause electropotential corrosion of the reinforcing steel.
+One method of testing a structure for carbonation is to drill a fresh hole in the surface and then treat the cut surface with phenolphthalein indicator solution. This solution turns pink when in contact with alkaline concrete, making it possible to see the depth of carbonation. Using an existing hole does not suffice because the exposed surface will already be carbonated.
+Chlorides can promote the corrosion of embedded rebar if present in sufficiently high concentration.
+Chloride anions induce both localized corrosion (pitting corrosion) and generalized corrosion of steel reinforcements. For this reason, one should only use fresh raw water or potable water for mixing concrete, ensure that the coarse and fine aggregates do not contain chlorides, rather than admixtures which might contain chlorides.
+Mechanical failure
+Carbonation
+Chlorides
+Detailed view of spalling probably caused by a too thin layer of concrete between the steel and the surface, accompanied by corrosion from external exposure.
+Rebar for foundations and walls of a sewage pump station.
+The Paulins Kill Viaduct, Hainesburg,
+New Jersey, is 115 feet (35 m) tall and
+1,100 feet (335 m) long, and was heralded as the largest reinforced concrete structure in the world when it was completed in 1910 as part of the
+Lackawanna Cut-Off rail line project. The
+Lackawanna Railroad was a pioneer in the use of reinforced concrete.
+It was once common for calcium chloride to be used as an admixture to promote rapid set-up of the concrete. It was also mistakenly believed that it would prevent freezing. However, this practice fell into disfavor once the deleterious effects of chlorides became known. It should be avoided whenever possible.
+The use of de-icing salts on roadways, used to lower the freezing point of water, is probably one of the primary causes of premature failure of reinforced or prestressed concrete bridge decks, roadways, and parking garages. The use of epoxy-coated reinforcing bars and the application of cathodic protection has mitigated this problem to some extent. Also FRP (fiber-reinforced polymer) rebars are known to be less susceptible to chlorides.
+Properly designed concrete mixtures that have been allowed to cure properly are effectively impervious to the effects of de-icers.
+Another important source of chloride ions is sea water. Sea water contains by weight approximately 3.5% salts. These salts include sodium chloride, magnesium sulfate, calcium sulfate, and bicarbonates. In water these salts dissociate in free ions (Na+, Mg2+, Cl−, SO2−
+4 , HCO−
+3) and migrate with the water into the capillaries of the concrete. Chloride ions, which make up about 50% of these ions, are particularly aggressive as a cause of corrosion of carbon steel reinforcement bars.
+In the 1960s and 1970s it was also relatively common for magnesite, a chloride rich carbonate mineral, to be used as a floor-topping material. This was done principally as a levelling and sound attenuating layer.
+However it is now known that when these materials come into contact with moisture they produce a weak solution of hydrochloric acid due to the presence of chlorides in the magnesite. Over a period of time
+(typically decades), the solution causes corrosion of the embedded rebars. This was most commonly found in wet areas or areas repeatedly exposed to moisture.
+This a reaction of amorphous silica (chalcedony, chert, siliceous limestone) sometimes present in the aggregates with the hydroxyl ions (OH−) from the cement pore solution. Poorly crystallized silica (SiO2) dissolves and dissociates at high pH (12.5 - 13.5) in alkaline water. The soluble dissociated silicic acid reacts in the porewater with the calcium hydroxide (portlandite) present in the cement paste to form an expansive calcium silicate hydrate (CSH). The alkali–silica reaction (ASR) causes localised swelling responsible for tensile stress and cracking. The conditions required for alkali silica reaction are threefold:
+(1) aggregate containing an alkali-reactive constituent (amorphous silica), (2) sufficient availability of hydroxyl ions (OH−), and (3) sufficient moisture, above 75% relative humidity (RH) within the concrete.[45][46] This phenomenon is sometimes popularly referred to as "concrete cancer". This reaction occurs independently of the presence of rebars; massive concrete structures such as dams can be affected.
+Resistant to weak acids and especially sulfates, this cement cures quickly and has very high durability and strength. It was frequently used after World War II to make precast concrete objects. However, it can lose strength with heat or time (conversion), especially when not properly cured. After the collapse of three roofs made of prestressed concrete beams using high alumina cement, this cement was banned in the UK in 1976. Subsequent inquiries into the matter showed that the beams were improperly manufactured, but the ban remained.[47]
+Sulfates (SO4) in the soil or in groundwater, in sufficient concentration, can react with the Portland cement in concrete causing the formation of expansive products, e.g., ettringite or thaumasite, which can lead to early failure of the structure. The most typical attack of this type is on concrete slabs and foundation walls at grades where the sulfate ion, via alternate wetting and drying, can increase in concentration. As the concentration increases, the attack on the Portland cement can begin. For buried structures such as pipe, this type of attack is much rarer, especially in the eastern United States. The sulfate ion concentration increases much slower in the soil mass and is especially dependent upon the initial amount of sulfates in the native soil. A chemical analysis of soil borings to check for the presence of sulfates should be undertaken during the design phase of any project involving concrete in contact with the native soil. If the concentrations are found to be aggressive, various protective coatings can be applied. Also, in the US ASTM C150 Type 5 Portland cement can be used in the mix. This type of cement is designed to be particularly resistant to a sulfate attack.
+In steel plate construction, stringers join parallel steel plates. The plate assemblies are fabricated off site, and welded together on-site to form steel walls connected by stringers. The walls become the form into which concrete is poured. Steel plate construction speeds reinforced concrete construction by cutting out
+Alkali silica reaction
+Conversion of high alumina cement
+Sulfates
+Steel plate construction the time-consuming on-site manual steps of tying rebar and building forms. The method results in excellent strength because the steel is on the outside, where tensile forces are often greatest.
+Fiber reinforcement is mainly used in shotcrete, but can also be used in normal concrete. Fiber-reinforced normal concrete is mostly used for on-ground floors and pavements, but can also be considered for a wide range of construction parts (beams, pillars, foundations, etc.), either alone or with hand-tied rebars.
+Concrete reinforced with fibers (which are usually steel, glass, plastic fibers) or cellulose polymer fiber is less expensive than hand-tied rebar. The shape, dimension, and length of the fiber are important. A thin and short fiber, for example short, hair-shaped glass fiber, is only effective during the first hours after pouring the concrete (its function is to reduce cracking while the concrete is stiffening), but it will not increase the concrete tensile strength. A normal-size fiber for European shotcrete (1 mm diameter, 45 mm length—steel or plastic) will increase the concrete's tensile strength. Fiber reinforcement is most often used to supplement or partially replace primary rebar, and in some cases, it can be designed to fully replace rebar.[48]
+Steel is the strongest commonly available fiber,[49] and comes in different lengths (30 to 80  mm in
+Europe) and shapes (end-hooks). Steel fibers can only be used on surfaces that can tolerate or avoid corrosion and rust stains. In some cases, a steel-fiber surface is faced with other materials.
+Glass fiber is inexpensive and corrosion-proof, but not as ductile as steel. Recently, spun basalt fiber, long available in Eastern Europe, has become available in the U.S. and Western Europe. Basalt fiber is stronger and less expensive than glass, but historically has not resisted the alkaline environment of
+Portland cement well enough to be used as direct reinforcement. New materials use plastic binders to isolate the basalt fiber from the cement.
+The premium fibers are graphite-reinforced plastic fibers, which are nearly as strong as steel, lighter in weight, and corrosion-proof. Some experiments have had promising early results with carbon nanotubes, but the material is still far too expensive for any building.
+There is considerable overlap between the subjects of non-steel reinforcement and fiber-reinforcement of concrete. The introduction of non-steel reinforcement of concrete is relatively recent; it takes two major forms: non-metallic rebar rods, and non-steel (usually also non-metallic) fibers incorporated into the cement matrix. For example, there is increasing interest in glass fiber reinforced concrete (GFRC) and in various applications of polymer fibers incorporated into concrete. Although currently there is not much suggestion that such materials will replace metal rebar, some of them have major advantages in specific applications, and there are also new applications in which metal rebar simply is not an option. However, the design and application of non-steel reinforcing is fraught with challenges. For one thing, concrete is a highly alkaline environment, in which many materials, including most kinds of glass, have a poor service life. Also, the behavior of such reinforcing materials differs from the behavior of metals, for instance in terms of shear strength, creep and elasticity.[50][51]
+Fiber-reinforced concrete
+Non-steel reinforcement
+Fiber-reinforced plastic/polymer (FRP) and glass-reinforced plastic (GRP) consist of fibers of polymer, glass, carbon, aramid, or other polymers or high-strength fibers set in a resin matrix to form a rebar rod, or grid, or fiber. These rebars are installed in much the same manner as steel rebars. The cost is higher, but when suitably applied, the structures have advantages, in particular a dramatic reduction in problems related to corrosion, either by intrinsic concrete alkalinity or by external corrosive fluids that might penetrate the concrete. These structures can be significantly lighter and usually have a longer service life.
+The cost of these materials has dropped dramatically since their widespread adoption in the aerospace industry and by the military.
+In particular, FRP rods are useful for structures where the presence of steel would not be acceptable. For example, MRI machines have huge magnets, and accordingly require non-magnetic buildings. Again, toll booths that read radio tags need reinforced concrete that is transparent to radio waves. Also, where the design life of the concrete structure is more important than its initial costs, non-steel reinforcing often has its advantages where corrosion of reinforcing steel is a major cause of failure. In such situations, corrosion-proof reinforcing can extend a structure's life substantially, for example in the intertidal zone.
+FRP rods may also be useful in situations where it is likely that the concrete structure may be compromised in future years, for example the edges of balconies when balustrades are replaced, and bathroom floors in multi-story construction where the service life of the floor structure is likely to be many times the service life of the waterproofing building membrane.
+Plastic reinforcement often is stronger, or at least has a better strength to weight ratio than reinforcing steels. Also, because it resists corrosion, it does not need a protective concrete cover as thick as steel reinforcement does (typically 30 to 50 mm or more). FRP-reinforced structures can therefore be lighter and last longer. Accordingly, for some applications, the whole-life cost will be price-competitive with steel-reinforced concrete.
+The material properties of FRP or GRP bars differ markedly from steel, so there are differences in the design considerations. FRP or GRP bars have relatively higher tensile strength but lower stiffness, so that deflections are likely to be higher than for equivalent steel-reinforced units. Structures with internal FRP reinforcement typically have an elastic deformability comparable to the plastic deformability (ductility) of steel reinforced structures. Failure in either case is more likely to occur by compression of the concrete than by rupture of the reinforcement. Deflection is always a major design consideration for reinforced concrete. Deflection limits are set to ensure that crack widths in steel-reinforced concrete are controlled to prevent water, air or other aggressive substances from reaching the steel and causing corrosion. For FRP- reinforced concrete, aesthetics and possibly water-tightness will be the limiting criteria for crack width control. FRP rods also have relatively lower compressive strengths than steel rebar, and accordingly require different design approaches for reinforced concrete columns.
+One drawback to the use of FRP reinforcement is its limited fire resistance. Where fire safety is a consideration, structures employing FRP have to maintain their strength and the anchoring of the forces at temperatures to be expected in the event of fire. For purposes of fireproofing, an adequate thickness of cement concrete cover or protective cladding is necessary. The addition of 1  kg/m3 of polypropylene fibers to concrete has been shown to reduce spalling during a simulated fire.[52] (The improvement is thought to be due to the formation of pathways out of the bulk of the concrete, allowing steam pressure to dissipate.[52])
+Another problem is the effectiveness of shear reinforcement. FRP rebar stirrups formed by bending before hardening generally perform relatively poorly in comparison to steel stirrups or to structures with straight fibers. When strained, the zone between the straight and curved regions is subject to strong bending, shear, and longitudinal stresses. Special design techniques are necessary to deal with such problems.
+There is growing interest in applying external reinforcement to existing structures using advanced materials such as composite (fiberglass, basalt, carbon) rebar, which can impart exceptional strength.
+Worldwide, there are a number of brands of composite rebar recognized by different countries, such as
+Aslan, DACOT, V-rod, and ComBar. The number of projects using composite rebar increases day by day around the world, in countries including the USA, Russia, South Korea and Germany.
+Anchorage in reinforced concrete
+Concrete cover
+Concrete slab
+Corrosion engineering
+Cover meter
+Falsework
+Ferrocement
+Formwork
+Henri de Miffonis
+Interfacial transition zone
+Precast concrete
+Reinforced concrete structures durability
+Reinforced solid
+Structural robustness
+Types of concrete
+1. "16 Materials Every Architect Needs to Know (And Where to Learn About Them)" (https://ww w.archdaily.com/801545/16-materials-every-architect-needs-to-know-and-where-to-learn-ab out-them). ArchDaily. December 19, 2016. Archived (https://web.archive.org/web/20210709
+160757/https://www.archdaily.com/801545/16-materials-every-architect-needs-to-know-and- where-to-learn-about-them) from the original on July 9, 2021. Retrieved July 9, 2021.
+2. Sarah (March 22, 2017). "When should you use reinforced concrete?" (https://ekaconcrete.c om/use-reinforced-concrete/). EKA Concrete | Direct Supplier of Ready Mix and Site Mix
+Concrete. Retrieved July 9, 2021.
+3. Structural materials. George Weidmann, P. R. Lewis, Nick Reid, Open University. Materials
+Department. Milton Keynes, U.K.: Materials Dept., Open University. 1990. p. 360. ISBN 0-
+408-04658-9. OCLC 20693897 (https://search.worldcat.org/oclc/20693897).
+4. Eisenbach 2017, p. 50.
+See also
+References
+5. "Building construction: The invention of reinforced concrete" (https://www.britannica.com/tec hnology/building-construction/Early-steel-frame-high-rises#ref105155). Encyclopedia
+Britannica. Archived (https://web.archive.org/web/20180928005354/https://www.britannica.c om/technology/building-construction/Early-steel-frame-high-rises#ref105155) from the original on September 28, 2018. Retrieved September 27, 2018.
+6. "The oldest concrete structures that have lasted: 72 rue Charles Michels, St. Denis, France"
+(https://meva.net/pt-br/oldest-concrete-structures/). Mevaline Fôrmas e Acessórios LTDA,
+Brasil. February 7, 2022. Retrieved March 25, 2025.
+7. Condit, Carl W. (January 1968). "The First Reinforced-Concrete Skyscraper: The Ingalls
+Building in Cincinnati and Its Place in Structural History". Technology and Culture. 9 (1): 1–
+33. doi:10.2307/3102041 (https://doi.org/10.2307%2F3102041). JSTOR 3102041 (https://w ww.jstor.org/stable/3102041). S2CID 113019875 (https://api.semanticscholar.org/CorpusID:
+113019875).
+8. Richard W. S (1995). "History of Concrete" (https://web.archive.org/web/20150528183822/ht tp://www.theconcreteproducer.com/Images/The%20History%20of%20Concrete%2C%20Par t%202_tcm77-1306954.pdf) (PDF). The Aberdeen Group. Archived from the original (http://w ww.theconcreteproducer.com/Images/The%20History%20of%20Concrete%2C%20Part%20
+2_tcm77-1306954.pdf) (PDF) on 28 May 2015. Retrieved 25 April 2015.
+9. W. Morgan (1995). "Reinforced Concrete" (http://www.jfccivilengineer.com/reinforced_concr ete.htm). The Elements of Structure. Archived (https://web.archive.org/web/2018101213373
+0/http://www.jfccivilengineer.com/reinforced_concrete.htm) from the original on October 12,
+2018. Retrieved April 25, 2015 – via John F. Claydon's website.
+10. Department of Civil Engineering (2015). "History of Concrete Building Construction" (http://w ww.ce.memphis.edu/1101/notes/concrete/section_2_history.html). CIVL 1101 – History of
+Concrete. University of Memphis. Archived (https://web.archive.org/web/20170227213256/ht tp://www.ce.memphis.edu/1101/notes/concrete/section_2_history.html) from the original on
+February 27, 2017. Retrieved April 25, 2015.
+11. Historic England. "Homersfield Bridge (1262142)" (https://HistoricEngland.org.uk/listing/the-l ist/list-entry/1262142?section=official-list-entry). National Heritage List for England.
+Retrieved March 26, 2014.
+12. Day, Lance (2003). Biographical Dictionary of the History of Technology (https://archive.org/ details/isbn_9780415060424). Routledge. p. 284 (https://archive.org/details/isbn_97804150
+60424/page/284). ISBN 0-203-02829-5.
+13. Joseph Monier (https://www.britannica.com/biography/Joseph-Monier) at the Encyclopædia
+Britannica
+14. Mörsch, Emil (1909). Concrete-steel Construction: (Der Eisenbetonbau). The Engineering
+News Publishing Company. pp. 204–210.
+15. Hyatt, Thaddeus (1877). An Account of Some Experiments with Portland-cement-concrete
+Combined with Iron: As a Building Material, with Reference to Economy of Metal in
+Construction, and for Security Against Fire in the Making of Roofs, Floors, and Walking
+Surfaces (https://books.google.com/books?id=yCZRAAAAYAAJ). private circulation, at the
+Chiswick Press.
+16. Collins, Peter (1920–1981). Concrete: The Vision of a New Architecture. McGill-Queen's
+University Press. pp. 58–60. ISBN 0-7735-2564-5.
+17. Aprea, Salvatore (2018), Hordijk, D.A.; Luković, M. (eds.), "The Search for Affordable
+Cement and Concrete in the 18th and 19th Century" (http://link.springer.com/10.1007/978-3-
+319-59471-2_315), High Tech Concrete: Where Technology and Engineering Meet, Cham:
+Springer International Publishing, pp. 2777–2784, doi:10.1007/978-3-319-59471-2_315 (http s://doi.org/10.1007%2F978-3-319-59471-2_315), ISBN 978-3-319-59470-5, retrieved
+March 11, 2026
+18. Collins, Peter (2004) [1959]. Concrete: The Vision of a New Architecture (https://books.goog le.com/books?id=7Zttxa_oHcEC&pg=PA61) (2nd ed.). McGill-Queen's University Press.
+pp. 61–64. ISBN 0-7735-2564-5. Retrieved March 27, 2025.
+19. Mars, Roman (June 7, 2013). "Episode 81: Rebar and the Alvord Lake Bridge" (http://99perc entinvisible.org/episode/episode-81-rebar-and-the-alvord-lake-bridge/). 99% Invisible.
+Archived (https://web.archive.org/web/20140808074102/http://99percentinvisible.org/episod e/episode-81-rebar-and-the-alvord-lake-bridge/) from the original on August 8, 2014.
+Retrieved August 6, 2014.
+20. "Lamington Bridge" (https://apps.des.qld.gov.au/heritage-register/explorer/detail/?id=60072
+1). Queensland Government. August 31, 2016. Retrieved February 17, 2025.
+21. "Lamington Bridge, Mary River, 1896-" (https://portal.engineersaustralia.org.au/heritage/lami ngton-bridge-mary-river-1896). Engineers Australia. Retrieved February 17, 2025.
+22. McGroarty, John Steven (1921). Los Angeles from the Mountains to the Sea (https://books.g oogle.com/books?id=YmUUAAAAYAAJ). Vol. 2. Los Angeles, CA: American Historical
+Society. p. 176. Archived (https://web.archive.org/web/20160809190406/https://books.googl e.com/books?id=YmUUAAAAYAAJ) from the original on August 9, 2016. Retrieved
+November 29, 2017.
+23. Annual Report of the City Auditor, City of Los Angeles, California for the Year Ending June
+30. Los Angeles, CA: Los Angeles City Auditor. 1905. pp. 71–73.
+24. Williams, D. (February 1907). "What Builders are Doing" (https://books.google.com/books?i d=oidPAAAAYAAJ&pg=PA66). Carpentry and Building: 66. Archived (https://web.archive.or g/web/20200901135940/https://books.google.com/books?id=oidPAAAAYAAJ&pg=PA66) from the original on September 1, 2020. Retrieved November 29, 2017.
+25. W.P.H. (April 19, 1906). "Reinforced Concrete Buildings at Los Angeles, Cal" (https://books.
+google.com/books?id=jg1HAQAAMAAJ&pg=449). Letters to the Editor. Engineering News-
+Record. 55: 449. Archived (https://web.archive.org/web/20200919094412/https://books.goog le.com/books?id=jg1HAQAAMAAJ&pg=449) from the original on September 19, 2020.
+Retrieved November 29, 2017.
+26. Austin, J. C.; Neher, O. H.; Hicks, L. A.; Whittlesey, C. F.; Leonard, J. B. (November 1906).
+"Partial Collapse of the Bixby Hotel at Long Beach" (https://books.google.com/books?id=17d
+CAQAAMAAJ&pg=PA44). Architect and Engineer of California. Vol. VII, no. 1. pp. 44–48.
+Archived (https://web.archive.org/web/20200920184843/https://books.google.com/books?id
+=17dCAQAAMAAJ&pg=PA44) from the original on September 20, 2020. Retrieved May 29,
+2018.
+27. "El Campanil, Mills College: Julia Morgan 1903-1904" (https://www.bluffton.edu/homepages/ facstaff/sullivanm/jmmills/jmcampanil.html). Archived (https://web.archive.org/web/20181230
+165410/http://www.bluffton.edu/homepages/facstaff/sullivanm/jmmills/jmcampanil.html) from the original on December 30, 2018. Retrieved April 18, 2019.
+28. Callen, Will (February 4, 2019). "Julia Morgan-designed Mills bell tower counts down to its
+115th anniversary" (https://hoodline.com/2019/02/julia-morgan-designed-bell-tower-counts-d own-to-its-115th-anniversary). hoodline.com. Retrieved April 18, 2019.
+29. Littman, Julie (March 7, 2018). "Bay Area Architect Julia Morgan's Legacy Wasn't Just
+Hearst Castle" (https://www.bisnow.com/san-francisco/news/commercial-real-estate/bay-are a-architect-julia-morgans-legacy-wasnt-just-hearst-castle-85824). busnow.com. Archived (htt ps://web.archive.org/web/20190420045748/https://www.bisnow.com/san-francisco/news/co mmercial-real-estate/bay-area-architect-julia-morgans-legacy-wasnt-just-hearst-castle-8582
+4) from the original on April 20, 2019. Retrieved April 18, 2019.
+30. Olsen, Erik (May 1, 2020). "How one building survived the San Francisco earthquake and changed the world" (https://web.archive.org/web/20200702204631/https://californiasciencew eekly.com/2020/04/30/how-one-building-survived-the-san-francisco-earthquake-and-change d-the-world/). California Science Weekly. Archived from the original (https://californiascience weekly.com/2020/04/30/how-one-building-survived-the-san-francisco-earthquake-and-chang ed-the-world/) on July 2, 2020. Retrieved July 1, 2020.
+31. Standard Specifications for Portland Cement of the American Society for Testing Materials,
+Standard No. 1. Philadelphia, PA: National Association of Cement Users. 1906.
+32. Standard Building Regulations for the Use of Reinforced Concrete. Philadelphia, PA:
+National Association of Cement Users. 1910.
+33. Murray, Lorraine. "Christ the Redeemer (last updated 13 January 2014)" (http://www.britanni ca.com/EBchecked/topic/1435544/Christ-the-Redeemer). Encyclopædia Britannica.
+Retrieved November 5, 2022.
+34. Bungale S. Taranath (2009). Reinforced Concrete Design of Tall Buildings. CRC Press. p. 7.
+ISBN 978-1-4398-0481-0.
+35. Materials principles and practice. Charles Newey, Graham Weaver, Open University.
+Materials Department. Milton Keynes, England: Materials Dept., Open University. 1990.
+p. 61. ISBN 0-408-02730-4. OCLC 19553645 (https://search.worldcat.org/oclc/19553645).
+36. Structural materials. George Weidmann, P. R. Lewis, Nick Reid, Open University. Materials
+Department. Milton Keynes, U.K.: Materials Dept., Open University. 1990. p. 357. ISBN 0-
+408-04658-9. OCLC 20693897 (https://search.worldcat.org/oclc/20693897).
+37. "Concrete Inhomogeneity of Vertical Cast-In-Situ Elements In Frame-Type Buildings" (http s://www.nisur4u.co.il/wp-content/uploads/2021/01/Inhomog-Denver.pdf). Archived (https://w eb.archive.org/web/20210115095541/https://www.nisur4u.co.il/wp-content/uploads/2021/01/
+Inhomog-Denver.pdf) 2021-01-15 at the Wayback Machine
+38. Megalooikonomou, Konstantinos G. (March 31, 2024). "Monotonic and Cyclic Seismic
+Analyses of Old-Type RC Columns with Short Lap Splices" (https://doi.org/10.3390%2Fcons trmater4020018). Construction Materials. 4 (2): 329–341. doi:10.3390/constrmater4020018
+(https://doi.org/10.3390%2Fconstrmater4020018).
+39. Simescu, Florica; Idrissi, Hassane (December 19, 2008). "Effect of zinc phosphate chemical conversion coating on corrosion behavior of mild steel in alkaline medium: protection of rebars in reinforced concrete" (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5099651).
+Science and Technology of Advanced Materials. 9 (4) 045009. National Institute for
+Materials Science. Bibcode:2008STAdM...9d5009S (https://ui.adsabs.harvard.edu/abs/2008
+STAdM...9d5009S). doi:10.1088/1468-6996/9/4/045009 (https://doi.org/10.1088%2F1468-6
+996%2F9%2F4%2F045009). PMC 5099651 (https://www.ncbi.nlm.nih.gov/pmc/articles/PM
+C5099651). PMID 27878037 (https://pubmed.ncbi.nlm.nih.gov/27878037).
+40. Nilson, Darwin, Dolan. Design of Concrete Structures. the MacGraw-Hill Education, 2003. p.
+80-90.
+41. Sadeghi, Kabir (April 2, 2015). "Techno Press" (https://web.archive.org/web/2015040211393
+2/http://121.183.206.200:8080/proto.board/abstractArticleContentView?page=article&journal
+=sem&volume=53&num=4&ordernum=7&site=korsc). Structural Engineering and
+Mechanics. 53 (4). Archived from the original (http://121.183.206.200:8080/proto.board/abstr actArticleContentView?page=article&journal=sem&volume=53&num=4&ordernum=7&site=k orsc) on April 2, 2015.
+42. Sadeghi, Kabir (September 15, 2011). "Energy based structural damage index based on nonlinear numerical simulation of structures subjected to oriented lateral cyclic loading" (htt p://ijce.iust.ac.ir/browse.php?a_id=563&sid=1&slc_lang=en). International Journal of Civil
+Engineering. 9 (3): 155–164. ISSN 1735-0522 (https://search.worldcat.org/issn/1735-0522).
+Retrieved December 23, 2016.
+43. Structural materials. George Weidmann, P. R. Lewis, Nick Reid, Open University. Materials
+Department. Milton Keynes, U.K.: Materials Dept., Open University. 1990. pp. 372–373.
+ISBN 0-408-04658-9. OCLC 20693897 (https://search.worldcat.org/oclc/20693897).
+44. Janowski, A.; Nagrodzka-Godycka, K.; Szulwic, J.; Ziółkowski, P. (2016). "Remote sensing and photogrammetry techniques in diagnostics of concrete structures" (https://www.research gate.net/publication/306359709). Computers and Concrete. 18 (3): 405–420.
+doi:10.12989/cac.2016.18.3.405 (https://doi.org/10.12989%2Fcac.2016.18.3.405). Archived
+(https://web.archive.org/web/20210709160748/https://www.researchgate.net/publication/306
+359709_Remote_sensing_and_photogrammetry_techniques_in_diagnostics_of_concrete_s tructures) from the original on July 9, 2021. Retrieved December 14, 2016.
+45. "Concrete Cancer" (https://www.bbc.co.uk/dna/h2g2/A4014172). h2g2. BBC. March 15,
+2012 [2005]. Archived (https://web.archive.org/web/20090223173400/http://www.bbc.co.uk/d na/h2g2/A4014172) from the original on February 23, 2009. Retrieved October 14, 2009.
+46. "Special Section: South West Alkali Incident" (https://web.archive.org/web/20061029112122/ http://www.cementindustry.co.uk/main.asp?page=272). the cement industry. British Cement
+Association. January 4, 2006. Archived from the original (http://www.cementindustry.co.uk/m ain.asp?page=272) on October 29, 2006. Retrieved November 26, 2006.
+47. "High Alumina Cement" (https://web.archive.org/web/20050911210803/http://www.quest-tec h.co.uk/hac.htm). Archived from the original (http://www.quest-tech.co.uk/hac.htm) on
+September 11, 2005. Retrieved October 14, 2009.
+48. Fiber Concrete in Construction, Wietek B., Springer 2021, pages 268; ISBN 978-3-658-
+34480-1
+49. George, Reethu; Thomas, Aneena; P.b, Amala Mary; Eldhose, Er Niya (April 24, 2018).
+"Study on Steel and Glass Fibre Reinforced Concrete" (https://www.ijert.org/research/study- on-steel-and-glass-fibre-reinforced-concrete-IJERTCONV4IS13002.pdf,%20https://www.ijer t.org/study-on-steel-and-glass-fibre-reinforced-concrete). International Journal of
+Engineering Research & Technology. 4 (13). doi:10.17577/IJERTCONV4IS13002 (https://do i.org/10.17577%2FIJERTCONV4IS13002). ISSN 2278-0181 (https://search.worldcat.org/iss n/2278-0181).
+50. BS EN 1169:1999 Precast concrete products. General rules for factory production control of glass-fiber reinforced cement (https://shop.bsigroup.com/ProductDetail?pid=000000000019
+974480). British Standards Institute. November 15, 1999. ISBN 0-580-32052-9. Archived (htt ps://web.archive.org/web/20180612113107/https://shop.bsigroup.com/ProductDetail?pid=00
+0000000019974480) from the original on June 12, 2018. Retrieved May 29, 2018.
+51. BS EN 1170-5:1998 Precast concrete products. Test method for glass-fiber reinforced cement (https://shop.bsigroup.com/ProductDetail?pid=000000000001302372). British
+Standards Institute. March 15, 1998. ISBN 0-580-29202-9. Archived (https://web.archive.or g/web/20180612113115/https://shop.bsigroup.com/ProductDetail?pid=00000000000130237
+2) from the original on June 12, 2018. Retrieved May 29, 2018.
+52. Arthur W. Darby (2003). "Chapter 57: The Airside Road Tunnel, Heathrow Airport, England"
+(https://web.archive.org/web/20060522164623/http://www.tunnels.mottmac.com/files/projec t/3372/Airside_Road_Tunnel.pdf) (PDF). Proceedings of the Rapid Excavation & Tunneling
+Conference, New Orleans, June 2003. p. 645. Archived from the original (http://www.tunnel s.mottmac.com/files/project/3372/Airside_Road_Tunnel.pdf) (PDF) on May 22, 2006 – via www.tunnels.mottmac.com.
+Threlfall A., et al. Reynolds's Reinforced Concrete Designer's Handbook – 11th ed.
+ISBN 978-0-419-25830-8.
+Newby F., Early Reinforced Concrete, Ashgate Variorum, 2001, ISBN 978-0-86078-760-0.
+Further reading / External links
+Kim, S., Surek, J and J. Baker-Jarvis. "Electromagnetic Metrology on Concrete and
+Corrosion." (https://web.archive.org/web/20180603010800/https://nvlpubs.nist.gov/nistpubs/j res/116/3/V116.N03.A02.pdf) Journal of Research of the National Institute of Standards and
+Technology, Vol. 116, No. 3 (May–June 2011): 655–669.
+Daniel R., Formwork UK "Concrete frame structures." (https://web.archive.org/web/2016110
+4012738/http://formworkuk.co.uk/2016/concrete-frame-structures/).
+Materials principles and practice. Charles Newey, Graham Weaver, Open University.
+Materials Department. Milton Keynes, England: Materials Dept., Open University. 1990.
+ISBN 0-408-02730-4. OCLC 19553645 (https://search.worldcat.org/oclc/19553645).
+Structural materials. George Weidmann, P. R. Lewis, Nick Reid, Open University. Materials
+Department. Milton Keynes, U.K.: Materials Dept., Open University. 1990. p. 357. ISBN 0-
+408-04658-9. OCLC 20693897 (https://search.worldcat.org/oclc/20693897).
+Corrosion of reinforcement in concrete construction. C. L. Page, P. B. Bamforth, J. W. Figg,
+International Symposium on Corrosion of Reinforcement in Concrete Construction.
+Cambridge: Royal Society of Chemistry, Information Services. 1996. ISBN 0-85404-731-X.
+OCLC 35233292 (https://search.worldcat.org/oclc/35233292).
+Short documentary about reinforced concrete and its challenges (https://www.youtube.com/ watch?v=MJBz66H5QIU), 2024 (The Aesthetic City)
+Eisenbach, Philipp (2017). "Concrete in the 19th century" (https://books.google.com/books?i d=DDJzDgAAQBAJ&pg=PA49). Processing of Slender Concrete Shells - Fabrication and
+Installation. Kassel: Kassel University Press. pp. 49–51. ISBN 978-3-7376-0259-4.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Reinforced_concrete&oldid=1343322590"

@@ -1,0 +1,62 @@
+Shallow foundation construction example
+Detail section of a strip footing and its wall.
+Shallow foundation
+A shallow foundation is a type of building foundation that transfers structural load to the earth very near to the surface, rather than to a subsurface layer or a range of depths, as does a deep foundation.
+Customarily, a shallow foundation is considered as such when the width of the entire foundation is greater than its depth.[1] In comparison to deep foundations, shallow foundations are less technical, thus making them more economical and the most widely used for relatively light structures.
+Footings are always wider than the members that they support. Structural loads from a column or wall are usually greater than 1,000 kPa, while the soil's bearing capacity is commonly less than that (typically less than
+400 kPa). By possessing a larger bearing area, the foundation distributes the pressure to the soil, decreasing the bearing pressure to within allowable values.[2] A structure is not limited to one footing. Multiple types of footings may be used in a construction project.
+A wall footing (or strip footing) is a continuous concrete strip that supports structural and non-structural load- bearing walls. Found directly under a wall, a wall footing's width is commonly 2–3 times wider than the wall above it.[3]
+Also called single-column footing, an isolated footing is a square, rectangular, or circular slab that supports the structural members individually. Generally, each column is set on an individual footing to transmit and distribute the load of the structure to the soil underneath. Sometimes, an isolated footing can be sloped or stepped at the base to spread greater loads. This type of footing is used when the structural load is relatively low, columns are widely spaced, and the soil's bearing capacity is adequate at a shallow depth.
+When more than one column shares the same footing, it is called a combined footing. A combined footing is typically utilized when the spacing of the columns is too restricted such that if isolated footing were used, they would overlap one another. Also, when property lines make isolated footings eccentrically loaded, combined footings are preferred.
+When the load among the columns is equal, the combined footing may be rectangular. Conversely, when the load among the columns is unequal, the combined footing should be trapezoidal.
+0:00
+Types
+Wall footing
+Isolated footing
+Combined footing
+Mat foundation with its concrete undergoing curing.
+Pouring a slab-on-grade foundation
+A strap footing connects individual columns with the use of a strap beam. The general purpose of a strap footing is alike to those of a combined footing, where the spacing is possibly limited and/or the columns are adjacent to the property lines.
+Also called raft foundation, a mat foundation is a single continuous slab that covers the entirety of the base of a building. Mat foundations support all the loads of the structure and transmit them to the ground evenly. Soil conditions may prevent other footings from being used. Since this type of foundation distributes the load coming from the building uniformly over a considerably large area, it is favored when individual footings are unfeasible due to the low bearing capacity of the soil.
+Diagrams of the types of shallow foundations.
+Slab-on-grade or floating slab foundations are a structural engineering practice whereby the reinforced concrete slab that is to serve as the foundation for the structure is formed from formwork set into the ground. The concrete is then poured into the formwork, leaving no space between the ground and the structure. This type of construction is most often seen in warmer climates, where ground freezing and thawing is less of a concern and where there is no need for heat ducting underneath the floor. Frost Protected Shallow
+Foundations (or FPSF) which are used in areas of potential frost heave, are a form of slab-on-grade foundation.[4]
+Strap footing
+Mat foundation
+Slab-on-grade foundation
+Remodeling or extending such a structure may be more difficult. Over the long term, ground settling (or subsidence) may be a problem, as a slab foundation cannot be readily jacked up to compensate; proper soil compaction prior to pour can minimize this. The slab can be decoupled from ground temperatures by insulation, with the concrete poured directly over insulation (for example, extruded polystyrene foam panels), or heating provisions (such as hydronic heating) can be built into the slab.
+Slab-on-grade foundations should not be used in areas with expansive clay soil. While elevated structural slabs actually perform better on expansive clays, it is generally accepted by the engineering community that slab-on- grade foundations offer the greatest cost-to-performance ratio for tract homes. Elevated structural slabs are generally only found on custom homes or homes with basements.
+Copper piping, commonly used to carry natural gas and water, reacts with concrete over a long period, slowly degrading until the pipe fails. This can lead to what is commonly referred to as slab leaks. These occur when pipes begin to leak from within the slab. Signs of a slab leak range from unexplained dampened carpet spots, to drops in water pressure and wet discoloration on exterior foundation walls.[5] Copper pipes must be lagged
+(that is, insulated) or run through a conduit or plumbed into the building above the slab. Electrical conduits through the slab must be water-tight, as they extend below ground level and can potentially expose wiring to groundwater.
+The ultimate bearing capacity of a shallow foundation depends on whether a total stress or effective stress analysis is considered. Generally, a total stress analysis is applicable for low permeability soils (clay) over the short-term. For high permeability soils (sand) or for low permeability soils over the long-term, an effective stress analysis is more appropriate.
+For a total stress analysis, the ultimate bearing capacity of a shallow foundation is given by the following equation:[6] where is the shape factor which can be conservatively taken as 1 is the depth factor which can be conservatively taken as 1 is the bearing capacity factor, which is numerically equal to is the undrained shear strength of the soil is the unit weight of the soil adjacent to the footing is the height from the founding plane to the ground surface
+For an effective stress analysis, the ultimate bearing capacity of a shallow foundation is given by the following equation.[7]
+Vertical bearing capacity
+Short-term total stress analysis
+Effective stress analysis where and are analogous shape factors which can be conservatively taken as 1 and are analogous depth factors which can be conservatively taken as 1 is the bearing capacity factor (generally taken as is the in situ vertical effective stress acting at the level of the foundation base is analogous to the bearing capacity factor is the unit weight of the soil adjacent to the footing is the width of the footing is the increase in pore water pressure between the founding plane and a depth of B/2 below it.
+Argillipedoturbation
+Building construction
+Construction engineering
+Fiber reinforced concrete
+Grade beam
+Precast concrete
+Prestressed concrete
+Rebar
+Steel fixer
+Tie rod
+1. Akhter, Shahin. "Shallow foundation – Definition, Types, Uses and Diagrams" (https://procivilengin eer.com/shallow-foundation/). Pro Civil Engineer. Retrieved July 31, 2021.
+2. Gillesania, Diego Inocencio T. (2004). Fundamentals of reinforced concrete design (2nd ed.).
+[Cebu, Cirty, Philippines]. p. 259. ISBN 971-8614-26-5. OCLC 1015901733 (https://search.worldc at.org/oclc/1015901733).
+3. Mahdi, Sheikh. "8 Most Important Types of Foundation" (https://civiltoday.com/geotechnical-engin eering/foundation-engineering/161-types-of-foundation). civiltoday.com. Retrieved July 31, 2021.
+4. "Slab-on-Grade Foundation Detail & Insulation, Building Guide" (https://www.ecohome.net/guides/
+2280/slab-on-grade-construction-step-by-step-guide).
+5. "Slab Leak Repair McKinney, Frisco, and Allen Tx - Hackler Plumbing" (http://hacklerplumbingmck inney.com/slab-leak-repair/). Hacklerplumbingmckinney.com. 2013-11-08. Retrieved 2018-08-20.
+6. Powrie, William (2014). Soil Mechanics Concepts and Applications (3rd ed.). Taylor and Francis
+Group. pp. 415–416. ISBN 978-1-4665-5248-7.
+7. Powrie, William (2014). Soil Mechanics Concepts and Applications (3rd ed.). Taylor and Francis
+Group. pp. 415–416. ISBN 978-1-4665-5248-7.
+Raft or Mat Foundations (http://www.theconstructioncivil.org/raft-or-mat-foundations/)
+See also
+References
+External links
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Shallow_foundation&oldid=1318085630"

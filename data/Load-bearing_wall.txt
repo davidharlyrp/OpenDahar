@@ -1,0 +1,38 @@
+Load-bearing wall
+A load-bearing wall or bearing wall is a wall that is an active structural element of a building, which holds the weight of the elements above it, by conducting its weight to a foundation structure below it.
+Load-bearing walls are one of the earliest forms of construction. The development of the flying buttress in Gothic architecture allowed structures to maintain an open interior space, transferring more weight to the buttresses instead of to central bearing walls. In housing, load-bearing walls are most common in the light construction method known as "platform framing". In the birth of the skyscraper era, the concurrent rise of steel as a more suitable framing system first designed by William Le Baron Jenney, and the limitations of load-bearing construction in large buildings, led to a decline in the use of load-bearing walls in large-scale commercial structures.
+A load-bearing wall or bearing wall is a wall that is an active structural element of a building — that is, it bears the weight of the elements above said wall, resting upon it by conducting its weight to a foundation structure.[1] The materials most often used to construct load-bearing walls in large buildings are concrete, block, or brick. By contrast, a curtain wall provides no significant structural support beyond what is necessary to bear its own materials or conduct such loads to a bearing wall.[2]
+Load-bearing walls are one of the earliest forms of construction.[3] The development of the flying buttress in Gothic architecture allowed structures to maintain an open interior space, transferring more weight to the buttresses instead of to central bearing walls. The Notre Dame Cathedral is an example of a load- bearing wall structure with flying buttresses.[4]
+Depending on the type of building and the number of floors, load-bearing walls are gauged to the appropriate thickness to carry the weight above them. Without doing so, it is possible that an outer wall could become unstable if the load exceeds the strength of the material used, potentially leading to the collapse of the structure. The primary function of this wall is to enclose or divide space of the building to make it more functional and useful. It provides privacy, affords security, and gives protection against heat, cold, sun or rain.[5]
+Description
+History
+Application
+A beam of PSL lumber installed to replace a load-bearing wall at the first floor of a three-story building.
+The Chicago Willis Tower uses a bundle of tube structures which, in turn, include numerous outer wall columns.
+In housing, load-bearing walls are most common in the light construction method known as "platform framing", and each load-bearing wall sits on a wall sill plate which is mated to the lowest base plate. The sills are bolted to the masonry or concrete foundation.[6]
+The top plate or ceiling plate is the top of the wall, which sits just below the platform of the next floor (at the ceiling). The base plate or floor plate is the bottom attachment point for the wall studs. Using a top plate and a bottom plate, a wall can be constructed while it lies on its side, allowing for end-nailing of the studs between two plates, and then the finished wall can be tipped up vertically into place atop the wall sill; this not only improves accuracy and shortens construction time, but also produces a stronger wall.
+Due to the immense weight of skyscrapers, the base and walls of the lower floors must be extremely strong. Pilings are used to anchor the building to the bedrock underground. For example, the Burj Khalifa, the world's tallest building as well as the world's tallest structure, uses specially treated and mixed reinforced concrete. Over 45,000 cubic metres
+(59,000  cu  yd) of concrete, weighing more than 110,000  t
+(120,000 short tons) were used to construct the concrete and steel foundation, which features 192 piles, with each pile being 1.5 m diameter × 43 m long (4.9 ft × 141 ft) and buried more than 50 m (160 ft) deep.[7]
+Column – in most larger, multi-storey buildings, vertical loads are primarily borne by columns / pillars instead of structural walls
+Tube frame structure – Some of the world's tallest skyscrapers use load-bearing outer frames – be it single tube (e.g. the old WTC Twin Towers), or bundled tube (e.g. the Willis
+Tower or the Burj Khalifa)
+1. "How to Identify a Load-Bearing Wall" (https://lifehacker.com/how-to-identify-a-load-bearing- wall-1626923331). Lifehacker. Retrieved 2020-06-26.
+2. "Load-bearing wall" (https://www.designingbuildings.co.uk/wiki/Load-bearing_wall).
+www.designingbuildings.co.uk. Retrieved 2020-06-26.
+3. Montaner, Carme (2021-03-31). "8º Simposio Iberoamericano de Historia de la Cartografía.
+El mapa como elemento de conexión cultural entre América y Europa. Barcelona, 21 y 22 de octubre del 2020" (https://dx.doi.org/10.14350/rig.60378). Investigaciones Geográficas
+Housing
+Skyscrapers
+See also
+References
+(104). doi:10.14350/rig.60378 (https://doi.org/10.14350%2Frig.60378). ISSN 2448-7279 (htt ps://search.worldcat.org/issn/2448-7279). S2CID 233611245 (https://api.semanticscholar.or g/CorpusID:233611245).
+4. Mendes, Gilmar de Melo (2012). El equilibrio de la arquitectura organizativa desde el enfoque de agencia: estudio de un caso (https://dx.doi.org/10.35376/10324/921) (Thesis).
+Universidad de Valladolid. doi:10.35376/10324/921 (https://doi.org/10.35376%2F10324%2F
+921).
+5. "7 FUNCTIONAL REQUIREMENTS A BUILDING WALL SHOULD SATISFY" (https://civilblo g.org/2015/07/08/7-functional-requirements-of-wall-to-consider-prior-to-construction/).
+CivilBlog.Org. 2015-07-08. Retrieved 2020-05-31.
+6. "What is Platform Framing? (with pictures)" (http://www.wisegeek.com/what-is-platform-frami ng.htm). wiseGEEK. Retrieved 2020-06-26.
+7. "Burj Khalifa, Dubai | 182168" (https://web.archive.org/web/20110805051431/http://www.em poris.com/application/?nav=building&lng=3&id=burjdubai-dubai-unitedarabemirates).
+Emporis. Archived from the original on August 5, 2011. Retrieved 2018-09-17.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Load-bearing_wall&oldid=1242405486"

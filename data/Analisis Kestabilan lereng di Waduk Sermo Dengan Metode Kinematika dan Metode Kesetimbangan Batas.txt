@@ -1,246 +1,137 @@
-Prosiding Nasional Rekayasa Teknologi Industri dan Informasi XV Tahun 2020 (ReTII) 
-Oktober 2020, pp. 280~284 
-ISSN: 1907-5995 
-     280 
- 
- 
-Prosiding homepage: https://journal.itny.ac.id/index.php/ReTII/ 
-Analisis Kestabilan Lereng di Waduk Sermo Dengan Metode 
-Kinematika dan Metode Kesetimbangan Batas 
- 
-Arief Pambudi Nugraha1, Dr. Ir. S. Koesnaryo, MT., IPM1 
-1Magister Teknik Pertambangan, Fakultas Teknologi Mineral, UPN Veteran Yogyakarta  
-Korespondensi: ariefpambudi51@gmail.com  
- 
-ABSTRAK 
-Jalan umum yang dibangun di daerah perbukitan selalu memiliki lereng-lereng terjal disisi jalan. Lereng 
-tersebut dikhawatir kan akan terjadi longsor yang mengakibatkan banyak kerugian. Kerugian nya antara lain 
-keselamatan pengendara dan kerugian ekonomi setempat karena terkendala akses melewati jalan maupun 
-akibat dari longsoran yang mengenai pemukiman sekitar. Pada daerah wisata Waduk Sermo terdapat jalan-
-jalan yang dikelilingi oleh lereng. Dimana lereng ini merupakan akses jalan wisatawan maupun warga 
-setempat. Batuan yang terdapat pada lereng adalah breksi andesit. Metode yang digunakan untuk menganalisa 
-kestabilan lereng yaitu metode kinematika dan metode kesetimbangan batas. Komposisi arah dan kemiringan 
-lereng adalah 325°/50°dan sudut geser dalam yaitu 48°. Lereng daerah penelitian berpotensi terjadi longsoran 
-baji sebesar 0,25% yang dihasilkan dari perpotongan bidang struktur yaitu bidang kekar, berarah 57/14. Hasil 
-perhitungan kemantapan lereng, meggunakan metode kesetimbangan batas, didapatkan nilai faktor keamanan 
-sebesar 4,4. Dari hasil tersebut menyatakan bahwa lereng tersebut sangatlah aman. Dengan kemiringan lereng 
-yang cukup besar yaitu 65° dan tinggi 25 meter. 
-Kata kunci: kestabilan lereng, metode kinematika, metode kesetimbangan batas, longsor  
- 
-ABSTRACT 
-Public roads that are built in hilly areas always have steep slopes on the side of the road. There is concern 
-that landslides will occur which will result in many losses. The disadvantages include driver safety and local 
-economic losses due to constrained access through the road or the result of landslides that hit the surrounding 
-settlements. In the tourist area of the Sermo Reservoir, there are roads surrounded by slopes. Where this slope 
-is an access road for tourists and local residents. The rocks found on the slopes are andesite breccias. The 
-method used to analyze slope stability is the kinematic method and the limit equilibrium method. The 
-composition of the direction and slope of the slope is 325 ° / 50 ° and the internal shear angle is 48 °. The slope 
-of the study area has the potential for wedge landslides of 0.25% resulting from the intersection of the 
-structural plane, namely the stocky plane, with 57/14 direction. The results of the calculation of slope stability, 
-using the limit equilibrium method, obtained a safety factor value of 4.4. From these results states that the 
-slope is very safe. With a fairly large slope, namely 65 ° and 25 meters high. 
-Key words: slope stability, kinematics method, limit equilibrium method, landslide 
- 
-1. 
-PENDAHULUAN 
-Jalan umum yang dibangun di daerah perbukitan selalu memiliki lereng-lereng terjal disisi jalan. 
-Lereng tersebut dikhawatir kan akan terjadi longsor yang mengakibatkan banyak kerugian. Kerugian nya antara 
-lain keselamatan pengendara dan kerugian ekonomi setempat karena terkendala akses melewati jalan maupun 
-akibat dari longsoran yang mengenai pemukiman sekitar. Pada daerah wisata Waduk Sermo terdapat jalan-
-jalan yang dikelilingi oleh lereng. Dimana lereng ini merupakan akses jalan wisatawan maupun warga 
-setempat. 
-Kemantapan lereng harus diperhatikan agar tidak tejadi kerugian baik berupa materill maupun non-
-materill. Penentuan kemantapan lereng dapat diketahui dengan serangkaian pengujian, yaitu uji sifat fisik, dan 
-mekanik serta geometri lereng. Lereng dapat dikatakan mantap atau stabil apabila nilai FK nya >1,3 
-berdasarkan kriteria [4]. 
-Kemantapan lereng dipengaruhi oleh 2 faktor, faktor internal dan eksternal. Faktor internal yaitu 
-keadaan massa batuan, desain lereng serta sifat fisika pada batuannya. Untuk faktor eksternal nya yaitu, curah 
-hujan dan kelapukan pada batuan. Tujuan dari penelitian ini adalah, mengkaji kemantapan lereng dengan 
-memperhitungkan kondisi geologi struktur pada lereng yakni kekar. Menganalisa kekar dapat mengetahui arah 
-kelongsoran dan jenis kelongsoran yang terjadi pada lereng tersebut. Hal tersebut bertujuan untuk mengetahui 
-pengaruh struktur kekar terhadap kestabilan lereng. 
- 
- 
- 
-ReTII 
-ISSN: 1907-5995 
- 
- 
-Analisis Kestabilan Lereng Di Waduk Sermo Dengan Metode Kinematika Dan Metode Kesetimbangan Batas 
-(Arief Pambudi Nugraha) 
-281
-2. 
-LOKASI DAN GEOLOGI DAERAH PENELITIAN 
-Pelaksanaan penelitian ini berada di daerah Sremo Lor, Hargowilis, Kokap, Kulon Progo Regency, 
-Daerah Istimewa Yogyakarta. Tepatnya berada di 300 meter dari pos tiket wisata waduk sermo. Secara 
-geografis, daerah penelitian terletak di 7°49'37.9"S 110°07'23.6"E.  
- 
-Gambar 1 Lokasi Penelitian 
- 
-Struktur geologi yang berpengaruh terhadap kemantapan lereng yaitu, rekahan, lipatan, sesar, kekar, 
-dan bidang perlapisan. Selanjutnya struktur-struktur geologi selain lipatan tersebut dikenal sebagai bidang 
-lemah. Bidang lemah dapat diukur karakteristiknya dengan mengukur kemiringan (dip) dan arah kemiringan 
-(dip direction) serta jurus bidang lemah tersebut. Dengan adanya bidang lemah tersebut dapat melemahkan 
-lereng karena dapat menjadi jalur rembesan air, yang mana hal tersebut dapat menyebabkan rekahan tarik yang 
-membuat faktor keamanan lereng tersebut menjadi lebih kecil/lemah. 
- 
- 
-Gambar 2. Dip dan Dip Direction bidang lemah [4] 
- 
-Sebagian besar satuan batuan pada lereng daerah penelitian merupakan formasi andesit tua (Old 
-Andesite Formation). Formasi ini mempunyai batuan penyusun berupa breksi Andesit, lapili tuff, tuff, breksi 
-lapisi , Aglomerat, dan aliran lava serta batu pasir vulkanik yang tersingkap di daerah Purworejo dan Kulon 
-Progo. Formasi ini diendapkan secara tidak selaras dengan formasi nanggulan dengan ketebalan 660 m. 
-Diperkirakan formasi ini formasi ini berumur oligosen – miosen. 
- 
-3. 
-METODE PENELITIAN 
-3.1  Data Struktur Massa batuan 
-Pengambilan data struktur massa batuan dilakukan sepanjang lereng menggunakan scanline. Caranya 
-adalah dengan membentangkan meteran sepanjang lereng dan data struktur massa batuan yang diambil 
-merupakan struktur masa batuan yang melewati garis scanline [4]. Dalam penelitian ini, scanline dibentangkan 
-sepanjang 35,5 m sepanjang lereng dengan letak scanline berada pada 2 meter dari toe lereng. Parameter RMR 
-yang dilakukan pengambilan datanya berupa orientasi bidang ketidakmenerusan (diskontinuitas) menggunakan 
-        
- 
-       ISSN: 1907-5995 
-ReTII Oktober 2020 :  280 – 284 
-282 
-kompas geologi, kondisi lereng dan estimasi kekuatan batuan utuh pada sebuah lereng [1]. Estimasi kekuatan 
-batuan utuh dilakukan menggunakan palu geologi berdasarkan Hoek [5]. Estimasi ini sangat efisien dilakukan 
-di lapangan, dan tidak menjadi masalah yang berarti karena nilai bobot RMR dibuat dalam bentuk data range 
-[5]. Selain itu, nilai GSI (Geological Strength Index) merupakan parameter kedua yang dihitung dalam survei 
-struktur massa batuan [2].  
-Data geologi dan geologi teknik pada lereng digunakan untuk mengetahui nilai Faktor Keamanan 
-(FK) yang dimiliki lereng tambang. Nilai kestabilan lereng didapatkan dengan memanfaatkan sifat fisik dan 
-mekanik yang dimiliki oleh batuan, nilainya berbeda, tergantung jenis batuannya. GSI (Geological Strength 
-Index) merupakan salah satu data geologi teknik yang dimanfaatkan untuk mengetahui sifat fisik dan mekanik 
-dari batuan sehingga didapatkan nilai Faktor Keamanan (FK) lereng [2][3]. Keragaman nilai GSI yang 
-didapatkan memberikan pengaruh terhadap nilai Faktor Keamanan (FK). 
- 
-3.2  Analisis Kinematik Lereng 
-Metode kinematika adalah menganalisa pergerakan massa batuan dengan merekonstruksi pergerakan 
-yang terjadi didalam batuan akibat dari deformasi, tanpa mempertimbangkan gaya-gaya yang dikenakan 
-padanya. Pertimbangan utamanya adalah memperkirakan terjadinya runtuhan. Metode ini didasarkan pada 
-mengevaluasi secara detiail mengenai struktur massa batuan dan geometri bidang-bidang lemah yang 
-menyebabkan lereng tersebut melemah [4][7][8].  
-Semua data geologi yang didapatkan di lapangan berupa arah kemiringan dan bidang kemiringan sebuah 
-rekahan, patahan, kekar, dan perlapisan. Data tersebut akan diplotkan dalam proyeksi stereografi untuk 
-selanjutkan dianalisis tingkat kestabilan lereng dan jenis longsoran yang akan terjadi. Proyeksi stereografi 
-sendiri merupakan sebuah metode memproyeksikan kondisi struktur geologi tiga dimensi menjadi bidang datar 
-dua dimensi. Dengan memahami distribusi bidang-bidang lemah yang sudah diproyeksikan, maka kita akan 
-bisa mengetahui sudut relatif sebuah batuan yang selanjutnya digunakan untuk tujuan analisis kinematik. 
-Metode pengukuran nya menggunakan kompas geologi untuk mendapatkan dips dan strike bidang lemah serta 
-lerengnya. Sedangkan alat yang digunakan untuk menganalisis/mengolah data kekar menggunakan software 
-Dips 6.0. 
- 
-3.3  Analisis Kesetimbangan Batas 
-Analisis 
-kesetimbangan 
-batas 
-(limit 
-equilibrium 
-analysis) 
-merupakan 
-metode 
-yang 
-mempertimbangkan kesetimbangan gaya sepanjang bidang gelincir [4]. Pada metode ini diasumsikan terdapat 
-bidang gelincir yang potensial, dimana kondisi gaya (force) dan moment equilibrium ditentukan berada pada 
-kondisi statis. Analisis ini membutuhkan informasi tentang kekuatan material [9]. Perhitungan dilakukan 
-dengan membagi tanah yang berada di atas bidang longsoran menjadi irisan-irisan, sehingga metode ini dikenal 
-juga dengan nama metode irisan [10]. Metoda irisan yang pertama kali dipublikasikan oleh Fellenius 
-merupakan cara yang paling sederhana dimana semua gaya antar irisan diabaikan dan hanya memperhitungkan 
-keseimbangan momen [10]. Kemudian Bishop mengembangkan cara yang lebih kompleks dengan 
-memasukkan gaya yang bekerja di sekitar bidang irisan dan memperhitungkan keseimbangan momen. 
-Untuk setiap jenis longsoran, dapat diasumsikan ke dalam Mohr-Couloumb dimana kekuatan material 
-ditentukan berdasarkan kohesi (c) dan sudur gesek dalam (ϕ) [4]. Kestabilan lereng bisa dihitung berdasarkan 
-rasio dari gaya penahan dan gaya pendorong, yang diistilahkan sebagai Safety-Factor (FS). 
- 
-4. 
-HASIL DAN ANALISIS 
-4.1 Kondisi Geologi Daerah Penelitian 
-Pada lereng penelitian, ditemui adanya batuan breksi andesit yang dilapisan tanah penutup. Kondisi 
-batuan pada lereng relative sedikit lapuk (Slightly Weathered). Terlihat terdapat hasil lapukan didaerah bidang 
-lemahnya. Kondisi lereng pun tertutup oleh vegetasi yang cukup lebat. Batuan pada lereng tersebut diyakini 
-telah mengalami pelapukan dikarenakan kekuatan massa batuannya adalah R4. 
- 
-ReTII 
-ISSN: 1907-5995 
- 
- 
-Analisis Kestabilan Lereng Di Waduk Sermo Dengan Metode Kinematika Dan Metode Kesetimbangan Batas 
-(Arief Pambudi Nugraha) 
-283
-Gambar 3 Lereng Penelitian 
- 
-4.2  Struktur Geologi Daerah Penelitian 
-Berdasarkan dari pengolahan data kekar menggunakan diagram Rosette, dapat disimpulkan bahwa 
-arah tegasan utama berarah Timur Laut-Barat Daya. Jenis kekar yang terbentuk pada massa batuan tersebut 
-merupakan kekar gerus (shear joint) yang cukup rapat. Akibat kekar gerus ini, kekuatan batuan pada lereng 
-mengalami perlemahan.  
- 
-Gambar 4 Diagram Rosette yang menunjukkan arah tegasan utama 
- 
-4.3  Analisis Kinematik 
-Data yang digunakan untuk menganalisa kinematik adalah data pengukuran kekar. Data pengukuran 
-kekar yang dimaksud adalah data strike/dip kekar yang terdapat di lereng penelitian. Selanjutnya data tersebut 
-akan dianalisa menggunakan software Dips. Berdasarkan pengolahan data dari software Dips, maka hasil 
-komposisi arah dan kemiringan lereng adalah 325°/50° dengan sudut geser dalam yaitu 48°. Hasil analisis 
-kinematik yang didapatkan dari software Dips menunjukkan bahwa potensi lereng terjadi longsor sebesar 
-0,25% dengan jenis kelongsorannya yaitu longsoran baji. Longsoran tersebut dihasilkan dari perpotongan 
-bidang struktur yaitu bidang kekar, berarah 57°/14°. Kecilnya potensi longsoran berdasarkan analisa kinematik 
-disebabkan oleh jenis batuan yaitu breksi andesit yang memiliki kekerasan dan sudut geser dalam yang besar. 
- 
-Gambar 5. Analisis Kinematik 
- 
-4.4  Analisis Kesetimbangan Batas 
-Data-data yang diperlukan untuk menganalisa kesetimbangan batas menggunakan software slide 
-adalah kohesi, sudut geser dalam, dan unit weight, juga geometri lerengnya. Kohesi dan sudut geser dalam  kita 
-dapat dari Hoek Brown Criteria. Dan unit weigth kita lakukan dengan uji fisik.  
- 
- 
-        
- 
-       ISSN: 1907-5995 
-ReTII Oktober 2020 :  280 – 284 
-284 
- 
-Gambar 6. Analisis Kemantapan Lereng 
- 
-Setelah dilakukan perhitungan kemantapan lereng, didapatkan nilai faktor keamanan sebesar 4,4. Dari 
-hasil tersebut menyatakan bahwa lereng tersebut sangatlah aman. Dengan kemiringan lereng yang cukup besar 
-yaitu 65° dan tinggi 25 meter. Hasil ini didasarkan pada kondisi jenis batuan yang mempunyai kohesi dan sudut 
-geser dalam yang besar. 
- 
-5. 
-KESIMPULAN  
-Pada lereng jalan waduk sermo, arah tegasan utama berarah Timur Laut-Barat Daya. Jenis kekar yang 
-terbentuk pada massa batuan tersebut merupakan kekar gerus (shear joint) yang cukup rapat dengan arah dan 
-kemiringan lereng adalah 325°/50°. Lereng daerah penelitian berpotensi terjadi longsoran baji sebesar 0,25%. 
-Dari metode kesetimbangan batas, nilai faktor keamanan yang didapatkan sebesar 4,4. Dari analisis 
-menggunakan metode kinematika dan kesetimbangan batas, maka dapat disimpulkan bahwa lereng pada jalan 
-waduk sermo sangatlah aman. 
-UCAPAN TERIMAKASIH  
-Penulis mengucapkan terimakasih kepada bapak Dr. Ir. S. Koesnaryo, MT., IPM yang telah 
-memberikan nasihat dan bimbingannya sehingga terciptalah karya tulis ini. 
- 
-DAFTAR PUSTAKA  
-[1]  Bieniawski, Z.T. 1989. Engineering Rock Mass Clasifications A Complete Manual for Engineers and 
-Geologists in Mining, Civil, and Petroleum Engineering. Canada : John Wiley and Sons, Inc.  
-[2]  Carter, T.G Hoek, E., and Diederichs, M.S. 2013. Quantification of the Geological Strength Index Chart. 
-San Francisco, CA : US Rock Mechanics/Geomechnics Symposium.  
-[3]  Edelbro, Catrin. 2004. Evaluation of Rock Mass Strength Criteria. Lulea University of Technology : 
-Lulea.  
-[4]  Hoek, E., and Bray J.W. 1981. Rock Slope Engineering, The institution of mining and Metallurgy. 
-London : Revised Third Edition.  
-[5]  Hoek E., C. Carranza-Torres, and B. Corkum. 2002. Hoek-Brown criterion – 2002 edition. In Proceedings 
-of the 5th North American Rock Mechanics Symposium and the 17th Tunnelling Association of Canada: 
-NARMSTAC 2002, Toronto, Canada, eds. R.E. Hammah et al, Vol. 1, pp. 267- 273. 2. 
-[6]  Kliche, C.A. 1999. Rock Slope Stability. United States of America : Mining, Metallurgy, and Exploration, 
-Inc.  
-[7]  McClay, K.R. 1987. The Mapping of Geological Structures. England : John Wiley and Sons, Ltd. 
-[8]  Palmström A. 2001. Measurement And Characterization Of Rock Mass Jointing. Övre Smestad vei 35e, 
-N-0378 Oslo, Norway : A. A. Balkema Publishers.  
-[9]  Rai, M.A. dan Kramadibrata, S. 1990. Mekanika Batuan. Bandung : Jurusan Teknik Pertambangan, ITB. 
-[10]  Wyllie, D.C and Mah, C.W. 2004. Rock Slope Engineering Civil and Mining 4 𝑡ℎ Edition. New York, 
-USA : Spon Press 270 Madison, Avenue. 
+Prosiding Nasional Rekayasa Teknologi Industri dan Informasi XV Tahun 2020 (ReTII)
+Oktober 2020, pp. 280~284
+ISSN: 1907-5995
+ 280
+
+Prosiding homepage: https://journal.itny.ac.id/index.php/ReTII/
+Analisis Kestabilan Lereng di Waduk Sermo Dengan Metode
+Kinematika dan Metode Kesetimbangan Batas
+
+Arief Pambudi Nugraha1, Dr. Ir. S. Koesnaryo, MT., IPM1
+1Magister Teknik Pertambangan, Fakultas Teknologi Mineral, UPN Veteran Yogyakarta
+Korespondensi: ariefpambudi51@gmail.com
+
+ABSTRAK
+Jalan umum yang dibangun di daerah perbukitan selalu memiliki lereng-lereng terjal disisi jalan. Lereng tersebut dikhawatir kan akan terjadi longsor yang mengakibatkan banyak kerugian. Kerugian nya antara lain keselamatan pengendara dan kerugian ekonomi setempat karena terkendala akses melewati jalan maupun akibat dari longsoran yang mengenai pemukiman sekitar. Pada daerah wisata Waduk Sermo terdapat jalan- jalan yang dikelilingi oleh lereng. Dimana lereng ini merupakan akses jalan wisatawan maupun warga setempat. Batuan yang terdapat pada lereng adalah breksi andesit. Metode yang digunakan untuk menganalisa kestabilan lereng yaitu metode kinematika dan metode kesetimbangan batas. Komposisi arah dan kemiringan lereng adalah 325°/50°dan sudut geser dalam yaitu 48°. Lereng daerah penelitian berpotensi terjadi longsoran baji sebesar 0,25% yang dihasilkan dari perpotongan bidang struktur yaitu bidang kekar, berarah 57/14. Hasil perhitungan kemantapan lereng, meggunakan metode kesetimbangan batas, didapatkan nilai faktor keamanan sebesar 4,4. Dari hasil tersebut menyatakan bahwa lereng tersebut sangatlah aman. Dengan kemiringan lereng yang cukup besar yaitu 65° dan tinggi 25 meter.
+Kata kunci: kestabilan lereng, metode kinematika, metode kesetimbangan batas, longsor
+
+ABSTRACT
+Public roads that are built in hilly areas always have steep slopes on the side of the road. There is concern that landslides will occur which will result in many losses. The disadvantages include driver safety and local economic losses due to constrained access through the road or the result of landslides that hit the surrounding settlements. In the tourist area of the Sermo Reservoir, there are roads surrounded by slopes. Where this slope is an access road for tourists and local residents. The rocks found on the slopes are andesite breccias. The method used to analyze slope stability is the kinematic method and the limit equilibrium method. The composition of the direction and slope of the slope is 325 ° / 50 ° and the internal shear angle is 48 °. The slope of the study area has the potential for wedge landslides of 0.25% resulting from the intersection of the structural plane, namely the stocky plane, with 57/14 direction. The results of the calculation of slope stability, using the limit equilibrium method, obtained a safety factor value of 4.4. From these results states that the slope is very safe. With a fairly large slope, namely 65 ° and 25 meters high.
+Key words: slope stability, kinematics method, limit equilibrium method, landslide
+
+1.
+PENDAHULUAN
+Jalan umum yang dibangun di daerah perbukitan selalu memiliki lereng-lereng terjal disisi jalan.
+Lereng tersebut dikhawatir kan akan terjadi longsor yang mengakibatkan banyak kerugian. Kerugian nya antara lain keselamatan pengendara dan kerugian ekonomi setempat karena terkendala akses melewati jalan maupun akibat dari longsoran yang mengenai pemukiman sekitar. Pada daerah wisata Waduk Sermo terdapat jalan- jalan yang dikelilingi oleh lereng. Dimana lereng ini merupakan akses jalan wisatawan maupun warga setempat.
+Kemantapan lereng harus diperhatikan agar tidak tejadi kerugian baik berupa materill maupun non- materill. Penentuan kemantapan lereng dapat diketahui dengan serangkaian pengujian, yaitu uji sifat fisik, dan mekanik serta geometri lereng. Lereng dapat dikatakan mantap atau stabil apabila nilai FK nya >1,3 berdasarkan kriteria [4].
+Kemantapan lereng dipengaruhi oleh 2 faktor, faktor internal dan eksternal. Faktor internal yaitu keadaan massa batuan, desain lereng serta sifat fisika pada batuannya. Untuk faktor eksternal nya yaitu, curah hujan dan kelapukan pada batuan. Tujuan dari penelitian ini adalah, mengkaji kemantapan lereng dengan memperhitungkan kondisi geologi struktur pada lereng yakni kekar. Menganalisa kekar dapat mengetahui arah kelongsoran dan jenis kelongsoran yang terjadi pada lereng tersebut. Hal tersebut bertujuan untuk mengetahui pengaruh struktur kekar terhadap kestabilan lereng.
+
+ReTII
+ISSN: 1907-5995
+
+
+Analisis Kestabilan Lereng Di Waduk Sermo Dengan Metode Kinematika Dan Metode Kesetimbangan Batas
+(Arief Pambudi Nugraha)
+2.
+LOKASI DAN GEOLOGI DAERAH PENELITIAN
+Pelaksanaan penelitian ini berada di daerah Sremo Lor, Hargowilis, Kokap, Kulon Progo Regency,
+Daerah Istimewa Yogyakarta. Tepatnya berada di 300 meter dari pos tiket wisata waduk sermo. Secara geografis, daerah penelitian terletak di 7°49'37.9"S 110°07'23.6"E.
+
+Gambar 1 Lokasi Penelitian
+
+Struktur geologi yang berpengaruh terhadap kemantapan lereng yaitu, rekahan, lipatan, sesar, kekar, dan bidang perlapisan. Selanjutnya struktur-struktur geologi selain lipatan tersebut dikenal sebagai bidang lemah. Bidang lemah dapat diukur karakteristiknya dengan mengukur kemiringan (dip) dan arah kemiringan
+(dip direction) serta jurus bidang lemah tersebut. Dengan adanya bidang lemah tersebut dapat melemahkan lereng karena dapat menjadi jalur rembesan air, yang mana hal tersebut dapat menyebabkan rekahan tarik yang membuat faktor keamanan lereng tersebut menjadi lebih kecil/lemah.
+
+Gambar 2. Dip dan Dip Direction bidang lemah [4]
+
+Sebagian besar satuan batuan pada lereng daerah penelitian merupakan formasi andesit tua (Old
+Andesite Formation). Formasi ini mempunyai batuan penyusun berupa breksi Andesit, lapili tuff, tuff, breksi lapisi , Aglomerat, dan aliran lava serta batu pasir vulkanik yang tersingkap di daerah Purworejo dan Kulon
+Progo. Formasi ini diendapkan secara tidak selaras dengan formasi nanggulan dengan ketebalan 660 m.
+Diperkirakan formasi ini formasi ini berumur oligosen – miosen.
+
+3.
+METODE PENELITIAN
+3.1 Data Struktur Massa batuan
+Pengambilan data struktur massa batuan dilakukan sepanjang lereng menggunakan scanline. Caranya adalah dengan membentangkan meteran sepanjang lereng dan data struktur massa batuan yang diambil merupakan struktur masa batuan yang melewati garis scanline [4]. Dalam penelitian ini, scanline dibentangkan sepanjang 35,5 m sepanjang lereng dengan letak scanline berada pada 2 meter dari toe lereng. Parameter RMR yang dilakukan pengambilan datanya berupa orientasi bidang ketidakmenerusan (diskontinuitas) menggunakan
+
+
+ISSN: 1907-5995
+ReTII Oktober 2020 : 280 – 284 kompas geologi, kondisi lereng dan estimasi kekuatan batuan utuh pada sebuah lereng [1]. Estimasi kekuatan batuan utuh dilakukan menggunakan palu geologi berdasarkan Hoek [5]. Estimasi ini sangat efisien dilakukan di lapangan, dan tidak menjadi masalah yang berarti karena nilai bobot RMR dibuat dalam bentuk data range
+[5]. Selain itu, nilai GSI (Geological Strength Index) merupakan parameter kedua yang dihitung dalam survei struktur massa batuan [2].
+Data geologi dan geologi teknik pada lereng digunakan untuk mengetahui nilai Faktor Keamanan
+(FK) yang dimiliki lereng tambang. Nilai kestabilan lereng didapatkan dengan memanfaatkan sifat fisik dan mekanik yang dimiliki oleh batuan, nilainya berbeda, tergantung jenis batuannya. GSI (Geological Strength
+Index) merupakan salah satu data geologi teknik yang dimanfaatkan untuk mengetahui sifat fisik dan mekanik dari batuan sehingga didapatkan nilai Faktor Keamanan (FK) lereng [2][3]. Keragaman nilai GSI yang didapatkan memberikan pengaruh terhadap nilai Faktor Keamanan (FK).
+
+3.2 Analisis Kinematik Lereng
+Metode kinematika adalah menganalisa pergerakan massa batuan dengan merekonstruksi pergerakan yang terjadi didalam batuan akibat dari deformasi, tanpa mempertimbangkan gaya-gaya yang dikenakan padanya. Pertimbangan utamanya adalah memperkirakan terjadinya runtuhan. Metode ini didasarkan pada mengevaluasi secara detiail mengenai struktur massa batuan dan geometri bidang-bidang lemah yang menyebabkan lereng tersebut melemah [4][7][8].
+Semua data geologi yang didapatkan di lapangan berupa arah kemiringan dan bidang kemiringan sebuah rekahan, patahan, kekar, dan perlapisan. Data tersebut akan diplotkan dalam proyeksi stereografi untuk selanjutkan dianalisis tingkat kestabilan lereng dan jenis longsoran yang akan terjadi. Proyeksi stereografi sendiri merupakan sebuah metode memproyeksikan kondisi struktur geologi tiga dimensi menjadi bidang datar dua dimensi. Dengan memahami distribusi bidang-bidang lemah yang sudah diproyeksikan, maka kita akan bisa mengetahui sudut relatif sebuah batuan yang selanjutnya digunakan untuk tujuan analisis kinematik.
+Metode pengukuran nya menggunakan kompas geologi untuk mendapatkan dips dan strike bidang lemah serta lerengnya. Sedangkan alat yang digunakan untuk menganalisis/mengolah data kekar menggunakan software
+Dips 6.0.
+
+3.3 Analisis Kesetimbangan Batas
+Analisis kesetimbangan batas
+(limit equilibrium analysis) merupakan metode yang mempertimbangkan kesetimbangan gaya sepanjang bidang gelincir [4]. Pada metode ini diasumsikan terdapat bidang gelincir yang potensial, dimana kondisi gaya (force) dan moment equilibrium ditentukan berada pada kondisi statis. Analisis ini membutuhkan informasi tentang kekuatan material [9]. Perhitungan dilakukan dengan membagi tanah yang berada di atas bidang longsoran menjadi irisan-irisan, sehingga metode ini dikenal juga dengan nama metode irisan [10]. Metoda irisan yang pertama kali dipublikasikan oleh Fellenius merupakan cara yang paling sederhana dimana semua gaya antar irisan diabaikan dan hanya memperhitungkan keseimbangan momen [10]. Kemudian Bishop mengembangkan cara yang lebih kompleks dengan memasukkan gaya yang bekerja di sekitar bidang irisan dan memperhitungkan keseimbangan momen.
+Untuk setiap jenis longsoran, dapat diasumsikan ke dalam Mohr-Couloumb dimana kekuatan material ditentukan berdasarkan kohesi (c) dan sudur gesek dalam (ϕ) [4]. Kestabilan lereng bisa dihitung berdasarkan rasio dari gaya penahan dan gaya pendorong, yang diistilahkan sebagai Safety-Factor (FS).
+
+4.
+HASIL DAN ANALISIS
+4.1 Kondisi Geologi Daerah Penelitian
+Pada lereng penelitian, ditemui adanya batuan breksi andesit yang dilapisan tanah penutup. Kondisi batuan pada lereng relative sedikit lapuk (Slightly Weathered). Terlihat terdapat hasil lapukan didaerah bidang lemahnya. Kondisi lereng pun tertutup oleh vegetasi yang cukup lebat. Batuan pada lereng tersebut diyakini telah mengalami pelapukan dikarenakan kekuatan massa batuannya adalah R4.
+
+ReTII
+ISSN: 1907-5995
+
+
+Analisis Kestabilan Lereng Di Waduk Sermo Dengan Metode Kinematika Dan Metode Kesetimbangan Batas
+(Arief Pambudi Nugraha)
+Gambar 3 Lereng Penelitian
+
+4.2 Struktur Geologi Daerah Penelitian
+Berdasarkan dari pengolahan data kekar menggunakan diagram Rosette, dapat disimpulkan bahwa arah tegasan utama berarah Timur Laut-Barat Daya. Jenis kekar yang terbentuk pada massa batuan tersebut merupakan kekar gerus (shear joint) yang cukup rapat. Akibat kekar gerus ini, kekuatan batuan pada lereng mengalami perlemahan.
+
+Gambar 4 Diagram Rosette yang menunjukkan arah tegasan utama
+
+4.3 Analisis Kinematik
+Data yang digunakan untuk menganalisa kinematik adalah data pengukuran kekar. Data pengukuran kekar yang dimaksud adalah data strike/dip kekar yang terdapat di lereng penelitian. Selanjutnya data tersebut akan dianalisa menggunakan software Dips. Berdasarkan pengolahan data dari software Dips, maka hasil komposisi arah dan kemiringan lereng adalah 325°/50° dengan sudut geser dalam yaitu 48°. Hasil analisis kinematik yang didapatkan dari software Dips menunjukkan bahwa potensi lereng terjadi longsor sebesar
+0,25% dengan jenis kelongsorannya yaitu longsoran baji. Longsoran tersebut dihasilkan dari perpotongan bidang struktur yaitu bidang kekar, berarah 57°/14°. Kecilnya potensi longsoran berdasarkan analisa kinematik disebabkan oleh jenis batuan yaitu breksi andesit yang memiliki kekerasan dan sudut geser dalam yang besar.
+
+Gambar 5. Analisis Kinematik
+
+4.4 Analisis Kesetimbangan Batas
+Data-data yang diperlukan untuk menganalisa kesetimbangan batas menggunakan software slide adalah kohesi, sudut geser dalam, dan unit weight, juga geometri lerengnya. Kohesi dan sudut geser dalam kita dapat dari Hoek Brown Criteria. Dan unit weigth kita lakukan dengan uji fisik.
+
+
+
+ISSN: 1907-5995
+ReTII Oktober 2020 : 280 – 284
+
+Gambar 6. Analisis Kemantapan Lereng
+
+Setelah dilakukan perhitungan kemantapan lereng, didapatkan nilai faktor keamanan sebesar 4,4. Dari hasil tersebut menyatakan bahwa lereng tersebut sangatlah aman. Dengan kemiringan lereng yang cukup besar yaitu 65° dan tinggi 25 meter. Hasil ini didasarkan pada kondisi jenis batuan yang mempunyai kohesi dan sudut geser dalam yang besar.
+
+5.
+KESIMPULAN
+Pada lereng jalan waduk sermo, arah tegasan utama berarah Timur Laut-Barat Daya. Jenis kekar yang terbentuk pada massa batuan tersebut merupakan kekar gerus (shear joint) yang cukup rapat dengan arah dan kemiringan lereng adalah 325°/50°. Lereng daerah penelitian berpotensi terjadi longsoran baji sebesar 0,25%.
+Dari metode kesetimbangan batas, nilai faktor keamanan yang didapatkan sebesar 4,4. Dari analisis menggunakan metode kinematika dan kesetimbangan batas, maka dapat disimpulkan bahwa lereng pada jalan waduk sermo sangatlah aman.
+UCAPAN TERIMAKASIH
+Penulis mengucapkan terimakasih kepada bapak Dr. Ir. S. Koesnaryo, MT., IPM yang telah memberikan nasihat dan bimbingannya sehingga terciptalah karya tulis ini.
+
+DAFTAR PUSTAKA
+[1] Bieniawski, Z.T. 1989. Engineering Rock Mass Clasifications A Complete Manual for Engineers and
+Geologists in Mining, Civil, and Petroleum Engineering. Canada : John Wiley and Sons, Inc.
+[2] Carter, T.G Hoek, E., and Diederichs, M.S. 2013. Quantification of the Geological Strength Index Chart.
+San Francisco, CA : US Rock Mechanics/Geomechnics Symposium.
+[3] Edelbro, Catrin. 2004. Evaluation of Rock Mass Strength Criteria. Lulea University of Technology :
+Lulea.
+[4] Hoek, E., and Bray J.W. 1981. Rock Slope Engineering, The institution of mining and Metallurgy.
+London : Revised Third Edition.
+[5] Hoek E., C. Carranza-Torres, and B. Corkum. 2002. Hoek-Brown criterion – 2002 edition. In Proceedings of the 5th North American Rock Mechanics Symposium and the 17th Tunnelling Association of Canada:
+NARMSTAC 2002, Toronto, Canada, eds. R.E. Hammah et al, Vol. 1, pp. 267- 273. 2.
+[6] Kliche, C.A. 1999. Rock Slope Stability. United States of America : Mining, Metallurgy, and Exploration,
+Inc.
+[7] McClay, K.R. 1987. The Mapping of Geological Structures. England : John Wiley and Sons, Ltd.
+[8] Palmström A. 2001. Measurement And Characterization Of Rock Mass Jointing. Övre Smestad vei 35e,
+N-0378 Oslo, Norway : A. A. Balkema Publishers.
+[9] Rai, M.A. dan Kramadibrata, S. 1990. Mekanika Batuan. Bandung : Jurusan Teknik Pertambangan, ITB.
+[10] Wyllie, D.C and Mah, C.W. 2004. Rock Slope Engineering Civil and Mining 4 𝑡ℎ Edition. New York,
+USA : Spon Press 270 Madison, Avenue.

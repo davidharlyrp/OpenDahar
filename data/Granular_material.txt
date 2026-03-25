@@ -1,0 +1,192 @@
+Examples of granular materials
+Granular material
+A granular material is a conglomeration of discrete solid, macroscopic particles characterized by a loss of energy whenever the particles interact (the most common example would be friction when grains collide).[1] The constituents that compose granular material are large enough such that they are not subject to thermal motion fluctuations. Thus, the lower size limit for grains in granular material is about 1 μm.
+On the upper size limit, the physics of granular materials may be applied to ice floes where the individual grains are icebergs and to asteroid belts of the Solar System with individual grains being asteroids.
+Some examples of granular materials are snow, nuts, coal, sand, rice, coffee, corn flakes, salt, and bearing balls. Research into granular materials is thus directly applicable and goes back at least to Charles-Augustin de Coulomb, whose law of friction was originally stated for granular materials.[2] Granular materials are commercially important in applications as diverse as pharmaceutical industry, agriculture, and energy production.
+Powders are a special class of granular material due to their small particle size, which makes them more cohesive and more easily suspended in a gas.
+The soldier/physicist Brigadier Ralph Alger Bagnold was an early pioneer of the physics of granular matter and whose book The Physics of Blown Sand and Desert Dunes[3] remains an important reference to this day. According to material scientist Patrick Richard, "Granular materials are ubiquitous in nature and are the second-most manipulated material in industry (the first one is water)".[4]
+In some sense, granular materials do not constitute a single phase of matter but have characteristics reminiscent of solids, liquids, or gases depending on the average energy per grain. However, in each of these states, granular materials also exhibit properties that are unique.[5]
+Granular materials also exhibit a wide range of pattern forming behaviors when excited (e.g. vibrated or allowed to flow). As such granular materials under excitation can be thought of as an example of a complex system. They also display fluid-based instabilities and phenomena such as Magnus effect.[6]
+Granular matter is a system composed of many macroscopic particles. Microscopic particles
+(atoms\molecules) are described (in classical mechanics) by all DOF of the system. Macroscopic particles are described only by DOF of the motion of each particle as a rigid body. In each particle are a lot of internal DOF. Consider inelastic collision between two particles - the energy from velocity as rigid body
+Definitions
+Chain of transmission of stress forces in a granular medium is transferred to microscopic internal DOF. We get "Dissipation" - irreversible heat generation. The result is that without external driving, eventually all particles will stop moving. In macroscopic particles thermal fluctuations are irrelevant.
+When a matter is dilute and dynamic (driven) then it is called granular gas and dissipation phenomenon dominates.
+When a matter is dense and static, then it is called granular solid and jamming phenomenon dominates.
+When the density is intermediate, then it is called granular liquid.
+Coulomb regarded internal forces between granular particles as a friction process, and proposed the friction law, that the force of friction of solid particles is proportional to the normal pressure between them and the static friction coefficient is greater than the kinetic friction coefficient. He studied the collapse of piles of sand and found empirically two critical angles: the maximal stable angle and the minimum angle of repose
+. When the sandpile slope reaches the maximum stable angle, the sand particles on the surface of the pile begin to fall. The process stops when the surface inclination angle is equal to the angle of repose. The difference between these two angles,
+, is the Bagnold angle, which is a measure of the hysteresis of granular materials. This phenomenon is due to the force chains:
+stress in a granular solid is not distributed uniformly but is conducted away along so-called force chains which are networks of grains resting on one another. Between these chains are regions of low stress whose grains are shielded for the effects of the grains above by vaulting and arching. When the shear stress reaches a certain value, the force chains can break and the particles at the end of the chains on the surface begin to slide. Then, new force chains form until the shear stress is less than the critical value, and so the sandpile maintains a constant angle of repose.[7]
+In 1895, H. A. Janssen discovered that in a vertical cylinder filled with particles, the pressure measured at the base of the cylinder does not depend on the height of the filling, unlike Newtonian fluids at rest which follow Stevin's law for hydrostatic pressure. Janssen suggested a simplified model with the following assumptions:
+1. The vertical pressure,
+, is constant in the horizontal plane;
+2. The horizontal pressure,
+, is proportional to the vertical pressure
+, where is constant in space;
+3. The wall friction static coefficient sustains the vertical load at the contact with the wall;
+Static behaviors
+Coulomb friction law
+Janssen effect
+4. The density of the material is constant over all depths.
+The pressure in the granular material is then described in a different law, which accounts for saturation:
+, where and is the radius of the cylinder, and at the top of the silo
+.
+The given pressure equation does not account for boundary conditions, such as the ratio between the particle size to the radius of the silo. Since the internal stress of the material cannot be measured,
+Janssen's speculations have not been verified by any direct experiment.
+In the early 1960s, engineer Peter Walter Rowe studied dilatancy effect on shear strength in shear tests and proposed a relation between them.
+The mechanical properties of assembly of mono-dispersed particles in 2D can be analyzed based on the representative elementary volume, with typical lengths,
+, in vertical and horizontal directions respectively. The geometric characteristics of the system is described by and the variable , which describes the angle when the contact points begin the process of sliding. Denote by the vertical direction, which is the direction of the major principal stress, and by the horizontal direction, which is the direction of the minor principal stress.
+Then stress on the boundary can be expressed as the concentrated force borne by individual particles.
+Under biaxial loading with uniform stress and therefore
+.
+At equilibrium state:
+, where , the friction angle, is the angle between the contact force and the contact normal direction.
+, which describes the angle that if the tangential force falls within the friction cone the particles would still remain steady. It is determined by the coefficient of friction
+, so
+. Once stress is applied to the system then gradually increases while remains unchanged. When then the particles will begin sliding, resulting in changing the structure of the system and creating new force chains.
+, the horizontal and vertical displacements respectively satisfies
+.
+Rowe stress and dilatancy relation
+If the granular material is driven harder such that contacts between the grains become highly infrequent, the material enters a gaseous state. Correspondingly, one can define a granular temperature equal to the root mean square of grain velocity fluctuations that is analogous to thermodynamic temperature. Unlike conventional gases, granular materials will tend to cluster and clump due to the dissipative nature of the collisions between grains. This clustering has some interesting consequences. For example, if a partially partitioned box of granular materials is vigorously shaken then grains will over time tend to collect in one of the partitions rather than spread evenly into both partitions as would happen in a conventional gas.
+This effect, known as the granular Maxwell's demon, does not violate any thermodynamics principles since energy is constantly being lost from the system in the process.
+Consider particles, particle having energy
+. At some constant rate per unit time, randomly choose two particles with energies and compute the sum
+. Now, randomly distribute the total energy between the two particles: choose randomly so that the first particle, after the collision, has energy
+, and the second
+.
+The stochastic evolution equation:
+, where is the collision rate, is randomly picked from
+(uniform distribution) and j is an index also randomly chosen from a uniform distribution.
+The average energy per particle:
+.
+The second moment:
+.
+Now the time derivative of the second moment:
+.
+In steady state:
+.
+Granular gases
+Ulam model
+Solving the differential equation for the second moment:
+.
+However, instead of characterizing the moments, we can analytically solve the energy distribution, from the moment generating function. Consider the Laplace transform:
+, where
+, and
+.
+the n derivative:
+, now:
+.
+Solving for with change of variables
+:
+.
+We will show that
+(Boltzmann Distribution) by taking its Laplace transform and calculate the generating function:
+.
+Granular systems are known to exhibit jamming and undergo a jamming transition which is thought of as a thermodynamic phase transition to a jammed state.[8] The transition is from fluid-like phase to a solid- like phase and it is controlled by temperature,
+, volume fraction, , and shear stress,
+. The normal phase diagram of glass transition is in the plane and it is divided into a jammed state region and unjammed liquid state by a transition line. The phase diagram for granular matter lies in the
+Jamming transition
+Jamming during discharge of granular material is due to arch formation (red spheres) plane, and the critical stress curve divides the state phase to jammed\unjammed region, which corresponds to granular solids\liquids respectively. For isotropically jammed granular system, when is reduced around a certain point, , the bulk and shear moduli approach 0. The point corresponds to the critical volume fraction
+. Define the distance to point , the critical volume fraction,
+. The behavior of granular systems near the point was empirically found to resemble second-order transition: the bulk modulus shows a power law scaling with and there are some divergent characteristics lengths when approaches zero.[7]
+While is constant for an infinite system, for a finite system boundary effects result in a distribution of over some range.
+The Lubachevsky-Stillinger algorithm of jamming allows one to produce simulated jammed granular configurations.[9]
+Excited granular matter is a rich pattern-forming system. Some of the pattern-forming behaviours seen in granular materials are:
+The un-mixing or segregation of unlike grains under vibration and flow. An example of this is the so-called Brazil nut effect[10] where Brazil nuts rise to the top of a packet of mixed nuts when shaken. The cause of this effect is that when shaken, granular (and some other) materials move in a circular pattern. Some larger materials (Brazil nuts) get stuck while going down the circle and therefore stay on the top.
+The formation of structured surface or bulk patterns in vibrated granular layers.[11] These patterns include but are not limited to stripes, squares and hexagons. These patterns are thought to be formed by fundamental excitations of the surface known as oscillons. The formation of ordered volumetric structures in granular materials is known as Granular
+Crystallisation, and involves a transition from a random packing of particles to an ordered packing such as hexagonal close-packed or body-centred cubic. This is most commonly observed in granular materials with narrow size distributions and uniform grain morphology.[11]
+The formation of sand ripples, dunes, and sandsheets
+Some of the pattern-forming behaviours have been possible to reproduce in computer simulations.[12][13]
+There are two main computational approaches to such simulations, time-stepped and event-driven, the former being the most efficient for a higher density of the material and the motions of a lower intensity, and the latter for a lower density of the material and the motions of a higher intensity.
+Some beach sands, such as those of the aptly named Squeaky Beach, exhibit squeaking when walked upon. Some desert dunes are known to exhibit booming during avalanching or when their surface is otherwise disturbed. Granular materials discharged from silos produce loud acoustic emissions in a process known as silo honking.
+Pattern formation
+Acoustic effects
+Sand dunes
+Granulation is the act or process in which primary powder particles are made to adhere to form larger, multiparticle entities called granules.
+When water or other liquids are cooled sufficiently slowly, randomly positioned molecules rearrange and solid crystals emerge and grow. A similar crystallisation process may occur in randomly packed granular materials. Unlike removing energy by cooling, crystallization in granular material is achieved by external driving. Ordering, or crystallization of granular materials has been observed to occur in periodically sheared as well as vibrated granular matter.[11] In contrast to molecular systems, the positions of the individual particles can be tracked in the experiment.[14] Computer simulations for a system of spherical grains reveal that homogeneous crystallization emerges at a volume fraction
+.[15] The computer simulations identify the minimal ingredients necessary for granular crystallization. In particular, gravity and friction are not necessary.
+Several methods are available for modeling of granular materials. Most of these methods consist of the statistical methods by which various statistical properties, derived from either point data or an image, are extracted and used to generate stochastic models of the granular medium. A recent and comprehensive review of such methods is available in Tahmasebi and other (2017) (https://authors.library.caltech.edu/77
+130/4/bdc7eca0b0d59f71cccedfa9c809632059955b6cd6e2af8f9db0b87070dfcc64.pdf).[16]
+Another alternative for building a pack of granular particles that recently has been presented (http://www.uwyo.ed u/pejman/assets/packingcomputersgeotech_tahmasebi2018.pdf) is based on the level-set algorithm by which the real shape of the particle can be captured and reproduced through the extracted statistics for particles' morphology.[17]
+Aggregate (composite)
+Fragile matter
+Random close pack
+Soil liquefaction
+Metal powder
+Particulates
+Paste (rheology) μ(I) rheology: one model of the rheology of a granular flow.
+Dilatancy (granular material)
+Granulation
+Crystallization
+Computational modeling of granular materials
+See also
+1. Duran, J., Sands, Powders, and Grains: An Introduction to the Physics of Granular Materials
+(translated by A. Reisinger). November 1999, Springer-Verlag New York, Inc., New York,
+ISBN 0-387-98656-1.
+2. Rodhes, M (editor), Principles of powder technology, John Wiley & Sons, 1997 ISBN 0-471-
+92422-9
+3. Bagnold, R.A. 1941. The physics of blown sand and desert dunes. London: Methuen,
+4. Richard, P.; Nicodemi, Mario; Delannay, Renaud; Ribière, Philippe; Bideau, Daniel (2005).
+"Slow relaxation and compaction of granular systems" (https://web.archive.org/web/2024121
+1091645/https://www.openaccessrepository.it/record/138549). Nature Materials. 4 (2): 121–
+8. Bibcode:2005NatMa...4..121R (https://ui.adsabs.harvard.edu/abs/2005NatMa...4..121R).
+doi:10.1038/nmat1300 (https://doi.org/10.1038%2Fnmat1300). PMID 15689950 (https://pub med.ncbi.nlm.nih.gov/15689950). S2CID 25375365 (https://api.semanticscholar.org/CorpusI
+D:25375365). Archived from the original (https://www.openaccessrepository.it/record/13854
+9) on December 11, 2024.
+5. Dhiman, Manish; Kumar, Sonu; Reddy, K. Anki; Gupta, Raghvendra (March 2020). "Origin of the long-ranged attraction or repulsion between intruders in a confined granular medium" (ht tps://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/origin-of-the-lon granged-attraction-or-repulsion-between-intruders-in-a-confined-granular-medium/D9FE5D5
+445D8C1B87BDCDD781022FE53). Journal of Fluid Mechanics. 886: A23.
+doi:10.1017/jfm.2019.1035 (https://doi.org/10.1017%2Fjfm.2019.1035). ISSN 0022-1120 (htt ps://search.worldcat.org/issn/0022-1120). S2CID 214483792 (https://api.semanticscholar.or g/CorpusID:214483792).
+6. Kumar, Sonu; Dhiman, Manish; Reddy, K. Anki (2019-01-14). "Magnus effect in granular media" (https://link.aps.org/doi/10.1103/PhysRevE.99.012902). Physical Review E. 99 (1)
+012902. doi:10.1103/PhysRevE.99.012902 (https://doi.org/10.1103%2FPhysRevE.99.01290
+2). PMID 30780222 (https://pubmed.ncbi.nlm.nih.gov/30780222). S2CID 73456295 (https:// api.semanticscholar.org/CorpusID:73456295).
+7. Qicheng, Sun (2013). "Mechanics of Granular Matter". Southampton, UK: WIT Press.
+8. Haye Hinrichsen, Dietrich E. Wolf (eds), The Physics of Granular Media. 2004, Wiley-VCH
+Verlag GmbH & Co. ISBN 978-3-527-60362-6
+9. Kansal, Anuraag R.; Torquato, Salvatore; Stillinger, Frank H. (2002). "Computer Generation of Dense Polydisperse Sphere Packings" (http://cherrypit.princeton.edu/papers/paper-202.p df) (PDF). The Journal of Chemical Physics. 117 (18): 8212.
+Bibcode:2002JChPh.117.8212K (https://ui.adsabs.harvard.edu/abs/2002JChPh.117.8212
+K). doi:10.1063/1.1511510 (https://doi.org/10.1063%2F1.1511510).
+10. Rosato, A.; Strandburg, K.J.; Prinz, F.; Swendsen, R.H. (1987). "Why the Brazil Nuts are on
+Top". Physical Review Letters. 58 (10): 1038–41. doi:10.1103/physrevlett.58.1038 (https://do i.org/10.1103%2Fphysrevlett.58.1038). PMID 10034316 (https://pubmed.ncbi.nlm.nih.gov/1
+0034316).
+11. Dai, Weijing; Reimann, Joerg; Hanaor, Dorian; Ferrero, Claudio; Gan, Yixiang (2019).
+"Modes of wall induced granular crystallisation in vibrational packing". Granular Matter. 21
+(2). arXiv:1805.07865 (https://arxiv.org/abs/1805.07865). doi:10.1007/s10035-019-0876-8 (h ttps://doi.org/10.1007%2Fs10035-019-0876-8). S2CID 119084790 (https://api.semanticscho lar.org/CorpusID:119084790).
+12. John J. Drozd, Computer Simulation of Granular Matter: A Study of An Industrial Grinding
+Mill (http://imaging.robarts.ca/~jdrozd/thesisjd.pdf) Archived (https://web.archive.org/web/20
+110818102135/http://imaging.robarts.ca/~jdrozd/thesisjd.pdf) 2011-08-18 at the Wayback
+Machine, Thesis, Univ. Western Ontario, Canada, 2004.
+References
+13. A. D. Wissner-Gross, "Intruder dynamics on vibrofluidized granular surfaces (http://www.alex wg.org/link?url=http%3A%2F%2Fwww.alexwg.org%2Fpublications%2FMaterResSocSympP roc_1152-TT03-01.pdf)", Materials Research Society Symposium Proceedings 1152E,
+TT03-01 (2009).
+14. Rietz, Frank; Radin, Charles; Swinney, Harry L.; Schröter, Matthias (2 February 2018).
+"Nucleation in Sheared Granular Matter" (https://doi.org/10.1103%2FPhysRevLett.120.0557
+01). Physical Review Letters. 120 (5) 055701. arXiv:1705.02984 (https://arxiv.org/abs/1705.
+02984). Bibcode:2018PhRvL.120e5701R (https://ui.adsabs.harvard.edu/abs/2018PhRvL.12
+0e5701R). doi:10.1103/PhysRevLett.120.055701 (https://doi.org/10.1103%2FPhysRevLett.1
+20.055701). PMID 29481202 (https://pubmed.ncbi.nlm.nih.gov/29481202).
+15. Jin, Weiwei; O'Hern, Corey S.; Radin, Charles; Shattuck, Mark D.; Swinney, Harry L. (18
+December 2020). "Homogeneous Crystallization in Cyclically Sheared Frictionless Grains".
+Physical Review Letters. 125 (25) 258003. arXiv:2008.01920 (https://arxiv.org/abs/2008.019
+20). Bibcode:2020PhRvL.125y8003J (https://ui.adsabs.harvard.edu/abs/2020PhRvL.125y80
+03J). doi:10.1103/PhysRevLett.125.258003 (https://doi.org/10.1103%2FPhysRevLett.125.2
+58003). PMID 33416399 (https://pubmed.ncbi.nlm.nih.gov/33416399). S2CID 220968720 (h ttps://api.semanticscholar.org/CorpusID:220968720).
+16. Tahmasebi, Pejman; Sahimi, Muhammad; Andrade, José E. (2017-01-01). "Image-Based
+Modeling of Granular Porous Media" (https://authors.library.caltech.edu/77130/4/bdc7eca0b
+0d59f71cccedfa9c809632059955b6cd6e2af8f9db0b87070dfcc64.pdf) (PDF). Geophysical
+Research Letters. 44 (10) 2017GL073938. Bibcode:2017GeoRL..44.4738T (https://ui.adsab s.harvard.edu/abs/2017GeoRL..44.4738T). doi:10.1002/2017GL073938 (https://doi.org/10.1
+002%2F2017GL073938). ISSN 1944-8007 (https://search.worldcat.org/issn/1944-8007).
+S2CID 44736386 (https://api.semanticscholar.org/CorpusID:44736386).
+17. Tahmasebi, Pejman (August 2018). "Packing of discrete and irregular particles" (http://www.
+uwyo.edu/pejman/assets/packingcomputersgeotech_tahmasebi2018.pdf) (PDF). Computers and Geotechnics. 100: 52–61. doi:10.1016/j.compgeo.2018.03.011 (https://doi.org/10.101
+6%2Fj.compgeo.2018.03.011).
+Fundamentals of Particle Technology – free book (http://www.particles.org.uk/particle_techn ology_book/particle_book.htm)
+Lu, Kevin; et al. (November 2007). "Shear-weakening of the transitional regime for granular flow". J. Fluid Mech. 587: 347–372. Bibcode:2007JFM...587..347L (https://ui.adsabs.harvar d.edu/abs/2007JFM...587..347L). doi:10.1017/S0022112007007331 (https://doi.org/10.101
+7%2FS0022112007007331). S2CID 30744277 (https://api.semanticscholar.org/CorpusID:30
+744277).
+Mester, L., The new physical-mechanical theory of granular materials (http://www.granularm aterials.com/). 2009, Homonnai, ISBN 978-963-8343-87-1
+Pareschi, L., Russo, G., Toscani, G., Modelling and Numerics of Kinetic Dissipative Systems
+(https://web.archive.org/web/20130801071530/https://www.novapublishers.com/catalog/pro duct_info.php?products_id=3671&osCsid=f7e97c7286d9848f1a8f5a2e7bec4c38), Nova
+Science Publishers, New York, 2006.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Granular_material&oldid=1314010968"
+External links

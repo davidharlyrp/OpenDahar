@@ -1,912 +1,726 @@
-Prosiding Nasional Rekayasa Teknologi Industri dan Informasi XV Tahun 2020 (ReTII) 
-Oktober 2020, pp. 227~234 
-ISSN: 1907-5995 
-     227 
- 
- 
-Prosiding homepage: https://journal.itny.ac.id/index.php/ReTII/ 
-Analisis Kestabilan Lereng dengan Pendekatan Probabilitas 
-Longsor pada Penambangan Batubara Pit 8an East Block  
-PT Indominco Mandiri 
- 
-Ilham Firmansyah1, Barlian Dwinagara1, Untung Sukamto1, Bagus Wiyono1, Tedy Agung Cahyadi1 
-1Jurusan Teknik Pertaambangan, Universitas Pembangunan Nasional “Veteran” Yogyakarta 
-Korespondensi : ilhamfirmann30@gmail.com 
- 
-ABSTRAK 
-Analisis Kestabilan rancangan lereng penambangan di Pit 8AN East Block PT. Indominco Mandiri mengacu pada 
-peraturan lama, yaitu menggunakan Faktor Keamanan dalam menentukan lereng aman atau tidak. Sedangkan menurut 
-Keputusan Menteri ESDM No. 1827 K/30/MEM Tahun 2018, penentuan lereng aman atau tidak berdasarkan pada 
-Faktor Keamanan (FK) dan Probabilitas Longsor (PL). Penelitian ini dilakukan untuk menganalisis kestabilan 
-rancangan lereng akhir penambangan (final pit) sehingga rancangan lereng tersebut dapat dikategorikan aman atau 
-tidak aman. Berdasarkan penyelidikan geoteknik dan pengamatan di lapangan, didapatkan jenis longsoran yang terjadi 
-adalah longsor busur untuk lereng highwall dan longsoran bidang untuk lereng lowwall. Analisis stabilitas lereng 
-menggunakan metode kesetimbangan batas (Bishop Simplified) dibantu dengan software Slide v.8.0 (Rocscience). 
-Sedangkan untuk analisis probabilitas longsor menggunakan metode Monte Carlo. Berdasarkan hasil analisis, 
-diketahui rancangan lereng akhir penambangan baik Lereng A maupun Lereng B dikategorikan aman. Variasi 
-dilakukan terhadap rancangan kedua lereng akhir penambangan dengan menambah sudut lereng keseluruhan. Pada 
-lereng A dengan menambah sudut lereng tunggal dan pada lereng B dengan mengurangi lebar berm. Sehingga, nilai 
-faktor keamanan lereng tersebut berkurang menjadi lebih besar atau sama dengan 1,3 dan nilai probabilitas longsor 
-bertambah sampai batas maksimal 10%. Dampak dari adanya optimasi lereng yaitu bertambahnya cadangan batubara. 
-Kata kunci: Metode Kesetimbangan Batas, Faktor Keamanan, Probabilitas Longsor, Lereng A, Lereng B 
- 
-ABSTRACT 
-The stability analysis of the design of the mining slope at Pit 8AN East Block PT. Indominco Mandiri refers to the old 
-regulation, namely using the Safety Factor in determining the slopes are safe or not. Meanwhile, according to the 
-Minister of Energy and Mineral Resources Decree No. 1827 K/30/MEM In 2018, the determination of safe slopes or 
-not is based on the Safety Factor (SF) and the Probability of Failure (PoF). This research was conducted to analyze 
-the stability of the final pit slope design so that the slope design can be categorized as safe or unsafe. Based on 
-geotechnical investigations and field observations, the types of failure that occur are a circular failure for slopes 
-highwall and plane failure for slopes lowwall. Slope stability analysis using the limit equilibrium method (Bishop 
-Simplified) assisted by software Slide v.8.0 (Rocscience). Meanwhile, the probability of failure analysis uses the Monte 
-Carlo method. Based on the analysis, it is known that the design of the final mining slope, both Slope A and Slope B, 
-are categorized as safe. Variations were made to the design of the two final mining slopes by increasing the overall 
-slope angle. On slope A by increasing the angle of the single-slope and on slope B by reducing the width of the berm. 
-Thus, the value of the slope safety factor decreases to be more than or equal to 1.3, and the probability of failure value 
-increases to a maximum limit of 10%. The impact of slope optimization is an increase in coal reserves. 
-Keywords: Limit Equilibrium Method, Safety Factor, Probability of Failure, Slope A, Slope B 
- 
- 
-1. 
-PENDAHULUAN 
-PT. Indominco Mandiri merupakan suatu badan usaha swasta yang bergerak dalam bidang usaha 
-pertambangan batubara, terletak di Kota Bontang Kalimantan Timur. Lokasi tambang PT. Indominco Mandiri terbagi 
-menjadi dua blok penambangan yaitu, Blok Barat (West Block) seluas 18.000 Ha dengan jumlah cadangan sebesar 
-60.000.000 ton dan Blok Timur (East block) seluas 7100 Ha dengan jumlah cadangan sebesar 106.200.000 ton. 
-Penambangan yang dilakukan menggunakan sistem tambang terbuka sehingga membentuk lereng-lereng.  
-Analisis kestabilan lereng pada rancangan akhir lereng highwall dan lowwal di Pit 8AN masih mengacu pada 
-peraturan lama, yaitu menggunakan Faktor Keamanan dalam menentukan lereng aman atau tidak. Sedangkan menurut 
-Keputusan Menteri ESDM No. 1827 K/30/MEM Tahun 2018, penentuan lereng aman atau tidak berdasarkan pada 
-Faktor Keamanan (FK) dan Probabilitas Longsor (PL). Kemudian sehubungan dengan lereng akhir yang telah 
-direncanakan, terdapat konsekuensi pembentukan lereng berupa penegakkan atau pelandaian lereng berdasarkan pada 
-FK dan PL. Oleh karena itu, diperlukan perhitungan dan analisis ulang terhadap geometri lereng yang telah 
-direncanakan tersebut. 
-        
- 
-       ISSN: 1907-5995 
-ReTII Oktober 2020 : 227 – 234 
-228
-Faktor Keamanan (FK) adalah ukuran deterministik rasio antara gaya penahan dan gaya penggerak dari 
-sebuah sistem. Dalam konsep ini, kesetimbangan batas tercapai bila FK memiliki nilai 1,0. Bila nilai FK lebih dari 1 
-maka lereng tersebut stabil, tapi kalau nilai FK kurang dari 1 maka lereng tersebut tidak stabil [4]. Kemudian, 
-probabilistik adalah suatu cara untuk menentukan nilai faktor keamanan suatu sistem rekayasa dengan memperlakukan 
-nilai masukan sebagai variabel acak, dengan demikian nilai faktor keamanan sebagai rasio antara gaya penahan dan 
-gaya penggerak merupakan juga variabel acak [1]. 
-Analisis kestabilan lereng ini diharapkan akan memberikan hasil analisis kestabilan lereng dengan geometri 
-lereng yang aman dan optimal berdasarkan nilai Faktor Keamanan dan Probabilitas Longsor yang telah ditentukan 
-(FK ≥ 1,3 dan PL ≤ 10%). 
-2. 
-METODE PENELITIAN 
-Tahapan penelitian dalam tulisan ini dapat dilihat pada Gambar 1. Tahapan penelitian ini yaitu diawali dari 
-rumusan masalah, kemudian studi literature, pengambilan data, pengolahan dan analisis data, dan idakhiri dengan 
-penarikan kesimpulan. 
- 
-Gambar 1. Diagram Alir Penelitian 
-Data-data yang digunakan dalam penelitian ini akan diolah dengan menggunakan metode kesetimbangan 
-batas untuk mencari nilai Faktor Keamanannya. Kemudian untuk mencari nilai probabilitas longsor menggunakan 
-analisis statistik dan metode Monte Carlo. 
-ReTII 
-ISSN: 1907-5995 
- 
- 
-Analisis Kestabilan Lereng dengan Pendekatan Probabilitas Longsor pada Penambangan Batubara Pit 8an East 
-Block  
-PT Indominco Mandiri (Ilham Firmansyah) 
-229
-2.1. Kesetimbangan Batas 
-Kesetimbangan Batas dapat didefinisikan sebagai rasio total gaya yang tersedia untuk menahan geser ke gaya 
-total yang cenderung menyebabkan geser [9]. Faktor Keamanan (FK) dijelaskan oleh persamaan berikut:  
-FK = (c A+( Wcosψ-U) tanф)/(Wsinψ + V ) 
- 
- 
- (1)  
-Keterangan 
-c = kohesi 
-A = luas permukaan bidang 
-W = berat 
-Ψ = sudut bidang miring 
-U = gaya angkat 
-Ф = sudut gesek dalam 
-V = gaya total 
-Bila lereng berada pada titik longsor, kondisi kesetimbangan batas yang ada dimana kekuatan yang penahan 
-dan penggerak sama maka FK = 1. Bila kemiringan stabil, gaya penanahan lebih besar dari pada gaya penggerak 
-dan hasilnya faktor keamanan akan lebih besar dari satu. 
-2.2. Analisis Statistik 
-Analisis statistik bertujuan untuk mengetahui pemusatan dan kecenderungan pola penyebaran data-data yang 
-akan diolah sehingga dapat menjelaskan korelasi dan kecenderungan data agar dapat ditentukan metode apa yang 
-sesuai dengan pola penyebaran tersebut [5]. Parameter-parameter yang digunakan dalam analisis ini yaitu rata-
-rata, varians, standar deviasi, koefisien variansi, relatif minimal, dan relatif maksimal. 
-2.3. Uji Baik Suai 
-Penelitian ini menggunakan metode Kolmogorov-Smirnov (K-S) dalam Uji Baik Suai [8]. Metode ini 
-membandingkan antara frekuensi kumulatif eksperimental dan teoritis dari jenis distribusi asumsi [3]. Jika 
-perbedaaan frekuensi tersebut cukup besar dibandingkan dengan suatu ukuran sampel tertentu, maka jenis 
-distribusi teoritisnya tidak diterima. 
-Untuk sampel berjumlah n, hal pertama yang perlu dilakukan menyusun urutan himpunan data sampel dari 
-terendah, sehingga akan membentuk suatu fungsi frekuensi kumulatif tangga sebagai berikut:   
-Dn = max │F(x) – F*(x)│  
- 
- 
- 
- 
-(2)   
-Keterangan 
-Dn  
-= variabel acak yang distribusinya tergantung pada n 
-F(x) 
-= frekuensi kumulatif eksperimental 
-F*(x) 
-= frekuensi kumulatif teoritis 
-Dalam uji K-S, selisih maksimum antara F*(x) dan F(x) untuk seluruh rentang X merupakan pengukur 
-perbedaan antara model teoritis dan data pengamatan. Selisih maksimum ditunjukkan oleh persamaan 2.  
-Level of signiﬁcance α  
- 
-0,10  
- 
-0,05  
- 
-0,01 
-Critical value 
- 
- 
-(1.22 )/(√n) 
-(1.36  )/(√n) 
-(1.63 )/(√n) 
-2.4. Fungsi Distribusi Data 
-Distribusi data yang digunakan dalam penelitian ini dalah distribusi normal, lognormal, dan gamma, karena 
-distribusi-distribusi tersebut merupakan distribusi yang sering digunakan dalam geoteknik [9]. 
-2.5. Metode Monte Carlo 
-Pada metode kesetimbangan batas (limit equilibrium method) nilai FK merupakan rasio antara gaya penahan 
-dan gaya penggerak, masing-masing parameter merupakan fungsi dari variabel acak yang bersifat tak tentu 
-(uncertain) dan berdistribusi probabilitas tertentu. Oleh karena itu, penggunaan simulasi Monte Carlo sangat 
-cocok untuk menyelesaikan permasalahan ketidakpastian pada nilai FK hingga akhirnya akan didapatkan nilai 
-probabilitas longsor [2]. 
-2.6. Kriteria Penerimaan 
-Pada penelitian ini digunakan jenis lereng keseluruhan dan tingkat konsekuensi longsor menengah. Pada 
-tingkat konsekuensi longsor menengah, konsekuensi yang terjadi apabila terjadi longsor adalah cidera berat 
-manusia, kerusakan sarana dan prasarana pertambangan dari 25% (dua puluh lima persen) sampai 50% (lima 
-        
- 
-       ISSN: 1907-5995 
-ReTII Oktober 2020 : 227 – 234 
-230
-puluh persen), terhentinya produksi lebih dari 12 (dua belas) jam sampai kurang dari 24 (dua puluh empat) jam, 
-cadangan tertimbun tetapi masih diambil; dan/atau, kerusakan lingkungan di dalam wilayah IUP (Tabel 1). 
-Tabel 1. Nilai Faktor Keamanan dan Probabilitas Longsor Lereng Tambang [6] 
-Jenis Lereng 
-Keparahan 
-Longsor 
-(Consequences of 
-Failure/CoF) 
-Kriteria dapat diterima (Acceptance Criteria) 
-Faktor 
-Keamanan (FK) 
-Statis (Min) 
-Faktor 
-Keamanan (FK) 
-Dinamis (Min) 
-Probabilitas 
-Longsor 
-(Probability of 
-Failure) (maks) 
-PoF (FK≤1) 
-Lereng 
-Tunggal 
-Rendah 
-s.d. 
-Tinggi 
-1,1 
-Tidak ada 
-25-50% 
-Inter - Ramp 
-Rendah 
-1,15-1,2 
-1,0 
-25% 
-Menengah 
-1,2-1,3 
-1,0 
-20% 
-Tinggi 
-1,2-1,3 
-1,1 
-10% 
-Lereng 
-Keseluruhan 
-Rendah 
-1,2-1,3 
-1,0 
-15-20% 
-Menengah 
-1,3 
-1,05 
-10% 
-Tinggi 
-1,3-1,5 
-1,1 
-5% 
- 
-3. 
-HASIL DAN ANALISIS 
-3.1.  Sifat Fisik dan Sifat Mekanik Batuan 
-Data sifat fisik dan sifat mekanik dapat dilihat di Tabel 2 sampai Tabel 4. Khusus untuk Sifat mekanik 
-material batubara, yaitu nilai kohesi dan sudut gesek dalam menggunakan referensi berdasarkan studi kasus PT. MN 
-di Kalimantan Timur (Tabel 4) dikarenakan pada lokasi penelitian tidak melakukan uji sifat mekanik dan hanya 
-melakukan pengujian sifat fisik sampel batubara. Selain itu, batuan pada lokasi penelitian berada pada satu formasi 
-batuan yang sama yaitu Formasi Pulaubalang. 
- 
-Tabel 2. Rekapitulasi Hasil Uji Laboratorium untuk Material Batulumpur 
-Sumber: Departemen Geologi PT. Indominco Mandiri, 2017 [7] 
- 
-No. 
-LUBANG 
-BOR 
-SAMPLE NO. 
-LITHOLOGY 
-INDEX 
-PROPERTIES 
-DIRECT 
-SHEAR 
-Natural Density 
-C peak Φ peak 
-kN/m3 
-kPa 
-º 
-1 
-2410G 
-2410G spl.4.5 
-Mudstone 
-16,690 
-200,45 
-57,23 
-2 
-2410G 
-2410G spl.6.7.8 
-Mudstone 
-16,390 
-184,09 
-51,34 
-3 
-2410G 
-2410G spl.9.10 
-Mudstone 
-15,420 
-240,55 
-44,31 
-4 
-2410G 
-2410G spl.14 
-Mudstone 
-14,020 
-122,30 
-54,67 
-5 
-2410G 
-2410G spl.15 
-Mudstone 
-14,150 
-225,28 
-48,81 
-6 
-2410G 
-2410G spl.16 
-Mudstone 
-18,550 
-165,85 
-47,60 
-7 
-2410G 
-2410G spl.20 
-Mudstone 
-18,710 
-192,67 
-50,94 
-8 
-2410G 
-2410G spl.24 
-Mudstone 
-17,450 
-112,64 
-54,67 
-9 
-2410G 
-2410G spl.25.26 
-Mudstone 
-17,800 
-373,15 
-40,99 
-10 
-2520G 
-2520G spl.16.17 
-Mudstone 
-14,900 
-240,55 
-42,88 
-11 
-2520G 
-2520G spl.18.19 
-Mudstone 
-18,510 
-481,09 
-49,97 
-12 
-2520G 
-2520G spl.28 
-Mudstone 
-17,160 
-320,73 
-38,99 
-13 
-2520G 
-2520G spl.30.31 
-Mudstone 
-16,160 
-360,82 
-43,96 
-14 
-2520G 
-2520G spl.34.35.36 
-Mudstone 
-16,400 
-360,82 
-35,08 
-15 
-2520G 
-2520G spl.38.39 
-Mudstone 
-15,960 
-320,73 
-32,01 
-16 
-2520G 
-2520G spl.46.47 
-Mudstone 
-14,150 
-160,36 
-59,22 
-17 
-2522G 
-2522G spl.21 
-Mudstone 
-16,310 
-200,00 
-61,47 
-ReTII 
-ISSN: 1907-5995 
- 
- 
-Analisis Kestabilan Lereng dengan Pendekatan Probabilitas Longsor pada Penambangan Batubara Pit 8an East 
-Block  
-PT Indominco Mandiri (Ilham Firmansyah) 
-231
- 
-No. 
-LUBANG 
-BOR 
-SAMPLE NO. 
-LITHOLOGY 
-INDEX 
-PROPERTIES 
-DIRECT 
-SHEAR 
-Natural Density 
-C peak Φ peak 
-kN/m3 
-kPa 
-º 
-18 
-2522G 
-2522G spl.22 
-Mudstone 
-17,080 
-241,00 
-54,32 
-19 
-2514G 
-2514G spl.19.20 
-Mudstone 
-15,660 
-320,73 
-58,11 
-20 
-2514G 
-2514G spl.21.22.23 
-Mudstone 
-16,560 
-280,64 
-58,39 
-21 
-2514G 
-2514G spl.28.29 
-Mudstone 
-14,740 
-248,77 
-58,67 
-22 
-2514G 
-2514G spl.32 
-Mudstone 
-14,520 
-394,31 
-59,22 
-23 
-2514G 
-2514G spl.37.38 
-Mudstone 
-18,880 
-360,82 
-57,23 
-Mean 
-16,355 
-265,58 
-50,44 
-Standar Deviasi 
-1,520 
-95,43 
-8,403 
-Maksimum 
-18,880 
-481,09 
-61,47 
-Minimum 
-14,020 
-112,63 
-32,00 
- 
-Tabel 3. Rekapitulasi Hasil Uji Laboratorium untuk Material Batupasir 
-Sumber: Departemen Geologi PT. Indominco Mandiri, 2017 [7] 
-No. 
-LUBANG 
-BOR 
-SAMPLE NO. 
-LITHOLOGY 
-INDEX 
-PROPERTIES 
-DIRECT SHEAR 
-Natural Density 
-C peak 
-φ peak 
-kN/m3 
-kPa 
-º 
-1 
-2410G 
-2410G spl.18 
-Sandstone 
-18,090 
-232,72 
-55,67 
-2 
-2410G 
-2410G spl.28.29 
-Sandstone 
-15,400 
-160,36 
-47,60 
-3 
-2520G 
-2520G spl.4 
-Sandstone 
-18,280 
-160,36 
-56,31 
-4 
-2520G 
-2520G spl.8 
-Sandstone 
-16,840 
-320,73 
-50,53 
-5 
-2520G 
-2520G spl.43 
-Sandstone 
-15,950 
-160,36 
-37,13 
-6 
-2522G 
-2522G spl.32 
-Sandstone 
-16,320 
-361,00 
-47,45 
-Mean 
-16,813 
-232,59 
-49,12 
-Standar Deviasi 
-1,163 
-89,339 
-7,006 
-Maksimum 
-18,280 
-361,00 
-56,31 
-Minimum 
-15,400 
-160,36 
-37,13 
- 
-Tabel 4. Material Properties untuk Batubara 
-Sumber: Irwandi Arief, 2016 [2] 
-No. 
-LUBANG 
-BOR 
-SAMPLE 
-NO. 
-LITHOLOGY 
-INDEX 
-PROPERTIES 
-DIRECT SHEAR 
-Natural Density 
-C peak 
-φ peak 
-kN/m3 
-kPa 
-º 
-1 
-SSS 02 
-- 
-Coal 
-12,613 
-212,00 
-38,40 
- 
-3.2.  Geometri Lereng 
- Geometri rencangan lereng akhir yaitu pada lereng highwall A tinggi 141 m dan sudut lereng keseluruhan 
-41˚, lereng highwall B tinggi 70,4 m dan sudut lereng keseluruhan 47˚, lereng lowwall A tinggi 63,3 m dan sudut 
-lereng keseluruhan 14˚, lereng lowwall B tinggi 39 m dan sudut lereng keseluruhan 16˚. 
-3.3.  Hasil Goodness of Fit Test 
- Hasil Goodness of Fit Test ditunjukkan pada Tabel 5, hasil tersebut digunakan sebagai data masukan dalam 
-perhitungan pendekatan probabilitas longsor. 
-Tabel. 5. Material Statistics untuk Batulumpur dan Batupasir 
-No 
-Material 
-Name 
-Property 
-Distribution 
-Mean 
-Std. 
-Dev. 
-Rel. 
-Min 
-Rel. 
-Max 
-        
- 
-       ISSN: 1907-5995 
-ReTII Oktober 2020 : 227 – 234 
-232
-1 
-Mudstone 
-Cohesion 
-Gamma 
-251,63 
-85,41 
-139,00 
-142,68 
-2 
-Mudstone 
-Phi 
-Normal 
-40,71 
-8,49 
-18,71 
-10,76 
-3 
-Mudstone 
-Unit Weight 
-Normal 
-16,50 
-1,77 
-3,07 
-3,70 
-4 
-Sandstone 
-Cohesion 
-Gamma 
-247,04 
-91,72 
-86,67 
-113,96 
-5 
-Sandstone 
-Phi 
-Normal 
-37,68 
-6,77 
-10,55 
-7,99 
-6 
-Sandstone 
-Unit Weight 
-Gamma 
-16,34 
-0,71 
-0,94 
-0,86 
-3.4.  Perhitungan Faktor Keamanan dan Probabilitas Longsor 
- Tabel 6 Hasil Analisis Kestabilan Lereng Keseluruhan 
-Nama 
-Lereng 
-Sudut Lereng 
-Keseluruhan 
-(˚) 
-Tinggi 
-Lereng 
-(m) 
-FK 
-(deterministic) 
-FK 
-(mean) 
-PL 
-(%) 
-Lereng A 
-Highwall 
-41 
-141,5 
-1,39 
-1,4 
-3,8 
-Lereng B 
-Highwall 
-47 
-70,43 
-1,76 
-1,78 
-3,2 
-Lereng A 
-Lowwall 
-14 
-63,3 
-4,66 
-4,77 
-0 
-Lereng B 
-Lowwall 
-16 
-39,2 
-7,57 
-7,67 
-0 
- 
-3.5.  Optimasi Rancangan Lereng 
-Berdasarkan hasil analisis kestabilan lereng menggunakan perhitungan faktor keamanan dan probabilitas 
-longsor (Tabel 6), diketahui untuk keempat lereng dikategorikan aman. Oleh karena itu, pada lereng highwall A dan 
-B dapat dilakukan  optimasi geometri lereng, sedangkan untuk lereng lowwall A dan B tidak dilakukan karena 
-menyesuaikan dengan bentuk lapisan batubara yang sudah ditambang. 
-Optimasi lereng dilakukan dengan variasi terhadap sudut lereng keseluruhan (Tabel 7 dan Tabel 8), pada 
-lereng A dilakukan dengan menegakkan sudut lereng tunggal, sedangkan pada lereng B dilakukan dengan mengurangi 
-lebar berm. Perubahan sudut lereng tunggal ini berdasarkan pengamatan lokasi penelitian yang menunjukkan lereng 
-sudah dilakukan penambangan. Selain itu analisis lereng aktual pada juga menunjukkan bahwa lereng tunggal 51˚ 
-dengan batuan terlemah memiliki nilai FK 7,7 dan PL 0%. Hasil analisis menunjukkan lereng tunggal lereng aktual 
-termasuk dalam kategori aman. Sehingga dapat dilakukan optimasi dengan cara mengubah lereng tunggal. 
-Tabel 7. Nilai FK dan PL Variasi Sudut Lereng Keseluruhan pada Lereng A 
-Nama 
-Lereng 
-Sudut Lereng 
-Keseluruhan 
-(˚) 
-Sudut 
-Lereng 
-Tunggal 
-(˚) 
-Tinggi 
-Lereng 
-(m) 
-FK 
-(deterministic) 
-FK 
-(mean) 
-PL 
-(%) 
-A 
-Highwall 
-41 
-55 
-141,5 
-1,39 
-1,4 
-3,8 
-  
-Variasi 1 
-42 
-57 
-141,5 
-1,365 
-1,37 
-3,8 
-  
-Variasi 2 
-43 
-59 
-141,5 
-1,32 
-1,33 
-5 
-  
-Variasi 3 
-45 
-61 
-141,5 
-1,31 
-1,31 
-5,2 
-  
-Variasi 4 
-46 
-63 
-141,5 
-1,3 
-1,3 
-7,2 
-  
-Variasi 5 
-47 
-65 
-141,5 
-1,27 
-1,28 
-10,4 
-Tabel 8. Nilai FK dan PL Variasi Sudut Lereng Keseluruhan pada Lereng B 
-Nama 
-Lereng 
-Sudut Lereng 
-Keseluruhan 
-(˚) 
-Lebar 
-Berm 
-Tinggi 
-Lereng 
-(m) 
-FK 
-(deterministic) 
-FK 
-(mean) 
-PL 
-(%) 
-B 
-Highwall 
-47 
-5,09 
-70,43 
-1,76 
-1,78 
-3,2 
-  
-Variasi 1 
-49 
-4,5 
-70,43 
-1,62 
-1,64 
-6,4 
-  
-Variasi 2 
-51 
-4 
-70,43 
-1,52 
-1,54 
-7,8 
-  
-Variasi 3 
-52 
-3,8 
-70,43 
-1,49 
-1,51 
-8,6 
-  
-Variasi 4 
-53 
-3,5 
-70,43 
-1,44 
-1,46 
-10,2 
-Keterangan 
- 
-: Lereng awal 
- 
-: Lereng variasi dibawah batas kriteria aman 
- 
-: Lereng variasi melewati batas kriteria aman 
- 
-3.6.  Diskusi 
-ReTII 
-ISSN: 1907-5995 
- 
- 
-Analisis Kestabilan Lereng dengan Pendekatan Probabilitas Longsor pada Penambangan Batubara Pit 8an East 
-Block  
-PT Indominco Mandiri (Ilham Firmansyah) 
-233
-3.6.1. Analisis Stabilitas Lereng 
-Hasil analisis stabilitas lereng (Tabel 6) menunjukkan bahwa lereng-lereng tersebut termasuk dalam kategori 
-aman. Kemudian berdasarkan analisis tersebut, terdapat peluang untuk melakukan optimasi sudut lereng keseluruhan 
-dengan cara menegakkannya sampai pada batas FK dan PL yang ditentukan. Optimasi dilakukan dalam rangka untuk 
-memaksimalkan recovery batubara pada pit 8AN. Penegakkan lereng dilakukan dengan cara menambah sudut lereng 
-tunggal untuk lereng highwall A dan mengurangi lebar berm untuk lereng highwall B. Sedangkan untuk lowwall, baik 
-lereng A maupun B tidak dilakukan penegakkan karena mengikuti dari bentuk seam batubara yang telah ditambang. 
-3.6.2. Variasi Sudut Lereng Keseluruhan 
-1. Lereng Highwall A 
-Berdasarkan hasil analisis stabilitas lereng, lereng highwall A termasuk dalam kategori aman. Oleh karena 
-itu, pada lereng A dapat dilakukan optimasi agar dapat memaksimalkan perolehan batubara dengan cara menegakkan 
-sudut lereng keseluruhan. Penegakkan sudut lereng keseluruhan dalam hal ini adalah dengan cara memperbesar sudut 
-lereng pada masing-masing lereng tunggal dengan tinggi lereng dan lebar berm tetap. Hal ini dikarenakan pada lereng 
-A, lebar berm sudah berada pada batas lebar minimal, yaitu 3,8 m, sedangkan tinggi lereng tunggal 8 m tidak berubah.  
- 
-Gambar 2. Grafik Hubungan Sudut Lereng Keseluruhan, Nilai FK dan Nilai PL Lereng B 
-Variasi dilakukan dengan menambah sudut lereng tunggal dari sebelumnya 55˚ menjadi 63˚, sehingga sudut 
-kemiringan lereng keseluruhan bertambah dari 41˚ menjadi 46˚. Gambar 5.1 menunjukkan hubungan antara sudut 
-keselruhan dengan nilai FK dan PL, yaitu bahwa semakin besar sudut lereng keseluruhan pada lereng A, maka nilai 
-FK semakin kecil dan nilai PL semakin besar. Hasil dari optimasi ini yaitu nilai FK mengalami penurunan menjadi 
-1,3 dan nilai PL mengalami kenaikan menjadi 7,2%. 
- 
-2. Lereng Highwall B 
-Berdasarkan hasil analisis stabilitas lereng, lereng highwall B termasuk dalam kategori aman. Oleh karena 
-itu, pada lereng B dapat dilakukan optimasi agar dapat memaksimalkan perolehan batubara dengan cara menegakkan 
-sudut lereng keseluruhan. Penegakkan sudut lereng keseluruhan dalam hal ini adalah dengan cara memperkecil lebar 
-berm pada masing-masing lereng tunggal dengan tinggi lereng dan sudut lereng tunggal tetap. Hal ini dikarenakan 
-pada lereng B, sudut lereng tunggal sudah berada pada batas maksimal, yaitu 70˚, sedangkan tinggi lereng tunggal 8 
-m tidak berubah.  
- 
-Gambar 3. Grafik Hubungan Sudut Lereng Keseluruhan, Nilai FK dan Nilai PL Lereng B 
-7,2 
-8,6 
-1,49 
-1,3 
-        
- 
-       ISSN: 1907-5995 
-ReTII Oktober 2020 : 227 – 234 
-234
-Variasi dilakukan dengan mengurangi lebar berm lereng tunggal dari sebelumnya 5,09 m menjadi 3,8 m, 
-sehingga sudut kemiringan lereng keseluruhan bertambah dari 47˚ menjadi 53˚. Gambar 5.4 menunjukkan hubungan 
-antara sudut keselruhan dengan nilai FK dan PL, yaitu bahwa semakin besar sudut lereng keseluruhan pada lereng B, 
-maka nilai FK semakin kecil dan nilai PL semakin besar. Hasil dari penambahan sudut lereng keseluruhan ini yaitu 
-nilai FK mengalami penurunan menjadi 1,49 dan nilai PL mengalami kenaikan menjadi 8,6%. 
-3.6.3. Dampak Perubahan Geometri Lereng 
-Analisis kestabilan lereng yang telah dilakukan menunjukkan bahwa pada lereng A dan B sayatan A-A’ 
-dalam kondisi aman. Kemudian pada lereng A dan lereng B dilakukan upaya optimasi dengan cara menegakkan lereng 
-keseluruhan. Kegiatan optimasi yang dilakukan pada highwall lereng A dan lereng B ini memiliki dampak terhadap 
-meningkatnya cadangan batubara. Penegakkan lereng yang dilakukan memungkinkan batubara yang seharusnya tidak 
-ditambang menjadi bisa ditambang. 
- 
-4. 
-KESIMPULAN 
-Kesimpulan mengenai analisis kestabilan lereng pada bab sebelumnya adalah sebagai berikut : 
-1. Rancangan lereng akhir penambangan pada pit 8AN yang terdiri dari lereng highwall A dan B, serta lereng 
-lowwall A dan B termasuk dalam kategori aman. 
-2. Optimasi lereng dilakukan dengan variasi sudut kemiringan lereng keseluruhan, pada lereng highwall A dengan 
-menambah sudut lereng tunggal dari 55˚ menjadi 63˚ sehingga sudut kemiringan lereng keseluruhan bertambah 
-dari 41˚ menjadi 46˚, sedangkan pada lereng highwall B dengan mengurangi lebar berm lereng dari 5,09 m 
-menjadi 3,8 m sehingga sudut kemiringan lereng keseluruhan bertambah dari 47˚ menjadi 53˚. Semakin besar 
-sudut lereng keseluruhan, semakin kecil nilai FK (lereng A 1,39 menjadi 1,3 dan lereng B 1,76 menjadi 1,49) 
-dan semakin besar nilai PL (lereng A 3,8% menjadi 7,2 % dan lereng B 3,2 % mejadi 8,6%). 
-3. Kegiatan optimasi yang dilakukan pada highwall lereng A dan lereng B memiliki dampak terhadap 
-meningkatnya cadangan batubara. 
-UCAPAN TERIMAKASIH 
-Penulis mengucapkan terimakasih terhadap pihak kampus Universitas Pembangunan Nasional Veteran 
-Yogyakarta dan PT. Indominco Mandiri yang telah membantu penulis dalam menyelesaikan tulisan ini. 
- 
-DAFTAR PUSTAKA 
- 
-[1]  Azizi, Masagus Ahmad., Rr Harminuke Eko Handayani., Prosiding Seminar AVoER ke-3 tahun 2011, 
-Karakterisasi Parameter Masukan untuk Analisis Kestabilan Lereng Tunggal (Studi Kasus di PT. Tambang 
-Batubara Bukit Asam Tbk. Tanjung Enim, Sumatera Selatan). 2011: Hal 329. 
-[2]  Arif, Irwandi. Geoteknik Tambang Mewujudkan Produksi Tambang yang Berkelanjutan dengan Menjaga 
-Kestabilan Lereng, Gramedia Pustaka Utama, Jakarta. 2016: hal 18-21 dan 55-56. 
-[3]  Cochran, William G. Some Methods for Strengthening the Common X2 tests, The Johns Hopkins University. 1954: 
-hal 420. 
-[4]  Hoek E., Bray J. Rock Slope Engineering 3rd Edition. Canada : Taylor & Francis Routledge. 1981; hal 22. 
-[5]  J. Supranto. Statistika Teori dan Aplikasi, Edisi Ketujuh, Jakarta, Penerbit Erlangga. 2008; hal 400. 
-[6]  Menteri Energi dan Sumber Daya Mineral., 2018., Keputusan Menteri Energi dan Sumber Daya Mineral No. 
-1827 K/30/MEM/2018 tentang Pedoman Pelaksanan Kaidah Teknik Pertambangan Yang Baik, hal 57 dan 91. 
-[7]  PT. Indominco Mandiri. Report on Coal Exploration PT. Indominco Mandiri. 1992. Tidak Dipublikasikan 
-[8]  PT. Indominco Mandiri. Report of Geology Department PT. Indominco Mandiri. 2017.  Tidak Dipublikasikan. 
-[9]  Togani, C.U, Rini K. Jurnal Teknik Sipil dan Perencanaan Universitas Negeri Semarang, Pemilihan Distribusi 
-Probabilitas Pada Analisa Hujan dengan Metode Goodness of Fit Test. 2016: hal 143. 
-[10]  Willey, D.C., Mah, W.C. Rock Slope Engineering (Civil and Mining), Spon Press, 4th edition, ISBN 0-203-
-49900, New York. 2004: hal 33-37. 
+Prosiding Nasional Rekayasa Teknologi Industri dan Informasi XV Tahun 2020 (ReTII)
+Oktober 2020, pp. 227~234
+ISSN: 1907-5995
+ 227
+
+Prosiding homepage: https://journal.itny.ac.id/index.php/ReTII/
+Analisis Kestabilan Lereng dengan Pendekatan Probabilitas
+Longsor pada Penambangan Batubara Pit 8an East Block
+PT Indominco Mandiri
+
+Ilham Firmansyah1, Barlian Dwinagara1, Untung Sukamto1, Bagus Wiyono1, Tedy Agung Cahyadi1
+1Jurusan Teknik Pertaambangan, Universitas Pembangunan Nasional “Veteran” Yogyakarta
+Korespondensi : ilhamfirmann30@gmail.com
+
+ABSTRAK
+Analisis Kestabilan rancangan lereng penambangan di Pit 8AN East Block PT. Indominco Mandiri mengacu pada peraturan lama, yaitu menggunakan Faktor Keamanan dalam menentukan lereng aman atau tidak. Sedangkan menurut
+Keputusan Menteri ESDM No. 1827 K/30/MEM Tahun 2018, penentuan lereng aman atau tidak berdasarkan pada
+Faktor Keamanan (FK) dan Probabilitas Longsor (PL). Penelitian ini dilakukan untuk menganalisis kestabilan rancangan lereng akhir penambangan (final pit) sehingga rancangan lereng tersebut dapat dikategorikan aman atau tidak aman. Berdasarkan penyelidikan geoteknik dan pengamatan di lapangan, didapatkan jenis longsoran yang terjadi adalah longsor busur untuk lereng highwall dan longsoran bidang untuk lereng lowwall. Analisis stabilitas lereng menggunakan metode kesetimbangan batas (Bishop Simplified) dibantu dengan software Slide v.8.0 (Rocscience).
+Sedangkan untuk analisis probabilitas longsor menggunakan metode Monte Carlo. Berdasarkan hasil analisis, diketahui rancangan lereng akhir penambangan baik Lereng A maupun Lereng B dikategorikan aman. Variasi dilakukan terhadap rancangan kedua lereng akhir penambangan dengan menambah sudut lereng keseluruhan. Pada lereng A dengan menambah sudut lereng tunggal dan pada lereng B dengan mengurangi lebar berm. Sehingga, nilai faktor keamanan lereng tersebut berkurang menjadi lebih besar atau sama dengan 1,3 dan nilai probabilitas longsor bertambah sampai batas maksimal 10%. Dampak dari adanya optimasi lereng yaitu bertambahnya cadangan batubara.
+Kata kunci: Metode Kesetimbangan Batas, Faktor Keamanan, Probabilitas Longsor, Lereng A, Lereng B
+
+ABSTRACT
+The stability analysis of the design of the mining slope at Pit 8AN East Block PT. Indominco Mandiri refers to the old regulation, namely using the Safety Factor in determining the slopes are safe or not. Meanwhile, according to the
+Minister of Energy and Mineral Resources Decree No. 1827 K/30/MEM In 2018, the determination of safe slopes or not is based on the Safety Factor (SF) and the Probability of Failure (PoF). This research was conducted to analyze the stability of the final pit slope design so that the slope design can be categorized as safe or unsafe. Based on geotechnical investigations and field observations, the types of failure that occur are a circular failure for slopes highwall and plane failure for slopes lowwall. Slope stability analysis using the limit equilibrium method (Bishop
+Simplified) assisted by software Slide v.8.0 (Rocscience). Meanwhile, the probability of failure analysis uses the Monte
+Carlo method. Based on the analysis, it is known that the design of the final mining slope, both Slope A and Slope B, are categorized as safe. Variations were made to the design of the two final mining slopes by increasing the overall slope angle. On slope A by increasing the angle of the single-slope and on slope B by reducing the width of the berm.
+Thus, the value of the slope safety factor decreases to be more than or equal to 1.3, and the probability of failure value increases to a maximum limit of 10%. The impact of slope optimization is an increase in coal reserves.
+Keywords: Limit Equilibrium Method, Safety Factor, Probability of Failure, Slope A, Slope B
+
+1.
+PENDAHULUAN
+PT. Indominco Mandiri merupakan suatu badan usaha swasta yang bergerak dalam bidang usaha pertambangan batubara, terletak di Kota Bontang Kalimantan Timur. Lokasi tambang PT. Indominco Mandiri terbagi menjadi dua blok penambangan yaitu, Blok Barat (West Block) seluas 18.000 Ha dengan jumlah cadangan sebesar
+60.000.000 ton dan Blok Timur (East block) seluas 7100 Ha dengan jumlah cadangan sebesar 106.200.000 ton.
+Penambangan yang dilakukan menggunakan sistem tambang terbuka sehingga membentuk lereng-lereng.
+Analisis kestabilan lereng pada rancangan akhir lereng highwall dan lowwal di Pit 8AN masih mengacu pada peraturan lama, yaitu menggunakan Faktor Keamanan dalam menentukan lereng aman atau tidak. Sedangkan menurut
+Keputusan Menteri ESDM No. 1827 K/30/MEM Tahun 2018, penentuan lereng aman atau tidak berdasarkan pada
+Faktor Keamanan (FK) dan Probabilitas Longsor (PL). Kemudian sehubungan dengan lereng akhir yang telah direncanakan, terdapat konsekuensi pembentukan lereng berupa penegakkan atau pelandaian lereng berdasarkan pada
+FK dan PL. Oleh karena itu, diperlukan perhitungan dan analisis ulang terhadap geometri lereng yang telah direncanakan tersebut.
+
+
+ISSN: 1907-5995
+ReTII Oktober 2020 : 227 – 234
+Faktor Keamanan (FK) adalah ukuran deterministik rasio antara gaya penahan dan gaya penggerak dari sebuah sistem. Dalam konsep ini, kesetimbangan batas tercapai bila FK memiliki nilai 1,0. Bila nilai FK lebih dari 1 maka lereng tersebut stabil, tapi kalau nilai FK kurang dari 1 maka lereng tersebut tidak stabil [4]. Kemudian, probabilistik adalah suatu cara untuk menentukan nilai faktor keamanan suatu sistem rekayasa dengan memperlakukan nilai masukan sebagai variabel acak, dengan demikian nilai faktor keamanan sebagai rasio antara gaya penahan dan gaya penggerak merupakan juga variabel acak [1].
+Analisis kestabilan lereng ini diharapkan akan memberikan hasil analisis kestabilan lereng dengan geometri lereng yang aman dan optimal berdasarkan nilai Faktor Keamanan dan Probabilitas Longsor yang telah ditentukan
+(FK ≥ 1,3 dan PL ≤ 10%).
+2.
+METODE PENELITIAN
+Tahapan penelitian dalam tulisan ini dapat dilihat pada Gambar 1. Tahapan penelitian ini yaitu diawali dari rumusan masalah, kemudian studi literature, pengambilan data, pengolahan dan analisis data, dan idakhiri dengan penarikan kesimpulan.
+
+Gambar 1. Diagram Alir Penelitian
+Data-data yang digunakan dalam penelitian ini akan diolah dengan menggunakan metode kesetimbangan batas untuk mencari nilai Faktor Keamanannya. Kemudian untuk mencari nilai probabilitas longsor menggunakan analisis statistik dan metode Monte Carlo.
+ReTII
+ISSN: 1907-5995
+
+
+Analisis Kestabilan Lereng dengan Pendekatan Probabilitas Longsor pada Penambangan Batubara Pit 8an East
+Block
+PT Indominco Mandiri (Ilham Firmansyah)
+2.1. Kesetimbangan Batas
+Kesetimbangan Batas dapat didefinisikan sebagai rasio total gaya yang tersedia untuk menahan geser ke gaya total yang cenderung menyebabkan geser [9]. Faktor Keamanan (FK) dijelaskan oleh persamaan berikut:
+FK = (c A+( Wcosψ-U) tanф)/(Wsinψ + V )
+
+(1)
+Keterangan c = kohesi
+A = luas permukaan bidang
+W = berat
+Ψ = sudut bidang miring
+U = gaya angkat
+Ф = sudut gesek dalam
+V = gaya total
+Bila lereng berada pada titik longsor, kondisi kesetimbangan batas yang ada dimana kekuatan yang penahan dan penggerak sama maka FK = 1. Bila kemiringan stabil, gaya penanahan lebih besar dari pada gaya penggerak dan hasilnya faktor keamanan akan lebih besar dari satu.
+2.2. Analisis Statistik
+Analisis statistik bertujuan untuk mengetahui pemusatan dan kecenderungan pola penyebaran data-data yang akan diolah sehingga dapat menjelaskan korelasi dan kecenderungan data agar dapat ditentukan metode apa yang sesuai dengan pola penyebaran tersebut [5]. Parameter-parameter yang digunakan dalam analisis ini yaitu rata- rata, varians, standar deviasi, koefisien variansi, relatif minimal, dan relatif maksimal.
+2.3. Uji Baik Suai
+Penelitian ini menggunakan metode Kolmogorov-Smirnov (K-S) dalam Uji Baik Suai [8]. Metode ini membandingkan antara frekuensi kumulatif eksperimental dan teoritis dari jenis distribusi asumsi [3]. Jika perbedaaan frekuensi tersebut cukup besar dibandingkan dengan suatu ukuran sampel tertentu, maka jenis distribusi teoritisnya tidak diterima.
+Untuk sampel berjumlah n, hal pertama yang perlu dilakukan menyusun urutan himpunan data sampel dari terendah, sehingga akan membentuk suatu fungsi frekuensi kumulatif tangga sebagai berikut:
+Dn = max │F(x) – F*(x)│
+
+(2)
+Keterangan
+Dn
+= variabel acak yang distribusinya tergantung pada n
+F(x)
+= frekuensi kumulatif eksperimental
+F*(x)
+= frekuensi kumulatif teoritis
+Dalam uji K-S, selisih maksimum antara F*(x) dan F(x) untuk seluruh rentang X merupakan pengukur perbedaan antara model teoritis dan data pengamatan. Selisih maksimum ditunjukkan oleh persamaan 2.
+Level of signiﬁcance α
+
+0,10
+
+0,05
+
+0,01
+Critical value
+
+(1.22 )/(√n)
+(1.36 )/(√n)
+(1.63 )/(√n)
+2.4. Fungsi Distribusi Data
+Distribusi data yang digunakan dalam penelitian ini dalah distribusi normal, lognormal, dan gamma, karena distribusi-distribusi tersebut merupakan distribusi yang sering digunakan dalam geoteknik [9].
+2.5. Metode Monte Carlo
+Pada metode kesetimbangan batas (limit equilibrium method) nilai FK merupakan rasio antara gaya penahan dan gaya penggerak, masing-masing parameter merupakan fungsi dari variabel acak yang bersifat tak tentu
+(uncertain) dan berdistribusi probabilitas tertentu. Oleh karena itu, penggunaan simulasi Monte Carlo sangat cocok untuk menyelesaikan permasalahan ketidakpastian pada nilai FK hingga akhirnya akan didapatkan nilai probabilitas longsor [2].
+2.6. Kriteria Penerimaan
+Pada penelitian ini digunakan jenis lereng keseluruhan dan tingkat konsekuensi longsor menengah. Pada tingkat konsekuensi longsor menengah, konsekuensi yang terjadi apabila terjadi longsor adalah cidera berat manusia, kerusakan sarana dan prasarana pertambangan dari 25% (dua puluh lima persen) sampai 50% (lima
+
+
+ISSN: 1907-5995
+ReTII Oktober 2020 : 227 – 234 puluh persen), terhentinya produksi lebih dari 12 (dua belas) jam sampai kurang dari 24 (dua puluh empat) jam, cadangan tertimbun tetapi masih diambil; dan/atau, kerusakan lingkungan di dalam wilayah IUP (Tabel 1).
+Tabel 1. Nilai Faktor Keamanan dan Probabilitas Longsor Lereng Tambang [6]
+Jenis Lereng
+Keparahan
+Longsor
+(Consequences of
+Failure/CoF)
+Kriteria dapat diterima (Acceptance Criteria)
+Faktor
+Keamanan (FK)
+Statis (Min)
+Faktor
+Keamanan (FK)
+Dinamis (Min)
+Probabilitas
+Longsor
+(Probability of
+Failure) (maks)
+PoF (FK≤1)
+Lereng
+Tunggal
+Rendah s.d.
+Tinggi
+1,1
+Tidak ada
+25-50%
+Inter - Ramp
+Rendah
+1,15-1,2
+1,0
+25%
+Menengah
+1,2-1,3
+1,0
+20%
+Tinggi
+1,2-1,3
+1,1
+10%
+Lereng
+Keseluruhan
+Rendah
+1,2-1,3
+1,0
+15-20%
+Menengah
+1,3
+1,05
+10%
+Tinggi
+1,3-1,5
+1,1
+5%
+
+3.
+HASIL DAN ANALISIS
+3.1. Sifat Fisik dan Sifat Mekanik Batuan
+Data sifat fisik dan sifat mekanik dapat dilihat di Tabel 2 sampai Tabel 4. Khusus untuk Sifat mekanik material batubara, yaitu nilai kohesi dan sudut gesek dalam menggunakan referensi berdasarkan studi kasus PT. MN di Kalimantan Timur (Tabel 4) dikarenakan pada lokasi penelitian tidak melakukan uji sifat mekanik dan hanya melakukan pengujian sifat fisik sampel batubara. Selain itu, batuan pada lokasi penelitian berada pada satu formasi batuan yang sama yaitu Formasi Pulaubalang.
+
+Tabel 2. Rekapitulasi Hasil Uji Laboratorium untuk Material Batulumpur
+Sumber: Departemen Geologi PT. Indominco Mandiri, 2017 [7]
+
+No.
+LUBANG
+BOR
+SAMPLE NO.
+LITHOLOGY
+INDEX
+PROPERTIES
+DIRECT
+SHEAR
+Natural Density
+C peak Φ peak kN/m3 kPa º
+2410G
+2410G spl.4.5
+Mudstone
+16,690
+200,45
+57,23
+2410G
+2410G spl.6.7.8
+Mudstone
+16,390
+184,09
+51,34
+2410G
+2410G spl.9.10
+Mudstone
+15,420
+240,55
+44,31
+2410G
+2410G spl.14
+Mudstone
+14,020
+122,30
+54,67
+2410G
+2410G spl.15
+Mudstone
+14,150
+225,28
+48,81
+2410G
+2410G spl.16
+Mudstone
+18,550
+165,85
+47,60
+2410G
+2410G spl.20
+Mudstone
+18,710
+192,67
+50,94
+2410G
+2410G spl.24
+Mudstone
+17,450
+112,64
+54,67
+2410G
+2410G spl.25.26
+Mudstone
+17,800
+373,15
+40,99
+2520G
+2520G spl.16.17
+Mudstone
+14,900
+240,55
+42,88
+2520G
+2520G spl.18.19
+Mudstone
+18,510
+481,09
+49,97
+2520G
+2520G spl.28
+Mudstone
+17,160
+320,73
+38,99
+2520G
+2520G spl.30.31
+Mudstone
+16,160
+360,82
+43,96
+2520G
+2520G spl.34.35.36
+Mudstone
+16,400
+360,82
+35,08
+2520G
+2520G spl.38.39
+Mudstone
+15,960
+320,73
+32,01
+2520G
+2520G spl.46.47
+Mudstone
+14,150
+160,36
+59,22
+2522G
+2522G spl.21
+Mudstone
+16,310
+200,00
+61,47
+ReTII
+ISSN: 1907-5995
+
+
+Analisis Kestabilan Lereng dengan Pendekatan Probabilitas Longsor pada Penambangan Batubara Pit 8an East
+Block
+PT Indominco Mandiri (Ilham Firmansyah)
+
+No.
+LUBANG
+BOR
+SAMPLE NO.
+LITHOLOGY
+INDEX
+PROPERTIES
+DIRECT
+SHEAR
+Natural Density
+C peak Φ peak kN/m3 kPa º
+2522G
+2522G spl.22
+Mudstone
+17,080
+241,00
+54,32
+2514G
+2514G spl.19.20
+Mudstone
+15,660
+320,73
+58,11
+2514G
+2514G spl.21.22.23
+Mudstone
+16,560
+280,64
+58,39
+2514G
+2514G spl.28.29
+Mudstone
+14,740
+248,77
+58,67
+2514G
+2514G spl.32
+Mudstone
+14,520
+394,31
+59,22
+2514G
+2514G spl.37.38
+Mudstone
+18,880
+360,82
+57,23
+Mean
+16,355
+265,58
+50,44
+Standar Deviasi
+1,520
+95,43
+8,403
+Maksimum
+18,880
+481,09
+61,47
+Minimum
+14,020
+112,63
+32,00
+
+Tabel 3. Rekapitulasi Hasil Uji Laboratorium untuk Material Batupasir
+Sumber: Departemen Geologi PT. Indominco Mandiri, 2017 [7]
+No.
+LUBANG
+BOR
+SAMPLE NO.
+LITHOLOGY
+INDEX
+PROPERTIES
+DIRECT SHEAR
+Natural Density
+C peak φ peak kN/m3 kPa º
+2410G
+2410G spl.18
+Sandstone
+18,090
+232,72
+55,67
+2410G
+2410G spl.28.29
+Sandstone
+15,400
+160,36
+47,60
+2520G
+2520G spl.4
+Sandstone
+18,280
+160,36
+56,31
+2520G
+2520G spl.8
+Sandstone
+16,840
+320,73
+50,53
+2520G
+2520G spl.43
+Sandstone
+15,950
+160,36
+37,13
+2522G
+2522G spl.32
+Sandstone
+16,320
+361,00
+47,45
+Mean
+16,813
+232,59
+49,12
+Standar Deviasi
+1,163
+89,339
+7,006
+Maksimum
+18,280
+361,00
+56,31
+Minimum
+15,400
+160,36
+37,13
+
+Tabel 4. Material Properties untuk Batubara
+Sumber: Irwandi Arief, 2016 [2]
+No.
+LUBANG
+BOR
+SAMPLE
+NO.
+LITHOLOGY
+INDEX
+PROPERTIES
+DIRECT SHEAR
+Natural Density
+C peak φ peak kN/m3 kPa º
+SSS 02
+-
+Coal
+12,613
+212,00
+38,40
+
+3.2. Geometri Lereng
+Geometri rencangan lereng akhir yaitu pada lereng highwall A tinggi 141 m dan sudut lereng keseluruhan
+41˚, lereng highwall B tinggi 70,4 m dan sudut lereng keseluruhan 47˚, lereng lowwall A tinggi 63,3 m dan sudut lereng keseluruhan 14˚, lereng lowwall B tinggi 39 m dan sudut lereng keseluruhan 16˚.
+3.3. Hasil Goodness of Fit Test
+Hasil Goodness of Fit Test ditunjukkan pada Tabel 5, hasil tersebut digunakan sebagai data masukan dalam perhitungan pendekatan probabilitas longsor.
+Tabel. 5. Material Statistics untuk Batulumpur dan Batupasir
+No
+Material
+Name
+Property
+Distribution
+Mean
+Std.
+Dev.
+Rel.
+Min
+Rel.
+Max
+
+
+ISSN: 1907-5995
+ReTII Oktober 2020 : 227 – 234
+Mudstone
+Cohesion
+Gamma
+251,63
+85,41
+139,00
+142,68
+Mudstone
+Phi
+Normal
+40,71
+8,49
+18,71
+10,76
+Mudstone
+Unit Weight
+Normal
+16,50
+1,77
+3,07
+3,70
+Sandstone
+Cohesion
+Gamma
+247,04
+91,72
+86,67
+113,96
+Sandstone
+Phi
+Normal
+37,68
+6,77
+10,55
+7,99
+Sandstone
+Unit Weight
+Gamma
+16,34
+0,71
+0,94
+0,86
+3.4. Perhitungan Faktor Keamanan dan Probabilitas Longsor
+Tabel 6 Hasil Analisis Kestabilan Lereng Keseluruhan
+Nama
+Lereng
+Sudut Lereng
+Keseluruhan
+(˚)
+Tinggi
+Lereng
+(m)
+FK
+(deterministic)
+FK
+(mean)
+PL
+(%)
+Lereng A
+Highwall
+141,5
+1,39
+1,4
+3,8
+Lereng B
+Highwall
+70,43
+1,76
+1,78
+3,2
+Lereng A
+Lowwall
+63,3
+4,66
+4,77
+Lereng B
+Lowwall
+39,2
+7,57
+7,67
+
+3.5. Optimasi Rancangan Lereng
+Berdasarkan hasil analisis kestabilan lereng menggunakan perhitungan faktor keamanan dan probabilitas longsor (Tabel 6), diketahui untuk keempat lereng dikategorikan aman. Oleh karena itu, pada lereng highwall A dan
+B dapat dilakukan optimasi geometri lereng, sedangkan untuk lereng lowwall A dan B tidak dilakukan karena menyesuaikan dengan bentuk lapisan batubara yang sudah ditambang.
+Optimasi lereng dilakukan dengan variasi terhadap sudut lereng keseluruhan (Tabel 7 dan Tabel 8), pada lereng A dilakukan dengan menegakkan sudut lereng tunggal, sedangkan pada lereng B dilakukan dengan mengurangi lebar berm. Perubahan sudut lereng tunggal ini berdasarkan pengamatan lokasi penelitian yang menunjukkan lereng sudah dilakukan penambangan. Selain itu analisis lereng aktual pada juga menunjukkan bahwa lereng tunggal 51˚ dengan batuan terlemah memiliki nilai FK 7,7 dan PL 0%. Hasil analisis menunjukkan lereng tunggal lereng aktual termasuk dalam kategori aman. Sehingga dapat dilakukan optimasi dengan cara mengubah lereng tunggal.
+Tabel 7. Nilai FK dan PL Variasi Sudut Lereng Keseluruhan pada Lereng A
+Nama
+Lereng
+Sudut Lereng
+Keseluruhan
+(˚)
+Sudut
+Lereng
+Tunggal
+(˚)
+Tinggi
+Lereng
+(m)
+FK
+(deterministic)
+FK
+(mean)
+PL
+(%)
+A
+Highwall
+141,5
+1,39
+1,4
+3,8
+
+Variasi 1
+141,5
+1,365
+1,37
+3,8
+
+Variasi 2
+141,5
+1,32
+1,33
+
+Variasi 3
+141,5
+1,31
+1,31
+5,2
+
+Variasi 4
+141,5
+1,3
+1,3
+7,2
+
+Variasi 5
+141,5
+1,27
+1,28
+10,4
+Tabel 8. Nilai FK dan PL Variasi Sudut Lereng Keseluruhan pada Lereng B
+Nama
+Lereng
+Sudut Lereng
+Keseluruhan
+(˚)
+Lebar
+Berm
+Tinggi
+Lereng
+(m)
+FK
+(deterministic)
+FK
+(mean)
+PL
+(%)
+B
+Highwall
+5,09
+70,43
+1,76
+1,78
+3,2
+
+Variasi 1
+4,5
+70,43
+1,62
+1,64
+6,4
+
+Variasi 2
+70,43
+1,52
+1,54
+7,8
+
+Variasi 3
+3,8
+70,43
+1,49
+1,51
+8,6
+
+Variasi 4
+3,5
+70,43
+1,44
+1,46
+10,2
+Keterangan
+
+: Lereng awal
+
+: Lereng variasi dibawah batas kriteria aman
+
+: Lereng variasi melewati batas kriteria aman
+
+3.6. Diskusi
+ReTII
+ISSN: 1907-5995
+
+
+Analisis Kestabilan Lereng dengan Pendekatan Probabilitas Longsor pada Penambangan Batubara Pit 8an East
+Block
+PT Indominco Mandiri (Ilham Firmansyah)
+3.6.1. Analisis Stabilitas Lereng
+Hasil analisis stabilitas lereng (Tabel 6) menunjukkan bahwa lereng-lereng tersebut termasuk dalam kategori aman. Kemudian berdasarkan analisis tersebut, terdapat peluang untuk melakukan optimasi sudut lereng keseluruhan dengan cara menegakkannya sampai pada batas FK dan PL yang ditentukan. Optimasi dilakukan dalam rangka untuk memaksimalkan recovery batubara pada pit 8AN. Penegakkan lereng dilakukan dengan cara menambah sudut lereng tunggal untuk lereng highwall A dan mengurangi lebar berm untuk lereng highwall B. Sedangkan untuk lowwall, baik lereng A maupun B tidak dilakukan penegakkan karena mengikuti dari bentuk seam batubara yang telah ditambang.
+3.6.2. Variasi Sudut Lereng Keseluruhan
+1. Lereng Highwall A
+Berdasarkan hasil analisis stabilitas lereng, lereng highwall A termasuk dalam kategori aman. Oleh karena itu, pada lereng A dapat dilakukan optimasi agar dapat memaksimalkan perolehan batubara dengan cara menegakkan sudut lereng keseluruhan. Penegakkan sudut lereng keseluruhan dalam hal ini adalah dengan cara memperbesar sudut lereng pada masing-masing lereng tunggal dengan tinggi lereng dan lebar berm tetap. Hal ini dikarenakan pada lereng
+A, lebar berm sudah berada pada batas lebar minimal, yaitu 3,8 m, sedangkan tinggi lereng tunggal 8 m tidak berubah.
+
+Gambar 2. Grafik Hubungan Sudut Lereng Keseluruhan, Nilai FK dan Nilai PL Lereng B
+Variasi dilakukan dengan menambah sudut lereng tunggal dari sebelumnya 55˚ menjadi 63˚, sehingga sudut kemiringan lereng keseluruhan bertambah dari 41˚ menjadi 46˚. Gambar 5.1 menunjukkan hubungan antara sudut keselruhan dengan nilai FK dan PL, yaitu bahwa semakin besar sudut lereng keseluruhan pada lereng A, maka nilai
+FK semakin kecil dan nilai PL semakin besar. Hasil dari optimasi ini yaitu nilai FK mengalami penurunan menjadi
+1,3 dan nilai PL mengalami kenaikan menjadi 7,2%.
+
+2. Lereng Highwall B
+Berdasarkan hasil analisis stabilitas lereng, lereng highwall B termasuk dalam kategori aman. Oleh karena itu, pada lereng B dapat dilakukan optimasi agar dapat memaksimalkan perolehan batubara dengan cara menegakkan sudut lereng keseluruhan. Penegakkan sudut lereng keseluruhan dalam hal ini adalah dengan cara memperkecil lebar berm pada masing-masing lereng tunggal dengan tinggi lereng dan sudut lereng tunggal tetap. Hal ini dikarenakan pada lereng B, sudut lereng tunggal sudah berada pada batas maksimal, yaitu 70˚, sedangkan tinggi lereng tunggal 8 m tidak berubah.
+
+Gambar 3. Grafik Hubungan Sudut Lereng Keseluruhan, Nilai FK dan Nilai PL Lereng B
+7,2
+8,6
+1,49
+1,3
+
+
+ISSN: 1907-5995
+ReTII Oktober 2020 : 227 – 234
+Variasi dilakukan dengan mengurangi lebar berm lereng tunggal dari sebelumnya 5,09 m menjadi 3,8 m, sehingga sudut kemiringan lereng keseluruhan bertambah dari 47˚ menjadi 53˚. Gambar 5.4 menunjukkan hubungan antara sudut keselruhan dengan nilai FK dan PL, yaitu bahwa semakin besar sudut lereng keseluruhan pada lereng B, maka nilai FK semakin kecil dan nilai PL semakin besar. Hasil dari penambahan sudut lereng keseluruhan ini yaitu nilai FK mengalami penurunan menjadi 1,49 dan nilai PL mengalami kenaikan menjadi 8,6%.
+3.6.3. Dampak Perubahan Geometri Lereng
+Analisis kestabilan lereng yang telah dilakukan menunjukkan bahwa pada lereng A dan B sayatan A-A’ dalam kondisi aman. Kemudian pada lereng A dan lereng B dilakukan upaya optimasi dengan cara menegakkan lereng keseluruhan. Kegiatan optimasi yang dilakukan pada highwall lereng A dan lereng B ini memiliki dampak terhadap meningkatnya cadangan batubara. Penegakkan lereng yang dilakukan memungkinkan batubara yang seharusnya tidak ditambang menjadi bisa ditambang.
+
+4.
+KESIMPULAN
+Kesimpulan mengenai analisis kestabilan lereng pada bab sebelumnya adalah sebagai berikut :
+1. Rancangan lereng akhir penambangan pada pit 8AN yang terdiri dari lereng highwall A dan B, serta lereng lowwall A dan B termasuk dalam kategori aman.
+2. Optimasi lereng dilakukan dengan variasi sudut kemiringan lereng keseluruhan, pada lereng highwall A dengan menambah sudut lereng tunggal dari 55˚ menjadi 63˚ sehingga sudut kemiringan lereng keseluruhan bertambah dari 41˚ menjadi 46˚, sedangkan pada lereng highwall B dengan mengurangi lebar berm lereng dari 5,09 m menjadi 3,8 m sehingga sudut kemiringan lereng keseluruhan bertambah dari 47˚ menjadi 53˚. Semakin besar sudut lereng keseluruhan, semakin kecil nilai FK (lereng A 1,39 menjadi 1,3 dan lereng B 1,76 menjadi 1,49) dan semakin besar nilai PL (lereng A 3,8% menjadi 7,2 % dan lereng B 3,2 % mejadi 8,6%).
+3. Kegiatan optimasi yang dilakukan pada highwall lereng A dan lereng B memiliki dampak terhadap meningkatnya cadangan batubara.
+UCAPAN TERIMAKASIH
+Penulis mengucapkan terimakasih terhadap pihak kampus Universitas Pembangunan Nasional Veteran
+Yogyakarta dan PT. Indominco Mandiri yang telah membantu penulis dalam menyelesaikan tulisan ini.
+
+DAFTAR PUSTAKA
+
+[1] Azizi, Masagus Ahmad., Rr Harminuke Eko Handayani., Prosiding Seminar AVoER ke-3 tahun 2011,
+Karakterisasi Parameter Masukan untuk Analisis Kestabilan Lereng Tunggal (Studi Kasus di PT. Tambang
+Batubara Bukit Asam Tbk. Tanjung Enim, Sumatera Selatan). 2011: Hal 329.
+[2] Arif, Irwandi. Geoteknik Tambang Mewujudkan Produksi Tambang yang Berkelanjutan dengan Menjaga
+Kestabilan Lereng, Gramedia Pustaka Utama, Jakarta. 2016: hal 18-21 dan 55-56.
+[3] Cochran, William G. Some Methods for Strengthening the Common X2 tests, The Johns Hopkins University. 1954:
+hal 420.
+[4] Hoek E., Bray J. Rock Slope Engineering 3rd Edition. Canada : Taylor & Francis Routledge. 1981; hal 22.
+[5] J. Supranto. Statistika Teori dan Aplikasi, Edisi Ketujuh, Jakarta, Penerbit Erlangga. 2008; hal 400.
+[6] Menteri Energi dan Sumber Daya Mineral., 2018., Keputusan Menteri Energi dan Sumber Daya Mineral No.
+1827 K/30/MEM/2018 tentang Pedoman Pelaksanan Kaidah Teknik Pertambangan Yang Baik, hal 57 dan 91.
+[7] PT. Indominco Mandiri. Report on Coal Exploration PT. Indominco Mandiri. 1992. Tidak Dipublikasikan
+[8] PT. Indominco Mandiri. Report of Geology Department PT. Indominco Mandiri. 2017. Tidak Dipublikasikan.
+[9] Togani, C.U, Rini K. Jurnal Teknik Sipil dan Perencanaan Universitas Negeri Semarang, Pemilihan Distribusi
+Probabilitas Pada Analisa Hujan dengan Metode Goodness of Fit Test. 2016: hal 143.
+[10] Willey, D.C., Mah, W.C. Rock Slope Engineering (Civil and Mining), Spon Press, 4th edition, ISBN 0-203-
+49900, New York. 2004: hal 33-37.

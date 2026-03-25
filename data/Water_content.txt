@@ -1,0 +1,166 @@
+Soil composition by Volume and Mass, by phase:
+air, water, void (pores filled with water or air), soil, and total.
+Water content
+Water content or moisture content is the quantity of water contained in a material, such as soil (called soil moisture), rock, ceramics, crops, or wood. Water content is used in a wide range of scientific and technical areas. It is expressed as a ratio, which can range from 0 (completely dry) to the value of the materials' porosity at saturation. It can be given on a volumetric or gravimetric (mass) basis.
+Volumetric water content, θ, is defined mathematically as:
+where is the volume of water and is equal to the total volume of the wet material, i.e. of the sum of the volume of solid host material (e.g., soil particles, vegetation tissue)
+, of water
+, and of air
+.
+Gravimetric water content[1] is expressed by mass (weight) as follows:
+where is the mass of water and is the mass of the solids.
+For materials that change in volume with water content, such as coal, the gravimetric water content, u, is expressed in terms of the mass of water per unit mass of the moist specimen (before drying):
+However, woodworking, geotechnics and soil science require the gravimetric moisture content to be expressed with respect to the sample's dry weight:
+And in food science, both and are used and called respectively moisture content wet basis
+(MCwb) and moisture content dry basis (MCdb).[2]
+Values are often expressed as a percentage, i.e., × 100%.
+Definitions
+To convert gravimetric water content to volumetric water content, multiply the gravimetric water content by the bulk specific gravity of the material:
+.
+In soil mechanics and petroleum engineering the water saturation or degree of saturation,
+, is defined as where is the porosity, in terms of the volume of void or pore space and the total volume of the substance
+. Values of Sw can range from 0 (dry) to 1 (saturated). In reality, Sw never reaches 0 or 1 - these are idealizations for engineering use.
+The normalized water content,
+, (also called effective saturation or
+) is a dimensionless value defined by van Genuchten[3] as:
+where is the volumetric water content; is the residual water content, defined as the water content for which the gradient becomes zero; and, is the saturated water content, which is equivalent to porosity, .
+Water content can be directly measured using a drying oven. The oven-dry method requires drying a sample (of soil, wood, etc.) in a special oven or kiln and checking the sample weight at regular time intervals. When the drying process is complete, the sample's weight is compared to its weight before drying, and the difference is used to calculate the sample's original moisture content.
+Gravimetric water content, u, is calculated[4] via the mass of water
+:
+where and are the masses of the sample before and after drying in the oven. This gives the numerator of u; the denominator is either or
+(resulting in u' or u", respectively), depending on the discipline.
+On the other hand, volumetric water content, θ, is calculated[5] via the volume of water
+:
+Derived quantities
+Measurement
+Direct methods where is the density of water. This gives the numerator of θ; the denominator,
+, is the total volume of the wet material, which is fixed by simply filling up a container of known volume (e.g., a tin can) when taking a sample.
+For wood, the convention is to report moisture content on oven-dry basis (i.e. generally drying sample in an oven set at 105 deg Celsius for 24 hours or until it stops losing weight). In wood drying, this is an important concept.
+Other methods that determine water content of a sample include chemical titrations (for example the Karl
+Fischer titration), determining mass loss on heating (perhaps in the presence of an inert gas), or after freeze drying. In the food industry the Dean-Stark method is also commonly used.
+From the Annual Book of ASTM (American Society for Testing and Materials) Standards, the total evaporable moisture content in Aggregate (C 566) can be calculated with the formula:
+where is the fraction of total evaporable moisture content of sample, is the mass of the original sample, and is mass of dried sample.
+In addition to the direct and laboratory methods above, the following options are available.
+There are several geophysical methods available that can approximate in situ soil water content. These methods include: time-domain reflectometry (TDR), neutron probe, frequency domain sensor, capacitance probe, amplitude domain reflectometry, electrical resistivity tomography, ground penetrating radar (GPR), and others that are sensitive to the physical properties of water .[6] Geophysical sensors are often used to monitor soil moisture continuously in agricultural and scientific applications.
+Satellite microwave remote sensing is used to estimate soil moisture based on the large contrast between the dielectric properties of wet and dry soil. The microwave radiation is not sensitive to atmospheric variables, and can penetrate through clouds. Also, microwave signal can penetrate, to a certain extent, the vegetation canopy and retrieve information from ground surface.[7] The data from microwave remote sensing satellites such as WindSat, AMSR-E, RADARSAT, ERS-1-2, Metop/ASCAT, and SMAP are used to estimate surface soil moisture.[8]
+In addition to the primary methods above, another method exists to measure the moisture content of wood: an electronic moisture meter. Pin and pinless meters are the two main types of moisture meters.
+Laboratory methods
+Soil moisture measurement
+Geophysical methods
+Satellite remote sensing method
+Wood moisture measurement
+Pin meters require driving two pins into the surface of the wood while making sure that the pins are aligned with the grain and not perpendicular to it. Pin meters provide moisture content readings by measuring the resistance in the electrical current between the two pins. The drier the wood, the more resistance to the electrical current, when measuring below the fiber saturation point of wood. Pin meters are generally preferred when there is no flat surface of the wood available to measure
+Pinless meters emit an electromagnetic signal into the wood to provide readings of the wood's moisture content and are generally preferred when damage to the wood's surface is unacceptable or when a high volume of readings or greater ease of use is required.
+Moisture may be present as adsorbed moisture at internal surfaces and as capillary condensed water in small pores. At low relative humidities, moisture consists mainly of adsorbed water. At higher relative humidities, liquid water becomes more and more important, depending or not depending on the pore size can also be an influence of volume. In wood-based materials, however, almost all water is adsorbed at humidities below 98% RH.
+In biological applications there can also be a distinction between physisorbed water and "free" water — the physisorbed water being that closely associated with and relatively difficult to remove from a biological material. The method used to determine water content may affect whether water present in this form is accounted for. For a better indication of "free" and "bound" water, the water activity of a material should be considered.
+Water molecules may also be present in materials closely associated with individual molecules, as "water of crystallization", or as water molecules which are static components of protein structure.
+In soil science, hydrology and agricultural sciences, water content has an important role for groundwater recharge, agriculture, and soil chemistry. Many recent scientific research efforts have aimed toward a predictive-understanding of water content over space and time. Observations have revealed generally that spatial variance in water content tends to increase as overall wetness increases in semiarid regions, to decrease as overall wetness increases in humid regions, and to peak under intermediate wetness conditions in temperate regions .[9]
+There are four standard water contents that are routinely measured and used, which are described in the following table:
+Classification and uses
+Earth and agricultural sciences
+Name
+Notation
+Suction pressure
+(J/kg or kPa)
+Typical water content
+(vol/vol)
+Conditions
+Saturated water content θs
+0.2–0.5
+Fully saturated soil, equivalent to effective porosity
+Field capacity θfc
+−33
+0.1–0.35
+Soil moisture 2–3 days after a rain or irrigation
+Permanent wilting point θpwp or θwp
+−1500
+0.01–0.25
+Minimum soil moisture at which a plant wilts
+Residual water content θr
+−∞
+0.001–0.1
+Remaining water at high tension
+And lastly the available water content, θa, which is equivalent to:
+θa ≡ θfc − θpwp which can range between 0.1 in gravel and 0.3 in peat.
+When a soil becomes too dry, plant transpiration drops because the water is increasingly bound to the soil particles by suction. Below the wilting point plants are no longer able to extract water. At this point they wilt and cease transpiring altogether. Conditions where soil is too dry to maintain reliable plant growth is referred to as agricultural drought, and is a particular focus of irrigation management. Such conditions are common in arid and semi-arid environments.
+Some agriculture professionals are beginning to use environmental measurements such as soil moisture to schedule irrigation. This method is referred to as smart irrigation or soil cultivation.[10]
+In saturated groundwater aquifers, all available pore spaces are filled with water (volumetric water content = porosity). Above a capillary fringe, pore spaces have air in them too.
+Most soils have a water content less than porosity, which is the definition of unsaturated conditions, and they make up the subject of vadose zone hydrogeology. The capillary fringe of the water table is the dividing line between saturated and unsaturated conditions. Water content in the capillary fringe decreases with increasing distance above the phreatic surface. The flow of water through and unsaturated zone in soils often involves a process of fingering, resulting from Saffman–Taylor instability. This results mostly through drainage processes and produces and unstable interface between saturated and unsaturated regions.
+One of the main complications which arises in studying the vadose zone, is the fact that the unsaturated hydraulic conductivity is a function of the water content of the material. As a material dries out, the connected wet pathways through the media become smaller, the hydraulic conductivity decreasing with lower water content in a very non-linear fashion.
+Agriculture
+Groundwater
+A water retention curve is the relationship between volumetric water content and the water potential of the porous medium. It is characteristic for different types of porous medium. Due to hysteresis, different wetting and drying curves may be distinguished.
+Generally, an aggregate has four different moisture conditions. They are Oven-dry (OD), Air-dry (AD),
+Saturated surface dry (SSD) and damp (or wet).[11] Oven-dry and Saturated surface dry can be achieved by experiments in laboratories, while Air-dry and damp (or wet) are aggregates' common conditions in nature.
+Oven-dry (OD) is defined as the condition of an aggregate where there is no moisture within any part of the aggregate. This condition can be achieved in a laboratory by heating the aggregate to 220 °F (105 °C) for a period of time.[11]
+Air-dry (AD) is defined as the condition of an aggregate in which there are some water or moisture in the pores of the aggregate, while the outer surfaces of it is dry. This is a natural condition of aggregates in summer or in dry regions. In this condition, an aggregate will absorb water from other materials added to the surface of it, which would possibly have some impact on some characters of the aggregate.[11]
+Saturated surface dry (SSD) is defined as the condition of an aggregate in which the surfaces of the particles are "dry" (i.e., they will neither absorb any of the mixing water added; nor will they contribute any of their contained water to the mix[11]), but the inter- particle voids are saturated with water. In this condition aggregates will not affect the free water content of a composite material.[12][13]
+The water adsorption by mass (Am) is defined in terms of the mass of saturated-surface-dry (Mssd) sample and the mass of oven dried test sample (Mdry) by the formula:
+Damp (or wet) is defined as the condition of an aggregate in which water is fully permeated the aggregate through the pores in it, and there is free water in excess of the SSD condition on its surfaces which will become part of the mixing water.[11]
+Among these four moisture conditions of aggregates, saturated surface dry is the condition that has the most applications in laboratory experiments, research, and studies, especially those related to water absorption, composition ratio, or shrinkage tests in materials like concrete. For many related experiments, a saturated surface dry condition is a premise that must be realized before the experiment. In saturated surface dry conditions, the aggregate's water content is in a relatively stable and static situation where its environment would not affect it. Therefore, in experiments and tests where aggregates are in saturated surface dry condition, there would be fewer disrupting factors than in the other three conditions.[14][15]
+In aggregates
+Four Conditions
+Application
+Humidity, "water content" in air
+Moisture
+Viscous fingering
+Moisture analysis
+Soil moisture sensors
+Water activity
+Water retention curve
+1. T. William Lambe & Robert V. Whitman (1969). "Chapter 3: Description of an Assemblage of
+Particles" (https://archive.org/details/soilmechanics00lamb/page/553). Soil Mechanics
+(First ed.). John Wiley & Sons, Inc. p. 553 (https://archive.org/details/soilmechanics00lamb/ page/553). ISBN 978-0-471-51192-2.
+2. R. Paul Singh; Dennis R. Heldman (2014). "Chapter 1: Introduction". Introduction to Food
+Engineering (Fifth ed.). Elsevier. doi:10.1016/c2011-0-06101-x (https://doi.org/10.1016%2Fc
+2011-0-06101-x). ISBN 978-0-12-398530-9.
+3. van Genuchten, M.Th. (1980). "A closed-form equation for predicting the hydraulic conductivity of unsaturated soils". Soil Science Society of America Journal. 44 (5): 892–898.
+Bibcode:1980SSASJ..44..892V (https://ui.adsabs.harvard.edu/abs/1980SSASJ..44..892V).
+doi:10.2136/sssaj1980.03615995004400050002x (https://doi.org/10.2136%2Fsssaj1980.03
+615995004400050002x). hdl:10338.dmlcz/141699 (https://hdl.handle.net/10338.dmlcz%2F1
+41699).
+4. "Gravimetric & Volumetric Soil Water Content | Edaphic Scientific" (https://www.edaphic.co m.au/soil-water-compendium/how-to-convert-gravimetric-soil-water-content-to-volumetric-so il-water-content/). 9 May 2016.
+5. Dingman, S.L. (2002). "Chapter 6, Water in soils: infiltration and redistribution". Physical
+Hydrology (Second ed.). Upper Saddle River, New Jersey: Prentice-Hall, Inc. p. 646.
+ISBN 978-0-13-099695-4.
+6. F. Ozcep; M. Asci; O. Tezel; T. Yas; N. Alpaslan; D. Gundogdu (2005). "Relationships
+Between Electrical Properties (in Situ) and Water Content (in the Laboratory) of Some Soils in Turkey" (https://web.archive.org/web/20160303230614/http://www.cosis.net/abstracts/EG
+U05/08470/EGU05-J-08470.pdf) (PDF). Geophysical Research Abstracts. 7. Archived from the original (http://www.cosis.net/abstracts/EGU05/08470/EGU05-J-08470.pdf) (PDF) on
+2016-03-03. Retrieved 2008-06-06.
+7. Lakhankar, Tarendra; Ghedira, Hosni; Temimi, Marouane; Sengupta, Manajit; Khanbilvardi,
+Reza; Blake, Reginald (2009). "Non-parametric Methods for Soil Moisture Retrieval from
+Satellite Remote Sensing Data" (https://doi.org/10.3390%2Frs1010003). Remote Sensing. 1
+(1): 3–21. Bibcode:2009RemS....1....3L (https://ui.adsabs.harvard.edu/abs/2009RemS....1....
+3L). doi:10.3390/rs1010003 (https://doi.org/10.3390%2Frs1010003).
+8. "Remote Sensing of Soil Moisture" (https://web.archive.org/web/20070929131729/http://hyd rolab.arsusda.gov/rsbarc/RSofSM.htm). Archived from the original (http://hydrolab.arsusda.g ov/rsbarc/RSofSM.htm) on 2007-09-29. Retrieved 2007-08-22.
+9. Lawrence, J. E. & G. M. Hornberger (2007). "Soil moisture variability across climate zones"
+(https://doi.org/10.1029%2F2007GL031382). Geophys. Res. Lett. 34 (L20402): L20402.
+Bibcode:2007GeoRL..3420402L (https://ui.adsabs.harvard.edu/abs/2007GeoRL..3420402
+L). doi:10.1029/2007GL031382 (https://doi.org/10.1029%2F2007GL031382).
+See also
+References
+10. Jesi, V. Elizabeth; Kumar, Anil; Hosen, Bappa; D, Stalin David (2022-04-24). "IoT Enabled
+Smart Irrigation and Cultivation Recommendation System for Precision Agriculture" (https://i opscience.iop.org/article/10.1149/10701.5953ecst). ECS Transactions. 107 (1): 5953–5967.
+Bibcode:2022ECSTr.107.5953J (https://ui.adsabs.harvard.edu/abs/2022ECSTr.107.5953J).
+doi:10.1149/10701.5953ecst (https://doi.org/10.1149%2F10701.5953ecst). ISSN 1938-5862
+(https://search.worldcat.org/issn/1938-5862). S2CID 248458443 (https://api.semanticschola r.org/CorpusID:248458443).
+11. "Water-to-Cement Ratio and Aggregate Moisture Corrections" (https://web.archive.org/web/
+20181216031929/https://precast.org/2010/05/water-to-cement-ratio-and-aggregate-moisture
+-corrections/). precast.org. Archived from the original (https://precast.org/2010/05/water-to-c ement-ratio-and-aggregate-moisture-corrections/) on 2018-12-16. Retrieved 2018-11-18.
+12. "Aggregate Moisture in Concrete" (https://www.concreteconstruction.net/producers/aggregat e-moisture-in-concrete_o). Concrete Construction. 31 May 2013. Retrieved 2018-11-08.
+13. "FTP link" (https://web.archive.org/web/20110821043141/http://ftp.dot.state.tx.us/pub/txdot-i nfo/cst/TMS/400-A_series/pdfs/cnn403.pdf) (PDF). ftp.dot.state.tx.us. Archived from the original (ftp://ftp.dot.state.tx.us/pub/txdot-info/cst/TMS/400-A_series/pdfs/cnn403.pdf) (PDF) on 2011-08-21.
+14. Zaccardi, Y. A. Villagrán; Zega, C. J.; Carrizo, L. E.; Sosa, M. E. (2018-10-01). "Water absorption of fine recycled aggregates: effective determination by a method based on electrical conductivity". Materials and Structures. 51 (5): 127. doi:10.1617/s11527-018-1248-
+2 (https://doi.org/10.1617%2Fs11527-018-1248-2). hdl:11336/83159 (https://hdl.handle.net/
+11336%2F83159). ISSN 1871-6873 (https://search.worldcat.org/issn/1871-6873).
+S2CID 139201161 (https://api.semanticscholar.org/CorpusID:139201161).
+15. Kawamura, Masashi; Kasai, Yoshio (2009-05-29). "Determination of saturated surface-dry condition of clay–sand mixed soils for soil–cement concrete construction". Materials and
+Structures. 43 (4): 571–582. doi:10.1617/s11527-009-9512-0 (https://doi.org/10.1617%2Fs1
+1527-009-9512-0). ISSN 1359-5997 (https://search.worldcat.org/issn/1359-5997).
+S2CID 137282443 (https://api.semanticscholar.org/CorpusID:137282443).
+Robinson, David A. (2008), "Field Estimation of Soil Water Content: A Practical Guide to
+Methods, Instrumentation and Sensor Technology" (http://www-pub.iaea.org/mtcd/publicatio ns/pdf/tcs-30_web.pdf) (PDF), Soil Science Society of America Journal, 73 (4), Vienna,
+Austria: International Atomic Energy Agency: 131, Bibcode:2009SSASJ..73.1437R (https://u i.adsabs.harvard.edu/abs/2009SSASJ..73.1437R), doi:10.2136/sssaj2008.0016br (https://do i.org/10.2136%2Fsssaj2008.0016br), ISSN 1018-5518 (https://search.worldcat.org/issn/101
+8-5518), IAEA-TCS-30
+Wessel-Bothe, Weihermüller (2020): Field Measurement Methods in Soil Science. (https://w ww.schweizerbart.de/9783443011093) New practical guide to soil measurements explains the principles of operation of different moisture sensor types (independent of manufacturer), their accuracy, fields of application and how such sensors are installed, as well as subtleties of the data so obtained. Also deals with other crop-related soil parameters.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Water_content&oldid=1317553126"
+Further reading

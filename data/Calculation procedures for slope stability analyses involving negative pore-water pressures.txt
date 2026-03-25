@@ -1,680 +1,295 @@
-8. Calculation procedures for slope stability analyses involving negative
-pore-water pressures
+8. Calculation procedures for slope stability analyses involving negative pore-water pressures
 H. RAHARDJO, PhD, PEng, School of Civil and Structural Engineering, Nanyang Technological
 Institute, Singapore, and D. G. FREDLUND, PhD, PEng, Professor of Civil Engineering, University of
 Saskatchewan, Canada
-Two methods for incorporating the effects of negative pore-water pressures into the slope stability analysis are proposed
-in this paper. The derivation of equations for the factors of safety with respect to lone and moment equilibriums are
-presented. 
-Several procedures for designating the negative pore-water pressures in the analysis are also outlined. 
-An
-example is given in order to illustrate the method of calculation.
+Two methods for incorporating the effects of negative pore-water pressures into the slope stability analysis are proposed in this paper. The derivation of equations for the factors of safety with respect to lone and moment equilibriums are presented.
+Several procedures for designating the negative pore-water pressures in the analysis are also outlined.
+An example is given in order to illustrate the method of calculation.
 INTRODUCTION
-1. Slope stability analyses have become a common
-analytical tool for assessing the factor of safety of natural
-and man-made slopes. Two-dimensional, limit equilibrium
-methods of slices are commonly used in practice. There is
-probably no analysis conducted by geotechnical engineers
-which has received more programming attention than the
-limit equilibrium methods of slices used to compute a factor
-of safety (Frcdlund, 1980: ref. 1). The main reasons appear
-to be as follows: first, the limit equilibrium method has
-proved to be a useful and reasonably reliable tool in
-assessing the stability of slopes. 
-Its "track-record" is
-impressive for most cases where the shear strength
-properties of the soil and the pore-water pressure conditions
-have been properly assessed (Sevaldson, 1956; Kjaernsli
-and Simons, 1962; Skempton and Hutchinson, 1969, and
-Chowdhury, 1980: refs 2-5). Second, the limit equilibrium
-methods of slices require a limited amount of input
-information but can quickly perform extensive trial and
-error searches for the critical slip surface.
-2. Saturated, effective shear strength parameters (i.e., c'
-and <j)') are commonly used when performing slope
-stability analyses. The shear strength contribution from the
-negative pore-water pressures above the groundwater table
-are usually ignored by setting their magnitudes to zero.
-The difficulties 
-associated with the measurement of
-negative pore-water pressures and their incorporation into
-the slope stability analysis are the primary reason for this
-practice. 
-This is a reasonable assumption for many
-situations where the major portion of the slip surface is
-below the groundwater table. 
-However, for situations
-where the groundwater table is deep (Fig. 1) or where the
-concern is over the possibility of a shallow failure surface,
-negative pore-water pressures can no longer be ignored.
-3. 
-In recent years there has developed a better
-understanding of the role of negative pore-water pressures
-(or matric suctions) in increasing the shear strength of the
-soil. 
-Recent developments have led to several devices
-which can be used to better measure the negative pore-
-water pressures. 
-Therefore, it is now appropriate to
-perform slope stability analyses which include the shear
-strength contribution 
-from 
-the 
-negative pore-water
+1. Slope stability analyses have become a common analytical tool for assessing the factor of safety of natural and man-made slopes. Two-dimensional, limit equilibrium methods of slices are commonly used in practice. There is probably no analysis conducted by geotechnical engineers which has received more programming attention than the limit equilibrium methods of slices used to compute a factor of safety (Frcdlund, 1980: ref. 1). The main reasons appear to be as follows: first, the limit equilibrium method has proved to be a useful and reasonably reliable tool in assessing the stability of slopes.
+Its "track-record" is impressive for most cases where the shear strength properties of the soil and the pore-water pressure conditions have been properly assessed (Sevaldson, 1956; Kjaernsli and Simons, 1962; Skempton and Hutchinson, 1969, and
+Chowdhury, 1980: refs 2-5). Second, the limit equilibrium methods of slices require a limited amount of input information but can quickly perform extensive trial and error searches for the critical slip surface.
+2. Saturated, effective shear strength parameters (i.e., c' and <j)') are commonly used when performing slope stability analyses. The shear strength contribution from the negative pore-water pressures above the groundwater table are usually ignored by setting their magnitudes to zero.
+The difficulties associated with the measurement of negative pore-water pressures and their incorporation into the slope stability analysis are the primary reason for this practice.
+This is a reasonable assumption for many situations where the major portion of the slip surface is below the groundwater table.
+However, for situations where the groundwater table is deep (Fig. 1) or where the concern is over the possibility of a shallow failure surface, negative pore-water pressures can no longer be ignored.
+3.
+In recent years there has developed a better understanding of the role of negative pore-water pressures
+(or matric suctions) in increasing the shear strength of the soil.
+Recent developments have led to several devices which can be used to better measure the negative pore- water pressures.
+Therefore, it is now appropriate to perform slope stability analyses which include the shear strength contribution from the negative pore-water
 Slope stability engineering. Thomas Telford, London, 1991.
-pressures. These types of analyses are an extension of the
-conventional limit equilibrium analyses.
-4. Several aspects of a slope stability study remain the
-same for soils with positive pore-water pressures (e.g.,
-saturated soils) and soils with negative pore-water pressures
-(e.g., unsaturated soils). For example, the nature of the site
-investigation, the identification 
-of the strata and 
-the
-measurement of the total unit weight remain the same in
-both 
-situations. 
-On 
-the other 
-hand, 
-extensions 
-to
-conventional procedures are required with respect to the
-characterization of the shear strength of the soil. 
-The
-analytical tools used to incorporate pore-water pressures and
-calculate the factor of safety also need to be extended.
+pressures. These types of analyses are an extension of the conventional limit equilibrium analyses.
+4. Several aspects of a slope stability study remain the same for soils with positive pore-water pressures (e.g., saturated soils) and soils with negative pore-water pressures
+(e.g., unsaturated soils). For example, the nature of the site investigation, the identification of the strata and the measurement of the total unit weight remain the same in both situations.
+On the other hand, extensions to conventional procedures are required with respect to the characterization of the shear strength of the soil.
+The analytical tools used to incorporate pore-water pressures and calculate the factor of safety also need to be extended.
 THEORY OF SLOPE STABILITY
-5. The limit equilibrium method of slices are based upon
-the principles of statics (i.e., static equilibriums of forces
-and/or moments). The method derived in this paper uses
-the summation 
-of forces 
-in two directions 
-and 
-the
-summations of moments about a common point in deriving
-the factor of safety. These elements of statics, along with
-the failure criteria, are insufficient 
-to make the slope
-stability problem determinate (Morgenstern and Price, 1965;
-Spencer, 1967: refs 6-7). 
-Hither additional elements of
-physics or an assumption 
-regarding 
-the direction 
-or
-magnitude of some of the forces is required to render the
-problem determinate. 
-The following method utilizes an
-assumption regarding the direction of the interslice forces.
-This approach has been widely adopted in limit equilibrium
-methods (Fredlund and Krahn, 1 c>77: ref. 8). The various
-limit equilibrium slope stability methods that follow this
-approach have been demonstrated to be special cases of this
-method (Fredlund, Krahn, and PufahK 1981: ref. 9).
-6. Calculations for the stability of a slope are performed
-by dividing the soil mass above the slip surface into vertical
-slices. The forces acting on a slice within the sliding soil
-mass are shown in Fig. 1 for a composite slip surface,
-respectively. 
+5. The limit equilibrium method of slices are based upon the principles of statics (i.e., static equilibriums of forces and/or moments). The method derived in this paper uses the summation of forces in two directions and the summations of moments about a common point in deriving the factor of safety. These elements of statics, along with the failure criteria, are insufficient to make the slope stability problem determinate (Morgenstern and Price, 1965;
+Spencer, 1967: refs 6-7).
+Hither additional elements of physics or an assumption regarding the direction or magnitude of some of the forces is required to render the problem determinate.
+The following method utilizes an assumption regarding the direction of the interslice forces.
+This approach has been widely adopted in limit equilibrium methods (Fredlund and Krahn, 1 c>77: ref. 8). The various limit equilibrium slope stability methods that follow this approach have been demonstrated to be special cases of this method (Fredlund, Krahn, and PufahK 1981: ref. 9).
+6. Calculations for the stability of a slope are performed by dividing the soil mass above the slip surface into vertical slices. The forces acting on a slice within the sliding soil mass are shown in Fig. 1 for a composite slip surface, respectively.
 The forces are designated for a unit width
-(i.e., perpendicular direction to motion) of the slope. The
-variables are defined as follows:
+(i.e., perpendicular direction to motion) of the slope. The variables are defined as follows:
 W = the total weight of the slice of width V and height V
 N = the total normal force on the base of the slice
-43
 Downloaded by [ UNIV OF ILLINOIS] on [10/11/16]. Copyright © ICE Publishing, all rights reserved.
 MECHANICS
 CENTER OF ROTATION
 TENSION
 CRACKv
 ZONE \
-A 
-|ALJJTTT
-r 
+A
+|ALJJTTT r
 ~~
-SLIP 
+SLIP
 _
 SURFACE
 Fig. 1 Forces acting on a slice through a sliding mass with a composite slip surface
 Sm= the shear force mobilized on the base of each slice
-E = the horizontal interslice normal forces (the 'L' and 'R'
-subscripts designate the left and right sides of the
-slice, respectively)
-X = the vertical interslice shear forces (the 'L' and 'R'
-subscripts designate the left and right sides of the
-slice, respectively)
-R = the radius for a circular slip surface or the moment
-arm associated with the mobilized shear force, Sm for
-any shape of slip surface
-f = the perpendicular offset of the normal force from the
-centre of rotation or from the centre of moments
-x = the horizontal distance from the centre line of each
-slice to the centre of rotation or to the centre of
-moments
-h = height or the vertical distance from the centre of the
-base of 
-each 
-slice to the uppermost line in the
-geometry (i.e., generally ground surface)
-a = the perpendicular distance from the resultant external
-water force to the centre of rotation or to the centre
-of moments. The 'L' and 'R' subscripts designate the
-left and right sides of the slope, respectively
-A = the resultant external water forces. The 'L' and 'R'
-subscripts designate the left and right sides of the
-slope, respectively
-a = the angle between the tangent to the centre of the base
-of each slice and the horizontal. The sign convention
-is as follows: when the angle slopes in the same
-direction as the overall slope of the geometry, a is
-positive, and vice versa
+E = the horizontal interslice normal forces (the 'L' and 'R' subscripts designate the left and right sides of the slice, respectively)
+X = the vertical interslice shear forces (the 'L' and 'R' subscripts designate the left and right sides of the slice, respectively)
+R = the radius for a circular slip surface or the moment arm associated with the mobilized shear force, Sm for any shape of slip surface f = the perpendicular offset of the normal force from the centre of rotation or from the centre of moments x = the horizontal distance from the centre line of each slice to the centre of rotation or to the centre of moments h = height or the vertical distance from the centre of the base of each slice to the uppermost line in the geometry (i.e., generally ground surface) a = the perpendicular distance from the resultant external water force to the centre of rotation or to the centre of moments. The 'L' and 'R' subscripts designate the left and right sides of the slope, respectively
+A = the resultant external water forces. The 'L' and 'R' subscripts designate the left and right sides of the slope, respectively a = the angle between the tangent to the centre of the base of each slice and the horizontal. The sign convention is as follows: when the angle slopes in the same direction as the overall slope of the geometry, a is positive, and vice versa
 P = sloping distance across the base of a slice
-7. 
-The example shown in Fig. 1 is typical of a steep
-slope with a deep groundwater table. The crest of the slope
-is highly desiccated and there are tension cracks filled with
-water. The tension crack zone is assumed to have no shear
-strength and the presence of water in this zone produces an
-external water force, A^. 
-A s a result, the assumed slip
-surface in the tension crack zone is a vertical line. 
-The
-depth of the tension crack is generally estimated or can be
-approximated analytically (Spencer, 1968 and 1973: refs 10
-11). The weight of the soil in the tension crack zone acts
-as a surcharge on the crest of the slope. The external water
-force, AL, is computed as the hydrostatic force on a vertical
-plane.
+7.
+The example shown in Fig. 1 is typical of a steep slope with a deep groundwater table. The crest of the slope is highly desiccated and there are tension cracks filled with water. The tension crack zone is assumed to have no shear strength and the presence of water in this zone produces an external water force, A^.
+A s a result, the assumed slip surface in the tension crack zone is a vertical line.
+The depth of the tension crack is generally estimated or can be approximated analytically (Spencer, 1968 and 1973: refs 10
+11). The weight of the soil in the tension crack zone acts as a surcharge on the crest of the slope. The external water force, AL, is computed as the hydrostatic force on a vertical plane.
 "Total Cohesion" Method
-8. The mobilized shear force at the base of a slice can be
-written using the form of the shear strength equation for an
-unsaturated soil (Fredlund, Morgenstern and Widger, 1978:
+8. The mobilized shear force at the base of a slice can be written using the form of the shear strength equation for an unsaturated soil (Fredlund, Morgenstern and Widger, 1978:
 ref. 12):
 = | r[c /
-[ c ' + (o 
+[ c ' + (o
 - u ) tanc))7 + (u
 ,)tand>b]
-(1)
-where:
+(1) where:
 Sm= the mobilized shear force at the base of a slice
-F = factor of safety which is defined as a factor by which
-the shear strength parameters must be reduced in order
-to bring 
-the 
-soil 
-mass 
-into a state of limiting
-equilibrium along the assumed slip surface. The factor
-of safety for the cohesive parameter (i.e.. c') and the
-frictional 
-parameters 
-(i.e., tariff)' 
-and 
-tan(J) ) are
-assumed to be equal for all soils involved and for all
-slices
-c' = effective cohesion intercept
-on= total stress normal to the base of a slice
-ua, uw 
-= pore-air and pore-water pressures on the base of
-a slice
+F = factor of safety which is defined as a factor by which the shear strength parameters must be reduced in order to bring the soil mass into a state of limiting equilibrium along the assumed slip surface. The factor of safety for the cohesive parameter (i.e.. c') and the frictional parameters
+(i.e., tariff)' and tan(J) ) are assumed to be equal for all soils involved and for all slices c' = effective cohesion intercept on= total stress normal to the base of a slice ua, uw
+= pore-air and pore-water pressures on the base of a slice
 (on - ua) = net stress normal to the base of a slice
-44
 Downloaded by [ UNIV OF ILLINOIS] on [10/11/16]. Copyright © ICE Publishing, all rights reserved.
 PAPER 8: RAH ARDJO AND FREDLUND
 (ua - uw) = matric suction
-<()'= angle of internal friction associated with the net
-normal stress state variable (on - ua)
-<(>b= angle indicating the rate of increase in shear strength
-relative to a change in matric suction, (ua - uw)
-9. The components of the mobilized shear force at the
-base of a slice are illustrated in Fig. 2. The contributions
-from the total stress and the negative pore-water pressures
-are separated using the <()' and <|>b angles, respectively.
+<()'= angle of internal friction associated with the net normal stress state variable (on - ua)
+<(>b= angle indicating the rate of increase in shear strength relative to a change in matric suction, (ua - uw)
+9. The components of the mobilized shear force at the base of a slice are illustrated in Fig. 2. The contributions from the total stress and the negative pore-water pressures are separated using the <()' and <|>b angles, respectively.
 U a IS GENERALLY
 ATMOSPHERIC
 ( » • . Ua - 0 )
 (a) Pressure components on the base of a slice
-(u o-u w) 
+(u o-u w)
 '
 S m
- 
+
 !
 { [ c'+ (crn - u0 ) tan<*>' + ( u 0 - u j t a n ^ b ]
 (b) Contributors to the shear resistance
-Fig. 2 Pressure and shear resistance components at the base
-of a slice
-10. It is possible to consider the matric suction term as
-part of the cohesion of the soil. In other words, the matric
-suction can be visualizxd as increasing the cohesion of the
-soil. As a result, the conventional factor of safety equations
-do not need to be re-derived. The mobilized shear force at
-the base of a slice, Sm, will have the following form:
-(2)
-where:
-c = cohesion of the soil that has two components, (i.e.,
-c'+ (ua - uw) tan<|)b)
-11. 
-This approach has the advantage that the shear
-strength equation retains its conventional form. 
-It is
-therefore possible to utilize a computer program written for
-saturated soils to solve unsaturated soil problems. When
-this is done, the soil in the negative pore-water pressure
-W - ( X R - X L ) -
-region must be subdivided into several discrete layers with
-each layer having a constant cohesion. The pore-air and
-pore-water pressures must be set to zero. This approach
-has the disadvantage that the cohesion is not a continuous
-function and the appropriate cohesion values must be
-manually computed. 
-In addition, the soil strata must be
-discretized in an appropiate manner.
+Fig. 2 Pressure and shear resistance components at the base of a slice
+10. It is possible to consider the matric suction term as part of the cohesion of the soil. In other words, the matric suction can be visualizxd as increasing the cohesion of the soil. As a result, the conventional factor of safety equations do not need to be re-derived. The mobilized shear force at the base of a slice, Sm, will have the following form:
+(2) where:
+c = cohesion of the soil that has two components, (i.e., c'+ (ua - uw) tan<|)b)
+11.
+This approach has the advantage that the shear strength equation retains its conventional form.
+It is therefore possible to utilize a computer program written for saturated soils to solve unsaturated soil problems. When this is done, the soil in the negative pore-water pressure
+W - ( X R - X L ) - region must be subdivided into several discrete layers with each layer having a constant cohesion. The pore-air and pore-water pressures must be set to zero. This approach has the disadvantage that the cohesion is not a continuous function and the appropriate cohesion values must be manually computed.
+In addition, the soil strata must be discretized in an appropiate manner.
 "Extended Shear Strength" Method
-12. 
-The following 
-formulations 
-are the revised
-derivations for the factor of safety equations that directly
-incorporate the shear strength contribution from the
-negative pore-water pressures. The mobilized shear force
-in equation (1) is used throughout the derivation.
-13. 
-Normal force equation 
-The normal force at the
-base of a slice, N, is derived by summing forces in the
-vertical direction:
+12.
+The following formulations are the revised derivations for the factor of safety equations that directly incorporate the shear strength contribution from the negative pore-water pressures. The mobilized shear force in equation (1) is used throughout the derivation.
+13.
+Normal force equation
+The normal force at the base of a slice, N, is derived by summing forces in the vertical direction:
 W - (XR - XL) - Sm sincx - N cosa - 0
 (3)
 Substituting equation (1) into equation (3) and replacing the
-(onp) term with N results in equation (4). 
-Rearranging
-equation (4) provides the normal force as written in
-equation (5).
-14. The factor of safety, F, in equation (5) is equal to the
-moment equilibrium factor of safety, Fnv when solving the
-moment equilibrium; and is equal to the force equilibrium
-factor of safety, Ff, when solving the force equilibrium. In
-most cases the pore-air pressure, u r is atmospheric (i.e., ua
+(onp) term with N results in equation (4).
+Rearranging equation (4) provides the normal force as written in equation (5).
+14. The factor of safety, F, in equation (5) is equal to the moment equilibrium factor of safety, Fnv when solving the moment equilibrium; and is equal to the force equilibrium factor of safety, Ff, when solving the force equilibrium. In most cases the pore-air pressure, u r is atmospheric (i.e., ua
 = 0) and as a result, equation (5) reduces to equation (6).
-15. If the base of the slice is located in the saturated soil,
-the (tan<J) ) term in equation (6) becomes equal to (tan(J)').
-Equation (6) then reverts to the conventional normal force
-equation for saturated slope stability analyses. Computer
-coding for solving equation (5) can be written such that the
-<) angle is used whenever the pore-water pressure is
-negative while the (j)' angle is user! whenever the pore-
-water pressure is positive. 
-The <bh angle can also be
-considered to be equal to (J)' at low matric suction values
-and lower than (j)' at high matric suction values (Fredlund,
+15. If the base of the slice is located in the saturated soil, the (tan<J) ) term in equation (6) becomes equal to (tan(J)').
+Equation (6) then reverts to the conventional normal force equation for saturated slope stability analyses. Computer coding for solving equation (5) can be written such that the
+<) angle is used whenever the pore-water pressure is negative while the (j)' angle is user! whenever the pore- water pressure is positive.
+The <bh angle can also be considered to be equal to (J)' at low matric suction values and lower than (j)' at high matric suction values (Fredlund,
 Rahardjo and Gan, 1987: ref. 13).
-16. The vertical interslice shear forces, XL and XR, in the
-normal force equation can be computed using an interslice
-force function.
-17. 
-Factor of safety with respect 
-to moment
-equilibrium. Two independent factor of safety equations
-can be derived; one with respect to moment equilibrium and
-the other with respect to horizontal force equilibrium.
-Moment equilibrium can be satisfied with respect to an
-sirur 
-N cosf/. 
-0
-*XT 
-,v 
-v 
-x 
-c ' B s i n a 
-B sina , 
-. / 
+16. The vertical interslice shear forces, XL and XR, in the normal force equation can be computed using an interslice force function.
+17.
+Factor of safety with respect to moment equilibrium. Two independent factor of safety equations can be derived; one with respect to moment equilibrium and the other with respect to horizontal force equilibrium.
+Moment equilibrium can be satisfied with respect to an sirur
+N cosf/.
+*XT
+,v v x c ' B s i n a
+B sina ,
+. /
 . K
-W - (X R - X L ) - -VJL 
-+ u a 2- 
+W - (X R - X L ) - -VJL
++ u a 2-
 (tan<})/ - tan(J>n)
-B sina 
+B sina
 .
--! 
+-!
 tandr
 (4)
-(5)
-where:
+(5) where:
 m a = cosa + (sina tan<|)')/F
-45
 Downloaded by [ UNIV OF ILLINOIS] on [10/11/16]. Copyright © ICE Publishing, all rights reserved.
 MECHANICS
-WT 
-/ v 
-v >* 
-c ' B s i n a 
-B sir.^ 
+WT
+/ v v >* c ' B s i n a
+B sir.^
 . r
-W - (X R - X L) - — t L 
-+ u w L. 
+W - (X R - X L) - — t L
++ u w L.
 tan<{>c
 N = .
 sina
-(6)
-arbitrary point above the central portion of the slip surface.
-For a circular slip surface, the centre of rotation is an
-obvious centre for moment equilibrium. 
-The centre of
-moments is immaterial when both force and moment
-equilibria are satisfied. When only moment equilibrium is
-satisfied, the computed factor of safety varies slightly with
-the point selected for the summation of moments.
-18. Consider the moment equilibrium of a composite slip
-surface (Fig. 1) with respect to the centre of rotation:
+(6) arbitrary point above the central portion of the slip surface.
+For a circular slip surface, the centre of rotation is an obvious centre for moment equilibrium.
+The centre of moments is immaterial when both force and moment equilibria are satisfied. When only moment equilibrium is satisfied, the computed factor of safety varies slightly with the point selected for the summation of moments.
+18. Consider the moment equilibrium of a composite slip surface (Fig. 1) with respect to the centre of rotation:
 Substituting equation (1) for the Sm variable into equation
-(7) and replacing the (onp) term with N yield the factor of
-safety with respect to moment equilibrium (i.e., equation
+(7) and replacing the (onp) term with N yield the factor of safety with respect to moment equilibrium (i.e., equation
 (8)).
 19. In the case where the pore-air pressure is atmospheric
 (i.e., ua = 0), equation (8) reduces to equation (9).
-20. 
-When the pore-water pressure is positive, the <J)b
-value is set equal to the <)>' value. 
-For a circular slip
-surface, the radius R, is constant for all slices and the
-normal force, N, acts through the centre of rotation (i.e.,
-f = 0).
+20.
+When the pore-water pressure is positive, the <J)b value is set equal to the <)>' value.
+For a circular slip surface, the radius R, is constant for all slices and the normal force, N, acts through the centre of rotation (i.e., f = 0).
 21. Factor of safety with respect to force equilibrium
-The factor of safety with respect to force equilibrium is
-derived from the equilibrium of forces in the horizontal
-direction for all slices (equation (10)).
-22. The horizontal interslice normal forces, EL and ER,
-cancel when summed over the entire sliding mass.
-Substituting equation (1) for the mobilized shear force, Sm,
-into equation (10) and replacing the (an(3) term with N give
-the factor of safety with respect to force equilibrium
+The factor of safety with respect to force equilibrium is derived from the equilibrium of forces in the horizontal direction for all slices (equation (10)).
+22. The horizontal interslice normal forces, EL and ER, cancel when summed over the entire sliding mass.
+Substituting equation (1) for the mobilized shear force, Sm, into equation (10) and replacing the (an(3) term with N give the factor of safety with respect to force equilibrium
 (equation (11)).
 23. In the case where the pore-air pressure is atmospheric
 (i.e., ua = 0), equation (11) reverts to equation (12).
-24. 
-When the pore-water pressure is positive, the tyh
-value is equal to the §' value. Equation (12) remains the
-same for both circular and composite slip surfaces.
-R + (N - u
-tan*)/
+24.
+When the pore-water pressure is positive, the tyh value is equal to the §' value. Equation (12) remains the same for both circular and composite slip surfaces.
+R + (N - u tan*)/
 - ua
-)
-tan(J)/
-( c ' P c o s o . * (N 
-u w p 
-tan<l> 
-)tan<t>/cosa)
-tan<t>'
-i sina
+) tan(J)/
+( c ' P c o s o . * (N u w p tan<l>
+)tan<t>/cosa) tan<t>' i sina
 (12)
-25 
-Interslice force function
-forces,
-The interslice normal
-and FR, are computed from the summation of
-horizontal forces in each slice.
+Interslice force function forces,
+The interslice normal and FR, are computed from the summation of horizontal forces in each slice.
 Smcosa
 N sina - 0
 (13)
-Combining 
-equation 
-(3) and equation 
-(13) gives the
-following equation:
+Combining equation
+(3) and equation
+(13) gives the following equation:
 S
-E R = E L + [W - (X R -X L)]tanrx -
-cosa
+E R = E L + [W - (X R -X L)]tanrx - cosa
 The interslice normal forces are calculated from equation
-(14) by integrating from left to right. The EL normal force
-on the first slice is equal to the external water force, AL or
-zero when there is no water present in the tension crack
-zone.
-26. 
-The assumption is made that the interslice shear
-force, X, can be related to the interslice normal force, E^, by
-a mathematical function (Morgenstern and Price, 1965: ref.
+(14) by integrating from left to right. The EL normal force on the first slice is equal to the external water force, AL or zero when there is no water present in the tension crack zone.
+26.
+The assumption is made that the interslice shear force, X, can be related to the interslice normal force, E^, by a mathematical function (Morgenstern and Price, 1965: ref.
 6):
 X - U ( x ) F
-(15)
-where:
-f(x) - a functional relationship which describes the manner
-in which the magnitude of X/F varies across the slip
-surface
-X 
-- a scaling constant which represents the percentage of
-the function. f(x), used for solving the factor of
-safety equations
-27. The factor of safety equations with respect to moment
-and force equilibriums (i.e., equations (8) and 
-(11),
-respectively) are non-linear. The factor of safety, F m or Ff,
-appears on both sides of the equations, with the factor of
-safety being included through the normal force equation
-(i.e., equation (5)). 
-The non-linear factor of 
-safety
-equations can be solved simultaneously using an iterative
-technique.
+(15) where:
+f(x) - a functional relationship which describes the manner in which the magnitude of X/F varies across the slip surface
+X
+- a scaling constant which represents the percentage of the function. f(x), used for solving the factor of safety equations
+27. The factor of safety equations with respect to moment and force equilibriums (i.e., equations (8) and
+(11), respectively) are non-linear. The factor of safety, F m or Ff, appears on both sides of the equations, with the factor of safety being included through the normal force equation
+(i.e., equation (5)).
+The non-linear factor of safety equations can be solved simultaneously using an iterative technique.
 R tan*']
-(8)
-where: Fm = factor of safety with respect to moment equilibrium.
-m
-i!!!*
+(8) where: Fm = factor of safety with respect to moment equilibrium.
+m i!!!*
 'pR + (N-uwpi!!!*!)Rtan<|>')
 IS
 Wx-£Nf
-[c'p cosa + (N - uwP
-tan<t>'
-u ap (1
-(9) 
-E Sm
-tant)/ cosa]
+[c'p cosa + (N - uwP tan<t>' u ap (1
+(9)
+E Sm tant)/ cosa]
 « - A,
-- 0
-tarn))'
-AL + E N sina
-where: Ff = factor of safety with respect to force equilibrium
-46
+- 0 tarn))'
+AL + E N sina where: Ff = factor of safety with respect to force equilibrium
 (10)
 (11)
 Downloaded by [ UNIV OF ILLINOIS] on [10/11/16]. Copyright © ICE Publishing, all rights reserved.
-RESERVOIR 
+RESERVOIR
 LEVEL
 PAPER 8: RAHARDJO AND FREDLUND
-PHREATIC 
+PHREATIC
 LINE ( ZERO PRESSURE )
 EQUIPOTENTIAL
 LINES
 Fig. 3 Steady state seepage conditions in an earth-filled dam
 WATER PORE PRESSURE COEFFICIENT, ruw
--8 -7 
-- 6 - 3 
--4 -3 
--2 
--I 
-4l 
+-8 -7
+- 6 - 3
+-4 -3
+-2
+-I
+4l
 *Z
-Fig. 4 Water pore-pressure coefficient along the 7m
-equipotential line
+Fig. 4 Water pore-pressure coefficient along the 7m equipotential line
 PORE-WATER PRESSURE DESIGNATION
-28. Several procedures are commonly used to designate
-the pore-water pressure conditions in saturated soils. These
-can be extended to the case of unsaturated soils.
+28. Several procedures are commonly used to designate the pore-water pressure conditions in saturated soils. These can be extended to the case of unsaturated soils.
 Pore Pressure Coefficients
-29. Pore-water pressures are often designated as a pore-
-pressure coefficient, ru, for analysis purposes (Bishop and
+29. Pore-water pressures are often designated as a pore- pressure coefficient, ru, for analysis purposes (Bishop and
 Morgenstern, 1960: ref. 14).
-ullf
-ru ~
+ullf ru ~
 (16)
-Pthi
-where: g = gravitational acceleration
-hj = thickness of each soil layer, i
-pj = density of each soil layer, i
-30. The pore pressure coefficient is generally considered
-as a positive value. 
-However, it can also be used to
-represent negative pore-water pressures as well as pore-air
-pressures. In this case, the water pore pressure coefficient
-is negative. 
-It is useful to be able to designate pore
-pressure coefficients for both the water and air phases.
-r 
-=
-uw
+Pthi where: g = gravitational acceleration hj = thickness of each soil layer, i pj = density of each soil layer, i
+30. The pore pressure coefficient is generally considered as a positive value.
+However, it can also be used to represent negative pore-water pressures as well as pore-air pressures. In this case, the water pore pressure coefficient is negative.
+It is useful to be able to designate pore pressure coefficients for both the water and air phases.
+r
+= uw
 (17)
-(18)
-where:
-ruw= water pore pressure coefficient
-rua= air pore pressure coefficient
-31. The water pore pressure coefficient at the phreatic
-line is equal to zero. A water pore pressure coefficient of
-+0.5 indicates the verge of artesian pressure conditions
-since the density of water is approximately one half that of
-the soil. At points above the phreatic line, the pore-water
-pressure becomes increasingly negative. At the same time,
-the overburden pressure is decreasing. As a result, it is
-possible for the pore pressure coefficient to become highly
-negative. Let us assume that the pore-water pressure is -
+(18) where:
+ruw= water pore pressure coefficient rua= air pore pressure coefficient
+31. The water pore pressure coefficient at the phreatic line is equal to zero. A water pore pressure coefficient of
++0.5 indicates the verge of artesian pressure conditions since the density of water is approximately one half that of the soil. At points above the phreatic line, the pore-water pressure becomes increasingly negative. At the same time, the overburden pressure is decreasing. As a result, it is possible for the pore pressure coefficient to become highly negative. Let us assume that the pore-water pressure is -
 200 kPa at a depth of 1 meter (i.e., pgh = 20 kPa for p =
-2,000 kg/m3). This gives rise to a water pore pressure
-coefficient of -10. The water pore pressure coefficient can
-often tend to a negative, infinite number as ground surface
-is approached. 
-In other words, the water pore pressure
-coefficient becomes a highly variable term as ground
-surface is approached, thereby creating some difficulty with
-its usage.
-32. Figure 3 shows the cross-section of a dam under
-steady state seepage conditions. One equipotential line is
-selected and the water pore pressure coefficients are
-computed at various depths and plotted in Fig. 4. There is
-essentially a linear change in the pore pressure coefficient
-until the ground surface is approached. At this point, the
-coefficient becomes highly negative.
-33. 
-The air pore pressure coefficient in natural soil
-deposits is always close to zero due to its contact with the
-atmosphere. In compacted earth fills, the pore-air pressures
-may become positive due to the weight of the overlying soil
-layers. In this case,the air pore pressure coefficient will be
-positive but generally quite small.
+2,000 kg/m3). This gives rise to a water pore pressure coefficient of -10. The water pore pressure coefficient can often tend to a negative, infinite number as ground surface is approached.
+In other words, the water pore pressure coefficient becomes a highly variable term as ground surface is approached, thereby creating some difficulty with its usage.
+32. Figure 3 shows the cross-section of a dam under steady state seepage conditions. One equipotential line is selected and the water pore pressure coefficients are computed at various depths and plotted in Fig. 4. There is essentially a linear change in the pore pressure coefficient until the ground surface is approached. At this point, the coefficient becomes highly negative.
+33.
+The air pore pressure coefficient in natural soil deposits is always close to zero due to its contact with the atmosphere. In compacted earth fills, the pore-air pressures may become positive due to the weight of the overlying soil layers. In this case,the air pore pressure coefficient will be positive but generally quite small.
 Pore Pressure Head Contours
-34. Negative pore-water pressures can also be contoured
-as a series of lines (Fig. 5). An interpolation procedure can
-be used to obtain the pore-water pressures for points
-between the contours.
+34. Negative pore-water pressures can also be contoured as a series of lines (Fig. 5). An interpolation procedure can be used to obtain the pore-water pressures for points between the contours.
 Piezometric Lines
-35. Piezometric lines can also be used to designate the
-pore-water pressures in a slope. The vertical distance from
-the piezometric line down to a point below the line is equal
-to the positive pore-water pressure head. 
-On the other
-hand, the vertical distance from the piezometric line up to
-a point above the line can be considered as the negative
-pore-water pressure head.
-47
+35. Piezometric lines can also be used to designate the pore-water pressures in a slope. The vertical distance from the piezometric line down to a point below the line is equal to the positive pore-water pressure head.
+On the other hand, the vertical distance from the piezometric line up to a point above the line can be considered as the negative pore-water pressure head.
 Downloaded by [ UNIV OF ILLINOIS] on [10/11/16]. Copyright © ICE Publishing, all rights reserved.
 MECHANICS
-Ui
-ocrooo
-12
-10
-8
-6
-4
-2
-0
+Ui ocrooo
 RESERVOIR
 E0UIP0TENTIAL
 LINES
 CONSTANT PRESSURE
 CONTOURS
-10
-35
-15 
-20 
-25 
-30
 X - C00ROINATE ( m )
 Fig. 5 Contours used to designre pore-water pressure heads
 4 0
 4 5
-52
 EXAMPLE USING "TOTAL COHESION" METHOD
-36. An example of a steep slope of granitic colluvium is
-illustrated in Fig 6. The slope consists of two soil layers
-of different properties (Fig. 6) which are underlain by a
-deep bedrock. 'Hie water table is assumed to be located at
-the interface between the bedrock and the soil layer.
-Several slope-stability analyses were performed in order to
-illustrate the use of the "total cohesion" method in
-analyzing a steep slope with negative pore-water pressures.
-In this case, a specified slip surface (Fig. 6) was used for
-the entire analyses.
-37. The shear strength contribution from inatric suction
-was incorporated into the total cohesion of the soil (i.e.,
-c = c' + (u - uw) tan (t)b) as shown in equation (2). For
-this purpose, the
-subdivisions with
-cohesion (Fig. 6). The slope was considered to represent an
-infinite slope condition with each stratum being parallel to
-the water table. In this case, a hydrostatic condition of the
-pore-water 
-pressures 
-could 
-be assumed 
-along the
-perpendicular direction to the water table (Fig. 6). As a
-result, the negative pore-water pressure distribution above
-the groundwater table could be established. The matr
-suction in each subdivision was computed from the pore-
-water pressure at the center of the subdivision and bv
-SOIL I
-c'= 5 kPa
-<*>' = 35°
-w) tan fy ) as shown in equation (2).
-soil layers were divided into four
-each subdivision having a constant
-140
-130
-120
-Ul
-z
-o no
-QCooo
-ioo
-assuming an atmospheric pore-air pressure condition. The
-total cohesion was computed using an equal <t>b angle for all
-subdivisions (e.g., ()>b = 10°).
-38. 
-Having computed the total cohesion values, the
-analyses were conducted using various methods of slices
-with a constant interslice force function (i.e., f(x) = 1.0;
-Morgenstern - Price's method). Various X values resulted
-in different combinations of Ff and F:
-nr The critical factor
-of safety is obtained when both Ff and Fm values are equal.
+36. An example of a steep slope of granitic colluvium is illustrated in Fig 6. The slope consists of two soil layers of different properties (Fig. 6) which are underlain by a deep bedrock. 'Hie water table is assumed to be located at the interface between the bedrock and the soil layer.
+Several slope-stability analyses were performed in order to illustrate the use of the "total cohesion" method in analyzing a steep slope with negative pore-water pressures.
+In this case, a specified slip surface (Fig. 6) was used for the entire analyses.
+37. The shear strength contribution from inatric suction was incorporated into the total cohesion of the soil (i.e., c = c' + (u - uw) tan (t)b) as shown in equation (2). For this purpose, the subdivisions with cohesion (Fig. 6). The slope was considered to represent an infinite slope condition with each stratum being parallel to the water table. In this case, a hydrostatic condition of the pore-water pressures could be assumed along the perpendicular direction to the water table (Fig. 6). As a result, the negative pore-water pressure distribution above the groundwater table could be established. The matr suction in each subdivision was computed from the pore- water pressure at the center of the subdivision and bv
+SOIL I c'= 5 kPa
+<*>' = 35° w) tan fy ) as shown in equation (2).
+soil layers were divided into four each subdivision having a constant
+Ul z o no
+QCooo ioo assuming an atmospheric pore-air pressure condition. The total cohesion was computed using an equal <t>b angle for all subdivisions (e.g., ()>b = 10°).
+38.
+Having computed the total cohesion values, the analyses were conducted using various methods of slices with a constant interslice force function (i.e., f(x) = 1.0;
+Morgenstern - Price's method). Various X values resulted in different combinations of Ff and F:
+nr The critical factor of safety is obtained when both Ff and Fm values are equal.
 When the X value is equal to zero (interslice forces X = 0,
-E > 0), the Fnl and Ff values represent the factors of safety
-of Simplified Bishop and Janbifs simplified methods,
-respectively. 
-The Fm values were found to remain
-essentially constant at various X values while the Ff values
-vary significantly with X values. Therefore, the stability
-analyses of a steep slope are commonly performed using
-the moment equilibrium only (Ching, Sweeney and
+E > 0), the Fnl and Ff values represent the factors of safety of Simplified Bishop and Janbifs simplified methods, respectively.
+The Fm values were found to remain essentially constant at various X values while the Ff values vary significantly with X values. Therefore, the stability analyses of a steep slope are commonly performed using the moment equilibrium only (Ching, Sweeney and
 Fredlund, 1984: ref. 16V
-39. The effect of negative pore-water pressures on the
-factor of safety is illustrated in Fig. 7. The factor of safety
-is shown to increase with increasing <j)b angles. The resulv
-were obtained using the various methods of slices. The <Jr
-angle indicates the matric suction contribution into the shear
-strength. The increasing <|) angle would in turn increase
-the cohesive component of the shear strength along the slip
-kN/m3
+39. The effect of negative pore-water pressures on the factor of safety is illustrated in Fig. 7. The factor of safety is shown to increase with increasing <j)b angles. The resulv were obtained using the various methods of slices. The <Jr angle indicates the matric suction contribution into the shear strength. The increasing <|) angle would in turn increase the cohesive component of the shear strength along the slip kN/m3
 NOTE
 CENTER ( 190 7 m . 168 m )
 HYDROSTATIC CONDITION
@@ -682,123 +297,79 @@ IN THE DIRECTION
 PERPENDICULAR TO
 THE WATER TABLE
 SLIP SURFACE
-SOIL H
-c1 = 10 kPa
-<*>' = 4 0°
-y 
+SOIL H c1 = 10 kPa
+<*>' = 4 0° y
 = 1 6 . 5 k N / m 3
-100
-120 
-140
-X - COORDINATE 
+X - COORDINATE
 ( m )
 Fig. 6 Example of a typically steep slope (from Sweeney and Robertson, 1979: ref.
-48
 Downloaded by [ UNIV OF ILLINOIS] on [10/11/16]. Copyright © ICE Publishing, all rights reserved.
 PAPER 8: RAHARDJO AND FREDLUND
 U. 1.5
-UJ
-li-
-ar
-o
-MORGENSTERN ft PRICE 
+UJ li- ar o
+MORGENSTERN ft PRICE
 -
 AND SIMPLIFIED BISHOPS
 METHODS
 JANBU'S SIMPLIFIED
-15 
-20
 ( OEGREES )
-Fig. 7 Increase in factor of safety due to increase in
-angle
-DISTANCE FROM CREST 
+Fig. 7 Increase in factor of safety due to increase in angle
+DISTANCE FROM CREST
 ( m )
-Fig. 8 Frictional and cohesive components of shear
-strength along the slip surface at various ty values
-surface (Fig. 8). As a result, the factor of safety increase
-with the increasing total cohesion. 
-In addition, the
-frictional component of the shear strength will decrease as
-the slip surface becomes shallower. This gives rise to the
-more dominant effect of the cohesive component, that
-includes the matric suction contribution, on the stability of
-a steep slope.
-40. Examples using the "extended shear strength" method
-will not be presented in this paper due to the limited space
-available. However, detailed examples on this method have
-been presented by Fredlund (1989: ref. 17).
+Fig. 8 Frictional and cohesive components of shear strength along the slip surface at various ty values surface (Fig. 8). As a result, the factor of safety increase with the increasing total cohesion.
+In addition, the frictional component of the shear strength will decrease as the slip surface becomes shallower. This gives rise to the more dominant effect of the cohesive component, that includes the matric suction contribution, on the stability of a steep slope.
+40. Examples using the "extended shear strength" method will not be presented in this paper due to the limited space available. However, detailed examples on this method have been presented by Fredlund (1989: ref. 17).
 CONCLUSIONS
-41. The negative pore-water pressures can readily be
-incorporated into conventional slope stability analysis. The
-two methods of calculation presented in this paper can be
-easily used for routine analyses. The conventional slope
-stability programs require some modifications only when
-the "extended shear strength" method is used 
-The "total
-cohesion" method only requires subdivision of the soil
-strata of the slope in order to account for the matric suction
-contribution. 
-Both 
-methods, however, 
-require the
-measurements of matric suction and the <t>b angle in
-addition to the conventional shear strength parameters.
+41. The negative pore-water pressures can readily be incorporated into conventional slope stability analysis. The two methods of calculation presented in this paper can be easily used for routine analyses. The conventional slope stability programs require some modifications only when the "extended shear strength" method is used
+The "total cohesion" method only requires subdivision of the soil strata of the slope in order to account for the matric suction contribution.
+Both methods, however, require the measurements of matric suction and the <t>b angle in addition to the conventional shear strength parameters.
 ACKNOWLEDGEMENT
-The assistance of Mr. Sai K. Vanapalli in the
-analysis 
-of the example 
-problem 
-is 
-gratefully
-acknowledged.
+The assistance of Mr. Sai K. Vanapalli in the analysis of the example problem is gratefully acknowledged.
 REFERENCES
-1. 
+1.
 FREDLUND D. G. Use of Computers for Slope
 Stability Analysis. State-of-the-Art Paper, Int. Symp. on
 Landslides, Delhi, India, 1980, vol. 2, 129 138.
 2. SEVALDSON R. A. The Slide at Lodalen. Oct. 6th,
 1954. Geotechnique, 6, 1956, 167-182.
-3. 
-KJAERNSLI B. and SIMONS N. 
+3.
+KJAERNSLI B. and SIMONS N.
 Stability
 Investigations of the North Bank of the Drammen River.
 Geotechnique, 12, 1962, 147-167.
 4. SKEMPTON R. W. and HUTCHINSON J. Stability c,
-Natural Slopes and Embankment Foundations. State-of-
-the-Art Report, 7th Int. Conf. on Soil Mech. and Found.
+Natural Slopes and Embankment Foundations. State-of- the-Art Report, 7th Int. Conf. on Soil Mech. and Found.
 Eng., Mexico City, State-of-the-Art Vol., 1969, 291-34C.
-5. 
+5.
 CHOWDHURY R. N. A Reassessment of Limit
 Equilibrium Concepts in Geotechnique. Proceedings of the
 Symposium on Applications in Geotech. Eng., ASCE, 1980
 Annual Convention, Hollywood, Florida, 1980.
-6. MORGENSTERN N. R. and PRICE V.E. The Analysis
-of the Stability of General Slip Surfaces. 
+6. MORGENSTERN N. R. and PRICE V.E. The Analysis of the Stability of General Slip Surfaces.
 Geotechnique,
 15, 1965, 79-93.
 7. SPENCER E. A Method of Analysis of the Stability of
-Enbankments 
-Assuming 
-Parallel 
-Interslice 
+Enbankments
+Assuming
+Parallel
+Interslice
 Forces.
 Geotechnique, 17, 1967, 11-26.
-8. 
+8.
 FREDLUND D. G. and KRAHN J. Comparison of
-Slope Stability Methods Analysis. Can. Geotech. J., 1977,
-vol. 14, No. 3, 429-439.
+Slope Stability Methods Analysis. Can. Geotech. J., 1977, vol. 14, No. 3, 429-439.
 9. FREDLUND D. G., KRAHN J. and PUFAHL D. The
 Relationship Between Limit Equilibrium Slope Stability
 Methods. Proc. 10th Int. Conf. Soil Mech. Found. Eng.
 (Stockholm), 1981, 409-416.
-10. 
+10.
 SPENCER E. Effect of Tension on Stability on
-Embankments. 
+Embankments.
 ASCE Journal of the Soil Mech. and
 Found. Eng. Div., 94(SM5), 1968, 1159-1173.
 11. SPENCER E. Thrust Line Criterion in Embankment
 Stability Analysis. Geotechnique, 23, 1973, 85-100.
-12. 
+12.
 FREDLUND D. G.. MORGENSTERN N.R. and
 WIDGER R.A. The Shear Strength of Unsaturated Soils.
 Can. Geotech. J., 1978, vol.15, 3^ 3-321.
@@ -819,5 +390,4 @@ Toronto, Canada Sept. 16-21. 1984, vol. 1, 617-623.
 17. FREDLUND D. G. Negative Pore-Water Pressures in
 Slope Stability. Simposio Suramericano de Deslizamientos.
 Paipa, Colombia, 1989, 429-439.
-49
 Downloaded by [ UNIV OF ILLINOIS] on [10/11/16]. Copyright © ICE Publishing, all rights reserved.

@@ -1,373 +1,131 @@
 Mitigation of Liquefaction-Induced Lateral Deformation in a
 Sloping Stratum: Three-dimensional Numerical Simulation
 Ahmed Elgamal1; Jinchi Lu2; and Davide Forcellini3
-Abstract: Finite-element FE simulations are increasingly providing a versatile environment for conducting lateral ground deformation
-studies. In this environment, mitigation strategies may be assessed in order to achieve economical and effective solutions. On the basis of
-a systematic parametric study, three-dimensional FE simulations are conducted to evaluate mitigation by the stone column SC and the
-pile-pinning approaches. Mildly sloping saturated cohesionless strata are investigated under the action of an applied earthquake excitation.
-For that purpose, the open-source computational platform OpenSees is employed, through a robust user interface that simpliﬁes the
-effort-intensive pre- and postprocessing phases. The extent of deployed remediation and effect of the installed SC permeability are
-investigated. The inﬂuence of mesh resolution is also addressed. Generally, SC remediation was found to be effective in reducing the sand
-stratum lateral deformation. For a similar stratum with permeability in the silt range, SC remediation was highly ineffective. In contrast,
-pile pinning appeared to be equally effective for the sand and silt strata permeability scenarios. Overall, the conducted study highlights the
-potential of computations for providing insights toward the process of deﬁning a reliable remediation solution.
-DOI: 10.1061/ASCEGT.1943-5606.0000137
+Abstract: Finite-element FE simulations are increasingly providing a versatile environment for conducting lateral ground deformation studies. In this environment, mitigation strategies may be assessed in order to achieve economical and effective solutions. On the basis of a systematic parametric study, three-dimensional FE simulations are conducted to evaluate mitigation by the stone column SC and the pile-pinning approaches. Mildly sloping saturated cohesionless strata are investigated under the action of an applied earthquake excitation.
+For that purpose, the open-source computational platform OpenSees is employed, through a robust user interface that simpliﬁes the effort-intensive pre- and postprocessing phases. The extent of deployed remediation and effect of the installed SC permeability are investigated. The inﬂuence of mesh resolution is also addressed. Generally, SC remediation was found to be effective in reducing the sand stratum lateral deformation. For a similar stratum with permeability in the silt range, SC remediation was highly ineffective. In contrast, pile pinning appeared to be equally effective for the sand and silt strata permeability scenarios. Overall, the conducted study highlights the potential of computations for providing insights toward the process of deﬁning a reliable remediation solution.
+DOI: 10.1061/ASCE GT.1943-5606.0000137
 CE Database subject headings: Soil liquefaction; Stone columns; Soil dynamics; Slopes; Soil deformation; Earthquake engineering;
 Three-dimensional models; Remediation.
 Introduction
-Liquefaction-induced lateral spreading may result in signiﬁcant
-damage, disruption of function, and considerable replacement ex-
-pense for existing buildings and structures. When strong ground
-shaking occurs, this type of adverse response is commonplace as
-documented during the earthquakes of Niigata, Japan 1964,
-Dagupan City, Philippines 1990, Chi-Chi, Taiwan 1999, and Ko-
-caeli, Turkey 1999 Kishida 1966; Ohsaki 1966; Seed and Idriss
-1967; Yoshimi and Tokimatsu 1977; Tokimatsu et al. 1991; Ada-
-chi et al. 1992; Ishihara et al. 1993; Tokimatsu et al. 1994; Earth-
-quake Engineering Research Institute EERI 2000, 2001
-The risk of liquefaction and associated ground deformation
-can be reduced by various ground improvement methods includ-
-ing densiﬁcation, solidiﬁcation cementation, and gravel drains
-or stone columns SCs Priebe 1991; Mitchell et al. 1995; Japa-
-nese Geotechnical Society JGS 1998; Thevanayagam et al.
-2001. Use of gravel drains/SCs is a rather recent development
-compared with the more traditional soil densiﬁcation approaches
-International Navigation Association INA 2001.
-Gravel drains SCs as a liquefaction mitigation procedure was
-initially studied by Seed and Booker 1977. Since then, the
-gravel drain technique has attracted the attention of many re-
-searchers e.g., Ishihara and Yamazaki 1980; Tokimatsu and
+Liquefaction-induced lateral spreading may result in signiﬁcant damage, disruption of function, and considerable replacement ex- pense for existing buildings and structures. When strong ground shaking occurs, this type of adverse response is commonplace as documented during the earthquakes of Niigata, Japan 1964,
+Dagupan City, Philippines 1990, Chi-Chi, Taiwan 1999, and Ko- caeli, Turkey 1999 Kishida 1966; Ohsaki 1966; Seed and Idriss
+1967; Yoshimi and Tokimatsu 1977; Tokimatsu et al. 1991; Ada- chi et al. 1992; Ishihara et al. 1993; Tokimatsu et al. 1994; Earth- quake Engineering Research Institute EERI 2000, 
+The risk of liquefaction and associated ground deformation can be reduced by various ground improvement methods includ- ing densiﬁcation, solidiﬁcation cementation, and gravel drains or stone columns SCs Priebe 1991; Mitchell et al. 1995; Japa- nese Geotechnical Society JGS 1998; Thevanayagam et al.
+. Use of gravel drains/SCs is a rather recent development compared with the more traditional soil densiﬁcation approaches
+International Navigation Association INA .
+Gravel drains SCs as a liquefaction mitigation procedure was initially studied by Seed and Booker 1977. Since then, the gravel drain technique has attracted the attention of many re- searchers e.g., Ishihara and Yamazaki 1980; Tokimatsu and
 Yoshimi 1980; Baez and Martin 1995; Boulanger et al. 1998;
-Brennan and Madabhushi 2002, practicing consultants e.g., Nip-
-pon Kokan, Japan, http://www.nkk.co.jp and construction com-
-panies
-e.g.,
+Brennan and Madabhushi 2002, practicing consultants e.g., Nip- pon Kokan, Japan, http://www.nkk.co.jp and construction com- panies
+e.g.,
 Konoike
-Construction
-in
-Japan,
-http://
-www.konoike.com.jp, and Hayward Baker in the United States,
-http://www.haywardbaker.com. In 1985, the gravel drain tech-
-nique received the Technical Development Award of the Civil
-Engineering Society of Japan Saito et al. 1987, 1991. Compu-
-tationally,
-earthquake-induced
-three-dimensional
-3D
-pore-
-pressure generation and dissipation due to gravel drains can be
-analyzed using the FE program FEQDrain Pestana et al. 1997.
-Recently, considerable data e.g., Saxena and Hussin 1997;
-Hayden and Baez 1994; Somasundaram et al. 1997; Soydemir et
-al. 1997; Ashford et al. 2000; Adalier et al. 2003; Weaver et al.
-2004 have shown that SC installation is an effective means of
-ground improvement for mitigating liquefaction hazards. The SC
-technique can combine the beneﬁcial effects of densiﬁcation, re-
-inforcement, and increased drainage Shenthan et al. 2003.
-Installation of piles to mitigate lateral spreading effects has
-also been proposed Arulmoli et al. 2004; Boulanger and Toki-
-matsu 2006; Boulanger et al. 2006, 2007 and the resulting pile-
-pinning effect may provide an effective solution. As part of the
-numerical investigation below, remediations by the SC technique
-and by the pile-pinning approach were explored through a para-
-metric numerical study. Focus is placed on the reduction in accu-
-mulated lateral deformation as an indicator of the remediation
-efﬁcacy.
-In the following sections, the employed computational formu-
-lation is described. Deﬁnition of the investigated 3D ground con-
-ﬁguration and the soil modeling parameters are then presented.
-Results of the conducted parametric study are discussed, high-
-lighting the inﬂuence of remediation extent and the characteristics
+Construction in
+Japan, http:// www.konoike.com.jp, and Hayward Baker in the United States, http://www.haywardbaker.com. In 1985, the gravel drain tech- nique received the Technical Development Award of the Civil
+Engineering Society of Japan Saito et al. 1987, 1991. Compu- tationally, earthquake-induced three-dimensional
+3D pore- pressure generation and dissipation due to gravel drains can be analyzed using the FE program FEQDrain Pestana et al. 1997.
+Recently, considerable data e.g., Saxena and Hussin 1997;
+Hayden and Baez 1994; Somasundaram et al. 1997; Soydemir et al. 1997; Ashford et al. 2000; Adalier et al. 2003; Weaver et al.
+2004 have shown that SC installation is an effective means of ground improvement for mitigating liquefaction hazards. The SC technique can combine the beneﬁcial effects of densiﬁcation, re- inforcement, and increased drainage Shenthan et al. 2003.
+Installation of piles to mitigate lateral spreading effects has also been proposed Arulmoli et al. 2004; Boulanger and Toki- matsu 2006; Boulanger et al. 2006, 2007 and the resulting pile- pinning effect may provide an effective solution. As part of the numerical investigation below, remediations by the SC technique and by the pile-pinning approach were explored through a para- metric numerical study. Focus is placed on the reduction in accu- mulated lateral deformation as an indicator of the remediation efﬁcacy.
+In the following sections, the employed computational formu- lation is described. Deﬁnition of the investigated 3D ground con- ﬁguration and the soil modeling parameters are then presented.
+Results of the conducted parametric study are discussed, high- lighting the inﬂuence of remediation extent and the characteristics
 1Professor, Dept. of Structural Engineering, Univ. of California, San
-Diego, La Jolla, CA 92093-0085 corresponding author. E-mail:
+Diego, La Jolla, CA 92093-0085 corresponding author. E-mail:
 elgamal@ucsd.edu
 2Assistant Project Scientist, Dept. of Structural Engineering, Univ. of
 California, San Diego, La Jolla, CA 92093-0085. E-mail: jinlu@ucsd.edu
-3Visiting Researcher, Dept. of Structural Engineering, Univ. of Cali-
-fornia, San Diego, La Jolla, CA, 92093-0085. E-mail: dforcellini@
-ucsd.edu
-Note. This manuscript was submitted on February 12, 2008; approved
-on April 27, 2009; published online on April 30, 2009. Discussion period
-open until April 1, 2010; separate discussions must be submitted for
-individual papers. This paper is part of the Journal of Geotechnical and
+3Visiting Researcher, Dept. of Structural Engineering, Univ. of Cali- fornia, San Diego, La Jolla, CA, 92093-0085. E-mail: dforcellini@ ucsd.edu
+Note. This manuscript was submitted on February 12, 2008; approved on April 27, 2009; published online on April 30, 2009. Discussion period open until April 1, 2010; separate discussions must be submitted for individual papers. This paper is part of the Journal of Geotechnical and
 Geoenvironmental Engineering, Vol. 135, No. 11, November 1, 2009.
-©ASCE, ISSN 1090-0241/2009/11-1672–1682/$25.00.
-1672 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
-of the deployed countermeasure. Higher resolution meshes are
-also studied in order to assess their inﬂuence on the solution
-accuracy. Finally, insights and conclusions are drawn based on the
-reported results.
+of the deployed countermeasure. Higher resolution meshes are also studied in order to assess their inﬂuence on the solution accuracy. Finally, insights and conclusions are drawn based on the reported results.
 Computational Formulation
-All simulations were conducted using the open-source computa-
-tional platform OpenSees http://opensees.berkeley.edu, Mazzoni
-et al. 2006. This platform allows for developing applications to
-simulate the performance of structural and geotechnical systems
-subjected to static and seismic loadings.
-Implemented in OpenSees Yang 2000; Yang and Elgamal
-2002 is an analysis framework for saturated soil response as a
-two-phase material following the u-p formulation of Chan 1988
-and Zienkiewicz et al. 1990 where u is displacement of the soil
-skeleton and p is pore pressure. This implementation is based on
-the following assumptions: small deformation and rotation and
-solid and ﬂuid density remain constant in both time and space;
-porosity is locally homogeneous and constant with time; soil
-grains are incompressible; and solid and ﬂuid phases are acceler-
-ated equally.
-In 3D, the soil domain is represented by 20-8 node, effective-
-stress fully coupled solid-ﬂuid brick elements Lu 2006. As
-such, 20 nodes describe the solid translational degrees of free-
-dom, with the eight-corner nodes also describing the ﬂuid pres-
-sure. The FE matrix equation is integrated in time using a single-
-step predictor multicorrector scheme of the Newmark type Chan
-1988; Parra 1996. For each time step, the solution is obtained
-using the modiﬁed Newton-Raphson approach with Krylov sub-
-space acceleration Carlson and Miller 1998; Mazzoni et al.
-2006.
-The soil constitutive model Figs. 1 and 2 implemented in
-OpenSees Parra 1996; Yang and Elgamal 2002; Elgamal et al.
-2003 was developed based on the multisurface-plasticity theory
-for frictional cohesionless soils proposed by Prevost 1985. This
-model
-was
-developed
-with
-emphasis
-on
-simulating
-the
-liquefaction-induced shear strain accumulation mechanism in
-clean cohesionless soils Yang and Elgamal 2002; Elgamal et al.
-2003. In this regard, attention is given to the deviatoric-
-volumetric strain coupling under cyclic loading, which causes in-
-creased shear stiffness and strength Fig. 2 at large cyclic shear
-strain excursions i.e., cyclic mobility. For that purpose, the
-volumetric component P of the normal to the plastic potential
-surface deﬁnes the desired amount of shear-induced dilation or
-contraction in accordance with experimental observations.
-Along the phase transformation PT surface Ishihara et al.
-1975, the stress ratio =/p is denoted by PT Fig. 2. De-
-pending on the value of  with respect to PT and the sign of ˙
-time rate of , distinct contractive/dilative behaviors are repro-
-duced through the following expressions for P:
-P = 1 −/PT2
-1 + /PT2c1
-for contraction
-1
-where c1=non-negative constant deﬁning the rate of shear-
-induced volume decrease contraction or pore-pressure buildup
-and
-P = 1 −/PT2
-1 + /PT2d1 expd2d
-for dilation
-2
-where d1 and d2=non-negative constants deﬁning the rate of
-shear-induced volume increase dilation and d=octahedral shear
-strain Fig. 2 accumulated during a dilation phase Yang et al.
-2003.
-Thus, under undrained conditions, the following phases of re-
-sponse are reproduced Fig. 2:
+All simulations were conducted using the open-source computa- tional platform OpenSees http://opensees.berkeley.edu, Mazzoni et al. 2006. This platform allows for developing applications to simulate the performance of structural and geotechnical systems subjected to static and seismic loadings.
+Implemented in OpenSees Yang 2000; Yang and Elgamal
+2002 is an analysis framework for saturated soil response as a two-phase material following the u-p formulation of Chan 1988 and Zienkiewicz et al. 1990 where u is displacement of the soil skeleton and p is pore pressure. This implementation is based on the following assumptions: small deformation and rotation and solid and ﬂuid density remain constant in both time and space; porosity is locally homogeneous and constant with time; soil grains are incompressible; and solid and ﬂuid phases are acceler- ated equally.
+In 3D, the soil domain is represented by 20-8 node, effective- stress fully coupled solid-ﬂuid brick elements Lu 2006. As such, 20 nodes describe the solid translational degrees of free- dom, with the eight-corner nodes also describing the ﬂuid pres- sure. The FE matrix equation is integrated in time using a single- step predictor multicorrector scheme of the Newmark type Chan
+1988; Parra 1996. For each time step, the solution is obtained using the modiﬁed Newton-Raphson approach with Krylov sub- space acceleration Carlson and Miller 1998; Mazzoni et al.
+2006.
+The soil constitutive model Figs. 1 and 2 implemented in
+OpenSees Parra 1996; Yang and Elgamal 2002; Elgamal et al.
+2003 was developed based on the multisurface-plasticity theory for frictional cohesionless soils proposed by Prevost 1985. This model was developed with emphasis on simulating the liquefaction-induced shear strain accumulation mechanism in clean cohesionless soils Yang and Elgamal 2002; Elgamal et al.
+2003. In this regard, attention is given to the deviatoric- volumetric strain coupling under cyclic loading, which causes in- creased shear stiffness and strength Fig. 2 at large cyclic shear strain excursions i.e., cyclic mobility. For that purpose, the volumetric component P of the normal to the plastic potential surface deﬁnes the desired amount of shear-induced dilation or contraction in accordance with experimental observations.
+Along the phase transformation PT surface Ishihara et al.
+1975, the stress ratio =/p is denoted by PT Fig. 2. De- pending on the value of  with respect to PT and the sign of ˙
+time rate of , distinct contractive/dilative behaviors are repro- duced through the following expressions for P:
+P = 1 −/PT2
+1 + /PT2c1
+for contraction
+1 where c1=non-negative constant deﬁning the rate of shear- induced volume decrease contraction or pore-pressure buildup and
+P = 1 −/PT2
+1 + /PT2d1 expd2d
+for dilation
+2 where d1 and d2=non-negative constants deﬁning the rate of shear-induced volume increase dilation and d=octahedral shear strain Fig. 2 accumulated during a dilation phase Yang et al.
+2003.
+Thus, under undrained conditions, the following phases of re- sponse are reproduced Fig. 2:
 1.
-the contractive phase inside the PT surface PT, phases
-0–1 and 3–4, as well as outside during shear unloading 
-PT with 0, phase 2–3;
+the contractive phase inside the PT surface PT, phases
+0–1 and 3–4, as well as outside during shear unloading 
+PT with 0, phase 2–3;
 2.
-the dilative phase during shear loading, with the stress state
-outside the PT surface PT with 0, phase 1–2; and
+the dilative phase during shear loading, with the stress state outside the PT surface PT with 0, phase 1–2; and
 3.
-a neutral phase P=0, phase 4–5 between the contraction
-P0, phase 3–4 and the dilation P0, phase 5–6
-phases. This phase is signiﬁcant only at low conﬁnement
-e.g., below 10 kPa for the Nevada sand, where considerable
-permanent shear strain y may accumulate with minimal
-change in shear stress Yang et al. 2003.
-A key component of this modeling effort lies in earlier calibration
-of the employed soil model based on recorded response of the
-Nevada sand at Dr of about 40% under situations of liquefaction
-and lateral spreading response Parra 1996; Yang 2000; Elgamal
-et al. 2003; Yang et al. 2003. The calibration process included
-data from centrifuge model tests to simulate the one-dimensional
-1D dynamic response of level and mildly sloping saturated co-
-hesionless soil sites. These tests Dobry and Taboada 1994; Dobry
-et al. 1995 were performed in a 1D laminated container that
-Fig. 1. Conical yield surfaces for granular soils in principal stress
-space and deviatoric plane after Prevost 1985; Yang et al. 2003
-Fig. 2. Shear stress-strain - and effective-stress path -p under
-undrained shear loading conditions Yang et al. 2003
-JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009 / 1673
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
+a neutral phase P=0, phase 4–5 between the contraction
+P0, phase 3–4 and the dilation P0, phase 5–6 phases. This phase is signiﬁcant only at low conﬁnement
+e.g., below 10 kPa for the Nevada sand, where considerable permanent shear strain y may accumulate with minimal change in shear stress Yang et al. 2003.
+A key component of this modeling effort lies in earlier calibration of the employed soil model based on recorded response of the
+Nevada sand at Dr of about 40% under situations of liquefaction and lateral spreading response Parra 1996; Yang 2000; Elgamal et al. 2003; Yang et al. 2003. The calibration process included data from centrifuge model tests to simulate the one-dimensional
+1D dynamic response of level and mildly sloping saturated co- hesionless soil sites. These tests Dobry and Taboada 1994; Dobry et al. 1995 were performed in a 1D laminated container that
+Fig. 1. Conical yield surfaces for granular soils in principal stress space and deviatoric plane after Prevost 1985; Yang et al. 2003
+Fig. 2. Shear stress-strain - and effective-stress path -p under undrained shear loading conditions Yang et al. 2003
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
-emulated a prototype soil layer of 10-m depth and inﬁnite lateral
-extent. Data from the anisotropically consolidated undrained cy-
-clic triaxial test VELACS No. 40–58 Arulmoli et al. 1992 were
-also employed.
-The studies below are undertaken in light of this calibration
-process. For other scenarios, experimental data may be consulted
-in order to adjust the soil modeling parameters and evaluate the
-impact thereof on the predicted response.
+emulated a prototype soil layer of 10-m depth and inﬁnite lateral extent. Data from the anisotropically consolidated undrained cy- clic triaxial test VELACS No. 40–58 Arulmoli et al. 1992 were also employed.
+The studies below are undertaken in light of this calibration process. For other scenarios, experimental data may be consulted in order to adjust the soil modeling parameters and evaluate the impact thereof on the predicted response.
 User-Interface for Nonlinear Ground-Foundation
 Analysis
-A graphical user-interface “OpenSeesPL” Fig. 3 was employed
-to efﬁciently execute the parametric study Lu 2006. Via this
-interface https://neesforge.nees.org/projects/openseespl, the FE
-computations are conducted using the open-source platform Op-
-enSees Mazzoni et al. 2006.
-The capabilities of OpenSeesPL pre- and postprocessing fa-
-cilitate a wide class of 3D studies. The point-and-click graphical
-displays allow for: 1 deﬁnition of the pile geometry circular or
-square pile and material properties; 2 deﬁnition of the 3D spa-
-tial soil domain; 3 deﬁnition of the boundary conditions and
-input seismic excitation or push-over analysis parameters; 4 se-
-lection of soil materials from an available menu of cohesionless
-and cohesive soil materials; and 5 convenient postprocessing
-and graphical visualization of the analysis results including the
-deformed mesh, ground response time histories, and pile response
-Lu 2006. In the current version, OpenSeesPL may be employed
-to study a number of geometries and conﬁgurations of interest
-including:
+A graphical user-interface “OpenSeesPL” Fig. 3 was employed to efﬁciently execute the parametric study Lu 2006. Via this interface https://neesforge.nees.org/projects/openseespl, the FE computations are conducted using the open-source platform Op- enSees Mazzoni et al. 2006.
+The capabilities of OpenSeesPL pre- and postprocessing fa- cilitate a wide class of 3D studies. The point-and-click graphical displays allow for: 1 deﬁnition of the pile geometry circular or square pile and material properties; 2 deﬁnition of the 3D spa- tial soil domain; 3 deﬁnition of the boundary conditions and input seismic excitation or push-over analysis parameters; 4 se- lection of soil materials from an available menu of cohesionless and cohesive soil materials; and 5 convenient postprocessing and graphical visualization of the analysis results including the deformed mesh, ground response time histories, and pile response
+Lu 2006. In the current version, OpenSeesPL may be employed to study a number of geometries and conﬁgurations of interest including:
 1.
-3D seismic ground response, where multiyield surface cohe-
-sionless Drucker-Prager cone model and cohesive mises or
-J2 soil models are available. The coupled solid-ﬂuid analysis
-option allows for conducting liquefaction studies.
+3D seismic ground response, where multiyield surface cohe- sionless Drucker-Prager cone model and cohesive mises or
+J2 soil models are available. The coupled solid-ﬂuid analysis option allows for conducting liquefaction studies.
 2.
-Inclusion of a pile or shaft in the aforementioned 3D ground
-mesh circular or square pile in a soil island. For the pile
-response, linear, bilinear, and nonlinear ﬁber elements are
-available in OpenSees Mazzoni et al. 2006. In addition to
-the seismic excitation option, the pile system may be sub-
-jected to monotonic or cyclic lateral push-over Lu 2006
-loading in prescribed displacement or prescribed force
-modes.
+Inclusion of a pile or shaft in the aforementioned 3D ground mesh circular or square pile in a soil island. For the pile response, linear, bilinear, and nonlinear ﬁber elements are available in OpenSees Mazzoni et al. 2006. In addition to the seismic excitation option, the pile system may be sub- jected to monotonic or cyclic lateral push-over Lu 2006 loading in prescribed displacement or prescribed force modes.
 3.
-Soil properties within the zone occupied by the pile as rep-
-resented by pile diameter may be speciﬁed independently,
-allowing for a variety of practical modeling scenarios. For
-instance, various ground modiﬁcation approaches may be
-studied by appropriate speciﬁcation of the material within the
-pile zone. Among other options, liquefaction countermea-
-sures in the form of gravel drains, SCs, and solidiﬁcation/
-cementation may all be modeled and analyzed.
-Of particular importance and signiﬁcance in the above scenarios
-is the ability to simulate the presence of a mild inﬁnite-slope
-conﬁguration, allowing for estimates of: 1 accumulated ground
-deformation and efﬁcacy of a deployed liquefaction countermea-
-sure and 2 liquefaction-induced lateral pile loads and resulting
-moments/stresses.
+Soil properties within the zone occupied by the pile as rep- resented by pile diameter may be speciﬁed independently, allowing for a variety of practical modeling scenarios. For instance, various ground modiﬁcation approaches may be studied by appropriate speciﬁcation of the material within the pile zone. Among other options, liquefaction countermea- sures in the form of gravel drains, SCs, and solidiﬁcation/ cementation may all be modeled and analyzed.
+Of particular importance and signiﬁcance in the above scenarios is the ability to simulate the presence of a mild inﬁnite-slope conﬁguration, allowing for estimates of: 1 accumulated ground deformation and efﬁcacy of a deployed liquefaction countermea- sure and 2 liquefaction-induced lateral pile loads and resulting moments/stresses.
 Mitigation Model
-All conducted simulations were conveniently developed and ex-
-ecuted using the aforementioned interface OpenSeesPL. In a re-
-mediated area of large spatial extent Fig. 4, the periodic-
-boundary technique Law and Lam 2001 offers an effective
-approach for conducting 3D analyses i.e., symmetry allows the
-investigation of a representative remediated “cell”. On this basis,
-a half-mesh 100 soil elements in total in a representative cell
-within a large remediated ground zone was studied Fig. 4, with
-the following solid and ﬂuid boundary conditions: 1 seismic
-excitation was deﬁned along the base in the longitudinal direction
-x-axis; 2 on account of symmetry, at any spatial location, dis-
-placement degrees of freedom of the left and right boundary
-nodes were tied together both longitudinally and vertically using
-the penalty method; 3 the soil surface was stress free, with zero
-prescribed pore pressure; and 4 the base and lateral boundaries
-Fig. 3. OpenSeesPL Lu 2006 user interface with mesh showing a
-circular pile in level ground view of 1/2 mesh shown due to sym-
-metry under unidirectional lateral loading
+All conducted simulations were conveniently developed and ex- ecuted using the aforementioned interface OpenSeesPL. In a re- mediated area of large spatial extent Fig. 4, the periodic- boundary technique Law and Lam 2001 offers an effective approach for conducting 3D analyses i.e., symmetry allows the investigation of a representative remediated “cell”. On this basis, a half-mesh 100 soil elements in total in a representative cell within a large remediated ground zone was studied Fig. 4, with the following solid and ﬂuid boundary conditions: 1 seismic excitation was deﬁned along the base in the longitudinal direction
+x-axis; 2 on account of symmetry, at any spatial location, dis- placement degrees of freedom of the left and right boundary nodes were tied together both longitudinally and vertically using the penalty method; 3 the soil surface was stress free, with zero prescribed pore pressure; and 4 the base and lateral boundaries
+Fig. 3. OpenSeesPL Lu 2006 user interface with mesh showing a circular pile in level ground view of 1/2 mesh shown due to sym- metry under unidirectional lateral loading
 Half mesh within S x S "cell"
-Stone
-column
-a) Schematic plan view of stone column or
-pile layout
-b) Plan view (3D mesh)
-c) 3D isometric view (10m thick soil stratum
-with ½ mesh employed due to symmetry)
-Fig. 4. FE mesh for the ground modiﬁcation study dark zone repre-
-sents remediated domain; replacement ratio Arr=20%; SC diameter
-d=0.6 m: a schematic plan view of SC or pile layout; b plan
-view 3D mesh; c 3D isometric view 10-m-thick soil stratum with
-1/2 mesh employed due to symmetry
-1674 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
+Stone column a) Schematic plan view of stone column or pile layout b) Plan view (3D mesh) c) 3D isometric view (10m thick soil stratum with ½ mesh employed due to symmetry)
+Fig. 4. FE mesh for the ground modiﬁcation study dark zone repre- sents remediated domain; replacement ratio Arr=20%; SC diameter d=0.6 m: a schematic plan view of SC or pile layout; b plan view 3D mesh; c 3D isometric view 10-m-thick soil stratum with
+1/2 mesh employed due to symmetry
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
-were modeled to be impervious due to symmetry. In terms of
-base excitation, the downhole embedded at a 7.5-m depth north–
-south NS acceleration record from the Wildlife site during the
-1987 Superstition Hills earthquake Fig. 5 was employed along
-the x-axis.
-A 10-m-thick mildly inclined 4° saturated sand layer was
-studied permeability k=6.610−5 m/s, based on the Nevada
-sand properties at a medium relative density Dr of about 40%
-Elgamal et al. 2003; Yang et al. 2003. The main modeling pa-
-rameters include Table 1 standard dynamic soil properties such
-as low-strain shear modulus and friction angle, as well as param-
-eters to control the dilatancy effects PT angle, contraction, and
-dilation and the level of liquefaction-induced yield strain y.
-In order to reduce the extent of liquefaction-induced lateral
-deformation, remediation by SCs and by the pile-pinning effect
-were investigated Fig. 4. The SC properties were represented by
-dense sand properties Table 1 and a representative gravel per-
-meability of k=1.010−2 m/s.
-In the remediated cases, the area replacement ratio Arr is con-
-ventionally deﬁned as the area of the SC or pile Ar to the tributary
-area A Fig. 4
+were modeled to be impervious due to symmetry. In terms of base excitation, the downhole embedded at a 7.5-m depth north– south NS acceleration record from the Wildlife site during the
+1987 Superstition Hills earthquake Fig. 5 was employed along the x-axis.
+A 10-m-thick mildly inclined 4° saturated sand layer was studied permeability k=6.610−5 m/s, based on the Nevada sand properties at a medium relative density Dr of about 40%
+Elgamal et al. 2003; Yang et al. 2003. The main modeling pa- rameters include Table 1 standard dynamic soil properties such as low-strain shear modulus and friction angle, as well as param- eters to control the dilatancy effects PT angle, contraction, and dilation and the level of liquefaction-induced yield strain y.
+In order to reduce the extent of liquefaction-induced lateral deformation, remediation by SCs and by the pile-pinning effect were investigated Fig. 4. The SC properties were represented by dense sand properties Table 1 and a representative gravel per- meability of k=1.010−2 m/s.
+In the remediated cases, the area replacement ratio Arr is con- ventionally deﬁned as the area of the SC or pile Ar to the tributary area A Fig. 4
 Arr = Ar
-A = d2
-4S2
-where d=SC diameter and S=distance spacing between SC/pile
-centers. Instead of the SC properties, for the pile-pinning sce-
-nario, the same geometric conﬁguration was used with a 0.6-m
-diameter reinforced concrete pile and a representative bending
-stiffness that considers the pile level of deformations EI=1.27
-105 kN·m2 American Concrete Institute ACI 2008.
-The diameter of the SC or pile for all remediated cases was
-maintained at 0.6 m throughout. Rigid beam-column links, nor-
-mal to the pile longitudinal axis, were used to represent the geo-
-metric space occupied by the pile Fig. 4. The soil domain 3D
-brick elements are connected to the pile geometric conﬁguration
-at the outer nodes of these rigid links using the equalDOF con-
-straint in OpenSees for translations only Law and Lam 2001;
-Yan 2006; Elgamal et al. 2008.
+A = d2
+4S2 where d=SC diameter and S=distance spacing between SC/pile centers. Instead of the SC properties, for the pile-pinning sce- nario, the same geometric conﬁguration was used with a 0.6-m diameter reinforced concrete pile and a representative bending stiffness that considers the pile level of deformations EI=1.27
+105 kN·m2 American Concrete Institute ACI 2008.
+The diameter of the SC or pile for all remediated cases was maintained at 0.6 m throughout. Rigid beam-column links, nor- mal to the pile longitudinal axis, were used to represent the geo- metric space occupied by the pile Fig. 4. The soil domain 3D brick elements are connected to the pile geometric conﬁguration at the outer nodes of these rigid links using the equalDOF con- straint in OpenSees for translations only Law and Lam 2001;
+Yan 2006; Elgamal et al. 2008.
 Mitigation by SCs. A total of 9 simulations were performed
-Table 2 exploring Arr values of up to 70% with k of gravel
-drain=0.01 m/s. The case of medium sand MS represents the
-original benchmark MS Dr unremediated situation essentially a
-1D shear wave propagation scenario.
-The MS results provide a reference of free-ﬁeld response for
-comparison with the remaining SC cases Fig. 6. With the em-
-ployed SC permeability k=1.010−2 m/s, the permanent ground
-surface displacement fell below the large displacement range 1 ft
-or 0.3 m according to Youd 1989 at Arr in the range of 20–30%.
+Table 2 exploring Arr values of up to 70% with k of gravel drain=0.01 m/s. The case of medium sand MS represents the original benchmark MS Dr unremediated situation essentially a
+1D shear wave propagation scenario.
+The MS results provide a reference of free-ﬁeld response for comparison with the remaining SC cases Fig. 6. With the em- ployed SC permeability k=1.010−2 m/s, the permanent ground surface displacement fell below the large displacement range 1 ft or 0.3 m according to Youd 1989 at Arr in the range of 20–30%.
 In order to achieve lower small-scale permanent displacements
-California Geological Survey CGS 2008, an Arr40% is
-needed.
-As SCs may be constructed at signiﬁcantly different perme-
-ability characteristics Boulanger et al. 1998, four additional
-simulations were conducted Table 2. In these simulations, per-
-meability of the columns was increased by as much as two orders
-of magnitude Lambe and Whitman 1969; Yang and Elgamal
-2002. As seen in Table 2, major reduction in ground deformation
-resulted as a consequence of the increased SC permeability, with
-low small-scale permanent displacement California Geological
-Survey CGS 2008 corresponding to Arr starting at 20%.
-Mitigation by Pile Pinning. Area replacement ratios Arr rang-
-ing between 1–20% were explored in this series of numerical
-simulations Fig. 7 and Table 3. In this case, it was found Table
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
+California Geological Survey CGS 2008, an Arr40% is needed.
+As SCs may be constructed at signiﬁcantly different perme- ability characteristics Boulanger et al. 1998, four additional simulations were conducted Table 2. In these simulations, per- meability of the columns was increased by as much as two orders of magnitude Lambe and Whitman 1969; Yang and Elgamal
+2002. As seen in Table 2, major reduction in ground deformation resulted as a consequence of the increased SC permeability, with low small-scale permanent displacement California Geological
+Survey CGS 2008 corresponding to Arr starting at 20%.
+Mitigation by Pile Pinning. Area replacement ratios Arr rang- ing between 1–20% were explored in this series of numerical simulations Fig. 7 and Table 3. In this case, it was found Table
 −0.2
 −0.1
-0
 0.1
 0.2
 Acceleration (g)
@@ -381,22 +139,21 @@ Mass density
 1,900 kg/m3
 2,100 kg/m3
 Low-strain shear modulus Gr
-at 80 kPa mean effective conﬁnement
+at 80 kPa mean effective conﬁnement
 78.5 MPa
 135.0 MPa
-Friction angle 
+Friction angle 
 31.4°
 40.0°
-Fig. 2, phase 4–5
-Liquefaction yield strain y
+Fig. 2, phase 4–5
+Liquefaction yield strain y
 1%
-0
-Fig. 2, phase 0–1
+Fig. 2, phase 0–1
 Contraction parameter c1
 0.3
 0.1
-Fig. 2, phase 1–2
-PT angle PT
+Fig. 2, phase 1–2
+PT angle PT
 26.5°
 26.0°
 Dilation parameter d1
@@ -407,110 +164,63 @@ Dilation parameter d2
 5.0
 Table 2. Sand Stratum: SC Investigation for Different Area Replacement Ratios Arr and SC Permeability k
 Simulation
-Arr%
-Spacing to diameter S/d
-Permanent lateral displacement m
-k=0.01 m/s
-k=0.10 m/s
-k=1.0 m/s
+Arr%
+Spacing to diameter S/d
+Permanent lateral displacement m k=0.01 m/s k=0.10 m/s k=1.0 m/s
 MS
-0
 N/A
 1.64
 —
 —
 SC10
-10
 2.8
 0.62
 0.13
 —
-SC20 SC20–2, SC20–3
-20
-2
+SC20 SC20–2, SC20–3
 0.30
 0.04
 0.03
 SC30
-30
 1.6
 0.14
 0.012
 —
 SC40
-40
 1.4
 0.06
 —
 —
 SC50
-50
 1.25
 0.02
 —
 —
 SC60
-60
 1.14
 0.006
 —
 —
 SC70
-70
 1.1
 0.004
 —
 —
 DG
-100
 N/A
-0
 —
 —
 Note: N/A=not applicable; DG=dense gravel.
-JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009 / 1675
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
-3 that even a 1% Arr may have a signiﬁcant beneﬁcial impact. At
-such low Arr values, the soil farthest away from the pile was
-observed to undergo noticeably more displacement Table 3. For
-the low small-scale California Geological Survey CGS 2008
-range of displacements Table 3, an Arr of 10% or higher appears
-to be needed.
-In order to explore the effect of mesh reﬁnement, the PL5
-scenario was analyzed using three different meshes that were gen-
-erated conveniently by the user interface Fig. 8. For our pur-
-poses, these meshes were found to predict similar estimates of
-lateral ground deformation Table 3, thus providing reassurance
-as to results presented above.
+3 that even a 1% Arr may have a signiﬁcant beneﬁcial impact. At such low Arr values, the soil farthest away from the pile was observed to undergo noticeably more displacement Table 3. For the low small-scale California Geological Survey CGS 2008 range of displacements Table 3, an Arr of 10% or higher appears to be needed.
+In order to explore the effect of mesh reﬁnement, the PL5 scenario was analyzed using three different meshes that were gen- erated conveniently by the user interface Fig. 8. For our pur- poses, these meshes were found to predict similar estimates of lateral ground deformation Table 3, thus providing reassurance as to results presented above.
 Remediation of Silt Stratum
-Tables 4 and 5 display the outcome of the aforementioned reme-
-diation procedures for the situation of a nonplastic silt-size stra-
-tum instead of sand. For that purpose, the original sand layer
-permeability was replaced by the representative silt permeability
-of k=110−7 m/s Yang and Elgamal 2002. All other soil pa-
-rameters were maintained equal to those employed earlier for the
-sand stratum Table 1 in order to facilitate comparison of the
-outcomes.
-In this case, it is evident Table 4 that the SC procedure was
-of signiﬁcantly low efﬁcacy. Even in the high-permeability SC
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
-0
+Tables 4 and 5 display the outcome of the aforementioned reme- diation procedures for the situation of a nonplastic silt-size stra- tum instead of sand. For that purpose, the original sand layer permeability was replaced by the representative silt permeability of k=110−7 m/s Yang and Elgamal 2002. All other soil pa- rameters were maintained equal to those employed earlier for the sand stratum Table 1 in order to facilitate comparison of the outcomes.
+In this case, it is evident Table 4 that the SC procedure was of signiﬁcantly low efﬁcacy. Even in the high-permeability SC
 0.2
 0.4
 0.6
 0.8
-1
 1.2
 1.4
 1.6
@@ -530,25 +240,12 @@ MS
 40%
 50%
 DG
-Fig. 6. Ground surface lateral displacement time histories 10–50%
-Arr SC cases
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
-0
+Fig. 6. Ground surface lateral displacement time histories 10–50%
+Arr SC cases
 0.2
 0.4
 0.6
 0.8
-1
 1.2
 1.4
 1.6
@@ -564,27 +261,22 @@ PL1
 PL5
 PL10
 PL20
-Fig. 7. Ground surface lateral displacement time histories at pile
-center location pile-pinning cases
+Fig. 7. Ground surface lateral displacement time histories at pile center location pile-pinning cases
 Table 3. Sand Stratum: Conducted Pile-Pinning Investigation for Different Area Replacement Ratios Arr
 Simulation
-Arr%
-Spacing to diameter S/d
-Lateral displacement at the pile center m
-Lateral displacement at the far edge m
+Arr%
+Spacing to diameter S/d
+Lateral displacement at the pile center m
+Lateral displacement at the far edge m
 MS
-0
 N/A
 1.64
 1.64
 PL1
-1
 8.86
 0.37
 0.49
 PL5a
-5
-4
 0.070
 0.073
 0.073
@@ -592,285 +284,155 @@ PL5a
 0.21
 0.21
 PL10
-10
 2.8
 0.034
 0.085
 PL20
-20
-2
 0.017
-0.077
-aFrom FE meshes 1, 2, and 3, respectively Fig. 8.
-a) PL5 (Original mesh 1)
-b) PL5 (mesh 2)
-c) PL5 (mesh 3)
+0.077 aFrom FE meshes 1, 2, and 3, respectively Fig. 8.
+a) PL5 (Original mesh 1) b) PL5 (mesh 2) c) PL5 (mesh 3)
 Fig. 8. Final deformed mesh at ground surface level for Case PL5
-factor of 2: a PL5 original Mesh 1; b PL5 Mesh 2; and c
-PL5 Mesh 3
-1676 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
+factor of 2: a PL5 original Mesh 1; b PL5 Mesh 2; and c
+PL5 Mesh 3
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
-cases SC20 and SC30, no appreciable beneﬁcial effects were
-seen Table 4. The silt is simply incapable of draining effectively
-in view of its low permeability.
-However, pile pinning Table 5 appears to remain a viable
-remediation approach. Despite the lower silt stratum permeability,
-the reductions in lateral displacement appear to be quite similar to
-those of the earlier sand case Tables 3 and 5. Moreover, the far
-edge displacements are generally closer to those of the pile center,
-as the lower permeability acts to hinder the accumulation of large
-cyclic-mobility shear strains Yang and Elgamal 2002 between
-the center and edge locations Tables 3 and 5.
+cases SC20 and SC30, no appreciable beneﬁcial effects were seen Table 4. The silt is simply incapable of draining effectively in view of its low permeability.
+However, pile pinning Table 5 appears to remain a viable remediation approach. Despite the lower silt stratum permeability, the reductions in lateral displacement appear to be quite similar to those of the earlier sand case Tables 3 and 5. Moreover, the far edge displacements are generally closer to those of the pile center, as the lower permeability acts to hinder the accumulation of large cyclic-mobility shear strains Yang and Elgamal 2002 between the center and edge locations Tables 3 and 5.
 Response Characteristics and Discussion
-In this section, salient aspects of the sand stratum response are
-presented. Attention is given to the acceleration, excess pore pres-
-sure,
-and
-shear
-stress-strain
-mechanisms
-associated
-with
-liquefaction-induced lateral deformation. Effects of the imple-
-mented remediation techniques are discussed.
-Benchmark Model (Case MS). Figs. 9–11 show horizontal
-acceleration, displacement, and excess pore-pressure ue time
-histories at different depths. Lateral shear stress-strain and shear
-stress versus effective conﬁnement are shown in Fig. 12. The mild
+In this section, salient aspects of the sand stratum response are presented. Attention is given to the acceleration, excess pore pres- sure, and shear stress-strain mechanisms associated with liquefaction-induced lateral deformation. Effects of the imple- mented remediation techniques are discussed.
+Benchmark Model (Case MS). Figs. 9–11 show horizontal acceleration, displacement, and excess pore-pressure ue time histories at different depths. Lateral shear stress-strain and shear stress versus effective conﬁnement are shown in Fig. 12. The mild
 4° inclination imposes a static driving shear stress component
-due to gravity, causing the accumulated longitudinal downslope
-deformation Fig. 10. The classical features of liquefaction and
-cyclic mobility as observed at the Wildlife refuge site e.g., Youd
-and Holzer 1994; Zeghal and Elgamal 1994 are manifested in
-these ﬁgures including:
+due to gravity, causing the accumulated longitudinal downslope deformation Fig. 10. The classical features of liquefaction and cyclic mobility as observed at the Wildlife refuge site e.g., Youd and Holzer 1994; Zeghal and Elgamal 1994 are manifested in these ﬁgures including:
 1.
-Upon liquefaction, 15 s into the shaking event, asymmetric
-acceleration response with lower positive values Fig. 9 sig-
-niﬁes the downslope low shear resistance and associated ac-
-cumulation of permanent deformations Fig. 10. This
-response prevails throughout the strong phase of seismic ex-
-citation up to about 40 s.
+Upon liquefaction, 15 s into the shaking event, asymmetric acceleration response with lower positive values Fig. 9 sig- niﬁes the downslope low shear resistance and associated ac- cumulation of permanent deformations Fig. 10. This response prevails throughout the strong phase of seismic ex- citation up to about 40 s.
 2.
-Acceleration spikes occurring exclusively in the negative di-
-rection Fig. 9 appear as a consequence of cyclic mobility or
-the tendency for soil dilation at large shear strain excursions
-Fig. 12 during the strong shaking phase. This mechanism
-leads to instants of sharp excess pore-pressure reduction Fig.
-11 and associated increase in effective conﬁnement and
-shear resistance Fig. 12.
+Acceleration spikes occurring exclusively in the negative di- rection Fig. 9 appear as a consequence of cyclic mobility or the tendency for soil dilation at large shear strain excursions
+Fig. 12 during the strong shaking phase. This mechanism leads to instants of sharp excess pore-pressure reduction Fig.
+11 and associated increase in effective conﬁnement and shear resistance Fig. 12.
 3.
-Deformation is seen to occur along the entire depth of the
-stratum, with high levels 0.30 m even at the depth of 8
-m Fig. 10.
+Deformation is seen to occur along the entire depth of the stratum, with high levels 0.30 m even at the depth of 8 m Fig. 10.
 Table 4. Silt Stratum: SC Investigation for Different Area Replacement Ratio Arr and SC Permeability k
 Simulation
-Arr%
-Spacing to diameter S/d
-Permanent lateral displacement m
-k=0.01 m/s
-k=0.10 m/s
-k=1.0 m/s
+Arr%
+Spacing to diameter S/d
+Permanent lateral displacement m k=0.01 m/s k=0.10 m/s k=1.0 m/s
 MS
-0
 N/A
 1.69
 —
 —
 SC10
-10
 2.8
 0.69
 0.67
 —
 SC20
-20
-2
 0.53
 0.52
 0.51
 SC30
-30
 1.6
 0.41
 0.39
 —
 SC40
-40
 1.4
 0.32
 —
 —
 SC50
-50
 1.25
 0.22
 —
 —
 SC60
-60
 1.14
 0.13
 —
 —
 SC70
-70
 1.1
 0.10
 —
 —
 DG
-100
 N/A
-0
 —
 —
 Note: MS=medium silt; DG=dense gravel; N/A=not applicable.
 Table 5. Silt Stratum: Conducted Pile-pinning Investigation for Different
 Area Replacement Ratios Arr
 Simulation
-Arr%
-Spacing to
-diameter
-S/d
-Lateral dis-
-placement
-at the pile
-center m
-Lateral dis-
-placement at
-the far edge
-m
+Arr%
+Spacing to diameter
+S/d
+Lateral dis- placement at the pile center m
+Lateral dis- placement at the far edge
+m
 MS
-0
 N/A
 1.69
 1.69
 PL1
-1
 8.86
 0.39
 0.48
 PL5
-5
-4
 0.078
 0.14
 PL10
-10
 2.8
 0.039
 0.077
 PL20
-20
-2
 0.02
 0.037
 Note: MS=medium silt; N/A=not applicable.
 −0.2
 −0.1
-0
 0.1
 0.2
 Surface
 −0.2
 −0.1
-0
 0.1
 0.2
 2m depth
 −0.2
 −0.1
-0
 0.1
 0.2
 Horizontal acceleration (g)
 4m depth
 −0.2
 −0.1
-0
 0.1
 0.2
 8m depth
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
 −0.2
 −0.1
-0
 0.1
 0.2
 10m depth (input)
 Time (sec)
-Fig. 9. Horizontal acceleration time histories for the original bench-
-mark Case MS
-JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009 / 1677
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
+Fig. 9. Horizontal acceleration time histories for the original bench- mark Case MS
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
-SC Remediation. In addition to the increased stiffness, SCs
-provide for higher permeability and thus play an important role in
-reducing the extent of excess pore-pressure buildup. The SC20
-Arr=20% scenario illustrates this phenomenon Fig. 13, where,
-along with the benchmark scenario, excess pore pressure is shown
-at the SC center and at the far corner of the employed soil mesh
-farthest location away from the SC. This response can be con-
-veniently compared to the benchmark case, with the following
-observations at 2-m depth:
+SC Remediation. In addition to the increased stiffness, SCs provide for higher permeability and thus play an important role in reducing the extent of excess pore-pressure buildup. The SC20
+Arr=20% scenario illustrates this phenomenon Fig. 13, where, along with the benchmark scenario, excess pore pressure is shown at the SC center and at the far corner of the employed soil mesh
+farthest location away from the SC. This response can be con- veniently compared to the benchmark case, with the following observations at 2-m depth:
 1.
-Figs. 13a and b show that excess pore pressure reached the
-same high level of the benchmark case but started to rapidly
-decrease after about 20 s and was virtually fully dissipated at
-40 s. In the benchmark case, the pore pressure remained high
-up to 100 s and was dissipated 150 s thereafter Fig. 11.
+Figs. 13a and b show that excess pore pressure reached the same high level of the benchmark case but started to rapidly decrease after about 20 s and was virtually fully dissipated at
+40 s. In the benchmark case, the pore pressure remained high up to 100 s and was dissipated 150 s thereafter Fig. 11.
 2.
-As seen in Fig. 13b, similar excess pore-pressure levels
-were attained within the sand and the SC. In contrast, the
-higher SC permeability Table 1, SC20-2, and SC20-3 pre-
-cluded any signiﬁcant pore-pressure generation within the
-SC zone Figs. 13c and d. In addition, excess pore pressure
-within the sand stratum Figs. 13c and d remained below
-the liquefaction level of Figs. 13a and b. Indeed, as the SC
-permeability increased, the associated drastic reduction in
-pore pressure appears to be an important factor in keeping
-deformations to a potentially tolerable level Table 2.
+As seen in Fig. 13b, similar excess pore-pressure levels were attained within the sand and the SC. In contrast, the higher SC permeability Table 1, SC20-2, and SC20-3 pre- cluded any signiﬁcant pore-pressure generation within the
+SC zone Figs. 13c and d. In addition, excess pore pressure within the sand stratum Figs. 13c and d remained below the liquefaction level of Figs. 13a and b. Indeed, as the SC permeability increased, the associated drastic reduction in pore pressure appears to be an important factor in keeping deformations to a potentially tolerable level Table 2.
 Pile-Pinning Remediation. The benchmark MS response
-Figs. 9–12 may be contrasted here to that after deployment of
-the effective PL20 mitigation case Arr=20%. In the pile vicinity,
-Figs. 14–16 show time histories of acceleration, excess pore pres-
-sure ue, and the shear stress strain and stress path at different
-depths, respectively. In view of the low level of accumulated
-deformation Table 3, no asymmetric pattern is seen in the ac-
-celeration time histories Fig. 14. Cyclic-mobility effects are also
-virtually absent with minimal instants of excess pore-pressure re-
-duction or increase in effective conﬁnement Figs. 15 and 16.
-The higher system stiffness and overall lower levels of shear de-
-formation have also allowed excess pore pressures to start de-
-creasing earlier Fig. 15 and to fully dissipate in the course of
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
-0
+Figs. 9–12 may be contrasted here to that after deployment of the effective PL20 mitigation case Arr=20%. In the pile vicinity,
+Figs. 14–16 show time histories of acceleration, excess pore pres- sure ue, and the shear stress strain and stress path at different depths, respectively. In view of the low level of accumulated deformation Table 3, no asymmetric pattern is seen in the ac- celeration time histories Fig. 14. Cyclic-mobility effects are also virtually absent with minimal instants of excess pore-pressure re- duction or increase in effective conﬁnement Figs. 15 and 16.
+The higher system stiffness and overall lower levels of shear de- formation have also allowed excess pore pressures to start de- creasing earlier Fig. 15 and to fully dissipate in the course of
 0.2
 0.4
 0.6
 0.8
-1
 1.2
 1.4
 1.6
@@ -880,561 +442,252 @@ Surface
 2m depth
 4m depth
 8m depth
-Fig. 10. Lateral displacement time histories for the original bench-
-mark Case MS
-0
-5
-10
-15
-20
+Fig. 10. Lateral displacement time histories for the original bench- mark Case MS
 2m depth
-0
-10
-20
-30
-40
-50
 4m depth
-0
-10
-20
-30
-40
-50
-60
-70
 Excess pore pressure (kPa)
 6m depth
-0
-50
-100
-150
-200
-250
-0
-20
-40
-60
-80
 8m depth
 Time (sec)
-Fig. 11. Excess pore-pressure time histories for Case MS the initial
-effective vertical stresses for 2, 4, 6, and 8-m depths are 19.4, 38.8,
-58.3, and 77.7 kPa, respectively
-0
-10
-20
-30
-40
+Fig. 11. Excess pore-pressure time histories for Case MS the initial effective vertical stresses for 2, 4, 6, and 8-m depths are 19.4, 38.8,
+58.3, and 77.7 kPa, respectively
 1.6m depth
-0
-10
-20
-30
-40
 3.6m depth
-0
-10
-20
-30
-40
 Shear stress τxz (kPa)
 5.6m depth
-0
-5
-10
-15
-20
-0
-10
-20
-30
-40
 Shear strain γxz (%)
 7.6m depth
-0
-20
-40
-60
 Mean effective stress (kPa)
 Fig. 12. Shear stress-strain and stress path at different depths for
-Case MS site response situation
-1678 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
+Case MS site response situation
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
-130 s compared to the 250 s of the MS benchmark case Fig. 11.
-To achieve this outcome, the piles must be designed to sustain the
-shear and bending loads imposed by the soil, as shown in Fig. 17
-part of the OpenSeesPL graphical output.
+130 s compared to the 250 s of the MS benchmark case Fig. 11.
+To achieve this outcome, the piles must be designed to sustain the shear and bending loads imposed by the soil, as shown in Fig. 17
+part of the OpenSeesPL graphical output.
 Additional Important Practical Considerations
 1.
-The design considerations of a structure supported on or em-
-bedded within the soil stratum ultimately dictate the tolerable
-level of permanent lateral deformation i.e., the appropriate
-Arr. High Arr values may be prohibitively expensive and
-impractical to implement e.g., Arr exceeding 20%. The
-same applies for the high SC permeability values in Tables 2
-and 4.
+The design considerations of a structure supported on or em- bedded within the soil stratum ultimately dictate the tolerable level of permanent lateral deformation i.e., the appropriate
+Arr. High Arr values may be prohibitively expensive and impractical to implement e.g., Arr exceeding 20%. The same applies for the high SC permeability values in Tables 2 and 4.
 2.
-The above analyses do not address possible changes in soil
-properties due to the installation process associated with dif-
-ferent remediation approaches e.g., compaction of cohesion-
-less soil around a driven pile. Such changes may become
-more pronounced with the increase in Arr and can be ac-
-counted for empirically by speciﬁcation of denser soil mod-
-eling properties. On this basis, larger Arr values may actually
-result in lower levels of accumulated lateral deformation
-compared to the results reported in Tables 2–5. In practice
-and design, this important aspect must receive due attention.
+The above analyses do not address possible changes in soil properties due to the installation process associated with dif- ferent remediation approaches e.g., compaction of cohesion- less soil around a driven pile. Such changes may become more pronounced with the increase in Arr and can be ac- counted for empirically by speciﬁcation of denser soil mod- eling properties. On this basis, larger Arr values may actually result in lower levels of accumulated lateral deformation compared to the results reported in Tables 2–5. In practice and design, this important aspect must receive due attention.
 3.
-Upon implementation of a stiffening ground improvement
-approach as discussed above, a potential develops for
-higher transmitted ground surface accelerations and/or shak-
-ing intensities e.g., Figs. 9 and 14.
+Upon implementation of a stiffening ground improvement approach as discussed above, a potential develops for higher transmitted ground surface accelerations and/or shak- ing intensities e.g., Figs. 9 and 14.
 4.
-The employed periodic-boundary modeling approach Fig. 4
-applies to large remediated areas. Smaller remediated zones
-with a relatively large perimeter to area ratio will be more
-signiﬁcantly affected by the surrounding original stratum
-characteristics. A more elaborate 3D model that includes
-such a surrounding large unremediated soil domain may be
-more appropriate in this case.
+The employed periodic-boundary modeling approach Fig. 4 applies to large remediated areas. Smaller remediated zones with a relatively large perimeter to area ratio will be more signiﬁcantly affected by the surrounding original stratum characteristics. A more elaborate 3D model that includes such a surrounding large unremediated soil domain may be more appropriate in this case.
 Summary and Conclusions
-A study was conducted to explore the inﬂuence of SCs and pile
-pinning on liquefaction-induced lateral deformation. The analyses
-were conducted using OpenSees with the aid of OpenSeesPL, a
-user interface that simpliﬁes the pre- and postprocessing phases.
-In this study, an effort was made to explore the effectiveness
-of the SC and the pile-pinning mitigation approaches by gradually
-increasing the lateral extent of remediation, in order to achieve a
-satisfactory lower level of permanent deformation. For this repre-
-sentative study, a 10-m layer of liqueﬁable sand or nonplastic silt
-was subjected to the 1987 Wildlife refuge downhole NS ground
-motion.
-Generally, SC remediation was found to be effective in reduc-
-ing the sand stratum lateral deformation. The SC permeability
-was found to play a signiﬁcant role in this case, with virtually no
-permanent deformation as the SC k and Arr approached 0.01 m
-and 20%, respectively. However, for a similar stratum with per-
-meability in the silt range, SC remediation was highly ineffective,
-regardless of the employed SC permeability.
-In contrast, pile pinning appeared to be equally effective, both
-for the sand and the silt strata. A replacement ratio as low as 10%
-was found to possibly provide satisfactory outcomes.
-0
-5
-10
-15
-20
+A study was conducted to explore the inﬂuence of SCs and pile pinning on liquefaction-induced lateral deformation. The analyses were conducted using OpenSees with the aid of OpenSeesPL, a user interface that simpliﬁes the pre- and postprocessing phases.
+In this study, an effort was made to explore the effectiveness of the SC and the pile-pinning mitigation approaches by gradually increasing the lateral extent of remediation, in order to achieve a satisfactory lower level of permanent deformation. For this repre- sentative study, a 10-m layer of liqueﬁable sand or nonplastic silt was subjected to the 1987 Wildlife refuge downhole NS ground motion.
+Generally, SC remediation was found to be effective in reduc- ing the sand stratum lateral deformation. The SC permeability was found to play a signiﬁcant role in this case, with virtually no permanent deformation as the SC k and Arr approached 0.01 m and 20%, respectively. However, for a similar stratum with per- meability in the silt range, SC remediation was highly ineffective, regardless of the employed SC permeability.
+In contrast, pile pinning appeared to be equally effective, both for the sand and the silt strata. A replacement ratio as low as 10% was found to possibly provide satisfactory outcomes.
 MS
-0
-5
-10
-15
-20
 SC20
 Center (Gravel)
 Edge (Sand)
-0
-5
-10
-15
-20
 Excess pore pressure (kPa)
 SC20−2
 Center (Gravel)
 Edge (Sand)
-0
-5
-10
-15
-20
-25
-30
-35
-40
-45
-0
-5
-10
-15
-20
 SC20−3
 Time (sec)
 Center (Gravel)
 Edge (Sand)
-Fig. 13. Excess pore-pressure time histories at the center and at the
-edge for different SC permeability 2-m depth with effective vertical
-stress=19.4 kPa: a Case SC20; b Case SC20-2; and c Case
-SC20-3 Table 1
+Fig. 13. Excess pore-pressure time histories at the center and at the edge for different SC permeability 2-m depth with effective vertical stress=19.4 kPa: a Case SC20; b Case SC20-2; and c Case
+SC20-3 Table 1
 −0.2
 −0.1
-0
 0.1
 0.2
 Surface
 −0.2
 −0.1
-0
 0.1
 0.2
 2m depth
 −0.2
 −0.1
-0
 0.1
 0.2
 Horizontal acceleration (g)
 4m depth
 −0.2
 −0.1
-0
 0.1
 0.2
 8m depth
-0
-10
-20
-30
-40
-50
-60
-70
-80
-90
-100
 −0.2
 −0.1
-0
 0.1
 0.2
 10m depth (input)
 Time (sec)
-Fig. 14. Horizontal acceleration time histories for Case PL20 mesh
-center
-JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009 / 1679
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
+Fig. 14. Horizontal acceleration time histories for Case PL20 mesh center
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
-Overall, the investigations demonstrate the potential of 3D nu-
-merical simulation in providing insights for mitigation of
-liquefaction-induced lateral deformations. The analysis frame-
-work may be extended systematically to address other scenarios
-of interest such as: 1 consequences of additional input ground
-motions; 2 analysis of looser or denser soil formations; 3 sig-
-niﬁcance of SC/pile size as well as spacing; 5 inﬂuence of depth
-of remediation; and 5 the important case of nonliqueﬁable layers
-overlying the liqueﬁable stratum.
+Overall, the investigations demonstrate the potential of 3D nu- merical simulation in providing insights for mitigation of liquefaction-induced lateral deformations. The analysis frame- work may be extended systematically to address other scenarios of interest such as: 1 consequences of additional input ground motions; 2 analysis of looser or denser soil formations; 3 sig- niﬁcance of SC/pile size as well as spacing; 5 inﬂuence of depth of remediation; and 5 the important case of nonliqueﬁable layers overlying the liqueﬁable stratum.
 Acknowledgments
 The reported research was supported by the Paciﬁc Earthquake
-Engineering Research PEER Center, under the National Science
-Foundation Award No. EEC-9701568. This support is gratefully
-acknowledged.
+Engineering Research PEER Center, under the National Science
+Foundation Award No. EEC-9701568. This support is gratefully acknowledged.
 References
-Adachi, T., Iwai, S., Yasui, M., and Sato, Y. 1992. “Settlement of incli-
-nation of reinforced concrete buildings in Dagupan city due to lique-
-faction during 1990 Philippine earthquake.” Proc., 10th World Conf.
+Adachi, T., Iwai, S., Yasui, M., and Sato, Y. 1992. “Settlement of incli- nation of reinforced concrete buildings in Dagupan city due to lique- faction during 1990 Philippine earthquake.” Proc., 10th World Conf.
 on Earthquake Engineering, Balkema, Rotterdam, The Netherlands,
 147–152.
-Adalier, K., Elgamal, A., Meneses, J., and Baez, J. I. 2003. “Stone
-column as liquefaction countermeasure in non-plastic silty soils.” Soil.
-Dyn. Earthquake Eng., 237, 571–584.
-American Concrete Institute ACI. 2008. “Building code requirements
-for structural concrete and commentary.” ACI 318-08, Farmington
+Adalier, K., Elgamal, A., Meneses, J., and Baez, J. I. 2003. “Stone column as liquefaction countermeasure in non-plastic silty soils.” Soil.
+Dyn. Earthquake Eng., 237, 571–584.
+American Concrete Institute ACI. 2008. “Building code requirements for structural concrete and commentary.” ACI 318-08, Farmington
 Hills, Mich.
-Arulmoli, K., Martin, G. R., Gasparro, M. G., Shahrestani, S., and Buz-
-zoni, K. 2004. “Design of pile foundations for liquefaction induced
-lateral spread displacements.” Proc., GeoTrans 2004, M. Yegian and
+Arulmoli, K., Martin, G. R., Gasparro, M. G., Shahrestani, S., and Buz- zoni, K. 2004. “Design of pile foundations for liquefaction induced lateral spread displacements.” Proc., GeoTrans 2004, M. Yegian and
 E. Kavazanjian, eds., Earth Technology Corporation.
 Arulmoli, K., Muraleetharan, K. K., Hossain, M. M., and Fruth, L. S.
-1992. “VELACS: Veriﬁcation of liquefaction analyses by centrifuge
-studies, laboratory testing program.” Rep. No. 90-0562, The Earth
+1992. “VELACS: Veriﬁcation of liquefaction analyses by centrifuge studies, laboratory testing program.” Rep. No. 90-0562, The Earth
 Technology Corporation, Irvine, Calif.
 Ashford, S. A., Rollins, K. M., Bradford, S. C., Weaver, T. J., and Baez,
 −10
-0
-10
-20
 1.6m depth
 −10
-0
-10
-20
 3.6m depth
 −10
-0
-10
-20
 Shear stress τxz (kPa)
 5.6m depth
-0
-2
-4
-6
-8
 −10
-0
-10
-20
 Shear strain γxz (%)
 7.6m depth
-0
-20
-40
-60
 Mean effective stress (kPa)
 Fig. 16. Shear stress-strain and stress path at the center for Case
-PL20 near pile perimeter
-0
+PL20 near pile perimeter
 0.02
 0.04
 0.06
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
 Longitudinal displacement (m)
 Pile height (m)
 End
 Max
 −40
 −20
-0
 Shear force (kN)
 End
 Max
 −200
 −100
-0
 Bending moment (kN−m)
 End
 Max
-Fig. 17. Pile response proﬁles for Case PL20 Arr=20%
-0
-5
-10
-15
-20
+Fig. 17. Pile response proﬁles for Case PL20 Arr=20%
 2m depth
-0
-10
-20
-30
-40
-50
 4m depth
-0
-10
-20
-30
-40
-50
-60
-70
 Excess pore pressure (kPa)
 6m depth
-0
-50
-100
-150
-200
-250
-0
-20
-40
-60
-80
 8m depth
 Time (sec)
 Fig. 15. Excess pore pressure time histories at the center for Case
-PL20 near pile perimeter the initial effective vertical stresses for 2,
-4, 6, and 8-m depths are 19.4, 38.8, 58.3, and 77.7 kPa, respectively
-1680 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
+PL20 near pile perimeter the initial effective vertical stresses for 2,
+4, 6, and 8-m depths are 19.4, 38.8, 58.3, and 77.7 kPa, respectively
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
-J. I. 2000. “Liquefaction mitigation using stone columns around
-deep foundations: Full-scale test results.” Transportation Research
+J. I. 2000. “Liquefaction mitigation using stone columns around deep foundations: Full-scale test results.” Transportation Research
 Record. 1736, Transportation Research Board, Washington D.C., 110–
 118.
-Baez, J. I., and Martin, G. R. 1995. “Permeability and shear wave
-velocity of vibro-replacement stone columns.” Geotech. Spec. Publ.,
+Baez, J. I., and Martin, G. R. 1995. “Permeability and shear wave velocity of vibro-replacement stone columns.” Geotech. Spec. Publ.,
 49, 66–81.
 Boulanger, R., Idriss, I., Stewart, D., Hashash, Y., and Schmidt, B.
-1998. “Drainage capacity of stone columns or gravel drains for miti-
-gating liquefaction.” Geotech. Spec. Publ., 175, 678–690.
+1998. “Drainage capacity of stone columns or gravel drains for miti- gating liquefaction.” Geotech. Spec. Publ., 175, 678–690.
 Boulanger, R. W., Chang, D., Brandenberg, S. J., Armstrong, R. J., and
-Kutter, B. L. 2007. “Seismic design of pile foundations for liquefac-
-tion effects.” Proc., 4th Int. Conf. on Earthquake Geotechnical
+Kutter, B. L. 2007. “Seismic design of pile foundations for liquefac- tion effects.” Proc., 4th Int. Conf. on Earthquake Geotechnical
 Engineering-Invited Lectures, K. D. Pitilakis, ed., Springer, New
 York.
 Boulanger, R. W., Chang, D., Gulerce, U., Brandenberg, S. J., and Kutter,
-B. L. 2006. “Evaluating pile pinning effects on abutments over liq-
-ueﬁed ground. Seismic performance and simulation of pile founda-
-tions in liqueﬁed and laterally spreading ground.” Geotech. Spec.
+B. L. 2006. “Evaluating pile pinning effects on abutments over liq- ueﬁed ground. Seismic performance and simulation of pile founda- tions in liqueﬁed and laterally spreading ground.” Geotech. Spec.
 Publ., GSP 145, 306–318.
-Boulanger, R. W., and Tokimatsu, K., Eds. 2006. “Seismic performance
-and simulation of pile foundations in liqueﬁed and laterally spreading
-ground.” Geotech. Spec. Publ., Special Publication GSP 145.
-Brennan, A. J., and Madabhushi, S. P. G. 2002. “Effectiveness of ver-
-tical drains in mitigation of liquefaction.” Soil. Dyn. Earthquake Eng.,
+Boulanger, R. W., and Tokimatsu, K., Eds. 2006. “Seismic performance and simulation of pile foundations in liqueﬁed and laterally spreading ground.” Geotech. Spec. Publ., Special Publication GSP 145.
+Brennan, A. J., and Madabhushi, S. P. G. 2002. “Effectiveness of ver- tical drains in mitigation of liquefaction.” Soil. Dyn. Earthquake Eng.,
 22, 1059–1069.
-California Geological Survey CGS. 2008. “Guidelines for evaluating
-and mitigating seismic hazards in California.” California Geological
+California Geological Survey CGS. 2008. “Guidelines for evaluating and mitigating seismic hazards in California.” California Geological
 Survey,
-http://www.consrv.ca.gov/cgs/shzp/webdocs/Documents/
-sp117.pdf.
-Carlson, N., and Miller, K. 1998. “Design and application of a gradient-
-weighted moving ﬁnite element code. I: In one dimension.” SIAM J.
-Sci. Comput. (USA), 193, 728–765.
-Chan, A. H. C. 1988. “A uniﬁed ﬁnite element solution to static and
-dynamic problems in geomechanics.” Ph.D. thesis, Univ. College of
+http://www.consrv.ca.gov/cgs/shzp/webdocs/Documents/ sp117.pdf.
+Carlson, N., and Miller, K. 1998. “Design and application of a gradient- weighted moving ﬁnite element code. I: In one dimension.” SIAM J.
+Sci. Comput. (USA), 193, 728–765.
+Chan, A. H. C. 1988. “A uniﬁed ﬁnite element solution to static and dynamic problems in geomechanics.” Ph.D. thesis, Univ. College of
 Swansea, U.K.
-Dobry, R., Taboada, V., and Liu, L. 1995. “Centrifuge modeling of
-liquefaction effects during earthquakes.” Proc., 1st Int. Conf. on
-Earthquake Geotechnical Engineering (IS-Tokyo), Vol. 3, K. Ishihara,
-ed., Balkema, Rotterdam, The Netherlands, 1291–1324.
-Dobry, R., and Taboada, V. M. 1994. “Possible lessons from VELACS
-model No. 2 results.” Proc., Intl. Conf. on Veriﬁcation of Numerical
+Dobry, R., Taboada, V., and Liu, L. 1995. “Centrifuge modeling of liquefaction effects during earthquakes.” Proc., 1st Int. Conf. on
+Earthquake Geotechnical Engineering (IS-Tokyo), Vol. 3, K. Ishihara, ed., Balkema, Rotterdam, The Netherlands, 1291–1324.
+Dobry, R., and Taboada, V. M. 1994. “Possible lessons from VELACS model No. 2 results.” Proc., Intl. Conf. on Veriﬁcation of Numerical
 Procedures for the Analysis of Soil Liquefaction Problems, Vol. 2, K.
-Arulanandan and R. F. Scott, eds., Balkema, Rotterdam, The Nether-
-lands, 1341–1352.
-Earthquake Engineering Research Institute EERI. 2000. “Kocaeli.
-Turkey, earthquake of august 17, 1999 reconnaissance report.” Earth-
-quake Spectra.
-Earthquake Engineering Research Institute EERI. 2001. “Chi-chi, Tai-
-wan, earthquake of September 21, 1999, reconnaissance report.”
+Arulanandan and R. F. Scott, eds., Balkema, Rotterdam, The Nether- lands, 1341–1352.
+Earthquake Engineering Research Institute EERI. 2000. “Kocaeli.
+Turkey, earthquake of august 17, 1999 reconnaissance report.” Earth- quake Spectra.
+Earthquake Engineering Research Institute EERI. 2001. “Chi-chi, Tai- wan, earthquake of September 21, 1999, reconnaissance report.”
 Earthquake Spectra.
-Elgamal, A., Yang, Z., Parra, E., and Ragheb, A. 2003. “Modeling of
-cyclic mobility in saturated cohesionless soils.” Int. J. Plast., 196,
+Elgamal, A., Yang, Z., Parra, E., and Ragheb, A. 2003. “Modeling of cyclic mobility in saturated cohesionless soils.” Int. J. Plast., 196,
 883–905.
-Elgamal, A., Yan, L., Yang, Z., and Conte, J. P. 2008. “Three-
-dimensional seismic response of Humboldt bay bridge-foundation-
-ground system.” J. Struct. Eng., 1347, 1165–1176.
-Hayden, R. F., and Baez, J. I. 1994. “State of practice for liquefaction
-mitigation in North America.” Proc., Fourth US–Japan Workshop on
+Elgamal, A., Yan, L., Yang, Z., and Conte, J. P. 2008. “Three- dimensional seismic response of Humboldt bay bridge-foundation- ground system.” J. Struct. Eng., 1347, 1165–1176.
+Hayden, R. F., and Baez, J. I. 1994. “State of practice for liquefaction mitigation in North America.” Proc., Fourth US–Japan Workshop on
 Soil Liquefaction: Remedial Treatment of Potentially Liqueﬁable
 Soils, Public Works Research Institute, Tsukuba Science City, Japan.
-International Navigation Association INA. 2001. Seismic design
-guidelines for port structures, working Group No. 34 of the Maritime
+International Navigation Association INA. 2001. Seismic design guidelines for port structures, working Group No. 34 of the Maritime
 Navigation Commission, Balkema, Rotterdam, The Netherlands.
-Ishihara, K., Acacio, A. A., and Towhata, I. 1993. “Liquefaction-
-induced ground damage in Dagupan in the July 16, 1990 Luzon earth-
-quake.” Soils Found., 331, 133–154.
-Ishihara, K., Tatsuoka, F., and Yasuda, S. 1975. “Undrained deformation
-and liquefaction of sand under cyclic stresses.” Soils Found., 151,
+Ishihara, K., Acacio, A. A., and Towhata, I. 1993. “Liquefaction- induced ground damage in Dagupan in the July 16, 1990 Luzon earth- quake.” Soils Found., 331, 133–154.
+Ishihara, K., Tatsuoka, F., and Yasuda, S. 1975. “Undrained deformation and liquefaction of sand under cyclic stresses.” Soils Found., 151,
 29–44.
-Ishihara, K., and Yamazaki, F. 1980. “Cyclic simple shear tests on satu-
-rated sand in multi-directional loading.” Soils Found., 201, 49–59.
-Japanese Geotechnical Society JGS. 1998. “Special issue on geotech-
-nical aspects of the January 17, 1995 Hyogoken-Nanbu earthquake.”
+Ishihara, K., and Yamazaki, F. 1980. “Cyclic simple shear tests on satu- rated sand in multi-directional loading.” Soils Found., 201, 49–59.
+Japanese Geotechnical Society JGS. 1998. “Special issue on geotech- nical aspects of the January 17, 1995 Hyogoken-Nanbu earthquake.”
 Soils Found.
-Kishida, H. 1966. “Damage to reinforced concrete buildings in Niigata
-city with special reference to foundation engineering.” Soils Found.,
-61, 71–88.
-Lambe, T. W., and Whitman, R. V. 1969. Soil mechanics, Wiley, New
+Kishida, H. 1966. “Damage to reinforced concrete buildings in Niigata city with special reference to foundation engineering.” Soils Found.,
+61, 71–88.
+Lambe, T. W., and Whitman, R. V. 1969. Soil mechanics, Wiley, New
 York.
-Law, H. K., and Lam, I. P. 2001. “Application of periodic boundary for
-large pile group.” J. Geotech. Geoenviron. Eng., 12710, 889–892.
-Lu, J. 2006. “Parallel ﬁnite element modeling of earthquake site re-
-sponse and liquefaction.” Ph.D. thesis, Univ. of California, San Diego.
-Mazzoni, S., McKenna, F., Scott, M. H., and Fenves, G. L. 2009. Open
-system for earthquake engineering simulation user manual, Univer-
-sity of California, Berkeley, Calif., http://opensees.berkeley.edu/.
-Mitchell, J. K., Christopher, D., Baxter, P., and Munson, T. C. 1995.
+Law, H. K., and Lam, I. P. 2001. “Application of periodic boundary for
+Lu, J. 2006. “Parallel ﬁnite element modeling of earthquake site re- sponse and liquefaction.” Ph.D. thesis, Univ. of California, San Diego.
+Mazzoni, S., McKenna, F., Scott, M. H., and Fenves, G. L. 2009. Open system for earthquake engineering simulation user manual, Univer- sity of California, Berkeley, Calif., http://opensees.berkeley.edu/.
+Mitchell, J. K., Christopher, D., Baxter, P., and Munson, T. C. 1995.
 “Performance of improved ground during earthquakes.” Geotech.
 Spec. Publ., 49, 1–36.
-Ohsaki, Y. 1966. “Niigata earthquake, 1964 building damage and soil
-condition.” Soils Found., 62, 14–37.
-Parra, E. 1996. “Numerical modeling of liquefaction and lateral ground
-deformation including cyclic mobility and dilation response in soil
-systems.” Ph.D. thesis, Rensselaer Polytechnic Institute, Troy, N.Y.
-Pestana, J. M., Hunt, C. E., and Goughnour, R. R. 1997. “FEQDrain: A
-ﬁnite element computer program for the analysis of the earthquake
-generation and dissipation of pore water pressure in layered sand de-
-posits with vertical drains.” Rep. No. EERC 97–15, Earthquake Engi-
-neering Research Center, Univ. of California, Berkeley, Calif.
-Prevost, J. H. 1985. “A simple plasticity theory for frictional cohesion-
-less soils.” Soil. Dyn. Earthquake Eng., 41, 9–17.
-Priebe, H. J. 1991. “The prevention of liquefaction by vibro replace-
-ment.” Proc., 2nd Int. Conf. on Earthquake Resistant Construction
-and Design, S. A. Savidis, Ed., A. A. Balkema, Rotterdam, 211–219.
-Saito, A., Ito, K., and Oishi, H. 1991. “Development of gravel drain
-systems as a remedial measure for soil liquefaction.” Proc., Japanese
+Ohsaki, Y. 1966. “Niigata earthquake, 1964 building damage and soil condition.” Soils Found., 62, 14–37.
+Parra, E. 1996. “Numerical modeling of liquefaction and lateral ground deformation including cyclic mobility and dilation response in soil systems.” Ph.D. thesis, Rensselaer Polytechnic Institute, Troy, N.Y.
+Pestana, J. M., Hunt, C. E., and Goughnour, R. R. 1997. “FEQDrain: A ﬁnite element computer program for the analysis of the earthquake generation and dissipation of pore water pressure in layered sand de- posits with vertical drains.” Rep. No. EERC 97–15, Earthquake Engi- neering Research Center, Univ. of California, Berkeley, Calif.
+Prevost, J. H. 1985. “A simple plasticity theory for frictional cohesion- less soils.” Soil. Dyn. Earthquake Eng., 41, 9–17.
+Priebe, H. J. 1991. “The prevention of liquefaction by vibro replace- ment.” Proc., 2nd Int. Conf. on Earthquake Resistant Construction and Design, S. A. Savidis, Ed., A. A. Balkema, Rotterdam, 211–219.
+Saito, A., Ito, K., and Oishi, H. 1991. “Development of gravel drain systems as a remedial measure for soil liquefaction.” Proc., Japanese
 Society of Civil Engineering, 41–46.
-Saito, A., Taghawa, K., Tamura, T., Oishi, H., Nagayama, H., and Shi-
-maoka, H. 1987. “A countermeasure for sand liquefaction: Gravel
-drain method.” Technical Rep. No. 51, Nippon Kokan K.K., Tokyo.
-Saxena, D. S., and Hussin, J. D. 1997. “Stone column improved and
-piezocone tested site supports mid rise building complex—A case
-history.” Geotech. Spec. Publ., 69, 476–491.
-Seed, H. B., and Booker, J. R. 1977. “Stabilization of potentially lique-
-ﬁable sand deposits using gravel drains.” J. Geotech. Engrg. Div.,
-1037, 757–768.
-Seed, H. B., and Idriss, I. M. 1967. “Analysis of soil liquefaction:
-Niigata earthquake.” J. Soil Mech. and Found. Div., 933, 83–108.
-Shenthan, T., Nashed, R., Thevanayagam, S., and Martin, G. R. 2003.
-“Liquefaction mitigation in silty soils using composite stone columns
-and dynamic compaction.” Earthquake Eng. Eng. Vib., 31, 39–50.
-Somasundaram, S., Weeratunga, G., and Best, J. 1997. “Ground im-
-provement at the long beach aquarium of the paciﬁc—A case study.”
+Saito, A., Taghawa, K., Tamura, T., Oishi, H., Nagayama, H., and Shi- maoka, H. 1987. “A countermeasure for sand liquefaction: Gravel drain method.” Technical Rep. No. 51, Nippon Kokan K.K., Tokyo.
+Saxena, D. S., and Hussin, J. D. 1997. “Stone column improved and piezocone tested site supports mid rise building complex—A case history.” Geotech. Spec. Publ., 69, 476–491.
+Seed, H. B., and Booker, J. R. 1977. “Stabilization of potentially lique- ﬁable sand deposits using gravel drains.” J. Geotech. Engrg. Div.,
+1037, 757–768.
+Seed, H. B., and Idriss, I. M. 1967. “Analysis of soil liquefaction:
+Niigata earthquake.” J. Soil Mech. and Found. Div., 933, 83–108.
+Shenthan, T., Nashed, R., Thevanayagam, S., and Martin, G. R. 2003.
+“Liquefaction mitigation in silty soils using composite stone columns and dynamic compaction.” Earthquake Eng. Eng. Vib., 31, 39–50.
+Somasundaram, S., Weeratunga, G., and Best, J. 1997. “Ground im- provement at the long beach aquarium of the paciﬁc—A case study.”
 Geotech. Spec. Publ., 69, 457–475.
-Soydemir, C., Swekosky, F. J., Baez, J. I., and Mooney, J. S. 1997.
+Soydemir, C., Swekosky, F. J., Baez, J. I., and Mooney, J. S. 1997.
 “Ground improvement at Albany airport, New York.” Geotech. Spec.
 Publ., 69, 506–524.
-Thevanayagam, S., Martin, G. R., Shenthan, T., and Liang, J. 2001.
-“Post-liquefaction pore pressure dissipation and densiﬁcation in silty
-soils.” Proc., 4th Int. Conf. on Recent Advances in Geotechnical
+Thevanayagam, S., Martin, G. R., Shenthan, T., and Liang, J. 2001.
+“Post-liquefaction pore pressure dissipation and densiﬁcation in silty soils.” Proc., 4th Int. Conf. on Recent Advances in Geotechnical
 Earthquake Engineering and Soil Dynamics, S. Prakash, Ed., San
 Diego, Paper No. 4.28.
-Tokimatsu, K., Kojima, H., Kuwayama, S., and Midorikawa, S. 1994.
-“Liquefaction-induced damages to buildings in 1990 Luzon earth-
-quake.” J. Geotech. Engrg., 1202, 290–307.
-JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009 / 1681
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
+Tokimatsu, K., Kojima, H., Kuwayama, S., and Midorikawa, S. 1994.
+“Liquefaction-induced damages to buildings in 1990 Luzon earth- quake.” J. Geotech. Engrg., 1202, 290–307.
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.
 Tokimatsu, K., Midorikawa, S., Tamura, S., Kuwayama, S., and Abe, A.
-1991. “Preliminary report on the geotechnical aspects of the Philip-
-pine earthquake of July 16, 1990.” Proc., 2nd Int. Conf. on Recent
-Advances in Geotechnical Earthquake Engineering and Soil Dynam-
-ics, University of Missouri–Rolla, St. Louis, 357–364.
-Tokimatsu, K., and Yoshimi, Y. 1980. “Effects of vertical drains on the
-bearing capacity of saturated sand during earthquakes.” Proc., Int.
+1991. “Preliminary report on the geotechnical aspects of the Philip- pine earthquake of July 16, 1990.” Proc., 2nd Int. Conf. on Recent
+Advances in Geotechnical Earthquake Engineering and Soil Dynam- ics, University of Missouri–Rolla, St. Louis, 357–364.
+Tokimatsu, K., and Yoshimi, Y. 1980. “Effects of vertical drains on the bearing capacity of saturated sand during earthquakes.” Proc., Int.
 Conf. on Engineering for Protection from Natural Disasters, Asian
 Institute of Technology, Bangkok, 643–655.
-Weaver, T., Ashford, S. A., and Rollins, K. M. 2004. “Performance and
-analysis of a laterally loaded pile in stone column improved ground.”
+Weaver, T., Ashford, S. A., and Rollins, K. M. 2004. “Performance and analysis of a laterally loaded pile in stone column improved ground.”
 Proc., 13th World Conf. on Earthquake Engineering, Vancouver.
-Yan, L. 2006. “Sensor data analysis and information extraction for
-structural health monitoring.” Ph.D. dissertation, Univ. of California,
+Yan, L. 2006. “Sensor data analysis and information extraction for structural health monitoring.” Ph.D. dissertation, Univ. of California,
 San Diego.
-Yang, Z. 2000. “Numerical modeling of earthquake site response in-
-cluding dilation and liquefaction.” Ph.D. thesis, Columbia Univ., New
+Yang, Z. 2000. “Numerical modeling of earthquake site response in- cluding dilation and liquefaction.” Ph.D. thesis, Columbia Univ., New
 York.
-Yang, Z., and Elgamal, A. 2002. “Inﬂuence of permeability on
-liquefaction-induced shear deformation.” J. Eng. Mech., 1287, 720–
+Yang, Z., and Elgamal, A. 2002. “Inﬂuence of permeability on liquefaction-induced shear deformation.” J. Eng. Mech., 1287, 720–
 729.
-Yang, Z., Elgamal, A., and Parra, E. 2003. “A computational model for
-cyclic mobility and associated shear deformation.” J. Geotech.
-Geoenviron. Eng., 12912, 1119–1127.
-Yoshimi, Y., and Tokimatsu, K. 1977. “Settlement of buildings on satu-
-rated sand during earthquakes.” Soils Found., 171, 23–38.
-Youd, T. L. 1989. “Ground failure damage to buildings during earth-
-quakes.” Proc., Congress on Foundation Engineering, Vol. 1, ASCE,
+Yang, Z., Elgamal, A., and Parra, E. 2003. “A computational model for cyclic mobility and associated shear deformation.” J. Geotech.
+Geoenviron. Eng., 12912, 1119–1127.
+Yoshimi, Y., and Tokimatsu, K. 1977. “Settlement of buildings on satu- rated sand during earthquakes.” Soils Found., 171, 23–38.
+Youd, T. L. 1989. “Ground failure damage to buildings during earth- quakes.” Proc., Congress on Foundation Engineering, Vol. 1, ASCE,
 Reston, Va, 758–770.
-Youd, T. L., and Holzer, T. L. 1994. “Piezometer performance at the
-wildlife liquefaction site.” J. Geotech. Engrg., 1206, 975–995.
-Zeghal, M., and Elgamal, A. 1994. “Analysis of site liquefaction using
-earthquake records.” J. Geotech. Engrg., 1206, 996–1017.
+Youd, T. L., and Holzer, T. L. 1994. “Piezometer performance at the wildlife liquefaction site.” J. Geotech. Engrg., 1206, 975–995.
+Zeghal, M., and Elgamal, A. 1994. “Analysis of site liquefaction using earthquake records.” J. Geotech. Engrg., 1206, 996–1017.
 Zienkiewicz, O. C., Chan, A. H. C., Pastor, M., Paul, D. K., and Shiomi,
-T. 1990. “Static and dynamic behavior of soils: A rational approach
-to quantitative solutions: I. Fully saturated problems.” Proc. R. Soc.
+T. 1990. “Static and dynamic behavior of soils: A rational approach to quantitative solutions: I. Fully saturated problems.” Proc. R. Soc.
 London, Ser. A, 429, 285–309.
-1682 / JOURNAL OF GEOTECHNICAL AND GEOENVIRONMENTAL ENGINEERING © ASCE / NOVEMBER 2009
-J. Geotech. Geoenviron. Eng. 2009.135:1672-1682.
 Downloaded from ascelibrary.org by Northeastern Univ Library on 04/21/13. Copyright ASCE. For personal use only; all rights reserved.

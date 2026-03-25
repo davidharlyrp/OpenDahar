@@ -1,1056 +1,520 @@
-i 
- 
-_____________ 
- 
- 
- 
-KEMENTERIAN PEKERJAAN UMUM  
-DAN PERUMAHAN RAKYAT 
-DIREKTORAT JENDERAL CIPTA KARYA 
-DIREKTORAT PENGEMBANGAN KAWASAN PERMUKIMAN
-i 
- 
- 
-Kegiatan 
-Infrastruktur 
-Berbasis 
-Masyarakat 
-Direktorat 
-Pengembangan Kawasan Permukiman (PISEW dan KOTAKU) pada 
-prinsipnya merupakan kegiatan pembangunan dan peningkatan 
-kualitas infrastruktur dasar baik di kawasan perdesaan maupun 
-kawasan perkotaan yang dilaksanakan oleh kelompok masyarakat 
-melalui pendekatan partisipatif. Untuk memastikan tercapainya 
-kualitas hasil pembangunan  infrastruktur yang sesuai dengan 
-standar teknis dan penyelenggaraan IBM berjalan dengan baik, 
-maka disusun pedoman bagi seluruh pemangku kepentingan, 
-melalui Surat Edaran Direktur Jenderal Cipta Karya Nomor: 
-13/SE/DC/2022 tentang Pedoman Teknis Pelaksanaan Kegiatan 
-Infrastruktur Berbasis Masyarakat Direktorat Jenderal Cipta Karya 
-yang tata kelola pelaksanaannya dirincikan ke dalam Petunjuk 
-Teknis Pelaksanaan Kegiatan PISEW dan KOTAKU.  
-Selaras dengan pedoman teknis dan petunjuk teknis pelaksanaan 
-tersebut, maka telah disusun pula kumpulan buku saku yang 
-bertujuan untuk mendukung kelancaran dan kemudahan bagi tim 
-pelaksana di lapangan. Buku saku tersebut berisi rincian terkait 
-mekanisme pengendalian, perencanaan dan pembangunan fisik 
-yang terdiri dari: 
-1. Buku Saku Pengendalian Kegiatan PISEW; 
-2. Buku Saku Pengendalian Kegiatan KOTAKU; 
-3. Buku Saku Petunjuk Umum Konstruksi; 
-4. Buku Saku Petunjuk Konstruksi Jalan; 
-5. Buku Saku Petunjuk Konstruksi Jembatan; 
-6. Buku Saku Petunjuk Konstruksi Air Minum; 
-7. Buku Saku Petunjuk Konstruksi Sanitasi; 
-8. Buku Saku Petunjuk Konstruksi Drainase dan Irigasi; 
-9. Buku Saku Petunjuk Konstruksi Bangunan Sederhana; 
-10. Buku Saku Petunjuk Proteksi Kebakaran; 
-ii 
-11. Buku Saku BKAD; 
-12. Buku Saku Penyelenggara Swakelola KOTAKU; 
-13. Buku Saku Penentuan Capaian Luas Kawasan Terlayani 
-Infrastruktur Terbangun; 
-14. Buku Saku Identifikasi dan Penilaian Lokasi Kumuh; 
-15. Buku Saku Pemanfaatan dan Pemeliharaan Infrastruktur 
-Berbasis Masyarakat; 
-16. Buku Saku Sistem Informasi Manajemen dan Sistem Informasi 
-Laporan Keuangan dan Aset kegiatan IBM Direktorat PKP. 
- 
-Diharapkan dengan adanya kumpulan buku saku ini dapat menjadi 
-panduan praktis bagi para pelaku kegiatan IBM Direktorat 
-Pengembangan Kawasan Permukiman di lapangan, mulai dari tahap 
-persiapan hingga pelaksanaan pembangunan infrastruktur sesuai 
-pedoman/standar 
-yang 
-telah 
-ditetapkan, 
-serta 
-dapat 
-memberikan kontribusi positif terhadap penerapan aturan/kaidah 
-teknis pada pembangunan infrastruktur berbasis masyarakat. Namun 
-demikian, tim penulis tetap mengharapkan saran dan kritikan dari 
-seluruh pemakai buku saku ini untuk penyempurnaan lebih lanjut 
-secara substansi. 
- 
- 
-Jakarta, Maret 2022 
- 
- 
-Tim Pelaksana Pengawasan dan Pengendalian Pusat  
-Kegiatan IBM Direktorat PKP 
-iii 
- 
- 
-Kata Pengantar ..................................................................................i 
-Daftar Isi ...........................................................................................iii 
-Daftar Gambar ..................................................................................iv 
-Daftar Tabel .....................................................................................iv 
-I. BETON .........................................................................................1 
-1.1 Persyaratan Umum ...............................................................2 
-1.2 Persyaratan Teknis ...............................................................3 
-1.2.1 Pemilihan Proporsi Campuran Beton ..........................3 
-1.2.2 Bahan ..........................................................................3 
-1.2.3 Perawatan Beton/Curing .............................................7 
-II. BAJA  TULANG BETON ............................................................10 
-2.1 Persyaratan Umum .............................................................10 
-2.2 Persyaratan Teknis .............................................................10 
-2.2.1 Syarat Mutu Baja Tulangan Beton ............................10 
-2.2.2 Sambungan Baja ......................................................14 
-2.2.3 Las ............................................................................21 
-2.2.4 Menghitung Kebutuhan Besi Secara Praktis ............23 
-2.2.5 Menghitung Volume Besi Baja Beton Bertulang .......25 
- 
- 
- 
- 
- 
- 
- 
-iv 
- 
- 
-Gambar I.1  Agregat Kasar ........................................................... 7 
-Gambar II.1  Jenis Baja Tulangan Beton Sirip/Ulir ...................... 12 
-Gambar II.2  Sambungan Kelas A ............................................... 15 
-Gambar II.3  Jarak antar Kawat atau  Besi Tulangan  
-Wiremesh ................................................................ 17 
-Gambar II.4  Paku Keling ............................................................. 18 
-Gambar II.5  Diameter Baut ......................................................... 20 
-Gambar II.6  Deret Maksimum baut ............................................. 21 
- 
- 
- 
- 
- 
- 
-Tabel II.1  
-Ukuran Baja Tulangan Beton Sirip/Ulir ................... 13 
-Tabel II.2  
-Ketentuang Panjang Sambungan Lewatan ............ 17 
-v 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-___________ 
-Bangunan yang baik datang dari  
-orang-orang yang mengerjakannya 
-dengan baik, dan semua masalah 
-diselesaikan oleh desain yang baik. 
- 
- 
- 
-1 
- 
- 
- 
-Berdasarkan SNI 03–2847–2002, yang dimaksud dengan: 
-1) 
-Beton adalah campuran antara semen Portland atau semen 
-hidraulik yang lain, agregat halus, agregat kasar dan air dengan 
-atau tanpa bahan tambah membentuk massa padat; agregat 
-alam yang pecah; batu pecah yang diperoleh dari industri 
-pemecah batu dan mempunyai ukuran butir. 
-2) 
+i
+
+_____________
+
+KEMENTERIAN PEKERJAAN UMUM
+DAN PERUMAHAN RAKYAT
+DIREKTORAT JENDERAL CIPTA KARYA
+DIREKTORAT PENGEMBANGAN KAWASAN PERMUKIMAN i
+
+Kegiatan
+Infrastruktur
+Berbasis
+Masyarakat
+Direktorat
+Pengembangan Kawasan Permukiman (PISEW dan KOTAKU) pada prinsipnya merupakan kegiatan pembangunan dan peningkatan kualitas infrastruktur dasar baik di kawasan perdesaan maupun kawasan perkotaan yang dilaksanakan oleh kelompok masyarakat melalui pendekatan partisipatif. Untuk memastikan tercapainya kualitas hasil pembangunan infrastruktur yang sesuai dengan standar teknis dan penyelenggaraan IBM berjalan dengan baik, maka disusun pedoman bagi seluruh pemangku kepentingan, melalui Surat Edaran Direktur Jenderal Cipta Karya Nomor:
+13/SE/DC/2022 tentang Pedoman Teknis Pelaksanaan Kegiatan
+Infrastruktur Berbasis Masyarakat Direktorat Jenderal Cipta Karya yang tata kelola pelaksanaannya dirincikan ke dalam Petunjuk
+Teknis Pelaksanaan Kegiatan PISEW dan KOTAKU.
+Selaras dengan pedoman teknis dan petunjuk teknis pelaksanaan tersebut, maka telah disusun pula kumpulan buku saku yang bertujuan untuk mendukung kelancaran dan kemudahan bagi tim pelaksana di lapangan. Buku saku tersebut berisi rincian terkait mekanisme pengendalian, perencanaan dan pembangunan fisik yang terdiri dari:
+1. Buku Saku Pengendalian Kegiatan PISEW;
+2. Buku Saku Pengendalian Kegiatan KOTAKU;
+3. Buku Saku Petunjuk Umum Konstruksi;
+4. Buku Saku Petunjuk Konstruksi Jalan;
+5. Buku Saku Petunjuk Konstruksi Jembatan;
+6. Buku Saku Petunjuk Konstruksi Air Minum;
+7. Buku Saku Petunjuk Konstruksi Sanitasi;
+8. Buku Saku Petunjuk Konstruksi Drainase dan Irigasi;
+9. Buku Saku Petunjuk Konstruksi Bangunan Sederhana;
+10. Buku Saku Petunjuk Proteksi Kebakaran; ii
+11. Buku Saku BKAD;
+12. Buku Saku Penyelenggara Swakelola KOTAKU;
+13. Buku Saku Penentuan Capaian Luas Kawasan Terlayani
+Infrastruktur Terbangun;
+14. Buku Saku Identifikasi dan Penilaian Lokasi Kumuh;
+15. Buku Saku Pemanfaatan dan Pemeliharaan Infrastruktur
+Berbasis Masyarakat;
+16. Buku Saku Sistem Informasi Manajemen dan Sistem Informasi
+Laporan Keuangan dan Aset kegiatan IBM Direktorat PKP.
+
+Diharapkan dengan adanya kumpulan buku saku ini dapat menjadi panduan praktis bagi para pelaku kegiatan IBM Direktorat
+Pengembangan Kawasan Permukiman di lapangan, mulai dari tahap persiapan hingga pelaksanaan pembangunan infrastruktur sesuai pedoman/standar yang telah ditetapkan, serta dapat memberikan kontribusi positif terhadap penerapan aturan/kaidah teknis pada pembangunan infrastruktur berbasis masyarakat. Namun demikian, tim penulis tetap mengharapkan saran dan kritikan dari seluruh pemakai buku saku ini untuk penyempurnaan lebih lanjut secara substansi.
+
+Jakarta, Maret 2022
+
+Tim Pelaksana Pengawasan dan Pengendalian Pusat
+Kegiatan IBM Direktorat PKP iii
+
+Kata Pengantar
+Daftar Isi
+Daftar Gambar
+Daftar Tabel
+I. BETON
+1.1 Persyaratan Umum
+1.2 Persyaratan Teknis
+1.2.1 Pemilihan Proporsi Campuran Beton
+1.2.2 Bahan
+1.2.3 Perawatan Beton/Curing
+II. BAJA TULANG BETON
+2.1 Persyaratan Umum
+2.2 Persyaratan Teknis
+2.2.1 Syarat Mutu Baja Tulangan Beton
+2.2.2 Sambungan Baja
+2.2.3 Las
+2.2.4 Menghitung Kebutuhan Besi Secara Praktis
+2.2.5 Menghitung Volume Besi Baja Beton Bertulang
+
+iv
+
+Gambar I.1 Agregat Kasar
+Gambar II.1 Jenis Baja Tulangan Beton Sirip/Ulir
+Gambar II.2 Sambungan Kelas A
+Gambar II.3 Jarak antar Kawat atau Besi Tulangan
+Wiremesh
+Gambar II.4 Paku Keling
+Gambar II.5 Diameter Baut
+Gambar II.6 Deret Maksimum baut
+
+Tabel II.1
+Ukuran Baja Tulangan Beton Sirip/Ulir
+Tabel II.2
+Ketentuang Panjang Sambungan Lewatan
+
+___________
+Bangunan yang baik datang dari orang-orang yang mengerjakannya dengan baik, dan semua masalah diselesaikan oleh desain yang baik.
+
+Berdasarkan SNI 03–2847–2002, yang dimaksud dengan:
+1)
+Beton adalah campuran antara semen Portland atau semen hidraulik yang lain, agregat halus, agregat kasar dan air dengan atau tanpa bahan tambah membentuk massa padat; agregat alam yang pecah; batu pecah yang diperoleh dari industri pemecah batu dan mempunyai ukuran butir.
+2)
 Beton normal adalah beton yang mempunyai berat isi (2200-
-2500) kg/m2 menggunakan agregat alam yang dipecah atau 
-tanpa dipecah. 
-3) 
-Agregat halus adalah pasir alam sebagai hasil desintegrasi 
-alami dari batu atau berupa btu pecah yang diperoleh dari 
-industri dan mempunyai ukuran butir terbesar 5,00 mm. 
-4) 
-Agregat kasar adalah kerikil sebagai hasil desintegrasi alami 
-dari batu atau berupa batu pecah yang diperoleh dari industri 
-pemecah batu dan mempunyai ukuran butir antara 5 mm-40 
-mm. 
-5) 
-Kuat tekan beton yang disyaratkan f’c adalah kuat tekan yang 
-ditetapkan oleh perencana struktur (berdasarkan benda uji 
-berbentuk silinder diameter 150 mm, tinggi 300 mm). 
-Dalam PBI 1971 sampel beton berupa sampel kubus ukuran 
-15x15x15 cm3, bila dikonversikan ke sample silinder 15×30 cm3, 
-maka konversinya f’c=0,83 K.g, nilai K adalah tegangan beton 
-karakteristik pada PBI 1971, sedangkan g adalah gravitasi 
-senilai 0,0981 cm/det2. Misalnya untuk mutu beton K-175 bila 
-disetarakan dengan f’c dalam SNI 03–2847–2002 menjadi f’c= 
-0,83. 175.0,0981 = 14 MPa. 
-6) 
-Kuat tekan beton yang ditargetkan F’c adalah kuat tekan rata 
-rata yang diharapkan dapat dicapai yang lebih besar dari F’c.  
-2 
-7) 
-Kadar air bebas adalah jumlah air yang dicampurkan ke dalam 
-beton untuk mencapai konsistensi tertentu, tidak termasuk air 
-yang terserap oleh agregat. 
-8) 
-Faktor air semen adalah angka perbandingsn antara berat air 
-bebas dan berat semen dalam beton. 
-9) 
-Slump adalah salah satu unsur kekentalan adukan beton 
-dinyatakan dalam mm ditentukan dergan alat kerucut Abram 
-(SNI 03-1972-1990 tentang Metode Pengujian Slump Beton 
-Semen Port land). 
-10) Pozolan adalah bahan yang mengandung silika amorf, apabila 
-dicampur dergan kapur dan air akan membentuk benda padat 
-yang keras dan bahan yang tergolong pozolan adalah tras, 
-semen merah, abu terbang dan bubukan terak tanur tinggi. 
-11) Semen Portland-pozolan adalah campuran semen portland 
-dengan pozolan artara 15%-40% berat total campuran dan 
-kandungan SiO2 + All-O3 + FeO3 dalam pozolan minimum 70%. 
-12) Bahan tambah adalan bahan yang dtambahkan pada campuran 
-bahan pembuatan beton untuk tujuan tertentu.  
- 
- 
-Persyaratan umum yang harus dipenuhi sebagai berikut: 
-1)  Proporsi campuran beton harus menghasilkan beton yang 
-memenuhi persyaratan berikut:  
-1. Kekentalan 
-yang 
-memungkinkan 
-pengerjaan 
-beton 
-(penuangan, pemadatan, dan perataan) dengan mudah 
-dapat mengisi acuan dan menutup permukaan secara serba 
-sama (homogen); 
-2. Keawetan; 
-3. Kuat tekan; 
-4. Ekonomis. 
-2)  Beton yang dibuat harus menggunakan bahan agregat normal 
-tanpa bahan tambah. 
-3 
- 
- 
-Pemilihan proprosi campuran beton harus dilaksanakan sebagai 
-berikut: 
-1) 
-Perhitungan perencanaan campuran beton harus didasarkan 
-pada data sifat-sifat bahan yang akan dipergunakan dalam 
-produksi beton; 
-2) 
-Susunan campuran beton yang diperoleh dari perencanaan ini 
-harus dibuktikan melalui campuran coba yang menunjukkan 
-bahwa proporsi tersebut dapat memenuhi kekuatan beton yang 
-disyaratkan. 
-3) 
-Rencana campuran beton ditentukan berdasarkan hubungan 
-antara kuat tekan dan faktor air semen; 
-4) 
-Untuk beton dengan nilai fc hingga 20 MPa pelaksanaan 
-produksinya harus didasarkan pada perbandingan berat bahan; 
-5) 
-Untuk beton nilai f'c hingga 20 MPa pelaksanaan produksinya 
-boleh menggunakan perbandingan volume. Perbandingan 
-volume bahan ini harus didasarkan pada perencanaan proporsi 
-campuran dalam berat yang dikonversikan ke dalam volume 
-melalui berat isi rata-rata antara gembur dan padat dari masing-
-masing bahan. 
- 
- 
-Bahan-bahan yang digunakan dalam perencanaan harus mengkuti 
-persyaratan berikut: 
-1) 
-Bila pada bagian pekerjaan konstruksi yang berbeda akan 
-digunakan bahan yang berbeda, maka setiap proporsi campuran 
-yang akan digunakan harus direncanakan secara terpisah; 
-2) 
-Bahan untuk campuran coba harus mewakili bahan yang akan 
-digunakan dalam pekerjaan yang diusulkan. 
-4 
-A. Air 
-Air yang dapat digunakan dalam proses pencampuran beton menurut 
-SK SNI 03-2847-2002 adalah sebagai berikut: 
-1) 
-Air yang digunakan pada campuran beton harus bersih dan 
-bebas dari bahan-bahan merusak yang mengandung oli, asam, 
-alkali, garam, bahan organik, atau bahan-bahan lainnya yang 
-merugikan terhadap beton atau tulangan. 
-2) 
-Air pencampur yang digunakan pada beton prategang atau 
-pada beton yang di dalamnya tertanam logam aluminium, 
-termasuk air bebas yang terkandung dalam agregat, tidak boleh 
-mengandung ion klorida dalam jumlah yang membahayakan. 
-3) 
-Air yang tidak dapat diminum tidak boleh digunakan pada 
-beton, kecuali pemilihan proporsi campuran beton harus 
-didasarkan pada campuran beton yang menggunakan air dari 
-sumber yang sama dan hasil pengujian pada umur 7 dan 28 
-hari pada kubus uji mortar yang dibuat dari adukan dengan air 
-yang tidak dapat diminum harus mempunyai kekuatan 
-sekurang-kurangnya sama dengan 90% dari kekuatan benda 
-uji yang dibuat dengan air yang dapat diminum. Perbandingan 
-uji kekuatan tersebut harus dilakukan pada adukan serupa, 
-terkecuali pada air pencampur, yang dibuat dan diuji sesuai 
-dengan “Metode uji kuat tekan untuk mortar semen hidrolis 
-(Menggunakan spesimen kubus dengan ukuran sisi 50 mm)” 
-(ASTM1 C 109). 
-B. Semen  
-Semen harus memenuhi SNI 15-2049-1994 tentang semen Portland: 
-1) 
-Semen Portland Tipe I, adalah semen Portland untuk 
-penggunaan umum tanpa persyaratan khusus. 
-2) 
-Semen Portand Tipe II, adalah semen Portland yang dalam 
-penggunaannya memerlukan ketahanan terhadap sulfat dan 
-kalor hidrasi sedang. 
- 
-1 ASTM: American Society for Testing and Materials 
-5 
-3) 
-Semen Portland Tipe III, adalah semen Portland yang dalam 
-penggunaannya memerlukan kekuatan tinggi pada tahap 
-permulaan setelah pengikatan terjadi. 
-4) 
-Semen Portland Tipe IV, adalah semen Portland yang dalam 
-penggunaannya memerlukan kalor hidrasi rendah. 
-5) 
-Semen Portland Tipe V, adalah semen Portland yang dalam 
-penggunaannya memerlukan ketahanan yang tinggi terhadap 
-sulfat. 
-C. Agregat 
-Agregat merupakan material granular: pasir, krikil, batu pecah, dan 
-kerak tungku pijar yang dipakai bersama-sama dengan suatu media 
-pengikat untuk membentuk suatu beton atau adukan semen 
-hidrolik (SNI 03-2847-2002, Tata Cara Perencanaan Struktur Beton 
-Untuk Bangunan Gedung). 
-1)  Agregat Halus: Menurut SNI-03-2847-2002, agregat halus 
-adalah pasir alam sebagai hasil disintegrasi alami batuan atau 
-pasir yang dihasilkan oleh industri pemecah batu dan 
-mempunyai ukuran butir terbesar 5,0 mm.  
-Persyaratan agregat halus secara umum adalah sebagai berikut: 
-- Agregat halus terdiri dari butir-butir tajam dan keras. 
-- Butir-butir halus bersifat kekal, artinya tidak pecah atau 
-hancur oleh pengaruh cuaca. Sifat kekal agregat halus dapat 
-di uji dengan larutan jenuh garam. Jika dipakai natrium sulfat 
-maksimum bagian yang hancur adalah 10% berat. 
-- Agregat halus tidak boleh mengandung lumpur lebih dari 5% 
-(terhadap berat kering), jika kadar lumpur melampaui 5% 
-maka pasir harus di cuci. 
-Menurut SNI 03-2461-1991, agregat halus memiliki modulus 
-kehalusan atau finess modulus (FM) yang berada di kisaran 
-antara 1,5 s/d 3,8. 
-6 
-2)  Agregat Kasar: Menurut SNI-03-2847-2002, agregat kasar 
-adalah kerikil sebagai hasil disintegrasi alami dari batuan atau 
-berupa batu pecah yang diperoleh dari industri pemecah batu 
-dan mempunyai ukuran butir antara 5 mm sampai 40 
-mm. Dalam penggunaannya harus memenuhi syarat-syarat 
-sebagai berikut: 
-- Butir-butir keras yang tidak berpori serta bersifat kekal yang 
-artinya tidak pecah karena pengaruh cuaca seperti sinar 
-matahari dan hujan.  
-- Tidak boleh mengandung lumpur lebih dari 1%, apabila 
-melebihi 
-maka 
-harus 
-dicuci 
-lebih 
-dahulu 
-sebelum 
-menggunakannya. 
-- Tidak boleh mengandung zat yang dapat merusak batuan 
-seperti zat-zat yang reaktif terhadap alkali. 
-- Agregat kasar yang berbutir pipih hanya dapat digunakan 
-apabila jumlahnya tidak melebihi 20% dari berat keseluruhan. 
-Menurut Tjokrodimuljo (1996), sifat agregat yang paling 
-berpengaruh terhadap kekuatan beton adalah kekasaran 
-permukaan dan ukuran maksimumnya.  
-Pada agregat dengan permukaan kasar akan terjadi ikatan yang 
-baik antara pasta semen dengan agregat tersebut. Pada agregat 
-berukuran besar luas permukaanya menjadi lebih sempit 
-sehingga lekatan dengan pasta semen menjadi berkurang. 
-Menurut SNI 03-2461-1991, agregat kasar memiliki modulus 
-kehalusan atau finess modulus (FM) yang berada di kisaran 
-antara 6,0 s/d 7,1.  
-7 
- 
-Gambar I.1 Agregat Kasar 
- 
- 
-Perawatan beton, bertujuan untuk menjaga supaya beton tidak 
-terlalu cepat kehilangan air, atau sebagai tindakan menjaga 
-kelembaban dan suhu beton, segera setelah proses finishing beton 
-selesai dan waktu total setting tercapai.  
-Tujuan pelaksanaan curing/perawatan beton adalah: memastikan 
-reaksi hidrasi senyawa semen termasuk bahan tambahan atau 
-pengganti supaya dapat berlangsung secara optimal sehingga mutu 
-beton yang diharapkan dapat tercapai, dan menjaga supaya tidak 
-terjadi susut yang berlebihan pada beton akibat kehilangan 
-kelembaban yang terlalu cepat atau tidak seragam, sehingga dapat 
-menyebabkan retak.  
-Pelaksanaan curing/perawatan beton dilakukan segera setelah beton 
-mengalami atau memasuki fase hardening (untuk permukaan beton 
-yang terbuka) atau setelah pembukaan cetakan/acuan/bekisting, 
-selama durasi tertentu yang dimaksudkan untuk memastikan 
-terjaganya kondisi yang diperlukan untuk proses reaksi senyawa 
-kimia yang terkandung dalam campuran beton 
-Agregat kasar yang baik untuk pengikatan dengan pasta dan mortar 
-semen adalah yang bertekstur cukup kasar, bentuk bersudut 
-banyak/kubikal, tidak pipih, bulat ataupun panjang. 
-8 
-Metoda dan lama pelaksanaan curing tergantung dari: 
-- Jenis atau tipe semen dan beton yang digunakan, termasuk 
-bahan tambahan atau pengganti yang dipakai; 
-- Jenis/tipe dan luasan elemen struktur yang dilaksanakan; 
-- Kondisi cuaca, suhu dan kelembaban di area atau lokasi 
-pekerjaan; 
-- Penetapan nilai dan waktu yang digunakan untuk kuat tekan 
-karakteristik beton (28 hari atau selain 28 hari, tergantung dari 
-spesifikasi yang ditentukan oleh konsultan perencana/desain). 
-Kualitas dan durasi/lama pelaksanaan curing/perawatan beton 
-berpengaruh pada: 
-- Mutu/kekuatan beton (strength); 
-- Keawetan struktur beton (durability); 
-- Kekedapan air beton (water-tightness); 
-- Ketahanan permukaan beton, misal terhadap keausan (wear 
-resistance). 
-Beberapa 
-peraturan 
-menetapkan 
-acuan 
-pelaksanaan 
-curing/perawatan beton, yang sama-sama bertujuan untuk menjaga 
-dan menjamin mutu pelaksanaan pembetonan. 
-Beberapa metoda yang mudah digunakan untuk curing/perawatan 
-beton di lapangan, antara lain: 
-1) 
-Membasahi permukaan beton secara berkala dengan air supaya 
-selalu lembab selama perawatan (bisa dengan sistem sprinkler 
-supaya praktis). 
-2) 
-Merendam 
-beton 
-dengan 
-air 
-(dengan 
-penggenangan 
-permukaan beton). 
-3) 
-Membungkus beton dengan bahan yang dapat menahan 
-penguapan air (misal plastik, dsb.) 
- 
- 
-9 
-4) 
-Menutup permukaan beton dengan bahan yang dapat 
-mengurangi penguapan air dan dibasahi secara berkala (misal 
-dengan plastik berpori atau nonwoven geotextile dan disiram 
-secara berkala selama perawatan). 
-5) 
-Menggunakan material khusus untuk perawatan beton (curing 
-compound). 
-SNI 03-2847-2002 mensyaratkan curing selama: 
-•  7 (tujuh) hari untuk beton normal. 
-•  3 (tiga) hari untuk beton dengan kuat tekan awal tinggi. 
-ACI2 318 mensyaratkan curing dilakukan: sampai tercapai min 70% 
-kuat tekan beton yang disyaratkan (fc’) 
-ASTM C-150 mensyaratkan: 
-•  Semen tipe I, waktu minimum curing 7 hari. 
-•  Semen tipe II, waktu minimum curing 10 hari. 
-•  Semen tipe III, waktu minimum curing 3 hari. 
-•  Semen tipe IV atau V minimum curing 14 hari. 
- 
- 
-2 ACI: American Concrete Institute 
-10 
- 
- 
-Menurut SNI-07-2052-2002, baja tulangan beton adalah baja 
-berbentuk batang berpenampang bundar yang digunakan untuk 
-penulangan beton, yang diproduksi dari bahan baku billet3 dengan 
-cara canai panas (hot rolling) 
-Berdasarkan bentuknya, baja tulangan beton dibedakan menjadi 2 
-(dua), baja tulangan beton polos dan baja tulangan beton sirip. 
-1. 
-Baja tulangan beton polos, adalah baja tulangan beton 
-berpenampang bundar dengan permukaan rata tapi tidak 
-bersirip, disingkat BjTP 
-2.  Baja tulangan beton sirip (ulir), adalah baja tulangan beton 
-dengan bentuk khusus yang permukaannya memiliki sirip 
-melintang dan rusuk memanjang yang dimaksudkan untuk 
-menigkatkan daya lekat dan guna menahan gerakan membujur 
-dari batang secara relatif terhadap beton, disingkat BjTS. 
- 
- 
- 
-Syarat mutu baja tulangan beton antara lain: 
-a. 
-Baja tulangan beton tidak boleh mengandung serpihan, lipatan, 
-retakan, cema (luka pd besi beton yang terjadi karena proses 
-cenai) yang dalam dan hanya diperkenankan berkara ringan 
-pada permukaan. 
- 
-3 Billet adalah baja batangan yang dibuat dari hasil pengecoran biji besi (pig iron). 
-Memiliki penampang bulat atau persegi, dengan luas kurang dari 36 in² (230 cm²). 
-11 
-b. 
-Bentuk; Baja tulangan beton harus mempunyai sirip yang 
-teratur. Setiap batang diperkenankan mempunyai rusuk 
-memanjang yang sejajar dan sejajar dengan sumbu batang, 
-serta sirip-sirip lainya dengan arah melintang sumbu batang. 
-c. 
-Sirip-sirip melintang sepanjang batang baja tulangan beton 
-harus terletak pada jarak yang teratur. Serta mempunyai bentuk 
-dan ukuran yang sama. Bila diperlukan tanda atau huruf-huruf 
-pada permukaan baja tulangan beton, maka sirip melintang 
-pada posisi di mana angka atau huruf dapat di abaikan. 
-d. 
-Sirip melintang tidak boleh membentuk sudut kurang dari 45 
-derajat terhadap sumbu batang, apabila membentuk sudut 
-antara 45 sampai dengan 75 derajat, arah sirip melintang pada 
-satu sisi atau kedua sisi dibuat berlawanan. Bila sudutnya di atas 
-70 derajat arah berlawanan tidak diperlukan. 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-12 
- 
-a. 
-Sirip/Ulir Bambu: 
-  
- 
-b. 
-Sirip/Ulir Curam:  
- 
- 
- 
-c. 
-Sirip/Ulir Tulang Ikan: 
- 
- 
- 
-Sumber: SNI 2052:2017 Baja Tulangan Baja 
-Gambar II.1 Jenis Baja Tulangan Beton Sirip/Ulir 
- 
- 
-13 
-Tabel II.1 Ukuran Baja Tulangan Beton Sirip/Ulir 
- 
- 
- 
-Sumber: SNI 2052:2017 Baja Tulangan Baja 
-14 
- 
-Suatu konstruksi bangunan baja tersusun atas batang-batang baja 
-yang digabung membentuk satu kesatuan bentuk konstruksi dengan 
-menggunakan berbagai macam teknik sambungan. Adapun 
-fungsi/tujuan sambungan baja antara lain: 
-1. 
-Menggabungkan beberapa batang baja membentuk kesatuan 
-konstruksi sesuai kebutuhan. 
-2. 
-Mendapatkan ukuran baja sesuai kebutuhan (panjang, lebar, 
-tebal, dan sebagainya). 
-3. 
-Memudahkan dalam penyetelan konstruksi baja di lapangan. 
-4. 
-Memudahkan penggantian bila suatu bagian/batang konstruksi 
-mengalami rusak. 
-5. 
-Memberikan kemungkinan adanya bagian/batang konstruksi 
-yang dapat bergerak, misal: peristiwa muai-susut baja akibat 
-perubahan suhu. 
- 
- 
-Berdasarkan SNI-03-2847-2002 dan ACI 318, sambungan lewatan 
-dilakukan untuk elemen struktur yang panjang dan menerus 
-sehingga tulangan yang dipasang memerlukan penyambungan di 
-samping. Jenis sambungan ini merupakan yang paling umum 
-dilakukan dalam pelaksanaan di lapangan. 
-1) 
-Sambungan Lewatan Dalam Kondisi Tarik 
-Sambungan ini terdiri atas dua kelas, yaitu: sambungan kelas A dan 
-sambungan kelas B. Sambungan kelas A diperbolehkan apabila 
-dua kondisi berikut ini dapat dipenuhi: 
-a. 
-Luas tulangan terpasang tidak kurang dari 2 kali luas tulangan 
-perlu dalam analisis pada keseluruhan panjang sambungan. 
-Misalkan: Pada daerah sambungan diperlukan tulangan untuk 
-menahan momen (pada umumnya tulangan tarik) sebanyak 3 
-buah tulangan dan yang masih terpasang atau diteruskan di 
-15 
-dalam daerah penampang tersebut minimal 6 tulangan, maka 
-dapat dinyatakan memenuhi satu syarat ini. 
-b. 
-Paling banyak 50% dari jumlah tulangan yang disambung dalam 
-daerah panjang lewatan diperlukan apabila: 
-• Dalam satu penampang pada posisi daerah yang akan 
-disambung ada 6 buah tulangan dan yang disambung hanya 
-maksimal 3 tulangan sedangkan yang minimal 3 sisanya 
-menerus (sambungan untuk 3 tulangan yang lain di luar 
-daerah sambungan lewatan perlu 3 tulangan yang 
-disambung) maka dapat dinyatakan memenuhi satu syarat 
-ini. 
-• Sambungan yang ditempatkan berselang seling dapat 
-dianggap di luar daerah panjang lewatan perlu jika 
-ditempatkan pada jarak antara sambungan yang tidak 
-segaris, yaitu a min = Ld  (PBI N.I.-2 ps 8.12.2.b memberikan 
-nilai a min = 40 db). 
- 
- 
-Sumber: SNI-03-2847-2002 
-Gambar II.2 Sambungan Kelas A 
- 
-16 
-Apabila dua kondisi tersebut tidak dipenuhi maka diklasifikasikan 
-sebagai sambungan kelas B. 
+2500) kg/m2 menggunakan agregat alam yang dipecah atau tanpa dipecah.
+3)
+Agregat halus adalah pasir alam sebagai hasil desintegrasi alami dari batu atau berupa btu pecah yang diperoleh dari industri dan mempunyai ukuran butir terbesar 5,00 mm.
+4)
+Agregat kasar adalah kerikil sebagai hasil desintegrasi alami dari batu atau berupa batu pecah yang diperoleh dari industri pemecah batu dan mempunyai ukuran butir antara 5 mm-40 mm.
+5)
+Kuat tekan beton yang disyaratkan f’c adalah kuat tekan yang ditetapkan oleh perencana struktur (berdasarkan benda uji berbentuk silinder diameter 150 mm, tinggi 300 mm).
+Dalam PBI 1971 sampel beton berupa sampel kubus ukuran
+15x15x15 cm3, bila dikonversikan ke sample silinder 15×30 cm3, maka konversinya f’c=0,83 K.g, nilai K adalah tegangan beton karakteristik pada PBI 1971, sedangkan g adalah gravitasi senilai 0,0981 cm/det2. Misalnya untuk mutu beton K-175 bila disetarakan dengan f’c dalam SNI 03–2847–2002 menjadi f’c=
+0,83. 175.0,0981 = 14 MPa.
+6)
+Kuat tekan beton yang ditargetkan F’c adalah kuat tekan rata rata yang diharapkan dapat dicapai yang lebih besar dari F’c.
+7)
+Kadar air bebas adalah jumlah air yang dicampurkan ke dalam beton untuk mencapai konsistensi tertentu, tidak termasuk air yang terserap oleh agregat.
+8)
+Faktor air semen adalah angka perbandingsn antara berat air bebas dan berat semen dalam beton.
+9)
+Slump adalah salah satu unsur kekentalan adukan beton dinyatakan dalam mm ditentukan dergan alat kerucut Abram
+(SNI 03-1972-1990 tentang Metode Pengujian Slump Beton
+Semen Port land).
+10) Pozolan adalah bahan yang mengandung silika amorf, apabila dicampur dergan kapur dan air akan membentuk benda padat yang keras dan bahan yang tergolong pozolan adalah tras, semen merah, abu terbang dan bubukan terak tanur tinggi.
+11) Semen Portland-pozolan adalah campuran semen portland dengan pozolan artara 15%-40% berat total campuran dan kandungan SiO2 + All-O3 + FeO3 dalam pozolan minimum 70%.
+12) Bahan tambah adalan bahan yang dtambahkan pada campuran bahan pembuatan beton untuk tujuan tertentu.
+
+Persyaratan umum yang harus dipenuhi sebagai berikut:
+1) Proporsi campuran beton harus menghasilkan beton yang memenuhi persyaratan berikut:
+1. Kekentalan yang memungkinkan pengerjaan beton
+(penuangan, pemadatan, dan perataan) dengan mudah dapat mengisi acuan dan menutup permukaan secara serba sama (homogen);
+2. Keawetan;
+3. Kuat tekan;
+4. Ekonomis.
+2) Beton yang dibuat harus menggunakan bahan agregat normal tanpa bahan tambah.
+
+Pemilihan proprosi campuran beton harus dilaksanakan sebagai berikut:
+1)
+Perhitungan perencanaan campuran beton harus didasarkan pada data sifat-sifat bahan yang akan dipergunakan dalam produksi beton;
+2)
+Susunan campuran beton yang diperoleh dari perencanaan ini harus dibuktikan melalui campuran coba yang menunjukkan bahwa proporsi tersebut dapat memenuhi kekuatan beton yang disyaratkan.
+3)
+Rencana campuran beton ditentukan berdasarkan hubungan antara kuat tekan dan faktor air semen;
+4)
+Untuk beton dengan nilai fc hingga 20 MPa pelaksanaan produksinya harus didasarkan pada perbandingan berat bahan;
+5)
+Untuk beton nilai f'c hingga 20 MPa pelaksanaan produksinya boleh menggunakan perbandingan volume. Perbandingan volume bahan ini harus didasarkan pada perencanaan proporsi campuran dalam berat yang dikonversikan ke dalam volume melalui berat isi rata-rata antara gembur dan padat dari masing- masing bahan.
+
+Bahan-bahan yang digunakan dalam perencanaan harus mengkuti persyaratan berikut:
+1)
+Bila pada bagian pekerjaan konstruksi yang berbeda akan digunakan bahan yang berbeda, maka setiap proporsi campuran yang akan digunakan harus direncanakan secara terpisah;
+2)
+Bahan untuk campuran coba harus mewakili bahan yang akan digunakan dalam pekerjaan yang diusulkan.
+A. Air
+Air yang dapat digunakan dalam proses pencampuran beton menurut
+SK SNI 03-2847-2002 adalah sebagai berikut:
+1)
+Air yang digunakan pada campuran beton harus bersih dan bebas dari bahan-bahan merusak yang mengandung oli, asam, alkali, garam, bahan organik, atau bahan-bahan lainnya yang merugikan terhadap beton atau tulangan.
+2)
+Air pencampur yang digunakan pada beton prategang atau pada beton yang di dalamnya tertanam logam aluminium, termasuk air bebas yang terkandung dalam agregat, tidak boleh mengandung ion klorida dalam jumlah yang membahayakan.
+3)
+Air yang tidak dapat diminum tidak boleh digunakan pada beton, kecuali pemilihan proporsi campuran beton harus didasarkan pada campuran beton yang menggunakan air dari sumber yang sama dan hasil pengujian pada umur 7 dan 28 hari pada kubus uji mortar yang dibuat dari adukan dengan air yang tidak dapat diminum harus mempunyai kekuatan sekurang-kurangnya sama dengan 90% dari kekuatan benda uji yang dibuat dengan air yang dapat diminum. Perbandingan uji kekuatan tersebut harus dilakukan pada adukan serupa, terkecuali pada air pencampur, yang dibuat dan diuji sesuai dengan “Metode uji kuat tekan untuk mortar semen hidrolis
+(Menggunakan spesimen kubus dengan ukuran sisi 50 mm)”
+(ASTM1 C 109).
+B. Semen
+Semen harus memenuhi SNI 15-2049-1994 tentang semen Portland:
+1)
+Semen Portland Tipe I, adalah semen Portland untuk penggunaan umum tanpa persyaratan khusus.
+2)
+Semen Portand Tipe II, adalah semen Portland yang dalam penggunaannya memerlukan ketahanan terhadap sulfat dan kalor hidrasi sedang.
+
+1 ASTM: American Society for Testing and Materials
+3)
+Semen Portland Tipe III, adalah semen Portland yang dalam penggunaannya memerlukan kekuatan tinggi pada tahap permulaan setelah pengikatan terjadi.
+4)
+Semen Portland Tipe IV, adalah semen Portland yang dalam penggunaannya memerlukan kalor hidrasi rendah.
+5)
+Semen Portland Tipe V, adalah semen Portland yang dalam penggunaannya memerlukan ketahanan yang tinggi terhadap sulfat.
+C. Agregat
+Agregat merupakan material granular: pasir, krikil, batu pecah, dan kerak tungku pijar yang dipakai bersama-sama dengan suatu media pengikat untuk membentuk suatu beton atau adukan semen hidrolik (SNI 03-2847-2002, Tata Cara Perencanaan Struktur Beton
+Untuk Bangunan Gedung).
+1) Agregat Halus: Menurut SNI-03-2847-2002, agregat halus adalah pasir alam sebagai hasil disintegrasi alami batuan atau pasir yang dihasilkan oleh industri pemecah batu dan mempunyai ukuran butir terbesar 5,0 mm.
+Persyaratan agregat halus secara umum adalah sebagai berikut:
+- Agregat halus terdiri dari butir-butir tajam dan keras.
+- Butir-butir halus bersifat kekal, artinya tidak pecah atau hancur oleh pengaruh cuaca. Sifat kekal agregat halus dapat di uji dengan larutan jenuh garam. Jika dipakai natrium sulfat maksimum bagian yang hancur adalah 10% berat.
+- Agregat halus tidak boleh mengandung lumpur lebih dari 5%
+(terhadap berat kering), jika kadar lumpur melampaui 5% maka pasir harus di cuci.
+Menurut SNI 03-2461-1991, agregat halus memiliki modulus kehalusan atau finess modulus (FM) yang berada di kisaran antara 1,5 s/d 3,8.
+2) Agregat Kasar: Menurut SNI-03-2847-2002, agregat kasar adalah kerikil sebagai hasil disintegrasi alami dari batuan atau berupa batu pecah yang diperoleh dari industri pemecah batu dan mempunyai ukuran butir antara 5 mm sampai 40 mm. Dalam penggunaannya harus memenuhi syarat-syarat sebagai berikut:
+- Butir-butir keras yang tidak berpori serta bersifat kekal yang artinya tidak pecah karena pengaruh cuaca seperti sinar matahari dan hujan.
+- Tidak boleh mengandung lumpur lebih dari 1%, apabila melebihi maka harus dicuci lebih dahulu sebelum menggunakannya.
+- Tidak boleh mengandung zat yang dapat merusak batuan seperti zat-zat yang reaktif terhadap alkali.
+- Agregat kasar yang berbutir pipih hanya dapat digunakan apabila jumlahnya tidak melebihi 20% dari berat keseluruhan.
+Menurut Tjokrodimuljo (1996), sifat agregat yang paling berpengaruh terhadap kekuatan beton adalah kekasaran permukaan dan ukuran maksimumnya.
+Pada agregat dengan permukaan kasar akan terjadi ikatan yang baik antara pasta semen dengan agregat tersebut. Pada agregat berukuran besar luas permukaanya menjadi lebih sempit sehingga lekatan dengan pasta semen menjadi berkurang.
+Menurut SNI 03-2461-1991, agregat kasar memiliki modulus kehalusan atau finess modulus (FM) yang berada di kisaran antara 6,0 s/d 7,1.
+
+Gambar I.1 Agregat Kasar
+
+Perawatan beton, bertujuan untuk menjaga supaya beton tidak terlalu cepat kehilangan air, atau sebagai tindakan menjaga kelembaban dan suhu beton, segera setelah proses finishing beton selesai dan waktu total setting tercapai.
+Tujuan pelaksanaan curing/perawatan beton adalah: memastikan reaksi hidrasi senyawa semen termasuk bahan tambahan atau pengganti supaya dapat berlangsung secara optimal sehingga mutu beton yang diharapkan dapat tercapai, dan menjaga supaya tidak terjadi susut yang berlebihan pada beton akibat kehilangan kelembaban yang terlalu cepat atau tidak seragam, sehingga dapat menyebabkan retak.
+Pelaksanaan curing/perawatan beton dilakukan segera setelah beton mengalami atau memasuki fase hardening (untuk permukaan beton yang terbuka) atau setelah pembukaan cetakan/acuan/bekisting, selama durasi tertentu yang dimaksudkan untuk memastikan terjaganya kondisi yang diperlukan untuk proses reaksi senyawa kimia yang terkandung dalam campuran beton
+Agregat kasar yang baik untuk pengikatan dengan pasta dan mortar semen adalah yang bertekstur cukup kasar, bentuk bersudut banyak/kubikal, tidak pipih, bulat ataupun panjang.
+Metoda dan lama pelaksanaan curing tergantung dari:
+- Jenis atau tipe semen dan beton yang digunakan, termasuk bahan tambahan atau pengganti yang dipakai;
+- Jenis/tipe dan luasan elemen struktur yang dilaksanakan;
+- Kondisi cuaca, suhu dan kelembaban di area atau lokasi pekerjaan;
+- Penetapan nilai dan waktu yang digunakan untuk kuat tekan karakteristik beton (28 hari atau selain 28 hari, tergantung dari spesifikasi yang ditentukan oleh konsultan perencana/desain).
+Kualitas dan durasi/lama pelaksanaan curing/perawatan beton berpengaruh pada:
+- Mutu/kekuatan beton (strength);
+- Keawetan struktur beton (durability);
+- Kekedapan air beton (water-tightness);
+- Ketahanan permukaan beton, misal terhadap keausan (wear resistance).
+Beberapa peraturan menetapkan acuan pelaksanaan curing/perawatan beton, yang sama-sama bertujuan untuk menjaga dan menjamin mutu pelaksanaan pembetonan.
+Beberapa metoda yang mudah digunakan untuk curing/perawatan beton di lapangan, antara lain:
+1)
+Membasahi permukaan beton secara berkala dengan air supaya selalu lembab selama perawatan (bisa dengan sistem sprinkler supaya praktis).
+2)
+Merendam beton dengan air
+(dengan penggenangan permukaan beton).
+3)
+Membungkus beton dengan bahan yang dapat menahan penguapan air (misal plastik, dsb.)
+
+4)
+Menutup permukaan beton dengan bahan yang dapat mengurangi penguapan air dan dibasahi secara berkala (misal dengan plastik berpori atau nonwoven geotextile dan disiram secara berkala selama perawatan).
+5)
+Menggunakan material khusus untuk perawatan beton (curing compound).
+SNI 03-2847-2002 mensyaratkan curing selama:
+• 7 (tujuh) hari untuk beton normal.
+• 3 (tiga) hari untuk beton dengan kuat tekan awal tinggi.
+ACI2 318 mensyaratkan curing dilakukan: sampai tercapai min 70% kuat tekan beton yang disyaratkan (fc’)
+ASTM C-150 mensyaratkan:
+• Semen tipe I, waktu minimum curing 7 hari.
+• Semen tipe II, waktu minimum curing 10 hari.
+• Semen tipe III, waktu minimum curing 3 hari.
+• Semen tipe IV atau V minimum curing 14 hari.
+
+2 ACI: American Concrete Institute
+
+Menurut SNI-07-2052-2002, baja tulangan beton adalah baja berbentuk batang berpenampang bundar yang digunakan untuk penulangan beton, yang diproduksi dari bahan baku billet3 dengan cara canai panas (hot rolling)
+Berdasarkan bentuknya, baja tulangan beton dibedakan menjadi 2
+(dua), baja tulangan beton polos dan baja tulangan beton sirip.
+1.
+Baja tulangan beton polos, adalah baja tulangan beton berpenampang bundar dengan permukaan rata tapi tidak bersirip, disingkat BjTP
+2. Baja tulangan beton sirip (ulir), adalah baja tulangan beton dengan bentuk khusus yang permukaannya memiliki sirip melintang dan rusuk memanjang yang dimaksudkan untuk menigkatkan daya lekat dan guna menahan gerakan membujur dari batang secara relatif terhadap beton, disingkat BjTS.
+
+Syarat mutu baja tulangan beton antara lain:
+a.
+Baja tulangan beton tidak boleh mengandung serpihan, lipatan, retakan, cema (luka pd besi beton yang terjadi karena proses cenai) yang dalam dan hanya diperkenankan berkara ringan pada permukaan.
+
+3 Billet adalah baja batangan yang dibuat dari hasil pengecoran biji besi (pig iron).
+Memiliki penampang bulat atau persegi, dengan luas kurang dari 36 in² (230 cm²).
+b.
+Bentuk; Baja tulangan beton harus mempunyai sirip yang teratur. Setiap batang diperkenankan mempunyai rusuk memanjang yang sejajar dan sejajar dengan sumbu batang, serta sirip-sirip lainya dengan arah melintang sumbu batang.
+c.
+Sirip-sirip melintang sepanjang batang baja tulangan beton harus terletak pada jarak yang teratur. Serta mempunyai bentuk dan ukuran yang sama. Bila diperlukan tanda atau huruf-huruf pada permukaan baja tulangan beton, maka sirip melintang pada posisi di mana angka atau huruf dapat di abaikan.
+d.
+Sirip melintang tidak boleh membentuk sudut kurang dari 45 derajat terhadap sumbu batang, apabila membentuk sudut antara 45 sampai dengan 75 derajat, arah sirip melintang pada satu sisi atau kedua sisi dibuat berlawanan. Bila sudutnya di atas
+70 derajat arah berlawanan tidak diperlukan.
+
+a.
+Sirip/Ulir Bambu:
+
+b.
+Sirip/Ulir Curam:
+
+c.
+Sirip/Ulir Tulang Ikan:
+
+Sumber: SNI 2052:2017 Baja Tulangan Baja
+Gambar II.1 Jenis Baja Tulangan Beton Sirip/Ulir
+
+Tabel II.1 Ukuran Baja Tulangan Beton Sirip/Ulir
+
+Sumber: SNI 2052:2017 Baja Tulangan Baja
+
+Suatu konstruksi bangunan baja tersusun atas batang-batang baja yang digabung membentuk satu kesatuan bentuk konstruksi dengan menggunakan berbagai macam teknik sambungan. Adapun fungsi/tujuan sambungan baja antara lain:
+1.
+Menggabungkan beberapa batang baja membentuk kesatuan konstruksi sesuai kebutuhan.
+2.
+Mendapatkan ukuran baja sesuai kebutuhan (panjang, lebar, tebal, dan sebagainya).
+3.
+Memudahkan dalam penyetelan konstruksi baja di lapangan.
+4.
+Memudahkan penggantian bila suatu bagian/batang konstruksi mengalami rusak.
+5.
+Memberikan kemungkinan adanya bagian/batang konstruksi yang dapat bergerak, misal: peristiwa muai-susut baja akibat perubahan suhu.
+
+Berdasarkan SNI-03-2847-2002 dan ACI 318, sambungan lewatan dilakukan untuk elemen struktur yang panjang dan menerus sehingga tulangan yang dipasang memerlukan penyambungan di samping. Jenis sambungan ini merupakan yang paling umum dilakukan dalam pelaksanaan di lapangan.
+1)
+Sambungan Lewatan Dalam Kondisi Tarik
+Sambungan ini terdiri atas dua kelas, yaitu: sambungan kelas A dan sambungan kelas B. Sambungan kelas A diperbolehkan apabila dua kondisi berikut ini dapat dipenuhi:
+a.
+Luas tulangan terpasang tidak kurang dari 2 kali luas tulangan perlu dalam analisis pada keseluruhan panjang sambungan.
+Misalkan: Pada daerah sambungan diperlukan tulangan untuk menahan momen (pada umumnya tulangan tarik) sebanyak 3 buah tulangan dan yang masih terpasang atau diteruskan di dalam daerah penampang tersebut minimal 6 tulangan, maka dapat dinyatakan memenuhi satu syarat ini.
+b.
+Paling banyak 50% dari jumlah tulangan yang disambung dalam daerah panjang lewatan diperlukan apabila:
+• Dalam satu penampang pada posisi daerah yang akan disambung ada 6 buah tulangan dan yang disambung hanya maksimal 3 tulangan sedangkan yang minimal 3 sisanya menerus (sambungan untuk 3 tulangan yang lain di luar daerah sambungan lewatan perlu 3 tulangan yang disambung) maka dapat dinyatakan memenuhi satu syarat ini.
+• Sambungan yang ditempatkan berselang seling dapat dianggap di luar daerah panjang lewatan perlu jika ditempatkan pada jarak antara sambungan yang tidak segaris, yaitu a min = Ld (PBI N.I.-2 ps 8.12.2.b memberikan nilai a min = 40 db).
+
+Sumber: SNI-03-2847-2002
+Gambar II.2 Sambungan Kelas A
+
+Apabila dua kondisi tersebut tidak dipenuhi maka diklasifikasikan sebagai sambungan kelas B.
 Panjang minimum sambungan lewatan tarik (ps. 14.15.(1-2) SNI-03-
-2847-2002): 
-• Sambungan kelas A : Ls min = 1,0 Ld   dan tidak kurang dari 300 
-mm 
-• Sambungan kelas B : Ls min = 1,3 Ld   dan tidak kurang dari 300 
-mm 
-Perhitungan Ld mengikuti ketentuan yang dapat dilihat pada 
-bagian Penyaluran Tulangan Tanpa Kait dengan menghitung 
-nilainya tanpa faktor modifikasi. 
-2) 
-Sambungan Lewatan Dalam Kondisi Tekan 
+2847-2002):
+• Sambungan kelas A : Ls min = 1,0 Ld dan tidak kurang dari 300 mm
+• Sambungan kelas B : Ls min = 1,3 Ld dan tidak kurang dari 300 mm
+Perhitungan Ld mengikuti ketentuan yang dapat dilihat pada bagian Penyaluran Tulangan Tanpa Kait dengan menghitung nilainya tanpa faktor modifikasi.
+2)
+Sambungan Lewatan Dalam Kondisi Tekan
 Panjang minimum sambungan lewatan tekan (ps. 14.16.(1-2) SNI-
-03-2847-2002): 
-• Untuk fy < 400 MPa : Ls min  =  0,07 . fy . db   dan tidak kurang 
-dari 300 mm. 
-• Untuk fy > 400 MPa : Ls min  =  (0,13.fy - 24) . db   dan tidak 
-kurang dari 300 mm. 
-Di mana db adalah diameter nominal tulangan yang disambung, jika 
-terdapat perbedaan diameter tulangan nominal maka diambil nilai 
-terbesar. 
-3) 
-Sambungan Lewatan Untuk Jaring Kawat 
-Untuk jaring kawat atau wiremesh, ketentuan panjang sambungan 
-lewatan sebaiknya mengikuti ketentuan dari brosur teknis atau 
-standar gambar yang ditetapkan oleh produsen, atau jika tidak ada 
-ketentuan yang ditetapkan dapat diambil nilai yang relatif praktis dan 
-aman, yaitu Ls min sebesar 1,5 kali jarak antar kawat atau besi 
-tulangan wiremesh. 
- 
-17 
- 
-Sumber: SNI-03-2847-2002 
-Gambar II.3 Jarak antar Kawat atau  
-Besi Tulangan Wiremesh 
- 
-4) 
-Sambungan Lewatan Untuk Sengkang Spiral 
-Sambungan lewatan untuk sengkang spiral harus mengikuti 
-ketentuan pasal 9.10.4.5.a pada SNI-03-2847-2002 sebagai berikut:  
-• Sambungan lewatan yang tidak kurang dari pada nilai terbesar 
-dari 300 mm  
-• Panjang yang dihasilkan dari salah satu ketentuan-ketentuan 
-pada tebel berikut. 
- 
-Tabel II.2 Ketentuang Panjang Sambungan Lewatan 
- 
-Sumber: SNI-03-2847-2002 
- 
- 
- 
-18 
- 
-1) 
-Paku Keling 
-Paku keling (rivet) digunakan untuk sambungan tetap antara 2 plat 
-atau lebih misalnya pada tangki dan boiler. Paku keling dalam ukuran 
-yang kecil dapat digunakan untuk menyambung dua komponen yang 
-tidak membutuhkan kekuatan yang besar, misalnya peralatan rumah 
-tangga, furnitur, alat-alat elektronika, dan lain-lain. 
-Sambungan dengan paku keling sangat kuat dan tidak dapat dilepas 
-kembali dan jika dilepas maka akan terjadi kerusakan pada 
-sambungan tersebut. Karena sifatnya yang permanen, maka 
-sambungan paku keling harus dibuat sekuat mungkin untuk 
-menghindari kerusakan atau patah. 
- 
-Gambar II.4 Paku Keling 
-• 
-Bagian utama paku keling adalah: (1) Kepala; (2) Badan; (3) 
-Ekor; (4) Kepala lepas. 
-• 
-Material yang biasa digunakan antara lain adalah baja, brass, 
-aluminium, dan tembaga tergantung jenis sambungan/beban 
-yang diterima oleh sambungan.  
-• 
-Penggunaan umum bidang mesin: ductile (low carbor), steel, 
-wrought iron.  
-• 
-Penggunaan khusus: weight, corrosion, or material constraints 
-apply: copper (+alloys) aluminium (+alloys), monel, dan lain-lain. 
-• 
-Sambungan paku keling ini dibandingkan dengan sambungan 
-las mempunyai keuntungan yaitu: 
-1. Sambungan paku keling lebih sederhana dan murah untuk 
-dibuat. 
-19 
-2. Pemeriksaannya lebih mudah. 
-3. Sambungan paku keling dapat dibuka dengan memotong 
-kepala dari paku keling tersebut. 
-• 
-Bila dilihat dari bentuk pembebanannya, sambungan paku keling 
-ini dibedakan yaitu: 
-1. Pembebanan tangensial. 
-2. Pembebanan eksentrik. 
-• 
-Jenis paku keling: 
-1) Paku keling kepala mungkum / utuh 
- 
- 
- 
- 
-2) Paku keling kepala setengah terbenam 
-Paku keling untuk konstruksi baja terdapat beberapa macam 
-ukuran diameter yaitu: Ø11 mm, Ø14 mm, Ø17 mm, Ø20 mm, 
-Ø23 mm, Ø26 mm, Ø29 mm, dan Ø32 mm. 
-2) 
-Baut 
-Baut adalah alat sambung dengan batang bulat dan berulir, salah 
-satu ujungnya dibentuk kepala baut (umumnya bentuk kepala segi 
-enam) dan ujung lainnya dipasang mur/pengunci. Dalam pemakaian 
-di lapangan, baut dapat digunakan untuk membuat konstruksi 
-sambungan tetap, sambungan bergerak, maupun sambungan 
-sementara yang dapat dibongkar/dilepas kembali.  
-Bentuk uliran batang baut untuk baja bangunan pada umumnya ulir 
-segi tiga (ulir tajam) sesuai fungsinya yaitu sebagai baut pengikat. 
-Sedangkan bentuk ulir segi empat (ulir tumpul) umumnya untuk baut-
-baut penggerak atau pemindah tenaga misalnya dongkrak atau alat-
-alat permesinan yang lain. 
-1) 
-Jenis Baut 
-Baut untuk konstruksi baja bangunan dibedakan menjadi 2 jenis: 
-d = diameter paku keling (mm) 
-D = 1,6 d @ 1,8 d 
-H = 0,6 d @ 0,8 d 
-20 
-• Baut Hitam: Baut dari baja lunak (St-34) banyak dipakai untuk 
-konstruksi ringan/sedang misalnya bangunan gedung, 
-diameter lubang dan diameter batang baut memiliki 
-kelonggaran 1 mm. 
-• Baut Pass: Baut dari baja mutu tinggi (‡ St-42) dipakai untuk 
-konstruksi berat atau beban bertukar seperti jembatan jalan 
-raya, diameter lubang dan diameter batang baut relatif pass 
-yaitu kelonggaran £ 0,1 mm. 
-2) 
-Diameter Baut  
-Macam-macam ukuran diameter baut untuk konstruksi baja 
-antara lain: 
- 
- 
-Gambar II.5 Diameter Baut 
-3) 
-Bentuk Baut  
-Bentuk baut untuk baja bangunan yang umum dipakai adalah 
-dengan bentuk kepala/mur segi enam. 
-4) 
-Keunggulan Sambungan Baut  
-Keuntungan sambungan menggunakan baut antara lain: 
-• Lebih mudah dalam pemasangan/penyetelan konstruksi di 
-lapangan. 
-• Konstruksi sambungan dapat dibongkar-pasang. 
-• Dapat dipakai untuk menyambung dengan jumlah tebal baja 
-> 4d (tidak seperti paku keling dibatasi maksimum 4d). 
-• Dengan menggunakan jenis Baut Pass maka dapat 
-digunakan untuk konstruksi berat/jembatan. 
-21 
-3) 
-Ketentuan Pemasangan Paku Keling dan Baut 
-Untuk pemasangan satu deret paku keling yang menahan gaya 
-normal (tarik/tekan) dimana deretan paku keling berada pada garis 
-kerja gaya, ternyata untuk satu deret yang terdiri 5 buah paku keling 
-masing-masing paku menahan gaya relatif sama. Jadi gaya normal 
-yang harus ditahan dibagi sama rata oleh kelima paku kelingtersebut. 
-Namun jika banyaknya paku keling dalam satu deret lebih dari 5 buah 
-maka masing-masing paku keling menahan gaya yang besarnya 
-mulai tidak sama rata. Oleh karena itu, jika dalam perhitungan paku 
-keling/baut dalam konstruksi sambungan memerlukan lebih dari 5 
-buah paku/baut, maka harus dipasang dalam susunan 2 deret atau 
-lebih. 
- 
-Gambar II.6 Deret Maksimum Baut 
- 
- 
-Menyambung baja dengan las adalah menyambung dengan cara 
-memanaskan baja hingga mencapai suhu lumer (meleleh) dengan 
-ataupun tanpa bahan pengisi, yang kemudian setelah dingin akan 
-menyatu dengan baik. Dua jenis cara untuk menyambung baja 
-bangunan, meliputi: 
-1) 
-Las 
-Karbid 
-(Las 
-OTOGEN), 
-yaitu 
-pengelasan 
-yang 
-menggunakan bahan pembakar dari gas oksigen (zat asam) dan 
-gas acetylene (gas karbid). Dalam konstruksi baja las ini hanya 
-untuk pekerjaan-pekerjaan ringan atau konstruksi sekunder, 
-seperti; pagar besi, teralis dan sebagainya. 
-2) 
-Las Listrik (Las LUMER), yaitu pengelasan yang menggunakan 
-energi listrik. Untuk pengelasannya diperlukan pesawat las yang 
-22 
-dilengkapi dengan dua buah kabel, satu kabel dihubungkan 
-dengan penjepit benda kerja dan satu kabel yang lain 
-dihubungkan dengan tang penjepit batang las/elektrode las. 
-Jika elektrode las tersebut didekatkan pada benda kerja maka 
-terjadi kontak yang menimbulkan panas yang dapat melelehkan 
-baja, dan elektrode (batang las) tersebut juga ikut melebur 
-ujungnya 
-yang 
-sekaligus 
-menjadi 
-pengisi pada 
-celah 
-sambungan las. Karena elektrode/batang las ikut melebur maka 
-lama-lama habis dan harus diganti dengan elektrode yang lain. 
-Dalam perdagangan elektrode/batang las terdapat berbagai 
-ukuran diameter yaitu 21/2 mm, 31/4 mm, 4 mm, 5 mm, 6 mm, 
-dan 7 mm. 
-Untuk konstruksi baja yang bersifat struktural (memikul beban 
-konstruksi) maka sambungan las tidak diijinkan menggunakan 
-las Otogen, tetapi harus dikerjakan dengan las listrik dan harus 
-dikerjakan oleh tenaga kerja ahli yang profesional. 
-Keunggulan sambungan las listrik dibanding dengan paku 
-keling/baut meliputi: 
-• Pertemuan baja pada sambungan dapat melumer bersama 
-elektrode las dan menyatu dengan lebih kokoh (lebih 
-sempurna). 
-• Konstruksi sambungan memiliki bentuk lebih rapi. 
-• Konstruksi baja dengan sambungan las memiliki berat lebih 
-ringan. Dengan las berat sambungan hanya berkisar 1-1,5% 
-dari berat konstruksi, sedang dengan paku keling/baut 
-berkisar 2,5-4% dari berat konstruksi. 
-• Pengerjaan konstruksi relatif lebih cepat (tak perlu membuat 
-lubang-lubang paku keling/baut, tak perlu memasang 
-potongan baja siku/pelat penyambung, dan sebagainya). 
-• Luas penampang batang baja tetap utuh karena tidak 
-dilubangi, sehingga kekuatannya utuh. 
- 
-23 
-Kelemahan sambungan las: 
-• Kekuatan sambungan las sangat dipengaruhi oleh kualitas 
-pengelasan. Jika pengelasannya baik maka kekuatan 
-sambungan akan baik, tetapi jika pengelasannya jelek/tidak 
-sempurna maka kekuatan konstruksi juga tidak baik bahkan 
-membahayakan dan dapat berakibat fatal.  
-• Jika salah satu sambungan las cacat, kerusakannya lambat 
-laun akan merembet ke sambungan lainnya dan akhirnya 
-bangunan dapat runtuh yang menyebabkan kerugian materi 
-yang tidak sedikit bahkan juga korban jiwa. Oleh karena itu 
-untuk konstruksi bangunan berat seperti jembatan jalan 
-raya/kereta api di Indonesia tidak diijinkan menggunakan 
-sambungan las. 
- 
- 
-Menghitung kebutuhan besi/baja adalah hal pokok yang tidak bisa 
-dihindari, terlebih jika hal tersebut dihubungkan dengan Rencana 
-Anggaran Biaya (RAB) yang dalam satuannya adalah kilogram (kg), 
-maka hal tersebut menjadi sangat penting dan perlu adanya konversi 
-hitungan dari kilogram menjadi panjang atau batang (lonjoran) 
-demikian juga sebaliknya. Kondisi ini yang sering menjadi kendala 
-pada saat akan belanja/membeli kebutuhan besi/baja di toko. 
-Kebanyakan pelaksana di lapangan lebih memilih untuk mencari 
-ukuran berat besi dengan melihat tabel yang sudah ada, dengan 
-alasan lebih praktis, cepat dan tepat. Namun demikian daftar yang 
-ada dalam tabel yang menjadi referensi harus sesuai dengan SNI 
-agar dapat dipertanggungjawabkan. 
-Perumusan praktis untuk menghitung berat besi 
-Secara umum rumus untuk menghitung berat besi, adalah sebagai 
-berikut: 
- 
- 
-24 
-Vb x Bjb = … Kg 
- 
-Keterangan:  
- 
-Vb    
-= Volume besi (m³) 
-Bjb  
-= Berat jenis besi = 7.850 (kg/m³) 
- 
-Contoh: 
-1. 
-Perhitungan Berat Pelat Besi 
-Ukuran (1 m x 1 m) dengan tebal pelat 1mm 
-Berat Besi = (1 x 1 x 0,001) m³ x 7.850 kg/m³ 
- 
- = 7,85 kg 
-2. 
-Perhitungan Berat Pelat Besi 
-Ukuran (25 cm x 30 cm) tebal pelat 12 mm 
-Berat Besi = (0,25 x 0,30 x 0,012) m³ x 7.850 kg/m³ 
- 
- = 7,065 kg 
-3. 
-Perhitungan Berat Besi Tulangan 
-Berat besi tulangan diameter 16 dengan panjang 12 meter 
-Luas penampang Ø16  = ¼ (π) d² 
-= ¼ (3,14) (0,016)² 
-= 0,00020096 m² 
-Volume Ø16 = (luas penampang) x (panjang batang) 
-= (0,00020096) x (12) 
-= 0,00241152 m³ 
-Berat besi Ø16 = Volume x Berat Jenis 
-= 0,00241152 m³ x 7.850 kg/m³ 
-= 18,93 kg 
-Jadi berat besi tulangan Ø16 adalah 18,93 kg. 
-Untuk menghitung berat besi tulangan dapat juga dengan 
-menggunakan rumus yang lebih praktis sebagai berikut: 
- 
- 
- 
-25 
-Berat Besi Tulangan 
-= 0,006165 x d² x l  → (kg) 
- 
-Keterangan: 
-d = diameter tulangan  
- 
-L = panjang besi tulangan  
-Contoh:  
-Perhitungan berat besi tulangan diameter 16 dengan panjang 12 
-meter 
-Berat besi Ø16 
-= 0,006165 x d² x l 
- 
- 
-= 0,006165 x 16² x 12 
- 
- 
-= 18,94 kg  
-Jadi berat besi Ø16, jika disandingkan hasilnya antara rumus 
-kedua dan pertama adalah sama dengan 18,94 kg ≈ 18,93 kg 
-Dengan mengetahui berat besi, maka akan sangat membantu 
-dalam mengestimasikan harga yang akurat dan menekan biaya 
-yang tidak perlu, hal ini dikarenakan harga besi beton yang realtif 
-tidak stabil (naik turun). 
-Patokan standar berat besi beton merupakan besi SNI dengan 
-diameter full dengan toleransi 0,01 mm sampai 0,02 mm. Jika 
-toleransi di atas 0,08 mm berati besi beton tersebut merupakan 
-besi beton banci. Besi beton banci adalah sebutan untuk besi 
-beton murah yang memiliki ukuran, spesifikasi dan kualitas yang 
-tidak sesuai dengan kriteria SNI 2052:2017 Baja Tulangan Baja 
-(Standar Nasional Indonesia). 
- 
- 
-Besi pada konstruksi beton bertulang berfungsi sebagai penahan 
-tegangan tarik, dikarenakan beton hanya kuat terhadap gaya tekan. 
-Sebelum melaksanakan pekerjaan beton bertulang terlebih dahulu 
-menghitung kebutuhan volume material besi baja beton sehingga 
-dapat dipersiapkan sebelumnya dengan jumlah yang tepat. 
-26 
-Secara praktis cara menghitung volume besi baja beton bertulang 
-adalah sebagaimana contoh berikut. 
-1. 
-Sebuah pekerjaan kolom beton bertulang ukuran 20 cm x 30 cm 
-setinggi 6 meter dengan gambar potongan sebagai berikut: 
- 
-Penyelesaian: 
-Menghitung kebutuhan besi baja tulangan pokok:  
- 
-• Volume besi baja D10 adalah 4 bh x 6 m = 24 m 
-• Jika besi baja per batang di pasaran adalah 11 meter, maka 
-kebutuhan besi baja adalah 24 m: 11 m = 2,18 buah (panjang 
-besi baja di pasaran per batang ada yang 11 m dan ada juga 
-yang 12 m) 
-• Berat per m¹ besi D10 adalah 0,617 kg, maka total kebutuhan 
-besi baja D10 adalah 0,617 kg/m x 24 m = 14,808 kg 
-Menghitung kebutuhan besi tulangan sengkang atau cincin: 
-• Panjang 
-tulangan 
-sengkang 
-per 
-buah 
-adalah 
-(25+15+25+15+5+5) = 90 cm = 0,9 m 
-• Jumlah tulangan sengkang pada kolom setinggi 6 m, dengan 
-jarak 15 cm adalah 6 : 0,15 = 40 buah besi baja tulangan 
-sengkang 
-• Total panjang tulangan sengkang adalah 40 bh x 0,9 m = 36 
-m 
-27 
-• Jika panjang besi baja per buah dipasaran 11 m, maka 
-kebutuhan besi baja tulangan sengkang, adalah 36 : 11 = 
-3,27 buah (batang) 
-• Berat besi baja per kg besi baja D8 adalah 0,395 kg/m, maka 
-jumlah kebutuhan besi baja tulangan sengkang adalah 0,395 
-kg/m x 36 m = 14,22 kg 
-Dari perhitungan di atas, maka kebutuhan besi tulangannya 
-adalah: 
-• Besi baja D10 = 2,18 batang = 14,808 kg 
-• Besi baja D8 = 3,27 batang = 14,22 kg 
-• Volume beton = 0,2 x 0,3 x 6 = 0,36 m³ 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-28 
-_________________ 
- 
- 
-PENGARAH 
-J. Wahyu Kusumosusanto 
- 
-KONTRIBUTOR 
-Valentina 
-Winda Laksana 
-Haris Pujogiri 
-Aris M. Budiawan 
-Eko Priantono 
-Roofy Reizkapuni 
-Ade Prasetyo K. 
-Iriyanti Najamuddin 
-Azwar Aswad Harahap 
-Pipit Prayogo 
-Alifiah Devi Rahmawati 
- 
- 
-Diterbitkan oleh 
-Kementerian Pekerjaan Umum Dan Perumahan Rakyat 
-Direktorat Jenderal Cipta Karya 
-Direktorat Pengembangan Kawasan Permukiman 
- 
- 
-29 
- 
- 
-              
+03-2847-2002):
+• Untuk fy < 400 MPa : Ls min = 0,07 . fy . db dan tidak kurang dari 300 mm.
+• Untuk fy > 400 MPa : Ls min = (0,13.fy - 24) . db dan tidak kurang dari 300 mm.
+Di mana db adalah diameter nominal tulangan yang disambung, jika terdapat perbedaan diameter tulangan nominal maka diambil nilai terbesar.
+3)
+Sambungan Lewatan Untuk Jaring Kawat
+Untuk jaring kawat atau wiremesh, ketentuan panjang sambungan lewatan sebaiknya mengikuti ketentuan dari brosur teknis atau standar gambar yang ditetapkan oleh produsen, atau jika tidak ada ketentuan yang ditetapkan dapat diambil nilai yang relatif praktis dan aman, yaitu Ls min sebesar 1,5 kali jarak antar kawat atau besi tulangan wiremesh.
+
+Sumber: SNI-03-2847-2002
+Gambar II.3 Jarak antar Kawat atau
+Besi Tulangan Wiremesh
+
+4)
+Sambungan Lewatan Untuk Sengkang Spiral
+Sambungan lewatan untuk sengkang spiral harus mengikuti ketentuan pasal 9.10.4.5.a pada SNI-03-2847-2002 sebagai berikut:
+• Sambungan lewatan yang tidak kurang dari pada nilai terbesar dari 300 mm
+• Panjang yang dihasilkan dari salah satu ketentuan-ketentuan pada tebel berikut.
+
+Tabel II.2 Ketentuang Panjang Sambungan Lewatan
+
+Sumber: SNI-03-2847-2002
+
+1)
+Paku Keling
+Paku keling (rivet) digunakan untuk sambungan tetap antara 2 plat atau lebih misalnya pada tangki dan boiler. Paku keling dalam ukuran yang kecil dapat digunakan untuk menyambung dua komponen yang tidak membutuhkan kekuatan yang besar, misalnya peralatan rumah tangga, furnitur, alat-alat elektronika, dan lain-lain.
+Sambungan dengan paku keling sangat kuat dan tidak dapat dilepas kembali dan jika dilepas maka akan terjadi kerusakan pada sambungan tersebut. Karena sifatnya yang permanen, maka sambungan paku keling harus dibuat sekuat mungkin untuk menghindari kerusakan atau patah.
+
+Gambar II.4 Paku Keling
+•
+Bagian utama paku keling adalah: (1) Kepala; (2) Badan; (3)
+Ekor; (4) Kepala lepas.
+•
+Material yang biasa digunakan antara lain adalah baja, brass, aluminium, dan tembaga tergantung jenis sambungan/beban yang diterima oleh sambungan.
+•
+Penggunaan umum bidang mesin: ductile (low carbor), steel, wrought iron.
+•
+Penggunaan khusus: weight, corrosion, or material constraints apply: copper (+alloys) aluminium (+alloys), monel, dan lain-lain.
+•
+Sambungan paku keling ini dibandingkan dengan sambungan las mempunyai keuntungan yaitu:
+1. Sambungan paku keling lebih sederhana dan murah untuk dibuat.
+2. Pemeriksaannya lebih mudah.
+3. Sambungan paku keling dapat dibuka dengan memotong kepala dari paku keling tersebut.
+•
+Bila dilihat dari bentuk pembebanannya, sambungan paku keling ini dibedakan yaitu:
+1. Pembebanan tangensial.
+2. Pembebanan eksentrik.
+•
+Jenis paku keling:
+1) Paku keling kepala mungkum / utuh
+
+2) Paku keling kepala setengah terbenam
+Paku keling untuk konstruksi baja terdapat beberapa macam ukuran diameter yaitu: Ø11 mm, Ø14 mm, Ø17 mm, Ø20 mm,
+Ø23 mm, Ø26 mm, Ø29 mm, dan Ø32 mm.
+2)
+Baut
+Baut adalah alat sambung dengan batang bulat dan berulir, salah satu ujungnya dibentuk kepala baut (umumnya bentuk kepala segi enam) dan ujung lainnya dipasang mur/pengunci. Dalam pemakaian di lapangan, baut dapat digunakan untuk membuat konstruksi sambungan tetap, sambungan bergerak, maupun sambungan sementara yang dapat dibongkar/dilepas kembali.
+Bentuk uliran batang baut untuk baja bangunan pada umumnya ulir segi tiga (ulir tajam) sesuai fungsinya yaitu sebagai baut pengikat.
+Sedangkan bentuk ulir segi empat (ulir tumpul) umumnya untuk baut- baut penggerak atau pemindah tenaga misalnya dongkrak atau alat- alat permesinan yang lain.
+1)
+Jenis Baut
+Baut untuk konstruksi baja bangunan dibedakan menjadi 2 jenis:
+d = diameter paku keling (mm)
+D = 1,6 d @ 1,8 d
+H = 0,6 d @ 0,8 d
+• Baut Hitam: Baut dari baja lunak (St-34) banyak dipakai untuk konstruksi ringan/sedang misalnya bangunan gedung, diameter lubang dan diameter batang baut memiliki kelonggaran 1 mm.
+• Baut Pass: Baut dari baja mutu tinggi (‡ St-42) dipakai untuk konstruksi berat atau beban bertukar seperti jembatan jalan raya, diameter lubang dan diameter batang baut relatif pass yaitu kelonggaran £ 0,1 mm.
+2)
+Diameter Baut
+Macam-macam ukuran diameter baut untuk konstruksi baja antara lain:
+
+Gambar II.5 Diameter Baut
+3)
+Bentuk Baut
+Bentuk baut untuk baja bangunan yang umum dipakai adalah dengan bentuk kepala/mur segi enam.
+4)
+Keunggulan Sambungan Baut
+Keuntungan sambungan menggunakan baut antara lain:
+• Lebih mudah dalam pemasangan/penyetelan konstruksi di lapangan.
+• Konstruksi sambungan dapat dibongkar-pasang.
+• Dapat dipakai untuk menyambung dengan jumlah tebal baja
+> 4d (tidak seperti paku keling dibatasi maksimum 4d).
+• Dengan menggunakan jenis Baut Pass maka dapat digunakan untuk konstruksi berat/jembatan.
+3)
+Ketentuan Pemasangan Paku Keling dan Baut
+Untuk pemasangan satu deret paku keling yang menahan gaya normal (tarik/tekan) dimana deretan paku keling berada pada garis kerja gaya, ternyata untuk satu deret yang terdiri 5 buah paku keling masing-masing paku menahan gaya relatif sama. Jadi gaya normal yang harus ditahan dibagi sama rata oleh kelima paku kelingtersebut.
+Namun jika banyaknya paku keling dalam satu deret lebih dari 5 buah maka masing-masing paku keling menahan gaya yang besarnya mulai tidak sama rata. Oleh karena itu, jika dalam perhitungan paku keling/baut dalam konstruksi sambungan memerlukan lebih dari 5 buah paku/baut, maka harus dipasang dalam susunan 2 deret atau lebih.
+
+Gambar II.6 Deret Maksimum Baut
+
+Menyambung baja dengan las adalah menyambung dengan cara memanaskan baja hingga mencapai suhu lumer (meleleh) dengan ataupun tanpa bahan pengisi, yang kemudian setelah dingin akan menyatu dengan baik. Dua jenis cara untuk menyambung baja bangunan, meliputi:
+1)
+Las
+Karbid
+(Las
+OTOGEN), yaitu pengelasan yang menggunakan bahan pembakar dari gas oksigen (zat asam) dan gas acetylene (gas karbid). Dalam konstruksi baja las ini hanya untuk pekerjaan-pekerjaan ringan atau konstruksi sekunder, seperti; pagar besi, teralis dan sebagainya.
+2)
+Las Listrik (Las LUMER), yaitu pengelasan yang menggunakan energi listrik. Untuk pengelasannya diperlukan pesawat las yang dilengkapi dengan dua buah kabel, satu kabel dihubungkan dengan penjepit benda kerja dan satu kabel yang lain dihubungkan dengan tang penjepit batang las/elektrode las.
+Jika elektrode las tersebut didekatkan pada benda kerja maka terjadi kontak yang menimbulkan panas yang dapat melelehkan baja, dan elektrode (batang las) tersebut juga ikut melebur ujungnya yang sekaligus menjadi pengisi pada celah sambungan las. Karena elektrode/batang las ikut melebur maka lama-lama habis dan harus diganti dengan elektrode yang lain.
+Dalam perdagangan elektrode/batang las terdapat berbagai ukuran diameter yaitu 21/2 mm, 31/4 mm, 4 mm, 5 mm, 6 mm, dan 7 mm.
+Untuk konstruksi baja yang bersifat struktural (memikul beban konstruksi) maka sambungan las tidak diijinkan menggunakan las Otogen, tetapi harus dikerjakan dengan las listrik dan harus dikerjakan oleh tenaga kerja ahli yang profesional.
+Keunggulan sambungan las listrik dibanding dengan paku keling/baut meliputi:
+• Pertemuan baja pada sambungan dapat melumer bersama elektrode las dan menyatu dengan lebih kokoh (lebih sempurna).
+• Konstruksi sambungan memiliki bentuk lebih rapi.
+• Konstruksi baja dengan sambungan las memiliki berat lebih ringan. Dengan las berat sambungan hanya berkisar 1-1,5% dari berat konstruksi, sedang dengan paku keling/baut berkisar 2,5-4% dari berat konstruksi.
+• Pengerjaan konstruksi relatif lebih cepat (tak perlu membuat lubang-lubang paku keling/baut, tak perlu memasang potongan baja siku/pelat penyambung, dan sebagainya).
+• Luas penampang batang baja tetap utuh karena tidak dilubangi, sehingga kekuatannya utuh.
+
+Kelemahan sambungan las:
+• Kekuatan sambungan las sangat dipengaruhi oleh kualitas pengelasan. Jika pengelasannya baik maka kekuatan sambungan akan baik, tetapi jika pengelasannya jelek/tidak sempurna maka kekuatan konstruksi juga tidak baik bahkan membahayakan dan dapat berakibat fatal.
+• Jika salah satu sambungan las cacat, kerusakannya lambat laun akan merembet ke sambungan lainnya dan akhirnya bangunan dapat runtuh yang menyebabkan kerugian materi yang tidak sedikit bahkan juga korban jiwa. Oleh karena itu untuk konstruksi bangunan berat seperti jembatan jalan raya/kereta api di Indonesia tidak diijinkan menggunakan sambungan las.
+
+Menghitung kebutuhan besi/baja adalah hal pokok yang tidak bisa dihindari, terlebih jika hal tersebut dihubungkan dengan Rencana
+Anggaran Biaya (RAB) yang dalam satuannya adalah kilogram (kg), maka hal tersebut menjadi sangat penting dan perlu adanya konversi hitungan dari kilogram menjadi panjang atau batang (lonjoran) demikian juga sebaliknya. Kondisi ini yang sering menjadi kendala pada saat akan belanja/membeli kebutuhan besi/baja di toko.
+Kebanyakan pelaksana di lapangan lebih memilih untuk mencari ukuran berat besi dengan melihat tabel yang sudah ada, dengan alasan lebih praktis, cepat dan tepat. Namun demikian daftar yang ada dalam tabel yang menjadi referensi harus sesuai dengan SNI agar dapat dipertanggungjawabkan.
+Perumusan praktis untuk menghitung berat besi
+Secara umum rumus untuk menghitung berat besi, adalah sebagai berikut:
+
+Vb x Bjb = … Kg
+
+Keterangan:
+
+Vb
+= Volume besi (m³)
+Bjb
+= Berat jenis besi = 7.850 (kg/m³)
+
+Contoh:
+1.
+Perhitungan Berat Pelat Besi
+Ukuran (1 m x 1 m) dengan tebal pelat 1mm
+Berat Besi = (1 x 1 x 0,001) m³ x 7.850 kg/m³
+
+= 7,85 kg
+2.
+Perhitungan Berat Pelat Besi
+Ukuran (25 cm x 30 cm) tebal pelat 12 mm
+Berat Besi = (0,25 x 0,30 x 0,012) m³ x 7.850 kg/m³
+
+= 7,065 kg
+3.
+Perhitungan Berat Besi Tulangan
+Berat besi tulangan diameter 16 dengan panjang 12 meter
+Luas penampang Ø16 = _ (π) d²
+= _ (3,14) (0,016)²
+= 0,00020096 m²
+Volume Ø16 = (luas penampang) x (panjang batang)
+= (0,00020096) x (12)
+= 0,00241152 m³
+Berat besi Ø16 = Volume x Berat Jenis
+= 0,00241152 m³ x 7.850 kg/m³
+= 18,93 kg
+Jadi berat besi tulangan Ø16 adalah 18,93 kg.
+Untuk menghitung berat besi tulangan dapat juga dengan menggunakan rumus yang lebih praktis sebagai berikut:
+
+Berat Besi Tulangan
+= 0,006165 x d² x l → (kg)
+
+Keterangan:
+d = diameter tulangan
+
+L = panjang besi tulangan
+Contoh:
+Perhitungan berat besi tulangan diameter 16 dengan panjang 12 meter
+Berat besi Ø16
+= 0,006165 x d² x l
+
+= 0,006165 x 16² x 12
+
+= 18,94 kg
+Jadi berat besi Ø16, jika disandingkan hasilnya antara rumus kedua dan pertama adalah sama dengan 18,94 kg ≈ 18,93 kg
+Dengan mengetahui berat besi, maka akan sangat membantu dalam mengestimasikan harga yang akurat dan menekan biaya yang tidak perlu, hal ini dikarenakan harga besi beton yang realtif tidak stabil (naik turun).
+Patokan standar berat besi beton merupakan besi SNI dengan diameter full dengan toleransi 0,01 mm sampai 0,02 mm. Jika toleransi di atas 0,08 mm berati besi beton tersebut merupakan besi beton banci. Besi beton banci adalah sebutan untuk besi beton murah yang memiliki ukuran, spesifikasi dan kualitas yang tidak sesuai dengan kriteria SNI 2052:2017 Baja Tulangan Baja
+(Standar Nasional Indonesia).
+
+Besi pada konstruksi beton bertulang berfungsi sebagai penahan tegangan tarik, dikarenakan beton hanya kuat terhadap gaya tekan.
+Sebelum melaksanakan pekerjaan beton bertulang terlebih dahulu menghitung kebutuhan volume material besi baja beton sehingga dapat dipersiapkan sebelumnya dengan jumlah yang tepat.
+Secara praktis cara menghitung volume besi baja beton bertulang adalah sebagaimana contoh berikut.
+1.
+Sebuah pekerjaan kolom beton bertulang ukuran 20 cm x 30 cm setinggi 6 meter dengan gambar potongan sebagai berikut:
+
+Penyelesaian:
+Menghitung kebutuhan besi baja tulangan pokok:
+
+• Volume besi baja D10 adalah 4 bh x 6 m = 24 m
+• Jika besi baja per batang di pasaran adalah 11 meter, maka kebutuhan besi baja adalah 24 m: 11 m = 2,18 buah (panjang besi baja di pasaran per batang ada yang 11 m dan ada juga yang 12 m)
+• Berat per m¹ besi D10 adalah 0,617 kg, maka total kebutuhan besi baja D10 adalah 0,617 kg/m x 24 m = 14,808 kg
+Menghitung kebutuhan besi tulangan sengkang atau cincin:
+• Panjang tulangan sengkang per buah adalah
+(25+15+25+15+5+5) = 90 cm = 0,9 m
+• Jumlah tulangan sengkang pada kolom setinggi 6 m, dengan jarak 15 cm adalah 6 : 0,15 = 40 buah besi baja tulangan sengkang
+• Total panjang tulangan sengkang adalah 40 bh x 0,9 m = 36 m
+• Jika panjang besi baja per buah dipasaran 11 m, maka kebutuhan besi baja tulangan sengkang, adalah 36 : 11 =
+3,27 buah (batang)
+• Berat besi baja per kg besi baja D8 adalah 0,395 kg/m, maka jumlah kebutuhan besi baja tulangan sengkang adalah 0,395 kg/m x 36 m = 14,22 kg
+Dari perhitungan di atas, maka kebutuhan besi tulangannya adalah:
+• Besi baja D10 = 2,18 batang = 14,808 kg
+• Besi baja D8 = 3,27 batang = 14,22 kg
+• Volume beton = 0,2 x 0,3 x 6 = 0,36 m³
+
+_________________
+
+PENGARAH
+J. Wahyu Kusumosusanto
+
+KONTRIBUTOR
+Valentina
+Winda Laksana
+Haris Pujogiri
+Aris M. Budiawan
+Eko Priantono
+Roofy Reizkapuni
+Ade Prasetyo K.
+Iriyanti Najamuddin
+Azwar Aswad Harahap
+Pipit Prayogo
+Alifiah Devi Rahmawati
+
+Diterbitkan oleh
+Kementerian Pekerjaan Umum Dan Perumahan Rakyat
+Direktorat Jenderal Cipta Karya
+Direktorat Pengembangan Kawasan Permukiman

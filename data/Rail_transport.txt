@@ -1,0 +1,771 @@
+A train in Alaska transporting crude oil in
+March 2006
+Rail transport
+Rail transport (also known as train transport) is a means of transport using wheeled vehicles running on tracks, which usually consist of two parallel steel rails.[1] Rail transport is one of the two primary means of land transport, next to road transport. It is used for about 8% of passenger and freight transport globally,[2] thanks to its energy efficiency[2] and potentially high speed. Additionally, the track spreads the weight of the train which means larger amounts can be carried than with trucks on roads.
+Rolling stock on rails generally encounters lower frictional resistance than rubber-tyred road vehicles, allowing rail cars to be coupled into longer trains. Power is usually provided by diesel or electric locomotives. While railway transport is capital-intensive and less flexible than road transport, it can carry heavy loads of passengers and cargo with greater energy efficiency and safety.[a]
+Precursors of railways driven by human or animal power, have existed since antiquity, but modern rail transport began with the invention of the steam locomotive in the United Kingdom at the beginning of the
+19th century. The first passenger railway, the Stockton and Darlington Railway, opened in 1825. The quick spread of railways throughout Europe and North America, following the 1830 opening of the first intercity connection in England, was a key component of the Industrial Revolution. The adoption of rail transport lowered shipping costs compared to transport by water or wagon, and led to "national markets" in which prices varied less from city to city.[3][4][5][6][7][8]
+Railroads not only increased the speed of transport, they also dramatically lowered its cost. For example, the first transcontinental railroad in the United States resulted in passengers and freight being able to cross the country in a matter of days instead of months and at one tenth the cost of stagecoach or wagon transport. With economical transportation in the West (which had been referred to as the Great American
+Desert), now farming, ranching and mining could be done at a profit. As a result, railroads transformed the country, particularly the West (which had few navigable rivers).[9][10][11][12][13][14]
+In the 1880s, railway electrification began with tramways and rapid transit systems. Starting in the 1940s, steam locomotives were replaced by diesel locomotives. The first high-speed railway system was introduced in Japan in 1964, and high-speed rail lines now connect many cities in Europe, East Asia, and the eastern United States. Following some decline due to competition from cars and aeroplanes, rail transport has had a revival in recent decades due to road congestion and rising fuel prices, as well as governments investing in rail as a means of reducing CO2 emissions.
+A 16th-century mine-cart, an early example of un-powered rail transport, used man power to operate.
+Smooth, durable road surfaces have been made for wheeled vehicles since prehistoric times. In some cases, they were narrow and in pairs to support only the wheels. That is, they were wagonways or tracks.
+Some had grooves or flanges or other mechanical means to keep the wheels on track.
+For example, evidence indicates that a 6 to 8.5 km long Diolkos paved trackway transported boats across the Isthmus of Corinth in Greece from around 600 BC. The Diolkos was in use for over 650 years, until at least the 1st century AD.[15] Paved trackways were also later built in Roman Egypt.[16]
+In 1515, Cardinal Matthäus Lang wrote a description of the
+Reisszug, a funicular railway at the Hohensalzburg Fortress in
+Austria. The line originally used wooden rails and a hemp haulage rope and was operated by human or animal power, through a treadwheel.[17] The line is still operational, although in updated form and is possibly the oldest operational railway.[18]
+Wagonways (or tramways) using wooden rails, hauled by horses, started appearing in the 1550s to facilitate the transport of ore tubs to and from mines and soon became popular in Europe. Such an operation was illustrated in
+Germany in 1556 by Georgius Agricola in his work De re metallica.[19] This line used "Hund" carts with unflanged wheels running on wooden planks and a vertical pin on the truck fitting into the gap between the planks to keep it going the right way. The miners called the wagons Hunde ("dogs") from the noise they made on the tracks.[20]
+There are many references to their use in central Europe in the 16th century.[21] Such a transport system was later used by German miners at Caldbeck, Cumbria, England, perhaps from the 1560s.[22] A wagonway was built at Prescot, near Liverpool, sometime around 1600, possibly as early as 1594. Owned by Philip Layton, the line carried coal from a pit near Prescot Hall to a terminus about one-half mile
+(800 m) away.[23] A funicular railway was also made at Broseley in Shropshire some time before 1604.
+This carried coal for James Clifford from his mines down to the River Severn to be loaded onto barges and carried to riverside towns.[24] The Wollaton Wagonway, completed in 1604 by Huntingdon
+Beaumont, has sometimes erroneously been cited as the earliest British railway. It ran from Strelley to
+Wollaton near Nottingham.[25]
+The Middleton Railway in Leeds, which was built in 1758, later became the world's oldest operational railway (other than funiculars), albeit now in an upgraded form. In 1764, the first railway in the Americas was built in Lewiston, New York.[26]
+History
+Pre-steam modern systems
+Wooden rails introduced
+A replica of a "Little Eaton Tramway" wagon, 1795; the tracks are plateways.
+A cast iron fishbelly edge rail manufactured by Outram at the Butterley
+Company for the Cromford and High
+Peak Railway in 1831; these are smooth edge rails for wheels with flanges.
+In the late 1760s, the Coalbrookdale Company began to fix plates of cast iron to the upper surface of the wooden rails.
+This allowed a variation of gauge to be used. At first only balloon loops could be used for turning, but later, movable points were taken into use that allowed for switching.[27]
+A system was introduced in which unflanged wheels ran on
+L-shaped metal plates, which came to be known as plateways.
+John Curr, a Sheffield colliery manager, invented this flanged rail in 1787, though the exact date of this is disputed. The plate rail was taken up by Benjamin Outram for wagonways serving his canals, manufacturing them at his Butterley ironworks. In 1803, William Jessop opened the Surrey Iron
+Railway, a double track plateway, erroneously sometimes cited as world's first public railway, in south London.[28]
+William Jessop had earlier used a form of all-iron edge rail and flanged wheels successfully for an extension to the
+Charnwood Forest Canal at Nanpantan, Loughborough,
+Leicestershire in 1789. In 1790, Jessop and his partner
+Outram began to manufacture edge rails. Jessop became a partner in the Butterley Company in 1790. The first public edgeway (thus also first public railway) built was Lake Lock
+Rail Road in 1796. Although the primary purpose of the line was to carry coal, it also carried passengers.
+These two systems of constructing iron railways, the "L" plate-rail and the smooth edge-rail, continued to exist side by side until well into the early 19th century.
+The flanged wheel and edge-rail eventually proved its superiority and became the standard for railways.
+Cast iron used in rails proved unsatisfactory because it was brittle and broke under heavy loads. The wrought iron invented by John Birkinshaw in 1820 replaced cast iron. Wrought iron, usually simply referred to as "iron", was a ductile material that could undergo considerable deformation before breaking, making it more suitable for iron rails. But iron was expensive to produce until Henry Cort patented the puddling process in 1784. In 1783 Cort also patented the rolling process, which was 15 times faster at consolidating and shaping iron than hammering.[29] These processes greatly lowered the cost of producing iron and rails. The next important development in iron production was hot blast developed by
+James Beaumont Neilson (patented 1828), which considerably reduced the amount of coke (fuel) or charcoal needed to produce pig iron.[30] Wrought iron was a soft material that contained slag or dross.
+The softness and dross tended to make iron rails distort and delaminate and they lasted less than 10 years.
+Sometimes they lasted as little as one year under high traffic. All these developments in the production of iron eventually led to the replacement of composite wood/iron rails with superior all-iron rails. The introduction of the Bessemer process, enabling steel to be made inexpensively, led to the era of great expansion of railways that began in the late 1860s. Steel rails lasted several times longer than iron.[31][32][33] Steel rails made heavier locomotives possible, allowing for longer trains and improving the productivity of railroads.[34] The Bessemer process introduced nitrogen into the steel, which caused
+Metal rails introduced
+A replica of Trevithick's steam engine at the National Waterfront Museum in
+Swansea, Wales the steel to become brittle with age. The open hearth furnace began to replace the Bessemer process near the end of the 19th century, improving the quality of steel and further reducing costs. Thus steel completely replaced the use of iron in rails, becoming standard for all railways.
+The first passenger horsecar or tram, Swansea and Mumbles Railway, was opened between Swansea and
+Mumbles in Wales in 1807.[35] Horses remained the preferable mode for tram transport even after the arrival of steam engines until the end of the 19th century, because they were cleaner compared to steam- driven trams which caused smoke in city streets.
+In 1784, James Watt, a Scottish inventor and mechanical engineer, patented a design for a steam locomotive. Watt had improved the steam engine of Thomas Newcomen, hitherto used to pump water out of mines, and developed a reciprocating engine in 1769 capable of powering a wheel.
+This was a large stationary engine, powering cotton mills and a variety of machinery; the state of boiler technology necessitated the use of low-pressure steam acting upon a vacuum in the cylinder, which required a separate condenser and an air pump. Nevertheless, as the construction of boilers improved, Watt investigated the use of high-pressure steam acting directly upon a piston, raising the possibility of a smaller engine that might be used to power a vehicle.
+Following his patent, Watt's employee William Murdoch produced a working model of a self-propelled steam carriage in that year.[36]
+The first full-scale working railway steam locomotive was built in the United Kingdom in 1804 by
+Richard Trevithick, a British engineer born in Cornwall. This used high-pressure steam to drive the engine by one power stroke. The transmission system employed a large flywheel to even out the action of the piston rod. On 21 February 1804, the world's first steam-powered railway journey took place when
+Trevithick's unnamed steam locomotive hauled a train along the tramway of the Penydarren ironworks, near Merthyr Tydfil in South Wales.[37][38] Trevithick later demonstrated a locomotive operating upon a piece of circular rail track in Bloomsbury, London, the Catch Me Who Can, but never got beyond the experimental stage with railway locomotives, not least because his engines were too heavy for the cast- iron plateway track then in use.[39]
+The first commercially successful steam locomotive was Matthew Murray's rack locomotive Salamanca built for the Middleton Railway in Leeds in 1812. This twin-cylinder locomotive was light enough to not break the edge-rails track and solved the problem of adhesion by a cog-wheel using teeth cast on the side of one of the rails. Thus it was also the first rack railway.
+This was followed in 1813 by the locomotive Puffing Billy built by Christopher Blackett and William
+Hedley for the Wylam Colliery Railway, the first successful locomotive running by adhesion only. This was accomplished by the distribution of weight between a number of wheels. Puffing Billy is now on display in the Science Museum in London, and is the oldest locomotive in existence.[40][41]
+Steam power introduced
+Lichterfelde tram, 1882
+In 1814, George Stephenson, inspired by the early locomotives of Trevithick, Murray and Hedley, persuaded the manager of the Killingworth colliery where he worked to allow him to build a steam- powered machine. Stephenson played a pivotal role in the development and widespread adoption of the steam locomotive. His designs considerably improved on the work of the earlier pioneers. He built the locomotive Blücher, also a successful flanged-wheel adhesion locomotive. In 1825 he built the locomotive Locomotion for the Stockton and Darlington Railway in the northeast of England, which became the first public steam railway in the world in 1825, although it used both horse power and steam power on different runs. In 1829, he built the locomotive Rocket, which entered in and won the Rainhill
+Trials. This success led to Stephenson establishing his company as the pre-eminent builder of steam locomotives for railways in Great Britain and Ireland, the United States, and much of Europe.[42]: 24–30
+The first public railway which used only steam locomotives, all the time, was Liverpool and Manchester
+Railway, built in 1830.[43]
+Steam power continued to be the dominant power system in railways around the world for more than a century.
+The first known electric locomotive was built in 1837 by chemist Robert Davidson of Aberdeen in Scotland, and it was powered by galvanic cells (batteries). Thus it was also the earliest battery-electric locomotive. Davidson later built a larger locomotive named Galvani, exhibited at the Royal
+Scottish Society of Arts Exhibition in 1841. The seven-ton vehicle had two direct-drive reluctance motors, with fixed electromagnets acting on iron bars attached to a wooden cylinder on each axle, and simple commutators. It hauled a load of six tons at four miles per hour (6 kilometres per hour) for a distance of one and a half miles (2.4 kilometres). It was tested on the Edinburgh and Glasgow
+Railway in September of the following year, but the limited power from batteries prevented its general use. It was destroyed by railway workers, who saw it as a threat to their job security.[44][45][46] By the middle of the nineteenth century most european countries had military uses for railways.[47]
+Werner von Siemens demonstrated an electric railway in 1879 in Berlin. The world's first electric tram line, Gross-Lichterfelde Tramway, opened in Lichterfelde near Berlin, Germany, in 1881. It was built by
+Siemens. The tram ran on 180 volts DC, which was supplied by running rails. In 1891 the track was equipped with an overhead wire and the line was extended to Berlin-Lichterfelde West station. The Volk's
+Electric Railway opened in 1883 in Brighton, England. The railway is still operational, thus making it the oldest operational electric railway in the world. Also in 1883, Mödling and Hinterbrühl Tram opened near
+Vienna in Austria. It was the first tram line in the world in regular service powered from an overhead line.
+Five years later, in the US electric trolleys were pioneered in 1888 on the Richmond Union Passenger
+Railway, using equipment designed by Frank J. Sprague.[48]
+The first use of electrification on a main line was on a four-mile section of the Baltimore Belt Line of the
+Baltimore and Ohio Railroad (B&O) in 1895 connecting the main portion of the B&O to the new line to
+New York through a series of tunnels around the edges of Baltimore's downtown. Electricity quickly
+Electric power introduced
+Passengers waiting to board a tube train on the London Underground in the early
+1900s (sketch by unknown artist)
+A prototype of a Ganz AC electric locomotive in Valtellina, Italy, 1901 became the power supply of choice for subways, abetted by the Sprague's invention of multiple-unit train control in 1897. By the early 1900s most street railways were electrified.
+The London Underground, the world's oldest underground railway, opened in 1863, and it began operating electric services using a fourth rail system in 1890 on the City and
+South London Railway, now part of the London Underground
+Northern line. This was the first major railway to use electric traction. The world's first deep-level electric railway, it runs from the City of London, under the River Thames, to
+Stockwell in south London.[49]
+The first practical AC electric locomotive was designed by
+Charles Brown, then working for Oerlikon, Zürich. In 1891,
+Brown had demonstrated long-distance power transmission, using three-phase AC, between a hydro-electric plant at
+Lauffen am Neckar and Frankfurt am Main West, a distance of 280 km (170 mi). Using experience he had gained while working for Jean Heilmann on steam–electric locomotive designs, Brown observed that three-phase motors had a higher power-to-weight ratio than DC motors and, because of the absence of a commutator, were simpler to manufacture and maintain.[b]
+However, they were much larger than the DC motors of the time and could not be mounted in underfloor bogies: they could only be carried within locomotive bodies.[51]
+In 1894, Hungarian engineer Kálmán Kandó developed a new type 3-phase asynchronous electric drive motors and generators for electric locomotives. Kandó's early 1894 designs were first applied in a short three-phase AC tramway in Évian-les-Bains (France), which was constructed between 1896 and
+1898.[52][53]
+In 1896, Oerlikon installed the first commercial example of the system on the Lugano Tramway. Each 30- tonne locomotive had two 110 kW (150 hp) motors run by three-phase 750 V 40 Hz fed from double overhead lines. Three-phase motors run at a constant speed and provide regenerative braking, and are well suited to steeply graded routes, and the first main-line three-phase locomotives were supplied by
+Brown (by then in partnership with Walter Boveri) in 1899 on the 40  km Burgdorf–Thun line,
+Switzerland.
+Italian railways were the first in the world to introduce electric traction for the entire length of a main line rather than a short section. The 106 km Valtellina line was opened on 4
+September 1902, designed by Kandó and a team from the
+Ganz works.[54][55] The electrical system was three-phase at
+3 kV 15 Hz. In 1918,[56] Kandó invented and developed the rotary phase converter, enabling electric locomotives to use three-phase motors whilst supplied via a single overhead wire, carrying the simple industrial frequency (50 Hz) single phase AC of the high-voltage national networks.[55]
+Swiss & German co-production: world's first functional diesel–electric railcar 1914
+An important contribution to the wider adoption of AC traction came from SNCF of France after World
+War II. The company conducted trials at AC 50 Hz, and established it as a standard. Following SNCF's successful trials, 50  Hz, now also called industrial frequency was adopted as standard for main-lines across the world.[57]
+Earliest recorded examples of an internal combustion engine for railway use included a prototype designed by William
+Dent Priestman. Sir William Thomson examined it in 1888 and described it as a "Priestman oil engine mounted upon a truck which is worked on a temporary line of rails to show the adaptation of a petroleum engine for locomotive purposes."[58][59] In 1894, a 20 hp (15 kW) two axle machine built by Priestman Brothers was used on the Hull Docks.[60]
+In 1906, Rudolf Diesel, Adolf Klose and the steam and diesel engine manufacturer Gebrüder Sulzer founded Diesel-Sulzer-
+Klose GmbH to manufacture diesel-powered locomotives.
+Sulzer had been manufacturing diesel engines since 1898. The Prussian State Railways ordered a diesel locomotive from the company in 1909. The world's first diesel-powered locomotive was operated in the summer of 1912 on the Winterthur–Romanshorn railway in Switzerland, but was not a commercial success.[61] The locomotive weight was 95 tonnes and the power was 883 kW with a maximum speed of
+100 km/h (62 mph).[62] Small numbers of prototype diesel locomotives were produced in a number of countries through the mid-1920s. The Soviet Union operated three experimental units of different designs since late 1925, though only one of them (the E el-2) proved technically viable.[63]
+A significant breakthrough occurred in 1914, when Hermann Lemp, a General Electric electrical engineer, developed and patented a reliable direct current electrical control system (subsequent improvements were also patented by Lemp).[64] Lemp's design used a single lever to control both engine and generator in a coordinated fashion, and was the prototype for all diesel–electric locomotive control systems. In 1914, world's first functional diesel–electric railcars were produced for the Königlich-
+Sächsische Staatseisenbahnen (Royal Saxon State Railways) by Waggonfabrik Rastatt with electric equipment from Brown, Boveri & Cie and diesel engines from Swiss Sulzer AG. They were classified as
+DET 1 and DET 2 (de.wiki). The first regular used diesel–electric locomotives were switcher (shunter) locomotives. General Electric produced several small switching locomotives in the 1930s (the famous
+"44-tonner" switcher was introduced in 1940) Westinghouse Electric and Baldwin collaborated to build switching locomotives starting in 1929.
+In 1929, the Canadian National Railways became the first North American railway to use diesels in mainline service with two units, 9000 and 9001, from Westinghouse.[65]
+Although steam and diesel services reaching speeds up to 200 km/h (120 mph) were started before the
+1960s in Europe, they were not very successful.
+Diesel power introduced
+High-speed rail
+0-Series Shinkansen, introduced in 1964 in Japan, started the high-speed rail boom.
+A push-pull train at Napoli Centrale
+The first electrified high-speed rail Tōkaidō Shinkansen was introduced in 1964 between Tokyo and Osaka in Japan. Since then high-speed rail transport, functioning at speeds up to and above 300 km/h (190 mph), has been built in Japan, Spain,
+France, Germany, Italy, the People's Republic of China,
+Taiwan (Republic of China), the United Kingdom, South
+Korea, Scandinavia, Belgium and the Netherlands. The construction of many of these lines has resulted in the dramatic decline of short-haul flights and automotive traffic between connected cities, such as the London–Paris–Brussels corridor, Madrid–Barcelona, Milan–Rome–Naples, as well as many other major lines.
+High-speed trains normally operate on standard gauge tracks of continuously welded rail on grade-separated right-of-way that incorporates a large turning radius in its design. While high-speed rail is most often designed for passenger travel, some high-speed systems also offer freight service.
+Since 1980, rail transport has changed dramatically, but a number of heritage railways continue to operate as part of living history to preserve and maintain old railway lines for services of tourist trains.
+A train is a connected series of rail vehicles that move along the track, most commonly through adhesion traction. Propulsion for the train is provided by a separate locomotive or from individual motors in self- propelled multiple units. Most trains carry a revenue load, although non-revenue cars exist for the railway's own use, such as for maintenance-of-way purposes. The engine driver (engineer in North
+America) controls the locomotive or other power cars, although people movers and some rapid transits are under automatic control.
+Traditionally, trains are pulled using a locomotive. This involves one or more powered vehicles being located at the front of the train, providing sufficient tractive force to haul the weight of the full train. This arrangement remains dominant for freight trains and is often used for passenger trains. A push–pull train has the end passenger car equipped with a driver's cab so that the engine driver can remotely control the locomotive. This allows one of the locomotive- hauled train's drawbacks to be removed, since the locomotive need not be moved to the front of the train each time the train changes direction. A railroad car is a vehicle used for the haulage of either passengers or freight.
+Preservation
+Trains
+Haulage
+A multiple unit has powered wheels throughout the whole train. These are used for rapid transit and tram systems, as well as many both short- and long-haul passenger trains. A railcar is a single, self-powered car, and may be electrically propelled or powered by a diesel engine. Multiple units have a driver's cab at each end of the unit, and were developed following the ability to build electric motors and other engines small enough to fit under the coach. There are only a few freight multiple units, most of which are high- speed post trains.
+Steam locomotives are locomotives with a steam engine that provides adhesion. Coal, petroleum, or wood is burned in a firebox, boiling water in the boiler to create pressurized steam. The steam travels through the smokebox before leaving via the chimney or smoke stack. In the process, it powers a piston that transmits power directly through a connecting rod (US: main rod) and a crankpin (US: wristpin) on the driving wheel (US main driver) or to a crank on a driving axle. Steam locomotives have been phased out in most parts of the world for economical and safety reasons, although many are preserved in working order by heritage railways.
+Electric locomotives draw power from a stationary source via an overhead wire or third rail. Some also or instead use a battery. In locomotives that are powered by high-voltage alternating current, a transformer in the locomotive converts the high-voltage low-current power to low-voltage high current used in the traction motors that power the wheels. Modern locomotives may use three-phase AC induction motors or direct current motors. Under certain conditions, electric locomotives are the most powerful traction. They are also the cheapest to run and provide less noise and no local air pollution. However, they require high capital investments both for the overhead lines and the supporting infrastructure, as well as the generating station that is needed to produce electricity. Accordingly, electric traction is used on urban systems, lines with high traffic and for high-speed rail.
+Diesel locomotives use a diesel engine as the prime mover. The energy transmission may be either diesel– electric, diesel-mechanical or diesel–hydraulic but diesel–electric is dominant. Electro-diesel locomotives are built to run as diesel–electric on unelectrified sections and as electric locomotives on electrified sections.
+Alternative methods of motive power include magnetic levitation, horse-drawn, cable, rack and pinion, gravity, pneumatics and gas turbine.
+A passenger train stops at stations where passengers may embark and disembark. The oversight of the train is the duty of a guard/train manager/conductor. Passenger trains are part of public transport and often make up the stem of the service, with buses feeding to stations. Passenger trains provide long- distance intercity travel, daily commuter trips, or local urban transit services, operating with a diversity of vehicles, operating speeds, right-of-way requirements, and service frequency (in Europe, operaters use train categories accordingly). Service frequencies are often expressed as a number of trains per hour
+(tph).[66] Passenger trains can usually be into two types of operation, intercity railway and intracity transit. Whereas intercity railway involve higher speeds, longer routes, and lower frequency (usually scheduled), intracity transit involves lower speeds, shorter routes, and higher frequency (especially during peak hours).[67]
+Motive power
+Passenger trains
+Interior view of a high-speed bullet train, manufactured in China
+The VR Class Sm3 Pendolino high-speed train
+Intercity trains are long-haul trains that operate with few stops between cities. Trains typically have amenities such as a dining car. Some lines also provide over-night services with sleeping cars. Some long-haul trains have been given a specific name. Regional trains are medium distance trains that connect cities with outlying, surrounding areas, or provide a regional service, making more stops and having lower speeds.
+Commuter trains serve suburbs of urban areas, providing a daily commuting service. Airport rail links provide quick access from city centres to airports.
+High-speed rail are special inter-city trains that operate at much higher speeds than conventional railways, the limit being regarded at 200 to 350 kilometres per hour (120 to
+220  mph). High-speed trains are used mostly for long-haul service and most systems are in Western Europe and East
+Asia. Magnetic levitation trains such as the Shanghai maglev train use under-riding magnets which attract themselves upward towards the underside of a guideway and this line has achieved somewhat higher peak speeds in day-to-day operation than conventional high-speed railways, although only over short distances. Due to their heightened speeds, route alignments for high-speed rail tend to have broader curves than conventional railways, but may have steeper grades that are more easily climbed by trains with large kinetic energy.
+High kinetic energy translates to higher horsepower-to-ton ratios (e.g. 20 horsepower per short ton or 16 kilowatts per tonne); this allows trains to accelerate and maintain higher speeds and negotiate steep grades as momentum builds up and recovered in downgrades (reducing cut and fill and tunnelling requirements). Since lateral forces act on curves, curvatures are designed with the highest possible radius.
+All these features are dramatically different from freight operations, thus justifying exclusive high-speed rail lines if it is economically feasible.[67]
+Higher-speed rail services are intercity rail services that have top speeds higher than conventional intercity trains but the speeds are not as high as those in the high-speed rail services. These services are provided after improvements to the conventional rail infrastructure to support trains that can operate safely at higher speeds.
+Rapid transit refers to systems built in large cities and has the highest capacity of any passenger transport system. It is grade-separated and commonly built underground or elevated. Due to the lack of uniformity of rapid transit systems, route alignment varies, with diverse rights-of-way (private land, side of road, street median) and geometric characteristics (sharp or broad curves, steep or gentle grades). For instance, the Chicago 'L' trains are designed with extremely short cars to negotiate the sharp curves in the Loop.
+New Jersey's PATH has similar-sized cars to accommodate curves in the trans-Hudson tunnels. San
+Francisco's BART operates large cars on its routes as its track gauge is 5ft 6in.[67]
+Urban rail
+Bulk cargo of minerals on a train
+The New York City Subway is the world's largest single-operator rapid transit system by number of stations.
+At street level, smaller trams can be used. Light rail systems use upgraded tram technology that have their own right-of-way and sometimes sections underground. Monorail systems are elevated, medium-capacity systems. A people mover is a driver-less, grade-separated vehicle that serves only a few stations, often as a shuttle or in a loop. Systems with larger capacity are designated automated guideway transit.
+Freight trains carry cargo using freight cars specialized for the type of goods. Freight trains are very efficient, with economy of scale and high energy efficiency.[68] However, their use can be reduced by lack of flexibility, if there is need of transshipment at both ends of the trip due to lack of tracks to the points of pick-up and delivery. Authorities often encourage the use of cargo rail transport due to its efficiency and to reduce road traffic.[69]
+Container trains have become widely used in many places for general freight, particularly in North America, where double stacking reduces costs. Containers can easily be transshipped between other modes, such as ships and trucks, and at breaks of gauge. Containers have succeeded the boxcar (wagon-load), where the cargo had to be loaded and unloaded into the train manually. The intermodal containerization of cargo has revolutionized the supply chain logistics industry, reducing shipping costs significantly. In Europe, the sliding wall wagon has largely superseded the ordinary covered wagons. Other types of cars include refrigerator cars, stock cars for livestock and autoracks for road vehicles. When rail is combined with road transport, a roadrailer will allow trailers to be driven onto the train, allowing for easy transition between road and rail.
+Bulk handling represents a key advantage for rail transport. Low or even zero transshipment costs combined with energy efficiency and low inventory costs allow trains to handle bulk much cheaper than by road. Typical bulk cargo includes coal, ore, grains and liquids. Bulk is transported in open-topped cars, hopper cars and tank cars.
+Rapid transit or mass rapid transit (MRT) or heavy rail,[71][72] commonly referred to as metro, is a type of high-capacity public transport that is generally built in urban areas. A grade separated rapid transit line below ground surface through a tunnel can be regionally called a subway, tube, metro or underground.[73][74][75][76] They are sometimes grade- separated on elevated railways, in which case some are referred to as el trains – short for "elevated" – or skytrains.
+Rapid transit systems are usually electric railways, that unlike buses or trams operate on an exclusive right-of-way, which cannot be accessed by pedestrians or other vehicles.[77]
+Freight trains
+Metros
+Milan Metro is the largest rapid transit system in Italy in terms of length, number of stations and ridership; and the eighth longest in Europe.[70]
+Map of world railway network as of 2022
+Modern services on rapid transit systems are provided on designated lines between stations typically using electric multiple units on railway tracks. Some systems use guided rubber tires, magnetic levitation (maglev), or monorail. The stations typically have high platforms, without steps inside the trains, requiring custom-made trains in order to minimize gaps between train and platform. They are typically integrated with other public transport and often operated by the same public transport authorities. Some rapid transit systems have at-grade intersections between a rapid transit line and a road or between two rapid transit lines.[78]
+The world's first rapid transit system was the partially underground Metropolitan Railway which opened in 1863 using steam locomotives, and now forms part of the London
+Underground.[79] In 1868, New York opened the elevated West Side and Yonkers Patent Railway, initially a cable-hauled line using stationary steam engines.
+As of 2021, China has the largest number of rapid transit systems in the world  – 40 in number,[80] running on over 4,500 km (2,800 mi) of track – and was responsible for most of the world's rapid-transit expansion in the 2010s.[81][82][83] The world's longest single-operator rapid transit system by route length is the Shanghai Metro.[84][85] The world's largest single rapid transit service provider by number of stations (472 stations in total)[86] is the New York City Subway. The busiest rapid transit systems in the world by annual ridership are the Shanghai Metro, Tokyo subway system, Seoul Metro and the Moscow
+Metro.
+Railway tracks are laid upon land owned or leased by the railway company. Owing to the desirability of maintaining modest grades, in hilly or mountainous terrain rails will often be laid in circuitous routes. Route length and grade requirements can be reduced by the use of alternating cuttings, bridges and tunnels – all of which can greatly increase the capital expenditures required to develop a right-of- way, while significantly reducing operating costs and allowing higher speeds on longer radius curves. In densely urbanized areas, railways are sometimes laid in tunnels to minimize the effects on existing properties.
+Infrastructure
+Right-of-way
+Left: Railway turnouts; Right: Chicago Transit Authority control box guides elevated Chicago 'L' north and southbound Purple and Brown lines intersecting with east and westbound Pink and Green lines and the looping Orange line above the Wells and Lake street intersection in the loop at an elevated right of way.
+Track consists of two parallel steel rails, anchored perpendicular to members called sleepers (ties) of timber, concrete, steel, or plastic to maintain a consistent distance apart, or rail gauge. Other variations are also possible, such as "slab track", in which the rails are fastened to a concrete foundation resting on a prepared subsurface.
+Rail gauges are usually categorized as standard gauge (used on approximately 70% of the world's existing railway lines), broad gauge, and narrow gauge.[87] In addition to the rail gauge, the tracks will be laid to conform with a loading gauge which defines the maximum height and width for railway vehicles and their loads to ensure safe passage through bridges, tunnels and other structures.
+The track guides the conical, flanged wheels, keeping the cars on the track without active steering and therefore allowing trains to be much longer than road vehicles. The rails and ties are usually placed on a foundation made of compressed earth on top of which is placed a bed of ballast to distribute the load from the ties and to prevent the track from buckling as the ground settles over time under the weight of the vehicles passing above.
+The ballast also serves as a means of drainage. Some more modern track in special areas is attached directly without ballast. Track may be prefabricated or assembled in place. By welding rails together to form lengths of continuous welded rail, additional wear and tear on rolling stock caused by the small surface gap at the joints between rails can be counteracted; this also makes for a quieter ride.
+On curves, the outer rail may be at a higher level than the inner rail. This is called superelevation or cant.
+This reduces the forces tending to displace the track and makes for a more comfortable ride for standing livestock and standing or seated passengers. A given amount of superelevation is most effective over a limited range of speeds.
+Points and switches—also known as turnouts—are the means of directing a train onto a diverging section of track. Laid similar to normal track, a point typically consists of a frog (common crossing), check rails and two switch rails. The switch rails may be moved left or right, under the control of the signalling system, to determine which path the train will follow.
+Spikes in wooden ties can loosen over time, but split and rotten ties may be individually replaced with new wooden ties or concrete substitutes. Concrete ties can also develop cracks or splits, and can also be replaced individually. Should the rails settle due to soil subsidence, they can be lifted by specialized machinery and additional ballast tamped under the ties to level the rails.
+Track
+A dragging equipment unit with hot bearing detector
+Bardon Hill box in England (seen here in
+2009) is a Midland Railway box dating from 1899, although the original mechanical lever frame has been replaced by electrical switches.
+Periodically, ballast must be removed and replaced with clean ballast to ensure adequate drainage.
+Culverts and other passages for water must be kept clear lest water is impounded by the trackbed, causing landslips. Where trackbeds are placed along rivers, additional protection is usually placed to prevent streambank erosion during times of high water. Bridges require inspection and maintenance, since they are subject to large surges of stress in a short period of time when a heavy train crosses.
+The use of different track gauges in different regions of the world, and sometimes within the same country, can impede the movement of passengers and freight. Often elaborate transfer mechanisms are installed where two lines of different gauge meet to facilitate movement across the break of gauge.
+Countries with multiple gauges in use, such as India and Australia, have invested heavily to unify their rail networks. China is developing a modernized Eurasian Land Bridge to move goods by rail to Western
+Europe.
+The inspection of railway equipment is essential for the safe movement of trains. Many types of defect detectors are in use on the world's railroads. These devices use technologies that vary from a simplistic paddle and switch to infrared and laser scanning, and even ultrasonic audio analysis. Their use has avoided many rail accidents over the 70 years they have been used.
+Railway signalling is a system used to control railway traffic safely to prevent trains from colliding. Being guided by fixed rails which generate low friction, trains are uniquely susceptible to collision since they frequently operate at speeds that do not enable them to stop quickly or within the driver's sighting distance; road vehicles, which encounter a higher level of friction between their rubber tyres and the road surface, have much shorter braking distances. Most forms of train control involve movement authority being passed from those responsible for each section of a rail network to the train crew. Not all methods require the use of signals, and some systems are specific to single track railways.
+The signalling process is traditionally carried out in a signal box, a small building that houses the lever frame required for the signalman to operate switches and signal equipment.
+These are placed at various intervals along the route of a railway, controlling specified sections of track. More recent technological developments have made such operational doctrine superfluous, with the centralization of signalling operations to regional control rooms. This has been facilitated by the increased use of computers, allowing vast sections of track to be
+Gauge incompatibility
+Train inspection systems
+Signalling
+Goods station in Lucerne, Switzerland monitored from a single location. The common method of block signalling divides the track into zones guarded by combinations of block signals, operating rules, and automatic-control devices so that only one train may be in a block at any time.
+The electrification system provides electrical energy to the trains, so they can operate without a prime mover on board. This allows lower operating costs, but requires large capital investments along the lines.
+Mainline and tram systems normally have overhead wires, which hang from poles along the line. Grade- separated rapid transit sometimes use a ground third rail.
+Power may be fed as direct (DC) or alternating current (AC). The most common DC voltages are 600 and
+750 V for tram and rapid transit systems, and 1,500 and 3,000 V for mainlines. The two dominant AC systems are 15 kV and 25 kV.
+A railway station serves as an area where passengers can board and alight from trains. A goods station is a yard which is exclusively used for loading and unloading cargo. Large passenger stations have at least one building providing conveniences for passengers, such as purchasing tickets and food. Smaller stations typically only consist of a platform. Early stations were sometimes built with both passenger and goods facilities.[88]
+Platforms are used to allow easy access to the trains, and are connected to each other via underpasses, footbridges and level crossings. Some large stations are built as culs-de-sac, with trains only operating out from one direction. Smaller stations normally serve local residential areas, and may have connection to feeder bus services. Large stations, in particular central stations, serve as the main public transport hub for the city, and have transfer available between rail services, and to rapid transit, tram or bus services.
+Since the 1980s, there has been an increasing trend to split up railway companies, with companies owning the rolling stock separated from those owning the infrastructure. This is particularly true in
+Europe, where this arrangement is required by the European Union. This has allowed open access by any train operator to any portion of the European railway network. In the UK, the railway track is state owned, with a public controlled body (Network Rail) running, maintaining and developing the track, while Train Operating Companies have run the trains since privatization in the 1990s.[89]
+Electrification
+Stations
+Operations
+Ownership
+In the US, virtually all rail networks and infrastructure outside the Northeast corridor are privately owned by freight lines. Passenger lines, primarily Amtrak, operate as tenants on the freight lines. Consequently, operations must be closely synchronized and coordinated between freight and passenger railroads, with passenger trains often being dispatched by the host freight railroad. Due to this shared system, both are regulated by the Federal Railroad Administration (FRA) and may follow the AREMA recommended practices for track work and AAR standards for vehicles.[67]
+The main source of income for railway companies is from ticket revenue (for passenger transport) and shipment fees for cargo.[90][91] Discounts and monthly passes are sometimes available for frequent travellers (e.g. season ticket and rail pass). Freight revenue may be sold per container slot or for a whole train. Sometimes, the shipper owns the cars and only rents the haulage. For passenger transport, advertisement income can be significant.
+Governments may choose to give subsidies to rail operation, since rail transport has fewer externalities than other dominant modes of transport. If the railway company is state-owned, the state may simply provide direct subsidies in exchange for increased production. If operations have been privatized, several options are available. Some countries have a system where the infrastructure is owned by a government agency or company – with open access to the tracks for any company that meets safety requirements. In such cases, the state may choose to provide the tracks free of charge, or for a fee that does not cover all costs. This is seen as analogous to the government providing free access to roads. For passenger operations, a direct subsidy may be paid to a public-owned operator, or public service obligation tender may be held, and a time-limited contract awarded to the lowest bidder. Total EU rail subsidies amounted to €73 billion in 2005.[92]
+Via Rail Canada and US passenger rail service Amtrak are private railroad companies chartered by their respective national governments. As private passenger services declined because of competition from cars and airlines, they became shareholders of Amtrak either with a cash entrance fee or relinquishing their locomotives and rolling stock. The government subsidizes Amtrak by supplying start-up capital and making up for losses at the end of the fiscal year.[93]
+Some trains travel faster than road vehicles. They are heavy and unable to deviate from the track, and have longer stopping distances. Possible accidents include derailment (jumping the track) and collisions with another train or a road vehicle, or with pedestrians at level crossings, which account for the majority of all rail accidents and casualties. To minimize the risk, the most important safety measures are strict operating rules, e.g. railway signalling, and gates or grade separation at crossings. Train whistles, bells, or horns warn of the presence of a train, while trackside signals maintain the distances between trains.
+Another method used to increase safety is the addition of platform screen doors to separate the platform from train tracks. These prevent unauthorized incursion on to the train tracks which can result in accidents that cause serious harm or death, as well as providing other benefits such as preventing litter build up on the tracks which can pose a fire risk.
+Financing
+Safety
+According to Eurostat and the European Railway Agency, the fatality risk for passengers and occupants on European railways is 28 times lower when compared with car usage
+(based on data by EU-27 member nations, 2008–2010).[94][95]
+On many high-speed inter-city networks, such as Japan's Shinkansen, the trains run on dedicated railway lines without any level crossings. This is an important element in the safety of the system as it effectively eliminates the potential for collision with automobiles, other vehicles, or pedestrians, and greatly reduces the probability of collision with other trains. Another benefit is that services on the inter-city network remain punctual.
+As in any infrastructure asset, railways must keep up with periodic inspection and maintenance to minimize the effect of infrastructure failures that can disrupt freight revenue operations and passenger services. Because passengers are considered the most crucial cargo and usually operate at higher speeds, steeper grades, and higher capacity/frequency, their lines are especially important. Inspection practices include track geometry cars or walking inspection. Curve maintenance especially for transit services includes gauging, fastener tightening, and rail replacement.
+Rail corrugation is a common issue with transit systems due to the high number of light-axle, wheel passages which result in grinding of the wheel/rail interface. Since maintenance may overlap with operations, maintenance windows (nighttime hours, off-peak hours, altering train schedules or routes) must be closely followed. In addition, passenger safety during maintenance work (inter-track fencing, proper storage of materials, track work notices, hazards of equipment near states) must be regarded at all times. At times, maintenance access problems can emerge due to tunnels, elevated structures, and congested cityscapes. Here, specialized equipment or smaller versions of conventional maintenance gear are used.[67]
+Unlike highways or road networks where capacity is disaggregated into unlinked trips over individual route segments, railway capacity is fundamentally considered a network system. As a result, many components are causes and effects of system disruptions. Maintenance must acknowledge the vast array of a route's performance (type of train service, origination/destination, seasonal impacts), a line's capacity
+(length, terrain, number of tracks, types of train control), trains throughput (max speeds, acceleration/ deceleration rates), and service features with shared passenger-freight tracks (sidings, terminal capacities, switching routes, and design type).[67]
+Maintenance
+A Sr1-pulled lumber train crossing the drawbridge along the Savo railway in
+Kuopio, Finland
+Transport by rail is an energy-efficient[96] but capital-intensive[97] means of mechanized land transport.
+The tracks provide smooth and hard surfaces on which the wheels of the train can roll with a relatively low level of friction.
+A typical modern wagon can hold up to 113 tonnes (125 short tons) of freight on two four-wheel bogies.
+The track distributes the weight of the train evenly, allowing significantly greater loads per axle and wheel than in road transport, leading to greater energy efficiency. Trains have a smaller frontal area in relation to the load they are carrying, which reduces air resistance and thus energy usage.
+In addition, the presence of track guiding the wheels allows for very long trains to be pulled by one or a few engines and driven by a single operator, even around curves, which allows for economies of scale in both manpower and energy use; by contrast, in road transport, more than two articulations causes fishtailing and makes the vehicle unsafe.
+Considering only the energy spent to move the means of transport, and using the example of the urban area of Lisbon, electric trains seem to be on average 20 times more efficient than automobiles for transportation of passengers, if we consider energy spent per passenger-distance with similar occupation ratios.[98] Considering an automobile with a consumption of around 6 L/100 km (47 mpg‑imp; 39 mpg‑US) of fuel, the average car in Europe has an occupancy of around 1.2 passengers per automobile (occupation ratio around 24%) and that one litre of fuel amounts to about 8.8 kWh (32 MJ), equating to an average of
+441 Wh (1,590 kJ) per passenger-km. This compares to a modern train with an average occupancy of
+20% and a consumption of about 8.5 kW⋅h/km (31 MJ/km; 13.7 kW⋅h/mi), equating to 21.5 Wh (77 kJ) per passenger-km, 20 times less than the automobile.
+Due to these benefits, rail transport is a major form of passenger and freight transport in many countries.[97] It is ubiquitous in Europe, with an integrated network covering virtually the whole continent. In India, China, South Korea and Japan, many millions use trains as regular transport. In
+North America, freight rail transport is widespread and heavily used, but intercity passenger rail transport is relatively scarce outside the Northeast Corridor, due to increased preference of other modes, particularly automobiles and aeroplanes.[93][99] However, implementing new and improved ways such as making it easily accessible within neighbourhoods can aid in reducing commuters from using private vehicles and aeroplanes.[100]
+Social, economic, and energy aspects
+Energy
+Energy efficiency
+Usage
+South Africa, northern Africa and Argentina have extensive rail networks, but some railways elsewhere in
+Africa and South America are isolated lines. Australia has a generally sparse network befitting its population density but has some areas with significant networks, especially in the southeast. In addition to the previously existing east–west transcontinental line in Australia, a line from north to south has been constructed. The highest railway in the world is the line to Lhasa, in Tibet,[101] partly running over permafrost territory. Western Europe has the highest railway density in the world and many individual trains there operate through several countries despite technical and organizational differences in each national network.
+Historically, railways have been considered central to modernity and ideas of progress.[102] The process of modernization in the 19th century involved a transition from a spatially oriented world to a time- oriented world. Timekeeping became of heightened importance, resulting in clock towers for railway stations, clocks in public places, and pocket watches for railway workers and travellers. Trains followed exact schedules and never left early, whereas in the premodern era, passenger ships left whenever the captain had enough passengers. In the premodern era, local time was set at noon, when the sun was at its highest; this changed with the introduction of standard time zones. Printed timetables were a convenience for travellers, but more elaborate timetables, called train orders, were essential for train crews, the maintenance workers, the station personnel, and for the repair and maintenance crews. The structure of railway timetables were later adapted for different uses, such as schedules for buses, ferries, and aeroplanes, for radio and television programmes, for school schedules, and for factory time clocks.[103]
+The invention of the electrical telegraph in the early 19th century also was crucial for the development and operation of railroad networks. If bad weather disrupted the system, telegraphers relayed immediate corrections and updates throughout the system. Additionally, most railroads were single-track, with sidings and signals to allow lower priority trains to be sidetracked and have scheduled meets.
+Scholars have linked railroads to successful nation-building efforts by states.[104]
+According to historian Henry Adams, a railroad network needed:
+the energies of a generation, for it required all the new machinery to be created – capital, banks, mines, furnaces, shops, power-houses, technical knowledge, mechanical population, together with a steady remodelling of social and political habits, ideas, and institutions to fit the new scale and suit the new conditions. The generation between 1865 and 1895 was already mortgaged to the railways, and no one knew it better than the generation itself.[105]
+The impact can be examined through five aspects: shipping, finance, management, careers, and popular reaction.
+Social and economic impact
+Modernization
+Nation-building
+Model of corporate management
+Railroads form an efficient network for shipping freight and passengers across a large national market; their development thus was beneficial to many aspects of a nation's economy, including manufacturing, retail and wholesale, agriculture, and finance. By the 1940s, the United States had an integrated national market comparable in size to that of Europe, but free of internal barriers or tariffs, and supported by a common language, financial system, and legal system.[106]
+Financing of railroads provided the basis for a dramatic expansion of the private (non-governmental) financial system. Construction of railroads was far more expensive than factories: in 1860, the combined total of railroad stocks and bonds was $1.8 billion; in 1897, it reached $10.6 billion (compared to a total national debt of $1.2 billion).[107]
+Funding came from financiers in the Northeastern United States and from Europe, especially Britain.[108]
+About 10 per cent of the funding came from the government, particularly in the form of land grants that were realized upon completion of a certain amount of trackage.[109] The emerging American financial system was based on railroad bonds, and by 1860, New York was the dominant financial market. The
+British invested heavily in railroads around the world, but nowhere more than in the United States; the total bond value reached about $3 billion by 1914. However, in 1914–1917, the British liquidated their
+American assets to pay for war supplies.[110][111]
+Railroad management designed complex systems that could handle far more complicated simultaneous relationships than those common in other industries at the time. Civil engineers became the senior management of railroads. The leading American innovators were the Western Railroad of Massachusetts and the Baltimore and Ohio Railroad in the 1840s, the Erie Railroad in the 1850s, and the Pennsylvania
+Railroad in the 1860s.[112]
+The development of railroads led to the emergence of private-sector careers for both blue-collar workers and white-collar workers. Railroading became a lifetime career for young men; women were almost never hired. A typical career path would see a young man hired at age 18 as a shop labourer, be promoted to skilled mechanic at age 24, brakemen at 25, freight conductor at 27, and passenger conductor at age 57.
+White-collar career paths likewise were delineated: educated young men started in clerical or statistical work and moved up to station agents or bureaucrats at the divisional or central headquarters, acquiring additional knowledge, experience, and human capital at each level. Being very hard to replace, they were virtually guaranteed permanent jobs and provided with insurance and medical care.
+Hiring, firing, and wage rates were set not by foremen, but by central administrators, to minimize favouritism and personality conflicts. Everything was done by the book, whereby an increasingly complex set of rules dictated to everyone exactly what should be done in every circumstance, and exactly what their rank and pay would be. By the 1880s, career railroaders began retiring, and pension systems were invented for them.[113]
+Shipping freight and passengers
+Financial system
+Modern management
+Career paths
+German soldiers in a railway car on the way to the front in August 1914. The message on the car reads Von München über Metz nach Paris ("From Munich via
+Metz to Paris").
+Railways contribute to social vibrancy and economic competitiveness by transporting multitudes of customers and workers to city centres and inner suburbs. Hong Kong has recognized rail as "the backbone of the public transit system" and as such developed their franchised bus system and road infrastructure in comprehensive alignment with their rail services.[114] China's large cities such as
+Beijing, Shanghai, and Guangzhou recognize rail transit lines as the framework and bus lines as the main body to their metropolitan transportation systems.[115] The Japanese Shinkansen was built to meet the growing traffic demand in the "heart of Japan's industry and economy" situated on the Tokyo-Kobe line.[116]
+Rail transport can be important for military activity. During the 1860s, railways provided a means for rapid movement of troops and supplies during the American Civil War,[117] as well as in the Austro-Prussian and Franco-Prussian Wars[118]
+Throughout the 20th century, rail was a key element of war plans for rapid military mobilization, allowing for the quick and efficient transport of large numbers of reservists to their mustering-points, and infantry soldiers to the front lines.[119]
+So-called strategic railways were or are constructed for a primarily military purpose. The Western Front in France during World War I required many trainloads of munitions a day.[120] Conversely, owing to their strategic value, rail yards and bridges in Germany and occupied France were major targets of Allied air raids during World War II.[121] Rail transport and infrastructure continues to play an important role in present-day conflicts like the Russian invasion of Ukraine, where sabotage of railways in Belarus and in Russia also influenced the course of the war.
+Railways channel growth towards dense city agglomerations and along their arteries. This contrasts with highway expansion, indicative of the US transportation policy post-World War II, which instead encourages development of suburbs at the periphery of metropolitan areas, contributing to increased vehicle miles travelled, carbon emissions, development of greenfield spaces, and depletion of natural reserves. These arrangements revalue city spaces, local taxes,[122] housing values, and promotion of mixed use development.[123][124]
+There has also been some opposition to the development of railway networks. For instance, the arrival of railways and steam locomotives to Austria during the 1840s angered locals because of the noise, smell, and pollution caused by the trains and the damage to homes and the surrounding land caused by the engine's soot and fiery embers; and since most travel did not occur over long distances, few people utilized the new line.[125]
+Transportation
+Military role
+Positive impacts
+Negative impacts
+European rail subsidies in euros per passenger-km for
+2008[130]
+A 2018 study found that the opening of the Beijing Subway caused a reduction in "most of the air pollutants concentrations (PM2.5, PM10, SO2, NO2, and CO) but had little effect on ozone pollution."[126]
+European development economists have argued that the existence of modern rail infrastructure is a significant indicator of a country's economic advancement: this perspective is illustrated notably through the Basic Rail Transportation Infrastructure Index (known as BRTI Index).[127]
+In 2010, annual rail spending in China was ¥840 billion (US$178 billion in 2024), from 2014 to 2017
+China had an annual target of ¥800 billion (US$168 billion in 2024) and planned to spend ¥3.5 trillion
+(US$627 billion in 2024) over 2016–2020.[128]
+The Indian Railways are subsidized by around ₹260 billion (US$5 billion in 2024), of which around 60% goes to commuter rail and short-haul trips.[129]
+According to the 2017 European Railway
+Performance Index for intensity of use, quality of service and safety performance, the top tier European national rail systems consists of
+Switzerland,
+Denmark,
+Finland,
+Germany,
+Austria,
+Sweden, and
+France.[131] Performance levels reveal a positive correlation between public cost and a given railway system's performance, and also reveal differences in the value that countries receive in return for their public cost. Denmark,
+Finland, France, Germany, the Netherlands, Sweden, and Switzerland capture relatively high value for their money, while Luxembourg, Belgium, Latvia, Slovakia, Portugal, Romania, and Bulgaria underperform relative to the average ratio of performance to cost among European countries.[131]
+Pollution
+Modern rail as economic development indicator
+Subsidies
+China
+India
+Europe
+Country
+Subsidy in billions of Euros
+Year
+Germany
+17.0
+2014[132]
+France
+13.2
+2013[133]
+Italy
+8.1
+2009[134]
+Switzerland
+5.8
+2012[135]
+Spain
+5.1
+2015[136]
+United Kingdom
+4.5
+2015[137]
+Belgium
+3.4
+2008[130]
+Netherlands
+2.5
+2014[138]
+Austria
+2.3
+2009[130]
+Denmark
+1.7
+2008[130]
+Sweden
+1.6
+2009[139]
+Poland
+1.4
+2008[140]
+Ireland
+0.91
+2008[140]
+In 2016, Russian Railways received 94.9  billion roubles (around US$1.4  billion) from the government.[141]
+In 2015, funding from the US federal government for Amtrak was around US$1.4 billion.[142] By 2018, appropriated funding had increased to approximately US$1.9 billion.[143]
+Trains portal
+Transport portal
+Lists portal
+Battery electric multiple unit – Zero-emissions unwired train
+Electric multiple unit – Electric train with no locomotive
+Electric–steam locomotive – Steam locomotive with boiler heated electrically
+Environmental design in rail transportation
+Ground-effect train – Type of train
+History of tram and light rail transit systems by country
+History of transport
+Hydrogen train – Train transporting or using hydrogen
+International Union of Railways – International rail transport industry body
+Russia
+United States
+See also
+List of countries by rail transport network size
+List of countries by rail usage
+List of railroad-related periodicals
+List of railway companies
+List of railway industry occupations
+Mega project – Extremely large-scale construction and investment project
+Mine railway – Type of railway that operates in a mine
+Outline of rail transport – Overview of and topical guide to rail transport
+Passenger rail terminology – Terms used for passenger railway lines and equipment
+Rail transport by country
+Railway systems engineering – Study of engineering principles necessary for railway construction and operation
+Steam turbine locomotive – Locomotive using a steam turbine
+Vactrain – Train inside a vacuum tube a. According to [Norman Bradbury (November 2002). Face the facts on transport safety (http s://web.archive.org/web/20101011093930/http://www.railwatch.org.uk/backtrack/rw94/rw094 p06.pdf) (PDF). Railwatch (Report). Archived from the original (http://www.railwatch.org.uk/b acktrack/rw94/rw094p06.pdf) (PDF) on 11 October 2010.], railways are the safest on both a per-mile and per-hour basis, whereas air transport is safe only on a per-mile basis.
+b. Heilmann evaluated both AC and DC electric transmission for his locomotives, but eventually settled on a design based on Thomas Edison's DC system.[50]
+1. "History, Invention, & Facts" (https://www.britannica.com/technology/railroad). Britannica.
+Archived (https://web.archive.org/web/20231001133227/https://www.britannica.com/technol ogy/railroad) from the original on 1 October 2023. Retrieved 2 December 2023.
+2. IEA (2019). The Future of Rail (https://www.iea.org/reports/the-future-of-rail). Paris:
+International Energy Agency. Archived (https://web.archive.org/web/20231117130626/http s://www.iea.org/reports/the-future-of-rail) from the original on 17 November 2023. Retrieved
+2 December 2023.
+3. Schwantes, Carlos A. and Ronda, James P. The West the Railroads Made, pp. 4-5, 9, 11,
+28-9, 91, 105, 127, University of Washington Press, Seattle and London, 2008. ISBN 978-0-
+295-98769-9
+4. Hilton, George W. American Narrow Gauge Railroads, p. 41, Stanford University Press,
+Stanford, California, 1990.
+5. Floyd, Donald R. California Narrow Gauge: The Role of Narrow-Gauge Railroads in
+California's Transportation Network, pp. 19-20, 22, The Gibson Press, Mountain View,
+California, 1970.
+6. Athearn, Robert G. Rebel of the Rockies: A History of the Denver and Rio Grande Western
+Railroad, pp. 4-5, 16-25, Yale University Press, New Haven, Connecticut, 1962.
+7. Beebe, Lucius and Clegg, Charles. Narrow Gauge in the Rockies, p. 31, Howell-North,
+Berkeley, California, 1958.
+8. Jensen, Oliver. The American Heritage History of Railroads in America, pp. 7, 32, 84, 104,
+American Heritage Publishing Company, New York, New York, 1975.
+Notes
+References
+9. "Building the Transcontinental Railroad" (https://www.digitalhistory.uh.edu/disp_textbook.cf m?smtID=2&psid=3147). Digital History. University of Houston. 2021.
+10. Schwantes, Carlos A. and Ronda, James P. The West the Railroads Made, pp. 4-5, 9, 11,
+28-9, 91, 105, 127, University of Washington Press, Seattle and London, 2008. ISBN 978-0-
+295-98769-9
+11. Athearn, Robert G. Rebel of the Rockies: A History of the Denver and Rio Grande Western
+Railroad, pp. 4-5, 16-25, Yale University Press, New Haven, Connecticut, 1962.
+12. Beebe, Lucius and Clegg, Charles. Narrow Gauge in the Rockies, p. 31, Howell-North,
+Berkeley, California, 1958.
+13. Davidson, James West, et al. American Nation: Independence Through 1914, p. 304,
+Prentice-Hall, Upper Saddle River, New Jersey, 2000. ISBN 0-13-434888-5.
+14. Blum, John M. et al. The National Experience: A History of the United States, pp. 298-9,
+Harcourt, Brace & World, Inc., New York, New York, 1963.
+15. Lewis, M. J. T. (2001). "Railways in the Greek and Roman world" (https://web.archive.org/we b/20110721083013/http://www.sciencenews.gr/docs/diolkos.pdf) (PDF). In Guy, A.; Rees, J.
+(eds.). Early Railways. A Selection of Papers from the First International Early Railways
+Conference. pp. 8–19. Archived from the original (http://www.sciencenews.gr/docs/diolkos.p df) (PDF) on 21 July 2011.
+16. Fraser, P. M. (December 1961). "The ΔΙΟΛΚΟΣ of Alexandria". The Journal of Egyptian
+Archaeology. 47: 134–138. doi:10.2307/3855873 (https://doi.org/10.2307%2F3855873).
+JSTOR 3855873 (https://www.jstor.org/stable/3855873).
+17. "Der Reiszug: Part 1 – Presentation" (http://www.funimag.com/funimag10/RESZUG01.HT
+M). Funimag. Archived (https://web.archive.org/web/20211020015136/https://www.funimag.
+com/funimag10/RESZUG01.HTM) from the original on 20 October 2021. Retrieved 22 April
+2009.
+18. Kriechbaum, Reinhard (15 May 2004). "Die große Reise auf den Berg" (https://web.archive.
+org/web/20090514095717/http://www.die-tagespost.de/Archiv/titel_anzeige.asp?ID=8916).
+der Tagespost (in German). Archived from the original (http://www.die-tagespost.de/Archiv/tit el_anzeige.asp?ID=8916) on 14 May 2009. Retrieved 22 April 2009.
+19. Georgius Agricola (trans Hoover), De re metallica (1913), p. 156.
+20. Lee, Charles E. (1943). "The Evolution of Railways". Railway Gazette (2nd ed.). London.
+p. 16. OCLC 1591369 (https://search.worldcat.org/oclc/1591369).
+21. Lewis, Early wooden railways, pp. 8–10.
+22. Warren Allison, Samuel Murphy and Richard Smith, An Early Railway in the German Mines of Caldbeck in G. Boyes (ed.), Early Railways 4: Papers from the 4th International Early
+Railways Conference 2008 (Six Martlets, Sudbury, 2010), pp. 52–69.
+23. Jones, Mark (2012). Lancashire Railways – The History of Steam. Newbury: Countryside
+Books. p. 5. ISBN 978-1-84674-298-9.
+24. Peter King, The First Shropshire Railways in G. Boyes (ed.), Early Railways 4: Papers from the 4th International Early Railways Conference 2008 (Six Martlets, Sudbury, 2010), pp. 70–
+84.
+25. "Huntingdon Beaumont's Wollaton to Strelley Waggonway" (http://nottinghamhiddenhistoryte am.wordpress.com/2013/07/30/huntingdon-beaumonts-wollaton-to-strelley-waggonway/).
+Nottingham Hidden History. 30 July 2013. Archived (https://web.archive.org/web/202211270
+31058/https://nottinghamhiddenhistoryteam.wordpress.com/2013/07/30/huntingdon-beaumo nts-wollaton-to-strelley-waggonway/) from the original on 27 November 2022. Retrieved
+23 August 2017.
+26. Porter, Peter (1914). Landmarks of the Niagara Frontier. Privately printed.
+OCLC 1044424468 (https://search.worldcat.org/oclc/1044424468).
+27. Vaughan, A. (1997). Railwaymen, Politics and Money. London: John Murray. ISBN 978-0-
+7195-5746-0.
+28. "Surrey Iron Railway 200th – 26th July 2003" (https://web.archive.org/web/2009051203223
+3/http://www.stephensonloco.fsbusiness.co.uk/surreyiron.htm). Early Railways. Stephenson
+Locomotive Society. Archived from the original (http://www.stephensonloco.fsbusiness.co.u k/surreyiron.htm) on 12 May 2009.
+29. Landes, David. S. (1969). The Unbound Prometheus: Technological Change and Industrial
+Development in Western Europe from 1750 to the Present. Cambridge, New York: Press
+Syndicate of the University of Cambridge. p. 91. ISBN 978-0-521-09418-4.
+30. Landes 1969, pp. 92
+31. Wells, David A. (1890). Recent Economic Changes and Their Effect on Production and
+Distribution of Wealth and Well-Being of Society (https://archive.org/details/recenteconomicc
+01wellgoog). New York: D. Appleton and Co. OCLC 2607599 (https://search.worldcat.org/ocl c/2607599).
+32. Grübler, Arnulf (1990). The Rise and Fall of Infrastructures: Dynamics of Evolution and
+Technological Change in Transport (https://web.archive.org/web/20120301221205/http://ww w.iiasa.ac.at/Admin/PUB/Documents/XB-90-704.pdf) (PDF). Heidelberg and New York:
+Physica-Verlag. Archived from the original (http://www.iiasa.ac.at/Admin/PUB/Documents/X
+B-90-704.pdf) (PDF) on 1 March 2012. Retrieved 11 October 2017.
+33. Fogel, Robert W. (1964). Railroads and American Economic Growth: Essays in Econometric
+History (https://archive.org/details/railroadsamerica00foge). Baltimore and London: The
+Johns Hopkins Press. OCLC 237790 (https://search.worldcat.org/oclc/237790).
+34. Rosenberg, Nathan (1982). Inside the Black Box: Technology and Economics (https://archiv e.org/details/insideblackboxte00rose/page/60). Cambridge, New York: Cambridge University
+Press. p. 60 (https://archive.org/details/insideblackboxte00rose/page/60). ISBN 978-0-521-
+27367-1.
+35. "Early Days of Mumbles Railway" (https://www.bbc.co.uk/wales/southwest/sites/swansea/pa ges/mumbles_trainanniv.shtml). BBC. 15 February 2007. Archived (https://web.archive.org/ web/20090327234527/http://www.bbc.co.uk/wales/southwest/sites/swansea/pages/mumble s_trainanniv.shtml) from the original on 27 March 2009. Retrieved 19 September 2007.
+36. Gordon, W. J. (1910). Our Home Railways, volume one. London: Frederick Warne and Co.
+pp. 7–9.
+37. "Richard Trevithick's steam locomotive" (https://web.archive.org/web/20110415125004/htt p://www.museumwales.ac.uk/en/rhagor/article/trevithic_loco). National Museum Wales.
+Archived from the original (http://www.museumwales.ac.uk/en/rhagor/article/trevithic_loco/) on 15 April 2011.
+38. "Steam train anniversary begins" (http://news.bbc.co.uk/1/hi/wales/3509961.stm). BBC. 21
+February 2004. Archived (https://web.archive.org/web/20200603021117/http://news.bbc.co.
+uk/2/hi/uk_news/wales/3509961.stm) from the original on 3 June 2020. Retrieved 13 June
+2009. "A south Wales town has begun months of celebrations to mark the 200th anniversary of the invention of the steam locomotive. Merthyr Tydfil was the location where, on 21
+February 1804, Richard Trevithick took the world into the railway age when he set one of his high-pressure steam engines on a local iron master's tram rails"
+39. Hamilton Ellis (1968). The Pictorial Encyclopedia of Railways. The Hamlyn Publishing
+Group. p. 12.
+40. " 'Puffing Billy' locomotive | Science Museum Group Collection" (https://collection.sciencemu seumgroup.org.uk/objects/co8247941/puffing-billy-locomotive-steam-locomotive).
+collection.sciencemuseumgroup.org.uk. Archived (https://web.archive.org/web/2023051910
+4831/https://collection.sciencemuseumgroup.org.uk/objects/co8247941/puffing-billy-locomoti ve-steam-locomotive) from the original on 19 May 2023. Retrieved 26 May 2021.
+41. Hamilton Ellis (1968). The Pictorial Encyclopedia of Railways. The Hamlyn Publishing
+Group. pp. 20–22.
+42. Ellis, Hamilton (1968). The Pictorial Encyclopedia of Railways. Hamlyn Publishing Group.
+43. "First in the world: The making of the Liverpool and Manchester Railway" (https://www.scien ceandindustrymuseum.org.uk/objects-and-stories/making-the-liverpool-and-manchester-rail way). Science and Industry Museum. Archived (https://web.archive.org/web/2020050223360
+9/https://www.scienceandindustrymuseum.org.uk/objects-and-stories/making-the-liverpool-a nd-manchester-railway) from the original on 2 May 2020. Retrieved 15 April 2022.
+44. Day, Lance; McNeil, Ian (1966). "Davidson, Robert" (https://archive.org/details/isbn_978041
+5060424). Biographical dictionary of the history of technology. London: Routledge.
+ISBN 978-0-415-06042-4.
+45. Gordon, William (1910). "The Underground Electric". Our Home Railways. Vol. 2. London:
+Frederick Warne and Co. p. 156.
+46. Renzo Pocaterra, Treni, De Agostini, 2003
+47. Jean Denis G.G Lepage, Military Trains and Railways: an illustrated history, Jefferson, North
+Carolina: McFarland & Company, Inc., Publishers, 2017. Print. pp. 9-11.
+48. "Richmond Union Passenger Railway" (https://web.archive.org/web/20081201032737/http:// www.ieee.org/web/aboutus/history_center/richmond.html). IEEE History Center. Archived from the original (http://www.ieee.org/web/aboutus/history_center/richmond.html) on 1
+December 2008. Retrieved 18 January 2008.
+49. "A brief history of the Underground" (https://tfl.gov.uk/corporate/about-tfl/culture-and-heritag e/londons-transport-a-history/london-underground/a-brief-history-of-the-underground).
+Transport for London.gov.uk. 15 October 2017. Archived (https://web.archive.org/web/20180
+612192039/https://tfl.gov.uk/corporate/about-tfl/culture-and-heritage/londons-transport-a-hist ory/london-underground/a-brief-history-of-the-underground) from the original on 12 June
+2018. Retrieved 16 October 2017.
+50. Duffy (2003), pp. 39–41.
+51. Duffy (2003), p. 129.
+52. Andrew L. Simon (1998). Made in Hungary: Hungarian Contributions to Universal Culture (ht tps://archive.org/details/madeinhungaryhun0000simo). Simon Publications. p. 264 (https://ar chive.org/details/madeinhungaryhun0000simo/page/264). ISBN 978-0-9665734-2-8. "Evian- les-Bains kando."
+53. Francis S. Wagner (1977). Hungarian Contributions to World Civilization. Alpha Publications.
+p. 67. ISBN 978-0-912404-04-2.
+54. Duffy (2003), p. 120–121.
+55. Hungarian Patent Office. "Kálmán Kandó (1869–1931)" (https://web.archive.org/web/201010
+08073106/http://www.mszh.hu/English/feltalalok/kando.html). mszh.hu. Archived from the original (http://www.mszh.hu/English/feltalalok/kando.html) on 8 October 2010. Retrieved
+10 August 2008.
+56. Duffy (2003), p. 137.
+57. Duffy (2003), p. 273.
+58. "Motive power for British Railways" (https://web.archive.org/web/20140304150727/http://ww w.gracesguide.co.uk/images/5/56/Er19560824.pdf) (PDF), The Engineer, vol. 202, p. 254,
+24 April 1956, archived from the original (http://www.gracesguide.co.uk/images/5/56/Er1956
+0824.pdf) (PDF) on 4 March 2014, retrieved 11 October 2017
+59. Thomson, William (4 May 1888), "Priestmans' Petroleum Engine", The Electrical Review,
+22: 474, hdl:2027/mdp.39015084630964 (https://hdl.handle.net/2027%2Fmdp.39015084630
+964?urlappend=%3Bseq=494%3Bownerid=13510798902290767-502) – via Haithi Trust, "A small double cylinder engine has been mounted upon a truck, which is worked on a temporary line of rails, in order to show the adaptation of a petroleum engine for locomotive purposes, on tramways"
+60. Diesel Railway Traction, vol. 17, 1963, p. 25, "In one sense a dock authority was the earliest user of an oil-engined locomotive, for it was at the Hull docks of the North Eastern Railway that the Priestman locomotive put in its short period of service in 1894"
+61. Churella, Albert J. (1998). From Steam to Diesel: Managerial Customs and Organizational
+Capabilities in the Twentieth-Century American Locomotive Industry. Princeton, New Jersey:
+Princeton University Press. p. 12. ISBN 978-0-691-02776-0.
+62. Glatte, Wolfgang (1993). Deutsches Lok-Archiv: Diesellokomotiven 4. Auflage. Berlin:
+Transpress. ISBN 978-3-344-70767-5.
+63. Westwood, J. N. (1982). Soviet Locomotive Technology During Industrialization, 1928—
+1952. Macmillan Press. ISBN 978-1-349-05013-0.
+64. US 1154785 (https://worldwide.espacenet.com/textdoc?DB=EPODOC&IDX=US1154785),
+Lemp, Hermann, "Controlling mechanism for internal-combustion engines", issued 28
+September 1915
+65. Pinkepank, Jerry A. (1973). The Second Diesel Spotter's Guide. Milwaukee WI: Kalmbach
+Books. p. 409. ISBN 978-0-89024-026-7.
+66. STANDS4 LLC, 2020, TPH (https://www.abbreviations.com/term/210500) Archived (https://w eb.archive.org/web/20200719155544/https://www.abbreviations.com/term/210500) 19 July
+2020 at the Wayback Machine, abbreviations.com, accessed 19 July 2020
+67. American Railway Engineering and Maintenance of Way Association Committee 24 –
+Education and Training. (2003). Practical Guide to Railway Engineering. AREMA, 2nd Ed.
+68. "Rail freight in the next decade: Potential for performance improvements?" (https://www.glob alrailwayreview.com/article/82922/rail-freight-next-decade-improvements/). Global Railway
+Review. Archived (https://web.archive.org/web/20210201064926/https://www.globalrailwayr eview.com/article/82922/rail-freight-next-decade-improvements/) from the original on 1
+February 2021. Retrieved 27 January 2021.
+69. "Environmental Issues" (https://web.archive.org/web/20120111153436/http://www.theenviro nmentalblog.org/environmental-issues/). The Environmental Blog. 3 April 2007. Archived from the original (http://www.theenvironmentalblog.org/environmental-issues/) on 11
+January 2012. Retrieved 10 October 2010.
+70. Marcomin, Fabio (11 October 2024). "Effetto M4: la metro di Milano entra nella top europea"
+(https://www.milanocittastato.it/trasporti/effetto-m4-la-metro-di-milano-entra-nella-top-europe a/?fbclid=IwY2xjawF3U1dleHRuA2FlbQIxMQABHXSpIbaPnyiu6v7H7zI_mDyWgUrPadrCjN
+6GDzfUhPP2dI-Mfj4jLYBecw_aem__7hUFLg35ygwuZipXbL1Vg#goog_rewarded). Milano
+Città Stato (in Italian). Retrieved 12 October 2024.
+71. "Mass transit - Urban Mobility, Efficiency, Environment" (https://www.britannica.com/topic/ma ss-transit/The-benefits-of-urban-mass-transit). Britannica. 4 September 2024. Retrieved
+29 September 2024.
+72. "Fact Book Glossary" (https://www.apta.com/research-technical-resources/transit-statistics/p ublic-transportation-fact-book/fact-book-glossary/). American Public Transportation
+Association. Retrieved 29 September 2024.
+73. "Rapid transit" (http://www.merriam-webster.com/dictionary/rapid%20transit). Merriam-
+Webster. Archived (https://web.archive.org/web/20130720025558/http://www.merriam-webst er.com/dictionary/rapid%20transit) from the original on 20 July 2013. Retrieved 31 July
+2013.
+74. UITP (2011). "Recommended basic reference for developing a minimum set of standards for voluntary use in the field of urban rail, according to mandate M/486" (https://web.archive.or g/web/20140222133945/http://ftp.uitp.org/ftproot/euroteam/YVA/URP_Fundamental_Requir ements_EN.pdf) (PDF). Archived from the original on 22 February 2014. Retrieved
+16 February 2014.
+75. "Glossary of Transit Terminology" (http://www.apta.com/resources/reportsandpublications/D ocuments/Transit_Glossary_1994.pdf) (PDF). American Public Transportation Association.
+Archived (https://web.archive.org/web/20130512230056/http://www.apta.com/resources/rep ortsandpublications/Documents/Transit_Glossary_1994.pdf) (PDF) from the original on 12
+May 2013. Retrieved 31 July 2013.
+76. Fouracre, Phil; Dunkerley, Christian; Gardner, Geoff (2003). "Mass rapid transit systems for cities in the developing world" (https://www.tandfonline.com/doi/pdf/10.1080/014416403200
+0083095). Transport Reviews. 23 (3). Taylor & Francis Online: 299–310.
+doi:10.1080/0144164032000083095 (https://doi.org/10.1080%2F0144164032000083095).
+S2CID 154931412 (https://api.semanticscholar.org/CorpusID:154931412). Retrieved 2 April
+2023.
+77. "Rapid Transit" (http://www.britannica.com/EBchecked/topic/491506/rapid-transit).
+Encyclopædia Britannica. Archived (https://web.archive.org/web/20141017033402/http://ww w.britannica.com/EBchecked/topic/491506/rapid-transit) from the original on 17 October
+2014. Retrieved 28 November 2014.
+78. "Chicago" (http://www.urbanrail.net/am/chic/chicago.htm). Archived (https://web.archive.org/ web/20150416074705/http://www.urbanrail.net/am/chic/chicago.htm) from the original on 16
+April 2015. Retrieved 24 April 2015.
+79. Transport for London (1981). London Underground: History (https://web.archive.org/web/20
+130116190701/http://www.tfl.gov.uk/corporate/modesoftransport/londonunderground/1604.a spx). Capital Transport. ISBN 978-0-904711-30-1. Archived from the original (http://www.tfl.g ov.uk/corporate/modesoftransport/londonunderground/1604.aspx) on 16 January 2013.
+Retrieved 2 January 2013.
+80. "Luoyang and Ji'nan open metro lines" (https://www.railjournal.com/regions/asia/luoyang-an d-jinan-open-metro-lines/). International Railway Journal. 29 March 2021. Retrieved 7 June
+2021.
+81. "China's Metro Boom Continues to Drive Rapid Transit Growth – Institute for Transportation and Development Policy" (https://www.itdp.org/2018/07/30/china-drives-rapid-transit-growt h/). Institute for Transportation and Development Policy. 30 July 2018. Archived (https://web.
+archive.org/web/20181120095357/https://www.itdp.org/2018/07/30/china-drives-rapid-transit
+-growth/) from the original on 20 November 2018. Retrieved 20 November 2018.
+82. "Metro Data" (https://web.archive.org/web/20180929000328/http://metro-data.info/). metro- data.info. Archived from the original on 29 September 2018. Retrieved 28 September 2018.
+83. "Rapid Transit Trends Show Record Growth in 2016, with Huge Increases in China, Brazil –
+Institute for Transportation and Development Policy" (https://www.itdp.org/2017/02/17/rapid-t ransit-trends/). Institute for Transportation and Development Policy. 17 February 2017.
+Archived (https://web.archive.org/web/20181023020236/https://www.itdp.org/2017/02/17/rap id-transit-trends/) from the original on 23 October 2018. Retrieved 20 November 2018.
+84. "Shanghai now the world's longest metro" (http://www.railwaygazette.com/news/single-view/ view/10/shanghai-now-the-worlds-longest-metro.html). Railway Gazette International. 4 May
+2010. Archived (https://web.archive.org/web/20100515130655/http://www.railwaygazette.co m/news/single-view/view/10/shanghai-now-the-worlds-longest-metro.html) from the original on 15 May 2010. Retrieved 4 May 2010.
+85. Smith, Stephen J. (6 January 2014). "New Starts: Shanghai Metro World's Longest, Panama
+Canal Drama, Japan's Maglev" (http://nextcity.org/daily/entry/new-starts-shanghai-metro-wor lds-longest-panama-canal-drama-japans-maglev). Next City. Archived (https://web.archive.o rg/web/20140925160200/http://nextcity.org/daily/entry/new-starts-shanghai-metro-worlds-lon gest-panama-canal-drama-japans-maglev) from the original on 25 September 2014.
+Retrieved 21 September 2014.
+86. "Facts – Subway and Bus Ridership" (http://web.mta.info/nyct/facts/ridership/). Metropolitan
+Transportation Authority (MTA). Archived (https://web.archive.org/web/20140912073839/htt p://web.mta.info/nyct/facts/ridership/) from the original on 12 September 2014. Retrieved
+21 September 2014.
+87. Rodrigue, Jean-Paul (2020). The geography of transport systems (Fifth ed.). Abingdon,
+Oxon: Routledge. ISBN 978-0-429-34632-3. OCLC 1133662497 (https://search.worldcat.or g/oclc/1133662497).
+88. "The Inception of the English Railway Station". Architectural History. 4: 63–76. 1961.
+doi:10.2307/1568245 (https://doi.org/10.2307%2F1568245). JSTOR 1568245 (https://www.j stor.org/stable/1568245). S2CID 246043093 (https://api.semanticscholar.org/CorpusID:2460
+43093).
+89. "About Us" (https://web.archive.org/web/20141009231027/http://www.networkrail.co.uk/abo ut-us/). Archived from the original (http://www.networkrail.co.uk/about-us/) on 9 October
+2014.
+90. Guan, Xueyi; Qin, Jin; Mao, Chenghui; Zhou, Wenliang (January 2023). "A Literature
+Review of Railway Pricing Based on Revenue Management" (https://doi.org/10.3390%2Fma th11040857). Mathematics. 11 (4): 857. doi:10.3390/math11040857 (https://doi.org/10.339
+0%2Fmath11040857). ISSN 2227-7390 (https://search.worldcat.org/issn/2227-7390).
+91. "Shipping Tariffs" (https://www.odfl.com/us/en/resources/tariffs.html). Old Dominion Freight
+Line. Retrieved 7 April 2024.
+92. "EU Technical Report 2007" (http://www.eea.europa.eu/publications/technical_report_2007_
+3/download). Archived (https://web.archive.org/web/20180123142006/https://www.eea.euro pa.eu/publications/technical_report_2007_3/download) from the original on 23 January
+2018. Retrieved 26 January 2016.
+93. EuDaly, Kevin; et al. (2009). The Complete Book of North American Railroading (https://boo ks.google.com/books?id=4kQrGUYb-EMC). Minneapolis: Voyageur Press. ISBN 978-0-
+7603-2848-4. OCLC 209631579 (https://search.worldcat.org/oclc/209631579).
+94. "Statistics database for transports" (https://web.archive.org/web/20120603163108/http://ep p.eurostat.ec.europa.eu/portal/page/portal/transport/data/database).
+epp.eurostat.ec.europa.eu (statistical database). Eurostat, European Commission. 20 April
+2014. Archived from the original (http://epp.eurostat.ec.europa.eu/portal/page/portal/transpo rt/data/database) on 3 June 2012. Retrieved 12 May 2014.
+95. Vojtech Eksler, ed. (5 May 2013). "Intermediate report on the development of railway safety in the European Union 2013" (http://www.era.europa.eu/Document-Register/Documents/SP
+R%202013%20Final%20for%20web.pdf) (PDF). www.era.europa.eu (report). Safety Unit,
+European Railway Agency & European Union. p. 1. Archived (https://web.archive.org/web/2
+0170829110858/http://www.era.europa.eu/Document-Register/Documents/SPR%202013%
+20Final%20for%20web.pdf) (PDF) from the original on 29 August 2017. Retrieved 12 May
+2014.
+96. American Association of Railroads. "Railroad Fuel Efficiency Sets New Record" (http://www.
+progressiverailroading.com/news/article.asp?id=16740). Archived (https://web.archive.org/w eb/20131126044749/http://www.progressiverailroading.com/news/article.asp?id=16740) from the original on 26 November 2013. Retrieved 12 April 2009.
+97. "What is Rail Transport? Definition of Rail Transport, Rail Transport Meaning" (https://econo mictimes.indiatimes.com/definition/rail-transport#:~:text=Definition%3A%20Rail%20transpor t%20is%20also,as%20well%20as%2C%20short%20distances.). The Economic Times.
+Archived (https://web.archive.org/web/20210413151604/https://economictimes.indiatimes.co m/definition/rail-transport#:~:text=Definition%3A%20Rail%20transport%20is%20also,as%20 well%20as%2C%20short%20distances.) from the original on 13 April 2021. Retrieved
+27 January 2021.
+98. Publicada por João Pimentel Ferreira. "Carro ou comboio?" (http://www.veraveritas.eu/201
+3/02/carro-ou-comboio.html). Veraveritas.eu. Archived (https://web.archive.org/web/201504
+08230511/http://www.veraveritas.eu/2013/02/carro-ou-comboio.html) from the original on 8
+April 2015. Retrieved 3 January 2015.
+99. "Public Transportation Ridership Statistics" (https://web.archive.org/web/20070815101950/h ttp://www.apta.com/research/stats/ridership/). American Public Transportation Association.
+2007. Archived from the original (http://www.apta.com/research/stats/ridership/) on 15
+August 2007. Retrieved 10 September 2007.
+100. Baum-Snow, Nathaniel; Kahn, Matthew E. (August 2000). "The effects of new public projects to expand urban rail transit" (https://www.sciencedirect.com/science/article/pii/S004
+7272799000857). Journal of Public Economics. 77 (2): 241–263. doi:10.1016/S0047-
+2727(99)00085-7 (https://doi.org/10.1016%2FS0047-2727%2899%2900085-7). Archived (ht tps://web.archive.org/web/20220314155133/https://www.sciencedirect.com/science/article/pi i/S0047272799000857) from the original on 14 March 2022. Retrieved 16 March 2022.
+101. "New height of world's railway born in Tibet" (https://web.archive.org/web/20050913000430/ http://news.xinhuanet.com/english/2005-08/24/content_3397297.htm). Xinhua News
+Agency. 24 August 2005. Archived from the original (http://news.xinhuanet.com/english/2005
+-08/24/content_3397297.htm) on 13 September 2005. Retrieved 8 May 2011.
+102. Schivelbusch, G. (1986) The Railway Journey: Industrialization and Perception of Time and
+Space in the 19th Century. Oxford: Berg.
+103. Tony Judt, When the Facts Change: Essays 1995–2010 (2015) pp. 287–288.
+104. Cermeño, Alexandra L.; Enflo, Kerstin; Lindvall, Johannes (2021). "Railroads and Reform:
+How Trains Strengthened the Nation State" (https://doi.org/10.1017%2FS000712342000065
+4). British Journal of Political Science. 52 (2): 715–735. doi:10.1017/S0007123420000654
+(https://doi.org/10.1017%2FS0007123420000654). ISSN 0007-1234 (https://search.worldca t.org/issn/0007-1234).
+105. Adams, Henry (1918). "The Press (1868)" (http://xroads.virginia.edu/~HYPER/hadams/eha1
+6.html). The Education of Henry Adams. p. 240. Archived (https://web.archive.org/web/2017
+0318035849/http://xroads.virginia.edu/~HYPER/hadams/eha16.html) from the original on 18
+March 2017. Retrieved 11 May 2017.
+106. Jenks, Leland H. (1944). "Railroads as an Economic Force in American Development". The
+Journal of Economic History. 4 (1): 1–20. doi:10.1017/S002205070008400X (https://doi.org/
+10.1017%2FS002205070008400X). JSTOR 2113700 (https://www.jstor.org/stable/211370
+0). S2CID 154883188 (https://api.semanticscholar.org/CorpusID:154883188).
+107. Edward C. Kirkland, Industry comes of age: Business, labor, and public policy, 1860–1897
+(1961) pp. 52, 68–74.
+108. Chandler, Alfred D. (1954). "Patterns of American Railroad Finance, 1830–50". The
+Business History Review. 28 (3): 248–263. doi:10.2307/3111573 (https://doi.org/10.2307%2
+F3111573). JSTOR 3111573 (https://www.jstor.org/stable/3111573). S2CID 154702721 (htt ps://api.semanticscholar.org/CorpusID:154702721).
+109. Kirkland, Industry comes of age (1961) pp. 57–68.
+110. Jenks, Leland H. (1951). "Capital Movement and Transportation: Britain and American
+Railway Development". The Journal of Economic History. 11 (4): 375–388.
+doi:10.1017/S0022050700085119 (https://doi.org/10.1017%2FS0022050700085119).
+JSTOR 2113694 (https://www.jstor.org/stable/2113694). S2CID 153714837 (https://api.sem anticscholar.org/CorpusID:153714837).
+111. Saul Engelbourg, The man who found the money: John Stewart Kennedy and the financing of the western railroads (1996).
+112. Alfred D. Chandler and Stephen Salsbury. "The railroads: Innovators in modern business administration." in Bruce Mazlish, ed., The Railroad and the Space Program (MIT Press,
+1965) pp. 127–162
+113. Licht, Walter (1983). Working for the Railroad: The Organization of Work in the Nineteenth
+Century (https://archive.org/details/workingforrailro0000lich). Princeton, N.J. : Princeton
+University Press. pp. 262 (https://archive.org/details/workingforrailro0000lich/page/262)–
+263, 289. ISBN 9780691047003.
+114. Hong Kong Information Services Department of the Hong Kong SAR Government. Hong
+Kong 2009
+115. Hu, Hua; Gao, Yun-Feng; Liu, Zhi-Gang; Yang, Xiao-Guang (2010). "Effect of integrated multi-modal transit information on modal shift". 13th International IEEE Conference on
+Intelligent Transportation Systems. pp. 1753–1757. doi:10.1109/ITSC.2010.5625187 (http s://doi.org/10.1109%2FITSC.2010.5625187). ISBN 978-1-4244-7657-2. S2CID 38806085 (h ttps://api.semanticscholar.org/CorpusID:38806085).
+116. Straszak, A. (1977). The Shinkansen High-Speed Rail Network of Japan: Proceedings of an
+IIASA Conference, June 27–30, 1977. Elsevier. ISBN 978-1-4831-8916-1.
+117. Christopher R. Gabel, "Railroad Generalship: Foundations of Civil War Strategy" (Army
+Command And General Staff College, Combat Studies Inst, 1997) online (https://apps.dtic.m il/dtic/tr/fulltext/u2/a445773.pdf) Archived (https://web.archive.org/web/20190807180009/http s://apps.dtic.mil/dtic/tr/fulltext/u2/a445773.pdf) 7 August 2019 at the Wayback Machine.
+118. Dennis E. Showalter, Railroads and Rifles: soldiers, technology, and the unification of
+Germany (1975).
+119. Stevenson, D. (1 February 1999). "War by Timetable? The Railway Race Before 1914". Past
+& Present (162): 163–194. doi:10.1093/past/162.1.163 (https://doi.org/10.1093%2Fpast%2F
+162.1.163).
+120. Denis Bishop and W. J. K. Davies, Railways and War Before 1918 (London: Blandford
+Press, 1972); Bishop and Davies, Railways and War Since 1917 (1974).
+121. Lytton, Henry D (1 April 1983). "Bombing Policy in the Rome and Pre-Normandy Invasion
+Aerial Campaigns of World War II: Bridge-Bombing Strategy Vindicated – and Railyard-
+Bombing Strategy Invalidated". Military Affairs. 47 (2). Lexington: 53–58.
+doi:10.2307/1988491 (https://doi.org/10.2307%2F1988491). JSTOR 1988491 (https://www.j stor.org/stable/1988491). ProQuest 1296644342 (https://www.proquest.com/docview/12966
+44342).
+122. Lewandowski, Krzysztof (December 2015). "New coefficients of rail transport usage" (https:// www.ijeit.com/Vol%205/Issue%206/IJEIT1412201512_16.pdf) (PDF). International Journal of Engineering and Innovative Technology. 5 (6): 89–91. Archived (https://web.archive.org/w eb/20201031011553/https://www.ijeit.com/Vol%205/Issue%206/IJEIT1412201512_16.pdf)
+(PDF) from the original on 31 October 2020. Retrieved 27 October 2020.
+123. Squires, G. Ed. (2002) Urban Sprawl: Causes, Consequences, & Policy Responses. The
+Urban Institute Press.
+124. Puentes, R. (2008). A Bridge to Somewhere: Rethinking American Transportation for the
+21st Century. Brookings Institution Metropolitan Policy Report: Blueprint for American
+Prosperity series report.
+125. Bryant, Chad (April 2009). "Into an Uncertain Future: Railroads and Vormärz Liberalism in
+Brno, Vienna, and Prague". Austrian History Yearbook. 40: 183–201.
+doi:10.1017/S0067237809000150 (https://doi.org/10.1017%2FS0067237809000150).
+126. Guo, Shihong; Chen, Liqiang (March 2019). "Can urban rail transit systems alleviate air pollution? Empirical evidence from Beijing: XXXX" (https://doi.org/10.1111%2Fgrow.12266).
+Growth and Change. 50 (1): 130–144. doi:10.1111/grow.12266 (https://doi.org/10.1111%2F grow.12266).
+127. Firzli, M. Nicolas J. (1 July 2013). "Transportation Infrastructure and Country Attractiveness"
+(https://www.academia.edu/6494981). Revue Analyse Financière. Paris. Archived (https://we b.archive.org/web/20150904095706/http://www.academia.edu/6494981/Transportation_Infra structure_and_Country_Attractiveness) from the original on 4 September 2015. Retrieved
+26 April 2014.
+128. "China plans to spend $115 billion on railways in 2017: Xinhua" (https://www.reuters.com/art icle/us-china-railways-idUSKBN14O0Q3). Reuters. 4 January 2017. Archived (https://web.ar chive.org/web/20230323053515/https://www.reuters.com/article/us-china-railways-idUSKBN
+14O0Q3) from the original on 23 March 2023. Retrieved 23 March 2023.
+129. "Govt defends fare hike, says rail subsidy burden was too heavy" (http://timesofindia.indiati mes.com/india/Govt-defends-fare-hike-says-rail-subsidy-burden-was-too-heavy/articleshow/
+36982158.cms). The Times of India. 22 June 2014. Archived (https://web.archive.org/web/2
+0230709182711/http://timesofindia.indiatimes.com/india/Govt-defends-fare-hike-says-rail-su bsidy-burden-was-too-heavy/articleshow/36982158.cms) from the original on 9 July 2023.
+Retrieved 30 June 2016.
+130. "ANNEX to Proposal for a Regulation of the European Parliament and of the Council amending Regulation (EC) No 1370/2007 concerning the opening of the market for domestic passenger transport services by rail" (https://web.archive.org/web/2013050301511
+0/http://www.networkrail.co.uk/European-rail-study-report.pdf) (PDF) (Commission Staff
+Working Document: Impact Assessment). Brussels: European Commission. 2013. pp. 6, 44,
+45. Archived from the original (http://www.networkrail.co.uk/European-rail-study-report.pdf)
+(PDF) on 3 May 2013. "2008 data is not provided for Italy, so 2007 data is used instead"
+131. "the 2017 European Railway Performance Index" (https://www.bcg.com/en-ch/publications/2
+017/transportation-travel-tourism-2017-european-railway-performance-index.aspx). Boston
+Consulting Group. 18 April 2017. Archived (https://web.archive.org/web/20200531104458/htt ps://www.bcg.com/en-ch/publications/2017/transportation-travel-tourism-2017-european-rail way-performance-index.aspx) from the original on 31 May 2020. Retrieved 8 January 2021.
+132. "German Railway Financing" (https://web.archive.org/web/20160310165357/https://www.de utschebahn.com/file/de/2192370/2RLvPOzueXgX19CucGFn4Wofp5E/2267530/data/finanz
+_eisenbahn_dtl.pdf) (PDF). p. 2. Archived from the original (https://www.deutschebahn.com/f ile/de/2192370/2RLvPOzueXgX19CucGFn4Wofp5E/2267530/data/finanz_eisenbahn_dtl.pd f) (PDF) on 10 March 2016.
+133. "Efficiency indicators of Railways in France" (https://web.archive.org/web/20151117030418/ http://www.internationaltransportforum.org/jtrc/RoundTables/2014-Railway-Efficiency/Bonnaf ous-Crozet.pdf) (PDF). Archived from the original (http://www.internationaltransportforum.or g/jtrc/RoundTables/2014-Railway-Efficiency/Bonnafous-Crozet.pdf) (PDF) on 17 November
+2015.
+134. "The age of the train" (https://web.archive.org/web/20151117023204/http://www.oxera.com/
+Oxera/media/Oxera/downloads/Agenda/The-age-of-the-train.pdf?ext=.pdf) (PDF). Archived from the original (http://www.oxera.com/Oxera/media/Oxera/downloads/Agenda/The-age-of- the-train.pdf?ext=.pdf) (PDF) on 17 November 2015. Retrieved 27 January 2016.
+135. "Facts and arguments in favour of Swiss public transport" (https://web.archive.org/web/2014
+1026115934/http://www.voev.ch/de/Service/Downloadsindex.php?section=downloads&down load=2208). p. 24. Archived from the original (https://www.voev.ch/de/Service/Downloadsind ex.php?section=downloads&download=2208) on 26 October 2014. Retrieved 3 July 2016.
+"6.3 billion Swiss francs"
+136. "Spanish railways battle profit loss with more investment" (https://www.railway-technology.co m/features/featurespanish-railways-battle-profit-loss-with-more-investment-4664870/). 17
+September 2015. Archived (https://web.archive.org/web/20201124042426/https://www.railw ay-technology.com/features/featurespanish-railways-battle-profit-loss-with-more-investment-
+4664870/) from the original on 24 November 2020. Retrieved 10 March 2016.
+137. "GB rail industry financial information 2014–15" (http://orr.gov.uk/__data/assets/pdf_file/001
+5/21039/gb-rail-industry-financial-information-2014-15.pdf) (PDF). 9 March 2016. Archived
+(https://web.archive.org/web/20160309193519/http://orr.gov.uk/__data/assets/pdf_file/0015/
+21039/gb-rail-industry-financial-information-2014-15.pdf) (PDF) from the original on 9 March
+2016. Retrieved 9 March 2016. "£3.5 billion"
+138. "ProRail report 2015" (https://web.archive.org/web/20160303133634/https://www.rijksoverhe id.nl/binaries/rijksoverheid/documenten/rapporten/2014/12/15/bijlage-2-beheerplan-prorail-2
+015/bijlage-2-beheerplan-prorail-2015.pdf) (PDF). p. 30. Archived from the original (https://w ww.rijksoverheid.nl/binaries/rijksoverheid/documenten/rapporten/2014/12/15/bijlage-2-behee rplan-prorail-2015/bijlage-2-beheerplan-prorail-2015.pdf) (PDF) on 3 March 2016. Retrieved
+22 February 2016.
+139. "The evolution of public funding to the rail sector in 5 European countries – a comparison" (h ttps://web.archive.org/web/20160304094154/http://www.crninet.com/2011/b7a.pdf) (PDF).
+p. 6. Archived from the original (http://www.crninet.com/2011/b7a.pdf) (PDF) on 4 March
+2016. Retrieved 27 January 2016.
+140. "European rail study report" (https://web.archive.org/web/20130503015110/http://www.netw orkrail.co.uk/European-rail-study-report.pdf) (PDF). pp. 44, 45. Archived from the original (ht tp://www.networkrail.co.uk/European-rail-study-report.pdf) (PDF) on 3 May 2013. "Includes both "Railway subsidies" and "Public Service Obligations"."
+141. "Government support for Russian Railways" (https://ar2016.rzd.ru/en/financial-results/gover nment-support). Archived (https://web.archive.org/web/20181126221332/https://ar2016.rzd.r u/en/financial-results/government-support) from the original on 26 November 2018.
+Retrieved 26 November 2018.
+142. "FY15 Budget, Business Plan 2015" (https://www.amtrak.com/ccurl/133/704/FY15-Budget-B usiness-Plan-FY16-Budget-Justification-FY-15-19-Five-Year-Financial-Plan.pdf) (PDF).
+Archived (https://web.archive.org/web/20160204232001/https://www.amtrak.com/ccurl/133/7
+04/FY15-Budget-Business-Plan-FY16-Budget-Justification-FY-15-19-Five-Year-Financial-Pl an.pdf) (PDF) from the original on 4 February 2016. Retrieved 9 March 2016.
+143. "Management's Discussion and Analysis of Financial Condition and Results of Operations and Consolidated Financial Statements With Report of Independent Auditors" (https://www.a mtrak.com/content/dam/projects/dotcom/english/public/documents/corporate/financial/Amtra k-Management-Discussion-Analysis-Audited-Financial-Statements-FY18.pdf) (PDF).
+Amtrak. 28 January 2019. p. 33. Archived (https://web.archive.org/web/20191103074256/htt ps://www.amtrak.com/content/dam/projects/dotcom/english/public/documents/corporate/fina ncial/Amtrak-Management-Discussion-Analysis-Audited-Financial-Statements-FY18.pdf)
+(PDF) from the original on 3 November 2019. Retrieved 3 November 2019.
+Duffy, Michael C. (2003). Electric Railways 1880–1990 (https://books.google.com/books?id= cpFEm3aqz_MC&q=close+links+between+ganz&pg=PA137). IET. ISBN 978-0-85296-805-
+5.
+Burton, Anthony. Railway Empire: How the British Gave Railways to the World (2018) excerpt (https://www.amazon.com/Railway-Empire-British-Railways-World/dp/1473843693/)
+Chant, Christopher. The world's railways: the history and development of rail transport
+(Chartwell Books, 2001).
+Faith, Nicholas. The World the Railways Made (2014) excerpt (https://www.amazon.com/Rai lways-Christian-Wolmars-Railway-Library/dp/1781858365/)
+Freeman, Michael. "The Railway as Cultural Metaphor: 'What Kind of Railway History?'
+Revisited." Journal of Transport History 20.2 (1999): 160–167.
+Mukhopadhyay, Aparajita. Imperial Technology and 'Native'Agency: A Social History of
+Railways in Colonial India, 1850–1920 (Taylor & Francis, 2018).
+Nock, O. S. Railways then and now: a world history (1975) online (https://archive.org/details/ railwaysthennoww0000nock_g7q1)
+Nock, O. S. World atlas of railways (1978) online (https://archive.org/details/worldatlasofrail0
+000nock)
+Nock, O. S. 150 years of main line railways (1980) online (https://archive.org/details/150year sofmainli0000nock)
+Sources
+Further reading
+Pirie, Gordon. "Tracking railway histories." Journal of Transport History 35.2 (2014): 242–
+248.
+Sawai, Minoru, ed. The Development of Railway Technology in East Asia in Comparative
+Perspective (#Sringer, 2017)
+Trains Magazine. The Historical Guide to North American Railroads (3rd ed. 2014)
+Wolmar, Christian. Blood, iron, and gold: How the railroads transformed the world (Public
+Affairs, 2011).
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Rail_transport&oldid=1341694629"
+External links

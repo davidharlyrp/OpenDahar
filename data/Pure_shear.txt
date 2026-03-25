@@ -1,0 +1,27 @@
+Pure shear
+In mechanics and geology, pure shear is a three-dimensional homogeneous flattening of a body.[1] It is an example of irrotational strain in which body is elongated in one direction while being shortened perpendicularly. For soft materials, such as rubber, a strain state of pure shear is often used for characterizing hyperelastic and fracture mechanical behaviour.[2] Pure shear is differentiated from simple shear in that pure shear involves no rigid body rotation.[3][4]
+The deformation gradient for pure shear is given by:
+Note that this gives a Green-Lagrange strain of:
+Here there is no rotation occurring, which can be seen from the equal off-diagonal components of the strain tensor. The linear approximation to the Green-Lagrange strain shows that the small strain tensor is:
+which has only shearing components.
+For the aforementioned deformation gradient, the eigenvalues of the right Cauchy-Green deformation tensor (
+, see Finite strain theory) are and
+. The volume change is given as
+, which is not unity. In literature, a volume preserving formulation for is used to denote pure shear in large deformation[5]. This is written in the principal coordinate frame as:
+where is the principal stretch.
+Simple shear
+Squeeze mapping
+1. Reish, Nathaniel E.; Gary H. Girty. "Definition and Mathematics of Pure Shear" (http://www.g eology.sdsu.edu/visualstructure/vss/htm_hlp/pure_s.htm). San Diego State University
+Department of Geological Sciences. Retrieved 24 December 2011.
+2. Yeoh, O. H. (2001). "Analysis of deformation and fracture of 'pure shear'rubber testpiece".
+Plastics, Rubber and Composites. 30 (8): 389–397. Bibcode:2001PRC....30..389Y (https://u i.adsabs.harvard.edu/abs/2001PRC....30..389Y). doi:10.1179/146580101101541787 (http s://doi.org/10.1179%2F146580101101541787). S2CID 136628719 (https://api.semanticscho lar.org/CorpusID:136628719).
+3. "Where do the Pure and Shear come from in the Pure Shear test?" (http://www.endurica.co m/wp-content/uploads/2015/06/Pure-Shear-Nomenclature.pdf) (PDF). Retrieved 12 April
+2013.
+4. "Comparing Simple Shear and Pure Shear" (http://www.endurica.com/wp-content/uploads/2
+015/06/Comparing-Pure-Shear-and-Simple-Shear.pdf) (PDF). Retrieved 12 April 2013.
+5. Thiel, Christian; Voss, Jendrik; Martin, Robert J.; Neff, Patrizio (1 June 2019). "Shear, pure and simple" (https://www.sciencedirect.com/science/article/pii/S0020746218304116).
+International Journal of Non-Linear Mechanics. 112: 57–72. arXiv:1806.07749 (https://arxiv.
+org/abs/1806.07749). doi:10.1016/j.ijnonlinmec.2018.10.002 (https://doi.org/10.1016%2Fj.ijn onlinmec.2018.10.002). ISSN 0020-7462 (https://search.worldcat.org/issn/0020-7462).
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Pure_shear&oldid=1326289692"
+See also
+References

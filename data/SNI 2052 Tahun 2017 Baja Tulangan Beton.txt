@@ -1,1232 +1,858 @@
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
- 
- 
- 
-ICS 77.140.15                                  Badan Standardisasi Nasional     
- 
-Standar Nasional Indonesia 
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+
+ICS 77.140.15 Badan Standardisasi Nasional
+
+Standar Nasional Indonesia
 SNI 2052:2017
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Baja tulangan beton  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
+
+Baja tulangan beton
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
 © BSN 2017
-Hak cipta dilindungi undang-undang. Dilarang mengumumkan dan memperbanyak sebagian atau 
-seluruh isi dokumen ini dengan cara dan dalam bentuk apapun serta dilarang mendistribusikan 
-dokumen ini baik secara elektronik maupun tercetak tanpa izin tertulis dari BSN 
-BSN  
-Email:  dokinfo@bsn.go.id 
-www.bsn.go.id  
+Hak cipta dilindungi undang-undang. Dilarang mengumumkan dan memperbanyak sebagian atau seluruh isi dokumen ini dengan cara dan dalam bentuk apapun serta dilarang mendistribusikan dokumen ini baik secara elektronik maupun tercetak tanpa izin tertulis dari BSN
+BSN
+Email: dokinfo@bsn.go.id www.bsn.go.id
 Diterbitkan di Jakarta
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-i 
-Daftar isi 
- 
- 
- 
- 
-Daftar isi ..................................................................................................................................... i 
-Prakata ..................................................................................................................................... ii 
-1    Ruang lingkup .................................................................................................................... 1 
-2    Acuan normatif ................................................................................................................... 1 
-3    Istilah dan definisi .............................................................................................................. 1 
-4    Jenis .................................................................................................................................. 2 
-5    Bahan baku........................................................................................................................ 3 
-6    Syarat mutu ....................................................................................................................... 3 
-7    Cara pengambilan contoh .................................................................................................. 9 
-8    Cara uji ............................................................................................................................ 10 
-9    Syarat lulus uji ................................................................................................................. 12 
-10    Syarat Penandaan ......................................................................................................... 12 
-11   Cara pengemasan ......................................................................................................... 12 
-Bibliografi ............................................................................................................................... 13 
- 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-ii 
-Prakata 
- 
- 
- 
-Standar Nasional Indonesia (SNI) 2052:2017 dengan judul “Baja tulangan beton” 
-merupakan revisi dari SNI 2052:2014, Baja tulangan beton dan SNI 8307:2016, Spesifikasi 
-batang baja karbon deform dan polos untuk penulangan beton (ASTM A615/A615M-14, 
-IDT). 
-Tujuan dilakukan revisi ini adalah: 
-1. Kebutuhan dalam perdagangan; 
-2. Perkembangan teknologi struktur beton; 
-3. Spesifikasi terhadap produk yang terus berkembang 
-4. Kebutuhan akan spesifikasi baja tulangan beton sesuai dengan persyaratan beton struktural 
-untuk bangunan gedung (SNI 2847:2013 atau revisinya)   
- 
-SNI ini dirumuskan oleh Komite Teknis 77-01, Logam, Baja, dan Produk Baja melalui 
-proses/prosedur perumusan standar dan terakhir dibahas dalam konsensus yang 
-diselenggarakan di Jakarta pada tanggal 15 Maret 2017. Konsensus ini dihadiri oleh 
-perwakilan dari para produsen, konsumen, lembaga penelitian dan instansi terkait lainnya. 
- 
-Standar ini menggunakan referensi standar JIS dan ASTM. 
- 
-Standar ini telah melalui tahap jajak pendapat pada tanggal 2 Juni 2017 sampai dengan 2 
-Agustus 2017 
- 
-Perlu diperhatikan bahwa kemungkinan beberapa unsur dari dokumen standar ini dapat 
-berupa hak paten. Badan Standardisasi Nasional tidak bertanggung jawab untuk 
-pengidentifikasian salah satu atau seluruh hak paten yang ada. 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-1 dari 13 
-Baja tulangan beton  
- 
- 
- 
-1    Ruang lingkup 
- 
-Standar ini menetapkan acuan normatif, istilah, definisi,  bahan baku, jenis, syarat mutu, 
-cara pengambilan contoh, cara uji, syarat penandaan, syarat lulus uji, dan cara 
-pengemasan baja tulangan beton yang digunakan untuk keperluan penulangan 
-konstruksi beton dengan memperhatikan aspek keselamatan dan keamanan. 
- 
- 
-2    Acuan normatif    
- 
-Dokumen acuan berikut dibutuhkan untuk aplikasi standar ini. Untuk acuan yang 
-menunjukkan tahun, hanya edisi yang disebutkan tahunnya yang digunakan. Untuk acuan 
-yang tidak menunjukkan tahun, acuan yang digunakan adalah tahun edisi yang terakhir 
-(termasuk setiap amandemen). 
-SNI 8389, Cara uji tarik logam 
-SNl 0410, Cara uji lengkung logam 
- 
- 
-3    Istilah dan definisi 
- 
-3.1 
-baja tulangan beton 
-baja karbon atau baja paduan yang berbentuk batang berpenampang bundar dengan 
-permukaan polos atau sirip/ulir dan digunakan untuk penulangan beton. Baja ini diproduksi 
-dari bahan baku billet dengan cara canai panas (hot rolling) 
- 
-3.2 
-bahan baku yang digunakan 
-billet baja tuang kontinyu untuk baja tulangan beton  
- 
-3.3 
-ukuran nominal 
-ukuran yang ditetapkan dalam standar ini 
- 
-3.4 
-toleransi 
-besarnya penyimpangan yang diizinkan dari ukuran nominal 
- 
-3.5 
-diamater aktual 
-ukuran diameter aktual pada baja tulangan polos 
- 
-3.6 
-berat aktual 
-berat dari hasil penimbangan (kg/m) 
- 
-3.7 
-sirip/ulir melintang 
-setiap sirip/ulir yang terdapat pada permukaan batang baja tulangan beton dengan arah 
-melintang terhadap sumbu batang baja tulangan beton 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-2 dari 13 
-3.8 
-sirip/ulir membujur 
-setiap sirip/ulir yang terdapat pada permukaan batang baja tulangan beton dengan arah 
-membujur terhadap sumbu batang baja tulangan beton 
- 
-3.9 
-gap/rib 
-lebar rusuk atau celah 
- 
-3.10 
-ikat 
-dua batang atau lebih baja tulangan beton diikat secara kuat, rapih dan harus memiliki 
-ukuran nominal, jenis serta kelas baja yang sama 
- 
-3.11 
-bundel 
-dua ikat atau lebih baja tulangan beton yang terdiri dari ukuran nominal, jenis serta kelas 
-baja yang sama 
- 
-3.12 
-lot 
-dua bundel atau lebih baja tulangan beton yang terdiri dari ukuran nominal, jenis, serta 
-kelas baja yang sama ditumpuk dalam satu kelompok 
- 
-3.13 
-karat ringan 
-karat akibat cuaca (tidak korosif) yang apabila digosok secara manual dengan sikat kawat tidak 
-meninggalkan cacat pada permukaan dan memenuhi syarat mutu 
- 
-3.14 
-cerna 
-cacat pada permukaan baja tulangan yang terjadi akibat proses canai panas 
- 
-3.15 
-Tensile Ratio (TS/YS) 
-perbandingan antara kuat tarik (Tensile Strength, TS) terhadap kuat luluh/leleh (Yield 
-Strength, YS) 
- 
-3.16 
-kuat luluh/kuat leleh 
-nilai ketika baja tulangan beton mulai menunjukan fenomena luluh atau leleh atau 
-terdeformasi secara plastis  
- 
-3.17 
-regangan 
-regangan total panjang yang dihitung setelah benda uji putus 
- 
- 
-4    Jenis 
- 
-4.1    Baja tulangan beton polos (BjTP) 
-Baja  tulangan  beton  polos  adalah  baja  tulangan  beton  berpenampang bundar  dengan 
-permukaan rata tidak bersirip/berulir. 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-3 dari 13 
-4.2    Baja tulangan beton sirip/ulir (BjTS) 
-Baja  tulangan  beton  sirip/ulir adalah  baja  tulangan  beton  yang permukaannya 
-memiliki sirip/ulir melintang dan memanjang yang dimaksudkan untuk meningkatkan 
-daya lekat dan guna menahan gerakan membujur dari batang secara relatif terhadap 
-beton. 
- 
- 
-5    Bahan baku 
-  
-Baja tulangan beton terbuat dari billet baja tuang kontinyu dengan komposisi kimia seperti 
-pada Tabel 1. 
- 
-Tabel 1 – Komposisi kimia billet baja tuang kontinyu (ladle analysis) 
- 
- 
-Kelas baja 
-tulangan 
-Kandungan unsur maksimum (%) 
-C 
-Si 
-Mn 
-P 
-S 
-C Eq* 
-BjTP 280 
-- 
-- 
-- 
-0,050  
-0,050 
-- 
-BjTS 280 
-- 
-- 
-- 
-0,050 
-0,050 
-- 
-BjTS 420A 
-0,32 
-0,55 
-1,65 
-0,050 
-0,050 
-0,60 
-BjTS 420B 
-0,32 
-0,55 
-1,65 
-0,050 
-0,050 
-0,60 
-BjTS 520 
-0,35 
-0,55 
-1,65 
-0,050 
-0,050 
-0,625 
-BjTS 550 
-0,35 
-0,55 
-1,65 
-0,050 
-0,050 
-0,625 
-BjTS 700** 
-0,35 
-0,55 
-1,65 
-0,050 
-0,050 
-0,625 
-CATATAN: 
-- Toleransi nilai karbon (C) pada produk baja tulangan beton diperbolehkan lebih besar 0,03 % 
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017 i
+Daftar isi
+
+Daftar isi ..................................................................................................................................... i
+Prakata ..................................................................................................................................... ii
+1 Ruang lingkup .................................................................................................................... 1
+2 Acuan normatif ................................................................................................................... 1
+3 Istilah dan definisi .............................................................................................................. 1
+4 Jenis .................................................................................................................................. 2
+5 Bahan baku........................................................................................................................ 3
+6 Syarat mutu ....................................................................................................................... 3
+7 Cara pengambilan contoh .................................................................................................. 9
+8 Cara uji ............................................................................................................................ 10
+9 Syarat lulus uji ................................................................................................................. 12
+10 Syarat Penandaan ......................................................................................................... 12
+11 Cara pengemasan ......................................................................................................... 12
+Bibliografi ............................................................................................................................... 13
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017 ii
+Prakata
+
+Standar Nasional Indonesia (SNI) 2052:2017 dengan judul “Baja tulangan beton” merupakan revisi dari SNI 2052:2014, Baja tulangan beton dan SNI 8307:2016, Spesifikasi batang baja karbon deform dan polos untuk penulangan beton (ASTM A615/A615M-14,
+IDT).
+Tujuan dilakukan revisi ini adalah:
+1. Kebutuhan dalam perdagangan;
+2. Perkembangan teknologi struktur beton;
+3. Spesifikasi terhadap produk yang terus berkembang
+4. Kebutuhan akan spesifikasi baja tulangan beton sesuai dengan persyaratan beton struktural untuk bangunan gedung (SNI 2847:2013 atau revisinya)
+
+SNI ini dirumuskan oleh Komite Teknis 77-01, Logam, Baja, dan Produk Baja melalui proses/prosedur perumusan standar dan terakhir dibahas dalam konsensus yang diselenggarakan di Jakarta pada tanggal 15 Maret 2017. Konsensus ini dihadiri oleh perwakilan dari para produsen, konsumen, lembaga penelitian dan instansi terkait lainnya.
+
+Standar ini menggunakan referensi standar JIS dan ASTM.
+
+Standar ini telah melalui tahap jajak pendapat pada tanggal 2 Juni 2017 sampai dengan 2
+Agustus 2017
+
+Perlu diperhatikan bahwa kemungkinan beberapa unsur dari dokumen standar ini dapat berupa hak paten. Badan Standardisasi Nasional tidak bertanggung jawab untuk pengidentifikasian salah satu atau seluruh hak paten yang ada.
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+1 dari 13
+Baja tulangan beton
+
+1 Ruang lingkup
+
+Standar ini menetapkan acuan normatif, istilah, definisi, bahan baku, jenis, syarat mutu, cara pengambilan contoh, cara uji, syarat penandaan, syarat lulus uji, dan cara pengemasan baja tulangan beton yang digunakan untuk keperluan penulangan konstruksi beton dengan memperhatikan aspek keselamatan dan keamanan.
+
+2 Acuan normatif
+
+Dokumen acuan berikut dibutuhkan untuk aplikasi standar ini. Untuk acuan yang menunjukkan tahun, hanya edisi yang disebutkan tahunnya yang digunakan. Untuk acuan yang tidak menunjukkan tahun, acuan yang digunakan adalah tahun edisi yang terakhir
+(termasuk setiap amandemen).
+SNI 8389, Cara uji tarik logam
+SNl 0410, Cara uji lengkung logam
+
+3 Istilah dan definisi
+
+3.1 baja tulangan beton baja karbon atau baja paduan yang berbentuk batang berpenampang bundar dengan permukaan polos atau sirip/ulir dan digunakan untuk penulangan beton. Baja ini diproduksi dari bahan baku billet dengan cara canai panas (hot rolling)
+
+3.2 bahan baku yang digunakan billet baja tuang kontinyu untuk baja tulangan beton
+
+3.3 ukuran nominal ukuran yang ditetapkan dalam standar ini
+
+3.4 toleransi besarnya penyimpangan yang diizinkan dari ukuran nominal
+
+3.5 diamater aktual ukuran diameter aktual pada baja tulangan polos
+
+3.6 berat aktual berat dari hasil penimbangan (kg/m)
+
+3.7 sirip/ulir melintang setiap sirip/ulir yang terdapat pada permukaan batang baja tulangan beton dengan arah melintang terhadap sumbu batang baja tulangan beton
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+2 dari 13
+3.8 sirip/ulir membujur setiap sirip/ulir yang terdapat pada permukaan batang baja tulangan beton dengan arah membujur terhadap sumbu batang baja tulangan beton
+
+3.9 gap/rib lebar rusuk atau celah
+
+3.10 ikat dua batang atau lebih baja tulangan beton diikat secara kuat, rapih dan harus memiliki ukuran nominal, jenis serta kelas baja yang sama
+
+3.11 bundel dua ikat atau lebih baja tulangan beton yang terdiri dari ukuran nominal, jenis serta kelas baja yang sama
+
+3.12 lot dua bundel atau lebih baja tulangan beton yang terdiri dari ukuran nominal, jenis, serta kelas baja yang sama ditumpuk dalam satu kelompok
+
+3.13 karat ringan karat akibat cuaca (tidak korosif) yang apabila digosok secara manual dengan sikat kawat tidak meninggalkan cacat pada permukaan dan memenuhi syarat mutu
+
+3.14 cerna cacat pada permukaan baja tulangan yang terjadi akibat proses canai panas
+
+3.15
+Tensile Ratio (TS/YS) perbandingan antara kuat tarik (Tensile Strength, TS) terhadap kuat luluh/leleh (Yield
+Strength, YS)
+
+3.16 kuat luluh/kuat leleh nilai ketika baja tulangan beton mulai menunjukan fenomena luluh atau leleh atau terdeformasi secara plastis
+
+3.17 regangan regangan total panjang yang dihitung setelah benda uji putus
+
+4 Jenis
+
+4.1 Baja tulangan beton polos (BjTP)
+Baja tulangan beton polos adalah baja tulangan beton berpenampang bundar dengan permukaan rata tidak bersirip/berulir.
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+3 dari 13
+4.2 Baja tulangan beton sirip/ulir (BjTS)
+Baja tulangan beton sirip/ulir adalah baja tulangan beton yang permukaannya memiliki sirip/ulir melintang dan memanjang yang dimaksudkan untuk meningkatkan daya lekat dan guna menahan gerakan membujur dari batang secara relatif terhadap beton.
+
+5 Bahan baku
+
+Baja tulangan beton terbuat dari billet baja tuang kontinyu dengan komposisi kimia seperti pada Tabel 1.
+
+Tabel 1 – Komposisi kimia billet baja tuang kontinyu (ladle analysis)
+
+Kelas baja tulangan
+Kandungan unsur maksimum (%)
+C
+Si
+Mn
+P
+S
+C Eq*
+BjTP 280
+-
+-
+-
+0,050
+0,050
+-
+BjTS 280
+-
+-
+-
+0,050
+0,050
+-
+BjTS 420A
+0,32
+0,55
+1,65
+0,050
+0,050
+0,60
+BjTS 420B
+0,32
+0,55
+1,65
+0,050
+0,050
+0,60
+BjTS 520
+0,35
+0,55
+1,65
+0,050
+0,050
+0,625
+BjTS 550
+0,35
+0,55
+1,65
+0,050
+0,050
+0,625
+BjTS 700**
+0,35
+0,55
+1,65
+0,050
+0,050
+0,625
+CATATAN:
+- Toleransi nilai karbon (C) pada produk baja tulangan beton diperbolehkan lebih besar 0,03 %
 - * Karbon ekivalen, Ceq= C+
 Mn
-6 + 
+6 +
 Si
-24 + 
+24 +
 Ni
-40 + 
+40 +
 Cr
-5 + 
+5 +
 Mo
-4 + 
+4 +
 V
-14  
-- ** BjTS 700 perlu ditambahkan unsur paduan lainnya sesuai kebutuhan selain pada tabel di 
-atas dan termasuk kelompok baja paduan 
- 
- 
-6    Syarat mutu 
- 
-6.1    Sifat tampak 
-Baja tulangan beton tidak boleh mengandung serpihan, lipatan, retakan, gelombang, cerna 
-dan hanya diperkenankan berkarat ringan pada permukaan.  
-6.2    Bentuk 
-6.2.1    Baja tulangan beton polos 
-Batang baja tulangan beton berpenampang bundar dan permukaan harus rata tidak 
-bersirip/berulir sesuai Gambar 1.  
-6.2.2    Baja tulangan beton sirip/ulir 
-6.2.2.1  Permukaan batang baja tulangan beton sirip/ulir harus bersirip/berulir secara 
-teratur. Setiap batang  dapat mempunyai  sirip/ulir  memanjang  yang  searah  tetapi harus  
-mempunyai sirip-sirip dengan arah melintang terhadap sumbu batang (lihat Gambar 2). 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-4 dari 13 
-6.2.2.2  Sirip-sirip/ulir-ulir melintang sepanjang batang baja tulangan beton harus terletak 
-pada jarak yang teratur. Serta mempunyai bentuk dan ukuran yang sama. Bila diperlukan 
-tanda angka-angka atau huruf-huruf pada permukaan baja tulangan beton, maka sirip/ulir 
-melintang pada posisi di mana angka atau huruf dapat ditiadakan. 
-6.2.2.3  Sirip/ulir melintang tidak boleh membentuk sudut kurang dari 45° terhadap 
-sumbu batang.  
- 
-6.3    Ukuran dan toleransi 
-6.3.1    Diameter, berat dan ukuran sirip/ulir 
-Diameter dan berat per meter baja tulangan beton polos seperti tercantum pada Tabel 2. 
-Diameter, ukuran sirip/ulir dan berat per meter baja tulangan beton sirip/ulir seperti 
-tercantum pada Tabel 3. 
- 
-Tabel 2 - Ukuran baja tulangan beton polos 
- 
-No 
-Penamaan 
-Diameter 
-nominal 
-(d)  
-Luas penampang 
-nominal  
-(A)  
-Berat nominal 
-per meter* 
- 
-mm 
-mm2 
-kg/m 
-1 
-P 6 
-6 
-28 
-0,222 
-2 
-P 8 
-8 
-50 
-0,395 
-3 
-P 10 
-10 
-79 
-0,617 
-4 
-P 12 
-12 
-113 
-0,888 
-5 
-P 14 
-14 
-154 
-1,208 
-6 
-P 16 
-16 
-201 
-1,578 
-7 
-P 19 
-19 
-284 
-2,226 
-8 
-P 22 
-22 
-380 
-2,984 
-9 
-P 25 
-25 
-491 
-3,853 
-10 
-P 28 
-28 
-616 
-4,834 
-11 
-P 32 
-32 
-804 
-6,313 
-12 
-P 36 
-36 
-1018 
-7,990 
-13 
-P 40 
-40 
-1257 
-9,865 
-14 
-P 50 
-50 
-1964 
-15,413 
- CATATAN: 
-- 
-*sebagai referensi 
-- 
-Cara menghitung luas penampang nominal, keliling nominal, berat nominal dan ukuran 
-adalah sebagai berikut:  
-a) Luas penampang nominal (A) 
-A =0,7854  d2          (mm2) 
- 
-              d = diameter nominal (mm) 
-b) Berat nominal =  
+- ** BjTS 700 perlu ditambahkan unsur paduan lainnya sesuai kebutuhan selain pada tabel di atas dan termasuk kelompok baja paduan
+
+6 Syarat mutu
+
+6.1 Sifat tampak
+Baja tulangan beton tidak boleh mengandung serpihan, lipatan, retakan, gelombang, cerna dan hanya diperkenankan berkarat ringan pada permukaan.
+6.2 Bentuk
+6.2.1 Baja tulangan beton polos
+Batang baja tulangan beton berpenampang bundar dan permukaan harus rata tidak bersirip/berulir sesuai Gambar 1.
+6.2.2 Baja tulangan beton sirip/ulir
+6.2.2.1 Permukaan batang baja tulangan beton sirip/ulir harus bersirip/berulir secara teratur. Setiap batang dapat mempunyai sirip/ulir memanjang yang searah tetapi harus mempunyai sirip-sirip dengan arah melintang terhadap sumbu batang (lihat Gambar 2).
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+4 dari 13
+6.2.2.2 Sirip-sirip/ulir-ulir melintang sepanjang batang baja tulangan beton harus terletak pada jarak yang teratur. Serta mempunyai bentuk dan ukuran yang sama. Bila diperlukan tanda angka-angka atau huruf-huruf pada permukaan baja tulangan beton, maka sirip/ulir melintang pada posisi di mana angka atau huruf dapat ditiadakan.
+6.2.2.3 Sirip/ulir melintang tidak boleh membentuk sudut kurang dari 45° terhadap sumbu batang.
+
+6.3 Ukuran dan toleransi
+6.3.1 Diameter, berat dan ukuran sirip/ulir
+Diameter dan berat per meter baja tulangan beton polos seperti tercantum pada Tabel 2.
+Diameter, ukuran sirip/ulir dan berat per meter baja tulangan beton sirip/ulir seperti tercantum pada Tabel 3.
+
+Tabel 2 - Ukuran baja tulangan beton polos
+
+No
+Penamaan
+Diameter nominal
+(d)
+Luas penampang nominal
+(A)
+Berat nominal per meter*
+
+mm mm2 kg/m
+P 6
+0,222
+P 8
+0,395
+P 10
+0,617
+P 12
+0,888
+P 14
+1,208
+P 16
+1,578
+P 19
+2,226
+P 22
+2,984
+P 25
+3,853
+P 28
+4,834
+P 32
+6,313
+P 36
+7,990
+P 40
+9,865
+P 50
+15,413
+CATATAN:
+-
+*sebagai referensi
+-
+Cara menghitung luas penampang nominal, keliling nominal, berat nominal dan ukuran adalah sebagai berikut:
+a) Luas penampang nominal (A)
+A =0,7854  d2 (mm2)
+
+d = diameter nominal (mm) b) Berat nominal =
 0,785 × 0,7854 × d2
-100
-  (kg/m) 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-5 dari 13 
-Tabel 3 - Ukuran baja tulangan beton sirip/ulir 
- 
-No 
-Pena- 
-maan 
-Dia- 
-meter 
-nominal 
-(d) 
-Luas penam- 
-pang nominal 
-(A) 
-Tinggi sirip 
-(H) 
-Jarak sirip 
-melintang 
-(P) 
-Maks 
-Lebar sirip 
-membujur 
-(T) 
-Maks 
-Berat 
-nominal per 
-meter 
- 
-min 
-maks 
-mm 
-mm2 
-mm 
-mm 
-mm 
-mm 
-kg/m 
-1 
-S 6 
-6 
-28 
-0,3 
-0,6 
-4,2 
-4,7   
-0,222 
-2 
-S 8 
-8 
-50 
-0,4 
-0,8 
-5,6 
-6,3 
-0,395 
-3 
-S 10 
-10 
-79 
-0,5 
-1,0 
-7,0 
-7,9 
-0,617 
-4 
-S 13 
-13 
-133 
-0,7 
-1,3 
-9,1 
-10,2 
-1,042 
-5 
-S 16 
-16 
-201 
-0,8 
-1,6 
-11,2 
-12,6 
-1,578 
-6 
-S 19 
-19 
-284 
-1,0 
-1,9 
-13,3 
-14,9 
-2,226 
-7 
-S 22 
-22 
-380 
-1,1 
-2,2 
-15,4 
-17,3 
-2,984 
-8 
-S 25 
-25 
-491 
-1,3 
-2,5 
-17,5 
-19,7 
-3,853  
-9 
-S 29 
-29 
-661 
-1,5 
-2,9 
-20,3 
-22,8 
-5,185 
-10 
-S 32 
-32 
-804 
-1,6 
-3,2 
-22,4 
-25,1 
-6,313 
-11 
-S 36 
-36 
-1018 
-1,8 
-3,6 
-25,2 
-28,3 
-7,990 
-12 
-S 40 
-40 
-1257 
-2,0 
-4,0 
-28,0 
-31,4 
-9,865 
-13 
-S 50 
-50 
-1964 
-2,5 
-5,0 
-35,0 
-39,3 
-15,413 
-14 
-S 54 
-54 
-2290 
-2,7 
-5,4 
-37,8 
-42,3 
-17,978 
-15 
-S 57 
-57 
-2552 
-2,9 
-5,7 
-39,9 
-44,6 
-20,031 
-CATATAN: 
-1. Diameter nominal hanya dipergunakan untuk perhitungan parameter nominal lainnya dan 
-tidak perlu diukur 
-2. Cara menghitung luas penampang nominal, keliling nominal, berat nominal dan ukuran 
-sirip/ulir adalah sebagai berikut:  
-a) Luas penampang nominal (A) 
-A =0,7854  d2          (mm2) 
-d = diameter nominal (mm) 
- 
- 
-b) Berat nominal = 
-0,785 × 0,7854   d2
-100
-0,7 (kg/m) 
- 
-c)  Jarak sirip melintang maksimum = 0,70 d 
-  
-d)  Tinggi sirip minimum = 0,05 d 
-  
-Tinggi sirip maksimum = 0,10 d 
-  
-e)  Jumlah 2 (dua) sirip membujur maksimum = 0,25 K   
-     Keliling nominal (K) 
-     K = 0,3142 x d (mm) 
- 
- 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-6 dari 13 
- 
-6.3.2    Toleransi diameter 
- 
-Toleransi diameter baja tulangan beton polos seperti pada Tabel 4. 
- 
- 
-Tabel 4 - Ukuran dan toleransi diameter BjTP 
- 
-No 
-Diameter 
-(d) 
-Toleransi 
-(t) 
-Penyimpangan kebundaran maks 
-(p) 
-mm 
-mm 
-mm 
-1 
-6 
-± 0,3 
-0,42 
-2 
-8 ≤ d ≤ 14 
-± 0,4 
-0,56 
-3 
-16 ≤ d ≤ 25 
-± 0,5 
-0,70 
-4 
-28 ≤ d ≤ 34 
-± 0,6 
-0,84 
-5 
-d ≥ 36 
-± 0,8 
-1,12 
-CATATAN: 
-1. Penyimpangan kebundaran maksimum dengan rumus:  
-p = (dmaks – dmin) ≤ (2t × 70%)  
-2. Toleransi untuk baja tulangan beton polos = d – daktual 
- 
- 
- 
- 
- 
-Jenis baja tulangan beton polos seperti pada Gambar 1. 
- 
- 
- 
- 
- 
-Keterangan gambar: 
- 
-d  
-: diameter 
- 
- 
- 
-Gambar 1 – Baja tulangan beton polos (BjTP) 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-7 dari 13 
- 
-Jenis baja tulangan beton sirip/ulir seperti pada Gambar 2. 
- 
-a. Sirip/ulir bambu 
- 
- 
-Keterangan gambar: 
- 
-H  
-: tinggi sirip/ulir 
- 
-P  
-: jarak sirip/ulir melintang 
- 
-W 
-: lebar sirip/ulir membujur 
- 
-T 
-: Gap/rib 
- 
-b. Sirip/ulir curam 
- 
- 
-Keterangan gambar: 
- 
-H  
-: tinggi sirip/ulir 
- 
-P  
-: jarak sirip/ulir melintang 
- 
-W 
-: lebar sirip/ulir membujur 
- 
- 
- 
- 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-8 dari 13 
- 
-c. Sirip/ulir tulang ikan 
- 
-Keterangan gambar: 
- 
-H  
-: tinggi sirip/ulir 
- 
-P  
-: jarak sirip/ulir melintang 
- 
-W 
-: lebar sirip/ulir membujur 
- 
-T 
-: Gap/rib 
- 
- 
-Gambar 2 - Jenis baja tulangan beton sirip/ulir  
- 
- 
-6.3.3    Panjang 
-Panjang baja tulangan beton ditetapkan 10 m dan 12 m. 
- 
-6.3.4    Toleransi panjang 
-Toleransi panjang baja tulangan beton ditetapkan minimum 0 mm (0 mm), maksimum plus 
-70 mm (maksimum + 70 mm). 
- 
-6.4    Toleransi berat per batang 
-Toleransi berat per batang baja tulangan beton sirip/ulir ditetapkan seperti tercantum dalam 
-Tabel 5. 
-Tabel 5 - Toleransi berat per batang BjTS 
- 
-Diameter nominal 
-(mm) 
-Toleransi 
-(%) 
-6 ≤ d ≤ 8 
-± 7  
-10 ≤ d ≤ 14 
-± 6  
-16 ≤ d ≤ 29 
-± 5  
-d >  29 
-± 4  
-CATATAN: 
-Toleransi berat untuk baja tulangan beton sirip =  
-beratnominal  - berataktual
-beratnominal
- x 100%berat 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-9 dari 13 
- 
-6.5    Sifat mekanis 
-Sifat mekanis baja tulangan beton ditetapkan seperti tercantum pada Tabel 6. 
- 
- 
-Tabel 6 – Sifat mekanis 
- 
-Kelas baja 
-tulangan 
-Uji tarik 
-Uji lengkung 
-Rasio 
-TS/YS 
-(Hasil 
-Uji) 
-Kuat 
-luluh/leleh 
-(YS)  
-kuat tarik 
-(TS) 
-Regangan     
-dalam 200 mm, 
-Min. 
-sudut 
-lengkung 
-diameter 
-pelengkung 
-MPa 
-MPa 
-% 
-mm 
-BjTP 280 
-Min. 280  
-Maks. 405 
-Min. 350 
-11 (d ≤ 10 mm) 
-180° 
-3,5d (d ≤ 16 mm) 
-- 
-12 (d ≥12 mm) 
-180° 
-5d (d ≥ 19 mm) 
-BjTS 280 
-Min. 280  
-Maks. 405 
-Min. 350 
-11 (d ≤ 10 mm) 
-180° 
-3,5d (d ≤ 16 mm) 
-Min. 
-1,25 
-12 (d ≥13 mm) 
-180° 
-5d (d ≥ 19 mm) 
-BjTS 420A 
-Min. 420 
-Maks. 545 
-Min. 525 
-9 (d ≤ 19 mm) 
-180° 
-3,5d (d ≤ 16 mm ) 
-Min. 
-1,25 
-8 (22 ≤ d ≤ 25 mm) 
-180° 
-5d (19 ≤ d ≤ 25 mm) 
-7 (d ≥ 29 mm) 
-180° 
-7d (29 ≤ d ≤ 36 mm) 
-90° 
-9d (d > 36 mm) 
-BjTS 420B 
-Min. 420 
-Maks. 545 
-Min. 525 
-14 (d ≤ 19 mm) 
-180° 
-3,5d (d ≤ 16 mm ) 
-Min. 
-1,25 
-12 (22 ≤ d ≤36 mm) 
-180° 
-5d (19 ≤ d ≤ 25 mm) 
-10 (d > 36 mm) 
-180° 
-7d (29 ≤ d ≤ 36 mm) 
-90° 
-9d (d > 36 mm) 
-BjTS 520 
-Min. 520  
-Maks. 645 
-Min. 650 
-7 (d ≤ 25 mm) 
-180° 
-5d (d ≤ 25 mm) 
-Min. 
-1,25 
-6 (d ≥ 29 mm) 
-180° 
-7d (29 ≤ d ≤ 36 mm) 
-90° 
-9d (d > 36 mm) 
-BjTS 550 
-Min. 550 
-Maks. 675 
-Min. 
-687,5 
-7 (d ≤ 25 mm) 
-180° 
-5d (d ≤ 25 mm) 
-Min. 
-1,25 
-6 (d ≥ 29 mm) 
-180° 
-7d (29 ≤ d ≤ 36 mm) 
-90° 
-9d (d > 36 mm) 
-BjTS 700 
-Min. 700  
-Maks. 825 
-Min. 805 
-7 (d ≤ 25 mm) 
-180° 
-5d (d ≤ 25 mm) 
-Min. 
-1,15 
-6 (d ≥ 29 mm) 
-180° 
-7d (29 ≤ d ≤ 36 mm) 
-90° 
-9d (d > 36 mm) 
-Keterangan: 
-1. d adalah diameter nominal baja tulangan beton 
-2. hasil uji lengkung tidak boleh menunjukan retak pada sisi luar lengkungan benda uji lengkung 
- 
- 
-  
-7    Cara pengambilan contoh 
- 
-7.1    Pengambilan contoh dilakukan oleh petugas yang berwenang. 
-7.2   Petugas pengambil contoh harus diberi keleluasaan oleh pelaku usaha untuk 
-melakukan tugasnya.  
-7.3    Pengambilan contoh dilakukan secara acak (random) pada kelompok nomor leburan. 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-10 dari 13 
- 
-7.4    Jumlah contoh uji 
-7.4.1 Setiap kelompok yang terdiri dari satu nomor leburan dan ukuran yang sama diambil 
-1 (satu) contoh uji dari bagian tengah batang dan tidak boleh dipotong dengan cara panas. 
- 
-7.4.2 Untuk kelompok yang terdiri dari nomor leburan yang berbeda dari satu ukuran 
-dan satu kelas baja yang sama, sampai dengan 25 (dua puluh lima) ton diambil 1 (satu) 
-contoh uji, selebihnya berdasarkan kelipatannya. 
- 
-7.4.3   Contoh untuk uji sifat mekanis diambil sesuai dengan kebutuhan masing-masing, 
-maksimum 1,5 meter. 
- 
- 
-8    Cara uji 
- 
-8.1    Uji sifat tampak 
-Uji sifat tampak dilakukan secara visual tanpa bantuan alat untuk memeriksa adanya cacat- 
-cacat seperti pada pasal 6.1. 
- 
-8.2    Uji ukuran, berat dan bentuk 
-8.2.1    Baja tulangan beton polos 
-8.2.1.1 Pengukuran diameter dilakukan pada 3 (tiga) tempat yang berbeda dalam 1 (satu) 
-contoh uji  dan dihitung nilai rata-ratanya. 
-8.2.1.2 Pengukuran kebundaran diukur pada satu tempat untuk menentukan diameter 
-minimum dan maksimum. 
-8.2.2    Baja tulangan beton sirip/ulir 
-Baja tulangan beton sirip/ulir diukur jarak sirip/ulir, tinggi sirip/ulir, Iebar sirip/ulir 
-membujur, sudut sirip/ulir dan berat. 
-8.2.2.1    Jarak sirip/ulir melintang 
-Pengukuran jarak  sirip/ulir  dilakukan dengan cara  mengukur 10  (sepuluh) jarak  
-sirip/ulir  yang berderet kemudian dihitung nilai rata-ratanya. 
-8.2.2.2   Tinggi sirip/ulir melintang 
-Pengukuran tinggi sirip/ulir dilakukan terhadap 3 (tiga) buah sirip/ulir dan dihitung nilai 
-rata- ratanya. 
-8.2.2.3    Lebar sirip/ulir membujur 
-Pengukuran terhadap lebar sirip/ulir membujur dilakukan pada dua sisi masing-masing 3 (tiga) 
-titik pengukuran pada sirip membujur kemudian dihitung nilai rata-ratanya.  
-8.2.2.4    Sudut sirip/ulir melintang 
-Pengukuran  sudut  sirip/ulir  melintang  dilakukan  dengan  membuat  gambar  yang  
-diperoleh dengan cara mengelindingkan potongan uji di atas permukaan lempengan lilin 
-atau kertas, kemudian dilakukan pengukuran sudut sirip pada gambar lempengan tersebut. 
-8.2.2.5   Berat  
-Pengukuran berat dilakukan dengan cara penimbangan. 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-11 dari 13 
- 
-8.3 
-Uji sifat mekanis 
-8.3.1    Benda uji 
- 
-8.3.1.1  Benda uji tarik harus lurus dan utuh/tidak boleh dibubut dengan tujuan untuk 
-memperkecil diameter. Bentuk potongan benda uji tarik seperti dtunjukan pada Gambar 3. 
- 
- 
-keterangan gambar: 
-Diameter nominal 
- 
-d 
-Panjang pengukuran 
-(gauge length) 
-Lo 
-Panjang bebas antar grip 
- 
-Lc 
-Diameter baja tulangan beton 
-200 mm 
-Min. 225 mm 
- 
-Gambar 3 – Benda uji tarik baja tulangan beton 
- 
-8.3.1.2   Benda uji lengkung harus lurus dan utuh/tidak boleh dibubut dengan tujuan untuk 
-memperkecil diameter. Panjang benda uji lengkung tidak kurang dari 150 mm. 
-8.3.2 Jumlah benda uji 
-Uji tarik dan lengkung dilakukan masing-masing 1 (satu) kali pengujian dari masing-masing 
-potongan contoh uji. 
-8.3.3 Pelaksanaan uji 
-8.3.3.1    Uji tarik 
-Uji tarik dilakukan sesuai SNI 8389. Untuk menghitung kuat luluh dan kuat tarik baja 
-tulangan beton polos dan sirip/ulir digunakan nilai luas penampang yang dihitung dari 
-diameter nominal contoh uji.  
-Nilai kuat luluh/leleh ditentukan dengan salah satu dari metode berikut: 
-a. Jika baja tulangan beton mempunyai titik luluh/leleh yang jelas, nilai kuat luluh/leleh 
-ditentukan dengan turunnya atau berhentinya bacaan dari mesin uji tarik 
-b. Jika baja tulangan beton tidak mempunyai titik luluh/leleh yang jelas, nilai kuat 
-luluh/leleh ditentukan dengan metode offset 0,2 %. 
-8.3.3.2    Uji Iengkung 
-Uji lengkung dilakukan sesuai SNI 0410. 
- 
- 
- 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-12 dari 13 
- 
-9    Syarat lulus uji 
- 
-9.1    Kelompok dinyatakan lulus uji apabila contoh yang diambil dari kelompok tersebut 
-memenuhi pasal 6 dan pasal 10.1.  
-9.2    Apabila  sebagian  syarat-syarat  tidak  dipenuhi,  dapat  dilakukan  uji  ulang  dengan 
-contoh uji sebanyak 2 (dua) kali jumlah  contoh uji yang pertama yang berasal dari kelompok 
-yang sama. 
-9.3    Apabila hasil kedua uji ulang semua syarat-syarat terpenuhi, kelompok dinyatakan 
-lulus uji. Kelompok dinyatakan tidak lulus uji kalau salah satu syarat pada uji ulang tidak 
-dipenuhi. 
- 
- 
-10    Syarat Penandaan 
- 
-10.1   Setiap batang baja tulangan beton harus diberi tanda (marking) dengan huruf timbul 
-(emboss) yang menunjukkan merek pabrik pembuat dan ukuran diameter nominal.  
-10.2 
-Setiap batang baja tulangan beton sesuai dengan standar harus diberi tanda pada 
-ujung-ujung penampangnya dengan warna yang tidak mudah hilang sesuai dengan kelas 
-baja seperti pada Tabel 7. 
-10.3 Setiap kemasan harus diberi label dengan mencantumkan: 
- Nama dan merek dari pabrik pembuat 
- Ukuran (diameter dan panjang) 
- Kelas baja 
- Nomor leburan (No. Heat) 
- Tanggal, bulan dan tahun produksi 
- 
- 
-Tabel 7 - Tabel untuk tanda kelas baja tulangan beton 
- 
-Kelas baja 
-Warna 
-BjTP 280 
-BjTS 280 
-Hitam 
-- 
-BjTS 420A 
-Kuning 
-BjTS 420B 
-Merah 
-BjTS 520 
-Hijau 
-BjTS 550 
-Putih 
-BjTS 700 
-Biru 
- 
- 
- 
-11    Cara pengemasan 
- 
-11.1 Baja tulangan beton dalam satu kemasan terdiri dari ukuran, jenis, dan kelas baja 
-yang sama.  
- 
-11.2 Kemasan baja tulangan beton bisa lurus atau ditekuk harus diikat secara kuat, rapih, 
-dan kokoh. 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-SNI 2052:2017 
-© BSN 2017 
-13 dari 13 
-Bibliografi 
- 
- 
- 
-JIS G 3112 -2010, Steel bars for concrete reinforcement  
-JIS G 3191-2012, Dimensions, mass and permissible variations of hot rolled steel bars and 
-bar in coil 
-ASTM A615/A615M – 07, Standard specification for deformed and plain carbon steel bars for 
-concrete reinforcement 
-ASTM A 706/A 706 M, Standard specification for low – alloy steel deformed bars for concrete 
-reinforcement 
-. 
- 
- 
- 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
-“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan” 
- 
- 
-Informasi pendukung terkait perumus standar 
- 
- 
- 
-[1]    Komtek/SubKomtek perumus SNI 
- 
- 
-Komite Teknis 77-01, Komite Teknis Logam, baja, dan produk baja 
- 
-[2]    Susunan keanggotaan Komtek perumus SNI 
- 
- 
-Ketua 
- 
-: Doddy Rahadi 
- 
-Sekretaris          : Ari Uliana 
- 
- 
-Anggota            :   1.   Immanuel T.H.S 
- 
-2.   Flory Daryanti 
- 
-3.   Winarto 
- 
-4.   Asep Lukman 
- 
-5.   Bambang Irawan 
- 
-6.   Roslina 
- 
-7.   Basso Datu Makahanap 
- 
-8.   Abu Bakar 
- 
-9.   Iwan Pandji 
-10. Pramudya Sunu 
-11. Deni Ferdian 
- 
-  
- 
- 
- 
- 
- 
-[3]    Konseptor rancangan SNI 
- 
-1. Asosiasi Industri Besi dan Baja Indonesia / Indonesian Iron & Steel Industry 
-Association (IISIA) 
-2. Puslitbang Perumahan dan Permukiman Kementerian PU-PERA 
- 
-[4]    Sekretariat pengelola Komtek perumus SNI 
- 
-Pusat Standardisasi, Badan Penelitian dan Pengembangan Industri, Kementerian 
-Perindustrian 
- 
+(kg/m)
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+5 dari 13
+Tabel 3 - Ukuran baja tulangan beton sirip/ulir
+
+No
+Pena- maan
+Dia- meter nominal
+(d)
+Luas penam- pang nominal
+(A)
+Tinggi sirip
+(H)
+Jarak sirip melintang
+(P)
+Maks
+Lebar sirip membujur
+(T)
+Maks
+Berat nominal per meter
+
+min maks mm mm2 mm mm mm mm kg/m
+S 6
+0,3
+0,6
+4,2
+4,7
+0,222
+S 8
+0,4
+0,8
+5,6
+6,3
+0,395
+S 10
+0,5
+1,0
+7,0
+7,9
+0,617
+S 13
+0,7
+1,3
+9,1
+10,2
+1,042
+S 16
+0,8
+1,6
+11,2
+12,6
+1,578
+S 19
+1,0
+1,9
+13,3
+14,9
+2,226
+S 22
+1,1
+2,2
+15,4
+17,3
+2,984
+S 25
+1,3
+2,5
+17,5
+19,7
+3,853
+S 29
+1,5
+2,9
+20,3
+22,8
+5,185
+S 32
+1,6
+3,2
+22,4
+25,1
+6,313
+S 36
+1,8
+3,6
+25,2
+28,3
+7,990
+S 40
+2,0
+4,0
+28,0
+31,4
+9,865
+S 50
+2,5
+5,0
+35,0
+39,3
+15,413
+S 54
+2,7
+5,4
+37,8
+42,3
+17,978
+S 57
+2,9
+5,7
+39,9
+44,6
+20,031
+CATATAN:
+1. Diameter nominal hanya dipergunakan untuk perhitungan parameter nominal lainnya dan tidak perlu diukur
+2. Cara menghitung luas penampang nominal, keliling nominal, berat nominal dan ukuran sirip/ulir adalah sebagai berikut:
+a) Luas penampang nominal (A)
+A =0,7854  d2 (mm2) d = diameter nominal (mm)
+
+b) Berat nominal =
+0,785 × 0,7854 d2
+0,7 (kg/m)
+
+c) Jarak sirip melintang maksimum = 0,70 d
+
+d) Tinggi sirip minimum = 0,05 d
+
+Tinggi sirip maksimum = 0,10 d
+
+e) Jumlah 2 (dua) sirip membujur maksimum = 0,25 K
+Keliling nominal (K)
+K = 0,3142 x d (mm)
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+6 dari 13
+
+6.3.2 Toleransi diameter
+
+Toleransi diameter baja tulangan beton polos seperti pada Tabel 4.
+
+Tabel 4 - Ukuran dan toleransi diameter BjTP
+
+No
+Diameter
+(d)
+Toleransi
+(t)
+Penyimpangan kebundaran maks
+(p) mm mm mm
+± 0,3
+0,42
+8 ≤ d ≤ 14
+± 0,4
+0,56
+16 ≤ d ≤ 25
+± 0,5
+0,70
+28 ≤ d ≤ 34
+± 0,6
+0,84 d ≥ 36
+± 0,8
+1,12
+CATATAN:
+1. Penyimpangan kebundaran maksimum dengan rumus:
+p = (dmaks – dmin) ≤ (2t × 70%)
+2. Toleransi untuk baja tulangan beton polos = d – daktual
+
+Jenis baja tulangan beton polos seperti pada Gambar 1.
+
+Keterangan gambar:
+
+d
+: diameter
+
+Gambar 1 – Baja tulangan beton polos (BjTP)
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+7 dari 13
+
+Jenis baja tulangan beton sirip/ulir seperti pada Gambar 2.
+
+a. Sirip/ulir bambu
+
+Keterangan gambar:
+
+H
+: tinggi sirip/ulir
+
+P
+: jarak sirip/ulir melintang
+
+W
+: lebar sirip/ulir membujur
+
+T
+: Gap/rib
+
+b. Sirip/ulir curam
+
+Keterangan gambar:
+
+H
+: tinggi sirip/ulir
+
+P
+: jarak sirip/ulir melintang
+
+W
+: lebar sirip/ulir membujur
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+8 dari 13
+
+c. Sirip/ulir tulang ikan
+
+Keterangan gambar:
+
+H
+: tinggi sirip/ulir
+
+P
+: jarak sirip/ulir melintang
+
+W
+: lebar sirip/ulir membujur
+
+T
+: Gap/rib
+
+Gambar 2 - Jenis baja tulangan beton sirip/ulir
+
+6.3.3 Panjang
+Panjang baja tulangan beton ditetapkan 10 m dan 12 m.
+
+6.3.4 Toleransi panjang
+Toleransi panjang baja tulangan beton ditetapkan minimum 0 mm (0 mm), maksimum plus
+70 mm (maksimum + 70 mm).
+
+6.4 Toleransi berat per batang
+Toleransi berat per batang baja tulangan beton sirip/ulir ditetapkan seperti tercantum dalam
+Tabel 5.
+Tabel 5 - Toleransi berat per batang BjTS
+
+Diameter nominal
+(mm)
+Toleransi
+(%)
+6 ≤ d ≤ 8
+± 7
+10 ≤ d ≤ 14
+± 6
+16 ≤ d ≤ 29
+± 5 d > 29
+± 4
+CATATAN:
+Toleransi berat untuk baja tulangan beton sirip = beratnominal - berataktual beratnominal x 100%berat
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+9 dari 13
+
+6.5 Sifat mekanis
+Sifat mekanis baja tulangan beton ditetapkan seperti tercantum pada Tabel 6.
+
+Tabel 6 – Sifat mekanis
+
+Kelas baja tulangan
+Uji tarik
+Uji lengkung
+Rasio
+TS/YS
+(Hasil
+Uji)
+Kuat luluh/leleh
+(YS) kuat tarik
+(TS)
+Regangan dalam 200 mm,
+Min.
+sudut lengkung diameter pelengkung
+MPa
+MPa
+% mm
+BjTP 280
+Min. 280
+Maks. 405
+Min. 350
+11 (d ≤ 10 mm)
+180°
+3,5d (d ≤ 16 mm)
+-
+12 (d ≥12 mm)
+180°
+5d (d ≥ 19 mm)
+BjTS 280
+Min. 280
+Maks. 405
+Min. 350
+11 (d ≤ 10 mm)
+180°
+3,5d (d ≤ 16 mm)
+Min.
+1,25
+12 (d ≥13 mm)
+180°
+5d (d ≥ 19 mm)
+BjTS 420A
+Min. 420
+Maks. 545
+Min. 525
+9 (d ≤ 19 mm)
+180°
+3,5d (d ≤ 16 mm )
+Min.
+1,25
+8 (22 ≤ d ≤ 25 mm)
+180°
+5d (19 ≤ d ≤ 25 mm)
+7 (d ≥ 29 mm)
+180°
+7d (29 ≤ d ≤ 36 mm)
+90°
+9d (d > 36 mm)
+BjTS 420B
+Min. 420
+Maks. 545
+Min. 525
+14 (d ≤ 19 mm)
+180°
+3,5d (d ≤ 16 mm )
+Min.
+1,25
+12 (22 ≤ d ≤36 mm)
+180°
+5d (19 ≤ d ≤ 25 mm)
+10 (d > 36 mm)
+180°
+7d (29 ≤ d ≤ 36 mm)
+90°
+9d (d > 36 mm)
+BjTS 520
+Min. 520
+Maks. 645
+Min. 650
+7 (d ≤ 25 mm)
+180°
+5d (d ≤ 25 mm)
+Min.
+1,25
+6 (d ≥ 29 mm)
+180°
+7d (29 ≤ d ≤ 36 mm)
+90°
+9d (d > 36 mm)
+BjTS 550
+Min. 550
+Maks. 675
+Min.
+687,5
+7 (d ≤ 25 mm)
+180°
+5d (d ≤ 25 mm)
+Min.
+1,25
+6 (d ≥ 29 mm)
+180°
+7d (29 ≤ d ≤ 36 mm)
+90°
+9d (d > 36 mm)
+BjTS 700
+Min. 700
+Maks. 825
+Min. 805
+7 (d ≤ 25 mm)
+180°
+5d (d ≤ 25 mm)
+Min.
+1,15
+6 (d ≥ 29 mm)
+180°
+7d (29 ≤ d ≤ 36 mm)
+90°
+9d (d > 36 mm)
+Keterangan:
+1. d adalah diameter nominal baja tulangan beton
+2. hasil uji lengkung tidak boleh menunjukan retak pada sisi luar lengkungan benda uji lengkung
+
+7 Cara pengambilan contoh
+
+7.1 Pengambilan contoh dilakukan oleh petugas yang berwenang.
+7.2 Petugas pengambil contoh harus diberi keleluasaan oleh pelaku usaha untuk melakukan tugasnya.
+7.3 Pengambilan contoh dilakukan secara acak (random) pada kelompok nomor leburan.
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+10 dari 13
+
+7.4 Jumlah contoh uji
+7.4.1 Setiap kelompok yang terdiri dari satu nomor leburan dan ukuran yang sama diambil
+1 (satu) contoh uji dari bagian tengah batang dan tidak boleh dipotong dengan cara panas.
+
+7.4.2 Untuk kelompok yang terdiri dari nomor leburan yang berbeda dari satu ukuran dan satu kelas baja yang sama, sampai dengan 25 (dua puluh lima) ton diambil 1 (satu) contoh uji, selebihnya berdasarkan kelipatannya.
+
+7.4.3 Contoh untuk uji sifat mekanis diambil sesuai dengan kebutuhan masing-masing, maksimum 1,5 meter.
+
+8 Cara uji
+
+8.1 Uji sifat tampak
+Uji sifat tampak dilakukan secara visual tanpa bantuan alat untuk memeriksa adanya cacat- cacat seperti pada pasal 6.1.
+
+8.2 Uji ukuran, berat dan bentuk
+8.2.1 Baja tulangan beton polos
+8.2.1.1 Pengukuran diameter dilakukan pada 3 (tiga) tempat yang berbeda dalam 1 (satu) contoh uji dan dihitung nilai rata-ratanya.
+8.2.1.2 Pengukuran kebundaran diukur pada satu tempat untuk menentukan diameter minimum dan maksimum.
+8.2.2 Baja tulangan beton sirip/ulir
+Baja tulangan beton sirip/ulir diukur jarak sirip/ulir, tinggi sirip/ulir, Iebar sirip/ulir membujur, sudut sirip/ulir dan berat.
+8.2.2.1 Jarak sirip/ulir melintang
+Pengukuran jarak sirip/ulir dilakukan dengan cara mengukur 10 (sepuluh) jarak sirip/ulir yang berderet kemudian dihitung nilai rata-ratanya.
+8.2.2.2 Tinggi sirip/ulir melintang
+Pengukuran tinggi sirip/ulir dilakukan terhadap 3 (tiga) buah sirip/ulir dan dihitung nilai rata- ratanya.
+8.2.2.3 Lebar sirip/ulir membujur
+Pengukuran terhadap lebar sirip/ulir membujur dilakukan pada dua sisi masing-masing 3 (tiga) titik pengukuran pada sirip membujur kemudian dihitung nilai rata-ratanya.
+8.2.2.4 Sudut sirip/ulir melintang
+Pengukuran sudut sirip/ulir melintang dilakukan dengan membuat gambar yang diperoleh dengan cara mengelindingkan potongan uji di atas permukaan lempengan lilin atau kertas, kemudian dilakukan pengukuran sudut sirip pada gambar lempengan tersebut.
+8.2.2.5 Berat
+Pengukuran berat dilakukan dengan cara penimbangan.
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+11 dari 13
+
+8.3
+Uji sifat mekanis
+8.3.1 Benda uji
+
+8.3.1.1 Benda uji tarik harus lurus dan utuh/tidak boleh dibubut dengan tujuan untuk memperkecil diameter. Bentuk potongan benda uji tarik seperti dtunjukan pada Gambar 3.
+
+keterangan gambar:
+Diameter nominal
+
+d
+Panjang pengukuran
+(gauge length)
+Lo
+Panjang bebas antar grip
+
+Lc
+Diameter baja tulangan beton
+200 mm
+Min. 225 mm
+
+Gambar 3 – Benda uji tarik baja tulangan beton
+
+8.3.1.2 Benda uji lengkung harus lurus dan utuh/tidak boleh dibubut dengan tujuan untuk memperkecil diameter. Panjang benda uji lengkung tidak kurang dari 150 mm.
+8.3.2 Jumlah benda uji
+Uji tarik dan lengkung dilakukan masing-masing 1 (satu) kali pengujian dari masing-masing potongan contoh uji.
+8.3.3 Pelaksanaan uji
+8.3.3.1 Uji tarik
+Uji tarik dilakukan sesuai SNI 8389. Untuk menghitung kuat luluh dan kuat tarik baja tulangan beton polos dan sirip/ulir digunakan nilai luas penampang yang dihitung dari diameter nominal contoh uji.
+Nilai kuat luluh/leleh ditentukan dengan salah satu dari metode berikut:
+a. Jika baja tulangan beton mempunyai titik luluh/leleh yang jelas, nilai kuat luluh/leleh ditentukan dengan turunnya atau berhentinya bacaan dari mesin uji tarik b. Jika baja tulangan beton tidak mempunyai titik luluh/leleh yang jelas, nilai kuat luluh/leleh ditentukan dengan metode offset 0,2 %.
+8.3.3.2 Uji Iengkung
+Uji lengkung dilakukan sesuai SNI 0410.
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+12 dari 13
+
+9 Syarat lulus uji
+
+9.1 Kelompok dinyatakan lulus uji apabila contoh yang diambil dari kelompok tersebut memenuhi pasal 6 dan pasal 10.1.
+9.2 Apabila sebagian syarat-syarat tidak dipenuhi, dapat dilakukan uji ulang dengan contoh uji sebanyak 2 (dua) kali jumlah contoh uji yang pertama yang berasal dari kelompok yang sama.
+9.3 Apabila hasil kedua uji ulang semua syarat-syarat terpenuhi, kelompok dinyatakan lulus uji. Kelompok dinyatakan tidak lulus uji kalau salah satu syarat pada uji ulang tidak dipenuhi.
+
+10 Syarat Penandaan
+
+10.1 Setiap batang baja tulangan beton harus diberi tanda (marking) dengan huruf timbul
+(emboss) yang menunjukkan merek pabrik pembuat dan ukuran diameter nominal.
+10.2
+Setiap batang baja tulangan beton sesuai dengan standar harus diberi tanda pada ujung-ujung penampangnya dengan warna yang tidak mudah hilang sesuai dengan kelas baja seperti pada Tabel 7.
+10.3 Setiap kemasan harus diberi label dengan mencantumkan:
+ Nama dan merek dari pabrik pembuat
+ Ukuran (diameter dan panjang)
+ Kelas baja
+ Nomor leburan (No. Heat)
+ Tanggal, bulan dan tahun produksi
+
+Tabel 7 - Tabel untuk tanda kelas baja tulangan beton
+
+Kelas baja
+Warna
+BjTP 280
+BjTS 280
+Hitam
+-
+BjTS 420A
+Kuning
+BjTS 420B
+Merah
+BjTS 520
+Hijau
+BjTS 550
+Putih
+BjTS 700
+Biru
+
+11 Cara pengemasan
+
+11.1 Baja tulangan beton dalam satu kemasan terdiri dari ukuran, jenis, dan kelas baja yang sama.
+
+11.2 Kemasan baja tulangan beton bisa lurus atau ditekuk harus diikat secara kuat, rapih, dan kokoh.
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+SNI 2052:2017
+© BSN 2017
+13 dari 13
+Bibliografi
+
+JIS G 3112 -2010, Steel bars for concrete reinforcement
+JIS G 3191-2012, Dimensions, mass and permissible variations of hot rolled steel bars and bar in coil
+ASTM A615/A615M – 07, Standard specification for deformed and plain carbon steel bars for concrete reinforcement
+ASTM A 706/A 706 M, Standard specification for low – alloy steel deformed bars for concrete reinforcement
+.
+
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+“Hak cipta Badan Standardisasi Nasional, copy standar ini dibuat untuk Komite Teknis 77-01: Logam, baja dan produk baja dan tidak untuk dikomersialkan”
+
+Informasi pendukung terkait perumus standar
+
+[1] Komtek/SubKomtek perumus SNI
+
+Komite Teknis 77-01, Komite Teknis Logam, baja, dan produk baja
+
+[2] Susunan keanggotaan Komtek perumus SNI
+
+Ketua
+
+: Doddy Rahadi
+
+Sekretaris : Ari Uliana
+
+Anggota : 1. Immanuel T.H.S
+
+2. Flory Daryanti
+
+3. Winarto
+
+4. Asep Lukman
+
+5. Bambang Irawan
+
+6. Roslina
+
+7. Basso Datu Makahanap
+
+8. Abu Bakar
+
+9. Iwan Pandji
+10. Pramudya Sunu
+11. Deni Ferdian
+
+[3] Konseptor rancangan SNI
+
+1. Asosiasi Industri Besi dan Baja Indonesia / Indonesian Iron & Steel Industry
+Association (IISIA)
+2. Puslitbang Perumahan dan Permukiman Kementerian PU-PERA
+
+[4] Sekretariat pengelola Komtek perumus SNI
+
+Pusat Standardisasi, Badan Penelitian dan Pengembangan Industri, Kementerian
+Perindustrian

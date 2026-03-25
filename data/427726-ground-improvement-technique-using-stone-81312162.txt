@@ -1,293 +1,200 @@
-NOVATEUR PUBLICATIONS  
-INTERNATIONAL JOURNAL OF INNOVATIONS IN ENGINEERING RESEARCH AND TECHNOLOGY [IJIERT] 
-ISSN: 2394-3696 
-VOLUME 5, ISSUE 4, Apr-2018 
-118 | P a g e  
- 
-GROUND IMPROVEMENT TECHNIQUE USING STONE COLUMN 
-ANKIT VADI 
-Pursuing M.Tech., Project & Construction Management Department, MIT College of Management, 
-MITADT University, Pune, Maharashtra, India 
-vadiankit@gmail.com 
- 
-ISMAIL VAGHELA 
-Pursuing M.Tech., Project & Construction Management Department,MIT College of Management, 
-MITADT University, Pune, Maharashtra, India 
-ismail.vaghela72@gmail.com 
- 
-ABSTRACT 
-An increasing activity of building construction process in many areas such a week soil in ground base. 
-Present day value of land is increasing continually so scarcity of land occur. It is actual hard to provide base 
-foundation for minimal sites. Also liquefaction is the major causes of adjacent spreading, failures of 
-embankments, ports, harbors, bridge foundation and industrial building foundations during earthquakes.so it 
-is exciting job for geo technical engineer to afford innocuous or stable foundation. Ground improvement is 
-one of the process for increasing shear strength of soil, decrease soil absorbency and compressibility in geo-
-technical engineering. For small structure like buttresses, industries, embankments etc. stone columns is 
-economical procedure which is tolerates. Approximate settlements in compressible and adequate grade of 
-soil. It is required to improve ground condition for growing force bearing capacity for very soft and 
-incompetent soil. Soil improvement method is be subject to soil type, available time and realistic load. A 
-uneven soil in ground if increase the strength for use reinforcing material provides by two methods are 
-compaction and addition of various type of materials. Refining strengths of loose soil we are exhausting 
-method of stone columns.by the using stones columns improve soil strength of unconfined cohesive soil. It 
-is use for decrees the effect of pore water gravity. In may increase the complex stiffness as relate to soil This 
-process most difficult task is distribution the load in among soil and columns. It may use raft and small 
-building foundation. Performance of multiple set of stones columns studies for adjacent distortion, stress 
-concertation aspect and stress clearance. 
- 
-INTRODUCTION 
-Stone column construction may consist the partial replacement of existing subsurface soils with a compacted 
-vertical column of stone that usually completely penetrate frail strata. It may craft a amalgamated material 
-lower compressibility and higher shave strength than inherent soil alone. Imprisonment, therefor lateral 
-stress of the weak soil providing toughness of the grit. On the topmost of the particular rock column realistic 
-axial load produces a large bulge to deepness 2 to 3 periods the diameters underneath the surface. This knot 
-is increases the lateral stress within the clay which produces additional imprisonment for the stone. It’s 
-vertical movement is reduces as compared to that of the unaltered soil. Clutch of stone column is loaded 
-over the whole area undergoes less bulging as compared to single system. This system is preferably suited 
-for improvement of property of weak and lose soil like bearing capacity, stiffness. Bearing capacity of weak 
-soil may increase through stone column is done by tougher granulated material. It’s retorts to a vertical load, 
-an prolonged column will squash the instinctive soil and results an additional restraining pressure against 
-column. This may leads to recover stiffness and strength for the column. Without appropriate lateral support 
-at narrow column depth habitually causes bulging failure at the top portion of the column. 
- 
-OBJECTIVES OF THE STUDY 
-The design study is a passed out to understand behavior of a small group of regular stone column. The 
-parameters include: (a) Undrained cohesion of soft clay, (b) Area replaced of stone ratio, (c) Length and 
-span of stones column (d) Angle of internal roughness in stone columns material, (e) Modulus of elasticity 
-in stones columns materials. 
-The objectives of the present study are as follows: 
-NOVATEUR PUBLICATIONS  
-INTERNATIONAL JOURNAL OF INNOVATIONS IN ENGINEERING RESEARCH AND TECHNOLOGY [IJIERT] 
-ISSN: 2394-3696 
-VOLUME 5, ISSUE 4, Apr-2018 
-119 | P a g e  
- 
-1. The study presentation of ordinary stone column in expressions of lateral deformation and load-settlement 
-behaviour considering by varying different parameters. 
-2. To compare the stress concentration factor with respect to cohesion, area replacement ratio, angle of the 
-internal resistance of stones columns.  
-3. To examine the individual lateral deformation of stone column in small group of stone column.  
-4. To study the different failure pattern of stone column in small set of stones column.  
-5. The compare a behavior in floating and end bearing columns.  
-6. To develop design charts/table for predicting load carrying capacity of group of stone column. 
- 
-METHODOLOGY 
-STONE COLUMN DIAMETER (D) 
-Installation of the stone column as soft unified soil is mostly a self -paying process that is a softer then the 
-soil higher diameter of a stone column formed. Due to crosswise movement the stones time of vibration and 
-ramming , diameter of the hole is all the time higher than the first time initial diameter analysis or a casing 
-depending that the soil type of that land, it is a undrained shears strengths, size of stone and its 
-characteristic’s of the pulsating or rammer use the its construction methodology. 
- 
-PATTERN 
-Stone column installed to be a preferable in the regular triangular shape pattern which gave the thickest 
-stuffing while a square size of pattern is also we use. And a hard layout in equilateral triangular pattern is 
-shown Fig. 1  
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Figure 1: Triangular arrangement of stone columns 
-SPACING 
-The design of the stones columns should be there a no exact plans can be given on the maximums and 
-minimums column spacing and site should to be a specific. Though column spacing’s should be a higher 
-range and also depending on the condition of site, factor of column pattern of column, loading of column , 
-tolerance of the settlement, the technics of installation all the things should be maintain. 
- 
-INSTALLATION TECHNIQUES 
-1 Non Displacement System 
-a) Bored Rammed Method 
-2 Displacement Method 
-a) Vibro Replacement Method 
-b) Vibroflot 
- 
-INSTALLATION PROCEDURE 
-   A. Top Feed Process      B. Bottom Feed System 
- 
-EXPERIMENTAL WORK 
-Location: Akurdi, Chinchwad, Pune, Maharashtra  
-Soil profile: Soil is taken out to the depth 20m below earth ground level undeviating soil circumstances 
-throughout: 
-Top 7m : Silt, CLAY, SPT N is < 7 
-NOVATEUR PUBLICATIONS  
-INTERNATIONAL JOURNAL OF INNOVATIONS IN ENGINEERING RESEARCH AND TECHNOLOGY [IJIERT] 
-ISSN: 2394-3696 
-VOLUME 5, ISSUE 4, Apr-2018 
-120 | P a g e  
- 
-7m to 16m : Silt, Sand with clay, N ≈ 45 
-16m to 20m : Firm Silt, Clay, N > 65 
-GWT was at 3m below EGL 
-Figure 2: Soil profile 
- 
-PROTOTYPE MODEL 
-Aim: To determine several parameters of stone column & to examine a soil properties for the improvement 
-of earth surface. 
-Apparatus: Container, sieve, hammer, compaction road, weight machine, tray. 
-Material: Expensive soil, Geosynthetics material, Gravel stone. 
-Properties: 
-Container size: 1.5x1x1 ft. Bearing capacity: 180 kg/m2. 
-Dia. Of column: 2.5 inch. Bulk Density: 1.78 kg/m3 
-Spacing: 2.5 inch. Dry Density: 1.35 kg/m3 
-S.G. of soil: 2.64 Specific gravity: 2.65 
-W.C. %: 0.15% 
- 
-PROCEDURE 
-1. Take a wet soil weight of 32kg, passing through 4.75mm sieve. 
-2. Take a plastic container and fill first layer with wet soil of 5kg passing through 4.75mm sieve. 
-3. Fill the container with remaining soil layer by layer and compact it properly. 
-4. After that we make a 6 no of bore holes with the help of boring equipment in the soil and remove the 
-existing soil in a casing. 
-5. Now install the stone column which is wounded with geosynthetic material as shown in above figure. 
-After that compact the stone in columns in proper manner and applied load. 
- 
-Figure 3: Close view of prototype model 
-OBSERVATIONS 
-By the prototype modal analysis we observe that, load capability of soil is increases and Settlement is 
-decreases. 
- 
-NOVATEUR PUBLICATIONS  
-INTERNATIONAL JOURNAL OF INNOVATIONS IN ENGINEERING RESEARCH AND TECHNOLOGY [IJIERT] 
-ISSN: 2394-3696 
-VOLUME 5, ISSUE 4, Apr-2018 
-121 | P a g e  
- 
-COMPARISON 
-Table 1: Parameters Soil without Stone Column 
- 
- 
- 
- 
- 
- 
- 
-Table 2: Parameters Soil with Stone Column 
- 
- 
- 
- 
- 
- 
-OBSERVATIONS 
-When weak or poor soil is exists in earth surface so that it’s bearing capacity of gritty soil is less thus we 
-need to improve bearing capacity by using stone column as shown above. Stone Column is used to 
-development of earth surface. 
- 
-CONCLUSION 
-By studding this analytical process we can observe that weak soil present in earth surface, load capability of 
-soil is less and settlement or deformation is high thus improvement of soil properties is essential which is not 
-adequate for foundation of structure. Stress deliberation element rises with increase in undrained cohesion of 
-soft soil. Due to stone column load capability, has been improve with increment in the undrained shear 
-strength of clay (Cu), area replacement ratio (Ar), length of column. We observe decrement in adjacent 
-distortion along the depth of column with the increment cohesion of weak clay and area auxiliary ratio of 
-column. Lateral deformation is maximum at the topmost slice of the column. Lateral deformation is high on 
-outward column then the inner column. Installation of group of stone column are beneficial to improve 
-bearing capability ofsoil to compare single stone column. 
- 
-REFERENCES 
-I. 
-Dipty Sarin Isaac, Girish M.S. (2009) “Suitability of different materials for stone column 
-construction”.EJGE 14. 
-II. 
-Ambily, A. P. and Gandhi, S. R. (2007). “Behavior of stone columns based on experimental and FEM 
-analysis.” J. Geotech. and Geoenviron. Eng., ASCE, 133(4), 405–415. 
-III. 
-Malarvizhi, S.N., Ilamparuthi, K., 2004. Load versus settlement of clay bed stabilized with stone and 
-reinforced stone columns. In: Proceedings of GeoAsia–2004, Seoul, Korea,322 329. 
-IV. 
-Sharma, S.R., Phanikumar, B.R., Nagendra, G., 2004. Compressive load response of granular piles 
-reinforced with geogrids. Canadian Geotechnical Journal 41 (1), 187–192. 
-V. 
-Ambily, A. P. and Gandhi, S. R. (2009). “Behavior of stone columns based on experimental and FEM 
-analysis.” J. Geotech. and Geoenviron. Eng., ASCE, 133(6), 415–425. 
-VI. 
-Indian Standards (IS). (2003). “Indian standard code of practice for design and construction for ground 
-improvement-guidelines. Part 1: Stone columns.” IS 15284 (Part 1), New Delhi, India. 
-VII. 
-www.ascelibrary.org 
-VIII. 
-www.ice.org.uk 
-Depth 
-(m) 
-Water 
-content 
-(%) 
-Density(kg/m3) 
-Specific 
-Gravity 
-Shear Parameters           
-(kg/cm2) 
-Bearing 
-Capacity(kg/m2) 
-Bulk 
-Dry 
-Stress 
-Strain 
-0-3 
-29.9 
-1.78 
-1.35 
-2.65 
-0.65 
-18.1 
-180 
-3-6 
-22.8 
-1.91 
-1.39 
-2.53 
-0.67 
-20.9 
-188 
-6-9 
-19.3 
-1.98 
-1.42 
-2.58 
-0.72 
-23.6 
-211 
-Depth 
- (m) 
-Water 
-content 
-(%) 
-Density(kg/m3) 
-Specific 
-Gravity 
-Shear Parameters 
-(kg/cm2) 
-Bearing 
-Capacity(kg/m2) 
-Bulk 
-Dry 
-Stress 
-Strain 
-0-3 
-32.9 
-1.67 
-1.23 
-2.65 
-0.36 
-16.8 
-139 
-3-6 
-27.8 
-1.72 
-1.25 
-2.53 
-0.39 
-19.3 
-143 
-6-9 
-29.3 
-1.76 
-1.32 
-2.58 
-0.42 
-22.2 
-161 
+NOVATEUR PUBLICATIONS
+INTERNATIONAL JOURNAL OF INNOVATIONS IN ENGINEERING RESEARCH AND TECHNOLOGY [IJIERT]
+ISSN: 2394-3696
+VOLUME 5, ISSUE 4, Apr-2018
+118 | P a g e
+
+GROUND IMPROVEMENT TECHNIQUE USING STONE COLUMN
+ANKIT VADI
+Pursuing M.Tech., Project & Construction Management Department, MIT College of Management,
+MITADT University, Pune, Maharashtra, India vadiankit@gmail.com
+
+ISMAIL VAGHELA
+Pursuing M.Tech., Project & Construction Management Department,MIT College of Management,
+MITADT University, Pune, Maharashtra, India ismail.vaghela72@gmail.com
+
+ABSTRACT
+An increasing activity of building construction process in many areas such a week soil in ground base.
+Present day value of land is increasing continually so scarcity of land occur. It is actual hard to provide base foundation for minimal sites. Also liquefaction is the major causes of adjacent spreading, failures of embankments, ports, harbors, bridge foundation and industrial building foundations during earthquakes.so it is exciting job for geo technical engineer to afford innocuous or stable foundation. Ground improvement is one of the process for increasing shear strength of soil, decrease soil absorbency and compressibility in geo- technical engineering. For small structure like buttresses, industries, embankments etc. stone columns is economical procedure which is tolerates. Approximate settlements in compressible and adequate grade of soil. It is required to improve ground condition for growing force bearing capacity for very soft and incompetent soil. Soil improvement method is be subject to soil type, available time and realistic load. A uneven soil in ground if increase the strength for use reinforcing material provides by two methods are compaction and addition of various type of materials. Refining strengths of loose soil we are exhausting method of stone columns.by the using stones columns improve soil strength of unconfined cohesive soil. It is use for decrees the effect of pore water gravity. In may increase the complex stiffness as relate to soil This process most difficult task is distribution the load in among soil and columns. It may use raft and small building foundation. Performance of multiple set of stones columns studies for adjacent distortion, stress concertation aspect and stress clearance.
+
+INTRODUCTION
+Stone column construction may consist the partial replacement of existing subsurface soils with a compacted vertical column of stone that usually completely penetrate frail strata. It may craft a amalgamated material lower compressibility and higher shave strength than inherent soil alone. Imprisonment, therefor lateral stress of the weak soil providing toughness of the grit. On the topmost of the particular rock column realistic axial load produces a large bulge to deepness 2 to 3 periods the diameters underneath the surface. This knot is increases the lateral stress within the clay which produces additional imprisonment for the stone. It’s vertical movement is reduces as compared to that of the unaltered soil. Clutch of stone column is loaded over the whole area undergoes less bulging as compared to single system. This system is preferably suited for improvement of property of weak and lose soil like bearing capacity, stiffness. Bearing capacity of weak soil may increase through stone column is done by tougher granulated material. It’s retorts to a vertical load, an prolonged column will squash the instinctive soil and results an additional restraining pressure against column. This may leads to recover stiffness and strength for the column. Without appropriate lateral support at narrow column depth habitually causes bulging failure at the top portion of the column.
+
+OBJECTIVES OF THE STUDY
+The design study is a passed out to understand behavior of a small group of regular stone column. The parameters include: (a) Undrained cohesion of soft clay, (b) Area replaced of stone ratio, (c) Length and span of stones column (d) Angle of internal roughness in stone columns material, (e) Modulus of elasticity in stones columns materials.
+The objectives of the present study are as follows:
+NOVATEUR PUBLICATIONS
+INTERNATIONAL JOURNAL OF INNOVATIONS IN ENGINEERING RESEARCH AND TECHNOLOGY [IJIERT]
+ISSN: 2394-3696
+VOLUME 5, ISSUE 4, Apr-2018
+119 | P a g e
+
+1. The study presentation of ordinary stone column in expressions of lateral deformation and load-settlement behaviour considering by varying different parameters.
+2. To compare the stress concentration factor with respect to cohesion, area replacement ratio, angle of the internal resistance of stones columns.
+3. To examine the individual lateral deformation of stone column in small group of stone column.
+4. To study the different failure pattern of stone column in small set of stones column.
+5. The compare a behavior in floating and end bearing columns.
+6. To develop design charts/table for predicting load carrying capacity of group of stone column.
+
+METHODOLOGY
+STONE COLUMN DIAMETER (D)
+Installation of the stone column as soft unified soil is mostly a self -paying process that is a softer then the soil higher diameter of a stone column formed. Due to crosswise movement the stones time of vibration and ramming , diameter of the hole is all the time higher than the first time initial diameter analysis or a casing depending that the soil type of that land, it is a undrained shears strengths, size of stone and its characteristic’s of the pulsating or rammer use the its construction methodology.
+
+PATTERN
+Stone column installed to be a preferable in the regular triangular shape pattern which gave the thickest stuffing while a square size of pattern is also we use. And a hard layout in equilateral triangular pattern is shown Fig. 1
+
+Figure 1: Triangular arrangement of stone columns
+SPACING
+The design of the stones columns should be there a no exact plans can be given on the maximums and minimums column spacing and site should to be a specific. Though column spacing’s should be a higher range and also depending on the condition of site, factor of column pattern of column, loading of column , tolerance of the settlement, the technics of installation all the things should be maintain.
+
+INSTALLATION TECHNIQUES
+1 Non Displacement System a) Bored Rammed Method
+2 Displacement Method a) Vibro Replacement Method b) Vibroflot
+
+INSTALLATION PROCEDURE
+A. Top Feed Process B. Bottom Feed System
+
+EXPERIMENTAL WORK
+Location: Akurdi, Chinchwad, Pune, Maharashtra
+Soil profile: Soil is taken out to the depth 20m below earth ground level undeviating soil circumstances throughout:
+Top 7m : Silt, CLAY, SPT N is < 7
+NOVATEUR PUBLICATIONS
+INTERNATIONAL JOURNAL OF INNOVATIONS IN ENGINEERING RESEARCH AND TECHNOLOGY [IJIERT]
+ISSN: 2394-3696
+VOLUME 5, ISSUE 4, Apr-2018
+120 | P a g e
+
+7m to 16m : Silt, Sand with clay, N ≈ 45
+16m to 20m : Firm Silt, Clay, N > 65
+GWT was at 3m below EGL
+Figure 2: Soil profile
+
+PROTOTYPE MODEL
+Aim: To determine several parameters of stone column & to examine a soil properties for the improvement of earth surface.
+Apparatus: Container, sieve, hammer, compaction road, weight machine, tray.
+Material: Expensive soil, Geosynthetics material, Gravel stone.
+Properties:
+Container size: 1.5x1x1 ft. Bearing capacity: 180 kg/m2.
+Dia. Of column: 2.5 inch. Bulk Density: 1.78 kg/m3
+Spacing: 2.5 inch. Dry Density: 1.35 kg/m3
+S.G. of soil: 2.64 Specific gravity: 2.65
+W.C. %: 0.15%
+
+PROCEDURE
+1. Take a wet soil weight of 32kg, passing through 4.75mm sieve.
+2. Take a plastic container and fill first layer with wet soil of 5kg passing through 4.75mm sieve.
+3. Fill the container with remaining soil layer by layer and compact it properly.
+4. After that we make a 6 no of bore holes with the help of boring equipment in the soil and remove the existing soil in a casing.
+5. Now install the stone column which is wounded with geosynthetic material as shown in above figure.
+After that compact the stone in columns in proper manner and applied load.
+
+Figure 3: Close view of prototype model
+OBSERVATIONS
+By the prototype modal analysis we observe that, load capability of soil is increases and Settlement is decreases.
+
+NOVATEUR PUBLICATIONS
+INTERNATIONAL JOURNAL OF INNOVATIONS IN ENGINEERING RESEARCH AND TECHNOLOGY [IJIERT]
+ISSN: 2394-3696
+VOLUME 5, ISSUE 4, Apr-2018
+121 | P a g e
+
+COMPARISON
+Table 1: Parameters Soil without Stone Column
+
+Table 2: Parameters Soil with Stone Column
+
+OBSERVATIONS
+When weak or poor soil is exists in earth surface so that it’s bearing capacity of gritty soil is less thus we need to improve bearing capacity by using stone column as shown above. Stone Column is used to development of earth surface.
+
+CONCLUSION
+By studding this analytical process we can observe that weak soil present in earth surface, load capability of soil is less and settlement or deformation is high thus improvement of soil properties is essential which is not adequate for foundation of structure. Stress deliberation element rises with increase in undrained cohesion of soft soil. Due to stone column load capability, has been improve with increment in the undrained shear strength of clay (Cu), area replacement ratio (Ar), length of column. We observe decrement in adjacent distortion along the depth of column with the increment cohesion of weak clay and area auxiliary ratio of column. Lateral deformation is maximum at the topmost slice of the column. Lateral deformation is high on outward column then the inner column. Installation of group of stone column are beneficial to improve bearing capability ofsoil to compare single stone column.
+
+REFERENCES
+I.
+Dipty Sarin Isaac, Girish M.S. (2009) “Suitability of different materials for stone column construction”.EJGE 14.
+II.
+Ambily, A. P. and Gandhi, S. R. (2007). “Behavior of stone columns based on experimental and FEM analysis.” J. Geotech. and Geoenviron. Eng., ASCE, 133(4), 405–415.
+III.
+Malarvizhi, S.N., Ilamparuthi, K., 2004. Load versus settlement of clay bed stabilized with stone and reinforced stone columns. In: Proceedings of GeoAsia–2004, Seoul, Korea,322 329.
+IV.
+Sharma, S.R., Phanikumar, B.R., Nagendra, G., 2004. Compressive load response of granular piles reinforced with geogrids. Canadian Geotechnical Journal 41 (1), 187–192.
+V.
+Ambily, A. P. and Gandhi, S. R. (2009). “Behavior of stone columns based on experimental and FEM analysis.” J. Geotech. and Geoenviron. Eng., ASCE, 133(6), 415–425.
+VI.
+Indian Standards (IS). (2003). “Indian standard code of practice for design and construction for ground improvement-guidelines. Part 1: Stone columns.” IS 15284 (Part 1), New Delhi, India.
+VII.
+www.ascelibrary.org
+VIII.
+www.ice.org.uk
+Depth
+(m)
+Water content
+(%)
+Density(kg/m3)
+Specific
+Gravity
+Shear Parameters
+(kg/cm2)
+Bearing
+Capacity(kg/m2)
+Bulk
+Dry
+Stress
+Strain
+0-3
+29.9
+1.78
+1.35
+2.65
+0.65
+18.1
+3-6
+22.8
+1.91
+1.39
+2.53
+0.67
+20.9
+6-9
+19.3
+1.98
+1.42
+2.58
+0.72
+23.6
+Depth
+(m)
+Water content
+(%)
+Density(kg/m3)
+Specific
+Gravity
+Shear Parameters
+(kg/cm2)
+Bearing
+Capacity(kg/m2)
+Bulk
+Dry
+Stress
+Strain
+0-3
+32.9
+1.67
+1.23
+2.65
+0.36
+16.8
+3-6
+27.8
+1.72
+1.25
+2.53
+0.39
+19.3
+6-9
+29.3
+1.76
+1.32
+2.58
+0.42
+22.2

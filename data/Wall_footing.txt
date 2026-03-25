@@ -1,0 +1,7 @@
+A wall footing, or strip footing, is a continuous strip of concrete that serves to spread the weight of a load-bearing wall across an area of soil.[1] It is a component of a shallow foundation.[1]
+Wall footings carrying direct vertical loads might be designed either in plain concrete or in reinforced concrete. Since a wall footing deflects essentially in one way, it is analyzed by considering as a strip of unit width and its length.
+1. Allen, Edward (2009). Fundamentals of Building
+Construction. Hoboken, New Jersey: John Wiley &
+Sons. p. 52. ISBN 9780470074688.
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Wall_footing&oldid=1277870127"
+References

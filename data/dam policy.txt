@@ -1,3548 +1,2913 @@
-JAMES  RIVER  BASIN 
+JAMES RIVER BASIN
 
-AD  A091438 
+AD A091438
 
+Name Of Dam: PEDLAR RIVER
+Location: AMHERST COUNTY
+Inventory Number: VA 00905
 
-Name  Of  Dam:  PEDLAR  RIVER 
-Location:  AMHERST  COUNTY 
-Inventory  Number:  VA  00905 
+PHASE I INSPECTION REPORT
+NATIONAL DAM SAFTY PROGRAM
 
+80 10 30 0?9
 
-PHASE  I  INSPECTION  REPORT 
-NATIONAL  DAM  SAFTY  PROGRAM 
+PREPARED BY
 
+NORFOLK DISTRICT CORPS OF ENGINEERS
+803 FRONT STREET
+NORFOLK, VIRGINIA 23510
 
-80  10  30  0?9 
+JUNE 1980
 
+DISTRIBUTION STATEMENT A '
 
-PREPARED  BY 
+SECURITY CLASSIFICATION OF THIS PAGF. (IWion Data Entered)
 
-NORFOLK  DISTRICT  CORPS  OF  ENGINEERS 
-803  FRONT  STREET 
-NORFOLK,  VIRGINIA  23510 
+REPORT DOCUMENTATION PAGE
 
+I. REPORT NUMBER
 
-JUNE  1980 
+VA 00905
 
+4. TITLE (and Subtitle)
 
-DISTRIBUTION  STATEMENT  A  ' 
+Phase I Inspection Report
+National Dam Safety Program
+Pedlar River Dam
+Amherst County
 
+7. AUTHOR;
 
-SECURITY  CLASSIFICATION  OF  THIS  PAGF.  (IWion  Data  Entered) 
+Norfolk District Corps of Engineers
+803 Front Street
 
+HOT
 
-REPORT  DOCUMENTATION  PAGE 
+MtVJI
 
+9. PERFORMING ORGANIZATION NAME AND ADDRESS
 
-I.  REPORT  NUMBER 
+READ INSTRUCTIONS
+BEFORE COMPLETING FORM
 
-VA  00905 
+3. RECIPIENT'S CATALOG NUMBER
 
+5. type of report s period covered
 
-4.  TITLE  (and  Subtitle) 
+Final _
 
-Phase  I  Inspection  Report 
-National  Dam  Safety  Program 
-Pedlar  River  Dam 
-Amherst  County 
+6. performing org. report number
 
+8. CONTRACT OR GRANT NUMBED'«)
 
-7.  AUTHORfa; 
+10. PROGRAM ELEMENT, PROJECT. TASK
+AREA 4 WORK UNIT NUMBERS
 
-Norfolk  District  Corps  of  Engineers 
-803  Front  Street 
+11. CONTROLLING OFFICE NAME ANO ADDRESS
 
+u. s/a
+803 Froi
 
-HOT 
+Army Engineering District, Norfolk ont Street *"
 
+12. REPORT DATE
 
-MtVJI 
+June 1980
 
+13. NUMBER OF PAGES
 
-9.  PERFORMING  ORGANIZATION  NAME  AND  ADDRESS 
+4. MONITORING AGENCY NAME 4 ADDRESS^// different from Controlling Olllce) 15. SECURITY CLASS, (ol thla report)
 
+Unclassified
 
-READ  INSTRUCTIONS 
-BEFORE  COMPLETING  FORM 
+. 16. DISTRIBUTION STATEMENT (at thla Report)
 
+Approved for public release: distribution unlimited.
 
-3.  RECIPIENT'S  CATALOG  NUMBER 
+17. DISTRIBUTION STATEMENT (of the abstract entered In Block 20, It different from Report)
 
+18. SUPPLEMENTARY NOTES
 
-5.  type  of  report  s  period  covered 
+Copies are obtainable from National Technical Information Service,
+Springfield, Virginia 22151
 
-Final  _ 
+19. KEY WO^DS (Continue on reverie aide If neceaaery end Identify by block number)
 
+Dams - VA
 
-6.  performing  org.  report  number 
+National Dam Safety Program Phase I
+Dam Safety
+Dam Inspection
 
+20. ABSTRACT (Cozrtfxmm rereree ahfSa tf neceeemry end. Identity by block number)
 
-8.  CONTRACT  OR  GRANT  NUMBED'«) 
+(See reverse side).
 
+DO 1 jAM*73 1473 EDITION OF 1 MOV 6S IS OBSOLETE
 
-10.  PROGRAM  ELEMENT,  PROJECT.  TASK 
-AREA  4  WORK  UNIT  NUMBERS 
+Unclassified
 
+SECURITY CLASSIFICATION OF THIS PAGE (When Data Entered)
 
-11.  CONTROLLING  OFFICE  NAME  ANO  ADDRESS 
+Best
 
+Available
 
-u.  s/a 
-803  Froi 
+Copy
 
+SECURITY CLASSIFICATION OF THIS PAOE(W7i«n Data Entered)
 
-Army  Engineering  District,  Norfolk 
-ont  Street  *" 
+20. Abstract
 
+Pursuant to Public Law 92-367, Phase I Inspection Reports are prepared under guidance containecK in the recommended guidelines for safety inspection of dams, published by the Office of Chief of Engineers,
+Washington, D. C. 20314. The purpose of a Phase I investigation is to identify expeditiously those dams which may pose hazards to human life or property. The assessment of the general conditions of the dam is based upon available data and visual inspections. Detailed investigation and analyses involving topographic mapping, subsurface investigations, testing, and detailed computational evaluations are beyond the scope of a
+Phase I investigation; however, the investigation is intended to identify any need for such studies.
 
-12.  REPORT  DATE 
+Based upon the field conditions at the time of the field inspection and all available engineering data, the Phase I report addresses the hydraulic, hydrologic, geologic, geotechnic, and structural aspects of the dam. The engineering techniques employed give a reasonably accurate assessment of the conditions of the dam. It should be realized that certain engineering aspects cannot be fully analyzed during a Phase I inspection. Assessment and remedial measures in the report include the requirements of additional indepth study when necessary.
 
-June  1980 
+Phase I reports include project information of the dam and appurtenances, all existing engineering data, operational procedures, hydraulic/hydrologic data of the watershed, dam stability, visual inspection report and an assessment including required remedial measures.
 
+SECURITY CLASSIFICATION OF THIS PAGEfWien Data Entered)
 
-13.  NUMBER  OF  PAGES 
+NAME OF DAM:
+LOCATION:
+INVENTORY NUMBER:
 
+PEDLAR RIVER DAM
+AMHERST COUNTY, VIRGINIA
+VA 00905
 
-4.  MONITORING  AGENCY  NAME  4  ADDRESS^//  different  from  Controlling  Olllce)  15.  SECURITY  CLASS,  (ol  thla  report) 
+] Accession For
 
+<A
 
-Unclassified 
+PHASE I INSPECTION REPORT
 
+-J
 
-.  16.  DISTRIBUTION  STATEMENT  (at  thla  Report) 
+Pe cl /a/ ft
 
+QX-rut e nto*/ '•[ MmjiL*'/' 1/
 
-Approved  for  public  release:  distribution  unlimited. 
+Ja m Pm / e / P •' ' ^
 
+NTIS GRA&I
+DZ>C TAB
+Unannounced
+^ Justif icatio
 
-17.  DISTRIBUTION  STATEMENT  (of  the  abstract  entered  In  Block  20,  It  different  from  Report) 
+ff
 
+n
 
-18.  SUPPLEMENTARY  NOTES 
+•pDistributlon/
 
-Copies  are  obtainable  from  National  Technical  Information  Service, 
-Springfield,  Virginia  22151 
+I /vni3 Codes
 
-19.  KEY  WO^DS  (Continue  on  reverie  aide  If  neceaaery  end  Identify  by  block  number) 
+Dist
 
-Dams  -  VA 
+w
 
-National  Dam  Safety  Program  Phase  I 
-Dam  Safety 
-Dam  Inspection 
+Avail a spec:
 
-20.  ABSTRACT  (Cozrtfxmm  rereree  ahfSa  tf  neceeemry  end.  Identity  by  block  number) 
+md/or
 
-(See  reverse  side). 
+al
 
+PREPARED BY
 
-DO  1  jAM*73  1473  EDITION  OF  1  MOV  6S  IS  OBSOLETE 
+NORFOLK DISTRICT CORPS OF ENGINEERS
 
+803 FRONT STREET
+NORFOLK, VIRGINIA 23510
 
-Unclassified 
+/). jV/sbk
 
-SECURITY  CLASSIFICATION  OF  THIS  PAGE  (When  Data  Entered) 
+TABLE OF CONTENTS
 
+Preface . i
 
-Best 
+Brief Assessment of Dam . . . ii
 
-Available 
+Overview of Dam
 
-Copy 
+Section 1: PROJECT INFORMATION . 1-1
 
+Section 2: ENGINEERING DATA . 2-1
 
-SECURITY  CLASSIFICATION  OF  THIS  PAOE(W7i«n  Data  Entered) 
+Section 3: VISUAL INSPECTION . 3-1
 
+Section 4: OPERATIONAL PROCEDURES . 4-1
 
-20.  Abstract 
+Section 5: HYDRAULIC /HYDRO LOGIC DATA . 5-1
 
-Pursuant  to  Public  Law  92-367,  Phase  I  Inspection  Reports  are  prepared 
-under  guidance  containecK  in  the  recommended  guidelines  for  safety 
-inspection  of  dams,  published  by  the  Office  of  Chief  of  Engineers, 
-Washington,  D.  C.  20314.  The  purpose  of  a  Phase  I  investigation  is  to 
-identify  expeditiously  those  dams  which  may  pose  hazards  to  human  life  or 
-property.  The  assessment  of  the  general  conditions  of  the  dam  is  based 
-upon  available  data  and  visual  inspections.  Detailed  investigation  and 
-analyses  involving  topographic  mapping,  subsurface  investigations, 
-testing,  and  detailed  computational  evaluations  are  beyond  the  scope  of  a 
-Phase  I  investigation;  however,  the  investigation  is  intended  to  identify 
-any  need  for  such  studies. 
+Section 6: DAM STABILITY . 6-1
 
-Based  upon  the  field  conditions  at  the  time  of  the  field  inspection  and 
-all  available  engineering  data,  the  Phase  I  report  addresses  the 
-hydraulic,  hydrologic,  geologic,  geotechnic,  and  structural  aspects  of 
-the  dam.  The  engineering  techniques  employed  give  a  reasonably  accurate 
-assessment  of  the  conditions  of  the  dam.  It  should  be  realized  that 
-certain  engineering  aspects  cannot  be  fully  analyzed  during  a  Phase  I 
-inspection.  Assessment  and  remedial  measures  in  the  report  include  the 
-requirements  of  additional  indepth  study  when  necessary. 
+Section 7: ASSESSMENT/REMEDIAL MEASURES . 7-1
 
-Phase  I  reports  include  project  information  of  the  dam  and  appurtenances, 
-all  existing  engineering  data,  operational  procedures, 
-hydraulic/hydrologic  data  of  the  watershed,  dam  stability,  visual 
-inspection  report  and  an  assessment  including  required  remedial  measures. 
+Appendix Is Maps and Drawings
 
+Appendix II: Photographs
 
-SECURITY  CLASSIFICATION  OF  THIS  PAGEfWien  Data  Entered) 
+Appendix III: Field Observations
 
+Appendix IV: Pedlar Dam Operating Plan
 
-NAME  OF  DAM: 
-LOCATION: 
-INVENTORY  NUMBER: 
+Appendix V: Pedlar Dam Maintenance Plan
 
+Appendix VI: References
 
-PEDLAR  RIVER  DAM 
-AMHERST  COUNTY,  VIRGINIA 
-VA  00905 
+.
 
+PREFACE
 
-]  Accession  For 
+This report is prepared under guidance contained in the Recommended
+Guidelines for Safety Inspection of Dams, for Phase 1 Investigations.
+Copies of these guidelines may be obtained from the Office of the Chief of Engineers, Washington, D.C. 20314. The purpose of a Phase I investi¬ gation is to identify expeditiously those dams which may pose hazards to human life or property. The assessment of the general condition of the dam is based upon available data and visual inspections. Detailed in¬ vestigation and analyses involving topographic mapping, subsurface investigations testing, and detailed computational evaluations are beyond the scooe of a Phase I investigation; however, the investigation is intended to identify any need for such studies.
 
+In reviewing this report, it should be realized that the reported condition of the dam is based on observations of field conditions at *.e time of inspection along with data available to the inspection team, in cases where the reservoir was lowered or drained prior to inspection, such action, while improving the stability and safety of the dam, removes the normal load on the structure and may obscure certain conditions which might otherwise be detectable if inspected under the normal operating environment of the structure.
 
-<A 
+It is important to note that the condition of a dam depends on numerous and constantly changing internal and external conditions, and is evolutionary in nature. It would be incorrect to assume that the present condition of the dam will continue to represent the condition of the dam at some point in the future. Only through continued care and inspection can there be any chance that unsafe conditions be detected.
 
+Phase I inspections are not intended to provide detailed hydrologic and hydraulic analyses, in accordance with the established guidelines, the spillway design flood is based on the estimated "Probable Maximum
+Flood" for the region l flood discharges that may be expected from the most severe combination of critical meteorologic and hydrologic conditions that are reasonably possible), or fractions thereof. Because of the magnitude and rarity of such a storm event, a finding that a spillway will not pass the design flood should not be interpreted as necessarily posing a highly inadequate condition. The design flood provides a measure of relative spillway capacity and serves as an aid* in determining the need for more detailed hydrologic and hydraulic studies, considering the size of the dam, its general condition and the downstream damage potential.
 
-PHASE  I  INSPECTION  REPORT 
+PHASE I REPORT
+NATIONAL DAM SAFETY PROGRAM
 
+BRIEF ASSESSMENT OF DAM
 
--J 
+Name of Dam: Pedlar River Dam
 
+State: Virginia
 
-Pe cl  /a/  ft 
+Location: Amherst County
 
-QX-rut e nto*/ '•[  MmjiL*'/' 1/ 
+USGS Quad Sheat: Buena Vista
 
-Ja  m  Pm  /  e  /  P  •' '  ^ 
+Stream: Pedlar River
 
+Date of Inspection: 1 May 1980
 
-NTIS  GRA&I 
-DZ>C  TAB 
-Unannounced 
-^ Justif icatio 
+Pedlar River Dam is a concrete gravity structure about 462.25 feet long and 80.5 feet high. The dam is owned and maintained by the City of Lynchburg, Virginia. The dam is classified as an intermediate size with a significant hazard classification. The spillway is a concrete opening in the center of the dam. The reservoir is used for water supply by the City of Lynchburg, Virginia and limited recreation controlled by the city representative at the dam site.
 
-ff 
+Based on criteria established by the Department of the Army,
 
-n 
+Office of the Chief of Engineers (OCE), the Spillway Design Flood
+(SDF) is the 1/2 PMF. The spillway will pass 23 percent of the PMF or
+46 percent of the SDF without overtopping the dam. The SDF will overtop the dam by a maximum 3.92 feet, reach an average critical velocity of 9.3 feet per second and flow over the dam for 9.5 hours.
+The spillway is adjudged as inadequate but not seriously inadequate.
 
-•pDistributlon/ 
+The visual inspection revealed no apparent problems and there are no immediate needs for remedial measures. There is a regular maintenance operation program, but no emergency warning system. It is recommended that a warning system be established and the maintenance items listed in Section 7.2 be accomplished as part of the regular maintenance program within the next 12 months.
 
-I  /vni3  Codes 
+Submitted By:
 
-Dist 
+Original signed ty
 
-w 
+_ JAMES A. IALSH —
 
-Avail  a 
-spec: 
+JAMES A. WALSH, P. E.
 
-md/or 
+Chief, Design Branch
 
-al 
+Recgmmend^ &gned by
 
-5 
+JACK G. STARS
+JACK G. STARR
 
+Chief, Engineering Division
 
-PREPARED  BY 
+Approved:
 
-NORFOLK  DISTRICT  CORPS  OF  ENGINEERS 
+Original signed by}
 
+_ Douglas L. Halle? _
 
-803  FRONT  STREET 
-NORFOLK,  VIRGINIA  23510 
+DOUGLAS L. HALLER
+Colonel Corps of Engineers
+District Engineer
 
+AUG 1 1980
 
-/).  jV/sbk 
+Date:
 
+OVERALL VIEWS OF PEDLAR
 
-TABLE  OF  CONTENTS 
+RIVER DAM
 
+I MAY 1980
 
-4 
+ft
 
+B
 
-Preface  .  i 
+SECTION 1
 
-Brief  Assessment  of  Dam  . . .  ii 
+K
 
-Overview  of  Dam 
+PROJECT INFORMATION
 
-Section  1:  PROJECT  INFORMATION  .  1-1 
+1.1 GENERAL:
 
-Section  2:  ENGINEERING  DATA . 2-1 
+1.1.1 Authority: Public Lau 92-367, 8 August 1972, authorized the Secretary of the Army, through the Corps of Engineers to initiate a national program of safety inspections of dams throughout the United
+States. The Norfolk District has been assigned the responsibility of supervising the inspection of dams in the Commonwealth of Virginia.
 
-Section  3:  VISUAL  INSPECTION  .  3-1 
+1.1.2 Purpose of Inspection: The purpose is to conduct a Phase I inspection according to the Recommended Guidelines for Safety
+Inspection of Dams (Reference 1, Appendix VI). The main responsibility is to expeditiously identify those dams which may be a potential hazard to human life or property.
 
-Section  4:  OPERATIONAL  PROCEDURES  .  4-1 
+m
 
-Section  5:  HYDRAULIC /HYDRO LOGIC  DATA  .  5-1 
+JS
 
-Section  6:  DAM  STABILITY  . 6-1 
+•Si*
 
-Section  7:  ASSESSMENT/REMEDIAL  MEASURES  .  7-1 
+S3
 
+m
 
-Appendix  Is  Maps  and  Drawings 
+— <3
 
-Appendix  II:  Photographs 
+S
 
-Appendix  III:  Field  Observations 
+’S3
 
-Appendix  IV:  Pedlar  Dam  Operating  Plan 
+a
 
-Appendix  V:  Pedlar  Dam  Maintenance  Plan 
+vO
 
-Appendix  VI:  References 
+&
 
+%
 
-. 
+i
 
+1-2 Project Description:
 
-PREFACE 
+1.2.1 Dam and Appurtenances: Pedlar River Dam is a concrete gravity dam 462.25 feet long at the crest of the dam and 80.5 feet high. The top cf the dam consists of a walkway at elevation 1035.5 feet MSL with 2.5 feet parapet walls which extend to the top of dam at elevation 1038.0. The walkway passes over an ungated spillway 150 feet wide with a crest of 1029-5, located in the left center of the dam. Flow over the spillway washes into a stilling basin which is concrete lined. A concrete bridge crosses the end of the stilling basin where a small weir allows flow to discharge into the downstream channel .
 
+According to available information, the base of the dam is embedded in rock. A system of underdrains was installed when the original dam was raised in 1934. These drains were connected to a new set of drains when the dam was again raised in 1964.
 
-This  report  is  prepared  under  guidance  contained  in  the  Recommended 
-Guidelines  for  Safety  Inspection  of  Dams,  for  Phase  1  Investigations. 
-Copies  of  these  guidelines  may  be  obtained  from  the  Office  of  the  Chief 
-of  Engineers,  Washington,  D.C.  20314.  The  purpose  of  a  Phase  I  investi¬ 
-gation  is  to  identify  expeditiously  those  dams  which  may  pose  hazards  to 
-human  life  or  property.  The  assessment  of  the  general  condition  of  the 
-dam  is  based  upon  available  data  and  visual  inspections.  Detailed  in¬ 
-vestigation  and  analyses  involving  topographic  mapping,  subsurface 
-investigations  testing,  and  detailed  computational  evaluations  are  beyond 
-the  scooe  of  a  Phase  I  investigation;  however,  the  investigation  is 
-intended  to  identify  any  need  for  such  studies. 
+A 30-inch water supply pipe discharging through the dam at elevation 975.0 is fed by three intake gates. 24-inch sluice gates at elevation 995.0 and 978.0 are operated during dry conditions. A
+30-inch by 24-inch gate at elevation 1022.75 is normally open to allow water to flow to Lynchburg, Virginia.
 
+A 48-inch blow off valve at elevation 961.0 can be used to flush or drain the reservoir.
 
-In  reviewing  this  report,  it  should  be  realized  that  the  reported 
-condition  of  the  dam  is  based  on  observations  of  field  conditions  at  *.e 
-time  of  inspection  along  with  data  available  to  the  inspection  team,  in 
-cases  where  the  reservoir  was  lowered  or  drained  prior  to  inspection,  such 
-action,  while  improving  the  stability  and  safety  of  the  dam,  removes  the 
-normal  load  on  the  structure  and  may  obscure  certain  conditions  which 
-might  otherwise  be  detectable  if  inspected  under  the  normal  operating 
-environment  of  the  structure. 
+1.2.2 Location: Pedlar River Dam is located on Pedlar River about 5 miles southeast of Buena Vista, Virginia.
 
+a
 
-It  is  important  to  note  that  the  condition  of  a  dam  depends  on 
-numerous  and  constantly  changing  internal  and  external  conditions,  and  is 
-evolutionary  in  nature.  It  would  be  incorrect  to  assume  that  the  present 
-condition  of  the  dam  will  continue  to  represent  the  condition  of  the  dam 
-at  some  point  in  the  future.  Only  through  continued  care  and  inspection 
-can  there  be  any  chance  that  unsafe  conditions  be  detected. 
+I
 
+V?
 
-Phase  I  inspections  are  not  intended  to  provide  detailed  hydrologic 
-and  hydraulic  analyses,  in  accordance  with  the  established  guidelines, 
-the  spillway  design  flood  is  based  on  the  estimated  "Probable  Maximum 
-Flood"  for  the  region  l flood  discharges  that  may  be  expected  from  the 
-most  severe  combination  of  critical  meteorologic  and  hydrologic  conditions 
-that  are  reasonably  possible),  or  fractions  thereof.  Because  of  the 
-magnitude  and  rarity  of  such  a  storm  event,  a  finding  that  a  spillway 
-will  not  pass  the  design  flood  should  not  be  interpreted  as  necessarily 
-posing  a  highly  inadequate  condition.  The  design  flood  provides  a 
-measure  of  relative  spillway  capacity  and  serves  as  an  aid*  in 
-determining  the  need  for  more  detailed  hydrologic  and  hydraulic  studies, 
-considering  the  size  of  the  dam,  its  general  condition  and  the  downstream 
-damage  potential. 
+•ig
 
+I
 
-PHASE  I  REPORT 
-NATIONAL  DAM  SAFETY  PROGRAM 
+*31
 
-BRIEF  ASSESSMENT  OF  DAM 
+i
 
+i
 
-Name  of  Dam:  Pedlar  River  Dam 
+5|
 
-State:  Virginia 
+s
 
-Location:  Amherst  County 
+H
 
-USGS  Quad  Sheat:  Buena  Vista 
+m
 
-Stream:  Pedlar  River 
+a
 
-Date  of  Inspection:  1  May  1980 
+i-i
 
-Pedlar  River  Dam  is  a  concrete  gravity  structure  about  462.25  feet 
-long  and  80.5  feet  high.  The  dam  is  owned  and  maintained  by  the  City 
-of  Lynchburg,  Virginia.  The  dam  is  classified  as  an  intermediate  size 
-with  a  significant  hazard  classification.  The  spillway  is  a  concrete 
-opening  in  the  center  of  the  dam.  The  reservoir  is  used  for  water 
-supply  by  the  City  of  Lynchburg,  Virginia  and  limited  recreation 
-controlled  by  the  city  representative  at  the  dam  site. 
+1.2.3 Size Classification: The dam is classified as an intermediate size structure by either height or maximum storage.
 
-Based  on  criteria  established  by  the  Department  of  the  Army, 
+♦
 
-Office  of  the  Chief  of  Engineers  (OCE),  the  Spillway  Design  Flood 
-(SDF)  is  the  1/2  PMF.  The  spillway  will  pass  23  percent  of  the  PMF  or 
-46  percent  of  the  SDF  without  overtopping  the  dam.  The  SDF  will 
-overtop  the  dam  by  a  maximum  3.92  feet,  reach  an  average  critical 
-velocity  of  9.3  feet  per  second  and  flow  over  the  dam  for  9.5  hours. 
-The  spillway  is  adjudged  as  inadequate  but  not  seriously  inadequate. 
+1.2.4 Hazard Classification: The dam is located upstream of a small community, which is about 4 miles from the dam. The valley bel >w the dam forms a narrow gorge which in case of a dam failure, would carry a large volume of water through the community. Therefore, a significant hazard classification is given for this structure according to guidelines contained in Section 2.1.2 of Reference 1,
+Appendix VI. The hazard classification used to categorize dams is a function of location only and has nothing to do with their stability or probability of failure.
 
-The  visual  inspection  revealed  no  apparent  problems  and  there  are  no 
-immediate  needs  for  remedial  measures.  There  is  a  regular  maintenance 
-operation  program,  but  no  emergency  warning  system.  It  is  recommended 
-that  a  warning  system  be  established  and  the  maintenance  items  listed 
-in  Section  7.2  be  accomplished  as  part  of  the  regular  maintenance 
-program  within  the  next  12  months. 
+1.2.5 Ownership: City of Lynchburg, Virginia
 
+1.2.6 Purpose: Water supply and limited recreation.
 
-Submitted  By: 
+1.2.7 Design and Construction History: The original designer of the dam is unknown. Initially constructed in 1904, the spillway was raised in 1926 and the entire dam was raised in 1931 and again in
+1964. The 1964 addition was designed by Wiley and Wilson and was constructed by English Construction Company.
 
-Original  signed  ty 
+1.2.8 Normal Operational Procedures: Water passes automatically over the spillway as the reservoir rises above the spillway crest.
+Water is withdrawn as needed through the 30-inch pipe running at low level through the dam.
 
-_ JAMES  A.  IALSH  — 
+1 . 3 Pertinent Data:
 
-JAMES  A.  WALSH,  P.  E. 
+1.3.1 Drainage Area: The dam controls a drainage area of about
+33 square miles.
 
-Chief,  Design  Branch 
+1.3.2 Discharge at Dam Site: Maximum flood - approximately 6373 cfs during the remnants of Tropical Storm Camille when flow reached 60 inches deep in the spillway.
 
+Pool level at top of dam
+Spillway .
 
-Recgmmend^  &gned  by 
+14125 cfs
 
-JACK  G.  STARS 
-JACK  G.  STARR 
+1.3.3 Dam and Reservoir Data: Pertinent date on* the da* and reservoir are shown in the following table:
 
-Chief,  Engineering  Division 
+TATLE 1.1 DAM AND RESERVOIR DATA
 
+Elevation
 
-Approved: 
+Reservoir
 
-Original  signed  by} 
+Capacity
 
-_ Douglas  L.  Halle? _ 
+feet
 
-DOUGLAS  L.  HALLER 
-Colonel  Corps  of  Engineers 
-District  Engineer 
+Area,
 
-AUG  1 1980 
+Acre,
 
-Date: 
+Watershed,
 
+L-mgth
 
-OVERALL  VIEWS  OF  PEDLAR 
+T.tem
 
-RIVER  DAM 
+msl
 
-I  MAY  1980 
+acres
 
+feet
 
-ft 
+inches
 
-B 
+miles
 
+Trp o : Parapet Wall
 
-SECTION  1 
+1038.0
 
+2.61
 
-K 
+1.61
 
+m
 
-PROJECT  INFORMATION 
+(Crest of Dam)
 
+Top of Walkway
 
-1.1  GENERAL: 
+1035.5
 
-1.1.1  Authority:  Public  Lau  92-367,  8  August  1972,  authorized 
-the  Secretary  of  the  Army,  through  the  Corps  of  Engineers  to  initiate 
-a  national  program  of  safety  inspections  of  dams  throughout  the  United 
-States.  The  Norfolk  District  has  been  assigned  the  responsibility  of 
-supervising  the  inspection  of  dams  in  the  Commonwealth  of  Virginia. 
+2.41
 
-1.1.2  Purpose  of  Inspection:  The  purpose  is  to  conduct  a  Phase  I 
-inspection  according  to  the  Recommended  Guidelines  for  Safety 
-Inspection  of  Dams  (Reference  1,  Appendix  VI).  The  main 
-responsibility  is  to  expeditiously  identify  those  dams  which  may  be  a 
-potential  hazard  to  human  life  or  property. 
+1.59
 
+m
 
-53 
+Crest of Spillway
 
-m 
+1029.5
 
-JS 
+137.7
 
-•Si* 
+1.92
 
-S3 
+1.55
 
-1 
+s|
 
+Streambed at Down-
 
-m 
+I
 
-— <3 
+steam Toe of Dam
 
-S 
+957.5+
 
-’S3 
+“
 
+r
 
-a 
+"
 
-vO 
+SECTION 2
 
+ENGINEERING DATA ,
 
-& 
+2.1 Design: The engineering design information available from the City of Lynchburg consisted of design calculations, specifications, and contract drawings for an addition to the dam started in 1964. This addition was designed by Wiley and Wilson, Consulting Engineers of Lynchburg, Virginia.
 
+2.2 Construction: The dam was originally constructed in 1904 and was raised in 1926, 1931, and 1964. The 1964 addition was constructed by the
+English Construction Company, Tnc., of Altavista, Virginia. Concrete test reports made by Froehling and Robertson, Inc., indicate that construction took place during 1964 and 1965.
 
-% 
+2.3 Evaluation: Information concerning the original design and foundation study was not available. More information concerning the foundation and the construction operations of the original section and each addition should be obtained if possible.
 
+SECTION 3
 
-i 
+VISUAL INSPECTION t
 
+3.1 ''eneral : An inspection of the Pedlar River Dam was made 1 May
+1980. The weather was cloudy and the temperature was 5?°F. The I'^ol was at elevation 1029.7 MSL.
 
-1-2  Project  Description: 
+3.2 Dam and Appurtenances:
 
-1.2.1  Dam  and  Appurtenances:  Pedlar  River  Dam  is  a  concrete 
-gravity  dam  462.25  feet  long  at  the  crest  of  the  dam  and  80.5  feet 
-high.  The  top  cf  the  dam  consists  of  a  walkway  at  elevation  1035.5 
-feet  MSL  with  2.5  feet  parapet  walls  which  extend  to  the  top  of  dam  at 
-elevation  1038.0.  The  walkway  passes  over  an  ungated  spillway  150 
-feet  wide  with  a  crest  of  1029-5,  located  in  the  left  center  of  the 
-dam.  Flow  over  the  spillway  washes  into  a  stilling  basin  which  is 
-concrete  lined.  A  concrete  bridge  crosses  the  end  of  the  stilling 
-basin  where  a  small  weir  allows  flow  to  discharge  into  the  downstream 
-channel . 
+3.2.1 Findings : Field observations are recorded in the Visual
+Inspection Checklist, Appendix III. The concrete surfaces were in good condition. Edges of most of the joints were slightly weathered. All joints were in good alignment. No leaks were observed in the joints although there were calcium deposits along most of the joints. The only cracks in the dam observed appeared in the parapet along the top of the dam. Contraction cracks between control joints occurred in t>* *ee sections along the papapet.
 
-According  to  available  information,  the  base  of  the  dam  is 
-embedded  in  rock.  A  system  of  underdrains  was  installed  when  the 
-original  dam  was  raised  in  1934.  These  drains  were  connected  to  a  new 
-set  of  drains  when  the  dam  was  again  raised  in  1964. 
+A crack was also observed between the upstr*. m parapet and the top of the dam at the north end of the spillway.
 
-A  30-inch  water  supply  pipe  discharging  through  the  dam  at 
-elevation  975.0  is  fed  by  three  intake  gates.  24-inch  sluice  gates  at 
-elevation  995.0  and  978.0  are  operated  during  dry  conditions.  A 
-30-inch  by  24-inch  gate  at  elevation  1022.75  is  normally  open  to  allow 
-water  to  flow  to  Lynchburg,  Virginia. 
+Of the six drains located on the face of the dam, four were discharging a small amount of water, less than 1 gpm. There was vegetation growing on the dam face below the one drain to the south of the spillway.
 
-A  48-inch  blow  off  valve  at  elevation  961.0  can  be  used  to  flush 
-or  drain  the  reservoir. 
+The surface of the spillway was slightly worn, concrete aggregate was exposed. The left wingwall was in good condition with only a slight amount of sloughing of soil at the end of the wall.
 
-1.2.2  Location:  Pedlar  River  Dam  is  located  on  Pedlar  River 
-about  5  miles  southeast  of  Buena  Vista,  Virginia. 
+The gate house, a two story CMU-brick building, had a number of cracks in the CMU walls. The cracks were only visible on the interior. The exterior brick showed no cracking.
 
+3.2.2 Reservoir: The reservoir was clear of debris except for one log ca--ght at the top of the spillway.
 
-a 
+3.2.3 Downstream Area: The downstream channel appeared stable. No signs of erosion were evident.
 
-1 
+3*^ Evaluation: The dam appeared to be in good condition although only
 
+the 1964 addition to the dam was visible for inspection.
 
-I 
+The drain discharges should be monitored periodically to note any change in flow or quality of discharge.
 
-V? 
+The cracks that have occurred in the parapet should be filled to try to eliminate any further deterioration.
 
-•ig 
+The cracking of the walls in the gate house is a problem that should be investigated. The gate house design should be reviewed to determine if the material stored on the second floor is overloading the walls or if environmental factors are causing the cracks.
 
-I 
+SECTION 4
 
-*31 
+OPERATIONAL PROCEDURES
 
-i 
+4.1 Procedures; The normal storage pool is elevation 1029.5 feet msl, vdiich is the crest of the spillway. The reservoir provides water for the
+City of Lynchburg, Virginia. Water passes automatically over the spillway as the reservoir rises above the spillway crest. A 30-inch water supply pipe located near the downstream left toe of the dam is operated by city personnel as needed. Appendix IV explains the operating plan for Pedlar River.
 
-i 
+4.2 Maintenance: A regular maintenance program, as given in Appendix V, includes daily as well as annual maintenance items.
 
+4.3 Warning System: At present time there is no warning system or evacuation plan for Pedlar River Dam.
 
-5| 
+4.4 Evaluation: The dam does not require an elaborate operational and maintenance procedure. The regular maintenance and operation program should be documented for future reference. An emergency operation and warning plan should be developed. It is recommended that a formal emergency procedure be prepared and furnished to all operating personnel. This should include:
 
-3 
+a. How to operate the dam during an emergency.
 
-s 
+b. Who to notify, including public officials, in case evacuation from the downstream area is necessary.
 
-H 
+4-1
 
+SECTION 5
 
-m 
+HYDRAULIC/HYDROLOGIC DATA t
 
+5.1 Design: None were available.
 
-a 
+5.2 Hydrologic Records: Daily rainfall and pool elevations are reported at the dam and were available during the inspection.
 
+5.3 Flood Experience: The maximum flow observed was approximately 6373 cfs during the remnants of Tropical Storm Camille in which 5 feet of flow was noted in the spillway.
 
-i-i 
+5.4 Flood Potential: The 1/2 PMF and PMF were developed and routed through the reservoir by use of the HEC-IDB computer program
+(Reference 2, Appendix VI) and appropriate unit hydrograph, precipitation and storage-outflow data. Clark's Tc and R coefficients for the local drainage area were estimated from basin characteristics. The rainfall applied to the developed unit hydrograph was obtained from a U. S. Weather Bureau Publication
+(Reference 3, Appendix VI).
 
+5.5 Reservoir Regulation: Pertinent dam and reservoir data are shown in Table 1.1.
 
-1.2.3  Size  Classification:  The  dam  is  classified  as  an 
-intermediate  size  structure  by  either  height  or  maximum  storage. 
+Water passes automatically through the spillway as the reservoir rises above the spillway crest. The 30-inch water supply pipe passes water through the dam, as regulated by the City of Lynchburg,
 
-♦ 
+Virginia. A 48-inch blow off valve is available to flush the reservoir or dewater it.
 
-1.2.4  Hazard  Classification:  The  dam  is  located  upstream  of  a 
-small  community,  which  is  about  4  miles  from  the  dam.  The  valley 
-bel >w  the  dam  forms  a  narrow  gorge  which  in  case  of  a  dam  failure, 
-would  carry  a  large  volume  of  water  through  the  community.  Therefore, 
-a  significant  hazard  classification  is  given  for  this  structure 
-according  to  guidelines  contained  in  Section  2.1.2  of  Reference  1, 
-Appendix  VI.  The  hazard  classification  used  to  categorize  dams  is  a 
-function  of  location  only  and  has  nothing  to  do  with  their  stability 
-or  probability  of  failure. 
+The storage curve was developed based on areas obtained from a U.
+S. Geological Survey Quadrangle Map. Rating curves were developed for the non-overflow section of the dam, spillway, and blow off valve. In routing hydrographs through the reservoir, it was assumed that the initial pool level was at elevation 1029.5.
 
-1.2.5  Ownership:  City  of  Lynchburg,  Virginia 
+5.6 Overtopping Potential: The probable rise in the reservoir and other pertinent information on reservoir performance is shown in the following table:
 
-1.2.6  Purpose:  Water  supply  and  limited  recreation. 
+5-1
 
-1.2.7  Design  and  Construction  History:  The  original  designer  of 
-the  dam  is  unknown.  Initially  constructed  in  1904,  the  spillway  was 
-raised  in  1926  and  the  entire  dam  was  raised  in  1931  and  again  in 
-1964.  The  1964  addition  was  designed  by  Wiley  and  Wilson  and  was 
-constructed  by  English  Construction  Company. 
+Table 5.1 RESERVOIR PERFORMANCE.
 
-1.2.8  Normal  Operational  Procedures:  Water  passes  automatically 
-over  the  spillway  as  the  reservoir  rises  above  the  spillway  crest. 
-Water  is  withdrawn  as  needed  through  the  30-inch  pipe  running  at  low 
-level  through  the  dam. 
+" " »
 
-1 . 3  Pertinent  Data: 
+Item
 
-1.3.1  Drainage  Area:  The  dam  controls  a  drainage  area  of  about 
-33  square  miles. 
+Normal
 
-1.3.2  Discharge  at  Dam  Site:  Maximum  flood  -  approximately  6373 
-cfs  during  the  remnants  of  Tropical  Storm  Camille  when  flow  reached  60 
-inches  deep  in  the  spillway. 
+Flow
 
+1/2 PMF
 
-Pool  level  at  top  of  dam 
-Spillway . 
+PMF 1/
 
+Peak flow, c.f.s.
 
-14125  cfs 
+Inflow
 
+Outflow
 
-1.3.3  Dam  and  Reservoir  Data:  Pertinent  date  on* the  da*  and 
-reservoir  are  shown  in  the  following  table: 
+Maximum elevation
 
-TATLE  1.1  DAM  AND  RESERVOIR  DATA 
+ft, rasl
 
+Non-overflow section
+(el. 1038.0)
 
-Elevation 
+1029.5
 
+1041.9
 
-Reservoir 
+1046.6
 
-Capacity 
+Depth of flow, ft.
 
+-
 
-feet 
+3.9
 
-Area, 
+8.6
 
-Acre, 
+Duration, hrs
 
-Watershed, 
+-
 
-L-mgth 
+9.5
 
-1 
+14.5
 
-T.tem 
+Velocity, fps 2/
+Tailwater elevation
 
-msl 
+—
 
-acres 
+9.3
 
-feet 
+13.7
 
-inches 
+ft., msl 3/
 
-miles 
+963.3+
 
-2 
+974.9
 
-Trp  o :  Parapet  Wall 
+982.8
 
-1038.0 
+1/ The PMF is an estimate of flood discharges that may be expected from the most severe combination of critical meteorologic and hydrologic conditions that are reasonably possible in the region.
 
-160 
+2/ Critical velocity.
 
-4600 
+5.7 Reservoir Emptying Potential: A 48~inch blow off valve located at elevation 961 feet KSL is available lor flushing or dewatering the reservoir. The low level opening will permit withdrawal of about 468 cfs with the reservoir at normal pool and essentially dewater the reservoir in about 6 days. This is equivalent to an approximate drawdown rate of about 11 feet per day based on the hydraulic height measured from normal pool divided by the time to dewater the reservoir.
 
-2.61 
+5.8 Evaluation: Based on the size (intermediate) and hazard classification (significant) the recommended Spillway Design Flood
+(SDF) is the 1/2 PMF to the PMF. Because of the risk involved the 1/2
+PMF has been selected as the SDF. The spillway will pass 23 percent of the PMF or 46 percent of the SDF without overtopping the dam. The
+SDF will overtop the dam by a maximum of 3.92 feet with a critical velocity of 9.3 feet per second and remain above the top of the dam about 9.5 hours.
 
-1.61 
+Conclusions pertain to present day conditions. The effect of future development on the hydrology has not been considered.
 
-m 
+5-2
 
-(Crest  of  Dam) 
+SECTION 6
 
-Top  of  Walkway 
+i
 
-1035.5 
+DAM STABILITY
 
-151 
+6.1 Geologic Setting; The Pedlar River Dam is located near the western limit of the Piedmont physiographic province on the northwest flank of the Catoc in-Blue Ridge anticlinorium. The bedrock at the site is part of the Virginia Blue Ridge complex of prccambrian igneous and metamorphic rocks. Locally, the bedrock is a fine to medium grained micaceous schist. Alluvial cobbles and gravels are present in the river channel. The slopes of the river valley are moderately steep with shallow residual soils and rock outcrops.
 
-4250 
+6.2 Evaluation:
 
-2.41 
+6.2.1 Foundation and Abutments; There were no previous reports found detailing the geology of the area. Locally, the bedrock consists of a micaceous schist. It is fine to medium, grained, light grey-green ..hen fresh and weathers to a yellowish brown. Outcrops were found on both abutments and in the river channel.
 
-1.59 
+Observed joints on the right abutment had a strike of N36°W with an upstream dip of 80-85°. Joints on the left abutment dipped
+75-80° downstream and has a strike of N82°E. Most joints were closed and only slightly weathered.
 
-11 
+Secondary quartz was found in some left abutment joints. Spacings ranged from one to two feet.
 
-m 
+Foliation planes were undulating and non-weathered with an east to west trend on both abutments.
 
-Crest  of  Spillway 
+No seepage was noted along the abutments during the visual inspection. The fo’iation planes and the primary joint system in the abutments are not adversely oriented. Condition of the foundation rock in the river is unknown due to lack of original construction reports. According to the specifications, some foundation grouting was to have been performed during the 1964 addition, but reports of the results were not available.
 
-1029.5 
+6.2.2 Stability Analysis: A stability check was made on a section of the spillway. The height of water behind the dam was assumed to be at the spillway crest, normal pool, and at 12.92 feet above the spillway crest, 1/2 PMF. For the normal pool condition, the vertical resultant of all forces fall within the middle third of the base. However, the overturning safety factor is only 1.54. For the
+1/2 PMF condition the vertical resultant of all forces falls 7.75 feet outside of the middle third of the base and the overturning safety factor is 1.19. Under this condition the dam does not meet the stability criteria established in Reference 1, Appendix VI. Contract drawings show the dam base embedded in rock to such a degree that sliding is not a problem.
 
-137.7 
+6-1
 
-3376 
+Since the stability check was made at the most critical station, the actual stability of the dam is not as marginal as indicated. The ground in front of the dam, sloping steeply from the spillway, adds to the dam's stability.
 
-1.92 
+The construction of the dam is a subject that warrants further study. The additions made to the dam constitute potential weaknesses. Available drawings indicate the presence of dowels linking the additions together. The adequacy of the dowels to hold the dam together in the event of a flood of the m-gnitude of the 1/2
+PMF should be investigated.
 
-1.55 
+6-2
 
-s| 
+GRAVITY DAM DESIGN
+STABILITY ANALYSIS
 
-Streambed  at  Down- 
+55.5
 
-I 
+SECTION 7
 
-steam  Toe  of  Dam 
+ASSESSMENT/REMEDIAL MEASURES
 
-957.5+ 
+7.1 Dam Assessment: The available engineering data is inadequate for a full evaluation of the entire structure. The visual inspection revealed no findings that proved the dam to be unsound. There is a regular maintenance operations program. However, there is no emergency operation and warning plan. Overall, the dam is in good condition and there is no immediate need for remedial measures. Corps guidelines indicate the appropriate Spillway Design Flood (SDF) for an intermediate size and significant hazard dam, in this case, is the 1/2
+PMF. The spillway will pass 23 percent of the PMF without overtopping the dam. The SDF will overtop the dam by a maximum of 3.92 feet with a critical velocity of 9.3 feet per second and remain above the top of the dam about 9.5 hours. Pedlar River Dam should not fail under these conditions. The spillway is adjudged inadequate, but not seriously inadequate.
 
-“ 
+7.2 Recommended Remedial Measures: It is recommended that the regular maintenance operation program be documented for future reference. A formal emergency procedure should be prepared and furnished to all operating personnel. This should include how to operate the dam during an emergency and who to notify including public officials, in case evacuation from the downstream area is necessary.
+Also, the inspection revealed the following maintenance items that should be scheduled by the owner during a regular maintenance period within the next 12 months:
 
-r 
+a. The drain discharges should be monitored to note any change in flow or quality of discharge.
 
-" 
+b. The cracks in the parapet should be filled to eliminate any further deterioration.
 
-1 
+c. The cracked walls in the gate house should be investigated to determine the cause.
 
-SECTION  2 
+.nil mil
 
+iiiifSfiiWissisisaiii,
 
-ENGINEERING  DATA  , 
+EAFAMSIOM JXUI
+LtLJL/ —
 
-2.1  Design:  The  engineering  design  information  available  from  the  City 
-of  Lynchburg  consisted  of  design  calculations,  specifications,  and  contract 
-drawings  for  an  addition  to  the  dam  started  in  1964.  This  addition  was 
-designed  by  Wiley  and  Wilson,  Consulting  Engineers  of  Lynchburg,  Virginia. 
+. /if '! '
 
-2.2  Construction:  The  dam  was  originally  constructed  in  1904  and  was 
-raised  in  1926,  1931,  and  1964.  The  1964  addition  was  constructed  by  the 
-English  Construction  Company,  Tnc.,  of  Altavista,  Virginia.  Concrete  test 
-reports  made  by  Froehling  and  Robertson,  Inc.,  indicate  that  construction 
-took  place  during  1964  and  1965. 
+Avrv:^. r^-- -^,j. , jV.Tf^^^^-l|1-fl^llMIIIII|!!!!il!!li!l|i^illi»1^ii!llMllli^i^^ i ^ .. . * '* ^ **~.. ^ *-■
 
-2.3  Evaluation:  Information  concerning  the  original  design  and 
-foundation  study  was  not  available.  More  information  concerning  the 
-foundation  and  the  construction  operations  of  the  original  section  and  each 
-addition  should  be  obtained  if  possible. 
+APPENDIX II
+PHOTOGRAPHS
 
+PHOTO *1 WALKWAY
 
-SECTION  3 
+PHOTO*2 WALKWAY a OVERFLOW SECTION
 
+c
 
-VISUAL  INSPECTION  t 
+c
 
-3.1  ''eneral :  An  inspection  of  the  Pedlar  River  Dam  was  made  1  May 
-1980.  The  weather  was  cloudy  and  the  temperature  was  5?°F.  The  I'^ol  was 
-at  elevation  1029.7  MSL. 
+X
 
-3.2  Dam  and  Appurtenances: 
+o
 
-3.2.1  Findings :  Field  observations  are  recorded  in  the  Visual 
-Inspection  Checklist,  Appendix  III.  The  concrete  surfaces  were  in  good 
-condition.  Edges  of  most  of  the  joints  were  slightly  weathered.  All  joints 
-were  in  good  alignment.  No  leaks  were  observed  in  the  joints  although  there 
-were  calcium  deposits  along  most  of  the  joints.  The  only  cracks  in  the  dam 
-observed  appeared  in  the  parapet  along  the  top  of  the  dam.  Contraction 
-cracks  between  control  joints  occurred  in  t>*  *ee  sections  along  the  papapet. 
+AJ
 
-A  crack  was  also  observed  between  the  upstr*.  m  parapet  and  the  top  of  the  dam 
-at  the  north  end  of  the  spillway. 
+C\* •
 
-Of  the  six  drains  located  on  the  face  of  the  dam,  four  were  discharging  a 
-small  amount  of  water,  less  than  1  gpm.  There  was  vegetation  growing  on  the 
-dam  face  below  the  one  drain  to  the  south  of  the  spillway. 
+Uj
 
-The  surface  of  the  spillway  was  slightly  worn,  concrete  aggregate  was 
-exposed.  The  left  wingwall  was  in  good  condition  with  only  a  slight  amount 
-of  sloughing  of  soil  at  the  end  of  the  wall. 
+• o o —
 
-The  gate  house,  a  two  story  CMU-brick  building,  had  a  number  of  cracks  in 
-the  CMU  walls.  The  cracks  were  only  visible  on  the  interior.  The  exterior 
-brick  showed  no  cracking. 
+CO
 
-3.2.2  Reservoir:  The  reservoir  was  clear  of  debris  except  for  one  log 
-ca--ght  at  the  top  of  the  spillway. 
+<r o>
 
-3.2.3  Downstream  Area:  The  downstream  channel  appeared  stable.  No 
-signs  of  erosion  were  evident. 
+•
 
-3*^  Evaluation:  The  dam  appeared  to  be  in  good  condition  although  only 
+r-
 
-the  1964  addition  to  the  dam  was  visible  for  inspection. 
+<**
 
-The  drain  discharges  should  be  monitored  periodically  to  note  any  change 
-in  flow  or  quality  of  discharge. 
+m
 
-The  cracks  that  have  occurred  in  the  parapet  should  be  filled  to  try  to 
-eliminate  any  further  deterioration. 
+o
 
-The  cracking  of  the  walls  in  the  gate  house  is  a  problem  that  should  be 
-investigated.  The  gate  house  design  should  be  reviewed  to  determine  if  the 
-material  stored  on  the  second  floor  is  overloading  the  walls  or  if 
-environmental  factors  are  causing  the  cracks. 
+to
 
+o
 
-SECTION  4 
+r~
 
+u*
 
-4 
+AJ O
 
+o
 
-OPERATIONAL  PROCEDURES 
+X -3
 
-4.1  Procedures;  The  normal  storage  pool  is  elevation  1029.5  feet  msl, 
-vdiich  is  the  crest  of  the  spillway.  The  reservoir  provides  water  for  the 
-City  of  Lynchburg,  Virginia.  Water  passes  automatically  over  the  spillway  as 
-the  reservoir  rises  above  the  spillway  crest.  A  30-inch  water  supply  pipe 
-located  near  the  downstream  left  toe  of  the  dam  is  operated  by  city  personnel 
-as  needed.  Appendix  IV  explains  the  operating  plan  for  Pedlar  River. 
+lA
 
-4.2  Maintenance:  A  regular  maintenance  program,  as  given  in  Appendix  V, 
-includes  daily  as  well  as  annual  maintenance  items. 
+••
 
-4.3  Warning  System:  At  present  time  there  is  no  warning  system  or 
-evacuation  plan  for  Pedlar  River  Dam. 
+-2
 
-4.4  Evaluation:  The  dam  does  not  require  an  elaborate  operational  and 
-maintenance  procedure.  The  regular  maintenance  and  operation  program  should 
-be  documented  for  future  reference.  An  emergency  operation  and  warning  plan 
-should  be  developed.  It  is  recommended  that  a  formal  emergency  procedure  be 
-prepared  and  furnished  to  all  operating  personnel.  This  should  include: 
+lA
 
-a.  How  to  operate  the  dam  during  an  emergency. 
+f—
 
-b.  Who  to  notify,  including  public  officials,  in  case  evacuation  from 
-the  downstream  area  is  necessary. 
+•**j
 
+••
 
-4-1 
+••
 
+AJ
 
-SECTION  5 
+U2
 
+(1)
 
-HYDRAULIC/HYDROLOGIC  DATA  t 
+o
 
-5.1  Design:  None  were  available. 
+a
 
-5.2  Hydrologic  Records:  Daily  rainfall  and  pool  elevations  are 
-reported  at  the  dam  and  were  available  during  the  inspection. 
+u
 
-5.3  Flood  Experience:  The  maximum  flow  observed  was 
-approximately  6373  cfs  during  the  remnants  of  Tropical  Storm  Camille 
-in  which  5  feet  of  flow  was  noted  in  the  spillway. 
+a>
 
-5.4  Flood  Potential:  The  1/2  PMF  and  PMF  were  developed  and 
-routed  through  the  reservoir  by  use  of  the  HEC-IDB  computer  program 
-(Reference  2,  Appendix  VI)  and  appropriate  unit  hydrograph, 
-precipitation  and  storage-outflow  data.  Clark's  Tc  and  R  coefficients 
-for  the  local  drainage  area  were  estimated  from  basin 
-characteristics.  The  rainfall  applied  to  the  developed  unit 
-hydrograph  was  obtained  from  a  U.  S.  Weather  Bureau  Publication 
-(Reference  3,  Appendix  VI). 
+o>
 
-5.5  Reservoir  Regulation:  Pertinent  dam  and  reservoir  data  are 
-shown  in  Table  1.1. 
+AJ
 
-Water  passes  automatically  through  the  spillway  as  the  reservoir 
-rises  above  the  spillway  crest.  The  30-inch  water  supply  pipe  passes 
-water  through  the  dam,  as  regulated  by  the  City  of  Lynchburg, 
+CL
 
-Virginia.  A  48-inch  blow  off  valve  is  available  to  flush  the 
-reservoir  or  dewater  it. 
+>
 
-The  storage  curve  was  developed  based  on  areas  obtained  from  a  U. 
-S.  Geological  Survey  Quadrangle  Map.  Rating  curves  were  developed  for 
-the  non-overflow  section  of  the  dam,  spillway,  and  blow  off  valve.  In 
-routing  hydrographs  through  the  reservoir,  it  was  assumed  that  the 
-initial  pool  level  was  at  elevation  1029.5. 
+X
 
-5.6  Overtopping  Potential:  The  probable  rise  in  the  reservoir 
-and  other  pertinent  information  on  reservoir  performance  is  shown  in 
-the  following  table: 
+AJ
 
+x
 
-5-1 
+•w
 
+o
 
-Table  5.1  RESERVOIR  PERFORMANCE. 
+C
 
-"  "  » 
+X
 
+c
 
-Item 
+AJ
 
-Normal 
+>
 
-Flow 
+■ *^
 
-1/2  PMF 
+U
 
-PMF  1/ 
+M
 
-Peak  flow,  c.f.s. 
+*o
 
-Inflow 
+o
 
-33 
+AJ
 
-32833 
+AJ
 
-65667 
+Li
 
-Outflow 
+CL
 
-Maximum  elevation 
+U-
 
-33 
+c
 
-32758 
+X
 
-65514 
+c
 
-ft,  rasl 
+E
 
-Non-overflow  section 
-(el.  1038.0) 
+O
 
-1029.5 
+CJ
 
-1041.9 
+AJ
 
-1046.6 
+o
 
-Depth  of  flow,  ft. 
+oj
 
-- 
+x
 
-3.9 
+c
 
-8.6 
+o
 
-Duration,  hrs 
+H
 
-- 
+cy
 
-9.5 
+a
 
-14.5 
+E
 
-Velocity,  fps  2/ 
-Tailwater  elevation 
+Li l<
 
-— 
+X
 
-9.3 
+•i-<
 
-13.7 
+CL 03
 
-ft.,  msl  3/ 
+a
 
-963.3+ 
+o
 
-974.9 
+H
 
-982.8 
+03 jc
 
-1/  The  PMF  is  an  estimate  of  flood  discharges  that  may  be  expected 
-from  the  most  severe  combination  of  critical  meteorologic  and 
-hydrologic  conditions  that  are  reasonably  possible  in  the  region. 
+u
 
-2/  Critical  velocity. 
+o
 
-5.7  Reservoir  Emptying  Potential:  A  48~inch  blow  off  valve 
-located  at  elevation  961  feet  KSL  is  available  lor  flushing  or 
-dewatering  the  reservoir.  The  low  level  opening  will  permit 
-withdrawal  of  about  468  cfs  with  the  reservoir  at  normal  pool  and 
-essentially  dewater  the  reservoir  in  about  6  days.  This  is  equivalent 
-to  an  approximate  drawdown  rate  of  about  11  feet  per  day  based  on  the 
-hydraulic  height  measured  from  normal  pool  divided  by  the  time  to 
-dewater  the  reservoir. 
+U 03
 
-5.8  Evaluation:  Based  on  the  size  (intermediate)  and  hazard 
-classification  (significant)  the  recommended  Spillway  Design  Flood 
-(SDF)  is  the  1/2  PMF  to  the  PMF.  Because  of  the  risk  involved  the  1/2 
-PMF  has  been  selected  as  the  SDF.  The  spillway  will  pass  23  percent 
-of  the  PMF  or  46  percent  of  the  SDF  without  overtopping  the  dam.  The 
-SDF  will  overtop  the  dam  by  a  maximum  of  3.92  feet  with  a  critical 
-velocity  of  9.3  feet  per  second  and  remain  above  the  top  of  the  dam 
-about  9.5  hours. 
+Cl
 
-Conclusions  pertain  to  present  day  conditions.  The  effect  of 
-future  development  on  the  hydrology  has  not  been  considered. 
+o
 
+AJ
 
-5-2 
+AJ
 
+0)
 
-SECTION  6 
+«-3
 
+c 8
 
-i 
+x <y
 
+- u
 
-DAM  STABILITY 
+Li
 
-6.1  Geologic  Setting;  The  Pedlar  River  Dam  is  located  near  the 
-western  limit  of  the  Piedmont  physiographic  province  on  the  northwest 
-flank  of  the  Catoc in-Blue  Ridge  anticlinorium.  The  bedrock  at  the 
-site  is  part  of  the  Virginia  Blue  Ridge  complex  of  prccambrian  igneous 
-and  metamorphic  rocks.  Locally,  the  bedrock  is  a  fine  to  medium 
-grained  micaceous  schist.  Alluvial  cobbles  and  gravels  are  present  in 
-the  river  channel.  The  slopes  of  the  river  valley  are  moderately 
-steep  with  shallow  residual  soils  and  rock  outcrops. 
+Ja
 
-6.2  Evaluation: 
+Li 03
 
-6.2.1  Foundation  and  Abutments;  There  were  no  previous  reports 
-found  detailing  the  geology  of  the  area.  Locally,  the  bedrock 
-consists  of  a  micaceous  schist.  It  is  fine  to  medium,  grained,  light 
-grey-green  ..hen  fresh  and  weathers  to  a  yellowish  brown.  Outcrops 
-were  found  on  both  abutments  and  in  the  river  channel. 
+X
 
-Observed  joints  on  the  right  abutment  had  a  strike  of  N36°W  with 
-an  upstream  dip  of  80-85°.  Joints  on  the  left  abutment  dipped 
-75-80°  downstream  and  has  a  strike  of  N82°E.  Most  joints  were 
-closed  and  only  slightly  weathered. 
+Li
 
-Secondary  quartz  was  found  in  some  left  abutment  joints.  Spacings 
-ranged  from  one  to  two  feet. 
+X
 
-Foliation  planes  were  undulating  and  non-weathered  with  an  east  to 
-west  trend  on  both  abutments. 
+>,
 
-No  seepage  was  noted  along  the  abutments  during  the  visual 
-inspection.  The  fo’iation  planes  and  the  primary  joint  system  in  the 
-abutments  are  not  adversely  oriented.  Condition  of  the  foundation 
-rock  in  the  river  is  unknown  due  to  lack  of  original  construction 
-reports.  According  to  the  specifications,  some  foundation  grouting 
-was  to  have  been  performed  during  the  1964  addition,  but  reports  of 
-the  results  were  not  available. 
+a
 
-6.2.2  Stability  Analysis:  A  stability  check  was  made  on  a 
-section  of  the  spillway.  The  height  of  water  behind  the  dam  was 
-assumed  to  be  at  the  spillway  crest,  normal  pool,  and  at  12.92  feet 
-above  the  spillway  crest,  1/2  PMF.  For  the  normal  pool  condition,  the 
-vertical  resultant  of  all  forces  fall  within  the  middle  third  of  the 
-base.  However,  the  overturning  safety  factor  is  only  1.54.  For  the 
-1/2  PMF  condition  the  vertical  resultant  of  all  forces  falls  7.75  feet 
-outside  of  the  middle  third  of  the  base  and  the  overturning  safety 
-factor  is  1.19.  Under  this  condition  the  dam  does  not  meet  the 
-stability  criteria  established  in  Reference  1,  Appendix  VI.  Contract 
-drawings  show  the  dam  base  embedded  in  rock  to  such  a  degree  that 
-sliding  is  not  a  problem. 
+0> O
 
+—
 
-6-1 
+o
 
+*w
 
-Since  the  stability  check  was  made  at  the  most  critical  station, 
-the  actual  stability  of  the  dam  is  not  as  marginal  as  indicated.  The 
-ground  in  front  of  the  dam,  sloping  steeply  from  the  spillway,  adds  to 
-the  dam's  stability. 
+AJ
 
-The  construction  of  the  dam  is  a  subject  that  warrants  further 
-study.  The  additions  made  to  the  dam  constitute  potential 
-weaknesses.  Available  drawings  indicate  the  presence  of  dowels 
-linking  the  additions  together.  The  adequacy  of  the  dowels  to  hold 
-the  dam  together  in  the  event  of  a  flood  of  the  m-gnitude  of  the  1/2 
-PMF  should  be  investigated. 
+c
 
+Li
 
-6-2 
+•o
 
+c
 
-GRAVITY  DAM  DESIGN 
-STABILITY  ANALYSIS 
+X
 
+5 E
 
-55.5 
+a
 
+Li
 
-SECTION  7 
+•ri
 
+O
 
-ASSESSMENT/REMEDIAL  MEASURES 
+O 03
 
+c
 
-7.1  Dam  Assessment:  The  available  engineering  data  is  inadequate 
-for  a  full  evaluation  of  the  entire  structure.  The  visual  inspection 
-revealed  no  findings  that  proved  the  dam  to  be  unsound.  There  is  a 
-regular  maintenance  operations  program.  However,  there  is  no 
-emergency  operation  and  warning  plan.  Overall,  the  dam  is  in  good 
-condition  and  there  is  no  immediate  need  for  remedial  measures.  Corps 
-guidelines  indicate  the  appropriate  Spillway  Design  Flood  (SDF)  for  an 
-intermediate  size  and  significant  hazard  dam,  in  this  case,  is  the  1/2 
-PMF.  The  spillway  will  pass  23  percent  of  the  PMF  without  overtopping 
-the  dam.  The  SDF  will  overtop  the  dam  by  a  maximum  of  3.92  feet  with 
-a  critical  velocity  of  9.3  feet  per  second  and  remain  above  the  top  of 
-the  dam  about  9.5  hours.  Pedlar  River  Dam  should  not  fail  under  these 
-conditions.  The  spillway  is  adjudged  inadequate,  but  not  seriously 
-inadequate. 
+c
 
-7.2  Recommended  Remedial  Measures:  It  is  recommended  that  the 
-regular  maintenance  operation  program  be  documented  for  future 
-reference.  A  formal  emergency  procedure  should  be  prepared  and 
-furnished  to  all  operating  personnel.  This  should  include  how  to 
-operate  the  dam  during  an  emergency  and  who  to  notify  including  public 
-officials,  in  case  evacuation  from  the  downstream  area  is  necessary. 
-Also,  the  inspection  revealed  the  following  maintenance  items  that 
-should  be  scheduled  by  the  owner  during  a  regular  maintenance  period 
-within  the  next  12  months: 
+tc
 
-a.  The  drain  discharges  should  be  monitored  to  note  any  change  in 
-flow  or  quality  of  discharge. 
+»— •
 
-b.  The  cracks  in  the  parapet  should  be  filled  to  eliminate  any 
-further  deterioration. 
+£\
 
-c.  The  cracked  walls  in  the  gate  house  should  be  investigated  to 
-determine  the  cause. 
+o
 
+U
 
-.nil  mil 
+O
 
+•*-i
 
-iiiifSfiiWissisisaiii, 
+o
 
+AJ
 
-EAFAMSIOM  JXUI 
-LtLJL/ — 
+o
 
-.  /if  '!  ' 
+<y m
 
+0.
 
-Avrv:^.  r^--  -^,j. ,  jV.Tf^^^^-l|1-fl^llMIIIII|!!!!il!!li!l|i^illi»1^ii!llMllli^i^^  i ^  ..  .  *  '*  ^  **~..  ^  *-■ 
+^ co a:
 
+^ c 05
 
-APPENDIX  II 
-PHOTOGRAPHS 
+03 “
 
+•H
 
-PHOTO *1  WALKWAY 
+>
 
+X
 
-PHOTO*2  WALKWAY  a  OVERFLOW  SECTION 
+H
 
+u
 
-c 
+CO
 
-c 
+c -
 
+X *3 -
 
-X 
+E *-* x
 
+U 51 •"*
 
-o 
+n 3 >
 
+« O <8
 
-AJ 
+s c
 
-C\*  • 
+I
 
-Uj 
+I
 
-•  o 
-o  — 
+M
 
-CO 
+AJ
 
-<r  o> 
+<y
 
-• 
+• •
 
-r- 
+•
 
-<** 
+CO
 
-m 
+•
 
-o 
+C OS
 
-to 
+CZ
 
-o 
+X
 
-r~ 
+AJ
 
-u* 
+-C
 
-AJ  O 
+U-l
 
-o 
+CO
 
-X  -3 
+rv
 
-lA 
+•
 
-•• 
+P2
 
--2 
+c>
 
-lA 
+O
 
-f— 
+•*
 
-6 
+C*4
 
-•**j 
+&
 
-•• 
+X
 
-•• 
+O
 
-AJ 
+CO
 
-U2 
+to
 
-(1) 
+AJ
 
-o 
+«— •
 
-a 
+tsj
 
-u 
+CO
 
-a> 
+r-
 
-o> 
+X
 
-AJ 
+O
 
-3 
+o -
 
-CL 
+CD
 
-> 
+•w*
 
-X 
+1~
 
-AJ 
+u
 
-x 
+& <y
 
-•w 
+O
 
-o 
+c
 
-C 
+0)
 
-X 
+• •
 
-c 
+fc3
 
-AJ 
+CO AJ
 
-> 
+3:
 
-■  *^ 
+E
 
-U 
+_r~
 
-M 
+c
 
-23 
+- O
 
-*o 
+•<-«'
 
-o 
+CO
 
-AJ 
+-1
 
-AJ 
+E
 
-Li 
+o
 
-CL 
+x O
 
-U- 
+r»
 
-c 
+<
 
-X 
+•H
 
-c 
+to
 
-E 
+c *5
 
-O 
+•»
 
-CJ 
+AJ
 
-AJ 
+c ~
 
-o 
+03 »-*
 
-oj 
+t3
 
-x 
+-<h to
 
-c 
+E 0)
 
-o 
+a
 
-H 
+c
 
-03 
+a
 
-cy 
+E 3
 
-a 
+X °3
 
-E 
+*3
 
-Li  l< 
+o
 
-X 
+>s
 
-•i-< 
+a.
 
-CL  03 
+B «
 
-a 
+X X
 
-o 
+X
 
-H 
+AJ
 
-03  jc 
+o
 
-u 
+CO
 
-o 
+3 -C
 
-U  03 
+3 3
 
-Cl 
+•f*
 
-o 
+c
 
-AJ 
+c
 
-AJ 
+CO
 
-0) 
+c
 
-«-3 
+O CO
 
-c 8 
+CD Z
 
-x  <y 
+o
 
--  u 
+M
 
-Li 
+c
 
-33 
+♦ •
 
-Ja 
+•
 
-Li  03 
+o
 
-X 
+UJ
 
-Li 
+O rc
 
-X 
+CD
 
->, 
+S
 
-a 
+c
 
-0>  O 
+Li
 
-— 
+p ■ •
 
-o 
+<1)
 
-*w 
+C3
 
-AJ 
+E
 
-c 
+••
 
-Li 
+>
 
-•o 
+•H
 
-c 
+•rJ
 
-3 
+• •
 
-X 
+H
 
-5  E 
+c;
 
-a 
+C-
 
-Li 
+c
 
-•ri 
+C
 
-O 
+AJ
 
-O  03 
+c
 
-c 
+Li
 
-c 
+o
 
-tc 
+K
 
-»— • 
+X
 
-£\ 
+AJ
 
-5 
+X
 
-o 
+O
 
-U 
+»*
 
-O 
+o
 
-•*-i 
+C
 
-o 
+Li
 
-03 
+U
 
-AJ 
+-3
 
-o 
+0)
 
-<y  m 
+o
 
-0. 
+U3
 
-^  co  a: 
+ts2
 
-^  c  05 
+J
 
-03  “ 
+CL
 
+*H
 
-•H 
+Cu
 
-> 
+O ~
 
+O
 
-X 
+CL
 
-H 
+X
 
+AJ
 
-u 
+U C
 
-03 
+O
 
+C
 
-CO 
+C
 
+o
 
-c  - 
+••
 
-X  *3  - 
+M
 
-E  *-*  x 
+>
 
-U  51  •"* 
+o
 
-n  3  > 
+X
 
-«  O  <8 
+•-
 
-s  c 
+E
 
+0)
 
-I 
+■•J
 
+X c
 
-I 
+c
 
+0)
 
-03 
+r- 1
 
-03 
+AJ
 
-M 
+M
 
-AJ 
+X
 
-<y 
+Q
 
-•  • 
+X
 
-• 
+w
 
-CO 
+u
 
-• 
+N JO
 
-C  OS 
+Li
 
-CZ 
+vx
 
-X 
+0)
 
-AJ 
+0) o
 
--C 
+X
 
-U-l 
+a)
 
-CO 
+f 4
 
-rv 
+CL
 
-• 
+CL Cd
 
-P2 
+£—4
 
-c> 
+E
 
-O 
+AJ
 
-•* 
+O
 
-C*4 
+X
 
-& 
+C3
 
-X 
+O
 
-O 
+C
 
-CO 
+• •
 
-to 
+•
 
-AJ 
+Z
 
-«— • 
+Q
 
-tsj 
+a.
 
-CO 
+»-<
 
-r- 
+CD *”)
 
-X 
+CO
 
-O 
+J2
 
-o  - 
+o
 
-CD 
+pPflwwwBKwW
 
-•w* 
+VISUAL EXAMINATION OF OBSERVATIONS REMARKS OR RECOMMENDATION
 
-1~ 
+T>
 
-u 
+. a)
 
-&  <y 
+td > o)
 
-O 
+0) O .3
 
-c 
+*o xi 0 xi
 
-0) 
+oi td oi
 
-•  • 
+XI Xi Xi
 
-fc3 
+td T3 0)
 
-CO  AJ 
+O 0) 0) >
 
-3: 
+O XI x O
 
-E 
+pH O
 
-_r~ 
+0) TJ to
 
-c 
+CO XI pH 03
 
--  O 
+•3 O 3 to
 
-•<-«' 
+Xi O «
 
-CO 
+0) a X td
 
--1 
+a) to a.
 
-E 
+Xi 0)
 
-o 
+XI X 03 to •
 
-x  O 
+XI 03 *pl
 
-r» 
+01 Xi td
 
-6 
+60 3 xi 03 3
 
-< 
+•
 
-•H 
+3 "3 Xi pH
 
-to 
+•
 
-c  *5 
+•
 
-•» 
+td X to O pH
 
-AJ 
+s
 
-c  ~ 
+pH XI "3 <XI -3
 
-03  »-* 
+o
 
-3 
+•H £ 0) a
 
-t3 
+O
 
--<h  to 
+O
 
-E  0) 
+Z
 
-a 
+< 3H£ B
 
-c 
+z
 
-a 
+z
 
-E  3 
+•r<
 
-X  °3 
+CO
 
-*3 
+a)
 
-o 
+3 to
 
->s 
+<n
 
-a. 
+u
 
-B  « 
+O X
 
-X  X 
+3 0)
 
-X 
+•H
 
-AJ 
+H
 
-o 
+pi x
 
-CO 
+> &
 
-3  -C 
+3 HH 60
 
-3  3 
+>H 3
 
-•f* 
+0) XI
 
-c 
+o
 
-c 
+•3 3
 
-CO 
+td H 0)
 
-c 
+a
 
-O  CO 
+Cd M
 
-CD  Z 
+O 'pi
 
-o 
+3 xi
 
-3 
+a u
 
-M 
+M-4
 
-c 
+to XI r— |
 
-♦  • 
+pH 03
 
-• 
+m o)
 
-o 
+X pH
 
-03 
+pH . 3
 
-UJ 
+!>
 
-O  rc 
+td 03 'iH
 
-CD 
+•3 CO*
 
-S 
+XI O
 
-c 
+•H
 
-Li 
+03 E XI
 
-p  ■  • 
+3. O 3 03
 
-<1) 
+TJ M
 
-C3 
+(X 03 to
 
-E 
+to -3 O o
 
-•• 
+0) S
 
-> 
+0) JD
 
-•H 
+Q. 03
 
-•rJ 
+x O 3
 
-•  • 
+3 O
 
-H 
+-U d)
 
-c; 
+td 03 03
 
-C- 
+03 .3 cd
 
-c 
+o pH
 
-C 
+c
 
-AJ 
+X
 
-c 
+X *0 03 3
 
-Li 
+lw
 
-03 
+D
 
-o 
+pH 3 XI
 
-K 
+xi 3 X to
 
-X 
+3 •
 
-AJ 
+O -u
 
-X 
+03 O
 
-O 
+O XI -3
 
-»* 
+•h o) -a
 
-o 
+M C
 
-C 
+3 pH to
 
-Li 
+60 O to
 
-U 
+0) x o)
 
--3 
+M o
 
-0) 
+3 «h 03
 
-o 
+3 P 03
 
-03 
+3 H X
 
-U3 
+3 >
 
-ts2 
+td x
 
-J 
+• 3 XI JJ 3
 
-CL 
+u
 
-*H 
+CO V
 
-Cu 
+X 03 O
 
-O  ~ 
+o) c o
 
-O 
+TJ 3
 
-CL 
+V*
 
-X 
+CJ J3 td
 
-AJ 
+to 03 pH 03
 
-U  C 
+0) « XI
 
-O 
+CO (X
 
-C 
+H 0)
 
-03 
+O pH tIH *3
 
-C 
+(X 3 to
 
-o 
+•H •
 
-•• 
+03 Xi •
 
-M 
+3 pH 4J
 
-> 
+« O'H
 
-o 
+o i*
 
-X 
+60 B
 
-•- 
+o Q3 x xi
 
-E 
+x *3 *o
 
-0) 
+H « (0
 
-■•J 
+3 • xi td
 
-X  c 
+O 60-3
 
-c 
+03 XI c
 
-0) 
+d) 5
 
-r- 1 
+td 3 'pi -O
 
-AJ 
+03 X -3 pH
 
-M 
+•3 3
 
-X 
+Cron
 
-Q 
+X o
 
-X 
+60 0) Xi
 
-w 
+o) *a
 
-u 
+C ^ r-t
 
-N  JO 
+u .pi pH 03
 
-Li 
+•a 3
 
-vx 
+03 3 to
 
-0) 
+td
 
-0)  o 
+.03 XJ .,H X
 
-X 
+•3 C 03 0)
 
-a) 
+60 O 3
 
-03 
+^ B a
 
-f 4 
+•H H XI XI
 
-CL 
+3 -3 B UH
 
-CL  Cd 
+O O td
 
-£—4 
+O Q) (0
 
-E 
+’d’d c
 
-AJ 
+X 03 txi
 
-O 
+4J
 
-X 
+3 D ih
 
-03 
+03 3 O
 
-C3 
+01 XI cx
 
-O 
+^ 4j a)
 
-C 
+0) O o
 
-•  • 
+03 X xi
 
-• 
+xi c a.
 
-Z 
+O « ,C
 
-Q 
+xl o TJ
 
-a. 
+XI XT)
 
-»-< 
+0) o) cd
 
-CD  *”) 
+cd -u
 
-CO 
+03 03 03
 
-J2 
+0) O 0) pH
 
-o 
+Xt pH
 
+O 4J
 
-pPflwwwBKwW 
+3 xi JO O
 
+3 XI 3
 
-VISUAL  EXAMINATION  OF  OBSERVATIONS  REMARKS  OR  RECOMMENDATION 
+O |“< >,
 
+m cd w)
 
-T> 
+0 3 3 3
 
-.  a) 
+O >3 0
 
-td  >  o) 
+3 0) td
 
-0)  O  .3 
+C
 
-*o  xi  0  xi 
+3 0) 3
 
-oi  td  oi 
+3 01 O £
 
-XI  Xi  Xi 
+a -u ‘H
 
-td  T3  0) 
+O pH XI 03
 
-O  0)  0)  > 
+0 3 to
 
-O  XI  x  O 
+O X pH
 
-pH  O 
+cd .c
 
-0)  TJ  to 
+O pH 03 X
 
-CO  XI  pH  03 
+O cd to
 
-•3  O  3  to 
+0) pH
 
-Xi  O  « 
+g o
 
-0)  a  X  td 
+03 -3 xi
 
-a)  to  a. 
+41 4)£
 
-Xi  0) 
+0) -pi
 
-XI  X  03  to  • 
+Q) O CO
 
-XI  03  *pl 
+41 U V
 
-01  Xi  td 
+03 a S to
 
-60  3  xi  03  3 
+x 3 a
 
-• 
+£ O D
 
-3  "3  Xi  pH 
+J5 X 3 xi
 
-• 
+X ex .3 pH
 
-• 
+H 'pi to
 
-01 
+H pQ M
 
-td  X  to  O  pH 
+Eh 03 3 td
 
-03 
+Eh 3 3 CO
 
-01 
+W
 
-s 
+fu
 
-pH  XI  "3  <XI  -3 
+CO
 
-3 
+w
 
-3 
+oej
 
-o 
+O
 
-•H  £  0)  a 
+z
 
-O 
+s
 
-O 
+w
 
-Z 
+H
 
-<  3H£  B 
+z
 
-z 
+M
 
-z 
+Eh
 
-3 
+tc
 
-•r< 
+p3
 
-CO 
+tj
 
-a) 
+p*
 
-3  to 
+o
 
-<n 
+W
 
-u 
+o
 
-O  X 
+A
 
-3  0) 
+w
 
-•H 
+w
 
-H 
+sc
 
-pi  x 
+o
 
->  & 
+<5
 
-3  HH  60 
+►J
 
->H  3 
+u
 
-0)  XI 
+o
 
-o 
+<J
 
-•3  3 
+w
 
-td  H  0) 
+Pd
 
-a 
+Q
 
-Cd  M 
+Pm
 
-O  'pi 
+o
 
-3  xi 
+H
 
-a  u 
+C?
 
-M-4 
+£
 
-to  XI  r— | 
+Z
 
-pH  03 
+0U
 
-m  o) 
+C/D
 
-X  pH 
+M
 
-pH  .  3 
+o
 
-!> 
+cu
 
-03 
+M
 
-td  03  'iH 
+otf
 
-•3  CO* 
+u
 
-XI  O 
+c
 
-•H 
+Q
 
-03  E  XI 
+CQ
 
-3.  O  3  03 
+-o *a
+0) 0)
+XI T>
+CO 0)
+3 01 v 3 ex
 
-03 
+O 4h
 
-TJ  M 
+•3
 
-(X  03  to 
+£1 3
 
-to  -3  O  o 
+o
 
-0)  S 
+3 -3 to XI
 
-0)  JD 
+o ta
 
-Q.  03 
+0) 0)
 
-x  O  3 
+a)
+XI XI
 
-3  O 
+O XI
 
--U  d) 
+3 3
 
-td  03  03 
+1 S!
+00 ~
+<t o
 
-03  .3  cd 
+w
 
-o  pH 
+GATES AND OPERATION A gate house is located on top of the dam to The gate house walls have
 
-c 
+EQUIPMENT the left ot the spillway. The 30-inch water extensive settlement cracks
 
-X 
+supply valve and the 48-inch blow off valve can be controlled inside the gate house.
 
-X  *0  03  3 
+<D E c/j
+J= 5 o; o
 
-lw 
+r— <
 
-D 
+|U-J 4J U-J
 
-pH  3  XI 
+1 O w
+C r*4
+|T3 3 TO
+, C O E
+!<DTJ U
 
-xi  3  X  to 
+o
 
-3  • 
+0) GO C
 
-O  -u 
+c
 
-03  O 
+I aj *H GO
 
-O  XI  -3 
+0)
 
-•h  o)  -a 
+CO
 
-M  C 
+■U
 
-3  pH  to 
+>
 
-60  O  to 
+CO
 
-0)  x  o) 
+(1)
 
-M  o 
+OO
 
-3  «h  03 
+lu
 
-3  P  03 
+cu
 
-3  H  X 
+r— <
 
-3  > 
+O
 
-td  x 
+o
 
-•  3  XI  JJ  3 
+u
 
-u 
+x:
 
-CO  V 
+0)
 
-X  03  O 
+Q) |
 
-o)  c  o 
+<r
 
-TJ  3 
+x:
 
-V* 
+X5
 
-CJ  J3  td 
+■U
 
-to  03  pH  03 
+XT
 
-0)  «  XI 
+>%
 
-CO  (X 
+0)
 
-H  0) 
+00 4J
 
-O  pH  tIH  *3 
+CO
 
-(X  3  to 
+U
 
-•H  • 
+• r-<
 
-03  Xi  • 
+T3
 
-3  pH  4J 
+O
 
-«  O'H 
+c
 
-o  i* 
+u
 
-60  B 
+4-1
 
-o  Q3  x  xi 
+•r-C
 
-x  *3  *o 
+S
 
-H  «  (0 
+O
 
-3  •  xi  td 
+O
 
-O  60-3 
+T3
 
-03  XI  c 
+O
 
-d)  5 
+f— (
 
-td  3  'pi  -O 
+X>
 
-03  X  -3  pH 
+<u
 
-•3  3 
+u
 
-Cron 
+w
 
-X  o 
+(0
 
-60  0)  Xi 
+f-4
 
-o)  *a 
+CO
 
-C  ^  r-t 
+CO
 
-u  .pi  pH  03 
+x:
 
-•a  3 
+Cl)
 
-03  3  to 
+jC
 
-td 
+<y
 
-.03  XJ  .,H  X 
+Q>
 
-•3  C  03  0) 
+s
 
-60  O  3 
+U
 
-^  B  a 
+■U
 
-•H  H  XI  XI 
+p
 
-3  -3  B  UH 
+-Q
 
-O  O  td 
+X5
 
-O  Q)  (0 
+CL
 
-’d’d  c 
+0)
 
-X  03  txi 
+CD
 
-01 
+c
 
-4J 
+<y
 
-3  D  ih 
+0)
 
-03  3  O 
+>>
 
-01  XI  cx 
+(0
 
-^  4j  a) 
+XT
 
-0)  O  o 
+4J
 
-03  X  xi 
+u
 
-xi  c  a. 
+TJ
 
-O  «  ,C 
+x>
 
-xl  o  TJ 
+4J
 
-XI  XT) 
+4J
 
-0)  o)  cd 
+CO
 
-cd  -u 
+CO
 
-03  03  03 
+0>
 
-0)  O  0)  pH 
+u
 
-Xt  pH 
+£
 
-O  4J 
+*u
 
-3  xi  JO  O 
+u
 
-3  XI  3 
+c
 
-O  |“<  >, 
+o
 
-m  cd  w) 
+CO
 
-0  3  3  3 
+0)
 
-O  >3  0 
+O
 
-3  0)  td 
+<y
 
-C 
+o
 
-3  0)  3 
+f- ^
 
-3  01  O  £ 
+TJ
 
-003 
+c
 
-a  -u  ‘H 
+c
 
-O  pH  XI  03 
+c
 
-0  3  to 
+U-4
 
-O  X  pH 
+• H
 
-cd  .c 
+TJ
 
-O  pH  03  X 
+CO
 
-O  cd  to 
+0)
 
-0)  pH 
+• r4
 
-g  o 
+•
 
-03  -3  xi 
+CO
 
-41  4)£ 
+o
 
-0)  -pi 
+<0
 
-Q)  O  CO 
+• rJ
 
-41  U  V 
+x:
 
-03  a  S  to 
+T3
 
-x  3  a 
+J=
 
-£  O  D 
+<v
 
-J5  X  3  xi 
+4-)
 
-X  ex  .3  pH 
+4J
 
-H  'pi  to 
+u
 
-H  pQ  M 
+CO
 
-Eh  03  3  td 
+4J
 
-Eh  3  3  CO 
+u
 
-W 
+<y
 
-fu 
+CO
 
-CO 
+<y
 
-55 
+•H
 
-w 
+• H
 
-oej 
+o
 
-O 
+x:
 
-z 
+u
 
-s 
+<D
 
-w 
+U-j
 
-H 
+U-:
 
-z 
+u
 
-M 
+o
 
-Eh 
+x:
 
-tc 
+o
 
-p3 
+U-l
 
-tj 
+0) *D
 
-p* 
+<y a)
 
-o 
+OC ^
 
-W 
+CO v-
 
-o 
+4-) CO
 
-A 
+w E
 
-w 
+U W <1)
 
-w 
+<u c w
+4-» o D
+CO «H O
 
-2 
+3 -U X.
 
-sc 
+a.
 
-o 
+u o
 
-<5 
+ei
 
-►J 
+&
 
-u 
+>.■* ^ «
 
-o 
+> 5 ^ x:
 
-<J 
+q C AJ
+«M3 O
+£ a) •q aj C ii « > 3
 
-w 
+AJ U AJ O
+.rJ O q 1j
+3 i — I q 03
+V4
 
-Pd 
+a » o u
+# 'rl h d
+0) « aj a) h 3j
 
-Q 
+m q <3 q
+PCD.
 
-Pm 
+O al o o.
+aj *H q a> aj
 
-o 
+•q 60 os 03
+H OIZ'H
 
-H 
+«i-i c
 
-3 
+6 -rt C C woo q »A AJ .H
 
-C? 
+Va *q 60 03
 
-£ 
+q CO
 
-Z 
+# Tl L
 
-0U 
+m jC x: q q E-< 03 a q q o S a.
 
-C/D 
+»-H • O
 
-M 
+a Vi q r-i •
 
-o 
+q 60 q M
 
-cu 
+q > Vj *h
 
-M 
+q O O «-< O v. o q q > q U B M q *h q q q q C 03 jz u & •'-, q p u t> g c
 
-otf 
+•
 
-u 
+q
 
-c 
+c
 
-Q 
+o
 
-CQ 
+z
 
--o  *a 
-0)  0) 
-XI  T> 
-CO  0) 
-3  01 
-v  3 
-ex 
+e cm
 
-O  4h 
+q
 
-•3 
+i *j S aj q as i-i O •q q xi ffi q q
+X-
 
-01 
+• TO AJ
 
-£1  3 
+n •*
 
-o 
+M-l
 
-3  -3 
-to  XI 
+>, q o x> M q 6
+-o x3 q q aj q
 
-o  ta 
+AJ (A
 
-0)  0) 
+L Al AJ
 
+o q q ax: a q aj c n
 
-a) 
-XI  XI 
+•> -a
 
-O  XI 
+m q q
 
-3 
+q > aj
 
-3  3 
+3 -h q aj u aj q O
 
-1  S! 
-00  ~ 
-<t  o 
+co U
 
+•H flj
 
-w 
+<U
 
+Q) O.
+CO 01 O.
+»J CO
 
-GATES  AND  OPERATION  A  gate  house  is  located  on  top  of  the  dam  to  The  gate  house  walls  have 
+x
 
-EQUIPMENT  the  left  ot  the  spillway.  The  30-inch  water  extensive  settlement  cracks 
+CO
 
-supply  valve  and  the  48-inch  blow  off  valve 
-can  be  controlled  inside  the  gate  house. 
+•H
 
+0)
 
-<D  E  c/j 
-J=  5 
-o;  o 
+oo
 
-r— < 
+•
 
-|U-J  4J  U-J 
+O
 
-1  O  w 
-C  r*4 
-|T3  3  TO 
-,  C  O  E 
-!<DTJ  U 
+X
 
-o 
+CD
 
-0)  GO  C 
+T3
 
-c 
+O
 
-I  aj  *H  GO 
+o
 
+-U
 
-1 
+o
 
-0) 
+x
 
-CO 
+u
 
-■U 
+a)
 
-> 
+f— 4
 
-CO 
+T— 4
 
-(1) 
+u
 
-OO 
+H
 
-lu 
+X
 
-cu 
+*3
 
-r— < 
+0)
 
-O 
+CD
 
-o 
+x
 
-u 
+Q)
 
-x: 
+•
 
-0) 
+O
 
-Q)  | 
+>
 
-<r 
+x
 
-x: 
+■U
 
-X5 
+u
 
-■U 
+Q
 
-XT 
+CO
 
->% 
+O
 
-00 
+•
 
-0) 
+c
 
-00  4J 
+•
 
-CO 
+<u
 
-U 
+>
 
-•  r-< 
+0)
 
-T3 
+*3
 
-O 
+•H
 
-c 
+<n
 
-3 
+CD
 
-u 
+u
 
-4-1 
+s
 
-•r-C 
+u
 
-S 
+0)
 
-O 
+*H 4
 
-O 
+0)
 
-T3 
+•
 
-O 
+CO
 
-f— ( 
+T3
 
-X> 
+i— 4
 
-<u 
+4J
 
-u 
+CO
 
-w 
+a)
 
-(0 
+»— *
 
-f-4 
+x
 
-CO 
+C
 
-CO 
+4^
 
-x: 
+1-4
 
-Cl) 
+CO
 
-jC 
+s
 
-<y 
+>
 
-Q> 
+•H
 
-s 
+4J
 
-U 
+CO
 
-■U 
+•H
 
-p 
+o
 
--Q 
+o
 
-X5 
+cd
 
-CL 
+B
 
-0) 
+>
 
-CD 
+•r<
 
-c 
+>
 
-<y 
+CO
 
-0) 
+o
 
->> 
+»— 4
 
-(0 
+o
 
-XT 
+x
 
-4J 
+a
 
-0 
+o
 
-u 
+4-1
 
-TJ 
+r-4
 
-x> 
+4-£
 
-4J 
+•U
 
-4J 
+r— <
 
-CO 
+u
 
-CO 
+4J
 
-0> 
+a>
 
-u 
+H
 
-£ 
+CO
 
-5 
+0)
 
-*u 
+CO
 
-u 
+B
 
-c 
+CO
 
-o 
+u
 
-CO 
+i— 4
 
-0) 
+u
 
-O 
+c
 
-<y 
+4J
 
-o 
+co
 
-0 
+0)
 
-f- ^ 
+o
 
-TJ 
+0)
 
-60 
+(1)
 
-c 
+<y
 
-c 
+-•-4
 
-c 
+(0
 
-U-4 
+T3
 
-•  H 
+*3
 
-0 
+s
 
-TJ 
+>
 
-CO 
+c
 
-0) 
+>
 
-•  r4 
+<0
 
-• 
+1—4
 
-CO 
+o
 
-o 
+•H
 
-<0 
+c
 
-•  rJ 
+Q>
 
-x: 
+u
 
-T3 
+(D
 
-J= 
+CO
 
-<v 
+X
 
-4-) 
+Of!
 
-4J 
+CO
 
-u 
+CO
 
-CO 
+4J
 
-4J 
+B
 
-u 
+M
 
-3 
+O
 
-<y 
+X
 
-CO 
+a>
 
-<y 
+CO
 
-•H 
+H
 
-•  H 
+U
 
-o 
+o
 
-x: 
+u
 
-u 
+>>
 
-<D 
+H
 
-U-j 
+C
 
-5 
+CO
 
-U-: 
+o
 
-u 
+>
 
-o 
+£3
 
-x: 
+CO
 
-o 
+•H
 
-U-l 
+u
 
-0)  *D 
+r— 4
 
-<y  a) 
+B
 
-OC  ^ 
+IM
 
-CO  v- 
+CO
 
-4-)  CO 
+O
 
-w  E 
+0)
 
-U  W  <1) 
+0)
 
-<u  c  w 
-4-»  o  D 
-CO  «H  O 
+Va
 
-3  -U  X. 
+QJ
 
+*3
 
-a. 
+cO
 
+<V
 
-u  o 
+a
 
+a>
 
-ei 
+>
 
+a>
 
-& 
+<D
 
+0)
 
->.■*  ^  « 
+x
 
->  5  ^  x: 
+a
 
-q  C  AJ 
-«M3  O 
-£  a)  •q 
-aj  C 
-ii  «  >  3 
+o
 
-AJ  U  AJ  O 
-.rJ  O  q  1j 
-3  i — I  q  03 
-V4 
+Va
 
-a  »  o  u 
-#  'rl  h  d 
-0)  « 
-aj  a)  h  3j 
+*3
 
-m  q  <3  q 
-PCD. 
+0)
 
-O  al  o  o. 
-aj  *H  q 
-a>  aj 
+C4
 
-•q  60  os  03 
-H  OIZ'H 
+t— 4
 
-«i-i  c 
+■U
 
-6  -rt  C  C 
-woo 
-q  »A  AJ  .H 
+U U JS o
 
-Va  *q  60  03 
+m O xj C
 
-q  CO 
+C M-M
 
-#  Tl  L 
+5 5 cu
 
-m  jC  x:  q 
-q  E-<  03 
-a  q  q 
-o  S  a. 
+OS CD
+O O T) o
+Vj 4) Pu
+# M c
 
-»-H  •  O 
+x: « -m o
 
-a  Vi  q  r-i  • 
+H C r-l M
 
-q  60  q  M 
+01 U
 
-q  >  Vj  *h 
+>M 0)
+CO O *-»
+0) CO
 
-q  O  O  «-<  O 
-v.  o  q  q  > 
-q  U  B  M 
-q  *h  q 
-q  q  q  C  03 
-jz  u  &  •'-,  q 
-p  u  t>  g  c 
+M JC s
 
+CO xj
 
-• 
+S •a
 
-q 
+4) O C
+£ >c O
 
-c 
+H u a
 
-o 
+4) •
 
-z 
+41 Ih V<
+U O <U
+4) CM >
+£ JIM
+H £3 Pi
 
+Pi M
+ZHg
+O "? «
+M 03 W
+HOD
 
-e  cm 
+|i§
 
-q 
+SO)H
 
-i  *j  S 
-aj  q  as 
-i-i  O  •q 
-q  xi 
-ffi  q  q 
-X- 
+M Id H
 
-•  TO  AJ 
+gsi
+03 S p
 
-n  •* 
+Oi S
 
-M-l 
+b b o
+< O O,
 
->,  q  o 
-x>  M 
-q  6 
--o  x3  q 
-q  aj  q 
+PEDLAR DAM OPERATING PLAN
 
-AJ  (A 
+The City of Lynchburg's Utilities Division will employ 9 full-time dam caretaker. The dam caretaker will reside at the dam site. His residence will have a telephone and radio facilities in which to communicate with the water plant operators in Lynchburg.
 
-L  Al  AJ 
+The dam caretaker is responsible for the daily operation of the dam.
 
-o  q  q 
-ax:  a 
-q  aj  c 
-n 
+The caretaker will operate the dam in accordance with Sate and Federal guidelines.
 
-•>  -a 
+He is to be totally familiar with the manufacturers recommendations as to the operation of all mechanical equipment and is to operate such equipment accordingly.
 
-m  q  q 
+The dam caretaker manually controls the flow of raw water to Lynchburg in accordance with the needs of the City.
 
-q  >  aj 
+The dam caretaker is to inspect the dam and adjoining structures in accordance with the maintenance plan.
 
-3  -h  q 
-aj  u 
-aj  q  O 
+The caretaker will be provided with a supply of small tools and other maintenance and emergency equipment to effect routine or temporary emergency repairs to dam equipment. A small gas powered generator will be maintained at the dam as an emergency source of electrical power for the radio and
 
+other essential pieces of equipment.
 
-01 
+■i
 
-co  U 
+fi!
 
-•H  flj 
+APPENDIX V
 
-<U 
+PEDLAR DAM MAINTENANCE PLAN
 
-Q)  O. 
-CO  01  O. 
-»J  CO 
+f;
 
+1'- :
 
-x 
+T>,
 
-CO 
+I
 
-•H 
+fi
 
-0) 
+i
 
-oo 
+— -3H
 
-05 
+4 ^
 
-• 
+Every five (5) years the City will hire a qualified engineer to inspect
 
-O 
+i
 
-55 
+the integrity of the dam and supporting structures. This inspection will be more thorough and detailed than those made by the operating staff and will include portions of the structures not ordinarily accessible, such as penstocks, conduits, etc. These inspections will be scheduled during periods of low water to check the condition of structures normally submerged and during a period of maximum overflow to check structural behavior under full load.
 
-X 
+•r-EDLAR DAM MAINTENANCE PLAN
 
-3 
+Daily inspection will be made by the dam caretaker, a qualified maintenance mechanic, or a qualified water plant operator of all portions of the dam and stilling dam and bridge that are readily accessible and all other portior a of the dam where there is reason to believe that damage may have occurred.
 
-CD 
+The inspector will be looking for the following items:
 
-T3 
+(1) Abnormal settlements, heaving, defections, or lateral movement of concrete structures.
 
-O 
+(2) Cracking or spalling of concrete and opening of contraction joints.
 
-o 
+(3) Deterioration, erosion, or cavitation of concrete.
 
--U 
+(4) Abnormal leakage through foundation or formed drains or through concrete surfaces, construction joints, or contraction joints.
 
-o 
+(5) Possible undermining of the downstream toe or other foundation damage.
 
-x 
+(6) Unusual, abnormal, or inadequate operational behavior of the structure or any of its equipment.
 
-u 
+(7) Abnormal subsidence of backfill or embankment areas.
 
-a) 
+(8) River aggradation or degradation and possible effect on the hydraulic operation of the dam or stilling basin.
 
-f— 4 
+Annual inspections by a qualified maintenance mechanic of all the dam's operating machinery and safety equipment shall be made. Lubrication and service schedules will be based on the recommendations of the manufacturer’s instructions. All gates and valves will be exercised at least once annually.
 
-T— 4 
+Trash racks will be cleaned of deris as reqiured.
 
-u 
+Metalwork and woodwork will be pair ed as required to prevent decay of
 
-H 
+the structures.
 
-X 
+APPENDIX VI
 
-*3 
+REFERENCES
 
-0) 
+1. Recommended Guidelines for Safety Inspection of Dams, Office of the Chief of Engineers, Department cf the Army, Washington, D. C.
 
-CD 
+2. HEC-1DB Flood Hydrograph Package, (Hydrologic Engineering Center,
+U. S. Army Corps of Engineers, September 1978.)
 
-0 
+3. "Probable Maximum Precipitation Estimates, United States East of the 105th Meridian," Hydrometeorological Report No. 51, (U. S.
+Weather Bureau, June 1978 ).
 
-x 
-
-Q) 
-
-• 
-
-O 
-
-> 
-
-x 
-
-■U 
-
-u 
-
-Q 
-
-CO 
-
-O 
-
-• 
-
-c 
-
-• 
-
-<u 
-
-> 
-
-0) 
-
-*3 
-
-•H 
-
-<n 
-
-CD 
-
-u 
-
-s 
-
-u 
-
-0) 
-
-*H 4 
-
-0) 
-
-• 
-
-CO 
-
-T3 
-
-i— 4 
-
-3 
-
-4J 
-
-CO 
-
-a) 
-
-»— * 
-
-x 
-
-C 
-
-4^ 
-
-1-4 
-
-CO 
-
-s 
-
-> 
-
-•H 
-
-4J 
-
-05 
-
-CO 
-
-•H 
-
-o 
-
-o 
-
-cd 
-
-B 
-
-> 
-
-•r< 
-
-> 
-
-CO 
-
-o 
-
-»— 4 
-
-o 
-
-x 
-
-a 
-
-o 
-
-4-1 
-
-r-4 
-
-4-£ 
-
-•U 
-
-r— < 
-
-u 
-
-4J 
-
-a> 
-
-H 
-
-CO 
-
-00 
-
-0) 
-
-CO 
-
-B 
-
-CO 
-
-u 
-
-i— 4 
-
-u 
-
-c 
-
-4J 
-
-co 
-
-0) 
-
-o 
-
-0) 
-
-(1) 
-
-<y 
-
--•-4 
-
-(0 
-
-T3 
-
-*3 
-
-s 
-
-> 
-
-c 
-
-> 
-
-<0 
-
-1—4 
-
-o 
-
-•H 
-
-c 
-
-Q> 
-
-u 
-
-05 
-
-(D 
-
-3 
-
-CO 
-
-X 
-
-Of! 
-
-CO 
-
-CO 
-
-4J 
-
-B 
-
-M 
-
-O 
-
-X 
-
-a> 
-
-CO 
-
-5 
-
-H 
-
-U 
-
-o 
-
-u 
-
->> 
-
-H 
-
-C 
-
-CO 
-
-3 
-
-o 
-
-> 
-
-£3 
-
-CO 
-
-05 
-
-•H 
-
-u 
-
-r— 4 
-
-B 
-
-IM 
-
-CO 
-
-O 
-
-0) 
-
-0) 
-
-Va 
-
-QJ 
-
-*3 
-
-cO 
-
-<V 
-
-a 
-
-a> 
-
-3 
-
-> 
-
-a> 
-
-<D 
-
-0) 
-
-x 
-
-a 
-
-o 
-
-Va 
-
-*3 
-
-0) 
-
-C4 
-
-00 
-
-t— 4 
-
-■U 
-
-05 
-
-U  U  JS  o 
-
-m  O  xj  C 
-
-C  M-M 
-
-5  5  cu 
-
-OS  CD 
-O  O  T)  o 
-Vj  4)  Pu 
-#  M  c 
-
-x:  «  -m  o 
-
-H  C  r-l  M 
-
-
-01  U 
-
->M  0) 
-CO  O  *-» 
-0)  CO 
-
-M  JC  s 
-
-CO  xj 
-
-S  •a 
-
-4)  O  C 
-£  >c  O 
-
-H  u  a 
-
-
-4)  • 
-
-41  Ih  V< 
-U  O  <U 
-4)  CM  > 
-£  JIM 
-H  £3  Pi 
-
-
-Pi  M 
-ZHg 
-O  "?  « 
-M  03  W 
-HOD 
-
-
-|i§ 
-
-SO)H 
-
-M  Id  H 
-
-gsi 
-03  S  p 
-
-Oi  S 
-
-b  b  o 
-<  O  O, 
-
-
-PEDLAR  DAM  OPERATING  PLAN 
-
-
-The  City  of  Lynchburg's  Utilities  Division  will  employ  9  full-time 
-dam  caretaker.  The  dam  caretaker  will  reside  at  the  dam  site.  His  residence 
-will  have  a  telephone  and  radio  facilities  in  which  to  communicate  with  the 
-water  plant  operators  in  Lynchburg. 
-
-The  dam  caretaker  is  responsible  for  the  daily  operation  of  the  dam. 
-
-The  caretaker  will  operate  the  dam  in  accordance  with  Sate  and  Federal 
-guidelines. 
-
-He  is  to  be  totally  familiar  with  the  manufacturers  recommendations 
-as  to  the  operation  of  all  mechanical  equipment  and  is  to  operate  such 
-equipment  accordingly. 
-
-The  dam  caretaker  manually  controls  the  flow  of  raw  water  to  Lynchburg 
-in  accordance  with  the  needs  of  the  City. 
-
-The  dam  caretaker  is  to  inspect  the  dam  and  adjoining  structures  in 
-accordance  with  the  maintenance  plan. 
-
-The  caretaker  will  be  provided  with  a  supply  of  small  tools  and  other 
-maintenance  and  emergency  equipment  to  effect  routine  or  temporary  emergency 
-repairs  to  dam  equipment.  A  small  gas  powered  generator  will  be  maintained 
-at  the  dam  as  an  emergency  source  of  electrical  power  for  the  radio  and 
-
-
-other  essential  pieces  of  equipment. 
-
-
-■i 
-
-fi! 
-
-
-APPENDIX  V 
-
-PEDLAR  DAM  MAINTENANCE  PLAN 
-
-
-1 
-
-
-f; 
-
-1'- : 
-
-1 
-
-T>, 
-
-I 
-
-fi 
-
-i 
-
-
-—  -3H 
-
-4  ^ 
-
-
-Every  five  (5)  years  the  City  will  hire  a  qualified  engineer  to  inspect 
-
-i 
-
-the  integrity  of  the  dam  and  supporting  structures.  This  inspection  will 
-be  more  thorough  and  detailed  than  those  made  by  the  operating  staff  and  will 
-include  portions  of  the  structures  not  ordinarily  accessible,  such  as  penstocks, 
-conduits,  etc.  These  inspections  will  be  scheduled  during  periods  of  low 
-water  to  check  the  condition  of  structures  normally  submerged  and  during  a 
-period  of  maximum  overflow  to  check  structural  behavior  under  full  load. 
-
-
-•r-EDLAR  DAM  MAINTENANCE  PLAN 
-
-
-Daily  inspection  will  be  made  by  the  dam  caretaker,  a  qualified  maintenance 
-mechanic,  or  a  qualified  water  plant  operator  of  all  portions  of  the  dam  and 
-stilling  dam  and  bridge  that  are  readily  accessible  and  all  other  portior a 
-of  the  dam  where  there  is  reason  to  believe  that  damage  may  have  occurred. 
-
-The  inspector  will  be  looking  for  the  following  items: 
-
-(1)  Abnormal  settlements,  heaving,  defections,  or  lateral  movement 
-of  concrete  structures. 
-
-(2)  Cracking  or  spalling  of  concrete  and  opening  of  contraction  joints. 
-
-(3)  Deterioration,  erosion,  or  cavitation  of  concrete. 
-
-(4)  Abnormal  leakage  through  foundation  or  formed  drains  or  through 
-concrete  surfaces,  construction  joints,  or  contraction  joints. 
-
-(5)  Possible  undermining  of  the  downstream  toe  or  other  foundation 
-damage. 
-
-(6)  Unusual,  abnormal,  or  inadequate  operational  behavior  of  the  structure 
-or  any  of  its  equipment. 
-
-(7)  Abnormal  subsidence  of  backfill  or  embankment  areas. 
-
-(8)  River  aggradation  or  degradation  and  possible  effect  on  the 
-hydraulic  operation  of  the  dam  or  stilling  basin. 
-
-Annual  inspections  by  a  qualified  maintenance  mechanic  of  all  the  dam's 
-operating  machinery  and  safety  equipment  shall  be  made.  Lubrication  and 
-service  schedules  will  be  based  on  the  recommendations  of  the  manufacturer’s 
-instructions.  All  gates  and  valves  will  be  exercised  at  least  once  annually. 
-
-Trash  racks  will  be  cleaned  of  deris  as  reqiured. 
-
-Metalwork  and  woodwork  will  be  pair  ed  as  required  to  prevent  decay  of 
-
-
-the  structures. 
-
-
-APPENDIX  VI 
-
-
-REFERENCES 
-
-1.  Recommended  Guidelines  for  Safety  Inspection  of  Dams,  Office  of 
-the  Chief  of  Engineers,  Department  cf  the  Army,  Washington,  D.  C. 
-
-2.  HEC-1DB  Flood  Hydrograph  Package,  (Hydrologic  Engineering  Center, 
-U.  S.  Army  Corps  of  Engineers,  September  1978.) 
-
-3.  "Probable  Maximum  Precipitation  Estimates,  United  States  East  of 
-the  105th  Meridian,"  Hydrometeorological  Report  No.  51,  (U.  S. 
-Weather  Bureau,  June  1978 ). 
-
-4.  "Rainfall  Frequency  Atlas  of  the  Unites  States",  Technical  Paper 
-No.  40,  (U.S.  Weather  Bureau,  May  1961). 
-
-
+4. "Rainfall Frequency Atlas of the Unites States", Technical Paper
+No. 40, (U.S. Weather Bureau, May 1961).
